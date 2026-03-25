@@ -47,4 +47,5 @@ If you want the full portfolio path from the repo root, use:
 ```bash
 make test
 make demo
+make deploy
 ```

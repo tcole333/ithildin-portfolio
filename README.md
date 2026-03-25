@@ -86,11 +86,13 @@ The article is intentionally compact. Its job is to demonstrate the platform’s
 
 ## Deployment
 
-The Astro app is configured for Cloudflare Pages. After authenticating Wrangler and creating a Pages project named `ithildin-portfolio`, deploy with:
+The Astro app is configured for Cloudflare Pages. After authenticating Wrangler and creating a Pages project named `ithildin-portfolio`, deploy the portfolio fixture with:
 
 ```bash
-npm run deploy --prefix web
+make deploy
 ```
+
+If you want to run the web-only command directly, `npm run deploy --prefix web` now uses the same fixture-scoped environment as `make demo`.
 
 The included GitHub Actions workflow can also deploy automatically once the new repo is connected to GitHub and the Cloudflare secrets are configured.
 

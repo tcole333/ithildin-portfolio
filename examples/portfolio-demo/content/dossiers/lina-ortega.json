@@ -142,10 +142,17 @@
       "evidence": [
         {
           "evidence_type": "registry",
-          "evidence_ref": "REG:FL:L23000214567 REG:UK:12345678",
-          "source_quote": "The same contact domain and agent cluster appear across the Florida and UK records.",
+          "evidence_ref": "REG:FL:L23000214567",
+          "source_quote": "The Florida filing places Harbor Ledger inside the same agent cluster described elsewhere in the demo.",
           "source_page": "entity filings",
-          "assessment": "Public artifacts"
+          "assessment": "Public artifact"
+        },
+        {
+          "evidence_type": "registry",
+          "evidence_ref": "REG:UK:12345678",
+          "source_quote": "The UK filing extends that cluster to Estuary Advisory through the same contact trail.",
+          "source_page": "entity filings",
+          "assessment": "Public artifact"
         }
       ]
     }

@@ -22,8 +22,8 @@
     "fix:citation-health": "node scripts/check-citation-health.mjs --fix",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "npm run lint:citations && npm run test:citations && npm run test:citations:snapshots && npm run build && npm run test:citations:build && npx wrangler pages deploy dist/ --project-name=ithildin-portfolio --branch=main --commit-dirty=true",
-    "deploy:preview": "npm run lint:citations && npm run test:citations && npm run test:citations:snapshots && npm run build && npm run test:citations:build && npx wrangler pages deploy dist/ --project-name=ithildin-portfolio --branch=preview --commit-dirty=true"
+    "deploy": "node scripts/run-portfolio-deploy.mjs",
+    "deploy:preview": "node scripts/run-portfolio-deploy.mjs --preview"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",
