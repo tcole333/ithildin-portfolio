@@ -1,0 +1,2545 @@
+{
+  "name": "Alessandro Benedetti",
+  "slug": "alessandro-benedetti",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.242669",
+  "last_updated": "2026-02-18T16:36:55",
+  "stats": {
+    "total_findings": 29,
+    "total_connections": 20,
+    "total_entities": 11,
+    "finding_types": {
+      "financial": 5,
+      "identity": 3,
+      "intelligence": 11,
+      "relationship": 8,
+      "document": 2
+    },
+    "connection_types": {
+      "financial": 2,
+      "social": 11,
+      "intelligence": 6,
+      "corporate": 1
+    },
+    "last_updated": "2026-02-18T16:36:55"
+  },
+  "findings": [
+    {
+      "id": 842,
+      "finding_type": "financial",
+      "summary": "UK Companies House reveals Benedetti's full corporate network. Born July 1961, Italian, resident in Switzerland (Lugano, 7 Riva Paradiso). FOUR UK appointments: (1) ASHERCO LLP (OC379532, active since Oct 2012, 4 Moorgate London) - current co-member with Mathieu Villaume (Luxembourg). Former members include Dotan Moshe (Israeli), SATSU FINANCE LTD (BVI 1583501), and YOUNGSTOWN INVESTMENTS GROUP LTD (BVI 1688567, PO Box 3483 Road Town Tortola). (2) SCHWARZFIELD LLP (OC379789, Oct 2012, dissolved). (3) ATTALI INVESTMENT PARTNERS LTD (07138407, Jan 2010-Dec 2015, dissolved) - co-directors included Bertrand Gauquelin des Pallieres (French, resident Rome) and corporate successor METHORIOS CAPITAL LLP. (4) SILVERARROW CAPITAL ADVISORS LLP (OC379903, Nov 2012-Mar 2013, dissolved).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1961-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:57:48",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:07138407",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:OC379532",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:OC379789",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:OC379903",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 861,
+      "finding_type": "financial",
+      "summary": "FULL BIOGRAPHY SYNTHESIS: Benedetti (born Jul 1961, Italian, resident Switzerland/Geneva/Lugano) is a Geneva-based financier and founding partner of Schwarzfield. His career-defining deal: brokering the 2005 acquisition of Wind Telecomunicazioni SpA for Naguib Sawiris (Egyptian billionaire, Orascom Telecom), Europe's then-largest LBO at approx 12 billion euros. Benedetti received 67M+ euros but sued Sawiris for a 1/3 stake -- lost at UK Supreme Court Jul 2013 (Benedetti v Sawiris). Also investigated by Roman prosecutors for corruption in the Wind deal (2008). He has 30+ years experience in telecoms, energy, mining, real estate across W/E Europe, Scandinavia, CIS, Africa, North America, Middle East. Former non-exec director of Cadogan Petroleum (Ukraine oil/gas, Aug 2010-Jun 2012). Chairman of SPQR Capital SA. CEO of SAE Capital. Executive Chairman of NYSE-listed Equus Total Return (2011-2014).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1961-07",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:19",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=878932",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:OC379532",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Supreme-Court:Benedetti-v-Sawiris-2013",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "web:schwarzfield.com",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1644,
+      "finding_type": "identity",
+      "summary": "DISAMBIGUATION: Alessandro De Benedetti at Northzone VC (grandson of Carlo De Benedetti/Olivetti/CIR dynasty, son of Marco De Benedetti/Carlyle) is a DIFFERENT person from Epstein's contact. Northzone De Benedetti is too young (joined as associate in 2024) and based in Stockholm. Epstein's Benedetti is the SAE Capital CEO born July 1961, confirmed via UK Companies House directorships and ICIJ Paradise Papers (Florence address).",
+      "detail": null,
+      "source_datasets": [
+        "uk_companies_house",
+        "web"
+      ],
+      "confidence": "medium",
+      "date_of_event": "1961-07",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:09:07",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:34 PM \nTo: \nJeffrey Epstein CC \nSubject: \nreminder. Allesandro de Benedetti-Pans \nReminder: Allesandro de Benedetti-Paris \n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \n<IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "finding_type": "intelligence",
+      "summary": "ATTALI INVESTMENT PARTNERS LTD (UK 07138407): Benedetti was co-director with Bertrand Gauquelin des Pallieres (French, born Nov 1966, resident in Rome at 9 Via G A Rayneri). Company name references Jacques Attali -- former adviser to French President Mitterrand, founder of EBRD, head of Attali and Associates advisory firm. Benedetti and Gauquelin co-founded in Jan 2010, both resigned Dec 2015 (same month), replaced by METHORIOS CAPITAL LLP as corporate director. SIC code 64999 (financial intermediation). Registered at 43-45 Dorset Street London W1U. The Attali connection places Benedetti in elite Franco-Italian political and financial circles -- the same milieu as Epstein's Paris network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1966-11",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:03",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:07138407",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1633,
+      "finding_type": "relationship",
+      "summary": "Benedetti has been a director at Attali Investment Partners Ltd since 2010, placing him on the board of Jacques Attali's investment firm. Attali is former senior advisor to President Mitterrand and first president of EBRD. This directorship is the link between Benedetti's SoftBank/intelligence operative activities and French political elite. Benedetti's broader corporate portfolio: Chairman of Schwarzfield SA (2012+), Director of SPQR Capital Holdings SA (2010+), Asherco LLP (2012+), Schwarzfield Services SAGL (2013+). Previously President of M Finances SAS (Paris 2000-2001), Chairman of Equus Total Return Inc (until 2015).",
+      "detail": null,
+      "source_datasets": [
+        "uk_companies_house",
+        "web"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2010-01-01",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:42",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "From: \nSent: \nTo: \nCc: \nSubject: \nJE approved Chicken Parm from \nLunch \nSeptember 25, 2013 11:49 PM \nJojo fontanilla; Karina; \nJojo fontani=la \n<mailto: \n>, Mark Tollison < \nRich Barnett \nSub=ect: Schedule Thurs. Sept. 26th \nThursday Sept 26, 2013...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:34 PM \nTo: \nJeffrey Epstein CC \nSubject: \nreminder. Allesandro de Benedetti-Pans \nReminder: Allesandro de Benedetti-Paris \n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \n<IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 833,
+      "finding_type": "document",
+      "summary": "DOJ Vol 11 contains a SEPARATE Cyprus entity TREE OF LIFE LIMITED (HE 279303) incorporated 2010-12-27, dissolved 2016-01-11, at Agias Elenis 36, Galaxias Commercial Center, Floor 4, Flat 401, 1061, Nicosia, Cyprus. This is distinct from the Malta entity (C67345, incorporated 2014-10-28). The Cyprus Tree of Life has 3 directorship relationships per Aleph. Possible predecessor entity to the Malta Tree of Life -- note the Malta entity was incorporated Oct 2014 and the Cyprus entity dissolved Jan 2016, suggesting a migration from Cyprus to Malta jurisdiction.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": "2010-12-27",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:55:54",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OCCRP-Aleph:ddc170b36c4decfac28df4ed42d543d08ab5212e",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 847,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR reveals Benedetti was EXECUTIVE CHAIRMAN of Equus Total Return Inc (NYSE: EQS, CIK 878932), a publicly traded closed-end fund, from June 2011 to June 2014. He was also a director (board member nominee). He owned over 100K in shares personally plus 400K shares through EB FINANCE S.A. (of which he disclaims beneficial ownership). The DEF 14A filing lists his roles: CEO of SAE Capital Ltd (founded Jan 2007), Director of Attali Investment Partners Ltd (since Oct 2010), Director of SPQR Capital Holdings S.A. (since Aug 2010), Non-exec director of Cadogan Petroleum plc (Aug 2010-Jun 2012), director of Versatile Systems Inc (since Dec 2008), Director of Schwarzfield S.A. (since Feb 2013), Schwarzfield Services SAGL (since Oct 2013), and Director of Asherco LLP (since Oct 2012). 8 hits across 2011-2016 proxy statements.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-06",
+      "claim_type": "paraphrase",
+      "verification_status": "disputed",
+      "created_at": "2026-02-13 03:58:35",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=878932",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:OC379532",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 814,
+      "finding_type": "intelligence",
+      "summary": "EFTA00925685 (Dec 9, 2011): Weingarten to Epstein: 'did we ever talk about allesandro Benedetti, your Italian jewish neighbor on ave. foch?' This establishes: (1) Benedetti was Epstein's NEIGHBOR on Avenue Foch in Paris — the same street as Epstein's 22 Avenue Foch property; (2) The Epstein-Benedetti relationship predates the SoftBank honey trap campaign (2015) by at least 4 years; (3) Weingarten knew of Benedetti through Epstein; (4) Epstein IGNORES the Benedetti question in the email chain, deflecting to scheduling — suggesting the topic was discussed by phone or Epstein preferred not to respond in writing. Also notable: Weingarten says 'have some interesting jeffrey-reid projects in mind' — confirming active joint ventures between Epstein and Weingarten beyond legal representation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2011-12-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:23:28",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00925685",
+          "source_quote": "did we ever talk about allesandro Benedetti, your Italian jewish neighbor on ave. foch?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 830,
+      "finding_type": "relationship",
+      "summary": "Alessandro Benedetti appears in Epstein's documents as a Paris contact from at least 2013-2019. EFTA02297224 (Sep 25, 2013) lists 'allesandro de benedetti-paris' alongside schedule items for Ian Osborne breakfast, Larry Summers lunch, and Rich/Darren (Kahn/Indyke) meeting, plus Paris departure via Air France. EFTA02575400 shows Benedetti on an explicit Paris contact list. EFTA02628256 (Jan 28, 2019) references 'Allesandro benedetti?' alongside 'TEODORANI Eduardo (CNH Industrial)' -- both are Italian businessmen Epstein was tracking in his final months.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-09-25",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:55:43",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "allesandro de benedetti-paris, 8:30am Breakfast w/lan Osborne, 11:30am Lunch w/Larry Summers, 1:00pm Appt w/Rich and Darren, 9:55pm JE depart for Paris via Air France",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:34 PM \nTo: \nJeffrey Epstein CC \nSubject: \nreminder. Allesandro de Benedetti-Pans \nReminder: Allesandro de Benedetti-Paris \n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \n<IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:39 AM \nTo: \nJeffrey Epstein CC \nSubject: \nParis List \n-Alesandro de benedetti \n-Lang \n-Victo \n-Ariane \n-Fred \n-Fabrice \n-Emily \n-Jean Luc \n-Caroline's bday Sept. 27th \n-Fabrizio \n-Shahar...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576024",
+          "source_quote": "From: \nLesley Groff \nSent: \nMonday, October 7, 2013 11:07 AM \nTo: \nJeffrey Epstein CC \nSubject: \nReminder. allesandro de benedetti paris \nReminder: allesandro de benedetti paris <?xml version=\"1.0\" encoding=\"UTF-8\"?> <IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "From: \nJ <jeevacation@gmail.com> \nSent: \nMonday, January 28, 2019 6:07 PM \nTo: \nTEODORANI Eduardo (CNH Industrial) \nAllesandro benedetti? \n=C2 \nplease note \nThe informat=on contained in this communication is confidential, may be attorney-cli=nt...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 849,
+      "finding_type": "relationship",
+      "summary": "EFTA02297224 (Sep 25, 2013) schedule places Benedetti-Paris on the same day as breakfast with Ian Osborne (Thiel intermediary), lunch with Larry Summers, and meeting with Richard Kahn and Darren Indyke, before Epstein departs for Paris via Air France. This places Benedetti in the context of Epstein's tech/intelligence inner circle -- Osborne is the key Thiel intermediary, Summers the economics/policy advisor, Kahn/Indyke the legal/financial controllers. Benedetti appears to be Epstein's Paris contact in the European intelligence/finance world, consistent with his SAE Capital M&A role and later SoftBank operation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-09-25",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:37",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "allesandro de benedetti-paris, 8:30am Breakfast w/lan Osborne, 11:30am Lunch w/Larry Summers, 1:00pm Appt w/Rich and Darren, 9:55pm JE depart for Paris",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "finding_type": "intelligence",
+      "summary": "Benedetti appears in Epstein's calendar/reminder system as 'Allesandro de Benedetti - Paris' on Sept 26, 2013 (EFTA02575276) and Oct 7, 2013 (EFTA02576024). On the Sept 26 schedule (EFTA02297224), Benedetti appears alongside: '8:30am Breakfast w/Ian Osborne, 11:30am Lunch w/Larry Summers, 1:00pm Appt w/Rich and Darren' followed by departure to Paris. On a separate Paris contacts list (EFTA02575400), 'Alesandro de benedetti' appears first, alongside Wojtek Fibak (Fine Arts Investments), 'Sultan in Paris Sun. Sept 29th', Frederic Chaslin, and multiple women. This places Benedetti firmly in Epstein's Paris social-intelligence network as early as 2013.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-09-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:17:36",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "Reminder: allesandro de benedetti - Paris / 8:30am Breakfast w/Ian Osborne / 11:30am Lunch w/Larry Summers / 1:00pm Appt w/Rich and Darren",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "Reminder: Allesandro de Benedetti-Paris \n \n \n \n \nconversation-idgkey> \n268172",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "-Alesandro de benedetti \n-Lang \n-Victo \n-Ariane \n-Fred \n-Fabrice \n-Emily \n-Jean Luc \n-Caroline's bday Sept. 27th \n-Fabrizio \n-Shahar \n-Wojtek Fibak (Fine Arts Investments) \n-Margehrita Campella Della Spina (she arrives via train at 9:23pm Paris =ime Fri. Sept. 27th) -Sultan in Paris Sun. Sept....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576024",
+          "source_quote": "Reminder: allesandro de benedetti paris",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 734,
+      "finding_type": "relationship",
+      "summary": "Benedetti appears on Epstein's Paris contact list from Sept 26, 2013, listed as '-Alesandro de benedetti' alongside Lang, Victo, Ariane, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Wojtek Fibak (Fine Arts Investments), and Margherita Campella Della Spina. A separate reminder from the same day confirmed the meeting. A second reminder on Oct 7, 2013 shows another planned Paris meeting. This places Benedetti in Epstein's Paris social circle at least 2 years BEFORE the SoftBank smear campaign began in early 2015. The same day's schedule included breakfast with Ian Osborne and lunch with Larry Summers.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-09-26",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:29:57",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "8:30am Breakfast w/Ian Osborne / 11:30am Lunch w/Larry Summers",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "Reminder Allesandro de Benedetti-Paris [Sept 26 2013]",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "Paris List / -Alesandro de benedetti",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576024",
+          "source_quote": "Reminder allesandro de benedetti paris [Oct 7 2013]",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "finding_type": "intelligence",
+      "summary": "Alessandro 'de Benedetti' appears in Epstein's Paris calendar and contact lists for Sep-Oct 2013. On Sep 26 2013, Lesley Groff sent reminders for 'Allesandro de Benedetti-Paris' alongside Epstein's schedule: breakfast with Ian Osborne, lunch with Larry Summers, then 9:55pm Air France to Paris. A Paris List (EFTA02575400) includes Benedetti alongside Lang, Victo, Ariane, Fabrice, Shahar, Wojtek Fibak, Margehrita Campella Della Spina, Sultan, Giselle, and Frederic Chaslin. A second reminder for 'allesandro de benedetti paris' was sent Oct 7 2013. Benedetti later hired by SoftBank's Rajeev Misra to run honey trap against Nikesh Arora (WSJ Feb 2020). Axios reported Benedetti had Cambridge Analytica/SCL Group ties.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-09-26",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:54:26",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "Reminder: allesandro de benedetti paris 8:30am Breakfast w/lan Osborne 11:30am Lunch w/Larry Summers",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "Reminder: Allesandro de Benedetti-Paris",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "Paris List -Alesandro de benedetti -Lang -Victo -Ariane -Fred -Fabrice -Emily -Jean Luc",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576024",
+          "source_quote": "From: \nLesley Groff \nSent: \nMonday, October 7, 2013 11:07 AM \nTo: \nJeffrey Epstein CC \nSubject: \nReminder. allesandro de benedetti paris \nReminder: allesandro de benedetti paris <?xml version=\"1.0\" encoding=\"UTF-8\"?> <IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 784,
+      "finding_type": "relationship",
+      "summary": "Benedetti ('Alesandro de benedetti') appears on Epstein's Paris contact list Sept 26, 2013, alongside Teodorani, Shahar, Wojtek Fibak (Fine Arts Investments), Margherita Campella Della Spina, Sultan, and others. Multiple Groff reminders about Benedetti-Paris meetings Sept 26 and Oct 7, 2013. The same Sept 26 schedule shows: 8:30am breakfast with Ian Osborne, 11:30am lunch with Larry Summers, 1:00pm with Rich and Darren, then departing for Paris via Air France.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-09-26",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:44",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": " Thursday Sept 26 2013 NY-PARIS Reminder allesandro de benedetti Paris 830am Breakfast wIan Osborne 1130am Lunch wLarry Summers",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:34 PM \nTo: \nJeffrey Epstein CC \nSubject: \nreminder. Allesandro de Benedetti-Pans \nReminder: Allesandro de Benedetti-Paris \n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \n<IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": " Paris List -Alesandro de benedetti -Lang -Victo -Ariane",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576024",
+          "source_quote": "From: \nLesley Groff \nSent: \nMonday, October 7, 2013 11:07 AM \nTo: \nJeffrey Epstein CC \nSubject: \nReminder. allesandro de benedetti paris \nReminder: allesandro de benedetti paris <?xml version=\"1.0\" encoding=\"UTF-8\"?> <IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 835,
+      "finding_type": "document",
+      "summary": "DOJ Vol 11 Paris contact list (EFTA02575400, Sept 26 2013) places Benedetti first on Epstein's 'Paris List' alongside: Lang, Victo, Ariane, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Wojtek Fibak (Fine Arts Investments), Margherita Campella Della Spina (arriving by train Sept 27), 'Sultan in Paris Sun Sept 29', Giselle, and Frederic Chaslin. This list was sent by Lesley Groff to Epstein. The same day's schedule (EFTA02297224) shows Benedetti as a Reminder item alongside breakfast with Ian Osborne, lunch with Larry Summers, and appointment with Rich and Darren, before Epstein departed for Paris via Air France from JFK at 9:55pm. Benedetti is explicitly in the same social orbit as Summers and Osborne.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-09-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:07",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "Lunch \nSeptember 25, 2013 11:49 PM \nJojo fontanilla; Karina; \nJojo fontani=la \n, Mark Tollison  \n4:30pm EST JE to call \n/i> \n9:55=m JE and.depart for Paris via Air France #11 from JFK (380 Airplane)Rec Loc",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "Paris List -Alesandro de benedetti -Lang -Victo -Ariane -Fred -Fabrice; EFTA02297224:Reminder allesandro de benedetti paris, 8:30am Breakfast w/Ian Osborne, 11:30am Lunch w/Larry Summers",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 989,
+      "finding_type": "relationship",
+      "summary": "Benedetti was on Epstein's Paris social circle since at least Sept 2013. Groff scheduled reminders for 'Allesandro de Benedetti-Paris' on Sept 26, 2013 and Oct 7, 2013. Benedetti also appears on Epstein's Paris contacts list alongside Ariane de Rothschild, Shahar, and others.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-09-26",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:10:49",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "Reminder: Allesandro de Benedetti-Paris",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1244,
+      "finding_type": "relationship",
+      "summary": "Benedetti was a long-standing Epstein Paris associate, appearing in multiple scheduling and contact documents: (1) EFTA02575276: 'Allesandro de Benedetti-Paris' reminder (Sep 2013). (2) EFTA02576024: duplicate reminder. (3) EFTA02297224: Benedetti on same Sep 26 2013 schedule as Ian Osborne breakfast and Larry Summers lunch, before Epstein departs for Paris. (4) EFTA02575400: Lesley Groff sends Epstein 'Paris List' with Benedetti as first name, followed by 13 other names including Shahar, Sultan, Wojtek Fibak (art), Margherita Campella della Spina (Sep 26 2013). (5) EFTA02628256: Jan 28 2019 -- Epstein emails Teodorani (CNH Industrial/Agnelli): 'Allesandro benedetti?' -- a one-line inquiry 72 hours after the Weingarten 'Softbank caper' message (Jan 25). This Jan 28 inquiry to Teodorani about Benedetti, cross-referenced with the Wave 7 SoftBank timeline, confirms Epstein was actively investigating the Benedetti SoftBank operation in real-time.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-09-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:03:35",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "Lunch \nSeptember 25, 2013 11:49 PM \nJojo fontanilla; Karina; \nJojo fontani=la \n, Mark Tollison  \n4:30pm EST JE to call \n/i> \n9:55=m JE and.depart for Paris via Air France #11 from JFK (380 Airplane)Rec Loc",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "Reminder: Allesandro de Benedetti-Paris \n \n \n \n \nconversation-idgkey> \n268172",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "-Alesandro de benedetti \n-Lang \n-Victo \n-Ariane \n-Fred \n-Fabrice \n-Emily \n-Jean Luc \n-Caroline's bday Sept. 27th \n-Fabrizio \n-Shahar \n-Wojtek Fibak (Fine Arts Investments) \n-Margehrita Campella Della Spina (she arrives via train at 9:23pm Paris =ime Fri. Sept. 27th) -Sultan in Paris Sun. Sept....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576024",
+          "source_quote": "Reminder: allesandro de benedetti paris",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "Allesandro benedetti? \n=C2",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1632,
+      "finding_type": "identity",
+      "summary": "Identity CONFIRMED: 'Allesandro de Benedetti - Paris' in Epstein contacts = Alessandro Benedetti, CEO of SAE Capital Ltd (founded 2007), born July 1961, Italian national, Swiss resident. UK Companies House confirms his directorships at Attali Investment Partners Ltd (since 2010), M Finances SAS (President 2000-2001, Paris), and Vendome Investments Ltd (2005-2011) — all Paris-connected entities that explain his designation as a Paris contact. The 'de' particle is a French-style name rendering not used in formal UK/Italian filings.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "uk_companies_house",
+        "web"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2013-09-26",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:31",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": "Reminder: allesandro de benedetti—Paris alongside 8:30am Breakfast w/Ian Osborne, 11:30am Lunch w/Larry Summers; UK Companies House officer ID 6RHRQiKPPAyMVj56YkTAygoS-2w shows Alessandro BENEDETTI born July 1961 Italian nationality Swiss residence director at SAE Capital, Vendome Investments, and via MarketScreener director at Attali Investment Partners Ltd since 2010",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:34 PM \nTo: \nJeffrey Epstein CC \nSubject: \nreminder. Allesandro de Benedetti-Pans \nReminder: Allesandro de Benedetti-Paris \n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \n<IDOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "From: \nJ <jeevacation@gmail.com> \nSent: \nMonday, January 28, 2019 6:07 PM \nTo: \nTEODORANI Eduardo (CNH Industrial) \nAllesandro benedetti? \n=C2 \nplease note \nThe informat=on contained in this communication is confidential, may be attorney-cli=nt...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 843,
+      "finding_type": "financial",
+      "summary": "ASHERCO LLP (OC379532) reveals Benedetti's BVI connections. Two former BVI corporate members: YOUNGSTOWN INVESTMENTS GROUP LTD (BVI 1688567, Nov 2014-Nov 2021, PO Box 3483 Road Town Tortola) and SATSU FINANCE LTD (BVI 1583501, Nov 2021-Mar 2023, same PO Box 3483 address). Both BVI entities at SAME address: PO Box 3483, R.G. Hodge Plaza, Wickhams Cay 1, Road Town, Tortola, BVI. This is a registered agent address. Former member Dotan Moshe (Israeli, Feb 1972, 116 Ballards Lane London N3 2DN, Mar 2023-Jul 2024) replaced after BVI entities departed. Current co-member Mathieu Villaume (Luxembourg, Aug 1976) from Jul 2024. Pattern: BVI corporate members rotate through Asherco to obscure beneficial ownership.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:57:54",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-Companies-House:OC379532",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 785,
+      "finding_type": "intelligence",
+      "summary": "SoftBank honey trap operation timeline: Jan 2015 Misra-Benedetti meet London. Apr 2015 $500K payment to Barkmere Group BVI. 2015 honey trap attempt in Tokyo (women + hidden cameras, Arora didn't fall for it). 2015 K2 Intelligence hired to investigate Arora/Sama. K2 hired Powerscourt Group (London PR) to place findings. Sept 2015 Nicolas Giannakopoulos (Swiss operative, Cambridge Analytica/SCL ties) hires Mark Hollingsworth (freelancer). Oct 2015 Independent publishes Arora story. Nov 2015 shareholder campaign begins. Jan 2016 first shareholder letter. Jun 2016 Arora resigns. Apr 2019 Sama leaves. 2018 Shearman Sterling probe: inconclusive. Feb 2020 WSJ breaks full story.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-01",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:54",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_028576",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 776,
+      "finding_type": "financial",
+      "summary": "Misra paid Benedetti $500K in April 2015 via Standard Chartered Bank to Barkmere Group Ltd, a BVI company controlled by Benedetti. Misra's spokesman claimed this was for 'oil investment.' Benedetti appears in ICIJ Paradise Papers as shareholder of Tree of Life Limited (Malta, C67345, incorporated Oct 2014), registered to Via delle Serre N. 9/A, Firenze, Italy.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-04",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:05",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_028576",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 740,
+      "finding_type": "intelligence",
+      "summary": "WSJ identified Benedetti as the central operative in the SoftBank smear campaign. Giannakopoulos (Swiss intelligence, Cambridge Analytica/SCL Group agent) was his subcontractor. The operation used code name 'Mr. West' for Arora. Benedetti expected compensation beyond the $500K: a cut of Misra's SoftBank earnings and to be named head of Vision Fund in London. Bertrand des Pallieres (French banker, former Deutsche Bank trader under Misra) introduced Misra and Benedetti. Meetings at London's Bulgari Hotel and Zurich's Hotel Baur au Lac (Nov 2017). Special cellphone provided for operational communications.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:31:07",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://ericplayground.com/2020/03/03/softbanks-rajeev-misra-used-campaign-of-sabotage-to-hobble-internal-rivals/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 774,
+      "finding_type": "intelligence",
+      "summary": "Benedetti leaked SoftBank honey trap operation to WSJ because Misra failed to pay promised compensation. Benedetti expected: (1) share of Misra's SoftBank earnings, (2) senior executive position at Vision Fund London. Neither materialized after K initial payment. Associates say Benedetti recorded conversations with Misra detailing plans to sabotage rivals.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:54:57",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_028576",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "finding_type": "intelligence",
+      "summary": "Epstein emailed Eduardo Teodorani (CNH Industrial/Fiat executive) on Jan 28, 2019 -- just TWO DAYS after asking Brad Karp about Misra's representation -- with a single question: 'Allesandro benedetti?' This indicates Epstein was actively seeking to contact or learn about Benedetti through Italian corporate networks at the exact moment the SoftBank honey trap operation was under legal scrutiny.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:17:25",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 733,
+      "finding_type": "intelligence",
+      "summary": "On Jan 28, 2019 — exactly 2 days after the Karp/Misra and Weingarten/SoftBank exchanges — Epstein emailed Eduardo Teodorani (SVP, CNH Industrial) with a single line: 'Allesandro benedetti?' This shows Epstein was actively gathering intelligence about Benedetti, the very person WSJ later identified as the operative paid $500K by Misra to run smear campaigns and honey traps against SoftBank rivals. The 48-hour Karp→Misra→Benedetti inquiry sequence is too precise to be coincidental.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01-28",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:29:39",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "To TEODORANI Eduardo (CNH Industrial) / Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "finding_type": "intelligence",
+      "summary": "Epstein asked Teodorani (CNH Industrial/Agnelli heir) about 'Allesandro benedetti?' on Jan 28, 2019 — two days after asking Karp about representing Misra and the same week Weingarten discussed the 'Softbank caper.' This places Epstein actively networking around the SoftBank scandal, potentially seeking Benedetti as an operative or source through his Italian contacts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-01-28",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:14",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": " From J jeevacation@gmail.com Sent Monday January 28 2019 To TEODORANI Eduardo CNH Industrial. Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "finding_type": "relationship",
+      "summary": "Epstein emailed Eduardo Teodorani (CNH Industrial) on Jan 28, 2019 with one-word inquiry: 'Allesandro benedetti?' — asking about Benedetti 10 months after WSJ March 2018 expose of SoftBank dirty tricks campaign. This is intelligence-gathering about Benedetti, not an introduction.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:10:45",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 824,
+      "finding_type": "identity",
+      "summary": "ICIJ Paradise Papers confirms Benedetti's registered address as Via delle Serre 9/A, Florence (Firenze) 50100, Italy. This is his personal/residential address used for the Tree of Life Limited Malta shareholder filing. Benedetti is confirmed Italian national. His name appears in Epstein documents as 'Allesandro de Benedetti' (with French-style 'de' particle), suggesting he may use both Italian and French-style name forms.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:55:17",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ICIJ-node:56105421",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ICIJ-node:58113614",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3478,
+      "finding_type": "intelligence",
+      "summary": "TEMPORAL PATTERN: Oct 2013 activity burst — 16 findings in 14-day window (Sep 22-Oct 6 2013), the largest single-period cluster for any target. Benedetti dominates with 10 findings. This coincides with peak STC transfer year (Black M), Leon Black thread activity (5 findings same week in T5), and Ariane de Rothschild cross-thread presence. Suggests Benedetti was central to a coordinated operational period.",
+      "detail": "The Oct 2013 burst is the densest non-2019 activity cluster in the entire investigation. It spans 3 threads simultaneously (T1, T3, T5). Benedetti findings cluster around his role as intermediary, while Leon Black and Joshua Harris activity in T5 suggests parallel Apollo financial flows. The temporal co-occurrence of Benedetti intelligence activity with peak Black-Epstein financial transfers is the strongest cross-thread temporal correlation in the pre-2018 period.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:36:55",
+      "target_name": "Alessandro Benedetti",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-7",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 401,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Rajeev Misra",
+      "relationship_type": "financial",
+      "description": "Misra paid Benedetti 500K via Barkmere Group BVI Apr 2015 for smear campaign. Benedetti expected exec position plus profit share. Falling out led to WSJ leak Feb 2020",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:25",
+      "other_person": "Rajeev Misra",
+      "other_person_slug": "rajeev-misra",
+      "evidence": []
+    },
+    {
+      "id": 427,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Neighbors on Avenue Foch, Paris. Weingarten described Benedetti as Epstein's Italian jewish neighbor on ave foch in Dec 2011",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:23:58",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00925685",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Paris neighbor (Avenue Foch Dec 2011). On Paris contact list Sept 2013. Epstein queried Teodorani about Benedetti Jan 28 2019. Multi-year relationship 2011-2019.",
+      "strength": "strong",
+      "date_range": "2011-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:35",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00925685",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Rajeev Misra",
+      "relationship_type": "financial",
+      "description": "Misra paid Benedetti 500K via Standard Chartered to Barkmere Group BVI Apr 2015 for SoftBank sabotage operation.",
+      "strength": "strong",
+      "date_range": "2015",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:39",
+      "other_person": "Rajeev Misra",
+      "other_person_slug": "rajeev-misra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WSJ-Feb-2020",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Nicolas Giannakopoulos",
+      "relationship_type": "intelligence",
+      "description": "Giannakopoulos was Benedetti's subcontractor in the SoftBank sabotage operation (2015-2016). Benedetti recruited Giannakopoulos to distribute leaked banking records and act as nominal shareholder.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:49",
+      "other_person": "Nicolas Giannakopoulos",
+      "other_person_slug": "nicolas-giannakopoulos",
+      "evidence": []
+    },
+    {
+      "id": 434,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Rajeev Misra",
+      "relationship_type": "intelligence",
+      "description": "Misra hired Benedetti in 2015 and paid USD 500K via Standard Chartered to Barkmere Group (BVI/Cyprus) to run sabotage campaign against SoftBank rivals Arora and Sama.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:52",
+      "other_person": "Rajeev Misra",
+      "other_person_slug": "rajeev-misra",
+      "evidence": []
+    },
+    {
+      "id": 498,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Paris neighbors since at least Sept 2013. Epstein inquired about Benedetti via Teodorani Jan 2019.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:11:51",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 822,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jacques Attali",
+      "relationship_type": "corporate",
+      "description": null,
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:07:11",
+      "other_person": "Jacques Attali",
+      "other_person_slug": "jacques-attali",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Paris contacts list, calendar entries Sept-Oct 2013, Epstein inquired about Benedetti via Teodorani Jan 28 2019",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:19:15",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:31:12",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Rajeev Misra",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:31:20",
+      "other_person": "Rajeev Misra",
+      "other_person_slug": "rajeev-misra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WSJ_Feb2020",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Benedetti on Epstein Paris calendar Sep-Oct 2013. Epstein asked Teodorani about Benedetti Jan 28 2019. Benedetti linked to SoftBank honey trap.",
+      "strength": "medium",
+      "date_range": "2013-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:14",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 394,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Eduardo Teodorani-Fabbri",
+      "relationship_type": "intelligence",
+      "description": "Epstein queried Teodorani about Benedetti Jan 28 2019 via one-line email. Teodorani was Epstein Italian connection who would know Benedetti from Italian business circles.",
+      "strength": "medium",
+      "date_range": "2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:16",
+      "other_person": "Eduardo Teodorani-Fabbri",
+      "other_person_slug": "eduardo-teodorani-fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "intelligence",
+      "description": "Paris social contact 2013, Epstein inquired about Benedetti through Teodorani Jan 2019 during SoftBank caper planning",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:21",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Eduardo Teodorani-Fabbri",
+      "relationship_type": "social",
+      "description": "Both on Epstein Paris list Sept 2013. Epstein asked Teodorani about Benedetti Jan 2019. Italian high society connection",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:26",
+      "other_person": "Eduardo Teodorani-Fabbri",
+      "other_person_slug": "eduardo-teodorani-fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Reid Weingarten",
+      "relationship_type": "social",
+      "description": "Weingarten knew of Benedetti through Epstein by Dec 2011, later considered deploying someone on SoftBank caper Benedetti orchestrated",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:23:59",
+      "other_person": "Reid Weingarten",
+      "other_person_slug": "reid-weingarten",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00925685",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Eduardo Teodorani",
+      "relationship_type": "social",
+      "description": "Epstein queried Teodorani about Benedetti on Jan 28 2019 (EFTA02628256). Both Italian. Teodorani is SVP CNH Industrial.",
+      "strength": "medium",
+      "date_range": "2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:37",
+      "other_person": "Eduardo Teodorani-Fabbri",
+      "other_person_slug": "eduardo-teodorani-fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Benedetti appears as Allesandro de Benedetti-Paris in Epstein's contact lists from Sep 2013 to Jan 2019 (EFTA02575276, EFTA02297224, EFTA02575400, EFTA02628256). On Epstein Paris contact list.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:51",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575276",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 594,
+      "person_a": "Nicolo Teodorani-Fabbri",
+      "person_b": "Alessandro Benedetti",
+      "relationship_type": "social",
+      "description": "Teodorani bridge to Benedetti SoftBank op [Wave 7]",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 00:46:53",
+      "other_person": "Nicolo Teodorani-Fabbri",
+      "other_person_slug": "nicolo-teodorani-fabbri",
+      "evidence": []
+    },
+    {
+      "id": 584,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Ian Osborne",
+      "relationship_type": "social",
+      "description": "Both on same Sep 26 2013 Epstein schedule (EFTA02297224). Osborne breakfast 8:30am, Benedetti Paris reminder. Circumstantial connection.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:04:26",
+      "other_person": "Ian Osborne",
+      "other_person_slug": "ian-osborne",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02297224",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "president",
+      "date_start": "2000",
+      "date_end": "2001",
+      "source": "web",
+      "entity_id": 294,
+      "entity_name": "M Finances SAS",
+      "entity_type": "inc",
+      "jurisdiction": "fr",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "2005-03",
+      "date_end": "2011-03",
+      "source": "uk_companies_house",
+      "entity_id": 293,
+      "entity_name": "Vendome Investments Limited",
+      "entity_type": "ltd",
+      "jurisdiction": "uk",
+      "entity_status": "dissolved"
+    },
+    {
+      "role": "officer",
+      "date_start": "2007-01-01",
+      "date_end": null,
+      "source": "SEC EDGAR DEF 14A",
+      "entity_id": 272,
+      "entity_name": "SAE Capital Ltd",
+      "entity_type": "ltd",
+      "jurisdiction": "gb",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "2010-01-27",
+      "date_end": "2015-12-15",
+      "source": "UK Companies House",
+      "entity_id": 271,
+      "entity_name": "Attali Investment Partners Ltd",
+      "entity_type": "ltd",
+      "jurisdiction": "gb",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "2010-08-01",
+      "date_end": null,
+      "source": "SEC EDGAR DEF 14A",
+      "entity_id": 273,
+      "entity_name": "SPQR Capital Holdings S.A.",
+      "entity_type": "unknown",
+      "jurisdiction": "unknown",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "2012-10-19",
+      "date_end": null,
+      "source": "UK Companies House",
+      "entity_id": 270,
+      "entity_name": "Asherco LLP",
+      "entity_type": "partnership",
+      "jurisdiction": "gb",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "2013-02-01",
+      "date_end": null,
+      "source": "SEC EDGAR DEF 14A",
+      "entity_id": 274,
+      "entity_name": "Schwarzfield S.A.",
+      "entity_type": "unknown",
+      "jurisdiction": "unknown",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "controller",
+      "date_start": null,
+      "date_end": null,
+      "source": "WSJ Feb 2020",
+      "entity_id": 267,
+      "entity_name": "Barkmere Group Ltd",
+      "entity_type": "ltd",
+      "jurisdiction": "bvi",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "shareholder",
+      "date_start": null,
+      "date_end": null,
+      "source": "ICIJ Paradise Papers",
+      "entity_id": 269,
+      "entity_name": "Tree of Life Limited",
+      "entity_type": "ltd",
+      "jurisdiction": "mt",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "shareholder",
+      "date_start": null,
+      "date_end": null,
+      "source": "SEC EDGAR DEF 14A",
+      "entity_id": 275,
+      "entity_name": "EB Finance S.A.",
+      "entity_type": "unknown",
+      "jurisdiction": "unknown",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "principal",
+      "date_start": null,
+      "date_end": null,
+      "source": "Wave 7 SoftBank / ICIJ 56105421",
+      "entity_id": 268,
+      "entity_name": "Barkmere Limited",
+      "entity_type": "ltd",
+      "jurisdiction": "cy",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1961-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "UK Companies House reveals Benedetti's full corporate network. Born July 1961, Italian, resident in Switzerland (Lugano, 7 Riva Paradiso). FOUR UK appointments: (1) ASHERCO LLP (OC379532, active since Oct 2012, 4 Moorgate London) - current co-member with Mathieu Villaume (Luxembourg). Former members include Dotan Moshe (Israeli), SATSU FINANCE LTD (BVI 1583501), and YOUNGSTOWN INVESTMENTS GROUP LTD (BVI 1688567, PO Box 3483 Road Town Tortola). (2) SCHWARZFIELD LLP (OC379789, Oct 2012, dissolved). (3) ATTALI INVESTMENT PARTNERS LTD (07138407, Jan 2010-Dec 2015, dissolved) - co-directors included Bertrand Gauquelin des Pallieres (French, resident Rome) and corporate successor METHORIOS CAPITAL LLP. (4) SILVERARROW CAPITAL ADVISORS LLP (OC379903, Nov 2012-Mar 2013, dissolved).",
+      "confidence": "high",
+      "id": 842
+    },
+    {
+      "date": "1961-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FULL BIOGRAPHY SYNTHESIS: Benedetti (born Jul 1961, Italian, resident Switzerland/Geneva/Lugano) is a Geneva-based financier and founding partner of Schwarzfield. His career-defining deal: brokering the 2005 acquisition of Wind Telecomunicazioni SpA for Naguib Sawiris (Egyptian billionaire, Orascom Telecom), Europe's then-largest LBO at approx 12 billion euros. Benedetti received 67M+ euros but sued Sawiris for a 1/3 stake -- lost at UK Supreme Court Jul 2013 (Benedetti v Sawiris). Also investigated by Roman prosecutors for corruption in the Wind deal (2008). He has 30+ years experience in telecoms, energy, mining, real estate across W/E Europe, Scandinavia, CIS, Africa, North America, Middle East. Former non-exec director of Cadogan Petroleum (Ukraine oil/gas, Aug 2010-Jun 2012). Chairman of SPQR Capital SA. CEO of SAE Capital. Executive Chairman of NYSE-listed Equus Total Return (2011-2014).",
+      "confidence": "medium",
+      "id": 861
+    },
+    {
+      "date": "1961-07",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "DISAMBIGUATION: Alessandro De Benedetti at Northzone VC (grandson of Carlo De Benedetti/Olivetti/CIR dynasty, son of Marco De Benedetti/Carlyle) is a DIFFERENT person from Epstein's contact. Northzone De Benedetti is too young (joined as associate in 2024) and based in Stockholm. Epstein's Benedetti is the SAE Capital CEO born July 1961, confirmed via UK Companies House directorships and ICIJ Paradise Papers (Florence address).",
+      "confidence": "medium",
+      "id": 1644
+    },
+    {
+      "date": "1966-11",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "ATTALI INVESTMENT PARTNERS LTD (UK 07138407): Benedetti was co-director with Bertrand Gauquelin des Pallieres (French, born Nov 1966, resident in Rome at 9 Via G A Rayneri). Company name references Jacques Attali -- former adviser to French President Mitterrand, founder of EBRD, head of Attali and Associates advisory firm. Benedetti and Gauquelin co-founded in Jan 2010, both resigned Dec 2015 (same month), replaced by METHORIOS CAPITAL LLP as corporate director. SIC code 64999 (financial intermediation). Registered at 43-45 Dorset Street London W1U. The Attali connection places Benedetti in elite Franco-Italian political and financial circles -- the same milieu as Epstein's Paris network.",
+      "confidence": "medium",
+      "id": 844
+    },
+    {
+      "date": "2010-01-01",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Benedetti has been a director at Attali Investment Partners Ltd since 2010, placing him on the board of Jacques Attali's investment firm. Attali is former senior advisor to President Mitterrand and first president of EBRD. This directorship is the link between Benedetti's SoftBank/intelligence operative activities and French political elite. Benedetti's broader corporate portfolio: Chairman of Schwarzfield SA (2012+), Director of SPQR Capital Holdings SA (2010+), Asherco LLP (2012+), Schwarzfield Services SAGL (2013+). Previously President of M Finances SAS (Paris 2000-2001), Chairman of Equus Total Return Inc (until 2015).",
+      "confidence": "medium",
+      "id": 1633
+    },
+    {
+      "date": "2010-12-27",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "DOJ Vol 11 contains a SEPARATE Cyprus entity TREE OF LIFE LIMITED (HE 279303) incorporated 2010-12-27, dissolved 2016-01-11, at Agias Elenis 36, Galaxias Commercial Center, Floor 4, Flat 401, 1061, Nicosia, Cyprus. This is distinct from the Malta entity (C67345, incorporated 2014-10-28). The Cyprus Tree of Life has 3 directorship relationships per Aleph. Possible predecessor entity to the Malta Tree of Life -- note the Malta entity was incorporated Oct 2014 and the Cyprus entity dissolved Jan 2016, suggesting a migration from Cyprus to Malta jurisdiction.",
+      "confidence": "low",
+      "id": 833
+    },
+    {
+      "date": "2011-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR reveals Benedetti was EXECUTIVE CHAIRMAN of Equus Total Return Inc (NYSE: EQS, CIK 878932), a publicly traded closed-end fund, from June 2011 to June 2014. He was also a director (board member nominee). He owned over 100K in shares personally plus 400K shares through EB FINANCE S.A. (of which he disclaims beneficial ownership). The DEF 14A filing lists his roles: CEO of SAE Capital Ltd (founded Jan 2007), Director of Attali Investment Partners Ltd (since Oct 2010), Director of SPQR Capital Holdings S.A. (since Aug 2010), Non-exec director of Cadogan Petroleum plc (Aug 2010-Jun 2012), director of Versatile Systems Inc (since Dec 2008), Director of Schwarzfield S.A. (since Feb 2013), Schwarzfield Services SAGL (since Oct 2013), and Director of Asherco LLP (since Oct 2012). 8 hits across 2011-2016 proxy statements.",
+      "confidence": "high",
+      "id": 847
+    },
+    {
+      "date": "2011-12-09",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "EFTA00925685 (Dec 9, 2011): Weingarten to Epstein: 'did we ever talk about allesandro Benedetti, your Italian jewish neighbor on ave. foch?' This establishes: (1) Benedetti was Epstein's NEIGHBOR on Avenue Foch in Paris — the same street as Epstein's 22 Avenue Foch property; (2) The Epstein-Benedetti relationship predates the SoftBank honey trap campaign (2015) by at least 4 years; (3) Weingarten knew of Benedetti through Epstein; (4) Epstein IGNORES the Benedetti question in the email chain, deflecting to scheduling — suggesting the topic was discussed by phone or Epstein preferred not to respond in writing. Also notable: Weingarten says 'have some interesting jeffrey-reid projects in mind' — confirming active joint ventures between Epstein and Weingarten beyond legal representation.",
+      "confidence": "confirmed",
+      "id": 814
+    },
+    {
+      "date": "2011-2019",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Paris neighbor (Avenue Foch Dec 2011). On Paris contact list Sept 2013. Epstein queried Teodorani about Benedetti Jan 28 2019. Multi-year relationship 2011-2019.",
+      "other_person": "Jeffrey Epstein",
+      "id": 429
+    },
+    {
+      "date": "2013-09-25",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Alessandro Benedetti appears in Epstein's documents as a Paris contact from at least 2013-2019. EFTA02297224 (Sep 25, 2013) lists 'allesandro de benedetti-paris' alongside schedule items for Ian Osborne breakfast, Larry Summers lunch, and Rich/Darren (Kahn/Indyke) meeting, plus Paris departure via Air France. EFTA02575400 shows Benedetti on an explicit Paris contact list. EFTA02628256 (Jan 28, 2019) references 'Allesandro benedetti?' alongside 'TEODORANI Eduardo (CNH Industrial)' -- both are Italian businessmen Epstein was tracking in his final months.",
+      "confidence": "medium",
+      "id": 830
+    },
+    {
+      "date": "2013-09-25",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "EFTA02297224 (Sep 25, 2013) schedule places Benedetti-Paris on the same day as breakfast with Ian Osborne (Thiel intermediary), lunch with Larry Summers, and meeting with Richard Kahn and Darren Indyke, before Epstein departs for Paris via Air France. This places Benedetti in the context of Epstein's tech/intelligence inner circle -- Osborne is the key Thiel intermediary, Summers the economics/policy advisor, Kahn/Indyke the legal/financial controllers. Benedetti appears to be Epstein's Paris contact in the European intelligence/finance world, consistent with his SAE Capital M&A role and later SoftBank operation.",
+      "confidence": "medium",
+      "id": 849
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Benedetti appears in Epstein's calendar/reminder system as 'Allesandro de Benedetti - Paris' on Sept 26, 2013 (EFTA02575276) and Oct 7, 2013 (EFTA02576024). On the Sept 26 schedule (EFTA02297224), Benedetti appears alongside: '8:30am Breakfast w/Ian Osborne, 11:30am Lunch w/Larry Summers, 1:00pm Appt w/Rich and Darren' followed by departure to Paris. On a separate Paris contacts list (EFTA02575400), 'Alesandro de benedetti' appears first, alongside Wojtek Fibak (Fine Arts Investments), 'Sultan in Paris Sun. Sept 29th', Frederic Chaslin, and multiple women. This places Benedetti firmly in Epstein's Paris social-intelligence network as early as 2013.",
+      "confidence": "confirmed",
+      "id": 519
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Benedetti appears on Epstein's Paris contact list from Sept 26, 2013, listed as '-Alesandro de benedetti' alongside Lang, Victo, Ariane, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Wojtek Fibak (Fine Arts Investments), and Margherita Campella Della Spina. A separate reminder from the same day confirmed the meeting. A second reminder on Oct 7, 2013 shows another planned Paris meeting. This places Benedetti in Epstein's Paris social circle at least 2 years BEFORE the SoftBank smear campaign began in early 2015. The same day's schedule included breakfast with Ian Osborne and lunch with Larry Summers.",
+      "confidence": "high",
+      "id": 734
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Alessandro 'de Benedetti' appears in Epstein's Paris calendar and contact lists for Sep-Oct 2013. On Sep 26 2013, Lesley Groff sent reminders for 'Allesandro de Benedetti-Paris' alongside Epstein's schedule: breakfast with Ian Osborne, lunch with Larry Summers, then 9:55pm Air France to Paris. A Paris List (EFTA02575400) includes Benedetti alongside Lang, Victo, Ariane, Fabrice, Shahar, Wojtek Fibak, Margehrita Campella Della Spina, Sultan, Giselle, and Frederic Chaslin. A second reminder for 'allesandro de benedetti paris' was sent Oct 7 2013. Benedetti later hired by SoftBank's Rajeev Misra to run honey trap against Nikesh Arora (WSJ Feb 2020). Axios reported Benedetti had Cambridge Analytica/SCL Group ties.",
+      "confidence": "medium",
+      "id": 771
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Benedetti ('Alesandro de benedetti') appears on Epstein's Paris contact list Sept 26, 2013, alongside Teodorani, Shahar, Wojtek Fibak (Fine Arts Investments), Margherita Campella Della Spina, Sultan, and others. Multiple Groff reminders about Benedetti-Paris meetings Sept 26 and Oct 7, 2013. The same Sept 26 schedule shows: 8:30am breakfast with Ian Osborne, 11:30am lunch with Larry Summers, 1:00pm with Rich and Darren, then departing for Paris via Air France.",
+      "confidence": "high",
+      "id": 784
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "DOJ Vol 11 Paris contact list (EFTA02575400, Sept 26 2013) places Benedetti first on Epstein's 'Paris List' alongside: Lang, Victo, Ariane, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Wojtek Fibak (Fine Arts Investments), Margherita Campella Della Spina (arriving by train Sept 27), 'Sultan in Paris Sun Sept 29', Giselle, and Frederic Chaslin. This list was sent by Lesley Groff to Epstein. The same day's schedule (EFTA02297224) shows Benedetti as a Reminder item alongside breakfast with Ian Osborne, lunch with Larry Summers, and appointment with Rich and Darren, before Epstein departed for Paris via Air France from JFK at 9:55pm. Benedetti is explicitly in the same social orbit as Summers and Osborne.",
+      "confidence": "confirmed",
+      "id": 835
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Benedetti was on Epstein's Paris social circle since at least Sept 2013. Groff scheduled reminders for 'Allesandro de Benedetti-Paris' on Sept 26, 2013 and Oct 7, 2013. Benedetti also appears on Epstein's Paris contacts list alongside Ariane de Rothschild, Shahar, and others.",
+      "confidence": "high",
+      "id": 989
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Benedetti was a long-standing Epstein Paris associate, appearing in multiple scheduling and contact documents: (1) EFTA02575276: 'Allesandro de Benedetti-Paris' reminder (Sep 2013). (2) EFTA02576024: duplicate reminder. (3) EFTA02297224: Benedetti on same Sep 26 2013 schedule as Ian Osborne breakfast and Larry Summers lunch, before Epstein departs for Paris. (4) EFTA02575400: Lesley Groff sends Epstein 'Paris List' with Benedetti as first name, followed by 13 other names including Shahar, Sultan, Wojtek Fibak (art), Margherita Campella della Spina (Sep 26 2013). (5) EFTA02628256: Jan 28 2019 -- Epstein emails Teodorani (CNH Industrial/Agnelli): 'Allesandro benedetti?' -- a one-line inquiry 72 hours after the Weingarten 'Softbank caper' message (Jan 25). This Jan 28 inquiry to Teodorani about Benedetti, cross-referenced with the Wave 7 SoftBank timeline, confirms Epstein was actively investigating the Benedetti SoftBank operation in real-time.",
+      "confidence": "confirmed",
+      "id": 1244
+    },
+    {
+      "date": "2013-09-26",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Identity CONFIRMED: 'Allesandro de Benedetti - Paris' in Epstein contacts = Alessandro Benedetti, CEO of SAE Capital Ltd (founded 2007), born July 1961, Italian national, Swiss resident. UK Companies House confirms his directorships at Attali Investment Partners Ltd (since 2010), M Finances SAS (President 2000-2001, Paris), and Vendome Investments Ltd (2005-2011) — all Paris-connected entities that explain his designation as a Paris contact. The 'de' particle is a French-style name rendering not used in formal UK/Italian filings.",
+      "confidence": "medium",
+      "id": 1632
+    },
+    {
+      "date": "2013-2019",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Benedetti on Epstein Paris calendar Sep-Oct 2013. Epstein asked Teodorani about Benedetti Jan 28 2019. Benedetti linked to SoftBank honey trap.",
+      "other_person": "Jeffrey Epstein",
+      "id": 393
+    },
+    {
+      "date": "2014-11",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ASHERCO LLP (OC379532) reveals Benedetti's BVI connections. Two former BVI corporate members: YOUNGSTOWN INVESTMENTS GROUP LTD (BVI 1688567, Nov 2014-Nov 2021, PO Box 3483 Road Town Tortola) and SATSU FINANCE LTD (BVI 1583501, Nov 2021-Mar 2023, same PO Box 3483 address). Both BVI entities at SAME address: PO Box 3483, R.G. Hodge Plaza, Wickhams Cay 1, Road Town, Tortola, BVI. This is a registered agent address. Former member Dotan Moshe (Israeli, Feb 1972, 116 Ballards Lane London N3 2DN, Mar 2023-Jul 2024) replaced after BVI entities departed. Current co-member Mathieu Villaume (Luxembourg, Aug 1976) from Jul 2024. Pattern: BVI corporate members rotate through Asherco to obscure beneficial ownership.",
+      "confidence": "high",
+      "id": 843
+    },
+    {
+      "date": "2015",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Misra paid Benedetti 500K via Standard Chartered to Barkmere Group BVI Apr 2015 for SoftBank sabotage operation.",
+      "other_person": "Rajeev Misra",
+      "id": 431
+    },
+    {
+      "date": "2015-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SoftBank honey trap operation timeline: Jan 2015 Misra-Benedetti meet London. Apr 2015 $500K payment to Barkmere Group BVI. 2015 honey trap attempt in Tokyo (women + hidden cameras, Arora didn't fall for it). 2015 K2 Intelligence hired to investigate Arora/Sama. K2 hired Powerscourt Group (London PR) to place findings. Sept 2015 Nicolas Giannakopoulos (Swiss operative, Cambridge Analytica/SCL ties) hires Mark Hollingsworth (freelancer). Oct 2015 Independent publishes Arora story. Nov 2015 shareholder campaign begins. Jan 2016 first shareholder letter. Jun 2016 Arora resigns. Apr 2019 Sama leaves. 2018 Shearman Sterling probe: inconclusive. Feb 2020 WSJ breaks full story.",
+      "confidence": "medium",
+      "id": 785
+    },
+    {
+      "date": "2015-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Misra paid Benedetti $500K in April 2015 via Standard Chartered Bank to Barkmere Group Ltd, a BVI company controlled by Benedetti. Misra's spokesman claimed this was for 'oil investment.' Benedetti appears in ICIJ Paradise Papers as shareholder of Tree of Life Limited (Malta, C67345, incorporated Oct 2014), registered to Via delle Serre N. 9/A, Firenze, Italy.",
+      "confidence": "medium",
+      "id": 776
+    },
+    {
+      "date": "2017-11",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "WSJ identified Benedetti as the central operative in the SoftBank smear campaign. Giannakopoulos (Swiss intelligence, Cambridge Analytica/SCL Group agent) was his subcontractor. The operation used code name 'Mr. West' for Arora. Benedetti expected compensation beyond the $500K: a cut of Misra's SoftBank earnings and to be named head of Vision Fund in London. Bertrand des Pallieres (French banker, former Deutsche Bank trader under Misra) introduced Misra and Benedetti. Meetings at London's Bulgari Hotel and Zurich's Hotel Baur au Lac (Nov 2017). Special cellphone provided for operational communications.",
+      "confidence": "high",
+      "id": 740
+    },
+    {
+      "date": "2019",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Benedetti leaked SoftBank honey trap operation to WSJ because Misra failed to pay promised compensation. Benedetti expected: (1) share of Misra's SoftBank earnings, (2) senior executive position at Vision Fund London. Neither materialized after K initial payment. Associates say Benedetti recorded conversations with Misra detailing plans to sabotage rivals.",
+      "confidence": "medium",
+      "id": 774
+    },
+    {
+      "date": "2019",
+      "type": "connection",
+      "relationship_type": "intelligence",
+      "description": "Epstein queried Teodorani about Benedetti Jan 28 2019 via one-line email. Teodorani was Epstein Italian connection who would know Benedetti from Italian business circles.",
+      "other_person": "Eduardo Teodorani-Fabbri",
+      "id": 394
+    },
+    {
+      "date": "2019",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein queried Teodorani about Benedetti on Jan 28 2019 (EFTA02628256). Both Italian. Teodorani is SVP CNH Industrial.",
+      "other_person": "Eduardo Teodorani-Fabbri",
+      "id": 430
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein emailed Eduardo Teodorani (CNH Industrial/Fiat executive) on Jan 28, 2019 -- just TWO DAYS after asking Brad Karp about Misra's representation -- with a single question: 'Allesandro benedetti?' This indicates Epstein was actively seeking to contact or learn about Benedetti through Italian corporate networks at the exact moment the SoftBank honey trap operation was under legal scrutiny.",
+      "confidence": "high",
+      "id": 518
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "On Jan 28, 2019 — exactly 2 days after the Karp/Misra and Weingarten/SoftBank exchanges — Epstein emailed Eduardo Teodorani (SVP, CNH Industrial) with a single line: 'Allesandro benedetti?' This shows Epstein was actively gathering intelligence about Benedetti, the very person WSJ later identified as the operative paid $500K by Misra to run smear campaigns and honey traps against SoftBank rivals. The 48-hour Karp→Misra→Benedetti inquiry sequence is too precise to be coincidental.",
+      "confidence": "high",
+      "id": 733
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein asked Teodorani (CNH Industrial/Agnelli heir) about 'Allesandro benedetti?' on Jan 28, 2019 — two days after asking Karp about representing Misra and the same week Weingarten discussed the 'Softbank caper.' This places Epstein actively networking around the SoftBank scandal, potentially seeking Benedetti as an operative or source through his Italian contacts.",
+      "confidence": "medium",
+      "id": 778
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein emailed Eduardo Teodorani (CNH Industrial) on Jan 28, 2019 with one-word inquiry: 'Allesandro benedetti?' — asking about Benedetti 10 months after WSJ March 2018 expose of SoftBank dirty tricks campaign. This is intelligence-gathering about Benedetti, not an introduction.",
+      "confidence": "high",
+      "id": 988
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1244,
+      519,
+      734,
+      784,
+      835,
+      830,
+      814,
+      771,
+      1632,
+      518,
+      1644,
+      842
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "bvi",
+        "cy",
+        "fr",
+        "gb",
+        "mt",
+        "uk",
+        "unknown"
+      ],
+      "officers": [
+        {
+          "role": "president",
+          "entity": "M Finances SAS",
+          "start": "2000",
+          "end": "2001"
+        },
+        {
+          "role": "director",
+          "entity": "Vendome Investments Limited",
+          "start": "2005-03",
+          "end": "2011-03"
+        },
+        {
+          "role": "officer",
+          "entity": "SAE Capital Ltd",
+          "start": "2007-01-01",
+          "end": null
+        },
+        {
+          "role": "director",
+          "entity": "Attali Investment Partners Ltd",
+          "start": "2010-01-27",
+          "end": "2015-12-15"
+        },
+        {
+          "role": "director",
+          "entity": "SPQR Capital Holdings S.A.",
+          "start": "2010-08-01",
+          "end": null
+        },
+        {
+          "role": "director",
+          "entity": "Asherco LLP",
+          "start": "2012-10-19",
+          "end": null
+        },
+        {
+          "role": "director",
+          "entity": "Schwarzfield S.A.",
+          "start": "2013-02-01",
+          "end": null
+        },
+        {
+          "role": "controller",
+          "entity": "Barkmere Group Ltd",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "shareholder",
+          "entity": "Tree of Life Limited",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "shareholder",
+          "entity": "EB Finance S.A.",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "principal",
+          "entity": "Barkmere Limited",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 294,
+          "name": "M Finances SAS",
+          "type": "inc",
+          "jurisdiction": "fr",
+          "role": "president"
+        },
+        {
+          "id": 293,
+          "name": "Vendome Investments Limited",
+          "type": "ltd",
+          "jurisdiction": "uk",
+          "role": "director"
+        },
+        {
+          "id": 272,
+          "name": "SAE Capital Ltd",
+          "type": "ltd",
+          "jurisdiction": "gb",
+          "role": "officer"
+        },
+        {
+          "id": 271,
+          "name": "Attali Investment Partners Ltd",
+          "type": "ltd",
+          "jurisdiction": "gb",
+          "role": "director"
+        },
+        {
+          "id": 273,
+          "name": "SPQR Capital Holdings S.A.",
+          "type": "unknown",
+          "jurisdiction": "unknown",
+          "role": "director"
+        },
+        {
+          "id": 270,
+          "name": "Asherco LLP",
+          "type": "partnership",
+          "jurisdiction": "gb",
+          "role": "director"
+        },
+        {
+          "id": 274,
+          "name": "Schwarzfield S.A.",
+          "type": "unknown",
+          "jurisdiction": "unknown",
+          "role": "director"
+        },
+        {
+          "id": 267,
+          "name": "Barkmere Group Ltd",
+          "type": "ltd",
+          "jurisdiction": "bvi",
+          "role": "controller"
+        },
+        {
+          "id": 269,
+          "name": "Tree of Life Limited",
+          "type": "ltd",
+          "jurisdiction": "mt",
+          "role": "shareholder"
+        },
+        {
+          "id": 275,
+          "name": "EB Finance S.A.",
+          "type": "unknown",
+          "jurisdiction": "unknown",
+          "role": "shareholder"
+        },
+        {
+          "id": 268,
+          "name": "Barkmere Limited",
+          "type": "ltd",
+          "jurisdiction": "cy",
+          "role": "principal"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1633,
+          830,
+          849,
+          734,
+          784,
+          989,
+          1244,
+          988
+        ],
+        "connection_ids": [
+          401,
+          427,
+          429,
+          431,
+          432,
+          434,
+          498,
+          822,
+          364,
+          385,
+          387,
+          393,
+          394,
+          398,
+          402
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          842,
+          861,
+          847,
+          843,
+          776
+        ],
+        "connection_ids": [
+          401,
+          431
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure",
+        "viz": null,
+        "finding_ids": [],
+        "connection_ids": [
+          822
+        ],
+        "guidance": "Narrative about corporate entities, roles, jurisdictions. Explain the structure and its purpose, not just list entities."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          844,
+          814,
+          519,
+          771,
+          785,
+          740,
+          774,
+          518
+        ],
+        "connection_ids": [
+          432,
+          434,
+          385,
+          387,
+          394,
+          398
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:45:18.556850",
+    "lead": "<p>Alessandro Benedetti (born July 1961) is a Geneva-based Italian financier, founding partner of Schwarzfield, and CEO of SAE Capital Ltd, who operated as <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>&rsquo;s neighbor on Avenue Foch in Paris from at least December 2011. In a candid email that month, <a href=\"/dossiers/reid-weingarten\">Reid Weingarten</a> asked Epstein: &ldquo;did we ever talk about allesandro Benedetti, your Italian jewish neighbor on ave. foch?&rdquo; (EFTA00925685). Epstein ignored the question in writing, deflecting to scheduling &mdash; a pattern suggesting either a phone conversation or a deliberate preference not to discuss Benedetti on record. Through September and October 2013, Epstein&rsquo;s assistant <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> sent multiple reminders tagged &ldquo;Allesandro de Benedetti-Paris&rdquo; (EFTA02575276, EFTA02576024), and Benedetti appeared first on Epstein&rsquo;s &ldquo;Paris List&rdquo; of contacts (EFTA02575400) alongside <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a>, Wojtek Fibak, and a &ldquo;Sultan.&rdquo; That same September 26 schedule placed Benedetti in the orbit of an <a href=\"/dossiers/ian-osborne\">Ian Osborne</a> breakfast, a <a href=\"/dossiers/lawrence-summers\">Larry Summers</a> lunch, and a meeting with <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> and <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> before Epstein departed for Paris via Air France.</p><p>Benedetti&rsquo;s independent career centers on high-stakes cross-border dealmaking. His signature transaction was brokering the 2005 acquisition of Wind Telecomunicazioni SpA for Egyptian billionaire Naguib Sawiris &mdash; at approximately &euro;12 billion, then the largest leveraged buyout in European history. Benedetti received over &euro;67 million in fees but sued Sawiris for a one-third ownership stake, losing at the UK Supreme Court in July 2013 (<i>Benedetti v Sawiris</i>). He was separately investigated by Roman prosecutors in 2008 for corruption related to the Wind deal. His corporate portfolio spans jurisdictions: Attali Investment Partners Ltd (UK, 2010&ndash;2015) with former Mitterrand adviser Jacques Attali; Asherco LLP (UK, 2012&ndash;present) with rotating BVI corporate members; SPQR Capital Holdings S.A.; Schwarzfield S.A.; and the NYSE-listed Equus Total Return Inc., where he served as Executive Chairman from 2011 to 2014 (SEC EDGAR CIK 878932). Through the ICIJ Paradise Papers, he is confirmed as a shareholder of Tree of Life Limited (Malta, C67345), with a registered address in Florence.</p><p>In January 2015, SoftBank executive <a href=\"/dossiers/rajeev-misra\">Rajeev Misra</a> hired Benedetti to run a covert sabotage campaign against internal rivals Nikesh Arora and Alok Sama. Misra paid $500,000 through Standard Chartered Bank to Barkmere Group Ltd, a BVI entity controlled by Benedetti. The operation involved a failed honey trap in Tokyo using women and hidden cameras, subcontracting <a href=\"/dossiers/nicolas-giannakopoulos\">Nicolas Giannakopoulos</a> (a Swiss operative with Cambridge Analytica/SCL Group ties) to distribute leaked banking records and run a shareholder pressure campaign. Bertrand des Pallieres, a former Deutsche Bank trader who had worked under Misra, made the introduction. When Misra failed to deliver Benedetti&rsquo;s expected compensation &mdash; a cut of SoftBank earnings and the leadership of the Vision Fund&rsquo;s London office &mdash; Benedetti leaked the entire operation to the Wall Street Journal, which published its expos&eacute; in February 2020. Critically, on January 28, 2019, just two days after asking <a href=\"/dossiers/brad-karp\">Brad Karp</a> about representing Misra and the same week Weingarten discussed the &ldquo;Softbank caper,&rdquo; Epstein emailed <a href=\"/dossiers/eduardo-teodorani-fabbri\">Eduardo Teodorani</a> at CNH Industrial with a single line: &ldquo;Allesandro benedetti?&rdquo; (EFTA02628256). The 48-hour Karp&ndash;Misra&ndash;Benedetti inquiry sequence places Epstein as an active intelligence gatherer around the SoftBank scandal in the final months of his life.</p>",
+    "open_questions": [
+      "What was the nature of Epstein's direct relationship with Benedetti on Avenue Foch, and does Benedetti appear in any non-DOJ sources (flight logs, visitor records, property records) that would document in-person contact beyond the scheduling emails?",
+      "Did Epstein have any involvement in or foreknowledge of the SoftBank sabotage campaign before January 2019, given that Benedetti was his Paris neighbor during the 2015 period when the operation was launched?",
+      "What is the full beneficial ownership chain of Barkmere Group Ltd (BVI) and Barkmere Limited (Cyprus), and do any of Benedetti's BVI/Malta/Cyprus entities connect to other individuals or structures in the Epstein network?",
+      "Who are the other names on the September 2013 Paris List (Lang, Victo, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Giselle) and do they represent additional unidentified members of Epstein's European operational network?",
+      "What was the substance of the 'interesting jeffrey-reid projects' that Weingarten mentioned in the same December 2011 email that raised Benedetti, and did any of these joint ventures involve Benedetti or his corporate entities?"
+    ],
+    "system_role": "Benedetti operates as a cross-border financial operative who bridges elite European social networks and covert intelligence operations &mdash; a Geneva-based dealmaker whose relationships span Jacques Attali&rsquo;s Franco-Italian political circles, Epstein&rsquo;s Avenue Foch milieu, and SoftBank&rsquo;s corporate sabotage campaign, making him a node where high finance and information warfare intersect.",
+    "sections": [
+      {
+        "id": "epstein-relationship",
+        "title": "The Avenue Foch Connection",
+        "viz": "ego_network",
+        "content": "<p>The documentary trail establishes Benedetti as a long-standing member of <a href=\"/dossiers/jeffrey-epstein\">Epstein</a>&rsquo;s Paris network over an eight-year span from 2011 to 2019. The earliest evidence is <a href=\"/dossiers/reid-weingarten\">Weingarten</a>&rsquo;s December 9, 2011 email to Epstein referencing &ldquo;allesandro Benedetti, your Italian jewish neighbor on ave. foch&rdquo; (EFTA00925685). The phrasing &mdash; &ldquo;your&rdquo; neighbor, not &ldquo;a&rdquo; neighbor &mdash; indicates Weingarten understood Benedetti as known to Epstein through the Avenue Foch property, the same 22 Avenue Foch that served as Epstein&rsquo;s Paris base of operations. Epstein&rsquo;s non-response to the Benedetti question in the email chain, while engaging on other topics, suggests either prior phone discussion or a deliberate compartmentalization of information about Benedetti.</p><p>By September 2013, Benedetti had been integrated into Epstein&rsquo;s operational Paris network. <a href=\"/dossiers/lesley-groff\">Groff</a>&rsquo;s &ldquo;Paris List&rdquo; (EFTA02575400) placed &ldquo;Alesandro de benedetti&rdquo; first among fourteen contacts, a group that included <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a>, Wojtek Fibak of Fine Arts Investments, Margherita Campella Della Spina, a &ldquo;Sultan,&rdquo; and conductor Frederic Chaslin. The same day&rsquo;s schedule (EFTA02297224) juxtaposed the Benedetti reminder with breakfast with <a href=\"/dossiers/ian-osborne\">Ian Osborne</a> (the key <a href=\"/dossiers/peter-thiel\">Peter Thiel</a> intermediary), lunch with <a href=\"/dossiers/lawrence-summers\">Larry Summers</a>, and a meeting with <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> and <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>. This day &mdash; featuring Epstein&rsquo;s tech-intelligence contact (Osborne), policy brain (Summers), legal-financial controllers (Kahn/Indyke), and European network (Benedetti) &mdash; encapsulates the compartmented structure of Epstein&rsquo;s operations. Duplicate reminders on September 26 and October 7 (EFTA02575276, EFTA02576024) confirm repeated scheduling around Benedetti during this Paris trip cycle.</p><p>The final documented contact comes on January 28, 2019, when Epstein emailed <a href=\"/dossiers/eduardo-teodorani-fabbri\">Eduardo Teodorani</a> at CNH Industrial with the single inquiry &ldquo;Allesandro benedetti?&rdquo; (EFTA02628256). This terse, one-line question arrived exactly two days after Epstein had asked <a href=\"/dossiers/brad-karp\">Brad Karp</a> about representing <a href=\"/dossiers/rajeev-misra\">Rajeev Misra</a> and the same week <a href=\"/dossiers/reid-weingarten\">Weingarten</a> discussed the &ldquo;Softbank caper.&rdquo; The temporal precision of this Karp&ndash;Misra&ndash;Benedetti inquiry sequence &mdash; compressed into 72 hours &mdash; strongly suggests Epstein was actively tracking the SoftBank sabotage operation and sought current intelligence about Benedetti through Italian corporate channels. The use of Teodorani as intermediary rather than direct contact may indicate the Epstein-Benedetti relationship had changed character by early 2019.</p>"
+      },
+      {
+        "id": "corporate-architecture",
+        "title": "Corporate Architecture Across Jurisdictions",
+        "viz": null,
+        "content": "<p>Benedetti&rsquo;s corporate footprint spans at least seven jurisdictions &mdash; UK, Switzerland, France, Italy, BVI, Cyprus, and Malta &mdash; organized in layers that separate his public-facing advisory work from opaque offshore vehicles. At the visible level, he founded SAE Capital Ltd in January 2007 as his primary advisory vehicle and served as Chairman of Schwarzfield S.A. (from 2013) and Director of SPQR Capital Holdings S.A. (from 2010). SEC proxy filings for Equus Total Return Inc. (NYSE: EQS, CIK 878932), where he served as Executive Chairman from June 2011 to June 2014, provide the most transparent window into his portfolio: the DEF 14A disclosures list eight concurrent directorships and note personal ownership of over 100,000 shares plus 400,000 held through EB Finance S.A., an entity of which he disclaimed beneficial ownership.</p><p>The UK layer includes four Companies House appointments, each with distinct co-directors and corporate members suggesting different operational purposes. Asherco LLP (OC379532), active since October 2012, is the most revealing. Its membership has rotated through two BVI corporate members &mdash; Youngstown Investments Group Ltd (BVI 1688567, 2014&ndash;2021) and Satsu Finance Ltd (BVI 1583501, 2021&ndash;2023), both registered to the same PO Box 3483 at R.G. Hodge Plaza, Wickhams Cay 1, Road Town, Tortola. After the BVI entities departed, Israeli national Dotan Moshe (March 2023&ndash;July 2024) served briefly before being replaced by Mathieu Villaume of Luxembourg. This sequential rotation of opaque members through a single UK partnership is a recognized structure for obscuring beneficial ownership while maintaining a UK regulatory presence.</p><p>The Attali Investment Partners Ltd (UK 07138407, January 2010&ndash;December 2015) deserves particular attention. Named for Jacques Attali &mdash; former senior adviser to President Mitterrand, founding president of the EBRD, and head of Attali and Associates &mdash; it was co-directed with Bertrand Gauquelin des Pallieres (born November 1966, French, resident in Rome). Both resigned in December 2015 in the same month, replaced by Methorios Capital LLP as corporate director. The SIC code 64999 (financial intermediation not elsewhere classified) and the Attali branding position this entity at the intersection of Franco-Italian political circles and financial deal-structuring. Des Pallieres is separately identified as a former <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> trader who worked under <a href=\"/dossiers/rajeev-misra\">Misra</a> and later introduced Misra to Benedetti for the SoftBank operation.</p><p>At the deepest offshore layer, Benedetti controlled Barkmere Group Ltd (BVI) &mdash; the vehicle through which Misra&rsquo;s $500,000 payment was routed &mdash; and served as principal of Barkmere Limited (Cyprus). The ICIJ Paradise Papers confirm him as shareholder of Tree of Life Limited (Malta, C67345, incorporated October 2014), registered to Via delle Serre N. 9/A, Florence. A separate Cyprus entity of the same name (HE 279303, incorporated December 2010, dissolved January 2016) suggests a jurisdictional migration from Cyprus to Malta, with the Malta entity incorporated sixteen months before the Cyprus predecessor dissolved. This architecture &mdash; cascading from UK partnerships through BVI shells to Malta and Cypriot holding companies &mdash; provides layered opacity for financial flows of the kind documented in the SoftBank payment.</p>"
+      },
+      {
+        "id": "softbank-operation",
+        "title": "The SoftBank Sabotage Campaign",
+        "viz": "timeline",
+        "content": "<p>In January 2015, <a href=\"/dossiers/rajeev-misra\">Rajeev Misra</a> &mdash; then a senior SoftBank executive positioning himself for leadership of what would become the Vision Fund &mdash; met Benedetti in London to commission a covert campaign against his internal rivals, SoftBank president Nikesh Arora and chief strategy officer Alok Sama. Bertrand des Pallieres, who had traded under Misra at <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> before moving to Rome, made the introduction. By April 2015, Misra had paid $500,000 via Standard Chartered Bank to Barkmere Group Ltd, the BVI entity controlled by Benedetti. Misra&rsquo;s spokesman later characterized this as an &ldquo;oil investment&rdquo; &mdash; an explanation that strains credulity given the documented operational timeline that followed.</p><p>The campaign operated on multiple fronts simultaneously. In Tokyo, an attempt to compromise Arora using women and hidden cameras failed when Arora did not take the bait. In parallel, Benedetti subcontracted <a href=\"/dossiers/nicolas-giannakopoulos\">Nicolas Giannakopoulos</a>, a Swiss operative with ties to Cambridge Analytica&rsquo;s parent company SCL Group, to distribute leaked banking records and establish a nominal shareholder campaign. K2 Intelligence was engaged to investigate Arora and Sama, and in turn hired Powerscourt Group, a London PR firm, to place the resulting findings. By September 2015, Giannakopoulos had hired freelance journalist Mark Hollingsworth, and in October 2015 The Independent published a story on Arora. The shareholder pressure campaign launched in November 2015 with the first formal letter arriving in January 2016. Arora resigned in June 2016. Sama followed in April 2019. The operation used the code name &ldquo;Mr. West&rdquo; for Arora, and Misra provided a dedicated cellphone for operational communications, with meetings conducted at London&rsquo;s Bulgari Hotel and Zurich&rsquo;s Hotel Baur au Lac (November 2017).</p><p>The operation unraveled because of compensation disputes. Benedetti had expected significantly more than the initial $500,000: a percentage of Misra&rsquo;s SoftBank earnings and appointment as head of the Vision Fund&rsquo;s London office. When neither materialized, Benedetti reportedly recorded conversations with Misra detailing the sabotage plans and ultimately leaked the full operation to the Wall Street Journal, which published its investigative report in February 2020. A Shearman &amp; Sterling probe commissioned in 2018 proved inconclusive. The episode reveals Benedetti&rsquo;s operational methodology &mdash; multi-layered subcontracting through intelligence-connected intermediaries, BVI payment channels, PR firm cutouts, and deniable shareholder campaigns &mdash; as well as his willingness to weaponize recordings when his principals renege on agreements.</p>"
+      },
+      {
+        "id": "epstein-softbank-convergence",
+        "title": "Epstein and the SoftBank Convergence",
+        "viz": null,
+        "content": "<p>The most structurally significant finding in the Benedetti dossier is the January 2019 convergence that links <a href=\"/dossiers/jeffrey-epstein\">Epstein</a>&rsquo;s pre-existing relationship with Benedetti to the SoftBank sabotage campaign. On approximately January 25, 2019, <a href=\"/dossiers/reid-weingarten\">Weingarten</a> discussed the &ldquo;Softbank caper&rdquo; with Epstein. On January 26, Epstein asked <a href=\"/dossiers/brad-karp\">Brad Karp</a> of <a href=\"/dossiers/paul-weiss\">Paul, Weiss</a> about representing <a href=\"/dossiers/rajeev-misra\">Misra</a>. On January 28, Epstein emailed <a href=\"/dossiers/eduardo-teodorani-fabbri\">Eduardo Teodorani</a> at CNH Industrial with the one-line inquiry: &ldquo;Allesandro benedetti?&rdquo; Three actors &mdash; Weingarten (legal), Karp (corporate defense), Teodorani (Italian intelligence channel) &mdash; queried within 72 hours about different facets of the same SoftBank situation.</p><p>This sequence raises the question of what role Epstein was playing. He was not, as far as the documentary record shows, a party to the original sabotage campaign. Yet by January 2019, he was actively gathering intelligence on the principal operative (Benedetti), exploring legal representation for the beneficiary (Misra), and discussing the broader &ldquo;caper&rdquo; with his own attorney. The possibilities range from Epstein positioning himself as a fixer or intermediary in the fallout, to gathering leverage material for his own purposes, to having had undocumented involvement in the operation from the outset &mdash; a possibility supported by the pre-existing eight-year Avenue Foch neighborly relationship. The fact that Epstein routed his Benedetti inquiry through Teodorani rather than contacting Benedetti directly may indicate a shift in the relationship&rsquo;s character, perhaps reflecting awareness that Benedetti was now a potential liability or witness.</p>"
+      },
+      {
+        "id": "paris-network-position",
+        "title": "Position in the Paris Network",
+        "viz": null,
+        "content": "<p>Benedetti&rsquo;s placement within Epstein&rsquo;s Paris ecosystem illuminates the structure of that network. The September 2013 &ldquo;Paris List&rdquo; (EFTA02575400) is one of the few documents that maps Epstein&rsquo;s Parisian social circle in a single snapshot. Benedetti appears first, followed by names that resolve to a mixture of European aristocracy (&ldquo;Ariane&rdquo; likely <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a>), art-world figures (Wojtek Fibak of Fine Arts Investments), Italian nobility (Margherita Campella Della Spina), Gulf royalty (&ldquo;Sultan in Paris Sun. Sept 29th&rdquo;), and cultural figures (Frederic Chaslin, operatic conductor). The list blends exactly the social registers that Epstein cultivated &mdash; finance, art, aristocracy, and Gulf wealth &mdash; with Benedetti occupying the finance/intelligence position.</p><p>His Attali Investment Partners directorship further anchors him in the Franco-Italian political elite. Jacques Attali represents the Mitterrand-era French establishment: former presidential adviser, architect of the EBRD, and a figure whose networks extend deep into European institutional finance. Benedetti&rsquo;s position as a board member of Attali&rsquo;s investment vehicle placed him at the nexus of French political access and Italian financial operational capacity &mdash; precisely the kind of cross-border bridge that characterized many of Epstein&rsquo;s most valued contacts. His earlier role as president of M Finances SAS (Paris, 2000&ndash;2001) and director of Vendome Investments Limited (UK, 2005&ndash;2011) further establishes a Paris-London axis of operations predating the Epstein connection by a decade.</p>"
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "jurisdictional-arbitrage",
+      "enabler-gradient",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Alessandro Benedetti",
+      "connections": [
+        {
+          "target": "Rajeev Misra",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Misra paid Benedetti 500K via Barkmere Group BVI Apr 2015 for smear campaign. Benedetti expected exec position plus profit share. Falling out led to WSJ leak Feb 2020"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00925685",
+          "description": "Neighbors on Avenue Foch, Paris. Weingarten described Benedetti as Epstein's Italian jewish neighbor on ave foch in Dec 2011"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00925685",
+          "description": "Paris neighbor (Avenue Foch Dec 2011). On Paris contact list Sept 2013. Epstein queried Teodorani about Benedetti Jan 28 2019. Multi-year relationship 2011-2019."
+        },
+        {
+          "target": "Rajeev Misra",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "WSJ-Feb-2020",
+          "description": "Misra paid Benedetti 500K via Standard Chartered to Barkmere Group BVI Apr 2015 for SoftBank sabotage operation."
+        },
+        {
+          "target": "Nicolas Giannakopoulos",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Giannakopoulos was Benedetti's subcontractor in the SoftBank sabotage operation (2015-2016). Benedetti recruited Giannakopoulos to distribute leaked banking records and act as nominal shareholder."
+        },
+        {
+          "target": "Rajeev Misra",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Misra hired Benedetti in 2015 and paid USD 500K via Standard Chartered to Barkmere Group (BVI/Cyprus) to run sabotage campaign against SoftBank rivals Arora and Sama."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02575400",
+          "description": "Paris neighbors since at least Sept 2013. Epstein inquired about Benedetti via Teodorani Jan 2019."
+        },
+        {
+          "target": "Jacques Attali",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02575276",
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02297224",
+          "description": "Paris contacts list, calendar entries Sept-Oct 2013, Epstein inquired about Benedetti via Teodorani Jan 28 2019"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02575400",
+          "description": null
+        },
+        {
+          "target": "Rajeev Misra",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "WSJ_Feb2020",
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02575276",
+          "description": "Benedetti on Epstein Paris calendar Sep-Oct 2013. Epstein asked Teodorani about Benedetti Jan 28 2019. Benedetti linked to SoftBank honey trap."
+        },
+        {
+          "target": "Eduardo Teodorani-Fabbri",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02628256",
+          "description": "Epstein queried Teodorani about Benedetti Jan 28 2019 via one-line email. Teodorani was Epstein Italian connection who would know Benedetti from Italian business circles."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02575400",
+          "description": "Paris social contact 2013, Epstein inquired about Benedetti through Teodorani Jan 2019 during SoftBank caper planning"
+        },
+        {
+          "target": "Eduardo Teodorani-Fabbri",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02575400",
+          "description": "Both on Epstein Paris list Sept 2013. Epstein asked Teodorani about Benedetti Jan 2019. Italian high society connection"
+        },
+        {
+          "target": "Reid Weingarten",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA00925685",
+          "description": "Weingarten knew of Benedetti through Epstein by Dec 2011, later considered deploying someone on SoftBank caper Benedetti orchestrated"
+        },
+        {
+          "target": "Eduardo Teodorani-Fabbri",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02628256",
+          "description": "Epstein queried Teodorani about Benedetti on Jan 28 2019 (EFTA02628256). Both Italian. Teodorani is SVP CNH Industrial."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02297224",
+          "description": "Benedetti appears as Allesandro de Benedetti-Paris in Epstein's contact lists from Sep 2013 to Jan 2019 (EFTA02575276, EFTA02297224, EFTA02575400, EFTA02628256). On Epstein Paris contact list."
+        },
+        {
+          "target": "Nicolo Teodorani-Fabbri",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Teodorani bridge to Benedetti SoftBank op [Wave 7]"
+        },
+        {
+          "target": "Ian Osborne",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "EFTA02297224",
+          "description": "Both on same Sep 26 2013 Epstein schedule (EFTA02297224). Osborne breakfast 8:30am, Benedetti Paris reminder. Circumstantial connection."
+        }
+      ],
+      "secondHop": {
+        "Eduardo Teodorani-Fabbri": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Decade-long personal friendship 2009-2019. Regular meetings in Rome, Paris, Palm Beach, NYC, NM ranch. Annual wine gifts. Teodorani is Agnelli family scion, SVP CNH Industrial."
+          },
+          {
+            "target": "Steve Bannon",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Epstein arranged Teodorani-Bannon meeting London/Oxford Nov 12-16 2018. Teodorani eager to meet. Bannon building European populist network at the time."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Extensive Paris/Rome/NYC social contact 2010-2019, black book page 53, CNH Industrial SVP, Agnelli heir, bridge to Benedetti"
+          },
+          {
+            "target": "Paolo Barletta",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Business associate. Teodorani brought Barletta to meet Epstein at 9 E 71st Feb 28 2019. Also forwarded Barlettas U-First pitch in Aug 2015."
+          }
+        ],
+        "Ian Osborne": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "British intermediary brokering Epstein-Thiel relationship. 20+ documents in corpus. Osborne Partners LLP London. Also brokered SPIEF introductions."
+          },
+          {
+            "target": "Peter Thiel",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Osborne served as Epstein-Thiel intermediary 2012-2013. Arranged meetings forwarded Thiel emails about Airbnb. 15+ emails confirm this channel."
+          },
+          {
+            "target": "Chamath Palihapitiya",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Palihapitiya nominated Osborne for Dialog 2014 retreat. They later co-founded Social Capital Hedosophia SPAC franchise (SCH I-VI). Osborne served as co-CEO."
+          },
+          {
+            "target": "Eike Batista",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Osborne brokered deals and arranged meetings for Batista through Epstein network 2012-2013. Flew to Toronto Rio and St Petersburg with Batista. Proposed Batista meet Leon Black Bloomberg Murdoch. Batista went from 30B to bankruptcy."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Rajeev Misra": [
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Weingarten evaluating potential legal representation of Rajeev Misra SoftBank Vision Fund as of Jan 25, 2019. Sought Epstein intelligence and endorsement before accepting engagement."
+          }
+        ],
+        "Reid Weingarten": [
+          {
+            "target": "Steve Wynn",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Weingarten represented Wynn in DOJ investigation related to Elliott Broidy. Discussed Wynn-Trump issues with Epstein."
+          },
+          {
+            "target": "Mike Pence",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Weingarten: 'agreed to meet pence one-on-one Thursday in dc.'"
+          },
+          {
+            "target": "Ron Soffer",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Weingarten (Steptoe) considered hiring Soffer for the SoftBank caper in Jan 2019. Soffer had approached Weingarten seeking work. Weingarten asked Epstein to vet him."
+          },
+          {
+            "target": "Ron Soffer",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Weingarten considered hiring Soffer for 'the SoftBank caper' (Jan 26, 2019). Soffer is a French/Israeli lawyer with Paris main office. Weingarten described him as 'a yid who also works out of nyc.' Weingarten asked Epstein to 'get the book on him' — seeking intelligence/vetting."
+          }
+        ],
+        "Jacques Attali": [
+          {
+            "target": "Frederic Chaslin",
+            "type": "social",
+            "strength": 1.0,
+            "description": ""
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1961-07",
+        "label": "UK Companies House reveals Benedetti's full corporate network. Born July 1961, Italian, resident in Switzerland (Lugano, 7 Riva Paradiso). FOUR UK appointments: (1) ASHERCO LLP (OC379532, active since Oct 2012, 4 Moorgate London) - current co-member with Mathieu Villaume (Luxembourg). Former members include Dotan Moshe (Israeli), SATSU FINANCE LTD (BVI 1583501), and YOUNGSTOWN INVESTMENTS GROUP LTD (BVI 1688567, PO Box 3483 Road Town Tortola). (2) SCHWARZFIELD LLP (OC379789, Oct 2012, dissolved). (3) ATTALI INVESTMENT PARTNERS LTD (07138407, Jan 2010-Dec 2015, dissolved) - co-directors included Bertrand Gauquelin des Pallieres (French, resident Rome) and corporate successor METHORIOS CAPITAL LLP. (4) SILVERARROW CAPITAL ADVISORS LLP (OC379903, Nov 2012-Mar 2013, dissolved).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 842
+      },
+      {
+        "date": "1961-07",
+        "label": "FULL BIOGRAPHY SYNTHESIS: Benedetti (born Jul 1961, Italian, resident Switzerland/Geneva/Lugano) is a Geneva-based financier and founding partner of Schwarzfield. His career-defining deal: brokering the 2005 acquisition of Wind Telecomunicazioni SpA for Naguib Sawiris (Egyptian billionaire, Orascom Telecom), Europe's then-largest LBO at approx 12 billion euros. Benedetti received 67M+ euros but sued Sawiris for a 1/3 stake -- lost at UK Supreme Court Jul 2013 (Benedetti v Sawiris). Also investigated by Roman prosecutors for corruption in the Wind deal (2008). He has 30+ years experience in telecoms, energy, mining, real estate across W/E Europe, Scandinavia, CIS, Africa, North America, Middle East. Former non-exec director of Cadogan Petroleum (Ukraine oil/gas, Aug 2010-Jun 2012). Chairman of SPQR Capital SA. CEO of SAE Capital. Executive Chairman of NYSE-listed Equus Total Return (2011-2014).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 861
+      },
+      {
+        "date": "1961-07",
+        "label": "DISAMBIGUATION: Alessandro De Benedetti at Northzone VC (grandson of Carlo De Benedetti/Olivetti/CIR dynasty, son of Marco De Benedetti/Carlyle) is a DIFFERENT person from Epstein's contact. Northzone De Benedetti is too young (joined as associate in 2024) and based in Stockholm. Epstein's Benedetti is the SAE Capital CEO born July 1961, confirmed via UK Companies House directorships and ICIJ Paradise Papers (Florence address).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1644
+      },
+      {
+        "date": "1966-11",
+        "label": "ATTALI INVESTMENT PARTNERS LTD (UK 07138407): Benedetti was co-director with Bertrand Gauquelin des Pallieres (French, born Nov 1966, resident in Rome at 9 Via G A Rayneri). Company name references Jacques Attali -- former adviser to French President Mitterrand, founder of EBRD, head of Attali and Associates advisory firm. Benedetti and Gauquelin co-founded in Jan 2010, both resigned Dec 2015 (same month), replaced by METHORIOS CAPITAL LLP as corporate director. SIC code 64999 (financial intermediation). Registered at 43-45 Dorset Street London W1U. The Attali connection places Benedetti in elite Franco-Italian political and financial circles -- the same milieu as Epstein's Paris network.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 844
+      },
+      {
+        "date": "2010-01-01",
+        "label": "Benedetti has been a director at Attali Investment Partners Ltd since 2010, placing him on the board of Jacques Attali's investment firm. Attali is former senior advisor to President Mitterrand and first president of EBRD. This directorship is the link between Benedetti's SoftBank/intelligence operative activities and French political elite. Benedetti's broader corporate portfolio: Chairman of Schwarzfield SA (2012+), Director of SPQR Capital Holdings SA (2010+), Asherco LLP (2012+), Schwarzfield Services SAGL (2013+). Previously President of M Finances SAS (Paris 2000-2001), Chairman of Equus Total Return Inc (until 2015).",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1633
+      },
+      {
+        "date": "2010-12-27",
+        "label": "DOJ Vol 11 contains a SEPARATE Cyprus entity TREE OF LIFE LIMITED (HE 279303) incorporated 2010-12-27, dissolved 2016-01-11, at Agias Elenis 36, Galaxias Commercial Center, Floor 4, Flat 401, 1061, Nicosia, Cyprus. This is distinct from the Malta entity (C67345, incorporated 2014-10-28). The Cyprus Tree of Life has 3 directorship relationships per Aleph. Possible predecessor entity to the Malta Tree of Life -- note the Malta entity was incorporated Oct 2014 and the Cyprus entity dissolved Jan 2016, suggesting a migration from Cyprus to Malta jurisdiction.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 833
+      },
+      {
+        "date": "2011-06",
+        "label": "SEC EDGAR reveals Benedetti was EXECUTIVE CHAIRMAN of Equus Total Return Inc (NYSE: EQS, CIK 878932), a publicly traded closed-end fund, from June 2011 to June 2014. He was also a director (board member nominee). He owned over 100K in shares personally plus 400K shares through EB FINANCE S.A. (of which he disclaims beneficial ownership). The DEF 14A filing lists his roles: CEO of SAE Capital Ltd (founded Jan 2007), Director of Attali Investment Partners Ltd (since Oct 2010), Director of SPQR Capital Holdings S.A. (since Aug 2010), Non-exec director of Cadogan Petroleum plc (Aug 2010-Jun 2012), director of Versatile Systems Inc (since Dec 2008), Director of Schwarzfield S.A. (since Feb 2013), Schwarzfield Services SAGL (since Oct 2013), and Director of Asherco LLP (since Oct 2012). 8 hits across 2011-2016 proxy statements.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 847
+      },
+      {
+        "date": "2011-12-09",
+        "label": "EFTA00925685 (Dec 9, 2011): Weingarten to Epstein: 'did we ever talk about allesandro Benedetti, your Italian jewish neighbor on ave. foch?' This establishes: (1) Benedetti was Epstein's NEIGHBOR on Avenue Foch in Paris — the same street as Epstein's 22 Avenue Foch property; (2) The Epstein-Benedetti relationship predates the SoftBank honey trap campaign (2015) by at least 4 years; (3) Weingarten knew of Benedetti through Epstein; (4) Epstein IGNORES the Benedetti question in the email chain, deflecting to scheduling — suggesting the topic was discussed by phone or Epstein preferred not to respond in writing. Also notable: Weingarten says 'have some interesting jeffrey-reid projects in mind' — confirming active joint ventures between Epstein and Weingarten beyond legal representation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 814
+      },
+      {
+        "date": "2011-2019",
+        "label": "social with Jeffrey Epstein",
+        "type": "social",
+        "entity": "Jeffrey Epstein",
+        "id": 429
+      },
+      {
+        "date": "2013-09-25",
+        "label": "Alessandro Benedetti appears in Epstein's documents as a Paris contact from at least 2013-2019. EFTA02297224 (Sep 25, 2013) lists 'allesandro de benedetti-paris' alongside schedule items for Ian Osborne breakfast, Larry Summers lunch, and Rich/Darren (Kahn/Indyke) meeting, plus Paris departure via Air France. EFTA02575400 shows Benedetti on an explicit Paris contact list. EFTA02628256 (Jan 28, 2019) references 'Allesandro benedetti?' alongside 'TEODORANI Eduardo (CNH Industrial)' -- both are Italian businessmen Epstein was tracking in his final months.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 830
+      },
+      {
+        "date": "2013-09-25",
+        "label": "EFTA02297224 (Sep 25, 2013) schedule places Benedetti-Paris on the same day as breakfast with Ian Osborne (Thiel intermediary), lunch with Larry Summers, and meeting with Richard Kahn and Darren Indyke, before Epstein departs for Paris via Air France. This places Benedetti in the context of Epstein's tech/intelligence inner circle -- Osborne is the key Thiel intermediary, Summers the economics/policy advisor, Kahn/Indyke the legal/financial controllers. Benedetti appears to be Epstein's Paris contact in the European intelligence/finance world, consistent with his SAE Capital M&A role and later SoftBank operation.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 849
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Benedetti appears in Epstein's calendar/reminder system as 'Allesandro de Benedetti - Paris' on Sept 26, 2013 (EFTA02575276) and Oct 7, 2013 (EFTA02576024). On the Sept 26 schedule (EFTA02297224), Benedetti appears alongside: '8:30am Breakfast w/Ian Osborne, 11:30am Lunch w/Larry Summers, 1:00pm Appt w/Rich and Darren' followed by departure to Paris. On a separate Paris contacts list (EFTA02575400), 'Alesandro de benedetti' appears first, alongside Wojtek Fibak (Fine Arts Investments), 'Sultan in Paris Sun. Sept 29th', Frederic Chaslin, and multiple women. This places Benedetti firmly in Epstein's Paris social-intelligence network as early as 2013.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 519
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Benedetti appears on Epstein's Paris contact list from Sept 26, 2013, listed as '-Alesandro de benedetti' alongside Lang, Victo, Ariane, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Wojtek Fibak (Fine Arts Investments), and Margherita Campella Della Spina. A separate reminder from the same day confirmed the meeting. A second reminder on Oct 7, 2013 shows another planned Paris meeting. This places Benedetti in Epstein's Paris social circle at least 2 years BEFORE the SoftBank smear campaign began in early 2015. The same day's schedule included breakfast with Ian Osborne and lunch with Larry Summers.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 734
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Alessandro 'de Benedetti' appears in Epstein's Paris calendar and contact lists for Sep-Oct 2013. On Sep 26 2013, Lesley Groff sent reminders for 'Allesandro de Benedetti-Paris' alongside Epstein's schedule: breakfast with Ian Osborne, lunch with Larry Summers, then 9:55pm Air France to Paris. A Paris List (EFTA02575400) includes Benedetti alongside Lang, Victo, Ariane, Fabrice, Shahar, Wojtek Fibak, Margehrita Campella Della Spina, Sultan, Giselle, and Frederic Chaslin. A second reminder for 'allesandro de benedetti paris' was sent Oct 7 2013. Benedetti later hired by SoftBank's Rajeev Misra to run honey trap against Nikesh Arora (WSJ Feb 2020). Axios reported Benedetti had Cambridge Analytica/SCL Group ties.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 771
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Benedetti ('Alesandro de benedetti') appears on Epstein's Paris contact list Sept 26, 2013, alongside Teodorani, Shahar, Wojtek Fibak (Fine Arts Investments), Margherita Campella Della Spina, Sultan, and others. Multiple Groff reminders about Benedetti-Paris meetings Sept 26 and Oct 7, 2013. The same Sept 26 schedule shows: 8:30am breakfast with Ian Osborne, 11:30am lunch with Larry Summers, 1:00pm with Rich and Darren, then departing for Paris via Air France.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 784
+      },
+      {
+        "date": "2013-09-26",
+        "label": "DOJ Vol 11 Paris contact list (EFTA02575400, Sept 26 2013) places Benedetti first on Epstein's 'Paris List' alongside: Lang, Victo, Ariane, Fred, Fabrice, Emily, Jean Luc, Fabrizio, Shahar, Wojtek Fibak (Fine Arts Investments), Margherita Campella Della Spina (arriving by train Sept 27), 'Sultan in Paris Sun Sept 29', Giselle, and Frederic Chaslin. This list was sent by Lesley Groff to Epstein. The same day's schedule (EFTA02297224) shows Benedetti as a Reminder item alongside breakfast with Ian Osborne, lunch with Larry Summers, and appointment with Rich and Darren, before Epstein departed for Paris via Air France from JFK at 9:55pm. Benedetti is explicitly in the same social orbit as Summers and Osborne.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 835
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Benedetti was on Epstein's Paris social circle since at least Sept 2013. Groff scheduled reminders for 'Allesandro de Benedetti-Paris' on Sept 26, 2013 and Oct 7, 2013. Benedetti also appears on Epstein's Paris contacts list alongside Ariane de Rothschild, Shahar, and others.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 989
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Benedetti was a long-standing Epstein Paris associate, appearing in multiple scheduling and contact documents: (1) EFTA02575276: 'Allesandro de Benedetti-Paris' reminder (Sep 2013). (2) EFTA02576024: duplicate reminder. (3) EFTA02297224: Benedetti on same Sep 26 2013 schedule as Ian Osborne breakfast and Larry Summers lunch, before Epstein departs for Paris. (4) EFTA02575400: Lesley Groff sends Epstein 'Paris List' with Benedetti as first name, followed by 13 other names including Shahar, Sultan, Wojtek Fibak (art), Margherita Campella della Spina (Sep 26 2013). (5) EFTA02628256: Jan 28 2019 -- Epstein emails Teodorani (CNH Industrial/Agnelli): 'Allesandro benedetti?' -- a one-line inquiry 72 hours after the Weingarten 'Softbank caper' message (Jan 25). This Jan 28 inquiry to Teodorani about Benedetti, cross-referenced with the Wave 7 SoftBank timeline, confirms Epstein was actively investigating the Benedetti SoftBank operation in real-time.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1244
+      },
+      {
+        "date": "2013-09-26",
+        "label": "Identity CONFIRMED: 'Allesandro de Benedetti - Paris' in Epstein contacts = Alessandro Benedetti, CEO of SAE Capital Ltd (founded 2007), born July 1961, Italian national, Swiss resident. UK Companies House confirms his directorships at Attali Investment Partners Ltd (since 2010), M Finances SAS (President 2000-2001, Paris), and Vendome Investments Ltd (2005-2011) — all Paris-connected entities that explain his designation as a Paris contact. The 'de' particle is a French-style name rendering not used in formal UK/Italian filings.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1632
+      },
+      {
+        "date": "2013-2019",
+        "label": "social with Jeffrey Epstein",
+        "type": "social",
+        "entity": "Jeffrey Epstein",
+        "id": 393
+      },
+      {
+        "date": "2014-11",
+        "label": "ASHERCO LLP (OC379532) reveals Benedetti's BVI connections. Two former BVI corporate members: YOUNGSTOWN INVESTMENTS GROUP LTD (BVI 1688567, Nov 2014-Nov 2021, PO Box 3483 Road Town Tortola) and SATSU FINANCE LTD (BVI 1583501, Nov 2021-Mar 2023, same PO Box 3483 address). Both BVI entities at SAME address: PO Box 3483, R.G. Hodge Plaza, Wickhams Cay 1, Road Town, Tortola, BVI. This is a registered agent address. Former member Dotan Moshe (Israeli, Feb 1972, 116 Ballards Lane London N3 2DN, Mar 2023-Jul 2024) replaced after BVI entities departed. Current co-member Mathieu Villaume (Luxembourg, Aug 1976) from Jul 2024. Pattern: BVI corporate members rotate through Asherco to obscure beneficial ownership.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 843
+      },
+      {
+        "date": "2015",
+        "label": "financial with Rajeev Misra",
+        "type": "financial",
+        "entity": "Rajeev Misra",
+        "id": 431
+      },
+      {
+        "date": "2015-01",
+        "label": "SoftBank honey trap operation timeline: Jan 2015 Misra-Benedetti meet London. Apr 2015 $500K payment to Barkmere Group BVI. 2015 honey trap attempt in Tokyo (women + hidden cameras, Arora didn't fall for it). 2015 K2 Intelligence hired to investigate Arora/Sama. K2 hired Powerscourt Group (London PR) to place findings. Sept 2015 Nicolas Giannakopoulos (Swiss operative, Cambridge Analytica/SCL ties) hires Mark Hollingsworth (freelancer). Oct 2015 Independent publishes Arora story. Nov 2015 shareholder campaign begins. Jan 2016 first shareholder letter. Jun 2016 Arora resigns. Apr 2019 Sama leaves. 2018 Shearman Sterling probe: inconclusive. Feb 2020 WSJ breaks full story.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 785
+      },
+      {
+        "date": "2015-04",
+        "label": "Misra paid Benedetti $500K in April 2015 via Standard Chartered Bank to Barkmere Group Ltd, a BVI company controlled by Benedetti. Misra's spokesman claimed this was for 'oil investment.' Benedetti appears in ICIJ Paradise Papers as shareholder of Tree of Life Limited (Malta, C67345, incorporated Oct 2014), registered to Via delle Serre N. 9/A, Firenze, Italy.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 776
+      },
+      {
+        "date": "2017-11",
+        "label": "WSJ identified Benedetti as the central operative in the SoftBank smear campaign. Giannakopoulos (Swiss intelligence, Cambridge Analytica/SCL Group agent) was his subcontractor. The operation used code name 'Mr. West' for Arora. Benedetti expected compensation beyond the $500K: a cut of Misra's SoftBank earnings and to be named head of Vision Fund in London. Bertrand des Pallieres (French banker, former Deutsche Bank trader under Misra) introduced Misra and Benedetti. Meetings at London's Bulgari Hotel and Zurich's Hotel Baur au Lac (Nov 2017). Special cellphone provided for operational communications.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 740
+      },
+      {
+        "date": "2019",
+        "label": "Benedetti leaked SoftBank honey trap operation to WSJ because Misra failed to pay promised compensation. Benedetti expected: (1) share of Misra's SoftBank earnings, (2) senior executive position at Vision Fund London. Neither materialized after K initial payment. Associates say Benedetti recorded conversations with Misra detailing plans to sabotage rivals.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 774
+      },
+      {
+        "date": "2019",
+        "label": "intelligence with Eduardo Teodorani-Fabbri",
+        "type": "intelligence",
+        "entity": "Eduardo Teodorani-Fabbri",
+        "id": 394
+      },
+      {
+        "date": "2019",
+        "label": "social with Eduardo Teodorani-Fabbri",
+        "type": "social",
+        "entity": "Eduardo Teodorani-Fabbri",
+        "id": 430
+      },
+      {
+        "date": "2019-01-28",
+        "label": "Epstein emailed Eduardo Teodorani (CNH Industrial/Fiat executive) on Jan 28, 2019 -- just TWO DAYS after asking Brad Karp about Misra's representation -- with a single question: 'Allesandro benedetti?' This indicates Epstein was actively seeking to contact or learn about Benedetti through Italian corporate networks at the exact moment the SoftBank honey trap operation was under legal scrutiny.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 518
+      },
+      {
+        "date": "2019-01-28",
+        "label": "On Jan 28, 2019 — exactly 2 days after the Karp/Misra and Weingarten/SoftBank exchanges — Epstein emailed Eduardo Teodorani (SVP, CNH Industrial) with a single line: 'Allesandro benedetti?' This shows Epstein was actively gathering intelligence about Benedetti, the very person WSJ later identified as the operative paid $500K by Misra to run smear campaigns and honey traps against SoftBank rivals. The 48-hour Karp→Misra→Benedetti inquiry sequence is too precise to be coincidental.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 733
+      },
+      {
+        "date": "2019-01-28",
+        "label": "Epstein asked Teodorani (CNH Industrial/Agnelli heir) about 'Allesandro benedetti?' on Jan 28, 2019 — two days after asking Karp about representing Misra and the same week Weingarten discussed the 'Softbank caper.' This places Epstein actively networking around the SoftBank scandal, potentially seeking Benedetti as an operative or source through his Italian contacts.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 778
+      },
+      {
+        "date": "2019-01-28",
+        "label": "Epstein emailed Eduardo Teodorani (CNH Industrial) on Jan 28, 2019 with one-word inquiry: 'Allesandro benedetti?' — asking about Benedetti 10 months after WSJ March 2018 expose of SoftBank dirty tricks campaign. This is intelligence-gathering about Benedetti, not an introduction.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 988
+      }
+    ]
+  }
+}

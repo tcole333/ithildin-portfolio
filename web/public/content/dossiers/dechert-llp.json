@@ -1,0 +1,316 @@
+{
+  "name": "Dechert LLP",
+  "slug": "dechert-llp",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.321193",
+  "last_updated": "2026-02-14T02:37:46",
+  "stats": {
+    "total_findings": 5,
+    "total_connections": 1,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 4,
+      "financial": 1
+    },
+    "connection_types": {
+      "legal": 1
+    },
+    "last_updated": "2026-02-14T02:37:46"
+  },
+  "findings": [
+    {
+      "id": 1469,
+      "finding_type": "legal",
+      "summary": "DECHERT REPORT CONTRADICTIONS AND SCOPE GAPS (SEC 8-K EX-99.1/EX-99.2): The Dechert report, while being the most comprehensive public investigation of the Black-Epstein relationship, contains significant contradictions and scope limitations: (1) CONTRADICTION -- 'never did any business': Dechert acknowledged FTC purchased 263,257 Apollo IPO shares, FTC invested in AP SHL ($910K) and AP Technology Partners ($1.3M) formed by 'certain Apollo executives,' and FTC invested in ESWW alongside Black. Yet the report upheld Apollo's statement it 'never did any business with' Epstein, noting the phrases are 'perhaps more nuanced than might appear at first glance.' (2) CONTRADICTION -- 'neither co-founder hired Epstein': Documentary evidence (EFTA02670537) shows Paul Weiss was writing IRS Form 8865 filings for 'all three guys.' (3) SCOPE GAP: Document collection from Apollo employees' work email would not capture Harris-Bodian-Epstein communications routed through personal email (jeevacation@gmail.com) and Mintz Levin accounts. (4) SCOPE GAP: Paul Weiss 'assisted in document collection' while Brad Karp (PW chairman) was forwarding confidential tax correspondence to Epstein -- creating a conflict of interest in the investigation it was assisting. (5) ESWW: Dechert confirmed FTC invested in Environmental Solutions World Wide alongside Black and Black family members in 2011 -- another direct business overlap.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:35:20",
+      "target_name": "Dechert LLP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02670537",
+          "source_quote": "I got a download from jc and rj on the 8865 call earlier today and there's =n issue I'd like to discuss with you. Also, are \nyou interacting with brad =arp on the \"reasonable cause\" cover note or do you want me to? Finally, is=PW writing for all \nthree guys? \nwww.imax.com \n!MAX. is a registered...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC 8-K 000119312521016405 EX-99.1",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1411,
+      "finding_type": "financial",
+      "summary": "DECHERT PAYMENT TIMELINE DISCREPANCY: The Dechert report states Black's payments totaled 158M from 2013-2017. The annual breakdown: 2013 (50M) + 2014 (70M) + 2015 (30M) + 2017 (8M) = 158M. However, within 2013, Dechert describes two separate agreements: (1) First agreement (signed Feb 13, 2013): 23.5M (15M Feb + 8.5M Oct) for GRAT work. (2) Second agreement (negotiated May 2013, never signed): 56.5M in five installments over 2013-2014, renegotiated in early 2014. Black made first two installments in 2013 totaling 26.5M. Total 2013 = 23.5M + 26.5M = 50M. The 2014 amount of 70M included 20M attributed to the step-up basis transaction. The step-up basis transaction later became the central fee dispute: Epstein demanded 60M (10% of 600M perceived benefit), Black paid only 20M. This dispute ultimately destroyed the relationship. The Dechert report explicitly notes Black erroneously believed payments were tax-deductible (sixty cent dollars) based on Epstein's misrepresentation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-02-13",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:05:58",
+      "target_name": "Dechert LLP",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0001193125-21-016405",
+          "source_quote": "Black compensated Epstein for his work in amounts that were intended to be proportional to the value provided by Epstein. Those payments for work performed over the period 2012 through 2017 totaled 158 million",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1389,
+      "finding_type": "legal",
+      "summary": "DECHERT INVESTIGATION SCOPE LIMITATIONS: The Dechert report (filed as Apollo 8-K EX-99.1) reveals structural limitations that explain its failure to identify Harris and Rowan's direct engagement with Epstein: (1) Document collection scope: 'Potentially relevant documents were collected from Apollo for current and former employees of Apollo dating back to 1998 as well as for all current and former employees of the Family Office.' This means they searched Apollo email and Family Office email -- but the Harris-Bodian-Epstein channel used personal email (jeevacation@gmail.com) and Mintz Levin accounts, outside Apollo's collection. (2) Witness limitation: 'With only one exception, Dechert interviewed every witness that it had requested' -- but Harris routing through Bodian means the most incriminating communications were attorney-client privileged at Mintz Levin. (3) The Dechert team was 'assisted in its document collection efforts by Paul Weiss' -- the same firm whose chairman (Brad Karp) was forwarding confidential Bodian/Harris/Fenn tax correspondence to Epstein. Paul Weiss had a conflict of interest in the investigation it was assisting. (4) Dechert acknowledged 'the phrases never did any business with and does not have, and never has had any relationship with are quite broad in scope' but did not revise the core conclusion.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2021",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:05",
+      "target_name": "Dechert LLP",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0001193125-21-016405",
+          "source_quote": "Dechert was assisted in its document collection efforts by Paul, Weiss, Rifkind, Wharton and Garrison LLP, outside legal counsel to Black and the Family Office",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "finding_type": "legal",
+      "summary": "Dechert LLP was retained by Apollo Global Management's Conflicts Committee (Oct 2020) to conduct independent investigation of the Epstein/Black relationship and any relationship between Epstein and Apollo (EFTA02730996). The Dechert memo (Jan 22, 2021) is a critical primary source documenting the full scope of Black's M+ payments to Epstein and the entanglement of their financial affairs. Dechert concluded Black's payments were for tax, estate, and financial advisory services but did not find evidence of improper influence on Apollo operations. 57 DugganUSA references. The Dechert report is the most comprehensive independent analysis of the Epstein-Black financial relationship in the public domain.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2021-01-22",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:05:46",
+      "target_name": "Dechert LLP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02730996",
+          "source_quote": "Dechert LLP Investigation Of Epstein/Black Relationship And Any Relationship Between Epstein and Apollo Global Management, Inc.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1368,
+      "finding_type": "legal",
+      "summary": "The full Dechert LLP investigation report (Jan 22, 2021) was filed as Exhibit 99.1 to Apollo 8-K (ADSH 0001193125-21-016405) on SEC EDGAR. Key finding: Dechert stated 'Black did not try to pressure his co-founders to use Epstein, he did positively comment on the substantial value of Epstein's services and, at Epstein's repeated request, did try to introduce Epstein to his co-founders. In the end, neither co-founder hired Epstein or consulted with him on their personal matters.' AND 'no evidence of any other Apollo executive ever retaining Epstein for his services.' This directly contradicts the documentary record: (1) Rowan forwarded confidential TRA calculations to Epstein, (2) Epstein proposed 25% fee naming 'marc and josh', (3) Black directed Rowan/Cohen to call Epstein re DAFs, (4) Harris provided organizational docs at Epstein's request, (5) Epstein managed all three via the 'leon agenda' memo. The Dechert report was also explicit about scope -- 'The Committee placed no restriction' -- yet its conclusion that the relationship was 'primarily' Black-Epstein is contradicted by 20+ EFTA documents showing direct Rowan and Harris engagement.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2021-01-22",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:02:13",
+      "target_name": "Dechert LLP",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0001193125-21-016405",
+          "source_quote": "In the end, neither co-founder hired Epstein or consulted with him on their personal matters...Epstein made repeated efforts to ingratiate himself with other senior executives at Apollo and appears to have relied on Black to help him make those introductions. Despite these efforts, Dechert has seen no evidence of any other Apollo executive ever retaining Epstein for his services.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 731,
+      "person_a": "Apollo Global Management",
+      "person_b": "Dechert LLP",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:37:46",
+      "other_person": "Apollo Global Management",
+      "other_person_slug": "apollo-global-management",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2011",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "DECHERT REPORT CONTRADICTIONS AND SCOPE GAPS (SEC 8-K EX-99.1/EX-99.2): The Dechert report, while being the most comprehensive public investigation of the Black-Epstein relationship, contains significant contradictions and scope limitations: (1) CONTRADICTION -- 'never did any business': Dechert acknowledged FTC purchased 263,257 Apollo IPO shares, FTC invested in AP SHL ($910K) and AP Technology Partners ($1.3M) formed by 'certain Apollo executives,' and FTC invested in ESWW alongside Black. Yet the report upheld Apollo's statement it 'never did any business with' Epstein, noting the phrases are 'perhaps more nuanced than might appear at first glance.' (2) CONTRADICTION -- 'neither co-founder hired Epstein': Documentary evidence (EFTA02670537) shows Paul Weiss was writing IRS Form 8865 filings for 'all three guys.' (3) SCOPE GAP: Document collection from Apollo employees' work email would not capture Harris-Bodian-Epstein communications routed through personal email (jeevacation@gmail.com) and Mintz Levin accounts. (4) SCOPE GAP: Paul Weiss 'assisted in document collection' while Brad Karp (PW chairman) was forwarding confidential tax correspondence to Epstein -- creating a conflict of interest in the investigation it was assisting. (5) ESWW: Dechert confirmed FTC invested in Environmental Solutions World Wide alongside Black and Black family members in 2011 -- another direct business overlap.",
+      "confidence": "medium",
+      "id": 1469
+    },
+    {
+      "date": "2013-02-13",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DECHERT PAYMENT TIMELINE DISCREPANCY: The Dechert report states Black's payments totaled 158M from 2013-2017. The annual breakdown: 2013 (50M) + 2014 (70M) + 2015 (30M) + 2017 (8M) = 158M. However, within 2013, Dechert describes two separate agreements: (1) First agreement (signed Feb 13, 2013): 23.5M (15M Feb + 8.5M Oct) for GRAT work. (2) Second agreement (negotiated May 2013, never signed): 56.5M in five installments over 2013-2014, renegotiated in early 2014. Black made first two installments in 2013 totaling 26.5M. Total 2013 = 23.5M + 26.5M = 50M. The 2014 amount of 70M included 20M attributed to the step-up basis transaction. The step-up basis transaction later became the central fee dispute: Epstein demanded 60M (10% of 600M perceived benefit), Black paid only 20M. This dispute ultimately destroyed the relationship. The Dechert report explicitly notes Black erroneously believed payments were tax-deductible (sixty cent dollars) based on Epstein's misrepresentation.",
+      "confidence": "high",
+      "id": 1411
+    },
+    {
+      "date": "2021",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "DECHERT INVESTIGATION SCOPE LIMITATIONS: The Dechert report (filed as Apollo 8-K EX-99.1) reveals structural limitations that explain its failure to identify Harris and Rowan's direct engagement with Epstein: (1) Document collection scope: 'Potentially relevant documents were collected from Apollo for current and former employees of Apollo dating back to 1998 as well as for all current and former employees of the Family Office.' This means they searched Apollo email and Family Office email -- but the Harris-Bodian-Epstein channel used personal email (jeevacation@gmail.com) and Mintz Levin accounts, outside Apollo's collection. (2) Witness limitation: 'With only one exception, Dechert interviewed every witness that it had requested' -- but Harris routing through Bodian means the most incriminating communications were attorney-client privileged at Mintz Levin. (3) The Dechert team was 'assisted in its document collection efforts by Paul Weiss' -- the same firm whose chairman (Brad Karp) was forwarding confidential Bodian/Harris/Fenn tax correspondence to Epstein. Paul Weiss had a conflict of interest in the investigation it was assisting. (4) Dechert acknowledged 'the phrases never did any business with and does not have, and never has had any relationship with are quite broad in scope' but did not revise the core conclusion.",
+      "confidence": "medium",
+      "id": 1389
+    },
+    {
+      "date": "2021-01-22",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Dechert LLP was retained by Apollo Global Management's Conflicts Committee (Oct 2020) to conduct independent investigation of the Epstein/Black relationship and any relationship between Epstein and Apollo (EFTA02730996). The Dechert memo (Jan 22, 2021) is a critical primary source documenting the full scope of Black's M+ payments to Epstein and the entanglement of their financial affairs. Dechert concluded Black's payments were for tax, estate, and financial advisory services but did not find evidence of improper influence on Apollo operations. 57 DugganUSA references. The Dechert report is the most comprehensive independent analysis of the Epstein-Black financial relationship in the public domain.",
+      "confidence": "confirmed",
+      "id": 710
+    },
+    {
+      "date": "2021-01-22",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "The full Dechert LLP investigation report (Jan 22, 2021) was filed as Exhibit 99.1 to Apollo 8-K (ADSH 0001193125-21-016405) on SEC EDGAR. Key finding: Dechert stated 'Black did not try to pressure his co-founders to use Epstein, he did positively comment on the substantial value of Epstein's services and, at Epstein's repeated request, did try to introduce Epstein to his co-founders. In the end, neither co-founder hired Epstein or consulted with him on their personal matters.' AND 'no evidence of any other Apollo executive ever retaining Epstein for his services.' This directly contradicts the documentary record: (1) Rowan forwarded confidential TRA calculations to Epstein, (2) Epstein proposed 25% fee naming 'marc and josh', (3) Black directed Rowan/Cohen to call Epstein re DAFs, (4) Harris provided organizational docs at Epstein's request, (5) Epstein managed all three via the 'leon agenda' memo. The Dechert report was also explicit about scope -- 'The Committee placed no restriction' -- yet its conclusion that the relationship was 'primarily' Black-Epstein is contradicted by 20+ EFTA documents showing direct Rowan and Harris engagement.",
+      "confidence": "medium",
+      "id": 1368
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      710,
+      1469,
+      1411,
+      1389,
+      1368
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1469,
+          1389,
+          710,
+          1368
+        ],
+        "connection_ids": [
+          731
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.412384"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Dechert LLP",
+      "connections": [
+        {
+          "target": "Apollo Global Management",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "Apollo Global Management": [
+          {
+            "target": "Brad Karp",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp asked Epstein about Caesars while PW was defendant in Case 15-01145"
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Rowan named defendant in Caesars Case 15-01145 while Epstein tracked his liability"
+          },
+          {
+            "target": "Paul Weiss",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "PW is primary outside counsel to Apollo generating 100M+ annually and represented in 43B Athene merger. Karp handled Black fee disputes with Epstein."
+          },
+          {
+            "target": "Paul Weiss",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss served as counsel for Apollo Global Management in 48 SEC filings. This relationship is significant given PW chairman Brad Karp's documented role advising Leon Black on Epstein-related matters (EFTA02470209, EFTA02667959)."
+          },
+          {
+            "target": "Kirkland and Ellis",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE outside counsel for Apollo. 1517 SEC EDGAR filings mention both."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2011",
+        "label": "DECHERT REPORT CONTRADICTIONS AND SCOPE GAPS (SEC 8-K EX-99.1/EX-99.2): The Dechert report, while being the most comprehensive public investigation of the Black-Epstein relationship, contains significant contradictions and scope limitations: (1) CONTRADICTION -- 'never did any business': Dechert acknowledged FTC purchased 263,257 Apollo IPO shares, FTC invested in AP SHL ($910K) and AP Technology Partners ($1.3M) formed by 'certain Apollo executives,' and FTC invested in ESWW alongside Black. Yet the report upheld Apollo's statement it 'never did any business with' Epstein, noting the phrases are 'perhaps more nuanced than might appear at first glance.' (2) CONTRADICTION -- 'neither co-founder hired Epstein': Documentary evidence (EFTA02670537) shows Paul Weiss was writing IRS Form 8865 filings for 'all three guys.' (3) SCOPE GAP: Document collection from Apollo employees' work email would not capture Harris-Bodian-Epstein communications routed through personal email (jeevacation@gmail.com) and Mintz Levin accounts. (4) SCOPE GAP: Paul Weiss 'assisted in document collection' while Brad Karp (PW chairman) was forwarding confidential tax correspondence to Epstein -- creating a conflict of interest in the investigation it was assisting. (5) ESWW: Dechert confirmed FTC invested in Environmental Solutions World Wide alongside Black and Black family members in 2011 -- another direct business overlap.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1469
+      },
+      {
+        "date": "2013-02-13",
+        "label": "DECHERT PAYMENT TIMELINE DISCREPANCY: The Dechert report states Black's payments totaled 158M from 2013-2017. The annual breakdown: 2013 (50M) + 2014 (70M) + 2015 (30M) + 2017 (8M) = 158M. However, within 2013, Dechert describes two separate agreements: (1) First agreement (signed Feb 13, 2013): 23.5M (15M Feb + 8.5M Oct) for GRAT work. (2) Second agreement (negotiated May 2013, never signed): 56.5M in five installments over 2013-2014, renegotiated in early 2014. Black made first two installments in 2013 totaling 26.5M. Total 2013 = 23.5M + 26.5M = 50M. The 2014 amount of 70M included 20M attributed to the step-up basis transaction. The step-up basis transaction later became the central fee dispute: Epstein demanded 60M (10% of 600M perceived benefit), Black paid only 20M. This dispute ultimately destroyed the relationship. The Dechert report explicitly notes Black erroneously believed payments were tax-deductible (sixty cent dollars) based on Epstein's misrepresentation.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1411
+      },
+      {
+        "date": "2021",
+        "label": "DECHERT INVESTIGATION SCOPE LIMITATIONS: The Dechert report (filed as Apollo 8-K EX-99.1) reveals structural limitations that explain its failure to identify Harris and Rowan's direct engagement with Epstein: (1) Document collection scope: 'Potentially relevant documents were collected from Apollo for current and former employees of Apollo dating back to 1998 as well as for all current and former employees of the Family Office.' This means they searched Apollo email and Family Office email -- but the Harris-Bodian-Epstein channel used personal email (jeevacation@gmail.com) and Mintz Levin accounts, outside Apollo's collection. (2) Witness limitation: 'With only one exception, Dechert interviewed every witness that it had requested' -- but Harris routing through Bodian means the most incriminating communications were attorney-client privileged at Mintz Levin. (3) The Dechert team was 'assisted in its document collection efforts by Paul Weiss' -- the same firm whose chairman (Brad Karp) was forwarding confidential Bodian/Harris/Fenn tax correspondence to Epstein. Paul Weiss had a conflict of interest in the investigation it was assisting. (4) Dechert acknowledged 'the phrases never did any business with and does not have, and never has had any relationship with are quite broad in scope' but did not revise the core conclusion.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1389
+      },
+      {
+        "date": "2021-01-22",
+        "label": "Dechert LLP was retained by Apollo Global Management's Conflicts Committee (Oct 2020) to conduct independent investigation of the Epstein/Black relationship and any relationship between Epstein and Apollo (EFTA02730996). The Dechert memo (Jan 22, 2021) is a critical primary source documenting the full scope of Black's M+ payments to Epstein and the entanglement of their financial affairs. Dechert concluded Black's payments were for tax, estate, and financial advisory services but did not find evidence of improper influence on Apollo operations. 57 DugganUSA references. The Dechert report is the most comprehensive independent analysis of the Epstein-Black financial relationship in the public domain.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 710
+      },
+      {
+        "date": "2021-01-22",
+        "label": "The full Dechert LLP investigation report (Jan 22, 2021) was filed as Exhibit 99.1 to Apollo 8-K (ADSH 0001193125-21-016405) on SEC EDGAR. Key finding: Dechert stated 'Black did not try to pressure his co-founders to use Epstein, he did positively comment on the substantial value of Epstein's services and, at Epstein's repeated request, did try to introduce Epstein to his co-founders. In the end, neither co-founder hired Epstein or consulted with him on their personal matters.' AND 'no evidence of any other Apollo executive ever retaining Epstein for his services.' This directly contradicts the documentary record: (1) Rowan forwarded confidential TRA calculations to Epstein, (2) Epstein proposed 25% fee naming 'marc and josh', (3) Black directed Rowan/Cohen to call Epstein re DAFs, (4) Harris provided organizational docs at Epstein's request, (5) Epstein managed all three via the 'leon agenda' memo. The Dechert report was also explicit about scope -- 'The Committee placed no restriction' -- yet its conclusion that the relationship was 'primarily' Black-Epstein is contradicted by 20+ EFTA documents showing direct Rowan and Harris engagement.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1368
+      }
+    ]
+  }
+}

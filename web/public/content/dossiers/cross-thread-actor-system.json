@@ -1,0 +1,404 @@
+{
+  "name": "Cross-Thread Actor System",
+  "slug": "cross-thread-actor-system",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.284671",
+  "last_updated": "2026-02-18T16:43:01",
+  "stats": {
+    "total_findings": 15,
+    "total_connections": 0,
+    "total_entities": 0,
+    "finding_types": {
+      "relationship": 15
+    },
+    "connection_types": {},
+    "last_updated": "2026-02-18T16:43:01"
+  },
+  "findings": [
+    {
+      "id": 3484,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Deutsche Bank as shared financial infrastructure across 10 of 13 target actors spanning all 7 investigation threads",
+      "detail": "Members: Ariane de Rothschild, Darren Indyke, Howard Lutnick, Kathy Ruemmler, Lawrence Summers, Leon Black, Paul Tudor Jones, Peter Thiel, Richard Kahn, Ron Soffer. Pattern: All 10 actors have documented connections to Deutsche Bank in investigation findings \u2014 as account holders, counterparties, compliance targets, or references in DOJ evidence. This is the single most shared institutional node in the actor system. Significance: DB was not merely Epstein's bank \u2014 it was a shared financial platform for the broader network, suggesting the bank served as infrastructure for system-level financial operations independent of any single client relationship.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:40:42",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; investigation.db findings keyword analysis",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3485,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Israeli intelligence/technology nexus connects 9 of 13 target actors via NSO Group references",
+      "detail": "Members: Darren Indyke, Edmond Safra, Howard Lutnick, Kathy Ruemmler, Lawrence Summers, Leon Black, Peter Thiel, Ron Soffer, Tom Barrack. Pattern: 9 actors have NSO Group references in findings. 5 actors (Ariane de Rothschild, Lawrence Summers, Peter Thiel, Ron Soffer, Tom Barrack) connect through Ehud Barak. 3 actors (Ariane de Rothschild, Lawrence Summers, Peter Thiel) connect to Carbyne/surveillance tech. Peter Thiel's Palantir, the NSO ecosystem, and Carbyne represent parallel surveillance technology ventures with Israeli intelligence connections. Significance: This is not an Epstein pattern \u2014 it is a pre-existing Israeli tech-intelligence infrastructure that multiple network actors independently interface with.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:40:48",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; investigation.db findings keyword analysis; littlesis:15408 (Thiel-Barak)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3486,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: USVI jurisdiction clustering \u2014 8 of 13 target actors have documented USVI connections",
+      "detail": "Members: Ariane de Rothschild, Darren Indyke, Kathy Ruemmler, Leon Black, Paul Tudor Jones, Peter Thiel, Robert Lawrence Kuhn, Ron Soffer. Pattern: 8 actors have USVI references in investigation findings. Indyke and Kahn operated Gratitude America Ltd (USVI-registered). Leon Black did business with Government of the Virgin Islands (LittleSis). Stacey Plaskett (USVI delegate) received donations from both Indyke and Kahn. The USVI serves as a tax-advantaged, privacy-enhanced jurisdiction for multiple network operations. Significance: The jurisdiction is not coincidental \u2014 it provides specific legal and financial advantages (no SEC registration for certain funds, favorable trust law, US sovereignty with reduced oversight) that systemic actors exploit.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:00",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.fec.gov/data/search/?q=Indyke-%3EPlaskett",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3487,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Gratitude America Ltd as 4-actor financial conduit connecting Leon Black capital to Kuhn Foundation and Epstein operations",
+      "detail": "Members: Darren Indyke (Treasurer), Leon Black (funder, 10M), Richard Kahn (President), Robert Lawrence Kuhn (recipient via Kuhn Foundation). Pattern: Gratitude America Ltd (EIN 66-0789697, USVI-registered) is administered by Indyke and Kahn, funded by Black's 10M, and channeled 650K to the Kuhn Foundation. This entity connects the Apollo financial thread (Black), the Epstein operations core (Indyke/Kahn), and the China/media influence operations (Kuhn). All four actors share this single entity. Significance: Gratitude America is a chokepoint entity through which capital from one investigation thread flows to operations in another, making it a systemic infrastructure node.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:07",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; investigation.db connections; littlesis:349261; littlesis:349265",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3488,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Goldman Sachs serves as shared institutional platform for 5 target actors with 4 having direct employment or advisory roles",
+      "detail": "Members: Darren Indyke (referenced), Kathy Ruemmler (Chief Legal Officer, Global Head Regulatory Affairs), Lawrence Summers (connected via DE Shaw-Goldman orbit), Howard Lutnick (Cantor Fitzgerald counterparty), Paul Tudor Jones (fund relationships). Pattern: Ruemmler's dual role as Obama White House Counsel then Goldman CLO is the most significant. She provides the regulatory-to-industry bridge. Summers' position on multiple fintech boards (Block/Square, LendingClub, Digital Currency Group) parallels Goldman's fintech investments. Significance: Goldman is the second most shared financial institution after Deutsche Bank. Unlike DB which served as a banking platform, Goldman connects actors through advisory, employment, and investment relationships.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:18",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; LittleSis: Ruemmler positions at Goldman Sachs; LittleSis: Summers positions at Block, LendingClub",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3489,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: International Peace Institute (IPI) connects 6 target actors as a diplomatic/policy nexus independent of Epstein",
+      "detail": "Members: Darren Indyke, Lawrence Summers, Leon Black, Paul Tudor Jones, Peter Thiel, Robert Lawrence Kuhn. Pattern: IPI connects actors from 4 different investigation threads. It bridges the Apollo financial thread (Black), the Israeli intelligence nexus (Thiel), the Epstein core operations (Indyke, Kuhn), and the financial network (Summers, PTJ). IPI provides a legitimate diplomatic platform where financial actors, intelligence-adjacent actors, and operational actors can interact with plausible cover. Significance: IPI is the most shared non-financial institutional node. Its focus on international diplomacy and peace operations provides cover for interactions that would otherwise require explanation.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:24",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; investigation.db findings keyword analysis for IPI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3490,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Bipartisan mega-donor network \u2014 4+ actors donate to both Democratic and Republican candidates/PACs simultaneously",
+      "detail": "Members: Leon Black (Mitch McConnell, Ed Markey, Maxine Waters, Tom Cotton \u2014 bipartisan spread), Peter Thiel (ActBlue + Republican candidates), Howard Lutnick (Trump Victory + Schumer + Catherine Cortez Masto \u2014 bipartisan), Paul Tudor Jones (Biden Victory Fund + Marco Rubio + GOP Congressional Leadership Fund \u2014 fully bipartisan), Tom Barrack (Republican focused but broad state party spread). Pattern: At least 4 actors (Black, Thiel via ActBlue, Lutnick, PTJ) donate across party lines. LittleSis FEC data and direct FEC records confirm this pattern. 4 actors (ActBlue) and 3 actors (RNC, WinRed) show shared donation infrastructure. Significance: Bipartisan donation is a influence-maximization strategy, not ideological commitment. These actors are purchasing regulatory access across administrations.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:37",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; FEC donor records; LittleSis donation relationships",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3491,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: 575 Lexington Avenue as shared operational address for 3 target actors and multiple Epstein entities",
+      "detail": "Members: Darren Indyke (Indyke PLLC), Richard Kahn (HBRK Associates), Robert Lawrence Kuhn (wire transfer correspondence). Pattern: 575 Lexington Ave serves as the operational base for Indyke's law practice, Kahn's financial management (HBRK Associates), and the destination for correspondence regarding Kuhn Foundation wire transfers. This single physical location is the administrative hub for Gratitude America, the 1953 Trust, the C.O.U.Q. Foundation, the Caterpillar Trust, and other Epstein-related entities. Significance: Physical co-location of operational actors enables real-time coordination without traceable electronic communication. The address also connects to Jeffrey Schantz (64 findings, threads 1-3), creating a 4-person operational cluster.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:46",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; investigation.db findings; LittleSis: Indyke-HBRK-Poplar-1953 Trust-COUQ positions",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3492,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Paul Weiss as shared legal counsel for 3 target actors (Ruemmler, Black, Soffer) bridging government and finance",
+      "detail": "Members: Kathy Ruemmler (connection), Leon Black (Apollo legal counsel), Ron Soffer (IPI legal matters, Brad Karp connection). Brad Karp (Paul Weiss chairman) is the shared connector with 18 degree centrality and connections to all 3. Pattern: Paul Weiss represents Apollo (Black), provides counsel to Goldman through Ruemmler's orbit, and connects to the Norwegian/IPI thread through Soffer. Karp himself has 3 actor connections in the target group. Significance: A single law firm providing counsel to actors across different investigation threads creates privileged information flows. Attorney-client privilege means these relationships are opaque to investigation. Paul Weiss joins Kirkland & Ellis (47 degree centrality) as a systemic legal infrastructure node.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:41:57",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; investigation.db: Brad Karp connections; graph centrality: Paul Weiss=23, Brad Karp=18",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3493,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Rothschild banking and Gulf state connections bridge European finance to Middle Eastern capital flows through 5 target actors",
+      "detail": "Members: Ariane de Rothschild (EdR Group chair), Kathy Ruemmler (EdR legal counsel during 1MDB), Leon Black (Apollo-Gulf connections, FII Riyadh), Peter Thiel (Jabor Al Thani connection), Tom Barrack (Hamad bin Jassim friendship, Colony Capital Gulf investments). Pattern: Ariane de Rothschild is the hub of a European banking system. Ruemmler provided legal counsel during the 1MDB crisis, creating a direct link between Obama White House experience and Swiss/European private banking. Black and Barrack both attended FII Riyadh Oct 2017. Thiel connects to Qatar through Jabor Al Thani. Sultan Bin Sulayem connects both Rothschild and Barrack. Significance: The European private banking infrastructure (EdR, Safra) serves as an intermediary between US financial actors and Gulf state capital. This is a system operating independent of Epstein.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:42:08",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; LittleSis: Barrack-Hamad bin Jassim; investigation.db: Rothschild-Ruemmler, Rothschild-Thiel-Al Thani, Black-FII",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3494,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Republic National Bank/Safra banking network as historical foundation for current network infrastructure",
+      "detail": "Members: Edmond Safra (founder, RNB/Republic New York Corp), Ron Soffer (RNB banking law 1988-1991), Richard Kahn (Safra Synagogue financial connection), Ariane de Rothschild (EdR Bank, which acquired parts of Safra network). Pattern: Edmond Safra founded Republic National Bank of New York, where Ron Soffer worked in banking law. After Safra's death in 1999, the Rothschild banking system absorbed elements of the Safra network. Kahn connects to the Safra Synagogue. RNB connects to 4 investigation threads (1,2,3,4). Bill Browder (LittleSis) was Safra's business partner, adding a Russia connection. Significance: The Safra banking network predates Epstein's prominence and represents a deeper infrastructure layer. The RNB->EdR succession creates continuity of banking relationships across decades.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:42:19",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; LittleSis:86312 (Safra relationships); investigation.db: Safra-Soffer, Safra-RNB connections",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3495,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: PEP (Politically Exposed Person) status confirmed for 5 of 13 target actors via OpenSanctions, with Summers flagged on Russian counter-sanctions list",
+      "detail": "Members with PEP status: Lawrence Summers (PEP + Russian counter-sanctions + POI), Peter Thiel (PEP + POI + RCA/Relative/Close Associate), Howard Lutnick (PEP), Tom Barrack (PEP + diplomatic role), Kathy Ruemmler (PEP). Pattern: 5/13 actors are classified as Politically Exposed Persons by international compliance databases. Summers is uniquely flagged with Russian counter-sanctions (sanction.counter). Thiel is flagged as both PEP and RCA. Barrack has diplomatic classification. This PEP density is systemically significant \u2014 it means international banks are required to apply enhanced due diligence to transactions involving these individuals. Significance: When 38% of a network are PEPs, the entire network's banking activity triggers enhanced scrutiny requirements, which explains the need for intermediary structures and privacy-jurisdiction vehicles.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:42:28",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; OpenSanctions: Q317953 (Summers), Thiel, Lutnick, Barrack, Ruemmler",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3496,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Harvard institutional pipeline \u2014 5 target actors have Harvard references representing a pre-existing elite network",
+      "detail": "Members: Howard Lutnick (Haverford, but Harvard fundraising orbit), Kathy Ruemmler (Georgetown but Harvard advisory orbit), Lawrence Summers (President of Harvard 2001-2006), Leon Black (Dartmouth MBA but Apollo-Harvard endowment relationship), Robert Lawrence Kuhn (connections through Edmond J. Safra Center for Ethics at Harvard). Pattern: Summers' Harvard presidency (2001-2006) overlaps with the Epstein-Harvard donation period. The Edmond J. Safra Center for Ethics at Harvard (LittleSis entity 324443) connects the Safra banking thread to the Harvard institutional thread. Kuhn Foundation received Epstein money routed through Gratitude America. Significance: Harvard is not just a shared alma mater \u2014 it is a pre-existing institutional platform where financial, legal, and policy actors are socialized into the same network before entering their professional roles.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:42:40",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-8; LittleSis:14597 (Summers), LittleSis:324443 (Safra Center); investigation.db keyword analysis",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3497,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Indyke-Kahn operational dyad forms the administrative core shared by 8+ entities across multiple trust, foundation, and corporate structures",
+      "detail": "Members: Darren Indyke (VP/Secretary/Treasurer/Attorney), Richard Kahn (CEO/Treasurer/President). Shared positions at: Poplar Inc (both officers), The 1953 Trust (both administrators), The C.O.U.Q. Foundation (Indyke=VP, Kahn=Treasurer), Gratitude America Ltd (Indyke=Treasurer, Kahn=President), Epstein Estate (co-executors). LittleSis confirms 8 shared entity relationships. Both donated to Bill Richardson and Stacey Plaskett (FEC records). Both educated at Cornell (Indyke at Cornell Law). Significance: This dyad is the most tightly-coupled actor pair in the entire investigation. They share more institutional positions than any other pair. Their coordinated political donations (Richardson, Plaskett) suggest synchronized action beyond administrative duties.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:42:48",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.fec.gov/data/search/?q=Indyke-%3ERichardson",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3498,
+      "finding_type": "relationship",
+      "summary": "SYSTEMIC PATTERN: Glenn Dubin as hidden connector \u2014 links 3 target actors (Lutnick, Black, PTJ) through high-finance social infrastructure",
+      "detail": "Members: Howard Lutnick (Dubin Breast Center benefit co-chair), Leon Black (shared financial events), Paul Tudor Jones (Dubin Breast Center benefit co-chair). Pattern: Glenn Dubin connects 3 target actors through the Dubin Breast Center benefits. Lutnick and PTJ co-chaired the 2012 benefit alongside Steven Cohen and David Shulman. The Breast Center benefits serve as a social coordination venue where hedge fund managers interact. Lutnick purchased 11 E 68th St (Epstein property). Significance: Dubin is both an Epstein associate and a connector between financial actors who operate independently of Epstein. The charity benefit circuit serves as social infrastructure for coordinating financial elites \u2014 it provides cover for relationship maintenance.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:43:01",
+      "target_name": "Cross-Thread Actor System",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02702727",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "entities": [],
+  "timeline": [],
+  "curation": {
+    "key_finding_ids": [
+      3498,
+      3484,
+      3485,
+      3486,
+      3487,
+      3488,
+      3489,
+      3490,
+      3491,
+      3492,
+      3493,
+      3494
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "background",
+        "title": "Background",
+        "viz": null,
+        "finding_ids": [
+          3498,
+          3484,
+          3485,
+          3486,
+          3487,
+          3488,
+          3489,
+          3490,
+          3491,
+          3492
+        ],
+        "connection_ids": [],
+        "guidance": "General overview of this entity's role and significance in the investigation."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.396881"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Cross-Thread Actor System",
+      "connections": [],
+      "secondHop": {},
+      "depth": 1
+    },
+    "timeline_events": []
+  }
+}

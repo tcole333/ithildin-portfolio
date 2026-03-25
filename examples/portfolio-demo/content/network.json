@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "harbor-ledger-holdings",
+      "label": "Harbor Ledger Holdings LLC",
+      "type": "entity",
+      "investigations": [
+        "port_watch",
+        "supply_shadows"
+      ]
+    },
+    {
+      "id": "lina-ortega",
+      "label": "Lina Ortega",
+      "type": "person",
+      "investigations": [
+        "port_watch",
+        "supply_shadows"
+      ]
+    },
+    {
+      "id": "estuary-advisory",
+      "label": "Estuary Advisory Ltd",
+      "type": "entity",
+      "investigations": [
+        "supply_shadows"
+      ]
+    },
+    {
+      "id": "meridian-port-authority",
+      "label": "Meridian Port Authority",
+      "type": "entity",
+      "investigations": [
+        "port_watch"
+      ]
+    },
+    {
+      "id": "quay-bridge-logistics",
+      "label": "Quay Bridge Logistics",
+      "type": "entity",
+      "investigations": [
+        "port_watch"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "lina-ortega",
+      "target": "harbor-ledger-holdings",
+      "label": "intermediary"
+    },
+    {
+      "source": "harbor-ledger-holdings",
+      "target": "estuary-advisory",
+      "label": "services addendum"
+    },
+    {
+      "source": "meridian-port-authority",
+      "target": "harbor-ledger-holdings",
+      "label": "implementation partner"
+    },
+    {
+      "source": "quay-bridge-logistics",
+      "target": "harbor-ledger-holdings",
+      "label": "shortlist pair"
+    },
+    {
+      "source": "lina-ortega",
+      "target": "meridian-port-authority",
+      "label": "coordination calls"
+    }
+  ],
+  "stats": {
+    "total_nodes": 5,
+    "person_nodes": 1,
+    "entity_nodes": 4,
+    "total_edges": 5
+  }
+}

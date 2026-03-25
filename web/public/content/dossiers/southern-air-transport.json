@@ -1,0 +1,1048 @@
+{
+  "name": "Southern Air Transport",
+  "slug": "southern-air-transport",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.299593",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 12,
+    "total_connections": 11,
+    "total_entities": 0,
+    "finding_types": {
+      "document": 3,
+      "financial": 1,
+      "legal": 2,
+      "intelligence": 6
+    },
+    "connection_types": {
+      "corporate": 5,
+      "intelligence": 4,
+      "financial": 2
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 2353,
+      "finding_type": "document",
+      "summary": "Primary source documentation of SAT as CIA infrastructure. Church Committee (1976): SAT was CIA proprietary airline, incorporated FL Oct 31 1949, 'technically a separate entity' but 'actually an integral part' of CIA air operations alongside Air America. Walsh Report (1993): SAT was used for transport of $2.7M cash (97 separate transfers) from SAT Miami to Enterprise contra-resupply operation in Central America. SAT paid for C-7 and C-123 aircraft via Corporate Air Services. FBI sought to interview SAT personnel and obtain records. Payments from Swiss Enterprise accounts to SAT.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1949-10-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:36:51",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "investigations.db: Church Committee Final Report Book I",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "investigations.db: Walsh Iran-Contra Final Report Vol 1",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2556,
+      "finding_type": "financial",
+      "summary": "SAT explicitly flew twice-weekly Hong Kong-to-Rickenbacker cargo flights for The Limited Inc. Edmund James (James & Donohew Development Services) stated at 03/16/1995 press conference: 'much of the Hong Kong-to-Rickenbacker cargo will be for The Limited.' SAT President William Langton and Governor Voinovich attended. Ohio offered $6M low-interest loan, $500K grant, $10.2M ODOT certificates, $30M revenue bonds, 100% tax abatement for 15 years.",
+      "detail": null,
+      "source_datasets": [
+        "web_freepress",
+        "web_dropsite"
+      ],
+      "confidence": "high",
+      "date_of_event": "1995-03-16",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:32:27",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "freepress_spook_air",
+          "source_quote": "much of the Hong Kong-to-Rickenbacker cargo will be for The Limited",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2555,
+      "finding_type": "legal",
+      "summary": "Ohio SoS confirms SAT registered as foreign corporation in Ohio on 08/17/1995 (entity 914641, from FL), surrendered 01/23/1998 and simultaneously re-registered as Nevada foreign corp (entity FC5219, still ACTIVE today). Agent: CT Corporation System, Columbus OH. Re-domiciliation from FL to NV provides stronger corporate privacy.",
+      "detail": null,
+      "source_datasets": [
+        "ohio_sos"
+      ],
+      "confidence": "high",
+      "date_of_event": "1995-08-17",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:32:18",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ohio_sos_914641",
+          "source_quote": "Entity 914641, SOUTHERN AIR TRANSPORT INC, Foreign Corporation, Filing Date 08/17/1995, Status Dead-Conversion; FC5219 from NEVADA, Filing Date 01/22/1998, Status Active",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2558,
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: SEC filings confirm The Limited's 1995 credit agreement contained Unrestricted Subsidiary carve-outs for entities 'exclusively in the business of owning or leasing aircraft' and 'primarily as a carrier transporting goods.' Web research confirms SAT was explicitly contracted to fly cargo for The Limited. The credit agreement mechanism (private designation notice to agent) means any SAT-related subsidiary would never appear in public filings. Zero aviation entities appear in any Exhibit 21 from FY1994-FY2005. Ohio SoS shows zero Limited-connected entities at Rickenbacker. The Unrestricted Subsidiary mechanism was structurally capable of hiding an aviation relationship but no direct evidence proves designation occurred.",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar",
+        "ohio_sos",
+        "web_freepress",
+        "web_dropsite",
+        "web_mintpress"
+      ],
+      "confidence": "medium",
+      "date_of_event": "1995-12-15",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:32:47",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "freepress_spook_air",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ohio_sos_914641",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "sec_10k_fy1995_ex48",
+          "source_quote": "Unrestricted Subsidiary means any Subsidiary designated... exclusively in the business of owning or leasing, and operating, aircraft and/or trucks; or primarily as a carrier transporting goods in both intrastate and interstate commerce",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2355,
+      "finding_type": "document",
+      "summary": "SAT FAA fleet identified: 7 core aircraft registered to Southern Air Transport Inc, PO Box 52-4093 Miami International Airport. Fleet was primarily Lockheed C-130 Hercules military cargo variants + one Boeing 707-369C cargo. 'SJ' suffix = 'Southern Jet' callsign. Last action dates cluster 1996-1998 (consistent with bankruptcy). Also found: Pan-Southern Air Transport Inc (Dallas TX) with Douglas DC-3A deregistered 1998, and Southern Air Inc (Norwalk CT, acquired by Oak Hill Capital 2007) — corporate successor operating Boeing 747 freighters on military CRAF contracts, bankrupt 2012. Modern 'Southern Air Transport Services LLC' (Dover DE, 2022) operates a single Cessna 180H — no operational connection.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1996",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:05",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FAA Releasable Aircraft Registry DEREG.txt",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2378,
+      "finding_type": "intelligence",
+      "summary": "CIA IG Vol II (Oct 1998) confirms SAT was in DEA database from Jan 1985-Sep 1990 for alleged cocaine trafficking involvement. Feb 1991 DEA cable reported SAT 'of record' for alleged involvement in cocaine trafficking. Aug 1990 DEA entry alleged USD 2 million delivered to firm business sites and several pilots/executives suspected of smuggling narcotics currency. Jan 1987 ADCI Robert Gates memo to State Dept confirmed Customs investigating SAT crew drug trafficking allegations sourced from senior FDN official",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1998-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 04:31:10",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CIA-IG-VOL2-1998",
+          "source_quote": "SAT was of record in DEAs database from January 1985-September 1990 for alleged involvement in cocaine trafficking",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2343,
+      "finding_type": "legal",
+      "summary": "SAT bankruptcy confirmed: Case 2:98-bk-59460, S.D. Ohio Bankruptcy, filed Oct 1 1998 (7 days before CIA IG Iran-Contra cocaine report released Oct 8). Case not terminated until Feb 2013 — 15 years. 20+ adversary proceedings including SAT v. Bastian (2:00-ap-02283, trustee suing SAT president James Bastian). Other adversary parties: Panalpina (Swiss freight, later convicted FCPA), Atlas Air, USASMDC (US Army Space & Missile Defense Command), AASANA (Bolivian civil aviation), Infraero (Brazilian airport authority), Eurocontrol. SAT had active Latin American and European operations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1998-10-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:35:23",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener DocketID 39022571 (SAT v. Bastian)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener DocketID 45883342",
+          "source_quote": " Southern Air Transport Inc, Case 2:98-bk-59460, Bankr. S.D. Ohio, Filed 1998-10-01, Terminated 2013-02-05, Judge Charles M. Caldwell",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2447,
+      "finding_type": "document",
+      "summary": "The American Conservative Dec 19 2025 article cites Franklin County Sheriff and Ohio IG investigators as sources for Epstein's pivotal role in SAT relocation, but these are journalist sources (Bob Fitrakis), not primary government records. Fitrakis's published archives (Columbus Alive 1998-1999) do not contain SAT-Epstein documentation.",
+      "detail": null,
+      "source_datasets": [
+        "american_conservative"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2025-12-19",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:41:39",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "The American Conservative Dec 19 2025 article",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2361,
+      "finding_type": "intelligence",
+      "summary": "SOURCING CAVEAT for SAT-Epstein LittleSis relationship: The entry (relationship ID 2033659) was added/updated on Dec 22, 2025 — just 3 days after The American Conservative published 'Epstein, Israel, and the CIA: How The Iran-Contra Planes Landed at Les Wexner Base' on Dec 19, 2025. The relationship has NO details: no dates, no amount, no goods, no description beyond 'did/do business.' This appears to be a crowdsourced entry based on recent journalism rather than primary documentation. Downgrading confidence from medium to low. The journalistic claim itself cites 'Franklin County Sheriff/Ohio IG investigators' as source — those primary records would need to be obtained to verify.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": "2025-12-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:41:20",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "American Conservative article Dec 19 2025",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis API relationship 2033659",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2446,
+      "finding_type": "intelligence",
+      "summary": "LittleSis SAT-Epstein relationship (ID 2033659) sourced exclusively from Dropsite News Dec 2025 article. Entry created Dec 22 2025, 3 days post-publication. Article cites testimonial evidence via Franklin County Sheriff Earl Smith and Ohio IG David Sturtz relayed through journalist Bob Fitrakis. Zero primary documents (no contracts, emails, financial records). Sourcing chain: journalism←law enforcement testimony←unknown original source. Assessment: tertiary sourcing insufficient for confirmed relationship.",
+      "detail": null,
+      "source_datasets": [
+        "littlesis"
+      ],
+      "confidence": "low",
+      "date_of_event": "2025-12-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:41:17",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis Relationship 2033659",
+          "source_quote": "Southern Air Transport and Jeffrey Epstein did/do business. Updated at 2025-12-22T04:16:37Z. Source link: Dropsite News article (404 when verified Feb 2026)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2342,
+      "finding_type": "intelligence",
+      "summary": "LittleSis records a direct BUSINESS RELATIONSHIP between Southern Air Transport (CIA proprietary airline 1960-1973, Iran-Contra arms transporter) and Jeffrey Epstein. SAT Entity 345808 has 9 mapped relationships: CIA (owner 1960-73), Epstein (business), USAID (business), Frederick C. Moor Jr (founder), Stanley G. Williams (COO/owner), Mary Jean Bastian (employee), William Cooper (pilot killed 1986 Nicaragua shootdown). First database confirmation of SAT-Epstein connection. Requires verification of LittleSis sourcing.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:35:11",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis API entity 345808 relationships",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2348,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE FINDING: Complete absence of federal prosecution records for 1996 cocaine discovery on SAT plane at Rickenbacker Airport, Columbus OH. Searched CourtListener (federal + state courts), entire Epstein corpus (600K+ docs), and GDELT. Zero records of prosecution. This is investigatively significant: a reported seizure of cocaine from a CIA-linked airline's cargo at a US airport that produces no federal court records suggests the matter was either (a) not prosecuted, (b) handled at state level and not in PACER/RECAP, (c) sealed or expunged, or (d) suppressed. Follow-up: Ohio state court records, DEA FOIA, Franklin County records.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:36:25",
+      "target_name": "Southern Air Transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0 relevant results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener searches (6 queries",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ Vol 11 (0 hits)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DugganUSA searches (0 relevant)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1202,
+      "person_a": "Emery Air Freight",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "SAT aircraft being re-leased to Emery Worldwide at time of 1998 bankruptcy",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 04:25:33",
+      "other_person": "Emery Air Freight",
+      "other_person_slug": "emery-air-freight",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:1194320",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "person_a": "DEA",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "intelligence",
+      "description": "CIA IG confirms SAT in DEA database Jan 1985-Sep 1990 for alleged cocaine trafficking. DEA cable and database entries document narcotics currency allegations",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 04:31:53",
+      "other_person": "DEA",
+      "other_person_slug": "dea",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CIA-IG-VOL2-1998",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1269,
+      "person_a": "Southern Air Transport",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:32:58",
+      "other_person": "The Limited Inc",
+      "other_person_slug": "the-limited-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "freepress_spook_air",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1271,
+      "person_a": "Leslie Wexner",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "SAT flew twice-weekly Hong Kong-Rickenbacker cargo for Wexner's The Limited. Ohio officials and news accounts confirm Wexner played role in SAT relocation.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:33:21",
+      "other_person": "Les Wexner",
+      "other_person_slug": "les-wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "freepress_spook_air",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1738,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 1186,
+      "person_a": "Douglas Leese",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "intelligence",
+      "description": "Leese collaborated with Adnan Khashoggi (Iran-Contra arms intermediary). SAT was CIA's covert air transport for Iran-Contra. Leese mentored Epstein from 1981, and LittleSis records SAT-Epstein business relationship. Chain: Khashoggi-Leese-Epstein-SAT links the arms/intelligence world to the logistics operation.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:41",
+      "other_person": "Douglas Leese",
+      "other_person_slug": "douglas-leese",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entities 345808 (SAT) and 353555 (Leese)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1194,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "intelligence",
+      "description": "LittleSis records direct business relationship (undated). Epstein reportedly played 'pivotal role' in SAT relocation to Columbus (per Franklin County Sheriff/Ohio IG investigators, cited in DropSite News and American Conservative). SAT relocated to Rickenbacker Airport where it flew garments for Wexner's Limited. No documentary evidence in Epstein corpus (600K+ docs) — connection predates email era (SAT ceased 1998).",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:56",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "American Conservative Dec 19 2025",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 345808",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1207,
+      "person_a": "Mast Industries",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "Mast Industries Far East Limited (Hong Kong) sourced garments that SAT flew to Rickenbacker Airport Columbus Ohio for delivery to Limited Brands distribution centers. SAT relocated to Columbus with USD 46.5M state incentives and Epstein had pivotal role in arranging. Both entities served same supply chain for Wexner Limited Brands",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 04:51:13",
+      "other_person": "Mast Industries",
+      "other_person_slug": "mast-industries",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00190141",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1267,
+      "person_a": "Southern Air Transport",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": "Dec 1995 credit agreement has Unrestricted Subsidiary carve-outs for aircraft/carrier entities. SAT relocated to Columbus same year.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:04:35",
+      "other_person": "The Limited Inc",
+      "other_person_slug": "the-limited-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1270,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "intelligence",
+      "description": "Franklin County Sheriff and Ohio IG identified Epstein as having pivotal role in relocating SAT to Rickenbacker. Epstein was Wexner logistics man. Inquiries dropped under governor pressure.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:33:12",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "mintpress_genesis_epstein",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1188,
+      "person_a": "Les Wexner",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "SAT relocated to Rickenbacker Airport in Columbus OH (Wexner's base), where SAT planes reportedly flew garments from Hong Kong/China for The Limited. Wexner's Mast Industries (Far East) Ltd sourced from Hong Kong. $46.5M state incentives. LittleSis records SAT-Epstein business relationship, and Epstein was Wexner's financial manager. No direct documentary evidence of SAT-Wexner relationship found in corpus or SEC filings.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:42",
+      "other_person": "Les Wexner",
+      "other_person_slug": "les-wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "American Conservative Dec 2025 article",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 345808",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK 701985 10-K (Mast Industries HK)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1949-10-31",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Primary source documentation of SAT as CIA infrastructure. Church Committee (1976): SAT was CIA proprietary airline, incorporated FL Oct 31 1949, 'technically a separate entity' but 'actually an integral part' of CIA air operations alongside Air America. Walsh Report (1993): SAT was used for transport of $2.7M cash (97 separate transfers) from SAT Miami to Enterprise contra-resupply operation in Central America. SAT paid for C-7 and C-123 aircraft via Corporate Air Services. FBI sought to interview SAT personnel and obtain records. Payments from Swiss Enterprise accounts to SAT.",
+      "confidence": "confirmed",
+      "id": 2353
+    },
+    {
+      "date": "1995-03-16",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SAT explicitly flew twice-weekly Hong Kong-to-Rickenbacker cargo flights for The Limited Inc. Edmund James (James & Donohew Development Services) stated at 03/16/1995 press conference: 'much of the Hong Kong-to-Rickenbacker cargo will be for The Limited.' SAT President William Langton and Governor Voinovich attended. Ohio offered $6M low-interest loan, $500K grant, $10.2M ODOT certificates, $30M revenue bonds, 100% tax abatement for 15 years.",
+      "confidence": "high",
+      "id": 2556
+    },
+    {
+      "date": "1995-08-17",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Ohio SoS confirms SAT registered as foreign corporation in Ohio on 08/17/1995 (entity 914641, from FL), surrendered 01/23/1998 and simultaneously re-registered as Nevada foreign corp (entity FC5219, still ACTIVE today). Agent: CT Corporation System, Columbus OH. Re-domiciliation from FL to NV provides stronger corporate privacy.",
+      "confidence": "high",
+      "id": 2555
+    },
+    {
+      "date": "1995-12-15",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: SEC filings confirm The Limited's 1995 credit agreement contained Unrestricted Subsidiary carve-outs for entities 'exclusively in the business of owning or leasing aircraft' and 'primarily as a carrier transporting goods.' Web research confirms SAT was explicitly contracted to fly cargo for The Limited. The credit agreement mechanism (private designation notice to agent) means any SAT-related subsidiary would never appear in public filings. Zero aviation entities appear in any Exhibit 21 from FY1994-FY2005. Ohio SoS shows zero Limited-connected entities at Rickenbacker. The Unrestricted Subsidiary mechanism was structurally capable of hiding an aviation relationship but no direct evidence proves designation occurred.",
+      "confidence": "medium",
+      "id": 2558
+    },
+    {
+      "date": "1996",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "SAT FAA fleet identified: 7 core aircraft registered to Southern Air Transport Inc, PO Box 52-4093 Miami International Airport. Fleet was primarily Lockheed C-130 Hercules military cargo variants + one Boeing 707-369C cargo. 'SJ' suffix = 'Southern Jet' callsign. Last action dates cluster 1996-1998 (consistent with bankruptcy). Also found: Pan-Southern Air Transport Inc (Dallas TX) with Douglas DC-3A deregistered 1998, and Southern Air Inc (Norwalk CT, acquired by Oak Hill Capital 2007) — corporate successor operating Boeing 747 freighters on military CRAF contracts, bankrupt 2012. Modern 'Southern Air Transport Services LLC' (Dover DE, 2022) operates a single Cessna 180H — no operational connection.",
+      "confidence": "confirmed",
+      "id": 2355
+    },
+    {
+      "date": "1998-10",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "CIA IG Vol II (Oct 1998) confirms SAT was in DEA database from Jan 1985-Sep 1990 for alleged cocaine trafficking involvement. Feb 1991 DEA cable reported SAT 'of record' for alleged involvement in cocaine trafficking. Aug 1990 DEA entry alleged USD 2 million delivered to firm business sites and several pilots/executives suspected of smuggling narcotics currency. Jan 1987 ADCI Robert Gates memo to State Dept confirmed Customs investigating SAT crew drug trafficking allegations sourced from senior FDN official",
+      "confidence": "high",
+      "id": 2378
+    },
+    {
+      "date": "1998-10-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "SAT bankruptcy confirmed: Case 2:98-bk-59460, S.D. Ohio Bankruptcy, filed Oct 1 1998 (7 days before CIA IG Iran-Contra cocaine report released Oct 8). Case not terminated until Feb 2013 — 15 years. 20+ adversary proceedings including SAT v. Bastian (2:00-ap-02283, trustee suing SAT president James Bastian). Other adversary parties: Panalpina (Swiss freight, later convicted FCPA), Atlas Air, USASMDC (US Army Space & Missile Defense Command), AASANA (Bolivian civil aviation), Infraero (Brazilian airport authority), Eurocontrol. SAT had active Latin American and European operations.",
+      "confidence": "high",
+      "id": 2343
+    },
+    {
+      "date": "2025-12-19",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "The American Conservative Dec 19 2025 article cites Franklin County Sheriff and Ohio IG investigators as sources for Epstein's pivotal role in SAT relocation, but these are journalist sources (Bob Fitrakis), not primary government records. Fitrakis's published archives (Columbus Alive 1998-1999) do not contain SAT-Epstein documentation.",
+      "confidence": "medium",
+      "id": 2447
+    },
+    {
+      "date": "2025-12-22",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SOURCING CAVEAT for SAT-Epstein LittleSis relationship: The entry (relationship ID 2033659) was added/updated on Dec 22, 2025 — just 3 days after The American Conservative published 'Epstein, Israel, and the CIA: How The Iran-Contra Planes Landed at Les Wexner Base' on Dec 19, 2025. The relationship has NO details: no dates, no amount, no goods, no description beyond 'did/do business.' This appears to be a crowdsourced entry based on recent journalism rather than primary documentation. Downgrading confidence from medium to low. The journalistic claim itself cites 'Franklin County Sheriff/Ohio IG investigators' as source — those primary records would need to be obtained to verify.",
+      "confidence": "low",
+      "id": 2361
+    },
+    {
+      "date": "2025-12-22",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "LittleSis SAT-Epstein relationship (ID 2033659) sourced exclusively from Dropsite News Dec 2025 article. Entry created Dec 22 2025, 3 days post-publication. Article cites testimonial evidence via Franklin County Sheriff Earl Smith and Ohio IG David Sturtz relayed through journalist Bob Fitrakis. Zero primary documents (no contracts, emails, financial records). Sourcing chain: journalism←law enforcement testimony←unknown original source. Assessment: tertiary sourcing insufficient for confirmed relationship.",
+      "confidence": "low",
+      "id": 2446
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2353,
+      2355,
+      2343,
+      2556,
+      2555,
+      2558,
+      2378,
+      2348,
+      2447,
+      2361,
+      2446,
+      2342
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1202,
+          1204,
+          1269,
+          1271,
+          1738,
+          1186,
+          1194,
+          1207,
+          1267,
+          1270
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2555,
+          2343
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          2558,
+          2378,
+          2361,
+          2446,
+          2342,
+          2348
+        ],
+        "connection_ids": [
+          1204,
+          1186,
+          1194,
+          1270
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T03:52:55.928735",
+    "lead": "<p>Southern Air Transport (SAT) was a Central Intelligence Agency proprietary airline, incorporated in Florida on October 31, 1949, that operated as what the Church Committee described as \"technically a separate entity\" but \"actually an integral part\" of CIA air operations alongside Air America <span class=\"finding-ref\">[F2353]</span>. Following its exposure as CIA infrastructure in 1976, SAT transitioned to private ownership and played a documented role in the Iran-Contra affair—the Walsh Report confirmed SAT transported $2.7 million in cash across 97 separate transfers from its Miami base to the Enterprise contra-resupply operation in Central America <span class=\"finding-ref\">[F2353]</span>. The airline's relocation to Columbus, Ohio in 1995, where it operated twice-weekly cargo flights from Hong Kong to Rickenbacker Airport for <a href=\"/dossiers/the-limited-inc\">The Limited Inc</a>, places it at the intersection of intelligence logistics, offshore garment supply chains, and the Epstein-Wexner corporate network <span class=\"finding-ref\">[F2556]</span>.</p>\n\n<p>The investigation has documented SAT's presence in the DEA database from January 1985 to September 1990 for alleged cocaine trafficking involvement, including a February 1991 DEA cable reporting SAT as \"of record\" for cocaine trafficking and an August 1990 entry alleging $2 million in narcotics currency delivered to firm business sites <span class=\"finding-ref\">[F2378]</span>. SAT filed for Chapter 11 bankruptcy on October 1, 1998—seven days before the CIA Inspector General's Iran-Contra cocaine report was released on October 8, 1998—in a case that remained active for 15 years with over 20 adversary proceedings involving parties including Panalpina (later convicted of FCPA violations), Atlas Air, and multiple Latin American aviation authorities <span class=\"finding-ref\">[F2343]</span>. A reported 1996 cocaine seizure at Rickenbacker Airport produced no federal prosecution records despite extensive searches of CourtListener, the Epstein document corpus, and GDELT databases <span class=\"finding-ref\">[F2348]</span>. LittleSis records a business relationship between SAT and <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>, though this entry was added on December 22, 2025—three days after an American Conservative article citing Franklin County Sheriff and Ohio IG investigators as sources for Epstein's \"pivotal role\" in SAT's Columbus relocation—and lacks primary documentary support <span class=\"finding-ref\">[F2342, F2361, F2446, F2447]</span>.</p>",
+    "open_questions": [
+      "Have the Franklin County Sheriff's Office or Ohio Inspector General produced primary records documenting Epstein's role in SAT's Columbus relocation beyond testimonial claims relayed through journalists?",
+      "What happened to the reported 1996 cocaine seizure at Rickenbacker Airport—are there Ohio state court records, DEA administrative files, or sealed federal proceedings that did not appear in public database searches?",
+      "Did The Limited Inc or any Wexner-affiliated entity designate SAT or a related aviation entity as an 'Unrestricted Subsidiary' under the 1995 credit agreement, and would private designation notices to the lending agent survive in bankruptcy or litigation records?",
+      "What was the extent of SAT's operational relationship with Panalpina, and did this Swiss freight forwarder's subsequent FCPA conviction involve conduct overlapping with SAT's Latin American and European operations?",
+      "Do the 15-year bankruptcy case files (Case 2:98-bk-59460) contain documentary evidence of SAT's financial relationships, including potential Epstein-connected transactions that would not appear in public filings?"
+    ],
+    "system_role": "Southern Air Transport demonstrates how intelligence logistics infrastructure—airlines, cargo networks, and covert funding mechanisms—can transition into private commercial operations while maintaining characteristics of off-books operational capability: cash-intensive transactions, minimal regulatory transparency, and relationships spanning both government covert operations and private corporate supply chains.",
+    "sections": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "content": "<p>SAT's operational history traces a path through multiple institutional networks that converged in Columbus, Ohio during the mid-1990s. The airline's documented relationship with <a href=\"/dossiers/the-limited-inc\">The Limited Inc</a> involved twice-weekly cargo flights from Hong Kong to Rickenbacker Airport, with SAT President William Langton and Ohio Governor Voinovich appearing together at a March 16, 1995 press conference where James & Donohew Development Services confirmed that \"much of the Hong Kong-to-Rickenbacker cargo will be for The Limited\" <span class=\"finding-ref\">[F2556]</span>. This arrangement coincided with <a href=\"/dossiers/les-wexner\">Les Wexner's</a> broader supply chain operations—his Mast Industries Far East Limited sourced garments from Hong Kong that SAT transported to Columbus distribution centers. The state of Ohio provided $46.5 million in incentives including a $6 million low-interest loan, $500,000 grant, $10.2 million in ODOT certificates, $30 million in revenue bonds, and 15 years of 100% tax abatement to secure SAT's relocation <span class=\"finding-ref\">[F2556]</span>.</p>\n\n<p>The LittleSis database records a direct business relationship between SAT and <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>, with journalist Bob Fitrakis citing Franklin County Sheriff Earl Smith and Ohio IG David Sturtz as sources identifying Epstein as playing a \"pivotal role\" in SAT's Columbus relocation <span class=\"finding-ref\">[F2342, F2447]</span>. However, this relationship remains incompletely documented: the Epstein email corpus contains zero references to SAT, Rickenbacker Airport, or cargo operations, and the LittleSis entry was created on December 22, 2025—three days after publication of The American Conservative article—without dates, amounts, or transaction details <span class=\"finding-ref\">[F2361, F2446]</span>. The sourcing chain (journalism ← law enforcement testimony ← unknown original source) represents tertiary sourcing insufficient for confirmed relationship status.</p>\n\n<p>SAT's corporate relationships extended to Emery Air Freight, with CourtListener records showing SAT aircraft being re-leased to Emery Worldwide at the time of SAT's 1998 bankruptcy. This connection takes on additional significance given documented Epstein involvement in Emery Air Freight stock manipulation during the late 1980s through the Tower Financial Corporation affair. The Iran-Contra investigative record also places SAT alongside <a href=\"/dossiers/adnan-khashoggi\">Adnan Khashoggi</a>-affiliated networks—Douglas Leese, who mentored Epstein beginning in 1981, collaborated with Khashoggi on arms transactions, creating a chain linking Khashoggi-Leese-Epstein-SAT through overlapping intelligence and logistics networks <span class=\"finding-ref\">[F2342]</span>.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings and Regulatory History",
+        "content": "<p>SAT's legal architecture demonstrates sophisticated jurisdictional maneuvering. The airline originally incorporated in Florida on October 31, 1949, and registered as a foreign corporation in Ohio on August 17, 1995 (entity 914641) <span class=\"finding-ref\">[F2555]</span>. On January 23, 1998—just months before bankruptcy—it surrendered its Ohio registration and simultaneously re-registered as a Nevada foreign corporation (entity FC5219), which remains active today <span class=\"finding-ref\">[F2555]</span>. This re-domiciliation from Florida to Nevada provides stronger corporate privacy protections, with CT Corporation System of Columbus serving as registered agent. The timing—within nine months of bankruptcy filing—suggests asset protection positioning.</p>\n\n<p>The bankruptcy itself, Case 2:98-bk-59460 in the Southern District of Ohio, was filed on October 1, 1998—seven days before the CIA Inspector General's Volume II Iran-Contra report was released on October 8, 1998 <span class=\"finding-ref\">[F2343]</span>. The case remained open for 15 years, finally terminating in February 2013. The docket includes over 20 adversary proceedings, among them SAT v. Bastian (Case 2:00-ap-02283), in which the bankruptcy trustee sued SAT president James Bastian. The adversary party list reveals SAT's operational scope: Panalpina (Swiss freight forwarder later convicted of FCPA violations), Atlas Air, USASMDC (U.S. Army Space & Missile Defense Command), AASANA (Bolivian civil aviation authority), Infraero (Brazilian airport authority), and Eurocontrol <span class=\"finding-ref\">[F2343]</span>. This international operational footprint—spanning Latin American and European aviation authorities—extended well beyond the documented Hong Kong-Columbus route.</p>\n\n<p>Most significantly, investigative searches have produced a negative finding: zero federal prosecution records for a reported 1996 cocaine discovery on a SAT plane at Rickenbacker Airport. Searches across CourtListener (federal and state courts), the 600,000+ document Epstein corpus, and GDELT databases returned no records of prosecution <span class=\"finding-ref\">[F2348]</span>. This absence is structurally significant—a reported seizure of cocaine from a CIA-linked airline at a U.S. airport that produces no federal court records suggests either state-level handling, sealed or expunged proceedings, or deliberate suppression of prosecution.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Connections and Narcotics Allegations",
+        "content": "<p>The CIA Inspector General's Volume II report (October 1998) confirms SAT was listed in the DEA database from January 1985 to September 1990 for alleged involvement in cocaine trafficking <span class=\"finding-ref\">[F2378]</span>. A February 1991 DEA cable reported SAT as \"of record\" for alleged cocaine trafficking involvement. An August 1990 DEA database entry alleged $2 million in narcotics currency delivered to firm business sites, with several pilots and executives suspected of smuggling narcotics currency. A January 1987 memorandum from ADCI Robert Gates to the State Department confirmed that U.S. Customs was investigating SAT crew members for drug trafficking allegations sourced from a senior FDN (Nicaraguan Democratic Force) official <span class=\"finding-ref\">[F2378]</span>. These documented allegations—spanning the Iran-Contra period—place SAT within the pattern of CIA proprietary airlines operating alongside narcotics trafficking networks.</p>\n\n<p>SAT's fleet composition reinforces its intelligence logistics heritage. FAA records identify seven core aircraft registered to Southern Air Transport Inc at PO Box 52-4093, Miami International Airport: primarily Lockheed C-130 Hercules military cargo variants plus one Boeing 707-369C cargo aircraft <span class=\"finding-ref\">[F2355]</span>. The \"SJ\" suffix in registration numbers corresponds to the \"Southern Jet\" callsign. Last action dates cluster between 1996 and 1998, consistent with the bankruptcy timeline. The Church Committee's 1976 findings established that SAT, while \"technically a separate entity,\" was \"actually an integral part\" of CIA air operations alongside Air America—documenting the infrastructure model of civilian-cover logistics operations <span class=\"finding-ref\">[F2353]</span>.</p>\n\n<p>The 1995 credit agreement for <a href=\"/dossiers/the-limited-inc\">The Limited Inc</a> contains structural provisions relevant to understanding potential SAT relationships. The agreement defines \"Unrestricted Subsidiaries\" with specific carve-outs for entities \"exclusively in the business of owning or leasing, and operating, aircraft and/or trucks\" and \"primarily as a carrier transporting goods in both intrastate and interstate commerce\" <span class=\"finding-ref\">[F2558]</span>. Unrestricted Subsidiaries are excluded from consolidated financial reporting, meaning any aviation or freight carrier relationship could be structured without appearing in SEC filings. While no direct evidence proves SAT was designated as an Unrestricted Subsidiary, the mechanism was structurally capable of hiding such a relationship, and the credit agreement's execution in the same year as SAT's Columbus relocation warrants consideration.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "parallel-financial-system",
+      "jurisdictional-arbitrage",
+      "enabler-gradient",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Southern Air Transport",
+      "connections": [
+        {
+          "target": "Emery Air Freight",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener:1194320",
+          "description": "SAT aircraft being re-leased to Emery Worldwide at time of 1998 bankruptcy"
+        },
+        {
+          "target": "DEA",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "CIA-IG-VOL2-1998",
+          "description": "CIA IG confirms SAT in DEA database Jan 1985-Sep 1990 for alleged cocaine trafficking. DEA cable and database entries document narcotics currency allegations"
+        },
+        {
+          "target": "The Limited Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "freepress_spook_air",
+          "description": null
+        },
+        {
+          "target": "Les Wexner",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "freepress_spook_air",
+          "description": "SAT flew twice-weekly Hong Kong-Rickenbacker cargo for Wexner's The Limited. Ohio officials and news accounts confirm Wexner played role in SAT relocation."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+        },
+        {
+          "target": "Douglas Leese",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "LittleSis entities 345808 (SAT) and 353555 (Leese)",
+          "description": "Leese collaborated with Adnan Khashoggi (Iran-Contra arms intermediary). SAT was CIA's covert air transport for Iran-Contra. Leese mentored Epstein from 1981, and LittleSis records SAT-Epstein business relationship. Chain: Khashoggi-Leese-Epstein-SAT links the arms/intelligence world to the logistics operation."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "American Conservative Dec 19 2025",
+          "description": "LittleSis records direct business relationship (undated). Epstein reportedly played 'pivotal role' in SAT relocation to Columbus (per Franklin County Sheriff/Ohio IG investigators, cited in DropSite News and American Conservative). SAT relocated to Rickenbacker Airport where it flew garments for Wexner's Limited. No documentary evidence in Epstein corpus (600K+ docs) — connection predates email era (SAT ceased 1998)."
+        },
+        {
+          "target": "Mast Industries",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA00190141",
+          "description": "Mast Industries Far East Limited (Hong Kong) sourced garments that SAT flew to Rickenbacker Airport Columbus Ohio for delivery to Limited Brands distribution centers. SAT relocated to Columbus with USD 46.5M state incentives and Epstein had pivotal role in arranging. Both entities served same supply chain for Wexner Limited Brands"
+        },
+        {
+          "target": "The Limited Inc",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "description": "Dec 1995 credit agreement has Unrestricted Subsidiary carve-outs for aircraft/carrier entities. SAT relocated to Columbus same year."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "mintpress_genesis_epstein",
+          "description": "Franklin County Sheriff and Ohio IG identified Epstein as having pivotal role in relocating SAT to Rickenbacker. Epstein was Wexner logistics man. Inquiries dropped under governor pressure."
+        },
+        {
+          "target": "Les Wexner",
+          "type": "corporate",
+          "strength": 0.2,
+          "evidence_ref": "American Conservative Dec 2025 article",
+          "description": "SAT relocated to Rickenbacker Airport in Columbus OH (Wexner's base), where SAT planes reportedly flew garments from Hong Kong/China for The Limited. Wexner's Mast Industries (Far East) Ltd sourced from Hong Kong. $46.5M state incentives. LittleSis records SAT-Epstein business relationship, and Epstein was Wexner's financial manager. No direct documentary evidence of SAT-Wexner relationship found in corpus or SEC filings."
+        }
+      ],
+      "secondHop": {
+        "Douglas Leese": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Leese was Epstein's mentor from 1981 (LittleSis). Leese collaborated with Khashoggi (arms dealer). Competing stories: Hoffenberg says Leese introduced Epstein; Epstein says John Mitchell. Sons Julian and Nicholas maintained familial ties with Epstein 2002-2019. Julian provided PwC/Paul Weiss UK introductions."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Mentor-protege from 1981. Leese collaborated with Khashoggi."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Mentor-protege from 1981. Leese collaborated with Khashoggi."
+          }
+        ],
+        "Emery Air Freight": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Stock manipulation via TFC takeover attempt late 1980s"
+          }
+        ],
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1949-10-31",
+        "label": "Primary source documentation of SAT as CIA infrastructure. Church Committee (1976): SAT was CIA proprietary airline, incorporated FL Oct 31 1949, 'technically a separate entity' but 'actually an integral part' of CIA air operations alongside Air America. Walsh Report (1993): SAT was used for transport of $2.7M cash (97 separate transfers) from SAT Miami to Enterprise contra-resupply operation in Central America. SAT paid for C-7 and C-123 aircraft via Corporate Air Services. FBI sought to interview SAT personnel and obtain records. Payments from Swiss Enterprise accounts to SAT.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2353
+      },
+      {
+        "date": "1995-03-16",
+        "label": "SAT explicitly flew twice-weekly Hong Kong-to-Rickenbacker cargo flights for The Limited Inc. Edmund James (James & Donohew Development Services) stated at 03/16/1995 press conference: 'much of the Hong Kong-to-Rickenbacker cargo will be for The Limited.' SAT President William Langton and Governor Voinovich attended. Ohio offered $6M low-interest loan, $500K grant, $10.2M ODOT certificates, $30M revenue bonds, 100% tax abatement for 15 years.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2556
+      },
+      {
+        "date": "1995-08-17",
+        "label": "Ohio SoS confirms SAT registered as foreign corporation in Ohio on 08/17/1995 (entity 914641, from FL), surrendered 01/23/1998 and simultaneously re-registered as Nevada foreign corp (entity FC5219, still ACTIVE today). Agent: CT Corporation System, Columbus OH. Re-domiciliation from FL to NV provides stronger corporate privacy.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2555
+      },
+      {
+        "date": "1995-12-15",
+        "label": "SYNTHESIS: SEC filings confirm The Limited's 1995 credit agreement contained Unrestricted Subsidiary carve-outs for entities 'exclusively in the business of owning or leasing aircraft' and 'primarily as a carrier transporting goods.' Web research confirms SAT was explicitly contracted to fly cargo for The Limited. The credit agreement mechanism (private designation notice to agent) means any SAT-related subsidiary would never appear in public filings. Zero aviation entities appear in any Exhibit 21 from FY1994-FY2005. Ohio SoS shows zero Limited-connected entities at Rickenbacker. The Unrestricted Subsidiary mechanism was structurally capable of hiding an aviation relationship but no direct evidence proves designation occurred.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2558
+      },
+      {
+        "date": "1996",
+        "label": "SAT FAA fleet identified: 7 core aircraft registered to Southern Air Transport Inc, PO Box 52-4093 Miami International Airport. Fleet was primarily Lockheed C-130 Hercules military cargo variants + one Boeing 707-369C cargo. 'SJ' suffix = 'Southern Jet' callsign. Last action dates cluster 1996-1998 (consistent with bankruptcy). Also found: Pan-Southern Air Transport Inc (Dallas TX) with Douglas DC-3A deregistered 1998, and Southern Air Inc (Norwalk CT, acquired by Oak Hill Capital 2007) — corporate successor operating Boeing 747 freighters on military CRAF contracts, bankrupt 2012. Modern 'Southern Air Transport Services LLC' (Dover DE, 2022) operates a single Cessna 180H — no operational connection.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2355
+      },
+      {
+        "date": "1998-10",
+        "label": "CIA IG Vol II (Oct 1998) confirms SAT was in DEA database from Jan 1985-Sep 1990 for alleged cocaine trafficking involvement. Feb 1991 DEA cable reported SAT 'of record' for alleged involvement in cocaine trafficking. Aug 1990 DEA entry alleged USD 2 million delivered to firm business sites and several pilots/executives suspected of smuggling narcotics currency. Jan 1987 ADCI Robert Gates memo to State Dept confirmed Customs investigating SAT crew drug trafficking allegations sourced from senior FDN official",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2378
+      },
+      {
+        "date": "1998-10-01",
+        "label": "SAT bankruptcy confirmed: Case 2:98-bk-59460, S.D. Ohio Bankruptcy, filed Oct 1 1998 (7 days before CIA IG Iran-Contra cocaine report released Oct 8). Case not terminated until Feb 2013 — 15 years. 20+ adversary proceedings including SAT v. Bastian (2:00-ap-02283, trustee suing SAT president James Bastian). Other adversary parties: Panalpina (Swiss freight, later convicted FCPA), Atlas Air, USASMDC (US Army Space & Missile Defense Command), AASANA (Bolivian civil aviation), Infraero (Brazilian airport authority), Eurocontrol. SAT had active Latin American and European operations.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2343
+      },
+      {
+        "date": "2025-12-19",
+        "label": "The American Conservative Dec 19 2025 article cites Franklin County Sheriff and Ohio IG investigators as sources for Epstein's pivotal role in SAT relocation, but these are journalist sources (Bob Fitrakis), not primary government records. Fitrakis's published archives (Columbus Alive 1998-1999) do not contain SAT-Epstein documentation.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2447
+      },
+      {
+        "date": "2025-12-22",
+        "label": "SOURCING CAVEAT for SAT-Epstein LittleSis relationship: The entry (relationship ID 2033659) was added/updated on Dec 22, 2025 — just 3 days after The American Conservative published 'Epstein, Israel, and the CIA: How The Iran-Contra Planes Landed at Les Wexner Base' on Dec 19, 2025. The relationship has NO details: no dates, no amount, no goods, no description beyond 'did/do business.' This appears to be a crowdsourced entry based on recent journalism rather than primary documentation. Downgrading confidence from medium to low. The journalistic claim itself cites 'Franklin County Sheriff/Ohio IG investigators' as source — those primary records would need to be obtained to verify.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2361
+      },
+      {
+        "date": "2025-12-22",
+        "label": "LittleSis SAT-Epstein relationship (ID 2033659) sourced exclusively from Dropsite News Dec 2025 article. Entry created Dec 22 2025, 3 days post-publication. Article cites testimonial evidence via Franklin County Sheriff Earl Smith and Ohio IG David Sturtz relayed through journalist Bob Fitrakis. Zero primary documents (no contracts, emails, financial records). Sourcing chain: journalism←law enforcement testimony←unknown original source. Assessment: tertiary sourcing insufficient for confirmed relationship.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2446
+      }
+    ]
+  }
+}

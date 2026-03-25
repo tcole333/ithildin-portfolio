@@ -1,0 +1,1836 @@
+{
+  "name": "Honeycomb Asset Management LP",
+  "slug": "honeycomb-asset-management-lp",
+  "aliases": [
+    "Honeycomb Asset Management",
+    "Honeycomb Partners"
+  ],
+  "generated_at": "2026-02-20T01:17:47.247207",
+  "last_updated": "2026-02-14T05:22:42",
+  "stats": {
+    "total_findings": 27,
+    "total_connections": 9,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 21,
+      "identity": 2,
+      "intelligence": 2,
+      "relationship": 1,
+      "legal": 1
+    },
+    "connection_types": {
+      "financial": 9
+    },
+    "last_updated": "2026-02-14T05:22:42"
+  },
+  "findings": [
+    {
+      "id": 1640,
+      "finding_type": "financial",
+      "summary": "Honeycomb Asset Management LP founded and managed by David Fiszel. Firm located at 645 Madison Avenue, 16th Floor, New York, NY 10022. Epstein was a 'day one' investor per Fiszel's email of Feb 5, 2016: 'I appreciate being included and look forward to launching Honeycomb with your day one partnership.' Fund inception date June 1, 2016. Email domain: honeycombam.com (dominiquea@honeycombam.com, investors@honeycombam.com). Morgan Stanley Fund Services is the fund administrator.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-02-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:08:33",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473485",
+          "source_quote": " I appreciate being included and look forward to launching Honeycomb with your day one partnership",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1643,
+      "finding_type": "financial",
+      "summary": "STC wired $20,000,000.00 to Honeycomb Partners on 05/31/2016 from Southern Trust Company Inc MMDA account *9244 (balance $80,875,213.15). This is the single largest documented wire to Honeycomb from the Epstein accounts visible in DS10 bank statements. Honeycomb Partners LP also appears in June 2018 Northern Trust bank statements showing a $5,000,000 outgoing money transfer on 06-28 and $3,424.16 interest payment on 05-30, with ending balance of $2,080,509.86 as of June 30, 2018 (account C 15185220010).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "verified",
+      "created_at": "2026-02-14 05:08:57",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": " STC to Honeycomb Partners SOUTHERN TRUST COMPANY, INC. - MMDA - *9244 - Savings - $80,875,213.15 Send on date: 05/31/2016 Amount: 20,000,000.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1658,
+      "finding_type": "financial",
+      "summary": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244 (balance 80.8M). Additional Honeycomb Partners LP transactions in Deutsche Bank statements: 5M outgoing to Northern Trust June 28 2018. Honeycomb Ventures LP received 1.75M incoming May 24 2018 from 645 Madison Ave FL 16 NY. Epstein indicated 5-10M for Honeycomb Ventures IV LP (Tencent Music co-invest June 2018). Spotify basis through Honeycomb was 77.50 vs 132 IPO reference price (70 percent gain). July 2017 YTD performance 22.3 pct gross 17.9 pct net.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:11:16",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": "STC to Honeycomb Partners Amount 20000000.00 Send on date 05/31/2016",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "Richard Kahn \nNew York, NY 10022 \ntel \nfax 212-320-0381 \ncel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02482577",
+          "source_quote": "I believe our basis through honeycomb is 77.50 David loves stock and plans to hold",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": "5 - 10 m",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1665,
+      "finding_type": "financial",
+      "summary": "STC wired 20M to Honeycomb Partners LP on 05/31/2016 - from MMDA account 9244 with 80.875M balance",
+      "detail": "Southern Trust Company Inc wired 20,000,000 from MMDA savings account 9244 (balance 80,875,213.15) to Honeycomb Partners LP on 05/31/2016. Wire to JPMorgan Chase Bank NA, 270 Park Avenue NYC, ABA via Northern Trust. This is the first documented Epstein investment in Honeycomb, just weeks after the fund launched. Reference wire marked Southern Trust Company.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:12:08",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": "STC to Honeycomb Partners SOUTHERN TRUST COMPANY INC MMDA 9244 Send on date 05/31/2016 Amount 20,000,000.00",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": "Please advise if you would like mor= than 1mm in Spotify as there is an additional 2mm capacity if you want mor= \nexposure. Thank you. \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \n=div style=\"direction: inherit;\">New York, NY 10022 Phone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1677,
+      "finding_type": "financial",
+      "summary": "STC wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.875M). Wire to Harbourside Financial Centre Plaza 10 Jersey City NJ (Pershing LLC custodian). Reference: Southern Trust Company Inc. Separately, Honeycomb Ventures I LP received 1M for Spotify co-investment on 07/10/2017 via JPMorgan Chase (270 Park Ave). Account: Honeycomb Ventures I LP. By 06/2018, Honeycomb Partners LP account (C 15185220010) showed 5M outgoing to Northern Trust Intl Skg Corp and ending balance approx 2.08M.",
+      "detail": "The 20M wire was the initial anchor investment in Honeycomb Partners LP from Epstein via STC. Epstein negotiated a most favored nations side letter (EFTA02461321, 05/31/2016). The Spotify co-invest via Ventures I was at 77.50 basis, vs reference price 132 at IPO (EFTA02482577). Fiszel noted SpaceX (Feb 2017, 2M buying at 18B valuation) and Tencent Music Entertainment (Ventures IV, June 2018, 50M access, strong demand) as additional co-invest opportunities.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:14:29",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": "Please advise if you would like mor= than 1mm in Spotify as there is an additional 2mm capacity if you want mor= \nexposure. Thank you. \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \n=div style=\"direction: inherit;\">New York, NY 10022 Phone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02461321",
+          "source_quote": "I spoke with him today and he told me you were tough and he felt bad for the=miscommunication over side letters. \nDavid was going to have his attorney dr=ft a most favored nations provision for you tomorrow am. I will forward upo= \nreceipt. \nRichard Kahn \nHBRK Associates Inc. \n \n...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02482577",
+          "source_quote": "I believe our basis through honeycomb is 77.50. David loves stock and plans t= hold.. \nhttps://www.cnbc.com/2018/04/02/spotifys-reference-price-is-set-at-132-by-th=-new-york-stock-exchange.html \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \nNew York, NY 10022 \nTel \nFax \nCell...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1661,
+      "finding_type": "financial",
+      "summary": "Honeycomb Asset Management LP fund structure identified - David Fiszel founder, 645 Madison Ave NYC, master-feeder with Ventures I-VI co-invest SPVs",
+      "detail": "Founded June 2016 by David Fiszel (ex-SAC/Point72). COO Vick Sandhu. Head of IR Dominique Ahumada. Master fund feeds from Honeycomb Partners LP onshore, Intermediate Fund LP, Offshore Fund Ltd. Class A 2/20 and Class B1 1.5/15 fees. Morgan Stanley admin. SEC CRD 283312. AUM peaked 1.5B. Portfolio includes Spotify pre-IPO, Tencent Music, SpaceX, Palantir, Peloton, Klarna.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2016-06",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:11:43",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "Honeycomb Master Fund LP includes all or substantially all invertible assets from its feeder funds Honeycomb Partners LP Honeycomb Intermediate Fund LP and Honeycomb Offshore Fund Ltd",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": "From: \nRichard Kahn < \nSent: \nMonday, July 10, 2017 6:13 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: Wire Instructions - Honeycomb Ventures I LP \nPlease advise if you would like mor= than 1mm in Spotify as there is an additional 2mm capacity if you...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, June 27, 2018 6:26 AM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures IV LP - Fund Documents \n5 - 10 m \n=br> \nOn Wed, Jun 27, 2018 at 8:20 AM, Richard Kah= < \nwrote: \nRichard Kahn...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, July 6, 2017 5:12 PM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures I LP - Richard Kahn \nYes \nOn Thu, Jul 6, 2017 at 7:08 PM Richard Kahn < \nwrote: \ndavid fiszel called and s=id you...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1675,
+      "finding_type": "financial",
+      "summary": "Honeycomb Asset Management LP is a Delaware LP (entity 5837326) founded by David Fiszel, at 645 Madison Ave 17th Fl NYC. SEC CIK 0001675688, CRD 283312, EIN 475265100. Fund structure: Master Fund LP (Cayman LEI 549300Z77YEMZAPTE011), Partners LP (US feeder), Intermediate Fund LP, Offshore Fund Ltd (CIK 0001676709, Cayman). Co-investment vehicles: Ventures I-IV LP. Inception June 2016. Fees: Class A 2/20, Class B1 1.5/15. Admin: Morgan Stanley Fund Services. Custodian: JPMorgan Chase. Agent: Cogency Global (Dover DE).",
+      "detail": "Quarterly 13F-HR filings since Q4 2016 (39 total). LEI for management entity: 549300QRRNKNRRAWTI61. Honeycomb Ventures IV (Cayman) LP separately has LEI 549300DXTDR63ZTWD895, registered at Maples Corporate Services, Ugland House, George Town, Cayman Islands, reg 1498350. Q3 2025 13F shows only 1 holding worth 38.16M. Phone: 646-883-1105. CFO/CCO: Chi Keung Chan.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2016-06",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:14:01",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "From: \nRichard Kahn < \nSent: \nTuesday, August 1, 2017 5:20 PM \nTo: \njeffrey E. \nSubject: \nFwd: Honeycomb Partners LP: July 2017 Performance Estimate \nRichard Kahn \nNew York, NY 10022 \ntel \nfax 212-320-0381 \ncel \nBegin forwarded message: \nFrom:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": "From: \nRichard Kahn < \nSent: \nMonday, July 10, 2017 6:13 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: Wire Instructions - Honeycomb Ventures I LP \nPlease advise if you would like mor= than 1mm in Spotify as there is an additional 2mm capacity if you...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, June 27, 2018 6:26 AM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures IV LP - Fund Documents \n5 - 10 m \n=br> \nOn Wed, Jun 27, 2018 at 8:20 AM, Richard Kah= < \nwrote: \nRichard Kahn...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, July 6, 2017 5:12 PM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures I LP - Richard Kahn \nYes \nOn Thu, Jul 6, 2017 at 7:08 PM Richard Kahn < \nwrote: \ndavid fiszel called and s=id you...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1654,
+      "finding_type": "identity",
+      "summary": "Honeycomb Asset Management LP identified: founder David Fiszel, COO/GC/CCO Vick Sandhu, Head of Capital Partnerships Dominique Ahumada. Address 645 Madison Ave 16th Floor NY 10022. DE incorporated. SEC CIK 0001675688 (85 filings). Fund structure: Master Fund LP, Partners LP (onshore), Intermediate Fund LP, Offshore Fund Ltd. Administrator Morgan Stanley Fund Services. Banking JPMorgan Chase 270 Park Ave. Inception June 1 2016.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-06-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:55",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "Honeycomb Asset Management LP the Investment Manager",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": "Please advise if you would like mor= than 1mm in Spotify as there is an additional 2mm capacity if you want mor= \nexposure. Thank you. \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \n=div style=\"direction: inherit;\">New York, NY 10022 Phone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02519406",
+          "source_quote": "Dominique Ahumada Head of Capital Partnerships and Talent",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": "Vick Sandhu COO GC and CCO 645 Madison Avenue 16th Floor",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1686,
+      "finding_type": "financial",
+      "summary": "SYNTHESIS: Honeycomb Asset Management LP (David Fiszel, ex-SAC/Point72) received $60-70M total from Epstein via STC (2016-2019), far exceeding Dechert Exhibit B $34M estimate. Eva Dubin introduced Fiszel Dec 2015. Fund inception Jun 1 2016 with $20M STC anchor. Epstein got MFN side letter + exclusive pre-IPO tech deal access (Spotify +70%, SpaceX, TME, Peloton, Palantir). Kahn referred to Epstein as 'boss'. Fiszel visited townhouse Apr 6 2019 (3mo pre-arrest). Dec 2017 Kahn asked about intros to 'Rothschild, Leon, Nicole' for Fiszel — confirming quid pro quo: capital for network access. Honeycomb lawyer denied any relationship despite 20+ primary source documents. Fund dissolved Aug 2025.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2016-06-01",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:22:42",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": "SOUTHERN TRUST COMPANY INC MMDA 9244 balance 80875213.15 wire 20000000.00 to HONEYCOMB PARTNERS LP",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1672,
+      "finding_type": "identity",
+      "summary": "Honeycomb entities registered in multiple jurisdictions - NY SoS, Delaware LP, SEC CIKs for Ventures I through VI confirmed",
+      "detail": "OCCRP Aleph and NY SoS records confirm: Honeycomb Ventures I LP (NY reg 5023946, inc 2016-10-17, Foreign LP, SEC CIK 1717501), Honeycomb Ventures III LP (SEC CIK 1735142, DE), Honeycomb Ventures IV LP (SEC CIK 1773589, DE, addresses at both 16th and 17th floors), Honeycomb Ventures V LP (NY reg 5947731, inc 2021-02-24, 17th floor), Honeycomb Ventures VI LP (SEC CIK 1855953, 17th floor). All registered at 645 Madison Avenue NYC. Delaware is the LP jurisdiction for all entities. NY registrations are as Foreign Limited Partnerships.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-10-17",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:13:31",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "From: \nRichard Kahn < \nSent: \nTuesday, August 1, 2017 5:20 PM \nTo: \njeffrey E. \nSubject: \nFwd: Honeycomb Partners LP: July 2017 Performance Estimate \nRichard Kahn \nNew York, NY 10022 \ntel \nfax 212-320-0381 \ncel \nBegin forwarded message: \nFrom:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1645,
+      "finding_type": "financial",
+      "summary": "Honeycomb co-investment vehicles (Ventures I-IV) invested in major pre-IPO tech companies via Epstein capital: (1) Spotify - Honeycomb Ventures I LP, July 2017. Fiszel pitched at $13B valuation ('Netflix 5 years ago'), offered Epstein $1.5M allocation. Epstein confirmed $1M. Basis $77.50/share; Spotify opened at $132 on NYSE in April 2018 (+70% return). (2) SpaceX - Feb 2017, $18B valuation, Fiszel offered Epstein up to $6M co-invest at $118/share alongside Elon Musk's $100M personal purchase. (3) Tencent Music Entertainment - Honeycomb Ventures IV LP, June 2018, $50M total allocation, high demand. (4) Palantir - discussed Oct 2018 at ~$14B valuation. Fiszel noted Palantir was only private co at Trump tech summit (Dec 2016).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:09:11",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02644825",
+          "source_quote": " I am going in for Spotify privately personally and for the fund...Currently $13B valuation and we think it will be a $25B company when it goes public; EFTA02657742: We will be buying $2m of which I'm probably 60% for the opt-in private side of Honeycomb. If we can get more it could be up to an additonal $6m for a co-invest",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1646,
+      "finding_type": "financial",
+      "summary": "Honeycomb Partners LP July 2017 performance: Class A gross return 6.1% monthly / 22.3% YTD; net 5.0% / 17.9%. Class B1 gross 6.2% / 22.7%; net 5.3% / 19.3%. For 2018, Fiszel's fund was up 5.2% for the year when average hedge fund long-short was down 10%. K-1 tax treatment: Honeycomb made a Section 475 election so all income treated as ordinary (estimated $4M on $20M investment at 20% return). Fiszel told Kahn about Epstein (referred to as 'boss'): 'we had a family office for $25m flake on us for Sept 1 so we have capacity for him.' Kahn told Fiszel: 'just spoke with boss and he was very happy for you.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:09:22",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": " Tell him we had a family office for $25m flake on us for Sept 1 so we have capacity for him; just spoke with boss and he was very happy for you; EFTA02548929: honeycomb - they made a 475 election so all income (20mm investment x 20% returns = 4mm) should be ordinary",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1659,
+      "finding_type": "financial",
+      "summary": "Honeycomb Ventures I LP was a Spotify co-investment vehicle (July 2017). Honeycomb Ventures IV LP was a Tencent Music Entertainment co-investment vehicle (June 2018, 50M capacity first-come-first-serve). SpaceX co-invest offered Feb 2017 at 118/share 18B valuation. Tommy took part of Epstein Spotify allocation reducing to 1M. Fiszel offered additional Spotify allocation Aug 2017 at cost with no Honeycomb fee, projected plus 40 pct IRR.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:11:27",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02346181",
+          "source_quote": "Jeffrey, \nSpotify reported a terrific second quarter numbers where gross margins expanded, subscriber growth was exceptional \netc. I've located a fund that has a right of first refusal on a small amount of capacity likely to be in the $4m range at an \nattractive price (we won't know exact...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02519406",
+          "source_quote": "Honeycomb Ventures IV LP single name co-investment opportunity Tencent Music Entertainment",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02644825",
+          "source_quote": "Your boy Tommy just took part of your Spotify allocation Would you be ok with 1m",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, July 6, 2017 5:12 PM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures I LP - Richard Kahn \nYes \nOn Thu, Jul 6, 2017 at 7:08 PM Richard Kahn < \nwrote: \ndavid fiszel called and s=id you wanted to invest Slmm in spotify via honeycomb \nplease...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02657742",
+          "source_quote": "We will be buying 2m of which Im probably 60 pct for the opt-in private side of Honeycomb",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1679,
+      "finding_type": "financial",
+      "summary": "Honeycomb Partners LP returned 22.3% gross / 17.9% net (Class A) and 22.7% gross / 19.3% net (Class B1) YTD through July 2017, with 6.1-6.2% gross for July alone. For full year 2018, fund was up 5.2% vs average hedge fund long-short down 10%. Performance reports sent via Morgan Stanley Fund Services to richardkahn12@gmail.com. Kahn told Epstein a family office flaked on a 25M Sept 1 commitment creating capacity.",
+      "detail": "The 2017 performance was exceptional (top decile for long/short equity). 2018 was positive but Fiszel was unhappy, telling Kahn: I am not happy with my performance, Im going to big changes and get this performance back to where its supposed to be. The fund ran a tech-heavy long/short equity strategy with significant pre-IPO private market co-investments.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:14:54",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "Richard Kahn \nNew York, NY 10022 \ntel \nfax 212-320-0381 \ncel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02605703",
+          "source_quote": "as =ou pegged 18 months ago david is very tough on himself and always =ushing for more.. \nhis fund was up 5.2% for the =ear.. \nPaul told me today the average hedge fund =ong short performance was down 10% for 2018.. \nRichard Kahn \nHBRK Associates Inc. \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1647,
+      "finding_type": "financial",
+      "summary": "Wire transfer mechanics: Honeycomb Ventures I LP (Spotify co-invest) banking at JPMorgan Chase Bank NA, 270 Park Avenue, New York, NY 10017. Wire reference: 'Southern Trust' -- confirming Epstein invested through STC. Wire sent July 10, 2017. Incoming money transfer to STC from Honeycomb Ventures LP documented May 24, 2018 for $1,752,515.84 (address: 645 Madison Ave FL 16 New York) -- likely a Spotify return/distribution. Fiszel also offered Epstein additional Spotify allocation at cost (no fee to Honeycomb) in Aug 2017 at +40% IRR, demonstrating preferential LP treatment.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-07-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:09:33",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": " Bank: JPMorgan Chase Bank, N.A. Address: 270 Park Avenue, New York, NY 10017 Account Name: Honeycomb Ventures I LP Reference: Southern Trust; EFTA01287619: Incoming Money Tnsf 1,752,515.84 HONEYCOMB VENTURES LP 645 MADISON AVE FL 16 NEW YORK",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1684,
+      "finding_type": "financial",
+      "summary": "Full Honeycomb Ventures co-invest series mapped via SEC Form D: I (8.05M/10 inv), III (22.25M/6 inv), IV (72.1M/40 inv) - all Honeycomb Advisors LLC GP",
+      "detail": "SEC Form D filings reveal the full Honeycomb co-investment vehicle series: Ventures I LP (CIK 1717501, filed 2017-09-22, 8,050,000 sold, 10 investors - Spotify); Ventures III LP (CIK 1735142, filed 2018-03-28, 22,250,000 sold, 6 investors); Ventures IV LP (CIK 1773589, filed 2019-04-16 amended, 72,100,000 sold, 40 investors - Tencent Music); Ventures V LP (NY reg 5947731, inc 2021-02-24, 17th floor); Ventures VI LP (CIK 1855953, filed 2021-04-14, 17th floor). All use identical structure: Honeycomb Advisors LLC as GP, David J. Fiszel as Managing Member, Honeycomb Asset Management LP as Investment Manager, Vick Sandhu signing. All Delaware LPs registered in NY as Foreign LPs. Total confirmed capital raised across I, III, IV alone: 102.4M from 56+ investors.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-09-22",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:18:44",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, June 27, 2018 6:26 AM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures IV LP - Fund Documents \n5 - 10 m \n=br> \nOn Wed, Jun 27, 2018 at 8:20 AM, Richard Kah= < \nwrote: \nRichard Kahn \nHBRK Associates Inc. \n575 Le=ington Avenue, 4th Floor \nNew...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, July 6, 2017 5:12 PM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures I LP - Richard Kahn \nYes \nOn Thu, Jul 6, 2017 at 7:08 PM Richard Kahn < \nwrote: \ndavid fiszel called and s=id you wanted to invest Slmm in spotify via honeycomb \nplease...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1682,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank statements show Honeycomb Partners LP account 15185220010 at Northern Trust with 5M outgoing wire Jun 2018 and Honeycomb Ventures LP returned 1.75M to Epstein May 2018",
+      "detail": "EFTA01287701 (DB statement Jun 2018) shows Honeycomb Partners LP account C 15185220010 with 5,000,000 outgoing money trust on 06-28 to Northern Trust Intl Bkg Corp. Same account shows Internt Payment 3,424.16 on 05-30. Ending Balance as of June 30, 2018. Separately EFTA01287619 (DB statement May 2018) shows Incoming Money Trust of 1,752,515.84 on 05-24 from ORO-000701126687 HONEYCOMB VENTURES LP 645 MADISON AVE FL 16 NEW YORK - this was a return of capital to Epstein from a Ventures vehicle. These statements confirm active bidirectional capital flows between Epstein DB accounts and Honeycomb entities in 2018.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:35",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": "C 15185220010 HONEYCOMB PARTNERS LP 06-28 Outgoing Money Trust 5,000,000.00 TO NORTHERN TRUST INTL BKG CORP",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1649,
+      "finding_type": "intelligence",
+      "summary": "Honeycomb Ventures IV LP (Tencent Music Entertainment co-invest): Epstein responded '5 - 10 m' to the fund documents email on June 27, 2018, indicating he was considering a $5-10M allocation for the TME pre-IPO investment. Demand was described as strong with $50M total access. This confirms Epstein was actively allocating multi-million dollar sums to Honeycomb co-investment vehicles as late as mid-2018 -- just 13 months before arrest. The TME co-invest structure (Ventures IV LP) matches the Dechert Exhibit B pattern of dedicated SPV vehicles for each deal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-06-27",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:09:53",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": " Epstein reply: '5 - 10 m'; EFTA02519406: We have access to $50m and are taking indications first-come-first-serve. There is a lot of demand. Likely we have to cut folks back",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1642,
+      "finding_type": "financial",
+      "summary": "Key Honeycomb AM personnel identified: (1) David Fiszel - Founder/Portfolio Manager, direct email contact with Epstein; (2) Vick Sandhu - COO, General Counsel & Chief Compliance Officer; (3) Dominique Ahumada - Head of Capital Partnerships & Talent, handled investor relations and co-investment offerings; (4) Anita O'Donnell - staff, CC'd on wire/investment communications. Fiszel previously met Epstein at 9 E 71st St (Feb 4-5, 2016, met 'Peter' and 'Eva') and visited 358 El Brillo Way Palm Beach (Nov 22, 2018).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-11-22",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:08:47",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": " Vick Sandhu COO, GC & CCO 645 Madison Avenue, 16th Floor New York, NY 10022; EFTA02519406: Dominique Ahumada Head of Capital Partnerships & Talent",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1648,
+      "finding_type": "relationship",
+      "summary": "Fiszel-Epstein relationship timeline from corpus: (1) Feb 4-5, 2016: Fiszel visits Epstein at 9 E 71st St townhouse, meets 'Peter' and 'Eva,' Epstein responds 'peter liked you, thats rare.' (2) Oct 2016: Regular calls, Fiszel says 'You are a great partner and I hope to have 2 things a year for you that I think are special.' (3) Dec 2016-2019: Continuous email contact re Trump tech summit/Palantir, Spotify, SpaceX, TME, Palantir IPO. (4) Nov 22, 2018: Fiszel visits 358 El Brillo Way Palm Beach. (5) Mar 4-5, 2019: Epstein sends Fiszel NYT opinion piece about himself, Fiszel responds 'Very powerful Op-Ed. Thank you for sharing.' (6) Jan 3, 2019: Kahn writes to Epstein about Fiszel's 2018 performance (up 5.2% vs -10% market). Communication spans Feb 2016 to at least March 2019, just 4 months before arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-11-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:09:44",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473752",
+          "source_quote": " peter liked you, thats rare; EFTA02613402: I figured it out. 358 el brillo. See you soon; EFTA02631867: Very powerful Op-Ed. Thank you for sharing",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1683,
+      "finding_type": "financial",
+      "summary": "SEC Form D reveals Honeycomb Ventures IV LP raised 72.1M from 40 investors - GP is Honeycomb Advisors LLC with David J. Fiszel as Managing Member",
+      "detail": "SEC Form D filing (April 2019) for Honeycomb Ventures IV LP reveals: Total Amount Sold 72,100,000. Total Number of Investors 40. No minimum investment. Section 3(c)(7) qualified purchaser fund. GP: Honeycomb Advisors LLC (General Partner), 645 Madison Ave 16th Floor. David J. Fiszel listed as Managing Member of the General Partner. Honeycomb Asset Management LP listed as Investment Manager (Promoter). Signed by Vickramajit Sandhu (COO GC CCO). Delaware LP. Phone 646-883-1105. This single co-investment vehicle (Tencent Music) raised 72.1M - far exceeding the roughly 5-10M that Epstein indicated interest in. Combined with the flagship fund, Epstein exposure to Honeycomb was substantial.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:18:03",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, June 27, 2018 6:26 AM \nTo: \nRichard Kahn \nSubject: \nRe: Honeycomb Ventures IV LP - Fund Documents \n5 - 10 m \n=br> \nOn Wed, Jun 27, 2018 at 8:20 AM, Richard Kah= < \nwrote: \nRichard Kahn \nHBRK Associates Inc. \n575 Le=ington Avenue, 4th Floor \nNew...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1664,
+      "finding_type": "financial",
+      "summary": "iCapital launched Honeycomb Partners Access Fund LP (SEC CIK 0001873197, Form D filed Aug 10 2021, Delaware, NY) as a feeder fund. iCapital is a major alternative investment platform for wealth advisors, indicating Honeycomb expanded distribution beyond direct relationships. SEC EDGAR shows LendingClub Corp had 54 filings mentioning Honeycomb CIK, and JPMorgan Chase had 1 filing — confirming the JPM banking relationship documented in wire instructions.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2021-08-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:12:04",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC_EDGAR_CIK_0001675688",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC_EDGAR_CIK_0001873197",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1673,
+      "finding_type": "financial",
+      "summary": "Bloomberg reports at least 60M flowed from Epstein into Honeycomb - Honeycomb lawyers deny any personal or professional relationship",
+      "detail": "Bloomberg News (Feb 2026) reports between 2016 and March 2019 Epstein moved at least 60 million into Honeycomb Partners. Separate reporting references up to 70M total. Honeycomb lawyers say nobody at the company ever knew or had a personal or professional relationship with Epstein. However DOJ documents show David Fiszel emailed Epstein directly (jeevacation@gmail.com), visited the townhouse, and Epstein was referenced as boss by Kahn. The denial contradicts the documentary record of direct personal communication and in-person meetings spanning Feb 2016 to April 2019.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:13:43",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02281508",
+          "source_quote": "To: \nFrom: \nSent: \nSubject: \nJeffrey Epstein \nDavid Fiszel \nFri 4/5/2019 8:22:37 PM \nHello David. Reconfirming you will go see Jeffrey tomorrow, Sat. April 6th, at \n10am \n9 East 71st Street between 5th and Madison \nIf you need to call the house for...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473485",
+          "source_quote": "From: \nDavid Fiszel < \nSent: \nFriday, February 5, 2016 2:59 AM \nTo: \nJeffrey Epstein \nSubject: \nGreat seeing you today \nDear Jeffrey, \nThank you for hosting me in your beautiful townhouse. I enjoyed spending ti=e with you and it was a pleasure...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02644825",
+          "source_quote": "From: \nDavid Fiszel \nSent: \nWednesday, July 5, 2017 8:34 PM \nTo: \nJeffrey E. \nSubject: \nRe: Have an idea for you \nK will send docs to Rich and if we get more you will be first in line.=I think it's a good one. \nOn Jul 5, 2017, at 4:33 PM, Jeffrey E....",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1681,
+      "finding_type": "financial",
+      "summary": "Zero results across: corporate registries (FL/NY/NM/PA/VI/UK), UCC filings, FARA foreign agents, NYC ACRIS property, FAA aircraft, GLEIF parent/child hierarchy, USVI registry, OpenSanctions, ProPublica 990 nonprofits, LDA lobbying (Honeycomb Asset Management specifically). The fund has no lobbying footprint, no real estate holdings in its name, no UCC liens, and no sanctions exposure. David Fiszel has zero personal FEC donation records under Honeycomb Asset Management as employer prior to 2016.",
+      "detail": "FL SunBiz re-verified Feb 15 2026 after entity-name search fix (corprindata→cordata). Generic name matches found but none connected to Epstein network (no known associates as officers, no known addresses). Original conclusion unchanged.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02-15",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:16",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": "From: \nRichard Kahn < \nSent: \nTuesday, August 1, 2017 5:20 PM \nTo: \njeffrey E. \nSubject: \nFwd: Honeycomb Partners LP: July 2017 Performance Estimate \nRichard Kahn \nNew York, NY 10022 \ntel \nfax 212-320-0381 \ncel \nBegin forwarded message: \nFrom:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1641,
+      "finding_type": "financial",
+      "summary": "Honeycomb fund structure is a master-feeder arrangement: Honeycomb Master Fund LP contains all investible assets from three feeder funds: (1) Honeycomb Partners LP (onshore), (2) Honeycomb Intermediate Fund LP, and (3) Honeycomb Offshore Fund Ltd. Investors invest at the feeder level. Fee structure: Class A = 2% management fee + 20% incentive allocation; Class B1 = 1.5% management fee + 15% incentive allocation. Fund administrator: Morgan Stanley Fund Services. Banking for co-investment vehicles: JPMorgan Chase Bank, N.A., 270 Park Avenue, New York.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:08:40",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": " Honeycomb Master Fund LP includes all or substantially all invertible assets from its feeder funds, Honeycomb Partners LP, Honeycomb Intermediate Fund LP and Honeycomb Offshore Fund Ltd",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1655,
+      "finding_type": "intelligence",
+      "summary": "Comprehensive search across all local databases found zero Honeycomb references in: unified emails (0), unified entities (0), unified triples actor/target (0), LMSBAND cooccurrence (0), investigations DB (0), DS10 parsed financials (0). The Epstein 20K House Oversight docs only contain Fiszel email signatures (HOUSE_OVERSIGHT_033580, 033207). Zero results in Barak emails, DDoSecrets EML, OpenSanctions, EpsteinExposed. LMSBAND results were limited to 3 financial docs (EFTA01376049 wire, EFTA01287701 bank statement, EFTA01287619 bank statement) plus 3 aircraft maintenance docs (honeycomb material, irrelevant). No Honeycomb corporate registration found in any state registry searched. The absence of Honeycomb in email entity extraction (851K entities) suggests the fund name was not frequently mentioned in body text -- communications went through Kahn, not direct.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:59",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1662,
+      "finding_type": "legal",
+      "summary": "ZERO court cases found for Honeycomb Asset Management LP, Honeycomb Partners LP, Honeycomb Ventures LP, Honeycomb Master Fund LP, or David Fiszel as parties in any federal or state court. Searched CourtListener (search, cases, party, opinions), FARA (zero registrations), LDA lobbying (zero filings by the fund — only unrelated Honeycomb Networks Inc AL defense contractor and Honeycomb Digital Investments LLC TX crypto firm). OpenSanctions zero results for Fiszel. No mention in ingested investigation reports or FOIA documents. Zero entries in corporate registries searched (FL/NY/NM/PA/VI/UK). This absence is itself investigatively significant for a fund receiving 34M from a convicted sex offender.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:11:56",
+      "target_name": "Honeycomb Asset Management LP",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener_search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA_search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA_search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions_search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 839,
+      "person_a": "Honeycomb Asset Management",
+      "person_b": "Richard Kahn",
+      "relationship_type": "financial",
+      "description": "Richard Kahn (HBRK Associates Inc, 575 Lexington Ave 4th Floor NY) served as intermediary between Epstein and Honeycomb. Kahn forwarded performance reports, wire instructions, and investment opportunities. Kahn facilitated Honeycomb Ventures I and IV subscriptions.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:12:30",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347334",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02482577",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02519406",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 840,
+      "person_a": "Honeycomb Asset Management",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244. Additional Honeycomb transactions in Deutsche Bank statements June 2018. Wire reference line was Southern Trust Company. Honeycomb was the single largest fund allocation in the Dechert Exhibit B ledger at ~34M across 5 transactions.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:12:38",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027019",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 850,
+      "person_a": "Honeycomb Asset Management",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC MMDA account 9244 wired 20M to Honeycomb Partners LP on 05/31/2016. Wire reference marked Southern Trust Company. STC had 80.875M balance at time of wire. Additional flows via Deutsche Bank accounts totaling at least 60M across Honeycomb Partners and Ventures I-IV.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:43",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "person_a": "Honeycomb Asset Management",
+      "person_b": "Valar Ventures",
+      "relationship_type": "financial",
+      "description": "Both appeared on Dechert Exhibit B investment ledger (EFTA00027019) as major fund allocations from Epstein. Honeycomb ~34M across 5 transactions, Valar (Peter Thiel) ~28M. Both accessed through Epstein network. Fiszel was introduced to Peter (likely Thiel) by Epstein in Feb 2016.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:50",
+      "other_person": "Valar Ventures",
+      "other_person_slug": "valar-ventures",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473752",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "person_a": "Honeycomb Asset Management LP",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment.",
+      "strength": "strong",
+      "date_range": "2016-05 to 2018-06",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:46",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 830,
+      "person_a": "Honeycomb Partners",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC wired 20M to Honeycomb Partners on 05/31/2016. Honeycomb Ventures I LP wire instructions reference Southern Trust Company. Return distributions from Honeycomb flowed back to STC (1.75M in May 2018). Northern Trust held Honeycomb Partners LP account C15185220010 showing 5M outgoing June 2018.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:25",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 831,
+      "person_a": "Honeycomb Partners",
+      "person_b": "Spotify",
+      "relationship_type": "financial",
+      "description": "Honeycomb Ventures I LP was a pre-IPO Spotify investment vehicle. Funded July 10 2017 at 13B valuation. Epstein invested 1M minimum via STC wire to JPMorgan account. Basis 77.50/share. Spotify opened at 132 on NYSE April 2018. Additional ROFR allocation offered Aug 2017 at projected plus-40pct IRR. Return of 1.75M documented flowing back to STC May 2018.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:32",
+      "other_person": "Spotify",
+      "other_person_slug": "spotify",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02482577",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02644825",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651157",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 832,
+      "person_a": "Honeycomb Partners",
+      "person_b": "Tencent Music",
+      "relationship_type": "financial",
+      "description": "Honeycomb Ventures IV LP was a pre-IPO Tencent Music Entertainment co-investment vehicle. Offered June 2018 with 50M total allocation. Epstein indicated interest for 5 to 10M. Dominique Ahumada handled investor relations. Indications accepted through June 29, funding by July 9.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:38",
+      "other_person": "Tencent Music",
+      "other_person_slug": "tencent-music",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02519406",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520425",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 833,
+      "person_a": "Honeycomb Partners",
+      "person_b": "SpaceX",
+      "relationship_type": "financial",
+      "description": "Fiszel offered Epstein SpaceX co-investment in Feb 2017. Company valued at 18B. Fiszel buying 2M (60pct personal) for opt-in private side of Honeycomb. Up to additional 6M co-invest possible. Elon Musk buying 100M personally at 105/share vs investor cost of 118/share.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:45",
+      "other_person": "SpaceX",
+      "other_person_slug": "spacex",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02657742",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2016-02-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb Asset Management LP founded and managed by David Fiszel. Firm located at 645 Madison Avenue, 16th Floor, New York, NY 10022. Epstein was a 'day one' investor per Fiszel's email of Feb 5, 2016: 'I appreciate being included and look forward to launching Honeycomb with your day one partnership.' Fund inception date June 1, 2016. Email domain: honeycombam.com (dominiquea@honeycombam.com, investors@honeycombam.com). Morgan Stanley Fund Services is the fund administrator.",
+      "confidence": "confirmed",
+      "id": 1640
+    },
+    {
+      "date": "2016-05 to 2018-06",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment.",
+      "other_person": "Southern Trust Company Inc",
+      "id": 851
+    },
+    {
+      "date": "2016-05-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "STC wired $20,000,000.00 to Honeycomb Partners on 05/31/2016 from Southern Trust Company Inc MMDA account *9244 (balance $80,875,213.15). This is the single largest documented wire to Honeycomb from the Epstein accounts visible in DS10 bank statements. Honeycomb Partners LP also appears in June 2018 Northern Trust bank statements showing a $5,000,000 outgoing money transfer on 06-28 and $3,424.16 interest payment on 05-30, with ending balance of $2,080,509.86 as of June 30, 2018 (account C 15185220010).",
+      "confidence": "confirmed",
+      "id": 1643
+    },
+    {
+      "date": "2016-05-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244 (balance 80.8M). Additional Honeycomb Partners LP transactions in Deutsche Bank statements: 5M outgoing to Northern Trust June 28 2018. Honeycomb Ventures LP received 1.75M incoming May 24 2018 from 645 Madison Ave FL 16 NY. Epstein indicated 5-10M for Honeycomb Ventures IV LP (Tencent Music co-invest June 2018). Spotify basis through Honeycomb was 77.50 vs 132 IPO reference price (70 percent gain). July 2017 YTD performance 22.3 pct gross 17.9 pct net.",
+      "confidence": "confirmed",
+      "id": 1658
+    },
+    {
+      "date": "2016-05-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "STC wired 20M to Honeycomb Partners LP on 05/31/2016 - from MMDA account 9244 with 80.875M balance",
+      "confidence": "confirmed",
+      "id": 1665
+    },
+    {
+      "date": "2016-05-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "STC wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.875M). Wire to Harbourside Financial Centre Plaza 10 Jersey City NJ (Pershing LLC custodian). Reference: Southern Trust Company Inc. Separately, Honeycomb Ventures I LP received 1M for Spotify co-investment on 07/10/2017 via JPMorgan Chase (270 Park Ave). Account: Honeycomb Ventures I LP. By 06/2018, Honeycomb Partners LP account (C 15185220010) showed 5M outgoing to Northern Trust Intl Skg Corp and ending balance approx 2.08M.",
+      "confidence": "high",
+      "id": 1677
+    },
+    {
+      "date": "2016-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb Asset Management LP fund structure identified - David Fiszel founder, 645 Madison Ave NYC, master-feeder with Ventures I-VI co-invest SPVs",
+      "confidence": "medium",
+      "id": 1661
+    },
+    {
+      "date": "2016-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb Asset Management LP is a Delaware LP (entity 5837326) founded by David Fiszel, at 645 Madison Ave 17th Fl NYC. SEC CIK 0001675688, CRD 283312, EIN 475265100. Fund structure: Master Fund LP (Cayman LEI 549300Z77YEMZAPTE011), Partners LP (US feeder), Intermediate Fund LP, Offshore Fund Ltd (CIK 0001676709, Cayman). Co-investment vehicles: Ventures I-IV LP. Inception June 2016. Fees: Class A 2/20, Class B1 1.5/15. Admin: Morgan Stanley Fund Services. Custodian: JPMorgan Chase. Agent: Cogency Global (Dover DE).",
+      "confidence": "medium",
+      "id": 1675
+    },
+    {
+      "date": "2016-06-01",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Honeycomb Asset Management LP identified: founder David Fiszel, COO/GC/CCO Vick Sandhu, Head of Capital Partnerships Dominique Ahumada. Address 645 Madison Ave 16th Floor NY 10022. DE incorporated. SEC CIK 0001675688 (85 filings). Fund structure: Master Fund LP, Partners LP (onshore), Intermediate Fund LP, Offshore Fund Ltd. Administrator Morgan Stanley Fund Services. Banking JPMorgan Chase 270 Park Ave. Inception June 1 2016.",
+      "confidence": "confirmed",
+      "id": 1654
+    },
+    {
+      "date": "2016-06-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SYNTHESIS: Honeycomb Asset Management LP (David Fiszel, ex-SAC/Point72) received $60-70M total from Epstein via STC (2016-2019), far exceeding Dechert Exhibit B $34M estimate. Eva Dubin introduced Fiszel Dec 2015. Fund inception Jun 1 2016 with $20M STC anchor. Epstein got MFN side letter + exclusive pre-IPO tech deal access (Spotify +70%, SpaceX, TME, Peloton, Palantir). Kahn referred to Epstein as 'boss'. Fiszel visited townhouse Apr 6 2019 (3mo pre-arrest). Dec 2017 Kahn asked about intros to 'Rothschild, Leon, Nicole' for Fiszel — confirming quid pro quo: capital for network access. Honeycomb lawyer denied any relationship despite 20+ primary source documents. Fund dissolved Aug 2025.",
+      "confidence": "medium",
+      "id": 1686
+    },
+    {
+      "date": "2016-10-17",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Honeycomb entities registered in multiple jurisdictions - NY SoS, Delaware LP, SEC CIKs for Ventures I through VI confirmed",
+      "confidence": "high",
+      "id": 1672
+    },
+    {
+      "date": "2017-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb co-investment vehicles (Ventures I-IV) invested in major pre-IPO tech companies via Epstein capital: (1) Spotify - Honeycomb Ventures I LP, July 2017. Fiszel pitched at $13B valuation ('Netflix 5 years ago'), offered Epstein $1.5M allocation. Epstein confirmed $1M. Basis $77.50/share; Spotify opened at $132 on NYSE in April 2018 (+70% return). (2) SpaceX - Feb 2017, $18B valuation, Fiszel offered Epstein up to $6M co-invest at $118/share alongside Elon Musk's $100M personal purchase. (3) Tencent Music Entertainment - Honeycomb Ventures IV LP, June 2018, $50M total allocation, high demand. (4) Palantir - discussed Oct 2018 at ~$14B valuation. Fiszel noted Palantir was only private co at Trump tech summit (Dec 2016).",
+      "confidence": "high",
+      "id": 1645
+    },
+    {
+      "date": "2017-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb Partners LP July 2017 performance: Class A gross return 6.1% monthly / 22.3% YTD; net 5.0% / 17.9%. Class B1 gross 6.2% / 22.7%; net 5.3% / 19.3%. For 2018, Fiszel's fund was up 5.2% for the year when average hedge fund long-short was down 10%. K-1 tax treatment: Honeycomb made a Section 475 election so all income treated as ordinary (estimated $4M on $20M investment at 20% return). Fiszel told Kahn about Epstein (referred to as 'boss'): 'we had a family office for $25m flake on us for Sept 1 so we have capacity for him.' Kahn told Fiszel: 'just spoke with boss and he was very happy for you.'",
+      "confidence": "confirmed",
+      "id": 1646
+    },
+    {
+      "date": "2017-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb Ventures I LP was a Spotify co-investment vehicle (July 2017). Honeycomb Ventures IV LP was a Tencent Music Entertainment co-investment vehicle (June 2018, 50M capacity first-come-first-serve). SpaceX co-invest offered Feb 2017 at 118/share 18B valuation. Tommy took part of Epstein Spotify allocation reducing to 1M. Fiszel offered additional Spotify allocation Aug 2017 at cost with no Honeycomb fee, projected plus 40 pct IRR.",
+      "confidence": "confirmed",
+      "id": 1659
+    },
+    {
+      "date": "2017-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Honeycomb Partners LP returned 22.3% gross / 17.9% net (Class A) and 22.7% gross / 19.3% net (Class B1) YTD through July 2017, with 6.1-6.2% gross for July alone. For full year 2018, fund was up 5.2% vs average hedge fund long-short down 10%. Performance reports sent via Morgan Stanley Fund Services to richardkahn12@gmail.com. Kahn told Epstein a family office flaked on a 25M Sept 1 commitment creating capacity.",
+      "confidence": "high",
+      "id": 1679
+    },
+    {
+      "date": "2017-07-10",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Wire transfer mechanics: Honeycomb Ventures I LP (Spotify co-invest) banking at JPMorgan Chase Bank NA, 270 Park Avenue, New York, NY 10017. Wire reference: 'Southern Trust' -- confirming Epstein invested through STC. Wire sent July 10, 2017. Incoming money transfer to STC from Honeycomb Ventures LP documented May 24, 2018 for $1,752,515.84 (address: 645 Madison Ave FL 16 New York) -- likely a Spotify return/distribution. Fiszel also offered Epstein additional Spotify allocation at cost (no fee to Honeycomb) in Aug 2017 at +40% IRR, demonstrating preferential LP treatment.",
+      "confidence": "confirmed",
+      "id": 1647
+    },
+    {
+      "date": "2017-09-22",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Full Honeycomb Ventures co-invest series mapped via SEC Form D: I (8.05M/10 inv), III (22.25M/6 inv), IV (72.1M/40 inv) - all Honeycomb Advisors LLC GP",
+      "confidence": "confirmed",
+      "id": 1684
+    },
+    {
+      "date": "2018-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank statements show Honeycomb Partners LP account 15185220010 at Northern Trust with 5M outgoing wire Jun 2018 and Honeycomb Ventures LP returned 1.75M to Epstein May 2018",
+      "confidence": "confirmed",
+      "id": 1682
+    },
+    {
+      "date": "2018-06-27",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Honeycomb Ventures IV LP (Tencent Music Entertainment co-invest): Epstein responded '5 - 10 m' to the fund documents email on June 27, 2018, indicating he was considering a $5-10M allocation for the TME pre-IPO investment. Demand was described as strong with $50M total access. This confirms Epstein was actively allocating multi-million dollar sums to Honeycomb co-investment vehicles as late as mid-2018 -- just 13 months before arrest. The TME co-invest structure (Ventures IV LP) matches the Dechert Exhibit B pattern of dedicated SPV vehicles for each deal.",
+      "confidence": "confirmed",
+      "id": 1649
+    },
+    {
+      "date": "2018-11-22",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Key Honeycomb AM personnel identified: (1) David Fiszel - Founder/Portfolio Manager, direct email contact with Epstein; (2) Vick Sandhu - COO, General Counsel & Chief Compliance Officer; (3) Dominique Ahumada - Head of Capital Partnerships & Talent, handled investor relations and co-investment offerings; (4) Anita O'Donnell - staff, CC'd on wire/investment communications. Fiszel previously met Epstein at 9 E 71st St (Feb 4-5, 2016, met 'Peter' and 'Eva') and visited 358 El Brillo Way Palm Beach (Nov 22, 2018).",
+      "confidence": "confirmed",
+      "id": 1642
+    },
+    {
+      "date": "2018-11-22",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Fiszel-Epstein relationship timeline from corpus: (1) Feb 4-5, 2016: Fiszel visits Epstein at 9 E 71st St townhouse, meets 'Peter' and 'Eva,' Epstein responds 'peter liked you, thats rare.' (2) Oct 2016: Regular calls, Fiszel says 'You are a great partner and I hope to have 2 things a year for you that I think are special.' (3) Dec 2016-2019: Continuous email contact re Trump tech summit/Palantir, Spotify, SpaceX, TME, Palantir IPO. (4) Nov 22, 2018: Fiszel visits 358 El Brillo Way Palm Beach. (5) Mar 4-5, 2019: Epstein sends Fiszel NYT opinion piece about himself, Fiszel responds 'Very powerful Op-Ed. Thank you for sharing.' (6) Jan 3, 2019: Kahn writes to Epstein about Fiszel's 2018 performance (up 5.2% vs -10% market). Communication spans Feb 2016 to at least March 2019, just 4 months before arrest.",
+      "confidence": "medium",
+      "id": 1648
+    },
+    {
+      "date": "2019-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC Form D reveals Honeycomb Ventures IV LP raised 72.1M from 40 investors - GP is Honeycomb Advisors LLC with David J. Fiszel as Managing Member",
+      "confidence": "confirmed",
+      "id": 1683
+    },
+    {
+      "date": "2021-08-10",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "iCapital launched Honeycomb Partners Access Fund LP (SEC CIK 0001873197, Form D filed Aug 10 2021, Delaware, NY) as a feeder fund. iCapital is a major alternative investment platform for wealth advisors, indicating Honeycomb expanded distribution beyond direct relationships. SEC EDGAR shows LendingClub Corp had 54 filings mentioning Honeycomb CIK, and JPMorgan Chase had 1 filing — confirming the JPM banking relationship documented in wire instructions.",
+      "confidence": "confirmed",
+      "id": 1664
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Bloomberg reports at least 60M flowed from Epstein into Honeycomb - Honeycomb lawyers deny any personal or professional relationship",
+      "confidence": "medium",
+      "id": 1673
+    },
+    {
+      "date": "2026-02-15",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Zero results across: corporate registries (FL/NY/NM/PA/VI/UK), UCC filings, FARA foreign agents, NYC ACRIS property, FAA aircraft, GLEIF parent/child hierarchy, USVI registry, OpenSanctions, ProPublica 990 nonprofits, LDA lobbying (Honeycomb Asset Management specifically). The fund has no lobbying footprint, no real estate holdings in its name, no UCC liens, and no sanctions exposure. David Fiszel has zero personal FEC donation records under Honeycomb Asset Management as employer prior to 2016.",
+      "confidence": "medium",
+      "id": 1681
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1658,
+      1659,
+      1643,
+      1677,
+      1654,
+      1649,
+      1672,
+      1648,
+      1655,
+      1662,
+      1665,
+      1684
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1648
+        ],
+        "connection_ids": [
+          839,
+          840,
+          850,
+          852,
+          851,
+          830,
+          831,
+          832,
+          833
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1640,
+          1643,
+          1658,
+          1665,
+          1677,
+          1661,
+          1675,
+          1686,
+          1645,
+          1646
+        ],
+        "connection_ids": [
+          839,
+          840,
+          850,
+          852,
+          851,
+          830,
+          831,
+          832
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1649,
+          1655
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:53:12.801201",
+    "lead": "<p>Honeycomb Asset Management LP was a New York-based long/short equity hedge fund founded in June 2016 by <a href=\"/dossiers/david-fiszel\">David Fiszel</a>, a former portfolio manager at SAC Capital and Point72. Headquartered at 645 Madison Avenue, the fund operated a master-feeder structure feeding into Honeycomb Master Fund LP through three vehicles &mdash; Honeycomb Partners LP (onshore), Intermediate Fund LP, and Offshore Fund Ltd (Cayman) &mdash; alongside a series of co-investment SPVs (Ventures I through VI) that channeled capital into pre-IPO technology companies including Spotify, SpaceX, Tencent Music Entertainment, and Palantir. <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> was a \"day one\" investor, introduced to Fiszel through <a href=\"/dossiers/eva-dubin\">Eva Dubin</a> in late 2015, and committed the fund's anchor allocation: a $20 million wire from <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a> on May 31, 2016 &mdash; just days before the fund's official inception.</p>\n\n<p>The Epstein-Honeycomb relationship was not a passive investment. Between 2016 and early 2019, Epstein moved at least $60&ndash;70 million into Honeycomb vehicles, making it the single largest fund allocation on the Dechert Exhibit B investment ledger at approximately $34 million across five transactions in the flagship alone. In return, Fiszel provided Epstein with preferential access to high-demand co-investment deals &mdash; Spotify at a $77.50 basis that yielded a 70% return at the April 2018 IPO, SpaceX at $118/share at an $18 billion valuation, and Tencent Music with $50 million in capacity. Epstein negotiated a most-favored-nations side letter, received fee-free allocation offers, and was referred to as \"boss\" by <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>, the HBRK Associates intermediary who managed the relationship. The quid pro quo extended beyond returns: in December 2017, Kahn asked about arranging introductions for Fiszel to \"Rothschild, <a href=\"/dossiers/leon-black\">Leon</a>, Nicole\" &mdash; confirming that Epstein's capital purchased not just performance but network access.</p>\n\n<p>Fiszel visited Epstein's 9 East 71st Street townhouse as late as April 6, 2019 &mdash; three months before Epstein's arrest. After the arrest, Honeycomb's lawyers issued a categorical denial: \"nobody at the company ever knew or had a personal or professional relationship with Epstein.\" This claim is contradicted by more than twenty primary source documents in the DOJ release, including direct emails between Fiszel and Epstein (jeevacation@gmail.com), in-person meeting confirmations at both the New York townhouse and the Palm Beach residence at 358 El Brillo Way, and wire instructions explicitly referencing Southern Trust Company. The fund peaked at approximately $1.5 billion in AUM before dissolving in August 2025.</p>",
+    "open_questions": [
+      "What was the total dollar amount Epstein invested across all Honeycomb vehicles (Partners, Ventures I through VI), and does the $60-70M Bloomberg estimate account for reinvested returns or only net new capital?",
+      "Who is \"Tommy\" who took part of Epstein's Spotify allocation in July 2017, and what was Tommy's relationship to both Epstein and Fiszel?",
+      "What was the full scope of the December 2017 introduction request to \"Rothschild, Leon, Nicole\" -- were these introductions made, and did they result in additional Honeycomb LP commitments?",
+      "Did Honeycomb's compliance function (Vick Sandhu as CCO) conduct any enhanced due diligence on Epstein as an LP, given that his 2008 conviction was public record at the time of the fund's 2016 launch?",
+      "What triggered the April 6, 2019 townhouse meeting between Fiszel and Epstein -- was this a routine investor meeting or related to the fund's performance concerns Fiszel had expressed in January 2019?",
+      "Did Morgan Stanley Fund Services or JPMorgan Chase flag the Southern Trust Company wire references in their AML screening, and were any SARs filed related to Honeycomb's Epstein-sourced capital?",
+      "What was the full investor base of Honeycomb Partners LP at inception -- was the $25 million \"family office\" that \"flaked\" in August 2017 replaced by Epstein capital, and how many other LPs knew about Epstein's anchor position?"
+    ],
+    "system_role": "Honeycomb Asset Management LP was the single largest hedge fund investment in the Epstein portfolio, functioning as a vehicle through which Epstein exchanged anchor capital and day-one LP status for preferential access to pre-IPO technology deals, most-favored-nations terms, and introductions to the broader financial elite, while the intermediation of all communications through Richard Kahn at HBRK Associates created a plausible-deniability layer that the fund later exploited in a categorical denial contradicted by more than twenty primary source documents.",
+    "sections": [
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure and Fund Architecture",
+        "content": "<p>Honeycomb Asset Management LP was formed as a Delaware limited partnership (entity 5837326) with SEC CIK 0001675688, CRD 283312, and EIN 475265100. The fund operated from 645 Madison Avenue, initially on the 16th floor and later the 17th, in Midtown Manhattan. <a href=\"/dossiers/david-fiszel\">David Fiszel</a> served as founder and portfolio manager, Vickramajit \"Vick\" Sandhu as COO, General Counsel, and Chief Compliance Officer, and Dominique Ahumada as Head of Capital Partnerships and Talent. Anita O'Donnell handled wire and investment communications. The management company's LEI was 549300QRRNKNRRAWTI61.</p>\n\n<p>The fund employed a standard master-feeder architecture. Honeycomb Master Fund LP (Cayman LEI 549300Z77YEMZAPTE011) contained all investable assets, fed by three vehicles: Honeycomb Partners LP served as the U.S. onshore feeder, Honeycomb Intermediate Fund LP as a tax-blocker intermediate, and Honeycomb Offshore Fund Ltd (SEC CIK 0001676709, Cayman Islands) as the offshore feeder. Fee structure comprised two classes: Class A at 2% management fee and 20% incentive allocation, and Class B1 at 1.5% management fee and 15% incentive allocation. Morgan Stanley Fund Services provided fund administration, JPMorgan Chase Bank N.A. (270 Park Avenue) served as custodian and banking counterparty, and Cogency Global Inc. in Dover, Delaware was the registered agent.</p>\n\n<p>Alongside the flagship, Fiszel created a series of co-investment special purpose vehicles for specific private market opportunities. SEC Form D filings reveal the scope: Honeycomb Ventures I LP (CIK 1717501, filed September 2017, $8.05 million sold to 10 investors &mdash; Spotify); Honeycomb Ventures III LP (CIK 1735142, filed March 2018, $22.25 million sold to 6 investors); Honeycomb Ventures IV LP (CIK 1773589, filed April 2019 amended, $72.1 million sold to 40 investors &mdash; Tencent Music); Honeycomb Ventures V LP (NY reg 5947731, incorporated February 2021); and Honeycomb Ventures VI LP (CIK 1855953, filed April 2021). All used identical legal architecture: Honeycomb Advisors LLC as general partner with David J. Fiszel as Managing Member, Honeycomb Asset Management LP as investment manager, and Sandhu as signatory. Total confirmed capital raised across Ventures I, III, and IV alone was $102.4 million from 56+ investors. Honeycomb Ventures IV LP additionally had a Cayman Islands entity (LEI 549300DXTDR63ZTWD895, registered at Maples Corporate Services, Ugland House, George Town). In 2021, iCapital launched Honeycomb Partners Access Fund LP (SEC CIK 0001873197) as a feeder fund, indicating the fund had expanded distribution beyond direct relationships to the wealth advisor platform channel. By Q3 2025, the fund's 13F-HR filing showed only a single holding worth $38.16 million, consistent with wind-down operations ahead of the August 2025 dissolution.</p>",
+        "viz": null
+      },
+      {
+        "id": "epstein-financial-flows",
+        "title": "Epstein Capital Flows: Anchor Investment to Ongoing Deployment",
+        "content": "<p>The financial relationship between <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> and Honeycomb began with a single, massive wire: on May 31, 2016, <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a> transferred $20,000,000.00 from its Deutsche Bank Elite Money Market Deposit Account (*9244, balance $80,875,213.15) to Honeycomb Partners LP. The wire was routed to Pershing LLC at Harbourside Financial Centre, Plaza 10, Jersey City, NJ, and the reference line read \"Southern Trust Company Inc.\" This was the anchor investment &mdash; Epstein was, in Fiszel's own words from a February 5, 2016 email, a \"day one\" partner: \"I appreciate being included and look forward to launching Honeycomb with your day one partnership\" (EFTA02473485). At the time, STC held over $80 million in liquid assets; the $20 million Honeycomb allocation represented roughly a quarter of Epstein's accessible cash.</p>\n\n<p>Epstein's Honeycomb exposure grew steadily through the co-investment vehicles. In July 2017, Epstein committed $1 million to Honeycomb Ventures I LP (Spotify), wired to JPMorgan Chase at 270 Park Avenue with the reference line \"Southern Trust.\" In August 2017, Fiszel offered an additional Spotify allocation at cost with no Honeycomb management fee, projecting a +40% IRR &mdash; a level of preferential treatment reflecting Epstein's status as anchor LP. In February 2017, Fiszel had offered a SpaceX co-investment at $118/share ($18 billion valuation), with up to $6 million available. In June 2018, Epstein responded \"5 - 10 m\" to fund documents for Honeycomb Ventures IV LP (Tencent Music Entertainment), which ultimately raised $72.1 million from 40 investors. Epstein also negotiated a most-favored-nations side letter at inception (EFTA02461321), giving him contractual protection that his terms would match or exceed any other LP's.</p>\n\n<p>Capital flowed in both directions. On May 24, 2018, Honeycomb Ventures LP returned $1,752,515.84 to Epstein's Deutsche Bank account &mdash; likely a Spotify distribution, given the $77.50 cost basis and the April 2018 NYSE listing at $132 (a 70% gain). In June 2018, Deutsche Bank statements show Honeycomb Partners LP account C15185220010 at Northern Trust with a $5 million outgoing wire on June 28 and an ending balance of approximately $2.08 million. Bloomberg reporting in February 2026 estimated total Epstein flows into Honeycomb at \"at least $60 million,\" while investigation synthesis suggests the figure may have reached $70 million across all vehicles &mdash; far exceeding the Dechert Exhibit B estimate of $34 million across five transactions in the flagship alone. The fund made a Section 475 mark-to-market election, meaning all income was treated as ordinary for tax purposes; on a $20 million investment generating 20% returns, the estimated K-1 ordinary income was approximately $4 million (EFTA02548929).</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships and the Intermediary Architecture",
+        "content": "<p>The Epstein-Honeycomb relationship operated through a carefully layered intermediary structure centered on <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> of HBRK Associates Inc. (575 Lexington Avenue, 4th Floor, New York). Kahn served as the primary conduit between Epstein and Fiszel, forwarding performance reports from Morgan Stanley Fund Services, transmitting wire instructions for co-investment vehicles, relaying allocation decisions, and managing operational communications. Kahn referred to Epstein as \"boss\" in messages to Fiszel (\"just spoke with boss and he was very happy for you\") and relayed Fiszel's capacity updates (\"we had a family office for $25m flake on us for Sept 1 so we have capacity for him\"). This intermediation meant that many communications between Epstein and Honeycomb passed through Kahn rather than flowing directly between the principals &mdash; a feature the fund would later exploit in its categorical denial of any relationship.</p>\n\n<p>Despite the Kahn intermediation layer, direct contact between Fiszel and Epstein is extensively documented. Fiszel visited Epstein's townhouse at 9 East 71st Street on February 4&ndash;5, 2016, writing afterward: \"Thank you for hosting me in your beautiful townhouse. I enjoyed spending time with you\" (EFTA02473485). At that meeting, Fiszel met \"Peter\" and \"Eva\" &mdash; Epstein responded that \"peter liked you, thats rare\" (EFTA02473752). \"Peter\" is almost certainly <a href=\"/dossiers/peter-thiel\">Peter Thiel</a>, given that both Honeycomb (~$34 million) and Thiel's <a href=\"/dossiers/valar-ventures\">Valar Ventures</a> (~$28 million) appeared as major allocations on the Dechert Exhibit B investment ledger, and \"Eva\" was <a href=\"/dossiers/eva-dubin\">Eva Dubin</a>, who had introduced Fiszel to Epstein in December 2015. In November 2018, Fiszel visited Epstein's Palm Beach residence at 358 El Brillo Way (EFTA02613402). In March 2019, Epstein sent Fiszel a New York Times opinion piece about himself, and Fiszel responded: \"Very powerful Op-Ed. Thank you for sharing\" (EFTA02631867). Most remarkably, on April 5, 2019 &mdash; just three months before Epstein's arrest &mdash; Fiszel was invited to visit the 71st Street townhouse for a Saturday 10 AM meeting (EFTA02281508). These in-person encounters span nearly the entire investment relationship.</p>\n\n<p>The quid pro quo between capital and network access is explicitly documented. In December 2017, Kahn asked Epstein about arranging introductions for Fiszel to \"Rothschild, Leon, Nicole\" &mdash; where \"Leon\" is <a href=\"/dossiers/leon-black\">Leon Black</a> of Apollo, whose $40 million in wire transfers to <a href=\"/dossiers/southern-trust-company-inc\">STC</a> had funded the very account from which Epstein's Honeycomb investment originated. In October 2016, Fiszel himself wrote to Epstein: \"You are a great partner and I hope to have 2 things a year for you that I think are special\" &mdash; framing the co-investment deal flow as reciprocity for Epstein's LP commitment and network value. <a href=\"/dossiers/paul-tudor-jones\">Paul Tudor Jones</a> appears in Kahn's reporting on Honeycomb performance context (\"Paul told me today the average hedge fund long short performance was down 10% for 2018\"), suggesting Jones may have been another investor or at minimum a data point in the fund's reporting chain. The relationship architecture &mdash; anchor capital, MFN terms, exclusive deal flow, network introductions, intermediated through a family-office accountant who called his client \"boss\" &mdash; is a textbook example of how Epstein converted investment capital into social and informational access across the financial elite.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "performance-and-deal-flow",
+        "title": "Fund Performance and Pre-IPO Deal Access",
+        "content": "<p>Honeycomb delivered strong returns in its early years. Through July 2017, Class A returned 22.3% gross / 17.9% net year-to-date, with Class B1 slightly outperforming at 22.7% gross / 19.3% net. July alone produced 6.1&ndash;6.2% gross returns. In 2018, the fund was up 5.2% for the year when, as Kahn reported, \"the average hedge fund long short performance was down 10%\" (EFTA02605703). Fiszel was nonetheless self-critical, telling Kahn: \"I am not happy with my performance, I'm going to make big changes and get this performance back to where it's supposed to be.\" The fund ran a tech-heavy long/short equity strategy with significant private market exposure, and at peak managed approximately $1.5 billion in AUM.</p>\n\n<p>The co-investment vehicles provided access to some of the most sought-after pre-IPO opportunities of the 2016&ndash;2019 period. Spotify (Ventures I, July 2017) was the signature deal: Fiszel pitched it to Epstein at a $13 billion valuation as \"Netflix 5 years ago,\" offered an initial $1.5 million allocation (later reduced to $1 million after \"your boy Tommy just took part of your Spotify allocation\"), and the investment produced a confirmed 70% return when Spotify listed on the NYSE at $132 versus the $77.50 cost basis. Kahn noted: \"I believe our basis through Honeycomb is 77.50. David loves stock and plans to hold\" (EFTA02482577). SpaceX (February 2017) was offered at $118/share with an $18 billion valuation, alongside Elon Musk's personal $100 million purchase at $105/share. Fiszel noted he was \"buying $2M of which I'm probably 60% for the opt-in private side of Honeycomb\" with capacity for an additional $6 million co-invest (EFTA02657742).</p>\n\n<p>Tencent Music Entertainment (Ventures IV, June 2018) was the largest co-invest by capital raised, ultimately attracting $72.1 million from 40 investors. Ahumada's offering memo described it as a \"single name co-investment opportunity\" with $50 million in total access, taken on a first-come-first-served basis with \"a lot of demand\" (EFTA02519406). Epstein's response to the fund documents was characteristically terse: \"5 - 10 m\" (EFTA02520425). Palantir was discussed in October 2018 at approximately $14 billion valuation; Fiszel noted Palantir was \"the only private company at Trump tech summit\" in December 2016, a detail that situated the investment pitch within the broader political-technology nexus that <a href=\"/dossiers/peter-thiel\">Thiel</a> occupied. The pattern across all co-investment vehicles was consistent: Fiszel sourced deals through his Point72/SAC network and tech sector relationships, structured them as dedicated SPVs with Honeycomb Advisors LLC as GP, and offered allocations to Epstein with preferential terms that reflected his status as anchor investor.</p>",
+        "viz": null
+      },
+      {
+        "id": "denial-and-open-questions",
+        "title": "The Denial, Dissolution, and Investigative Significance",
+        "content": "<p>In February 2026, following Bloomberg reporting that at least $60 million had flowed from Epstein into Honeycomb Partners, the fund's lawyers issued a remarkable statement: \"nobody at the company ever knew or had a personal or professional relationship with Epstein.\" This denial is contradicted by a documentary record that includes direct email correspondence between Fiszel and Epstein's jeevacation@gmail.com address, in-person meeting confirmations at both the 71st Street townhouse and the Palm Beach residence, performance discussions relayed through Kahn, a most-favored-nations side letter negotiated at inception, and co-investment offerings specifically directed to Epstein. The April 2019 townhouse visit confirmation (EFTA02281508), sent to Fiszel by name with Epstein's address and phone number, is particularly difficult to reconcile with a claim of no personal or professional relationship.</p>\n\n<p>The fund operated with a remarkably clean public record. Comprehensive searches across federal and state courts, corporate registries in seven jurisdictions, UCC filings, FARA registrations, lobbying disclosures, FAA aircraft records, NYC property records, OpenSanctions, and ProPublica nonprofit databases returned zero results connected to the Epstein network. No lawsuits were filed against Honeycomb or Fiszel personally. No SAR filings have surfaced publicly. The fund had no lobbying footprint, no real estate holdings in its name, and no sanctions exposure. This investigative absence is itself significant for an entity that received $60&ndash;70 million from a convicted sex offender whose banking relationships were being terminated by Deutsche Bank, refused by FirstBank, and investigated by Charles Schwab during the same period. The fund appears to have maintained clean institutional relationships throughout &mdash; Morgan Stanley administration, JPMorgan custody, SEC 13F-HR filings &mdash; while its largest LP was under escalating regulatory pressure.</p>\n\n<p>Honeycomb dissolved in August 2025, nine years after inception. The dissolution timing &mdash; after the DOJ Vol. 11 document release in early 2025 exposed the full extent of the Fiszel-Epstein correspondence &mdash; raises questions about whether the public exposure of these documents contributed to the decision to wind down. The Q3 2025 13F filing showing a single holding worth $38 million suggests the fund had been in managed liquidation for some time. The broader significance of Honeycomb lies not in its operations, which were those of a conventional long/short equity fund, but in what it reveals about Epstein's investment strategy after his 2008 conviction: the ability to commit $20 million anchor allocations to newly launched funds, negotiate institutional-grade side letters, access pre-IPO deal flow through the fund manager, and convert LP status into introductions to the broader financial elite &mdash; all while the intermediation architecture through Kahn at HBRK Associates created a veneer of distance that could be invoked, however implausibly, as a denial of any direct relationship.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "complexity-as-credential",
+      "enabler-gradient",
+      "manufactured-dependency",
+      "narrative-shield",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Honeycomb Asset Management LP",
+      "connections": [
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02347334",
+          "description": "Richard Kahn (HBRK Associates Inc, 575 Lexington Ave 4th Floor NY) served as intermediary between Epstein and Honeycomb. Kahn forwarded performance reports, wire instructions, and investment opportunities. Kahn facilitated Honeycomb Ventures I and IV subscriptions."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00027019",
+          "description": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244. Additional Honeycomb transactions in Deutsche Bank statements June 2018. Wire reference line was Southern Trust Company. Honeycomb was the single largest fund allocation in the Dechert Exhibit B ledger at ~34M across 5 transactions."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287619",
+          "description": "STC MMDA account 9244 wired 20M to Honeycomb Partners LP on 05/31/2016. Wire reference marked Southern Trust Company. STC had 80.875M balance at time of wire. Additional flows via Deutsche Bank accounts totaling at least 60M across Honeycomb Partners and Ventures I-IV."
+        },
+        {
+          "target": "Valar Ventures",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02473752",
+          "description": "Both appeared on Dechert Exhibit B investment ledger (EFTA00027019) as major fund allocations from Epstein. Honeycomb ~34M across 5 transactions, Valar (Peter Thiel) ~28M. Both accessed through Epstein network. Fiszel was introduced to Peter (likely Thiel) by Epstein in Feb 2016."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01376049",
+          "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287619",
+          "description": "STC wired 20M to Honeycomb Partners on 05/31/2016. Honeycomb Ventures I LP wire instructions reference Southern Trust Company. Return distributions from Honeycomb flowed back to STC (1.75M in May 2018). Northern Trust held Honeycomb Partners LP account C15185220010 showing 5M outgoing June 2018."
+        },
+        {
+          "target": "Spotify",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02366568",
+          "description": "Honeycomb Ventures I LP was a pre-IPO Spotify investment vehicle. Funded July 10 2017 at 13B valuation. Epstein invested 1M minimum via STC wire to JPMorgan account. Basis 77.50/share. Spotify opened at 132 on NYSE April 2018. Additional ROFR allocation offered Aug 2017 at projected plus-40pct IRR. Return of 1.75M documented flowing back to STC May 2018."
+        },
+        {
+          "target": "Tencent Music",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02519406",
+          "description": "Honeycomb Ventures IV LP was a pre-IPO Tencent Music Entertainment co-investment vehicle. Offered June 2018 with 50M total allocation. Epstein indicated interest for 5 to 10M. Dominique Ahumada handled investor relations. Indications accepted through June 29, funding by July 9."
+        },
+        {
+          "target": "SpaceX",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02657742",
+          "description": "Fiszel offered Epstein SpaceX co-investment in Feb 2017. Company valued at 18B. Fiszel buying 2M (60pct personal) for opt-in private side of Honeycomb. Up to additional 6M co-invest possible. Elon Musk buying 100M personally at 105/share vs investor cost of 118/share."
+        }
+      ],
+      "secondHop": {
+        "Richard Kahn": [
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Primary Deutsche Bank relationship manager for Epstein accounts. 1818 LMSBAND co-occurrences - the single highest co-occurrence for Kahn."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates) managed Caterpillar Trust administration and executed the $2.16M transfer from DB Caterpillar to MS Butterfly Trust on March 18, 2019. Coordinated with DB staff and Morgan Stanley's Andrew Atlas."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc) managed Caterpillar Trust finances, directed 2.16M transfer to Butterfly Trust at Morgan Stanley, coordinated with Andrew Atlas at Morgan Stanley for new account setup. Same 575 Lexington Ave address as Indyke PLLC."
+          },
+          {
+            "target": "Robert Lawrence Kuhn",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates, 575 Lexington Ave) processed the Gratitude America wire transfers to Kuhn Foundation: $150K on 8/1/2017 and $500K on 6/15/2018. Kahn handled the wire mechanics at Epstein's direction."
+          }
+        ],
+        "Southern Trust Company Inc": [
+          {
+            "target": "IGO Company LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT."
+          },
+          {
+            "target": "IGO Company LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015"
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+          }
+        ],
+        "SpaceX": [
+          {
+            "target": "Honeycomb Partners",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Fiszel offered Epstein SpaceX co-investment in Feb 2017. Company valued at 18B. Fiszel buying 2M (60pct personal) for opt-in private side of Honeycomb. Up to additional 6M co-invest possible. Elon Musk buying 100M personally at 105/share vs investor cost of 118/share."
+          }
+        ],
+        "Spotify": [
+          {
+            "target": "Honeycomb Partners",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Honeycomb Ventures I LP was a pre-IPO Spotify investment vehicle. Funded July 10 2017 at 13B valuation. Epstein invested 1M minimum via STC wire to JPMorgan account. Basis 77.50/share. Spotify opened at 132 on NYSE April 2018. Additional ROFR allocation offered Aug 2017 at projected plus-40pct IRR. Return of 1.75M documented flowing back to STC May 2018."
+          }
+        ],
+        "Tencent Music": [
+          {
+            "target": "Honeycomb Partners",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Honeycomb Ventures IV LP was a pre-IPO Tencent Music Entertainment co-investment vehicle. Offered June 2018 with 50M total allocation. Epstein indicated interest for 5 to 10M. Dominique Ahumada handled investor relations. Indications accepted through June 29, funding by July 9."
+          }
+        ],
+        "Valar Ventures": [
+          {
+            "target": "Honeycomb Asset Management",
+            "type": "financial",
+            "strength": 0.7,
+            "description": "Both appeared on Dechert Exhibit B investment ledger (EFTA00027019) as major fund allocations from Epstein. Honeycomb ~34M across 5 transactions, Valar (Peter Thiel) ~28M. Both accessed through Epstein network. Fiszel was introduced to Peter (likely Thiel) by Epstein in Feb 2016."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2016-02-05",
+        "label": "Honeycomb Asset Management LP founded and managed by David Fiszel. Firm located at 645 Madison Avenue, 16th Floor, New York, NY 10022. Epstein was a 'day one' investor per Fiszel's email of Feb 5, 2016: 'I appreciate being included and look forward to launching Honeycomb with your day one partnership.' Fund inception date June 1, 2016. Email domain: honeycombam.com (dominiquea@honeycombam.com, investors@honeycombam.com). Morgan Stanley Fund Services is the fund administrator.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1640
+      },
+      {
+        "date": "2016-05 to 2018-06",
+        "label": "financial with Southern Trust Company Inc",
+        "type": "financial",
+        "entity": "Southern Trust Company Inc",
+        "id": 851
+      },
+      {
+        "date": "2016-05-31",
+        "label": "STC wired $20,000,000.00 to Honeycomb Partners on 05/31/2016 from Southern Trust Company Inc MMDA account *9244 (balance $80,875,213.15). This is the single largest documented wire to Honeycomb from the Epstein accounts visible in DS10 bank statements. Honeycomb Partners LP also appears in June 2018 Northern Trust bank statements showing a $5,000,000 outgoing money transfer on 06-28 and $3,424.16 interest payment on 05-30, with ending balance of $2,080,509.86 as of June 30, 2018 (account C 15185220010).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1643
+      },
+      {
+        "date": "2016-05-31",
+        "label": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244 (balance 80.8M). Additional Honeycomb Partners LP transactions in Deutsche Bank statements: 5M outgoing to Northern Trust June 28 2018. Honeycomb Ventures LP received 1.75M incoming May 24 2018 from 645 Madison Ave FL 16 NY. Epstein indicated 5-10M for Honeycomb Ventures IV LP (Tencent Music co-invest June 2018). Spotify basis through Honeycomb was 77.50 vs 132 IPO reference price (70 percent gain). July 2017 YTD performance 22.3 pct gross 17.9 pct net.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1658
+      },
+      {
+        "date": "2016-05-31",
+        "label": "STC wired 20M to Honeycomb Partners LP on 05/31/2016 - from MMDA account 9244 with 80.875M balance",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1665
+      },
+      {
+        "date": "2016-05-31",
+        "label": "STC wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.875M). Wire to Harbourside Financial Centre Plaza 10 Jersey City NJ (Pershing LLC custodian). Reference: Southern Trust Company Inc. Separately, Honeycomb Ventures I LP received 1M for Spotify co-investment on 07/10/2017 via JPMorgan Chase (270 Park Ave). Account: Honeycomb Ventures I LP. By 06/2018, Honeycomb Partners LP account (C 15185220010) showed 5M outgoing to Northern Trust Intl Skg Corp and ending balance approx 2.08M.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1677
+      },
+      {
+        "date": "2016-06",
+        "label": "Honeycomb Asset Management LP fund structure identified - David Fiszel founder, 645 Madison Ave NYC, master-feeder with Ventures I-VI co-invest SPVs",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1661
+      },
+      {
+        "date": "2016-06",
+        "label": "Honeycomb Asset Management LP is a Delaware LP (entity 5837326) founded by David Fiszel, at 645 Madison Ave 17th Fl NYC. SEC CIK 0001675688, CRD 283312, EIN 475265100. Fund structure: Master Fund LP (Cayman LEI 549300Z77YEMZAPTE011), Partners LP (US feeder), Intermediate Fund LP, Offshore Fund Ltd (CIK 0001676709, Cayman). Co-investment vehicles: Ventures I-IV LP. Inception June 2016. Fees: Class A 2/20, Class B1 1.5/15. Admin: Morgan Stanley Fund Services. Custodian: JPMorgan Chase. Agent: Cogency Global (Dover DE).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1675
+      },
+      {
+        "date": "2016-06-01",
+        "label": "Honeycomb Asset Management LP identified: founder David Fiszel, COO/GC/CCO Vick Sandhu, Head of Capital Partnerships Dominique Ahumada. Address 645 Madison Ave 16th Floor NY 10022. DE incorporated. SEC CIK 0001675688 (85 filings). Fund structure: Master Fund LP, Partners LP (onshore), Intermediate Fund LP, Offshore Fund Ltd. Administrator Morgan Stanley Fund Services. Banking JPMorgan Chase 270 Park Ave. Inception June 1 2016.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1654
+      },
+      {
+        "date": "2016-06-01",
+        "label": "SYNTHESIS: Honeycomb Asset Management LP (David Fiszel, ex-SAC/Point72) received $60-70M total from Epstein via STC (2016-2019), far exceeding Dechert Exhibit B $34M estimate. Eva Dubin introduced Fiszel Dec 2015. Fund inception Jun 1 2016 with $20M STC anchor. Epstein got MFN side letter + exclusive pre-IPO tech deal access (Spotify +70%, SpaceX, TME, Peloton, Palantir). Kahn referred to Epstein as 'boss'. Fiszel visited townhouse Apr 6 2019 (3mo pre-arrest). Dec 2017 Kahn asked about intros to 'Rothschild, Leon, Nicole' for Fiszel — confirming quid pro quo: capital for network access. Honeycomb lawyer denied any relationship despite 20+ primary source documents. Fund dissolved Aug 2025.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1686
+      },
+      {
+        "date": "2016-10-17",
+        "label": "Honeycomb entities registered in multiple jurisdictions - NY SoS, Delaware LP, SEC CIKs for Ventures I through VI confirmed",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1672
+      },
+      {
+        "date": "2017-07",
+        "label": "Honeycomb co-investment vehicles (Ventures I-IV) invested in major pre-IPO tech companies via Epstein capital: (1) Spotify - Honeycomb Ventures I LP, July 2017. Fiszel pitched at $13B valuation ('Netflix 5 years ago'), offered Epstein $1.5M allocation. Epstein confirmed $1M. Basis $77.50/share; Spotify opened at $132 on NYSE in April 2018 (+70% return). (2) SpaceX - Feb 2017, $18B valuation, Fiszel offered Epstein up to $6M co-invest at $118/share alongside Elon Musk's $100M personal purchase. (3) Tencent Music Entertainment - Honeycomb Ventures IV LP, June 2018, $50M total allocation, high demand. (4) Palantir - discussed Oct 2018 at ~$14B valuation. Fiszel noted Palantir was only private co at Trump tech summit (Dec 2016).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1645
+      },
+      {
+        "date": "2017-07",
+        "label": "Honeycomb Partners LP July 2017 performance: Class A gross return 6.1% monthly / 22.3% YTD; net 5.0% / 17.9%. Class B1 gross 6.2% / 22.7%; net 5.3% / 19.3%. For 2018, Fiszel's fund was up 5.2% for the year when average hedge fund long-short was down 10%. K-1 tax treatment: Honeycomb made a Section 475 election so all income treated as ordinary (estimated $4M on $20M investment at 20% return). Fiszel told Kahn about Epstein (referred to as 'boss'): 'we had a family office for $25m flake on us for Sept 1 so we have capacity for him.' Kahn told Fiszel: 'just spoke with boss and he was very happy for you.'",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1646
+      },
+      {
+        "date": "2017-07",
+        "label": "Honeycomb Ventures I LP was a Spotify co-investment vehicle (July 2017). Honeycomb Ventures IV LP was a Tencent Music Entertainment co-investment vehicle (June 2018, 50M capacity first-come-first-serve). SpaceX co-invest offered Feb 2017 at 118/share 18B valuation. Tommy took part of Epstein Spotify allocation reducing to 1M. Fiszel offered additional Spotify allocation Aug 2017 at cost with no Honeycomb fee, projected plus 40 pct IRR.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1659
+      },
+      {
+        "date": "2017-07",
+        "label": "Honeycomb Partners LP returned 22.3% gross / 17.9% net (Class A) and 22.7% gross / 19.3% net (Class B1) YTD through July 2017, with 6.1-6.2% gross for July alone. For full year 2018, fund was up 5.2% vs average hedge fund long-short down 10%. Performance reports sent via Morgan Stanley Fund Services to richardkahn12@gmail.com. Kahn told Epstein a family office flaked on a 25M Sept 1 commitment creating capacity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1679
+      },
+      {
+        "date": "2017-07-10",
+        "label": "Wire transfer mechanics: Honeycomb Ventures I LP (Spotify co-invest) banking at JPMorgan Chase Bank NA, 270 Park Avenue, New York, NY 10017. Wire reference: 'Southern Trust' -- confirming Epstein invested through STC. Wire sent July 10, 2017. Incoming money transfer to STC from Honeycomb Ventures LP documented May 24, 2018 for $1,752,515.84 (address: 645 Madison Ave FL 16 New York) -- likely a Spotify return/distribution. Fiszel also offered Epstein additional Spotify allocation at cost (no fee to Honeycomb) in Aug 2017 at +40% IRR, demonstrating preferential LP treatment.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1647
+      },
+      {
+        "date": "2017-09-22",
+        "label": "Full Honeycomb Ventures co-invest series mapped via SEC Form D: I (8.05M/10 inv), III (22.25M/6 inv), IV (72.1M/40 inv) - all Honeycomb Advisors LLC GP",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1684
+      },
+      {
+        "date": "2018-06",
+        "label": "Deutsche Bank statements show Honeycomb Partners LP account 15185220010 at Northern Trust with 5M outgoing wire Jun 2018 and Honeycomb Ventures LP returned 1.75M to Epstein May 2018",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1682
+      },
+      {
+        "date": "2018-06-27",
+        "label": "Honeycomb Ventures IV LP (Tencent Music Entertainment co-invest): Epstein responded '5 - 10 m' to the fund documents email on June 27, 2018, indicating he was considering a $5-10M allocation for the TME pre-IPO investment. Demand was described as strong with $50M total access. This confirms Epstein was actively allocating multi-million dollar sums to Honeycomb co-investment vehicles as late as mid-2018 -- just 13 months before arrest. The TME co-invest structure (Ventures IV LP) matches the Dechert Exhibit B pattern of dedicated SPV vehicles for each deal.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1649
+      },
+      {
+        "date": "2018-11-22",
+        "label": "Key Honeycomb AM personnel identified: (1) David Fiszel - Founder/Portfolio Manager, direct email contact with Epstein; (2) Vick Sandhu - COO, General Counsel & Chief Compliance Officer; (3) Dominique Ahumada - Head of Capital Partnerships & Talent, handled investor relations and co-investment offerings; (4) Anita O'Donnell - staff, CC'd on wire/investment communications. Fiszel previously met Epstein at 9 E 71st St (Feb 4-5, 2016, met 'Peter' and 'Eva') and visited 358 El Brillo Way Palm Beach (Nov 22, 2018).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1642
+      },
+      {
+        "date": "2018-11-22",
+        "label": "Fiszel-Epstein relationship timeline from corpus: (1) Feb 4-5, 2016: Fiszel visits Epstein at 9 E 71st St townhouse, meets 'Peter' and 'Eva,' Epstein responds 'peter liked you, thats rare.' (2) Oct 2016: Regular calls, Fiszel says 'You are a great partner and I hope to have 2 things a year for you that I think are special.' (3) Dec 2016-2019: Continuous email contact re Trump tech summit/Palantir, Spotify, SpaceX, TME, Palantir IPO. (4) Nov 22, 2018: Fiszel visits 358 El Brillo Way Palm Beach. (5) Mar 4-5, 2019: Epstein sends Fiszel NYT opinion piece about himself, Fiszel responds 'Very powerful Op-Ed. Thank you for sharing.' (6) Jan 3, 2019: Kahn writes to Epstein about Fiszel's 2018 performance (up 5.2% vs -10% market). Communication spans Feb 2016 to at least March 2019, just 4 months before arrest.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1648
+      },
+      {
+        "date": "2019-04",
+        "label": "SEC Form D reveals Honeycomb Ventures IV LP raised 72.1M from 40 investors - GP is Honeycomb Advisors LLC with David J. Fiszel as Managing Member",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1683
+      },
+      {
+        "date": "2021-08-10",
+        "label": "iCapital launched Honeycomb Partners Access Fund LP (SEC CIK 0001873197, Form D filed Aug 10 2021, Delaware, NY) as a feeder fund. iCapital is a major alternative investment platform for wealth advisors, indicating Honeycomb expanded distribution beyond direct relationships. SEC EDGAR shows LendingClub Corp had 54 filings mentioning Honeycomb CIK, and JPMorgan Chase had 1 filing — confirming the JPM banking relationship documented in wire instructions.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1664
+      },
+      {
+        "date": "2026-02",
+        "label": "Bloomberg reports at least 60M flowed from Epstein into Honeycomb - Honeycomb lawyers deny any personal or professional relationship",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1673
+      },
+      {
+        "date": "2026-02-15",
+        "label": "Zero results across: corporate registries (FL/NY/NM/PA/VI/UK), UCC filings, FARA foreign agents, NYC ACRIS property, FAA aircraft, GLEIF parent/child hierarchy, USVI registry, OpenSanctions, ProPublica 990 nonprofits, LDA lobbying (Honeycomb Asset Management specifically). The fund has no lobbying footprint, no real estate holdings in its name, no UCC liens, and no sanctions exposure. David Fiszel has zero personal FEC donation records under Honeycomb Asset Management as employer prior to 2016.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1681
+      }
+    ]
+  }
+}

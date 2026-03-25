@@ -1,0 +1,2639 @@
+{
+  "name": "Ivan Fisher",
+  "slug": "ivan-fisher",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.219685",
+  "last_updated": "2026-02-17T18:04:59",
+  "stats": {
+    "total_findings": 42,
+    "total_connections": 20,
+    "total_entities": 0,
+    "finding_types": {
+      "relationship": 4,
+      "identity": 4,
+      "financial": 4,
+      "intelligence": 11,
+      "legal": 19
+    },
+    "connection_types": {
+      "legal": 14,
+      "familial": 2,
+      "political": 4
+    },
+    "last_updated": "2026-02-17T18:04:59"
+  },
+  "findings": [
+    {
+      "id": 2305,
+      "finding_type": "relationship",
+      "summary": "LittleSis entity 356352 maps Fisher network: 6 relationships total. (1) Jeffrey Epstein - tenant relationship (sublease); (2) Anthony Charles Castelbuono - client relationship (Fisher was his defense attorney in 1983 EDNY cooperation agreement case, US v. Castelbuono 643 F.Supp.965); (3-4) Bill Clinton 1000 (1992) and Hillary Clinton 2300 (2007) - campaign donations; (5) Alan Hevesi 360 (1999) - NYS donation; (6) William C. Thompson Jr 500 (2007) - NYS donation. The Castelbuono connection is significant: Castelbuono was excluded from NJ gaming for organized crime ties. Fisher negotiated a cooperation agreement for him with EDNY in 1983 that was later voided for bad faith.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1983-01-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:59:50",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "643 F.Supp.965 (EDNY 1986)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 356352 relationships; US v. Castelbuono",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2302,
+      "finding_type": "identity",
+      "summary": "Fisher Pizza Connection correction: Fisher defended Salvatore Catalano (of Queens, NY), NOT Gaetano Badalamenti as sometimes reported. Catalano was the alleged head of US operations. The trial ran 1985-1987 in SDNY, lasted 17 months, and was the longest federal criminal trial in US history at that time. Fisher cross-examined Chief Inspector Antonietta Mantoro of the Italian National Science Police. Catalano was convicted. Fisher also represented Haji Ayub Afridi (Pakistani tribal chief/narcotrafficker with CIA ties) and Haji Bashir Noorzai (convicted 2008 for 50M heroin smuggling after being lured to US with promise of immunity from arrest).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1985-01-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:59:18",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "UPI Archives 11/18/1985; Wikipedia Pizza Connection Trial; Alchetron Ivan Fisher",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2289,
+      "finding_type": "financial",
+      "summary": "FEC records: Ivan S. Fisher donated to both Clinton presidential campaigns - $1,000 in 1992, $2,300 in 2007. LittleSis records additional NYS donations: $360 to Alan Hevesi (1999), $500 to William C. Thompson Jr (2007). All donations Democratic, NYC-focused. No other federal contributions found. Separate Springfield VA donor named 'Ivan Fisher' is a different person.",
+      "detail": "FEC Schedule A records show FISHER, IVAN S, Self-Employed Attorney, New York NY: (1) $1,000 to Clinton for President Committee on 1992-01-24, (2) $2,300 to Hillary Clinton for President on 2007-12-12 (maximum individual contribution). LittleSis entity 356352 tracks 6 relationships including 4 political donations and tenant relationship with Epstein (entity 36043). The Hevesi donation is notable: Alan Hevesi was later convicted of corruption (public pension fund kickback scheme). No evidence Fisher-Hevesi donation is connected to Epstein network.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1992",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:51",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC API Schedule A donor search 'Ivan Fisher'",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 356352 relationship data",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2297,
+      "finding_type": "financial",
+      "summary": "LittleSis political donations: Fisher donated ,000 to Bill Clinton (1/24/1992 - same year Epstein obtained his OFM lease), ,300 to Hillary Clinton (12/12/2007 - during Epstein criminal plea deal period),  to Alan Hevesi NYS Comptroller (1999 - later convicted of corruption),  to William C Thompson Jr NYC Comptroller (2007). Clinton donations parallel Epstein networks Clinton-era connections.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1992-01-24",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:52",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:entity_356352",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2285,
+      "finding_type": "intelligence",
+      "summary": "34 E 69th St intelligence significance: Former Iranian Deputy Consul General residence seized after 1979 revolution. Under IEEPA frozen asset regulations and Vienna Convention, OFM managed as blocked Iranian property. All income constituted blocked Iranian property per Treasury license. Epsteins lease of Iranian diplomatic property in 1992 and subsequent unauthorized subletting to criminal defense lawyers raises questions about how Epstein obtained access to sensitive government-custodied diplomatic real estate. The Galinas competing bid at 16K/mo vs Epsteins 15K/mo shows OFM preferred a higher-paying direct tenant.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1992-02-01",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:06",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "34 East 69th Street was once the residence of the former Deputy General Consul of Iran. Property of Iran under US custodianship since 1980",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2286,
+      "finding_type": "relationship",
+      "summary": "Fisher represented Roy L. Schneider MD, former USVI governor, and secured dismissal of his indictment. This is a notable USVI connection. Schneider was USVI governor 1995-1999, overlapping with the period Epstein was developing his USVI presence. However no direct evidence Fisher connected Schneider to Epstein or that representation arose from Epstein network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1995",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:13",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en-academic.com/dic.nsf/enwiki/5556204",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2292,
+      "finding_type": "intelligence",
+      "summary": "Jeffrey Schantz, identified in the 1998 court opinion as Epstein's 'transaction counsel' who negotiated the 34 E 69th St sublease with OFM in April 1996, was simultaneously serving as VP/Secretary/Treasurer of Epstein's USVI entities (articles of incorporation found in EFTA01390430). Schantz operated from 6100 Red Hook Quarter, Suite B-3, American Yacht Harbor, St. Thomas, VI 00802 -- Epstein's USVI office. This shows Schantz was deeply embedded in Epstein's legal infrastructure, not just a transactional attorney.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1996-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:01",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01390430",
+          "source_quote": " Vice President Jeffrey Schantz 6100 Red Hook Quarter, Suite B-3 American Yacht Harbor St. Thomas, VI 00802",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2150,
+      "finding_type": "legal",
+      "summary": "Ivan S. Fisher was one of NYC's most prominent criminal defense attorneys in the 1980s-90s. Top 5 criminal attorney per NYT in 1980. Lead counsel in the Pizza Connection Trial (longest federal criminal trial at the time) and French Connection cases. Lectured at Yale Law and Columbia Law. Fisher sublet 34 E 69th from Epstein at $20K/month starting May 7, 1996. He turned the former Iranian diplomatic residence into a multi-occupant law office complex housing at least 3 separate practices. Fisher was subsequently BANNED from practicing in federal court in SDNY in 2013 after stealing money from a client.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1996-05-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:19:49",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2279,
+      "finding_type": "legal",
+      "summary": "Epstein profit scheme on 34 E 69th: Epstein paid OFM 15K/mo but charged Fisher 20K/mo, pocketing 5K/mo. Fisher then further sublet portions to other lawyers at unknown rates. Second Amended Complaint (EFTA01324981) names 18 defendants total. Govt also alleged Epstein took Iranian fixtures (chandeliers, sconces, mirrors) and claimed ownership. Case was prosecuted by AUSA Serene Nakano under US Atty Mary Jo White.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1996-05-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:32",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": "Epstein was receiving from Fisher monthly rent in the amount of 20000 commencing with June 1 1996 to a date unknown to the Government",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2284,
+      "finding_type": "relationship",
+      "summary": "Fisher-Epstein relationship was purely commercial sublease, not legal representation. Fisher was Epsteins TENANT not his lawyer. However Epstein represented to Fisher that OFM had orally approved the sublease - which was false. Fisher claims he would not have entered sublease without State Dept approval. After govt notified Fisher of lease termination, Fisher stopped paying rent to Epstein. No evidence Fisher ever represented Epstein or Epstein associates in any legal matter. Epsteins attorney in this case was Wachtel and Masyr LLP (Steven J. Cohen).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1996-05-07",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:57",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "On May 7 1996 Epstein and Fisher entered into a sublease agreement at a rental price of 20000 per month despite OFMs express denial",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3289,
+      "finding_type": "legal",
+      "summary": "Ivan Fisher's co-counsel in the 34 E 69th St ejectment case (96 Civ 8307) was Gage & Pavlis (G. Robert Gage Jr., Eileen J. Casey, later Gage Spencer & Fleming LLP). Fisher was represented by this firm on behalf of himself, Diane Fisher d/b/a The Fisher Group, and Fisher & Soffer a/k/a Fisher & Sophir. Key factual detail from Judge Chin's opinion: Fisher met with an AUSA on Sept 23, 1996 and was told that OFM's Richard Massey 'would swear under oath that he never orally approved the sublet to Fisher.' Fisher then offered to pay rent directly to OFM (never answered) and stopped paying Epstein. Fisher was a prominent criminal defense attorney — he defended the Pizza Connection Trial (largest Mafia-heroin prosecution). Fisher's firm with Soffer at the Iranian consular property establishes a direct professional relationship between a major organized crime defense lawyer and Soffer in an Epstein-controlled space.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1996-09-23",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 18:04:30",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2276,
+      "finding_type": "financial",
+      "summary": "Epstein's 34 E 69th St scheme was a profitable arbitrage: He leased from OFM (US State Dept) at ,000/month starting 1992, then sublet to Fisher at ,000/month starting May 1996, pocketing ,000/month. Fisher in turn sublet to approximately 12 additional lawyers. The court opinion reveals Epstein collected rent from Fisher through September 30, 1996 (at least ,000 over 5 months). Epstein also demanded ,000 from another prospective subtenant (Xenophon Galinas) for 'improvements to the Premises.' This was a rent-seeking operation on Iranian consular property held in trust by the US government.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1996-09-30",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:21",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": " the agreed rent was ,000 per month... Epstein and Fisher entered into a sublease agreement at a rental price of ,000 per month... I ordered Fisher to pay into the fund ,000 per month, beginning October 1, 1996",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2278,
+      "finding_type": "legal",
+      "summary": "Epstein leased 34 E 69th St for personal residential use from 1992, with his family occupying through January 1996 when he 'abandoned' the premises. By March 1996 he was simultaneously negotiating sublease arrangements with both Xenophon Galinas and Ivan Fisher. Fisher required the sublease be approved by the State Department and that he could remain beyond the lease expiration (January 31, 1997). Epstein represented to Fisher that OFM had approved the sublease -- a claim the government would later deny under oath. Fisher entered the sublease on Epstein's representations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1997-01-31",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:31",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": " Fisher informed Epstein, however, that he would not enter into a sublease unless it was approved by the State Department and Fisher could be assured that he could remain in the Premises beyond January 31, 1997. Epstein told Fisher that he had a right of first refusal",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2291,
+      "finding_type": "legal",
+      "summary": "CourtListener confirms SEPARATE Epstein v. Fisher case (1:97-cv-01489 SDNY, filed 1997-03-05) in addition to US v. Epstein (96 CIV 8307). Nature of suit: 230 Rent Lease & Ejectment. Epstein commenced holdover proceeding in NYC Civil Court in February 1997 against Fisher for nonpayment of rent under the sublease after Fisher stopped paying rent in Sept 1996. Fisher removed the state court action to federal court where it was consolidated with 96 CIV 8307 by Judge Chin. This dual-case posture shows Epstein and Fisher were adversaries, not allies.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1997-03-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:59",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "1998 WL 159055)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 1:97-cv-01489 SDNY",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2299,
+      "finding_type": "legal",
+      "summary": "Full list of Fisher subtenants at 34 E 69th: Ron Soffer (Fisher partner, resident NY/France), Diane Fisher dba The Fisher Group (spouse, real estate), Ellyn Bank (atty), Debra Elisa Cohen (atty), Lawrence D. Gerzog (atty), Robert Heilbrun (atty), Suzanne McDermott (atty, associated with Fisher firm), Christopher H. Martin (New York Defenders Service), Jesse Siegel (atty), Carmen Tausik (atty), law firm Siegel Martin and Heilbrun. All used 34 E 69th as business address. Fisher had converted former Iranian consular residence into multi-attorney office complex.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1997-12-23",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:58:22",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": "Diane Fisher is Fishers spouse. Ron Soffer resident of State of New York and France. Fisher and Soffer a/k/a Fisher and Sophir is a general partnership at 34 East 69th Street",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2269,
+      "finding_type": "legal",
+      "summary": "Judge Chin Feb 19 1998 protective order ruling: Govt sought provision allowing use of Fishers confidential discovery (1996 tax return) in other civil/criminal matters. Fisher objected and won. Court held tax info entitled to confidentiality and govt could not exploit fruits of private litigation for criminal investigation. Significant because Epstein also had a separate protective order over financial discovery in same case.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1998-02-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:38",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325020",
+          "source_quote": "Fisher should not become the subject of an IRS tax investigation merely because of documents he produced in what is essentially a landlord-tenant suit",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2270,
+      "finding_type": "legal",
+      "summary": "Feb 19, 1998 protective order decision (1998 WL 67676): Government sought Fisher's 1996 tax return to verify rent collected from subtenants. Fisher objected to a government clause that would allow sharing discovery info with other agencies. Judge Chin sided with Fisher, ruling confidential information (especially tax returns) could not be used outside this lawsuit. Key quote: 'Fisher should not become the subject of an IRS tax investigation merely because of documents he produced in what is essentially a landlord-tenant suit.' The Government wanted to reserve right to use Fisher's financial info in 'unrelated civil or criminal matters.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1998-02-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:44",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325020",
+          "source_quote": " Fisher should not become the subject of an IRS tax investigation merely because of documents he produced in what is essentially a landlord-tenant suit.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2275,
+      "finding_type": "legal",
+      "summary": "Government's motion for summary judgment against Diane Fisher d/b/a The Fisher Group and Ron Soffer (EFTA01325003, dated March 13, 1998): Diane Fisher used the premises to conduct business as a real estate salesperson. Ron Soffer used the premises as a business address and registered it with the NY State Office of Court Administration as his attorney registration office. By stipulation of March 5, 1998, all subtenants except Diane Fisher and Ron Soffer agreed to be bound by the court's decision. Diane Fisher later signed; Soffer declined and was ejected anyway since he 'can have no greater rights than Fisher.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1998-03-13",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:12",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325003",
+          "source_quote": " Diane Fisher d/b/a The Fisher Group occupies the premises and apparently uses them to conduct business as a real estate salesperson. Moreover, Soffer uses the premises as a business address and has registered the premises as his office with the New York State Office of Court Administration for attorney registration purposes.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2266,
+      "finding_type": "legal",
+      "summary": "Judge Denny Chin's April 1, 1998 opinion (1998 WL 159055) in US v. Epstein & Fisher, 96 CIV 8307, provides comprehensive factual record: OFM leased 34 East 69th St (former Iranian consular residence) to Epstein in 1992 at ,000/month. Epstein abandoned the premises in January 1996, then sublet to Fisher on May 7, 1996 at ,000/month despite OFM's express denial. Fisher sublet portions to approximately 12 additional lawyer-subtenants. Epstein's lease terminated August 23, 1996. Court found Epstein needed prior written consent (not oral) and could be denied arbitrarily under NY law. All defendants ejected.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1998-04-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:27",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": " OFM leased the building to defendant Jeffrey E. Epstein in 1992. Epstein sublet the building to defendant Ivan S. Fisher in 1996, purportedly without the Government's consent. Fisher, in turn, sublet a portion of the building to several subtenants.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2267,
+      "finding_type": "legal",
+      "summary": "Judge Chin full eviction opinion (96 CIV 8307 / 1:97-cv-01489): OFM leased 34 E 69th St (former Iranian Deputy Consul General residence) to Epstein 2/1/1992 at 15K/mo. Epstein abandoned Jan 1996 and sublet to Fisher 5/7/1996 at 20K/mo despite OFMs express written denial 4/26/1996. Fisher further sublet to 12+ lawyers including Ron Soffer, Diane Fisher, Ellyn Bank, and law firm Siegel Martin and Heilbrun. Summary judgment granted ejecting all defendants. Lease unambiguously required prior written consent for sublet which was never given.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1998-04-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:31",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "OFM leased the building to defendant Jeffrey E. Epstein in 1992. Epstein sublet the building to defendant Ivan S. Fisher in 1996, purportedly without the Governments consent",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2283,
+      "finding_type": "legal",
+      "summary": "Forfeiture case 1:05-cv-09105 (SDNY 2005-2007): US govt brought civil forfeiture action against bank accounts numbered 2445, with Ivan Stephan Fisher as a party. Filed 10/25/2005, terminated 7/13/2007 before Judge Pauley. Nature of suit: Other forfeiture and penalty. This case overlaps chronologically with the period when Fisher was misappropriating Raphael restitution funds (2007). May relate to proceeds of Fisher client representation or personal financial misconduct.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2005-10-25",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:48",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:1:05-cv-09105",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2271,
+      "finding_type": "legal",
+      "summary": "June-July 2007: Florida Criminal AUSA (from West Palm Beach office) sought Epsteins deposition transcript from the 96 CIV 8307 eviction case for use in the CRIMINAL investigation. SDNY retrieved files but could not locate the deposition. Protective order limited use - AUSA could review but not use in other litigation. This proves the Florida criminal investigation team was actively seeking Epsteins financial testimony from the Fisher subletting case in 2007 during the plea deal period.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2007-06-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:47",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325022",
+          "source_quote": "a Criminal AUSA in Florida is seeking access to our files in US v. Jeffrey Epstein and Ivan Fisher 96 Civ. 8307 (DC) my infamous landlord-tenant case. She is looking for Epsteins deposition transcript",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325025",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2274,
+      "finding_type": "legal",
+      "summary": "The Jane Doe v. United States (08-80736) privilege log (EFTA00020711) confirms the 2007 AUSA email exchange was formally logged: '6/12/2007-7/6/2007 series of emails between Marie Villafana and AUSAs Serene Nakano and James Cott re an earlier unrelated investigation of Epstein.' This independently verifies both the timeframe and the fact that SDFL's Villafana was seeking information from the 96 CIV 8307 case for the criminal investigation. The privilege log also identifies SDNY AUSA James Cott as involved.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2007-06-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:02",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00020711",
+          "source_quote": " 6/12/2007-7/6/2007 series of emails between Marie Villafana and AUSAs Serene Nakano and James Cott re an earlier unrelated investigation of Epstein",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2280,
+      "finding_type": "intelligence",
+      "summary": "Epstein financial discovery in Fisher case: Epstein obtained a protective order sealing financial discovery in the eviction case. When FL Criminal AUSA sought his deposition in June 2007 the protective order restricted use. SDNY could not even locate the deposition transcript. This protected financial information from Epsteins mid-1990s period may have contained relevant details about his income sources and financial arrangements during the period he was building his wealth and reputation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2007-06-12",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:40",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "Epstein had a protective order regarding certain financial discovery",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325022",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2272,
+      "finding_type": "legal",
+      "summary": "In June-July 2007, SDFL Criminal AUSA (AVillafana, West Palm Beach) contacted SDNY AUSA Serene Nakano seeking Epstein's deposition transcript from US v. Epstein & Fisher, 96 CIV 8307 for use in the then-active criminal investigation. Nakano described it as 'my infamous landlord-tenant case.' The files could not be located -- deposition was NOT found in the retrieved closed files. This was a crucial moment: SDFL was investigating Epstein's 2005-06 sex trafficking and sought his earlier sworn testimony. The protective order limited use of financial discovery.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2007-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:54",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325022",
+          "source_quote": " a Criminal AUSA in Florida, is seeking access to our files in US v. Jeffrey Epstein & Ivan Fisher 96 Civ. 8307 (DC), my infamous landlord-tenant case. Would it be possible for you to have someone order the files for her? She is looking for Epstein's deposition transcript.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2300,
+      "finding_type": "financial",
+      "summary": "FEC records confirm Ivan S. Fisher (self-employed attorney, NYC) donated 1000 to Clinton For President Committee on 1/24/1992 (from 10022 zip code) and 2300 to Hillary Clinton For President on 12/12/2007 (from 251 E 61st St, 10065). LittleSis additionally records 360 to Alan Hevesi (NYS, 6/10/1999) and 500 to William C. Thompson Jr (NYS, 1/10/2007). Both Clinton donations parallel Epstein own Clinton donation pattern.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2007-12-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:58:58",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A records C00253690 (1992) and C00431569 (2007); LittleSis entity 356352",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2306,
+      "finding_type": "intelligence",
+      "summary": "OCCRP Aleph shows an Ivan Fisher as director of a Panama company in the 2008 Panama Companies Registry scrape. No additional detail available (entity data is minimal). This is likely a different person given the commonality of the name, but cannot be ruled out. Separately, Fisher and Soffer had no ICIJ records (ICIJ Neo4j unavailable), zero OCCRP company results for Fisher and Soffer, and zero EpsteinExposed person records for Ivan Fisher specifically (EpsteinExposed returned 174 document hits but all relate to the 96 CIV 8307 case or unrelated Fishers).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": "2008-01-01",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:00:00",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OCCRP Aleph Panama Companies Registry pa_companies",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "entity ID 64ce7dc7...2dd493af",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2294,
+      "finding_type": "intelligence",
+      "summary": "DISAMBIGUATION: Multiple 'Fishers' in the Epstein corpus are NOT Ivan Fisher: (1) Alice Fisher -- DOJ Assistant Attorney General mentioned in 2017 Indyke-to-Epstein email as potential FBI director candidate; also appears in House Oversight docs receiving appeal about SDFL prosecutorial misconduct. (2) Paula Heil Fisher -- Epstein's ex-girlfriend, former Bear Stearns associate, opera producer. (3) Lenny Fischer -- CEO of RHJI (Kleinwort Benson parent), met by David Stern at dinner in St. Moritz Dec 2011. (4) Helen Fisher -- author of 'Anatomy of Love,' recommended by Epstein to Summers in March 2019 email. None of these are Ivan S. Fisher.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011-12",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:11",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01842628",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2273,
+      "finding_type": "legal",
+      "summary": "Ivan Fisher disbarment: In 2004 client Abrahim Raphael retained Fisher for federal criminal defense re embezzlement from International Gemological Institute (IGI). In 2007 Raphael entrusted Fisher with 250K for restitution to IGI. Fisher misappropriated 180K for personal use. SDNY Committee on Grievances (M2-238, Judge P. Kevin Castel) filed proceeding 1/24/2012, disbarred Fisher 3/14/2013. Fisher appealed to 2d Circuit (13-1272) - affirmed 7/22/2014. NY Appellate Division First Dept struck Fisher from state bar nunc pro tunc to 3/12/2015 (Matter of Fisher M-310 M-5318). Also separately suspended from EDNY in 2007 (1:07-mc-00414, Judge Cogan).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-03-14",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:01",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "13-1272 (2d Cir.)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:In Re Ivan S. Fisher",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://law.justia.com/cases/new-york/appellate-division-first-department/2015/m-310-m-5318.html",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2301,
+      "finding_type": "identity",
+      "summary": "Fisher current status: NY bar registration number 1521384, admitted 1968, Boston University School of Law. Status as of 2024: SUSPENDED, DELINQUENT. Office address 125 E 50th St Ste 1201, New York, NY 10022. Next registration due August 2026. Previously at 251 E 61st St (per 2007 FEC filing). The SDNY federal disbarment (March 2013) was followed by NY Appellate Division First Department striking him from state bar nunc pro tunc March 12, 2015 (Matter of Fisher M-310, M-5318). Fisher is now 82 years old (born August 26, 1943) and effectively unable to practice law in any forum.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-03-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:59:09",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "NY App. Div. 1st Dept 2015",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "opengovny.com/attorney/1521384; Matter of Fisher",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2295,
+      "finding_type": "intelligence",
+      "summary": "COMPREHENSIVE NEGATIVE RESULTS: Exhaustive multi-database search for Ivan Fisher, Diane Fisher, Fisher & Soffer, and The Fisher Group returned zero results across: (1) SEC EDGAR - no filings, no CIK, no insider transactions; (2) NYC ACRIS - no property records for Ivan Fisher (Diane Fisher result was different person in Staten Island); (3) Corporate registries (NY, FL, CO, NM, CA, UK) - no entities for Ivan Fisher, Fisher & Soffer, or Fisher & Sophir registered in any jurisdiction; (4) UCC filings (FL, NM) - zero filings; (5) FAA aircraft registry - zero; (6) GLEIF LEI - zero; (7) OpenSanctions - not listed; (8) Deutsche Bank DS10 - zero transactions; (9) FARA - not registered; (10) ProPublica 990 - no matching nonprofits; (11) OCCRP Aleph - API error, not searched. The NY SoS 'Diane Fisher-Golden' (Coolfish Web Development, Slingerlands NY) is a different person. This total absence from corporate, financial, and property databases is consistent with Fisher operating exclusively as a solo/partnership criminal defense attorney with no corporate or financial entanglements beyond his law practice.",
+      "detail": "FL SunBiz re-verified Feb 15 2026 after entity-name search fix (corprindata→cordata). Generic name matches found but none connected to Epstein network (no known associates as officers, no known addresses). Original conclusion unchanged.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02-15",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:20",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FAA search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL SunBiz registry search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NY SoS officer search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NYC ACRIS party search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ProPublica 990 search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR EFTS search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UCC search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "registry.db search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2268,
+      "finding_type": "legal",
+      "summary": "Epstein was represented by Wachtel & Masyr LLP (Steven J. Cohen, Esq.) in 96 CIV 8307, while Fisher was separately represented by Gage & Pavlis (G. Robert Gage Jr., Ellen J. Casey). Fisher was NOT Epstein's attorney in this case -- they were co-defendants with separate counsel, though both fighting the ejectment. Epstein's 'transaction counsel' for the original sublease negotiations with OFM was Jeffrey Schantz (USVI-based attorney at 6100 Red Hook Quarter, St. Thomas).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:36",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": " Wachtel & Masyr, LLP, By Steven J. Cohen, Esq., New York, for Jeffrey E. Epstein. Gage & Pavlis, By G. Robert Gage, Jr., Esq., Ellen J. Casey, Esq., New York, for Ivan S. Fisher, Diane Fisher d/b/a The Fisher Group, and Fisher & Soffer a/k/a Fisher & Sophir.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2277,
+      "finding_type": "identity",
+      "summary": "Ivan Stephan Fisher b.1943 profile: Horace Mann School, Syracuse Univ, BU Law. Partner of Albert Krieger, independent practice 1974. Top-5 NYC criminal atty per NYT 1980. Notable clients: Jack Henry Abbott 1982, Michele Sindona 1980, Gaetano Badalamenti Pizza Connection 1985-87, French Connection, Joseph Bonanno, Roy Schneider USVI gov, Alberto Vilar, Haji Ayub Afridi, Haji Bashir Noorzai.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:24",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en-academic.com/dic.nsf/enwiki/5556204",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2281,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: Exhaustive search of 331K-page DOJ Vol 11, 204K DugganUSA, 60K LMSBAND, 70K Unified DB, 25.8K Epstein 20K, and investigations.db found ZERO evidence that Ivan Fisher ever served as legal counsel for Epstein or any Epstein associate. No emails, no correspondence, no attorney-client communications. Fisher appears in the corpus ONLY in connection with 96 CIV 8307 (the landlord-tenant case) and in the Vicky Ward 2003 Vanity Fair article. Similarly, zero overlap found between Fisher's organized crime defense clients and Epstein's known network. The relationship appears strictly landlord-tenant.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:40",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2282,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: No email communications between Epstein and Ivan Fisher found in any corpus (Unified DB, LMSBAND, HF Parquet, DDoSecrets). Zero hits for Fisher in email sender/receiver fields. Zero Fisher email addresses in any contact list. This strongly suggests the Fisher-Epstein relationship was purely transactional (sublease) and did not extend to Epstein's social, financial, or intelligence networks.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:55:47",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2287,
+      "finding_type": "intelligence",
+      "summary": "The Vicky Ward Vanity Fair 2003 profile of Epstein (found in at least 4 copies across corpus: HOUSE_OVERSIGHT_017784, 017771, 017935, EFTA01334040) contains the only public media reference to the Fisher subletting: 'Attorney's Office sued Epstein for illegally subletting the former home of the deputy consul general of Iran to attorney Ivan Fisher and others. Epstein paid 15,000 a month in rent to the State Department, but he charged Fisher and his colleagues 20,000. Though the exact terms of the agreement are sealed, the court ruled against Epstein.' Note: Ward says terms were 'sealed' -- this aligns with the protective order on financial discovery.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:38",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01334040",
+          "source_quote": " Attorney's Office sued Epstein for illegally subletting the former home of the deputy consul general of Iran to attorney Ivan Fisher and others. Epstein paid 15,000 a month in rent to the State Department, but he charged Fisher and his colleagues 20,000.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2288,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: Fisher Soffer / Fisher Sophir law firm has zero hits in DOJ Vol 11, zero in LMSBAND, and only appears in Duggan results as part of the 96 CIV 8307 court filings. The firm name does not appear in any Epstein email, financial record, or contact list. This confirms the firm's only connection to Epstein was through the 34 E 69th St sublease.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:45",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2290,
+      "finding_type": "legal",
+      "summary": "Complete list of 34 E 69th St subtenants (Fisher's subtenants) from Second Amended Complaint (EFTA01324981): Ellyn Bank (Esq., pro se), Debra Elisa Cohen (Esq., pro se), Diane Fisher d/b/a The Fisher Group, Fisher & Soffer a/k/a Fisher & Sophir, Lawrence D. Gerzog (Esq., pro se), Robert Heilbrun (Esq., pro se), Suzanne McDermott (Esq., pro se), Christopher H. Martin (NY Defenders Service, pro se), Jessie/Jesse Siegel (Esq., pro se), Siegel Martin & Heilbrun (firm, by Robert Heilbrun), Ron Soffer (Esq., pro se), Carmen Tausik (Esq., pro se). All were attorneys or law firms. The building was converted into a multi-lawyer office building.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:54",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": " Ellyn Bank, Debra Elisa Cohen, Diane Fisher d/b/a The Fisher Group, Fisher & Soffer a/k/a Fisher & Sophir, Lawrence D. Gerzog, Robert Heilbrun, Suzanne McDermott, Christopher H. Martin, Jessie Siegel, Siegel Martin & Heilbrun, Ron Soffer, Carmen Talsig",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2293,
+      "finding_type": "legal",
+      "summary": "LittleSis records Ivan Fisher (entity 356352) as attorney for Anthony Charles Castelbuono (entity 356351), categorized as a business relationship with is_current=true. Castelbuono is otherwise unidentified in publicly available databases. This is the only known client relationship recorded for Fisher in LittleSis aside from the Epstein tenant relationship. LittleSis also records Fisher as having 6 total relationships: Epstein (tenant), Castelbuono (attorney), and 4 political donations (Clinton x2, Hevesi, Thompson).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:07",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 1592806 (entity1=356351 Castelbuono",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "entity2=356352 Fisher)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2296,
+      "finding_type": "intelligence",
+      "summary": "EpsteinExposed.com indexes 17 documents mentioning Ivan Fisher, confirming the comprehensive document footprint: 7 are direct court filings from 96 CIV 8307 (EFTA01324981, EFTA01325003, EFTA01325008, EFTA01325020, EFTA01325022, EFTA01325025, EFTA01480859), 2 are the Vicky Ward Vanity Fair article (EFTA01334040 and document d-28674), 2 are derivative court exhibits (d-987, d-7056 discussing 'illegal subletting'), 1 is the EFTA01405372 due diligence report mentioning Epstein & Co in a KYC context, 1 is a Law360 article about defense investigators (EFTA00032906), and 1 is the Virginia Roberts v. Dershowitz filing (d-34595). The Vicky Ward article (EFTA01334040) is the only document that names Fisher outside the court case context, describing the subletting as one of several Epstein legal disputes.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:31",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00032906",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325003",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325020",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325022",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325025",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01334040",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01405372",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01480859",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EpsteinExposed.com search API 'Ivan Fisher' (17 results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2298,
+      "finding_type": "relationship",
+      "summary": "LittleSis records Fisher as attorney for Anthony Charles Castelbuono (LittleSis entity 356351). Castelbuono appears to be an additional Fisher client in the organized crime defense space. Fisher also confirmed as Tenant of Epstein in LittleSis relationship database (entity pair 356352/36043 category Transaction/Rental).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:58",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:relationship_1592806",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2307,
+      "finding_type": "identity",
+      "summary": "Fisher complete client list reconstructed from web sources: (1) Jack Henry Abbott - murder trial (trial of the decade), (2) Joseph Bonanno - Bonanno crime family boss, (3) Michele Sindona - Italian financier (P2 Lodge/Vatican Bank scandal, murdered by cyanide in prison 1986), (4) Salvatore Catalano - Pizza Connection Trial 1985-87, (5) French Connection defendants, (6) Marie Luisi - J. Walter Thompson SVP (30M theft allegations), (7) Lowell Birrell - oil executive/financier (largest white-collar prosecution of era), (8) Haji Ayub Afridi - Pakistani tribal chief/narcotrafficker, (9) Haji Bashir Noorzai - Afghan heroin trafficking (50M), (10) Roy L. Schneider - USVI governor (corruption, dismissal secured), (11) Alberto Vilar - billionaire investor (securities fraud), (12) Remy Ma - rapper, (13) Norman Mailer - author, (14) Demetrios Demetrios - illegal trade (acquittal), (15) Anthony Charles Castelbuono - organized crime figure. Fisher also won landmark decision US v. Toscanino (2d Cir. 1974) leading to Kissinger directive on torture.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:00:14",
+      "target_name": "Ivan Fisher",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia Ivan Fisher; Alchetron Ivan Fisher; LittleSis entity 356352; US v. Castelbuono 643 F.Supp.965",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 424,
+      "person_a": "Ivan Fisher",
+      "person_b": "Ron Soffer",
+      "relationship_type": "legal",
+      "description": "Fisher and Soffer shared office space at 34 E 69th St NYC from 1996, operating as Fisher and Soffer aka Fisher and Sophir. Fisher was prominent criminal defense attorney (Pizza Connection Trial). Building was Epstein sublease from US Office of Foreign Missions",
+      "strength": "strong",
+      "date_range": "1996-1998",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:22:34",
+      "other_person": "Ron Soffer",
+      "other_person_slug": "ron-soffer",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://law.justia.com/cases/federal/district-courts/FSupp2/27/404/2346291/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1090,
+      "person_a": "Ivan Fisher",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "Fisher was Epstein's subtenant at 34 E 69th St (former Iranian consulate), paying $20K/month. Named as co-defendant in US v. Epstein (96 CIV 8307). Fisher claimed Epstein falsely represented the sublease was State Department-approved. Companion case Epstein v. Fisher (97 CIV 1489) filed by Epstein against Fisher.",
+      "strength": "strong",
+      "date_range": "1996-2000",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:18:09",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1113,
+      "person_a": "Ivan Fisher",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 without OFM consent. Epstein falsely told Fisher the State Dept approved the sublet. Fisher later stopped paying rent. Government sued both in 96 CIV 8307.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:11",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "person_a": "Ivan Fisher",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "Epstein sublet 34 E 69th to Fisher at 20K/month May 1996; two federal cases resulted",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:28",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1148,
+      "person_a": "Ivan Fisher",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "Co-defendants in US v. Epstein & Fisher, 96 CIV 8307 (SDNY 1996-1998). Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 despite OFM denial. Both ejected by Judge Chin April 1998.",
+      "strength": "strong",
+      "date_range": "1996-2007",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:07",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1149,
+      "person_a": "Diane Fisher",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "familial",
+      "description": "Diane Fisher (wife) operated The Fisher Group from 34 E 69th St, named as co-defendant in 96 CIV 8307.",
+      "strength": "strong",
+      "date_range": "1996-1998",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:11",
+      "other_person": "Diane Fisher",
+      "other_person_slug": "diane-fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325003",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1150,
+      "person_a": "Ivan Fisher",
+      "person_b": "Ron Soffer",
+      "relationship_type": "legal",
+      "description": "Fisher & Soffer (a/k/a Fisher & Sophir) law partnership. Soffer was Fisher's subtenant at 34 E 69th St, co-defendant in 96 CIV 8307. Soffer refused to stipulate and was last holdout. Soffer later reappears in Epstein-Weingarten Jan 2019 emails about SoftBank.",
+      "strength": "strong",
+      "date_range": "1996-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:17",
+      "other_person": "Ron Soffer",
+      "other_person_slug": "ron-soffer",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1153,
+      "person_a": "Ivan Fisher",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "Epstein-Fisher sublease: Epstein leased 34 E 69th St from OFM at 15K/mo and sublet to Fisher at 20K/mo starting 5/7/1996 without govt consent. Led to eviction case 96 CIV 8307 SDNY Judge Chin. Fisher was co-defendant with Epstein not counsel. Purely commercial landlord-tenant relationship.",
+      "strength": "strong",
+      "date_range": "1996-2000",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:32",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1154,
+      "person_a": "Ivan Fisher",
+      "person_b": "Ron Soffer",
+      "relationship_type": "legal",
+      "description": "Fisher and Soffer law partnership: Fisher and Soffer aka Fisher and Sophir operated from 34 E 69th St. Soffer was subtenant and business partner. Both named as defendants in 96 CIV 8307. Soffer was the only subtenant who refused to sign stipulation agreeing to be bound by court decision. Soffer resident of NY and France.",
+      "strength": "strong",
+      "date_range": "1996-2000",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:37",
+      "other_person": "Ron Soffer",
+      "other_person_slug": "ron-soffer",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1155,
+      "person_a": "Denny Chin",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "legal",
+      "description": "Judge Chin presided over United States v. Epstein and Fisher 96 CIV 8307 SDNY. Issued protective order ruling 2/19/1998 and summary judgment opinion 4/1/1998. Later became Second Circuit judge. Chin ruled Epsteins sublease was illegal and granted ejectment of all defendants.",
+      "strength": "strong",
+      "date_range": "1997-2000",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:44",
+      "other_person": "Denny Chin",
+      "other_person_slug": "denny-chin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1157,
+      "person_a": "Diane Fisher",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "familial",
+      "description": "Diane Fisher dba The Fisher Group was Fishers spouse per court filings. She operated a real estate business from 34 E 69th St and was named as defendant in the eviction case. She resided at the premises.",
+      "strength": "strong",
+      "date_range": "1996-2000",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:53",
+      "other_person": "Diane Fisher",
+      "other_person_slug": "diane-fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1977,
+      "person_a": "Ivan Fisher",
+      "person_b": "Ron Soffer",
+      "relationship_type": "legal",
+      "description": "Partners in Fisher & Soffer a/k/a Fisher & Sophir, a general partnership at 34 E 69th St, NYC. Named as co-defendants in US v. Epstein 96 Civ 8307. Soffer was Fisher's subtenant and law partner.",
+      "strength": "strong",
+      "date_range": "1996-1998",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 18:04:59",
+      "other_person": "Ron Soffer",
+      "other_person_slug": "ron-soffer",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1156,
+      "person_a": "Ivan Fisher",
+      "person_b": "Mary Jo White",
+      "relationship_type": "legal",
+      "description": "Mary Jo White as US Attorney SDNY prosecuted the eviction case against Epstein and Fisher 96 CIV 8307. White later became SEC Chair 2013-2017. AUSA Serene Nakano handled the case directly.",
+      "strength": "medium",
+      "date_range": "1996-2000",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:56:48",
+      "other_person": "Mary Jo White",
+      "other_person_slug": "mary-jo-white",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1161,
+      "person_a": "Ivan Fisher",
+      "person_b": "Ron Soffer",
+      "relationship_type": "legal",
+      "description": "Fisher and Soffer a/k/a Fisher and Sophir was a general partnership at 34 E 69th St (1996-98). Both were co-defendants in US v. Epstein 96 CIV 8307. Soffer was resident of NY and France. Soffer later sought hire by Weingarten for SoftBank matter (Jan 2019).",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:00:40",
+      "other_person": "Ron Soffer",
+      "other_person_slug": "ron-soffer",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01324981",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1162,
+      "person_a": "Bill Clinton",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "political",
+      "description": "Fisher donated 1000 to Clinton For President Committee 1/24/1992 (FEC). Clinton donations by Epstein-adjacent figures are investigatively significant.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:00:45",
+      "other_person": "Bill Clinton",
+      "other_person_slug": "bill-clinton",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC C00253690",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1163,
+      "person_a": "Hillary Clinton",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "political",
+      "description": "Fisher donated 2300 to Hillary Clinton For President 12/12/2007 (FEC). Fisher address at time was 251 E 61st St, NYC 10065.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:00:50",
+      "other_person": "Hillary Clinton",
+      "other_person_slug": "hillary-clinton",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC C00431569",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1232,
+      "person_a": "Ivan Fisher",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:34:07",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325020",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1143,
+      "person_a": "Ivan Fisher",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "legal",
+      "description": "Both were potential subtenants of Epstein at 34 E 69th St in 1996. Epstein negotiated with Galinas first, then chose to sublet to Fisher at 20K/mo instead. Fisher was criminal defense attorney known for French Connection and Pizza Connection cases.",
+      "strength": "weak",
+      "date_range": "1996-03 to 1996-05",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:45",
+      "other_person": "Xenophon Galinas",
+      "other_person_slug": "xenophon-galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1158,
+      "person_a": "Bill Clinton",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "political",
+      "description": "Ivan S. Fisher donated $1,000 to Clinton for President Committee (1992-01-24) and $2,300 to Hillary Clinton for President (2007-12-12). Both max contributions. FEC confirmed + LittleSis.",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:41",
+      "other_person": "Bill Clinton",
+      "other_person_slug": "bill-clinton",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A records",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "LittleSis relationships 1592809/1592810",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1159,
+      "person_a": "Alan Hevesi",
+      "person_b": "Ivan Fisher",
+      "relationship_type": "political",
+      "description": "Ivan S. Fisher donated $360 to Alan Hevesi NYS campaign (1999-06-10). Hevesi was later NYC Comptroller (2001-2005) and NYS Comptroller (2007) before conviction for pension fund corruption. No evidence donation was connected to Epstein network.",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:57:46",
+      "other_person": "Alan Hevesi",
+      "other_person_slug": "alan-hevesi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 1592811",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1983-01-01",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "LittleSis entity 356352 maps Fisher network: 6 relationships total. (1) Jeffrey Epstein - tenant relationship (sublease); (2) Anthony Charles Castelbuono - client relationship (Fisher was his defense attorney in 1983 EDNY cooperation agreement case, US v. Castelbuono 643 F.Supp.965); (3-4) Bill Clinton 1000 (1992) and Hillary Clinton 2300 (2007) - campaign donations; (5) Alan Hevesi 360 (1999) - NYS donation; (6) William C. Thompson Jr 500 (2007) - NYS donation. The Castelbuono connection is significant: Castelbuono was excluded from NJ gaming for organized crime ties. Fisher negotiated a cooperation agreement for him with EDNY in 1983 that was later voided for bad faith.",
+      "confidence": "high",
+      "id": 2305
+    },
+    {
+      "date": "1985-01-01",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Fisher Pizza Connection correction: Fisher defended Salvatore Catalano (of Queens, NY), NOT Gaetano Badalamenti as sometimes reported. Catalano was the alleged head of US operations. The trial ran 1985-1987 in SDNY, lasted 17 months, and was the longest federal criminal trial in US history at that time. Fisher cross-examined Chief Inspector Antonietta Mantoro of the Italian National Science Police. Catalano was convicted. Fisher also represented Haji Ayub Afridi (Pakistani tribal chief/narcotrafficker with CIA ties) and Haji Bashir Noorzai (convicted 2008 for 50M heroin smuggling after being lured to US with promise of immunity from arrest).",
+      "confidence": "high",
+      "id": 2302
+    },
+    {
+      "date": "1992",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC records: Ivan S. Fisher donated to both Clinton presidential campaigns - $1,000 in 1992, $2,300 in 2007. LittleSis records additional NYS donations: $360 to Alan Hevesi (1999), $500 to William C. Thompson Jr (2007). All donations Democratic, NYC-focused. No other federal contributions found. Separate Springfield VA donor named 'Ivan Fisher' is a different person.",
+      "confidence": "medium",
+      "id": 2289
+    },
+    {
+      "date": "1992-01-24",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "LittleSis political donations: Fisher donated ,000 to Bill Clinton (1/24/1992 - same year Epstein obtained his OFM lease), ,300 to Hillary Clinton (12/12/2007 - during Epstein criminal plea deal period),  to Alan Hevesi NYS Comptroller (1999 - later convicted of corruption),  to William C Thompson Jr NYC Comptroller (2007). Clinton donations parallel Epstein networks Clinton-era connections.",
+      "confidence": "high",
+      "id": 2297
+    },
+    {
+      "date": "1992-02-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "34 E 69th St intelligence significance: Former Iranian Deputy Consul General residence seized after 1979 revolution. Under IEEPA frozen asset regulations and Vienna Convention, OFM managed as blocked Iranian property. All income constituted blocked Iranian property per Treasury license. Epsteins lease of Iranian diplomatic property in 1992 and subsequent unauthorized subletting to criminal defense lawyers raises questions about how Epstein obtained access to sensitive government-custodied diplomatic real estate. The Galinas competing bid at 16K/mo vs Epsteins 15K/mo shows OFM preferred a higher-paying direct tenant.",
+      "confidence": "medium",
+      "id": 2285
+    },
+    {
+      "date": "1995",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Fisher represented Roy L. Schneider MD, former USVI governor, and secured dismissal of his indictment. This is a notable USVI connection. Schneider was USVI governor 1995-1999, overlapping with the period Epstein was developing his USVI presence. However no direct evidence Fisher connected Schneider to Epstein or that representation arose from Epstein network.",
+      "confidence": "medium",
+      "id": 2286
+    },
+    {
+      "date": "1996-03 to 1996-05",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Both were potential subtenants of Epstein at 34 E 69th St in 1996. Epstein negotiated with Galinas first, then chose to sublet to Fisher at 20K/mo instead. Fisher was criminal defense attorney known for French Connection and Pizza Connection cases.",
+      "other_person": "Xenophon Galinas",
+      "id": 1143
+    },
+    {
+      "date": "1996-04",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Jeffrey Schantz, identified in the 1998 court opinion as Epstein's 'transaction counsel' who negotiated the 34 E 69th St sublease with OFM in April 1996, was simultaneously serving as VP/Secretary/Treasurer of Epstein's USVI entities (articles of incorporation found in EFTA01390430). Schantz operated from 6100 Red Hook Quarter, Suite B-3, American Yacht Harbor, St. Thomas, VI 00802 -- Epstein's USVI office. This shows Schantz was deeply embedded in Epstein's legal infrastructure, not just a transactional attorney.",
+      "confidence": "confirmed",
+      "id": 2292
+    },
+    {
+      "date": "1996-05-07",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Ivan S. Fisher was one of NYC's most prominent criminal defense attorneys in the 1980s-90s. Top 5 criminal attorney per NYT in 1980. Lead counsel in the Pizza Connection Trial (longest federal criminal trial at the time) and French Connection cases. Lectured at Yale Law and Columbia Law. Fisher sublet 34 E 69th from Epstein at $20K/month starting May 7, 1996. He turned the former Iranian diplomatic residence into a multi-occupant law office complex housing at least 3 separate practices. Fisher was subsequently BANNED from practicing in federal court in SDNY in 2013 after stealing money from a client.",
+      "confidence": "high",
+      "id": 2150
+    },
+    {
+      "date": "1996-05-07",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Epstein profit scheme on 34 E 69th: Epstein paid OFM 15K/mo but charged Fisher 20K/mo, pocketing 5K/mo. Fisher then further sublet portions to other lawyers at unknown rates. Second Amended Complaint (EFTA01324981) names 18 defendants total. Govt also alleged Epstein took Iranian fixtures (chandeliers, sconces, mirrors) and claimed ownership. Case was prosecuted by AUSA Serene Nakano under US Atty Mary Jo White.",
+      "confidence": "high",
+      "id": 2279
+    },
+    {
+      "date": "1996-05-07",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Fisher-Epstein relationship was purely commercial sublease, not legal representation. Fisher was Epsteins TENANT not his lawyer. However Epstein represented to Fisher that OFM had orally approved the sublease - which was false. Fisher claims he would not have entered sublease without State Dept approval. After govt notified Fisher of lease termination, Fisher stopped paying rent to Epstein. No evidence Fisher ever represented Epstein or Epstein associates in any legal matter. Epsteins attorney in this case was Wachtel and Masyr LLP (Steven J. Cohen).",
+      "confidence": "medium",
+      "id": 2284
+    },
+    {
+      "date": "1996-09-23",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Ivan Fisher's co-counsel in the 34 E 69th St ejectment case (96 Civ 8307) was Gage & Pavlis (G. Robert Gage Jr., Eileen J. Casey, later Gage Spencer & Fleming LLP). Fisher was represented by this firm on behalf of himself, Diane Fisher d/b/a The Fisher Group, and Fisher & Soffer a/k/a Fisher & Sophir. Key factual detail from Judge Chin's opinion: Fisher met with an AUSA on Sept 23, 1996 and was told that OFM's Richard Massey 'would swear under oath that he never orally approved the sublet to Fisher.' Fisher then offered to pay rent directly to OFM (never answered) and stopped paying Epstein. Fisher was a prominent criminal defense attorney — he defended the Pizza Connection Trial (largest Mafia-heroin prosecution). Fisher's firm with Soffer at the Iranian consular property establishes a direct professional relationship between a major organized crime defense lawyer and Soffer in an Epstein-controlled space.",
+      "confidence": "high",
+      "id": 3289
+    },
+    {
+      "date": "1996-09-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein's 34 E 69th St scheme was a profitable arbitrage: He leased from OFM (US State Dept) at ,000/month starting 1992, then sublet to Fisher at ,000/month starting May 1996, pocketing ,000/month. Fisher in turn sublet to approximately 12 additional lawyers. The court opinion reveals Epstein collected rent from Fisher through September 30, 1996 (at least ,000 over 5 months). Epstein also demanded ,000 from another prospective subtenant (Xenophon Galinas) for 'improvements to the Premises.' This was a rent-seeking operation on Iranian consular property held in trust by the US government.",
+      "confidence": "medium",
+      "id": 2276
+    },
+    {
+      "date": "1996-1998",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Fisher and Soffer shared office space at 34 E 69th St NYC from 1996, operating as Fisher and Soffer aka Fisher and Sophir. Fisher was prominent criminal defense attorney (Pizza Connection Trial). Building was Epstein sublease from US Office of Foreign Missions",
+      "other_person": "Ron Soffer",
+      "id": 424
+    },
+    {
+      "date": "1996-1998",
+      "type": "connection",
+      "relationship_type": "familial",
+      "description": "Diane Fisher (wife) operated The Fisher Group from 34 E 69th St, named as co-defendant in 96 CIV 8307.",
+      "other_person": "Diane Fisher",
+      "id": 1149
+    },
+    {
+      "date": "1996-1998",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Partners in Fisher & Soffer a/k/a Fisher & Sophir, a general partnership at 34 E 69th St, NYC. Named as co-defendants in US v. Epstein 96 Civ 8307. Soffer was Fisher's subtenant and law partner.",
+      "other_person": "Ron Soffer",
+      "id": 1977
+    },
+    {
+      "date": "1996-2000",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Fisher was Epstein's subtenant at 34 E 69th St (former Iranian consulate), paying $20K/month. Named as co-defendant in US v. Epstein (96 CIV 8307). Fisher claimed Epstein falsely represented the sublease was State Department-approved. Companion case Epstein v. Fisher (97 CIV 1489) filed by Epstein against Fisher.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1090
+    },
+    {
+      "date": "1996-2000",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Epstein-Fisher sublease: Epstein leased 34 E 69th St from OFM at 15K/mo and sublet to Fisher at 20K/mo starting 5/7/1996 without govt consent. Led to eviction case 96 CIV 8307 SDNY Judge Chin. Fisher was co-defendant with Epstein not counsel. Purely commercial landlord-tenant relationship.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1153
+    },
+    {
+      "date": "1996-2000",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Fisher and Soffer law partnership: Fisher and Soffer aka Fisher and Sophir operated from 34 E 69th St. Soffer was subtenant and business partner. Both named as defendants in 96 CIV 8307. Soffer was the only subtenant who refused to sign stipulation agreeing to be bound by court decision. Soffer resident of NY and France.",
+      "other_person": "Ron Soffer",
+      "id": 1154
+    },
+    {
+      "date": "1996-2000",
+      "type": "connection",
+      "relationship_type": "familial",
+      "description": "Diane Fisher dba The Fisher Group was Fishers spouse per court filings. She operated a real estate business from 34 E 69th St and was named as defendant in the eviction case. She resided at the premises.",
+      "other_person": "Diane Fisher",
+      "id": 1157
+    },
+    {
+      "date": "1996-2000",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Mary Jo White as US Attorney SDNY prosecuted the eviction case against Epstein and Fisher 96 CIV 8307. White later became SEC Chair 2013-2017. AUSA Serene Nakano handled the case directly.",
+      "other_person": "Mary Jo White",
+      "id": 1156
+    },
+    {
+      "date": "1996-2007",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Co-defendants in US v. Epstein & Fisher, 96 CIV 8307 (SDNY 1996-1998). Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 despite OFM denial. Both ejected by Judge Chin April 1998.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1148
+    },
+    {
+      "date": "1996-2019",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Fisher & Soffer (a/k/a Fisher & Sophir) law partnership. Soffer was Fisher's subtenant at 34 E 69th St, co-defendant in 96 CIV 8307. Soffer refused to stipulate and was last holdout. Soffer later reappears in Epstein-Weingarten Jan 2019 emails about SoftBank.",
+      "other_person": "Ron Soffer",
+      "id": 1150
+    },
+    {
+      "date": "1997-01-31",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Epstein leased 34 E 69th St for personal residential use from 1992, with his family occupying through January 1996 when he 'abandoned' the premises. By March 1996 he was simultaneously negotiating sublease arrangements with both Xenophon Galinas and Ivan Fisher. Fisher required the sublease be approved by the State Department and that he could remain beyond the lease expiration (January 31, 1997). Epstein represented to Fisher that OFM had approved the sublease -- a claim the government would later deny under oath. Fisher entered the sublease on Epstein's representations.",
+      "confidence": "high",
+      "id": 2278
+    },
+    {
+      "date": "1997-03-05",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "CourtListener confirms SEPARATE Epstein v. Fisher case (1:97-cv-01489 SDNY, filed 1997-03-05) in addition to US v. Epstein (96 CIV 8307). Nature of suit: 230 Rent Lease & Ejectment. Epstein commenced holdover proceeding in NYC Civil Court in February 1997 against Fisher for nonpayment of rent under the sublease after Fisher stopped paying rent in Sept 1996. Fisher removed the state court action to federal court where it was consolidated with 96 CIV 8307 by Judge Chin. This dual-case posture shows Epstein and Fisher were adversaries, not allies.",
+      "confidence": "high",
+      "id": 2291
+    },
+    {
+      "date": "1997-12-23",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Full list of Fisher subtenants at 34 E 69th: Ron Soffer (Fisher partner, resident NY/France), Diane Fisher dba The Fisher Group (spouse, real estate), Ellyn Bank (atty), Debra Elisa Cohen (atty), Lawrence D. Gerzog (atty), Robert Heilbrun (atty), Suzanne McDermott (atty, associated with Fisher firm), Christopher H. Martin (New York Defenders Service), Jesse Siegel (atty), Carmen Tausik (atty), law firm Siegel Martin and Heilbrun. All used 34 E 69th as business address. Fisher had converted former Iranian consular residence into multi-attorney office complex.",
+      "confidence": "high",
+      "id": 2299
+    },
+    {
+      "date": "1997-2000",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Judge Chin presided over United States v. Epstein and Fisher 96 CIV 8307 SDNY. Issued protective order ruling 2/19/1998 and summary judgment opinion 4/1/1998. Later became Second Circuit judge. Chin ruled Epsteins sublease was illegal and granted ejectment of all defendants.",
+      "other_person": "Denny Chin",
+      "id": 1155
+    },
+    {
+      "date": "1998-02-19",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Judge Chin Feb 19 1998 protective order ruling: Govt sought provision allowing use of Fishers confidential discovery (1996 tax return) in other civil/criminal matters. Fisher objected and won. Court held tax info entitled to confidentiality and govt could not exploit fruits of private litigation for criminal investigation. Significant because Epstein also had a separate protective order over financial discovery in same case.",
+      "confidence": "high",
+      "id": 2269
+    },
+    {
+      "date": "1998-02-19",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Feb 19, 1998 protective order decision (1998 WL 67676): Government sought Fisher's 1996 tax return to verify rent collected from subtenants. Fisher objected to a government clause that would allow sharing discovery info with other agencies. Judge Chin sided with Fisher, ruling confidential information (especially tax returns) could not be used outside this lawsuit. Key quote: 'Fisher should not become the subject of an IRS tax investigation merely because of documents he produced in what is essentially a landlord-tenant suit.' The Government wanted to reserve right to use Fisher's financial info in 'unrelated civil or criminal matters.'",
+      "confidence": "confirmed",
+      "id": 2270
+    },
+    {
+      "date": "1998-03-13",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Government's motion for summary judgment against Diane Fisher d/b/a The Fisher Group and Ron Soffer (EFTA01325003, dated March 13, 1998): Diane Fisher used the premises to conduct business as a real estate salesperson. Ron Soffer used the premises as a business address and registered it with the NY State Office of Court Administration as his attorney registration office. By stipulation of March 5, 1998, all subtenants except Diane Fisher and Ron Soffer agreed to be bound by the court's decision. Diane Fisher later signed; Soffer declined and was ejected anyway since he 'can have no greater rights than Fisher.'",
+      "confidence": "confirmed",
+      "id": 2275
+    },
+    {
+      "date": "1998-04-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Judge Denny Chin's April 1, 1998 opinion (1998 WL 159055) in US v. Epstein & Fisher, 96 CIV 8307, provides comprehensive factual record: OFM leased 34 East 69th St (former Iranian consular residence) to Epstein in 1992 at ,000/month. Epstein abandoned the premises in January 1996, then sublet to Fisher on May 7, 1996 at ,000/month despite OFM's express denial. Fisher sublet portions to approximately 12 additional lawyer-subtenants. Epstein's lease terminated August 23, 1996. Court found Epstein needed prior written consent (not oral) and could be denied arbitrarily under NY law. All defendants ejected.",
+      "confidence": "confirmed",
+      "id": 2266
+    },
+    {
+      "date": "1998-04-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Judge Chin full eviction opinion (96 CIV 8307 / 1:97-cv-01489): OFM leased 34 E 69th St (former Iranian Deputy Consul General residence) to Epstein 2/1/1992 at 15K/mo. Epstein abandoned Jan 1996 and sublet to Fisher 5/7/1996 at 20K/mo despite OFMs express written denial 4/26/1996. Fisher further sublet to 12+ lawyers including Ron Soffer, Diane Fisher, Ellyn Bank, and law firm Siegel Martin and Heilbrun. Summary judgment granted ejecting all defendants. Lease unambiguously required prior written consent for sublet which was never given.",
+      "confidence": "high",
+      "id": 2267
+    },
+    {
+      "date": "2005-10-25",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Forfeiture case 1:05-cv-09105 (SDNY 2005-2007): US govt brought civil forfeiture action against bank accounts numbered 2445, with Ivan Stephan Fisher as a party. Filed 10/25/2005, terminated 7/13/2007 before Judge Pauley. Nature of suit: Other forfeiture and penalty. This case overlaps chronologically with the period when Fisher was misappropriating Raphael restitution funds (2007). May relate to proceeds of Fisher client representation or personal financial misconduct.",
+      "confidence": "medium",
+      "id": 2283
+    },
+    {
+      "date": "2007-06-12",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "June-July 2007: Florida Criminal AUSA (from West Palm Beach office) sought Epsteins deposition transcript from the 96 CIV 8307 eviction case for use in the CRIMINAL investigation. SDNY retrieved files but could not locate the deposition. Protective order limited use - AUSA could review but not use in other litigation. This proves the Florida criminal investigation team was actively seeking Epsteins financial testimony from the Fisher subletting case in 2007 during the plea deal period.",
+      "confidence": "high",
+      "id": 2271
+    },
+    {
+      "date": "2007-06-12",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "The Jane Doe v. United States (08-80736) privilege log (EFTA00020711) confirms the 2007 AUSA email exchange was formally logged: '6/12/2007-7/6/2007 series of emails between Marie Villafana and AUSAs Serene Nakano and James Cott re an earlier unrelated investigation of Epstein.' This independently verifies both the timeframe and the fact that SDFL's Villafana was seeking information from the 96 CIV 8307 case for the criminal investigation. The privilege log also identifies SDNY AUSA James Cott as involved.",
+      "confidence": "confirmed",
+      "id": 2274
+    },
+    {
+      "date": "2007-06-12",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein financial discovery in Fisher case: Epstein obtained a protective order sealing financial discovery in the eviction case. When FL Criminal AUSA sought his deposition in June 2007 the protective order restricted use. SDNY could not even locate the deposition transcript. This protected financial information from Epsteins mid-1990s period may have contained relevant details about his income sources and financial arrangements during the period he was building his wealth and reputation.",
+      "confidence": "medium",
+      "id": 2280
+    },
+    {
+      "date": "2007-07",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "In June-July 2007, SDFL Criminal AUSA (AVillafana, West Palm Beach) contacted SDNY AUSA Serene Nakano seeking Epstein's deposition transcript from US v. Epstein & Fisher, 96 CIV 8307 for use in the then-active criminal investigation. Nakano described it as 'my infamous landlord-tenant case.' The files could not be located -- deposition was NOT found in the retrieved closed files. This was a crucial moment: SDFL was investigating Epstein's 2005-06 sex trafficking and sought his earlier sworn testimony. The protective order limited use of financial discovery.",
+      "confidence": "confirmed",
+      "id": 2272
+    },
+    {
+      "date": "2007-12-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC records confirm Ivan S. Fisher (self-employed attorney, NYC) donated 1000 to Clinton For President Committee on 1/24/1992 (from 10022 zip code) and 2300 to Hillary Clinton For President on 12/12/2007 (from 251 E 61st St, 10065). LittleSis additionally records 360 to Alan Hevesi (NYS, 6/10/1999) and 500 to William C. Thompson Jr (NYS, 1/10/2007). Both Clinton donations parallel Epstein own Clinton donation pattern.",
+      "confidence": "medium",
+      "id": 2300
+    },
+    {
+      "date": "2008-01-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "OCCRP Aleph shows an Ivan Fisher as director of a Panama company in the 2008 Panama Companies Registry scrape. No additional detail available (entity data is minimal). This is likely a different person given the commonality of the name, but cannot be ruled out. Separately, Fisher and Soffer had no ICIJ records (ICIJ Neo4j unavailable), zero OCCRP company results for Fisher and Soffer, and zero EpsteinExposed person records for Ivan Fisher specifically (EpsteinExposed returned 174 document hits but all relate to the 96 CIV 8307 case or unrelated Fishers).",
+      "confidence": "low",
+      "id": 2306
+    },
+    {
+      "date": "2011-12",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "DISAMBIGUATION: Multiple 'Fishers' in the Epstein corpus are NOT Ivan Fisher: (1) Alice Fisher -- DOJ Assistant Attorney General mentioned in 2017 Indyke-to-Epstein email as potential FBI director candidate; also appears in House Oversight docs receiving appeal about SDFL prosecutorial misconduct. (2) Paula Heil Fisher -- Epstein's ex-girlfriend, former Bear Stearns associate, opera producer. (3) Lenny Fischer -- CEO of RHJI (Kleinwort Benson parent), met by David Stern at dinner in St. Moritz Dec 2011. (4) Helen Fisher -- author of 'Anatomy of Love,' recommended by Epstein to Summers in March 2019 email. None of these are Ivan S. Fisher.",
+      "confidence": "medium",
+      "id": 2294
+    },
+    {
+      "date": "2013-03-14",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Ivan Fisher disbarment: In 2004 client Abrahim Raphael retained Fisher for federal criminal defense re embezzlement from International Gemological Institute (IGI). In 2007 Raphael entrusted Fisher with 250K for restitution to IGI. Fisher misappropriated 180K for personal use. SDNY Committee on Grievances (M2-238, Judge P. Kevin Castel) filed proceeding 1/24/2012, disbarred Fisher 3/14/2013. Fisher appealed to 2d Circuit (13-1272) - affirmed 7/22/2014. NY Appellate Division First Dept struck Fisher from state bar nunc pro tunc to 3/12/2015 (Matter of Fisher M-310 M-5318). Also separately suspended from EDNY in 2007 (1:07-mc-00414, Judge Cogan).",
+      "confidence": "high",
+      "id": 2273
+    },
+    {
+      "date": "2015-03-12",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Fisher current status: NY bar registration number 1521384, admitted 1968, Boston University School of Law. Status as of 2024: SUSPENDED, DELINQUENT. Office address 125 E 50th St Ste 1201, New York, NY 10022. Next registration due August 2026. Previously at 251 E 61st St (per 2007 FEC filing). The SDNY federal disbarment (March 2013) was followed by NY Appellate Division First Department striking him from state bar nunc pro tunc March 12, 2015 (Matter of Fisher M-310, M-5318). Fisher is now 82 years old (born August 26, 1943) and effectively unable to practice law in any forum.",
+      "confidence": "high",
+      "id": 2301
+    },
+    {
+      "date": "2026-02-15",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "COMPREHENSIVE NEGATIVE RESULTS: Exhaustive multi-database search for Ivan Fisher, Diane Fisher, Fisher & Soffer, and The Fisher Group returned zero results across: (1) SEC EDGAR - no filings, no CIK, no insider transactions; (2) NYC ACRIS - no property records for Ivan Fisher (Diane Fisher result was different person in Staten Island); (3) Corporate registries (NY, FL, CO, NM, CA, UK) - no entities for Ivan Fisher, Fisher & Soffer, or Fisher & Sophir registered in any jurisdiction; (4) UCC filings (FL, NM) - zero filings; (5) FAA aircraft registry - zero; (6) GLEIF LEI - zero; (7) OpenSanctions - not listed; (8) Deutsche Bank DS10 - zero transactions; (9) FARA - not registered; (10) ProPublica 990 - no matching nonprofits; (11) OCCRP Aleph - API error, not searched. The NY SoS 'Diane Fisher-Golden' (Coolfish Web Development, Slingerlands NY) is a different person. This total absence from corporate, financial, and property databases is consistent with Fisher operating exclusively as a solo/partnership criminal defense attorney with no corporate or financial entanglements beyond his law practice.",
+      "confidence": "medium",
+      "id": 2295
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2291,
+      2270,
+      2275,
+      2266,
+      2292,
+      2296,
+      2276,
+      2280,
+      2284,
+      2287,
+      2297,
+      2305
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          2305,
+          2286,
+          2284,
+          2298
+        ],
+        "connection_ids": [
+          424,
+          1090,
+          1113,
+          1132,
+          1148,
+          1149,
+          1150,
+          1153,
+          1154,
+          1155,
+          1157,
+          1977,
+          1156,
+          1161,
+          1162
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          2289,
+          2297,
+          2276,
+          2300
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2150,
+          2279,
+          3289,
+          2278,
+          2291,
+          2299,
+          2269,
+          2270
+        ],
+        "connection_ids": [
+          424,
+          1090,
+          1113,
+          1132,
+          1148,
+          1150
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          2285,
+          2292,
+          2280,
+          2306,
+          2294,
+          2295,
+          2281,
+          2282
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:39:54.686476",
+    "lead": "<p>Ivan Stephan Fisher (born August 26, 1943) was among New York City's most prominent criminal defense attorneys from the late 1970s through the early 2000s. A graduate of Horace Mann School, Syracuse University, and Boston University School of Law (admitted to the New York bar in 1968, registration #1521384), Fisher was ranked among the top five criminal attorneys in New York by the New York Times in 1980. His client roster reads as a catalogue of headline-generating federal prosecutions: he defended Salvatore Catalano in the Pizza Connection Trial (1985&ndash;1987), the longest federal criminal trial in U.S. history at that time; represented Michele Sindona, the Italian financier implicated in the P2 Lodge and Vatican Bank scandals; served as counsel for Haji Ayub Afridi, a Pakistani tribal chief and narcotrafficker with alleged CIA ties; and defended Haji Bashir Noorzai, convicted in 2008 of smuggling $50 million in heroin after being lured to the United States with a promise of immunity. He also represented author Jack Henry Abbott, Bonanno crime family boss Joseph Bonanno, and Roy L. Schneider, the former governor of the U.S. Virgin Islands.</p>\n\n<p>Fisher's connection to <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> was commercial rather than representational. On May 7, 1996, Fisher entered into a sublease agreement to rent <a href=\"/dossiers/34-east-69th-street\">34 East 69th Street</a> &mdash; a former Iranian diplomatic residence under U.S. government custodianship &mdash; from Epstein at $20,000 per month. Epstein had leased the property from the State Department's Office of Foreign Missions at $15,000 per month since 1992, pocketing the $5,000 monthly difference. Fisher converted the building into a multi-attorney office complex, subletting space to approximately twelve additional lawyers and firms including his partner <a href=\"/dossiers/ron-soffer\">Ron Soffer</a> and the firm Siegel Martin &amp; Heilbrun. Epstein represented to Fisher that the State Department had orally approved the sublet &mdash; a claim the government would later deny under oath. When Fisher learned of the misrepresentation in September 1996, he stopped paying rent to Epstein, triggering dueling federal lawsuits: the government's ejectment action (<em>United States v. Epstein &amp; Fisher</em>, 96 CIV 8307, SDNY) and Epstein's holdover proceeding (<em>Epstein v. Fisher</em>, 1:97-cv-01489). Judge Denny Chin granted summary judgment against all defendants on April 1, 1998, ordering their eviction (EFTA01325008).</p>\n\n<p>Exhaustive searches across the DOJ Volume 11 corpus, DugganUSA, LMSBAND, the Unified database, email archives, and financial records reveal no evidence that Fisher ever represented Epstein or any Epstein associate in a legal capacity. No email correspondence between the two has been found in any dataset. The relationship appears strictly limited to the sublease transaction and the resulting litigation. Fisher's subsequent career ended in disgrace: in 2007, he misappropriated $180,000 from a client's $250,000 restitution fund, leading to his disbarment by the SDNY Committee on Grievances in March 2013 (affirmed by the Second Circuit in 2014) and his removal from the New York state bar in March 2015. He is now 82 years old and effectively unable to practice law in any forum.</p>",
+    "open_questions": [
+      "What happened to Epstein's deposition transcript from the 96 CIV 8307 eviction case, and does it survive in any archive? The SDNY could not locate it in 2007 when the Florida prosecution team sought it.",
+      "Did Epstein's sealed financial discovery in the eviction case contain information about his income sources and financial arrangements during the 1992-1996 period that would illuminate the origins of his wealth?",
+      "How did Epstein obtain the lease on a sensitive government-custodied Iranian diplomatic property in 1992, and what was the State Department's vetting process for tenants of OFM-managed blocked assets?",
+      "What is the nature of the 2005-2007 civil forfeiture action against Fisher's bank accounts (1:05-cv-09105), and does it relate to the Raphael restitution misappropriation or to other financial conduct?"
+    ],
+    "system_role": "Fisher illustrates how Epstein's 1990s real estate schemes drew in prominent figures through commercial transactions rather than complicity: a celebrated criminal defense attorney became Epstein's subtenant at a seized Iranian diplomatic property, generating federal litigation that later became an investigative resource when Florida prosecutors sought Epstein's sworn financial testimony.",
+    "sections": [
+      {
+        "id": "career-and-notable-cases",
+        "title": "Career and Notable Cases",
+        "content": "<p>Fisher began his career in the early 1970s as a partner of Albert Krieger before establishing an independent practice in 1974. He quickly built a reputation for handling the most complex and high-profile federal criminal cases in the Southern and Eastern Districts of New York. In 1974, he won the landmark decision <em>United States v. Toscanino</em> in the Second Circuit, which addressed the due process implications of abducting defendants from foreign countries and led to a Kissinger directive restricting the use of torture in intelligence operations. He went on to defend clients in the French Connection heroin trafficking cases and then took on the Pizza Connection Trial in 1985, where he represented Salvatore Catalano &mdash; the alleged head of U.S. operations in a Sicilian Mafia-heroin pipeline &mdash; in a 17-month trial that remained the longest federal criminal proceeding in American history for years afterward. Some sources incorrectly attribute Fisher's representation to Gaetano Badalamenti; court records confirm his client was Catalano.</p>\n\n<p>Fisher's client list extended beyond organized crime. He represented Michele Sindona, the Italian financier at the center of the P2 Masonic Lodge and Vatican Bank scandals, who was later murdered by cyanide in an Italian prison in 1986. He defended Haji Ayub Afridi, a Pakistani tribal chief and narcotrafficker reportedly connected to the CIA, and Haji Bashir Noorzai, an Afghan narcotics kingpin convicted in 2008 after being lured to the United States with a false promise of immunity. Fisher also represented Anthony Charles Castelbuono, a figure excluded from New Jersey gaming for organized crime ties, negotiating a 1983 cooperation agreement with the Eastern District of New York that was later voided for bad faith (<em>United States v. Castelbuono</em>, 643 F.Supp. 965). Other clients included Alberto Vilar, the billionaire arts patron convicted of securities fraud, and Roy L. Schneider, the former U.S. Virgin Islands governor whose indictment Fisher successfully moved to dismiss. Fisher lectured at Yale Law School and Columbia Law School, and defended Norman Mailer and rapper Remy Ma.</p>",
+        "viz": null
+      },
+      {
+        "id": "epstein-sublease-and-eviction",
+        "title": "The 34 East 69th Street Sublease",
+        "content": "<p><a href=\"/dossiers/34-east-69th-street\">34 East 69th Street</a> was the former residence of Iran's Deputy Consul General, seized by the U.S. government after the 1979 Iranian revolution and held as blocked property under IEEPA frozen-asset regulations and the Vienna Convention. The State Department's Office of Foreign Missions managed the property, and all rental income constituted blocked Iranian property under Treasury license. <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> leased the building for personal residential use beginning February 1, 1992, at $15,000 per month. Epstein and his family occupied the premises until January 1996, when he abandoned them. By March 1996, he was simultaneously negotiating sublease arrangements with both <a href=\"/dossiers/xenophon-galinas\">Xenophon Galinas</a> and Fisher. Galinas offered $16,000 per month; Epstein ultimately chose Fisher at $20,000, generating a $5,000 monthly profit on the government lease (EFTA01325008).</p>\n\n<p>Fisher stipulated that he would not enter the sublease unless it was approved by the State Department and he could remain beyond the lease's January 31, 1997 expiration. Epstein told Fisher he had a right of first refusal and that OFM had orally approved the sublet. On April 26, 1996, OFM sent Epstein a written denial of sublease consent. Eleven days later, on May 7, 1996, Epstein and Fisher executed the sublease anyway. Epstein's \"transaction counsel\" for the OFM negotiations was <a href=\"/dossiers/jeffrey-a-schantz\">Jeffrey Schantz</a>, who was simultaneously serving as VP, Secretary, and Treasurer of Epstein's USVI entities from 6100 Red Hook Quarter, American Yacht Harbor, St. Thomas (EFTA01390430). Fisher converted the building into a multi-attorney office complex, subletting portions to approximately twelve lawyers and firms: <a href=\"/dossiers/ron-soffer\">Ron Soffer</a> (his law partner, resident of New York and France), Diane Fisher d/b/a The Fisher Group (his spouse, operating a real estate business), Ellyn Bank, Debra Elisa Cohen, Lawrence D. Gerzog, Robert Heilbrun, Suzanne McDermott, Christopher H. Martin of the New York Defenders Service, Jesse Siegel, Carmen Tausik, and the firm Siegel Martin &amp; Heilbrun (EFTA01324981).</p>\n\n<p>On September 23, 1996, Fisher met with an Assistant U.S. Attorney and was told that OFM's Richard Massey \"would swear under oath that he never orally approved the sublet to Fisher.\" Fisher then offered to pay rent directly to OFM (an offer that was never answered) and stopped paying Epstein. The government filed its ejectment action on August 23, 1996 (96 CIV 8307). Epstein responded by commencing a holdover proceeding against Fisher in New York City Civil Court in February 1997 for nonpayment of rent; Fisher removed it to federal court where Judge Denny Chin consolidated the cases. All subtenants except Diane Fisher and <a href=\"/dossiers/ron-soffer\">Ron Soffer</a> agreed by stipulation to be bound by the court's decision. Soffer refused and was ejected anyway, as the court held he \"can have no greater rights than Fisher.\" Judge Chin's April 1, 1998 opinion found that Epstein's lease unambiguously required prior written consent for any sublet and granted summary judgment ejecting all defendants. Vicky Ward's 2003 Vanity Fair profile of Epstein provided the only public media account of the subletting scheme, noting that the \"exact terms of the agreement are sealed\" &mdash; consistent with the protective order on financial discovery (EFTA01334040).</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "protective-orders-and-florida-investigation",
+        "title": "Protective Orders and the Florida Criminal Investigation",
+        "content": "<p>Two protective orders in the eviction case shielded financial information from broader use. In a February 19, 1998 ruling (1998 WL 67676), the government sought a provision in the protective order that would allow Fisher's confidential discovery &mdash; including his 1996 tax return, which would reveal how much rent he collected from subtenants &mdash; to be shared with other agencies for use in \"unrelated civil or criminal matters.\" Judge Chin rejected this, ruling that \"Fisher should not become the subject of an IRS tax investigation merely because of documents he produced in what is essentially a landlord-tenant suit\" (EFTA01325020). <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> separately obtained his own protective order sealing financial discovery in the same case.</p>\n\n<p>These sealed records became investigatively significant a decade later. In June&ndash;July 2007, during the active Florida criminal investigation into Epstein's sex trafficking, AUSA Marie Villafana of the West Palm Beach office contacted SDNY AUSA Serene Nakano &mdash; who had prosecuted the original eviction case under U.S. Attorney Mary Jo White &mdash; seeking Epstein's deposition transcript from 96 CIV 8307. Nakano described the matter as \"my infamous landlord-tenant case\" (EFTA01325022). The SDNY files were retrieved, but the deposition transcript could not be located. The protective order further limited any use of recovered materials. The Jane Doe v. United States privilege log (EFTA00020711) independently confirms this exchange, logging a \"6/12/2007&ndash;7/6/2007 series of emails between Marie Villafana and AUSAs Serene Nakano and James Cott re an earlier unrelated investigation of Epstein.\" This establishes that Epstein's sworn financial testimony from the mid-1990s, extracted in a landlord-tenant dispute, was actively sought by federal prosecutors building the criminal case that resulted in the controversial 2008 plea deal.</p>",
+        "viz": null
+      },
+      {
+        "id": "disbarment-and-fall",
+        "title": "Disbarment and Professional Collapse",
+        "content": "<p>Fisher's career ended in a series of disciplinary proceedings spanning nearly a decade. In 2004, client Abrahim Raphael retained Fisher for federal criminal defense in an embezzlement case involving the International Gemological Institute. In 2007, Raphael entrusted Fisher with $250,000 for restitution to IGI. Fisher misappropriated $180,000 of those funds for personal use. The SDNY Committee on Grievances, under Judge P. Kevin Castel, filed disciplinary proceedings on January 24, 2012 (M2-238) and disbarred Fisher from federal practice on March 14, 2013. Fisher appealed to the Second Circuit (13-1272), which affirmed the disbarment on July 22, 2014. The New York Appellate Division, First Department, subsequently struck Fisher from the state bar nunc pro tunc to March 12, 2015 (Matter of Fisher, M-310, M-5318). Fisher had also been separately suspended from the Eastern District of New York as early as 2007 (1:07-mc-00414, Judge Cogan).</p>\n\n<p>A separate civil forfeiture action, case 1:05-cv-09105 (SDNY), was filed against Fisher on October 25, 2005, targeting bank accounts and terminating July 13, 2007 before Judge Pauley. The case overlaps chronologically with the period of the Raphael restitution misappropriation and may relate to other financial misconduct. As of 2026, Fisher's New York bar status is listed as \"Suspended, Delinquent,\" with a last known address at 125 East 50th Street, Suite 1201, New York. He is 82 years old and effectively barred from practicing law in any federal or state court.</p>",
+        "viz": null
+      },
+      {
+        "id": "investigative-significance",
+        "title": "Investigative Significance and Negative Results",
+        "content": "<p>The evidentiary record establishes that Fisher's relationship with <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> was adversarial and commercial, not collaborative. They were co-defendants in the government's ejectment action, but with separate counsel: Epstein was represented by Wachtel &amp; Masyr LLP (Steven J. Cohen), while Fisher was represented by Gage &amp; Pavlis (G. Robert Gage Jr., Eileen J. Casey). Epstein also sued Fisher for nonpayment of rent. No evidence of any attorney-client relationship, email correspondence, social connection, or financial transaction between the two has been found across the complete DOJ Volume 11 corpus (331,000 pages), DugganUSA (204,000 records), LMSBAND (60,000 records), the Unified database (70,000 records), Epstein 20K (25,800 records), or email archives. The Fisher &amp; Soffer law firm likewise appears in no Epstein email, financial record, or contact list outside the 96 CIV 8307 court filings.</p>\n\n<p>Exhaustive multi-database searches returned comprehensive negative results for Fisher across corporate, financial, and property databases: zero SEC EDGAR filings, zero NYC ACRIS property records, no corporate registrations in New York, Florida, Colorado, New Mexico, California, or the United Kingdom, zero UCC filings, zero FAA aircraft records, zero GLEIF or OpenSanctions entries, no FARA registration, no Deutsche Bank DS10 transactions, and no ProPublica 990 nonprofit filings. This total absence from corporate and financial databases is consistent with Fisher operating exclusively as a solo or partnership criminal defense practitioner with no corporate or financial entanglements beyond his law practice. FEC records confirm modest Democratic political donations: $1,000 to Bill Clinton's 1992 campaign and $2,300 to Hillary Clinton's 2007 campaign, alongside New York State donations of $360 to Alan Hevesi (1999) and $500 to William C. Thompson Jr. (2007).</p>\n\n<p>Fisher's primary investigative value lies not in any direct Epstein network participation but in the eviction case itself, which generated sealed financial discovery and sworn Epstein testimony from the mid-1990s &mdash; a period when Epstein's wealth-building activities remain poorly documented. The Florida prosecution team's 2007 effort to retrieve that testimony, and the SDNY's inability to locate the deposition transcript, represent a potentially significant gap in the evidentiary record of Epstein's financial history.</p>",
+        "viz": "ego_network"
+      }
+    ],
+    "applicable_models": [
+      "jurisdictional-arbitrage",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Ivan Fisher",
+      "connections": [
+        {
+          "target": "Ron Soffer",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "https://law.justia.com/cases/federal/district-courts/FSupp2/27/404/2346291/",
+          "description": "Fisher and Soffer shared office space at 34 E 69th St NYC from 1996, operating as Fisher and Soffer aka Fisher and Sophir. Fisher was prominent criminal defense attorney (Pizza Connection Trial). Building was Epstein sublease from US Office of Foreign Missions"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01324981",
+          "description": "Fisher was Epstein's subtenant at 34 E 69th St (former Iranian consulate), paying $20K/month. Named as co-defendant in US v. Epstein (96 CIV 8307). Fisher claimed Epstein falsely represented the sublease was State Department-approved. Companion case Epstein v. Fisher (97 CIV 1489) filed by Epstein against Fisher."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 without OFM consent. Epstein falsely told Fisher the State Dept approved the sublet. Fisher later stopped paying rent. Government sued both in 96 CIV 8307."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "Epstein sublet 34 E 69th to Fisher at 20K/month May 1996; two federal cases resulted"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "Co-defendants in US v. Epstein & Fisher, 96 CIV 8307 (SDNY 1996-1998). Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 despite OFM denial. Both ejected by Judge Chin April 1998."
+        },
+        {
+          "target": "Diane Fisher",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325003",
+          "description": "Diane Fisher (wife) operated The Fisher Group from 34 E 69th St, named as co-defendant in 96 CIV 8307."
+        },
+        {
+          "target": "Ron Soffer",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "Fisher & Soffer (a/k/a Fisher & Sophir) law partnership. Soffer was Fisher's subtenant at 34 E 69th St, co-defendant in 96 CIV 8307. Soffer refused to stipulate and was last holdout. Soffer later reappears in Epstein-Weingarten Jan 2019 emails about SoftBank."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01324981",
+          "description": "Epstein-Fisher sublease: Epstein leased 34 E 69th St from OFM at 15K/mo and sublet to Fisher at 20K/mo starting 5/7/1996 without govt consent. Led to eviction case 96 CIV 8307 SDNY Judge Chin. Fisher was co-defendant with Epstein not counsel. Purely commercial landlord-tenant relationship."
+        },
+        {
+          "target": "Ron Soffer",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01324981",
+          "description": "Fisher and Soffer law partnership: Fisher and Soffer aka Fisher and Sophir operated from 34 E 69th St. Soffer was subtenant and business partner. Both named as defendants in 96 CIV 8307. Soffer was the only subtenant who refused to sign stipulation agreeing to be bound by court decision. Soffer resident of NY and France."
+        },
+        {
+          "target": "Denny Chin",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "Judge Chin presided over United States v. Epstein and Fisher 96 CIV 8307 SDNY. Issued protective order ruling 2/19/1998 and summary judgment opinion 4/1/1998. Later became Second Circuit judge. Chin ruled Epsteins sublease was illegal and granted ejectment of all defendants."
+        },
+        {
+          "target": "Diane Fisher",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01324981",
+          "description": "Diane Fisher dba The Fisher Group was Fishers spouse per court filings. She operated a real estate business from 34 E 69th St and was named as defendant in the eviction case. She resided at the premises."
+        },
+        {
+          "target": "Ron Soffer",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01324981",
+          "description": "Partners in Fisher & Soffer a/k/a Fisher & Sophir, a general partnership at 34 E 69th St, NYC. Named as co-defendants in US v. Epstein 96 Civ 8307. Soffer was Fisher's subtenant and law partner."
+        },
+        {
+          "target": "Mary Jo White",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01324981",
+          "description": "Mary Jo White as US Attorney SDNY prosecuted the eviction case against Epstein and Fisher 96 CIV 8307. White later became SEC Chair 2013-2017. AUSA Serene Nakano handled the case directly."
+        },
+        {
+          "target": "Ron Soffer",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01324981",
+          "description": "Fisher and Soffer a/k/a Fisher and Sophir was a general partnership at 34 E 69th St (1996-98). Both were co-defendants in US v. Epstein 96 CIV 8307. Soffer was resident of NY and France. Soffer later sought hire by Weingarten for SoftBank matter (Jan 2019)."
+        },
+        {
+          "target": "Bill Clinton",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "FEC C00253690",
+          "description": "Fisher donated 1000 to Clinton For President Committee 1/24/1992 (FEC). Clinton donations by Epstein-adjacent figures are investigatively significant."
+        },
+        {
+          "target": "Hillary Clinton",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "FEC C00431569",
+          "description": "Fisher donated 2300 to Hillary Clinton For President 12/12/2007 (FEC). Fisher address at time was 251 E 61st St, NYC 10065."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01325020",
+          "description": null
+        },
+        {
+          "target": "Xenophon Galinas",
+          "type": "legal",
+          "strength": 0.4,
+          "evidence_ref": "EFTA01325008",
+          "description": "Both were potential subtenants of Epstein at 34 E 69th St in 1996. Epstein negotiated with Galinas first, then chose to sublet to Fisher at 20K/mo instead. Fisher was criminal defense attorney known for French Connection and Pizza Connection cases."
+        },
+        {
+          "target": "Bill Clinton",
+          "type": "political",
+          "strength": 0.4,
+          "evidence_ref": "FEC Schedule A records",
+          "description": "Ivan S. Fisher donated $1,000 to Clinton for President Committee (1992-01-24) and $2,300 to Hillary Clinton for President (2007-12-12). Both max contributions. FEC confirmed + LittleSis."
+        },
+        {
+          "target": "Alan Hevesi",
+          "type": "political",
+          "strength": 0.4,
+          "evidence_ref": "LittleSis relationship 1592811",
+          "description": "Ivan S. Fisher donated $360 to Alan Hevesi NYS campaign (1999-06-10). Hevesi was later NYC Comptroller (2001-2005) and NYS Comptroller (2007) before conviction for pension fund corruption. No evidence donation was connected to Epstein network."
+        }
+      ],
+      "secondHop": {
+        "Denny Chin": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Judge Chin presided over US v. Epstein (96 CIV 8307) and companion case Epstein v. Fisher (97 CIV 1489). Chin granted ejectment (1998 WL 159055) and issued protective order (1998 WL 67676) that later blocked Florida sex trafficking prosecutors from accessing Epstein's financial deposition. Chin went on to sentence Bernie Madoff to 150 years and was elevated to Second Circuit."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Ron Soffer": [
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer Avocats served as lead counsel for Bouvier in the billion-dollar Bouvier Affair against Rybolovlev. SDNY cases: Accent Delight/Xitrans (1:16-mc-00125) and Accent Delight v. Sothebys (1:18-cv-09011)."
+          },
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer is lead defense counsel for Bouvier in Bouvier Affair billion-dollar art fraud dispute with Rybolovlev, across Monaco Switzerland Singapore France and US from 2015 to Dec 2023 settlement"
+          },
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer represented Bouvier in Accent Delight/Xitrans Finance litigation in SDNY (Rybolovlev art fraud case, 2016-2024). Paris-based counsel for multi-jurisdictional defense."
+          },
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer Avocats served as lead counsel for Yves Bouvier in the Bouvier Affair litigation (Accent Delight/Xitrans v. Sotheby's 1:18-cv-09011, In Re: Accent Delight Section 1782 cases, Monaco, Geneva, Singapore). The attorney-client relationship spanned from at least 2015 through settlement in Dec 2023."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1983-01-01",
+        "label": "LittleSis entity 356352 maps Fisher network: 6 relationships total. (1) Jeffrey Epstein - tenant relationship (sublease); (2) Anthony Charles Castelbuono - client relationship (Fisher was his defense attorney in 1983 EDNY cooperation agreement case, US v. Castelbuono 643 F.Supp.965); (3-4) Bill Clinton 1000 (1992) and Hillary Clinton 2300 (2007) - campaign donations; (5) Alan Hevesi 360 (1999) - NYS donation; (6) William C. Thompson Jr 500 (2007) - NYS donation. The Castelbuono connection is significant: Castelbuono was excluded from NJ gaming for organized crime ties. Fisher negotiated a cooperation agreement for him with EDNY in 1983 that was later voided for bad faith.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2305
+      },
+      {
+        "date": "1985-01-01",
+        "label": "Fisher Pizza Connection correction: Fisher defended Salvatore Catalano (of Queens, NY), NOT Gaetano Badalamenti as sometimes reported. Catalano was the alleged head of US operations. The trial ran 1985-1987 in SDNY, lasted 17 months, and was the longest federal criminal trial in US history at that time. Fisher cross-examined Chief Inspector Antonietta Mantoro of the Italian National Science Police. Catalano was convicted. Fisher also represented Haji Ayub Afridi (Pakistani tribal chief/narcotrafficker with CIA ties) and Haji Bashir Noorzai (convicted 2008 for 50M heroin smuggling after being lured to US with promise of immunity from arrest).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2302
+      },
+      {
+        "date": "1992",
+        "label": "FEC records: Ivan S. Fisher donated to both Clinton presidential campaigns - $1,000 in 1992, $2,300 in 2007. LittleSis records additional NYS donations: $360 to Alan Hevesi (1999), $500 to William C. Thompson Jr (2007). All donations Democratic, NYC-focused. No other federal contributions found. Separate Springfield VA donor named 'Ivan Fisher' is a different person.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2289
+      },
+      {
+        "date": "1992-01-24",
+        "label": "LittleSis political donations: Fisher donated ,000 to Bill Clinton (1/24/1992 - same year Epstein obtained his OFM lease), ,300 to Hillary Clinton (12/12/2007 - during Epstein criminal plea deal period),  to Alan Hevesi NYS Comptroller (1999 - later convicted of corruption),  to William C Thompson Jr NYC Comptroller (2007). Clinton donations parallel Epstein networks Clinton-era connections.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2297
+      },
+      {
+        "date": "1992-02-01",
+        "label": "34 E 69th St intelligence significance: Former Iranian Deputy Consul General residence seized after 1979 revolution. Under IEEPA frozen asset regulations and Vienna Convention, OFM managed as blocked Iranian property. All income constituted blocked Iranian property per Treasury license. Epsteins lease of Iranian diplomatic property in 1992 and subsequent unauthorized subletting to criminal defense lawyers raises questions about how Epstein obtained access to sensitive government-custodied diplomatic real estate. The Galinas competing bid at 16K/mo vs Epsteins 15K/mo shows OFM preferred a higher-paying direct tenant.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2285
+      },
+      {
+        "date": "1995",
+        "label": "Fisher represented Roy L. Schneider MD, former USVI governor, and secured dismissal of his indictment. This is a notable USVI connection. Schneider was USVI governor 1995-1999, overlapping with the period Epstein was developing his USVI presence. However no direct evidence Fisher connected Schneider to Epstein or that representation arose from Epstein network.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2286
+      },
+      {
+        "date": "1996-03 to 1996-05",
+        "label": "legal with Xenophon Galinas",
+        "type": "legal",
+        "entity": "Xenophon Galinas",
+        "id": 1143
+      },
+      {
+        "date": "1996-04",
+        "label": "Jeffrey Schantz, identified in the 1998 court opinion as Epstein's 'transaction counsel' who negotiated the 34 E 69th St sublease with OFM in April 1996, was simultaneously serving as VP/Secretary/Treasurer of Epstein's USVI entities (articles of incorporation found in EFTA01390430). Schantz operated from 6100 Red Hook Quarter, Suite B-3, American Yacht Harbor, St. Thomas, VI 00802 -- Epstein's USVI office. This shows Schantz was deeply embedded in Epstein's legal infrastructure, not just a transactional attorney.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2292
+      },
+      {
+        "date": "1996-05-07",
+        "label": "Ivan S. Fisher was one of NYC's most prominent criminal defense attorneys in the 1980s-90s. Top 5 criminal attorney per NYT in 1980. Lead counsel in the Pizza Connection Trial (longest federal criminal trial at the time) and French Connection cases. Lectured at Yale Law and Columbia Law. Fisher sublet 34 E 69th from Epstein at $20K/month starting May 7, 1996. He turned the former Iranian diplomatic residence into a multi-occupant law office complex housing at least 3 separate practices. Fisher was subsequently BANNED from practicing in federal court in SDNY in 2013 after stealing money from a client.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2150
+      },
+      {
+        "date": "1996-05-07",
+        "label": "Epstein profit scheme on 34 E 69th: Epstein paid OFM 15K/mo but charged Fisher 20K/mo, pocketing 5K/mo. Fisher then further sublet portions to other lawyers at unknown rates. Second Amended Complaint (EFTA01324981) names 18 defendants total. Govt also alleged Epstein took Iranian fixtures (chandeliers, sconces, mirrors) and claimed ownership. Case was prosecuted by AUSA Serene Nakano under US Atty Mary Jo White.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2279
+      },
+      {
+        "date": "1996-05-07",
+        "label": "Fisher-Epstein relationship was purely commercial sublease, not legal representation. Fisher was Epsteins TENANT not his lawyer. However Epstein represented to Fisher that OFM had orally approved the sublease - which was false. Fisher claims he would not have entered sublease without State Dept approval. After govt notified Fisher of lease termination, Fisher stopped paying rent to Epstein. No evidence Fisher ever represented Epstein or Epstein associates in any legal matter. Epsteins attorney in this case was Wachtel and Masyr LLP (Steven J. Cohen).",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2284
+      },
+      {
+        "date": "1996-09-23",
+        "label": "Ivan Fisher's co-counsel in the 34 E 69th St ejectment case (96 Civ 8307) was Gage & Pavlis (G. Robert Gage Jr., Eileen J. Casey, later Gage Spencer & Fleming LLP). Fisher was represented by this firm on behalf of himself, Diane Fisher d/b/a The Fisher Group, and Fisher & Soffer a/k/a Fisher & Sophir. Key factual detail from Judge Chin's opinion: Fisher met with an AUSA on Sept 23, 1996 and was told that OFM's Richard Massey 'would swear under oath that he never orally approved the sublet to Fisher.' Fisher then offered to pay rent directly to OFM (never answered) and stopped paying Epstein. Fisher was a prominent criminal defense attorney — he defended the Pizza Connection Trial (largest Mafia-heroin prosecution). Fisher's firm with Soffer at the Iranian consular property establishes a direct professional relationship between a major organized crime defense lawyer and Soffer in an Epstein-controlled space.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3289
+      },
+      {
+        "date": "1996-09-30",
+        "label": "Epstein's 34 E 69th St scheme was a profitable arbitrage: He leased from OFM (US State Dept) at ,000/month starting 1992, then sublet to Fisher at ,000/month starting May 1996, pocketing ,000/month. Fisher in turn sublet to approximately 12 additional lawyers. The court opinion reveals Epstein collected rent from Fisher through September 30, 1996 (at least ,000 over 5 months). Epstein also demanded ,000 from another prospective subtenant (Xenophon Galinas) for 'improvements to the Premises.' This was a rent-seeking operation on Iranian consular property held in trust by the US government.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2276
+      },
+      {
+        "date": "1996-1998",
+        "label": "legal with Ron Soffer",
+        "type": "legal",
+        "entity": "Ron Soffer",
+        "id": 424
+      },
+      {
+        "date": "1996-1998",
+        "label": "familial with Diane Fisher",
+        "type": "familial",
+        "entity": "Diane Fisher",
+        "id": 1149
+      },
+      {
+        "date": "1996-1998",
+        "label": "legal with Ron Soffer",
+        "type": "legal",
+        "entity": "Ron Soffer",
+        "id": 1977
+      },
+      {
+        "date": "1996-2000",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1090
+      },
+      {
+        "date": "1996-2000",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1153
+      },
+      {
+        "date": "1996-2000",
+        "label": "legal with Ron Soffer",
+        "type": "legal",
+        "entity": "Ron Soffer",
+        "id": 1154
+      },
+      {
+        "date": "1996-2000",
+        "label": "familial with Diane Fisher",
+        "type": "familial",
+        "entity": "Diane Fisher",
+        "id": 1157
+      },
+      {
+        "date": "1996-2000",
+        "label": "legal with Mary Jo White",
+        "type": "legal",
+        "entity": "Mary Jo White",
+        "id": 1156
+      },
+      {
+        "date": "1996-2007",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1148
+      },
+      {
+        "date": "1996-2019",
+        "label": "legal with Ron Soffer",
+        "type": "legal",
+        "entity": "Ron Soffer",
+        "id": 1150
+      },
+      {
+        "date": "1997-01-31",
+        "label": "Epstein leased 34 E 69th St for personal residential use from 1992, with his family occupying through January 1996 when he 'abandoned' the premises. By March 1996 he was simultaneously negotiating sublease arrangements with both Xenophon Galinas and Ivan Fisher. Fisher required the sublease be approved by the State Department and that he could remain beyond the lease expiration (January 31, 1997). Epstein represented to Fisher that OFM had approved the sublease -- a claim the government would later deny under oath. Fisher entered the sublease on Epstein's representations.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2278
+      },
+      {
+        "date": "1997-03-05",
+        "label": "CourtListener confirms SEPARATE Epstein v. Fisher case (1:97-cv-01489 SDNY, filed 1997-03-05) in addition to US v. Epstein (96 CIV 8307). Nature of suit: 230 Rent Lease & Ejectment. Epstein commenced holdover proceeding in NYC Civil Court in February 1997 against Fisher for nonpayment of rent under the sublease after Fisher stopped paying rent in Sept 1996. Fisher removed the state court action to federal court where it was consolidated with 96 CIV 8307 by Judge Chin. This dual-case posture shows Epstein and Fisher were adversaries, not allies.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2291
+      },
+      {
+        "date": "1997-12-23",
+        "label": "Full list of Fisher subtenants at 34 E 69th: Ron Soffer (Fisher partner, resident NY/France), Diane Fisher dba The Fisher Group (spouse, real estate), Ellyn Bank (atty), Debra Elisa Cohen (atty), Lawrence D. Gerzog (atty), Robert Heilbrun (atty), Suzanne McDermott (atty, associated with Fisher firm), Christopher H. Martin (New York Defenders Service), Jesse Siegel (atty), Carmen Tausik (atty), law firm Siegel Martin and Heilbrun. All used 34 E 69th as business address. Fisher had converted former Iranian consular residence into multi-attorney office complex.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2299
+      },
+      {
+        "date": "1997-2000",
+        "label": "legal with Denny Chin",
+        "type": "legal",
+        "entity": "Denny Chin",
+        "id": 1155
+      },
+      {
+        "date": "1998-02-19",
+        "label": "Judge Chin Feb 19 1998 protective order ruling: Govt sought provision allowing use of Fishers confidential discovery (1996 tax return) in other civil/criminal matters. Fisher objected and won. Court held tax info entitled to confidentiality and govt could not exploit fruits of private litigation for criminal investigation. Significant because Epstein also had a separate protective order over financial discovery in same case.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2269
+      },
+      {
+        "date": "1998-02-19",
+        "label": "Feb 19, 1998 protective order decision (1998 WL 67676): Government sought Fisher's 1996 tax return to verify rent collected from subtenants. Fisher objected to a government clause that would allow sharing discovery info with other agencies. Judge Chin sided with Fisher, ruling confidential information (especially tax returns) could not be used outside this lawsuit. Key quote: 'Fisher should not become the subject of an IRS tax investigation merely because of documents he produced in what is essentially a landlord-tenant suit.' The Government wanted to reserve right to use Fisher's financial info in 'unrelated civil or criminal matters.'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2270
+      },
+      {
+        "date": "1998-03-13",
+        "label": "Government's motion for summary judgment against Diane Fisher d/b/a The Fisher Group and Ron Soffer (EFTA01325003, dated March 13, 1998): Diane Fisher used the premises to conduct business as a real estate salesperson. Ron Soffer used the premises as a business address and registered it with the NY State Office of Court Administration as his attorney registration office. By stipulation of March 5, 1998, all subtenants except Diane Fisher and Ron Soffer agreed to be bound by the court's decision. Diane Fisher later signed; Soffer declined and was ejected anyway since he 'can have no greater rights than Fisher.'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2275
+      },
+      {
+        "date": "1998-04-01",
+        "label": "Judge Denny Chin's April 1, 1998 opinion (1998 WL 159055) in US v. Epstein & Fisher, 96 CIV 8307, provides comprehensive factual record: OFM leased 34 East 69th St (former Iranian consular residence) to Epstein in 1992 at ,000/month. Epstein abandoned the premises in January 1996, then sublet to Fisher on May 7, 1996 at ,000/month despite OFM's express denial. Fisher sublet portions to approximately 12 additional lawyer-subtenants. Epstein's lease terminated August 23, 1996. Court found Epstein needed prior written consent (not oral) and could be denied arbitrarily under NY law. All defendants ejected.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2266
+      },
+      {
+        "date": "1998-04-01",
+        "label": "Judge Chin full eviction opinion (96 CIV 8307 / 1:97-cv-01489): OFM leased 34 E 69th St (former Iranian Deputy Consul General residence) to Epstein 2/1/1992 at 15K/mo. Epstein abandoned Jan 1996 and sublet to Fisher 5/7/1996 at 20K/mo despite OFMs express written denial 4/26/1996. Fisher further sublet to 12+ lawyers including Ron Soffer, Diane Fisher, Ellyn Bank, and law firm Siegel Martin and Heilbrun. Summary judgment granted ejecting all defendants. Lease unambiguously required prior written consent for sublet which was never given.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2267
+      },
+      {
+        "date": "2005-10-25",
+        "label": "Forfeiture case 1:05-cv-09105 (SDNY 2005-2007): US govt brought civil forfeiture action against bank accounts numbered 2445, with Ivan Stephan Fisher as a party. Filed 10/25/2005, terminated 7/13/2007 before Judge Pauley. Nature of suit: Other forfeiture and penalty. This case overlaps chronologically with the period when Fisher was misappropriating Raphael restitution funds (2007). May relate to proceeds of Fisher client representation or personal financial misconduct.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2283
+      },
+      {
+        "date": "2007-06-12",
+        "label": "June-July 2007: Florida Criminal AUSA (from West Palm Beach office) sought Epsteins deposition transcript from the 96 CIV 8307 eviction case for use in the CRIMINAL investigation. SDNY retrieved files but could not locate the deposition. Protective order limited use - AUSA could review but not use in other litigation. This proves the Florida criminal investigation team was actively seeking Epsteins financial testimony from the Fisher subletting case in 2007 during the plea deal period.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2271
+      },
+      {
+        "date": "2007-06-12",
+        "label": "The Jane Doe v. United States (08-80736) privilege log (EFTA00020711) confirms the 2007 AUSA email exchange was formally logged: '6/12/2007-7/6/2007 series of emails between Marie Villafana and AUSAs Serene Nakano and James Cott re an earlier unrelated investigation of Epstein.' This independently verifies both the timeframe and the fact that SDFL's Villafana was seeking information from the 96 CIV 8307 case for the criminal investigation. The privilege log also identifies SDNY AUSA James Cott as involved.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2274
+      },
+      {
+        "date": "2007-06-12",
+        "label": "Epstein financial discovery in Fisher case: Epstein obtained a protective order sealing financial discovery in the eviction case. When FL Criminal AUSA sought his deposition in June 2007 the protective order restricted use. SDNY could not even locate the deposition transcript. This protected financial information from Epsteins mid-1990s period may have contained relevant details about his income sources and financial arrangements during the period he was building his wealth and reputation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2280
+      },
+      {
+        "date": "2007-07",
+        "label": "In June-July 2007, SDFL Criminal AUSA (AVillafana, West Palm Beach) contacted SDNY AUSA Serene Nakano seeking Epstein's deposition transcript from US v. Epstein & Fisher, 96 CIV 8307 for use in the then-active criminal investigation. Nakano described it as 'my infamous landlord-tenant case.' The files could not be located -- deposition was NOT found in the retrieved closed files. This was a crucial moment: SDFL was investigating Epstein's 2005-06 sex trafficking and sought his earlier sworn testimony. The protective order limited use of financial discovery.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2272
+      },
+      {
+        "date": "2007-12-12",
+        "label": "FEC records confirm Ivan S. Fisher (self-employed attorney, NYC) donated 1000 to Clinton For President Committee on 1/24/1992 (from 10022 zip code) and 2300 to Hillary Clinton For President on 12/12/2007 (from 251 E 61st St, 10065). LittleSis additionally records 360 to Alan Hevesi (NYS, 6/10/1999) and 500 to William C. Thompson Jr (NYS, 1/10/2007). Both Clinton donations parallel Epstein own Clinton donation pattern.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2300
+      },
+      {
+        "date": "2008-01-01",
+        "label": "OCCRP Aleph shows an Ivan Fisher as director of a Panama company in the 2008 Panama Companies Registry scrape. No additional detail available (entity data is minimal). This is likely a different person given the commonality of the name, but cannot be ruled out. Separately, Fisher and Soffer had no ICIJ records (ICIJ Neo4j unavailable), zero OCCRP company results for Fisher and Soffer, and zero EpsteinExposed person records for Ivan Fisher specifically (EpsteinExposed returned 174 document hits but all relate to the 96 CIV 8307 case or unrelated Fishers).",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2306
+      },
+      {
+        "date": "2011-12",
+        "label": "DISAMBIGUATION: Multiple 'Fishers' in the Epstein corpus are NOT Ivan Fisher: (1) Alice Fisher -- DOJ Assistant Attorney General mentioned in 2017 Indyke-to-Epstein email as potential FBI director candidate; also appears in House Oversight docs receiving appeal about SDFL prosecutorial misconduct. (2) Paula Heil Fisher -- Epstein's ex-girlfriend, former Bear Stearns associate, opera producer. (3) Lenny Fischer -- CEO of RHJI (Kleinwort Benson parent), met by David Stern at dinner in St. Moritz Dec 2011. (4) Helen Fisher -- author of 'Anatomy of Love,' recommended by Epstein to Summers in March 2019 email. None of these are Ivan S. Fisher.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2294
+      },
+      {
+        "date": "2013-03-14",
+        "label": "Ivan Fisher disbarment: In 2004 client Abrahim Raphael retained Fisher for federal criminal defense re embezzlement from International Gemological Institute (IGI). In 2007 Raphael entrusted Fisher with 250K for restitution to IGI. Fisher misappropriated 180K for personal use. SDNY Committee on Grievances (M2-238, Judge P. Kevin Castel) filed proceeding 1/24/2012, disbarred Fisher 3/14/2013. Fisher appealed to 2d Circuit (13-1272) - affirmed 7/22/2014. NY Appellate Division First Dept struck Fisher from state bar nunc pro tunc to 3/12/2015 (Matter of Fisher M-310 M-5318). Also separately suspended from EDNY in 2007 (1:07-mc-00414, Judge Cogan).",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2273
+      },
+      {
+        "date": "2015-03-12",
+        "label": "Fisher current status: NY bar registration number 1521384, admitted 1968, Boston University School of Law. Status as of 2024: SUSPENDED, DELINQUENT. Office address 125 E 50th St Ste 1201, New York, NY 10022. Next registration due August 2026. Previously at 251 E 61st St (per 2007 FEC filing). The SDNY federal disbarment (March 2013) was followed by NY Appellate Division First Department striking him from state bar nunc pro tunc March 12, 2015 (Matter of Fisher M-310, M-5318). Fisher is now 82 years old (born August 26, 1943) and effectively unable to practice law in any forum.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2301
+      },
+      {
+        "date": "2026-02-15",
+        "label": "COMPREHENSIVE NEGATIVE RESULTS: Exhaustive multi-database search for Ivan Fisher, Diane Fisher, Fisher & Soffer, and The Fisher Group returned zero results across: (1) SEC EDGAR - no filings, no CIK, no insider transactions; (2) NYC ACRIS - no property records for Ivan Fisher (Diane Fisher result was different person in Staten Island); (3) Corporate registries (NY, FL, CO, NM, CA, UK) - no entities for Ivan Fisher, Fisher & Soffer, or Fisher & Sophir registered in any jurisdiction; (4) UCC filings (FL, NM) - zero filings; (5) FAA aircraft registry - zero; (6) GLEIF LEI - zero; (7) OpenSanctions - not listed; (8) Deutsche Bank DS10 - zero transactions; (9) FARA - not registered; (10) ProPublica 990 - no matching nonprofits; (11) OCCRP Aleph - API error, not searched. The NY SoS 'Diane Fisher-Golden' (Coolfish Web Development, Slingerlands NY) is a different person. This total absence from corporate, financial, and property databases is consistent with Fisher operating exclusively as a solo/partnership criminal defense attorney with no corporate or financial entanglements beyond his law practice.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2295
+      }
+    ]
+  }
+}

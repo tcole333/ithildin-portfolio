@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublicSourceRecord, listPublicSourceRecords } from '../../lib/sourceCatalog';
+
+export function getStaticPaths() {
+  return listPublicSourceRecords().map((record) => ({
+    params: { id: record.id },
+  }));
+}
+
+const { id } = Astro.params;
+const source = id ? getPublicSourceRecord(id) : null;
+
+if (!source) {
+  return Astro.redirect('/about');
+}
+
+const openArtifactUrl = source.artifactUrl || source.externalUrl || source.hostedAssetUrl || '';
+const accessStatusLabel = {
+  public_artifact: 'public artifact',
+  hosted_copy: 'hosted copy',
+  metadata_only: 'metadata only',
+  restricted: 'restricted',
+}[source.availabilityStatus];
+---
+<BaseLayout title={source.title} description={`Source record for ${source.title}`}>
+  <div class="space-y-8">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="space-y-4">
+        <div class="section-label">Source Record</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">{source.title}</h1>
+        <div class="flex flex-wrap gap-3 text-xs text-mithril font-mono">
+          <span>{source.kind}</span>
+          <span>{accessStatusLabel}</span>
+          <span>{source.sourceType}</span>
+          <span>{source.publishValid ? 'publish-valid' : 'internal-only'}</span>
+        </div>
+        <p class="text-sm text-mithril font-body max-w-3xl">{source.accessNote}</p>
+        <div class="flex flex-wrap gap-3">
+          {openArtifactUrl && (
+            <a href={openArtifactUrl} target="_blank" rel="noopener noreferrer" class="chip">
+              Open Artifact
+            </a>
+          )}
+          <span class="chip">Source Record</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="surface p-6">
+      <div class="section-label">Inspectability</div>
+      <div class="mt-4 grid gap-4 md:grid-cols-2 text-sm text-mithril font-body">
+        <div>
+          <div class="text-moon">Availability</div>
+          <div>{accessStatusLabel}</div>
+        </div>
+        <div>
+          <div class="text-moon">Public Artifact</div>
+          <div>{openArtifactUrl ? 'Available' : 'Not available'}</div>
+        </div>
+      </div>
+      {!openArtifactUrl && (
+        <p class="mt-4 text-sm text-mithril font-body max-w-3xl">
+          This citation resolves to a source record because Ithildin can describe the underlying document
+          and its role in the analysis, but does not currently expose a public artifact URL for direct inspection.
+        </p>
+      )}
+    </section>
+
+    <section class="surface p-6">
+      <div class="section-label">Metadata</div>
+      <div class="mt-4 grid gap-4 md:grid-cols-2 text-sm text-mithril font-body">
+        <div>
+          <div class="text-moon">Canonical Ref</div>
+          <div class="font-mono break-all">{source.canonicalRef}</div>
+        </div>
+        {source.publisherOrOrigin && (
+          <div>
+            <div class="text-moon">Publisher / Origin</div>
+            <div>{source.publisherOrOrigin}</div>
+          </div>
+        )}
+        {source.publicationOrCaptureDate && (
+          <div>
+            <div class="text-moon">Publication / Capture Date</div>
+            <div>{source.publicationOrCaptureDate}</div>
+          </div>
+        )}
+        {source.pageOrLocator && (
+          <div>
+            <div class="text-moon">Locator</div>
+            <div>{source.pageOrLocator}</div>
+          </div>
+        )}
+        {source.integrity?.sha256 && (
+          <div>
+            <div class="text-moon">SHA-256</div>
+            <div class="font-mono break-all">{source.integrity.sha256}</div>
+          </div>
+        )}
+        {source.integrity?.internalArtifactId && (
+          <div>
+            <div class="text-moon">Internal Artifact Id</div>
+            <div class="font-mono">{source.integrity.internalArtifactId}</div>
+          </div>
+        )}
+      </div>
+      {source.excerptOrQuote && (
+        <blockquote class="mt-6 border-l-2 border-[color:var(--color-ash)] pl-4 text-sm text-mithril italic">
+          {source.excerptOrQuote}
+        </blockquote>
+      )}
+    </section>
+
+    <section class="surface p-6">
+      <div class="section-label">Public Uses</div>
+      <div class="mt-4 space-y-4">
+        {source.occurrences.map((occurrence) => (
+          <div class="surface-muted p-4">
+            <div class="flex flex-wrap items-center gap-3 text-xs text-mithril font-mono">
+              <span>{occurrence.routeType}</span>
+              <span>{occurrence.context}</span>
+              {occurrence.findingId && <span>Finding #{occurrence.findingId}</span>}
+            </div>
+            <div class="mt-2">
+              <a
+                href={occurrence.routeType === 'article' ? `/articles/${occurrence.slug}` : `/dossiers/${occurrence.slug}`}
+                class="text-sm text-moon hover:text-ember"
+              >
+                {occurrence.title}
+              </a>
+            </div>
+            {occurrence.sourcePage && (
+              <div class="mt-2 text-xs text-mithril">Locator: {occurrence.sourcePage}</div>
+            )}
+            {occurrence.sourceQuote && (
+              <blockquote class="mt-2 border-l-2 border-[color:var(--color-ash)] pl-3 text-xs text-mithril italic">
+                {occurrence.sourceQuote}
+              </blockquote>
+            )}
+            {occurrence.assessment && (
+              <div class="mt-2 text-xs text-mithril">{occurrence.assessment}</div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

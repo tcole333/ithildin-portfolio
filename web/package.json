@@ -1,0 +1,52 @@
+{
+  "name": "ithildin-web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "check": "astro check",
+    "test:e2e": "playwright test",
+    "test:e2e:smoke": "playwright test e2e/portfolio-smoke.spec.ts",
+    "test:citations": "node scripts/test-citations.mjs",
+    "test:citations:snapshots": "node scripts/test-citation-snapshots.mjs",
+    "test:citations:build": "node scripts/test-citation-build.mjs",
+    "test:support-spans": "node scripts/test-support-spans.mjs",
+    "lint:citations": "node scripts/lint-citations.mjs",
+    "lint:citations:report": "node scripts/lint-citations.mjs --report-file citation-lint-report.json",
+    "lint:citations:changed": "node scripts/lint-citations.mjs --changed-files",
+    "lint:citations:changed:strict": "node scripts/lint-citations.mjs --changed-files --strict-changed-files",
+    "report:support-coverage": "node scripts/report-support-coverage.mjs",
+    "report:support-coverage:changed": "node scripts/report-support-coverage.mjs --changed-files",
+    "check:citation-health": "node scripts/check-citation-health.mjs",
+    "fix:citation-health": "node scripts/check-citation-health.mjs --fix",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "npm run lint:citations && npm run test:citations && npm run test:citations:snapshots && npm run build && npm run test:citations:build && npx wrangler pages deploy dist/ --project-name=ithildin-portfolio --branch=main --commit-dirty=true",
+    "deploy:preview": "npm run lint:citations && npm run test:citations && npm run test:citations:snapshots && npm run build && npm run test:citations:build && npx wrangler pages deploy dist/ --project-name=ithildin-portfolio --branch=preview --commit-dirty=true"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/d3": "^7.4.3",
+    "@types/d3-sankey": "^0.12.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "d3": "^7.9.0",
+    "d3-dag": "^1.1.0",
+    "d3-sankey": "^0.12.3",
+    "marked": "^17.0.2",
+    "minisearch": "^7.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}

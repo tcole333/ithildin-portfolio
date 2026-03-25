@@ -1,0 +1,1381 @@
+{
+  "name": "Deutsche Bank AG",
+  "slug": "deutsche-bank-ag",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.300310",
+  "last_updated": "2026-02-17T15:30:05",
+  "stats": {
+    "total_findings": 11,
+    "total_connections": 18,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 5,
+      "financial": 4,
+      "relationship": 1,
+      "document": 1
+    },
+    "connection_types": {
+      "financial": 10,
+      "corporate": 6,
+      "legal": 2
+    },
+    "last_updated": "2026-02-17T15:30:05"
+  },
+  "findings": [
+    {
+      "id": 3204,
+      "finding_type": "legal",
+      "summary": "$220 million multi-state LIBOR manipulation settlement including New Jersey (Oct 2017)",
+      "detail": "On October 25, 2017, New Jersey Attorney General Christopher S. Porrino announced NJ is part of a $220 million, multi-state settlement with Deutsche Bank resolving allegations of fraudulent and anti-competitive conduct involving manipulation of LIBOR. Deutsche Bank's manipulations harmed multiple government agencies and entities in NJ, including the NJ Economic Development Authority.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-10-25",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:36",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3220,
+      "finding_type": "financial",
+      "summary": "DB litigation spending fell from 800M EUR to 100M EUR in first nine months of 2017 vs 2016, per Bloomberg",
+      "detail": "Bloomberg reported that Deutsche Bank spent 100 million euros on litigation in the first nine months of 2017, down from 800 million in the same period one year earlier. This was reported in context of Florian Drinhausen's appointment as General Counsel, which was seen as DB making headway in reducing major legal cases.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-11-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:14",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3207,
+      "finding_type": "relationship",
+      "summary": "General Counsel Florian Drinhausen left DB by mutual agreement on May 31, 2020, two weeks before Fed audit criticism became public",
+      "detail": "On Nov 7, 2017, DB announced Florian Drinhausen would become General Counsel, replacing co-GCs Christof von Dryander and Simon Dodds, signaling to investors the bank was remediating AML and control failures. On April 29, 2020, DB announced Drinhausen would leave the company on May 31, 2020 by mutual agreement, without explanation. Two weeks later (May 13, 2020), the Fed audit criticism was reported.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-04-29",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:45",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3201,
+      "finding_type": "legal",
+      "summary": "Federal Reserve sharply criticized DB US operations in internal audit; sent report to CEO Sewing expressing continued dissatisfaction with AML controls",
+      "detail": "On May 13, 2020, Sueddeutsche Zeitung reported that the Federal Reserve had sharply criticized Deutsche Bank's U.S. operations in an internal audit. The audit found DB had failed to address multiple concerns identified years earlier, including AML and other control procedures. In late March 2020, the Fed sent an audit report to CEO Christian Sewing and other top executives 'expressing continued dissatisfaction' with AML controls and liquidity management at its U.S. unit, based on investigations in late 2019 and early 2020. DB shares fell 4.49% on this news.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-05-13",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:26",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3181,
+      "finding_type": "legal",
+      "summary": "DFS fined Deutsche Bank $150 million for failing to flag suspicious transactions from Epstein, Danske Estonia, and FBME Bank accounts",
+      "detail": "On July 7, 2020, the NY DFS fined Deutsche Bank AG, its New York branch, and Deutsche Bank Trust Company Americas $150M via consent order for neglecting to flag numerous questionable transactions from accounts associated with Jeffrey Epstein and two correspondent banks (Danske Estonia and FBME Bank). DFS Superintendent Linda Lacewell stated DB 'failed to adequately monitor the activity of customers that the bank itself deemed to be high risk.'",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:25:29",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3184,
+      "finding_type": "financial",
+      "summary": "DB processed hundreds of Epstein transactions totaling millions of dollars that should have prompted additional scrutiny",
+      "detail": "According to the DFS consent order cited in the complaint, Deutsche Bank processed hundreds of transactions totaling millions of dollars that should have prompted additional scrutiny given Epstein's criminal history. These included: payments to alleged victim recruiters, more than $7M in settlement payments, $6M in legal fees, more than $800K in cash withdrawals, and payments to numerous women with Eastern European surnames.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:25:38",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3188,
+      "finding_type": "financial",
+      "summary": "DB's own reputational risk committee imposed monitoring requirements on Epstein accounts that the bank failed to adhere to",
+      "detail": "DFS found that Deutsche Bank's own reputational risk committee had imposed monitoring requirements on Epstein's bank accounts, but the bank failed to adhere to those self-imposed requirements. Throughout the relationship, very few problematic transactions were ever questioned, and even when they were, they were usually cleared without satisfactory explanation.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:25:52",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3190,
+      "finding_type": "legal",
+      "summary": "DFS Superintendent Lacewell: DB 'inexcusably failed to detect or prevent millions of dollars of suspicious transactions' from Epstein",
+      "detail": "DFS Superintendent of Financial Services Linda A. Lacewell stated: 'in each of the cases that are being resolved today, Deutsche Bank failed to adequately monitor the activity of customers that the bank itself deemed to be high risk.' She further stated: 'In the case of Jeffrey Epstein in particular, despite knowing Mr. Epsteins terrible criminal history, the bank inexcusably failed to detect or prevent millions of dollars of suspicious transactions.'",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:03",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3211,
+      "finding_type": "financial",
+      "summary": "DB shares fell 4.49% on Fed audit news (May 13, 2020) and 1.31% on DFS $150M fine news (July 7, 2020)",
+      "detail": "Two corrective disclosure events: (1) May 13, 2020: shares fell $0.31 (4.49%) to close at $6.60 on news of Fed audit criticizing US operations. (2) July 7, 2020: shares fell $0.13 (1.31%) to close at $9.82 on news of DFS $150M fine for Epstein/Danske/FBME failures. Class period: Nov 7, 2017 through July 6, 2020.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:54",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3216,
+      "finding_type": "document",
+      "summary": "DB 20-F filings (2017-2019) claimed effective AML remediation and internal controls while failing to monitor high-risk clients including Epstein",
+      "detail": "Deutsche Bank's annual reports on Form 20-F for years 2017, 2018, and 2019 (filed March 16, 2018; March 25, 2019; March 20, 2020) each: (1) touted the bank's AML remediation efforts, (2) confirmed effectiveness of disclosure controls and internal control over financial reporting per SOX, (3) contained only generic boilerplate risk warnings not tailored to known deficiencies regarding high-risk clients (Epstein, Danske Estonia, FBME Bank). SOX certifications were signed by CEOs Cryan (2017) and Sewing (2018-19) and CFO von Moltke (all years). Filed as Case 2:20-cv-08978 in the District of New Jersey.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-15",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:06",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3247,
+      "finding_type": "legal",
+      "summary": "Karimi v. DB class action timeline reveals pattern: DB hired GC to signal AML fix (Nov 2017), GC left unexplained (Apr 2020), Fed audit leaked (May 2020), DFS fine (Jul 2020)",
+      "detail": "The Karimi class action complaint (Case 2:20-cv-08978, D.N.J.) reveals a chronological pattern of Deutsche Bank's AML remediation theater: (1) Nov 2017: hired Drinhausen as sole GC to signal reform; (2) 2017-2019: filed three 20-F annual reports with SOX certifications claiming effective controls; (3) Apr 29, 2020: Drinhausen departed 'by mutual agreement' without explanation; (4) May 13, 2020: Fed audit criticism leaked (shares -4.49%); (5) Jul 7, 2020: DFS $150M fine for Epstein/Danske/FBME failures (shares -1.31%). The 2-week gap between Drinhausen's departure announcement and the Fed audit leak suggests he may have been aware of impending regulatory action. Class period: Nov 7, 2017 - Jul 6, 2020.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2020-07-15",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:53",
+      "target_name": "Deutsche Bank AG",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1922,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "DB processed hundreds of Epstein transactions totaling millions; failed to adhere to own monitoring requirements; DFS fined DB $150M partly for this failure",
+      "strength": "strong",
+      "date_range": "2013-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:20",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1923,
+      "person_a": "Danske Estonia",
+      "person_b": "Deutsche Bank AG",
+      "relationship_type": "financial",
+      "description": "Correspondent banking relationship; Danske Estonia transferred billions in suspicious transactions through DB accounts despite DB giving it highest risk rating; DFS fined DB $150M partly for this failure",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:25",
+      "other_person": "Danske Estonia",
+      "other_person_slug": "danske-estonia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1924,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "FBME Bank",
+      "relationship_type": "financial",
+      "description": "DB was last major Western bank maintaining correspondent banking with FBME even after FinCEN ordered all US-footprint banks to sever ties; DFS fined DB $150M partly for this failure",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:31",
+      "other_person": "FBME Bank",
+      "other_person_slug": "fbme-bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1925,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "John Cryan",
+      "relationship_type": "corporate",
+      "description": "CEO of Deutsche Bank from before Nov 2017 until April 8, 2018; signed SOX certification for 2017 20-F",
+      "strength": "strong",
+      "date_range": "2015-2018-04-08",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:36",
+      "other_person": "John Cryan",
+      "other_person_slug": "john-cryan",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1926,
+      "person_a": "Christian Sewing",
+      "person_b": "Deutsche Bank AG",
+      "relationship_type": "corporate",
+      "description": "CEO of Deutsche Bank from April 8, 2018; signed SOX certifications for 2018 and 2019 20-F filings; Fed audit report sent to Sewing expressing continued dissatisfaction with AML controls",
+      "strength": "strong",
+      "date_range": "2018-04-08-present",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:41",
+      "other_person": "Christian Sewing",
+      "other_person_slug": "christian-sewing",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1927,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "James von Moltke",
+      "relationship_type": "corporate",
+      "description": "CFO of Deutsche Bank throughout class period (Nov 2017-July 2020); signed SOX certifications for all three annual 20-F filings (2017, 2018, 2019)",
+      "strength": "strong",
+      "date_range": "2017-present",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:47",
+      "other_person": "James von Moltke",
+      "other_person_slug": "james-von-moltke",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1928,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Florian Drinhausen",
+      "relationship_type": "corporate",
+      "description": "General Counsel of Deutsche Bank; appointed Nov 2017 to signal AML remediation; departed by mutual agreement May 31, 2020 without explanation, two weeks before Fed audit criticism became public",
+      "strength": "strong",
+      "date_range": "2018-2020-05-31",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:53",
+      "other_person": "Florian Drinhausen",
+      "other_person_slug": "florian-drinhausen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1929,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Linda Lacewell",
+      "relationship_type": "legal",
+      "description": "DFS Superintendent of Financial Services; announced $150M fine against DB for failure to monitor high-risk clients including Epstein",
+      "strength": "strong",
+      "date_range": "2020-07-07",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:58",
+      "other_person": "Linda Lacewell",
+      "other_person_slug": "linda-lacewell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1931,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Deutsche Bank Trust Company Americas",
+      "relationship_type": "corporate",
+      "description": "Subsidiary that agreed to pay part of DFS $150M consent order alongside DB AG and DB NY Branch",
+      "strength": "strong",
+      "date_range": "2020-07-07",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:09",
+      "other_person": "Deutsche Bank Trust Company Americas",
+      "other_person_slug": "deutsche-bank-trust-company-americas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1933,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Deutsche Bank AG New York Branch",
+      "relationship_type": "legal",
+      "description": "DB NY Branch was party to DFS $150M consent order alongside DB AG and DB Trust Company Americas for AML failures regarding Epstein, Danske Estonia, and FBME Bank",
+      "strength": "strong",
+      "date_range": "2020-07-07",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:38",
+      "other_person": "Deutsche Bank AG New York Branch",
+      "other_person_slug": "deutsche-bank-ag-new-york-branch",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1940,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "DB maintained 40+ accounts for Epstein and related entities Aug 2013 - Dec 2018. Classified as high-risk. Over $800K cash withdrawn, $2.65M in wires to Butterfly Trust beneficiaries, $7M+ in settlement payments, $6M+ in legal expenses. NYDFS Consent Order July 2020 imposed $150M penalty.",
+      "strength": "strong",
+      "date_range": "2013-08 to 2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:39",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1944,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Federal Bank of the Middle East Ltd",
+      "relationship_type": "financial",
+      "description": "Correspondent banking relationship. DB facilitated 478,379 transactions totaling $618B+ for FBME. 826 suspicious transactions identified. FBME rated high-risk (RAC 8-9) throughout. DB was largest remaining Western bank with FBME at time of FinCEN 311 Designation July 2014. Relationship closed July 2014.",
+      "strength": "strong",
+      "date_range": "1984 to 2014-07",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:46",
+      "other_person": "Federal Bank of the Middle East Ltd",
+      "other_person_slug": "federal-bank-of-the-middle-east-ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1946,
+      "person_a": "Danske Estonia",
+      "person_b": "Deutsche Bank AG",
+      "relationship_type": "financial",
+      "description": "Correspondent banking relationship Oct 2007 - Oct 2015. DB cleared $267B+ in 1.64M transactions for Danske Estonia. At least $150B from Russia/former Soviet states. 340 suspicious transactions identified. RAC score reached maximum 10. Relationship maintained despite repeated concerns and recommendation for closure.",
+      "strength": "strong",
+      "date_range": "2007-10 to 2015-10",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:50",
+      "other_person": "Danske Estonia",
+      "other_person_slug": "danske-estonia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1948,
+      "person_a": "Danske Bank A/S",
+      "person_b": "Deutsche Bank AG",
+      "relationship_type": "financial",
+      "description": "Global correspondent banking relationship. DB maintained Danske Estonia relationship because it was viewed as important component of global relationship with Danske Bank A/S parent. Relationship with Estonian branch generated significant volume but also massive AML risk.",
+      "strength": "strong",
+      "date_range": "2007-10 to 2015-10",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:53",
+      "other_person": "Danske Bank A/S",
+      "other_person_slug": "danske-bank-as",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1951,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "The Butterfly Trust",
+      "relationship_type": "financial",
+      "description": "DB opened Butterfly Trust checking and money market accounts on Jan 24, 2014. Trust beneficiaries included CO-CONSPIRATORS 1-3 and women with Eastern European surnames. Over 120 wires totaling $2.65M sent to beneficiaries. Compliance flagged CO-CONSPIRATOR-2 as beneficiary in Oct 2013 but cleared alert citing Approval Email.",
+      "strength": "strong",
+      "date_range": "2014-01 to 2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:00",
+      "other_person": "The Butterfly Trust",
+      "other_person_slug": "the-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1953,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "financial",
+      "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship.",
+      "strength": "strong",
+      "date_range": "2013-08 to 2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:02",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1954,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "financial",
+      "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank.",
+      "strength": "strong",
+      "date_range": "2013-08 to 2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:05",
+      "other_person": "Southern Financial LLC",
+      "other_person_slug": "southern-financial-llc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1930,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Karl von Rohr",
+      "relationship_type": "corporate",
+      "description": "Management Board Member for Legal and Labour Director (Arbeitsdirektor); endorsed appointment of Drinhausen as General Counsel",
+      "strength": "medium",
+      "date_range": "2017",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:04",
+      "other_person": "Karl von Rohr",
+      "other_person_slug": "karl-von-rohr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1984 to 2014-07",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Correspondent banking relationship. DB facilitated 478,379 transactions totaling $618B+ for FBME. 826 suspicious transactions identified. FBME rated high-risk (RAC 8-9) throughout. DB was largest remaining Western bank with FBME at time of FinCEN 311 Designation July 2014. Relationship closed July 2014.",
+      "other_person": "Federal Bank of the Middle East Ltd",
+      "id": 1944
+    },
+    {
+      "date": "2007-10 to 2015-10",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Correspondent banking relationship Oct 2007 - Oct 2015. DB cleared $267B+ in 1.64M transactions for Danske Estonia. At least $150B from Russia/former Soviet states. 340 suspicious transactions identified. RAC score reached maximum 10. Relationship maintained despite repeated concerns and recommendation for closure.",
+      "other_person": "Danske Estonia",
+      "id": 1946
+    },
+    {
+      "date": "2007-10 to 2015-10",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Global correspondent banking relationship. DB maintained Danske Estonia relationship because it was viewed as important component of global relationship with Danske Bank A/S parent. Relationship with Estonian branch generated significant volume but also massive AML risk.",
+      "other_person": "Danske Bank A/S",
+      "id": 1948
+    },
+    {
+      "date": "2013-08 to 2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "DB maintained 40+ accounts for Epstein and related entities Aug 2013 - Dec 2018. Classified as high-risk. Over $800K cash withdrawn, $2.65M in wires to Butterfly Trust beneficiaries, $7M+ in settlement payments, $6M+ in legal expenses. NYDFS Consent Order July 2020 imposed $150M penalty.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1940
+    },
+    {
+      "date": "2013-08 to 2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship.",
+      "other_person": "Southern Trust Company Inc",
+      "id": 1953
+    },
+    {
+      "date": "2013-08 to 2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank.",
+      "other_person": "Southern Financial LLC",
+      "id": 1954
+    },
+    {
+      "date": "2013-2019",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "DB processed hundreds of Epstein transactions totaling millions; failed to adhere to own monitoring requirements; DFS fined DB $150M partly for this failure",
+      "other_person": "Jeffrey Epstein",
+      "id": 1922
+    },
+    {
+      "date": "2014-01 to 2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "DB opened Butterfly Trust checking and money market accounts on Jan 24, 2014. Trust beneficiaries included CO-CONSPIRATORS 1-3 and women with Eastern European surnames. Over 120 wires totaling $2.65M sent to beneficiaries. Compliance flagged CO-CONSPIRATOR-2 as beneficiary in Oct 2013 but cleared alert citing Approval Email.",
+      "other_person": "The Butterfly Trust",
+      "id": 1951
+    },
+    {
+      "date": "2015-2018-04-08",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "CEO of Deutsche Bank from before Nov 2017 until April 8, 2018; signed SOX certification for 2017 20-F",
+      "other_person": "John Cryan",
+      "id": 1925
+    },
+    {
+      "date": "2017",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Management Board Member for Legal and Labour Director (Arbeitsdirektor); endorsed appointment of Drinhausen as General Counsel",
+      "other_person": "Karl von Rohr",
+      "id": 1930
+    },
+    {
+      "date": "2017-10-25",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "$220 million multi-state LIBOR manipulation settlement including New Jersey (Oct 2017)",
+      "confidence": "high",
+      "id": 3204
+    },
+    {
+      "date": "2017-11-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB litigation spending fell from 800M EUR to 100M EUR in first nine months of 2017 vs 2016, per Bloomberg",
+      "confidence": "high",
+      "id": 3220
+    },
+    {
+      "date": "2017-present",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "CFO of Deutsche Bank throughout class period (Nov 2017-July 2020); signed SOX certifications for all three annual 20-F filings (2017, 2018, 2019)",
+      "other_person": "James von Moltke",
+      "id": 1927
+    },
+    {
+      "date": "2018-04-08-present",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "CEO of Deutsche Bank from April 8, 2018; signed SOX certifications for 2018 and 2019 20-F filings; Fed audit report sent to Sewing expressing continued dissatisfaction with AML controls",
+      "other_person": "Christian Sewing",
+      "id": 1926
+    },
+    {
+      "date": "2018-2020-05-31",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "General Counsel of Deutsche Bank; appointed Nov 2017 to signal AML remediation; departed by mutual agreement May 31, 2020 without explanation, two weeks before Fed audit criticism became public",
+      "other_person": "Florian Drinhausen",
+      "id": 1928
+    },
+    {
+      "date": "2020-04-29",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "General Counsel Florian Drinhausen left DB by mutual agreement on May 31, 2020, two weeks before Fed audit criticism became public",
+      "confidence": "high",
+      "id": 3207
+    },
+    {
+      "date": "2020-05-13",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Federal Reserve sharply criticized DB US operations in internal audit; sent report to CEO Sewing expressing continued dissatisfaction with AML controls",
+      "confidence": "high",
+      "id": 3201
+    },
+    {
+      "date": "2020-07-07",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "DFS fined Deutsche Bank $150 million for failing to flag suspicious transactions from Epstein, Danske Estonia, and FBME Bank accounts",
+      "confidence": "high",
+      "id": 3181
+    },
+    {
+      "date": "2020-07-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB processed hundreds of Epstein transactions totaling millions of dollars that should have prompted additional scrutiny",
+      "confidence": "high",
+      "id": 3184
+    },
+    {
+      "date": "2020-07-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB's own reputational risk committee imposed monitoring requirements on Epstein accounts that the bank failed to adhere to",
+      "confidence": "high",
+      "id": 3188
+    },
+    {
+      "date": "2020-07-07",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "DFS Superintendent Lacewell: DB 'inexcusably failed to detect or prevent millions of dollars of suspicious transactions' from Epstein",
+      "confidence": "high",
+      "id": 3190
+    },
+    {
+      "date": "2020-07-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB shares fell 4.49% on Fed audit news (May 13, 2020) and 1.31% on DFS $150M fine news (July 7, 2020)",
+      "confidence": "high",
+      "id": 3211
+    },
+    {
+      "date": "2020-07-07",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "DFS Superintendent of Financial Services; announced $150M fine against DB for failure to monitor high-risk clients including Epstein",
+      "other_person": "Linda Lacewell",
+      "id": 1929
+    },
+    {
+      "date": "2020-07-07",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Subsidiary that agreed to pay part of DFS $150M consent order alongside DB AG and DB NY Branch",
+      "other_person": "Deutsche Bank Trust Company Americas",
+      "id": 1931
+    },
+    {
+      "date": "2020-07-07",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "DB NY Branch was party to DFS $150M consent order alongside DB AG and DB Trust Company Americas for AML failures regarding Epstein, Danske Estonia, and FBME Bank",
+      "other_person": "Deutsche Bank AG New York Branch",
+      "id": 1933
+    },
+    {
+      "date": "2020-07-15",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "DB 20-F filings (2017-2019) claimed effective AML remediation and internal controls while failing to monitor high-risk clients including Epstein",
+      "confidence": "high",
+      "id": 3216
+    },
+    {
+      "date": "2020-07-15",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Karimi v. DB class action timeline reveals pattern: DB hired GC to signal AML fix (Nov 2017), GC left unexplained (Apr 2020), Fed audit leaked (May 2020), DFS fine (Jul 2020)",
+      "confidence": "medium",
+      "id": 3247
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3220,
+      3184,
+      3188,
+      3211,
+      3204,
+      3201,
+      3181,
+      3190,
+      3207,
+      3216,
+      3247
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3207
+        ],
+        "connection_ids": [
+          1922,
+          1923,
+          1924,
+          1925,
+          1926,
+          1927,
+          1928,
+          1929,
+          1931,
+          1933,
+          1940,
+          1944,
+          1946,
+          1948,
+          1951
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3220,
+          3184,
+          3188,
+          3211
+        ],
+        "connection_ids": [
+          1922,
+          1923,
+          1924,
+          1940,
+          1944,
+          1946,
+          1948,
+          1951
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3204,
+          3201,
+          3181,
+          3190,
+          3247
+        ],
+        "connection_ids": [
+          1929,
+          1933
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-19T00:56:57.868256",
+    "lead": "<p>Deutsche Bank AG is Germany's largest financial institution and, within this investigation, the primary banking conduit through which <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> moved tens of millions of dollars between 2013 and 2018. The bank maintained over 40 accounts for Epstein and his constellation of entities — including <a href=\"/dossiers/southern-trust-company\">Southern Trust Company</a>, Southern Financial LLC, the Butterfly Trust, and Enhanced Education — despite classifying him as a high-risk client following his 2008 sex offender conviction. According to the NYDFS Consent Order of July 7, 2020, Deutsche Bank processed hundreds of transactions totaling millions of dollars that should have triggered additional scrutiny: more than $7 million in settlement payments, $6 million in legal fees, over $800,000 in cash withdrawals, $2.65 million in wires to Butterfly Trust beneficiaries including women with Eastern European surnames, and payments to individuals identified as victim recruiters. The bank's own reputational risk committee imposed monitoring requirements on the Epstein accounts that were never communicated to the relationship management team and were systematically ignored.</p>\n\n<p>The Epstein relationship was not an isolated compliance failure but part of a broader pattern. The same NYDFS action addressed Deutsche Bank's correspondent banking relationships with Danske Estonia — through which the bank cleared over $267 billion in 1.64 million transactions, at least $150 billion originating from Russia and former Soviet states — and the Federal Bank of the Middle East (FBME), for which Deutsche Bank processed 478,379 transactions totaling more than $618 billion while FBME carried the bank's highest risk rating. Deutsche Bank was the last major Western bank maintaining a correspondent relationship with FBME even after FinCEN ordered all U.S.-footprint banks to sever ties. Collectively, these three relationships — Epstein, Danske Estonia, and FBME — resulted in a $150 million penalty from NYDFS Superintendent Linda Lacewell, who stated that Deutsche Bank \"inexcusably failed to detect or prevent millions of dollars of suspicious transactions.\"</p>\n\n<p>The investigation reveals Deutsche Bank not merely as a negligent institution but as a structural enabler. Key relationship managers including Stewart Oldfield (the most frequent co-correspondent with <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>'s financial lieutenant Richard Kahn, appearing in 1,818 shared documents) and Steven Elkman (who maintained a social relationship with Epstein and sourced women for him) blurred the line between banking and personal service. The bank simultaneously served as lender to Donald Trump ($640 million Chicago tower loan) and banker to Epstein, a dual relationship Epstein himself observed to journalist Landon Thomas in July 2017: \"qatar is the biggest shareholder in DB. db is donalds funder. donald goes after qatar for terrorism against the advice of tillerson and state. ie DB?\" Deutsche Bank's role extended to channeling <a href=\"/dossiers/leon-black\">Leon Black</a>'s $158 million in consulting fees through Southern Trust Company account 44129244, processing the Carbyne investment that connected Epstein to Israeli intelligence interests, and paying <a href=\"/dossiers/erika-kellerhals\">Erika Kellerhals</a> directly via checks from Deutsche Bank Trust Company Americas.</p>",
+    "open_questions": [
+      "Who at Deutsche Bank made the decision to onboard Epstein in August 2013, and what due diligence was performed given his 2008 conviction? Was JPMorgan's exit from the relationship known to DB at the time?",
+      "What was the full scope of Stewart Oldfield's role? His 1,818-document co-occurrence with Richard Kahn suggests he functioned as Epstein's primary banking contact — did he have visibility into the nature of the transactions he was facilitating?",
+      "Were Suspicious Activity Reports (SARs) filed on the Epstein accounts, and if so, how many and when? The NYDFS consent order focuses on monitoring failures but does not detail SAR filing history.",
+      "What was the internal decision-making process that kept the Danske Estonia correspondent relationship open despite a maximum RAC score of 10 and an internal recommendation for closure? Who overrode the recommendation?",
+      "Did Deutsche Bank's simultaneous banking relationships with Epstein and Trump create any compliance conflicts or information barriers? Were the two client relationships managed by overlapping teams?",
+      "Steven Elkman's social relationship with Epstein — sourcing women and exchanging personal communications — suggests potential awareness of Epstein's predatory behavior. Was Elkman ever interviewed by regulators or law enforcement?",
+      "The $22.5 million wire from BV70 LLC to Epstein on March 31, 2017 was flagged by Deutsche Bank compliance. What was the resolution of that flag, and did it trigger any broader review of the Leon Black payment stream?",
+      "What triggered the December 2018 account closure — five months before Epstein's arrest? Was this driven by the cumulative compliance burden, external intelligence, or the approaching NYDFS examination?"
+    ],
+    "system_role": "Deutsche Bank functioned as the institutional banking infrastructure that enabled Epstein's financial network to operate at scale, demonstrating how a systemically important bank's profit incentives, compartmentalized compliance, and relationship-manager culture can convert regulatory obligations into performative theater while processing billions in suspicious transactions across multiple high-risk client relationships simultaneously.",
+    "sections": [
+      {
+        "id": "the-epstein-accounts",
+        "title": "The Epstein Accounts: 40+ Accounts, 2013-2018",
+        "content": "<p>Deutsche Bank's relationship with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> began on August 19, 2013, when the bank opened brokerage accounts for <a href=\"/dossiers/southern-trust-company\">Southern Trust Company Inc</a> and Southern Financial LLC, a wholly owned STC subsidiary. The stated KYC purpose was \"to invest long term with the bank.\" Over the next five years, the bank opened more than 40 accounts for Epstein and related entities, despite his 2008 Florida sex offender conviction being known to the bank at onboarding. The bank's own Anti-Financial Crime (AFC) reputational risk committee classified the relationship as high-risk from the outset and imposed monitoring conditions — conditions that were never communicated to the relationship management team responsible for day-to-day account oversight.</p>\n\n<p>The Butterfly Trust, an Epstein entity with <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> as primary contact, opened checking and money market accounts on January 24, 2014 (though some records indicate October 9, 2013). Trust beneficiaries included individuals identified in court filings as CO-CONSPIRATORS 1 through 3, alongside women with Eastern European surnames. Over the life of the relationship, more than 120 wires totaling $2.65 million were sent to these beneficiaries. When compliance staff flagged CO-CONSPIRATOR-2 as a beneficiary in October 2013, the alert was cleared with a reference to an \"Approval Email\" — a single internal communication that became the blanket justification for overriding subsequent flags. Payments to \"a Russian model and Russian publicity agent\" were deemed \"normal for this client,\" a characterization that reveals the degree to which the bank had normalized Epstein's transaction patterns.</p>\n\n<p>The accounts processed an extraordinary volume of suspicious activity: more than $7 million in settlement payments (consistent with sex trafficking victim settlements), $6 million in legal fees, over $800,000 in cash withdrawals, and regular payments to individuals later identified as victim recruiters. Southern Trust Company's money market account held a balance of $109,981,919.36 as of December 2015 — Epstein's single largest cash holding. The same account (number 44129244) received <a href=\"/dossiers/leon-black\">Leon Black</a>'s consulting fee payments, including a $22.5 million wire from BV70 LLC on March 31, 2017, which Deutsche Bank compliance flagged and questioned but ultimately processed. Throughout the relationship, very few problematic transactions were ever questioned, and even when they were, they were routinely cleared without satisfactory explanation. The relationship was not terminated until December 2018 — seven months before Epstein's arrest.</p>",
+        "viz": null
+      },
+      {
+        "id": "correspondent-banking-failures",
+        "title": "Correspondent Banking: Danske Estonia and FBME",
+        "content": "<p>The Epstein accounts were one prong of a three-pronged NYDFS enforcement action that collectively revealed Deutsche Bank's systemic failure to enforce its own anti-money-laundering controls. The second prong involved Danske Bank's Estonian branch, through which Deutsche Bank cleared more than $267 billion in 1.64 million transactions between October 2007 and October 2015. At least $150 billion of this volume originated from Russia and former Soviet states — making Danske Estonia's Non-Resident Portfolio one of the largest money laundering channels ever documented. Deutsche Bank's own risk systems assigned Danske Estonia a Risk Assessment Category (RAC) score that eventually reached the maximum of 10, and internal reviews repeatedly flagged 340 suspicious transactions. Despite these warnings, and despite at least one internal recommendation to close the relationship, the bank maintained it because the Estonian branch was viewed as an \"important component\" of the global relationship with Danske Bank A/S, the Danish parent. Revenue from the correspondent relationship took precedence over compliance.</p>\n\n<p>The third prong — the Federal Bank of the Middle East (FBME) — represents an even starker case. Deutsche Bank maintained a correspondent relationship with the Tanzania-headquartered, Cyprus-based bank from 1984 through July 2014, processing 478,379 transactions totaling more than $618 billion. FBME carried a RAC score of 8-9 (out of 10) throughout the relationship, and Deutsche Bank's own systems identified 826 suspicious transactions. FBME was designated by FinCEN under Section 311 of the USA PATRIOT Act in July 2014 as a \"primary money laundering concern,\" at which point FinCEN effectively ordered all banks with a U.S. footprint to terminate correspondent relationships. Deutsche Bank was the last major Western bank still maintaining such a relationship at the time of designation. The three relationships together — Epstein, Danske Estonia, and FBME — demonstrate not isolated lapses but a structural pattern: Deutsche Bank consistently prioritized revenue generation over compliance enforcement, overriding its own risk assessments when client relationships were commercially valuable.</p>",
+        "viz": null
+      },
+      {
+        "id": "relationship-managers-and-internal-culture",
+        "title": "Relationship Managers and Internal Culture",
+        "content": "<p>The mechanics of how Deutsche Bank serviced the Epstein relationship are illuminated by the individuals who managed it day to day. Stewart Oldfield, a Deutsche Bank private banker, was the most frequent correspondent with Richard Kahn — Epstein's financial controller and the operational manager of his corporate entities. The two appear together in 1,818 LMSBAND documents, more than any other pairing in Kahn's network. Other Deutsche Bank staff appearing frequently alongside Kahn include Amanda Kirby (348 documents), Cynthia Rodriguez (329 documents), and Daniel Sabba (208 documents). This density of communication reflects a hands-on, relationship-driven banking model in which the client's operational needs — including coordination with <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>'s law firm, Rothschild trust managers, and external investment vehicles — were serviced by a dedicated team that functioned as an extension of Epstein's own back office.</p>\n\n<p>Steven Munro Elkman, a Managing Director and Client Advisor at Deutsche Bank Alex. Brown (280 Park Avenue), presents a more troubling dimension. Twenty DOJ documents reveal that Elkman maintained a social relationship with Epstein that went well beyond client service: he sent jokes, sourced women — describing one as \"very good at it and plus size model (size 4)\" — referred personal assistants, and discussed \"the girl from the watch store on madison.\" This relationship, spanning at least 2009 to 2011, illustrates how Epstein cultivated personal bonds with his bankers that blurred professional boundaries and created implicit incentives to overlook suspicious activity. When Indyke needed a bank recommendation letter for the Carbyne investment — the Israeli surveillance technology company connected to Ehud Barak — he instructed Kahn to \"contact Stewart Oldfield at DB,\" confirming that the Deutsche Bank relationship served purposes well beyond routine wealth management.</p>\n\n<p>The internal compliance culture is perhaps best captured by a 2018-2019 episode involving Enhanced Education, the trade name for J. Epstein Virgin Islands Foundation. When Deutsche Bank compliance conducted belated KYC/AML scrutiny, staff were confused by the entity structure — Oldfield himself wrote: \"Which account is this? I didn't know we had one called enhanced education.\" The account was closed in February 2019, five months before Epstein's arrest, not because of any proactive compliance decision but because the accumulated compliance burden had become unmanageable. Similarly, Indyke's own DKIP PLLC account (42953707) was flagged by Deutsche Bank AML for cash structuring — three instances since July 2016 of checks cashed just below the $10,000 reporting threshold — yet the account was discussed in internal meetings in July 2017 without apparent consequence.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "regulatory-and-legal-consequences",
+        "title": "Regulatory Reckoning and Remediation Theater",
+        "content": "<p>Deutsche Bank's regulatory and legal exposure unraveled in a compressed timeline between late 2017 and mid-2020 — a sequence the Karimi v. Deutsche Bank class action (Case 2:20-cv-08978, D.N.J.) characterizes as \"remediation theater.\" In October 2017, the bank settled a $220 million multi-state LIBOR manipulation case, part of a broader effort to resolve legacy legal liabilities. On November 7, 2017 — the same day Bloomberg reported that DB litigation spending had fallen from 800 million euros to 100 million euros year-over-year — the bank announced that Florian Drinhausen would become sole General Counsel, replacing co-GCs Christof von Dryander and Simon Dodds. The appointment was presented to investors as a signal that the bank was remediating its AML and internal control failures in earnest.</p>\n\n<p>For the next two and a half years, Deutsche Bank filed annual reports on Form 20-F (for fiscal years 2017, 2018, and 2019) that touted AML remediation progress and included SOX certifications — signed by CEOs John Cryan (2017) and Christian Sewing (2018-2019) and CFO James von Moltke (all years) — affirming the effectiveness of disclosure controls and internal controls over financial reporting. These certifications were issued while the bank was simultaneously failing to monitor the Epstein, Danske Estonia, and FBME accounts that its own systems had flagged as high-risk. The class action complaint characterizes these filings as materially misleading.</p>\n\n<p>The facade cracked in rapid succession. On April 29, 2020, Deutsche Bank announced that Drinhausen would leave the company on May 31 \"by mutual agreement,\" offering no explanation for the departure of the executive hired specifically to signal reform. Two weeks later, on May 13, 2020, the Sueddeutsche Zeitung reported that the Federal Reserve had \"sharply criticized\" Deutsche Bank's U.S. operations in an internal audit, finding that the bank had failed to address multiple concerns identified years earlier. The Fed had sent an audit report to CEO Sewing in late March 2020 \"expressing continued dissatisfaction\" with AML controls and liquidity management. Deutsche Bank shares fell 4.49% on this news. Then, on July 7, 2020, the NYDFS announced its $150 million consent order against Deutsche Bank AG, its New York Branch, and Deutsche Bank Trust Company Americas. Shares fell an additional 1.31%. The two-week gap between Drinhausen's unexplained departure and the Fed audit leak suggests foreknowledge of impending regulatory action — a pattern consistent with insiders distancing themselves before disclosure events.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "systemic-role-and-network-position",
+        "title": "Systemic Role: Banking Infrastructure for Parallel Finance",
+        "content": "<p>Deutsche Bank's position in the Epstein network was not that of a passive custodian but of active financial infrastructure. The bank served as the routing layer through which <a href=\"/dossiers/leon-black\">Leon Black</a>'s $158 million in consulting fees flowed to Epstein via Southern Trust Company account 44129244 — the same account that held over $109 million in cash. It processed the Carbyne investment connecting Epstein to Israeli surveillance technology and former Prime Minister Ehud Barak. It paid <a href=\"/dossiers/erika-kellerhals\">Erika Kellerhals</a>, Epstein's USVI attorney, directly via checks from Deutsche Bank Trust Company Americas. And it served, simultaneously, as the primary lender to Donald Trump, a fact Epstein himself noted in a July 2017 email observing the triangle between Qatar (Deutsche Bank's largest shareholder), Deutsche Bank (Trump's funder), and the Trump administration's anti-Qatar posture.</p>\n\n<p>This dual-client arrangement — servicing both Epstein's offshore entity network and Trump's real estate empire — placed Deutsche Bank at a unique intersection of political exposure and financial crime risk. The bank's willingness to onboard Epstein in August 2013, five years after his Florida conviction and shortly after JPMorgan Chase had exited the relationship (approximately 2013), suggests that Deutsche Bank was positioned as the bank of last resort for high-risk, high-net-worth clients whom other institutions had rejected. The NYDFS consent order's finding that Epstein's compliance alerts were routinely cleared with boilerplate justifications, and that ARRC (Account Review and Risk Committee) conditions were never communicated to the front office, indicates that the compliance apparatus existed in form but not in function — a system designed to produce the appearance of oversight without constraining revenue-generating relationships.</p>\n\n<p>The broader pattern extends beyond Epstein. The Danske Estonia correspondent relationship cleared $267 billion — much of it Russian capital seeking Western legitimacy — while carrying the maximum possible risk score. The FBME relationship moved $618 billion for a bank designated by FinCEN as a primary money laundering concern. In each case, Deutsche Bank's own systems generated the warnings, its own committees set the conditions, and its own front office ignored both. This is not a failure of detection but a failure of enforcement — a distinction that points to institutional incentives rather than individual negligence. Revenue from high-risk clients funded the compliance department tasked with monitoring those same clients, creating a structural conflict of interest that no amount of remediation theater could resolve.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "enabler-gradient",
+      "complexity-as-credential",
+      "jurisdictional-arbitrage",
+      "parallel-financial-system",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Deutsche Bank AG",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "DB processed hundreds of Epstein transactions totaling millions; failed to adhere to own monitoring requirements; DFS fined DB $150M partly for this failure"
+        },
+        {
+          "target": "Danske Estonia",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "Correspondent banking relationship; Danske Estonia transferred billions in suspicious transactions through DB accounts despite DB giving it highest risk rating; DFS fined DB $150M partly for this failure"
+        },
+        {
+          "target": "FBME Bank",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "DB was last major Western bank maintaining correspondent banking with FBME even after FinCEN ordered all US-footprint banks to sever ties; DFS fined DB $150M partly for this failure"
+        },
+        {
+          "target": "John Cryan",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "CEO of Deutsche Bank from before Nov 2017 until April 8, 2018; signed SOX certification for 2017 20-F"
+        },
+        {
+          "target": "Christian Sewing",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "CEO of Deutsche Bank from April 8, 2018; signed SOX certifications for 2018 and 2019 20-F filings; Fed audit report sent to Sewing expressing continued dissatisfaction with AML controls"
+        },
+        {
+          "target": "James von Moltke",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "CFO of Deutsche Bank throughout class period (Nov 2017-July 2020); signed SOX certifications for all three annual 20-F filings (2017, 2018, 2019)"
+        },
+        {
+          "target": "Florian Drinhausen",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "General Counsel of Deutsche Bank; appointed Nov 2017 to signal AML remediation; departed by mutual agreement May 31, 2020 without explanation, two weeks before Fed audit criticism became public"
+        },
+        {
+          "target": "Linda Lacewell",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "DFS Superintendent of Financial Services; announced $150M fine against DB for failure to monitor high-risk clients including Epstein"
+        },
+        {
+          "target": "Deutsche Bank Trust Company Americas",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "Subsidiary that agreed to pay part of DFS $150M consent order alongside DB AG and DB NY Branch"
+        },
+        {
+          "target": "Deutsche Bank AG New York Branch",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "DB NY Branch was party to DFS $150M consent order alongside DB AG and DB Trust Company Americas for AML failures regarding Epstein, Danske Estonia, and FBME Bank"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "DB maintained 40+ accounts for Epstein and related entities Aug 2013 - Dec 2018. Classified as high-risk. Over $800K cash withdrawn, $2.65M in wires to Butterfly Trust beneficiaries, $7M+ in settlement payments, $6M+ in legal expenses. NYDFS Consent Order July 2020 imposed $150M penalty."
+        },
+        {
+          "target": "Federal Bank of the Middle East Ltd",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "Correspondent banking relationship. DB facilitated 478,379 transactions totaling $618B+ for FBME. 826 suspicious transactions identified. FBME rated high-risk (RAC 8-9) throughout. DB was largest remaining Western bank with FBME at time of FinCEN 311 Designation July 2014. Relationship closed July 2014."
+        },
+        {
+          "target": "Danske Estonia",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "Correspondent banking relationship Oct 2007 - Oct 2015. DB cleared $267B+ in 1.64M transactions for Danske Estonia. At least $150B from Russia/former Soviet states. 340 suspicious transactions identified. RAC score reached maximum 10. Relationship maintained despite repeated concerns and recommendation for closure."
+        },
+        {
+          "target": "Danske Bank A/S",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "Global correspondent banking relationship. DB maintained Danske Estonia relationship because it was viewed as important component of global relationship with Danske Bank A/S parent. Relationship with Estonian branch generated significant volume but also massive AML risk."
+        },
+        {
+          "target": "The Butterfly Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "DB opened Butterfly Trust checking and money market accounts on Jan 24, 2014. Trust beneficiaries included CO-CONSPIRATORS 1-3 and women with Eastern European surnames. Over 120 wires totaling $2.65M sent to beneficiaries. Compliance flagged CO-CONSPIRATOR-2 as beneficiary in Oct 2013 but cleared alert citing Approval Email."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship."
+        },
+        {
+          "target": "Southern Financial LLC",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank."
+        },
+        {
+          "target": "Karl von Rohr",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "Management Board Member for Legal and Labour Director (Arbeitsdirektor); endorsed appointment of Drinhausen as General Counsel"
+        }
+      ],
+      "secondHop": {
+        "Danske Bank A/S": [
+          {
+            "target": "Danske Estonia",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Danske Estonia was the Estonian branch of Danske Bank A/S, acquired through purchase of Sampo Bank Baltic business in 2007. Generated 11% of Danske Bank total profits on 0.5% of assets in 2011."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Southern Financial LLC": [
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1984 to 2014-07",
+        "label": "financial with Federal Bank of the Middle East Ltd",
+        "type": "financial",
+        "entity": "Federal Bank of the Middle East Ltd",
+        "id": 1944
+      },
+      {
+        "date": "2007-10 to 2015-10",
+        "label": "financial with Danske Estonia",
+        "type": "financial",
+        "entity": "Danske Estonia",
+        "id": 1946
+      },
+      {
+        "date": "2007-10 to 2015-10",
+        "label": "financial with Danske Bank A/S",
+        "type": "financial",
+        "entity": "Danske Bank A/S",
+        "id": 1948
+      },
+      {
+        "date": "2013-08 to 2018-12",
+        "label": "financial with Jeffrey Epstein",
+        "type": "financial",
+        "entity": "Jeffrey Epstein",
+        "id": 1940
+      },
+      {
+        "date": "2013-08 to 2018-12",
+        "label": "financial with Southern Trust Company Inc",
+        "type": "financial",
+        "entity": "Southern Trust Company Inc",
+        "id": 1953
+      },
+      {
+        "date": "2013-08 to 2018-12",
+        "label": "financial with Southern Financial LLC",
+        "type": "financial",
+        "entity": "Southern Financial LLC",
+        "id": 1954
+      },
+      {
+        "date": "2013-2019",
+        "label": "financial with Jeffrey Epstein",
+        "type": "financial",
+        "entity": "Jeffrey Epstein",
+        "id": 1922
+      },
+      {
+        "date": "2014-01 to 2018-12",
+        "label": "financial with The Butterfly Trust",
+        "type": "financial",
+        "entity": "The Butterfly Trust",
+        "id": 1951
+      },
+      {
+        "date": "2015-2018-04-08",
+        "label": "corporate with John Cryan",
+        "type": "corporate",
+        "entity": "John Cryan",
+        "id": 1925
+      },
+      {
+        "date": "2017",
+        "label": "corporate with Karl von Rohr",
+        "type": "corporate",
+        "entity": "Karl von Rohr",
+        "id": 1930
+      },
+      {
+        "date": "2017-10-25",
+        "label": "$220 million multi-state LIBOR manipulation settlement including New Jersey (Oct 2017)",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3204
+      },
+      {
+        "date": "2017-11-07",
+        "label": "DB litigation spending fell from 800M EUR to 100M EUR in first nine months of 2017 vs 2016, per Bloomberg",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3220
+      },
+      {
+        "date": "2017-present",
+        "label": "corporate with James von Moltke",
+        "type": "corporate",
+        "entity": "James von Moltke",
+        "id": 1927
+      },
+      {
+        "date": "2018-04-08-present",
+        "label": "corporate with Christian Sewing",
+        "type": "corporate",
+        "entity": "Christian Sewing",
+        "id": 1926
+      },
+      {
+        "date": "2018-2020-05-31",
+        "label": "corporate with Florian Drinhausen",
+        "type": "corporate",
+        "entity": "Florian Drinhausen",
+        "id": 1928
+      },
+      {
+        "date": "2020-04-29",
+        "label": "General Counsel Florian Drinhausen left DB by mutual agreement on May 31, 2020, two weeks before Fed audit criticism became public",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 3207
+      },
+      {
+        "date": "2020-05-13",
+        "label": "Federal Reserve sharply criticized DB US operations in internal audit; sent report to CEO Sewing expressing continued dissatisfaction with AML controls",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3201
+      },
+      {
+        "date": "2020-07-07",
+        "label": "DFS fined Deutsche Bank $150 million for failing to flag suspicious transactions from Epstein, Danske Estonia, and FBME Bank accounts",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3181
+      },
+      {
+        "date": "2020-07-07",
+        "label": "DB processed hundreds of Epstein transactions totaling millions of dollars that should have prompted additional scrutiny",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3184
+      },
+      {
+        "date": "2020-07-07",
+        "label": "DB's own reputational risk committee imposed monitoring requirements on Epstein accounts that the bank failed to adhere to",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3188
+      },
+      {
+        "date": "2020-07-07",
+        "label": "DFS Superintendent Lacewell: DB 'inexcusably failed to detect or prevent millions of dollars of suspicious transactions' from Epstein",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3190
+      },
+      {
+        "date": "2020-07-07",
+        "label": "DB shares fell 4.49% on Fed audit news (May 13, 2020) and 1.31% on DFS $150M fine news (July 7, 2020)",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3211
+      },
+      {
+        "date": "2020-07-07",
+        "label": "legal with Linda Lacewell",
+        "type": "legal",
+        "entity": "Linda Lacewell",
+        "id": 1929
+      },
+      {
+        "date": "2020-07-07",
+        "label": "corporate with Deutsche Bank Trust Company Americas",
+        "type": "corporate",
+        "entity": "Deutsche Bank Trust Company Americas",
+        "id": 1931
+      },
+      {
+        "date": "2020-07-07",
+        "label": "legal with Deutsche Bank AG New York Branch",
+        "type": "legal",
+        "entity": "Deutsche Bank AG New York Branch",
+        "id": 1933
+      },
+      {
+        "date": "2020-07-15",
+        "label": "DB 20-F filings (2017-2019) claimed effective AML remediation and internal controls while failing to monitor high-risk clients including Epstein",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 3216
+      },
+      {
+        "date": "2020-07-15",
+        "label": "Karimi v. DB class action timeline reveals pattern: DB hired GC to signal AML fix (Nov 2017), GC left unexplained (Apr 2020), Fed audit leaked (May 2020), DFS fine (Jul 2020)",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3247
+      }
+    ]
+  }
+}

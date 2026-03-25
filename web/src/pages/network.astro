@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NetworkPage from '../components/NetworkPage';
+import { readFileSync, existsSync } from 'fs';
+import { contentPath } from '../lib/projectPaths';
+
+const networkPath = contentPath('network.json');
+const dossierIndexPath = contentPath('dossiers', '_index.json');
+const investigationsPath = contentPath('investigations.json');
+
+let networkData = { nodes: [], edges: [], stats: { total_nodes: 0, person_nodes: 0, entity_nodes: 0, total_edges: 0 } };
+if (existsSync(networkPath)) {
+  networkData = JSON.parse(readFileSync(networkPath, 'utf-8'));
+}
+
+let dossierSlugs: string[] = [];
+if (existsSync(dossierIndexPath)) {
+  const dossierIndex = JSON.parse(readFileSync(dossierIndexPath, 'utf-8'));
+  dossierSlugs = dossierIndex.map((d: any) => d.slug).filter(Boolean);
+}
+
+let investigations: Array<{ id: string; name: string; description: string; color: string }> = [];
+if (existsSync(investigationsPath)) {
+  investigations = JSON.parse(readFileSync(investigationsPath, 'utf-8'));
+}
+---
+<BaseLayout title="Network Graph">
+  <div class="space-y-8">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="space-y-3">
+        <div class="section-label">Network</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">Network Graph</h1>
+        <p class="text-mithril font-body">
+          {networkData.stats.person_nodes} people and {networkData.stats.entity_nodes} entities connected by
+          {` ${networkData.stats.total_edges.toLocaleString()} `}documented relationships.
+        </p>
+      </div>
+    </section>
+    <NetworkPage
+      client:only="react"
+      data={networkData}
+      dossierSlugs={dossierSlugs}
+      investigations={investigations}
+    />
+  </div>
+</BaseLayout>

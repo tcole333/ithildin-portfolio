@@ -1,0 +1,2891 @@
+{
+  "name": "Erika Kellerhals",
+  "slug": "erika-kellerhals",
+  "aliases": [
+    "Kellerhals"
+  ],
+  "generated_at": "2026-02-20T01:17:47.227287",
+  "last_updated": "2026-02-18T16:23:06",
+  "stats": {
+    "total_findings": 35,
+    "total_connections": 25,
+    "total_entities": 6,
+    "finding_types": {
+      "financial": 7,
+      "legal": 9,
+      "identity": 2,
+      "document": 2,
+      "intelligence": 6,
+      "communication": 6,
+      "relationship": 3
+    },
+    "connection_types": {
+      "corporate": 11,
+      "legal": 1,
+      "political": 8,
+      "financial": 3,
+      "employment": 2
+    },
+    "last_updated": "2026-02-18T16:23:06"
+  },
+  "findings": [
+    {
+      "id": 2837,
+      "finding_type": "financial",
+      "summary": "FEC records document Erika Kellerhals political donations totaling $13,131.83 from 2009-2023. Largest recipient: Stacey Plaskett (USVI Delegate) via Virgin Islands for Plaskett and ActBlue, totaling $7,631.83 across 9 contributions (2013-2021). Other recipients: Beto O'Rourke $2,700 (2018), DCCC $2,500 (2015), Mitch McConnell $1,000 (2015), Bill PAC $500 (2015), Charles Rangel $1,000 (2009), Maggie Hassan $500 (2021), and MR. SOUTHERN MISSOURIAN IN THE HOUSE PAC $500 (2023). All donations list employer as Kellerhals Ferguson Kroblin, occupation Attorney, address St Thomas VI. The bipartisan donation pattern (McConnell + DCCC + Democratic candidates) is consistent with influence-building across party lines, a pattern also seen in Epstein's own bundling network. RealClearInvestigations reports Kellerhals also donated $1,000 to Governor Bryan's 2018 gubernatorial campaign (not in federal FEC data as territorial race).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:43:12",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A database",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.realclearinvestigations.com/articles/2025/05/21/paradise_lost_jeffrey_epsteins_legacy_still_clouds_the_us_virgin_islands_1111523.html",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1490,
+      "finding_type": "legal",
+      "summary": "Erika Kellerhals filed FOIA lawsuit against the IRS in 2009 (USVI District Court 3:09-cv-00090, filed 6/23/2009, terminated 10/12/2011, Judge Curtis v. Gomez). This was a Freedom of Information Act case (NOS code 895, cause 05:552). Filed under 'Erika A. Kellerhals, P.C.' -- her individual professional corporation. This indicates Kellerhals had disputes with the IRS regarding information disclosure, potentially related to client tax matters or her own practice. The timing (2009) predates her known Epstein engagement (the first documented Epstein entity filing with Kellerhals as incorporator is Laurel Inc on 11/22/2011). The case was terminated after 2+ years, suggesting either settlement or dismissal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009-06-23",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:36:44",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:5172143",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2850,
+      "finding_type": "identity",
+      "summary": "Erika A. Kellerhals biographical profile compiled from LittleSis (entity 349257) and CourtListener. Education: LL.M. in Taxation from NYU, J.D. from Brooklyn Law School, B.A. from St. Peters University. Career: practiced at Solomon Blum Heymann LLP (boutique NY tax firm), relocated to USVI in 2003, worked at Law Offices of Marjorie Rawls Roberts P.C., launched own firm (Erika A. Kellerhals P.C.) in 2008, formed Kellerhals Ferguson LLP in 2011 with Greg Ferguson (former co-worker at Roberts firm). Kellerhals P.C. filed FOIA lawsuit against IRS in D.V.I. (3:09-cv-00090, filed 6/23/2009, terminated 10/12/2011). Personal address: 2E-19 Estate Caret Bay, St. Thomas VI 00802 (per EFTA01360967). Board member of St. Thomas-St. John Chamber of Commerce. Tax specialization in individual, corporate, partnership, and international taxation -- precisely the skillset needed for Epstein's offshore-domestic hybrid structure.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009-06-23",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:46:02",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener-5172143",
+          "source_quote": "Erika A. Kellerhals P.C. v. Internal Revenue Service, 3:09-cv-00090, D.V.I., filed 2009-06-23",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01360967",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis-349257",
+          "source_quote": "LL.M in Taxation from New York University, J.D. from Brooklyn Law School, B.A. from St Peters University",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2827,
+      "finding_type": "document",
+      "summary": "Kellerhals wrote the FTC/EDC response to determination letter regarding Epstein's industrial development certificate (IDC) benefits in June 2009. Per GRM Master Filing Index (investigations.db doc 81, page 6): physical filing labeled 'FTC Response to Determination Letter from the EDC (written by Erika Kellerhals) June 29, 2009.' Kellerhals also handled IDC compliance memos. The IDC program provided substantial tax benefits to Epstein's USVI operations (reduced gross receipts tax, exemption from USVI income tax) -- Kellerhals was the attorney managing these tax benefit applications, not merely a registered agent.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009-06-29",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:39:03",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GRM_MASTER_FILING_INDEX_p6",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "finding_type": "legal",
+      "summary": "FL SunBiz reveals Kellerhals network across FL/USVI/Switzerland: (1) M13000002984 - Erika A. Kellerhals at 500 Port of Sale Mall Suite 15, St. Thomas VI 00802 with Christopher Kroblin and Greg Ferguson, withdrawn from FL Jan 2014; (2) M17000010779, M17000010800, M23000005943 - Three FL-registered entities managed by Alexandre Montavon C/O Kellerhals Carrard, 6 Francois Bellot, 1206 Geneva, all using Corporation Service Company as FL agent; (3) L14000021304 - Gilbert Kellerhals with Marco Jaeger at 1111 Brickell Ave Miami, managed by Singapore entities (RTSING), voluntarily dissolved Nov 2017. Pattern: Swiss law firm Kellerhals Carrard managing multiple FL-registered entities with USVI and Singapore connections.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:15:42",
+      "target_name": "Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:L14000021304",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M13000002984",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M17000010779",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M17000010800",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "finding_type": "legal",
+      "summary": "FL SunBiz L14000021304 = VICTORY EQUESTRIAN SPORTS LLC. Directors: Gilbert Kellerhals and Marco Jaeger at 1111 Brickell Avenue, Miami FL 33131. Managed by two Singapore entities: RTSING Presidents PTE Ltd and RTSING Administrators PTE Ltd. EIN: 46-4885338. Filed Feb 6 2014, voluntarily dissolved Nov 17 2017. Corporation Service Company as agent. Also M13000002984 = KELLERHALS FERGUSON FLETCHER KROBLIN PLLC, a USVI-formed law firm at 9100 Port of Sale Mall Suite 15 St Thomas VI 00802 with Erika A. Kellerhals, Greg Ferguson, Christopher Kroblin and Leigh Kellet Fletcher. Filed May 2013, withdrawn Jan 2014.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-02-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:42:11",
+      "target_name": "Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:L14000021304",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M13000002984",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "finding_type": "legal",
+      "summary": "Kellerhals was Epstein USVI attorney through Kellerhals Ferguson Kroblin PLLC, 9053 Estate Thomas Suite 101, St. Thomas VI 00802. She advised on USVI residency requirements, noting in Aug 2015 that 153 days in USVI still would not qualify for residency. Pushed for dynasty trust legislation in USVI (June 2013). Researched residency for naturalization under INA section 319(a) (Sept 2013). Advised on tax conference report language (Dec 2017) regarding Chapo tax changes.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-08",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:58",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02354217",
+          "source_quote": "residency for naturalization pursuant to section 319(a) of the INA",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02370395",
+          "source_quote": "We need dynasty trust legislation here in the USVI",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02488622",
+          "source_quote": "It appears that if you had the following facts you will still not be a resident: 153 in the USVI",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "finding_type": "intelligence",
+      "summary": "Kellerhals warned Epstein about operational security (Sept 23, 2015): Be careful about everything. Definitely dont mention Cecile and John. Honestly I wish I could say more. This suggests awareness of sensitive matters requiring concealment. She was also subject to Deutsche Bank AML due diligence (PWM BIS-RESEARCH) in multiple KYC reviews, with extensive background checks. Had meetings on the Hill in Washington DC (March 2018).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-09-23",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:17",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01295202",
+          "source_quote": "PWM BIS-RESEARCH performed due diligence research on Erika Ann Kellerhals",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02239485",
+          "source_quote": "I am in some meetings on the Hill which will take up most of my day",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02486512",
+          "source_quote": "Be careful about everything. Definitely dont mention Cecile and John. Honestly I wish I could say",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2831,
+      "finding_type": "communication",
+      "summary": "Kellerhals communication cadence with Epstein documented across 20+ emails spanning 2015-2019. Communications mediated through Lesley Groff (Epstein executive assistant) with subject lines consistently 'Jeffrey Epstein' or 'Quick call with JEE.' Pattern: Groff contacts Kellerhals requesting she call Jeffrey; Kellerhals responds with availability. Key dates: Sep 26, 2015 (real estate bid strategy, EFTA02344089); Oct 29, 2015 (contract work, EFTA02349311); Sep 22, 2016 (permit/installation work, EFTA02349199); Aug 21, 2017; Nov 17, 2017; Mar 14-27, 2018; Sep 17-24, 2018; Jan 31, 2019; Apr 5, 2019; May 6-8, 2019; Jun 5, 2019. Frequency increased in 2018-2019 (pre-arrest period).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-09-26",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:39:51",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02220940",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nMon 8/21/2017 12:06:00 PM \nSubject: \nRe: Jeffrey Epstein \nHi \nI can speak between 11 and 1 or after 4. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02230024",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent: \nFri 11/17/2017 1:23:45 PM \nSubject: \nRe: Jeffrey Epstein \nThanks - I did not - so I will try him now. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \nRoyal Palm Professional Building \n9053 Estate...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02239485",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nWed 3/14/2018 7:58:18 PM \nSubject: Re: Jeffrey Epstein \nLesley. I am in some meetings on the Hill - which will take up most of my day. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02239537",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nTue 3/20/2018 3:30:05 PM \nSubject: \nRe: Jeffrey Epstein \nMy schedule is open so whatever works for him. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \nRoyal Palm Professional Building \n9053 Estate...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02241070",
+          "source_quote": "To: \nLesley Grof \nFrom: \nErika Kellerhals \nSent: \nTue 3/27/2018 5:44:01 PM \nSubject: \nRe: Jeffrey Epstein-CHANGE of schedule \nI just can't make it out there and back to my office for a meeting this afternoon \nin time. \nErika A. Kellerhals \nMember...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02257795",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nMon 9/24/2018 3:54:44 PM \nSubject: \nRe: Quick call with JEE today \nPerfect thanks. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802 \n> On Sep 24,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02267009",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nThur 12/27/2018 10:04:02 PM \nSubject: Re: Random package from amazon \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802 \nOffice: 340 779 2564 \nCell:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02274695",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nThur V31/2019 3:57:38 PM \nSubject: Re: Jeffrey Epstein \nPlease let him know I am in back to back meetings until 8pm today (worst day of my week) - but \nI will try and get him today. If not - absolutely by...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02280070",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent: \nFri 4/5/2019 3:07:42 PM \nSubject: \nRe: 1:30pm Phone Call w/Jeffrey! \nFirst I'm hearing of it but I am available. ..0 \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n> On Apr 5, 2019, at 11:06 AM,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02284544",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent: \nMon 5/6/2019 8:49:06 PM \nSubject: Re: Jeffrey Epstein \nwill do. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \nRoyal Palms Professional Building \n9053 Estate Thomas Suite 101 \nSt. Thomas, VI...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02284978",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nTue 5/7/2019 1:00:14 PM \nSubject: Re: Jeffrey Epstein \nyes. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \nRoyal Palms Professional Building \n9053 Estate Thomas Suite 101 \nSt. Thomas, VI 00802...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02285169",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nWed 5/8/2019 1:24:10 PM \nSubject: \nRe: Jeffrey \nWe spoke thanks \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802 \nOffice* \nCell: \n> On May 8, 2019,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02344089",
+          "source_quote": "From: \nErika Kellerhals \nSent: \nSaturday, September 26, 2015 10:44 AM \nTo: \nJeffrey E. \nSubject: \nRe: \nLOL — I woke think=ng about this. Sounds like a plan. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin=PLLC \n9100 Port=of Sale Mall, Ste...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02349199",
+          "source_quote": "From: \nErika Kellerhals \nSent: \nThursday, Septe \nTo: \nJeffrey E. \nsubject: \nR\nOkay — yes — I have a call with her this morning =o go over all the documentation that they did. \n<=o:p> \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02349311",
+          "source_quote": "From: \nErika Kellerhals \nSent: \nThursday, October 29, 2015 9:44 PM \nTo: \nJeffrey Epstein \nexpecting contract shortly \nthen the real fun begins \ni am headed to ny tomorrow so i'll be in the air=between 8 and 11 and 1230 and 3 - but hopefully will...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2832,
+      "finding_type": "financial",
+      "summary": "Kellerhals directly involved in real estate deal negotiations on Epstein's behalf. EFTA02344089 (Sep 26, 2015): Epstein emails Kellerhals detailed bid strategy: 'knowing da mour, I would first bid cash of 10 plus a note of 5. they will come back at 20. then we bid 10 cash plus a note of 6 they will agree I think to 10 cash and a note of 7-8, then we offer all cash of 15.' Kellerhals responds 'LOL - I woke thinking about this. Sounds like a plan.' EFTA02349311 (Oct 29, 2015): Kellerhals emails Epstein directly: 'expecting contract shortly then the real fun begins... chris, my litigator, is waiting to review the contract once it comes in.' This shows Kellerhals negotiating property acquisitions for Epstein, not merely handling corporate registrations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-09-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:40:05",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02344089",
+          "source_quote": "LOL — I woke think=ng about this. Sounds like a plan. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin=PLLC \n9100 Port=of Sale Mall, Ste 15 \nSt. Thomas, VI 00802 \n=/font> \nNotice: This communication may=contain privileged or other confidential information. If you are not =he intended...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02349311",
+          "source_quote": "expecting contract shortly \nthen the real fun begins \ni am headed to ny tomorrow so i'll be in the air=between 8 and 11 and 1230 and 3 - but hopefully will have it before \nthen.adiv> \ni also am in bangkok for work next week (flight is=monday) - but chris, my litigator, is waiting to review the...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2844,
+      "finding_type": "intelligence",
+      "summary": "EpsteinWeb.org tracker (epsteinweb.org/erika-kellerhals/) maps Kellerhals as a professional-only relationship. Key documented entities/activities: organized shell companies for Epstein USVI operations, created Great St. James LLC (Oct 26, 2015, 80.1 acres), handled tax/corporate structure, applied for EDC tax-incentive eligibility. Documented email communications with Epstein from 2012 and November 2016 per House Oversight documents. The tracker notes Kellerhals 'appears as professional counsel in civil filings -- not as a criminal defendant' and that 'no charges related to sex-trafficking crimes are documented.' RealClearInvestigations (May 2025) article 'Paradise Lost' identifies Kellerhals as facilitating Epstein's sex offender registry waiver requests and notes the $1,000 donation to Bryan's gubernatorial campaign. The article also reports Kellerhals' firm supported Bryan's campaign and that Bryan requested the USVI Justice Dept provide Epstein with a registry waiver. The $105M settlement between USVI AG and Epstein estate named 10 Epstein-created entities as co-defendants alongside co-executors Indyke and Kahn, but BBVI and Kellerhals were NOT named as defendants.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-10-26",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:44:33",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://epsteinweb.org/erika-kellerhals/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.realclearinvestigations.com/articles/2025/05/21/paradise_lost_jeffrey_epsteins_legacy_still_clouds_the_us_virgin_islands_1111523.html",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "finding_type": "legal",
+      "summary": "Kellerhals held officer positions across five known Epstein entities: Secretary and Treasurer of Gratitude America Ltd (USVI nonprofit), officer at J. Epstein Virgin Islands Foundation, officer at Enhanced Education, and partner at Kellerhals Ferguson LLP. She managed VIFFO LLC (USVI real estate entity, Dec 2015 list price inquiry), EDC (Economic Development Commission) matters, and handled property deals at Red Hook. Co-occurring with Indyke in 24 LMSBAND files, Epstein in 23, Kahn in 10, Leslie Wexner in 5, Bruce Wasserstein in 4.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-12",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:27",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02549898",
+          "source_quote": "Information on VIFFO, LLC List price below",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2828,
+      "finding_type": "communication",
+      "summary": "Kellerhals STC schedule same day as Apollo conference call (Jan 12, 2016). EFTA02362419: Lesley Groff email to Epstein CC Daphne Wallace and Cecile de Jongh shows schedule: '12:00pm EST (1:00pm STT) TENTATIVE Appt w/Erika Kellerhals at STC' followed by '3:30pm (4:30 STT) Conf Call w/Perry Lerner and Chris Calise re Josh Black at Apollo.' This positions Kellerhals as a regular STC visitor on days when Epstein also conducted major financial business (Apollo/Leon Black). Multiple calendar entries (EFTA02240988, EFTA02290205) confirm regular Kellerhals-Epstein meetings at STC premises.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-01-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:39:15",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02240988",
+          "source_quote": "To: \nFrom: \nLesley Groff \nSubject Alert - 1:30pm Appt w/Erika Kellerhals at STC \nMarch 27, 2018 1:30 PM : 1:30pm Appt w/Erika Kellerhals at STC \nEFTA_R1_01012688 \nEFTA02240988",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02290205",
+          "source_quote": "To: \nFrom: \nSent: \nWed 6/5/2019 3:19:59 PM \nSubject: Alert - 11:30am Appt w/Erika Kellerhals at STC \nJune 5, 2019 11:30 AM : 11:30am Appt w/Erika Kellerhals at STC \nEFTA_R1_01122271 \nEFTA02290205",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02362419",
+          "source_quote": "Daphne Wallace; Cecile de Jongh \nSubject: \nErika Kellerhals \nErika Kellerhals is confirmed to come see you at STC on Tuesday Jan. 12th at 1pm STT \nTues. Jan. 12, 2016 LSJ \n12:00pm EST (1:00pm 511) TENTATIVE Appt w/Erika Kellerhals at STC (awaiting ERika approval) \n3:30pm (4:30 STT) Conf Call...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2853,
+      "finding_type": "communication",
+      "summary": "Epstein-Kellerhals direct email correspondence reveals Kellerhals operated well beyond mere registered agent duties. Topics include: (1) WAPA utility matters and island electricity for Danny and Bryan (EFTA02471784, Feb 2016); (2) Direct communication with USVI Governor Kenneth Mapp -- Epstein asks if she talked with Mapp, then texts him directly (EFTA02464516, Apr 2016); (3) Island construction permitting -- cistern permits, architect letters (EFTA02668260, Dec 2016, email: ekellerhals@kellfer.com); (4) Staff management -- caretaker transitions requiring Epstein approval (EFTA02476178, Jan 2016). Email domain kellfer.com = abbreviated Kellerhals Ferguson. This correspondence pattern shows Kellerhals managed day-to-day island operations, government relations, and infrastructure -- functioning as Epsteins USVI operations manager, not merely his corporate attorney.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:46:40",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02464516",
+          "source_quote": "Re: Did you talk with Mapp? sent him a text",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02471784",
+          "source_quote": "Danny and Bryans electric, Re: WAPA, Erika Kellerhals ekellerhals@kellfer.com",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02476178",
+          "source_quote": "Caretakers, no i want a transition asap but i want to understand everything before change",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02668260",
+          "source_quote": "cistern permit, Going to submit architect letter and signed permit tomorrow, ekellerhals@kellfer.com",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2851,
+      "finding_type": "financial",
+      "summary": "FEC records confirm Erika Kellerhals made at least 20 political contributions totaling approximately 15K+ from 2009-2023. Key donations to Stacey Plaskett (USVI Delegate): 2700 (Jul 2016), 850 (Jul 2016), 500 (Apr 2018), 761 (Mar 2021) -- total approx 4811 to Plaskett alone. Other recipients: Beto ORourke, DCCC, Maggie Hassan (NH), Mitch McConnell, Bill PAC. All filed with employer KELLERHALS FERGUSON KROBLIN, occupation ATTORNEY, address St Thomas/Charlotte Amalie VI. The Plaskett donations are significant because Indyke and Groff also donated to Plaskett, creating a pattern of coordinated Epstein-network political giving to the USVI delegate. One 2021 FEC filing references KFK STRATEGIC HOLDINGS (USVI entity 585923, BBVI as agent) -- the law firms holding company.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:46:15",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC-C00528182",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2849,
+      "finding_type": "legal",
+      "summary": "Deutsche Bank performed formal KYC/compliance screening of Erika Kellerhals on 10/12/2016 (EFTA01363310). OFAC: No Match. GCIS ID: 11593661. PCR case C20161034949193 was NCA customised Auto-Closed No-Hit on 12/10/2016. LexisNexis public records check: 1 of 1 record found. BIS results: negative media - nothing found, non-negative media - nothing found, other language media - not required. Report processed by Deutsche Bank AG for internal use only. This confirms Kellerhals was formally screened as a related person during DB account management for Epstein entities, placing her in the same compliance review pipeline as Indyke and Kahn.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-10-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:48",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363310",
+          "source_quote": "Found 00000483290 Erika Kellerhals PCR C20161034949193 Erika Kellerhals NCA customised Auto-Closed No-Hit 12/10/2016",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1582,
+      "finding_type": "communication",
+      "summary": "Epstein-Kellerhals personal relationship documented in Nov 10 2016 exchange (2 days post-Trump election). Epstein sent Kellerhals Daily Mail article claiming Trump-Epstein sexual assault accusation was fabricated. Kellerhals responded: 'I am so sorry this happened to you. It is terrible. And sad' followed by 'But holy shit you were spot on about trump\\!' Epstein replied 'its funny, dont lose your sense of humor' and Kellerhals requested 'Need to meet with you Tuesday.' This exchange reveals: (1) genuine personal sympathy beyond attorney-client formality, (2) Kellerhals had been briefed on Epstein's Trump predictions pre-election, (3) immediate post-election in-person meeting was standard protocol, (4) Epstein was monitoring media coverage of Trump-Epstein allegations in real time. Separately, Nov 14 2018 exchange shows Kellerhals conducting financial transactions: 'Deal is done. Need wire' and 'Meeting happening now re endorsement' with mention of 'Stacey' (likely Stacey Plaskett, USVI delegate) -- linking Kellerhals to both financial operations and political endorsement activity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-11-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:12:16",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_032912",
+          "source_quote": "But holy shit you were spot on about trump\\! / I am so sorry this happened to you. It is terrible. And sad. / its funny, dont lose your sense of humor / Need to meet with you Tuesday",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2856,
+      "finding_type": "communication",
+      "summary": "Epstein 20K dataset reveals personal email exchange between Erika Kellerhals and Epstein on election night Nov 10, 2016. Kellerhals emailed jeevacation@gmail.com: first But holy shit you were spot on about trump! then Im so sorry this happened to you. Its terrible. And sad. Epstein responded Its funny, dont lose your sense of humor and offered to meet in person (im in new york tomorrow if you want to speak or ill see you tues). The intimacy and emotional register of this exchange (I am so sorry this happened to you) indicates a relationship far beyond attorney-client -- Kellerhals expressed personal sympathy for Epsteins political concerns and Epstein offered immediate in-person meeting. This is consistent with Kellerhals functioning as a trusted inner-circle member, not merely outside counsel.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-11-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:47:13",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_032348",
+          "source_quote": "Im so sorry this happened to you. Its terrible. And sad.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_032349",
+          "source_quote": "But holy shit you were spot on about trump!",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_032353",
+          "source_quote": "its funny, dont lose your sense of humor",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2823,
+      "finding_type": "relationship",
+      "summary": "Kellerhals personally arranged meetings between Epstein and Albert Bryan (then-candidate for USVI Governor, subsequently elected Nov 2018). EFTA02366972 (Feb 9, 2017): Kellerhals emails Epstein 'Would you be willing to meet with Albert Bryan? He is the former Commissioner of Labor who is running for Governor.' EFTA02259117/EFTA02259143 (Sep 17, 2018): Groff reminds Epstein that 'Erika Kellerhals is asking if she can make an appt for you with Albert Bryan on Saturday Sept 22 on the island.' Epstein responds 'yes.' EFTA02258216 (Sep 17, 2018): Kellerhals confirms 'I am waiting on Albert to confirm' for meeting at STC. Bryan won USVI gubernatorial election Nov 6, 2018 -- these meetings occurred during his campaign.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-02-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:38:16",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02255138",
+          "source_quote": "To: \nJefffrey Epsteingeevacation©gmail.com] \nFrom: \nSent: \nRM. \n7:43:06 PM \nSubject: Erika Kellerhals \nPlease see below from Erika and advise if OK to have her set a meeting on 22nd for you with \nAlbert Bryan: \nHIM- \nJeffrey mentioned he may be on...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02258216",
+          "source_quote": "To: \nLesley Grofq\nI \nFrom: \nErika Kellerhals \nSent \nMon 9/17/2018 8:33:33 PM \nSubject: Re: Meeting with JEE \nI'm waiting on Albert to confirm. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02259117",
+          "source_quote": "To: \nFrom: \nSent \nMon 9/17/2018 1:09:21 PM \nSubject Re: Reminder Erika Kellerhals/Albert Bryan Sept 22 on island? \nyes \nOn Mon, Sep 17, 2018 at 8:05 AM, \nwrote: \nReminder Erika Kellerhals is asking if she can make an appt for you with Albert Bryan...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02259143",
+          "source_quote": "To: \nFrom: \nJeffrey E. \nSent \nMon 9/17/2018 1:09:35 PM \nSubject Re: Reminder Erika Kellerhals/Albert Bryan Sept 22 on island? \noffice friday \nOn Mon, Sep 17, 2018 at 8:05 AM, \nwrote: \nReminder Erika Kellerhals is asking if she can make an appt for...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366972",
+          "source_quote": "He's the former Commissioner of Labor who is running for Governor. =o:p> \nErika A. Kellerhals \nMember \nKellerhals Fer=uson Kroblin PLLC \nRoyal Palm Professional Building \n9053 Est=te Thomas, Suite 101 \nSt. Thomas, VI 00802 \nTel: \n=o:p> \nFax: \ntel\nemail: =span style&color:#0563C1\nmailto \nNotice:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2824,
+      "finding_type": "relationship",
+      "summary": "Kellerhals on direct email thread with USVI Governor Kenneth Mapp AND Jeffrey Epstein simultaneously (July 9, 2017). EFTA02343601: Discussion about invoicing issues -- Kellerhals firm had been sending monthly invoices to Peter Hiebert (likely Arthur Hiebert, Winston and Strawn partner) for work apparently done for the USVI government. Governor Mapp intervenes: 'Please do not forward them to Winston and Strewn. I will discuss the matter with them and Art Hiebert will contact you.' This suggests KFK performed legal work for the USVI government while simultaneously serving as Epstein's USVI corporate attorney, with Epstein CC'd on government billing communications.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-07-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:38:26",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02343601",
+          "source_quote": "Jeffrey E. \nSubject: \nRe: \nUnderstood. Thank you Governor.  \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kr=blin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02343702",
+          "source_quote": "Strawn \nFrom: Erika Kellerhals \nSent: Sunday, July 09, 2017 1:40:18 PM \nTo: Jeffrey E.; Governor Kenneth E. Mapp \nSubject: Re: \nGood afternoon. Thank you Governor for following up= We have been sending invoices monthly to Peter Hiebert via our \nbill=ng system and despite numerous conversations with...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2825,
+      "finding_type": "communication",
+      "summary": "Kellerhals had meetings on Capitol Hill in Washington DC while also managing Epstein's USVI corporate infrastructure. EFTA02239485 (Mar 14, 2018): Kellerhals responds to Lesley Groff's request for Epstein call with 'I am in some meetings on the Hill - which will take up most of my day.' This positions Kellerhals not merely as a local USVI attorney but as someone conducting DC political business, consistent with her role arranging meetings with gubernatorial candidates and sitting governors.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-03-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:38:37",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02239485",
+          "source_quote": "To: \nFrom: \nErika Kellerhals \nSent \nWed 3/14/2018 7:58:18 PM \nSubject: Re: Jeffrey Epstein \nLesley. I am in some meetings on the Hill - which will take up most of my day. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2854,
+      "finding_type": "document",
+      "summary": "Articles of Incorporation for Financial Strategy Group Ltd (later renamed Southern Country International Ltd) found in EFTA01265913 reveal this entity was designed to operate as an international banking entity under USVI Code Title 9 Chapter 25 (Economic Development Commission program). Incorporators: Erika A. Kellerhals, Brett A. Geary (confirming middle initial A), Nicole Miller. Authorized capital: 1,000,000 shares at 5.00 par value, minimum 500K to commence. Registered agent: Business Basics LLC (pre-VI naming). Filed with USVI Division of Corporations, Certificate of Good Standing issued July 9, 2018 (under new name Southern Country International Ltd). Corp No. 584624. The international banking entity designation is significant -- it suggests Epstein sought to establish a licensed banking operation in USVI, not merely a trust company or holding structure.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-07-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:46:51",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01265913",
+          "source_quote": "FINANCIAL STRATEGY GROUP LTD, resident agent Business Basics LLC, engage in any lawful business including the operation of an international banking entity in accordance with Title 9 chapter 25",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2833,
+      "finding_type": "intelligence",
+      "summary": "Epstein organization conducted background check on Kellerhals. EFTA01297950 contains what appears to be a web search results page with query 'Erika Kellerhals AND allegation OR arrest OR bribe OR convict OR corrupt OR court' -- standard due diligence search. Results reference Anne Carter Fund NVFCP donations and show annotation 'Confirmed, no adverse information in web result - Mayor Rathod - 09/04/2018.' This suggests Epstein's team vetted Kellerhals as late as September 2018, 10 months before his arrest, indicating she was being assessed for expanded responsibilities or ongoing trust verification.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-09-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:40:15",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297950",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "finding_type": "financial",
+      "summary": "Kellerhals was paid directly by Epstein via checks from Deutsche Bank Trust Company Americas account. Multiple checks from Jeffrey Epstein 6100 Red Hook Quarter B3 St Thomas USVI to Kellerhals Ferguson found in bank records. She also handled real estate deal requiring wire transfer (Nov 2018 - Deal is done. Need wire), and managed a Dutch transaction requiring translation (Oct 2015 - translated into Dutch for the seller).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:07",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01292472",
+          "source_quote": "Kellerhals Ferguson check from Jeffrey Epstein 6100 Red Hook Quarter",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02342425",
+          "source_quote": "Kevin is sending it to me once its translated into Dutch for the seller",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616202",
+          "source_quote": "Deal is done. Need wire",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2848,
+      "finding_type": "financial",
+      "summary": "Richard Kahn explicitly confirmed in Nov 2018 Deutsche Bank internal email (EFTA01373347) that Kellerhals, despite holding Secretary and Treasurer titles for Epstein Virgin Islands Foundation Inc., does NOT have signing authority on the brokerage account. Email chain: Bradley Gitlin (DB) forwarded to Vijay Sawant re rejection of corporate authorization documents. Kahn responded that Kellerhals has no signing authority. This establishes Kellerhals held nominal corporate officer titles across Epstein entities but actual financial control remained with Kahn and Indyke. Kellerhals functioned as a firewall layer -- visible on corporate documents but without real transactional authority over accounts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-11",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:38",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01373347",
+          "source_quote": "please note that Erika Kellerhals who is secretary and treasurer does not have signing authority on this account",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2841,
+      "finding_type": "financial",
+      "summary": "Kellerhals arranged political endorsement and requested wire transfer from Epstein on same day (Nov 14, 2018). EFTA02616202: Full email chain -- 9:52 AM Kellerhals to Epstein: 'Meeting happening now re endorsement. Will call you after. Spoke to Stacey. She and I are good.' Epstein responds 'ok.' At 4:31 PM Kellerhals: 'I tried you. Deal is done. Need wire :)' -- This occurred 8 days after the Nov 6, 2018 USVI election where Albert Bryan won the governorship. 'Stacey' likely refers to Stacey Plaskett (USVI Delegate to Congress). The sequence endorsement-meeting -> deal-done -> wire-request strongly suggests Epstein funding political activity through Kellerhals as intermediary.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-11-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:43:59",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616202",
+          "source_quote": "I tried you. Deal is done. Need wire : ) \nErika A. Kellerhals \nMemb=r \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2826,
+      "finding_type": "financial",
+      "summary": "Epstein gave Kellerhals personal gifts including luxury Apple Watch bands. EFTA02264321 (Nov 20, 2018): Intermediary tells Kellerhals 'Anything you want\\! Jeffrey says it is your gift and whatever you want you can have\\! (So nice\\! Including Hermes\\!)' in response to Kellerhals asking which leather Apple Watch bands she could choose from. This is 8 months before Epstein's arrest and demonstrates personal gift-giving relationship beyond professional attorney-client fees.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-11-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:38:52",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02264321",
+          "source_quote": "To: \nErika Kellerhals \nFrom: \nSent \nTue 11/20/2018 2:35:33 PM \nSubject Re: Watch \nAnything you want! Jeffrey says it is your gift and whatever you want you can have! (So nice! \nIncluding Hermes!) \nSent from my iPhone \nOn Nov 20, 2018, at 8:23 AM,...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2838,
+      "finding_type": "intelligence",
+      "summary": "DOJ Vol 11 email EFTA02274532 (Feb 5, 2019) reveals Epstein had a meeting with Governor Albert Bryan at Kellerhals office on Feb 7, 2019. Coordinated by Cecile de Jongh (former USVI First Lady, wife of former Gov. John de Jongh). Email from de Jongh states: 'JE has a 2PM meeting on Thursday, February 7th at Erika Kellerhals St. Thomas office with Governor Bryan. POC is Erika.' The meeting took place at KFK Royal Palms Professional Building. This occurred just 5 months before Epstein's arrest (July 6, 2019) and during the period when Bryan had already been inaugurated as governor (Jan 7, 2019). Bryan previously oversaw the USVI agency that granted nearly $300M in illicit tax credits to Epstein's company. This is separate from the Kellerhals-Mapp OPSEC email (EFTA02486512, Sep 23, 2015) where Kellerhals warned Epstein about Governor Mapp, saying 'don't mention Cecile and John' and that Mapp might do 'something stupid or criminal.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-02-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:43:27",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02274532",
+          "source_quote": "JE has a 2PM meeting on Thursday February 7th at Erika Kellerhals St. Thomas office with Governor Bryan. POC is Erika",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02486512",
+          "source_quote": "> \nSent: \nWednesday, September 23, 2015 12:23 PM \nTo: \nJeffrey E. \nSubject: \nRe: \nBe careful about everything. Definitel= don't mention Cecile and John. Honestly I wish I could say he wasn't going=to do \nsomething stupid or criminal but I can't say that. He's a wild card.&=bsp; \nYes 1248 is...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2846,
+      "finding_type": "legal",
+      "summary": "Kellerhals filed an affidavit in the Epstein will probate stating she knows of no other 'will or codicil of Jeffrey E. Epstein' and that Epstein personally sent her a copy of the will before his death. The will was signed August 8, 2019 (two days before Epstein's death August 10, 2019), creating 'The 1953 Trust' (year of Epstein's birth). KFK PLLC was appointed by co-executors Indyke and Kahn to accept service of probate documents because Indyke lives in Florida and Kahn in New York. The will was filed in USVI Superior Court. Kellerhals' role as the attorney who vouched for the will's authenticity and provided the sole known affidavit about its provenance is distinct from her registered agent role -- it placed her at the center of the $577M estate transfer mechanism.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-08-08",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:44:58",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.nbcnews.com/news/crime-courts/jeffrey-epstein-signed-new-will-just-two-days-he-died-n1044176",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.virginislandsdailynews.com/news/epstein-filed-will-in-v-i-days-before-death/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2836,
+      "finding_type": "identity",
+      "summary": "Erika A. Kellerhals professional profile: B.A. from St. Peter's University, J.D. from Brooklyn Law School, LL.M. in Taxation from NYU. Bar admissions: New York (2001), U.S. Virgin Islands, Florida, England & Wales, United States Tax Court. Pre-USVI career: boutique New York tax firm serving ultra-wealthy individuals and closely held corporations. Relocated to USVI in 2003, worked at Law Offices of Marjorie Rawls Roberts P.C. (major USVI tax/EDC firm). Founded own practice 2008. Co-founded Kellerhals Ferguson LLP 2011 with Greg Ferguson (former co-worker at Roberts). Firm evolved to Kellerhals Ferguson Kroblin PLLC (adding Christopher Kroblin, litigator). New entity Kellerhals Law P.C. formed Jan 2026 (solo PC, same address). KFK affiliated with Solomon Blum Heymann LLP (AV-rated Wall Street firm) and has NY office at 40 Wall Street 35th Floor. KFK handles EDC program (30+ years experience claimed), real estate, banking, probate. Also listed as 'Of Counsel' William L. Blum (international tax), Shari D'Andrade (former USVI Asst AG, litigator).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2026-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:42:59",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.kellfer.com/attorneys/erika-kellerhals/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.solblum.com/attorney/erika-kellerhals/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "finding_type": "legal",
+      "summary": "FL SunBiz identifies NEW APO MIAMI 2 OWNER LLC (M17000010800, DE-formed, EIN 36-4886042) and NEW APO NYC 3 OWNER LLC (M23000005943, DE-formed, EIN 32-0581753) both managed by Alexandre Montavon C/O Kellerhals Carrard, 6 Francois-Bellot, 1206 Geneva. Both use Corporation Service Company as FL agent. The 'APO' prefix strongly suggests Apollo Global Management real estate investment vehicles. The Kellerhals Carrard-Apollo connection warrants investigation — is this Leon Black/Apollo infrastructure managed through Swiss lawyers?",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:41:45",
+      "target_name": "Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M17000010800",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M23000005943",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1501,
+      "finding_type": "intelligence",
+      "summary": "Erika Kellerhals (NYU School of Law alumna per LinkedIn/Deutsche Bank due diligence research, EFTA01297950) relationship to Kellerhals Carrard (Swiss law firm, 200+ lawyers, est. 1885): CIRCUMSTANTIAL ONLY. They share the surname 'Kellerhals' and both operate in the same legal services domain. However: (1) Erika practices in USVI through small firms she founded (Kellerhals Ferguson LLP -> Kellerhals Ferguson Kroblin PLLC -> Kellerhals Law P.C.), while Kellerhals Carrard is a major Swiss national firm; (2) FL registry entities managed by Kellerhals Carrard lawyer Alexandre Montavon (NEW APO series) have NO documented connection to Erika or Epstein entities in USVI; (3) Kellerhals Carrard does NOT appear in any DOJ Vol 11 documents; (4) DugganUSA hits for 'Kellerhals Carrard' are OCR false positives splitting the surname. The shared surname could indicate: (a) family connection (Kellerhals is a common Swiss-German surname from Bern canton), (b) coincidence, or (c) an undiscovered professional relationship. Finding #505 noted Swiss infrastructure 'running parallel to USVI Epstein operations' but no direct link between Erika Kellerhals and Kellerhals Carrard has been established. The Wave 10 hypothesis of an Epstein-Apollo link through Kellerhals Carrard remains UNCONFIRMED.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:38:25",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297950",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "FL:M17000010800",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2834,
+      "finding_type": "legal",
+      "summary": "Kellerhals, KFK, and BBVI have zero FARA registrations and zero LDA lobbying disclosures despite documented political activity. FARA search returned zero results for both 'Kellerhals' and 'Business Basics.' LDA search returned zero for 'Kellerhals' (one unrelated 'Dan Geary' result for 'Geary'). Given Kellerhals arranged meetings between Epstein and USVI political figures (Governor Mapp, gubernatorial candidate Bryan), had meetings 'on the Hill' in DC, and Epstein's network has documented FARA non-compliance across 15+ intermediaries, this absence is consistent with the broader pattern of shadow political influence without required disclosures.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:40:27",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA_search_2026-02-15",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA_search_2026-02-15",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2840,
+      "finding_type": "intelligence",
+      "summary": "LittleSis entity 349257 maps 12 relationships for Erika Kellerhals: Professional relationship with Jeffrey Epstein (entity 36043). Position (Attorney) at Solomon Blum Heymann (entity 280958). Position (Secretary) at Gratitude America Ltd (entity 349258). Position (Board Member) at St. Thomas-St. John Chamber of Commerce (entity 349272). Political donations to: Stacey Plaskett, Barack Obama, Beto O'Rourke, Mitch McConnell, Charles Rangel, Chellie Pingree, Bill PAC, and DCCC. The Chamber of Commerce board position is new intelligence -- it indicates Kellerhals held formal leadership roles in the USVI business community beyond her legal practice, potentially facilitating introductions and networking for Epstein within the local economic establishment.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:43:50",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://littlesis.org/person/349257-Erika_Kellerhals",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3471,
+      "finding_type": "relationship",
+      "summary": "Erika Kellerhals has the 9th highest betweenness centrality (0.050) with degree 16, bridging the USVI operations/governance network to the Epstein financial apparatus and indicating a key operational link between territory governance and Epstein's entity network",
+      "detail": "Kellerhals connects Gratitude America Ltd, Darren Indyke, Richard Kahn, Business Basics VI LLC, Brett Geary, Albert Bryan, Kenneth Mapp, Stacey Plaskett, and Deutsche Bank. Her brokerage score of 0.875 indicates she bridges entities that rarely connect to each other directly. She forms a 5-member clique with Darren Indyke, Gratitude America Ltd, Jeffrey Epstein, and Richard Kahn. Her position linking USVI government figures (Bryan, Mapp, Plaskett) to the core financial infrastructure is structurally significant.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:23:06",
+      "target_name": "Erika Kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-6",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 35,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Gratitude America Ltd",
+      "relationship_type": "corporate",
+      "description": "Kellerhals served as Secretary (2012-2019) and also Treasurer (2017-2019). Attorney at Kellerhals Ferguson LLP in USVI. Handled articles of incorporation, director appointments, and book-keeping. Repeatedly requested director names for the foundation.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:11:42",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02550717",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02697431",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "IRS-990PF-2015",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "person_a": "Darren Indyke",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Both officers on Gratitude America Ltd, JEVIF, Enhanced Education. Co-occur in 82 LMSBAND files. Contact info listed together on KYC documents.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:51:37",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01295202",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "USVI attorney through Kellerhals Ferguson Kroblin PLLC. Advised on residency, dynasty trusts, naturalization, tax strategy. Handled real estate deals, property management. Officer on Gratitude America, JEVIF, Enhanced Education.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:34",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02370395",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02488622",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 727,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Kellerhals is registered agent for Business Basics VI LLC (USVI 582110, Jan 2012). Business Basics serves as registered agent for 20+ Epstein USVI entities. Agent email all@bizusvi.com. Both at 9053 Estate Thomas Suite 101.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:37:41",
+      "other_person": "Business Basics VI LLC",
+      "other_person_slug": "business-basics-vi-llc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582110",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1425,
+      "person_a": "Brett Geary",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Brett Geary and Erika Kellerhals are co-incorporators of multiple Epstein USVI entities, with Geary serving as 'business consultant' organizer and Kellerhals as attorney. Both listed as incorporators in Articles of Incorporation (e.g., Nautilus Inc, Maple Inc, Laurel Inc — all Nov 2011). Geary operates through BBVI (brett@bizusvi.com) while Kellerhals was the law firm principal (Kellerhals Ferguson LLP, later Kellerhals Ferguson Kroblin PLLC). They share the Royal Palms Professional Building address at 9053 Estate Thomas Suite 101.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:31:56",
+      "other_person": "Brett Geary",
+      "other_person_slug": "brett-geary",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266724",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01360967",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1429,
+      "person_a": "Albert Bryan",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "political",
+      "description": "Kellerhals arranged personal meetings between Epstein and Bryan (USVI gubernatorial candidate, later Governor) at STC in Feb 2017 and Sep 2018 during Bryan's campaign",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:40:47",
+      "other_person": "Albert Bryan",
+      "other_person_slug": "albert-bryan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02258216",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02259117",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366972",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1430,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Kenneth Mapp",
+      "relationship_type": "political",
+      "description": "Kellerhals on direct email thread with USVI Governor Mapp AND Epstein simultaneously (July 2017) discussing KFK firm invoicing for apparent government legal work",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:40:53",
+      "other_person": "Kenneth Mapp",
+      "other_person_slug": "kenneth-mapp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02343601",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02343702",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1435,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Kellerhals requested wire transfer from Epstein after completing a 'deal' and 'endorsement' meeting (Nov 14, 2018). Pattern of personal gifts (Apple Watch Hermes), direct payment via DB checks, and now wire transfer requests shows Kellerhals as financial conduit, not just registered agent.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:44:30",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02264321",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616202",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1436,
+      "person_a": "Albert Bryan",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "political",
+      "description": "Kellerhals hosted Epstein-Bryan meeting at KFK office (Feb 7, 2019). Donated $1,000 to Bryan's 2018 gubernatorial campaign. Bryan requested USVI DOJ provide Epstein sex offender registry waiver. Meeting coordinated by Cecile de Jongh.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:23",
+      "other_person": "Albert Bryan",
+      "other_person_slug": "albert-bryan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02274532",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1437,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Stacey Plaskett",
+      "relationship_type": "political",
+      "description": "Kellerhals donated $7,631.83 to Plaskett campaigns (2013-2021) via Virgin Islands for Plaskett and ActBlue. LittleSis maps this as a direct donation relationship. Plaskett previously worked at Kellerhals Ferguson Kroblin PLLC (per RealClearInvestigations). Plaskett is USVI Delegate to Congress.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:30",
+      "other_person": "Stacey Plaskett",
+      "other_person_slug": "stacey-plaskett",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1438,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Solomon Blum Heymann LLP",
+      "relationship_type": "corporate",
+      "description": "Kellerhals holds Of Counsel position at Solomon Blum Heymann LLP (AV-rated Wall Street firm). KFK PLLC and SBH are affiliated firms. SBH provides tax and business law expertise from its NYC base, complementing KFK's USVI operations.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:37",
+      "other_person": "Solomon Blum Heymann LLP",
+      "other_person_slug": "solomon-blum-heymann-llp",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.solblum.com/attorney/erika-kellerhals/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1440,
+      "person_a": "Cecile de Jongh",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "political",
+      "description": "Cecile de Jongh (former USVI First Lady, wife of former Gov. John de Jongh) coordinated Epstein-Bryan meeting at Kellerhals office (Feb 2019). Kellerhals warned Epstein about Gov. Mapp, saying 'don't mention Cecile and John' (Sep 2015), indicating the de Jongh relationship was politically sensitive and needed protection from rival political faction.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:53",
+      "other_person": "Cecile de Jongh",
+      "other_person_slug": "cecile-de-jongh",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02274532",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02486512",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1443,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Richard Kahn",
+      "relationship_type": "corporate",
+      "description": "Kellerhals held corporate officer titles (Secretary/Treasurer) across Epstein entities but Kahn explicitly blocked her signing authority on brokerage accounts. Structural compartmentalization: Kellerhals provided local legal infrastructure, Kahn retained NY financial control.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:47:48",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01298343",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01373347",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1448,
+      "person_a": "Deutsche Bank",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "financial",
+      "description": "DB performed formal KYC screening of Kellerhals (GCIS ID 11593661, Oct 2016) and listed her alongside inner circle (Beller, Indyke, Kahn) in account opening documents for Butterfly entity (Oct 2018). Kellerhals was DB-recognized as a related person for Epstein account management.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:48:21",
+      "other_person": "Deutsche Bank",
+      "other_person_slug": "deutsche-bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363310",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01386745",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1716,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Gratitude America Ltd",
+      "relationship_type": "corporate",
+      "description": "Finding #23: Gratitude America Ltd (EIN 66-0789697) incorporated in USVI on April 25, 2012 as a 501(c)(3) private foundation. Registered address: 9053 Estate Thoma",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 285,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Richard Kahn",
+      "relationship_type": "corporate",
+      "description": "Both officers on Gratitude America Ltd and JEVIF. Kellerhals copied Kahn on tax conference report analysis (Dec 2017). 10 LMSBAND co-occurrences.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:35",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02547535",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Gratitude America",
+      "relationship_type": "financial",
+      "description": "Kellerhals is the care-of contact for Gratitude America Ltd on IRS records. She manages the USVI-registered entity holding .175M in frozen assets post-Epstein arrest.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:46:26",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:660789697",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "corporate",
+      "description": "USVI-addressed FL entity M13000002984 at 500 Port of Sale Mall St Thomas VI - Kellerhals network",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:16:18",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:M13000002984",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Marcel Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Shared surname and USVI nexus. Erika is agent for Business Basics VI LLC. Marcel appears in 661 DugganUSA docs referencing Business Basics",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Marcel Kellerhals",
+      "other_person_slug": "marcel-kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI_Registry:582110",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 764,
+      "person_a": "Business Basics VI",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Resident agent of BBVI, which served as agent for 15+ Epstein USVI entities",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:50:59",
+      "other_person": "Business Basics VI LLC",
+      "other_person_slug": "business-basics-vi-llc",
+      "evidence": []
+    },
+    {
+      "id": 1434,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Stacey Plaskett",
+      "relationship_type": "political",
+      "description": "Kellerhals emailed Epstein Nov 14, 2018: 'Spoke to Stacey. She and I are good.' Same email chain discusses endorsement meeting and requests wire transfer. Context: 8 days post-USVI election.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:44:06",
+      "other_person": "Stacey Plaskett",
+      "other_person_slug": "stacey-plaskett",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616202",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1441,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Marjorie Rawls Roberts",
+      "relationship_type": "employment",
+      "description": "Kellerhals worked at Law Offices of Marjorie Rawls Roberts P.C. after relocating to USVI in 2003, before founding her own firm in 2008. Roberts firm is a major USVI tax/business/estate planning practice. Greg Ferguson (KFK co-founder) was also a co-worker there.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:46:00",
+      "other_person": "Marjorie Rawls Roberts",
+      "other_person_slug": "marjorie-rawls-roberts",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.kellfer.com/attorneys/erika-kellerhals/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1444,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Stacey Plaskett",
+      "relationship_type": "political",
+      "description": "Kellerhals donated approx 4811 to Plaskett (USVI Delegate) from 2016-2021 via Virgin Islands for Plaskett PAC. Part of pattern: Indyke and Groff also donated to Plaskett. Coordinated Epstein-network political giving to USVI representative.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:47:55",
+      "other_person": "Stacey Plaskett",
+      "other_person_slug": "stacey-plaskett",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC-C00528182",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1445,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Kenneth Mapp",
+      "relationship_type": "political",
+      "description": "Epstein asked Kellerhals Did you talk with Mapp? then texted USVI Governor Kenneth Mapp directly (Apr 2016). Kellerhals served as intermediary between Epstein and USVI Governor, managing government relations.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:48:00",
+      "other_person": "Kenneth Mapp",
+      "other_person_slug": "kenneth-mapp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02464516",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1446,
+      "person_a": "Erika Kellerhals",
+      "person_b": "Solomon Blum Heymann LLP",
+      "relationship_type": "employment",
+      "description": "Kellerhals practiced at Solomon Blum Heymann LLP (AV-rated boutique Wall Street tax firm) prior to relocating to USVI in 2003. KFK PLLC maintained affiliation with SBH per BBVI website. This NY law firm connection may explain how Kellerhals entered Epsteins orbit.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:48:08",
+      "other_person": "Solomon Blum Heymann LLP",
+      "other_person_slug": "solomon-blum-heymann-llp",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis-349257",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "secretary",
+      "date_start": "2012",
+      "date_end": "2019",
+      "source": "Finding #29",
+      "entity_id": 1,
+      "entity_name": "Gratitude America Ltd",
+      "entity_type": "nonprofit",
+      "jurisdiction": "USVI",
+      "entity_status": "dormant"
+    },
+    {
+      "role": "treasurer",
+      "date_start": "2017",
+      "date_end": "2019",
+      "source": "Finding #29",
+      "entity_id": 1,
+      "entity_name": "Gratitude America Ltd",
+      "entity_type": "nonprofit",
+      "jurisdiction": "USVI",
+      "entity_status": "dormant"
+    },
+    {
+      "role": "partner",
+      "date_start": null,
+      "date_end": null,
+      "source": "Finding #35",
+      "entity_id": 115,
+      "entity_name": "Kellerhals Ferguson LLP",
+      "entity_type": "partnership",
+      "jurisdiction": "USVI",
+      "entity_status": "active"
+    },
+    {
+      "role": "officer",
+      "date_start": null,
+      "date_end": null,
+      "source": "Finding #88",
+      "entity_id": 19,
+      "entity_name": "Enhanced Education",
+      "entity_type": "unknown",
+      "jurisdiction": null,
+      "entity_status": "active"
+    },
+    {
+      "role": "officer",
+      "date_start": null,
+      "date_end": null,
+      "source": "Finding #88",
+      "entity_id": 3,
+      "entity_name": "J. Epstein Virgin Islands Foundation",
+      "entity_type": "foundation",
+      "jurisdiction": "USVI",
+      "entity_status": "active"
+    },
+    {
+      "role": "officer",
+      "date_start": null,
+      "date_end": null,
+      "source": "DOJ EFTA02549898",
+      "entity_id": 229,
+      "entity_name": "VIFFO, LLC",
+      "entity_type": "llc",
+      "jurisdiction": "USVI",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2009",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC records document Erika Kellerhals political donations totaling $13,131.83 from 2009-2023. Largest recipient: Stacey Plaskett (USVI Delegate) via Virgin Islands for Plaskett and ActBlue, totaling $7,631.83 across 9 contributions (2013-2021). Other recipients: Beto O'Rourke $2,700 (2018), DCCC $2,500 (2015), Mitch McConnell $1,000 (2015), Bill PAC $500 (2015), Charles Rangel $1,000 (2009), Maggie Hassan $500 (2021), and MR. SOUTHERN MISSOURIAN IN THE HOUSE PAC $500 (2023). All donations list employer as Kellerhals Ferguson Kroblin, occupation Attorney, address St Thomas VI. The bipartisan donation pattern (McConnell + DCCC + Democratic candidates) is consistent with influence-building across party lines, a pattern also seen in Epstein's own bundling network. RealClearInvestigations reports Kellerhals also donated $1,000 to Governor Bryan's 2018 gubernatorial campaign (not in federal FEC data as territorial race).",
+      "confidence": "high",
+      "id": 2837
+    },
+    {
+      "date": "2009-06-23",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Erika Kellerhals filed FOIA lawsuit against the IRS in 2009 (USVI District Court 3:09-cv-00090, filed 6/23/2009, terminated 10/12/2011, Judge Curtis v. Gomez). This was a Freedom of Information Act case (NOS code 895, cause 05:552). Filed under 'Erika A. Kellerhals, P.C.' -- her individual professional corporation. This indicates Kellerhals had disputes with the IRS regarding information disclosure, potentially related to client tax matters or her own practice. The timing (2009) predates her known Epstein engagement (the first documented Epstein entity filing with Kellerhals as incorporator is Laurel Inc on 11/22/2011). The case was terminated after 2+ years, suggesting either settlement or dismissal.",
+      "confidence": "high",
+      "id": 1490
+    },
+    {
+      "date": "2009-06-23",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Erika A. Kellerhals biographical profile compiled from LittleSis (entity 349257) and CourtListener. Education: LL.M. in Taxation from NYU, J.D. from Brooklyn Law School, B.A. from St. Peters University. Career: practiced at Solomon Blum Heymann LLP (boutique NY tax firm), relocated to USVI in 2003, worked at Law Offices of Marjorie Rawls Roberts P.C., launched own firm (Erika A. Kellerhals P.C.) in 2008, formed Kellerhals Ferguson LLP in 2011 with Greg Ferguson (former co-worker at Roberts firm). Kellerhals P.C. filed FOIA lawsuit against IRS in D.V.I. (3:09-cv-00090, filed 6/23/2009, terminated 10/12/2011). Personal address: 2E-19 Estate Caret Bay, St. Thomas VI 00802 (per EFTA01360967). Board member of St. Thomas-St. John Chamber of Commerce. Tax specialization in individual, corporate, partnership, and international taxation -- precisely the skillset needed for Epstein's offshore-domestic hybrid structure.",
+      "confidence": "high",
+      "id": 2850
+    },
+    {
+      "date": "2009-06-29",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Kellerhals wrote the FTC/EDC response to determination letter regarding Epstein's industrial development certificate (IDC) benefits in June 2009. Per GRM Master Filing Index (investigations.db doc 81, page 6): physical filing labeled 'FTC Response to Determination Letter from the EDC (written by Erika Kellerhals) June 29, 2009.' Kellerhals also handled IDC compliance memos. The IDC program provided substantial tax benefits to Epstein's USVI operations (reduced gross receipts tax, exemption from USVI income tax) -- Kellerhals was the attorney managing these tax benefit applications, not merely a registered agent.",
+      "confidence": "high",
+      "id": 2827
+    },
+    {
+      "date": "2014-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "FL SunBiz reveals Kellerhals network across FL/USVI/Switzerland: (1) M13000002984 - Erika A. Kellerhals at 500 Port of Sale Mall Suite 15, St. Thomas VI 00802 with Christopher Kroblin and Greg Ferguson, withdrawn from FL Jan 2014; (2) M17000010779, M17000010800, M23000005943 - Three FL-registered entities managed by Alexandre Montavon C/O Kellerhals Carrard, 6 Francois Bellot, 1206 Geneva, all using Corporation Service Company as FL agent; (3) L14000021304 - Gilbert Kellerhals with Marco Jaeger at 1111 Brickell Ave Miami, managed by Singapore entities (RTSING), voluntarily dissolved Nov 2017. Pattern: Swiss law firm Kellerhals Carrard managing multiple FL-registered entities with USVI and Singapore connections.",
+      "confidence": "medium",
+      "id": 505
+    },
+    {
+      "date": "2014-02-06",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "FL SunBiz L14000021304 = VICTORY EQUESTRIAN SPORTS LLC. Directors: Gilbert Kellerhals and Marco Jaeger at 1111 Brickell Avenue, Miami FL 33131. Managed by two Singapore entities: RTSING Presidents PTE Ltd and RTSING Administrators PTE Ltd. EIN: 46-4885338. Filed Feb 6 2014, voluntarily dissolved Nov 17 2017. Corporation Service Company as agent. Also M13000002984 = KELLERHALS FERGUSON FLETCHER KROBLIN PLLC, a USVI-formed law firm at 9100 Port of Sale Mall Suite 15 St Thomas VI 00802 with Erika A. Kellerhals, Greg Ferguson, Christopher Kroblin and Leigh Kellet Fletcher. Filed May 2013, withdrawn Jan 2014.",
+      "confidence": "medium",
+      "id": 513
+    },
+    {
+      "date": "2015-08",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Kellerhals was Epstein USVI attorney through Kellerhals Ferguson Kroblin PLLC, 9053 Estate Thomas Suite 101, St. Thomas VI 00802. She advised on USVI residency requirements, noting in Aug 2015 that 153 days in USVI still would not qualify for residency. Pushed for dynasty trust legislation in USVI (June 2013). Researched residency for naturalization under INA section 319(a) (Sept 2013). Advised on tax conference report language (Dec 2017) regarding Chapo tax changes.",
+      "confidence": "high",
+      "id": 332
+    },
+    {
+      "date": "2015-09-23",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Kellerhals warned Epstein about operational security (Sept 23, 2015): Be careful about everything. Definitely dont mention Cecile and John. Honestly I wish I could say more. This suggests awareness of sensitive matters requiring concealment. She was also subject to Deutsche Bank AML due diligence (PWM BIS-RESEARCH) in multiple KYC reviews, with extensive background checks. Had meetings on the Hill in Washington DC (March 2018).",
+      "confidence": "high",
+      "id": 336
+    },
+    {
+      "date": "2015-09-26",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Kellerhals communication cadence with Epstein documented across 20+ emails spanning 2015-2019. Communications mediated through Lesley Groff (Epstein executive assistant) with subject lines consistently 'Jeffrey Epstein' or 'Quick call with JEE.' Pattern: Groff contacts Kellerhals requesting she call Jeffrey; Kellerhals responds with availability. Key dates: Sep 26, 2015 (real estate bid strategy, EFTA02344089); Oct 29, 2015 (contract work, EFTA02349311); Sep 22, 2016 (permit/installation work, EFTA02349199); Aug 21, 2017; Nov 17, 2017; Mar 14-27, 2018; Sep 17-24, 2018; Jan 31, 2019; Apr 5, 2019; May 6-8, 2019; Jun 5, 2019. Frequency increased in 2018-2019 (pre-arrest period).",
+      "confidence": "medium",
+      "id": 2831
+    },
+    {
+      "date": "2015-09-26",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Kellerhals directly involved in real estate deal negotiations on Epstein's behalf. EFTA02344089 (Sep 26, 2015): Epstein emails Kellerhals detailed bid strategy: 'knowing da mour, I would first bid cash of 10 plus a note of 5. they will come back at 20. then we bid 10 cash plus a note of 6 they will agree I think to 10 cash and a note of 7-8, then we offer all cash of 15.' Kellerhals responds 'LOL - I woke thinking about this. Sounds like a plan.' EFTA02349311 (Oct 29, 2015): Kellerhals emails Epstein directly: 'expecting contract shortly then the real fun begins... chris, my litigator, is waiting to review the contract once it comes in.' This shows Kellerhals negotiating property acquisitions for Epstein, not merely handling corporate registrations.",
+      "confidence": "high",
+      "id": 2832
+    },
+    {
+      "date": "2015-10-26",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "EpsteinWeb.org tracker (epsteinweb.org/erika-kellerhals/) maps Kellerhals as a professional-only relationship. Key documented entities/activities: organized shell companies for Epstein USVI operations, created Great St. James LLC (Oct 26, 2015, 80.1 acres), handled tax/corporate structure, applied for EDC tax-incentive eligibility. Documented email communications with Epstein from 2012 and November 2016 per House Oversight documents. The tracker notes Kellerhals 'appears as professional counsel in civil filings -- not as a criminal defendant' and that 'no charges related to sex-trafficking crimes are documented.' RealClearInvestigations (May 2025) article 'Paradise Lost' identifies Kellerhals as facilitating Epstein's sex offender registry waiver requests and notes the $1,000 donation to Bryan's gubernatorial campaign. The article also reports Kellerhals' firm supported Bryan's campaign and that Bryan requested the USVI Justice Dept provide Epstein with a registry waiver. The $105M settlement between USVI AG and Epstein estate named 10 Epstein-created entities as co-defendants alongside co-executors Indyke and Kahn, but BBVI and Kellerhals were NOT named as defendants.",
+      "confidence": "high",
+      "id": 2844
+    },
+    {
+      "date": "2015-12",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Kellerhals held officer positions across five known Epstein entities: Secretary and Treasurer of Gratitude America Ltd (USVI nonprofit), officer at J. Epstein Virgin Islands Foundation, officer at Enhanced Education, and partner at Kellerhals Ferguson LLP. She managed VIFFO LLC (USVI real estate entity, Dec 2015 list price inquiry), EDC (Economic Development Commission) matters, and handled property deals at Red Hook. Co-occurring with Indyke in 24 LMSBAND files, Epstein in 23, Kahn in 10, Leslie Wexner in 5, Bruce Wasserstein in 4.",
+      "confidence": "medium",
+      "id": 338
+    },
+    {
+      "date": "2016-01-12",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Kellerhals STC schedule same day as Apollo conference call (Jan 12, 2016). EFTA02362419: Lesley Groff email to Epstein CC Daphne Wallace and Cecile de Jongh shows schedule: '12:00pm EST (1:00pm STT) TENTATIVE Appt w/Erika Kellerhals at STC' followed by '3:30pm (4:30 STT) Conf Call w/Perry Lerner and Chris Calise re Josh Black at Apollo.' This positions Kellerhals as a regular STC visitor on days when Epstein also conducted major financial business (Apollo/Leon Black). Multiple calendar entries (EFTA02240988, EFTA02290205) confirm regular Kellerhals-Epstein meetings at STC premises.",
+      "confidence": "high",
+      "id": 2828
+    },
+    {
+      "date": "2016-02",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein-Kellerhals direct email correspondence reveals Kellerhals operated well beyond mere registered agent duties. Topics include: (1) WAPA utility matters and island electricity for Danny and Bryan (EFTA02471784, Feb 2016); (2) Direct communication with USVI Governor Kenneth Mapp -- Epstein asks if she talked with Mapp, then texts him directly (EFTA02464516, Apr 2016); (3) Island construction permitting -- cistern permits, architect letters (EFTA02668260, Dec 2016, email: ekellerhals@kellfer.com); (4) Staff management -- caretaker transitions requiring Epstein approval (EFTA02476178, Jan 2016). Email domain kellfer.com = abbreviated Kellerhals Ferguson. This correspondence pattern shows Kellerhals managed day-to-day island operations, government relations, and infrastructure -- functioning as Epsteins USVI operations manager, not merely his corporate attorney.",
+      "confidence": "high",
+      "id": 2853
+    },
+    {
+      "date": "2016-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC records confirm Erika Kellerhals made at least 20 political contributions totaling approximately 15K+ from 2009-2023. Key donations to Stacey Plaskett (USVI Delegate): 2700 (Jul 2016), 850 (Jul 2016), 500 (Apr 2018), 761 (Mar 2021) -- total approx 4811 to Plaskett alone. Other recipients: Beto ORourke, DCCC, Maggie Hassan (NH), Mitch McConnell, Bill PAC. All filed with employer KELLERHALS FERGUSON KROBLIN, occupation ATTORNEY, address St Thomas/Charlotte Amalie VI. The Plaskett donations are significant because Indyke and Groff also donated to Plaskett, creating a pattern of coordinated Epstein-network political giving to the USVI delegate. One 2021 FEC filing references KFK STRATEGIC HOLDINGS (USVI entity 585923, BBVI as agent) -- the law firms holding company.",
+      "confidence": "confirmed",
+      "id": 2851
+    },
+    {
+      "date": "2016-10-12",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Deutsche Bank performed formal KYC/compliance screening of Erika Kellerhals on 10/12/2016 (EFTA01363310). OFAC: No Match. GCIS ID: 11593661. PCR case C20161034949193 was NCA customised Auto-Closed No-Hit on 12/10/2016. LexisNexis public records check: 1 of 1 record found. BIS results: negative media - nothing found, non-negative media - nothing found, other language media - not required. Report processed by Deutsche Bank AG for internal use only. This confirms Kellerhals was formally screened as a related person during DB account management for Epstein entities, placing her in the same compliance review pipeline as Indyke and Kahn.",
+      "confidence": "confirmed",
+      "id": 2849
+    },
+    {
+      "date": "2016-11-10",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein-Kellerhals personal relationship documented in Nov 10 2016 exchange (2 days post-Trump election). Epstein sent Kellerhals Daily Mail article claiming Trump-Epstein sexual assault accusation was fabricated. Kellerhals responded: 'I am so sorry this happened to you. It is terrible. And sad' followed by 'But holy shit you were spot on about trump\\!' Epstein replied 'its funny, dont lose your sense of humor' and Kellerhals requested 'Need to meet with you Tuesday.' This exchange reveals: (1) genuine personal sympathy beyond attorney-client formality, (2) Kellerhals had been briefed on Epstein's Trump predictions pre-election, (3) immediate post-election in-person meeting was standard protocol, (4) Epstein was monitoring media coverage of Trump-Epstein allegations in real time. Separately, Nov 14 2018 exchange shows Kellerhals conducting financial transactions: 'Deal is done. Need wire' and 'Meeting happening now re endorsement' with mention of 'Stacey' (likely Stacey Plaskett, USVI delegate) -- linking Kellerhals to both financial operations and political endorsement activity.",
+      "confidence": "confirmed",
+      "id": 1582
+    },
+    {
+      "date": "2016-11-10",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein 20K dataset reveals personal email exchange between Erika Kellerhals and Epstein on election night Nov 10, 2016. Kellerhals emailed jeevacation@gmail.com: first But holy shit you were spot on about trump! then Im so sorry this happened to you. Its terrible. And sad. Epstein responded Its funny, dont lose your sense of humor and offered to meet in person (im in new york tomorrow if you want to speak or ill see you tues). The intimacy and emotional register of this exchange (I am so sorry this happened to you) indicates a relationship far beyond attorney-client -- Kellerhals expressed personal sympathy for Epsteins political concerns and Epstein offered immediate in-person meeting. This is consistent with Kellerhals functioning as a trusted inner-circle member, not merely outside counsel.",
+      "confidence": "confirmed",
+      "id": 2856
+    },
+    {
+      "date": "2017-02-09",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Kellerhals personally arranged meetings between Epstein and Albert Bryan (then-candidate for USVI Governor, subsequently elected Nov 2018). EFTA02366972 (Feb 9, 2017): Kellerhals emails Epstein 'Would you be willing to meet with Albert Bryan? He is the former Commissioner of Labor who is running for Governor.' EFTA02259117/EFTA02259143 (Sep 17, 2018): Groff reminds Epstein that 'Erika Kellerhals is asking if she can make an appt for you with Albert Bryan on Saturday Sept 22 on the island.' Epstein responds 'yes.' EFTA02258216 (Sep 17, 2018): Kellerhals confirms 'I am waiting on Albert to confirm' for meeting at STC. Bryan won USVI gubernatorial election Nov 6, 2018 -- these meetings occurred during his campaign.",
+      "confidence": "high",
+      "id": 2823
+    },
+    {
+      "date": "2017-07-09",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Kellerhals on direct email thread with USVI Governor Kenneth Mapp AND Jeffrey Epstein simultaneously (July 9, 2017). EFTA02343601: Discussion about invoicing issues -- Kellerhals firm had been sending monthly invoices to Peter Hiebert (likely Arthur Hiebert, Winston and Strawn partner) for work apparently done for the USVI government. Governor Mapp intervenes: 'Please do not forward them to Winston and Strewn. I will discuss the matter with them and Art Hiebert will contact you.' This suggests KFK performed legal work for the USVI government while simultaneously serving as Epstein's USVI corporate attorney, with Epstein CC'd on government billing communications.",
+      "confidence": "high",
+      "id": 2824
+    },
+    {
+      "date": "2018-03-14",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Kellerhals had meetings on Capitol Hill in Washington DC while also managing Epstein's USVI corporate infrastructure. EFTA02239485 (Mar 14, 2018): Kellerhals responds to Lesley Groff's request for Epstein call with 'I am in some meetings on the Hill - which will take up most of my day.' This positions Kellerhals not merely as a local USVI attorney but as someone conducting DC political business, consistent with her role arranging meetings with gubernatorial candidates and sitting governors.",
+      "confidence": "high",
+      "id": 2825
+    },
+    {
+      "date": "2018-07-09",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Articles of Incorporation for Financial Strategy Group Ltd (later renamed Southern Country International Ltd) found in EFTA01265913 reveal this entity was designed to operate as an international banking entity under USVI Code Title 9 Chapter 25 (Economic Development Commission program). Incorporators: Erika A. Kellerhals, Brett A. Geary (confirming middle initial A), Nicole Miller. Authorized capital: 1,000,000 shares at 5.00 par value, minimum 500K to commence. Registered agent: Business Basics LLC (pre-VI naming). Filed with USVI Division of Corporations, Certificate of Good Standing issued July 9, 2018 (under new name Southern Country International Ltd). Corp No. 584624. The international banking entity designation is significant -- it suggests Epstein sought to establish a licensed banking operation in USVI, not merely a trust company or holding structure.",
+      "confidence": "confirmed",
+      "id": 2854
+    },
+    {
+      "date": "2018-09-04",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein organization conducted background check on Kellerhals. EFTA01297950 contains what appears to be a web search results page with query 'Erika Kellerhals AND allegation OR arrest OR bribe OR convict OR corrupt OR court' -- standard due diligence search. Results reference Anne Carter Fund NVFCP donations and show annotation 'Confirmed, no adverse information in web result - Mayor Rathod - 09/04/2018.' This suggests Epstein's team vetted Kellerhals as late as September 2018, 10 months before his arrest, indicating she was being assessed for expanded responsibilities or ongoing trust verification.",
+      "confidence": "medium",
+      "id": 2833
+    },
+    {
+      "date": "2018-11",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Kellerhals was paid directly by Epstein via checks from Deutsche Bank Trust Company Americas account. Multiple checks from Jeffrey Epstein 6100 Red Hook Quarter B3 St Thomas USVI to Kellerhals Ferguson found in bank records. She also handled real estate deal requiring wire transfer (Nov 2018 - Deal is done. Need wire), and managed a Dutch transaction requiring translation (Oct 2015 - translated into Dutch for the seller).",
+      "confidence": "high",
+      "id": 334
+    },
+    {
+      "date": "2018-11",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Richard Kahn explicitly confirmed in Nov 2018 Deutsche Bank internal email (EFTA01373347) that Kellerhals, despite holding Secretary and Treasurer titles for Epstein Virgin Islands Foundation Inc., does NOT have signing authority on the brokerage account. Email chain: Bradley Gitlin (DB) forwarded to Vijay Sawant re rejection of corporate authorization documents. Kahn responded that Kellerhals has no signing authority. This establishes Kellerhals held nominal corporate officer titles across Epstein entities but actual financial control remained with Kahn and Indyke. Kellerhals functioned as a firewall layer -- visible on corporate documents but without real transactional authority over accounts.",
+      "confidence": "high",
+      "id": 2848
+    },
+    {
+      "date": "2018-11-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Kellerhals arranged political endorsement and requested wire transfer from Epstein on same day (Nov 14, 2018). EFTA02616202: Full email chain -- 9:52 AM Kellerhals to Epstein: 'Meeting happening now re endorsement. Will call you after. Spoke to Stacey. She and I are good.' Epstein responds 'ok.' At 4:31 PM Kellerhals: 'I tried you. Deal is done. Need wire :)' -- This occurred 8 days after the Nov 6, 2018 USVI election where Albert Bryan won the governorship. 'Stacey' likely refers to Stacey Plaskett (USVI Delegate to Congress). The sequence endorsement-meeting -> deal-done -> wire-request strongly suggests Epstein funding political activity through Kellerhals as intermediary.",
+      "confidence": "high",
+      "id": 2841
+    },
+    {
+      "date": "2018-11-20",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein gave Kellerhals personal gifts including luxury Apple Watch bands. EFTA02264321 (Nov 20, 2018): Intermediary tells Kellerhals 'Anything you want\\! Jeffrey says it is your gift and whatever you want you can have\\! (So nice\\! Including Hermes\\!)' in response to Kellerhals asking which leather Apple Watch bands she could choose from. This is 8 months before Epstein's arrest and demonstrates personal gift-giving relationship beyond professional attorney-client fees.",
+      "confidence": "high",
+      "id": 2826
+    },
+    {
+      "date": "2019-02-05",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "DOJ Vol 11 email EFTA02274532 (Feb 5, 2019) reveals Epstein had a meeting with Governor Albert Bryan at Kellerhals office on Feb 7, 2019. Coordinated by Cecile de Jongh (former USVI First Lady, wife of former Gov. John de Jongh). Email from de Jongh states: 'JE has a 2PM meeting on Thursday, February 7th at Erika Kellerhals St. Thomas office with Governor Bryan. POC is Erika.' The meeting took place at KFK Royal Palms Professional Building. This occurred just 5 months before Epstein's arrest (July 6, 2019) and during the period when Bryan had already been inaugurated as governor (Jan 7, 2019). Bryan previously oversaw the USVI agency that granted nearly $300M in illicit tax credits to Epstein's company. This is separate from the Kellerhals-Mapp OPSEC email (EFTA02486512, Sep 23, 2015) where Kellerhals warned Epstein about Governor Mapp, saying 'don't mention Cecile and John' and that Mapp might do 'something stupid or criminal.'",
+      "confidence": "confirmed",
+      "id": 2838
+    },
+    {
+      "date": "2019-08-08",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Kellerhals filed an affidavit in the Epstein will probate stating she knows of no other 'will or codicil of Jeffrey E. Epstein' and that Epstein personally sent her a copy of the will before his death. The will was signed August 8, 2019 (two days before Epstein's death August 10, 2019), creating 'The 1953 Trust' (year of Epstein's birth). KFK PLLC was appointed by co-executors Indyke and Kahn to accept service of probate documents because Indyke lives in Florida and Kahn in New York. The will was filed in USVI Superior Court. Kellerhals' role as the attorney who vouched for the will's authenticity and provided the sole known affidavit about its provenance is distinct from her registered agent role -- it placed her at the center of the $577M estate transfer mechanism.",
+      "confidence": "high",
+      "id": 2846
+    },
+    {
+      "date": "2026-01",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Erika A. Kellerhals professional profile: B.A. from St. Peter's University, J.D. from Brooklyn Law School, LL.M. in Taxation from NYU. Bar admissions: New York (2001), U.S. Virgin Islands, Florida, England & Wales, United States Tax Court. Pre-USVI career: boutique New York tax firm serving ultra-wealthy individuals and closely held corporations. Relocated to USVI in 2003, worked at Law Offices of Marjorie Rawls Roberts P.C. (major USVI tax/EDC firm). Founded own practice 2008. Co-founded Kellerhals Ferguson LLP 2011 with Greg Ferguson (former co-worker at Roberts). Firm evolved to Kellerhals Ferguson Kroblin PLLC (adding Christopher Kroblin, litigator). New entity Kellerhals Law P.C. formed Jan 2026 (solo PC, same address). KFK affiliated with Solomon Blum Heymann LLP (AV-rated Wall Street firm) and has NY office at 40 Wall Street 35th Floor. KFK handles EDC program (30+ years experience claimed), real estate, banking, probate. Also listed as 'Of Counsel' William L. Blum (international tax), Shari D'Andrade (former USVI Asst AG, litigator).",
+      "confidence": "high",
+      "id": 2836
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2823,
+      2853,
+      334,
+      2838,
+      332,
+      2831,
+      336,
+      2832,
+      2828,
+      2849,
+      2850,
+      2854
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "USVI"
+      ],
+      "officers": [
+        {
+          "role": "secretary",
+          "entity": "Gratitude America Ltd",
+          "start": "2012",
+          "end": "2019"
+        },
+        {
+          "role": "treasurer",
+          "entity": "Gratitude America Ltd",
+          "start": "2017",
+          "end": "2019"
+        },
+        {
+          "role": "partner",
+          "entity": "Kellerhals Ferguson LLP",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "officer",
+          "entity": "Enhanced Education",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "officer",
+          "entity": "J. Epstein Virgin Islands Foundation",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "officer",
+          "entity": "VIFFO, LLC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 1,
+          "name": "Gratitude America Ltd",
+          "type": "nonprofit",
+          "jurisdiction": "USVI",
+          "role": "secretary"
+        },
+        {
+          "id": 115,
+          "name": "Kellerhals Ferguson LLP",
+          "type": "partnership",
+          "jurisdiction": "USVI",
+          "role": "partner"
+        },
+        {
+          "id": 19,
+          "name": "Enhanced Education",
+          "type": "unknown",
+          "jurisdiction": null,
+          "role": "officer"
+        },
+        {
+          "id": 3,
+          "name": "J. Epstein Virgin Islands Foundation",
+          "type": "foundation",
+          "jurisdiction": "USVI",
+          "role": "officer"
+        },
+        {
+          "id": 229,
+          "name": "VIFFO, LLC",
+          "type": "llc",
+          "jurisdiction": "USVI",
+          "role": "officer"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          2823,
+          2824,
+          3471
+        ],
+        "connection_ids": [
+          35,
+          269,
+          284,
+          727,
+          1425,
+          1429,
+          1430,
+          1435,
+          1436,
+          1437,
+          1438,
+          1440,
+          1443,
+          1448,
+          1716
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          2837,
+          2832,
+          2851,
+          334,
+          2848,
+          2841,
+          2826
+        ],
+        "connection_ids": [
+          1435,
+          1448,
+          336
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure",
+        "viz": null,
+        "finding_ids": [],
+        "connection_ids": [
+          35,
+          269,
+          727,
+          1425,
+          1438,
+          1443
+        ],
+        "guidance": "Narrative about corporate entities, roles, jurisdictions. Explain the structure and its purpose, not just list entities."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1490,
+          505,
+          513,
+          332,
+          338,
+          2849,
+          2846,
+          511
+        ],
+        "connection_ids": [
+          284
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          336,
+          2844,
+          2833,
+          2838,
+          1501,
+          2840
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          2831,
+          2828,
+          2853,
+          1582,
+          2856,
+          2825
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:40:13.112344",
+    "lead": "<p>Erika A. Kellerhals is a U.S. Virgin Islands tax attorney who served as <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>&rsquo;s primary local counsel in the territory from at least 2009 until his death in August 2019. Operating through her firm Kellerhals Ferguson Kroblin PLLC (later Kellerhals Law P.C.) at 9053 Estate Thomas, Suite 101, St. Thomas, Kellerhals held officer positions across at least five Epstein entities&mdash;including Secretary and Treasurer of <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a>, officer at J. Epstein Virgin Islands Foundation, and officer at <a href=\"/dossiers/enhanced-education\">Enhanced Education</a>. Trained with an LL.M. in Taxation from NYU, a J.D. from Brooklyn Law School, and bar admissions in New York, the USVI, Florida, England &amp; Wales, and United States Tax Court, Kellerhals brought precisely the international tax expertise required to structure Epstein&rsquo;s offshore-domestic hybrid corporate architecture. She was the attorney who drafted Epstein&rsquo;s Industrial Development Certificate applications and managed his Economic Development Commission tax benefits&mdash;the program through which Epstein obtained substantial exemptions from USVI income tax.</p><p>Documentary evidence from the DOJ EFTA release and House Oversight Committee records reveals that Kellerhals functioned well beyond the scope of a typical registered agent or outside counsel. She negotiated real estate acquisitions on Epstein&rsquo;s behalf (devising bid strategies for St. Thomas properties), managed island construction permitting, oversaw staff transitions, coordinated meetings between Epstein and sitting USVI Governor Kenneth Mapp and then-gubernatorial candidate Albert Bryan, and conducted &ldquo;meetings on the Hill&rdquo; in Washington, D.C. Her September 2015 warning to Epstein&mdash;&ldquo;Be careful about everything. Definitely don&rsquo;t mention Cecile and John. Honestly I wish I could say he wasn&rsquo;t going to do something stupid or criminal but I can&rsquo;t say that&rdquo; (EFTA02486512)&mdash;demonstrates operational awareness and political intelligence that exceeded standard legal advice. <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> formally screened her as a related person in its KYC/AML review of Epstein accounts (GCIS ID 11593661, October 2016), placing her in the same compliance pipeline as <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> and <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>.</p><p>Following Epstein&rsquo;s death, Kellerhals filed the sole affidavit vouching for the authenticity of his will&mdash;signed August 8, 2019, two days before his death&mdash;which created The 1953 Trust to hold his estimated $577 million estate. Kellerhals Ferguson Kroblin PLLC was appointed to accept service of probate documents in USVI Superior Court. Despite her deep integration into Epstein&rsquo;s USVI operations, Kellerhals was notably excluded from the $105 million settlement between the USVI Attorney General and the Epstein estate: neither she nor <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI LLC</a> (the registered agent entity she oversaw) were named as defendants. No criminal charges related to Epstein&rsquo;s activities have been brought against her. She continues to practice law from St. Thomas as of 2026.</p>",
+    "open_questions": [
+      "What was the full scope of legal work Kellerhals Ferguson Kroblin performed for the USVI government while simultaneously serving as Epstein's USVI attorney, and was Epstein CC'd on other government billing communications beyond the July 2017 Governor Mapp email thread?",
+      "Who are 'Cecile and John' (likely Cecile and John de Jongh) and what was the specific political operation that Kellerhals warned Epstein to conceal from Governor Mapp in September 2015, and what was the 'something stupid or criminal' she anticipated?",
+      "What was the 'deal' that was 'done' on November 14, 2018 requiring a wire transfer from Epstein, and what was the 'endorsement' meeting that preceded it -- does this represent direct Epstein financing of USVI political activity through Kellerhals?",
+      "Why was Kellerhals excluded from the USVI AG's civil action despite her deep operational integration, and did she provide cooperation or testimony in exchange for non-inclusion as a defendant?",
+      "What was the purpose of Epstein's organization conducting a background check on Kellerhals as late as September 2018, searching for 'allegation OR arrest OR bribe OR convict OR corrupt OR court' -- was she being vetted for expanded responsibilities or was trust being re-evaluated?"
+    ],
+    "system_role": "Kellerhals illustrates the role of the jurisdictional specialist attorney as a one-person enabling infrastructure: she simultaneously managed corporate formation, tax benefit applications, real estate transactions, government relations, and political access in the USVI, providing Epstein with a complete local operations layer that insulated his New York-based inner circle from territorial regulatory and political environments.",
+    "sections": [
+      {
+        "id": "background-and-career",
+        "title": "Background and Career",
+        "content": "<p>Erika A. Kellerhals holds a B.A. from St. Peter&rsquo;s University, a J.D. from Brooklyn Law School, and an LL.M. in Taxation from New York University. Before relocating to the U.S. Virgin Islands in 2003, she practiced at Solomon Blum Heymann LLP, an AV-rated boutique Wall Street tax firm specializing in ultra-wealthy individuals and closely held corporations. In the USVI, she initially worked at the Law Offices of Marjorie Rawls Roberts P.C., a prominent local firm specializing in EDC tax incentive programs and estate planning. She founded her own practice, Erika A. Kellerhals P.C., in 2008, and in 2011 co-founded Kellerhals Ferguson LLP with Greg Ferguson, a former colleague from the Roberts firm. The partnership evolved into Kellerhals Ferguson Kroblin PLLC with the addition of Christopher Kroblin, a litigator. In January 2026, Kellerhals formed a new solo entity, Kellerhals Law P.C., at the same Royal Palms Professional Building address.</p><p>Kellerhals holds bar admissions in New York (2001), the U.S. Virgin Islands, Florida, England &amp; Wales, and the United States Tax Court. Her firm&rsquo;s specialization in individual, corporate, partnership, and international taxation&mdash;combined with deep familiarity with the USVI&rsquo;s Economic Development Commission program&mdash;made her precisely the kind of practitioner that Epstein&rsquo;s offshore-domestic structure required. She also served on the board of the St. Thomas-St. John Chamber of Commerce, integrating her into the local business establishment. The firm maintains a New York office at 40 Wall Street, 35th Floor, and an affiliation with <a href=\"/dossiers/solomon-blum-heymann-llp\">Solomon Blum Heymann LLP</a>, with Kellerhals listed as Of Counsel at the New York firm.</p>",
+        "viz": null
+      },
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "content": "<p>Kellerhals&rsquo;s primary professional relationship was with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> himself, documented across more than twenty emails spanning 2015 to 2019. Communications were frequently mediated through <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>, Epstein&rsquo;s executive assistant, with subject lines reading &ldquo;Jeffrey Epstein&rdquo; or &ldquo;Quick call with JEE.&rdquo; But the tone of direct exchanges between Kellerhals and Epstein reveals a relationship extending beyond attorney-client formality. Two days after the 2016 presidential election, Kellerhals emailed Epstein: &ldquo;But holy shit you were spot on about trump!&rdquo; followed by &ldquo;I am so sorry this happened to you. It is terrible. And sad.&rdquo; Epstein responded casually: &ldquo;its funny, dont lose your sense of humor&rdquo; (HOUSE_OVERSIGHT_032348). In November 2018, Epstein offered Kellerhals luxury Apple Watch bands through an intermediary: &ldquo;Anything you want! Jeffrey says it is your gift and whatever you want you can have! (So nice! Including Hermes!)&rdquo; (EFTA02264321). These personal exchanges indicate trust and familiarity consistent with inner-circle membership.</p><p>Within the Epstein corporate hierarchy, Kellerhals worked in parallel with <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> and <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>, though with clearly defined jurisdictional boundaries. Kellerhals and Indyke co-occur in 82 LMSBAND files and shared officer positions across <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a>, J. Epstein Virgin Islands Foundation, and <a href=\"/dossiers/enhanced-education\">Enhanced Education</a>. However, Kahn explicitly confirmed in November 2018 that Kellerhals &ldquo;does not have signing authority&rdquo; on the brokerage account of the Epstein Virgin Islands Foundation, despite her Secretary and Treasurer titles (EFTA01373347). This compartmentalization&mdash;visible on corporate documents but excluded from actual transactional control&mdash;is consistent with Kellerhals serving as the local legal infrastructure layer while New York-based Indyke and Kahn retained financial authority.</p><p>Kellerhals also maintained a close working relationship with Brett Geary, operator of <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI LLC</a>, the registered agent entity that served as the front door for more than twenty Epstein USVI entities. Both shared the same office address at 9053 Estate Thomas, Suite 101, and co-signed as incorporators on multiple Epstein entities beginning in November 2011 (Nautilus Inc, Maple Inc, Laurel Inc). The Kellerhals-Geary-BBVI nexus formed the operational backbone of Epstein&rsquo;s USVI corporate presence.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "usvi-corporate-and-tax-work",
+        "title": "USVI Corporate and Tax Work",
+        "content": "<p>Kellerhals&rsquo;s earliest documented work for Epstein dates to June 2009, when she authored the FTC/EDC response to a determination letter regarding Epstein&rsquo;s Industrial Development Certificate benefits (GRM Master Filing Index, page 6). The IDC program provided substantial tax advantages to qualifying USVI businesses, including reduced gross receipts tax and exemption from USVI income tax. Kellerhals was the attorney who managed these applications and compliance filings&mdash;work that went well beyond merely registering corporate entities.</p><p>She advised Epstein on USVI residency requirements, informing him in August 2015 that 153 days in the territory would &ldquo;still not be a resident&rdquo; (EFTA02488622). In June 2013, she advocated for dynasty trust legislation in the USVI&mdash;&ldquo;We need dynasty trust legislation here in the USVI&rdquo; (EFTA02370395)&mdash;suggesting an effort to make the territory more favorable for Epstein&rsquo;s long-term wealth structures. She researched residency for naturalization under INA Section 319(a) in September 2013 and later analyzed the tax implications of the 2017 &ldquo;Chapo&rdquo; tax law changes.</p><p>Kellerhals served as incorporator for Financial Strategy Group Ltd (later renamed <a href=\"/dossiers/southern-country-international-ltd\">Southern Country International Ltd</a>), an entity designed to operate as an international banking entity under USVI Code Title 9, Chapter 25 (EFTA01265913). The articles authorized 1,000,000 shares at $5.00 par value with a $500,000 minimum to commence operations. This entity&rsquo;s designation as an international banking entity is significant&mdash;it indicates that Epstein, through Kellerhals, sought to establish a licensed banking operation in the USVI, not merely a trust company or holding structure. A Certificate of Good Standing was issued under the new name Southern Country International Ltd on July 9, 2018.</p>",
+        "viz": null
+      },
+      {
+        "id": "political-influence-and-government-relations",
+        "title": "Political Influence and Government Relations",
+        "content": "<p>Documentary evidence establishes Kellerhals as Epstein&rsquo;s primary interface with USVI political leadership. In February 2017, she emailed Epstein: &ldquo;Would you be willing to meet with Albert Bryan? He is the former Commissioner of Labor who is running for Governor&rdquo; (EFTA02366972). In September 2018, during Bryan&rsquo;s gubernatorial campaign, she arranged another meeting at Epstein&rsquo;s <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company</a> offices on St. Thomas (EFTA02259117). Bryan won the election on November 6, 2018. Eight days later, on November 14, Kellerhals emailed Epstein: &ldquo;Meeting happening now re endorsement. Will call you after. Spoke to Stacey. She and I are good.&rdquo; Later that afternoon: &ldquo;I tried you. Deal is done. Need wire :)&rdquo; (EFTA02616202). The juxtaposition of an endorsement meeting, a reference to &ldquo;Stacey&rdquo; (likely USVI Delegate Stacey Plaskett), and a wire transfer request on the same day suggests Epstein funding political activity through Kellerhals as intermediary.</p><p>After Bryan&rsquo;s inauguration in January 2019, Kellerhals hosted an Epstein-Bryan meeting at her law office on February 7, 2019&mdash;just five months before Epstein&rsquo;s arrest. The meeting was coordinated by Cecile de Jongh, former USVI First Lady and wife of former Governor John de Jongh (EFTA02274532). According to RealClearInvestigations, Bryan subsequently requested the USVI Justice Department provide Epstein with a sex offender registry waiver. Kellerhals&rsquo;s relationship with the de Jonghs was politically sensitive: in September 2015, she had warned Epstein regarding then-Governor Kenneth Mapp, &ldquo;Definitely don&rsquo;t mention Cecile and John. Honestly I wish I could say he wasn&rsquo;t going to do something stupid or criminal but I can&rsquo;t say that. He&rsquo;s a wild card&rdquo; (EFTA02486512). Kellerhals also appeared on a direct email thread with Governor Mapp and Epstein simultaneously in July 2017, discussing invoicing for legal work her firm had apparently performed for the USVI government (EFTA02343702).</p><p>FEC records document Kellerhals&rsquo;s bipartisan political donation pattern: approximately $13,000 in federal contributions from 2009 to 2023, with the largest share ($7,632) directed to Stacey Plaskett&rsquo;s campaigns via Virgin Islands for Plaskett and ActBlue. Other recipients included Beto O&rsquo;Rourke ($2,700), the DCCC ($2,500), Mitch McConnell ($1,000), Charles Rangel ($1,000), and Maggie Hassan ($500). The Plaskett donations are particularly significant because <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> and <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> also donated to Plaskett, creating a documented pattern of coordinated Epstein-network political giving to the USVI delegate. Kellerhals additionally donated $1,000 to Bryan&rsquo;s territorial gubernatorial campaign, which does not appear in federal FEC data. She had no FARA registrations or LDA lobbying disclosures despite her documented meetings &ldquo;on the Hill&rdquo; in Washington, D.C. (EFTA02239485, March 2018).</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity and Deutsche Bank",
+        "content": "<p>Kellerhals was paid directly by Epstein via checks drawn on <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> Trust Company Americas, issued from Jeffrey Epstein&rsquo;s account at 6100 Red Hook Quarter B3, St. Thomas, USVI, and made payable to Kellerhals Ferguson (EFTA01292472). Beyond legal fees, she actively negotiated real estate transactions on Epstein&rsquo;s behalf. In September 2015, Epstein emailed her a detailed bid strategy for a St. Thomas property: &ldquo;knowing da mour, I would first bid cash of 10 plus a note of 5. they will come back at 20. then we bid 10 cash plus a note of 6 they will agree I think to 10 cash and a note of 7-8, then we offer all cash of 15.&rdquo; Kellerhals responded: &ldquo;LOL &mdash; I woke thinking about this. Sounds like a plan&rdquo; (EFTA02344089). In October 2015, she reported on another transaction: &ldquo;expecting contract shortly then the real fun begins&rdquo; with &ldquo;chris, my litigator, is waiting to review the contract&rdquo; (EFTA02349311). She also managed a Dutch-language property transaction that same month (EFTA02342425).</p><p>Deutsche Bank performed a formal KYC/compliance screening of Kellerhals on October 12, 2016 (EFTA01363310). Her GCIS ID was 11593661; the OFAC check returned no match; LexisNexis found one public record; BIS screening found no negative, non-negative, or foreign-language media. The PCR case was auto-closed as no-hit. This screening placed Kellerhals in the same compliance review pipeline as Indyke and Kahn&mdash;the bank treated her as a related person for Epstein account management rather than as an independent outside professional. She also appeared on Deutsche Bank account-opening documents for the Butterfly entity in October 2018, listed alongside inner-circle figures including Indyke, Kahn, and the Bellers.</p><p>Despite holding Secretary and Treasurer titles for the Epstein Virgin Islands Foundation, Kellerhals had no signing authority on its brokerage account. <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> made this explicit in a November 2018 internal Deutsche Bank email: &ldquo;please note that Erika Kellerhals who is secretary and treasurer does not have signing authority on this account&rdquo; (EFTA01373347). This structural arrangement&mdash;corporate titles without financial authority&mdash;suggests Kellerhals was positioned as a compliance-facing layer for USVI entities while actual control remained centralized in New York.</p>",
+        "viz": null
+      },
+      {
+        "id": "island-operations-management",
+        "title": "Island Operations Management",
+        "content": "<p>Email evidence demonstrates that Kellerhals managed Epstein&rsquo;s day-to-day USVI operations far beyond what her corporate attorney title would suggest. She handled WAPA utility matters and island electricity for staff named Danny and Bryan (EFTA02471784, February 2016). She managed construction permitting, submitting architect letters and signed cistern permits for the island properties (EFTA02668260, December 2016). She oversaw staff transitions, including caretaker changes that required Epstein&rsquo;s personal approval: &ldquo;no i want a transition asap but i want to understand everything before change&rdquo; (EFTA02476178, January 2016). She also managed the VIFFO LLC real estate entity, handling list price inquiries in December 2015 (EFTA02549898).</p><p>Calendar entries from <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>&rsquo;s scheduling emails confirm regular in-person meetings between Kellerhals and Epstein at the <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company</a> offices on St. Thomas. On January 12, 2016, Kellerhals had a 1:00 PM meeting at STC the same day Epstein conducted a 3:30 PM conference call regarding <a href=\"/dossiers/apollo-global-management\">Apollo Global Management</a>&rsquo;s Josh Black with Perry Lerner and Chris Calise (EFTA02362419). Additional STC meetings are documented on March 27, 2018 (EFTA02240988) and June 5, 2019 (EFTA02290205)&mdash;the latter occurring just one month before Epstein&rsquo;s arrest. The frequency of these meetings increased in 2018-2019, during the period when Epstein was under renewed federal scrutiny following the Miami Herald&rsquo;s &ldquo;Perversion of Justice&rdquo; series.</p>",
+        "viz": null
+      },
+      {
+        "id": "will-and-estate-role",
+        "title": "The Will and Estate Proceedings",
+        "content": "<p>Kellerhals played a singular role in the legal formalities surrounding Epstein&rsquo;s death. She filed the only known affidavit attesting to the authenticity of Epstein&rsquo;s will, which was signed on August 8, 2019&mdash;two days before his death at the Metropolitan Correctional Center. The will created &ldquo;The 1953 Trust&rdquo; (referencing Epstein&rsquo;s birth year) to hold his estimated $577 million estate. In her affidavit, Kellerhals stated that she knew of no other will or codicil and that Epstein had personally sent her a copy before his death. This placed her at the center of the mechanism through which Epstein&rsquo;s assets were transferred to the trust structure, a role distinct from her registered agent function.</p><p>KFK PLLC was appointed by co-executors <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> and <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> to accept service of probate documents in USVI Superior Court, as Indyke resided in Florida and Kahn in New York. Despite this central role in the estate proceedings, Kellerhals was not named as a defendant in the USVI Attorney General&rsquo;s lawsuit against the Epstein estate, which named ten Epstein-created entities as co-defendants alongside Indyke and Kahn. Neither Kellerhals nor <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI LLC</a> faced legal action in connection with the $105 million settlement.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "enabler-gradient",
+      "jurisdictional-arbitrage",
+      "bridge-tax",
+      "narrative-shield",
+      "complexity-as-credential"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Erika Kellerhals",
+      "connections": [
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02550717",
+          "description": "Kellerhals served as Secretary (2012-2019) and also Treasurer (2017-2019). Attorney at Kellerhals Ferguson LLP in USVI. Handled articles of incorporation, director appointments, and book-keeping. Repeatedly requested director names for the foundation."
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01295202",
+          "description": "Both officers on Gratitude America Ltd, JEVIF, Enhanced Education. Co-occur in 82 LMSBAND files. Contact info listed together on KYC documents."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02370395",
+          "description": "USVI attorney through Kellerhals Ferguson Kroblin PLLC. Advised on residency, dynasty trusts, naturalization, tax strategy. Handled real estate deals, property management. Officer on Gratitude America, JEVIF, Enhanced Education."
+        },
+        {
+          "target": "Business Basics VI LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "USVI:582110",
+          "description": "Kellerhals is registered agent for Business Basics VI LLC (USVI 582110, Jan 2012). Business Basics serves as registered agent for 20+ Epstein USVI entities. Agent email all@bizusvi.com. Both at 9053 Estate Thomas Suite 101."
+        },
+        {
+          "target": "Brett Geary",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01266724",
+          "description": "Brett Geary and Erika Kellerhals are co-incorporators of multiple Epstein USVI entities, with Geary serving as 'business consultant' organizer and Kellerhals as attorney. Both listed as incorporators in Articles of Incorporation (e.g., Nautilus Inc, Maple Inc, Laurel Inc — all Nov 2011). Geary operates through BBVI (brett@bizusvi.com) while Kellerhals was the law firm principal (Kellerhals Ferguson LLP, later Kellerhals Ferguson Kroblin PLLC). They share the Royal Palms Professional Building address at 9053 Estate Thomas Suite 101."
+        },
+        {
+          "target": "Albert Bryan",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02258216",
+          "description": "Kellerhals arranged personal meetings between Epstein and Bryan (USVI gubernatorial candidate, later Governor) at STC in Feb 2017 and Sep 2018 during Bryan's campaign"
+        },
+        {
+          "target": "Kenneth Mapp",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02343601",
+          "description": "Kellerhals on direct email thread with USVI Governor Mapp AND Epstein simultaneously (July 2017) discussing KFK firm invoicing for apparent government legal work"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02264321",
+          "description": "Kellerhals requested wire transfer from Epstein after completing a 'deal' and 'endorsement' meeting (Nov 14, 2018). Pattern of personal gifts (Apple Watch Hermes), direct payment via DB checks, and now wire transfer requests shows Kellerhals as financial conduit, not just registered agent."
+        },
+        {
+          "target": "Albert Bryan",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02274532",
+          "description": "Kellerhals hosted Epstein-Bryan meeting at KFK office (Feb 7, 2019). Donated $1,000 to Bryan's 2018 gubernatorial campaign. Bryan requested USVI DOJ provide Epstein sex offender registry waiver. Meeting coordinated by Cecile de Jongh."
+        },
+        {
+          "target": "Stacey Plaskett",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "FEC Schedule A",
+          "description": "Kellerhals donated $7,631.83 to Plaskett campaigns (2013-2021) via Virgin Islands for Plaskett and ActBlue. LittleSis maps this as a direct donation relationship. Plaskett previously worked at Kellerhals Ferguson Kroblin PLLC (per RealClearInvestigations). Plaskett is USVI Delegate to Congress."
+        },
+        {
+          "target": "Solomon Blum Heymann LLP",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://www.solblum.com/attorney/erika-kellerhals/",
+          "description": "Kellerhals holds Of Counsel position at Solomon Blum Heymann LLP (AV-rated Wall Street firm). KFK PLLC and SBH are affiliated firms. SBH provides tax and business law expertise from its NYC base, complementing KFK's USVI operations."
+        },
+        {
+          "target": "Cecile de Jongh",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02274532",
+          "description": "Cecile de Jongh (former USVI First Lady, wife of former Gov. John de Jongh) coordinated Epstein-Bryan meeting at Kellerhals office (Feb 2019). Kellerhals warned Epstein about Gov. Mapp, saying 'don't mention Cecile and John' (Sep 2015), indicating the de Jongh relationship was politically sensitive and needed protection from rival political faction."
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01298343",
+          "description": "Kellerhals held corporate officer titles (Secretary/Treasurer) across Epstein entities but Kahn explicitly blocked her signing authority on brokerage accounts. Structural compartmentalization: Kellerhals provided local legal infrastructure, Kahn retained NY financial control."
+        },
+        {
+          "target": "Deutsche Bank",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01363310",
+          "description": "DB performed formal KYC screening of Kellerhals (GCIS ID 11593661, Oct 2016) and listed her alongside inner circle (Beller, Indyke, Kahn) in account opening documents for Butterfly entity (Oct 2018). Kellerhals was DB-recognized as a related person for Epstein account management."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #23: Gratitude America Ltd (EIN 66-0789697) incorporated in USVI on April 25, 2012 as a 501(c)(3) private foundation. Registered address: 9053 Estate Thoma"
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02547535",
+          "description": "Both officers on Gratitude America Ltd and JEVIF. Kellerhals copied Kahn on tax conference report analysis (Dec 2017). 10 LMSBAND co-occurrences."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "990:660789697",
+          "description": "Kellerhals is the care-of contact for Gratitude America Ltd on IRS records. She manages the USVI-registered entity holding .175M in frozen assets post-Epstein arrest."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "FL-SunBiz:M13000002984",
+          "description": "USVI-addressed FL entity M13000002984 at 500 Port of Sale Mall St Thomas VI - Kellerhals network"
+        },
+        {
+          "target": "Marcel Kellerhals",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "USVI_Registry:582110",
+          "description": "Shared surname and USVI nexus. Erika is agent for Business Basics VI LLC. Marcel appears in 661 DugganUSA docs referencing Business Basics"
+        },
+        {
+          "target": "Business Basics VI LLC",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Resident agent of BBVI, which served as agent for 15+ Epstein USVI entities"
+        },
+        {
+          "target": "Stacey Plaskett",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02616202",
+          "description": "Kellerhals emailed Epstein Nov 14, 2018: 'Spoke to Stacey. She and I are good.' Same email chain discusses endorsement meeting and requests wire transfer. Context: 8 days post-USVI election."
+        },
+        {
+          "target": "Marjorie Rawls Roberts",
+          "type": "employment",
+          "strength": 0.7,
+          "evidence_ref": "https://www.kellfer.com/attorneys/erika-kellerhals/",
+          "description": "Kellerhals worked at Law Offices of Marjorie Rawls Roberts P.C. after relocating to USVI in 2003, before founding her own firm in 2008. Roberts firm is a major USVI tax/business/estate planning practice. Greg Ferguson (KFK co-founder) was also a co-worker there."
+        },
+        {
+          "target": "Stacey Plaskett",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "FEC-C00528182",
+          "description": "Kellerhals donated approx 4811 to Plaskett (USVI Delegate) from 2016-2021 via Virgin Islands for Plaskett PAC. Part of pattern: Indyke and Groff also donated to Plaskett. Coordinated Epstein-network political giving to USVI representative."
+        },
+        {
+          "target": "Kenneth Mapp",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02464516",
+          "description": "Epstein asked Kellerhals Did you talk with Mapp? then texted USVI Governor Kenneth Mapp directly (Apr 2016). Kellerhals served as intermediary between Epstein and USVI Governor, managing government relations."
+        },
+        {
+          "target": "Solomon Blum Heymann LLP",
+          "type": "employment",
+          "strength": 0.7,
+          "evidence_ref": "LittleSis-349257",
+          "description": "Kellerhals practiced at Solomon Blum Heymann LLP (AV-rated boutique Wall Street tax firm) prior to relocating to USVI in 2003. KFK PLLC maintained affiliation with SBH per BBVI website. This NY law firm connection may explain how Kellerhals entered Epsteins orbit."
+        }
+      ],
+      "secondHop": {
+        "Albert Bryan": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Epstein met with Bryan at STC during Bryan's gubernatorial campaign (2017-2018). Kellerhals served as intermediary arranging meetings. Bryan became USVI Governor Nov 2018."
+          }
+        ],
+        "Brett Geary": [
+          {
+            "target": "Business Basics VI LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Geary associated with Business Basics VI per agent email brett@bizusvi.com on LSJ Emergency LLC. Co-incorporator of Laurel Inc and Poplar Inc with Kellerhals and Ferguson."
+          },
+          {
+            "target": "Gregory Ferguson",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary and Gregory J. Ferguson are co-incorporators of Epstein USVI entities. Both listed in Articles of Incorporation for Nautilus Inc (EFTA01360967), with personal addresses: Geary at 2-11B St. Joseph & Rosendahl, Ferguson at 31-B Peterborg, St. Thomas. Ferguson was a partner in Kellerhals Ferguson LLP (the predecessor resident agent to BBVI). They are also co-incorporators with Nicole Miller in EFTA01387097."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary is the named business contact on Southern Trust Company Inc's USVI business license (EFTA01297594). STC's licensed activity is 'BUSINESS AND MANAGEMENT CONSULTING' (not banking/trust). License period: 12/01/2011-12/31/2018. This positions Geary as the operational contact for Epstein's primary USVI financial vehicle."
+          },
+          {
+            "target": "Financial Infomatics Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary served as one of three incorporators (alongside Erika Kellerhals and Gregory Ferguson) for Financial Infomatics Inc, an Epstein USVI entity. Per EFTA01298278, the corporation was established at 9100 Havensight Port of Sale Suite 15-16, with Kellerhals Ferguson LLP as initial resident agent. Geary's personal address listed as 2-11B St. Joseph and Rosendahl, St Thomas."
+          }
+        ],
+        "Business Basics VI LLC": [
+          {
+            "target": "Kellerhals Ferguson LLP",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "BBVI was purpose-built to replace Kellerhals Ferguson LLP as registered agent for Epstein USVI entities. Documented in formal corporate resolution for Nautilus Inc (EFTA01266733, Sept 13, 2012), signed by Epstein (President) and Indyke (Secretary). BBVI took the same address as KF LLP (9100 Havensight Port of Sale Ste 15-16) before later moving to Royal Palms. The transition separated the law practice from the registered agent function."
+          },
+          {
+            "target": "Kellerhals Ferguson Kroblin PLLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "KFK PLLC is the operating law firm; BBVI LLC is the registered agent entity. Both controlled by Erika Kellerhals. KFK handles litigation and legal advisory; BBVI provides registered agent services for 28+ Epstein entities. Same physical address: Royal Palms Professional Building, 9053 Estate Thomas Suite 101."
+          },
+          {
+            "target": "West Indies Title LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "BBVI and West Indies Title LLC are formally affiliated companies per bizusvi.com. Both operate from the same Royal Palms Professional Building complex in St Thomas. West Indies Title provides title insurance and real estate closing services. This affiliation means the Kellerhals ecosystem handled every aspect of Epstein's USVI real estate transactions: entity formation (BBVI), legal counsel (KFK), and title/closings (West Indies Title)."
+          },
+          {
+            "target": "KFK Strategic Holdings LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "KFK Strategic Holdings LLC (USVI 585923, formed Dec 2015) uses BBVI as its registered agent. KFK is the holding company for the Kellerhals Ferguson Kroblin law firm. This creates a circular dependency: BBVI manages KFK, and KFK PLLC is the affiliated law firm of BBVI."
+          },
+          {
+            "target": "Mermaid Cove LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "BBVI serves as registered agent for Mermaid Cove LLC (DC0100643) at Royal Palms. Still active AR 04/02/2025"
+          }
+        ],
+        "Cecile de Jongh": [
+          {
+            "target": "Enhanced Education",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Cecile de Jongh (wife of USVI Governor John de Jongh) served as intermediary for Enhanced Education charitable donations in USVI, including Humane Society donation ($25K, Mar 2019) and My Brother's Workshop. She liaised with USVI Dept of Education on STEM Fair."
+          }
+        ],
+        "Darren Indyke": [
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Indyke handled legal matters for both Epstein and Black. Conference call details (EFTA02340224) show joint calls between Epstein, Black-related parties, Brad Karp, Brad Wechsler, and Patrick Fenn."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Indyke served as Treasurer (2012-2015) then Vice President/Director (2017-2019). Signed account closure letter Jan 10, 2019. Address: 575 Lexington Ave 4th Floor NYC then 9053 Estate Thomas USVI. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "In-house attorney at Southern Financial LLC for 15+ years. Secretary at STC, Authorized Signatory at SFL. Co-executor of estate. Beneficiary of Butterfly Trust. Trustee of 1953 Trust and Epstein 2019 Trust."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-beneficiaries of Butterfly Trust. Co-trustees of 1953 Trust. Co-executors of estate. Both at 575 Lexington Ave 4th Floor. Co-occur in 830 LMSBAND files."
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Indyke corresponded extensively with Oldfield at Deutsche Bank on Prytanee LLC, CDD forms, account management. 381 LMSBAND co-occurrences."
+          }
+        ],
+        "Deutsche Bank": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank Trust Company Americas was primary banking relationship for GA. Account managed by Stewart Oldfield. KYC case #01353080. Part of the SOUTHERN FINANCIAL RELATIONSHIP umbrella with Mort Inc. GA account changed to Inactive Prospect after all accounts closed."
+          },
+          {
+            "target": "Enhanced Education",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank held Enhanced Education brokerage account managed by Ted Serure. Account underwent KYC/AML review 2018-2019. DB compliance flagged the Enhanced Education trade name for due diligence. Account closed Feb 2019."
+          },
+          {
+            "target": "The Limited Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment — same bank that later maintained Epstein's accounts (RM 82289)"
+          },
+          {
+            "target": "The Limited Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility"
+          },
+          {
+            "target": "Robert Rankin",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Rankin was head of Deutsche Bank Asia-Pacific, later Crown Resorts executive chairman"
+          }
+        ],
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2009",
+        "label": "FEC records document Erika Kellerhals political donations totaling $13,131.83 from 2009-2023. Largest recipient: Stacey Plaskett (USVI Delegate) via Virgin Islands for Plaskett and ActBlue, totaling $7,631.83 across 9 contributions (2013-2021). Other recipients: Beto O'Rourke $2,700 (2018), DCCC $2,500 (2015), Mitch McConnell $1,000 (2015), Bill PAC $500 (2015), Charles Rangel $1,000 (2009), Maggie Hassan $500 (2021), and MR. SOUTHERN MISSOURIAN IN THE HOUSE PAC $500 (2023). All donations list employer as Kellerhals Ferguson Kroblin, occupation Attorney, address St Thomas VI. The bipartisan donation pattern (McConnell + DCCC + Democratic candidates) is consistent with influence-building across party lines, a pattern also seen in Epstein's own bundling network. RealClearInvestigations reports Kellerhals also donated $1,000 to Governor Bryan's 2018 gubernatorial campaign (not in federal FEC data as territorial race).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2837
+      },
+      {
+        "date": "2009-06-23",
+        "label": "Erika Kellerhals filed FOIA lawsuit against the IRS in 2009 (USVI District Court 3:09-cv-00090, filed 6/23/2009, terminated 10/12/2011, Judge Curtis v. Gomez). This was a Freedom of Information Act case (NOS code 895, cause 05:552). Filed under 'Erika A. Kellerhals, P.C.' -- her individual professional corporation. This indicates Kellerhals had disputes with the IRS regarding information disclosure, potentially related to client tax matters or her own practice. The timing (2009) predates her known Epstein engagement (the first documented Epstein entity filing with Kellerhals as incorporator is Laurel Inc on 11/22/2011). The case was terminated after 2+ years, suggesting either settlement or dismissal.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1490
+      },
+      {
+        "date": "2009-06-23",
+        "label": "Erika A. Kellerhals biographical profile compiled from LittleSis (entity 349257) and CourtListener. Education: LL.M. in Taxation from NYU, J.D. from Brooklyn Law School, B.A. from St. Peters University. Career: practiced at Solomon Blum Heymann LLP (boutique NY tax firm), relocated to USVI in 2003, worked at Law Offices of Marjorie Rawls Roberts P.C., launched own firm (Erika A. Kellerhals P.C.) in 2008, formed Kellerhals Ferguson LLP in 2011 with Greg Ferguson (former co-worker at Roberts firm). Kellerhals P.C. filed FOIA lawsuit against IRS in D.V.I. (3:09-cv-00090, filed 6/23/2009, terminated 10/12/2011). Personal address: 2E-19 Estate Caret Bay, St. Thomas VI 00802 (per EFTA01360967). Board member of St. Thomas-St. John Chamber of Commerce. Tax specialization in individual, corporate, partnership, and international taxation -- precisely the skillset needed for Epstein's offshore-domestic hybrid structure.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2850
+      },
+      {
+        "date": "2009-06-29",
+        "label": "Kellerhals wrote the FTC/EDC response to determination letter regarding Epstein's industrial development certificate (IDC) benefits in June 2009. Per GRM Master Filing Index (investigations.db doc 81, page 6): physical filing labeled 'FTC Response to Determination Letter from the EDC (written by Erika Kellerhals) June 29, 2009.' Kellerhals also handled IDC compliance memos. The IDC program provided substantial tax benefits to Epstein's USVI operations (reduced gross receipts tax, exemption from USVI income tax) -- Kellerhals was the attorney managing these tax benefit applications, not merely a registered agent.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2827
+      },
+      {
+        "date": "2014-01",
+        "label": "FL SunBiz reveals Kellerhals network across FL/USVI/Switzerland: (1) M13000002984 - Erika A. Kellerhals at 500 Port of Sale Mall Suite 15, St. Thomas VI 00802 with Christopher Kroblin and Greg Ferguson, withdrawn from FL Jan 2014; (2) M17000010779, M17000010800, M23000005943 - Three FL-registered entities managed by Alexandre Montavon C/O Kellerhals Carrard, 6 Francois Bellot, 1206 Geneva, all using Corporation Service Company as FL agent; (3) L14000021304 - Gilbert Kellerhals with Marco Jaeger at 1111 Brickell Ave Miami, managed by Singapore entities (RTSING), voluntarily dissolved Nov 2017. Pattern: Swiss law firm Kellerhals Carrard managing multiple FL-registered entities with USVI and Singapore connections.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 505
+      },
+      {
+        "date": "2014-02-06",
+        "label": "FL SunBiz L14000021304 = VICTORY EQUESTRIAN SPORTS LLC. Directors: Gilbert Kellerhals and Marco Jaeger at 1111 Brickell Avenue, Miami FL 33131. Managed by two Singapore entities: RTSING Presidents PTE Ltd and RTSING Administrators PTE Ltd. EIN: 46-4885338. Filed Feb 6 2014, voluntarily dissolved Nov 17 2017. Corporation Service Company as agent. Also M13000002984 = KELLERHALS FERGUSON FLETCHER KROBLIN PLLC, a USVI-formed law firm at 9100 Port of Sale Mall Suite 15 St Thomas VI 00802 with Erika A. Kellerhals, Greg Ferguson, Christopher Kroblin and Leigh Kellet Fletcher. Filed May 2013, withdrawn Jan 2014.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 513
+      },
+      {
+        "date": "2015-08",
+        "label": "Kellerhals was Epstein USVI attorney through Kellerhals Ferguson Kroblin PLLC, 9053 Estate Thomas Suite 101, St. Thomas VI 00802. She advised on USVI residency requirements, noting in Aug 2015 that 153 days in USVI still would not qualify for residency. Pushed for dynasty trust legislation in USVI (June 2013). Researched residency for naturalization under INA section 319(a) (Sept 2013). Advised on tax conference report language (Dec 2017) regarding Chapo tax changes.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 332
+      },
+      {
+        "date": "2015-09-23",
+        "label": "Kellerhals warned Epstein about operational security (Sept 23, 2015): Be careful about everything. Definitely dont mention Cecile and John. Honestly I wish I could say more. This suggests awareness of sensitive matters requiring concealment. She was also subject to Deutsche Bank AML due diligence (PWM BIS-RESEARCH) in multiple KYC reviews, with extensive background checks. Had meetings on the Hill in Washington DC (March 2018).",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 336
+      },
+      {
+        "date": "2015-09-26",
+        "label": "Kellerhals communication cadence with Epstein documented across 20+ emails spanning 2015-2019. Communications mediated through Lesley Groff (Epstein executive assistant) with subject lines consistently 'Jeffrey Epstein' or 'Quick call with JEE.' Pattern: Groff contacts Kellerhals requesting she call Jeffrey; Kellerhals responds with availability. Key dates: Sep 26, 2015 (real estate bid strategy, EFTA02344089); Oct 29, 2015 (contract work, EFTA02349311); Sep 22, 2016 (permit/installation work, EFTA02349199); Aug 21, 2017; Nov 17, 2017; Mar 14-27, 2018; Sep 17-24, 2018; Jan 31, 2019; Apr 5, 2019; May 6-8, 2019; Jun 5, 2019. Frequency increased in 2018-2019 (pre-arrest period).",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2831
+      },
+      {
+        "date": "2015-09-26",
+        "label": "Kellerhals directly involved in real estate deal negotiations on Epstein's behalf. EFTA02344089 (Sep 26, 2015): Epstein emails Kellerhals detailed bid strategy: 'knowing da mour, I would first bid cash of 10 plus a note of 5. they will come back at 20. then we bid 10 cash plus a note of 6 they will agree I think to 10 cash and a note of 7-8, then we offer all cash of 15.' Kellerhals responds 'LOL - I woke thinking about this. Sounds like a plan.' EFTA02349311 (Oct 29, 2015): Kellerhals emails Epstein directly: 'expecting contract shortly then the real fun begins... chris, my litigator, is waiting to review the contract once it comes in.' This shows Kellerhals negotiating property acquisitions for Epstein, not merely handling corporate registrations.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2832
+      },
+      {
+        "date": "2015-10-26",
+        "label": "EpsteinWeb.org tracker (epsteinweb.org/erika-kellerhals/) maps Kellerhals as a professional-only relationship. Key documented entities/activities: organized shell companies for Epstein USVI operations, created Great St. James LLC (Oct 26, 2015, 80.1 acres), handled tax/corporate structure, applied for EDC tax-incentive eligibility. Documented email communications with Epstein from 2012 and November 2016 per House Oversight documents. The tracker notes Kellerhals 'appears as professional counsel in civil filings -- not as a criminal defendant' and that 'no charges related to sex-trafficking crimes are documented.' RealClearInvestigations (May 2025) article 'Paradise Lost' identifies Kellerhals as facilitating Epstein's sex offender registry waiver requests and notes the $1,000 donation to Bryan's gubernatorial campaign. The article also reports Kellerhals' firm supported Bryan's campaign and that Bryan requested the USVI Justice Dept provide Epstein with a registry waiver. The $105M settlement between USVI AG and Epstein estate named 10 Epstein-created entities as co-defendants alongside co-executors Indyke and Kahn, but BBVI and Kellerhals were NOT named as defendants.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2844
+      },
+      {
+        "date": "2015-12",
+        "label": "Kellerhals held officer positions across five known Epstein entities: Secretary and Treasurer of Gratitude America Ltd (USVI nonprofit), officer at J. Epstein Virgin Islands Foundation, officer at Enhanced Education, and partner at Kellerhals Ferguson LLP. She managed VIFFO LLC (USVI real estate entity, Dec 2015 list price inquiry), EDC (Economic Development Commission) matters, and handled property deals at Red Hook. Co-occurring with Indyke in 24 LMSBAND files, Epstein in 23, Kahn in 10, Leslie Wexner in 5, Bruce Wasserstein in 4.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 338
+      },
+      {
+        "date": "2016-01-12",
+        "label": "Kellerhals STC schedule same day as Apollo conference call (Jan 12, 2016). EFTA02362419: Lesley Groff email to Epstein CC Daphne Wallace and Cecile de Jongh shows schedule: '12:00pm EST (1:00pm STT) TENTATIVE Appt w/Erika Kellerhals at STC' followed by '3:30pm (4:30 STT) Conf Call w/Perry Lerner and Chris Calise re Josh Black at Apollo.' This positions Kellerhals as a regular STC visitor on days when Epstein also conducted major financial business (Apollo/Leon Black). Multiple calendar entries (EFTA02240988, EFTA02290205) confirm regular Kellerhals-Epstein meetings at STC premises.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2828
+      },
+      {
+        "date": "2016-02",
+        "label": "Epstein-Kellerhals direct email correspondence reveals Kellerhals operated well beyond mere registered agent duties. Topics include: (1) WAPA utility matters and island electricity for Danny and Bryan (EFTA02471784, Feb 2016); (2) Direct communication with USVI Governor Kenneth Mapp -- Epstein asks if she talked with Mapp, then texts him directly (EFTA02464516, Apr 2016); (3) Island construction permitting -- cistern permits, architect letters (EFTA02668260, Dec 2016, email: ekellerhals@kellfer.com); (4) Staff management -- caretaker transitions requiring Epstein approval (EFTA02476178, Jan 2016). Email domain kellfer.com = abbreviated Kellerhals Ferguson. This correspondence pattern shows Kellerhals managed day-to-day island operations, government relations, and infrastructure -- functioning as Epsteins USVI operations manager, not merely his corporate attorney.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2853
+      },
+      {
+        "date": "2016-07",
+        "label": "FEC records confirm Erika Kellerhals made at least 20 political contributions totaling approximately 15K+ from 2009-2023. Key donations to Stacey Plaskett (USVI Delegate): 2700 (Jul 2016), 850 (Jul 2016), 500 (Apr 2018), 761 (Mar 2021) -- total approx 4811 to Plaskett alone. Other recipients: Beto ORourke, DCCC, Maggie Hassan (NH), Mitch McConnell, Bill PAC. All filed with employer KELLERHALS FERGUSON KROBLIN, occupation ATTORNEY, address St Thomas/Charlotte Amalie VI. The Plaskett donations are significant because Indyke and Groff also donated to Plaskett, creating a pattern of coordinated Epstein-network political giving to the USVI delegate. One 2021 FEC filing references KFK STRATEGIC HOLDINGS (USVI entity 585923, BBVI as agent) -- the law firms holding company.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2851
+      },
+      {
+        "date": "2016-10-12",
+        "label": "Deutsche Bank performed formal KYC/compliance screening of Erika Kellerhals on 10/12/2016 (EFTA01363310). OFAC: No Match. GCIS ID: 11593661. PCR case C20161034949193 was NCA customised Auto-Closed No-Hit on 12/10/2016. LexisNexis public records check: 1 of 1 record found. BIS results: negative media - nothing found, non-negative media - nothing found, other language media - not required. Report processed by Deutsche Bank AG for internal use only. This confirms Kellerhals was formally screened as a related person during DB account management for Epstein entities, placing her in the same compliance review pipeline as Indyke and Kahn.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2849
+      },
+      {
+        "date": "2016-11-10",
+        "label": "Epstein-Kellerhals personal relationship documented in Nov 10 2016 exchange (2 days post-Trump election). Epstein sent Kellerhals Daily Mail article claiming Trump-Epstein sexual assault accusation was fabricated. Kellerhals responded: 'I am so sorry this happened to you. It is terrible. And sad' followed by 'But holy shit you were spot on about trump\\!' Epstein replied 'its funny, dont lose your sense of humor' and Kellerhals requested 'Need to meet with you Tuesday.' This exchange reveals: (1) genuine personal sympathy beyond attorney-client formality, (2) Kellerhals had been briefed on Epstein's Trump predictions pre-election, (3) immediate post-election in-person meeting was standard protocol, (4) Epstein was monitoring media coverage of Trump-Epstein allegations in real time. Separately, Nov 14 2018 exchange shows Kellerhals conducting financial transactions: 'Deal is done. Need wire' and 'Meeting happening now re endorsement' with mention of 'Stacey' (likely Stacey Plaskett, USVI delegate) -- linking Kellerhals to both financial operations and political endorsement activity.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1582
+      },
+      {
+        "date": "2016-11-10",
+        "label": "Epstein 20K dataset reveals personal email exchange between Erika Kellerhals and Epstein on election night Nov 10, 2016. Kellerhals emailed jeevacation@gmail.com: first But holy shit you were spot on about trump! then Im so sorry this happened to you. Its terrible. And sad. Epstein responded Its funny, dont lose your sense of humor and offered to meet in person (im in new york tomorrow if you want to speak or ill see you tues). The intimacy and emotional register of this exchange (I am so sorry this happened to you) indicates a relationship far beyond attorney-client -- Kellerhals expressed personal sympathy for Epsteins political concerns and Epstein offered immediate in-person meeting. This is consistent with Kellerhals functioning as a trusted inner-circle member, not merely outside counsel.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2856
+      },
+      {
+        "date": "2017-02-09",
+        "label": "Kellerhals personally arranged meetings between Epstein and Albert Bryan (then-candidate for USVI Governor, subsequently elected Nov 2018). EFTA02366972 (Feb 9, 2017): Kellerhals emails Epstein 'Would you be willing to meet with Albert Bryan? He is the former Commissioner of Labor who is running for Governor.' EFTA02259117/EFTA02259143 (Sep 17, 2018): Groff reminds Epstein that 'Erika Kellerhals is asking if she can make an appt for you with Albert Bryan on Saturday Sept 22 on the island.' Epstein responds 'yes.' EFTA02258216 (Sep 17, 2018): Kellerhals confirms 'I am waiting on Albert to confirm' for meeting at STC. Bryan won USVI gubernatorial election Nov 6, 2018 -- these meetings occurred during his campaign.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2823
+      },
+      {
+        "date": "2017-07-09",
+        "label": "Kellerhals on direct email thread with USVI Governor Kenneth Mapp AND Jeffrey Epstein simultaneously (July 9, 2017). EFTA02343601: Discussion about invoicing issues -- Kellerhals firm had been sending monthly invoices to Peter Hiebert (likely Arthur Hiebert, Winston and Strawn partner) for work apparently done for the USVI government. Governor Mapp intervenes: 'Please do not forward them to Winston and Strewn. I will discuss the matter with them and Art Hiebert will contact you.' This suggests KFK performed legal work for the USVI government while simultaneously serving as Epstein's USVI corporate attorney, with Epstein CC'd on government billing communications.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2824
+      },
+      {
+        "date": "2018-03-14",
+        "label": "Kellerhals had meetings on Capitol Hill in Washington DC while also managing Epstein's USVI corporate infrastructure. EFTA02239485 (Mar 14, 2018): Kellerhals responds to Lesley Groff's request for Epstein call with 'I am in some meetings on the Hill - which will take up most of my day.' This positions Kellerhals not merely as a local USVI attorney but as someone conducting DC political business, consistent with her role arranging meetings with gubernatorial candidates and sitting governors.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2825
+      },
+      {
+        "date": "2018-07-09",
+        "label": "Articles of Incorporation for Financial Strategy Group Ltd (later renamed Southern Country International Ltd) found in EFTA01265913 reveal this entity was designed to operate as an international banking entity under USVI Code Title 9 Chapter 25 (Economic Development Commission program). Incorporators: Erika A. Kellerhals, Brett A. Geary (confirming middle initial A), Nicole Miller. Authorized capital: 1,000,000 shares at 5.00 par value, minimum 500K to commence. Registered agent: Business Basics LLC (pre-VI naming). Filed with USVI Division of Corporations, Certificate of Good Standing issued July 9, 2018 (under new name Southern Country International Ltd). Corp No. 584624. The international banking entity designation is significant -- it suggests Epstein sought to establish a licensed banking operation in USVI, not merely a trust company or holding structure.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2854
+      },
+      {
+        "date": "2018-09-04",
+        "label": "Epstein organization conducted background check on Kellerhals. EFTA01297950 contains what appears to be a web search results page with query 'Erika Kellerhals AND allegation OR arrest OR bribe OR convict OR corrupt OR court' -- standard due diligence search. Results reference Anne Carter Fund NVFCP donations and show annotation 'Confirmed, no adverse information in web result - Mayor Rathod - 09/04/2018.' This suggests Epstein's team vetted Kellerhals as late as September 2018, 10 months before his arrest, indicating she was being assessed for expanded responsibilities or ongoing trust verification.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2833
+      },
+      {
+        "date": "2018-11",
+        "label": "Kellerhals was paid directly by Epstein via checks from Deutsche Bank Trust Company Americas account. Multiple checks from Jeffrey Epstein 6100 Red Hook Quarter B3 St Thomas USVI to Kellerhals Ferguson found in bank records. She also handled real estate deal requiring wire transfer (Nov 2018 - Deal is done. Need wire), and managed a Dutch transaction requiring translation (Oct 2015 - translated into Dutch for the seller).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 334
+      },
+      {
+        "date": "2018-11",
+        "label": "Richard Kahn explicitly confirmed in Nov 2018 Deutsche Bank internal email (EFTA01373347) that Kellerhals, despite holding Secretary and Treasurer titles for Epstein Virgin Islands Foundation Inc., does NOT have signing authority on the brokerage account. Email chain: Bradley Gitlin (DB) forwarded to Vijay Sawant re rejection of corporate authorization documents. Kahn responded that Kellerhals has no signing authority. This establishes Kellerhals held nominal corporate officer titles across Epstein entities but actual financial control remained with Kahn and Indyke. Kellerhals functioned as a firewall layer -- visible on corporate documents but without real transactional authority over accounts.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2848
+      },
+      {
+        "date": "2018-11-14",
+        "label": "Kellerhals arranged political endorsement and requested wire transfer from Epstein on same day (Nov 14, 2018). EFTA02616202: Full email chain -- 9:52 AM Kellerhals to Epstein: 'Meeting happening now re endorsement. Will call you after. Spoke to Stacey. She and I are good.' Epstein responds 'ok.' At 4:31 PM Kellerhals: 'I tried you. Deal is done. Need wire :)' -- This occurred 8 days after the Nov 6, 2018 USVI election where Albert Bryan won the governorship. 'Stacey' likely refers to Stacey Plaskett (USVI Delegate to Congress). The sequence endorsement-meeting -> deal-done -> wire-request strongly suggests Epstein funding political activity through Kellerhals as intermediary.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2841
+      },
+      {
+        "date": "2018-11-20",
+        "label": "Epstein gave Kellerhals personal gifts including luxury Apple Watch bands. EFTA02264321 (Nov 20, 2018): Intermediary tells Kellerhals 'Anything you want\\! Jeffrey says it is your gift and whatever you want you can have\\! (So nice\\! Including Hermes\\!)' in response to Kellerhals asking which leather Apple Watch bands she could choose from. This is 8 months before Epstein's arrest and demonstrates personal gift-giving relationship beyond professional attorney-client fees.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2826
+      },
+      {
+        "date": "2019-02-05",
+        "label": "DOJ Vol 11 email EFTA02274532 (Feb 5, 2019) reveals Epstein had a meeting with Governor Albert Bryan at Kellerhals office on Feb 7, 2019. Coordinated by Cecile de Jongh (former USVI First Lady, wife of former Gov. John de Jongh). Email from de Jongh states: 'JE has a 2PM meeting on Thursday, February 7th at Erika Kellerhals St. Thomas office with Governor Bryan. POC is Erika.' The meeting took place at KFK Royal Palms Professional Building. This occurred just 5 months before Epstein's arrest (July 6, 2019) and during the period when Bryan had already been inaugurated as governor (Jan 7, 2019). Bryan previously oversaw the USVI agency that granted nearly $300M in illicit tax credits to Epstein's company. This is separate from the Kellerhals-Mapp OPSEC email (EFTA02486512, Sep 23, 2015) where Kellerhals warned Epstein about Governor Mapp, saying 'don't mention Cecile and John' and that Mapp might do 'something stupid or criminal.'",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2838
+      },
+      {
+        "date": "2019-08-08",
+        "label": "Kellerhals filed an affidavit in the Epstein will probate stating she knows of no other 'will or codicil of Jeffrey E. Epstein' and that Epstein personally sent her a copy of the will before his death. The will was signed August 8, 2019 (two days before Epstein's death August 10, 2019), creating 'The 1953 Trust' (year of Epstein's birth). KFK PLLC was appointed by co-executors Indyke and Kahn to accept service of probate documents because Indyke lives in Florida and Kahn in New York. The will was filed in USVI Superior Court. Kellerhals' role as the attorney who vouched for the will's authenticity and provided the sole known affidavit about its provenance is distinct from her registered agent role -- it placed her at the center of the $577M estate transfer mechanism.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2846
+      },
+      {
+        "date": "2026-01",
+        "label": "Erika A. Kellerhals professional profile: B.A. from St. Peter's University, J.D. from Brooklyn Law School, LL.M. in Taxation from NYU. Bar admissions: New York (2001), U.S. Virgin Islands, Florida, England & Wales, United States Tax Court. Pre-USVI career: boutique New York tax firm serving ultra-wealthy individuals and closely held corporations. Relocated to USVI in 2003, worked at Law Offices of Marjorie Rawls Roberts P.C. (major USVI tax/EDC firm). Founded own practice 2008. Co-founded Kellerhals Ferguson LLP 2011 with Greg Ferguson (former co-worker at Roberts). Firm evolved to Kellerhals Ferguson Kroblin PLLC (adding Christopher Kroblin, litigator). New entity Kellerhals Law P.C. formed Jan 2026 (solo PC, same address). KFK affiliated with Solomon Blum Heymann LLP (AV-rated Wall Street firm) and has NY office at 40 Wall Street 35th Floor. KFK handles EDC program (30+ years experience claimed), real estate, banking, probate. Also listed as 'Of Counsel' William L. Blum (international tax), Shari D'Andrade (former USVI Asst AG, litigator).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2836
+      }
+    ]
+  }
+}

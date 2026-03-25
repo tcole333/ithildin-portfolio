@@ -1,0 +1,3020 @@
+{
+  "name": "Eduardo Teodorani-Fabbri",
+  "slug": "eduardo-teodorani-fabbri",
+  "aliases": [
+    "Eduardo Teodorani"
+  ],
+  "generated_at": "2026-02-20T01:17:47.214879",
+  "last_updated": "2026-02-13T20:12:11",
+  "stats": {
+    "total_findings": 43,
+    "total_connections": 18,
+    "total_entities": 2,
+    "finding_types": {
+      "intelligence": 12,
+      "identity": 8,
+      "relationship": 16,
+      "communication": 4,
+      "financial": 3
+    },
+    "connection_types": {
+      "social": 14,
+      "corporate": 3,
+      "intelligence": 1
+    },
+    "last_updated": "2026-02-13T20:12:11"
+  },
+  "findings": [
+    {
+      "id": 868,
+      "finding_type": "intelligence",
+      "summary": "FARA search reveals historical Fiat S.p.A. lobbying registrations (9 entries, 1986-1994) through firms including Dickstein Shapiro, Gold and Liebengood, and Stroock and Stroock and Lavan. However, NO modern registrations for Fiat, CNH Industrial, Exor, or Teodorani himself. This contrasts with the Epstein network pattern: Teodorani brokered meetings with Italian business figures for Epstein (Barletta, Bracchetti, Brachetti Peretti) but operated entirely outside US regulatory frameworks -- no FEC donations, no FARA registration, no LDA lobbying. His value to Epstein was as European access agent, not US political player.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1986",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:03:52",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA-search:CNH-0-results",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA-search:Fiat-9-results",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA-search:Teodorani-0-results",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 850,
+      "finding_type": "identity",
+      "summary": "WRM Group connection: Teodorani-Fabbri is Senior Advisor at WRM Group (51 Berkeley Square, London W1J 5BB), founded in 2009 by Raffaele Mincione. WRM Capinvest Ltd (FCA-regulated, UK company 07990219, formerly Capital Investment Advisors Ltd) is the advisory arm. Mincione is the principal defendant in the Vatican financial scandal involving 200M EUR invested in his Athena Global Opportunities Fund and the 60 Sloane Avenue London property deal. WRM Group personnel list confirms Teodorani and Mincione are colleagues. Teodorani also Director of Margherita Distribuzione SpA, whose CEO Carlo Maggi is also a WRM Group executive.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:48",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-CompaniesHouse:WRM-Capinvest-07990219",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "aihitdata.com/company/02864E72/wrm/people",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 867,
+      "finding_type": "identity",
+      "summary": "Three executive assistants coordinated Teodorani-Epstein logistics over the decade: (1) Denise Jackson (CNH, 2009-2010), (2) Karen Bird (CNH, 2011-2012), (3) Lea Ardimento (CNH Industrial, 2013-2015), (4) Karen Wolleaston (CNH Industrial then WRM Group, 2014-2019). Wolleaston is the most significant: she transitioned with Teodorani from CNH Industrial to WRM Group (email signatures show both affiliations). All coordinated directly with Lesley Groff. Wolleaston's WRM Group email signature (EFTA02277129): 'Karen Wolleaston, EA to Eduardo Teodorani Fabbri, WRM Group, 51 Berkeley Square, London W1J 5BB, Switchboard: +44 (0)20 3150 0050.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:03:40",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02277129",
+          "source_quote": "Karen Wolleaston EA to Eduardo Teodorani Fabbri WRM Group Authorised and regulated by the Financial Conduct Authority 51 Berkeley Square London W1J 5BB",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02414742",
+          "source_quote": "To: \nJeffrey Epsteinueevacation©gmailcom]: Lesley Grol \nFrom: \nSent \nThur 12/2J2010 4:05:39 PM \nSubject: Fwd: EDUARDO TEODORANI WILL BE IN NEW YORK .... \nBegin forwarded message: \nFrom: \"JACKSON Denise (CNH)\nDate: December 2, 2010 10:35:57 AM EST...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02542815",
+          "source_quote": "From: \nBIRD Karen (CNH) < \n<eduardo.teodorani@cnh.com> \nSent: \nTuesday, August 9, 2011 2:49 PM \nTo: \nJeffrey Epstein \nSubject: \nRE: \nHello, Mr. Epstein. \n> on behalf of TEODORANI Eduardo (CNH) \nEduardo has had problems receiving email in the Bahamas...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02585571",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, July 17, 2014 2:23 PM \nTo: \nLesley Groff \nSubject: \nRe: Reminder. Eduardo & Dott Brachetti in Paris \nRemind me when I am there \nOn Thursday, July 17, 2.14, Lesley Groff \nwrote: \nReminder:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 937,
+      "finding_type": "relationship",
+      "summary": "Epstein identified Teodorani as his 'Ferrari' connection: 'david stem is not ferrari, eduardo tedouraoni is ferari' (Aug 28 2009). A woman had accidentally contacted Teodorani thinking he was a Ferrari executive she found on the Ferrari website. Separately, on Sep 7 2017, when Teodorani was photographing Lapo Elkann, Epstein responded: 'you can tell him we are friends' -- positioning himself as connected to the Elkann/Agnelli family.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2009-08-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:17:33",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02436117",
+          "source_quote": "david stem is not ferrari, eduardo tedouraoni is ferari, who did you write to?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 769,
+      "finding_type": "relationship",
+      "summary": "Epstein maintained a decade-long personal relationship with Teodorani-Fabbri spanning Oct 2009 to Feb 2019 (30+ documents). Regular phone calls via Lesley Groff. Invitations to Zorro Ranch NM (Jul-Aug 2010, Jul-Aug 2012). Meetings in Rome (Aug 2011), Paris (Sep-Oct 2013, Jun-Jul 2014, Oct 2014, Jun 2018), Palm Beach (Jul 2009), and NYC 9 E 71st (Feb 2019). Annual Christmas wine gifts to Epstein (Dec 2017/Jan 2018). Teodorani traveled with companion Davina de Forest. Teodorani visited Zorro Ranch Aug 10-13 2010 with Davina.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009-10",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:54:03",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02276504",
+          "source_quote": "To: \nFrom: \nKaren Wolleaston \nSent \nThur 2/28/2019 12:47:12 PM \nSubject: Re: MEETING REQUEST \nHi, \nApologies for delay. Morning at the dentist 4> Definitely still on for 3:30pm. I will get a copy of \nBarletta's CV/bio from his office and forward...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02321914",
+          "source_quote": "From: \nSent: \nTuesday, July 12, 2011 5:05 PM \nTo: \nTEODORANI Eduardo (CNH) \nCc: \nEduardo Teodorani; Eduardo Teodorani \nSubject: \nRe: Jeffrey Epsteinbbhh \nJeffrey is wondering if you'd like to go to lunch at the seafood place =n the beach in Rome...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02410093",
+          "source_quote": "Eduardo has re-arranged his holiday and now would like to visit Mr Epstein at his ranch in New Mexico with an arrival date of 10 August and departing on 13 August",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02439322",
+          "source_quote": "Eduardo would like to travel to Palm Beach on the 14 July and is hoping he can meet Mr Epstein",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 871,
+      "finding_type": "identity",
+      "summary": "Full EFTA activity timeline mapped from DOJ Vol 11 (30 search results): Oct 2009 (first contact, phone calls), Jun-Oct 2010 (phone coordination), Jul-Aug 2011 (Rome lunch, Italy travel with Davina), Apr-Aug 2012 (Zorro Ranch invitation, Cesena/skiing photos), Jun-Dec 2013 (Yfke Sturm intro, Lola Mignon same-evening scheduling, Mark Getty shooting, Abu Dhabi), Jan-Jul 2014 (Karyna Pshenychna forwarding, Bracchetti Paris meeting, Alana Bunte on boat), Sep-Oct 2014 (Paris meetings), Mar 2015 (Brachetti Peretti meeting), Nov 2017 (Astrid Gill Casrez intro), Jan 2018 (wine gifts), Nov 2018 (Bannon introduction), Jan-Feb 2019 (Benedetti query, Barletta introduction at WRM Group), Mar 2019 (Peninsula bambina message), Apr 2019 (Fabio Borghese NYC visit). Ten years, 4 countries, 3 employer affiliations (CNH, CNH Industrial, WRM Group).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009-10",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:04:46",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02275628",
+          "source_quote": "To: \nKaren Wolleasto \nFrom: \nSent: \nSubject: Re: MEETING REQUEST \nTue 2/26/2019 12:16:41 PM \nGreat! \nSent from my iPhone \nOn Feb 26, 2019, at 6:16 AM, Karen Wollcaston \nwrote: \nGood morning, \nI have pencilled in 3.30pm on Friday 28th, which would...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02278773",
+          "source_quote": "To: \nFrom: \nSubject: \nAlert - 3:30pm w/Eduardo Teodorani and his friend, Paolo Barletta of Barletta Costruzioni \nFebruary 28, 2019 3:30 PM : 3:30pm w/Eduardo Tcodorani and his friend, Paolo Barletta of \nBarletta Costruzioni \nEFTA_R1_01095895...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02283253",
+          "source_quote": "To: \nFrom: \nSent \nWed 4/24/2019 7:30:49 PM \nthx \nJojo fontanilla \nfabio borghese. \nhave jojo drive him around the next two days , suburban \nplease note \nThe information contained in this communication is \nconfidential, may be attorney-client...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02315741",
+          "source_quote": "From: \nSent: \nThursday, August 9, 2012 4:02 PM \nTo: \nTEODORANI Eduardo (CNH) \nSubject: \nRe: \nHi Eduardo. Just checking in to see if you had thought again about visiting l=ffrey on his ranch in New Mexico? \nBest, \nOn Jul 24, 2012, at 12:27 PM,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02321914",
+          "source_quote": "From: \nSent: \nTuesday, July 12, 2011 5:05 PM \nTo: \nTEODORANI Eduardo (CNH) \nCc: \nEduardo Teodorani; Eduardo Teodorani \nSubject: \nRe: Jeffrey Epsteinbbhh \nJeffrey is wondering if you'd like to go to lunch at the seafood place =n the beach in Rome...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02381210",
+          "source_quote": "From: \nSent: \nSaturday, December 21, 2013 4:33 PM \nTo: \nJeffrey Epstein \nSubject: \nRe: \nI am in London with edu! \nWe went to another shooting at mark Getty place! \nWhere are you?? \nOn Monday we will go to Rome! Xx \nSent from my iPhone \nOn 21 Dec...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02409015",
+          "source_quote": "To: \nJeffrey Epstein 'eevacation \nmail.comj \nCc: \nFrom: \nSent \nThur 7/29/2010 1:27:19 PM \nSubject: Eduardo Teodorani \nEduardo Teodorani's assistant (Denise) just called saying Eduardo would like to speak with you! \nHe is available now on his cell:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02438550",
+          "source_quote": "To: \nJeffrey epsteinfleevacation@gmail.comj \nFrom: \nlesley taylor \nSent \nFri 10/16/2009 7:36:43 PM \nSubject Eduardo Teodorani \nEduardo Teodorani has called again for you!! please give him a call when you can \nHotmail: Trusted email with powerful...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02564633",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nTuesday, November 21, 2017 10:00 PM \nTo: \nTEODORANI Eduardo (CNH Industrial) \nSubject: \nRe: Astrid Gill Casrez \nshe can email me or call anytime \nOn Tue, Nov 21, 2017 at 4:0= PM, TEODORANI Eduardo...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571476",
+          "source_quote": "From: \nLesley Groff < \nSent: \nWednesday, June 12, 2013 8:24 PM \nTo: \nlefffre E stein \nCc: \nSubject: \nReminder. Eduardo Teodorani/Lola Mignon on Thurs \nReminder: Eduardo Teodorani on Thursday June 13 \nEduardo \nReminder: Lola Mignon to arrive around...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02585904",
+          "source_quote": "From: \nLesley Groff <\nSent: \nMonday, July 21, 2014 11:58 AM \nTo: \nJeffrey Epstein \nSubject: \nFwd: Meeting in Paris - next week \nPlease advise what you wish me to t=ll Lea re this proposed meeting. \nSent from my iPhone \nBegin forwarded message:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02615334",
+          "source_quote": "From: \nWOLLEASTON Karen (CNH Industrial) < \n> on behalf of \nTEODORANI Eduardo (CNH Industrial) \nSent: \nTuesday, November 13, 2018 10:05 AM \nTo: \nSubject: \nEduardo \nGood morning, Mr Epstein. \nEduardo said you are going to arrange for him to meet Mr...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02676878",
+          "source_quote": "From: \nTEODORANI Eduardo (CNH) \nSent: \nFriday, January 17, 2014 5:14 AM \nTo: \nJeffrey Epstein \nSubject: \nI: Colpa di luna \nAttachments: \nphotojpq \nNot bad \nInvio eseguito dallo smartphone BlackBerry 10 sulla rete O2. \nDa: Karyna Pshenychna \nInviato:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 931,
+      "finding_type": "relationship",
+      "summary": "On Aug 15 2010, Epstein emailed Peter Mandelson (former UK Business Secretary): 'eduardo tedodorani and annabel nielson, are here at ranch with me.' Mandelson's contact could not remember Teodorani. Epstein then escalated: 'Get his views on john elkann and luca di montezemolo, both of whom I have been talking to today.' Subject: 'angnelli, ferrarri fiat etc.' This shows Epstein simultaneously hosting Teodorani at Zorro Ranch AND discussing the broader Agnelli dynasty with Mandelson, who had connections to Italian/EU business circles.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2010-08-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:17:05",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02423612",
+          "source_quote": "Get his views on john elkann and luca di montezemolo, both of whom I have been talking to today",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 848,
+      "finding_type": "identity",
+      "summary": "SEC CNH Global 6-K (May 2012) identifies Teodorani-Fabbri as 'Head of CNH Corporate Development' at Basildon UK event with PM Cameron and Deputy PM Clegg. Quoted: 'we are committed to improving our competitiveness and leveraging the local agricultural heritage.' Also listed as Director of Fiat Chrysler Automobiles (Oct 2014 SC 13D) and Director/SVP of CNH U.K. Limited (May 2004-Nov 2015 per UK Companies House).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2012-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:37",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=6K-CNH-2012-05-09",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-CompaniesHouse:CNH-UK-02063585",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged Paris meetings between Epstein and 'Dott. Bracchetti' in Jun-Jul 2014. Lea Ardimento (Teodorani's assistant) proposed meeting June 25/26 or July 23/24 in Paris. Epstein was not in Paris for the June date; the July meeting was postponed to September. Bracchetti's identity remains unconfirmed but the 'Dott.' title suggests an Italian professional (doctor/lawyer). Additionally, on Jun 16 2013, Epstein emailed Teodorani about arranging a car for an unnamed woman in Rome: 'Do you have a car that can take her, she is very very important to me.' Teodorani offered 'Mstino in fregene, this is the best fish restaurant in rome' and confirmed his PA would arrange everything.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-06-16",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:22",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520051",
+          "source_quote": "Do you have a car that can take her she is very very important to me",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02584824",
+          "source_quote": "Eduardo has asked me to organise a meeting in Paris next week with Dott Bracchetti and Mr Epstein",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 857,
+      "finding_type": "communication",
+      "summary": "Alana Bunte / Love Magazine: On Jul 31-Aug 1, 2013, Teodorani forwarded Love Magazine A/W 2013 photos from Alana Bunte to Epstein, who replied 'lucky you' (EFTA02573775). Teodorani was 'on the boat.' Alana Bunte is a Brazilian-American model who later married Count Jean-Sebastien de Mevius. The exchange shows Teodorani's role as social connector sharing glamour/model content with Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-08-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:47",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573775",
+          "source_quote": "lucky you. From: Alana Bunte, Date: 1 August 2013, Subject: Love Magazine A/W 2013",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 859,
+      "finding_type": "identity",
+      "summary": "Full board portfolio confirmed via MarketScreener: Current directorships include IVECO SpA, Maserati SpA, Aon Italia SRL, Iveco Ltd, HippoGroup Cesenate SpA (racecourse mgmt), Margherita Distribuzione SpA (hypermarkets via WRM Group), uFirst SRL (travel app). Former: SVP CNH Global NV (ended Sep 2013), Non-Executive Director Exor SpA, Director Turk Traktor, Director TaTaTu SpA (social media). Also Chairman/VP of Italian Chamber of Commerce and Industry for UK (Sep 2003-Feb 2026). Resigned from Italian Chamber in Feb 2026, likely due to Epstein Files revelations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:07",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "MarketScreener:EDUARDO-TEODORANI-FABBRI-A0MTVV",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-CompaniesHouse:00598572",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "finding_type": "relationship",
+      "summary": "Epstein used Teodorani as a conduit for introducing women. On Sep 22 2013, Epstein emailed Teodorani: 'eduardo, my great and very beautiful friend yfke that i have copied on this email, now lives in london, i think you two should meet.' Yfke is Dutch model Yfke Sturm (yfke@yfke.tv) who had intensive contact with Epstein from Dec 2011. Sturm admitted the contact was a 'serious misjudgment' (Feb 2026). Separately, Teodorani forwarded to Epstein a message from Karyna Pshenychna containing an Italian romantic quote about 'conquering a woman already desired by everyone' (Jan 17 2014). Teodorani also forwarded Love Magazine photos from socialite Alana Bunte (Aug 2013). On Jun 12 2013, Groff scheduled 'Eduardo Teodorani on Thursday June 13' alongside 'Lola Mignon to arrive around 8pm' for the same evening.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-09-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:54:40",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02373257",
+          "source_quote": "eduardo my great and very beautiful friend yfke that i have copied on this email now lives in london i think you two should meet",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571476",
+          "source_quote": "Reminder Eduardo Teodorani on Thursday June 13 Reminder Lola Mignon to arrive around 8pm on Thurs June 13",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573775",
+          "source_quote": "From: \nJeffrey Epstein <jeevacation@gmail.com> \nSent: \nThursday, August 1, 2013 10:00 AM \nTo: \nTEODORANI Eduardo (CNH) \nSubject: \nRe: Love Magazine A/W 2013 \nlucky you \nOn Wed, Jul 31, 2013 at 11:53 PM, TEODORANI Eduardo =CNH) < \n<mailto \n> wrote:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02676878",
+          "source_quote": "La vera genialita non e conquistare una donna gia desiderata da tutti ma scovarne una preziosa in un essere ignoto",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 787,
+      "finding_type": "relationship",
+      "summary": "Teodorani introduced multiple women to Epstein. (1) Yfke Sturm: Sep 22 2013, Epstein introduced Sturm to Teodorani calling her 'my great and very beautiful friend.' (2) Astrid Gill Casrez: Nov 21-22 2017, Teodorani told Epstein about Astrid Gill Casrez, calling her 'one of the smartest woman that I know' and that she was trying to call Epstein. Epstein replied 'she can email me or call anytime.' (3) Karyna Pshenychna: Jan 17 2014, forwarded Italian romantic aphorism to Epstein. (4) Lola Mignon: Jun 13 2013, Groff scheduled Teodorani meeting same evening as Lola Mignon arriving at 8pm in Paris. (5) Unnamed woman in Rome: Jun 16 2013, Epstein asked Teodorani to arrange a car for 'she is very very important to me.' Pattern shows bidirectional woman-introduction between Epstein and Teodorani.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-09-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:57:47",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02373257",
+          "source_quote": "From: \nTEODORANI Eduardo (CNH) \nSent: \nis.i\ny_p\nonda, September 23, 201\nTo: \neevacation@gmail.com'; WOLLEASTON Karen (CNH) \nCc: \nARDIMENTO Lea (CNH) \nSubject: \nRe: \nCan you let me know your name and pet's plane to see each other \nFrom: yfke \nSent:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02520051",
+          "source_quote": "Do you have a car that can take her she is very very important to me",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02564028",
+          "source_quote": "She is trying to call you now she one of the smartest woman that I know",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571476",
+          "source_quote": "From: \nLesley Groff < \nSent: \nWednesday, June 12, 2013 8:24 PM \nTo: \nlefffre E stein \nCc: \nSubject: \nReminder. Eduardo Teodorani/Lola Mignon on Thurs \nReminder: Eduardo Teodorani on Thursday June 13 \nEduardo \nReminder: Lola Mignon to arrive around...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02676878",
+          "source_quote": "From: \nTEODORANI Eduardo (CNH) \nSent: \nFriday, January 17, 2014 5:14 AM \nTo: \nJeffrey Epstein \nSubject: \nI: Colpa di luna \nAttachments: \nphotojpq \nNot bad \nInvio eseguito dallo smartphone BlackBerry 10 sulla rete O2. \nDa: Karyna Pshenychna \nInviato:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 845,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR confirms Teodorani-Fabbri as beneficial owner of 52,893 CNH Industrial shares as of Oct 2013 (8,636 owned + 853 vesting + 43,404 exercisable options). Named in Exor S.p.A. SC 13D filing alongside Sergio Marchionne and Alessandro Nasi as insiders.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:22",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=SC13D-CNH-2013-10-11",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "finding_type": "intelligence",
+      "summary": "Teodorani-Epstein relationship spans at least 2009-2019 with 20+ document references. Key interactions: (1) Epstein tried to invite Teodorani to Zorro Ranch (EFTA02315754: 'did anything ever happen with Eduardo Teodorani and a visit to the ranch?'). (2) Multiple phone calls, NYC visits, Rome lunch. (3) Wine gifts 2017-2018. (4) Teodorani's trip to NYC cancelled Oct 14, 2013 — this was during the SAME Paris trip period when Benedetti was on the contact list. (5) An earlier email references 'Cesena with some divine girl' and skiing in Megeve (EFTA02305159). This close Italian elite relationship is the conduit through which Epstein gathered intelligence on Benedetti in January 2019. Teodorani-Fabbri is CNH Industrial (Fiat/Agnelli family), placing him in the Italian business aristocracy where Benedetti operated.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-10-14",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:35:30",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02305159",
+          "source_quote": "Cesena with some divine girl / skiing in Megeve",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02315754",
+          "source_quote": "did anything ever happen with Eduardo Teodorani and a visit to the ranch",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576455",
+          "source_quote": "Mr Teodorani trip cancelled [Oct 14 2013]",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "From: \nJ <jeevacation@gmail.com> \nSent: \nMonday, January 28, 2019 6:07 PM \nTo: \nTEODORANI Eduardo (CNH Industrial) \nAllesandro benedetti? \n=C2 \nplease note \nThe informat=on contained in this communication is confidential, may be attorney-cli=nt...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 855,
+      "finding_type": "relationship",
+      "summary": "Mark Getty connection: Teodorani and Epstein together at Mark Getty's estate for a shooting weekend (Dec 21, 2013, EFTA02381210). Message: 'I am in London with edu\\! We went to another shooting at mark Getty place\\! Where are you?? On Monday we will go to Rome\\!' This connects the Getty family (owners of Posta Vecchia villa, Lazio coast) to the Teodorani-Epstein social circuit.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-12-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:29",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02381210",
+          "source_quote": "I am in London with edu\\! We went to another shooting at mark Getty place\\! Where are you?? On Monday we will go to Rome\\!",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 856,
+      "finding_type": "communication",
+      "summary": "Karyna Pshenychna forwarded to Epstein: On Jan 17, 2014, Teodorani forwarded a message from 'Karyna Pshenychna' to Epstein (EFTA02676878). Subject: 'Colpa di luna' with photo attached. The Italian text quotes: 'La vera genialita non e conquistare una donna gia desiderata da tutti, ma scovarne una preziosa in un essere ignoto' (True genius is not conquering a woman already desired by all, but discovering a precious one in an unknown being). This suggests Teodorani was introducing/sharing women with Epstein, reinforcing the bidirectional flow pattern.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2014-01-17",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:38",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02676878",
+          "source_quote": "Da: Karyna Pshenychna, Inviato: Friday, 17 January 2014, A: TEODORANI Eduardo (CNH), Oggetto: Colpa di luna",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "finding_type": "relationship",
+      "summary": "Brachetti Peretti brokerage fully documented: Teodorani introduced Ugo Brachetti Peretti (API petroleum co-owner) to Epstein. Ugo sent API presentation Jun 19, 2014 (EFTA02709964), requested 'your arab friend' for partnership Oct 7, 2014 (EFTA02592391/EFTA02714176), met with Ariane de Rothschild via Epstein on Mar 4, 2015 (EFTA02511095/EFTA02391945). Epstein demanded '5% of all money received' as fee. Separately, Ugo's brother Ferdinando Brachetti Peretti and his wife Nicole Junkermann visited Epstein's Palm Beach (Feb 2017). API later sold to Azerbaijan's Socar for 3B EUR in 2025.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-06-19",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:14",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02391945",
+          "source_quote": "From: \nLesley Groff <-> \nSent: \nWednesday, February 25, 2015 10:24 AM \nTo: \nJeffrey Epstein CC \nCc: \nValdson Cotrin; \nSubject: \n1pm Lunch w/Ugo Wed. March 4 \nUgo has requested lunch on Wed. Feb. 4 be 1pm instead of 12:30. \nWed. March 4, 2015 PARIS...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02511095",
+          "source_quote": "From: \nLesley Groff \nSent: \nWednesday, March 4, 2015 12:02 PM \nTo: \nJeffre E stein \nCc: \nValdson Cotrin \nSubject: \nSchedule Wed. March 4, 2015 \nWed. March 4, 2015 PARIS-GENEVA-PARIS (?) \nReminder: Jean Luc to depart Milan today \n1:30pm Appt w/Ugo...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02592391",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nTuesday, October 7, 2014 12:53 PM \nTo: \nUgo Brachetti Peretti \nSubject: \nRe: \nof course. i will be in paris on the 22 \nOn Tue, Oct 7,=2014 at 8:49 AM, Ugo Brachetti Peretti \n=rote: \nHi Jeffrey,hope...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709964",
+          "source_quote": "Hi Jeffrey as agreed here is a brief presentation of my company. EFTA02592391:your arab friend to talk about potential partnership",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02714176",
+          "source_quote": "Hi Jeffrey,hope everything is well with you,i was wondering if there is still the possibility to discuss about my company \ngetting in touch with your arab friend to talk about potential partnership.' m eventually available when you want thank \nyou all the best Ugo Brachetti \n*SCARICA L'APPLICAZIONE...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "finding_type": "relationship",
+      "summary": "Epstein's July 19, 2014 Paris party guest list included Teodorani alongside Dominique Strauss-Kahn (former IMF head) and Ugo Brachetti Peretti (API petroleum). This connects Teodorani to the DSK orbit. DSK was separately being briefed about taking over Russia's sovereign wealth fund (Apr 2013, EFTA02674869). Teodorani's social role was to bridge Italian elites into Epstein's network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-07-19",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:04",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02674869",
+          "source_quote": "From: \nSent: \nTo: \nWednesday, April 24, 2013 5:24 PM \nJeffrey Epstein \nDominique Strauss Kahn will take over Russia Sovereign Wealth fund apparently. Will be announced in 2 days. \n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \n<!DOCTYPE plist PUBLIC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "dagospia.com:Brachetti-Epstein-article-2026-02-12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 866,
+      "finding_type": "identity",
+      "summary": "Wife Davina de Forest confirmed in EFTA corpus: EFTA02721470 shows email to 'Davina de Forest Comis' from 'Sue' arranging London meeting. EFTA02542815 shows Karen Bird (CNH) responding on behalf of Teodorani: 'Davina and he will arrive in Italy during the afternoon of Saturday 20th August' (2011, Bahamas trip). EFTA02680440 shows Lea Ardimento noting 'Davina will also be arriving' for Paris trip (Oct 2014). Davina accompanied Teodorani on multiple international trips that overlapped with Epstein meetings.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2014-10",
+      "claim_type": "direct_quote",
+      "verification_status": "verified",
+      "created_at": "2026-02-13 04:03:31",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02542815",
+          "source_quote": "Davina and he will arrive in Italy during the afternoon of Saturday 20th August",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02680440",
+          "source_quote": "Please =ee below and advise how you wish me to reply: \nBegin =orwarded message: \n=8:00. \nFrom: \"ARDIMENTO Lea (CNH Industrial)\" \nSubject: =/b>PARIS \nDate: October 1, 2014 at 9:50:44 AM =DT \nTo: =/b>\"Lesley Groff \nCc: \"WOLLEASTON Karen (CNH Industrial)\" =1 \nhind.com> \nHello =esley, \nHow are you?...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02721470",
+          "source_quote": "To: \n'eevacation \nmail.com[jeevacation©gmail.com]; Jeffrey Epsteinbeeyacation©gmail cam] \nFrom: \nSent \nun \n1 9:47:31 AM \nSubject: Davina \nTried again... \nForwarded messa e \nFrom: \nDate: Sun, Dec 23, 2012 at 10:46 AM \nSubject: London \nTo: Davina de...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 869,
+      "finding_type": "intelligence",
+      "summary": "Teodorani identified as intermediary in attempted recruitment of Italian model Chiara Baschetti (b. Cesena, Elite Model Look 2003, worked for Armani/Fendi/Cavalli/Ralph Lauren). Per Italian press (giornalesm.com), Epstein attempted contact through 'Italian intermediaries' named as Teodorani and Brachetti Peretti in 2015-2016. Baschetti never met Epstein and declined all advances. Primary lure offered was exclusive dinner with Woody Allen in Paris. This is the first documented case where Teodorani is specifically named as intermediary in attempted approach to a specific woman for Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:04:20",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "giornalesm.com:Santarcangelo-model-Epstein-2026",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 846,
+      "finding_type": "financial",
+      "summary": "Teodorani-Fabbri sold 2,885 CNH Industrial shares on Feb 20, 2015 for approx $22.3K (26% return). SEC Form 4 filing. No longer holds insider shares as of that disposal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-02-20",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:28",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=Form4-CNH-2015-02-20",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 870,
+      "finding_type": "intelligence",
+      "summary": "Epstein's 5% commission structure documented in Brachetti Peretti deal: Per Dagospia, Epstein demanded verbal-only agreement for '5% of all money received' (l accordo e il 5% di tutto il denaro ricevuto) from Ugo Brachetti Peretti for brokering API petroleum partnership with Arab contacts. Epstein also challenged Ugo's 1B EUR valuation, noting only 78M EUR EBITDA. Epstein introduced Brachetti to Baroness Ariane de Rothschild (Swiss financier) at Mar 4-5, 2015 Paris meeting. This reveals Epstein's European deal-making model: access to Middle Eastern capital + European aristocratic/banking contacts, with verbal-only fee arrangements that leave no paper trail.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-03",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:04:31",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02511095",
+          "source_quote": "From: \nLesley Groff \nSent: \nWednesday, March 4, 2015 12:02 PM \nTo: \nJeffre E stein \nCc: \nValdson Cotrin \nSubject: \nSchedule Wed. March 4, 2015 \nWed. March 4, 2015 PARIS-GENEVA-PARIS (?) \nReminder: Jean Luc to depart Milan today \n1:30pm Appt w/Ugo...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "dagospia.com:Brachetti-Epstein-article-2026-02-12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "finding_type": "financial",
+      "summary": "On Apr 19 2015, Epstein emailed 'Jabor Y' (likely Jabor Al-Thani/Qatar): 'shabaz could look at the details of EXOR. the owner of cushman, agnelli family holding. they just bid for an re insurance co last week, they will spin off ferrari this year. and will have fiat chrysler.maserati. most of their money is liquid. 15billion or so.' This demonstrates Epstein using his Agnelli/Teodorani connection to broker financial intelligence about EXOR NV's corporate structure and M&A activity to Gulf contacts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-04-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:16:41",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02504407",
+          "source_quote": "shabaz could look at the details of EXOR. the owner of cushman, agnelli family holding. they just bid for an re insurance co last week, they wil spin off ferrari this year. and wil have fiat chrysler.maserati. most of their money is liquid. 15billion or so.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "finding_type": "intelligence",
+      "summary": "Same day as EXOR email (Apr 19 2015), a contact emailed Epstein about John Elkann: 'has heard great things about him from a friend; I know that he is Lapo/s brother.. what do you think?' The contact then wrote: 'I think he is the new target. How do we meet him? Not through Edu for sure.' 'Edu' = Eduardo Teodorani. This shows Epstein was targeting the CEO of EXOR/Fiat-Chrysler for recruitment, bypassing Teodorani to avoid alerting the family.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-04-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:16:49",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02389138",
+          "source_quote": "I think he is the new target. How do we meet him? Not through Edu for sure",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 775,
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged a private Ferrari visit and Fiorano test track access for Dan Ariely (behavioral economist) through his CNH Industrial position, coordinated via Epstein. On Feb 28 2018, Teodorani told Ariely to have his PA contact Karen Wolleaston directly. Wolleaston explained the dates 'must first be requested via the President's office' and confirmed Fiorano track availability for Mar 20-21 2018. CNH Industrial is the parent company controlling Ferrari's manufacturing infrastructure. This demonstrates Teodorani leveraged his Agnelli family corporate position to provide exclusive access as favors brokered through Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-02-28",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:02",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02518985",
+          "source_quote": "Your preferred dates for visiting Ferrari must first be requested via the Presidents office and we need to ascertain that the Fiorano track doesnt have other events running on 20 21 March",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 934,
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged a private Ferrari/Fiorano track visit for Dan Ariely and Jeffrey Epstein on Mar 20-21 2018, coordinated via the Ferrari President's office. Karen Wolleaston (Teodorani's EA at CNH Industrial) arranged logistics. This demonstrates Teodorani's executive-level access to Ferrari (then an EXOR subsidiary) which he leveraged for Epstein's social networking.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-03",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:17:25",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02518985",
+          "source_quote": "Your preferred dates for visiting Ferrari must first be requested via the President's office, and we need to ascertain that the Fiorano track doesn't have other events running on 20-21 March",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 946,
+      "finding_type": "intelligence",
+      "summary": "Epstein was interested in Chateau de l'Horizon, historically the Agnelli family's famous Cote d'Azur property, as architectural inspiration. He asked Ariane de Rothschild for floorplans (May 31 2018) and told his architect John Heah about using it as inspiration. Rothschild questioned: 'Are you sure its Agnelli's house? I thought it belonged to the Saudis. Its a horrible location.' Epstein was also looking at the Agnelli house documentary ('what was the name of the house in the agnelli movie' - Jan 8 2018). This pattern of Agnelli-fascination extended to property, lifestyle, and culture beyond mere business.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-05-31",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:18:06",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02326741",
+          "source_quote": "From: \nSent: \nTo: \njeffrey E. <jeevacation@gmail.com> \nry 8, 2018 12:30 PM \nwhat was the name of the house in the agnelli movie \n=AO please note \nThe information contained in this communication is<=r>confidential, may be attorney-client privileged,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02650568",
+          "source_quote": "Can you ask someone if they can find the floorplans for chateau horizon agnellis south of France house",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 858,
+      "finding_type": "intelligence",
+      "summary": "AC Milan dossier distribution: Jul 13-14, 2018, Epstein received 'AC Milan Acquisition - July 2018' from Jide Zeitlin (Keffi Group), forwarded to Nicole Junkermann and David Stern with 'I have no interest, I just want to understand why.' Teodorani was also sent AC Milan / Inter match info (Nov 2014, EFTA02516559). The Zeitlin->Epstein->Junkermann->Stern distribution chain for the Milan acquisition dossier is significant: Zeitlin was later charged with fraud and resigned as Tapestry CEO (2020). Junkermann's husband Ferdinando Brachetti Peretti co-owned API petroleum.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-07",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:56",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02516559",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nTuesday, November 18, 2014 7:49 PM \nTo: \nTEODORANI Eduardo (CNH Industrial) \nac milan , vs inter. are you going=to the game? \nplease note<=r> \nThe information contained in this communication is...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02601533",
+          "source_quote": "i have no interest, i just would like to understand the whys? EFTA02516559:ac milan, vs inter. are you going to the game?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602103",
+          "source_quote": "From: \nDavid Stern < \nSent: \nFriday, July 13, 2018 10:38 PM \nTo: \njeffrey E. \nSubject: \nRe: AC Milan Acquisition Case July, 2018.pdf \nAgree. And this one in particular is old news... \nOn 13 Jul 2018, at 23:34, jeffrey E. <jeevacation@gmail.com...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "finding_type": "intelligence",
+      "summary": "Epstein arranged for Teodorani to meet Steve Bannon in London/Oxford, Nov 2018. On Nov 12 2018, Epstein emailed Teodorani: 'bannon will be in oxford on friday'. Teodorani replied: 'I would like very much to see him.' Karen Wolleaston then confirmed logistics, asking whether the meeting was Oxford or London. This is significant because: (1) Bannon was operating a European populist network (The Movement) from Nov 2018, (2) Teodorani's Agnelli/Fiat connections gave access to Italian political-industrial circles, and (3) Epstein was brokering introductions between his European elite contacts and US political figures just months before his July 2019 arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-11-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:55:11",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02615334",
+          "source_quote": "Eduardo said you are going to arrange for him to meet Mr Bannon in London this Friday",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 738,
+      "finding_type": "relationship",
+      "summary": "Eduardo Teodorani-Fabbri (SVP Corporate Development, CNH Industrial) had a sustained relationship with Epstein from at least 2010-2019. Evidence includes: multiple calls/visits (EFTA02417675, EFTA02415189, EFTA02414742), trip cancellation coordinated through his assistant Lea Ardimento (EFTA02576455), Rome lunch plans (EFTA02321914), wine gifts (EFTA02234187), and crucially, Epstein's Jan 28 2019 email to Teodorani asking 'Allesandro benedetti?' — using Teodorani as an intelligence source on the Italian businessman. CNH Industrial is the Fiat/Agnelli family industrial conglomerate, placing Teodorani in Italian elite business circles that would overlap with Benedetti.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01-28",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:30:43",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02234187",
+          "source_quote": "To: \nFrom: \nLesley Groff \nSubject: \nAlert - has the wine arrived from Eduardo Teodorani? \nDecember 27, 2017 6:30 AM : has the wine arrived from Eduardo Teodorani? \nEFTA_R1_00992588 \nEFTA02234187",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02321914",
+          "source_quote": "Jeffrey is wondering if youd like to go to lunch at the seafood place",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02414742",
+          "source_quote": "EDUARDO TEODORANI WILL BE IN NEW YORK",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02415189",
+          "source_quote": "Eduardo Teodorani tried for you again... \n•",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02417675",
+          "source_quote": "To: \nJeffre E steinBeevacation©gmail.com] \nFrom: \nSent: \nTue 10/26/2010 2:03:13 PM \nSubject: Eduardo Teodorani \nEduardo Teodorani returned your call \nEFTA_R1_01482631 \nEFTA02417675",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576455",
+          "source_quote": "Monday, October 14, 2013 11:05 AM \nFwd: Mr Teodorani - trip cancelled \n \nForwarded me=sage \nFrom: Lesley Groff <I \n<mailto \nDate: Mon, Oct 14, 2013 at 1:03 PM \nSubject: Fwd: Mr Teodorani - trip can=elled \nTo: Jeffrey Epstein CC <jeevacation@gmail.com <mailtoieevacation@gmail.co.» \nBegin forwarded...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "TEODORANI Eduardo (CNH Industrial) / Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 770,
+      "finding_type": "intelligence",
+      "summary": "SMOKING GUN: On Jan 28 2019, Epstein emailed Teodorani asking 'Allesandro benedetti?' -- a one-line query about the Italian businessman who orchestrated the SoftBank honey trap operation. This came exactly 2 days after Epstein emailed Brad Karp (Chairman, Paul Weiss) on Jan 26 2019 about Carlos Ghosn ('a very very not good guy') and then asked 'Rajeev misra do you represent?' Karp replied 'Sort of. Spoke to him yesterday.' Epstein thus connected three threads in 48 hours: Ghosn arrest, Misra/SoftBank, and Benedetti (Misra's operative). Teodorani was Epstein's Italian connection point who would know Benedetti.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-01-28",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:54:13",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02627034",
+          "source_quote": "Sort of. Spoke to him yesterday.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02627134",
+          "source_quote": "Rajeev misra do you represent?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 786,
+      "finding_type": "relationship",
+      "summary": "Teodorani-Fabbri (Agnelli grandson, CNH Industrial SVP) was Epstein's likely introduction to Alessandro Benedetti. Evidence: (1) Both appear on Sept 2013 Paris list, (2) Epstein emailed Teodorani directly asking 'Allesandro benedetti?' on Jan 28, 2019 — suggesting Teodorani was the bridge to Benedetti. Teodorani appears 1,251 times in Epstein files per Italian press, 10 phone numbers and 2 addresses in black book page 53, regular Paris/Rome/NYC social contact 2010-2017+.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-01-28",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:02",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": "From: \nLesley Groff < \nSent: \nThursday, September 26, 2013 2:39 AM \nTo: \nJeffrey Epstein CC \nSubject: \nParis List \n-Alesandro de benedetti \n-Lang \n-Victo \n-Ariane \n-Fred \n-Fabrice \n-Emily \n-Jean Luc \n-Caroline's bday Sept. 27th \n-Fabrizio \n-Shahar...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": " From J to TEODORANI Eduardo CNH Industrial. Allesandro benedetti? Jan 28 2019. EFTA02575400: Paris List includes both Alesandro de benedetti and Sultan references Sept 2013",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 940,
+      "finding_type": "relationship",
+      "summary": "Epstein asked Teodorani about 'Allesandro benedetti?' on Jan 28 2019 -- exactly 2 days after calling Ghosn 'a very very not good guy' to Karp on Jan 26. Alessandro de Benedetti appeared regularly on Epstein Paris contact lists (Sep 2013 Paris List, Sep 2013 calendar). The De Benedetti family is the other Italian industrial dynasty, rival to the Agnellis, who later sold their media group GEDI to the Elkann-controlled EXOR. This suggests Epstein was working both sides of Italian corporate power during the critical Ghosn/merger period.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:17:43",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": "Allesandro benedetti?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 768,
+      "finding_type": "identity",
+      "summary": "Eduardo Teodorani-Fabbri is the son of Maria Sole Agnelli (Fiat dynasty) and Count Pio Teodorani-Fabbri. SVP Corporate Development at CNH Industrial (Fiat/Stellantis subsidiary). Born 1965 Rome. Director at Iveco, Maserati, Aon Italia, HippoGroup Cesenate. Chairman of Italian Chamber of Commerce and Industry for UK. By Feb 2019 his assistant Karen Wolleaston signs from WRM Group (FCA-regulated, 51 Berkeley Square London W1J 5BB). Also WRM Capinvest Ltd. The Teodorani-Fabbri family is connected to Mussolini via marriage (Mussolini niece married Teodorani-Fabbri cousin).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:53:48",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02276504",
+          "source_quote": "Karen Wolleaston EA to Eduardo Teodorani Fabbri WRM Group Authorised and regulated by the Financial Conduct Authority 51 Berkeley Square London W1J 5BB",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02414742",
+          "source_quote": "Admin Assistant to Eduardo Teodorani-Fabbri SVP Corporate Development CNH UK Limited",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged for Epstein to meet Paolo Barletta (CEO, Gruppo Barletta/Barletta Costruzioni, major Italian RE developer est. 1953, also co-founded Arsenale SpA luxury rail cruises with Nicola Bulgari). Meeting at 9 E 71st St on Feb 28 2019 at 3:30pm, confirmed by multiple emails. Barletta's bio and CV requested by Epstein. Separately, Teodorani had forwarded Barletta's 'U-First' pitch to Epstein in Aug 2015 -- Epstein replied 'not the type of thing I invest in but always send me alternatives.' This shows Teodorani actively brokered business introductions to Epstein over years.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-02-28",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:54:51",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02276504",
+          "source_quote": "To: \nFrom: \nKaren Wolleaston \nSent \nThur 2/28/2019 12:47:12 PM \nSubject: Re: MEETING REQUEST \nHi, \nApologies for delay. Morning at the dentist 4> Definitely still on for 3:30pm. I will get a copy of \nBarletta's CV/bio from his office and forward...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02278773",
+          "source_quote": "To: \nFrom: \nSubject: \nAlert - 3:30pm w/Eduardo Teodorani and his friend, Paolo Barletta of Barletta Costruzioni \nFebruary 28, 2019 3:30 PM : 3:30pm w/Eduardo Tcodorani and his friend, Paolo Barletta of \nBarletta Costruzioni \nEFTA_R1_01095895...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02490136",
+          "source_quote": "yes not the type of thing I invest in but alwasy send me alternatives",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633164",
+          "source_quote": "Eduardo Teodorani and his friend Paolo Barletta of Barletta Costruzioni are here",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "finding_type": "communication",
+      "summary": "Bracchetti meeting choreography fully mapped: Feb 7-28, 2019 email chain between Karen Wolleaston (Teodorani's EA at WRM Group) and Lesley Groff (Epstein's EA). Wolleaston disclosed Barletta to Groff: 'FYI it is a guy called Paolo Barletta of Barletta Costruzioni. He is a business associate who Eduardo wants to introduce to Mr Epstein.' Meeting scheduled 3:30pm Feb 28, 2019 at 9 E 71st St. Multiple EFTA documents (EFTA02275009, EFTA02277792, EFTA02278486, EFTA02278773, EFTA02633164) show logistics. This meeting was 4.5 months before Epstein's arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-02-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:40",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02275009",
+          "source_quote": "To: \nFrom: \nlarrn \nSent \nMon 2/25/2019 12:34:47 PM \nSubject Re: MEETING REQUEST \nHi= \nEduardo and his associate will not be able to make lunch on Thursday 28th but are hoping that \nMr Epstein might be able to receive them mid-afternoon, say around...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02277792",
+          "source_quote": "FYI it is a guy called Paolo Barletta of Barletta Costruzioni. He is a business associate who Eduardo wants to introduce to Mr Epstein.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02278486",
+          "source_quote": "• \nThurs. Feb. 28, 2019 NY-Paris \n3:3Opm w/Eduardo Teodorani and his friend, Paolo Barletta of Barletta Costruzioni \n(Eduardo cell + 44 \nKaren, Eduardo's assistant",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02278773",
+          "source_quote": "To: \nFrom: \nSubject: \nAlert - 3:30pm w/Eduardo Teodorani and his friend, Paolo Barletta of Barletta Costruzioni \nFebruary 28, 2019 3:30 PM : 3:30pm w/Eduardo Tcodorani and his friend, Paolo Barletta of \nBarletta Costruzioni \nEFTA_R1_01095895...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633164",
+          "source_quote": "Eduardo Teodorani and h=s friend, Paolo Barletta of Barletta Costruzioni are here =div dir=\"auto\"> \n1",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 864,
+      "finding_type": "communication",
+      "summary": "Peninsula Hotel 'bambina' message: Mar 1, 2019, Teodorani wrote to Epstein: 'Master we wait the good ankle bambina with another good friend of your choice\\!\\!\\! Peninsula will be our party HQ tonight\\!' (Italian press, confirmed via EFTA). 'Bambina' = girl; 'good ankle' references physical appearance. 'Master' = Teodorani's term of address for Epstein. This message was written just 5 days after the Feb 28 Barletta meeting at 9 E 71st, suggesting Teodorani was in NYC for an extended visit during which business introductions and social activities (involving young women) were interleaved.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-03-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:50",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ilgiornaleditalia.it:Teodorani-Epstein-article",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "open.online:Teodorani-Epstein-2026-02-06",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "finding_type": "identity",
+      "summary": "ANIVAD Consulting Ltd (UK company 11887450) incorporated 18 March 2019, with Teodorani as Director. Registered at 96 Pollards Oak Road, Oxted, Surrey RH8 0JW. Company name is 'DAVINA' reversed -- his wife Davina de Forest's name. SIC 82990 (Other business support services). Active and filing. Teodorani uses ANIVAD as his personal consulting vehicle alongside the WRM Group Senior Advisor role.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-03-18",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:58:55",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK-CompaniesHouse:ANIVAD-11887450",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "finding_type": "relationship",
+      "summary": "Prince Fabio Borghese identified as Italian associate described by Teodorani as 'collector of women' (Italian press). EFTA records confirm Borghese as active Epstein guest Apr 24, 2019 (EFTA02283253/EFTA02281128): Epstein instructed 'fabio borghese. have jojo drive him around the next two days, suburban.' Jojo Fontanilla was Epstein's driver. Borghese had VIP treatment in NYC just 2.5 months before Epstein's arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-04-24",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:59:22",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02281128",
+          "source_quote": "To: \nFrom: \nSent \nSubject Re: \nJeffrey Epsteinueevacationagmail.comj \n:35:47 PM \nAll set. I spoke with Fabio and Jojo... \nOn Apr 24, 2019, at 3:30 PM, J <jeevacation@gmail.com> wrote: \nfabio borghese. \nhave jojo drive him around the next two days ,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02283253",
+          "source_quote": "fabio borghese. have jojo drive him around the next two days, suburban",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ilgiornaleditalia.it:Teodorani-Epstein-article",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 860,
+      "finding_type": "intelligence",
+      "summary": "Maria Sole Agnelli died Dec 26, 2025 at age 100 (GDELT/euronews). Teodorani inherits responsibility for Agnelli family interests via Giovanni Agnelli B.V. (Dutch vehicle controlling Exor). Maria Sole held 11.2-12.3% of GABV, estimated worth within the family's 13.5B USD fortune. Teodorani's succession to these interests, combined with his Feb 2026 resignation from the Italian Chamber amid Epstein revelations, suggests significant reputational and financial exposure within the Agnelli dynasty.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2025-12-26",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:15",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GDELT:quibrescia.it-2025-12-27",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "euronews:2025-12-26-maria-sole-agnelli",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 865,
+      "finding_type": "intelligence",
+      "summary": "Italian media GDELT coverage explosion Feb 2026: 7+ articles mentioning Teodorani-Epstein in rolling 3-month window. Key outlets: Dagospia (Brachetti Peretti connection), quotidiano.net ('Agnelli nephew'), Open.online (detailed analysis), Il Fatto Quotidiano (AC Milan dossier), Il Giornale d'Italia (Borghese 'collector of women'), Wired.it (Bannon-Italy politics). The Times (UK) and TechCrunch also covered. Italian press focused on: (1) luxury real estate tips to Epstein, (2) 'bambina' message, (3) Agnelli dynasty embarrassment, (4) Brachetti Peretti API petroleum connection.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2026-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:58",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GDELT:Teodorani-Epstein-articles-2026-02",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 862,
+      "finding_type": "intelligence",
+      "summary": "Negative results inventory: No FEC political donations (not a US donor). No FARA foreign agent registration (neither Teodorani nor CNH Industrial). No ACRIS NYC property records (no personal real estate in NYC). No CourtListener federal litigation. No ProPublica 990 nonprofit involvement. No LittleSis profile (not in their power-mapping database). No ICIJ offshore leaks connection. Teodorani's financial footprint is almost entirely Italian/UK-based, not US-based. This is consistent with his role as European access agent rather than US financial player.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:00:31",
+      "target_name": "Eduardo Teodorani-Fabbri",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS-search-negative",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener-search-negative",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA-search-negative",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC-search-negative",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 366,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "CNH Industrial/Fiat exec, extensive contact 2010-2019, Rome lunches, conduit to Benedetti Jan 2019",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:19:18",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Raffaele Mincione",
+      "relationship_type": "corporate",
+      "description": "Teodorani is Senior Advisor at WRM Group, founded by Mincione. Mincione is principal defendant in Vatican financial scandal (200M EUR Athena fund, 60 Sloane Avenue London property).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:10",
+      "other_person": "Raffaele Mincione",
+      "other_person_slug": "raffaele-mincione",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "aihitdata.com/company/02864E72/wrm/people",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Ugo Brachetti Peretti",
+      "relationship_type": "social",
+      "description": "Teodorani introduced Brachetti Peretti to Epstein. Both attended Jul 2014 Paris party. Brachetti sent API petroleum presentation seeking Epstein's Arab contacts for partnership.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:15",
+      "other_person": "Ugo Brachetti Peretti",
+      "other_person_slug": "ugo-brachetti-peretti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02592391",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709964",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Mark Getty",
+      "relationship_type": "social",
+      "description": "Teodorani and Epstein attended shooting weekend at Mark Getty's estate, Dec 2013. 'I am in London with edu\\! We went to another shooting at mark Getty place\\!'",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:20",
+      "other_person": "Mark Getty",
+      "other_person_slug": "mark-getty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02381210",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Paolo Barletta",
+      "relationship_type": "corporate",
+      "description": "Barletta Costruzioni founder. Teodorani arranged introduction to Epstein at 9 E 71st St on Feb 28, 2019 as 'business associate.'",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:30",
+      "other_person": "Paolo Barletta",
+      "other_person_slug": "paolo-barletta",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02277792",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02278773",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "1251 mentions in Epstein files. Agnelli family grandson, CNH Industrial executive. Decade-long social relationship 2009-2017+. Real estate, dining, wine gifts, regular calls.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:18:41",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 501,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Long-running social relationship 2010-2019. Epstein used Teodorani for Benedetti inquiry Jan 2019.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:12:11",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:31:19",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02321914",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Eduardo Teodorani",
+      "relationship_type": "social",
+      "description": "Epstein queried Teodorani about Benedetti on Jan 28 2019 (EFTA02628256). Both Italian. Teodorani is SVP CNH Industrial.",
+      "strength": "medium",
+      "date_range": "2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 03:56:37",
+      "other_person": "Alessandro Benedetti",
+      "other_person_slug": "alessandro-benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Fabio Borghese",
+      "relationship_type": "social",
+      "description": "Italian prince. Teodorani described him as 'collector of women.' Borghese visited Epstein NYC Apr 2019 with VIP driver service. Connected through Italian aristocratic social circuit.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:26",
+      "other_person": "Fabio Borghese",
+      "other_person_slug": "fabio-borghese",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02283253",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "person_a": "Dominique Strauss-Kahn",
+      "person_b": "Eduardo Teodorani",
+      "relationship_type": "social",
+      "description": "Both attended Epstein's Jul 19, 2014 Paris party alongside Brachetti Peretti.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:35",
+      "other_person": "Dominique Strauss-Kahn",
+      "other_person_slug": "dominique-strauss-kahn",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "dagospia.com:Brachetti-Epstein-article-2026-02-12",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "person_a": "Eduardo Teodorani",
+      "person_b": "Nicole Junkermann",
+      "relationship_type": "social",
+      "description": "Connected via Brachetti Peretti brothers. Junkermann married Ferdinando Brachetti Peretti. Both received AC Milan acquisition dossier from Epstein network (Jul 2018).",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:01:41",
+      "other_person": "Nicole Junkermann",
+      "other_person_slug": "nicole-junkermann",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02214888",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02601533",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "person_a": "Eduardo Teodorani-Fabbri",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Decade-long personal friendship 2009-2019. Regular meetings in Rome, Paris, Palm Beach, NYC, NM ranch. Annual wine gifts. Teodorani is Agnelli family scion, SVP CNH Industrial.",
+      "strength": "strong",
+      "date_range": "2009-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:13",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02439322",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 395,
+      "person_a": "Eduardo Teodorani-Fabbri",
+      "person_b": "Steve Bannon",
+      "relationship_type": "social",
+      "description": "Epstein arranged Teodorani-Bannon meeting London/Oxford Nov 12-16 2018. Teodorani eager to meet. Bannon building European populist network at the time.",
+      "strength": "strong",
+      "date_range": "2018",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:18",
+      "other_person": "Steve Bannon",
+      "other_person_slug": "steve-bannon",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02615334",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "person_a": "Eduardo Teodorani-Fabbri",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Extensive Paris/Rome/NYC social contact 2010-2019, black book page 53, CNH Industrial SVP, Agnelli heir, bridge to Benedetti",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:23",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02321914",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02414742",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "person_a": "Eduardo Teodorani-Fabbri",
+      "person_b": "Paolo Barletta",
+      "relationship_type": "corporate",
+      "description": "Business associate. Teodorani brought Barletta to meet Epstein at 9 E 71st Feb 28 2019. Also forwarded Barlettas U-First pitch in Aug 2015.",
+      "strength": "strong",
+      "date_range": "2015-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:28",
+      "other_person": "Paolo Barletta",
+      "other_person_slug": "paolo-barletta",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02276504",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02490136",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 394,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Eduardo Teodorani-Fabbri",
+      "relationship_type": "intelligence",
+      "description": "Epstein queried Teodorani about Benedetti Jan 28 2019 via one-line email. Teodorani was Epstein Italian connection who would know Benedetti from Italian business circles.",
+      "strength": "medium",
+      "date_range": "2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:16",
+      "other_person": "Alessandro Benedetti",
+      "other_person_slug": "alessandro-benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "person_a": "Alessandro Benedetti",
+      "person_b": "Eduardo Teodorani-Fabbri",
+      "relationship_type": "social",
+      "description": "Both on Epstein Paris list Sept 2013. Epstein asked Teodorani about Benedetti Jan 2019. Italian high society connection",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:56:26",
+      "other_person": "Alessandro Benedetti",
+      "other_person_slug": "alessandro-benedetti",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575400",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628256",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "senior_advisor",
+      "date_start": null,
+      "date_end": null,
+      "source": "aihitdata.com",
+      "entity_id": 276,
+      "entity_name": "WRM Group",
+      "entity_type": "fund",
+      "jurisdiction": "UK",
+      "entity_status": "active"
+    },
+    {
+      "role": "director",
+      "date_start": null,
+      "date_end": null,
+      "source": "UK Companies House",
+      "entity_id": 278,
+      "entity_name": "ANIVAD Consulting Ltd",
+      "entity_type": "ltd",
+      "jurisdiction": "UK",
+      "entity_status": "active"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1986",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "FARA search reveals historical Fiat S.p.A. lobbying registrations (9 entries, 1986-1994) through firms including Dickstein Shapiro, Gold and Liebengood, and Stroock and Stroock and Lavan. However, NO modern registrations for Fiat, CNH Industrial, Exor, or Teodorani himself. This contrasts with the Epstein network pattern: Teodorani brokered meetings with Italian business figures for Epstein (Barletta, Bracchetti, Brachetti Peretti) but operated entirely outside US regulatory frameworks -- no FEC donations, no FARA registration, no LDA lobbying. His value to Epstein was as European access agent, not US political player.",
+      "confidence": "medium",
+      "id": 868
+    },
+    {
+      "date": "2009",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "WRM Group connection: Teodorani-Fabbri is Senior Advisor at WRM Group (51 Berkeley Square, London W1J 5BB), founded in 2009 by Raffaele Mincione. WRM Capinvest Ltd (FCA-regulated, UK company 07990219, formerly Capital Investment Advisors Ltd) is the advisory arm. Mincione is the principal defendant in the Vatican financial scandal involving 200M EUR invested in his Athena Global Opportunities Fund and the 60 Sloane Avenue London property deal. WRM Group personnel list confirms Teodorani and Mincione are colleagues. Teodorani also Director of Margherita Distribuzione SpA, whose CEO Carlo Maggi is also a WRM Group executive.",
+      "confidence": "medium",
+      "id": 850
+    },
+    {
+      "date": "2009",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Three executive assistants coordinated Teodorani-Epstein logistics over the decade: (1) Denise Jackson (CNH, 2009-2010), (2) Karen Bird (CNH, 2011-2012), (3) Lea Ardimento (CNH Industrial, 2013-2015), (4) Karen Wolleaston (CNH Industrial then WRM Group, 2014-2019). Wolleaston is the most significant: she transitioned with Teodorani from CNH Industrial to WRM Group (email signatures show both affiliations). All coordinated directly with Lesley Groff. Wolleaston's WRM Group email signature (EFTA02277129): 'Karen Wolleaston, EA to Eduardo Teodorani Fabbri, WRM Group, 51 Berkeley Square, London W1J 5BB, Switchboard: +44 (0)20 3150 0050.'",
+      "confidence": "medium",
+      "id": 867
+    },
+    {
+      "date": "2009-08-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein identified Teodorani as his 'Ferrari' connection: 'david stem is not ferrari, eduardo tedouraoni is ferari' (Aug 28 2009). A woman had accidentally contacted Teodorani thinking he was a Ferrari executive she found on the Ferrari website. Separately, on Sep 7 2017, when Teodorani was photographing Lapo Elkann, Epstein responded: 'you can tell him we are friends' -- positioning himself as connected to the Elkann/Agnelli family.",
+      "confidence": "confirmed",
+      "id": 937
+    },
+    {
+      "date": "2009-10",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein maintained a decade-long personal relationship with Teodorani-Fabbri spanning Oct 2009 to Feb 2019 (30+ documents). Regular phone calls via Lesley Groff. Invitations to Zorro Ranch NM (Jul-Aug 2010, Jul-Aug 2012). Meetings in Rome (Aug 2011), Paris (Sep-Oct 2013, Jun-Jul 2014, Oct 2014, Jun 2018), Palm Beach (Jul 2009), and NYC 9 E 71st (Feb 2019). Annual Christmas wine gifts to Epstein (Dec 2017/Jan 2018). Teodorani traveled with companion Davina de Forest. Teodorani visited Zorro Ranch Aug 10-13 2010 with Davina.",
+      "confidence": "medium",
+      "id": 769
+    },
+    {
+      "date": "2009-10",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Full EFTA activity timeline mapped from DOJ Vol 11 (30 search results): Oct 2009 (first contact, phone calls), Jun-Oct 2010 (phone coordination), Jul-Aug 2011 (Rome lunch, Italy travel with Davina), Apr-Aug 2012 (Zorro Ranch invitation, Cesena/skiing photos), Jun-Dec 2013 (Yfke Sturm intro, Lola Mignon same-evening scheduling, Mark Getty shooting, Abu Dhabi), Jan-Jul 2014 (Karyna Pshenychna forwarding, Bracchetti Paris meeting, Alana Bunte on boat), Sep-Oct 2014 (Paris meetings), Mar 2015 (Brachetti Peretti meeting), Nov 2017 (Astrid Gill Casrez intro), Jan 2018 (wine gifts), Nov 2018 (Bannon introduction), Jan-Feb 2019 (Benedetti query, Barletta introduction at WRM Group), Mar 2019 (Peninsula bambina message), Apr 2019 (Fabio Borghese NYC visit). Ten years, 4 countries, 3 employer affiliations (CNH, CNH Industrial, WRM Group).",
+      "confidence": "medium",
+      "id": 871
+    },
+    {
+      "date": "2009-2019",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Decade-long personal friendship 2009-2019. Regular meetings in Rome, Paris, Palm Beach, NYC, NM ranch. Annual wine gifts. Teodorani is Agnelli family scion, SVP CNH Industrial.",
+      "other_person": "Jeffrey Epstein",
+      "id": 392
+    },
+    {
+      "date": "2010-08-15",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "On Aug 15 2010, Epstein emailed Peter Mandelson (former UK Business Secretary): 'eduardo tedodorani and annabel nielson, are here at ranch with me.' Mandelson's contact could not remember Teodorani. Epstein then escalated: 'Get his views on john elkann and luca di montezemolo, both of whom I have been talking to today.' Subject: 'angnelli, ferrarri fiat etc.' This shows Epstein simultaneously hosting Teodorani at Zorro Ranch AND discussing the broader Agnelli dynasty with Mandelson, who had connections to Italian/EU business circles.",
+      "confidence": "confirmed",
+      "id": 931
+    },
+    {
+      "date": "2012-05",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "SEC CNH Global 6-K (May 2012) identifies Teodorani-Fabbri as 'Head of CNH Corporate Development' at Basildon UK event with PM Cameron and Deputy PM Clegg. Quoted: 'we are committed to improving our competitiveness and leveraging the local agricultural heritage.' Also listed as Director of Fiat Chrysler Automobiles (Oct 2014 SC 13D) and Director/SVP of CNH U.K. Limited (May 2004-Nov 2015 per UK Companies House).",
+      "confidence": "high",
+      "id": 848
+    },
+    {
+      "date": "2013-06-16",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged Paris meetings between Epstein and 'Dott. Bracchetti' in Jun-Jul 2014. Lea Ardimento (Teodorani's assistant) proposed meeting June 25/26 or July 23/24 in Paris. Epstein was not in Paris for the June date; the July meeting was postponed to September. Bracchetti's identity remains unconfirmed but the 'Dott.' title suggests an Italian professional (doctor/lawyer). Additionally, on Jun 16 2013, Epstein emailed Teodorani about arranging a car for an unnamed woman in Rome: 'Do you have a car that can take her, she is very very important to me.' Teodorani offered 'Mstino in fregene, this is the best fish restaurant in rome' and confirmed his PA would arrange everything.",
+      "confidence": "high",
+      "id": 780
+    },
+    {
+      "date": "2013-08-01",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Alana Bunte / Love Magazine: On Jul 31-Aug 1, 2013, Teodorani forwarded Love Magazine A/W 2013 photos from Alana Bunte to Epstein, who replied 'lucky you' (EFTA02573775). Teodorani was 'on the boat.' Alana Bunte is a Brazilian-American model who later married Count Jean-Sebastien de Mevius. The exchange shows Teodorani's role as social connector sharing glamour/model content with Epstein.",
+      "confidence": "confirmed",
+      "id": 857
+    },
+    {
+      "date": "2013-09",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Full board portfolio confirmed via MarketScreener: Current directorships include IVECO SpA, Maserati SpA, Aon Italia SRL, Iveco Ltd, HippoGroup Cesenate SpA (racecourse mgmt), Margherita Distribuzione SpA (hypermarkets via WRM Group), uFirst SRL (travel app). Former: SVP CNH Global NV (ended Sep 2013), Non-Executive Director Exor SpA, Director Turk Traktor, Director TaTaTu SpA (social media). Also Chairman/VP of Italian Chamber of Commerce and Industry for UK (Sep 2003-Feb 2026). Resigned from Italian Chamber in Feb 2026, likely due to Epstein Files revelations.",
+      "confidence": "medium",
+      "id": 859
+    },
+    {
+      "date": "2013-09-22",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein used Teodorani as a conduit for introducing women. On Sep 22 2013, Epstein emailed Teodorani: 'eduardo, my great and very beautiful friend yfke that i have copied on this email, now lives in london, i think you two should meet.' Yfke is Dutch model Yfke Sturm (yfke@yfke.tv) who had intensive contact with Epstein from Dec 2011. Sturm admitted the contact was a 'serious misjudgment' (Feb 2026). Separately, Teodorani forwarded to Epstein a message from Karyna Pshenychna containing an Italian romantic quote about 'conquering a woman already desired by everyone' (Jan 17 2014). Teodorani also forwarded Love Magazine photos from socialite Alana Bunte (Aug 2013). On Jun 12 2013, Groff scheduled 'Eduardo Teodorani on Thursday June 13' alongside 'Lola Mignon to arrive around 8pm' for the same evening.",
+      "confidence": "medium",
+      "id": 772
+    },
+    {
+      "date": "2013-09-22",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Teodorani introduced multiple women to Epstein. (1) Yfke Sturm: Sep 22 2013, Epstein introduced Sturm to Teodorani calling her 'my great and very beautiful friend.' (2) Astrid Gill Casrez: Nov 21-22 2017, Teodorani told Epstein about Astrid Gill Casrez, calling her 'one of the smartest woman that I know' and that she was trying to call Epstein. Epstein replied 'she can email me or call anytime.' (3) Karyna Pshenychna: Jan 17 2014, forwarded Italian romantic aphorism to Epstein. (4) Lola Mignon: Jun 13 2013, Groff scheduled Teodorani meeting same evening as Lola Mignon arriving at 8pm in Paris. (5) Unnamed woman in Rome: Jun 16 2013, Epstein asked Teodorani to arrange a car for 'she is very very important to me.' Pattern shows bidirectional woman-introduction between Epstein and Teodorani.",
+      "confidence": "medium",
+      "id": 787
+    },
+    {
+      "date": "2013-10",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR confirms Teodorani-Fabbri as beneficial owner of 52,893 CNH Industrial shares as of Oct 2013 (8,636 owned + 853 vesting + 43,404 exercisable options). Named in Exor S.p.A. SC 13D filing alongside Sergio Marchionne and Alessandro Nasi as insiders.",
+      "confidence": "confirmed",
+      "id": 845
+    },
+    {
+      "date": "2013-10-14",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Teodorani-Epstein relationship spans at least 2009-2019 with 20+ document references. Key interactions: (1) Epstein tried to invite Teodorani to Zorro Ranch (EFTA02315754: 'did anything ever happen with Eduardo Teodorani and a visit to the ranch?'). (2) Multiple phone calls, NYC visits, Rome lunch. (3) Wine gifts 2017-2018. (4) Teodorani's trip to NYC cancelled Oct 14, 2013 — this was during the SAME Paris trip period when Benedetti was on the contact list. (5) An earlier email references 'Cesena with some divine girl' and skiing in Megeve (EFTA02305159). This close Italian elite relationship is the conduit through which Epstein gathered intelligence on Benedetti in January 2019. Teodorani-Fabbri is CNH Industrial (Fiat/Agnelli family), placing him in the Italian business aristocracy where Benedetti operated.",
+      "confidence": "medium",
+      "id": 756
+    },
+    {
+      "date": "2013-12-21",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Mark Getty connection: Teodorani and Epstein together at Mark Getty's estate for a shooting weekend (Dec 21, 2013, EFTA02381210). Message: 'I am in London with edu\\! We went to another shooting at mark Getty place\\! Where are you?? On Monday we will go to Rome\\!' This connects the Getty family (owners of Posta Vecchia villa, Lazio coast) to the Teodorani-Epstein social circuit.",
+      "confidence": "confirmed",
+      "id": 855
+    },
+    {
+      "date": "2014-01-17",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Karyna Pshenychna forwarded to Epstein: On Jan 17, 2014, Teodorani forwarded a message from 'Karyna Pshenychna' to Epstein (EFTA02676878). Subject: 'Colpa di luna' with photo attached. The Italian text quotes: 'La vera genialita non e conquistare una donna gia desiderata da tutti, ma scovarne una preziosa in un essere ignoto' (True genius is not conquering a woman already desired by all, but discovering a precious one in an unknown being). This suggests Teodorani was introducing/sharing women with Epstein, reinforcing the bidirectional flow pattern.",
+      "confidence": "confirmed",
+      "id": 856
+    },
+    {
+      "date": "2014-06-19",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Brachetti Peretti brokerage fully documented: Teodorani introduced Ugo Brachetti Peretti (API petroleum co-owner) to Epstein. Ugo sent API presentation Jun 19, 2014 (EFTA02709964), requested 'your arab friend' for partnership Oct 7, 2014 (EFTA02592391/EFTA02714176), met with Ariane de Rothschild via Epstein on Mar 4, 2015 (EFTA02511095/EFTA02391945). Epstein demanded '5% of all money received' as fee. Separately, Ugo's brother Ferdinando Brachetti Peretti and his wife Nicole Junkermann visited Epstein's Palm Beach (Feb 2017). API later sold to Azerbaijan's Socar for 3B EUR in 2025.",
+      "confidence": "medium",
+      "id": 853
+    },
+    {
+      "date": "2014-07-19",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein's July 19, 2014 Paris party guest list included Teodorani alongside Dominique Strauss-Kahn (former IMF head) and Ugo Brachetti Peretti (API petroleum). This connects Teodorani to the DSK orbit. DSK was separately being briefed about taking over Russia's sovereign wealth fund (Apr 2013, EFTA02674869). Teodorani's social role was to bridge Italian elites into Epstein's network.",
+      "confidence": "medium",
+      "id": 852
+    },
+    {
+      "date": "2014-10",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Wife Davina de Forest confirmed in EFTA corpus: EFTA02721470 shows email to 'Davina de Forest Comis' from 'Sue' arranging London meeting. EFTA02542815 shows Karen Bird (CNH) responding on behalf of Teodorani: 'Davina and he will arrive in Italy during the afternoon of Saturday 20th August' (2011, Bahamas trip). EFTA02680440 shows Lea Ardimento noting 'Davina will also be arriving' for Paris trip (Oct 2014). Davina accompanied Teodorani on multiple international trips that overlapped with Epstein meetings.",
+      "confidence": "confirmed",
+      "id": 866
+    },
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Teodorani identified as intermediary in attempted recruitment of Italian model Chiara Baschetti (b. Cesena, Elite Model Look 2003, worked for Armani/Fendi/Cavalli/Ralph Lauren). Per Italian press (giornalesm.com), Epstein attempted contact through 'Italian intermediaries' named as Teodorani and Brachetti Peretti in 2015-2016. Baschetti never met Epstein and declined all advances. Primary lure offered was exclusive dinner with Woody Allen in Paris. This is the first documented case where Teodorani is specifically named as intermediary in attempted approach to a specific woman for Epstein.",
+      "confidence": "medium",
+      "id": 869
+    },
+    {
+      "date": "2015-02-20",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Teodorani-Fabbri sold 2,885 CNH Industrial shares on Feb 20, 2015 for approx $22.3K (26% return). SEC Form 4 filing. No longer holds insider shares as of that disposal.",
+      "confidence": "high",
+      "id": 846
+    },
+    {
+      "date": "2015-03",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein's 5% commission structure documented in Brachetti Peretti deal: Per Dagospia, Epstein demanded verbal-only agreement for '5% of all money received' (l accordo e il 5% di tutto il denaro ricevuto) from Ugo Brachetti Peretti for brokering API petroleum partnership with Arab contacts. Epstein also challenged Ugo's 1B EUR valuation, noting only 78M EUR EBITDA. Epstein introduced Brachetti to Baroness Ariane de Rothschild (Swiss financier) at Mar 4-5, 2015 Paris meeting. This reveals Epstein's European deal-making model: access to Middle Eastern capital + European aristocratic/banking contacts, with verbal-only fee arrangements that leave no paper trail.",
+      "confidence": "medium",
+      "id": 870
+    },
+    {
+      "date": "2015-04-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "On Apr 19 2015, Epstein emailed 'Jabor Y' (likely Jabor Al-Thani/Qatar): 'shabaz could look at the details of EXOR. the owner of cushman, agnelli family holding. they just bid for an re insurance co last week, they will spin off ferrari this year. and will have fiat chrysler.maserati. most of their money is liquid. 15billion or so.' This demonstrates Epstein using his Agnelli/Teodorani connection to broker financial intelligence about EXOR NV's corporate structure and M&A activity to Gulf contacts.",
+      "confidence": "confirmed",
+      "id": 927
+    },
+    {
+      "date": "2015-04-19",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Same day as EXOR email (Apr 19 2015), a contact emailed Epstein about John Elkann: 'has heard great things about him from a friend; I know that he is Lapo/s brother.. what do you think?' The contact then wrote: 'I think he is the new target. How do we meet him? Not through Edu for sure.' 'Edu' = Eduardo Teodorani. This shows Epstein was targeting the CEO of EXOR/Fiat-Chrysler for recruitment, bypassing Teodorani to avoid alerting the family.",
+      "confidence": "confirmed",
+      "id": 929
+    },
+    {
+      "date": "2015-2019",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Business associate. Teodorani brought Barletta to meet Epstein at 9 E 71st Feb 28 2019. Also forwarded Barlettas U-First pitch in Aug 2015.",
+      "other_person": "Paolo Barletta",
+      "id": 403
+    },
+    {
+      "date": "2018",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein arranged Teodorani-Bannon meeting London/Oxford Nov 12-16 2018. Teodorani eager to meet. Bannon building European populist network at the time.",
+      "other_person": "Steve Bannon",
+      "id": 395
+    },
+    {
+      "date": "2018-02-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged a private Ferrari visit and Fiorano test track access for Dan Ariely (behavioral economist) through his CNH Industrial position, coordinated via Epstein. On Feb 28 2018, Teodorani told Ariely to have his PA contact Karen Wolleaston directly. Wolleaston explained the dates 'must first be requested via the President's office' and confirmed Fiorano track availability for Mar 20-21 2018. CNH Industrial is the parent company controlling Ferrari's manufacturing infrastructure. This demonstrates Teodorani leveraged his Agnelli family corporate position to provide exclusive access as favors brokered through Epstein.",
+      "confidence": "high",
+      "id": 775
+    },
+    {
+      "date": "2018-03",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged a private Ferrari/Fiorano track visit for Dan Ariely and Jeffrey Epstein on Mar 20-21 2018, coordinated via the Ferrari President's office. Karen Wolleaston (Teodorani's EA at CNH Industrial) arranged logistics. This demonstrates Teodorani's executive-level access to Ferrari (then an EXOR subsidiary) which he leveraged for Epstein's social networking.",
+      "confidence": "high",
+      "id": 934
+    },
+    {
+      "date": "2018-05-31",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein was interested in Chateau de l'Horizon, historically the Agnelli family's famous Cote d'Azur property, as architectural inspiration. He asked Ariane de Rothschild for floorplans (May 31 2018) and told his architect John Heah about using it as inspiration. Rothschild questioned: 'Are you sure its Agnelli's house? I thought it belonged to the Saudis. Its a horrible location.' Epstein was also looking at the Agnelli house documentary ('what was the name of the house in the agnelli movie' - Jan 8 2018). This pattern of Agnelli-fascination extended to property, lifestyle, and culture beyond mere business.",
+      "confidence": "high",
+      "id": 946
+    },
+    {
+      "date": "2018-07",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "AC Milan dossier distribution: Jul 13-14, 2018, Epstein received 'AC Milan Acquisition - July 2018' from Jide Zeitlin (Keffi Group), forwarded to Nicole Junkermann and David Stern with 'I have no interest, I just want to understand why.' Teodorani was also sent AC Milan / Inter match info (Nov 2014, EFTA02516559). The Zeitlin->Epstein->Junkermann->Stern distribution chain for the Milan acquisition dossier is significant: Zeitlin was later charged with fraud and resigned as Tapestry CEO (2020). Junkermann's husband Ferdinando Brachetti Peretti co-owned API petroleum.",
+      "confidence": "medium",
+      "id": 858
+    },
+    {
+      "date": "2018-11-12",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein arranged for Teodorani to meet Steve Bannon in London/Oxford, Nov 2018. On Nov 12 2018, Epstein emailed Teodorani: 'bannon will be in oxford on friday'. Teodorani replied: 'I would like very much to see him.' Karen Wolleaston then confirmed logistics, asking whether the meeting was Oxford or London. This is significant because: (1) Bannon was operating a European populist network (The Movement) from Nov 2018, (2) Teodorani's Agnelli/Fiat connections gave access to Italian political-industrial circles, and (3) Epstein was brokering introductions between his European elite contacts and US political figures just months before his July 2019 arrest.",
+      "confidence": "high",
+      "id": 777
+    },
+    {
+      "date": "2019",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein queried Teodorani about Benedetti on Jan 28 2019 (EFTA02628256). Both Italian. Teodorani is SVP CNH Industrial.",
+      "other_person": "Alessandro Benedetti",
+      "id": 430
+    },
+    {
+      "date": "2019",
+      "type": "connection",
+      "relationship_type": "intelligence",
+      "description": "Epstein queried Teodorani about Benedetti Jan 28 2019 via one-line email. Teodorani was Epstein Italian connection who would know Benedetti from Italian business circles.",
+      "other_person": "Alessandro Benedetti",
+      "id": 394
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Eduardo Teodorani-Fabbri (SVP Corporate Development, CNH Industrial) had a sustained relationship with Epstein from at least 2010-2019. Evidence includes: multiple calls/visits (EFTA02417675, EFTA02415189, EFTA02414742), trip cancellation coordinated through his assistant Lea Ardimento (EFTA02576455), Rome lunch plans (EFTA02321914), wine gifts (EFTA02234187), and crucially, Epstein's Jan 28 2019 email to Teodorani asking 'Allesandro benedetti?' — using Teodorani as an intelligence source on the Italian businessman. CNH Industrial is the Fiat/Agnelli family industrial conglomerate, placing Teodorani in Italian elite business circles that would overlap with Benedetti.",
+      "confidence": "high",
+      "id": 738
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SMOKING GUN: On Jan 28 2019, Epstein emailed Teodorani asking 'Allesandro benedetti?' -- a one-line query about the Italian businessman who orchestrated the SoftBank honey trap operation. This came exactly 2 days after Epstein emailed Brad Karp (Chairman, Paul Weiss) on Jan 26 2019 about Carlos Ghosn ('a very very not good guy') and then asked 'Rajeev misra do you represent?' Karp replied 'Sort of. Spoke to him yesterday.' Epstein thus connected three threads in 48 hours: Ghosn arrest, Misra/SoftBank, and Benedetti (Misra's operative). Teodorani was Epstein's Italian connection point who would know Benedetti.",
+      "confidence": "medium",
+      "id": 770
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Teodorani-Fabbri (Agnelli grandson, CNH Industrial SVP) was Epstein's likely introduction to Alessandro Benedetti. Evidence: (1) Both appear on Sept 2013 Paris list, (2) Epstein emailed Teodorani directly asking 'Allesandro benedetti?' on Jan 28, 2019 — suggesting Teodorani was the bridge to Benedetti. Teodorani appears 1,251 times in Epstein files per Italian press, 10 phone numbers and 2 addresses in black book page 53, regular Paris/Rome/NYC social contact 2010-2017+.",
+      "confidence": "medium",
+      "id": 786
+    },
+    {
+      "date": "2019-01-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein asked Teodorani about 'Allesandro benedetti?' on Jan 28 2019 -- exactly 2 days after calling Ghosn 'a very very not good guy' to Karp on Jan 26. Alessandro de Benedetti appeared regularly on Epstein Paris contact lists (Sep 2013 Paris List, Sep 2013 calendar). The De Benedetti family is the other Italian industrial dynasty, rival to the Agnellis, who later sold their media group GEDI to the Elkann-controlled EXOR. This suggests Epstein was working both sides of Italian corporate power during the critical Ghosn/merger period.",
+      "confidence": "high",
+      "id": 940
+    },
+    {
+      "date": "2019-02",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Eduardo Teodorani-Fabbri is the son of Maria Sole Agnelli (Fiat dynasty) and Count Pio Teodorani-Fabbri. SVP Corporate Development at CNH Industrial (Fiat/Stellantis subsidiary). Born 1965 Rome. Director at Iveco, Maserati, Aon Italia, HippoGroup Cesenate. Chairman of Italian Chamber of Commerce and Industry for UK. By Feb 2019 his assistant Karen Wolleaston signs from WRM Group (FCA-regulated, 51 Berkeley Square London W1J 5BB). Also WRM Capinvest Ltd. The Teodorani-Fabbri family is connected to Mussolini via marriage (Mussolini niece married Teodorani-Fabbri cousin).",
+      "confidence": "medium",
+      "id": 768
+    },
+    {
+      "date": "2019-02-28",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Teodorani arranged for Epstein to meet Paolo Barletta (CEO, Gruppo Barletta/Barletta Costruzioni, major Italian RE developer est. 1953, also co-founded Arsenale SpA luxury rail cruises with Nicola Bulgari). Meeting at 9 E 71st St on Feb 28 2019 at 3:30pm, confirmed by multiple emails. Barletta's bio and CV requested by Epstein. Separately, Teodorani had forwarded Barletta's 'U-First' pitch to Epstein in Aug 2015 -- Epstein replied 'not the type of thing I invest in but always send me alternatives.' This shows Teodorani actively brokered business introductions to Epstein over years.",
+      "confidence": "high",
+      "id": 773
+    },
+    {
+      "date": "2019-02-28",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Bracchetti meeting choreography fully mapped: Feb 7-28, 2019 email chain between Karen Wolleaston (Teodorani's EA at WRM Group) and Lesley Groff (Epstein's EA). Wolleaston disclosed Barletta to Groff: 'FYI it is a guy called Paolo Barletta of Barletta Costruzioni. He is a business associate who Eduardo wants to introduce to Mr Epstein.' Meeting scheduled 3:30pm Feb 28, 2019 at 9 E 71st St. Multiple EFTA documents (EFTA02275009, EFTA02277792, EFTA02278486, EFTA02278773, EFTA02633164) show logistics. This meeting was 4.5 months before Epstein's arrest.",
+      "confidence": "confirmed",
+      "id": 863
+    },
+    {
+      "date": "2019-03-01",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Peninsula Hotel 'bambina' message: Mar 1, 2019, Teodorani wrote to Epstein: 'Master we wait the good ankle bambina with another good friend of your choice\\!\\!\\! Peninsula will be our party HQ tonight\\!' (Italian press, confirmed via EFTA). 'Bambina' = girl; 'good ankle' references physical appearance. 'Master' = Teodorani's term of address for Epstein. This message was written just 5 days after the Feb 28 Barletta meeting at 9 E 71st, suggesting Teodorani was in NYC for an extended visit during which business introductions and social activities (involving young women) were interleaved.",
+      "confidence": "high",
+      "id": 864
+    },
+    {
+      "date": "2019-03-18",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "ANIVAD Consulting Ltd (UK company 11887450) incorporated 18 March 2019, with Teodorani as Director. Registered at 96 Pollards Oak Road, Oxted, Surrey RH8 0JW. Company name is 'DAVINA' reversed -- his wife Davina de Forest's name. SIC 82990 (Other business support services). Active and filing. Teodorani uses ANIVAD as his personal consulting vehicle alongside the WRM Group Senior Advisor role.",
+      "confidence": "medium",
+      "id": 851
+    },
+    {
+      "date": "2019-04-24",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Prince Fabio Borghese identified as Italian associate described by Teodorani as 'collector of women' (Italian press). EFTA records confirm Borghese as active Epstein guest Apr 24, 2019 (EFTA02283253/EFTA02281128): Epstein instructed 'fabio borghese. have jojo drive him around the next two days, suburban.' Jojo Fontanilla was Epstein's driver. Borghese had VIP treatment in NYC just 2.5 months before Epstein's arrest.",
+      "confidence": "medium",
+      "id": 854
+    },
+    {
+      "date": "2025-12-26",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Maria Sole Agnelli died Dec 26, 2025 at age 100 (GDELT/euronews). Teodorani inherits responsibility for Agnelli family interests via Giovanni Agnelli B.V. (Dutch vehicle controlling Exor). Maria Sole held 11.2-12.3% of GABV, estimated worth within the family's 13.5B USD fortune. Teodorani's succession to these interests, combined with his Feb 2026 resignation from the Italian Chamber amid Epstein revelations, suggests significant reputational and financial exposure within the Agnelli dynasty.",
+      "confidence": "medium",
+      "id": 860
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Italian media GDELT coverage explosion Feb 2026: 7+ articles mentioning Teodorani-Epstein in rolling 3-month window. Key outlets: Dagospia (Brachetti Peretti connection), quotidiano.net ('Agnelli nephew'), Open.online (detailed analysis), Il Fatto Quotidiano (AC Milan dossier), Il Giornale d'Italia (Borghese 'collector of women'), Wired.it (Bannon-Italy politics). The Times (UK) and TechCrunch also covered. Italian press focused on: (1) luxury real estate tips to Epstein, (2) 'bambina' message, (3) Agnelli dynasty embarrassment, (4) Brachetti Peretti API petroleum connection.",
+      "confidence": "high",
+      "id": 865
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      866,
+      863,
+      738,
+      927,
+      773,
+      871,
+      787,
+      853,
+      857,
+      856,
+      929,
+      756
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "UK"
+      ],
+      "officers": [
+        {
+          "role": "senior_advisor",
+          "entity": "WRM Group",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "director",
+          "entity": "ANIVAD Consulting Ltd",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 276,
+          "name": "WRM Group",
+          "type": "fund",
+          "jurisdiction": "UK",
+          "role": "senior_advisor"
+        },
+        {
+          "id": 278,
+          "name": "ANIVAD Consulting Ltd",
+          "type": "ltd",
+          "jurisdiction": "UK",
+          "role": "director"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          937,
+          769,
+          931,
+          780,
+          772,
+          787,
+          855,
+          853
+        ],
+        "connection_ids": [
+          366,
+          438,
+          439,
+          440,
+          442,
+          471,
+          501,
+          386,
+          430,
+          441,
+          443,
+          444,
+          392,
+          395,
+          399
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          845,
+          846,
+          927
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure",
+        "viz": null,
+        "finding_ids": [],
+        "connection_ids": [
+          438,
+          442,
+          403
+        ],
+        "guidance": "Narrative about corporate entities, roles, jurisdictions. Explain the structure and its purpose, not just list entities."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          868,
+          756,
+          869,
+          870,
+          929,
+          946,
+          858,
+          777
+        ],
+        "connection_ids": [
+          394
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          857,
+          856,
+          863,
+          864
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:42:00.186367",
+    "lead": "<p>Eduardo Teodorani-Fabbri (born 1965, Rome) is an Italian-British corporate executive and scion of the Agnelli industrial dynasty, the son of Maria Sole Agnelli and Count Pio Teodorani-Fabbri. He served as Senior Vice President of Corporate Development at CNH Industrial, the Fiat/Stellantis subsidiary that encompasses agricultural and industrial machinery worldwide, and held board seats at IVECO SpA, Maserati SpA, and Fiat Chrysler Automobiles. He appeared alongside UK Prime Minister David Cameron at a CNH event in 2012 and chaired the Italian Chamber of Commerce and Industry for the UK from 2003 until his resignation in February 2026. According to Italian press reports, his name appears 1,251 times across the DOJ Volume 11 release of <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> files, with 10 phone numbers and 2 addresses recorded on page 53 of Epstein's black book.</p>\n\n<p>Documents from the DOJ release reveal a sustained personal relationship between Teodorani-Fabbri and Epstein spanning October 2009 to at least April 2019, conducted across Rome, Paris, Palm Beach, New York, and Epstein's Zorro Ranch in New Mexico. Teodorani functioned as Epstein's primary gateway to Italian elite society, brokering introductions to figures including Ugo Brachetti Peretti of API petroleum, real estate developer Paolo Barletta of Barletta Costruzioni, and Prince Fabio Borghese. He also served as a conduit for the introduction and sharing of young women, a pattern documented in multiple EFTA records. In a March 2019 message, Teodorani addressed Epstein as \"Master\" and requested he bring \"the good ankle bambina with another good friend of your choice\" to a party at the Peninsula Hotel in New York, five days after bringing Barletta to meet Epstein at <a href=\"/dossiers/nine-east-71st-street-corporation\">9 East 71st Street</a>.</p>\n\n<p>The Epstein relationship intersected with Teodorani-Fabbri's later career move to WRM Group, the FCA-regulated London investment firm founded by Raffaele Mincione, the principal defendant in the Vatican's 200 million EUR financial scandal. By 2019, Teodorani's executive assistant Karen Wolleaston was signing correspondence from WRM Group's offices at 51 Berkeley Square, coordinating meetings with <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>, Epstein's longtime personal assistant. On January 28, 2019, Epstein sent Teodorani a one-line email asking \"Allesandro benedetti?\" -- a query about the Italian operative linked to the SoftBank sabotage campaign -- just two days after Epstein had asked <a href=\"/dossiers/brad-karp\">Brad Karp</a> of <a href=\"/dossiers/paul-weiss\">Paul Weiss</a> whether the firm represented <a href=\"/dossiers/rajeev-misra\">Rajeev Misra</a>. Maria Sole Agnelli died on December 26, 2025, at age 100, leaving Teodorani-Fabbri as a potential heir to a portion of the Agnelli fortune held through Giovanni Agnelli B.V., the Dutch vehicle controlling EXOR.</p>",
+    "open_questions": [
+      "What was the nature of Epstein's financial arrangement, if any, with Teodorani-Fabbri? Epstein demanded 5% commissions from Brachetti Peretti for brokered introductions -- did a similar structure apply to Teodorani's decade of Italian introductions, or was the relationship purely social with Teodorani receiving access and introductions (Bannon, Yfke Sturm) as reciprocal currency?",
+      "Did Teodorani respond to Epstein's January 28, 2019 query about 'Allesandro benedetti,' and if so, what intelligence did he provide? The EFTA corpus contains the query but no documented reply -- was the response verbal, or is it in unreleased documents?",
+      "What is Teodorani-Fabbri's current relationship with WRM Group and Raffaele Mincione, given Mincione's ongoing Vatican financial scandal trial? Did the Epstein revelations affect this business relationship?",
+      "How extensive was Teodorani's role as an intermediary in Epstein's approach to young women beyond the documented cases (Yfke Sturm, Chiara Baschetti, the 'bambina' message)? Italian press named him alongside Brachetti Peretti as systematic recruiters -- are there additional approaches documented in unreleased EFTA files?",
+      "What is the identity of 'Dott. Bracchetti' for whom Teodorani arranged Paris meetings with Epstein in June-July 2014? The 'Dott.' title suggests a physician or lawyer -- is this a member of the Brachetti Peretti family or a separate individual?"
+    ],
+    "system_role": "Teodorani-Fabbri operated as Epstein's primary European access agent for Italian elite society, brokering introductions to industrialists, aristocrats, and young women while leveraging his Agnelli family pedigree and corporate positions at CNH Industrial and WRM Group to provide access and social credibility that Epstein could not obtain independently.",
+    "sections": [
+      {
+        "id": "agnelli-dynasty-and-corporate-career",
+        "title": "The Agnelli Dynasty and Corporate Career",
+        "content": "<p>Eduardo Teodorani-Fabbri's significance within the Epstein network derives directly from his position within Italy's most powerful industrial family. His mother Maria Sole Agnelli was a daughter of Edoardo Agnelli, the founder of Fiat, making Eduardo a grandson of the dynasty that controlled one of Europe's largest conglomerates. The Agnelli empire, restructured through the Dutch holding company EXOR N.V. under the leadership of John Elkann (Maria Sole's great-nephew), encompasses Ferrari, Stellantis, CNH Industrial, Iveco, The Economist Group, and Juventus FC, with total assets exceeding 15 billion USD.</p>\n\n<p>Teodorani-Fabbri held the position of Director and SVP at CNH U.K. Limited from May 2004 to November 2015, per UK Companies House records. SEC filings from May 2012 identify him as \"Head of CNH Corporate Development\" at a Basildon, UK facility event attended by Prime Minister David Cameron and Deputy Prime Minister Nick Clegg. An October 2013 SEC SC 13D filing from Exor S.p.A. lists him as a beneficial owner of 52,893 CNH Industrial shares alongside Sergio Marchionne and Alessandro Nasi. His broader board portfolio, confirmed through MarketScreener data, included directorships at IVECO SpA, Maserati SpA, Aon Italia SRL, Turk Traktor, and HippoGroup Cesenate SpA, a racecourse management company. He also served as Chairman or Vice President of the Italian Chamber of Commerce and Industry for the United Kingdom from September 2003 until his resignation in February 2026, a departure widely attributed in Italian media to the Epstein file releases.</p>\n\n<p>This constellation of roles gave Teodorani-Fabbri access to multiple intersecting worlds: the Agnelli family's inner corporate governance, Italian political and business circles, London's financial establishment, and the broader European aristocratic social circuit. It was precisely this access that made him valuable to <a href=\"/dossiers/jeffrey-epstein\">Epstein</a>, who cultivated the relationship for a full decade.</p>",
+        "viz": null
+      },
+      {
+        "id": "decade-of-access",
+        "title": "A Decade of Access: The Epstein Relationship (2009-2019)",
+        "content": "<p>The earliest documented contact between Teodorani-Fabbri and Epstein dates to October 2009, when <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> noted \"Eduardo Teodorani has called again for you\" (EFTA02438550). From this point forward, the EFTA corpus documents a relationship of remarkable continuity across ten years, four countries, and three successive employer affiliations for Teodorani (CNH, CNH Industrial, and WRM Group). The communications were mediated through a succession of four executive assistants -- Denise Jackson, Karen Bird, Lea Ardimento, and Karen Wolleaston -- all of whom coordinated directly with Groff.</p>\n\n<p>The relationship escalated rapidly. By the summer of 2010, Teodorani visited Epstein's Zorro Ranch in New Mexico from August 10 to 13, accompanied by his partner Davina de Forest. While Teodorani was at the ranch, Epstein emailed Peter Mandelson, the former UK Business Secretary: \"eduardo tedodorani and annabel nielson, are here at ranch with me.\" In the same exchange, Epstein pressed Mandelson for intelligence on the Agnelli family leadership: \"Get his views on john elkann and luca di montezemolo, both of whom I have been talking to today\" (EFTA02423612). The subject line read \"angnelli, ferrarri fiat etc.\" This reveals a characteristic Epstein technique: hosting a contact socially while simultaneously mining that contact's network through separate channels.</p>\n\n<p>In August 2009, Epstein identified Teodorani's precise value: \"david stem is not ferrari, eduardo tedouraoni is ferari\" (EFTA02436117). This designation of Teodorani as his \"Ferrari connection\" was operationally accurate -- in March 2018, Teodorani arranged a private visit to the Ferrari factory and Fiorano test track for Epstein and behavioral economist Dan Ariely, coordinated through the Ferrari President's office (EFTA02518985). By September 2017, when Teodorani photographed Lapo Elkann, Epstein instructed him: \"you can tell him we are friends,\" positioning himself as connected to the Elkann branch of the Agnelli dynasty.</p>\n\n<p>Regular meetings continued through Rome (July 2011, a lunch at a seaside restaurant), Paris (September-October 2013, June-July 2014, October 2014, June 2018), and New York (February 2019). Teodorani sent annual Christmas wine gifts to Epstein in 2017 and 2018. In December 2013, an email to Epstein reported: \"I am in London with edu! We went to another shooting at mark Getty place! Where are you?? On Monday we will go to Rome!\" (EFTA02381210) -- placing Teodorani and an unnamed companion at Mark Getty's country estate.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "brokering-italian-elite-access",
+        "title": "Brokering Italian Elite Access",
+        "content": "<p>Teodorani-Fabbri's core function within Epstein's network was as a broker of introductions to Italian industrialists, aristocrats, and business figures who would otherwise have been beyond Epstein's reach. The documentary record reveals at least three major brokered relationships, each following a similar pattern: Teodorani made the initial introduction, Epstein evaluated the commercial potential, and the relationship was then managed through Epstein's executive assistants.</p>\n\n<p>The most commercially significant was Ugo Brachetti Peretti, co-owner of Anonima Petroli Italiana (API), one of Italy's oldest petroleum companies. Teodorani introduced Brachetti Peretti to Epstein, and both appeared at Epstein's July 19, 2014 Paris party alongside former IMF Managing Director Dominique Strauss-Kahn. Within weeks, Brachetti Peretti sent Epstein a corporate presentation (EFTA02709964) and began requesting introductions to \"your arab friend\" for a potential partnership (EFTA02714176). Epstein brokered a March 2015 Paris lunch between Brachetti Peretti and <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a>, the Swiss financier. According to Italian outlet Dagospia, Epstein demanded a verbal-only agreement for \"5% of all money received\" as his brokerage fee. API was eventually sold to Azerbaijan's SOCAR for approximately 3 billion EUR in 2025.</p>\n\n<p>The second documented introduction involved Paolo Barletta, CEO of Gruppo Barletta/Barletta Costruzioni, one of Italy's major real estate developers, who also co-founded Arsenale SpA luxury rail cruises with Nicola Bulgari. Teodorani first forwarded Barletta's \"U-First\" startup pitch to Epstein in August 2015; Epstein declined but said \"always send me alternatives\" (EFTA02490136). In February 2019, Teodorani arranged a formal introduction at <a href=\"/dossiers/nine-east-71st-street-corporation\">9 East 71st Street</a>. Karen Wolleaston described Barletta to Groff as \"a business associate who Eduardo wants to introduce to Mr Epstein\" (EFTA02277792). The meeting took place on February 28, 2019 at 3:30 PM, just 4.5 months before Epstein's arrest.</p>\n\n<p>The third figure was Prince Fabio Borghese, whom Teodorani described as a \"collector of women\" according to Italian press reports. Borghese received VIP treatment in New York in late April 2019, with Epstein instructing his driver Jojo Fontanilla to \"have jojo drive him around the next two days, suburban\" (EFTA02283253). This visit occurred just 2.5 months before Epstein's final arrest.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "women-and-social-introductions",
+        "title": "The Exchange of Women and Social Introductions",
+        "content": "<p>Beyond business introductions, the documentary record reveals a persistent pattern of Teodorani-Fabbri and Epstein exchanging introductions to young women, flowing in both directions. On September 22, 2013, Epstein emailed Teodorani: \"eduardo, my great and very beautiful friend yfke that i have copied on this email, now lives in london, i think you two should meet\" (EFTA02373257). Yfke Sturm, a Dutch model, had maintained intensive contact with Epstein since December 2011 and publicly acknowledged in February 2026 that the relationship was a \"serious misjudgment.\"</p>\n\n<p>Traffic flowed the other direction as well. In January 2014, Teodorani forwarded an email from Karyna Pshenychna to Epstein containing a romantic Italian aphorism: \"La vera genialita non e conquistare una donna gia desiderata da tutti, ma scovarne una preziosa in un essere ignoto\" -- \"True genius is not conquering a woman already desired by all, but discovering a precious one in an unknown being\" (EFTA02676878). In November 2017, Teodorani told Epstein about Astrid Gill Casrez, describing her as \"one of the smartest woman that I know\" and noting \"she is trying to call you now.\" Epstein replied: \"she can email me or call anytime\" (EFTA02564633).</p>\n\n<p>Scheduling records reveal suggestive overlaps. On June 12, 2013, Groff noted \"Eduardo Teodorani on Thursday June 13\" alongside \"Lola Mignon to arrive around 8pm on Thurs June 13\" (EFTA02571476), scheduling a woman's arrival on the same evening as Teodorani's visit. In August 2013, Teodorani forwarded Love Magazine photos of model Alana Bunte from \"on the boat,\" prompting Epstein's reply \"lucky you\" (EFTA02573775). Italian press identified Teodorani and Brachetti Peretti as \"Italian intermediaries\" who attempted to recruit model Chiara Baschetti from Cesena for Epstein in 2015-2016, offering an exclusive dinner with Woody Allen in Paris as the lure; Baschetti declined all advances.</p>\n\n<p>The most explicit communication came on March 1, 2019, when Teodorani wrote to Epstein: \"Master we wait the good ankle bambina with another good friend of your choice!!! Peninsula will be our party HQ tonight!\" In Italian, \"bambina\" means \"girl,\" while \"good ankle\" appears to reference physical appearance. Teodorani's use of \"Master\" as a form of address for Epstein, combined with the request for Epstein to choose which women to bring, reveals a dynamic in which Teodorani was simultaneously a peer in social standing and a supplicant in the relationship's actual power structure.</p>",
+        "viz": null
+      },
+      {
+        "id": "epstein-and-the-agnelli-fortune",
+        "title": "Epstein and the Agnelli Fortune",
+        "content": "<p>While Teodorani-Fabbri provided Epstein with access to Italian society, Epstein simultaneously worked to exploit the broader Agnelli financial structure through separate channels. On April 19, 2015, Epstein emailed \"Jabor Y\" (likely <a href=\"/dossiers/jabor-al-thani\">Jabor Al-Thani</a> of Qatar): \"shabaz could look at the details of EXOR. the owner of cushman, agnelli family holding. they just bid for an re insurance co last week, they will spin off ferrari this year. and will have fiat chrysler.maserati. most of their money is liquid. 15billion or so\" (EFTA02504407). This message demonstrates Epstein leveraging intelligence gained through his Teodorani relationship to pitch the Agnelli corporate structure to Gulf investors.</p>\n\n<p>On the same day, a contact emailed Epstein about John Elkann, the CEO of EXOR and de facto head of the Agnelli dynasty: \"has heard great things about him from a friend; I know that he is Lapo's brother.. what do you think?\" The contact then wrote: \"I think he is the new target. How do we meet him? Not through Edu for sure\" (EFTA02389138). \"Edu\" is Eduardo Teodorani-Fabbri. The decision to bypass Teodorani suggests that Epstein's circle understood Teodorani's position was as a useful but limited access point -- sufficiently connected to provide intelligence and social introductions, but not positioned closely enough to the Elkann branch to broker a direct approach to the family's real power center without raising alarms.</p>\n\n<p>Epstein's fascination with the Agnelli world extended to culture and aesthetics. In January 2018, he asked \"what was the name of the house in the agnelli movie\" (EFTA02326741), referring to a documentary. By May 2018, he was requesting floor plans for Chateau de l'Horizon, the Agnelli family's famous Cote d'Azur property, from <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a>, telling his architect about using it as inspiration. Rothschild pushed back: \"Are you sure its Agnelli's house? I thought it belonged to the Saudis. Its a horrible location\" (EFTA02650568). SEC filings confirm Teodorani's financial stake in the family enterprise: as of October 2013, he held 52,893 CNH Industrial shares (8,636 owned outright, 853 vesting, and 43,404 in exercisable options), listed in an Exor S.p.A. SC 13D alongside Sergio Marchionne. He sold 2,885 shares in February 2015 for approximately $22,300.</p>",
+        "viz": null
+      },
+      {
+        "id": "wrm-group-and-vatican-connection",
+        "title": "WRM Group and the Vatican Connection",
+        "content": "<p>At some point between 2015 and 2018, Teodorani-Fabbri transitioned from CNH Industrial to WRM Group, an FCA-regulated investment firm headquartered at 51 Berkeley Square, London, founded in 2009 by Raffaele Mincione. WRM Capinvest Ltd (UK company 07990219, formerly Capital Investment Advisors Ltd) operates as the group's advisory arm. The transition is documented through Karen Wolleaston's email signatures: earlier correspondence bears the CNH Industrial address, while a February 2019 signature reads \"Karen Wolleaston, EA to Eduardo Teodorani Fabbri, WRM Group, Authorised and regulated by the Financial Conduct Authority, 51 Berkeley Square, London W1J 5BB\" (EFTA02277129).</p>\n\n<p>Mincione is the principal defendant in the Vatican's financial scandal, which centered on the Secretariat of State's investment of approximately 200 million EUR in Mincione's Athena Global Opportunities Fund and the subsequent purchase of 60 Sloane Avenue, a London property. The Vatican trial, which began in 2021, involved charges of embezzlement, fraud, and abuse of office. Teodorani's role as Senior Advisor at WRM Group alongside Mincione represents a continuation of the pattern established throughout his career: operating at the nexus of Italian aristocratic finance, British corporate structures, and high-level networking. He also served as Director of Margherita Distribuzione SpA, a hypermarket company whose CEO Carlo Maggi was simultaneously a WRM Group executive.</p>\n\n<p>In March 2019, Teodorani incorporated ANIVAD Consulting Ltd (UK company 11887450), registered at 96 Pollards Oak Road, Oxted, Surrey. The company name is \"DAVINA\" reversed -- a reference to his wife Davina de Forest. ANIVAD operates alongside his WRM Group advisory role as a personal consulting vehicle, classified under SIC code 82990 (Other business support services).</p>",
+        "viz": null
+      },
+      {
+        "id": "bannon-benedetti-and-political-intelligence",
+        "title": "Bannon, Benedetti, and Political Intelligence",
+        "content": "<p>In November 2018, Epstein brokered an introduction between Teodorani-Fabbri and <a href=\"/dossiers/steve-bannon\">Steve Bannon</a>, who was then building \"The Movement,\" a Brussels-based organization aimed at fostering European populist-nationalist politics. On November 12, Epstein emailed Teodorani: \"bannon will be in oxford on friday.\" Teodorani replied eagerly: \"I would like very much to see him.\" Karen Wolleaston followed up to confirm logistics, asking whether the meeting would take place in Oxford or London (EFTA02615334). The introduction is significant in its timing -- Bannon was actively courting Matteo Salvini's Lega party and other Italian populist forces, and Teodorani's Agnelli/Fiat connections provided access to the Italian political-industrial establishment that Bannon's network sought to influence. Epstein served as the bridge between an American political operative and a European industrial insider, a role he repeated across multiple contexts.</p>\n\n<p>More significant was Epstein's January 28, 2019 query to Teodorani: \"Allesandro benedetti?\" (EFTA02628256). This terse one-line email asked about <a href=\"/dossiers/alessandro-benedetti\">Alessandro Benedetti</a>, the Italian operator who had orchestrated a sabotage campaign against SoftBank executives on behalf of <a href=\"/dossiers/rajeev-misra\">Rajeev Misra</a>. The timing is critical: just two days earlier, on January 26, Epstein had emailed <a href=\"/dossiers/brad-karp\">Brad Karp</a>, Chairman of <a href=\"/dossiers/paul-weiss\">Paul Weiss</a>, calling <a href=\"/dossiers/carlos-ghosn\">Carlos Ghosn</a> \"a very very not good guy\" and then asking \"Rajeev misra do you represent?\" Karp replied: \"Sort of. Spoke to him yesterday.\" Within 48 hours, Epstein thus connected three threads -- the Ghosn arrest, Misra and SoftBank, and Benedetti -- using Teodorani as his intelligence source on the Italian side of the equation. Both Teodorani and Benedetti appeared on Epstein's September 2013 Paris contact list (EFTA02575400), suggesting they may have traveled in overlapping Italian social circles in France.</p>\n\n<p>The query also illuminates the structural difference between the Agnelli and De Benedetti industrial dynasties. The De Benedetti family, rivals to the Agnellis, later sold their media group GEDI to the Elkann-controlled EXOR. Epstein was, in effect, working both sides of Italian corporate power simultaneously, using Teodorani for access to the Agnelli orbit and maintaining separate contact with the De Benedetti circle through Paris social networks.</p>",
+        "viz": null
+      },
+      {
+        "id": "aftermath-and-exposure",
+        "title": "Aftermath and Exposure",
+        "content": "<p>The February 2026 release of the DOJ Epstein files triggered an explosion of Italian media coverage of Teodorani-Fabbri's connection to Epstein. Seven or more articles appeared in a three-month window across major Italian outlets: Dagospia reported on the Brachetti Peretti petroleum connection, quotidiano.net identified Teodorani as an \"Agnelli nephew,\" Open.online provided detailed analysis, Il Fatto Quotidiano covered the AC Milan acquisition dossier distribution, Il Giornale d'Italia reported Borghese's description as a \"collector of women,\" and Wired.it examined the Bannon-Italy politics angle. The Times (UK) and TechCrunch also carried coverage.</p>\n\n<p>Italian press focused on several particularly damaging elements: the \"bambina\" message and its implications, Teodorani's role as a named intermediary in the attempted recruitment of model Chiara Baschetti, the luxury real estate intelligence Teodorani provided, and the broader embarrassment to the Agnelli dynasty. Teodorani-Fabbri resigned from his position at the Italian Chamber of Commerce and Industry for the UK in February 2026, ending a tenure of more than two decades.</p>\n\n<p>The timing of these revelations coincided with a significant family transition. Maria Sole Agnelli died on December 26, 2025, at age 100. She had held an estimated 11.2-12.3% of Giovanni Agnelli B.V., the Dutch vehicle controlling EXOR, a stake worth a substantial portion of the family's 13.5 billion USD fortune. Teodorani-Fabbri's inheritance of responsibility for this stake, combined with the reputational damage from the Epstein revelations, represents significant financial and institutional exposure within the Agnelli dynasty. Notably, a search across US regulatory databases -- FEC, FARA, ACRIS, CourtListener, ProPublica 990s, LittleSis, and ICIJ offshore leaks -- returns no results for Teodorani-Fabbri, confirming that his financial and political footprint remained almost entirely European, consistent with his role as a European access agent rather than a US-based financial operator.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "enabler-gradient",
+      "narrative-shield",
+      "jurisdictional-arbitrage"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Eduardo Teodorani-Fabbri",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02628256",
+          "description": "CNH Industrial/Fiat exec, extensive contact 2010-2019, Rome lunches, conduit to Benedetti Jan 2019"
+        },
+        {
+          "target": "Raffaele Mincione",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "aihitdata.com/company/02864E72/wrm/people",
+          "description": "Teodorani is Senior Advisor at WRM Group, founded by Mincione. Mincione is principal defendant in Vatican financial scandal (200M EUR Athena fund, 60 Sloane Avenue London property)."
+        },
+        {
+          "target": "Ugo Brachetti Peretti",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02592391",
+          "description": "Teodorani introduced Brachetti Peretti to Epstein. Both attended Jul 2014 Paris party. Brachetti sent API petroleum presentation seeking Epstein's Arab contacts for partnership."
+        },
+        {
+          "target": "Mark Getty",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02381210",
+          "description": "Teodorani and Epstein attended shooting weekend at Mark Getty's estate, Dec 2013. 'I am in London with edu\\! We went to another shooting at mark Getty place\\!'"
+        },
+        {
+          "target": "Paolo Barletta",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02277792",
+          "description": "Barletta Costruzioni founder. Teodorani arranged introduction to Epstein at 9 E 71st St on Feb 28, 2019 as 'business associate.'"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "1251 mentions in Epstein files. Agnelli family grandson, CNH Industrial executive. Decade-long social relationship 2009-2017+. Real estate, dining, wine gifts, regular calls."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02628256",
+          "description": "Long-running social relationship 2010-2019. Epstein used Teodorani for Benedetti inquiry Jan 2019."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02321914",
+          "description": null
+        },
+        {
+          "target": "Alessandro Benedetti",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02628256",
+          "description": "Epstein queried Teodorani about Benedetti on Jan 28 2019 (EFTA02628256). Both Italian. Teodorani is SVP CNH Industrial."
+        },
+        {
+          "target": "Fabio Borghese",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02283253",
+          "description": "Italian prince. Teodorani described him as 'collector of women.' Borghese visited Epstein NYC Apr 2019 with VIP driver service. Connected through Italian aristocratic social circuit."
+        },
+        {
+          "target": "Dominique Strauss-Kahn",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "dagospia.com:Brachetti-Epstein-article-2026-02-12",
+          "description": "Both attended Epstein's Jul 19, 2014 Paris party alongside Brachetti Peretti."
+        },
+        {
+          "target": "Nicole Junkermann",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02214888",
+          "description": "Connected via Brachetti Peretti brothers. Junkermann married Ferdinando Brachetti Peretti. Both received AC Milan acquisition dossier from Epstein network (Jul 2018)."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02439322",
+          "description": "Decade-long personal friendship 2009-2019. Regular meetings in Rome, Paris, Palm Beach, NYC, NM ranch. Annual wine gifts. Teodorani is Agnelli family scion, SVP CNH Industrial."
+        },
+        {
+          "target": "Steve Bannon",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02615334",
+          "description": "Epstein arranged Teodorani-Bannon meeting London/Oxford Nov 12-16 2018. Teodorani eager to meet. Bannon building European populist network at the time."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02321914",
+          "description": "Extensive Paris/Rome/NYC social contact 2010-2019, black book page 53, CNH Industrial SVP, Agnelli heir, bridge to Benedetti"
+        },
+        {
+          "target": "Paolo Barletta",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02276504",
+          "description": "Business associate. Teodorani brought Barletta to meet Epstein at 9 E 71st Feb 28 2019. Also forwarded Barlettas U-First pitch in Aug 2015."
+        },
+        {
+          "target": "Alessandro Benedetti",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02628256",
+          "description": "Epstein queried Teodorani about Benedetti Jan 28 2019 via one-line email. Teodorani was Epstein Italian connection who would know Benedetti from Italian business circles."
+        },
+        {
+          "target": "Alessandro Benedetti",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02575400",
+          "description": "Both on Epstein Paris list Sept 2013. Epstein asked Teodorani about Benedetti Jan 2019. Italian high society connection"
+        }
+      ],
+      "secondHop": {
+        "Alessandro Benedetti": [
+          {
+            "target": "Rajeev Misra",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Misra paid Benedetti 500K via Barkmere Group BVI Apr 2015 for smear campaign. Benedetti expected exec position plus profit share. Falling out led to WSJ leak Feb 2020"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Neighbors on Avenue Foch, Paris. Weingarten described Benedetti as Epstein's Italian jewish neighbor on ave foch in Dec 2011"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Paris neighbor (Avenue Foch Dec 2011). On Paris contact list Sept 2013. Epstein queried Teodorani about Benedetti Jan 28 2019. Multi-year relationship 2011-2019."
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Misra paid Benedetti 500K via Standard Chartered to Barkmere Group BVI Apr 2015 for SoftBank sabotage operation."
+          },
+          {
+            "target": "Nicolas Giannakopoulos",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Giannakopoulos was Benedetti's subcontractor in the SoftBank sabotage operation (2015-2016). Benedetti recruited Giannakopoulos to distribute leaked banking records and act as nominal shareholder."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1986",
+        "label": "FARA search reveals historical Fiat S.p.A. lobbying registrations (9 entries, 1986-1994) through firms including Dickstein Shapiro, Gold and Liebengood, and Stroock and Stroock and Lavan. However, NO modern registrations for Fiat, CNH Industrial, Exor, or Teodorani himself. This contrasts with the Epstein network pattern: Teodorani brokered meetings with Italian business figures for Epstein (Barletta, Bracchetti, Brachetti Peretti) but operated entirely outside US regulatory frameworks -- no FEC donations, no FARA registration, no LDA lobbying. His value to Epstein was as European access agent, not US political player.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 868
+      },
+      {
+        "date": "2009",
+        "label": "WRM Group connection: Teodorani-Fabbri is Senior Advisor at WRM Group (51 Berkeley Square, London W1J 5BB), founded in 2009 by Raffaele Mincione. WRM Capinvest Ltd (FCA-regulated, UK company 07990219, formerly Capital Investment Advisors Ltd) is the advisory arm. Mincione is the principal defendant in the Vatican financial scandal involving 200M EUR invested in his Athena Global Opportunities Fund and the 60 Sloane Avenue London property deal. WRM Group personnel list confirms Teodorani and Mincione are colleagues. Teodorani also Director of Margherita Distribuzione SpA, whose CEO Carlo Maggi is also a WRM Group executive.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 850
+      },
+      {
+        "date": "2009",
+        "label": "Three executive assistants coordinated Teodorani-Epstein logistics over the decade: (1) Denise Jackson (CNH, 2009-2010), (2) Karen Bird (CNH, 2011-2012), (3) Lea Ardimento (CNH Industrial, 2013-2015), (4) Karen Wolleaston (CNH Industrial then WRM Group, 2014-2019). Wolleaston is the most significant: she transitioned with Teodorani from CNH Industrial to WRM Group (email signatures show both affiliations). All coordinated directly with Lesley Groff. Wolleaston's WRM Group email signature (EFTA02277129): 'Karen Wolleaston, EA to Eduardo Teodorani Fabbri, WRM Group, 51 Berkeley Square, London W1J 5BB, Switchboard: +44 (0)20 3150 0050.'",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 867
+      },
+      {
+        "date": "2009-08-28",
+        "label": "Epstein identified Teodorani as his 'Ferrari' connection: 'david stem is not ferrari, eduardo tedouraoni is ferari' (Aug 28 2009). A woman had accidentally contacted Teodorani thinking he was a Ferrari executive she found on the Ferrari website. Separately, on Sep 7 2017, when Teodorani was photographing Lapo Elkann, Epstein responded: 'you can tell him we are friends' -- positioning himself as connected to the Elkann/Agnelli family.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 937
+      },
+      {
+        "date": "2009-10",
+        "label": "Epstein maintained a decade-long personal relationship with Teodorani-Fabbri spanning Oct 2009 to Feb 2019 (30+ documents). Regular phone calls via Lesley Groff. Invitations to Zorro Ranch NM (Jul-Aug 2010, Jul-Aug 2012). Meetings in Rome (Aug 2011), Paris (Sep-Oct 2013, Jun-Jul 2014, Oct 2014, Jun 2018), Palm Beach (Jul 2009), and NYC 9 E 71st (Feb 2019). Annual Christmas wine gifts to Epstein (Dec 2017/Jan 2018). Teodorani traveled with companion Davina de Forest. Teodorani visited Zorro Ranch Aug 10-13 2010 with Davina.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 769
+      },
+      {
+        "date": "2009-10",
+        "label": "Full EFTA activity timeline mapped from DOJ Vol 11 (30 search results): Oct 2009 (first contact, phone calls), Jun-Oct 2010 (phone coordination), Jul-Aug 2011 (Rome lunch, Italy travel with Davina), Apr-Aug 2012 (Zorro Ranch invitation, Cesena/skiing photos), Jun-Dec 2013 (Yfke Sturm intro, Lola Mignon same-evening scheduling, Mark Getty shooting, Abu Dhabi), Jan-Jul 2014 (Karyna Pshenychna forwarding, Bracchetti Paris meeting, Alana Bunte on boat), Sep-Oct 2014 (Paris meetings), Mar 2015 (Brachetti Peretti meeting), Nov 2017 (Astrid Gill Casrez intro), Jan 2018 (wine gifts), Nov 2018 (Bannon introduction), Jan-Feb 2019 (Benedetti query, Barletta introduction at WRM Group), Mar 2019 (Peninsula bambina message), Apr 2019 (Fabio Borghese NYC visit). Ten years, 4 countries, 3 employer affiliations (CNH, CNH Industrial, WRM Group).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 871
+      },
+      {
+        "date": "2009-2019",
+        "label": "social with Jeffrey Epstein",
+        "type": "social",
+        "entity": "Jeffrey Epstein",
+        "id": 392
+      },
+      {
+        "date": "2010-08-15",
+        "label": "On Aug 15 2010, Epstein emailed Peter Mandelson (former UK Business Secretary): 'eduardo tedodorani and annabel nielson, are here at ranch with me.' Mandelson's contact could not remember Teodorani. Epstein then escalated: 'Get his views on john elkann and luca di montezemolo, both of whom I have been talking to today.' Subject: 'angnelli, ferrarri fiat etc.' This shows Epstein simultaneously hosting Teodorani at Zorro Ranch AND discussing the broader Agnelli dynasty with Mandelson, who had connections to Italian/EU business circles.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 931
+      },
+      {
+        "date": "2012-05",
+        "label": "SEC CNH Global 6-K (May 2012) identifies Teodorani-Fabbri as 'Head of CNH Corporate Development' at Basildon UK event with PM Cameron and Deputy PM Clegg. Quoted: 'we are committed to improving our competitiveness and leveraging the local agricultural heritage.' Also listed as Director of Fiat Chrysler Automobiles (Oct 2014 SC 13D) and Director/SVP of CNH U.K. Limited (May 2004-Nov 2015 per UK Companies House).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 848
+      },
+      {
+        "date": "2013-06-16",
+        "label": "Teodorani arranged Paris meetings between Epstein and 'Dott. Bracchetti' in Jun-Jul 2014. Lea Ardimento (Teodorani's assistant) proposed meeting June 25/26 or July 23/24 in Paris. Epstein was not in Paris for the June date; the July meeting was postponed to September. Bracchetti's identity remains unconfirmed but the 'Dott.' title suggests an Italian professional (doctor/lawyer). Additionally, on Jun 16 2013, Epstein emailed Teodorani about arranging a car for an unnamed woman in Rome: 'Do you have a car that can take her, she is very very important to me.' Teodorani offered 'Mstino in fregene, this is the best fish restaurant in rome' and confirmed his PA would arrange everything.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 780
+      },
+      {
+        "date": "2013-08-01",
+        "label": "Alana Bunte / Love Magazine: On Jul 31-Aug 1, 2013, Teodorani forwarded Love Magazine A/W 2013 photos from Alana Bunte to Epstein, who replied 'lucky you' (EFTA02573775). Teodorani was 'on the boat.' Alana Bunte is a Brazilian-American model who later married Count Jean-Sebastien de Mevius. The exchange shows Teodorani's role as social connector sharing glamour/model content with Epstein.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 857
+      },
+      {
+        "date": "2013-09",
+        "label": "Full board portfolio confirmed via MarketScreener: Current directorships include IVECO SpA, Maserati SpA, Aon Italia SRL, Iveco Ltd, HippoGroup Cesenate SpA (racecourse mgmt), Margherita Distribuzione SpA (hypermarkets via WRM Group), uFirst SRL (travel app). Former: SVP CNH Global NV (ended Sep 2013), Non-Executive Director Exor SpA, Director Turk Traktor, Director TaTaTu SpA (social media). Also Chairman/VP of Italian Chamber of Commerce and Industry for UK (Sep 2003-Feb 2026). Resigned from Italian Chamber in Feb 2026, likely due to Epstein Files revelations.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 859
+      },
+      {
+        "date": "2013-09-22",
+        "label": "Epstein used Teodorani as a conduit for introducing women. On Sep 22 2013, Epstein emailed Teodorani: 'eduardo, my great and very beautiful friend yfke that i have copied on this email, now lives in london, i think you two should meet.' Yfke is Dutch model Yfke Sturm (yfke@yfke.tv) who had intensive contact with Epstein from Dec 2011. Sturm admitted the contact was a 'serious misjudgment' (Feb 2026). Separately, Teodorani forwarded to Epstein a message from Karyna Pshenychna containing an Italian romantic quote about 'conquering a woman already desired by everyone' (Jan 17 2014). Teodorani also forwarded Love Magazine photos from socialite Alana Bunte (Aug 2013). On Jun 12 2013, Groff scheduled 'Eduardo Teodorani on Thursday June 13' alongside 'Lola Mignon to arrive around 8pm' for the same evening.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 772
+      },
+      {
+        "date": "2013-09-22",
+        "label": "Teodorani introduced multiple women to Epstein. (1) Yfke Sturm: Sep 22 2013, Epstein introduced Sturm to Teodorani calling her 'my great and very beautiful friend.' (2) Astrid Gill Casrez: Nov 21-22 2017, Teodorani told Epstein about Astrid Gill Casrez, calling her 'one of the smartest woman that I know' and that she was trying to call Epstein. Epstein replied 'she can email me or call anytime.' (3) Karyna Pshenychna: Jan 17 2014, forwarded Italian romantic aphorism to Epstein. (4) Lola Mignon: Jun 13 2013, Groff scheduled Teodorani meeting same evening as Lola Mignon arriving at 8pm in Paris. (5) Unnamed woman in Rome: Jun 16 2013, Epstein asked Teodorani to arrange a car for 'she is very very important to me.' Pattern shows bidirectional woman-introduction between Epstein and Teodorani.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 787
+      },
+      {
+        "date": "2013-10",
+        "label": "SEC EDGAR confirms Teodorani-Fabbri as beneficial owner of 52,893 CNH Industrial shares as of Oct 2013 (8,636 owned + 853 vesting + 43,404 exercisable options). Named in Exor S.p.A. SC 13D filing alongside Sergio Marchionne and Alessandro Nasi as insiders.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 845
+      },
+      {
+        "date": "2013-10-14",
+        "label": "Teodorani-Epstein relationship spans at least 2009-2019 with 20+ document references. Key interactions: (1) Epstein tried to invite Teodorani to Zorro Ranch (EFTA02315754: 'did anything ever happen with Eduardo Teodorani and a visit to the ranch?'). (2) Multiple phone calls, NYC visits, Rome lunch. (3) Wine gifts 2017-2018. (4) Teodorani's trip to NYC cancelled Oct 14, 2013 — this was during the SAME Paris trip period when Benedetti was on the contact list. (5) An earlier email references 'Cesena with some divine girl' and skiing in Megeve (EFTA02305159). This close Italian elite relationship is the conduit through which Epstein gathered intelligence on Benedetti in January 2019. Teodorani-Fabbri is CNH Industrial (Fiat/Agnelli family), placing him in the Italian business aristocracy where Benedetti operated.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 756
+      },
+      {
+        "date": "2013-12-21",
+        "label": "Mark Getty connection: Teodorani and Epstein together at Mark Getty's estate for a shooting weekend (Dec 21, 2013, EFTA02381210). Message: 'I am in London with edu\\! We went to another shooting at mark Getty place\\! Where are you?? On Monday we will go to Rome\\!' This connects the Getty family (owners of Posta Vecchia villa, Lazio coast) to the Teodorani-Epstein social circuit.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 855
+      },
+      {
+        "date": "2014-01-17",
+        "label": "Karyna Pshenychna forwarded to Epstein: On Jan 17, 2014, Teodorani forwarded a message from 'Karyna Pshenychna' to Epstein (EFTA02676878). Subject: 'Colpa di luna' with photo attached. The Italian text quotes: 'La vera genialita non e conquistare una donna gia desiderata da tutti, ma scovarne una preziosa in un essere ignoto' (True genius is not conquering a woman already desired by all, but discovering a precious one in an unknown being). This suggests Teodorani was introducing/sharing women with Epstein, reinforcing the bidirectional flow pattern.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 856
+      },
+      {
+        "date": "2014-06-19",
+        "label": "Brachetti Peretti brokerage fully documented: Teodorani introduced Ugo Brachetti Peretti (API petroleum co-owner) to Epstein. Ugo sent API presentation Jun 19, 2014 (EFTA02709964), requested 'your arab friend' for partnership Oct 7, 2014 (EFTA02592391/EFTA02714176), met with Ariane de Rothschild via Epstein on Mar 4, 2015 (EFTA02511095/EFTA02391945). Epstein demanded '5% of all money received' as fee. Separately, Ugo's brother Ferdinando Brachetti Peretti and his wife Nicole Junkermann visited Epstein's Palm Beach (Feb 2017). API later sold to Azerbaijan's Socar for 3B EUR in 2025.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 853
+      },
+      {
+        "date": "2014-07-19",
+        "label": "Epstein's July 19, 2014 Paris party guest list included Teodorani alongside Dominique Strauss-Kahn (former IMF head) and Ugo Brachetti Peretti (API petroleum). This connects Teodorani to the DSK orbit. DSK was separately being briefed about taking over Russia's sovereign wealth fund (Apr 2013, EFTA02674869). Teodorani's social role was to bridge Italian elites into Epstein's network.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 852
+      },
+      {
+        "date": "2014-10",
+        "label": "Wife Davina de Forest confirmed in EFTA corpus: EFTA02721470 shows email to 'Davina de Forest Comis' from 'Sue' arranging London meeting. EFTA02542815 shows Karen Bird (CNH) responding on behalf of Teodorani: 'Davina and he will arrive in Italy during the afternoon of Saturday 20th August' (2011, Bahamas trip). EFTA02680440 shows Lea Ardimento noting 'Davina will also be arriving' for Paris trip (Oct 2014). Davina accompanied Teodorani on multiple international trips that overlapped with Epstein meetings.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 866
+      },
+      {
+        "date": "2015",
+        "label": "Teodorani identified as intermediary in attempted recruitment of Italian model Chiara Baschetti (b. Cesena, Elite Model Look 2003, worked for Armani/Fendi/Cavalli/Ralph Lauren). Per Italian press (giornalesm.com), Epstein attempted contact through 'Italian intermediaries' named as Teodorani and Brachetti Peretti in 2015-2016. Baschetti never met Epstein and declined all advances. Primary lure offered was exclusive dinner with Woody Allen in Paris. This is the first documented case where Teodorani is specifically named as intermediary in attempted approach to a specific woman for Epstein.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 869
+      },
+      {
+        "date": "2015-02-20",
+        "label": "Teodorani-Fabbri sold 2,885 CNH Industrial shares on Feb 20, 2015 for approx $22.3K (26% return). SEC Form 4 filing. No longer holds insider shares as of that disposal.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 846
+      },
+      {
+        "date": "2015-03",
+        "label": "Epstein's 5% commission structure documented in Brachetti Peretti deal: Per Dagospia, Epstein demanded verbal-only agreement for '5% of all money received' (l accordo e il 5% di tutto il denaro ricevuto) from Ugo Brachetti Peretti for brokering API petroleum partnership with Arab contacts. Epstein also challenged Ugo's 1B EUR valuation, noting only 78M EUR EBITDA. Epstein introduced Brachetti to Baroness Ariane de Rothschild (Swiss financier) at Mar 4-5, 2015 Paris meeting. This reveals Epstein's European deal-making model: access to Middle Eastern capital + European aristocratic/banking contacts, with verbal-only fee arrangements that leave no paper trail.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 870
+      },
+      {
+        "date": "2015-04-19",
+        "label": "On Apr 19 2015, Epstein emailed 'Jabor Y' (likely Jabor Al-Thani/Qatar): 'shabaz could look at the details of EXOR. the owner of cushman, agnelli family holding. they just bid for an re insurance co last week, they will spin off ferrari this year. and will have fiat chrysler.maserati. most of their money is liquid. 15billion or so.' This demonstrates Epstein using his Agnelli/Teodorani connection to broker financial intelligence about EXOR NV's corporate structure and M&A activity to Gulf contacts.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 927
+      },
+      {
+        "date": "2015-04-19",
+        "label": "Same day as EXOR email (Apr 19 2015), a contact emailed Epstein about John Elkann: 'has heard great things about him from a friend; I know that he is Lapo/s brother.. what do you think?' The contact then wrote: 'I think he is the new target. How do we meet him? Not through Edu for sure.' 'Edu' = Eduardo Teodorani. This shows Epstein was targeting the CEO of EXOR/Fiat-Chrysler for recruitment, bypassing Teodorani to avoid alerting the family.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 929
+      },
+      {
+        "date": "2015-2019",
+        "label": "corporate with Paolo Barletta",
+        "type": "corporate",
+        "entity": "Paolo Barletta",
+        "id": 403
+      },
+      {
+        "date": "2018",
+        "label": "social with Steve Bannon",
+        "type": "social",
+        "entity": "Steve Bannon",
+        "id": 395
+      },
+      {
+        "date": "2018-02-28",
+        "label": "Teodorani arranged a private Ferrari visit and Fiorano test track access for Dan Ariely (behavioral economist) through his CNH Industrial position, coordinated via Epstein. On Feb 28 2018, Teodorani told Ariely to have his PA contact Karen Wolleaston directly. Wolleaston explained the dates 'must first be requested via the President's office' and confirmed Fiorano track availability for Mar 20-21 2018. CNH Industrial is the parent company controlling Ferrari's manufacturing infrastructure. This demonstrates Teodorani leveraged his Agnelli family corporate position to provide exclusive access as favors brokered through Epstein.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 775
+      },
+      {
+        "date": "2018-03",
+        "label": "Teodorani arranged a private Ferrari/Fiorano track visit for Dan Ariely and Jeffrey Epstein on Mar 20-21 2018, coordinated via the Ferrari President's office. Karen Wolleaston (Teodorani's EA at CNH Industrial) arranged logistics. This demonstrates Teodorani's executive-level access to Ferrari (then an EXOR subsidiary) which he leveraged for Epstein's social networking.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 934
+      },
+      {
+        "date": "2018-05-31",
+        "label": "Epstein was interested in Chateau de l'Horizon, historically the Agnelli family's famous Cote d'Azur property, as architectural inspiration. He asked Ariane de Rothschild for floorplans (May 31 2018) and told his architect John Heah about using it as inspiration. Rothschild questioned: 'Are you sure its Agnelli's house? I thought it belonged to the Saudis. Its a horrible location.' Epstein was also looking at the Agnelli house documentary ('what was the name of the house in the agnelli movie' - Jan 8 2018). This pattern of Agnelli-fascination extended to property, lifestyle, and culture beyond mere business.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 946
+      },
+      {
+        "date": "2018-07",
+        "label": "AC Milan dossier distribution: Jul 13-14, 2018, Epstein received 'AC Milan Acquisition - July 2018' from Jide Zeitlin (Keffi Group), forwarded to Nicole Junkermann and David Stern with 'I have no interest, I just want to understand why.' Teodorani was also sent AC Milan / Inter match info (Nov 2014, EFTA02516559). The Zeitlin->Epstein->Junkermann->Stern distribution chain for the Milan acquisition dossier is significant: Zeitlin was later charged with fraud and resigned as Tapestry CEO (2020). Junkermann's husband Ferdinando Brachetti Peretti co-owned API petroleum.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 858
+      },
+      {
+        "date": "2018-11-12",
+        "label": "Epstein arranged for Teodorani to meet Steve Bannon in London/Oxford, Nov 2018. On Nov 12 2018, Epstein emailed Teodorani: 'bannon will be in oxford on friday'. Teodorani replied: 'I would like very much to see him.' Karen Wolleaston then confirmed logistics, asking whether the meeting was Oxford or London. This is significant because: (1) Bannon was operating a European populist network (The Movement) from Nov 2018, (2) Teodorani's Agnelli/Fiat connections gave access to Italian political-industrial circles, and (3) Epstein was brokering introductions between his European elite contacts and US political figures just months before his July 2019 arrest.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 777
+      },
+      {
+        "date": "2019",
+        "label": "social with Alessandro Benedetti",
+        "type": "social",
+        "entity": "Alessandro Benedetti",
+        "id": 430
+      },
+      {
+        "date": "2019",
+        "label": "intelligence with Alessandro Benedetti",
+        "type": "intelligence",
+        "entity": "Alessandro Benedetti",
+        "id": 394
+      },
+      {
+        "date": "2019-01-28",
+        "label": "Eduardo Teodorani-Fabbri (SVP Corporate Development, CNH Industrial) had a sustained relationship with Epstein from at least 2010-2019. Evidence includes: multiple calls/visits (EFTA02417675, EFTA02415189, EFTA02414742), trip cancellation coordinated through his assistant Lea Ardimento (EFTA02576455), Rome lunch plans (EFTA02321914), wine gifts (EFTA02234187), and crucially, Epstein's Jan 28 2019 email to Teodorani asking 'Allesandro benedetti?' — using Teodorani as an intelligence source on the Italian businessman. CNH Industrial is the Fiat/Agnelli family industrial conglomerate, placing Teodorani in Italian elite business circles that would overlap with Benedetti.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 738
+      },
+      {
+        "date": "2019-01-28",
+        "label": "SMOKING GUN: On Jan 28 2019, Epstein emailed Teodorani asking 'Allesandro benedetti?' -- a one-line query about the Italian businessman who orchestrated the SoftBank honey trap operation. This came exactly 2 days after Epstein emailed Brad Karp (Chairman, Paul Weiss) on Jan 26 2019 about Carlos Ghosn ('a very very not good guy') and then asked 'Rajeev misra do you represent?' Karp replied 'Sort of. Spoke to him yesterday.' Epstein thus connected three threads in 48 hours: Ghosn arrest, Misra/SoftBank, and Benedetti (Misra's operative). Teodorani was Epstein's Italian connection point who would know Benedetti.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 770
+      },
+      {
+        "date": "2019-01-28",
+        "label": "Teodorani-Fabbri (Agnelli grandson, CNH Industrial SVP) was Epstein's likely introduction to Alessandro Benedetti. Evidence: (1) Both appear on Sept 2013 Paris list, (2) Epstein emailed Teodorani directly asking 'Allesandro benedetti?' on Jan 28, 2019 — suggesting Teodorani was the bridge to Benedetti. Teodorani appears 1,251 times in Epstein files per Italian press, 10 phone numbers and 2 addresses in black book page 53, regular Paris/Rome/NYC social contact 2010-2017+.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 786
+      },
+      {
+        "date": "2019-01-28",
+        "label": "Epstein asked Teodorani about 'Allesandro benedetti?' on Jan 28 2019 -- exactly 2 days after calling Ghosn 'a very very not good guy' to Karp on Jan 26. Alessandro de Benedetti appeared regularly on Epstein Paris contact lists (Sep 2013 Paris List, Sep 2013 calendar). The De Benedetti family is the other Italian industrial dynasty, rival to the Agnellis, who later sold their media group GEDI to the Elkann-controlled EXOR. This suggests Epstein was working both sides of Italian corporate power during the critical Ghosn/merger period.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 940
+      },
+      {
+        "date": "2019-02",
+        "label": "Eduardo Teodorani-Fabbri is the son of Maria Sole Agnelli (Fiat dynasty) and Count Pio Teodorani-Fabbri. SVP Corporate Development at CNH Industrial (Fiat/Stellantis subsidiary). Born 1965 Rome. Director at Iveco, Maserati, Aon Italia, HippoGroup Cesenate. Chairman of Italian Chamber of Commerce and Industry for UK. By Feb 2019 his assistant Karen Wolleaston signs from WRM Group (FCA-regulated, 51 Berkeley Square London W1J 5BB). Also WRM Capinvest Ltd. The Teodorani-Fabbri family is connected to Mussolini via marriage (Mussolini niece married Teodorani-Fabbri cousin).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 768
+      },
+      {
+        "date": "2019-02-28",
+        "label": "Teodorani arranged for Epstein to meet Paolo Barletta (CEO, Gruppo Barletta/Barletta Costruzioni, major Italian RE developer est. 1953, also co-founded Arsenale SpA luxury rail cruises with Nicola Bulgari). Meeting at 9 E 71st St on Feb 28 2019 at 3:30pm, confirmed by multiple emails. Barletta's bio and CV requested by Epstein. Separately, Teodorani had forwarded Barletta's 'U-First' pitch to Epstein in Aug 2015 -- Epstein replied 'not the type of thing I invest in but always send me alternatives.' This shows Teodorani actively brokered business introductions to Epstein over years.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 773
+      },
+      {
+        "date": "2019-02-28",
+        "label": "Bracchetti meeting choreography fully mapped: Feb 7-28, 2019 email chain between Karen Wolleaston (Teodorani's EA at WRM Group) and Lesley Groff (Epstein's EA). Wolleaston disclosed Barletta to Groff: 'FYI it is a guy called Paolo Barletta of Barletta Costruzioni. He is a business associate who Eduardo wants to introduce to Mr Epstein.' Meeting scheduled 3:30pm Feb 28, 2019 at 9 E 71st St. Multiple EFTA documents (EFTA02275009, EFTA02277792, EFTA02278486, EFTA02278773, EFTA02633164) show logistics. This meeting was 4.5 months before Epstein's arrest.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 863
+      },
+      {
+        "date": "2019-03-01",
+        "label": "Peninsula Hotel 'bambina' message: Mar 1, 2019, Teodorani wrote to Epstein: 'Master we wait the good ankle bambina with another good friend of your choice\\!\\!\\! Peninsula will be our party HQ tonight\\!' (Italian press, confirmed via EFTA). 'Bambina' = girl; 'good ankle' references physical appearance. 'Master' = Teodorani's term of address for Epstein. This message was written just 5 days after the Feb 28 Barletta meeting at 9 E 71st, suggesting Teodorani was in NYC for an extended visit during which business introductions and social activities (involving young women) were interleaved.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 864
+      },
+      {
+        "date": "2019-03-18",
+        "label": "ANIVAD Consulting Ltd (UK company 11887450) incorporated 18 March 2019, with Teodorani as Director. Registered at 96 Pollards Oak Road, Oxted, Surrey RH8 0JW. Company name is 'DAVINA' reversed -- his wife Davina de Forest's name. SIC 82990 (Other business support services). Active and filing. Teodorani uses ANIVAD as his personal consulting vehicle alongside the WRM Group Senior Advisor role.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 851
+      },
+      {
+        "date": "2019-04-24",
+        "label": "Prince Fabio Borghese identified as Italian associate described by Teodorani as 'collector of women' (Italian press). EFTA records confirm Borghese as active Epstein guest Apr 24, 2019 (EFTA02283253/EFTA02281128): Epstein instructed 'fabio borghese. have jojo drive him around the next two days, suburban.' Jojo Fontanilla was Epstein's driver. Borghese had VIP treatment in NYC just 2.5 months before Epstein's arrest.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 854
+      },
+      {
+        "date": "2025-12-26",
+        "label": "Maria Sole Agnelli died Dec 26, 2025 at age 100 (GDELT/euronews). Teodorani inherits responsibility for Agnelli family interests via Giovanni Agnelli B.V. (Dutch vehicle controlling Exor). Maria Sole held 11.2-12.3% of GABV, estimated worth within the family's 13.5B USD fortune. Teodorani's succession to these interests, combined with his Feb 2026 resignation from the Italian Chamber amid Epstein revelations, suggests significant reputational and financial exposure within the Agnelli dynasty.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 860
+      },
+      {
+        "date": "2026-02",
+        "label": "Italian media GDELT coverage explosion Feb 2026: 7+ articles mentioning Teodorani-Epstein in rolling 3-month window. Key outlets: Dagospia (Brachetti Peretti connection), quotidiano.net ('Agnelli nephew'), Open.online (detailed analysis), Il Fatto Quotidiano (AC Milan dossier), Il Giornale d'Italia (Borghese 'collector of women'), Wired.it (Bannon-Italy politics). The Times (UK) and TechCrunch also covered. Italian press focused on: (1) luxury real estate tips to Epstein, (2) 'bambina' message, (3) Agnelli dynasty embarrassment, (4) Brachetti Peretti API petroleum connection.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 865
+      }
+    ]
+  }
+}

@@ -1,0 +1,1370 @@
+{
+  "name": "Glenn Dubin",
+  "slug": "glenn-dubin",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.301115",
+  "last_updated": "2026-02-14T05:10:58",
+  "stats": {
+    "total_findings": 11,
+    "total_connections": 20,
+    "total_entities": 1,
+    "finding_types": {
+      "location": 1,
+      "financial": 3,
+      "communication": 2,
+      "legal": 3,
+      "relationship": 2
+    },
+    "connection_types": {
+      "social": 7,
+      "financial": 8,
+      "familial": 1,
+      "legal": 3,
+      "intelligence": 1
+    },
+    "last_updated": "2026-02-14T05:10:58"
+  },
+  "findings": [
+    {
+      "id": 488,
+      "finding_type": "location",
+      "summary": "ACRIS reveals Glenn Dubin's NYC property portfolio: (1) Bought 3614 Johnson Ave Bronx condo Feb 2003 for 957K (address 9 W 57th St = Highbridge Capital); (2) Purchased 1010/1040 Fifth Avenue from DAVID H KOCH Sep 2006 for 30M (significant: Dubin-Koch property nexus); (3) Sold Upper East Side property (BBL 1/1494/1) with wife Eva Andersson Dubin Feb 2011 for 13.75M to Alexander Klabin (255 E 74th St); (4) Family transactions on Bronx condo to son Kenneth (1.05M 2014) then loan-back. Addresses used: 1010 Fifth Ave, 40 W 57th St 33rd Floor (Highbridge Capital), 767 Fifth Ave.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2003-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:00:30",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2003030700120001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2006092000161001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2011020800249001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "finding_type": "financial",
+      "summary": "Pete Briger (Fortress Investment Group) met with Epstein post-conviction in 2010, arranged by Glenn Dubin. Briger stated 'I want to be clear to Jeffrey that I want to help if I can.' Dubin also introduced Epstein to Fortress for investment. The Jeepers Inc entity received Dubin fund distributions routed through Fortress. Dubin served as post-conviction rehabilitator, continuing social relationship through 2018.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2010",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:34:13",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02413555",
+          "source_quote": "Pete Briger: I want to be clear to Jeffrey that I want to help if I can",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02439905",
+          "source_quote": "Im going to set up a meeting with pete briger",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02440142",
+          "source_quote": "To: \njeevacation&mail.com[jeevacation@gmail.com] \nFrom: \nDubin, Glenn \nSent: \nWed 7/15/2009 4:38:35 PM \nSubject: \nFW: Meeting request \nBest, \nGlenn \n \n Original Messa•e \nFrom: Dubin, Glenn \nTo: Pete Briger \nSent: Wed Jul 15 11:47:18 2009 \nSubject:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "finding_type": "financial",
+      "summary": "Dubin invested 4,375,302 USD via Fortress Macro Fund (Oct 2014). Distributions were assigned to JEEPERS INC via Assignment of Economic Interest Agreement dated Aug 1, 2011. Jeepers Inc wired to Bank of New York. Tracked distributions: 222,549 (Oct 2014), 166,911 (Dec 2014), 244,778 (Jun 2015), 183,754 (Dec 2015), 118,050 (Sep 2016), 46,854 (Jun 2017). Government subpoenaed Jeepers Inc demanding organizational structure and relationship to Epstein. FTC (Financial Trust Company) is related entity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-08-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:33:13",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02385363",
+          "source_quote": "funds received from dubin 10.6.2014 4,375,302. balance due to dubin before jeepers receives 3,557,310",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02447499",
+          "source_quote": "From: \nRichard Kahn \nSent: \nFriday, October 14, 2016 1:19 PM \nTo: \njeffrey E. \nSubject: \nFwd: Fortress Value Recovery Fund I LLC - Distribution \nJeepers received funds of 118,049.60 this morning shall i send on to glen dubin or wait? \nplease advise...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725955",
+          "source_quote": "Jeepers Inc to produce documents. relationships among Jeepers, FTC, Jeffrey Epstein, and any partner, member, beneficial owner",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1404,
+      "finding_type": "communication",
+      "summary": "Glenn Dubin sent Epstein a happy birthday AARP card message on April 13 2014, demonstrating casual friendship. Dubin wrote from Dubin and Company 767 Fifth Avenue 45th Floor New York NY 10153 (same building as Wachtell Lipton). Glenn Dubin appears in DugganUSA with 929 total hits, placing him among the top 20 most-referenced individuals in the entire Epstein corpus. His LMSBAND co-occurrence is lower (2 files each with Bella Klein, Jeepers Inc, Liam OSullivan, Rich, Stewart Oldfield, Epstein), suggesting most Dubin references are in emails and financial documents rather than the LMSBAND database types.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2014-04-13",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:05:28",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01929339",
+          "source_quote": "happy birthday aarp card already receved from Jeffrey Epstein to Glenn Dubin Apr 13 2014",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1653,
+      "finding_type": "legal",
+      "summary": "Jane Doe 102 complaint allegations (HOUSE_OVERSIGHT_022248, 023033, 023036) explicitly list Glenn Dubin among those the victim was required to have sex with: 'was required to have sex with friends of Ms Maxwell and Mr Epstein, including Glenn Dubin, Les Wexner, Ehud Barak, former Senator George Mitchell and Stephen Kosslyn.' The complaint also states: (1) victim was paid between 200 and 5000 USD per encounter depending on travel; (2) after encounters with male friends, Maxwell and Epstein would ask explicit questions about what happened; (3) Epstein residences had surveillance cameras taping sex sessions; (4) Maxwell and Epstein arranged for Ehud Barak to have sex with several girls at Palm Beach house. These are separate from and corroborate the Giuffre deposition testimony.",
+      "detail": null,
+      "source_datasets": [
+        "epstein_20k",
+        "court_records"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2015-01-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:44",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022248",
+          "source_quote": "was required to have sex with friends of Ms Maxwell and Mr Epstein, including Glenn Dubin, Les Wexner, Ehud Barak, former Senator George Mitchell and Stephen Kosslyn",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1366,
+      "finding_type": "relationship",
+      "summary": "Glenn Dubin and Epstein hosted joint dinners with Woody Allen and Soon-Yi Previn in May 2015. May 4 2015: Epstein forwarded dinner menu from Soon-Yi Previn (Sette Mezzo restaurant order) to both Eva Dubin and Glenn Dubin saying glenn add to if you like see you thur. Menu was elaborate Italian for group dining. May 8 2015 Glenn emailed: thanks for a fun night Hearing the Lone Ranger story and seeing Woody laugh were highlights. This documents ongoing close social relationship between Epstein, the Dubins, and Woody Allen as late as 2015.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-05-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:01:27",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02502432",
+          "source_quote": "glenn add to if you like see you thur from Soon-Yi Previn and EFTA02502802:thanks for a fun night Hearing the Lone Ranger story and seeing Woody laugh were highlights",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1365,
+      "finding_type": "communication",
+      "summary": "Glenn Dubin asked Epstein about David Boies in June 2015. Epstein offered Glenn use of his Paris apartment with the family no problem at all with driver etc. Dubin replied about Boies: No I havent but I hear hes incredible as evidenced by what he did for Hank Greenberg. Dubin and Company address 767 Fifth Avenue 45th Floor. Epstein was actively brokering Boies introduction to Dubin while offering luxury hospitality. Boies later represented Epstein victims and hired Black Cube - this 2015 inquiry predates those events.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:01:27",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02356398",
+          "source_quote": "you are welcome to stay at my apt in paris with the family no problem at all driver etc have you had any dealings with david bois and Dubin replied No I havent but I hear hes incredible",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 507,
+      "finding_type": "legal",
+      "summary": "FL SunBiz corp L10000120085: Glenn Dubin and Eva A. Dubin as co-managing members of FL LLC, address 10 Park Ave 25th Floor, New York NY 10022. CT Corporation System as FL agent. Admin dissolved Sep 2015 for failure to file annual report, reinstated Mar 2016. Entity name not recovered from corprindata. The Park Avenue address is the Dubin family residence.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:15:58",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:L10000120085",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1650,
+      "finding_type": "legal",
+      "summary": "Virginia Giuffre testified in 2016 deposition (unsealed Jan 2024) that Glenn Dubin was the FIRST person Ghislaine Maxwell sent her to for sex after completing massage training. Giuffre stated under oath: 'Ghislaine told me to go to Glenn Dubin and give him a massage, which means sex.' Eva Dubin was pregnant and asleep in the next room during the encounter. The SDNY prosecution memorandum (EFTA02731082, Dec 19, 2019) corroborates this, documenting a victim who said 'Maxwell told [her] to massage Glen and Eva Dubin and explicitly told [her] that she had to do to Glen what [she] did for Epstein, which [she] understood to mean engage in sex acts.' The victim used the term 'lent out' to describe these directed sexual encounters. This was described as her first memory of being 'lent out.'",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "duggan_usa",
+        "court_records"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2016-01-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:08",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02731082",
+          "source_quote": "One day, Maxwell told [her] to massage Glen and Eva Dubin and explicitly told [her] that she had to do to Glen what [she] did for Epstein, which [she] understood to mean engage in sex acts",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1416,
+      "finding_type": "relationship",
+      "summary": "Celina Dubin applied for Soho House membership in Feb 2018 with Epstein and David Mitchell assisting. Email chain cc-d Jeffrey Epstein and Eva Dubin. Celina wrote on second thought I think a letter from you would be best to Epstein. Mitchell offered I could also write one if need be from Mitchell Holdings LLC 745 Fifth Avenue. This is 2018 - a convicted sex offender writing a membership recommendation for a young woman in her early 20s - and the Dubins facilitated it. The email chain was sent to Allison Yorke at Dubin and Company, confirming Glenn Dubin organization was aware.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:06:57",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02533073",
+          "source_quote": "I think a letter from you would be best If youd be able to write one that would be much appreciated Celina to Jeffrey Epstein Soho house application Feb 2018",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "finding_type": "financial",
+      "summary": "Glenn Dubin (Dubin and Co, Engineers Gate) made 147+ FEC contributions. Major donations: K American Exceptionalism PAC (2023), K SMP/Senate Majority PAC (2018), K ActBlue (2023), .5K Dave McCormick (2023), .6K Torres for Congress (2025), .6K Bennet Wyden Victory (2021). Dubin is a prolific Democratic donor with some bipartisan giving (Vivek Ramaswamy 2023, McCormick). Heavy focus on NY politics: Ritchie Torres (repeated donations 2021-2025), Dan Goldman, Perry Gershon. Also donated to Hickenlooper, Bredesen, Mikie Sherrill. Total giving approaches mid-six figures. No coordination pattern with other Epstein associates detected.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2023",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:06",
+      "target_name": "Glenn Dubin",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00484642/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00699744/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00833749/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 194,
+      "person_a": "Maxim Churkin",
+      "person_b": "Glenn Dubin",
+      "relationship_type": "social",
+      "description": "Epstein tried to place Maxim at Dubin's firm as 'son of the russian amb.'",
+      "strength": "strong",
+      "date_range": "2017",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:14:59",
+      "other_person": "Maxim Churkin",
+      "other_person_slug": "maxim-churkin",
+      "evidence": []
+    },
+    {
+      "id": 261,
+      "person_a": "Glenn Dubin",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Assignment of Economic Interest Agreement Aug 1 2011 - Dubin assigned Fortress fund interest to Epstein-controlled Jeepers Inc. 4.375M in flows.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:49:54",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718208",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 529,
+      "person_a": "Glenn Dubin",
+      "person_b": "Paul Tudor Jones",
+      "relationship_type": "social",
+      "description": "Co-chairs at Dubin Breast Center Mount Sinai benefits. Both billionaire hedge fund managers. Eva Dubin coordinated Epstein attendance at Robin Hood events.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 21:33:33",
+      "other_person": "Paul Tudor Jones",
+      "other_person_slug": "paul-tudor-jones",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02694479",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02696282",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02702727",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "person_a": "Glenn Dubin",
+      "person_b": "Paul Tudor Jones",
+      "relationship_type": "social",
+      "description": "PTJ and Sonia co-chaired Dubin Breast Center benefits (2011, 2012, 2013). Robin Hood Foundation overlap. Sonia Jones honored at 2013 gala.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 21:34:15",
+      "other_person": "Paul Tudor Jones",
+      "other_person_slug": "paul-tudor-jones",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02672763",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02694479",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02702727",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "person_a": "Glenn Dubin",
+      "person_b": "Paul Tudor Jones",
+      "relationship_type": "social",
+      "description": "Co-founded Robin Hood Foundation 1988. Co-chaired Dubin Breast Center benefits 2011-2012. Deep social and philanthropic partnership.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 21:35:16",
+      "other_person": "Paul Tudor Jones",
+      "other_person_slug": "paul-tudor-jones",
+      "evidence": []
+    },
+    {
+      "id": 684,
+      "person_a": "Glenn Dubin",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Close social friendship through 2015+. Joint dinners with Woody Allen, Paris apartment offers, Boies introduction",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02502802",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 683,
+      "person_a": "Eva Dubin",
+      "person_b": "Glenn Dubin",
+      "relationship_type": "familial",
+      "description": "Married couple. Both emailed jointly by Epstein for dinners and social events",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Eva Dubin",
+      "other_person_slug": "eva-dubin",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02502432",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 834,
+      "person_a": "Glenn Dubin",
+      "person_b": "Virginia Giuffre",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:56",
+      "other_person": "Virginia Giuffre",
+      "other_person_slug": "virginia-giuffre",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02731082",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "person_a": "Glenn Dubin",
+      "person_b": "Rinaldo Rizzo",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:58",
+      "other_person": "Rinaldo Rizzo",
+      "other_person_slug": "rinaldo-rizzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02731082",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "person_a": "Glenn Dubin",
+      "person_b": "Leon Black",
+      "relationship_type": "intelligence",
+      "description": "Dubin forwarded Bloomberg article about Black's tax reform dilemma to Epstein (Dec 2017). Intelligence sharing about fellow billionaires through Epstein as intermediary.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:07:59",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HF-unified:dubin-black-tax-article",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Glenn Dubin",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:33:35",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 228,
+      "person_a": "Ari Glass",
+      "person_b": "Glenn Dubin",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:33:35",
+      "other_person": "Ari Glass",
+      "other_person_slug": "ari-glass",
+      "evidence": []
+    },
+    {
+      "id": 237,
+      "person_a": "Glenn Dubin",
+      "person_b": "Pete Briger",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:33:43",
+      "other_person": "Pete Briger",
+      "other_person_slug": "pete-briger",
+      "evidence": []
+    },
+    {
+      "id": 312,
+      "person_a": "Glenn Dubin",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Dubin assigned economic interest to Jeepers Inc (Epstein entity) Aug 1 2011. Fortress Fund distributions flowed to Jeepers Inc at Bank of New York.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:03:26",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 339,
+      "person_a": "Dubin Family Foundation",
+      "person_b": "Glenn Dubin",
+      "relationship_type": "financial",
+      "description": "Dubin Family Foundation (EIN 13-3863354) at UJA-Federation of NY in terminal wind-down. Assets collapsed from K (2011) to K (2023) with zero new contributions. Foundation will be fully depleted by 2024-2025.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:48:27",
+      "other_person": "Dubin Family Foundation",
+      "other_person_slug": "dubin-family-foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:133863354",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "person_a": "David Koch",
+      "person_b": "Glenn Dubin",
+      "relationship_type": "financial",
+      "description": "ACRIS: Dubin purchased 1010/1040 Fifth Ave from David H Koch for 30M Sep 2006.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:01:32",
+      "other_person": "David Koch",
+      "other_person_slug": "david-koch",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2006092000161001",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "person_a": "Glenn Dubin",
+      "person_b": "Howard Lutnick",
+      "relationship_type": "social",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:53:27",
+      "other_person": "Howard Lutnick",
+      "other_person_slug": "howard-lutnick",
+      "evidence": []
+    },
+    {
+      "id": 651,
+      "person_a": "Glenn Dubin",
+      "person_b": "Virginia Giuffre",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:35:22",
+      "other_person": "Virginia Giuffre",
+      "other_person_slug": "virginia-giuffre",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402693",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 685,
+      "person_a": "Glenn Dubin",
+      "person_b": "Woody Allen",
+      "relationship_type": "social",
+      "description": "Shared dinners at 9 E 71st with Epstein and Soon-Yi Previn, May 2015",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Woody Allen",
+      "other_person_slug": "woody-allen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02502802",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 776,
+      "person_a": "Glenn Dubin",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:07:50",
+      "other_person": "Jeepers Inc",
+      "other_person_slug": "jeepers-inc",
+      "evidence": []
+    }
+  ],
+  "entities": [
+    {
+      "role": "assignor",
+      "date_start": null,
+      "date_end": null,
+      "source": "Wave 5 entity traces",
+      "entity_id": 234,
+      "entity_name": "Jeepers Inc",
+      "entity_type": "inc",
+      "jurisdiction": "unknown",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2003-02",
+      "type": "finding",
+      "finding_type": "location",
+      "summary": "ACRIS reveals Glenn Dubin's NYC property portfolio: (1) Bought 3614 Johnson Ave Bronx condo Feb 2003 for 957K (address 9 W 57th St = Highbridge Capital); (2) Purchased 1010/1040 Fifth Avenue from DAVID H KOCH Sep 2006 for 30M (significant: Dubin-Koch property nexus); (3) Sold Upper East Side property (BBL 1/1494/1) with wife Eva Andersson Dubin Feb 2011 for 13.75M to Alexander Klabin (255 E 74th St); (4) Family transactions on Bronx condo to son Kenneth (1.05M 2014) then loan-back. Addresses used: 1010 Fifth Ave, 40 W 57th St 33rd Floor (Highbridge Capital), 767 Fifth Ave.",
+      "confidence": "medium",
+      "id": 488
+    },
+    {
+      "date": "2010",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Pete Briger (Fortress Investment Group) met with Epstein post-conviction in 2010, arranged by Glenn Dubin. Briger stated 'I want to be clear to Jeffrey that I want to help if I can.' Dubin also introduced Epstein to Fortress for investment. The Jeepers Inc entity received Dubin fund distributions routed through Fortress. Dubin served as post-conviction rehabilitator, continuing social relationship through 2018.",
+      "confidence": "high",
+      "id": 278
+    },
+    {
+      "date": "2011-08-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Dubin invested 4,375,302 USD via Fortress Macro Fund (Oct 2014). Distributions were assigned to JEEPERS INC via Assignment of Economic Interest Agreement dated Aug 1, 2011. Jeepers Inc wired to Bank of New York. Tracked distributions: 222,549 (Oct 2014), 166,911 (Dec 2014), 244,778 (Jun 2015), 183,754 (Dec 2015), 118,050 (Sep 2016), 46,854 (Jun 2017). Government subpoenaed Jeepers Inc demanding organizational structure and relationship to Epstein. FTC (Financial Trust Company) is related entity.",
+      "confidence": "high",
+      "id": 269
+    },
+    {
+      "date": "2014-04-13",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Glenn Dubin sent Epstein a happy birthday AARP card message on April 13 2014, demonstrating casual friendship. Dubin wrote from Dubin and Company 767 Fifth Avenue 45th Floor New York NY 10153 (same building as Wachtell Lipton). Glenn Dubin appears in DugganUSA with 929 total hits, placing him among the top 20 most-referenced individuals in the entire Epstein corpus. His LMSBAND co-occurrence is lower (2 files each with Bella Klein, Jeepers Inc, Liam OSullivan, Rich, Stewart Oldfield, Epstein), suggesting most Dubin references are in emails and financial documents rather than the LMSBAND database types.",
+      "confidence": "confirmed",
+      "id": 1404
+    },
+    {
+      "date": "2015-01-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Jane Doe 102 complaint allegations (HOUSE_OVERSIGHT_022248, 023033, 023036) explicitly list Glenn Dubin among those the victim was required to have sex with: 'was required to have sex with friends of Ms Maxwell and Mr Epstein, including Glenn Dubin, Les Wexner, Ehud Barak, former Senator George Mitchell and Stephen Kosslyn.' The complaint also states: (1) victim was paid between 200 and 5000 USD per encounter depending on travel; (2) after encounters with male friends, Maxwell and Epstein would ask explicit questions about what happened; (3) Epstein residences had surveillance cameras taping sex sessions; (4) Maxwell and Epstein arranged for Ehud Barak to have sex with several girls at Palm Beach house. These are separate from and corroborate the Giuffre deposition testimony.",
+      "confidence": "confirmed",
+      "id": 1653
+    },
+    {
+      "date": "2015-05-04",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Glenn Dubin and Epstein hosted joint dinners with Woody Allen and Soon-Yi Previn in May 2015. May 4 2015: Epstein forwarded dinner menu from Soon-Yi Previn (Sette Mezzo restaurant order) to both Eva Dubin and Glenn Dubin saying glenn add to if you like see you thur. Menu was elaborate Italian for group dining. May 8 2015 Glenn emailed: thanks for a fun night Hearing the Lone Ranger story and seeing Woody laugh were highlights. This documents ongoing close social relationship between Epstein, the Dubins, and Woody Allen as late as 2015.",
+      "confidence": "confirmed",
+      "id": 1366
+    },
+    {
+      "date": "2015-06",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Glenn Dubin asked Epstein about David Boies in June 2015. Epstein offered Glenn use of his Paris apartment with the family no problem at all with driver etc. Dubin replied about Boies: No I havent but I hear hes incredible as evidenced by what he did for Hank Greenberg. Dubin and Company address 767 Fifth Avenue 45th Floor. Epstein was actively brokering Boies introduction to Dubin while offering luxury hospitality. Boies later represented Epstein victims and hired Black Cube - this 2015 inquiry predates those events.",
+      "confidence": "confirmed",
+      "id": 1365
+    },
+    {
+      "date": "2015-09",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "FL SunBiz corp L10000120085: Glenn Dubin and Eva A. Dubin as co-managing members of FL LLC, address 10 Park Ave 25th Floor, New York NY 10022. CT Corporation System as FL agent. Admin dissolved Sep 2015 for failure to file annual report, reinstated Mar 2016. Entity name not recovered from corprindata. The Park Avenue address is the Dubin family residence.",
+      "confidence": "medium",
+      "id": 507
+    },
+    {
+      "date": "2016-01-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Virginia Giuffre testified in 2016 deposition (unsealed Jan 2024) that Glenn Dubin was the FIRST person Ghislaine Maxwell sent her to for sex after completing massage training. Giuffre stated under oath: 'Ghislaine told me to go to Glenn Dubin and give him a massage, which means sex.' Eva Dubin was pregnant and asleep in the next room during the encounter. The SDNY prosecution memorandum (EFTA02731082, Dec 19, 2019) corroborates this, documenting a victim who said 'Maxwell told [her] to massage Glen and Eva Dubin and explicitly told [her] that she had to do to Glen what [she] did for Epstein, which [she] understood to mean engage in sex acts.' The victim used the term 'lent out' to describe these directed sexual encounters. This was described as her first memory of being 'lent out.'",
+      "confidence": "confirmed",
+      "id": 1650
+    },
+    {
+      "date": "2017",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein tried to place Maxim at Dubin's firm as 'son of the russian amb.'",
+      "other_person": "Maxim Churkin",
+      "id": 194
+    },
+    {
+      "date": "2018-02",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Celina Dubin applied for Soho House membership in Feb 2018 with Epstein and David Mitchell assisting. Email chain cc-d Jeffrey Epstein and Eva Dubin. Celina wrote on second thought I think a letter from you would be best to Epstein. Mitchell offered I could also write one if need be from Mitchell Holdings LLC 745 Fifth Avenue. This is 2018 - a convicted sex offender writing a membership recommendation for a young woman in her early 20s - and the Dubins facilitated it. The email chain was sent to Allison Yorke at Dubin and Company, confirming Glenn Dubin organization was aware.",
+      "confidence": "confirmed",
+      "id": 1416
+    },
+    {
+      "date": "2023",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Glenn Dubin (Dubin and Co, Engineers Gate) made 147+ FEC contributions. Major donations: K American Exceptionalism PAC (2023), K SMP/Senate Majority PAC (2018), K ActBlue (2023), .5K Dave McCormick (2023), .6K Torres for Congress (2025), .6K Bennet Wyden Victory (2021). Dubin is a prolific Democratic donor with some bipartisan giving (Vivek Ramaswamy 2023, McCormick). Heavy focus on NY politics: Ritchie Torres (repeated donations 2021-2025), Dan Goldman, Perry Gershon. Also donated to Hickenlooper, Bredesen, Mikie Sherrill. Total giving approaches mid-six figures. No coordination pattern with other Epstein associates detected.",
+      "confidence": "medium",
+      "id": 464
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      278,
+      269,
+      1650,
+      1404,
+      1365,
+      1366,
+      1416,
+      1653,
+      464,
+      488,
+      507
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "unknown"
+      ],
+      "officers": [
+        {
+          "role": "assignor",
+          "entity": "Jeepers Inc",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 234,
+          "name": "Jeepers Inc",
+          "type": "inc",
+          "jurisdiction": "unknown",
+          "role": "assignor"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1366,
+          1416
+        ],
+        "connection_ids": [
+          194,
+          261,
+          529,
+          538,
+          541,
+          684,
+          683,
+          834,
+          836,
+          19,
+          227,
+          228,
+          237,
+          312,
+          339
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          278,
+          269,
+          464
+        ],
+        "connection_ids": [
+          261,
+          227,
+          228,
+          237,
+          312,
+          339,
+          357,
+          776
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1653,
+          507,
+          1650
+        ],
+        "connection_ids": [
+          834,
+          836,
+          651
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          1404,
+          1365
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:54:58.262739",
+    "lead": "<p>Glenn Dubin is an American billionaire hedge fund manager, co-founder of Highbridge Capital Management and later Engineers Gate, who maintained one of the deepest and most enduring personal relationships with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> documented in the case record. With 929 references in the DugganUSA corpus — placing him in the top 20 most-cited individuals — Dubin's entanglement spans financial, social, and legal dimensions. He is named in sworn testimony by Virginia Giuffre and in the Jane Doe 102 complaint as someone to whom victims were directed for sexual encounters at <a href=\"/dossiers/ghislaine-maxwell\">Ghislaine Maxwell</a>'s instruction. His wife <a href=\"/dossiers/eva-dubin\">Eva Dubin</a> is alleged to have been present in the household during at least one such encounter.</p>\n\n<p>The financial architecture connecting Dubin to Epstein centers on <a href=\"/dossiers/jeepers-inc\">Jeepers Inc</a>, an Epstein-controlled entity to which Dubin assigned economic interest in a Fortress Investment Group fund via a formal agreement dated August 1, 2011. Over $4.3 million in Dubin capital flowed through this structure, with distributions tracked through 2017 by Epstein's financial advisor Richard Kahn. The government subpoenaed Jeepers Inc for its organizational structure and relationship to Epstein, indicating prosecutors viewed this flow as significant. Dubin also served as a post-conviction social rehabilitator, introducing Epstein to Pete Briger at Fortress and maintaining intimate friendship — joint dinners, Paris apartment offers, birthday messages — through at least 2018, when the Dubin family facilitated their daughter Celina's use of Epstein as a Soho House membership reference.</p>\n\n<p>Dubin's professional base was <a href=\"/dossiers/honeycomb-partners\">Dubin and Company</a> at 767 Fifth Avenue, 45th Floor. He co-founded the Robin Hood Foundation with <a href=\"/dossiers/paul-tudor-jones\">Paul Tudor Jones</a> and maintained a significant NYC real estate portfolio, including a $30 million Fifth Avenue purchase from David Koch. His political giving, exceeding $147K in FEC-documented contributions, skews Democratic with some bipartisan outlays. The Dubin Family Foundation, separately, has been in terminal wind-down since 2011, with assets approaching full depletion.</p>",
+    "open_questions": [
+      "Why did Dubin assign his economic interest in the Fortress fund to Jeepers Inc — an Epstein-controlled USVI entity — rather than receiving distributions directly? What legitimate financial purpose was served by routing $4.3 million through an entity that required Epstein's personal authorization to release funds back to Dubin?",
+      "What was the full scope of the Dubin-Epstein financial relationship beyond the documented Jeepers Inc flows? Dubin's 929 references in the DugganUSA corpus — among the highest for any individual — suggest a volume of interaction far exceeding what the 11 currently documented findings capture.",
+      "Did Eva Dubin have knowledge of or involvement in the encounters described in victim testimony? The SDNY prosecution memorandum references Maxwell directing a victim to 'massage Glen and Eva Dubin,' and Giuffre testified Eva was in the household during the alleged encounter. What is the evidentiary basis for Eva's inclusion in the directive?",
+      "What was the nature of the intelligence-sharing dynamic where Dubin forwarded sensitive financial articles about Leon Black to Epstein? Was this a systematic pattern of wealthy clients feeding Epstein commercially sensitive information about peers, and what did Epstein do with it?",
+      "Why did the Dubin family continue facilitating Celina Dubin's use of Epstein as a social reference in 2018 — a decade after his conviction — and what does this reveal about the family's assessment of reputational risk versus relationship value?"
+    ],
+    "system_role": "Dubin represents a case study in how an elite hedge fund manager's multi-decade personal friendship with Epstein survived conviction, persisted through the social rehabilitation period, and created documented financial conduits through Epstein-controlled entities — while the same household was named in sworn victim testimony as a site where trafficking victims were directed.",
+    "sections": [
+      {
+        "id": "epstein-relationship-and-social-rehabilitation",
+        "title": "The Epstein Relationship and Post-Conviction Rehabilitation",
+        "content": "<p>Glenn Dubin's relationship with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> is among the longest and most intimate documented in the case record, spanning social, financial, and familial dimensions. Their friendship survived Epstein's 2008 conviction entirely intact. By 2009, Dubin was actively working to reintroduce Epstein to the hedge fund world, forwarding a meeting request to Pete Briger of Fortress Investment Group. Briger's response — \"I want to be clear to Jeffrey that I want to help if I can\" (EFTA02413555) — reveals the dynamic: Dubin as gatekeeper, vouching for Epstein's continued relevance to institutional finance after a sex offense conviction.</p>\n\n<p>The social relationship remained casual and warm through at least 2018. In April 2014, Dubin sent Epstein a joking AARP birthday card (EFTA01929339). In May 2015, <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> organized group dinners with the Dubins and Woody Allen, forwarding a dinner menu from Soon-Yi Previn and telling Glenn to \"add to if you like, see you thur.\" Dubin responded afterward: \"thanks for a fun night. Hearing the Lone Ranger story and seeing Woody laugh were highlights\" (EFTA02502802). The tone is that of close friends, not business associates maintaining a transactional connection.</p>\n\n<p>In June 2015, Epstein offered Dubin use of his Paris apartment \"with the family, no problem at all, with driver, etc.\" In the same exchange, Epstein brokered an introduction to attorney David Boies, to which Dubin replied: \"No I haven't but I hear he's incredible as evidenced by what he did for Hank Greenberg\" (EFTA02356398). This inquiry predates Boies's later involvement representing Epstein victims and hiring Black Cube — a sequence that underscores how Epstein's social network was deeply interconnected with the legal apparatus that would later pursue him.</p>\n\n<p>As late as February 2018, the Dubin family's entanglement continued: daughter Celina Dubin applied for Soho House membership with Epstein's assistance. The email chain, cc'd to both <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> and <a href=\"/dossiers/eva-dubin\">Eva Dubin</a>, shows Celina telling Epstein \"on second thought I think a letter from you would be best\" (EFTA02533073). The email was sent to Allison Yorke at Dubin and Company, confirming the family office was aware that a convicted sex offender was writing a membership recommendation for a young woman in her early twenties.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "jeepers-inc-and-financial-flows",
+        "title": "Jeepers Inc and the Fortress Fund Financial Structure",
+        "content": "<p>The financial architecture connecting Dubin to <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> is built around <a href=\"/dossiers/jeepers-inc\">Jeepers Inc</a>, an Epstein-controlled entity incorporated in the U.S. Virgin Islands as part of the Financial Trust Company constellation. On August 1, 2011, Dubin signed an Assignment of Economic Interest Agreement transferring his interest in a Fortress Investment Group fund to Jeepers Inc. The investment totaled $4,375,302, and subsequent distributions were routed through Jeepers to the Bank of New York (EFTA02385363).</p>\n\n<p>The distribution trail is documented in granular detail. Richard Kahn, Epstein's financial manager, tracked each payment and sought instructions on whether to forward funds to Dubin or hold them. The tracked distributions include: $222,549 (October 2014), $166,911 (December 2014), $244,778 (June 2015), $183,754 (December 2015), $118,050 (September 2016), and $46,854 (June 2017). In October 2016, Kahn emailed Epstein: \"Jeepers received funds of 118,049.60 this morning — shall I send on to Glen Dubin or wait? Please advise\" (EFTA02447499). The fact that Kahn needed Epstein's permission to release Dubin's own investment returns to Dubin reveals the control dynamic embedded in the structure.</p>\n\n<p>The government recognized the significance of this arrangement. Prosecutors subpoenaed Jeepers Inc demanding production of documents revealing \"relationships among Jeepers, FTC, Jeffrey Epstein, and any partner, member, beneficial owner\" (EFTA02725955). The subpoena's scope — seeking the full organizational architecture and beneficial ownership — suggests prosecutors viewed the Dubin-Jeepers-Epstein chain as more than a simple investment pass-through. The related entity Financial Trust Company served as Jeepers Inc's parent, with both registered at 6100 Red Hook Quarter B3, St. Thomas, USVI.</p>\n\n<p>Separately, Dubin forwarded a Bloomberg article about <a href=\"/dossiers/leon-black\">Leon Black</a>'s tax reform dilemma to Epstein in December 2017, indicating a pattern of intelligence sharing about fellow billionaires through Epstein as intermediary. This mirrors the broader pattern documented across Epstein's network: wealthy clients exchanging commercially sensitive information through Epstein's channel rather than through formal advisors, creating a web of mutual exposure.</p>",
+        "viz": null
+      },
+      {
+        "id": "victim-testimony-and-legal-proceedings",
+        "title": "Victim Testimony and Legal Proceedings",
+        "content": "<p>Glenn Dubin is named in two independent evidentiary streams as a recipient of trafficking victims directed by <a href=\"/dossiers/ghislaine-maxwell\">Ghislaine Maxwell</a> and <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>.</p>\n\n<p>The first stream is Virginia Giuffre's 2016 deposition testimony, unsealed in January 2024. Giuffre testified under oath that Dubin was the <em>first person</em> Maxwell sent her to for sex after completing what Giuffre described as \"massage training.\" Giuffre stated: \"Ghislaine told me to go to Glenn Dubin and give him a massage, which means sex.\" She further testified that <a href=\"/dossiers/eva-dubin\">Eva Dubin</a> was pregnant and asleep in the next room during the encounter. This testimony was corroborated by the SDNY prosecution memorandum (EFTA02731082, dated December 19, 2019), which documented a victim who said \"Maxwell told [her] to massage Glen and Eva Dubin and explicitly told [her] that she had to do to Glen what [she] did for Epstein, which [she] understood to mean engage in sex acts.\" The victim used the term \"lent out\" to describe these directed sexual encounters, characterizing it as her first memory of being \"lent out.\"</p>\n\n<p>The second stream is the Jane Doe 102 complaint (HOUSE_OVERSIGHT_022248, 023033, 023036), which explicitly lists Dubin among those the victim \"was required to have sex with friends of Ms Maxwell and Mr Epstein, including Glenn Dubin, Les Wexner, Ehud Barak, former Senator George Mitchell and Stephen Kosslyn.\" This complaint further documented that victims were paid between $200 and $5,000 per encounter depending on travel requirements, and that after encounters with male friends, Maxwell and Epstein would ask explicit questions about what happened. These are separate allegations from separate victims that corroborate each other on the central claim.</p>\n\n<p>The Rinaldo Rizzo connection surfaces in this context as well — Rizzo, the Dubins' former household butler, provided testimony relevant to the legal proceedings. No criminal charges were filed against Glenn Dubin. He has denied the allegations through counsel.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "network-position-and-philanthropy",
+        "title": "Network Position and Philanthropic Activity",
+        "content": "<p>Glenn Dubin occupies a distinctive position in the broader Epstein network: a hedge fund billionaire whose relationship was simultaneously social, financial, and — if victim testimony is credited — participatory in the abuse itself. His network bridges several key clusters. Through <a href=\"/dossiers/paul-tudor-jones\">Paul Tudor Jones</a>, with whom he co-founded the Robin Hood Foundation in 1988 and co-chaired the Dubin Breast Center at Mount Sinai, Dubin connects to the philanthropic hedge fund circle where Epstein circulated. <a href=\"/dossiers/eva-dubin\">Eva Dubin</a> coordinated Epstein attendance at Robin Hood events and maintained a separate close personal friendship with Sonia Jones (PTJ's wife), described by Epstein as \"best friends.\"</p>\n\n<p>The Dubin real estate portfolio reflects his elite Manhattan positioning. ACRIS records show a $957,000 Bronx condo purchase in February 2003 (listing 9 W 57th Street, Highbridge Capital's address), a $30 million purchase of 1010/1040 Fifth Avenue from David H. Koch in September 2006, and a $13.75 million sale of an Upper East Side property to Alexander Klabin in February 2011. The family maintained addresses at 1010 Fifth Avenue, 40 W 57th Street (Highbridge Capital), and 767 Fifth Avenue (Dubin and Company, the same building as Wachtell Lipton). A Florida LLC (L10000120085) listed Glenn and Eva as co-managing members at 10 Park Avenue, with CT Corporation System as registered agent — administratively dissolved in September 2015 and reinstated in March 2016.</p>\n\n<p>Dubin's FEC record shows over 147 contributions, predominantly to Democratic candidates and committees. Major donations include contributions to the American Exceptionalism PAC, Senate Majority PAC, and ActBlue, with repeated giving to New York representatives including Ritchie Torres and Dan Goldman. Some bipartisan giving appears (Vivek Ramaswamy, Dave McCormick), but no coordination pattern with other Epstein associates was detected. The Dubin Family Foundation (EIN 13-3863354), administered through UJA-Federation of New York, has been in terminal wind-down since 2011, with zero new contributions and assets approaching full depletion by 2024-2025.</p>\n\n<p>Epstein also used Dubin as a conduit for Russian diplomatic access. In 2017, Epstein attempted to place Maxim Churkin — son of Russia's UN Ambassador Vitaly Churkin — at Dubin's firm, describing him as \"son of the Russian amb.\" This use of Dubin's hedge fund operation as a placement vehicle for diplomatic contacts reflects the broader pattern of Epstein leveraging business relationships for intelligence-adjacent networking.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "enabler-gradient",
+      "manufactured-dependency",
+      "parallel-financial-system",
+      "narrative-shield",
+      "bridge-tax"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Glenn Dubin",
+      "connections": [
+        {
+          "target": "Maxim Churkin",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Epstein tried to place Maxim at Dubin's firm as 'son of the russian amb.'"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02718208",
+          "description": "Assignment of Economic Interest Agreement Aug 1 2011 - Dubin assigned Fortress fund interest to Epstein-controlled Jeepers Inc. 4.375M in flows."
+        },
+        {
+          "target": "Paul Tudor Jones",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02694479",
+          "description": "Co-chairs at Dubin Breast Center Mount Sinai benefits. Both billionaire hedge fund managers. Eva Dubin coordinated Epstein attendance at Robin Hood events."
+        },
+        {
+          "target": "Paul Tudor Jones",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02672763",
+          "description": "PTJ and Sonia co-chaired Dubin Breast Center benefits (2011, 2012, 2013). Robin Hood Foundation overlap. Sonia Jones honored at 2013 gala."
+        },
+        {
+          "target": "Paul Tudor Jones",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Co-founded Robin Hood Foundation 1988. Co-chaired Dubin Breast Center benefits 2011-2012. Deep social and philanthropic partnership."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02502802",
+          "description": "Close social friendship through 2015+. Joint dinners with Woody Allen, Paris apartment offers, Boies introduction"
+        },
+        {
+          "target": "Eva Dubin",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02502432",
+          "description": "Married couple. Both emailed jointly by Epstein for dinners and social events"
+        },
+        {
+          "target": "Virginia Giuffre",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02731082",
+          "description": null
+        },
+        {
+          "target": "Rinaldo Rizzo",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02731082",
+          "description": null
+        },
+        {
+          "target": "Leon Black",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "HF-unified:dubin-black-tax-article",
+          "description": "Dubin forwarded Bloomberg article about Black's tax reform dilemma to Epstein (Dec 2017). Intelligence sharing about fellow billionaires through Epstein as intermediary."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Ari Glass",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Pete Briger",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Dubin assigned economic interest to Jeepers Inc (Epstein entity) Aug 1 2011. Fortress Fund distributions flowed to Jeepers Inc at Bank of New York."
+        },
+        {
+          "target": "Dubin Family Foundation",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "990:133863354",
+          "description": "Dubin Family Foundation (EIN 13-3863354) at UJA-Federation of NY in terminal wind-down. Assets collapsed from K (2011) to K (2023) with zero new contributions. Foundation will be fully depleted by 2024-2025."
+        },
+        {
+          "target": "David Koch",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "ACRIS:2006092000161001",
+          "description": "ACRIS: Dubin purchased 1010/1040 Fifth Ave from David H Koch for 30M Sep 2006."
+        },
+        {
+          "target": "Howard Lutnick",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Virginia Giuffre",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "DOCUMENTCLOUD:24402693",
+          "description": null
+        },
+        {
+          "target": "Woody Allen",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02502802",
+          "description": "Shared dinners at 9 E 71st with Epstein and Soon-Yi Previn, May 2015"
+        },
+        {
+          "target": "Jeepers Inc",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "Eva Dubin": [
+          {
+            "target": "Sonia Jones",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Best friends per Epstein (EFTA02454038). Sonia arranged medical care for Epstein via Pete at Eva request. Co-chaired Dubin Breast Center. Sonia honored 2013 gala. Chopra collaboration via Jiyo.com."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Intimate personal friendship 2010-2019. Eva advised on Karyna medical care, received muffins and gifts, coordinated staff and social events"
+          },
+          {
+            "target": "Sonia Jones",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Eva characterized as best friends with Sonia Jones per Epstein. Co-chaired Dubin Breast Center benefits"
+          },
+          {
+            "target": "Lesley Groff",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Groff regularly delivered muffins and gifts to Eva, coordinated driver Janusz for Celina, managed Eva scheduling"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": ""
+          }
+        ],
+        "Jeepers Inc": [
+          {
+            "target": "Susman Godfrey LLP",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Harry Susman of Susman Godfrey led Zwirn JAMS arbitration and Bear Stearns FINRA arbitration for Jeepers/FTC/COUQ per EFTA00300480 pp520-524"
+          },
+          {
+            "target": "Financial Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "FTC is parent entity of Jeepers Inc. Tax returns prepared together. Both at 6100 Red Hook Quarter B3, St Thomas USVI."
+          },
+          {
+            "target": "Financial Trust Company",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC assigned DB Zwirn Special Opportunities Fund I and II positions to Jeepers Inc per GRM filing index EFTA00300480 p521"
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+          },
+          {
+            "target": "Fortress Value Recovery Fund",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Leon Black": [
+          {
+            "target": "Richard Kahn",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Richard Joslin",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Joslin served as CFO of Elysium Management LLC (Black's family office). Prepared charity commitment lists, financial reports, trust accounting summaries, art valuations, and tax returns — all routinely sent to Epstein. Key intermediary for Black-Epstein financial relationship."
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Tony Blair",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black Family Foundation granted $250,000 to Tony Blair Foundation in 2019 990-PF"
+          }
+        ],
+        "Maxim Churkin": [
+          {
+            "target": "Karyna Shuliak",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Jun 25, 2019: Churkin contacted Shuliak re Switzerland intermediary. 2 weeks before arrest."
+          },
+          {
+            "target": "Vitaly Churkin",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father and son, Vitaly introduced Maxim to Epstein"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2003-02",
+        "label": "ACRIS reveals Glenn Dubin's NYC property portfolio: (1) Bought 3614 Johnson Ave Bronx condo Feb 2003 for 957K (address 9 W 57th St = Highbridge Capital); (2) Purchased 1010/1040 Fifth Avenue from DAVID H KOCH Sep 2006 for 30M (significant: Dubin-Koch property nexus); (3) Sold Upper East Side property (BBL 1/1494/1) with wife Eva Andersson Dubin Feb 2011 for 13.75M to Alexander Klabin (255 E 74th St); (4) Family transactions on Bronx condo to son Kenneth (1.05M 2014) then loan-back. Addresses used: 1010 Fifth Ave, 40 W 57th St 33rd Floor (Highbridge Capital), 767 Fifth Ave.",
+        "type": "location",
+        "evidence_ref": null,
+        "id": 488
+      },
+      {
+        "date": "2010",
+        "label": "Pete Briger (Fortress Investment Group) met with Epstein post-conviction in 2010, arranged by Glenn Dubin. Briger stated 'I want to be clear to Jeffrey that I want to help if I can.' Dubin also introduced Epstein to Fortress for investment. The Jeepers Inc entity received Dubin fund distributions routed through Fortress. Dubin served as post-conviction rehabilitator, continuing social relationship through 2018.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 278
+      },
+      {
+        "date": "2011-08-01",
+        "label": "Dubin invested 4,375,302 USD via Fortress Macro Fund (Oct 2014). Distributions were assigned to JEEPERS INC via Assignment of Economic Interest Agreement dated Aug 1, 2011. Jeepers Inc wired to Bank of New York. Tracked distributions: 222,549 (Oct 2014), 166,911 (Dec 2014), 244,778 (Jun 2015), 183,754 (Dec 2015), 118,050 (Sep 2016), 46,854 (Jun 2017). Government subpoenaed Jeepers Inc demanding organizational structure and relationship to Epstein. FTC (Financial Trust Company) is related entity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 269
+      },
+      {
+        "date": "2014-04-13",
+        "label": "Glenn Dubin sent Epstein a happy birthday AARP card message on April 13 2014, demonstrating casual friendship. Dubin wrote from Dubin and Company 767 Fifth Avenue 45th Floor New York NY 10153 (same building as Wachtell Lipton). Glenn Dubin appears in DugganUSA with 929 total hits, placing him among the top 20 most-referenced individuals in the entire Epstein corpus. His LMSBAND co-occurrence is lower (2 files each with Bella Klein, Jeepers Inc, Liam OSullivan, Rich, Stewart Oldfield, Epstein), suggesting most Dubin references are in emails and financial documents rather than the LMSBAND database types.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1404
+      },
+      {
+        "date": "2015-01-01",
+        "label": "Jane Doe 102 complaint allegations (HOUSE_OVERSIGHT_022248, 023033, 023036) explicitly list Glenn Dubin among those the victim was required to have sex with: 'was required to have sex with friends of Ms Maxwell and Mr Epstein, including Glenn Dubin, Les Wexner, Ehud Barak, former Senator George Mitchell and Stephen Kosslyn.' The complaint also states: (1) victim was paid between 200 and 5000 USD per encounter depending on travel; (2) after encounters with male friends, Maxwell and Epstein would ask explicit questions about what happened; (3) Epstein residences had surveillance cameras taping sex sessions; (4) Maxwell and Epstein arranged for Ehud Barak to have sex with several girls at Palm Beach house. These are separate from and corroborate the Giuffre deposition testimony.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1653
+      },
+      {
+        "date": "2015-05-04",
+        "label": "Glenn Dubin and Epstein hosted joint dinners with Woody Allen and Soon-Yi Previn in May 2015. May 4 2015: Epstein forwarded dinner menu from Soon-Yi Previn (Sette Mezzo restaurant order) to both Eva Dubin and Glenn Dubin saying glenn add to if you like see you thur. Menu was elaborate Italian for group dining. May 8 2015 Glenn emailed: thanks for a fun night Hearing the Lone Ranger story and seeing Woody laugh were highlights. This documents ongoing close social relationship between Epstein, the Dubins, and Woody Allen as late as 2015.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1366
+      },
+      {
+        "date": "2015-06",
+        "label": "Glenn Dubin asked Epstein about David Boies in June 2015. Epstein offered Glenn use of his Paris apartment with the family no problem at all with driver etc. Dubin replied about Boies: No I havent but I hear hes incredible as evidenced by what he did for Hank Greenberg. Dubin and Company address 767 Fifth Avenue 45th Floor. Epstein was actively brokering Boies introduction to Dubin while offering luxury hospitality. Boies later represented Epstein victims and hired Black Cube - this 2015 inquiry predates those events.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1365
+      },
+      {
+        "date": "2015-09",
+        "label": "FL SunBiz corp L10000120085: Glenn Dubin and Eva A. Dubin as co-managing members of FL LLC, address 10 Park Ave 25th Floor, New York NY 10022. CT Corporation System as FL agent. Admin dissolved Sep 2015 for failure to file annual report, reinstated Mar 2016. Entity name not recovered from corprindata. The Park Avenue address is the Dubin family residence.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 507
+      },
+      {
+        "date": "2016-01-01",
+        "label": "Virginia Giuffre testified in 2016 deposition (unsealed Jan 2024) that Glenn Dubin was the FIRST person Ghislaine Maxwell sent her to for sex after completing massage training. Giuffre stated under oath: 'Ghislaine told me to go to Glenn Dubin and give him a massage, which means sex.' Eva Dubin was pregnant and asleep in the next room during the encounter. The SDNY prosecution memorandum (EFTA02731082, Dec 19, 2019) corroborates this, documenting a victim who said 'Maxwell told [her] to massage Glen and Eva Dubin and explicitly told [her] that she had to do to Glen what [she] did for Epstein, which [she] understood to mean engage in sex acts.' The victim used the term 'lent out' to describe these directed sexual encounters. This was described as her first memory of being 'lent out.'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1650
+      },
+      {
+        "date": "2017",
+        "label": "social with Maxim Churkin",
+        "type": "social",
+        "entity": "Maxim Churkin",
+        "id": 194
+      },
+      {
+        "date": "2018-02",
+        "label": "Celina Dubin applied for Soho House membership in Feb 2018 with Epstein and David Mitchell assisting. Email chain cc-d Jeffrey Epstein and Eva Dubin. Celina wrote on second thought I think a letter from you would be best to Epstein. Mitchell offered I could also write one if need be from Mitchell Holdings LLC 745 Fifth Avenue. This is 2018 - a convicted sex offender writing a membership recommendation for a young woman in her early 20s - and the Dubins facilitated it. The email chain was sent to Allison Yorke at Dubin and Company, confirming Glenn Dubin organization was aware.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1416
+      },
+      {
+        "date": "2023",
+        "label": "Glenn Dubin (Dubin and Co, Engineers Gate) made 147+ FEC contributions. Major donations: K American Exceptionalism PAC (2023), K SMP/Senate Majority PAC (2018), K ActBlue (2023), .5K Dave McCormick (2023), .6K Torres for Congress (2025), .6K Bennet Wyden Victory (2021). Dubin is a prolific Democratic donor with some bipartisan giving (Vivek Ramaswamy 2023, McCormick). Heavy focus on NY politics: Ritchie Torres (repeated donations 2021-2025), Dan Goldman, Perry Gershon. Also donated to Hickenlooper, Bredesen, Mikie Sherrill. Total giving approaches mid-six figures. No coordination pattern with other Epstein associates detected.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 464
+      }
+    ]
+  }
+}

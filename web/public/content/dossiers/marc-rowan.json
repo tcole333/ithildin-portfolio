@@ -1,0 +1,1791 @@
+{
+  "name": "Marc Rowan",
+  "slug": "marc-rowan",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.264687",
+  "last_updated": "2026-02-18T17:20:13",
+  "stats": {
+    "total_findings": 23,
+    "total_connections": 16,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 20,
+      "relationship": 2,
+      "intelligence": 1
+    },
+    "connection_types": {
+      "financial": 2,
+      "advisory": 3,
+      "corporate": 6,
+      "legal": 2,
+      "intelligence": 1,
+      "political": 2
+    },
+    "last_updated": "2026-02-18T17:20:13"
+  },
+  "findings": [
+    {
+      "id": 1205,
+      "finding_type": "financial",
+      "summary": "Liquid Funding Ltd was a $6.7B Bermuda-registered Structured Investment Vehicle (SIV) incorporated Oct 19, 2000 (EC 29378), where Epstein served as Chairman and Director from Nov 2001 to at least Mar 2007. Bear Stearns owned ~40% and provided investment management through its Dublin subsidiary. The vehicle held mortgage-backed securities and CLOs. By 2004, FTC's investment summary listed 'Liquid Funding Holding' with $1.5M in holdings (EFTA01308282). By 2009, the K-1 showed only $969 income -- the entity was dormant post-Bear Stearns collapse. In 2016, Rowan's 'Re-Introduction after Liquid Funding' email subject line confirms Liquid Funding was the shared business context connecting Rowan, Epstein, and Shwachman.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2000-10-19",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:59:08",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01308282",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": "Re-Introduction after Liquid Funding",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1338,
+      "finding_type": "relationship",
+      "summary": "ROWAN-HARRIS LATERAL CONNECTIONS via LittleSis: Both Rowan (entity 66624) and Harris (entity 6143) hold positions at Apollo Global Management (LittleSis org 50090). Both serve on the Wharton School advisory board. Both donated to John Barrasso (R-WY) and Marco Rubio (R-FL). Rowan is also on the New York Police Foundation board (rel 1960178). Harris owns Harris Blitzer Sports & Entertainment (rel 1960206, NBA 76ers/NHL Devils) and founded 26North (rel 1960205) and HRS Management (rel 1960204) post-Apollo. The lateral network shows Rowan stayed within Apollo while Harris diversified into sports ownership and a new investment platform -- but their shared Wharton connection, political donation patterns, and documented joint engagement with Epstein at the Oct 22 2013 meeting demonstrate they operated as a coordinated unit throughout the Epstein advisory period.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-10-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:35:30",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis_972826",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1183,
+      "finding_type": "financial",
+      "summary": "Marc and Carolyn Rowan wrote a check for $838,675 to Leon Black on April 9, 2014 (check #000013326, US Trust/Bank of America), tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession, demonstrating Epstein had access to confidential financial details of inter-founder payments within Apollo.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-04-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:48",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02713903",
+          "source_quote": "MARC and CAROLYN ROWAN Check Number 000013326 To: Leon Black Date 04/09/2014 Amount $838,675.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1509,
+      "finding_type": "financial",
+      "summary": "ROWAN $838,675 TRA CHECK TO BLACK -- INTER-FOUNDER PAYMENT IN EPSTEIN'S POSSESSION: Previously recorded (finding #1183) but now contextualized within the BRH architecture: Marc and Carolyn Rowan wrote check #000013326 (US Trust/Bank of America) for $838,675 to Leon Black on April 9, 2014, tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession. The TRA (Tax Receivable Agreement) is the mechanism by which BRH Holdings LP distributes tax benefits to the three founders individually -- specifically, Apollo pays the founders 85% of the tax savings from the step-up in basis of Apollo's assets when the founders exchange their partnership interests for stock. Epstein asked Rowan directly: 'the tra liability amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016) and Rowan forwarded confidential TRA calculations from Apollo CFO Chris Weidler. The TRA is now worth billions following the Athene merger and Apollo stock appreciation. Epstein's access to inter-founder TRA payments means he understood the precise economic relationship between all three founders.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-04-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:39:59",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02451672",
+          "source_quote": "Forwarded messag= \nFrom: jeffrey E. From: jeffrey E.  \nTransaction com=lete ! \n. this - in spite of your collection of Elysium misfits. =!! \nWith Brad out of the office and unable to run his usual=C2 interference , the level of his utter incompetence was \nbrought=front and center, he may be a step...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02455405",
+          "source_quote": "1 fire drill done properly, 6 - 8 weeks. =AO review BRH, TRA , shareholder agreement. SEC filing, =RS TRUST \ncharitable restrictions \n2. tax. E and Y . =AO timing? torn role. joslin, cas=rucci, ada. \n3. art transactions 1031 saks. sales tax. . \n4 trust re distribution =e tax basis \n5 prepare...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1318,
+      "finding_type": "financial",
+      "summary": "Black Family Partners (BFP) cash flow projection (Dec 23 2014, prepared by Richard Joslin) shows Athene capital call of .6M as the single largest disbursement, dwarfing all other items. Apollo distributions were the primary inflow: .5M (Dec 2014), .9M (Feb 2015), .8M (Apr), .9M recurring. TRA payment of .5M. Advisory fee line item present but amount unclear. Family office expense ,667/month (.4M/year). Loan to LDB of .5M repaid. Phaidon Global loan repayment .35M. Cash balance projected to go negative by May 2015 at -.9M, requiring borrowing from LDB 2014 LLC to fund residual Athene commitment. This demonstrates that the Athene investment was so large it strained even Black Family Partners' cash flows, explaining why Epstein's proposed 25% advisory fee on Athene tax optimization was worth engaging all three founders.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-12-23",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:34:02",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02371750",
+          "source_quote": "ATHENE CAPITAL CALL (41,600,000)...ADVISORY FEE...RESIDUAL FUNDING OF ATHENE - MAY BORROW FROM LDB 2014 LLC",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1236,
+      "finding_type": "financial",
+      "summary": "Complete timeline of Rowan-Epstein documented interactions: Sept 2013: Epstein set Google Alert on 'rowan'. May/Jun 2014: Richard Kahn forwarded Rowan's Apollo share sales articles to Epstein. Dec 16 2015: Melanie Spinella arranges Rowan-Epstein first meeting. Dec 29 2015: Epstein's hand-deliver memo references 'Rowen request re Athene.' Jan 6 2016: 8am breakfast at Epstein residence. Jan 9: Black directs Rowan+Cohen to call Epstein re DAFs. Jan 18: Epstein proposes 25% Athene fee naming marc and josh. Jan 21: Epstein engages Paul Weiss on Apollo/Athene restructuring. Feb 1-22: Multiple calls/meetings, TRA/inversion/valuation discussions. Mar 4-14: TRA calculations forwarded, inversion progress. Aug 12 2016: Rowan introduces Shwachman for USVI insurance. Aug 15: Leon agenda includes Athene and josh/mark. Aug 26: Epstein offers to explain Form 8865. Apr 3 2018: Ruemmler asks Epstein if she has met Rowan.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-12-16",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:02:19",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477895",
+          "source_quote": "Multiple EFTA documents spanning 2013-2018 synthesized into timeline",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1230,
+      "finding_type": "financial",
+      "summary": "In Epstein's explosive 'DO NOT SEND, hand deliver' memo to Leon Black (Dec 29, 2015, EFTA02451672), Epstein combined a scathing critique of Black's financial operations with the first reference to 'Rowen request re Athene, 2 billion in taxes on transaction.' This same memo discusses: (1) the Phaidon payout dispute (Epstein expected 50% of $20M), (2) 'Halperin has a conflict that should be addressed', (3) 'inversion rules', (4) 'insurance regs, out and inbound issues', (5) Rothschild bank $150B distribution network. The Rowan/Athene item appears as one element of Epstein's comprehensive advisory role across all Apollo/Black affairs. The memo proves Epstein was functioning as shadow chief financial adviser to Black/Apollo.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-12-29",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:02:00",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02451672",
+          "source_quote": "we can talk about Rowen request re Athene, 2 billion in taxes on transaction",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1199,
+      "finding_type": "financial",
+      "summary": "Leon Black directed Barry Cohen and Marc Rowan to call Epstein regarding Donor Advised Funds. Melanie Spinella (Black's executive assistant at Apollo Management) wrote: 'Leon has asked Barry Cohen and Marc Rowan to call you re Donor Advised Funds - Barry wanted me to give you a heads up' (EFTA02405147, undated but Jan 2016 context). DAFs are charitable giving vehicles with significant tax benefits. This confirms Black was actively delegating Apollo financial matters to Epstein with Rowan's direct involvement.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:48",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02405147",
+          "source_quote": "Leon has asked Barry Cohen and Marc Rowan to call you re Donor Advised Funds",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1197,
+      "finding_type": "relationship",
+      "summary": "Rowan had at least 3 confirmed in-person meetings with Epstein. (1) Jan 6, 2016 breakfast at 8am at Epstein residence, arranged via Melanie Spinella in Dec 2015 -- 'Marc said if Jeffrey wants early breakfast that works for him, he will bring coffee' (EFTA02477895). (2) A second schedule entry same week (EFTA02347894/EFTA02475448). (3) Rowan scheduled to meet Epstein on Aug 21 per EFTA02375781. Leon Black separately asked Rowan to attend a meeting at Epstein's house 'with a woman representing a wealthy family, where two blonde women who appeared to be in their 20s greeted guests at the door' (WSJ article, EFTA01365973). Epstein had a Google Alert monitoring 'rowan' (EFTA02573689, Sept 2013). Kathy Ruemmler asked Epstein 'Have I met Marc Rowan?' (Apr 3, 2018, EFTA02485265), showing Epstein as connective tissue.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2016-01-06",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:40",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365973",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347894",
+          "source_quote": "Lyn; merwin dela cruz; \nSubject: \nHardeep \nHardeep will come see you tomorrow at 1=am. \nWed. Jan. 6, 2016 NY \nReminder: 9:40pm \nand her girl= to arrive STT via AA#2379 (Rec. Lock \n8:00am&n=sp;8REAKFAST w/Marc Rowan \n11:00 am Hardeep \n5:00pm Haricut w/=atrick at Fekkai Salon (Patrick cel= \n w \n( \n...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02375781",
+          "source_quote": "He is moving his son into Penn the 22 and 23; is happy t= meet the 21st between 10 and 12, or get on the phone with \nyou \nAssistant to Leon D. Black",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02475448",
+          "source_quote": "Lyn Fontanilla; Jojo fontanilla; \nSubject: \nKathy Ruemmler \nKathy Ruemmler will come see you for lunch tomorrow at 1pm \nWed. Jan. 6, 2016 NY \n> \nReminder: 9:40pm Anna and her girls to arrive STT via AM12379 (Rec. Loc#QEAAFQS) \n8:00am BREAKFAST w/Marc Rowan \n1:00pm LUNCH w/Kathy Ruemmler\n5:00pm...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477895",
+          "source_quote": "Marc Rowan wants to meet with Jeffrey — he will move things around and come to Jeffrey",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02485265",
+          "source_quote": "Have I met Marc Rowan? =",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573689",
+          "source_quote": "September 3, 2013 12:00 AM : rowan",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1173,
+      "finding_type": "financial",
+      "summary": "Epstein proposed a 25% fee on the Athene transaction to Melanie Spinella (Leon Black's assistant), explicitly naming 'marc and josh' (Rowan and Harris) as parties who would need to sign on. Epstein wrote: 'I propose a 25% fee based on benefit to all founders... if there is a 300 overall benefit, then each founder would pay 25 m... marc and josh would have to sign on' (Jan 18, 2016). This proves Epstein expected ALL three Apollo co-founders to be involved in his fee arrangement, not just Black.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-01-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:20",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02475141",
+          "source_quote": "I propose a 25% fee based on benefit to all founders... marc and josh would have to sign on",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1179,
+      "finding_type": "financial",
+      "summary": "Epstein engaged Brad Karp (Chairman of Paul, Weiss) on the Apollo/Athene restructuring on Jan 21, 2016, describing the work as covering 'apollo/athene - rothschild (possible) USVI less likely', requiring review of 'BRH agreement, agreement amongst principals, TRA, consequences on death, insurance reg and restrictions, on-shore and off-shore, personal income tax, PFIC or CFC, SEC disclosures, inversion' rules. Karp responded: 'we're all very excited.' Epstein also mentioned getting Kathy Ruemmler to recommend a hire at Paul Weiss. This was just 3 days after Epstein's Athene fee proposal — the firm work was to implement the restructuring.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-01-21",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:39",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02386047",
+          "source_quote": "the subject is apollo/athene - rothschild (possible) USVI less likely. the subjects will require a thorough review of BRH agreement",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2049,
+      "finding_type": "intelligence",
+      "summary": "Epstein demonstrated expert-level knowledge of Rowan's personal liability in Caesars litigation. Corrected Richard Kahn: 'not leon -rowen, ie board members' — knowing Rowan faced liability as board member while Black did not. Also wrote self-memo: 'caesars case re mark. open tax years could be a neg' — tracking Rowan's tax exposure. During same period, advising Rowan on Apollo TRA valuations and receiving confidential Apollo CFO calculations.",
+      "detail": "Rowan named defendant in Case 15-01145 as CEC director who orchestrated asset-stripping as 'de facto CEO' of CEOC. Court ordered Rowan to disclose personal wealth. Rowan/Sambur offered 250M personal settlement, received fraud releases. Rowan later became Apollo CEO in 2021.",
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-01-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:12:23",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01091533",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454221",
+          "source_quote": "caesars case re mark. open tax years could be a neg",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473688",
+          "source_quote": "not leon -rowen, ie board members",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1191,
+      "finding_type": "financial",
+      "summary": "Epstein negotiated with Rowan regarding a 'Fenn' matter and fee structure, writing: 'spoke to fenn, I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee.' (Feb 12, 2016). Rowan responded: 'WPPI...care of MR'. The reference to 'you three' (i.e., the three Apollo co-founders: Black, Rowan, Harris) and fee negotiation confirms Epstein was providing compensated advisory services to all three Apollo founders jointly. WPPI likely refers to Wharton Public Policy Institute — Epstein also noted 'summers gave a lecture at wharton public policy school, is that your deal?'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-02-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:13",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02471986",
+          "source_quote": "spoke to fenn, I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1202,
+      "finding_type": "financial",
+      "summary": "Rowan emailed Epstein about 'Empire' wanting to chat (Feb 19, 2016). Richard Kahn forwarded Epstein a NY Post article 'Rowan finds more luck in personal investments' (Jun 7, 2014) and a Bloomberg article 'Apollo Billionaire Rowan Sells 72.8 Million in Shares' (May 27, 2014). The Kahn forwards show Epstein's inner circle actively monitoring Rowan's financial activities and Apollo share transactions. The 'Empire' subject line likely refers to a deal or entity Rowan was discussing with Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-02-19",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:57",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02471032",
+          "source_quote": "Empire. Lets chat over the next few days. Tks, MR",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1193,
+      "finding_type": "financial",
+      "summary": "Rowan discussed Epstein's valuation critique of Apollo unit transfers. Rowan wrote: 'I found the same long valuation report when I transferred units to the various estate planning vehicles' (Feb 21, 2016). Epstein responded with pointed critique: 'did you see the goofy description, ie puts, for example not realizing that there is a traded market in them, they also added 144 restrictions. were sec filings made on your transfers? did not take into account termination clause. or current year knowledge of projections.' This shows Epstein critiquing the valuation methodology used for Rowan's personal Apollo unit transfers to estate planning vehicles.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-02-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:21",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02704647",
+          "source_quote": "I found the same long valuation report when I transferred units to the various estate planning vehicles",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1169,
+      "finding_type": "financial",
+      "summary": "Rowan served as Epstein's financial adviser on Apollo TRA (Tax Receivable Agreement) valuation. Epstein directly asked Rowan 'the tra libility amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016). Rowan forwarded confidential Apollo internal TRA calculations from CFO Chris Weidler to Epstein (Mar 4, 2016), including DTA discount rates, management fee cash flows, and carried interest projections. This reveals Epstein had direct access to Apollo's most sensitive financial modeling through Rowan.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-02-22",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:11",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02469635",
+          "source_quote": "marc , the tra libility amount is on apollos balance sheet. can you find how they calculate?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1185,
+      "finding_type": "financial",
+      "summary": "Epstein asked Rowan about 'the inversion' in the context of Apollo TRA valuations: 'have you made any progress on the inversion?' (Mar 14, 2016). An 'inversion' in this context means restructuring Apollo from a US partnership into a foreign corporation to reduce the tax burden on TRA payments and founder distributions. Rowan responded 'minimal'. Epstein also asked about the 'worksheet calculation for the tra number on the balance sheet' and whether they were 'undiscounted' — demonstrating deep working knowledge of Apollo's tax structure.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-03-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:56",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02335969",
+          "source_quote": "thanks, have you made any progress on the inversion?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "finding_type": "financial",
+      "summary": "Epstein advised Reid Hoffman on tax-free stock donation via CRT (Charitable Remainder Trust) in the context of a corporate inversion: 'trust (CRT), where the stock can be sold on a tax-free basis... To avoid this result, it is best to make the donation of stock before shareholder approval of the inversion occurs' (Jul 26, 2016, EFTA02456896). This confirms Epstein was simultaneously advising multiple billionaires on inversion-related tax strategies during the same period he was advising Rowan on Apollo's inversion. The expertise was not hypothetical -- it was an active advisory practice.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-07-26",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:59:35",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02456896",
+          "source_quote": "it is best to make the donation of stock before shareholder approval of the inversion occurs",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "finding_type": "financial",
+      "summary": "Marc Rowan (Apollo Global co-founder) personally introduced Epstein to Perry Shwachman (Partner, Sidley Austin LLP) in the context of 'Liquid Funding' (EFTA02454291, Aug 2016). Rowan wrote: 'I will leave it to the two of you to discuss directly.' Shwachman then contacted Epstein about 'potential new USVI insurance regulations' (EFTA02361689, Aug 2016). This reveals Rowan was actively brokering connections for Epstein well after Epstein's 2008 conviction. The 'Liquid Funding' context appears on FTC's 2009 K-1, suggesting a shared investment history. Separately, the Dechert LLP memo (EFTA02730996) commissioned by Apollo Conflicts Committee investigated the Epstein/Black relationship and confirmed AP SHL and AP Technology were formed by 'certain Apollo executives' — Rowan, as co-founder, would have known about these side vehicles. Rowan's introduction of Shwachman to Epstein for USVI regulatory influence echoes the broader pattern of Apollo executives facilitating Epstein's access to institutional power.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-08",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:19:35",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02361689",
+          "source_quote": "Marc: \nThanks for introducing us. \nJeff: \n> \nIt would be great to talk to you about helping with potential new USVI insurance regulations. Let me know if there is a \ngood time to discuss. \nThanks \nPerry \nPERRY SHWACHMAN \nPartner \nSidley Austin LLP \nN3,1 IYVULI U 1101 i13IUic.y.wi \nI 1, 1 I iciiitu...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": "Marc Rowan Re-Introduction after Liquid Funding I will leave it to the two of you to discuss directly Tk MR",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02730996",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1209,
+      "finding_type": "financial",
+      "summary": "Epstein's 'leon agenda' memo (Aug 15, 2016) lists 14 action items including '10 apollo insurance AThene' and '14. sit with josh and mark re amendments' (EFTA02455405). 'Mark' is likely Marc Rowan, 'josh' is Joshua Harris. This memo shows Epstein managing all three Apollo co-founders' business simultaneously. The mention of Athene alongside the Rowan-Shwachman USVI insurance introduction (same month) demonstrates that Epstein was coordinating multiple Apollo/Athene workstreams: the insurance vehicle, the corporate restructuring, and the TRA optimization.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-08-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:59:26",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02455405",
+          "source_quote": "10 apollo insurance AThene. 14. sit with josh and mark re amendments",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1189,
+      "finding_type": "financial",
+      "summary": "Epstein was advising Rowan on IRS Form 8865 (Return of US Persons With Respect to Certain Foreign Partnerships). Epstein wrote: 'Happy to explain my thinking on the 8865 issue' (Aug 26, 2016). Form 8865 is required when US persons hold interests in foreign partnerships — this directly relates to the offshore structuring of Apollo entities and the proposed inversion. This establishes Epstein as providing specific international tax advisory services to Rowan on Apollo's cross-border tax obligations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-08-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:03",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02452433",
+          "source_quote": "Happy to explain my thinking on the 8865 issue",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1175,
+      "finding_type": "financial",
+      "summary": "Epstein referenced 'Rowen request re Athene, complex 2 billion in taxes on transaction' in a comprehensive advisory memo to Leon Black (Aug 25, 2017). This email demonstrates Rowan was directly requesting Epstein's tax advisory expertise on the Athene transaction, which involved approximately 2 billion dollars in tax implications. The memo covers Apollo/Athene restructuring, Rothschild bank partnership, USVI considerations, corporate inversions, TRA, shareholder agreements, SEC disclosures, and estate planning — showing Epstein functioning as a shadow adviser to all Apollo founders.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-08-25",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:28",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02639407",
+          "source_quote": "we can talk about Rowen request re Athene, complex 2 billion in taxes on transaction",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1320,
+      "finding_type": "financial",
+      "summary": "ROWAN FEC ANALYSIS: Marc Rowan is a heavily Republican donor via Apollo Management. Key contributions 2019-2025: (1) AIPAC (LittleSis, amount not specified) - significant given Rowan's prominence in pro-Israel advocacy. (2) Mitch McConnell ,600 (May 2019). (3) John Barrasso ,900 (Dec 2021). (4) Marco Rubio ,800 (Dec 2021). (5) NY Republican Federal Campaign Committee ,000 (Dec 2025). (6) Multiple Congressional candidates at ,500 each (2025). Rowan lists employer as 'Apollo Management' or 'Apollo Global Management' on all filings. His donation pattern is heavily Republican with no Democratic contributions visible, contrasting with Harris's bipartisan giving and PTJ's bipartisan pattern. Rowan's political giving aligns with his post-Black role as Apollo CEO -- managing the firm's political relationships.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-05",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:34:12",
+      "target_name": "Marc Rowan",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC_API",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 508,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Marc Rowan",
+      "relationship_type": "financial",
+      "description": "Apollo co-founder. Introduced Perry Shwachman (Sidley Austin) to Epstein Aug 2016 for USVI insurance work. Subject: Re-Introduction after Liquid Funding. Liquid Funding on FTC K-1.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:49:10",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02361689",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Marc Rowan",
+      "relationship_type": "advisory",
+      "description": "Epstein served as financial/tax adviser to Rowan on Apollo TRA, inversion, Athene restructuring, Form 8865, estate planning. Rowan forwarded confidential Apollo CFO calculations. Epstein proposed 25% fee requiring all 3 founders. Multiple breakfast meetings 2015-2016.",
+      "strength": "strong",
+      "date_range": "2013-2018",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:59:52",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02469635",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02475141",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02639407",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 564,
+      "person_a": "Marc Rowan",
+      "person_b": "Perry Shwachman",
+      "relationship_type": "corporate",
+      "description": "Rowan (Apollo CEO) introduced Shwachman (Sidley Austin, Apollo/Athene insurance lawyer) to Epstein for USVI insurance regulatory work. Shwachman later represented Athene in its merger with Apollo.",
+      "strength": "strong",
+      "date_range": "2016",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:59:57",
+      "other_person": "Perry Shwachman",
+      "other_person_slug": "perry-shwachman",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02361689",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 567,
+      "person_a": "Joshua Harris",
+      "person_b": "Marc Rowan",
+      "relationship_type": "corporate",
+      "description": "All three Apollo co-founders (Black, Rowan, Harris) were jointly involved in Epstein's advisory work. Epstein's Athene fee proposal required 'marc and josh' to sign on. Leon agenda mentioned 'sit with josh and mark re amendments.' Epstein referred to all three as 'you three' in fee negotiations.",
+      "strength": "strong",
+      "date_range": "2016",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:00:14",
+      "other_person": "Joshua Harris",
+      "other_person_slug": "joshua-harris",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02455405",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02475141",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 603,
+      "person_a": "Leon Black",
+      "person_b": "Marc Rowan",
+      "relationship_type": "corporate",
+      "description": "Apollo Global co-founders [public knowledge]",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 00:46:53",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": []
+    },
+    {
+      "id": 1042,
+      "person_a": "Apollo Global Management",
+      "person_b": "Marc Rowan",
+      "relationship_type": "legal",
+      "description": "Rowan named defendant in Caesars Case 15-01145 while Epstein tracked his liability",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:13:48",
+      "other_person": "Apollo Global Management",
+      "other_person_slug": "apollo-global-management",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473688",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "person_a": "Brad Karp",
+      "person_b": "Marc Rowan",
+      "relationship_type": "advisory",
+      "description": "Both in Epstein Caesars intel network; PW represented Rowan while Karp briefed Epstein",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:13:48",
+      "other_person": "Brad Karp",
+      "other_person_slug": "brad-karp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02452879",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1191,
+      "person_a": "Marc Rowan",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Pesner obstructed Ribis's Caesars settlement work while Rowan engaged with Ribis directly (5 meetings). Pesner simultaneously on 8865 team handling Rowan's BRH Holdings tax filings. Dual exposure to Rowan's most sensitive legal and financial matters.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:43",
+      "other_person": "Steven Pesner",
+      "other_person_slug": "steven-pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02348561",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1197,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Marc Rowan",
+      "relationship_type": "intelligence",
+      "description": "Epstein brokered Ribis-Rowan connection on Caesars. Forwarded Ribis's cell to Rowan, who called. Then Epstein forwarded entire chain to Black's office. Epstein functioned as intelligence broker between Apollo co-founders on Caesars litigation strategy.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:56",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02469638",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1449,
+      "person_a": "Leon Black",
+      "person_b": "Marc Rowan",
+      "relationship_type": "political",
+      "description": "Coordinated political donations: identical amounts to 15+ shared recipients on same dates",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 04:32:04",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-4",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1451,
+      "person_a": "Joshua Harris",
+      "person_b": "Marc Rowan",
+      "relationship_type": "political",
+      "description": "Coordinated political donations plus shared Wharton advisory board positions",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 04:32:04",
+      "other_person": "Joshua Harris",
+      "other_person_slug": "joshua-harris",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-4",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2109,
+      "person_a": "Marc Rowan",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Rowan as Managing Partner/co-founder, Kraft as independent director 2014-2021. Rowan became CEO after Black's departure.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:21",
+      "other_person": "Robert Kraft",
+      "other_person_slug": "robert-kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "person_a": "Brad Karp",
+      "person_b": "Marc Rowan",
+      "relationship_type": "legal",
+      "description": "Karp (Paul Weiss chairman) engaged by Epstein to work on Apollo/Athene restructuring. Epstein mentioned Kathy Ruemmler recommending a hire at Paul Weiss. Karp responded enthusiastically to the engagement.",
+      "strength": "medium",
+      "date_range": "2016",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:00:08",
+      "other_person": "Brad Karp",
+      "other_person_slug": "brad-karp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02386047",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 636,
+      "person_a": "Joshua Harris",
+      "person_b": "Marc Rowan",
+      "relationship_type": "corporate",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:46",
+      "other_person": "Joshua Harris",
+      "other_person_slug": "joshua-harris",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02576924",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 648,
+      "person_a": "Ariane de Rothschild",
+      "person_b": "Marc Rowan",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:49",
+      "other_person": "Ariane de Rothschild",
+      "other_person_slug": "ariane-de-rothschild",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02236711",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2127,
+      "person_a": "Marc Rowan",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Rowan became CEO after Black's departure. Rowan maintained contact with Epstein 2013-2016 including discussions about Apollo tax calculations. Kraft was on Conflicts Committee while Rowan had Epstein meetings at Apollo offices.",
+      "strength": "medium",
+      "date_range": "2014 to 2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:20:13",
+      "other_person": "Robert Kraft",
+      "other_person_slug": "robert-kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Apollo DEF 14A",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Daily Pennsylvanian (Feb 2026)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2000-10-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Liquid Funding Ltd was a $6.7B Bermuda-registered Structured Investment Vehicle (SIV) incorporated Oct 19, 2000 (EC 29378), where Epstein served as Chairman and Director from Nov 2001 to at least Mar 2007. Bear Stearns owned ~40% and provided investment management through its Dublin subsidiary. The vehicle held mortgage-backed securities and CLOs. By 2004, FTC's investment summary listed 'Liquid Funding Holding' with $1.5M in holdings (EFTA01308282). By 2009, the K-1 showed only $969 income -- the entity was dormant post-Bear Stearns collapse. In 2016, Rowan's 'Re-Introduction after Liquid Funding' email subject line confirms Liquid Funding was the shared business context connecting Rowan, Epstein, and Shwachman.",
+      "confidence": "medium",
+      "id": 1205
+    },
+    {
+      "date": "2013-10-22",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "ROWAN-HARRIS LATERAL CONNECTIONS via LittleSis: Both Rowan (entity 66624) and Harris (entity 6143) hold positions at Apollo Global Management (LittleSis org 50090). Both serve on the Wharton School advisory board. Both donated to John Barrasso (R-WY) and Marco Rubio (R-FL). Rowan is also on the New York Police Foundation board (rel 1960178). Harris owns Harris Blitzer Sports & Entertainment (rel 1960206, NBA 76ers/NHL Devils) and founded 26North (rel 1960205) and HRS Management (rel 1960204) post-Apollo. The lateral network shows Rowan stayed within Apollo while Harris diversified into sports ownership and a new investment platform -- but their shared Wharton connection, political donation patterns, and documented joint engagement with Epstein at the Oct 22 2013 meeting demonstrate they operated as a coordinated unit throughout the Epstein advisory period.",
+      "confidence": "medium",
+      "id": 1338
+    },
+    {
+      "date": "2013-2018",
+      "type": "connection",
+      "relationship_type": "advisory",
+      "description": "Epstein served as financial/tax adviser to Rowan on Apollo TRA, inversion, Athene restructuring, Form 8865, estate planning. Rowan forwarded confidential Apollo CFO calculations. Epstein proposed 25% fee requiring all 3 founders. Multiple breakfast meetings 2015-2016.",
+      "other_person": "Jeffrey Epstein",
+      "id": 563
+    },
+    {
+      "date": "2014 to 2021",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Rowan became CEO after Black's departure. Rowan maintained contact with Epstein 2013-2016 including discussions about Apollo tax calculations. Kraft was on Conflicts Committee while Rowan had Epstein meetings at Apollo offices.",
+      "other_person": "Robert Kraft",
+      "id": 2127
+    },
+    {
+      "date": "2014-04-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Marc and Carolyn Rowan wrote a check for $838,675 to Leon Black on April 9, 2014 (check #000013326, US Trust/Bank of America), tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession, demonstrating Epstein had access to confidential financial details of inter-founder payments within Apollo.",
+      "confidence": "high",
+      "id": 1183
+    },
+    {
+      "date": "2014-04-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ROWAN $838,675 TRA CHECK TO BLACK -- INTER-FOUNDER PAYMENT IN EPSTEIN'S POSSESSION: Previously recorded (finding #1183) but now contextualized within the BRH architecture: Marc and Carolyn Rowan wrote check #000013326 (US Trust/Bank of America) for $838,675 to Leon Black on April 9, 2014, tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession. The TRA (Tax Receivable Agreement) is the mechanism by which BRH Holdings LP distributes tax benefits to the three founders individually -- specifically, Apollo pays the founders 85% of the tax savings from the step-up in basis of Apollo's assets when the founders exchange their partnership interests for stock. Epstein asked Rowan directly: 'the tra liability amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016) and Rowan forwarded confidential TRA calculations from Apollo CFO Chris Weidler. The TRA is now worth billions following the Athene merger and Apollo stock appreciation. Epstein's access to inter-founder TRA payments means he understood the precise economic relationship between all three founders.",
+      "confidence": "medium",
+      "id": 1509
+    },
+    {
+      "date": "2014-12-23",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Black Family Partners (BFP) cash flow projection (Dec 23 2014, prepared by Richard Joslin) shows Athene capital call of .6M as the single largest disbursement, dwarfing all other items. Apollo distributions were the primary inflow: .5M (Dec 2014), .9M (Feb 2015), .8M (Apr), .9M recurring. TRA payment of .5M. Advisory fee line item present but amount unclear. Family office expense ,667/month (.4M/year). Loan to LDB of .5M repaid. Phaidon Global loan repayment .35M. Cash balance projected to go negative by May 2015 at -.9M, requiring borrowing from LDB 2014 LLC to fund residual Athene commitment. This demonstrates that the Athene investment was so large it strained even Black Family Partners' cash flows, explaining why Epstein's proposed 25% advisory fee on Athene tax optimization was worth engaging all three founders.",
+      "confidence": "high",
+      "id": 1318
+    },
+    {
+      "date": "2015-12-16",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Complete timeline of Rowan-Epstein documented interactions: Sept 2013: Epstein set Google Alert on 'rowan'. May/Jun 2014: Richard Kahn forwarded Rowan's Apollo share sales articles to Epstein. Dec 16 2015: Melanie Spinella arranges Rowan-Epstein first meeting. Dec 29 2015: Epstein's hand-deliver memo references 'Rowen request re Athene.' Jan 6 2016: 8am breakfast at Epstein residence. Jan 9: Black directs Rowan+Cohen to call Epstein re DAFs. Jan 18: Epstein proposes 25% Athene fee naming marc and josh. Jan 21: Epstein engages Paul Weiss on Apollo/Athene restructuring. Feb 1-22: Multiple calls/meetings, TRA/inversion/valuation discussions. Mar 4-14: TRA calculations forwarded, inversion progress. Aug 12 2016: Rowan introduces Shwachman for USVI insurance. Aug 15: Leon agenda includes Athene and josh/mark. Aug 26: Epstein offers to explain Form 8865. Apr 3 2018: Ruemmler asks Epstein if she has met Rowan.",
+      "confidence": "medium",
+      "id": 1236
+    },
+    {
+      "date": "2015-12-29",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "In Epstein's explosive 'DO NOT SEND, hand deliver' memo to Leon Black (Dec 29, 2015, EFTA02451672), Epstein combined a scathing critique of Black's financial operations with the first reference to 'Rowen request re Athene, 2 billion in taxes on transaction.' This same memo discusses: (1) the Phaidon payout dispute (Epstein expected 50% of $20M), (2) 'Halperin has a conflict that should be addressed', (3) 'inversion rules', (4) 'insurance regs, out and inbound issues', (5) Rothschild bank $150B distribution network. The Rowan/Athene item appears as one element of Epstein's comprehensive advisory role across all Apollo/Black affairs. The memo proves Epstein was functioning as shadow chief financial adviser to Black/Apollo.",
+      "confidence": "confirmed",
+      "id": 1230
+    },
+    {
+      "date": "2016",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Rowan (Apollo CEO) introduced Shwachman (Sidley Austin, Apollo/Athene insurance lawyer) to Epstein for USVI insurance regulatory work. Shwachman later represented Athene in its merger with Apollo.",
+      "other_person": "Perry Shwachman",
+      "id": 564
+    },
+    {
+      "date": "2016",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "All three Apollo co-founders (Black, Rowan, Harris) were jointly involved in Epstein's advisory work. Epstein's Athene fee proposal required 'marc and josh' to sign on. Leon agenda mentioned 'sit with josh and mark re amendments.' Epstein referred to all three as 'you three' in fee negotiations.",
+      "other_person": "Joshua Harris",
+      "id": 567
+    },
+    {
+      "date": "2016",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Karp (Paul Weiss chairman) engaged by Epstein to work on Apollo/Athene restructuring. Epstein mentioned Kathy Ruemmler recommending a hire at Paul Weiss. Karp responded enthusiastically to the engagement.",
+      "other_person": "Brad Karp",
+      "id": 566
+    },
+    {
+      "date": "2016-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Leon Black directed Barry Cohen and Marc Rowan to call Epstein regarding Donor Advised Funds. Melanie Spinella (Black's executive assistant at Apollo Management) wrote: 'Leon has asked Barry Cohen and Marc Rowan to call you re Donor Advised Funds - Barry wanted me to give you a heads up' (EFTA02405147, undated but Jan 2016 context). DAFs are charitable giving vehicles with significant tax benefits. This confirms Black was actively delegating Apollo financial matters to Epstein with Rowan's direct involvement.",
+      "confidence": "confirmed",
+      "id": 1199
+    },
+    {
+      "date": "2016-01-06",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Rowan had at least 3 confirmed in-person meetings with Epstein. (1) Jan 6, 2016 breakfast at 8am at Epstein residence, arranged via Melanie Spinella in Dec 2015 -- 'Marc said if Jeffrey wants early breakfast that works for him, he will bring coffee' (EFTA02477895). (2) A second schedule entry same week (EFTA02347894/EFTA02475448). (3) Rowan scheduled to meet Epstein on Aug 21 per EFTA02375781. Leon Black separately asked Rowan to attend a meeting at Epstein's house 'with a woman representing a wealthy family, where two blonde women who appeared to be in their 20s greeted guests at the door' (WSJ article, EFTA01365973). Epstein had a Google Alert monitoring 'rowan' (EFTA02573689, Sept 2013). Kathy Ruemmler asked Epstein 'Have I met Marc Rowan?' (Apr 3, 2018, EFTA02485265), showing Epstein as connective tissue.",
+      "confidence": "medium",
+      "id": 1197
+    },
+    {
+      "date": "2016-01-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein proposed a 25% fee on the Athene transaction to Melanie Spinella (Leon Black's assistant), explicitly naming 'marc and josh' (Rowan and Harris) as parties who would need to sign on. Epstein wrote: 'I propose a 25% fee based on benefit to all founders... if there is a 300 overall benefit, then each founder would pay 25 m... marc and josh would have to sign on' (Jan 18, 2016). This proves Epstein expected ALL three Apollo co-founders to be involved in his fee arrangement, not just Black.",
+      "confidence": "high",
+      "id": 1173
+    },
+    {
+      "date": "2016-01-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein engaged Brad Karp (Chairman of Paul, Weiss) on the Apollo/Athene restructuring on Jan 21, 2016, describing the work as covering 'apollo/athene - rothschild (possible) USVI less likely', requiring review of 'BRH agreement, agreement amongst principals, TRA, consequences on death, insurance reg and restrictions, on-shore and off-shore, personal income tax, PFIC or CFC, SEC disclosures, inversion' rules. Karp responded: 'we're all very excited.' Epstein also mentioned getting Kathy Ruemmler to recommend a hire at Paul Weiss. This was just 3 days after Epstein's Athene fee proposal — the firm work was to implement the restructuring.",
+      "confidence": "high",
+      "id": 1179
+    },
+    {
+      "date": "2016-01-21",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein demonstrated expert-level knowledge of Rowan's personal liability in Caesars litigation. Corrected Richard Kahn: 'not leon -rowen, ie board members' — knowing Rowan faced liability as board member while Black did not. Also wrote self-memo: 'caesars case re mark. open tax years could be a neg' — tracking Rowan's tax exposure. During same period, advising Rowan on Apollo TRA valuations and receiving confidential Apollo CFO calculations.",
+      "confidence": "high",
+      "id": 2049
+    },
+    {
+      "date": "2016-02-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein negotiated with Rowan regarding a 'Fenn' matter and fee structure, writing: 'spoke to fenn, I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee.' (Feb 12, 2016). Rowan responded: 'WPPI...care of MR'. The reference to 'you three' (i.e., the three Apollo co-founders: Black, Rowan, Harris) and fee negotiation confirms Epstein was providing compensated advisory services to all three Apollo founders jointly. WPPI likely refers to Wharton Public Policy Institute — Epstein also noted 'summers gave a lecture at wharton public policy school, is that your deal?'",
+      "confidence": "confirmed",
+      "id": 1191
+    },
+    {
+      "date": "2016-02-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Rowan emailed Epstein about 'Empire' wanting to chat (Feb 19, 2016). Richard Kahn forwarded Epstein a NY Post article 'Rowan finds more luck in personal investments' (Jun 7, 2014) and a Bloomberg article 'Apollo Billionaire Rowan Sells 72.8 Million in Shares' (May 27, 2014). The Kahn forwards show Epstein's inner circle actively monitoring Rowan's financial activities and Apollo share transactions. The 'Empire' subject line likely refers to a deal or entity Rowan was discussing with Epstein.",
+      "confidence": "high",
+      "id": 1202
+    },
+    {
+      "date": "2016-02-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Rowan discussed Epstein's valuation critique of Apollo unit transfers. Rowan wrote: 'I found the same long valuation report when I transferred units to the various estate planning vehicles' (Feb 21, 2016). Epstein responded with pointed critique: 'did you see the goofy description, ie puts, for example not realizing that there is a traded market in them, they also added 144 restrictions. were sec filings made on your transfers? did not take into account termination clause. or current year knowledge of projections.' This shows Epstein critiquing the valuation methodology used for Rowan's personal Apollo unit transfers to estate planning vehicles.",
+      "confidence": "confirmed",
+      "id": 1193
+    },
+    {
+      "date": "2016-02-22",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Rowan served as Epstein's financial adviser on Apollo TRA (Tax Receivable Agreement) valuation. Epstein directly asked Rowan 'the tra libility amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016). Rowan forwarded confidential Apollo internal TRA calculations from CFO Chris Weidler to Epstein (Mar 4, 2016), including DTA discount rates, management fee cash flows, and carried interest projections. This reveals Epstein had direct access to Apollo's most sensitive financial modeling through Rowan.",
+      "confidence": "high",
+      "id": 1169
+    },
+    {
+      "date": "2016-03-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein asked Rowan about 'the inversion' in the context of Apollo TRA valuations: 'have you made any progress on the inversion?' (Mar 14, 2016). An 'inversion' in this context means restructuring Apollo from a US partnership into a foreign corporation to reduce the tax burden on TRA payments and founder distributions. Rowan responded 'minimal'. Epstein also asked about the 'worksheet calculation for the tra number on the balance sheet' and whether they were 'undiscounted' — demonstrating deep working knowledge of Apollo's tax structure.",
+      "confidence": "confirmed",
+      "id": 1185
+    },
+    {
+      "date": "2016-07-26",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein advised Reid Hoffman on tax-free stock donation via CRT (Charitable Remainder Trust) in the context of a corporate inversion: 'trust (CRT), where the stock can be sold on a tax-free basis... To avoid this result, it is best to make the donation of stock before shareholder approval of the inversion occurs' (Jul 26, 2016, EFTA02456896). This confirms Epstein was simultaneously advising multiple billionaires on inversion-related tax strategies during the same period he was advising Rowan on Apollo's inversion. The expertise was not hypothetical -- it was an active advisory practice.",
+      "confidence": "high",
+      "id": 1211
+    },
+    {
+      "date": "2016-08",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Marc Rowan (Apollo Global co-founder) personally introduced Epstein to Perry Shwachman (Partner, Sidley Austin LLP) in the context of 'Liquid Funding' (EFTA02454291, Aug 2016). Rowan wrote: 'I will leave it to the two of you to discuss directly.' Shwachman then contacted Epstein about 'potential new USVI insurance regulations' (EFTA02361689, Aug 2016). This reveals Rowan was actively brokering connections for Epstein well after Epstein's 2008 conviction. The 'Liquid Funding' context appears on FTC's 2009 K-1, suggesting a shared investment history. Separately, the Dechert LLP memo (EFTA02730996) commissioned by Apollo Conflicts Committee investigated the Epstein/Black relationship and confirmed AP SHL and AP Technology were formed by 'certain Apollo executives' — Rowan, as co-founder, would have known about these side vehicles. Rowan's introduction of Shwachman to Epstein for USVI regulatory influence echoes the broader pattern of Apollo executives facilitating Epstein's access to institutional power.",
+      "confidence": "high",
+      "id": 541
+    },
+    {
+      "date": "2016-08-15",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein's 'leon agenda' memo (Aug 15, 2016) lists 14 action items including '10 apollo insurance AThene' and '14. sit with josh and mark re amendments' (EFTA02455405). 'Mark' is likely Marc Rowan, 'josh' is Joshua Harris. This memo shows Epstein managing all three Apollo co-founders' business simultaneously. The mention of Athene alongside the Rowan-Shwachman USVI insurance introduction (same month) demonstrates that Epstein was coordinating multiple Apollo/Athene workstreams: the insurance vehicle, the corporate restructuring, and the TRA optimization.",
+      "confidence": "high",
+      "id": 1209
+    },
+    {
+      "date": "2016-08-26",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein was advising Rowan on IRS Form 8865 (Return of US Persons With Respect to Certain Foreign Partnerships). Epstein wrote: 'Happy to explain my thinking on the 8865 issue' (Aug 26, 2016). Form 8865 is required when US persons hold interests in foreign partnerships — this directly relates to the offshore structuring of Apollo entities and the proposed inversion. This establishes Epstein as providing specific international tax advisory services to Rowan on Apollo's cross-border tax obligations.",
+      "confidence": "confirmed",
+      "id": 1189
+    },
+    {
+      "date": "2017-08-25",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein referenced 'Rowen request re Athene, complex 2 billion in taxes on transaction' in a comprehensive advisory memo to Leon Black (Aug 25, 2017). This email demonstrates Rowan was directly requesting Epstein's tax advisory expertise on the Athene transaction, which involved approximately 2 billion dollars in tax implications. The memo covers Apollo/Athene restructuring, Rothschild bank partnership, USVI considerations, corporate inversions, TRA, shareholder agreements, SEC disclosures, and estate planning — showing Epstein functioning as a shadow adviser to all Apollo founders.",
+      "confidence": "confirmed",
+      "id": 1175
+    },
+    {
+      "date": "2019-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ROWAN FEC ANALYSIS: Marc Rowan is a heavily Republican donor via Apollo Management. Key contributions 2019-2025: (1) AIPAC (LittleSis, amount not specified) - significant given Rowan's prominence in pro-Israel advocacy. (2) Mitch McConnell ,600 (May 2019). (3) John Barrasso ,900 (Dec 2021). (4) Marco Rubio ,800 (Dec 2021). (5) NY Republican Federal Campaign Committee ,000 (Dec 2025). (6) Multiple Congressional candidates at ,500 each (2025). Rowan lists employer as 'Apollo Management' or 'Apollo Global Management' on all filings. His donation pattern is heavily Republican with no Democratic contributions visible, contrasting with Harris's bipartisan giving and PTJ's bipartisan pattern. Rowan's political giving aligns with his post-Black role as Apollo CEO -- managing the firm's political relationships.",
+      "confidence": "medium",
+      "id": 1320
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      541,
+      1230,
+      1199,
+      1191,
+      1197,
+      2049,
+      1338,
+      1193,
+      1185,
+      1189,
+      1175,
+      1183
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1338,
+          1197
+        ],
+        "connection_ids": [
+          508,
+          563,
+          564,
+          567,
+          603,
+          1042,
+          1045,
+          1191,
+          1197,
+          1449,
+          1451,
+          2109,
+          566,
+          636,
+          648
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1205,
+          1183,
+          1509,
+          1318,
+          1236,
+          1230,
+          1199,
+          1173,
+          1179,
+          1191
+        ],
+        "connection_ids": [
+          508,
+          648
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-19T00:51:34.985469",
+    "lead": "<p>Marc Rowan (born 1962) is an American billionaire, co-founder of <a href=\"/dossiers/apollo-global-management\">Apollo Global Management</a>, and the architect of the Apollo-Athene merger that transformed Apollo from a private equity firm into one of the world's largest alternative asset managers. He succeeded <a href=\"/dossiers/leon-black\">Leon Black</a> as CEO in March 2021 after Black's $158 million payment relationship with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> became public. Rowan's own relationship with Epstein, documented in DOJ Volume 11 emails spanning 2013 through 2018, reveals not a passive co-founder dragged along by Black but an active participant who engaged Epstein directly on Apollo's most sensitive financial matters: Tax Receivable Agreement valuations, corporate inversion strategy, IRS Form 8865 compliance, estate planning unit transfers, and the Athene restructuring that Epstein himself characterized as involving \"2 billion in taxes on transaction\" (EFTA02451672, EFTA02639407).</p>\n\n<p>The documented relationship begins with Epstein setting a Google Alert on \"rowan\" in September 2013 (EFTA02573689) and <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> forwarding articles about Rowan's Apollo share sales to Epstein in 2014. By December 2015, Melanie Spinella, Black's executive assistant at Apollo, was arranging a direct meeting between Rowan and Epstein. On January 6, 2016, Rowan had breakfast at 8am at Epstein's residence -- \"Marc said if Jeffrey wants early breakfast that works for him, he will bring coffee\" (EFTA02477895). Over the following nine months, the two exchanged emails on TRA calculations, inversion progress, valuation methodology for Apollo unit transfers, Form 8865 international tax filings, and a \"Fenn\" matter with a fee structure requiring all three Apollo founders to \"sign on.\" Rowan forwarded confidential Apollo CFO calculations from Chris Weidler to Epstein (March 2016) and introduced Epstein to Perry Shwachman of Sidley Austin for USVI insurance regulatory work related to Athene (August 2016). In April 2018, <a href=\"/dossiers/kathryn-ruemmler\">Kathryn Ruemmler</a> asked Epstein \"Have I met Marc Rowan?\" (EFTA02485265), confirming Epstein continued to serve as connective tissue between Apollo principals and his broader advisory network well into 2018.</p>\n\n<p>Epstein's January 18, 2016 fee proposal is the clearest evidence that the advisory relationship extended beyond Black alone. Epstein wrote to Spinella: \"I propose a 25% fee based on benefit to all founders... if there is a 300 overall benefit, then each founder would pay 25 m... marc and josh would have to sign on\" (EFTA02475141). In a separate email, Epstein told Rowan: \"I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee\" (EFTA02471986). The \"leon agenda\" memo of August 15, 2016 (EFTA02455405) lists fourteen action items including \"sit with josh and mark re amendments\" -- treating all three co-founders as a single management unit for Epstein's advisory work. Rowan's public posture following Black's departure -- positioning himself as the clean successor who would professionalize Apollo's governance -- must be evaluated against this documentary record showing his direct engagement with Epstein on matters at the heart of Apollo's corporate structure.</p>",
+    "open_questions": [
+      "Did Rowan ever sign on to the 25% Athene fee that Epstein proposed in January 2016, requiring 'marc and josh' to agree? No document in the record confirms or denies payment from Rowan or Harris to Epstein -- only the proposal and fee negotiations exist.",
+      "What was the 'Empire' matter Rowan emailed Epstein about on February 19, 2016 ('Empire. Lets chat over the next few days. Tks, MR')? The subject line suggests a deal or entity, but no further documentation has been identified.",
+      "What was the 'Fenn' matter that Epstein discussed with Rowan in February 2016, and did it result in a completed engagement? Epstein wrote 'spoke to fenn' and awaited Rowan's decision on whether to proceed.",
+      "How did the Dechert investigation scope exclude Rowan's direct advisory engagement with Epstein on Athene/TRA/inversion matters, given that the fee proposal explicitly named him and the documentary record shows bilateral email correspondence?",
+      "What is the complete scope of the pre-2015 Rowan-Epstein relationship through Liquid Funding Ltd? The 'Re-Introduction' language implies a lapsed but prior working relationship. Did Rowan interact with Epstein during Epstein's 2001-2007 chairmanship of Liquid Funding?"
+    ],
+    "system_role": "Rowan represents the operational co-founder who engaged Epstein on the most technically complex dimensions of the Apollo relationship -- TRA valuations, corporate inversions, international tax compliance, insurance structuring -- while publicly maintaining the smallest possible profile in the Epstein matter. His trajectory from active Epstein interlocutor to Apollo CEO and clean governance champion illustrates how technical financial complexity can serve as both the substance of an advisory relationship and the shield that renders it opaque to outside scrutiny.",
+    "sections": [
+      {
+        "id": "the-athene-tax-problem",
+        "title": "The Athene Tax Problem and Epstein's Advisory Role",
+        "content": "<p>The centerpiece of the Rowan-Epstein relationship was the Athene Holding restructuring, a transaction Epstein described as involving \"2 billion in taxes on transaction\" (EFTA02451672). Athene, the insurance and retirement services company that <a href=\"/dossiers/apollo-global-management\">Apollo</a> had incubated since 2009, was growing into one of Apollo's most valuable assets. The founders' economic interest in Athene was held through BRH Holdings LP, a Cayman Islands partnership, and the tax consequences of any restructuring -- merger, inversion, or IPO -- ran through the Tax Receivable Agreement (TRA) that governed how Apollo distributed tax benefits to its three founders. The TRA was worth billions: Rowan alone had received $103.37 million in cumulative TRA payments from 2007 through 2013, with the July 2007 exchange generating $95.4 million in distributable share. A check documenting an $838,675 inter-founder TRA payment from Marc and Carolyn Rowan to <a href=\"/dossiers/leon-black\">Leon Black</a> on April 9, 2014, tagged \"2013HERITAGE,\" was found in Epstein's possession (EFTA02713903).</p>\n\n<p>Epstein's first documented reference to \"Rowen request re Athene\" appears in the explosive \"DO NOT SEND, hand deliver\" memo of December 29, 2015 (EFTA02451672), a wide-ranging document that also addressed Phaidon payouts, inversion rules, insurance regulations, and the <a href=\"/dossiers/ariane-de-rothschild\">Rothschild bank</a> distribution network. By February 2016, Epstein was asking Rowan directly: \"the tra libility amount is on apollos balance sheet. can you find how they calculate?\" (EFTA02469635). Rowan complied, forwarding confidential TRA calculations from Apollo CFO Chris Weidler that included DTA discount rates, management fee cash flows, and carried interest projections. On March 14, 2016, Epstein pressed Rowan on progress: \"have you made any progress on the inversion?\" Rowan replied: \"minimal\" (EFTA02335969). The \"inversion\" -- restructuring Apollo from a US partnership into a foreign corporation to reduce the tax burden on TRA payments and founder distributions -- was the specific mechanism Epstein was advising on.</p>\n\n<p>Three days after the Athene fee proposal, Epstein engaged <a href=\"/dossiers/brad-karp\">Brad Karp</a>, chairman of <a href=\"/dossiers/paul-weiss\">Paul Weiss</a>, on the Apollo/Athene restructuring. The scope of work Epstein described to Karp covered \"BRH agreement, agreement amongst principals, TRA, consequences on death, insurance reg and restrictions, on-shore and off-shore, personal income tax, PFIC or CFC, SEC disclosures, inversion\" rules. Karp responded: \"we're all very excited\" (EFTA02386047). The enthusiasm of a major law firm chairman for work referred by a convicted sex offender underscores the scale of the business at stake. Epstein was not merely advising; he was assembling the professional team to execute a multi-billion-dollar restructuring that would ultimately culminate in the 2022 Apollo-Athene merger -- a $43 billion transaction that made Apollo one of the largest financial institutions in the world.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "liquid-funding-and-the-pre-existing-connection",
+        "title": "Liquid Funding and the Pre-Existing Connection",
+        "content": "<p>The Rowan-Epstein relationship did not begin with the December 2015 meeting arranged by Melanie Spinella. An earlier business connection ran through Liquid Funding Ltd, a $6.7 billion Bermuda-registered Structured Investment Vehicle (SIV) incorporated on October 19, 2000. Epstein served as Chairman and Director of Liquid Funding from November 2001 through at least March 2007. Bear Stearns owned approximately 40% and provided investment management through its Dublin subsidiary. The vehicle held mortgage-backed securities and CLOs. By 2004, <a href=\"/dossiers/financial-trust-company\">Financial Trust Company</a>'s investment summary listed \"Liquid Funding Holding\" with $1.5 million in holdings (EFTA01308282). By 2009, the K-1 showed only $969 in income -- the entity was effectively dormant after the Bear Stearns collapse.</p>\n\n<p>The critical link is Rowan's August 2016 email introducing Perry Shwachman of Sidley Austin to Epstein with the subject line \"Re-Introduction after Liquid Funding\" (EFTA02454291). Rowan wrote: \"I will leave it to the two of you to discuss directly.\" The word \"Re-Introduction\" confirms a prior relationship mediated by Liquid Funding, not a first contact. Shwachman then contacted Epstein about \"potential new USVI insurance regulations\" (EFTA02361689) -- regulatory work directly relevant to Athene's insurance operations. Shwachman later represented Athene in its merger with Apollo. The Liquid Funding thread thus connects the pre-2008 Epstein investment world, where he sat on the board of a multi-billion-dollar structured vehicle, to the post-conviction advisory relationship with Apollo's co-founders. It also demonstrates that Rowan was not merely accepting Epstein's services at Black's direction but actively brokering new connections for Epstein well after the 2008 conviction.</p>",
+        "viz": null
+      },
+      {
+        "id": "caesars-litigation-and-epsteins-intelligence-role",
+        "title": "Caesars Litigation and Epstein's Intelligence Role",
+        "content": "<p>While Epstein's tax advisory role with Rowan is well documented, his intelligence-broker function is equally significant. Rowan was personally exposed in the Caesars Entertainment bankruptcy litigation (Case 15-01145), where he was named as a defendant -- a director of Caesars Entertainment Corp (CEC) who allegedly orchestrated the asset-stripping of Caesars Entertainment Operating Company (CEOC) as \"de facto CEO.\" The court ordered Rowan to disclose personal wealth. Rowan and fellow Apollo partner David Sambur offered a $250 million personal settlement and received fraud releases. Epstein demonstrated expert-level knowledge of this exposure, correcting <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>: \"not leon -rowen, ie board members\" (EFTA02473688) -- knowing that Rowan faced personal liability as a board member while Black, who was not on the CEC board, did not. Epstein also kept a self-memo: \"caesars case re mark. open tax years could be a neg\" (EFTA02454221), tracking Rowan's tax exposure from the litigation during the very same period he was advising Rowan on Apollo TRA valuations.</p>\n\n<p>Epstein brokered the connection between <a href=\"/dossiers/nicholas-ribis\">Nicholas Ribis</a> and Rowan on the Caesars matter, forwarding Ribis's cell phone number to Rowan, who then called. Epstein subsequently forwarded the entire email chain to Black's office (EFTA02469638) -- functioning as an intelligence intermediary between Apollo co-founders on litigation strategy. <a href=\"/dossiers/steven-pesner\">Steven Pesner</a>, meanwhile, operated in dual roles: obstructing Ribis's Caesars settlement work while simultaneously serving on the Form 8865 team handling Rowan's BRH Holdings tax filings, giving Pesner exposure to Rowan's most sensitive legal and financial matters. <a href=\"/dossiers/brad-karp\">Brad Karp</a> occupied a parallel position -- his firm <a href=\"/dossiers/paul-weiss\">Paul Weiss</a> represented Rowan in the Caesars litigation while Karp separately briefed Epstein on Apollo matters. The convergence of tax advisory, litigation intelligence, and professional relationship brokering around a single individual -- Epstein -- illustrates how his value proposition to Rowan extended well beyond technical financial advice.</p>",
+        "viz": null
+      },
+      {
+        "id": "the-three-founders-as-a-unit",
+        "title": "The Three Founders as a Single Client",
+        "content": "<p>The documentary record consistently shows Epstein treating all three Apollo co-founders -- <a href=\"/dossiers/leon-black\">Leon Black</a>, Marc Rowan, and <a href=\"/dossiers/joshua-harris\">Joshua Harris</a> -- as a single management unit rather than as three separate relationships mediated through Black. The clearest expression is the January 18, 2016 fee proposal: \"I propose a 25% fee based on benefit to all founders... marc and josh would have to sign on\" (EFTA02475141). On February 12, 2016, Epstein wrote to Rowan: \"I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee\" (EFTA02471986). The \"leon agenda\" memo of August 15, 2016 lists \"sit with josh and mark re amendments\" as a discrete action item (EFTA02455405). A Black Family Partners cash flow projection from December 2014 (EFTA02371750) shows the Athene capital call of $41.6 million as the single largest disbursement, straining even Black's cash flows -- explaining why the proposed 25% advisory fee on Athene tax optimization was structured to require all three founders' participation.</p>\n\n<p>The co-founders' interconnection extended beyond Epstein's advisory practice. FEC analysis reveals coordinated political donations -- identical amounts to fifteen or more shared recipients on the same dates -- between all three founders, consistent with private equity industry coordination through the American Investment Council. Rowan and Harris both serve on the Wharton School advisory board and donated to the same congressional recipients (John Barrasso, Marco Rubio). On the LittleSis political relationship database, both Rowan (entity 66624) and Harris (entity 6143) hold positions at Apollo (org 50090), with cross-linked board memberships and donation networks. The October 22, 2013 meeting documented in DOJ records places both Rowan and Harris with Epstein simultaneously. Together, these threads demonstrate that the Epstein advisory relationship was structurally embedded in the Apollo co-founder partnership, not a personal eccentricity of Leon Black's that happened to involve his co-founders on occasion.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "valuation-methodology-and-estate-planning",
+        "title": "Valuation Methodology and Estate Planning",
+        "content": "<p>On February 21, 2016, Rowan revealed to Epstein that he had encountered \"the same long valuation report when I transferred units to the various estate planning vehicles\" (EFTA02704647). Epstein's response demonstrated a forensic understanding of the valuation methodology's weaknesses: \"did you see the goofy description, ie puts, for example not realizing that there is a traded market in them, they also added 144 restrictions. were sec filings made on your transfers? did not take into account termination clause. or current year knowledge of projections.\" Epstein was critiquing the Empire Valuation Consultants reports -- the same firm that appraised Black's GRAT annuity payments -- pointing out that the valuation incorrectly applied illiquidity discounts to units that had a traded market, added Rule 144 resale restrictions that were inapplicable, and failed to account for termination clauses or current-year projections. These are not casual observations. They reflect a detailed reading of valuation reports for Apollo partnership units worth tens of millions of dollars each.</p>\n\n<p>The valuation discussion matters because understated valuations in unit transfers to estate planning vehicles reduce gift tax liability. If the valuation methodology was as \"goofy\" as Epstein identified, and if Rowan used these same reports for transfers to \"various estate planning vehicles,\" the IRS could have reassessed the gift tax due. Epstein's question -- \"were sec filings made on your transfers?\" -- suggests awareness that the transfers might also have SEC disclosure implications. Four days later, Epstein asked about the TRA balance sheet calculation and whether the numbers were \"undiscounted,\" and on August 26, 2016, offered to \"explain my thinking on the 8865 issue\" -- referring to IRS Form 8865, the Return of US Persons With Respect to Certain Foreign Partnerships, required for the BRH Holdings structure through which all three founders held their Apollo interests. The advisory relationship was thus layered: Epstein was simultaneously advising on the corporate-level restructuring (Athene merger, inversion), the inter-founder level (TRA, BRH amendments), and the personal level (Rowan's own estate planning, unit valuations, and international tax filings).</p>",
+        "viz": null
+      },
+      {
+        "id": "succession-and-the-clean-ceo-narrative",
+        "title": "Succession and the Clean CEO Narrative",
+        "content": "<p>When <a href=\"/dossiers/leon-black\">Leon Black</a> stepped down as Apollo CEO in March 2021, Rowan was unanimously chosen by the Executive Committee and Board as successor. Black's January 25, 2021 letter to limited partners -- which also announced cancellation of Class C co-founder voting shares, engagement of WilmerHale for reputational risk review, and a $200 million gender equality pledge -- framed the transition as Apollo's institutional maturation away from its founder-era entanglements. Former SEC Chairman <a href=\"/dossiers/jay-clayton\">Jay Clayton</a> was brought in as Lead Independent Director, later Non-Executive Chairman. Apollo hired its first global head of citizenship, first head of enterprise risk management, and established a reputational risk committee. Rowan became the face of a new, professionally governed <a href=\"/dossiers/apollo-global-management\">Apollo</a>.</p>\n\n<p>The Dechert LLP investigation commissioned by Apollo's Conflicts Committee confirmed that \"AP SHL and AP Technology were formed by 'certain Apollo executives'\" -- side vehicles within the Apollo structure that Rowan, as co-founder, would have known about. The investigation focused on Black's payments, not on the Athene advisory work in which Rowan was a primary participant. The documentary record from DOJ Volume 11 -- the TRA calculations, the inversion discussions, the Shwachman introduction, the fee negotiations addressing \"you three,\" the confidential CFO data Rowan forwarded to Epstein -- did not feature in the Dechert narrative of a Black-only problem. Rowan's 2019-2025 FEC filings show a heavily Republican donor profile -- Mitch McConnell, John Barrasso, Marco Rubio, AIPAC, and the NY Republican Federal Campaign Committee -- consistent with a CEO managing Apollo's political relationships through a different channel than the bipartisan approach Black had taken. The succession was also an ideological repositioning, one that realigned Apollo's political identity alongside its governance transformation. Whether the clean break narrative survives the full documentary record is an open question that the evidence assembled here is intended to help answer.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "complexity-as-credential",
+      "narrative-shield",
+      "enabler-gradient",
+      "bridge-tax",
+      "jurisdictional-arbitrage",
+      "parallel-financial-system",
+      "manufactured-dependency"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Marc Rowan",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02361689",
+          "description": "Apollo co-founder. Introduced Perry Shwachman (Sidley Austin) to Epstein Aug 2016 for USVI insurance work. Subject: Re-Introduction after Liquid Funding. Liquid Funding on FTC K-1."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02469635",
+          "description": "Epstein served as financial/tax adviser to Rowan on Apollo TRA, inversion, Athene restructuring, Form 8865, estate planning. Rowan forwarded confidential Apollo CFO calculations. Epstein proposed 25% fee requiring all 3 founders. Multiple breakfast meetings 2015-2016."
+        },
+        {
+          "target": "Perry Shwachman",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02361689",
+          "description": "Rowan (Apollo CEO) introduced Shwachman (Sidley Austin, Apollo/Athene insurance lawyer) to Epstein for USVI insurance regulatory work. Shwachman later represented Athene in its merger with Apollo."
+        },
+        {
+          "target": "Joshua Harris",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02455405",
+          "description": "All three Apollo co-founders (Black, Rowan, Harris) were jointly involved in Epstein's advisory work. Epstein's Athene fee proposal required 'marc and josh' to sign on. Leon agenda mentioned 'sit with josh and mark re amendments.' Epstein referred to all three as 'you three' in fee negotiations."
+        },
+        {
+          "target": "Leon Black",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Apollo Global co-founders [public knowledge]"
+        },
+        {
+          "target": "Apollo Global Management",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02473688",
+          "description": "Rowan named defendant in Caesars Case 15-01145 while Epstein tracked his liability"
+        },
+        {
+          "target": "Brad Karp",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02452879",
+          "description": "Both in Epstein Caesars intel network; PW represented Rowan while Karp briefed Epstein"
+        },
+        {
+          "target": "Steven Pesner",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02348561",
+          "description": "Pesner obstructed Ribis's Caesars settlement work while Rowan engaged with Ribis directly (5 meetings). Pesner simultaneously on 8865 team handling Rowan's BRH Holdings tax filings. Dual exposure to Rowan's most sensitive legal and financial matters."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02469638",
+          "description": "Epstein brokered Ribis-Rowan connection on Caesars. Forwarded Ribis's cell to Rowan, who called. Then Epstein forwarded entire chain to Black's office. Epstein functioned as intelligence broker between Apollo co-founders on Caesars litigation strategy."
+        },
+        {
+          "target": "Leon Black",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "analysis-run-4",
+          "description": "Coordinated political donations: identical amounts to 15+ shared recipients on same dates"
+        },
+        {
+          "target": "Joshua Harris",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "analysis-run-4",
+          "description": "Coordinated political donations plus shared Wharton advisory board positions"
+        },
+        {
+          "target": "Robert Kraft",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "description": "Co-directors on Apollo Global Management board. Rowan as Managing Partner/co-founder, Kraft as independent director 2014-2021. Rowan became CEO after Black's departure."
+        },
+        {
+          "target": "Brad Karp",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02386047",
+          "description": "Karp (Paul Weiss chairman) engaged by Epstein to work on Apollo/Athene restructuring. Epstein mentioned Kathy Ruemmler recommending a hire at Paul Weiss. Karp responded enthusiastically to the engagement."
+        },
+        {
+          "target": "Joshua Harris",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02576924",
+          "description": null
+        },
+        {
+          "target": "Ariane de Rothschild",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02236711",
+          "description": null
+        },
+        {
+          "target": "Robert Kraft",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "Apollo DEF 14A",
+          "description": "Co-directors on Apollo Global Management board. Rowan became CEO after Black's departure. Rowan maintained contact with Epstein 2013-2016 including discussions about Apollo tax calculations. Kraft was on Conflicts Committee while Rowan had Epstein meetings at Apollo offices."
+        }
+      ],
+      "secondHop": {
+        "Apollo Global Management": [
+          {
+            "target": "Brad Karp",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp asked Epstein about Caesars while PW was defendant in Case 15-01145"
+          },
+          {
+            "target": "Paul Weiss",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "PW is primary outside counsel to Apollo generating 100M+ annually and represented in 43B Athene merger. Karp handled Black fee disputes with Epstein."
+          },
+          {
+            "target": "Paul Weiss",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss served as counsel for Apollo Global Management in 48 SEC filings. This relationship is significant given PW chairman Brad Karp's documented role advising Leon Black on Epstein-related matters (EFTA02470209, EFTA02667959)."
+          },
+          {
+            "target": "Kirkland and Ellis",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE outside counsel for Apollo. 1517 SEC EDGAR filings mention both."
+          },
+          {
+            "target": "Kirkland & Ellis",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "K&E represents Apollo in numerous PE transactions including T.D. Williamson, TANAP pipeline, China data center JV, MidOcean, solar energy deals. Ongoing major client relationship."
+          }
+        ],
+        "Ariane de Rothschild": [
+          {
+            "target": "Kathy Ruemmler",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Close personal friends. Traveled together Paris Jul 2015. Epstein proposed Ruemmler do succession planning for Ariane."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "CEO of EdR Group. 25M consulting agreement (Oct 2015). Regular meetings 2013-2019 at 9 E 71st. Shared 1MDB intelligence in real-time. Deployed Ruemmler as EdR legal advisor."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Ruemmler provided legal counsel to EdR during 1MDB crisis. Dinner with Ariane (Mar 2017). Joint meetings at 9 E 71st. Ariane confirmed Kathy on all angles of Lux remediation."
+          },
+          {
+            "target": "Sultan Bin Sulayem",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Finding #353: Sulayem-Barak Israel back-channel confirmed. July 2018: Sulayem thanked Barak for visa help, staying at 1 Rothschild Blvd Tel Aviv penthouse for 3 mon"
+          }
+        ],
+        "Brad Karp": [
+          {
+            "target": "Guzel Ganieva",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp coordinated Nardello surveillance (Leon Black dispute) 2015."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss chairman, personal friend, regular visits to 71st St 2016-2019, Leon Black escrow, Misra representation, Ghosn crisis"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss represented Misra in SoftBank matters; Karp confirmed to Epstein Jan 26 2019"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp (Chairman Paul Weiss) confirmed to Epstein he sort of represented Misra and spoke to him the previous day, Jan 26 2019."
+          },
+          {
+            "target": "Carlos Ghosn",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp was dealing with Ghosn crisis from Nov 20 2018, personally traveled to Tokyo, confirmed Epstein source intelligence accurate, Paul Weiss later lobbied for Ghosn in Japan Q3-Q4 2019 and Q1 2020"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2000-10-19",
+        "label": "Liquid Funding Ltd was a $6.7B Bermuda-registered Structured Investment Vehicle (SIV) incorporated Oct 19, 2000 (EC 29378), where Epstein served as Chairman and Director from Nov 2001 to at least Mar 2007. Bear Stearns owned ~40% and provided investment management through its Dublin subsidiary. The vehicle held mortgage-backed securities and CLOs. By 2004, FTC's investment summary listed 'Liquid Funding Holding' with $1.5M in holdings (EFTA01308282). By 2009, the K-1 showed only $969 income -- the entity was dormant post-Bear Stearns collapse. In 2016, Rowan's 'Re-Introduction after Liquid Funding' email subject line confirms Liquid Funding was the shared business context connecting Rowan, Epstein, and Shwachman.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1205
+      },
+      {
+        "date": "2013-10-22",
+        "label": "ROWAN-HARRIS LATERAL CONNECTIONS via LittleSis: Both Rowan (entity 66624) and Harris (entity 6143) hold positions at Apollo Global Management (LittleSis org 50090). Both serve on the Wharton School advisory board. Both donated to John Barrasso (R-WY) and Marco Rubio (R-FL). Rowan is also on the New York Police Foundation board (rel 1960178). Harris owns Harris Blitzer Sports & Entertainment (rel 1960206, NBA 76ers/NHL Devils) and founded 26North (rel 1960205) and HRS Management (rel 1960204) post-Apollo. The lateral network shows Rowan stayed within Apollo while Harris diversified into sports ownership and a new investment platform -- but their shared Wharton connection, political donation patterns, and documented joint engagement with Epstein at the Oct 22 2013 meeting demonstrate they operated as a coordinated unit throughout the Epstein advisory period.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1338
+      },
+      {
+        "date": "2013-2018",
+        "label": "advisory with Jeffrey Epstein",
+        "type": "advisory",
+        "entity": "Jeffrey Epstein",
+        "id": 563
+      },
+      {
+        "date": "2014 to 2021",
+        "label": "corporate with Robert Kraft",
+        "type": "corporate",
+        "entity": "Robert Kraft",
+        "id": 2127
+      },
+      {
+        "date": "2014-04-09",
+        "label": "Marc and Carolyn Rowan wrote a check for $838,675 to Leon Black on April 9, 2014 (check #000013326, US Trust/Bank of America), tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession, demonstrating Epstein had access to confidential financial details of inter-founder payments within Apollo.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1183
+      },
+      {
+        "date": "2014-04-09",
+        "label": "ROWAN $838,675 TRA CHECK TO BLACK -- INTER-FOUNDER PAYMENT IN EPSTEIN'S POSSESSION: Previously recorded (finding #1183) but now contextualized within the BRH architecture: Marc and Carolyn Rowan wrote check #000013326 (US Trust/Bank of America) for $838,675 to Leon Black on April 9, 2014, tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession. The TRA (Tax Receivable Agreement) is the mechanism by which BRH Holdings LP distributes tax benefits to the three founders individually -- specifically, Apollo pays the founders 85% of the tax savings from the step-up in basis of Apollo's assets when the founders exchange their partnership interests for stock. Epstein asked Rowan directly: 'the tra liability amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016) and Rowan forwarded confidential TRA calculations from Apollo CFO Chris Weidler. The TRA is now worth billions following the Athene merger and Apollo stock appreciation. Epstein's access to inter-founder TRA payments means he understood the precise economic relationship between all three founders.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1509
+      },
+      {
+        "date": "2014-12-23",
+        "label": "Black Family Partners (BFP) cash flow projection (Dec 23 2014, prepared by Richard Joslin) shows Athene capital call of .6M as the single largest disbursement, dwarfing all other items. Apollo distributions were the primary inflow: .5M (Dec 2014), .9M (Feb 2015), .8M (Apr), .9M recurring. TRA payment of .5M. Advisory fee line item present but amount unclear. Family office expense ,667/month (.4M/year). Loan to LDB of .5M repaid. Phaidon Global loan repayment .35M. Cash balance projected to go negative by May 2015 at -.9M, requiring borrowing from LDB 2014 LLC to fund residual Athene commitment. This demonstrates that the Athene investment was so large it strained even Black Family Partners' cash flows, explaining why Epstein's proposed 25% advisory fee on Athene tax optimization was worth engaging all three founders.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1318
+      },
+      {
+        "date": "2015-12-16",
+        "label": "Complete timeline of Rowan-Epstein documented interactions: Sept 2013: Epstein set Google Alert on 'rowan'. May/Jun 2014: Richard Kahn forwarded Rowan's Apollo share sales articles to Epstein. Dec 16 2015: Melanie Spinella arranges Rowan-Epstein first meeting. Dec 29 2015: Epstein's hand-deliver memo references 'Rowen request re Athene.' Jan 6 2016: 8am breakfast at Epstein residence. Jan 9: Black directs Rowan+Cohen to call Epstein re DAFs. Jan 18: Epstein proposes 25% Athene fee naming marc and josh. Jan 21: Epstein engages Paul Weiss on Apollo/Athene restructuring. Feb 1-22: Multiple calls/meetings, TRA/inversion/valuation discussions. Mar 4-14: TRA calculations forwarded, inversion progress. Aug 12 2016: Rowan introduces Shwachman for USVI insurance. Aug 15: Leon agenda includes Athene and josh/mark. Aug 26: Epstein offers to explain Form 8865. Apr 3 2018: Ruemmler asks Epstein if she has met Rowan.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1236
+      },
+      {
+        "date": "2015-12-29",
+        "label": "In Epstein's explosive 'DO NOT SEND, hand deliver' memo to Leon Black (Dec 29, 2015, EFTA02451672), Epstein combined a scathing critique of Black's financial operations with the first reference to 'Rowen request re Athene, 2 billion in taxes on transaction.' This same memo discusses: (1) the Phaidon payout dispute (Epstein expected 50% of $20M), (2) 'Halperin has a conflict that should be addressed', (3) 'inversion rules', (4) 'insurance regs, out and inbound issues', (5) Rothschild bank $150B distribution network. The Rowan/Athene item appears as one element of Epstein's comprehensive advisory role across all Apollo/Black affairs. The memo proves Epstein was functioning as shadow chief financial adviser to Black/Apollo.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1230
+      },
+      {
+        "date": "2016",
+        "label": "corporate with Perry Shwachman",
+        "type": "corporate",
+        "entity": "Perry Shwachman",
+        "id": 564
+      },
+      {
+        "date": "2016",
+        "label": "corporate with Joshua Harris",
+        "type": "corporate",
+        "entity": "Joshua Harris",
+        "id": 567
+      },
+      {
+        "date": "2016",
+        "label": "legal with Brad Karp",
+        "type": "legal",
+        "entity": "Brad Karp",
+        "id": 566
+      },
+      {
+        "date": "2016-01",
+        "label": "Leon Black directed Barry Cohen and Marc Rowan to call Epstein regarding Donor Advised Funds. Melanie Spinella (Black's executive assistant at Apollo Management) wrote: 'Leon has asked Barry Cohen and Marc Rowan to call you re Donor Advised Funds - Barry wanted me to give you a heads up' (EFTA02405147, undated but Jan 2016 context). DAFs are charitable giving vehicles with significant tax benefits. This confirms Black was actively delegating Apollo financial matters to Epstein with Rowan's direct involvement.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1199
+      },
+      {
+        "date": "2016-01-06",
+        "label": "Rowan had at least 3 confirmed in-person meetings with Epstein. (1) Jan 6, 2016 breakfast at 8am at Epstein residence, arranged via Melanie Spinella in Dec 2015 -- 'Marc said if Jeffrey wants early breakfast that works for him, he will bring coffee' (EFTA02477895). (2) A second schedule entry same week (EFTA02347894/EFTA02475448). (3) Rowan scheduled to meet Epstein on Aug 21 per EFTA02375781. Leon Black separately asked Rowan to attend a meeting at Epstein's house 'with a woman representing a wealthy family, where two blonde women who appeared to be in their 20s greeted guests at the door' (WSJ article, EFTA01365973). Epstein had a Google Alert monitoring 'rowan' (EFTA02573689, Sept 2013). Kathy Ruemmler asked Epstein 'Have I met Marc Rowan?' (Apr 3, 2018, EFTA02485265), showing Epstein as connective tissue.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1197
+      },
+      {
+        "date": "2016-01-18",
+        "label": "Epstein proposed a 25% fee on the Athene transaction to Melanie Spinella (Leon Black's assistant), explicitly naming 'marc and josh' (Rowan and Harris) as parties who would need to sign on. Epstein wrote: 'I propose a 25% fee based on benefit to all founders... if there is a 300 overall benefit, then each founder would pay 25 m... marc and josh would have to sign on' (Jan 18, 2016). This proves Epstein expected ALL three Apollo co-founders to be involved in his fee arrangement, not just Black.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1173
+      },
+      {
+        "date": "2016-01-21",
+        "label": "Epstein engaged Brad Karp (Chairman of Paul, Weiss) on the Apollo/Athene restructuring on Jan 21, 2016, describing the work as covering 'apollo/athene - rothschild (possible) USVI less likely', requiring review of 'BRH agreement, agreement amongst principals, TRA, consequences on death, insurance reg and restrictions, on-shore and off-shore, personal income tax, PFIC or CFC, SEC disclosures, inversion' rules. Karp responded: 'we're all very excited.' Epstein also mentioned getting Kathy Ruemmler to recommend a hire at Paul Weiss. This was just 3 days after Epstein's Athene fee proposal — the firm work was to implement the restructuring.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1179
+      },
+      {
+        "date": "2016-01-21",
+        "label": "Epstein demonstrated expert-level knowledge of Rowan's personal liability in Caesars litigation. Corrected Richard Kahn: 'not leon -rowen, ie board members' — knowing Rowan faced liability as board member while Black did not. Also wrote self-memo: 'caesars case re mark. open tax years could be a neg' — tracking Rowan's tax exposure. During same period, advising Rowan on Apollo TRA valuations and receiving confidential Apollo CFO calculations.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2049
+      },
+      {
+        "date": "2016-02-12",
+        "label": "Epstein negotiated with Rowan regarding a 'Fenn' matter and fee structure, writing: 'spoke to fenn, I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee.' (Feb 12, 2016). Rowan responded: 'WPPI...care of MR'. The reference to 'you three' (i.e., the three Apollo co-founders: Black, Rowan, Harris) and fee negotiation confirms Epstein was providing compensated advisory services to all three Apollo founders jointly. WPPI likely refers to Wharton Public Policy Institute — Epstein also noted 'summers gave a lecture at wharton public policy school, is that your deal?'",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1191
+      },
+      {
+        "date": "2016-02-19",
+        "label": "Rowan emailed Epstein about 'Empire' wanting to chat (Feb 19, 2016). Richard Kahn forwarded Epstein a NY Post article 'Rowan finds more luck in personal investments' (Jun 7, 2014) and a Bloomberg article 'Apollo Billionaire Rowan Sells 72.8 Million in Shares' (May 27, 2014). The Kahn forwards show Epstein's inner circle actively monitoring Rowan's financial activities and Apollo share transactions. The 'Empire' subject line likely refers to a deal or entity Rowan was discussing with Epstein.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1202
+      },
+      {
+        "date": "2016-02-21",
+        "label": "Rowan discussed Epstein's valuation critique of Apollo unit transfers. Rowan wrote: 'I found the same long valuation report when I transferred units to the various estate planning vehicles' (Feb 21, 2016). Epstein responded with pointed critique: 'did you see the goofy description, ie puts, for example not realizing that there is a traded market in them, they also added 144 restrictions. were sec filings made on your transfers? did not take into account termination clause. or current year knowledge of projections.' This shows Epstein critiquing the valuation methodology used for Rowan's personal Apollo unit transfers to estate planning vehicles.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1193
+      },
+      {
+        "date": "2016-02-22",
+        "label": "Rowan served as Epstein's financial adviser on Apollo TRA (Tax Receivable Agreement) valuation. Epstein directly asked Rowan 'the tra libility amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016). Rowan forwarded confidential Apollo internal TRA calculations from CFO Chris Weidler to Epstein (Mar 4, 2016), including DTA discount rates, management fee cash flows, and carried interest projections. This reveals Epstein had direct access to Apollo's most sensitive financial modeling through Rowan.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1169
+      },
+      {
+        "date": "2016-03-14",
+        "label": "Epstein asked Rowan about 'the inversion' in the context of Apollo TRA valuations: 'have you made any progress on the inversion?' (Mar 14, 2016). An 'inversion' in this context means restructuring Apollo from a US partnership into a foreign corporation to reduce the tax burden on TRA payments and founder distributions. Rowan responded 'minimal'. Epstein also asked about the 'worksheet calculation for the tra number on the balance sheet' and whether they were 'undiscounted' — demonstrating deep working knowledge of Apollo's tax structure.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1185
+      },
+      {
+        "date": "2016-07-26",
+        "label": "Epstein advised Reid Hoffman on tax-free stock donation via CRT (Charitable Remainder Trust) in the context of a corporate inversion: 'trust (CRT), where the stock can be sold on a tax-free basis... To avoid this result, it is best to make the donation of stock before shareholder approval of the inversion occurs' (Jul 26, 2016, EFTA02456896). This confirms Epstein was simultaneously advising multiple billionaires on inversion-related tax strategies during the same period he was advising Rowan on Apollo's inversion. The expertise was not hypothetical -- it was an active advisory practice.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1211
+      },
+      {
+        "date": "2016-08",
+        "label": "Marc Rowan (Apollo Global co-founder) personally introduced Epstein to Perry Shwachman (Partner, Sidley Austin LLP) in the context of 'Liquid Funding' (EFTA02454291, Aug 2016). Rowan wrote: 'I will leave it to the two of you to discuss directly.' Shwachman then contacted Epstein about 'potential new USVI insurance regulations' (EFTA02361689, Aug 2016). This reveals Rowan was actively brokering connections for Epstein well after Epstein's 2008 conviction. The 'Liquid Funding' context appears on FTC's 2009 K-1, suggesting a shared investment history. Separately, the Dechert LLP memo (EFTA02730996) commissioned by Apollo Conflicts Committee investigated the Epstein/Black relationship and confirmed AP SHL and AP Technology were formed by 'certain Apollo executives' — Rowan, as co-founder, would have known about these side vehicles. Rowan's introduction of Shwachman to Epstein for USVI regulatory influence echoes the broader pattern of Apollo executives facilitating Epstein's access to institutional power.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 541
+      },
+      {
+        "date": "2016-08-15",
+        "label": "Epstein's 'leon agenda' memo (Aug 15, 2016) lists 14 action items including '10 apollo insurance AThene' and '14. sit with josh and mark re amendments' (EFTA02455405). 'Mark' is likely Marc Rowan, 'josh' is Joshua Harris. This memo shows Epstein managing all three Apollo co-founders' business simultaneously. The mention of Athene alongside the Rowan-Shwachman USVI insurance introduction (same month) demonstrates that Epstein was coordinating multiple Apollo/Athene workstreams: the insurance vehicle, the corporate restructuring, and the TRA optimization.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1209
+      },
+      {
+        "date": "2016-08-26",
+        "label": "Epstein was advising Rowan on IRS Form 8865 (Return of US Persons With Respect to Certain Foreign Partnerships). Epstein wrote: 'Happy to explain my thinking on the 8865 issue' (Aug 26, 2016). Form 8865 is required when US persons hold interests in foreign partnerships — this directly relates to the offshore structuring of Apollo entities and the proposed inversion. This establishes Epstein as providing specific international tax advisory services to Rowan on Apollo's cross-border tax obligations.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1189
+      },
+      {
+        "date": "2017-08-25",
+        "label": "Epstein referenced 'Rowen request re Athene, complex 2 billion in taxes on transaction' in a comprehensive advisory memo to Leon Black (Aug 25, 2017). This email demonstrates Rowan was directly requesting Epstein's tax advisory expertise on the Athene transaction, which involved approximately 2 billion dollars in tax implications. The memo covers Apollo/Athene restructuring, Rothschild bank partnership, USVI considerations, corporate inversions, TRA, shareholder agreements, SEC disclosures, and estate planning — showing Epstein functioning as a shadow adviser to all Apollo founders.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1175
+      },
+      {
+        "date": "2019-05",
+        "label": "ROWAN FEC ANALYSIS: Marc Rowan is a heavily Republican donor via Apollo Management. Key contributions 2019-2025: (1) AIPAC (LittleSis, amount not specified) - significant given Rowan's prominence in pro-Israel advocacy. (2) Mitch McConnell ,600 (May 2019). (3) John Barrasso ,900 (Dec 2021). (4) Marco Rubio ,800 (Dec 2021). (5) NY Republican Federal Campaign Committee ,000 (Dec 2025). (6) Multiple Congressional candidates at ,500 each (2025). Rowan lists employer as 'Apollo Management' or 'Apollo Global Management' on all filings. His donation pattern is heavily Republican with no Democratic contributions visible, contrasting with Harris's bipartisan giving and PTJ's bipartisan pattern. Rowan's political giving aligns with his post-Black role as Apollo CEO -- managing the firm's political relationships.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1320
+      }
+    ]
+  }
+}

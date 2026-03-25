@@ -1,0 +1,103 @@
+{
+  "title": "Southern Trust Company Balance Trajectory",
+  "subtitle": "MMDA and checking account balances, 2013-2019",
+  "nodes": [
+    {
+      "id": "stc",
+      "name": "Southern Trust Company, Inc.",
+      "category": "entity"
+    }
+  ],
+  "links": [],
+  "events": [
+    {
+      "date": "2013-06-30",
+      "label": "JEE portfolio: STC cash $24.75M + SF $14.59M = $39.3M combined",
+      "type": "financial",
+      "evidence_ref": "EFTA02678941",
+      "entity": "STC",
+      "importance": "medium",
+      "highlight": false,
+      "certainty": "documented"
+    },
+    {
+      "date": "2013-11-30",
+      "label": "STC checking account: $26,714,393.28",
+      "type": "financial",
+      "evidence_ref": "EFTA01284401",
+      "entity": "STC",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    },
+    {
+      "date": "2015-08-21",
+      "label": "Epstein self-memo: 'sitting on over 130 million in CASH'",
+      "type": "communication",
+      "evidence_ref": "EFTA02629982",
+      "entity": "STC",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    },
+    {
+      "date": "2015-12-30",
+      "label": "STC MMDA peak: $109,981,919.36 (single $10M wire that day)",
+      "type": "financial",
+      "evidence_ref": "EFTA02347813",
+      "entity": "STC",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    },
+    {
+      "date": "2016-06-30",
+      "label": "STC MMDA: $56,542,688.38",
+      "type": "financial",
+      "evidence_ref": "EFTA01286240",
+      "entity": "STC",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    },
+    {
+      "date": "2017-05-01",
+      "label": "STC reopened account 77000965: $18,004,284.76",
+      "type": "financial",
+      "evidence_ref": "EFTA01299402",
+      "entity": "STC",
+      "importance": "medium",
+      "highlight": false,
+      "certainty": "documented"
+    },
+    {
+      "date": "2017-10-31",
+      "label": "STC account zeroed: $2.65 (coordinated with Haze Trust $13M transfer)",
+      "type": "financial",
+      "evidence_ref": "EFTA01287138",
+      "entity": "STC",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    },
+    {
+      "date": "2018-12-21",
+      "label": "Deutsche Bank informs Epstein: accounts closing Feb 28, 2019",
+      "type": "legal",
+      "entity": "Deutsche Bank",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    },
+    {
+      "date": "2019-05-31",
+      "label": "STC final account: $0.00. Pre-arrest asset extraction underway.",
+      "type": "financial",
+      "evidence_ref": "EFTA01388721",
+      "entity": "STC",
+      "importance": "high",
+      "highlight": true,
+      "certainty": "documented"
+    }
+  ]
+}

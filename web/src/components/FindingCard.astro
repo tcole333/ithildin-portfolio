@@ -1,0 +1,100 @@
+---
+import { extractEvidenceSourceRecords, getSourcePrimaryUrl } from '../lib/citations';
+
+interface Props {
+  finding: {
+    id: number;
+    finding_type: string;
+    summary: string;
+    detail?: string;
+    confidence: string;
+    date_of_event?: string;
+    claim_type?: string;
+    verification_status?: string;
+    evidence?: Array<{
+      evidence_type: string;
+      evidence_ref: string;
+      source_quote?: string;
+    }>;
+  };
+  compact?: boolean;
+}
+
+const { finding, compact = false } = Astro.props;
+
+const typeColors: Record<string, string> = {
+  financial: '#d1b36a',
+  communication: '#8fd3e8',
+  relationship: '#9aa6b2',
+  legal: '#b7b1a3',
+  corporate: '#7fa7a0',
+  intelligence: '#a09c8a',
+  identity: '#b6a3a3',
+  location: '#8fa6b8',
+  document: '#8c97a3',
+};
+
+const confidenceColors: Record<string, string> = {
+  confirmed: 'var(--color-ember)',
+  high: 'var(--color-icy)',
+  medium: 'var(--color-mithril)',
+  low: 'var(--color-mithril)',
+  unverified: 'var(--color-mithril)',
+};
+
+const typeColor = typeColors[finding.finding_type] || 'var(--color-mithril)';
+const confColor = confidenceColors[finding.confidence] || 'var(--color-mithril)';
+---
+<div class={`surface-muted ${compact ? 'p-3' : 'p-4'}`}>
+  <div class="flex items-start justify-between gap-3 mb-2">
+    <div class="flex items-center gap-2 flex-wrap">
+      <span
+        class="text-[0.65rem] px-2 py-0.5 rounded border uppercase tracking-[0.2em]"
+        style={`border-color: ${typeColor}; color: ${typeColor};`}
+      >
+        {finding.finding_type}
+      </span>
+      <span class="text-[0.65rem] uppercase tracking-[0.2em]" style={`color: ${confColor};`}>
+        {finding.confidence}
+      </span>
+      {finding.date_of_event && (
+        <span class="text-xs text-mithril font-mono">{finding.date_of_event}</span>
+      )}
+    </div>
+    {finding.verification_status && finding.verification_status !== 'unverified' && (
+      <span class="text-[0.65rem] uppercase tracking-[0.2em] text-ember">
+        {finding.verification_status}
+      </span>
+    )}
+  </div>
+  <p class="text-sm text-moon font-body">{finding.summary}</p>
+  {!compact && finding.detail && (
+    <p class="text-xs text-mithril mt-2 leading-relaxed font-body">{finding.detail}</p>
+  )}
+  {!compact && finding.evidence && finding.evidence.length > 0 && (
+    <div class="mt-3 space-y-1">
+      {finding.evidence.slice(0, 3).map(ev => {
+        const sources = extractEvidenceSourceRecords(ev.evidence_ref || '');
+        return (
+          <div class="text-xs text-mithril flex items-start gap-1.5 font-mono">
+            <span class="text-mithril shrink-0">[{ev.evidence_type}]</span>
+            <span class="flex flex-wrap gap-2">
+              {sources.map(source => (
+                getSourcePrimaryUrl(source) ? (
+                  <a href={getSourcePrimaryUrl(source)} target="_blank" rel="noopener noreferrer" class="text-icy hover:text-ember">
+                    {source.label}
+                  </a>
+                ) : (
+                  <span class="text-mithril">{source.label}</span>
+                )
+              ))}
+            </span>
+          </div>
+        );
+      })}
+      {finding.evidence.length > 3 && (
+        <span class="text-xs text-mithril">+{finding.evidence.length - 3} more sources</span>
+      )}
+    </div>
+  )}
+</div>

@@ -1,0 +1,244 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readFileSync, existsSync, readdirSync } from 'fs';
+import { resolve, basename } from 'path';
+import { contentPath } from '../../lib/projectPaths';
+
+export function getStaticPaths() {
+  const modelsDir = contentPath('models');
+  if (!existsSync(modelsDir)) return [];
+
+  return readdirSync(modelsDir)
+    .filter(f => f.endsWith('.json') && !f.startsWith('_'))
+    .map(f => ({ params: { slug: basename(f, '.json') } }));
+}
+
+const { slug } = Astro.params;
+const modelsDir = contentPath('models');
+const modelPath = resolve(modelsDir, `${slug}.json`);
+
+let model: any = null;
+if (existsSync(modelPath)) {
+  model = JSON.parse(readFileSync(modelPath, 'utf-8'));
+}
+
+if (!model) {
+  return Astro.redirect('/models');
+}
+
+const backlinksPath = contentPath('backlinks.json');
+let referencedDossiers: any[] = [];
+if (existsSync(backlinksPath)) {
+  const backlinks = JSON.parse(readFileSync(backlinksPath, 'utf-8'));
+  referencedDossiers = backlinks.model_to_dossier?.[slug] || [];
+}
+
+const indexPath = resolve(modelsDir, '_index.json');
+let allModels: any[] = [];
+if (existsSync(indexPath)) {
+  allModels = JSON.parse(readFileSync(indexPath, 'utf-8'));
+}
+const modelMap = Object.fromEntries(allModels.map((m: any) => [m.id, m]));
+---
+<BaseLayout title={model.title}>
+  <div class="space-y-10">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <div class="space-y-3">
+          <div class="section-label">Analytical Model</div>
+          <h1 class="text-3xl md:text-4xl font-display text-moon">{model.title}</h1>
+          <p class="text-mithril font-body text-lg">{model.subtitle}</p>
+        </div>
+        <span class="archetype-badge">{model.archetype}</span>
+      </div>
+    </section>
+
+    <div class="grid gap-8 lg:grid-cols-[280px_1fr]">
+      <aside class="space-y-4">
+        <div class="surface p-4">
+          <div class="section-label">Snapshot</div>
+          <div class="space-y-2 text-sm text-mithril font-body mt-3">
+            <div>Version: {model.version}</div>
+            <div>Updated: {model.last_updated}</div>
+            <div>Mechanism: {model.mechanism.length} steps</div>
+            <div>Instances: {model.canonical_instances.length}</div>
+          </div>
+        </div>
+
+        {model.related_models?.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Related Models</div>
+            <div class="mt-3 space-y-2">
+              {model.related_models.map((relId: string) => {
+                const rel = modelMap[relId];
+                return rel ? (
+                  <a href={`/models/${relId}`} class="block text-sm text-moon hover:text-ember">
+                    {rel.title}
+                  </a>
+                ) : (
+                  <span class="block text-sm text-mithril">{relId}</span>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {referencedDossiers.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Referenced In</div>
+            <div class="mt-3 space-y-2">
+              {referencedDossiers.slice(0, 8).map((d: any) => (
+                <a href={`/dossiers/${d.slug}`} class="block text-sm text-moon hover:text-ember">
+                  {d.name}
+                </a>
+              ))}
+              {referencedDossiers.length > 8 && (
+                <span class="text-xs text-mithril">+{referencedDossiers.length - 8} more</span>
+              )}
+            </div>
+          </div>
+        )}
+
+        {model.visualization && (
+          <div class="surface p-4">
+            <div class="section-label">Visualization</div>
+            <div class="mt-3 space-y-2 text-sm text-mithril font-body">
+              <div class="text-xs text-ember uppercase tracking-[0.2em]">{model.visualization.primary_type}</div>
+              <div>{model.visualization.static_fallback}</div>
+            </div>
+          </div>
+        )}
+      </aside>
+
+      <div class="space-y-10">
+        {/* Case Introduction */}
+        <section>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-semibold text-moon">The Case</h2>
+            <div class="rune-divider flex-1 ml-6"></div>
+          </div>
+          <div class="surface-muted p-6 font-body text-moonlight leading-relaxed">
+            {model.case_intro}
+          </div>
+        </section>
+
+        {/* Definition */}
+        <section>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-semibold text-moon">Definition</h2>
+            <div class="rune-divider flex-1 ml-6"></div>
+          </div>
+          <p class="font-body text-moonlight leading-relaxed">{model.definition}</p>
+          {model.theoretical_basis && (
+            <p class="text-sm text-mithril font-body mt-4 italic">{model.theoretical_basis}</p>
+          )}
+        </section>
+
+        {/* Mechanism */}
+        <section>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-semibold text-moon">Mechanism</h2>
+            <div class="rune-divider flex-1 ml-6"></div>
+          </div>
+          <div class="space-y-1">
+            {model.mechanism.map((step: string, idx: number) => (
+              <div class="mechanism-step">
+                <div class="mechanism-step-number">{idx + 1}</div>
+                <div class="mechanism-step-content">
+                  <div class="text-moon font-semibold">{step}</div>
+                  {model.mechanism_details[step] && (
+                    <p class="text-sm text-mithril font-body mt-1">{model.mechanism_details[step]}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Canonical Instances */}
+        <section>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-semibold text-moon">Canonical Instances</h2>
+            <div class="rune-divider flex-1 ml-6"></div>
+          </div>
+          <div class="space-y-4">
+            {model.canonical_instances.map((inst: any) => (
+              <div class="surface-muted p-5">
+                <div class="text-moon font-semibold">{inst.label}</div>
+                <p class="text-sm text-mithril font-body mt-2">{inst.summary}</p>
+                {inst.evidence?.length > 0 && (
+                  <div class="flex flex-wrap gap-2 mt-3">
+                    {inst.evidence.map((e: string) => (
+                      <span class="chip" style="letter-spacing: 0.14em;">{e}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Detection Markers */}
+        <section>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-semibold text-moon">Detection Markers</h2>
+            <div class="rune-divider flex-1 ml-6"></div>
+          </div>
+          <div class="space-y-2">
+            {model.detection_markers.map((marker: string) => (
+              <div class="surface-muted px-4 py-3 text-sm font-body text-moonlight">
+                {marker}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Limitations */}
+        <section>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-semibold text-moon">Limitations</h2>
+            <div class="rune-divider flex-1 ml-6"></div>
+          </div>
+          <div class="space-y-2">
+            {model.limitations.map((lim: string) => (
+              <div class="surface-muted px-4 py-3 text-sm font-body text-mithril">
+                {lim}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Distinction / Extra context */}
+        {model.distinction && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Key Distinction</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <p class="font-body text-moonlight leading-relaxed">{model.distinction}</p>
+          </section>
+        )}
+
+        {model.discipline && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Analytical Discipline</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <p class="font-body text-moonlight leading-relaxed">{model.discipline}</p>
+          </section>
+        )}
+
+        {model.why_it_matters && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Why This Matters</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <p class="font-body text-moonlight leading-relaxed">{model.why_it_matters}</p>
+          </section>
+        )}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

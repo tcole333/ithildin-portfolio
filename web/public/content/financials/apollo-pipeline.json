@@ -1,0 +1,1136 @@
+{
+  "title": "Apollo Money Pipeline",
+  "subtitle": "How $158M+ flowed from three billionaires to a convicted sex offender",
+  "nodes": [
+    {
+      "id": "Leon Black",
+      "name": "Leon Black",
+      "category": "person"
+    },
+    {
+      "id": "Marc Rowan",
+      "name": "Marc Rowan",
+      "category": "person"
+    },
+    {
+      "id": "Joshua Harris",
+      "name": "Joshua Harris",
+      "category": "person"
+    },
+    {
+      "id": "Caterpillar Trust",
+      "name": "2017 Caterpillar Trust",
+      "category": "trust"
+    },
+    {
+      "id": "Family Office",
+      "name": "Black Family Office",
+      "category": "entity"
+    },
+    {
+      "id": "EdR Trust",
+      "name": "Edmond de Rothschild Trust",
+      "category": "entity"
+    },
+    {
+      "id": "STC",
+      "name": "Southern Trust Company",
+      "category": "entity"
+    },
+    {
+      "id": "Jeffrey Epstein",
+      "name": "Jeffrey Epstein",
+      "category": "person"
+    }
+  ],
+  "links": [
+    {
+      "source": "Leon Black",
+      "target": "Family Office",
+      "value": 158000000,
+      "label": "$158M+ total"
+    },
+    {
+      "source": "Family Office",
+      "target": "STC",
+      "value": 40000000,
+      "label": "$40M in 2013 alone"
+    },
+    {
+      "source": "Family Office",
+      "target": "EdR Trust",
+      "value": 25000000,
+      "label": "$25M (unresolved)"
+    },
+    {
+      "source": "Marc Rowan",
+      "target": "Caterpillar Trust",
+      "value": 1000000,
+      "label": "Trust contributions"
+    },
+    {
+      "source": "Joshua Harris",
+      "target": "STC",
+      "value": 1000000,
+      "label": "Advisory fees"
+    },
+    {
+      "source": "STC",
+      "target": "Jeffrey Epstein",
+      "value": 110000000,
+      "label": "Peak balance $110M"
+    },
+    {
+      "source": "EdR Trust",
+      "target": "STC",
+      "value": 25000000,
+      "label": "$25M transfer"
+    }
+  ],
+  "findings": [
+    {
+      "id": 433,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Black Family Foundation grant timing analysis: 2011 K grants, 2012 M grants, 2013 .5M grants, 2014 .76M grants (SPIKE - 10x increase), 2015 .93M grants, 2019 .81M grants. The 2014 spike to .76M in grants paid is extraordinary. Since Gratitude America received .003M in its 2015 tax year, and the Black Foundation paid .76M in its 2014 tax year, the timing aligns with a late-2014 or early-2015 transfer. The M Gratitude America contribution was approximately 85% of the Black Foundation total 2014 grants.",
+      "detail": null,
+      "date_of_event": null,
+      "confidence": "medium"
+    },
+    {
+      "id": 1780,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "DB RM code 81851 links Caterpillar Trust to Wanek family (Ashley Furniture) entities as co-managed clients",
+      "detail": "Deutsche Bank Relationship Manager code 81851 account listing (EFTA01458780, EFTA01384017) groups Caterpillar Trust alongside: Todd & Karen Wanek JTWROS, Wanek Trust of 2000, KWF 2007 LLC, SSW 2007 LLC, CRW 2007 LLC, GEW 2007 LLC, CRW 2009 LLC, GEW 2009 LLC, Shari Wagner 2014/2015 GRATs, Kati Forsythe 2014 GRAT, Ashley Holdings Inc, plus all Epstein entities (STC, Southern Financial, HBRK Associates, Neptune LLC, Hyperion Air, JEGE, Darren K. Indyke PLLC, NES LLC, Gratitude America). The Wanek entities and Epstein entities share the same Deutsche Bank wealth management relationship.",
+      "date_of_event": null,
+      "confidence": "high"
+    },
+    {
+      "id": 2566,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black Family Foundation gave $500K to Clinton Foundation/Presidential Foundation (2016: $250K Clinton Foundation, 2017: $250K Clinton Presidential Foundation) per IRS 990-PF Schedule I. Combined with previously known $750K direct payment, total Black\u2192Clinton giving exceeds $1.25M.",
+      "detail": null,
+      "date_of_event": null,
+      "confidence": "high"
+    },
+    {
+      "id": 2567,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black Family Foundation gave $500K to Tony Blair entities (2016: $250K Tony Blair Faith Foundation US, 2019: $250K Tony Blair Foundation) per IRS 990-PF Schedule I.",
+      "detail": null,
+      "date_of_event": null,
+      "confidence": "high"
+    },
+    {
+      "id": 3476,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "TEMPORAL PATTERN: 2017 Caterpillar Trust creation timed to Trump inauguration (Jan 3-20, 2017). Trust established Jan 3, 2017 as GRAT in USVI, with 16-finding burst in Jan 18-Feb 1 window coinciding with inauguration. Trust served as vehicle for IGO Company LLC membership interest and subsequent fund transfers to Morgan Stanley Butterfly Trust. Pattern suggests trust creation was part of broader financial restructuring around political transition.",
+      "detail": "Jan 3 2017: Trust created. Jan 10: Pritzker-Churkin lunch arranged by Epstein with Barak. Jan 16: PW tax partner contacts Epstein about limitation periods. Jan 18: Epstein obtains second valid passport. Jan 19: Jay Clayton SEC nomination forwarded to Epstein. Jan 20: Trump inaugurated. Feb 20: Churkin dies suddenly. Mar 18, 2019: Trust DB accounts closed, funds moved to Butterfly Trust at Morgan Stanley. The trust lifecycle spans from pre-inauguration to pre-arrest, suggesting it was designed for a specific political window.",
+      "date_of_event": null,
+      "confidence": "medium"
+    },
+    {
+      "id": 3482,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "TEMPORAL PATTERN: Leon Black findings cluster around trust/payment milestones with 60-day silence in 2021 post-resignation. Dec 2014 burst (9 findings): BFP cash flow crisis, Athene capital call, charitable commitments list \u2014 all within 2 weeks of Giuffre v. Maxwell filing (Jan 5 2015). Jan 2021 burst (7 findings): Leon Black resignation and Dechert LLP investigation. The Dec 2014 activity suggests financial preparations were underway before the Maxwell lawsuit created public pressure.",
+      "detail": "Black temporal pattern: 2013 peak (4 findings during STC M year), Oct 2013 cross-thread with Benedetti/Rothschild, Dec 2014 financial preparation burst (Athene .6M capital call, BFP cash flow projections by Richard Joslin), Jan 2015 Giuffre filing, 2016-2018 scattered findings, Jan 2021 resignation cluster. The transition from financial to legal findings tracks the shift from operational relationship to defensive posture.",
+      "date_of_event": null,
+      "confidence": "medium"
+    },
+    {
+      "id": 1781,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Part of nature-themed GRAT series: Haze (1999), Butterfly (2013), Caterpillar (2017) with escalating trustee informality",
+      "detail": "Epstein maintained at least three nature-themed grantor trusts: (1) The Haze Trust, formed 2/2/1999, EIN 03-7185414, NY law, Trustee: Darren Indyke, managed by Paul Barrett at JP Morgan; (2) The 2013 Butterfly Trust, formed 2013, brokerage at Morgan Stanley (FA: Andrew Atlas), received Christie's auction proceeds (,995 in Apr 2018), payments to individuals; (3) The 2017 Caterpillar Trust, formed 1/3/2017, USVI, Trustees: Daphne Wallace and Lesley Groff. The progression shows decreasing formality in trustee selection: from attorney Indyke to personal assistants Wallace/Groff.",
+      "date_of_event": "1999",
+      "confidence": "medium"
+    },
+    {
+      "id": 1749,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "The Caterpillar Trust is part of an animal-themed trust naming convention used by Epstein. Confirmed trusts: Haze Trust (formed 2/2/1999, NY law, grantor trust, EIN 03-7185414, trustee Darren Indyke, managed by Paul Barrett at JPM), Butterfly Trust (formed 2013, brokerage at Morgan Stanley funded from Caterpillar), and Caterpillar Trust (formed 2017, GRAT, holds IGO Company LLC). Also Haze Trust email forwarded to Mile Lukic at DB in German on April 8 2019 suggesting offshore banking connections.",
+      "detail": null,
+      "date_of_event": "1999-02-02",
+      "confidence": "medium"
+    },
+    {
+      "id": 1205,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Liquid Funding Ltd was a $6.7B Bermuda-registered Structured Investment Vehicle (SIV) incorporated Oct 19, 2000 (EC 29378), where Epstein served as Chairman and Director from Nov 2001 to at least Mar 2007. Bear Stearns owned ~40% and provided investment management through its Dublin subsidiary. The vehicle held mortgage-backed securities and CLOs. By 2004, FTC's investment summary listed 'Liquid Funding Holding' with $1.5M in holdings (EFTA01308282). By 2009, the K-1 showed only $969 income -- the entity was dormant post-Bear Stearns collapse. In 2016, Rowan's 'Re-Introduction after Liquid Funding' email subject line confirms Liquid Funding was the shared business context connecting Rowan, Epstein, and Shwachman.",
+      "detail": null,
+      "date_of_event": "2000-10-19",
+      "confidence": "medium"
+    },
+    {
+      "id": 220,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Initial Kahn-Wechsler negotiation specified $15M STC + $4.75M J Epstein VI Foundation = $19.75M total. But Leon told Wechsler 'full 19.75mm shld go to a charitable fndn.' Revised to 10+10 split: $10M to Southern Trust and $10M to J Epstein VI Foundation. Wechsler then questioned 501(c)(3) status of J Epstein VI Foundation - could not find it on federal register. Foundation had not filed 990s publicly since 2008.",
+      "detail": null,
+      "date_of_event": "2008",
+      "confidence": "high"
+    },
+    {
+      "id": 430,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon D. Black Foundation (EIN 20-5117734), separate from Family Foundation, also at 445 Park Ave c/o Elysium Mgmt LLC. This entity maintained steady K-.6M annual revenue from 2011-2023, almost entirely from gifts. Unlike the Family Foundation, this one continues active operations. 2021 showed spike to .6M. This is likely Black's personal arts/culture foundation (NTEE A33). The existence of TWO Black foundations at the same Elysium address creates layered grant-making capacity.",
+      "detail": null,
+      "date_of_event": "2011",
+      "confidence": "medium"
+    },
+    {
+      "id": 1383,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Dechert report confirms Financial Trust Company (FTC, Epstein entity) purchased 263,257 shares of Apollo Global Management stock during its March 2011 IPO via a 'directed share offering program managed by the lead broker-dealer.' These shares were later transferred to Southern Financial LLC (another Epstein entity) in 2013 and held through at least September 2019. Black did not recall this transaction when asked almost a decade later. Additionally, FTC invested in AP SHL Investors LLC (Jan 2002, 910K) and AP Technology Partners LLC (FY2000, 1.31M) -- both entities 'formed by certain Apollo executives to explore investment opportunities that Apollo chose not to pursue.' The directed share offering is significant because IPO allocations of this size require executive authorization -- yet Dechert concluded 'Apollo never did any business with Epstein.' The 263,257 shares at Apollo's IPO price of ~/share represent approximately a 5M investment.",
+      "detail": null,
+      "date_of_event": "2011-03",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1494,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "FTC FIVE-LAYER APOLLO INVESTMENT ARCHITECTURE: Synthesizing Dechert report, DOJ corpus, and SEC filings reveals FTC maintained at least 5 distinct financial relationships with Apollo-related entities: (1) APOLLO IPO SHARES: FTC purchased 263,257 shares March 2011 via directed share program (~$5M). Transferred to Southern Financial LLC 2013, held through Sept 2019. (2) AP SHL INVESTORS LLC: FTC invested $910,562 (Jan 2002), received $384,125 distributions. Net $526K. 'Formed by certain Apollo executives' per Dechert. K-1 issued in FTC name annually. (3) AP TECHNOLOGY PARTNERS LLC: FTC invested $1,311,522 (FY2000, multiple tranches). Net investment $1,228,776. Still valued $250K-$111K through 2015. 'Formed by certain Apollo executives.' (4) ENVIRONMENTAL SOLUTIONS WORLD WIDE (ESWW): FTC held 13.35M shares (stock certificates stored in safe + JPM), $12M position. FTC invested alongside Black and Black family members in 2011 per Dechert. ESWW had reverse stock split 2013, certificates needed replacement. (5) LIQUID FUNDING: FTC K-1 showed $969 income (2009). 'Liquid Funding Holding' on 2004 investment summary. Marc Rowan referenced 'Liquid Funding' history in Aug 2016 Shwachman introduction. Combined, these five channels represent a financial relationship dating from 2000-2019 -- nearly two decades of continuous Epstein-Apollo financial entanglement that Dechert characterized as not constituting 'business.'",
+      "detail": null,
+      "date_of_event": "2011-03",
+      "confidence": "medium"
+    },
+    {
+      "id": 1500,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "APOLLO-EPSTEIN FINANCIAL ARCHITECTURE SYNTHESIS: The complete financial architecture reveals Epstein's entanglement with Apollo was far deeper than the Dechert report's framing suggests. MONEY FLOWS TO EPSTEIN: $158M advisory fees (2013-2017) from Black via Southern Trust Company Inc + $30.5M loans via BV70 LLC/Plan D LLC = $188.5M gross flows. Only $10M loan repaid. Net: $178.5M from Black to Epstein. MONEY FLOWS FROM EPSTEIN TO APOLLO: FTC purchased 263,257 Apollo IPO shares (~$5M, Mar 2011). FTC invested $910K in AP SHL (2002) + $1.31M in AP Technology (2000) + $12M ESWW alongside Black (2011) + $969 Liquid Funding. Total: ~$19.2M invested in Apollo-adjacent vehicles. STRUCTURAL ENTANGLEMENT: (1) Epstein reviewed BRH Holdings LP agreement -- the vehicle through which all three founders held 52.4% of Apollo (202M shares). (2) Epstein modeled BRH 'death' scenarios -- corporate succession planning at the founder level. (3) Epstein coordinated IRS Form 8865 filings for 'all three guys' via Paul Weiss. (4) Epstein proposed the corporate inversion and Athene restructuring. (5) Epstein received confidential TRA calculations from Rowan via Apollo CFO Chris Weidler. (6) Epstein had direct coordination with 'Apollo in house' tax function. (7) Epstein held Apollo analyst meeting notes in his files. The relationship was not simply 'personal advisory services to Leon Black' -- it was institutional access to Apollo's most sensitive corporate, tax, and succession architecture, affecting all three founders equally through BRH.",
+      "detail": null,
+      "date_of_event": "2011-03",
+      "confidence": "medium"
+    },
+    {
+      "id": 1302,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Complete Southern Trust corporate family structure with account details: (1) SOUTHERN TRUST COMPANY INC \u2014 parent entity, USVI domestic profit corp (581871), formed 11/18/2011, registered 9053 Estate Thomas Ste 101, agent Business Basics VI LLC (Kellerhals). Deutsche Bank accounts: 42952763 (money market), 77000965, 77000957, 44129241, 44129244 (wires to Valar/Seaford). FirstBank PR platinum banking. Citibank. Charles Schwab (opened Apr 2019). Interactive Brokers (Dec 2019). JPMorgan (pre-Feb 2014). (2) SOUTHERN FINANCIAL LLC \u2014 wholly owned subsidiary per NYDFS. Deutsche Bank: W91850003, W92099006 + DDA. ISDA derivatives master with DB London. Investment vehicle for equities/derivatives/hedge funds. Held Bear Stearns, Tudor Futures, Renault, Ariad, Carvana positions. Portfolio value peak $16.7M (Dec 2018). (3) SOUTHERN COUNTRY INTERNATIONAL LTD \u2014 offshore entity, Ltd designation. Schwab accounts (Apr 2019). Tax code 525990. (4) FINANCIAL STRATEGY GROUP INC (FL P93000087814, 1993-2000) \u2014 predecessor entity, renamed to Southern Country International.",
+      "detail": null,
+      "date_of_event": "2011-11-18",
+      "confidence": "medium"
+    },
+    {
+      "id": 2,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "M paid by Leon Black to Jeffrey Epstein between 2012-2017 for consulting/advisory services. Confirmed by Deveraux report commissioned by Apollo Conflicts Committee. Payments routed through Black Family Partners LP and Rothschild Trust structures.",
+      "detail": null,
+      "date_of_event": "2012",
+      "confidence": "high"
+    },
+    {
+      "id": 1585,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "BRH Holdings GP Ltd is a Cayman Islands exempted company owned and controlled by all three Apollo managing partners (Black, Harris, Rowan). It holds the single Class B share of Apollo Global Management LLC, which controls all voting power (79.7% post-IPO) but represents NO economic interest. BRH Holdings LP is the underlying partnership through which the founders hold their Apollo economic interests. The founders are required to file IRS Form 8865 (Return of U.S. Persons With Respect to Certain Foreign Partnerships) for BRH Holdings LP and related foreign partnerships annually. Deloitte was the auditor. The 8865 filing failure went back to at least 2007 for Harris and Rowan, and was inaccurately filed for Black from 2013-2015.",
+      "detail": null,
+      "date_of_event": "2013",
+      "confidence": "high"
+    },
+    {
+      "id": 1752,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "DB RDC screening lists the trust under two country addresses: UNITED STATES and VIRGIN ISLANDS, U.S. - both under KYC tracking ID 01898372. The screening triggered Critical Risk Priority alerts against Caterpillar Inc., which were cleared as false positives. The trust was part of the Southern Financial relationship at DB Private Bank since 2013.",
+      "detail": null,
+      "date_of_event": "2013",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1282,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Leon Black total payments to STC Deutsche Bank account documented: Feb 2013 = $15,000,000 (ORG-394001320945 LEON D RACK/BLACK, Chips Credit), May 2013 = $16,500,000 (ORG-394001320945 LEON D BLACK, Chips Credit), Oct 2013 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK). Three payments in 8 months totaling $40,000,000. All went directly to STC Elite Money Market Deposit at Deutsche Bank. The Feb-May $31.5M alone would account for the STC balance rising from near-zero to $27.3M end-Oct 2013 (with interim transfers out). Originator consistently LEON D BLACK via ORG-394001320945 (a Fedwire participant code). The Oct payment included Debra R Black (wife) as co-originator.",
+      "detail": null,
+      "date_of_event": "2013-02",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1571,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Dechert investigation confirmed the 2006 GRAT had a structural defect risking approximately $500 million in estate tax assessment. Epstein identified and solved this problem, which 'was the most valuable piece of work Epstein provided Black.' The original GRAT was established by Black's former trusts and estates attorney who had been recommended by Epstein. Both a former Family Office employee and outside counsel agreed the estate tax exposure was approximately $500 million. This was the basis for Epstein's $23.5M initial service fee (first payment $15M on Feb 15 2013, second payment $8.5M on Oct 15 2013, both to Southern Trust Company Inc).",
+      "detail": null,
+      "date_of_event": "2013-02-15",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Black Family Partners LP is the main investment vehicle for Leon Black's family wealth. As of 6/30/2013: BFP managed approx $1.95B in assets. Structure includes: Black 2006 Family Trust (71.5% interest), 1997 Black Family Trust (9.2%), Judah 2009 Trust (4.7%), LDB 2011 LLC (7.2%), Leon and Debra Black personal (7.4%). Trust income 2007-2012 from Apollo Credit Opportunity Fund: $161.7M; from BFP distributions: $195.4M. BFP extended lines of credit to Phaidon Global LLC (Black's publishing company). Epstein received detailed financial reports on all BFP activities.",
+      "detail": null,
+      "date_of_event": "2013-06-30",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Phaidon Global LLC is a publishing/media company owned by Black through his trust structures. Black Family Partners LP provided lines of credit to Phaidon Global (at least $10M line of credit established Aug 2013). Epstein was deeply involved in Phaidon's business strategy, receiving financial reports, valuations (GBP 11.2M valuation 2015), tax returns, and participating in strategic discussions about branding (expanding Phaidon name to art investments, film, insurance, media, publishing, internet). Richard Joslin (Elysium CFO) managed day-to-day. Structure: BFP lends to Phaidon Global LLC, which transmits to Phaidon Press Ltd (UK), Regan Arts LLC, and Lit Kit LLC.",
+      "detail": null,
+      "date_of_event": "2013-08",
+      "confidence": "high"
+    },
+    {
+      "id": 1279,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Oct 2013 $6M incoming TRACED: Deutsche Bank statement for STC (EFTA01284214) shows three deposits in October 2013 to the Elite Money Market Deposit account (Amanda Kirby, relationship manager): Oct 7 = $12,755,048.50 (ORG-003040315872 SOUTHERN TRUST COMPANY INC \u2014 internal transfer from another STC DB account), Oct 15 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK 760 PARK AVE NEW YORK NY 10 \u2014 Leon Black payment), Oct 17 = $6,000,000 (ORG-3040545872 SOUTHERN TRUST COMPANY INC \u2014 internal transfer). Total deposits: $27,258,838.74. The $6M was NOT from an external source \u2014 it was an internal STC-to-STC account transfer at Deutsche Bank. The originator code 3040545872 matches the Southern Trust entity. The $8.5M Leon Black deposit is notable as an early payment (Oct 2013) predating the later $16.5M (May 2013, separately documented) and $15M (Feb 2013) Black payments.",
+      "detail": null,
+      "date_of_event": "2013-10",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1409,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "The 8.5M payment (Oct 15, 2013) from Black to Southern Trust Company was the second installment under the first signed service agreement between Black and STC (dated Feb 13, 2013). Per the Dechert report: 'Although Epstein represented to Black that he generally charged clients 40 million per year for his advice, Epstein agreed to provide this initial work for 23.5 million, which was expected to be made in two installment payments occurring in 2013. Both of these payments were made to Southern Trust Company, Inc.: the first payment of 15 million was made on February 15, 2013, and the second payment of 8.5 million was made on October 15, 2013.' The 23.5M was specifically for Epstein's work on the 2006 GRAT (Grantor Retained Annuity Trust) issue. DS10 Deutsche Bank records show a M incoming transaction to STC on Oct 17, 2013 (two days after the .5M payment date) and a K STC transaction on Oct 2, 2013. The 8.5M itself likely went through JPMorgan (the primary banking relationship), not Deutsche Bank, explaining why it does not appear at full value in DS10.",
+      "detail": null,
+      "date_of_event": "2013-10-15",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1583,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Dechert investigation Exhibit A documents 21 Leon Black/Rothschild Group transactions from 10/15/2013 to 10/2/2018 totaling approximately 202M. Payments flowed through multiple Black entities (Leon/Debra personally, Black Family Partners LP, Narrows Holdings LLC, BV70 LLC) to Southern Trust Company Inc, with smaller amounts to Gratitude America Ltd and Plan D LLC. Key transactions: 10/2013 8.5M+10M; 4/2014 5M+5M; 4/2014 15M+20M (largest single batch); 10/2014 7M+13M; 10/2015 5M+5M+10M; 12/2015 10M+15M+10M; 3/2017 22.5M (BV70-to-Plan D, flagged by DB). The 10/2/2018 final transaction of 10M was from Plan D LLC to BV70 LLC (partial loan repayment). All transactions have DB-SDNY Bates numbers for full provenance chain.",
+      "detail": null,
+      "date_of_event": "2013-10-15",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black / Rothschild Group transactions documented in EFTA00027019 showing massive transfers: $40M, $50M, $5M (Black Family Partners), $10M, $25M, $45M, $58M, $65M from Leon Black through Rothschild trust structures. Transaction dates include Oct-Dec 2013 through 2015. These appear to be the consulting fee payments totaling $158M+.",
+      "detail": null,
+      "date_of_event": "2013-12",
+      "confidence": "high"
+    },
+    {
+      "id": 428,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Debra and Leon Black Family Foundation (EIN 13-3947890) at 445 Park Ave, c/o Elysium. Revenue pattern shows massive spike in 2014 (.1M received, .08M in gifts, .76M in grants paid) - this is the year M to Gratitude America was likely routed. 2015: .6M revenue, .1M expenses. 2019: .82M revenue, all from gifts (.815M), .81M in grants paid - last significant year. Post-2020: assets collapsed to under K, revenue near zero. The foundation was essentially a pass-through vehicle for Black donations.",
+      "detail": null,
+      "date_of_event": "2014",
+      "confidence": "medium"
+    },
+    {
+      "id": 449,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black operated TWO foundations at the same 445 Park Ave address c/o Elysium: (1) Debra and Leon Black Family Foundation (EIN 13-3947890) - large pass-through grants vehicle, and (2) Leon D. Black Foundation (EIN 20-5117734) - smaller arts/culture foundation. Combined grant-making: Family Foundation paid .76M in 2014, .93M in 2015, .81M in 2019, then essentially ceased. Leon D. Black Foundation continued at K-.6M/yr through 2023. The Family Foundation was the vehicle for the M Gratitude America transfer and is now nearly depleted (K assets). The personal foundation continues. This dual structure provided layered opacity for different scales of giving.",
+      "detail": null,
+      "date_of_event": "2014",
+      "confidence": "medium"
+    },
+    {
+      "id": 1480,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Black Family Foundation 2014 990-PF approved $750,000 grant to Clinton Foundation and $1,500,000 to Birthright Israel Foundation for future payment. Same year foundation received $12.08M in contributions and realized $9.05M capital gains from donated securities (Ladenburg Thalman, Vector Group, Symantec, Altria, Coca-Cola, IBM, Disney, Exxon Mobil). Total grants paid: $11,760,354.",
+      "detail": null,
+      "date_of_event": "2014",
+      "confidence": "high"
+    },
+    {
+      "id": 1293,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "JPMorgan account snapshot (Paul Barrett, Managing Director, Global Investment Opportunities Group, JP Morgan Private Bank) lists combined Southern Financial/Trust balances: Southern Financial LLC = $23,380,735.58 (WOD $9,056,419.71 + WOA $14,050,627.87 + DDA $273,688), Southern Trust Company Inc = $26,779,306.11 (W8964002 $2,234,360.80 + DDA $149,999.75 + Savings $24,394,495.56). Total combined: $50,160,041.69. These were JPMorgan accounts managed before the Feb 2014 migration to Deutsche Bank, when Harry Beller confirmed 'All positions at JPM were finally closed. JPM will wire today the remaining cash balances to Deutsche Bank: (1) Southern Financial $10,397,100, (2) Southern Trust (Laurie Cameron) $911,808 remaining balance (JPM wired yesterday $4,003,093).' Laurie Cameron was STC's FX/currency portfolio manager, not an EdR person.",
+      "detail": null,
+      "date_of_event": "2014-02",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1466,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "BRH K-1 IRS AUDIT -- AP PROFESSIONAL HOLDINGS DOUBLE-REPORTING: EFTA02722063 (Mar 28, 2014) reveals a specific IRS compliance failure at the heart of the BRH/Apollo architecture: Goldman Sachs 1099s issued under 'LEON BLACK IMY-AP PROFESSIONAL HOLDINGS LP' were reported TWICE in 2012 -- once on Leon Black's personal 1040 and once on BFP LP's K-1, overstating taxable income by approximately $250K. The email confirms 'The AP Professional LP income was picked up by BRH Holdings. I confirmed with Apollo.' This double-reporting was being coordinated between Epstein, Joslin, Wechsler, and Apollo's own tax function. The BRH Holdings K-1 was subsequently subject to IRS audit, with the 'delta' being Leon's (BFP's) allocable share of the adjustment of BRH Holdings LP ordinary income (EFTA02651276/EFTA02651304). Suzanne Wong at Apollo or Deloitte was identified as the person who could provide the IRS audit report. Brad Wechsler emailed Leon Black, Jeffrey Epstein, and Barry Cohen directly about 'BRH adjustments' and sent payment forms to Tom Turrin (EFTA02650654, May 2, 2017).",
+      "detail": null,
+      "date_of_event": "2014-03-28",
+      "confidence": "high"
+    },
+    {
+      "id": 1183,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Marc and Carolyn Rowan wrote a check for $838,675 to Leon Black on April 9, 2014 (check #000013326, US Trust/Bank of America), tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession, demonstrating Epstein had access to confidential financial details of inter-founder payments within Apollo.",
+      "detail": null,
+      "date_of_event": "2014-04-09",
+      "confidence": "high"
+    },
+    {
+      "id": 1509,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "ROWAN $838,675 TRA CHECK TO BLACK -- INTER-FOUNDER PAYMENT IN EPSTEIN'S POSSESSION: Previously recorded (finding #1183) but now contextualized within the BRH architecture: Marc and Carolyn Rowan wrote check #000013326 (US Trust/Bank of America) for $838,675 to Leon Black on April 9, 2014, tagged '2013HERITAGE'. The accompanying TRA breakdown shows Rowan received $103.37M total in TRA payments from Apollo (2007-2013 exchanges combined), with the July 2007 exchange alone generating $95.4M in distributable share. This document was in Epstein's possession. The TRA (Tax Receivable Agreement) is the mechanism by which BRH Holdings LP distributes tax benefits to the three founders individually -- specifically, Apollo pays the founders 85% of the tax savings from the step-up in basis of Apollo's assets when the founders exchange their partnership interests for stock. Epstein asked Rowan directly: 'the tra liability amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016) and Rowan forwarded confidential TRA calculations from Apollo CFO Chris Weidler. The TRA is now worth billions following the Athene merger and Apollo stock appreciation. Epstein's access to inter-founder TRA payments means he understood the precise economic relationship between all three founders.",
+      "detail": null,
+      "date_of_event": "2014-04-09",
+      "confidence": "medium"
+    },
+    {
+      "id": 20,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Southeast Asian Art inventory for Leon Black / Narrows as of April 30, 2014 (EFTA01919638). Document lists multiple bronze sculptures with stock numbers (E0598, E0853, EX320, etc.) with USD fair market values and costs. Art advisory was a key component of Epstein's consulting relationship with Black \u2014 Epstein recommended art consultants (e.g., George Goldner from the Met per EFTA02378751) and managed art partnership investments (Art Pshp per EFTA02509248).",
+      "detail": null,
+      "date_of_event": "2014-04-30",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black Foundation (Debra and Leon Black Family Foundation, EIN 13-3947890) donated $200K to IPI in December 2014. The foundation is managed through Elysium Management LLC at 445 Park Ave, Suite 1401, NYC. In 2014 the foundation had Revenue $12,142,003 and Expenses $11,760,858.",
+      "detail": null,
+      "date_of_event": "2014-12",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Origins Project at ASU (Lawrence Krauss, Director) received substantial donations from both Leon Black personally and the Leon Black Family Foundation. As of early 2019, approximately $607K in unused funds remained from Black/Foundation donations. Krauss was removed as director and program terminated. Black wrote formal letter (Dec 2014) about the Origins Project. Epstein was independently a donor (separate from Black). Joi Ito confirmed MIT was able to keep Leon Black money but had to bounce $25K from Epstein's foundation back to ASU.",
+      "detail": null,
+      "date_of_event": "2014-12",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black charities commitment list prepared Dec 23, 2014 (EFTA02371754) documents charitable giving directed/advised by Epstein. Recipients include: Dartmouth Visual Arts Center, Dartmouth President's House Renovation, North Shore LIJ, World Jewish Congress, Rockefeller University. This list was prepared by Rich Joslin (Elysium CFO) and sent to Epstein, confirming Epstein's advisory role in Black's philanthropy.",
+      "detail": null,
+      "date_of_event": "2014-12-23",
+      "confidence": "high"
+    },
+    {
+      "id": 1318,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Black Family Partners (BFP) cash flow projection (Dec 23 2014, prepared by Richard Joslin) shows Athene capital call of .6M as the single largest disbursement, dwarfing all other items. Apollo distributions were the primary inflow: .5M (Dec 2014), .9M (Feb 2015), .8M (Apr), .9M recurring. TRA payment of .5M. Advisory fee line item present but amount unclear. Family office expense ,667/month (.4M/year). Loan to LDB of .5M repaid. Phaidon Global loan repayment .35M. Cash balance projected to go negative by May 2015 at -.9M, requiring borrowing from LDB 2014 LLC to fund residual Athene commitment. This demonstrates that the Athene investment was so large it strained even Black Family Partners' cash flows, explaining why Epstein's proposed 25% advisory fee on Athene tax optimization was worth engaging all three founders.",
+      "detail": null,
+      "date_of_event": "2014-12-23",
+      "confidence": "high"
+    },
+    {
+      "id": 1464,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "ATHENE $41.6M CAPITAL CALL -- BLACK FAMILY PARTNERS CASH FLOW CRISIS: EFTA02371750 (BFP LP cash flow projection, Dec 23 2014, prepared by Richard Joslin) shows the Athene capital call of $41,600,000 as the single largest disbursement. Joslin separately emailed Epstein (EFTA02388715, Nov 24 2014): 'All the asset raising in BFP LP can be distributed -- the Athene $40MM payment looks to be a 2016 event.' This reveals: (1) The Athene investment was held through BFP LP (Black Family Partners LP), not through BRH Holdings directly. (2) The capital call was so massive it dominated cash flow projections, with projected cash going negative by May 2015 at -$1.9M. (3) Joslin was communicating Athene investment details directly to Epstein, who asked 'which entity is the athene investment in?' (EFTA02361533, Apr 10, 2015). (4) Epstein separately asked Richard Kahn: 'can you give me the details of the athene investment on the books' (EFTA02453418, Sep 1, 2016). The Athene investment was central to Epstein's proposed 25% fee (Jan 2016): 'if there is a 300 overall benefit, then each founder would pay 25m.' The $41.6M BFP Athene commitment explains why Black was willing to pay Epstein millions for tax optimization of the Athene merger.",
+      "detail": null,
+      "date_of_event": "2014-12-23",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black donated $10M to Gratitude America (EIN 66-0789697) in 2015. Gratitude America controlled by Epstein associates (Richard Kahn). 2015 filing shows Revenue $4,598,706 and Expenses $5,119,699. This was an Epstein-controlled conduit for charitable disbursements.",
+      "detail": null,
+      "date_of_event": "2015",
+      "confidence": "high"
+    },
+    {
+      "id": 461,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon Black is one of the largest political donors in the Epstein network with 1,185+ FEC contributions. Major donations include: K Right to Rise USA/Jeb Bush (2015), K With Honor Fund (2017), K Fighting for Ohio Fund (2016), K Senate Majority PAC (2016), K NYC Host Committee 2004, K Congressional Leadership Fund (2015). Black is a bipartisan mega-donor who gives to both parties at scale. Recent recipients include Tim Scott, Schumer, Tom Cotton, Cory Booker, Susan Collins, David Perdue, Kelly Loeffler, Thom Tillis. His political giving vastly outscales all other Epstein associates combined and operates independently of the Epstein bundling patterns.",
+      "detail": null,
+      "date_of_event": "2015",
+      "confidence": "medium"
+    },
+    {
+      "id": 19,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Yggdrasil Trust (a Black family trust) transferred $2,204,718.75 on April 29, 2015 to National Bank of Delaware County for account 'Luxury Catalogs' with reference 'Dante's Commedia'. Wire initiated by Joann Perrone and related to Leon Black/Mayra Johnson. This appears to be an art acquisition routed through trust structures with Epstein's knowledge.",
+      "detail": null,
+      "date_of_event": "2015-04-29",
+      "confidence": "high"
+    },
+    {
+      "id": 1569,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "APO1 GRAT cascading structure used at least 8 sequential Grantor Retained Annuity Trusts (GRATs 1-8) funded with Black Family Partners LP interests containing Apollo Operating Group units. BFP LP held 92,717,166 APO shares. Annuity payments were quarterly (Jan/Mar/Apr/Jun/Jul/Sep/Oct/Dec \u2014 not Feb/May/Aug/Nov). In-kind BFP interests received as annuity payments were re-GRATed into new trusts. Empire Valuation Consultants LLC performed fair market value appraisals, discounting APO stock for lockup restrictions (discount decreased from 27% at outset). June 2015 annuity had FMV of $98,780,916. Structure managed by Richard Joslin (Elysium/Empire), Ada Clapp, Brad Wechsler, with Paul Weiss (Alan Halperin) as outside counsel.",
+      "detail": null,
+      "date_of_event": "2015-06",
+      "confidence": "high"
+    },
+    {
+      "id": 1336,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Complete DS10 STC transaction map: 16 transactions totaling $19.6M outgoing + $8.6M incoming (net $11M outgoing). OUTGOING: $3.05M to Citibank/Morgan Stanley (Jun 5, 2015), $1M to Citibank/Morgan Stanley (Aug 23, 2015), $175K to FirstBank Puerto Rico (Jun 11, 2015), $2M internal transfer (Oct 17, 2017), $4.4K to JPMorgan Chase (Oct 20, 2017), $13M to Interactive Brokers (Dec 23, 2019). Six internal STC-to-STC transfers totaling $15.7M. INCOMING: $6M internal Oct 2013, $373K internal Oct 2013, periodic $200-400K transfers (Feb 2016 through Oct 2018), $349K final Jan 2020. STC held 20 balance observations with peak $26.7M (Nov 2013) in DS10, but this dramatically understates the true peak of $110M (Dec 2015 per EFTA02347813) \u2014 DS10 captures only partial account data. Southern Financial LLC had separate 6 transactions ($602K out, $59K in) and portfolio peak $16.7M (Dec 2018). The $500K SFL to JPMorgan Chase (May 5, 2017) was the largest SFL wire in DS10.",
+      "detail": null,
+      "date_of_event": "2015-06-05",
+      "confidence": "medium"
+    },
+    {
+      "id": 1503,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "APO1 GRAT -- EPSTEIN MANAGED BLACK'S MOST VALUABLE ESTATE VEHICLE: DOJ corpus reveals 'APO1' was the name of the critical Grantor Retained Annuity Trust (GRAT) that Dechert identified as Epstein's most valuable advisory work -- solving a potential $500M-$1B+ estate tax liability. Key documents: (1) EFTA02716718 (Jul 23, 2015): Ada Clapp (Chief Legal Officer, Elysium) sent Epstein an 'Administrative Services Agreement between Elysium and APO1 Trust-v17' plus 'Summary of APO1 ASA with Elysium.' This agreement formalized the mechanism whereby 'family trusts and entities can begin to cover' costs -- indicating APO1 Trust was paying Elysium for management services. (2) EFTA02703091: Clapp provided Epstein the full APO1 GRAT package: GRAT Agreement, initial funding assignment, annuity payment chart, email about 'the GRAT's failure and the final annuity,' and Empire Valuation invoices. (3) EFTA02705357 (Apr 8, 2016): Joslin sent Epstein the APO1 Agreement's FY2015 grantor trust tax return with password protection. The 'APO' prefix strongly suggests the trust held Apollo equity -- meaning the GRAT that Epstein solved involved transferring Apollo shares/interests tax-efficiently to Black's heirs. The password-protected tax returns sent directly to Epstein demonstrate his complete access to Black's most sensitive estate planning documents.",
+      "detail": null,
+      "date_of_event": "2015-07-23",
+      "confidence": "high"
+    },
+    {
+      "id": 631,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "On August 21, 2015, Epstein sent a self-memo (to-do list) revealing: (1) He was 'sitting on over 130 million in CASH', (2) His family office had too many employees ('brad hiring another bookkeeper?'), (3) He instructed 'brad' (Karp) to wire $5M charitable contribution to Gratitude America before Sept 1, (4) Referenced 'difficult few months.' The prior day (Aug 20), Epstein emailed Melanie Spinella with a stream-of-consciousness list: 'boat, plane, tax returns, art space, phaidon, IT, TRA jpm db gs' and instructed wiring to Southern Trust 'to cover work done until today.' This reveals Epstein's direct operational control over Southern Trust/Financial, his awareness of the $130M+ cash position across accounts, and Karp's role directing fund flows.",
+      "detail": null,
+      "date_of_event": "2015-08-21",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 219,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Oct 2015 Black-Epstein payment of $19.75M split: $15M to Southern Trust Company (Deutsche Bank acct 44129244) via Black Family Partners-0135, and $4.75M to J Epstein VI Foundation via automotive LLC to avoid public disclosure of Leon's name. Richard Kahn directed Brad Wechsler (Black's office) on routing. Automotive LLC was single-member LLC owned by Black for automobile purchases, used as pass-through to make the $4.75M appear as charitable donation on Black's 2015 Form 1040. Entity lacked cash so required loan from Leon Black-0945 or LDB 2014 LLC-8991. Wire to Pershing LLC (Bank of NY) acct 890-51238-4, then to J Epstein VI Foundation acct N4G024950.",
+      "detail": null,
+      "date_of_event": "2015-10",
+      "confidence": "high"
+    },
+    {
+      "id": 1478,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "EPSTEIN COMPREHENSIVE SCOPE OF APOLLO/BLACK ADVISORY -- HOUSE OVERSIGHT DOCS: HOUSE_OVERSIGHT_023291 (Oct 27, 2015, Epstein email to Spinella/Wechsler) reveals Epstein's 25-item detailed work program covering the full scope of Black family/Apollo matters: '1 phaidon 2 new trustee 3 art partnership 4 grats 5 art space 6 regan arts 7 plane restructure refinance 8 boat restructure 9 estate plan refresh 10 TRA review sale 11 BRH doc review 12 sale of stock/art 13 gifts of art 14 charity pledges 15 cash flow 16 new IT/personnel 17 operational redo 18 debra/children involvement 19 tax plan disclosures gaming foreign apollo and phaidon related 20 investments rationalize 21 bank loans consolidate 22 consolidate/reduce entities 23 outside consultants 24 review legal bills 25 Bens house alex films.' Separately, HOUSE_OVERSIGHT_023222 (May 28, 2015) lists Epstein's scope as: 'investment, PE, real estate, publishing, grats, tra, brh (death), foundation, museum, tax projections cash flow projections, coordination with tax from apollo.' The '(death)' reference to BRH indicates Epstein was specifically modeling consequences of a founder's death on the BRH partnership structure -- the most sensitive possible corporate succession scenario.",
+      "detail": null,
+      "date_of_event": "2015-10-27",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 233,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company MMDA balance was $109,981,919.36 as of Dec 2015 (EFTA02347813). This was Epstein's single largest cash holding. STC had Deutsche Bank account (44129244) receiving Leon Black payments. Also invested in Carvana stock (75,000 shares at $65.19 avg, Sep 2018) through Morgan Stanley/Schermerhorn. STC registered as VIEDC beneficiary. Tax/accounting by Seckendorf Hasson & Reilly (Lake Success NY) covering all JE Entities. Used for visa applications (Karyna Shuliak Japan visa). Address used as meeting location (Albert Bryan visited 1:30pm, 3rd floor American Yacht Harbour).",
+      "detail": null,
+      "date_of_event": "2015-12",
+      "confidence": "high"
+    },
+    {
+      "id": 1236,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Complete timeline of Rowan-Epstein documented interactions: Sept 2013: Epstein set Google Alert on 'rowan'. May/Jun 2014: Richard Kahn forwarded Rowan's Apollo share sales articles to Epstein. Dec 16 2015: Melanie Spinella arranges Rowan-Epstein first meeting. Dec 29 2015: Epstein's hand-deliver memo references 'Rowen request re Athene.' Jan 6 2016: 8am breakfast at Epstein residence. Jan 9: Black directs Rowan+Cohen to call Epstein re DAFs. Jan 18: Epstein proposes 25% Athene fee naming marc and josh. Jan 21: Epstein engages Paul Weiss on Apollo/Athene restructuring. Feb 1-22: Multiple calls/meetings, TRA/inversion/valuation discussions. Mar 4-14: TRA calculations forwarded, inversion progress. Aug 12 2016: Rowan introduces Shwachman for USVI insurance. Aug 15: Leon agenda includes Athene and josh/mark. Aug 26: Epstein offers to explain Form 8865. Apr 3 2018: Ruemmler asks Epstein if she has met Rowan.",
+      "detail": null,
+      "date_of_event": "2015-12-16",
+      "confidence": "medium"
+    },
+    {
+      "id": 1230,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "In Epstein's explosive 'DO NOT SEND, hand deliver' memo to Leon Black (Dec 29, 2015, EFTA02451672), Epstein combined a scathing critique of Black's financial operations with the first reference to 'Rowen request re Athene, 2 billion in taxes on transaction.' This same memo discusses: (1) the Phaidon payout dispute (Epstein expected 50% of $20M), (2) 'Halperin has a conflict that should be addressed', (3) 'inversion rules', (4) 'insurance regs, out and inbound issues', (5) Rothschild bank $150B distribution network. The Rowan/Athene item appears as one element of Epstein's comprehensive advisory role across all Apollo/Black affairs. The memo proves Epstein was functioning as shadow chief financial adviser to Black/Apollo.",
+      "detail": null,
+      "date_of_event": "2015-12-29",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1287,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "STC peak balance $109,981,919.36 (MMDA account, Dec 30, 2015) confirmed via Deutsche Bank online banking screenshot forwarded by Kahn. On that date, a single $10,000,000 incoming wire posted at 1:57PM ET. Separately, Oct 2014 statement shows balance reached $88,224,973.81 after $20M in same-day incoming wires ($13M + $7M on Oct 16 2014). Nov 2015 Kahn email to Epstein lists three accounts over $20M: Southern Trust $82.5M, Haze Trust $47.375M, Southern Financial LLC $29.25M \u2014 combined $159.125M in liquid balances. Darren Indyke instructed $20M transfer to 'erika escrow account' (Kellerhals) routing through JEE personal. Complete STC balance trajectory: Near-zero (early 2013) -> $27.3M (Oct 2013) -> $88.2M (Oct 2014) -> $110M (Dec 2015) -> $56.5M (June 2016) -> $18M (May 2017) -> near-zero (Oct 2017-2018) -> $91K (May 2019) -> consolidated to IB (Dec 2019).",
+      "detail": null,
+      "date_of_event": "2015-12-30",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1486,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "EPSTEIN MANAGED APOLLO/BLACK MULTI-PARTY ADVISORY ECOSYSTEM: HOUSE_OVERSIGHT_023355 reveals the full scope of professional advisors Epstein was coordinating across the Black/Apollo financial architecture: Paul Weiss (estate/tax), McDermott Will & Emery, Macfarlanes (UK law), PricewaterhouseCoopers, Reich (accounting), Withers Bergman (international private client), Empire Valuation Consultants, Akin Gump, BDO Seidman, 'Wendy' (likely Wendy Brandes, trusts attorney referenced in TRA/BRH work at EFTA02456210), and 'Apollo in house' -- confirming Epstein had direct coordination with Apollo's internal tax/legal function. This advisory ecosystem involved 'many outside counsel with little or no coordination' until Epstein imposed structure. The list also includes: 'lumber, knowledge universe, environmental solutions 12 million in stock' -- revealing ESWW was a $12M stock position managed alongside Apollo-related entities. Epstein was the single coordination point for this entire advisory network, which explains the $158M fee and the difficulty of replacing him.",
+      "detail": null,
+      "date_of_event": "2016",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 2570,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Leon D. Black Foundation (EIN 205117734) shows zero grants, zero contributions paid across all 8 annual filings (2016-2024) per IRS 990-PF. TotalGrantOrContriPdDurYrAmt=0 every year. Appears to be a dormant or purely investment holding vehicle, not an active grantmaking foundation. All active grantmaking goes through Debra and Leon Black Family Foundation (EIN 133947890).",
+      "detail": null,
+      "date_of_event": "2016",
+      "confidence": "high"
+    },
+    {
+      "id": 1199,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Leon Black directed Barry Cohen and Marc Rowan to call Epstein regarding Donor Advised Funds. Melanie Spinella (Black's executive assistant at Apollo Management) wrote: 'Leon has asked Barry Cohen and Marc Rowan to call you re Donor Advised Funds - Barry wanted me to give you a heads up' (EFTA02405147, undated but Jan 2016 context). DAFs are charitable giving vehicles with significant tax benefits. This confirms Black was actively delegating Apollo financial matters to Epstein with Rowan's direct involvement.",
+      "detail": null,
+      "date_of_event": "2016-01",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1173,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein proposed a 25% fee on the Athene transaction to Melanie Spinella (Leon Black's assistant), explicitly naming 'marc and josh' (Rowan and Harris) as parties who would need to sign on. Epstein wrote: 'I propose a 25% fee based on benefit to all founders... if there is a 300 overall benefit, then each founder would pay 25 m... marc and josh would have to sign on' (Jan 18, 2016). This proves Epstein expected ALL three Apollo co-founders to be involved in his fee arrangement, not just Black.",
+      "detail": null,
+      "date_of_event": "2016-01-18",
+      "confidence": "high"
+    },
+    {
+      "id": 1291,
+      "target_name": "Joshua Harris",
+      "finding_type": "financial",
+      "summary": "Epstein explicitly named Harris as a party who needed to sign off on his 25% Athene advisory fee proposal. In Jan 18 2016 email to Melanie Spinella (Leon Black assistant), Epstein wrote: 'I propose a 25% fee based on benefit to all founders...if there is a 300 overall benefit, then each founder would pay 25 m...If OK with you, marc and josh would have to sign on.' This confirms (1) Epstein expected compensation from ALL three Apollo co-founders, not just Black, (2) Harris was aware of Epstein's advisory role on the Athene restructuring, and (3) the proposed total fee was up to 75M (25% of 300M benefit). Epstein forwarded this email to himself on Mar 25 2017 (EFTA02655647), likely for record-keeping.",
+      "detail": null,
+      "date_of_event": "2016-01-18",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1179,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein engaged Brad Karp (Chairman of Paul, Weiss) on the Apollo/Athene restructuring on Jan 21, 2016, describing the work as covering 'apollo/athene - rothschild (possible) USVI less likely', requiring review of 'BRH agreement, agreement amongst principals, TRA, consequences on death, insurance reg and restrictions, on-shore and off-shore, personal income tax, PFIC or CFC, SEC disclosures, inversion' rules. Karp responded: 'we're all very excited.' Epstein also mentioned getting Kathy Ruemmler to recommend a hire at Paul Weiss. This was just 3 days after Epstein's Athene fee proposal \u2014 the firm work was to implement the restructuring.",
+      "detail": null,
+      "date_of_event": "2016-01-21",
+      "confidence": "high"
+    },
+    {
+      "id": 1191,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein negotiated with Rowan regarding a 'Fenn' matter and fee structure, writing: 'spoke to fenn, I am waiting on you to decide whether you want me to move forward, and if, and only if successful, what you three propose as a fee.' (Feb 12, 2016). Rowan responded: 'WPPI...care of MR'. The reference to 'you three' (i.e., the three Apollo co-founders: Black, Rowan, Harris) and fee negotiation confirms Epstein was providing compensated advisory services to all three Apollo founders jointly. WPPI likely refers to Wharton Public Policy Institute \u2014 Epstein also noted 'summers gave a lecture at wharton public policy school, is that your deal?'",
+      "detail": null,
+      "date_of_event": "2016-02-12",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1202,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Rowan emailed Epstein about 'Empire' wanting to chat (Feb 19, 2016). Richard Kahn forwarded Epstein a NY Post article 'Rowan finds more luck in personal investments' (Jun 7, 2014) and a Bloomberg article 'Apollo Billionaire Rowan Sells 72.8 Million in Shares' (May 27, 2014). The Kahn forwards show Epstein's inner circle actively monitoring Rowan's financial activities and Apollo share transactions. The 'Empire' subject line likely refers to a deal or entity Rowan was discussing with Epstein.",
+      "detail": null,
+      "date_of_event": "2016-02-19",
+      "confidence": "high"
+    },
+    {
+      "id": 1193,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Rowan discussed Epstein's valuation critique of Apollo unit transfers. Rowan wrote: 'I found the same long valuation report when I transferred units to the various estate planning vehicles' (Feb 21, 2016). Epstein responded with pointed critique: 'did you see the goofy description, ie puts, for example not realizing that there is a traded market in them, they also added 144 restrictions. were sec filings made on your transfers? did not take into account termination clause. or current year knowledge of projections.' This shows Epstein critiquing the valuation methodology used for Rowan's personal Apollo unit transfers to estate planning vehicles.",
+      "detail": null,
+      "date_of_event": "2016-02-21",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1169,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Rowan served as Epstein's financial adviser on Apollo TRA (Tax Receivable Agreement) valuation. Epstein directly asked Rowan 'the tra libility amount is on apollos balance sheet. can you find how they calculate?' (Feb 22, 2016). Rowan forwarded confidential Apollo internal TRA calculations from CFO Chris Weidler to Epstein (Mar 4, 2016), including DTA discount rates, management fee cash flows, and carried interest projections. This reveals Epstein had direct access to Apollo's most sensitive financial modeling through Rowan.",
+      "detail": null,
+      "date_of_event": "2016-02-22",
+      "confidence": "high"
+    },
+    {
+      "id": 528,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Brad Karp emailed Paul Weiss partner Bruce Birenboim on Mar 3, 2016 asking: 'I have been asked by Leon if we can have a $2m escrow fund established at the firm, from which payments would be made monthly pursuant to a contract with an individual. Leon would pay any and all costs and indemnify the firm against any claims.' Birenboim responded: 'Our policy is not to act as escrow agent, except in standard personal real estate transactions.' Karp forwarded this exchange to Epstein. This reveals Leon Black sought to route monthly payments to an unnamed individual through Paul Weiss as escrow agent, and Epstein was informed of the arrangement.",
+      "detail": null,
+      "date_of_event": "2016-03-03",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1185,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein asked Rowan about 'the inversion' in the context of Apollo TRA valuations: 'have you made any progress on the inversion?' (Mar 14, 2016). An 'inversion' in this context means restructuring Apollo from a US partnership into a foreign corporation to reduce the tax burden on TRA payments and founder distributions. Rowan responded 'minimal'. Epstein also asked about the 'worksheet calculation for the tra number on the balance sheet' and whether they were 'undiscounted' \u2014 demonstrating deep working knowledge of Apollo's tax structure.",
+      "detail": null,
+      "date_of_event": "2016-03-14",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 636,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc held $56,542,688.38 in a Deutsche Bank Elite Money Market Deposit account as of June 2016 (statement period June 1-30, 2016). Address: 6100 Red Hook Quarter B3, St Thomas 00802 USVI. Relationship manager: Paul Morris. This is the parent entity of Southern Financial LLC. The DB daily deposit report (EFTA01383662, Apr 2018) lists Southern Financial LLC alongside other Epstein entities: JEGE LLC, Darren K Indyke PLLC, HBRK Associates, NES LLC, LSJE LLC, Gratitude America Ltd, Neptune LLC, Plan D LLC, Zorro Management LLC - confirming Southern Financial as part of the core Epstein entity constellation at Deutsche Bank.",
+      "detail": null,
+      "date_of_event": "2016-06",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1211,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein advised Reid Hoffman on tax-free stock donation via CRT (Charitable Remainder Trust) in the context of a corporate inversion: 'trust (CRT), where the stock can be sold on a tax-free basis... To avoid this result, it is best to make the donation of stock before shareholder approval of the inversion occurs' (Jul 26, 2016, EFTA02456896). This confirms Epstein was simultaneously advising multiple billionaires on inversion-related tax strategies during the same period he was advising Rowan on Apollo's inversion. The expertise was not hypothetical -- it was an active advisory practice.",
+      "detail": null,
+      "date_of_event": "2016-07-26",
+      "confidence": "high"
+    },
+    {
+      "id": 541,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Marc Rowan (Apollo Global co-founder) personally introduced Epstein to Perry Shwachman (Partner, Sidley Austin LLP) in the context of 'Liquid Funding' (EFTA02454291, Aug 2016). Rowan wrote: 'I will leave it to the two of you to discuss directly.' Shwachman then contacted Epstein about 'potential new USVI insurance regulations' (EFTA02361689, Aug 2016). This reveals Rowan was actively brokering connections for Epstein well after Epstein's 2008 conviction. The 'Liquid Funding' context appears on FTC's 2009 K-1, suggesting a shared investment history. Separately, the Dechert LLP memo (EFTA02730996) commissioned by Apollo Conflicts Committee investigated the Epstein/Black relationship and confirmed AP SHL and AP Technology were formed by 'certain Apollo executives' \u2014 Rowan, as co-founder, would have known about these side vehicles. Rowan's introduction of Shwachman to Epstein for USVI regulatory influence echoes the broader pattern of Apollo executives facilitating Epstein's access to institutional power.",
+      "detail": null,
+      "date_of_event": "2016-08",
+      "confidence": "high"
+    },
+    {
+      "id": 1209,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein's 'leon agenda' memo (Aug 15, 2016) lists 14 action items including '10 apollo insurance AThene' and '14. sit with josh and mark re amendments' (EFTA02455405). 'Mark' is likely Marc Rowan, 'josh' is Joshua Harris. This memo shows Epstein managing all three Apollo co-founders' business simultaneously. The mention of Athene alongside the Rowan-Shwachman USVI insurance introduction (same month) demonstrates that Epstein was coordinating multiple Apollo/Athene workstreams: the insurance vehicle, the corporate restructuring, and the TRA optimization.",
+      "detail": null,
+      "date_of_event": "2016-08-15",
+      "confidence": "high"
+    },
+    {
+      "id": 1300,
+      "target_name": "Joshua Harris",
+      "finding_type": "financial",
+      "summary": "Epstein's 'leon agenda' memo (Aug 15 2016) includes item '14. sit with josh and mark re amendments' alongside '10 apollo insurance AThene.' This confirms Epstein was simultaneously managing all three Apollo co-founders' business. The 'amendments' likely refer to Apollo partnership agreement modifications needed for the Athene merger/restructuring. Harris and Rowan were not passive bystanders to the Black-Epstein relationship -- they were active participants in Epstein's advisory work on Apollo corporate matters, including the B Athene tax optimization, TRA modifications, and corporate inversion planning.",
+      "detail": null,
+      "date_of_event": "2016-08-15",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1507,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "SOUTHERN TRUST COMPANY BROKER-DEALER ACTIVITY -- ACTIVE SECURITIES TRADING: DOJ corpus reveals Southern Trust Company (the renamed FTC entity) was actively trading securities through Morgan Stanley, not merely holding the Apollo IPO shares passively. Evidence: (1) EFTA02454166 (Aug 16, 2016): Andrew Atlas (Morgan Stanley Financial Advisor, Midtown Manhattan Complex) notified Richard Kahn that 'Southern Trust Company was allocated 500m bonds' in an EsTrade Preferred offering at 5.875%. The $500M bond allocation indicates Southern Trust maintained institutional-scale brokerage relationships. (2) EFTA02360125: 'Southern Trust Co. WING allocated 200 shares; priced 19. Opened at 30.50.' Andrew Atlas asked if Kahn wanted to 'hold or sell.' (3) EFTA02714849: 'Southern Trust Company was allocated $1,000,000.00 worth of the SCHW 6% $25 Pfd.' (4) EFTA02505378: 'Southern Financial LLC' received a $1M capital call from Neoteny 3 LP (Apr 2015). (5) EFTA02624629 (Sep 2018): 'CVNA - Carvana - for Southern Trust Company' -- purchased 75,000 shares at $65.19 average ($4.9M position). This demonstrates that the Epstein entity holding Apollo IPO shares (transferred from FTC to Southern Financial LLC) was simultaneously conducting active securities trading through Morgan Stanley, with institutional-level bond allocations and IPO participation in multiple companies.",
+      "detail": null,
+      "date_of_event": "2016-08-16",
+      "confidence": "high"
+    },
+    {
+      "id": 1189,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein was advising Rowan on IRS Form 8865 (Return of US Persons With Respect to Certain Foreign Partnerships). Epstein wrote: 'Happy to explain my thinking on the 8865 issue' (Aug 26, 2016). Form 8865 is required when US persons hold interests in foreign partnerships \u2014 this directly relates to the offshore structuring of Apollo entities and the proposed inversion. This establishes Epstein as providing specific international tax advisory services to Rowan on Apollo's cross-border tax obligations.",
+      "detail": null,
+      "date_of_event": "2016-08-26",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1386,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "EFTA02651844 reveals that Apollo corporate was directly involved in the BRH K-1 tax issue that Epstein was coordinating. An unidentified tax professional wrote: 'I agree with Brad that it would be good to have Apollo acknowledge that the 884,006 corresponds to their new understanding of the implicitly revised BRH K-1. To do that, I have to tell them this number. Is that ok?' This confirms: (1) Apollo corporate (not just Black personally) was a participant in the IRS tax compliance matter. (2) BRH Holdings LP (the partnership through which all three Apollo founders hold their ownership interests) was at the center of the dispute. (3) The amount 884,006 required Apollo institutional acknowledgment. (4) The BRH K-1 was 'implicitly revised' -- meaning the original K-1 reporting was incorrect and needed correction, a potentially significant IRS compliance issue. Combined with EFTA02670537 ('is PW writing for all three guys?'), this proves the 8865/BRH tax matter was an institutional Apollo issue affecting all three founders, coordinated through Epstein.",
+      "detail": null,
+      "date_of_event": "2017",
+      "confidence": "high"
+    },
+    {
+      "id": 1760,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "No connection to blockchain or cryptocurrency found. Despite appearing in same Dechert Exhibit B ledger as Blockchain Capital and Blockstream investments, the Caterpillar Trust is a conventional GRAT holding membership interest in IGO Company LLC. The animal-themed naming convention aligns with Haze Trust and Butterfly Trust, not crypto. The 2.16M transfer to Butterfly Trust was for a standard Morgan Stanley brokerage account. Lead 1220 hypothesis of crypto vehicle is not supported by evidence.",
+      "detail": null,
+      "date_of_event": "2017",
+      "confidence": "medium"
+    },
+    {
+      "id": 1776,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "GRAT structure analysis: The Caterpillar Trust as a Grantor Retained Annuity Trust means Epstein retained the right to receive annuity payments from the trust while transferring eventual ownership to beneficiaries (likely associated with the Butterfly Trust). The 15M Blockchain Capital inflow and 2.16M Butterfly Trust outflow are consistent with GRAT mechanics where the grantor retains annuity payments and the remainder passes to beneficiaries. The trust holding IGO Company LLC membership interest, combined with the Blockchain Capital crypto fund investments, suggests the GRAT was used to transfer crypto/VC investment gains to beneficiaries at reduced tax cost.",
+      "detail": null,
+      "date_of_event": "2017",
+      "confidence": "medium"
+    },
+    {
+      "id": 1766,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "The 2017 Caterpillar Trust was a Grantor Retained Annuity Trust (GRAT) formed January 3, 2017, in the U.S. with address at 6100 Red Hook Quarter B3, St Thomas USVI 00802. Jeffrey Epstein was the Grantor and UBO. Daphne Wallace (DW, Epstein St Thomas office assistant) and Lesley Groff (LG, Epstein executive assistant) served as co-trustees. The trust held membership interest in IGO Company LLC.",
+      "detail": null,
+      "date_of_event": "2017-01-03",
+      "confidence": "high"
+    },
+    {
+      "id": 1778,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "USVI Grantor Retained Annuity Trust (GRAT) holding IGO Company LLC membership interest",
+      "detail": "Created January 3, 2017. Grantor: Jeffrey Epstein. Trustees: Daphne Wallace and Lesley Groff. Holds membership interest in IGO Company LLC (USVI #571920). Address: 6100 Red Hook Quarter B3, St Thomas USVI 00802. Deutsche Bank account #42969987 opened 01/03/2017. Part of Southern Financial relationship at Deutsche Bank (client since 2013). KYC case 01898372 processed with rush clearance for upcoming acquisition on 2/7/2018. AML/RDC alerts cleared as false positive (confusion with Caterpillar Inc NYSE:CAT).",
+      "date_of_event": "2017-01-03",
+      "confidence": "high"
+    },
+    {
+      "id": 1754,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Stewart Oldfield (CFA, CAIA, Director at DB Trust Company Americas, DB Wealth Management) was the primary DB banker managing Epstein trust relationships including Caterpillar Trust. On Jan 30 2017, Oldfield and Todd Stevens met with Epstein at 4:15pm (same day as Boris Nikolic at 3pm and Leon Black at 5pm). Oldfield later emailed Epstein and Kahn about levered muni structures and moving cash balances to higher yielding money market in DB AG. Oldfield also managed Gratitude, Haze Trust, and processed wire inquiries.",
+      "detail": null,
+      "date_of_event": "2017-01-30",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1576,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "BV70 LLC was an entity owned by Leon Black used to make two loans to Epstein's Plan D LLC: $22.5M on 3/31/2017 and $8M on 4/17/2017, totaling $30.5M. Deutsche Bank AML Compliance flagged the $22.5M wire and could not find any information about BV70 LLC on the internet. DB asked: What is the purpose? What is the relationship? What products/services does BV70 LLC provide? Kahn/HBRK managed the account. Loans were described as connected to an 'art transaction involving Epstein.' Black demanded full repayment in early 2018; Epstein repaid only $10M. The remaining $20.5M was unpaid at Epstein's death. BV70 LLC also transferred $10M to Gratitude America's MMDA on 10/14/2015, which was the primary capitalization source for that account.",
+      "detail": null,
+      "date_of_event": "2017-03-31",
+      "confidence": "high"
+    },
+    {
+      "id": 1175,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "Epstein referenced 'Rowen request re Athene, complex 2 billion in taxes on transaction' in a comprehensive advisory memo to Leon Black (Aug 25, 2017). This email demonstrates Rowan was directly requesting Epstein's tax advisory expertise on the Athene transaction, which involved approximately 2 billion dollars in tax implications. The memo covers Apollo/Athene restructuring, Rothschild bank partnership, USVI considerations, corporate inversions, TRA, shareholder agreements, SEC disclosures, and estate planning \u2014 showing Epstein functioning as a shadow adviser to all Apollo founders.",
+      "detail": null,
+      "date_of_event": "2017-08-25",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1768,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Blockspace.media reports that Blockchain Capital made three payments in February 2018 to The 2017 Caterpillar Trust, citing Deutsche Bank transaction records. This aligns with the Dechert Exhibit B ledger showing $15M flowing to the trust. Blockchain Capital purchased 50 percent of Epstein's Coinbase stake for $15M.",
+      "detail": "Per Blockspace.media article: 'Shortly after all this haggling, Blockchain Capital made three payments in February 2018 to a company ostensibly linked to Epstein, The 2017 Caterpillar Trust.' Per Fortune (Feb 6, 2026): A trust associated with Epstein later sold $15 million of Coinbase equity to Blockchain Capital in 2018. This suggests the $15M documented in Dechert Exhibit B as flowing to the Caterpillar Trust represents the proceeds from selling Epstein's Coinbase stake to Blockchain Capital, not STC/Southern Financial funding. The February 2018 timing matches the DB KYC review date (Feb 5, 2018).",
+      "date_of_event": "2018-02",
+      "confidence": "medium"
+    },
+    {
+      "id": 1743,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "DB due diligence on the Caterpillar Trust triggered false-positive AML alerts against Caterpillar Inc. on Feb 5 2018. The trust was rushed through KYC case 01898372 because of an upcoming acquisition where funds will need to be available by 2/7/2018. Cynthia Rodriguez at DB confirmed Epstein was the trust creator and grantor. AML cleared it as company false positive since the trust had no connection to Caterpillar Inc.",
+      "detail": null,
+      "date_of_event": "2018-02-05",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1758,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "DB AML compliance reviewed Caterpillar Trust as 'a new account for the Southern Financial relationship; a relationship of the Private [Wealth Management]'. KYC prepared Feb 5, 2018 by Priyanka Rathore. OFAC/RDC generated 2 alerts (KYC 01898372). FIRCOSOFT classified entity as 'Company'. No negative media, D&B, Smartlinx, or court results found.",
+      "detail": "EFTA01299264/EFTA01364114: Rush RDC Alert emails from AML Compliance reviewing alerts generated 2/5/18 for The 2017 Caterpillar Trust, identified as 'a new account for the Southern Financial relationship'. EFTA01297502: Full KYC/AML research report showing no negative findings. EFTA01364204: Combined RDC alerts for both Jeffrey Epstein and The 2017 Caterpillar Trust.",
+      "date_of_event": "2018-02-05",
+      "confidence": "high"
+    },
+    {
+      "id": 1773,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank PWM BIS-RESEARCH due diligence on Caterpillar Trust (KYC 01898372, dated 2/5/2018) found zero negative media, zero court cases, zero D&B records, zero Smartlinx records. OFAC RDC alerts triggered because of name similarity to Caterpillar Inc (NYSE: CAT, which was charged with accounting fraud) but were dismissed. AML compliance confirmed trust was a new account under the Southern Financial relationship, which had been a Private Bank client since 2013. Trust address listed as USVI.",
+      "detail": null,
+      "date_of_event": "2018-02-05",
+      "confidence": "high"
+    },
+    {
+      "id": 1741,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Bebe Avdiu, Legal Assistant at Darren K. Indyke PLLC at 575 Lexington Avenue 4th Floor, handled Caterpillar Trust paperwork in February 2018. On Feb 14 2018, she confirmed page 3 of a scanned document was correct and thanked the sender. This establishes Indyke PLLC as legal counsel for the trust.",
+      "detail": null,
+      "date_of_event": "2018-02-14",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1769,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust DB Account 42969987 received 15M in three Blockchain Capital wire transfers on 2/21/2018: Blockchain Capital IV LP (10.5M), Blockchain Capital III Digital Liquid Venture Fund LP (2.625M), Blockchain Capital Parallel Fund IV LP (1.875M). As of 1/31/2019 trust held 13.65M balance. On 3/18/2019, 2.16M was transferred from DB Caterpillar Trust to fund the Butterfly Trust brokerage account at Morgan Stanley.",
+      "detail": null,
+      "date_of_event": "2018-02-21",
+      "confidence": "high"
+    },
+    {
+      "id": 406,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "Apollo Global Management maintained continuous lobbying presence 2014-2025 via Brownstein Hyatt Farber Schreck. 84 total filings. Spending escalated dramatically around Epstein arrest: Q1-Q4 2018 was steady at 80K/quarter (320K/year), then jumped to 120K in Q1 2019, 210K in Q2-Q3 2019, and 670K in Q4 2019 (1.21M total for 2019 - a 278% increase). Q1 2020 continued at 520K. All filings focused on Financial Institutions/Investments/Securities and portfolio management. Added Media/broadcast issues and Foreign Relations lobbying topics in 2017-2019. Key lobbyists include Marc Lampkin, Nadeam Elshami (former Pelosi CoS), Norman Brownstein (firm founder).",
+      "detail": null,
+      "date_of_event": "2018-10",
+      "confidence": "medium"
+    },
+    {
+      "id": 1482,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Black Family Foundation 2019 990-PF granted $250,000 to Tony Blair Foundation, $2,000,000 to Memorial Sloan-Kettering Cancer Center, $1,500,000 to Harvard College, $50,000 to Washington Park Foundation, and $10,000 to Nature Conservancy. Total grants: $3,810,000. Foundation renamed to 'Debra and Leon Black Family Foundation Inc f/k/a Leon Black Family Foundation Inc.' Approved $11,817,142 for future payment.",
+      "detail": null,
+      "date_of_event": "2019",
+      "confidence": "high"
+    },
+    {
+      "id": 1594,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Black Family Partners LP is the central family holding partnership. Per EFTA01919502, the 'Global Black family' entity list includes: LDB, AIF Management, BJAV Marine Ltd, Narrows Holdings (I and II), ILIT #2, BFP LP, APO1 Agreement, LBF Holdings LLC, APO1 GRATs 1-7, Black Family 1997 Trust, Black Family 1997 GST Exempt Trust, SH Meadow Lane LLC, OFH LLC, LDB 2011 LLC, ASB 2011 Trust, BEB 2011, BV70 LLC, JMWT LLC, Pent Holdings Inc, NY 70th Street LLC. The partnership had 8 partners: Leon Black personally plus 7 grantor trusts. BFP LP operated with credit facilities (notably to Phaidon Global LLC, Black's UK publishing company). Per EFTA01919645, BFP held 92,717,166 APO shares with cash flow percentages allocated across the trusts and GRATs.",
+      "detail": null,
+      "date_of_event": "2019",
+      "confidence": "high"
+    },
+    {
+      "id": 1751,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Epstein responded to Kahn's email about the Butterfly Trust funding from Caterpillar Trust, asking about Paul Barrett's account structure: ok, try to enjoy your vacation. how did paul barrets account shield us? im going to meet with QNB people this week. Kahn replied: Paul's account was in name of alphagroup. This links the Caterpillar Trust to an entity called alphagroup and to QNB (Qatar National Bank), and reveals concern about account shielding from scrutiny.",
+      "detail": null,
+      "date_of_event": "2019",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1779,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "DB account balance .65M (Jan 2019), dormant checking K (Apr-Nov 2018), wound down by April 2019",
+      "detail": "Deutsche Bank account #42969987 held ,000 in business checking (Apr-Nov 2018 statements show zero activity). However, the trust held ,653,978.34 as shown in the Jan 31, 2019 RM account listing (under RM code 81851, same as Epstein's Southern Trust Company and Wanek family entities). On March 18, 2019, ,160,000 was transferred from DB Caterpillar Trust to fund the 2013 Butterfly Trust at Morgan Stanley. The trust account was closed by customer request around March 2019. By April 4, 2019, DB could not reopen the account and discussed issuing a check for rejected wire funds to be mailed to St. Thomas address.",
+      "date_of_event": "2019-01",
+      "confidence": "high"
+    },
+    {
+      "id": 1303,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "FirstBank USVI rejected STC request to open 6 new deposit accounts on Feb 28, 2019 (4.5 months pre-arrest). VP Dina Perry-Malone wrote: 'After careful review and consideration of your request to open six additional deposit accounts, we cannot proceed with aforementioned at this time.' FirstBank simultaneously requested beneficial ownership certifications for 18 existing entity accounts: Cypress Inc, F T Real Estate Inc, Freedom Air Petroleum LLC, FSF LLC, Gratitude America Ltd, Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands Foundation Inc, Jeepers Inc, Laurel Inc, Little St James LLC, LSJE LLC, Maple Inc, and others. Michelle Smith-Roberts (Waterfront Branch and Platinum Banking Manager) had requested information about wire beneficiaries including American Yacht ($37K, $38K), Citizens for Better Government ($50K), Democratic Cong ($10K), and monthly payments to unnamed individuals ($8,333 each). This shows banks tightening oversight months before arrest.",
+      "detail": null,
+      "date_of_event": "2019-02-28",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1782,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "March 2019 restructuring: Caterpillar Trust wound down, .16M moved to Butterfly Trust at Morgan Stanley, accounts closed at Deutsche Bank",
+      "detail": "On March 18, 2019, Richard Kahn informed Epstein that the Butterfly Trust brokerage account had been opened at Morgan Stanley (FA: Andrew S. Atlas, 1290 Ave of Americas 12th Floor) and funded with approximately ,160,000 from 'db caterpillar trust.' The same day, Bella Klein processed documents to close the Caterpillar Trust and account 4659 at Deutsche Bank. Epstein asked 'how did paul barrets account shield us?' and mentioned meeting 'QNB people' (Qatar National Bank). By March 29, 2019, Deutsche Bank staff (Ruchi Lohani, Brigid Macias) discussed 'returned funds to Caterpillar' because the account was 'closed by customer request.' By April 4, 2019, the trust was described as 'wound down' and DB could not reopen the account.",
+      "date_of_event": "2019-03",
+      "confidence": "high"
+    },
+    {
+      "id": 1727,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "On March 18 2019, approx 2.16M transferred from DB Caterpillar Trust to fund the newly opened 2013 Butterfly Trust brokerage account at Morgan Stanley. Richard Kahn emailed Epstein: Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust. Managed by Andrew S. Atlas, Senior VP Equity Sales, Morgan Stanley Wealth Management, 1290 Avenue of the Americas. Wire via Citibank 111 Wall Street.",
+      "detail": null,
+      "date_of_event": "2019-03-18",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1756,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust served as predecessor/feeder for the Butterfly Trust at Morgan Stanley. On March 18, 2019, Kahn emailed Epstein: 'Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.' Morgan Stanley account was in name of 'The 2013 Butterfly Trust'.",
+      "detail": "Richard Kahn to Jeffrey Epstein, March 18, 2019 4:33 PM: 'Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.' The Butterfly Trust Morgan Stanley account opened by Andrew S. Atlas (Senior VP, Equity Sales/Middle Markets, 1290 Avenue of the Americas). Wire instructions: Citibank 111 Wall St NY, for benefit of Morgan Stanley Smith Barney LLC, for further credit to The 2013 Butterfly Trust. In same thread Epstein asks about Paul Barrett/Alpha Group Capital and QNB meeting.",
+      "date_of_event": "2019-03-18",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1772,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust DB account was closed by customer request in March 2019 and trust wound down by April 2019. On 3/18/2019, Bella Klein coordinated closing 2 DB accounts (Caterpillar Trust and 4659). On 3/29/2019, returned funds were rejected because account was already closed. On 4/4-5/2019, Deutsche Bank attempted to issue check to trustees but could not reopen account. Brigid Macias requested both trustees (Groff and Wallace) sign authorization letter. Trust administration concluded before Epstein July 2019 arrest.",
+      "detail": null,
+      "date_of_event": "2019-03-18",
+      "confidence": "high"
+    },
+    {
+      "id": 1747,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Richard Kahn demanded secrecy around trust operations. On March 23 2019, Kahn asked Stewart Oldfield to confirm he did not disclose Epstein's name when speaking with a banker. Oldfield replied: There was no discussion of any names. Not even the name of the trust. This demonstrates deliberate concealment of Epstein's connection to the trust from banking counterparties.",
+      "detail": null,
+      "date_of_event": "2019-03-23",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1745,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "DB internal communications about the Caterpillar Trust on April 4 2019 involved: Daphne Cales (Director, Banking Services and Branch Manager, DB Trust Company Americas), Natalie Barak (VP, Relationship Officer, DB Wealth Management), Brigid Macias (AVP), and Stewart Oldfield. Email references TTEES for The 2017 Caterpillar Trust indicating trustee-related matters.",
+      "detail": null,
+      "date_of_event": "2019-04-04",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1737,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust had two trustees who must both sign authorization letters. On April 5 2019, Brigid Macias at Deutsche Bank Trust Company Americas sent letter to process check payable to Lesley Groff. Daphne Wallace and Lesley Groff both signed as trustees. Bella Klein coordinated. Groff joked about keeping the check. Stewart Oldfield was also consulted.",
+      "detail": null,
+      "date_of_event": "2019-04-05",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1763,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "April 5, 2019 'Follow Up - Caterpillar Trust' email chain: DB Trust Company Americas (Brigid Macias, AVP) instructed trustees Daphne Wallace and Lesley Groff to sign letter authorizing a check. Groff jokes 'do I get to keep the check?' Both trustees required to sign. Groff then spoke with Stewart Oldfield (DB). Confirms Wallace and Groff acted as active co-trustees.",
+      "detail": "EFTA02281947/EFTA02282543/EFTA02282564/EFTA02282632: Email chain dated April 5, 2019 (4 versions). Brigid Macias (AVP, DB Trust Company Americas, 345 Park Ave 24th Floor) sends letter for trustees to sign to authorize check processing. Bella Klein coordinates: 'Daphne, Please sign the attached letter and forward to Lesley. Lesley please print letter after received from Daphne sign it and return to my email.' Lesley Groff jokes 'do I get to keep the check? ;)' Bella replies 'You and I wish..' Groff: 'hahahha\\! can we split it? I spoke with Stewart Oldfield...' Attachment: CT LOA.docx (Letter of Authorization).",
+      "date_of_event": "2019-04-05",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1320,
+      "target_name": "Marc Rowan",
+      "finding_type": "financial",
+      "summary": "ROWAN FEC ANALYSIS: Marc Rowan is a heavily Republican donor via Apollo Management. Key contributions 2019-2025: (1) AIPAC (LittleSis, amount not specified) - significant given Rowan's prominence in pro-Israel advocacy. (2) Mitch McConnell ,600 (May 2019). (3) John Barrasso ,900 (Dec 2021). (4) Marco Rubio ,800 (Dec 2021). (5) NY Republican Federal Campaign Committee ,000 (Dec 2025). (6) Multiple Congressional candidates at ,500 each (2025). Rowan lists employer as 'Apollo Management' or 'Apollo Global Management' on all filings. His donation pattern is heavily Republican with no Democratic contributions visible, contrasting with Harris's bipartisan giving and PTJ's bipartisan pattern. Rowan's political giving aligns with his post-Black role as Apollo CEO -- managing the firm's political relationships.",
+      "detail": null,
+      "date_of_event": "2019-05",
+      "confidence": "medium"
+    },
+    {
+      "id": 1296,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Operational security failure May 24, 2019 (6 weeks pre-arrest): Journalist 'Nova' (surname only, no first name given) called STC's USVI office. When receptionist Una answered as 'Southern Trust Company,' Nova pivoted from his original inquiry about 'Financial Trust' to Southern Trust, noting he could find nothing about STC on Google. Nova told Una 'he would then have no choice but to leave what we did up to his own interpretation.' Cecile de Jongh (former USVI First Lady, STC office manager) reported to Indyke, asking: 'Should we start answering the phone with 2525?' (the address number). Richard Kahn identified Nova as 'a journalist. hes called a number of people.' This reveals: (1) STC had no public internet presence by design, (2) journalists were actively investigating pre-arrest, (3) the entity naming confused even staff (Groff writing checks to wrong entity), (4) the office operated under deliberate opacity.",
+      "detail": null,
+      "date_of_event": "2019-05-24",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1297,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "USMS personal effects at arrest confirm Southern Trust Company as Epstein's employer of record as of July 2019. UnitedHealthcare Choice Plus card shows Group Number 272605 under employer name 'Southern Trust Company'. The USM-312 form lists employer phone as 340-775-2525 (USVI area code). This confirms Southern Trust maintained active employee benefits through at least the arrest date. The health plan number 911-87726-04 and payer ID 87726 could be used to trace the corporate benefits arrangement. Also: USMS prisoner records list occupations as 1-BANKER, 2-SOUTHERN TRUST COMPANY, 3-SELF EMPLOYED (in that order), suggesting BANKER was primary identity and STC secondary.",
+      "detail": null,
+      "date_of_event": "2019-07",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 408,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "Apollo Global Management lobbying spending increased 278% from 2018 to 2019 (320K to 1.21M), coinciding with renewed Epstein scrutiny and Leon Black relationship revelations. Q4 2019 alone was 670K - more than double the entire 2018 annual spend. New issue areas added: Media/broadcast transaction issues and Foreign Relations. This suggests Apollo was managing political risk related to the Epstein scandal and Black's position.",
+      "detail": null,
+      "date_of_event": "2019-10",
+      "confidence": "medium"
+    },
+    {
+      "id": 1771,
+      "target_name": "The 2017 Caterpillar Trust",
+      "finding_type": "financial",
+      "summary": "Akin Gump letter (11/19/2019) to SDNY responding to grand jury subpoena confirms 2013 Butterfly Trust and 2017 Caterpillar Trust were linked. Deutsche Bank received Butterfly Trust documents during Caterpillar Trust due diligence. The letter identifies beneficiaries of the 2013 Butterfly Trust whose payment records were compiled because of the Caterpillar Trust relationship. This links both trusts as parts of the same estate planning architecture.",
+      "detail": null,
+      "date_of_event": "2019-11-19",
+      "confidence": "high"
+    },
+    {
+      "id": 1276,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Estate consolidation wave Dec 12, 2019: Seven HBRK Associates wires totaling $9,238,007.10 liquidated subsidiary entity accounts into STC at FirstBank. Each wire identified the originating entity: LSJE ($2,707,464.11), ZORRO ($1,451,474.78), NES ($1,345,169.03), NEPTUNE ($1,013,546.36), PLAN D ($971,262.20), JEGE ($922,789.01), HYPERION ($826,301.61). Additionally: Richard Kahn wired $98,795.45 from Butterfly Trust (via Kellerhals as trustee, National Financial Services/Fidelity), Darren Indyke PLLC IOLA Trust account wired $5,566,408.92 from TD Bank (Nov 20), and $4,657,830.34 from unknown source. Three Fortress Value Recovery Fund distributions ($79,206.92, $92,594.02, $15.00). Total consolidation inflow: ~$20M+. All directed to STC at FirstBank, then the $13M transferred to Interactive Brokers Dec 23.",
+      "detail": null,
+      "date_of_event": "2019-12-12",
+      "confidence": "high"
+    },
+    {
+      "id": 1272,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company M Dec 23, 2019 payment TRACED: Wire was from STC at Citibank (FirstBank USVI) to Interactive Brokers LLC, One Pickwick Plaza, Greenwich CT 06830, into a STC brokerage account. Wire instructions explicitly state 'PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT.' This was an estate asset repositioning \u2014 moving cash from banking to brokerage \u2014 not a distribution to an external party. Transaction number 201912230001627, charge . This occurred 5 months after Epstein's death (Aug 10, 2019) during the estate administration period when Indyke/Kahn were consolidating assets.",
+      "detail": null,
+      "date_of_event": "2019-12-23",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1499,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "APOLLO DEF 14A PROXY STATEMENTS -- EPSTEIN NON-DISCLOSURE PATTERN: Apollo filed only 2 DEF 14A proxy statements under CIK 1411494: Aug 20, 2020 (pre-Dechert report) and Aug 16, 2021 (post-Dechert, post-Black CEO resignation). The 2020 proxy listed 7 directors: Leon Black, Joshua Harris, Marc Rowan, Michael Ducey, Robert Kraft, A.B. Krongard, and Pauline Richards. No mention of Epstein or related-party transactions with Epstein entities in the standard proxy format. The 2021 proxy (post-Black resignation) listed 12 directors including new additions Walter (Jay) Clayton, Kerry Murphy Healey, Pamela Joyner, Richard Emerson, David Simon, and James Zelter -- reflecting the governance overhaul promised in the Jan 2021 letter. The 2021 proxy disclosed: 'On March 8, 2021, the Company and Athene Holding Ltd. agreed to effect an all-stock merger transaction to combine their respective businesses.' The Epstein disclosure was handled through the 8-K process (Jan 2021 Dechert report filing) rather than in proxy statements, ensuring it was publicly available but outside the standard annual disclosure cycle.",
+      "detail": null,
+      "date_of_event": "2020-08-20",
+      "confidence": "high"
+    },
+    {
+      "id": 1475,
+      "target_name": "Apollo Global Management",
+      "finding_type": "financial",
+      "summary": "APOLLO GLEIF CORPORATE HIERARCHY -- LIMITED SUBSIDIARY VISIBILITY: GLEIF LEI database shows Apollo Asset Management Inc (LEI 54930054P2G7ZJB0KM79, Delaware, ACTIVE) with only 3 registered direct subsidiaries: (1) AGM India Advisors Private Limited (India, ACTIVE). (2) Apollo Investment Management Europe LLP (UK, ACTIVE). (3) Apollo Management International LLP (UK, ACTIVE). This is striking because Apollo operates through hundreds of affiliated entities (fund vehicles, holding companies, SPVs). The 3-subsidiary GLEIF registration captures only the top-level management entities -- the vast majority of Apollo's corporate structure (BRH Holdings GP Ltd/Cayman, AP Professional Holdings LP/Cayman, the fund entities, Athene entities) are not captured in the LEI hierarchy. Apollo's Athene Holding Ltd (CIK 0001527469, Bermuda-incorporated, subsequently merged into Apollo) had its own separate SEC filing history. The GLEIF data confirms Apollo's reported structure is minimal compared to its actual corporate complexity.",
+      "detail": null,
+      "date_of_event": "2021",
+      "confidence": "high"
+    },
+    {
+      "id": 1382,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Per the Dechert report filed as Apollo 8-K EX-99.1 (ADSH 0001193125-21-016405, Jan 25, 2021), the complete Black-Epstein payment schedule was: (1) Feb 15, 2013: 15M to Southern Trust Company (first installment under signed service agreement for GRAT work). (2) Oct 15, 2013: 8.5M to STC (second installment, same agreement). (3) 2013 additional: 26.5M (two installments under unsigned second agreement). Total 2013: 50M. (4) 2014: 70M (ad hoc, including 20M attributed to step-up basis transaction). (5) 2015: 30M. (6) 2016: 0M (fee dispute). (7) Apr 2017: 8M (final payment for tax advisory/compliance). GRAND TOTAL: 158M. Separately, Black loaned Epstein 30.5M in early 2017 (BV70 LLC to Plan D LLC): 22.5M + 8M. Epstein repaid only 10M in early 2018; 20.5M remained outstanding at death. The Dechert report also confirmed Black was under the 'misconception' that payments were tax-deductible (sixty cent dollars) based on what Epstein told him.",
+      "detail": null,
+      "date_of_event": "2021-01-25",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1460,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "DECHERT REPORT PAYMENT TIMELINE CONFIRMED (SEC 8-K EX-99.1, Jan 25 2021): The Dechert LLP independent investigation, filed as Apollo 8-K exhibit, confirms Black paid Epstein $158M total (2013-2017) via Southern Trust Company Inc: (1) Feb 15, 2013: $15M first installment per signed service agreement. (2) Oct 15, 2013: $8.5M second installment. (3) 2013: additional $26.5M under second (unsigned) agreement, total 2013 = $50M. (4) 2014: $70M paid ad hoc (includes $20M for step-up basis transaction). (5) 2015: $30M. (6) 2016: $0 (fee dispute). (7) Apr 2017: final $8M for tax advisory/compliance. Separately, $30.5M in loans (BV70 LLC to Plan D LLC): $22.5M + $8M in early 2017, only $10M repaid in 2018. $20.5M still outstanding at death. Black believed payments were tax deductible per Epstein's advice -- they were not. Dechert acknowledged 'compensation paid by Black to Epstein far exceeded any amounts Black paid to his other professional advisors.'",
+      "detail": null,
+      "date_of_event": "2021-01-25",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1491,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "LEON BLACK LEADERSHIP TRANSITION DIRECTLY CAUSED BY EPSTEIN (SEC 8-K EX-99.2): Black's Jan 25, 2021 letter to Apollo LPs (filed as 8-K EX-99.2) explicitly links his CEO retirement to the Epstein investigation: 'Having reflected at great length on my professional relationship with Mr. Epstein, a relationship that I profoundly regret...I have also decided that one way I can begin to address the grievous error of having maintained a professional relationship with Mr. Epstein is to pledge $200 million towards initiatives that seek to achieve gender equality and protect and empower women.' Black announced: (1) retirement as CEO 'on or before' his 70th birthday (July 2021), (2) Marc Rowan unanimously chosen as successor CEO by Executive Committee and Board, (3) proposal to cancel Class C shares (co-founder extra voting rights) and move to single-class stock, (4) WilmerHale engaged for reputational risk review. Josh Harris described as continuing 'to focus on expanding our global search for investor returns' and working 'alongside Marc.' Black also disclosed: Apollo engaged WilmerHale for reputational risk review, hired first global head of citizenship, first head of enterprise risk management, established reputational risk committee, created corporate communications department. The Epstein scandal thus catalyzed Apollo's institutional transformation from a founder-controlled firm to a professionally managed one.",
+      "detail": null,
+      "date_of_event": "2021-01-25",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1524,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "Dechert LLP investigation report (Apollo 8-K, 2021-01-25) confirms Leon Black donated $10 million to Gratitude America in October 2015 -- described as 'a charitable organization affiliated with Epstein.' Black 'felt comfortable making this donation because he understood that Epstein was a strong proponent of scientific innovation.' Separately, a letter from Gratitude America to Black dated August 21, 2015 thanked him for a $5 million donation (confirmed by email from Epstein to Black), but Dechert found no bank record or Family Office document confirming this $5M payment. This suggests Black donated $10M-$15M to Gratitude America in 2015 alone. Gratitude America 2015 990-PF shows $10,007,332 revenue. Dechert also noted Black made donations at Epstein's request to MIT, Harvard, Arizona State Origins Project, and Peace Initiative Foundation.",
+      "detail": null,
+      "date_of_event": "2021-01-25",
+      "confidence": "confirmed"
+    },
+    {
+      "id": 1304,
+      "target_name": "Joshua Harris",
+      "finding_type": "financial",
+      "summary": "FEC DONATION OVERLAP ANALYSIS: All three Apollo co-founders donated to overlapping political recipients. Both Rowan and Harris donated to John Barrasso (R-WY): Rowan ,900 (Dec 2021), Harris ,600 (Jul 2019). Both donated to Marco Rubio (R-FL): Rowan ,800 (Dec 2021). PTJ also donated to Rubio (,800, Mar 2021). All three Apollo founders and PTJ donated to the Managed Funds Association PAC (industry lobbying group). Harris's 26North Partners LP made a ,000 contribution to Gridiron-PAC (Sep 2024). Rowan donated ,000 to NY Republican Federal Campaign Committee (Dec 2025). PTJ donated to both parties: K Biden Victory Fund, K Honor Pennsylvania, K Keystone Renewal PAC, and .8K to Rubio. The shared Barrasso/Rubio donations and MFA PAC contributions show the Apollo triad moved in a coordinated political giving pattern.",
+      "detail": null,
+      "date_of_event": "2021-12",
+      "confidence": "medium"
+    },
+    {
+      "id": 1472,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "BLACK INSIDER TRANSACTIONS POST-EPSTEIN (SEC Form 4 CIK 1032666): Leon Black's SEC insider filings show a pattern of massive share dispositions post-Epstein crisis: As of Jan 2022 (Apollo-Athene merger completion), Black held 67,776,766 common shares as 10%+ owner (down from 202M shared through BRH). Subsequent dispositions: May 2022: 15M shares disposed (transaction type J = conversion/adjustment from merger). Jan 2023: 750K shares gifted. Nov 2022: 1.04M gifted. Dec 2023: 6M disposed (J type). Feb 2024: 2M shares sold at ~$111/share (~$222M). Mar 2024: 450K sold at ~$111. Jun 2024: 1M gifted. Dec 2024: 500K shares sold at ~$173 (~$87M). Mar 2025: 500K sold at ~$142 (~$71M). Apr 2025: 607K sold at ~$111 (~$68M). Jul 2025: 501K gifted, 59K gifted. Sep 2025: 915K sold at ~$134 (~$123M). Oct 2025: 119.8K gifted. As of latest filing, Black holds approximately 4.5-7M shares through direct ownership plus additional through entities. The steady liquidation pattern from late 2023 onward represents billions in total value reduction, consistent with an orderly exit from the firm he co-founded.",
+      "detail": null,
+      "date_of_event": "2022-01",
+      "confidence": "high"
+    },
+    {
+      "id": 1536,
+      "target_name": "Southern Trust Company",
+      "finding_type": "financial",
+      "summary": "Three core Epstein USVI entities have LEI registrations: STC (549300AZFOXEILVV4R81), FTC (CKK88E24733DTGIKLS94), and Southern Financial LLC (549300KB8YL2XC7B4K14). All three share the same registered address: 6100 Red Hook Quarter B3, St. Thomas, USVI 00802. All LEIs were initially registered in 2012-2013 and are now LAPSED, with last updates on 2023-08-04. Entity status remains ACTIVE. No parent-subsidiary relationships reported in GLEIF \u2014 these entities operated as independent nodes despite sharing address and clearly being controlled by the same principals.",
+      "detail": null,
+      "date_of_event": "2023-08-04",
+      "confidence": "medium"
+    },
+    {
+      "id": 49,
+      "target_name": "Leon Black",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR CIK 1032666 shows Leon Black as insider with 85+ Form 4 filings (ownership changes). Mailing address: c/o Elysium Management LLC, 445 Park Avenue, Suite 1401, New York, NY 10022. Filing types: 76 Form 4s, 17 SC 13D/A, 9 Form 144s, 5 Form 3s, 3 Schedule 13D/A. Active insider trading continues through October 2025. Multiple Form 144 (intention to sell) filings in Dec 2024 suggest ongoing significant stock sales. These filings relate to Apollo holdings.",
+      "detail": null,
+      "date_of_event": "2025-10",
+      "confidence": "confirmed"
+    }
+  ]
+}

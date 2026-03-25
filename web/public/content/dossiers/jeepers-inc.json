@@ -1,0 +1,965 @@
+{
+  "name": "Jeepers Inc",
+  "slug": "jeepers-inc",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.313098",
+  "last_updated": "2026-02-17T04:24:25",
+  "stats": {
+    "total_findings": 9,
+    "total_connections": 8,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 8,
+      "legal": 1
+    },
+    "connection_types": {
+      "corporate": 2,
+      "financial": 4,
+      "legal": 2
+    },
+    "last_updated": "2026-02-17T04:24:25"
+  },
+  "findings": [
+    {
+      "id": 1558,
+      "finding_type": "financial",
+      "summary": "Jeepers Inc USVI corporate details confirmed via multiple primary sources. USVI Division of Corporations entity 560561: Domestic Profit Corporation, registered 08/18/2003, at 6100 Red Hook Quarter B3, Charlotte Amalie, VI 00802 (Epstein USVI address). Registered agent: Business Basics VI LLC (Brett Kellerhals). Good standing from 08/18/2003 to 05/30/2022, last AR filed 06/30/2020, administratively dissolved 08/12/2022. JPMorgan bank records (EFTA01495008, EFTA01495013, EFTA01495019) confirm the same address. JPMorgan account team included Paul Morris (Banker), Paul Barrett (Investment Specialist). The Dec 2011 account statement shows no market value or activity. Deutsche Bank also held a Jeepers Inc brokerage account (EFTA01384085), which required KYC documentation including Certificate of Good Standing. Jeepers Inc was part of the Epstein entity constellation alongside JEGE Inc, Plan D LLC, NES LLC, Haze Trust, and Southern Trust.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2003-08-18",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:05:25",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384085",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01495008",
+          "source_quote": "JEEPERS,INC. 6100 RED HOOK QUARTER B3 ST THOMAS, VI 00802",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01495009",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01495013",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01495019",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2495,
+      "finding_type": "financial",
+      "summary": "GRM box 004750681 contains Jeepers Inc USVI corporate documents: Articles of Incorporation/Certificate of Existence, S-Election, EIN, Qualified Subchapter S Subsidiary Election, Annual Reports, Franchise Tax, Minutes, Affidavit of Not Conducting Business, First Bank Account, IRS Notices, and Jeepers Inc Stock Certificate for 1000 Shares dated Aug. 18, 2003. Jeepers Inc Transactions section shows: D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund I (ASSIGNED FROM FTC), D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund II (ASSIGNED FROM FTC), DB Zwirn Special Opportunities Funds Investor Communication, Bear Stearns Bank Account, and Highbridge DB Zwirn Miscellaneous. The FTC assignments confirm Financial Trust Company transferred Zwirn fund positions to Jeepers Inc.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2003-08-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:34:30",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1560,
+      "finding_type": "legal",
+      "summary": "Fortress VRF I LLC filed arbitration against Jeepers Inc (Fortress VERF I LLC and Fortress Value Recovery vs Jeepers). Counter-claims were filed by Financial Trust Company Inc and Jeepers Inc against D.B. Zwirn Special Opportunities Fund LP (later known as Fortress Value Recovery Fund I LLC) and named third-party respondents D.B. Zwirn Partners LLC, D.B. Zwirn and Co. LP, DBZ GP LLC, Zwirn Holdings LLC, and Daniel Zwirn personally (EFTA02725256). A government subpoena demanded documents revealing: (1) the organizational structure of Jeepers and FTC, (2) the relationships among Jeepers, FTC, Jeffrey Epstein, and any partner, member, beneficial owner of, or other direct or indirect economic participant in FTC or Jeepers (EFTA02725955). Epstein was deposed in this case and received transcript from Susman office with deadline to return corrections by May 18 (EFTA02339396). This litigation originated from the D.B. Zwirn fund collapse and revealed the Epstein-Jeepers-FTC structural relationship.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2008",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:05:52",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02339396",
+          "source_quote": "From: \nSent: \nFriday, April 29, 2011 3:22 PM \nTo: \nJefffrey Epstein \nSubject: \nFortress VERF I LLC & Fortress Value Recovery vs Jeepers \nI have rec'd your transcript from your recent deposition from Susman's =ffice. They are asking you to please...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725256",
+          "source_quote": "JAMS ARBITRATION \nReference No. 1425006537 \nIN THE MATTER OF \nFORTRESS VRF 1 LLC and FORTRESS \nVALUE RECOVERY FUND 1 LLC, \nClaimants \nv. \nJEEPERS, INC., \nRespondent \nand \nFINANCIAL TRUST COMPANY, INC. and \nJEEPERS, INC., \nCounter-Claimants and...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725955",
+          "source_quote": "The requested documents would reveal (1) the organizational structure of Jeepers and FTC; (2) the relationships among Jeepers, FTC, Jeffrey Epstein, and any partner, member, beneficial owner of, or other direct or indirect economic participant in, FTC or Jeepers or FTC",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02726193",
+          "source_quote": "New York \nMadrid \nMenlo Park \nTokyo \nWashington DC \nBeijing \nLondon \nHong Kong \nParis \nDavis Polk \nDominick D. Barbieri \nDavis Polk & Wardwell LIP \n450 Lexington Avenue \nNew York, NY 10017 \nApril 18, 2011 \n212 450 4698 tel \n212 701 5698 fax...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2500,
+      "finding_type": "financial",
+      "summary": "GRM Box #004740697 (EFTA00300480 p55) final section contains 'Communications Regarding Jeepers/DB Zwirn 1 of 2' and 'Communications Regarding Jeepers/DB Zwirn 2 of 2'. This links Jeepers Inc (Epstein-associated entity, likely amusement/entertainment company) to DB Zwirn & Co (Daniel Zwirn's hedge fund). The two-volume correspondence file suggests substantial business dealings between these entities. DB Zwirn collapsed in 2008 amid valuation irregularities. This Jeepers-DB Zwirn connection is previously undocumented in the investigation database.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2008",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:34:41",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2536,
+      "finding_type": "financial",
+      "summary": "SYNTHESIS: FTC-to-Jeepers assignment chain reveals strategic repositioning of Zwirn fund positions. FTC subscribed to Zwirn May 2002-Jan 2005, then assigned both Fund I and II to Jeepers (USVI S-Corp with 1,000 shares and Affidavit of Not Conducting Business). Jeepers then made withdrawal demands starting Nov 2006. June 30, 2008 withdrawal request filed same day as Epstein sentencing. Documents titled 'Withdrawal Requests Not Sent' (missing as of Jan 28 2010) indicate some demands were drafted but strategically withheld. Original fund was Highbridge/Zwirn Special Opportunities Fund \u2014 Glen Dubin's Highbridge was the connection point. Dubin wrote affidavit and memo to Indyke about Zwirn liquidity, but 'Dubin Connection' and 'Dubin Memo to DKI' both missing from files. Pattern suggests: (1) positions moved to USVI shell for jurisdictional/tax advantage, (2) withdrawals timed to criminal case milestones, (3) Dubin-related documents systematically removed.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2008-06-30",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:50:32",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": "D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund I (ASSIGNED FROM FTC); Withdrawal Request June 30, 2008; Withdrawal Requests Not Sent (Missing as of Jan. 28, 2010); Dubin Connection (Missing as of Jan. 28, 2010)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "finding_type": "financial",
+      "summary": "Jeepers Inc is a USVI shell entity at 6100 Red Hook Quarter B3, St Thomas VI 00802 (Epstein's USVI address). Per Assignment of Economic Interest Agreement dated August 1, 2011, Glenn Dubin assigned his economic interest in a Fortress fund to Jeepers Inc. Fortress distributed fund proceeds to Jeepers at Bank of New York. Total Dubin inflow: $4,375,302 received Oct 6, 2014. Distributions back to Dubin: $222,549.24 (Nov 2014), $166,911 (Dec 2014), $244,778.34 (Jun 2015), $183,753.77 (Dec 2015), $118,049.60, $46,853.96. Balance due to Dubin before Jeepers receives: $3,557,310-$3,741,064. JPMorgan KYC shows Jeffrey Epstein as president of Financial Trust Company Inc, Jeepers' parent. Deutsche Bank also opened account for Jeepers. Richard Kahn, Darren Indyke involved in management.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-08-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:49:24",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718208",
+          "source_quote": "Pursuant to the Assignment of Economic Interest Agreement dated as of August 1, 2011 between Glenn Dubin and Jeepers, Inc., the amount will be distributed to Jeepers, Inc. Glenn Dubin: 222,549.24 wired to Jeepers Inc., Bank of New York",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "finding_type": "financial",
+      "summary": "Jeepers Inc received investment distributions via Assignment of Economic Interest Agreement dated Aug 1, 2011 between Glenn Dubin and Jeepers Inc. Fortress Fund distributions wired to Jeepers Inc at Bank of New York: 222,549.24 and 183,753.77 documented. Jeepers listed alongside Haze Trust, Southern Trust Co, and Southern Financial LLC as entities requiring wire transfer verbal approval at Deutsche Bank (Oct 2013). Harry Beller managed wire authority.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-08-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:02:58",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575944",
+          "source_quote": "May I have Authority to verbally approve wires for Haze Trust, Jeepers, Jeffrey Epstein accounts",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718208",
+          "source_quote": "Pursuant to the Assignment of Economic Interest Agreement dated as of August 1, 2011 between Glenn Dubin and Jeepers, Inc., the amount will be distributed to Jeepers, Inc.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1559,
+      "finding_type": "financial",
+      "summary": "Jeepers Inc served as the vehicle for receiving Glenn Dubin Fortress Value Recovery Fund distributions via Assignment of Economic Interest Agreement dated August 1, 2011. Documented distributions wired to Jeepers Inc at Bank of New York: Nov 2014 $222,549.24 (EFTA02718208, EFTA02594209), Dec 2014 amount not specified, May 2015 $244,778.34 (EFTA02349170, EFTA02711802), Dec 2015 $183,753.77 (EFTA02385363), Sep 2016 $118,049.60 (EFTA02447499, EFTA02447520), Jun 2017 $46,853.96 (EFTA02645786, EFTA02646011). Per backstop agreement, all money went to Dubin until he received back $4,375,302, after which Jeepers kept 100% of distributions. As of Mar 2015, Fortress Value Recovery Fund had ongoing value. Richard Kahn forwarded the initial distribution email saying 'Is the money ours?' and Epstein confirmed the distributions flowed per agreement. Paul Barrett at JPMorgan managed Jeepers investment account and recommended initial $1MM into JPMorgan Floating Rate Loan fund at 4.5% yield (EFTA02369075).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011-08-01",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:05:40",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02349170",
+          "source_quote": "From: \nRichard Kahn < \nSent: \nMonday, June 8, 2015 8:29 PM \nTo: \njeffrey E. \nSubject: \nFwd: Fortress Value Recovery Fund I LLC - Investor Communication \nAttachments: \nVRF LLC Letter 2015 03.pdf \nJeepers has received a 244,778.23 distribution from...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02369075",
+          "source_quote": "From: \nBarrett, Paul S \nSent: \nWednesday, February 13, 2013 4:55 PM \nTo: \nJeffrey Epstein \nCc: \nWeissend, Renee E \nSubject: \nJeepers \nJeffrey \n=OD \n=OA \nLet's start by putting $1.=MM in the JPMorgan Floating Rate Loan fund. It is an open ended...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02385363",
+          "source_quote": "Jeepers will receive a 183,753.77 =istribution from Fortress Value Recovery Fund tomorrow December =1th Per \nbackstop agreement money must be delivered to =ubin within 5 business days and once 4,375,302 is paid back to Dubin, \n=eepers will then receive 100% of distributions from Fortress =und \nPer...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02447499",
+          "source_quote": "Jeepers received funds of 118,049.60 this morning shall i send on to glen dubin or wait? \nplease advise \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington =venue 4th Floor \nNew York, NY 10022 \ntel \nfax \ncell \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02447520",
+          "source_quote": "send \nSubject: Fortress Value Recovery Fund I LLC - D=stribution \nDat=: October 12, 2016 at 4:47:07 PM EDT \nTo: m \nGlenn Dubin: $118,049.60 wired to Jeepers Inc., Bank of \nNew Yorka> \n=p class=\"MsoNormal\">Please contact Nicole Higgins at \nwith any questions. \nThank =ou, \nFortress VRF Advisors I LLC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02500048",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nMonday, June 8, 2015 8:35 PM \nTo: \nRichard Kahn \nSubject: \nRe: Fortress Value Recovery Fund I LLC - Investor Communication \nno \nOn Mon, Jun 8, 2015 at 4:29 PM, Richard Kahn \nwrote: \nJeepers has...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02594177",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, November 12, 2014 6:14 PM \nTo: \nRichard Kahn \nSubject: \nRe: Jeepers from Fortress \nOk \nOn Wednesday, November 12, 2014, Richard Kahn < \n<mailto \nwr=te: \n=eepers has received 222,549.24...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02594209",
+          "source_quote": "Is the money ours?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02645786",
+          "source_quote": "ok to send to dubin once received or wait until they ask please advise thank you \nRichard Kahn \nHBRK Associates Inc. \n575 =exington Avenue 4th Floor \nNew York, NY 10022 \nte\nl\nfa \ncel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02646011",
+          "source_quote": "yess \nwrote: \nok to send to dubin once received or wait =ntil they ask \nplease advise \nthank you \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue 4th =Ioor \nNew York, NY 10022 \ntel 212-971-1306  \nfax 212-320-0381 \ncell \nel:(917)%20414-7584> \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02711802",
+          "source_quote": "Attachments: \nVRF LLC Letter 2015 03.pdf; Untitled attachment 00171.htm \nJeepers has received a 244,778.23 distribution from Fortress =alue Recovery Fund Per backstop agreement money =ust \nbe delivered to Dubin within 5 business days and once 4,375,302 is =aid back to Dubin Jeepers will then...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718208",
+          "source_quote": "Pursuant to the Assignment of Economic Interest Agreement dated as of August 1, 2011 between Glenn Dubin and Jeepers, Inc., the amount will be distributed to Jeepers, Inc. in accordance with its wire instructions on file with the Fund. Glenn Dubin: 222,549.24 wired to Jeepers Inc., Bank of New York",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725955",
+          "source_quote": "PAUL, WEISS, RIFKIND, WHARTON & GARRISON LLP \n1285 AVENUE OF THE AMERICAS \nNEW YORK, NEW YORK 10019-6064 \nTELEPHONE 12121375.3000 \nLLOYD K GARRISON \u2022 1946 I eel\u2751I \nRANDOL\u202211 II PAUL 1194S-195M \nlumoN H RIFKIND \nI191010\u202251 \nLOUIS S wElle \n0937.19101...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1561,
+      "finding_type": "financial",
+      "summary": "Jeepers Inc financial scale and investment profile. Consolidated balance sheet (EFTA02711200) as of 9/30/2014 shows Jeepers Inc held $4,396,862 in hedge fund investments, out of total Epstein hedge fund portfolio of $118.4M (reducing to $105.7M). Separate investment summary (EFTA02613500) shows Jeepers held $1,499,786 initial investment in Deutsche Bank Fl Fund dated 02/13/2013, valued at $1,751,668 with annualized return of 2.90%. Jeepers also held accounts at JPMorgan totaling $6.5M (EFTA02563860) alongside separate JEE accounts of $20M (Barrett managed), $6.9M (JPMorgan), and $2.6M (Ted Serure/JPM). Deutsche Bank KYC specifically flagged Jeepers Inc as needing Certificate of Good Standing (COGS) along with Plan D LLC (EFTA01384085). Wire transfer authority: Harry (HBRK) requested verbal wire authorization for Haze Trust, Jeepers, and Jeffrey Epstein accounts; Jeanne also got authority for Haze Trust, Jeepers, Southern Trust Co, and Southern Financial LLC (EFTA02575944). Richard Kahn used Jeepers as cash source: JEE 2,500,000 from Jeepers (EFTA02514464).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-09-30",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:06:06",
+      "target_name": "Jeepers Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384085",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02514464",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, December 31, 2014 6:33 PM \nTo: \nRichard Kahn \nSubject: \nRe: funding jan 2015 \nok \nOn Wed, Dec 31, 2014 at 2:24 PM, Richard Kahn richardka \nailto \n> \nwrote: \ni wi=I need to fund accounts...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02563860",
+          "source_quote": "From: \nHarry Beller \nSent: \nThursday, December 27, 2012 5:20 PM \nTo: \nJeffrey Epstein \nCc: \nRich Kahn \nSubject: \ncash funding \nJeffrey \nWe need to fund your checking account for $1 million. \nCurrently we have the following available cash balances:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575944",
+          "source_quote": "From: \nHarry Beller \nSent: \nTuesday, October 8, 2013 2:56 PM \nTo: \nJeffrey Epstein \nSubject: \nAuthority to verbally approve wire transfers \nJeffrey \nDeutche Bank must verbally approve all wire transfers from brokerage =ccounts. \nMay I have Authority...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02613500",
+          "source_quote": "From: \nPaul Barrett \nSent: \nTuesday, November 27, 2018 10:05 PM \nTo: \nCc: \nRichard Kahn \nSubject: \nRE: Sell - Floating Rate Income Fund \nWell received \nPaul Barrett \nAlpha Group Capital LLC \n142 W 57th Street, 11th Floor, New York, NY 10019...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02711200",
+          "source_quote": "Hedge Funds - Jeepers 4,396,862 Total Hedge Funds 118,406,481 105,704,524",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 263,
+      "person_a": "Financial Trust Company",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "corporate",
+      "description": "FTC is parent entity of Jeepers Inc. Tax returns prepared together. Both at 6100 Red Hook Quarter B3, St Thomas USVI.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:49:56",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02710352",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1253,
+      "person_a": "Financial Trust Company",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "financial",
+      "description": "FTC assigned DB Zwirn Special Opportunities Fund I and II positions to Jeepers Inc per GRM filing index EFTA00300480 p521",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:37:10",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1259,
+      "person_a": "Jeepers Inc",
+      "person_b": "Susman Godfrey LLP",
+      "relationship_type": "legal",
+      "description": "Harry Susman of Susman Godfrey led Zwirn JAMS arbitration and Bear Stearns FINRA arbitration for Jeepers/FTC/COUQ per EFTA00300480 pp520-524",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:37:23",
+      "other_person": "Susman Godfrey LLP",
+      "other_person_slug": "susman-godfrey-llp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1734,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "corporate",
+      "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 1851,
+      "person_a": "Fortress Value Recovery Fund",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "legal",
+      "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Fortress Value Recovery Fund",
+      "other_person_slug": "fortress-value-recovery-fund",
+      "evidence": []
+    },
+    {
+      "id": 776,
+      "person_a": "Glenn Dubin",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:07:50",
+      "other_person": "Glenn Dubin",
+      "other_person_slug": "glenn-dubin",
+      "evidence": []
+    },
+    {
+      "id": 777,
+      "person_a": "Epstein",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:07:51",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1252,
+      "person_a": "DB Zwirn",
+      "person_b": "Jeepers Inc",
+      "relationship_type": "financial",
+      "description": "Two volumes of communications regarding Jeepers/DB Zwirn stored in GRM Box #004740697 (EFTA00300480 p55). Volume of correspondence suggests substantial business relationship between Epstein's Jeepers entity and Daniel Zwirn's hedge fund.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:36:30",
+      "other_person": "DB Zwirn",
+      "other_person_slug": "db-zwirn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2003-08-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jeepers Inc USVI corporate details confirmed via multiple primary sources. USVI Division of Corporations entity 560561: Domestic Profit Corporation, registered 08/18/2003, at 6100 Red Hook Quarter B3, Charlotte Amalie, VI 00802 (Epstein USVI address). Registered agent: Business Basics VI LLC (Brett Kellerhals). Good standing from 08/18/2003 to 05/30/2022, last AR filed 06/30/2020, administratively dissolved 08/12/2022. JPMorgan bank records (EFTA01495008, EFTA01495013, EFTA01495019) confirm the same address. JPMorgan account team included Paul Morris (Banker), Paul Barrett (Investment Specialist). The Dec 2011 account statement shows no market value or activity. Deutsche Bank also held a Jeepers Inc brokerage account (EFTA01384085), which required KYC documentation including Certificate of Good Standing. Jeepers Inc was part of the Epstein entity constellation alongside JEGE Inc, Plan D LLC, NES LLC, Haze Trust, and Southern Trust.",
+      "confidence": "medium",
+      "id": 1558
+    },
+    {
+      "date": "2003-08-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "GRM box 004750681 contains Jeepers Inc USVI corporate documents: Articles of Incorporation/Certificate of Existence, S-Election, EIN, Qualified Subchapter S Subsidiary Election, Annual Reports, Franchise Tax, Minutes, Affidavit of Not Conducting Business, First Bank Account, IRS Notices, and Jeepers Inc Stock Certificate for 1000 Shares dated Aug. 18, 2003. Jeepers Inc Transactions section shows: D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund I (ASSIGNED FROM FTC), D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund II (ASSIGNED FROM FTC), DB Zwirn Special Opportunities Funds Investor Communication, Bear Stearns Bank Account, and Highbridge DB Zwirn Miscellaneous. The FTC assignments confirm Financial Trust Company transferred Zwirn fund positions to Jeepers Inc.",
+      "confidence": "confirmed",
+      "id": 2495
+    },
+    {
+      "date": "2008",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Fortress VRF I LLC filed arbitration against Jeepers Inc (Fortress VERF I LLC and Fortress Value Recovery vs Jeepers). Counter-claims were filed by Financial Trust Company Inc and Jeepers Inc against D.B. Zwirn Special Opportunities Fund LP (later known as Fortress Value Recovery Fund I LLC) and named third-party respondents D.B. Zwirn Partners LLC, D.B. Zwirn and Co. LP, DBZ GP LLC, Zwirn Holdings LLC, and Daniel Zwirn personally (EFTA02725256). A government subpoena demanded documents revealing: (1) the organizational structure of Jeepers and FTC, (2) the relationships among Jeepers, FTC, Jeffrey Epstein, and any partner, member, beneficial owner of, or other direct or indirect economic participant in FTC or Jeepers (EFTA02725955). Epstein was deposed in this case and received transcript from Susman office with deadline to return corrections by May 18 (EFTA02339396). This litigation originated from the D.B. Zwirn fund collapse and revealed the Epstein-Jeepers-FTC structural relationship.",
+      "confidence": "medium",
+      "id": 1560
+    },
+    {
+      "date": "2008",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "GRM Box #004740697 (EFTA00300480 p55) final section contains 'Communications Regarding Jeepers/DB Zwirn 1 of 2' and 'Communications Regarding Jeepers/DB Zwirn 2 of 2'. This links Jeepers Inc (Epstein-associated entity, likely amusement/entertainment company) to DB Zwirn & Co (Daniel Zwirn's hedge fund). The two-volume correspondence file suggests substantial business dealings between these entities. DB Zwirn collapsed in 2008 amid valuation irregularities. This Jeepers-DB Zwirn connection is previously undocumented in the investigation database.",
+      "confidence": "medium",
+      "id": 2500
+    },
+    {
+      "date": "2008-06-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SYNTHESIS: FTC-to-Jeepers assignment chain reveals strategic repositioning of Zwirn fund positions. FTC subscribed to Zwirn May 2002-Jan 2005, then assigned both Fund I and II to Jeepers (USVI S-Corp with 1,000 shares and Affidavit of Not Conducting Business). Jeepers then made withdrawal demands starting Nov 2006. June 30, 2008 withdrawal request filed same day as Epstein sentencing. Documents titled 'Withdrawal Requests Not Sent' (missing as of Jan 28 2010) indicate some demands were drafted but strategically withheld. Original fund was Highbridge/Zwirn Special Opportunities Fund \u2014 Glen Dubin's Highbridge was the connection point. Dubin wrote affidavit and memo to Indyke about Zwirn liquidity, but 'Dubin Connection' and 'Dubin Memo to DKI' both missing from files. Pattern suggests: (1) positions moved to USVI shell for jurisdictional/tax advantage, (2) withdrawals timed to criminal case milestones, (3) Dubin-related documents systematically removed.",
+      "confidence": "medium",
+      "id": 2536
+    },
+    {
+      "date": "2011-08-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jeepers Inc is a USVI shell entity at 6100 Red Hook Quarter B3, St Thomas VI 00802 (Epstein's USVI address). Per Assignment of Economic Interest Agreement dated August 1, 2011, Glenn Dubin assigned his economic interest in a Fortress fund to Jeepers Inc. Fortress distributed fund proceeds to Jeepers at Bank of New York. Total Dubin inflow: $4,375,302 received Oct 6, 2014. Distributions back to Dubin: $222,549.24 (Nov 2014), $166,911 (Dec 2014), $244,778.34 (Jun 2015), $183,753.77 (Dec 2015), $118,049.60, $46,853.96. Balance due to Dubin before Jeepers receives: $3,557,310-$3,741,064. JPMorgan KYC shows Jeffrey Epstein as president of Financial Trust Company Inc, Jeepers' parent. Deutsche Bank also opened account for Jeepers. Richard Kahn, Darren Indyke involved in management.",
+      "confidence": "high",
+      "id": 307
+    },
+    {
+      "date": "2011-08-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jeepers Inc received investment distributions via Assignment of Economic Interest Agreement dated Aug 1, 2011 between Glenn Dubin and Jeepers Inc. Fortress Fund distributions wired to Jeepers Inc at Bank of New York: 222,549.24 and 183,753.77 documented. Jeepers listed alongside Haze Trust, Southern Trust Co, and Southern Financial LLC as entities requiring wire transfer verbal approval at Deutsche Bank (Oct 2013). Harry Beller managed wire authority.",
+      "confidence": "high",
+      "id": 375
+    },
+    {
+      "date": "2011-08-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jeepers Inc served as the vehicle for receiving Glenn Dubin Fortress Value Recovery Fund distributions via Assignment of Economic Interest Agreement dated August 1, 2011. Documented distributions wired to Jeepers Inc at Bank of New York: Nov 2014 $222,549.24 (EFTA02718208, EFTA02594209), Dec 2014 amount not specified, May 2015 $244,778.34 (EFTA02349170, EFTA02711802), Dec 2015 $183,753.77 (EFTA02385363), Sep 2016 $118,049.60 (EFTA02447499, EFTA02447520), Jun 2017 $46,853.96 (EFTA02645786, EFTA02646011). Per backstop agreement, all money went to Dubin until he received back $4,375,302, after which Jeepers kept 100% of distributions. As of Mar 2015, Fortress Value Recovery Fund had ongoing value. Richard Kahn forwarded the initial distribution email saying 'Is the money ours?' and Epstein confirmed the distributions flowed per agreement. Paul Barrett at JPMorgan managed Jeepers investment account and recommended initial $1MM into JPMorgan Floating Rate Loan fund at 4.5% yield (EFTA02369075).",
+      "confidence": "medium",
+      "id": 1559
+    },
+    {
+      "date": "2014-09-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jeepers Inc financial scale and investment profile. Consolidated balance sheet (EFTA02711200) as of 9/30/2014 shows Jeepers Inc held $4,396,862 in hedge fund investments, out of total Epstein hedge fund portfolio of $118.4M (reducing to $105.7M). Separate investment summary (EFTA02613500) shows Jeepers held $1,499,786 initial investment in Deutsche Bank Fl Fund dated 02/13/2013, valued at $1,751,668 with annualized return of 2.90%. Jeepers also held accounts at JPMorgan totaling $6.5M (EFTA02563860) alongside separate JEE accounts of $20M (Barrett managed), $6.9M (JPMorgan), and $2.6M (Ted Serure/JPM). Deutsche Bank KYC specifically flagged Jeepers Inc as needing Certificate of Good Standing (COGS) along with Plan D LLC (EFTA01384085). Wire transfer authority: Harry (HBRK) requested verbal wire authorization for Haze Trust, Jeepers, and Jeffrey Epstein accounts; Jeanne also got authority for Haze Trust, Jeepers, Southern Trust Co, and Southern Financial LLC (EFTA02575944). Richard Kahn used Jeepers as cash source: JEE 2,500,000 from Jeepers (EFTA02514464).",
+      "confidence": "medium",
+      "id": 1561
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1558,
+      1559,
+      1561,
+      2495,
+      1560,
+      375,
+      307,
+      2500,
+      2536
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          263,
+          1253,
+          1259,
+          1734,
+          1851,
+          776,
+          777,
+          1252
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1558,
+          2495,
+          2500,
+          2536,
+          307,
+          375,
+          1559,
+          1561
+        ],
+        "connection_ids": [
+          1253,
+          776,
+          777,
+          1252
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.501261"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Jeepers Inc",
+      "connections": [
+        {
+          "target": "Financial Trust Company",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02710352",
+          "description": "FTC is parent entity of Jeepers Inc. Tax returns prepared together. Both at 6100 Red Hook Quarter B3, St Thomas USVI."
+        },
+        {
+          "target": "Financial Trust Company",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00300480",
+          "description": "FTC assigned DB Zwirn Special Opportunities Fund I and II positions to Jeepers Inc per GRM filing index EFTA00300480 p521"
+        },
+        {
+          "target": "Susman Godfrey LLP",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00300480",
+          "description": "Harry Susman of Susman Godfrey led Zwirn JAMS arbitration and Bear Stearns FINRA arbitration for Jeepers/FTC/COUQ per EFTA00300480 pp520-524"
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+        },
+        {
+          "target": "Fortress Value Recovery Fund",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+        },
+        {
+          "target": "Glenn Dubin",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "DB Zwirn",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA00300480",
+          "description": "Two volumes of communications regarding Jeepers/DB Zwirn stored in GRM Box #004740697 (EFTA00300480 p55). Volume of correspondence suggests substantial business relationship between Epstein's Jeepers entity and Daniel Zwirn's hedge fund."
+        }
+      ],
+      "secondHop": {
+        "Financial Trust Company": [
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc is USVI EDC-registered entity linked to FTC. Kahn traded Carvana stock through Southern Trust. Groff loans from Southern Financial LLC."
+          },
+          {
+            "target": "Valartis Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC maintained accounts at Valartis Bank AG Zurich with IBAN in USD/EUR/CAD. Bernard Andersen managed the relationship."
+          },
+          {
+            "target": "JP Morgan",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC $50,000,000 Line of Credit with JP Morgan documented in GRM Box #004740715. Includes collateral agreement, line letter, Form U-1, board resolutions, and corporate certificate."
+          },
+          {
+            "target": "Highbridge Capital",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Multiple FTC transaction files document Highbridge Capital investments: Highbridge Corporation Files I & II (from 9/19/00), Highbridge Capital Corp Private Placement, Highbridge Long/Short Equity Fund LP, Highbridge Capital 2010 Annual Review, FTC Consulting Agreement with Highbridge Management, HB Multi Strategy. GRM Boxes #004740711-004740714."
+          },
+          {
+            "target": "Highbridge Capital Corp",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Two FTC Consulting Agreements with Highbridge Management documented in GRM Box #004626325 (EFTA00300480 p50). FTC also held Highbridge Managed Account. Confirms active consulting/advisory relationship beyond passive investment."
+          }
+        ],
+        "Fortress Value Recovery Fund": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+          },
+          {
+            "target": "Lesley Groff",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+          },
+          {
+            "target": "NSO Group",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Finding #540: DB Zwirn Special Opportunities Fund LP became Fortress Value Recovery Fund I LLC after Daniel Zwirn's fund collapsed. The transformation is documented"
+          }
+        ],
+        "Glenn Dubin": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Assignment of Economic Interest Agreement Aug 1 2011 - Dubin assigned Fortress fund interest to Epstein-controlled Jeepers Inc. 4.375M in flows."
+          },
+          {
+            "target": "Paul Tudor Jones",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Co-chairs at Dubin Breast Center Mount Sinai benefits. Both billionaire hedge fund managers. Eva Dubin coordinated Epstein attendance at Robin Hood events."
+          },
+          {
+            "target": "Paul Tudor Jones",
+            "type": "social",
+            "strength": 1.0,
+            "description": "PTJ and Sonia co-chaired Dubin Breast Center benefits (2011, 2012, 2013). Robin Hood Foundation overlap. Sonia Jones honored at 2013 gala."
+          },
+          {
+            "target": "Paul Tudor Jones",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Co-founded Robin Hood Foundation 1988. Co-chaired Dubin Breast Center benefits 2011-2012. Deep social and philanthropic partnership."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Close social friendship through 2015+. Joint dinners with Woody Allen, Paris apartment offers, Boies introduction"
+          }
+        ],
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2003-08-18",
+        "label": "Jeepers Inc USVI corporate details confirmed via multiple primary sources. USVI Division of Corporations entity 560561: Domestic Profit Corporation, registered 08/18/2003, at 6100 Red Hook Quarter B3, Charlotte Amalie, VI 00802 (Epstein USVI address). Registered agent: Business Basics VI LLC (Brett Kellerhals). Good standing from 08/18/2003 to 05/30/2022, last AR filed 06/30/2020, administratively dissolved 08/12/2022. JPMorgan bank records (EFTA01495008, EFTA01495013, EFTA01495019) confirm the same address. JPMorgan account team included Paul Morris (Banker), Paul Barrett (Investment Specialist). The Dec 2011 account statement shows no market value or activity. Deutsche Bank also held a Jeepers Inc brokerage account (EFTA01384085), which required KYC documentation including Certificate of Good Standing. Jeepers Inc was part of the Epstein entity constellation alongside JEGE Inc, Plan D LLC, NES LLC, Haze Trust, and Southern Trust.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1558
+      },
+      {
+        "date": "2003-08-18",
+        "label": "GRM box 004750681 contains Jeepers Inc USVI corporate documents: Articles of Incorporation/Certificate of Existence, S-Election, EIN, Qualified Subchapter S Subsidiary Election, Annual Reports, Franchise Tax, Minutes, Affidavit of Not Conducting Business, First Bank Account, IRS Notices, and Jeepers Inc Stock Certificate for 1000 Shares dated Aug. 18, 2003. Jeepers Inc Transactions section shows: D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund I (ASSIGNED FROM FTC), D.B. Zwirn Special Opportunities Fund f/k/a Highbridge/Zwirn Special Opportunities Fund II (ASSIGNED FROM FTC), DB Zwirn Special Opportunities Funds Investor Communication, Bear Stearns Bank Account, and Highbridge DB Zwirn Miscellaneous. The FTC assignments confirm Financial Trust Company transferred Zwirn fund positions to Jeepers Inc.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2495
+      },
+      {
+        "date": "2008",
+        "label": "Fortress VRF I LLC filed arbitration against Jeepers Inc (Fortress VERF I LLC and Fortress Value Recovery vs Jeepers). Counter-claims were filed by Financial Trust Company Inc and Jeepers Inc against D.B. Zwirn Special Opportunities Fund LP (later known as Fortress Value Recovery Fund I LLC) and named third-party respondents D.B. Zwirn Partners LLC, D.B. Zwirn and Co. LP, DBZ GP LLC, Zwirn Holdings LLC, and Daniel Zwirn personally (EFTA02725256). A government subpoena demanded documents revealing: (1) the organizational structure of Jeepers and FTC, (2) the relationships among Jeepers, FTC, Jeffrey Epstein, and any partner, member, beneficial owner of, or other direct or indirect economic participant in FTC or Jeepers (EFTA02725955). Epstein was deposed in this case and received transcript from Susman office with deadline to return corrections by May 18 (EFTA02339396). This litigation originated from the D.B. Zwirn fund collapse and revealed the Epstein-Jeepers-FTC structural relationship.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1560
+      },
+      {
+        "date": "2008",
+        "label": "GRM Box #004740697 (EFTA00300480 p55) final section contains 'Communications Regarding Jeepers/DB Zwirn 1 of 2' and 'Communications Regarding Jeepers/DB Zwirn 2 of 2'. This links Jeepers Inc (Epstein-associated entity, likely amusement/entertainment company) to DB Zwirn & Co (Daniel Zwirn's hedge fund). The two-volume correspondence file suggests substantial business dealings between these entities. DB Zwirn collapsed in 2008 amid valuation irregularities. This Jeepers-DB Zwirn connection is previously undocumented in the investigation database.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2500
+      },
+      {
+        "date": "2008-06-30",
+        "label": "SYNTHESIS: FTC-to-Jeepers assignment chain reveals strategic repositioning of Zwirn fund positions. FTC subscribed to Zwirn May 2002-Jan 2005, then assigned both Fund I and II to Jeepers (USVI S-Corp with 1,000 shares and Affidavit of Not Conducting Business). Jeepers then made withdrawal demands starting Nov 2006. June 30, 2008 withdrawal request filed same day as Epstein sentencing. Documents titled 'Withdrawal Requests Not Sent' (missing as of Jan 28 2010) indicate some demands were drafted but strategically withheld. Original fund was Highbridge/Zwirn Special Opportunities Fund \u2014 Glen Dubin's Highbridge was the connection point. Dubin wrote affidavit and memo to Indyke about Zwirn liquidity, but 'Dubin Connection' and 'Dubin Memo to DKI' both missing from files. Pattern suggests: (1) positions moved to USVI shell for jurisdictional/tax advantage, (2) withdrawals timed to criminal case milestones, (3) Dubin-related documents systematically removed.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2536
+      },
+      {
+        "date": "2011-08-01",
+        "label": "Jeepers Inc is a USVI shell entity at 6100 Red Hook Quarter B3, St Thomas VI 00802 (Epstein's USVI address). Per Assignment of Economic Interest Agreement dated August 1, 2011, Glenn Dubin assigned his economic interest in a Fortress fund to Jeepers Inc. Fortress distributed fund proceeds to Jeepers at Bank of New York. Total Dubin inflow: $4,375,302 received Oct 6, 2014. Distributions back to Dubin: $222,549.24 (Nov 2014), $166,911 (Dec 2014), $244,778.34 (Jun 2015), $183,753.77 (Dec 2015), $118,049.60, $46,853.96. Balance due to Dubin before Jeepers receives: $3,557,310-$3,741,064. JPMorgan KYC shows Jeffrey Epstein as president of Financial Trust Company Inc, Jeepers' parent. Deutsche Bank also opened account for Jeepers. Richard Kahn, Darren Indyke involved in management.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 307
+      },
+      {
+        "date": "2011-08-01",
+        "label": "Jeepers Inc received investment distributions via Assignment of Economic Interest Agreement dated Aug 1, 2011 between Glenn Dubin and Jeepers Inc. Fortress Fund distributions wired to Jeepers Inc at Bank of New York: 222,549.24 and 183,753.77 documented. Jeepers listed alongside Haze Trust, Southern Trust Co, and Southern Financial LLC as entities requiring wire transfer verbal approval at Deutsche Bank (Oct 2013). Harry Beller managed wire authority.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 375
+      },
+      {
+        "date": "2011-08-01",
+        "label": "Jeepers Inc served as the vehicle for receiving Glenn Dubin Fortress Value Recovery Fund distributions via Assignment of Economic Interest Agreement dated August 1, 2011. Documented distributions wired to Jeepers Inc at Bank of New York: Nov 2014 $222,549.24 (EFTA02718208, EFTA02594209), Dec 2014 amount not specified, May 2015 $244,778.34 (EFTA02349170, EFTA02711802), Dec 2015 $183,753.77 (EFTA02385363), Sep 2016 $118,049.60 (EFTA02447499, EFTA02447520), Jun 2017 $46,853.96 (EFTA02645786, EFTA02646011). Per backstop agreement, all money went to Dubin until he received back $4,375,302, after which Jeepers kept 100% of distributions. As of Mar 2015, Fortress Value Recovery Fund had ongoing value. Richard Kahn forwarded the initial distribution email saying 'Is the money ours?' and Epstein confirmed the distributions flowed per agreement. Paul Barrett at JPMorgan managed Jeepers investment account and recommended initial $1MM into JPMorgan Floating Rate Loan fund at 4.5% yield (EFTA02369075).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1559
+      },
+      {
+        "date": "2014-09-30",
+        "label": "Jeepers Inc financial scale and investment profile. Consolidated balance sheet (EFTA02711200) as of 9/30/2014 shows Jeepers Inc held $4,396,862 in hedge fund investments, out of total Epstein hedge fund portfolio of $118.4M (reducing to $105.7M). Separate investment summary (EFTA02613500) shows Jeepers held $1,499,786 initial investment in Deutsche Bank Fl Fund dated 02/13/2013, valued at $1,751,668 with annualized return of 2.90%. Jeepers also held accounts at JPMorgan totaling $6.5M (EFTA02563860) alongside separate JEE accounts of $20M (Barrett managed), $6.9M (JPMorgan), and $2.6M (Ted Serure/JPM). Deutsche Bank KYC specifically flagged Jeepers Inc as needing Certificate of Good Standing (COGS) along with Plan D LLC (EFTA01384085). Wire transfer authority: Harry (HBRK) requested verbal wire authorization for Haze Trust, Jeepers, and Jeffrey Epstein accounts; Jeanne also got authority for Haze Trust, Jeepers, Southern Trust Co, and Southern Financial LLC (EFTA02575944). Richard Kahn used Jeepers as cash source: JEE 2,500,000 from Jeepers (EFTA02514464).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1561
+      }
+    ]
+  }
+}

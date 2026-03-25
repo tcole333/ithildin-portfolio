@@ -1,0 +1,2037 @@
+{
+  "name": "Southern Trust Company Inc",
+  "slug": "southern-trust-company-inc",
+  "aliases": [
+    "SOUTHERN TRUST COMPANY",
+    "STC",
+    "STC LLC",
+    "Southern Trust Co",
+    "Southern Trust Company"
+  ],
+  "generated_at": "2026-02-20T01:17:47.281676",
+  "last_updated": "2026-02-17T15:30:02",
+  "stats": {
+    "total_findings": 17,
+    "total_connections": 28,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 17
+    },
+    "connection_types": {
+      "corporate": 12,
+      "financial": 15,
+      "advisory": 1
+    },
+    "last_updated": "2026-02-17T15:30:02"
+  },
+  "findings": [
+    {
+      "id": 1302,
+      "finding_type": "financial",
+      "summary": "Complete Southern Trust corporate family structure with account details: (1) SOUTHERN TRUST COMPANY INC — parent entity, USVI domestic profit corp (581871), formed 11/18/2011, registered 9053 Estate Thomas Ste 101, agent Business Basics VI LLC (Kellerhals). Deutsche Bank accounts: 42952763 (money market), 77000965, 77000957, 44129241, 44129244 (wires to Valar/Seaford). FirstBank PR platinum banking. Citibank. Charles Schwab (opened Apr 2019). Interactive Brokers (Dec 2019). JPMorgan (pre-Feb 2014). (2) SOUTHERN FINANCIAL LLC — wholly owned subsidiary per NYDFS. Deutsche Bank: W91850003, W92099006 + DDA. ISDA derivatives master with DB London. Investment vehicle for equities/derivatives/hedge funds. Held Bear Stearns, Tudor Futures, Renault, Ariad, Carvana positions. Portfolio value peak $16.7M (Dec 2018). (3) SOUTHERN COUNTRY INTERNATIONAL LTD — offshore entity, Ltd designation. Schwab accounts (Apr 2019). Tax code 525990. (4) FINANCIAL STRATEGY GROUP INC (FL P93000087814, 1993-2000) — predecessor entity, renamed to Southern Country International.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011-11-18",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:41",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633183",
+          "source_quote": "FirstBank entity list includes SOUTHERN COUNTRY INTERNATIONAL LTD and SOUTHERN TRUST COMPANY INC; EFTA02700407:RE Southern Financial Relationship authorization to Deutsche Bank; EFTA02571157:JPM accounts SOUTHERN FINANCIAL LLC and SOUTHERN TRUST COMPANY INC",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1282,
+      "finding_type": "financial",
+      "summary": "Leon Black total payments to STC Deutsche Bank account documented: Feb 2013 = $15,000,000 (ORG-394001320945 LEON D RACK/BLACK, Chips Credit), May 2013 = $16,500,000 (ORG-394001320945 LEON D BLACK, Chips Credit), Oct 2013 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK). Three payments in 8 months totaling $40,000,000. All went directly to STC Elite Money Market Deposit at Deutsche Bank. The Feb-May $31.5M alone would account for the STC balance rising from near-zero to $27.3M end-Oct 2013 (with interim transfers out). Originator consistently LEON D BLACK via ORG-394001320945 (a Fedwire participant code). The Oct payment included Debra R Black (wife) as co-originator.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:31:32",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708280",
+          "source_quote": "Chips Credit Via: Bank...B/O: Leon D Black New York NY 10021-4152 Ref: Nbnf=Southern Trust Company, Inc St Thomas VI 00802-1348 Obl=Leon Black Ssn: 0357056 16,500,000.00; EFTA02708281:Chips Credit Via: Bank of A B/O: Leon D Rack New York NY 10021-4152 Ref: Nbnf Southern Trust Company, Inc 15,000,000.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1279,
+      "finding_type": "financial",
+      "summary": "Oct 2013 $6M incoming TRACED: Deutsche Bank statement for STC (EFTA01284214) shows three deposits in October 2013 to the Elite Money Market Deposit account (Amanda Kirby, relationship manager): Oct 7 = $12,755,048.50 (ORG-003040315872 SOUTHERN TRUST COMPANY INC — internal transfer from another STC DB account), Oct 15 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK 760 PARK AVE NEW YORK NY 10 — Leon Black payment), Oct 17 = $6,000,000 (ORG-3040545872 SOUTHERN TRUST COMPANY INC — internal transfer). Total deposits: $27,258,838.74. The $6M was NOT from an external source — it was an internal STC-to-STC account transfer at Deutsche Bank. The originator code 3040545872 matches the Southern Trust entity. The $8.5M Leon Black deposit is notable as an early payment (Oct 2013) predating the later $16.5M (May 2013, separately documented) and $15M (Feb 2013) Black payments.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:31:21",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01284214",
+          "source_quote": "10-17 # Incoming Money Tmsf 6.000.000.00 27.255.048.50 ORG-3040545872 SOUTHERN TRUST COMPANY. LNC 6100 RED HOOK QTRS STE B3 S",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1293,
+      "finding_type": "financial",
+      "summary": "JPMorgan account snapshot (Paul Barrett, Managing Director, Global Investment Opportunities Group, JP Morgan Private Bank) lists combined Southern Financial/Trust balances: Southern Financial LLC = $23,380,735.58 (WOD $9,056,419.71 + WOA $14,050,627.87 + DDA $273,688), Southern Trust Company Inc = $26,779,306.11 (W8964002 $2,234,360.80 + DDA $149,999.75 + Savings $24,394,495.56). Total combined: $50,160,041.69. These were JPMorgan accounts managed before the Feb 2014 migration to Deutsche Bank, when Harry Beller confirmed 'All positions at JPM were finally closed. JPM will wire today the remaining cash balances to Deutsche Bank: (1) Southern Financial $10,397,100, (2) Southern Trust (Laurie Cameron) $911,808 remaining balance (JPM wired yesterday $4,003,093).' Laurie Cameron was STC's FX/currency portfolio manager, not an EdR person.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2014-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:01",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571157",
+          "source_quote": "SOUTHERN FINANCIAL LLC WOD W91850003 9,056,419.71 WOA W92099006 14,050,627.87 DDA 273,688.00 23,380,735.58 SOUTHERN TRUST COMPANY, INC W8964002 2,234,360.80 DDA 149,999.75 SAVINGS 24,394,495.56 26,779,306.11; EFTA02518675:JPM will wire today remaining cash balances to Deutche Bank: 1) Southern Financial 10,397,100 2) Southern Trust (Laurie Cameron) 911,808 remaining balance (JPM wired yesterday 4,003,093)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1336,
+      "finding_type": "financial",
+      "summary": "Complete DS10 STC transaction map: 16 transactions totaling $19.6M outgoing + $8.6M incoming (net $11M outgoing). OUTGOING: $3.05M to Citibank/Morgan Stanley (Jun 5, 2015), $1M to Citibank/Morgan Stanley (Aug 23, 2015), $175K to FirstBank Puerto Rico (Jun 11, 2015), $2M internal transfer (Oct 17, 2017), $4.4K to JPMorgan Chase (Oct 20, 2017), $13M to Interactive Brokers (Dec 23, 2019). Six internal STC-to-STC transfers totaling $15.7M. INCOMING: $6M internal Oct 2013, $373K internal Oct 2013, periodic $200-400K transfers (Feb 2016 through Oct 2018), $349K final Jan 2020. STC held 20 balance observations with peak $26.7M (Nov 2013) in DS10, but this dramatically understates the true peak of $110M (Dec 2015 per EFTA02347813) — DS10 captures only partial account data. Southern Financial LLC had separate 6 transactions ($602K out, $59K in) and portfolio peak $16.7M (Dec 2018). The $500K SFL to JPMorgan Chase (May 5, 2017) was the largest SFL wire in DS10.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-06-05",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:35:13",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01284214",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347813",
+          "source_quote": "Account: \nSavings • =OUTHERN TRUST COMPANY, INC. - MMDA • Available \n=109,981,919.36 \nDate range: \n11/17/2015 to 12/30/2015 \nTransaction types: \nAll transactions \nDetail option: \nIncludes transaction detail \nShow scheduled transactions I Search completed transactions 14 day view \nDownload as:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 631,
+      "finding_type": "financial",
+      "summary": "On August 21, 2015, Epstein sent a self-memo (to-do list) revealing: (1) He was 'sitting on over 130 million in CASH', (2) His family office had too many employees ('brad hiring another bookkeeper?'), (3) He instructed 'brad' (Karp) to wire $5M charitable contribution to Gratitude America before Sept 1, (4) Referenced 'difficult few months.' The prior day (Aug 20), Epstein emailed Melanie Spinella with a stream-of-consciousness list: 'boat, plane, tax returns, art space, phaidon, IT, TRA jpm db gs' and instructed wiring to Southern Trust 'to cover work done until today.' This reveals Epstein's direct operational control over Southern Trust/Financial, his awareness of the $130M+ cash position across accounts, and Karp's role directing fund flows.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-08-21",
+      "claim_type": "direct_quote",
+      "verification_status": "verified",
+      "created_at": "2026-02-13 01:42:23",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02489710",
+          "source_quote": " you are still sitting on over 130 million in CASH...Please instruct brad to wire 5m charitable contribution to gratittude America...difficult few months / EFTA02370309: boat, plane, tax returns, art space, phaidon, IT, TRA jpm db gs...please wire an amount to Southern Trust to cover work done until today",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "finding_type": "financial",
+      "summary": "Southern Trust Company MMDA balance was $109,981,919.36 as of Dec 2015 (EFTA02347813). This was Epstein's single largest cash holding. STC had Deutsche Bank account (44129244) receiving Leon Black payments. Also invested in Carvana stock (75,000 shares at $65.19 avg, Sep 2018) through Morgan Stanley/Schermerhorn. STC registered as VIEDC beneficiary. Tax/accounting by Seckendorf Hasson & Reilly (Lake Success NY) covering all JE Entities. Used for visa applications (Karyna Shuliak Japan visa). Address used as meeting location (Albert Bryan visited 1:30pm, 3rd floor American Yacht Harbour).",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2015-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:57:42",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347813",
+          "source_quote": "SOUTHERN TRUST COMPANY, INC. - MMDA Available 109,981,919.36",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1287,
+      "finding_type": "financial",
+      "summary": "STC peak balance $109,981,919.36 (MMDA account, Dec 30, 2015) confirmed via Deutsche Bank online banking screenshot forwarded by Kahn. On that date, a single $10,000,000 incoming wire posted at 1:57PM ET. Separately, Oct 2014 statement shows balance reached $88,224,973.81 after $20M in same-day incoming wires ($13M + $7M on Oct 16 2014). Nov 2015 Kahn email to Epstein lists three accounts over $20M: Southern Trust $82.5M, Haze Trust $47.375M, Southern Financial LLC $29.25M — combined $159.125M in liquid balances. Darren Indyke instructed $20M transfer to 'erika escrow account' (Kellerhals) routing through JEE personal. Complete STC balance trajectory: Near-zero (early 2013) -> $27.3M (Oct 2013) -> $88.2M (Oct 2014) -> $110M (Dec 2015) -> $56.5M (June 2016) -> $18M (May 2017) -> near-zero (Oct 2017-2018) -> $91K (May 2019) -> consolidated to IB (Dec 2019).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-12-30",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:31:46",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02347813",
+          "source_quote": "Savings SOUTHERN TRUST COMPANY, INC. - MMDA Available 109,981,919.36 12/30/2015 INCOMING MONEY TRANSFER 10,000,000.00; EFTA02671293:southern trust 82,500,000 haze trust 47,375,000 southern financial llc 29,250,000",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 636,
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc held $56,542,688.38 in a Deutsche Bank Elite Money Market Deposit account as of June 2016 (statement period June 1-30, 2016). Address: 6100 Red Hook Quarter B3, St Thomas 00802 USVI. Relationship manager: Paul Morris. This is the parent entity of Southern Financial LLC. The DB daily deposit report (EFTA01383662, Apr 2018) lists Southern Financial LLC alongside other Epstein entities: JEGE LLC, Darren K Indyke PLLC, HBRK Associates, NES LLC, LSJE LLC, Gratitude America Ltd, Neptune LLC, Plan D LLC, Zorro Management LLC - confirming Southern Financial as part of the core Epstein entity constellation at Deutsche Bank.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:43:19",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01286240",
+          "source_quote": " Deutsche Bank Trust Co Americas / SOUTHERN TRUST COMPANY INC / 6100 RED HOOK QUARTER B3 ST THOMAS / Elite Money Market Deposit Balance $56,542,688.38 / EFTA01383662: SOUTHERN FINANCIAL LLC alongside JEGE LLC, DARREN K INDYKE PLLC, HBRK ASSOCIATES, NES LLC, LSJE LLC, GRATITUDE AMERICA LTD",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383662",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1507,
+      "finding_type": "financial",
+      "summary": "SOUTHERN TRUST COMPANY BROKER-DEALER ACTIVITY -- ACTIVE SECURITIES TRADING: DOJ corpus reveals Southern Trust Company (the renamed FTC entity) was actively trading securities through Morgan Stanley, not merely holding the Apollo IPO shares passively. Evidence: (1) EFTA02454166 (Aug 16, 2016): Andrew Atlas (Morgan Stanley Financial Advisor, Midtown Manhattan Complex) notified Richard Kahn that 'Southern Trust Company was allocated 500m bonds' in an EsTrade Preferred offering at 5.875%. The $500M bond allocation indicates Southern Trust maintained institutional-scale brokerage relationships. (2) EFTA02360125: 'Southern Trust Co. WING allocated 200 shares; priced 19. Opened at 30.50.' Andrew Atlas asked if Kahn wanted to 'hold or sell.' (3) EFTA02714849: 'Southern Trust Company was allocated $1,000,000.00 worth of the SCHW 6% $25 Pfd.' (4) EFTA02505378: 'Southern Financial LLC' received a $1M capital call from Neoteny 3 LP (Apr 2015). (5) EFTA02624629 (Sep 2018): 'CVNA - Carvana - for Southern Trust Company' -- purchased 75,000 shares at $65.19 average ($4.9M position). This demonstrates that the Epstein entity holding Apollo IPO shares (transferred from FTC to Southern Financial LLC) was simultaneously conducting active securities trading through Morgan Stanley, with institutional-level bond allocations and IPO participation in multiple companies.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-08-16",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:39:39",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02360125",
+          "source_quote": "Please advise. Thank you. \nSent from my iPhone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454166",
+          "source_quote": "a terrible allocation - only received 500,000 of our =,000,000 order \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington =venue 4th Floor \nNew York NY 10022 \ntel \nfax \ncell \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02505378",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nMonday, April 13, 2015 3:10 PM \nTo: \nRichard Kahn \nSubject: \nRe: Neoteny 3, LP J Capital Call Notice \nok \nOn Mon, Apr 13, 2015 at 11:02 AM, Richard Kahn \nwrote: \nattached is 1,000,000 capital call fo= Joi Ito fund Neoteny 3, LP due by April 16th \nplease...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02624629",
+          "source_quote": "we =ave now purchased 75,000 at 65.1885 average stock now at =6.75 as of 3:08pm \nRichard Kahn \nHBRK Associates Inc. \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02714849",
+          "source_quote": "Attachments: \nUntitled attachment 00398.pdf; Untitled attachment 00401.htm \nDeal was oversubscribed and we got filled on 1mm not the 2mm requested. \nRichard Kahn \nHBRK Associates Inc. \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1303,
+      "finding_type": "financial",
+      "summary": "FirstBank USVI rejected STC request to open 6 new deposit accounts on Feb 28, 2019 (4.5 months pre-arrest). VP Dina Perry-Malone wrote: 'After careful review and consideration of your request to open six additional deposit accounts, we cannot proceed with aforementioned at this time.' FirstBank simultaneously requested beneficial ownership certifications for 18 existing entity accounts: Cypress Inc, F T Real Estate Inc, Freedom Air Petroleum LLC, FSF LLC, Gratitude America Ltd, Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands Foundation Inc, Jeepers Inc, Laurel Inc, Little St James LLC, LSJE LLC, Maple Inc, and others. Michelle Smith-Roberts (Waterfront Branch and Platinum Banking Manager) had requested information about wire beneficiaries including American Yacht ($37K, $38K), Citizens for Better Government ($50K), Democratic Cong ($10K), and monthly payments to unnamed individuals ($8,333 each). This shows banks tightening oversight months before arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-02-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:55",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633183",
+          "source_quote": "After careful review and consideration of your request to open six (6) additional accounts, we cannot proceed with aforementioned at this time. Kindly provide me with a forwarding address to return the checks received for the initial deposits",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1296,
+      "finding_type": "financial",
+      "summary": "Operational security failure May 24, 2019 (6 weeks pre-arrest): Journalist 'Nova' (surname only, no first name given) called STC's USVI office. When receptionist Una answered as 'Southern Trust Company,' Nova pivoted from his original inquiry about 'Financial Trust' to Southern Trust, noting he could find nothing about STC on Google. Nova told Una 'he would then have no choice but to leave what we did up to his own interpretation.' Cecile de Jongh (former USVI First Lady, STC office manager) reported to Indyke, asking: 'Should we start answering the phone with 2525?' (the address number). Richard Kahn identified Nova as 'a journalist. hes called a number of people.' This reveals: (1) STC had no public internet presence by design, (2) journalists were actively investigating pre-arrest, (3) the entity naming confused even staff (Groff writing checks to wrong entity), (4) the office operated under deliberate opacity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-05-24",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:14",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02288520",
+          "source_quote": "because Una answered the phone with Southern Trust Company Mr. Nova switched his inquiry from Financial Trust to Southern Trust and told Una that he Googled Southern Trust and could not find anything. Should we start answering the phone with 2525?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1297,
+      "finding_type": "financial",
+      "summary": "USMS personal effects at arrest confirm Southern Trust Company as Epstein's employer of record as of July 2019. UnitedHealthcare Choice Plus card shows Group Number 272605 under employer name 'Southern Trust Company'. The USM-312 form lists employer phone as 340-775-2525 (USVI area code). This confirms Southern Trust maintained active employee benefits through at least the arrest date. The health plan number 911-87726-04 and payer ID 87726 could be used to trace the corporate benefits arrangement. Also: USMS prisoner records list occupations as 1-BANKER, 2-SOUTHERN TRUST COMPANY, 3-SELF EMPLOYED (in that order), suggesting BANKER was primary identity and STC secondary.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:24",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "MUCKROCK:78799/Docs.redacted.pdf",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 625,
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc was the subject of a Charles Schwab Financial Crimes AML investigation (case opened 07/08/2019, EFTA01265973). STC established a relationship with Schwab in April 2019 alongside Southern Financial LLC and Southern Country International Ltd, all under Richard Kahn with Epstein as beneficial owner and internal control person. The Schwab accounts were opened just 3 months before Epstein July 2019 arrest. Deutsche Bank KYC described STC as a private consulting company that invests client assets and generates revenue from returns and management fees. STC was the entity that wired 2.5M to Valar Global Fund III (Thiel) and made regular disbursements to Seaford Avenue Capital LLC.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-07-08",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:41:18",
+      "target_name": "Southern Trust Company Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01265973",
+          "source_quote": "Subjects: JEFFREY EPSTEIN, SOUTHERN TRUST COMPANY INC., SOUTHERN FINANCIAL LLC, SOUTHERN COUNTRY INTERNATIONAL LTD, RICHARD KAHN",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01284127",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387768",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1276,
+      "finding_type": "financial",
+      "summary": "Estate consolidation wave Dec 12, 2019: Seven HBRK Associates wires totaling $9,238,007.10 liquidated subsidiary entity accounts into STC at FirstBank. Each wire identified the originating entity: LSJE ($2,707,464.11), ZORRO ($1,451,474.78), NES ($1,345,169.03), NEPTUNE ($1,013,546.36), PLAN D ($971,262.20), JEGE ($922,789.01), HYPERION ($826,301.61). Additionally: Richard Kahn wired $98,795.45 from Butterfly Trust (via Kellerhals as trustee, National Financial Services/Fidelity), Darren Indyke PLLC IOLA Trust account wired $5,566,408.92 from TD Bank (Nov 20), and $4,657,830.34 from unknown source. Three Fortress Value Recovery Fund distributions ($79,206.92, $92,594.02, $15.00). Total consolidation inflow: ~$20M+. All directed to STC at FirstBank, then the $13M transferred to Interactive Brokers Dec 23.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-12-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:31:07",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273155",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1272,
+      "finding_type": "financial",
+      "summary": "Southern Trust Company M Dec 23, 2019 payment TRACED: Wire was from STC at Citibank (FirstBank USVI) to Interactive Brokers LLC, One Pickwick Plaza, Greenwich CT 06830, into a STC brokerage account. Wire instructions explicitly state 'PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT.' This was an estate asset repositioning — moving cash from banking to brokerage — not a distribution to an external party. Transaction number 201912230001627, charge . This occurred 5 months after Epstein's death (Aug 10, 2019) during the estate administration period when Indyke/Kahn were consolidating assets.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-12-23",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:30:53",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273178",
+          "source_quote": "FEDWIRE PAYMENT DEBIT ADVICE Date 23-Dec-2019 Originator SOUTHERN TRUST COMPANY INC RED HOOK QUARTER ST THOMAS VI 00802 Beneficiary INTERACTIVE BROKERS LLC ONE PICKWICK PLAZA GREENWICH CONNECTICUT 06830 Instructed Amount 13,000,000.00 USD Originator to Beneficiary FOR TRANSFER TO SOUTHERN TRUST COMPANY INC PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1536,
+      "finding_type": "financial",
+      "summary": "Three core Epstein USVI entities have LEI registrations: STC (549300AZFOXEILVV4R81), FTC (CKK88E24733DTGIKLS94), and Southern Financial LLC (549300KB8YL2XC7B4K14). All three share the same registered address: 6100 Red Hook Quarter B3, St. Thomas, USVI 00802. All LEIs were initially registered in 2012-2013 and are now LAPSED, with last updates on 2023-08-04. Entity status remains ACTIVE. No parent-subsidiary relationships reported in GLEIF — these entities operated as independent nodes despite sharing address and clearly being controlled by the same principals.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2023-08-04",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:48:28",
+      "target_name": "Southern Trust Company",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF:549300AZFOXEILVV4R81",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF:549300KB8YL2XC7B4K14",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF:CKK88E24733DTGIKLS94",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 766,
+      "person_a": "STC",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "corporate",
+      "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs. STC owns SF LLC (entity_relations). SF wholly owned subsidiary.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:53:09",
+      "other_person": "Southern Financial LLC",
+      "other_person_slug": "southern-financial-llc",
+      "evidence": []
+    },
+    {
+      "id": 765,
+      "person_a": "FTC",
+      "person_b": "STC",
+      "relationship_type": "corporate",
+      "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs registered. Shared staff (Cecile de Jongh, Lesley Groff). STC administers trusts, FTC manages investments.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:53:09",
+      "other_person": "Financial Trust Company Inc",
+      "other_person_slug": "financial-trust-company-inc",
+      "evidence": []
+    },
+    {
+      "id": 52,
+      "person_a": "Enhanced Education",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "corporate",
+      "description": "Southern Trust Company Inc was used as intermediary for Enhanced Education disbursements. USVI STEM Fair funding came through Southern Trust, not directly from Enhanced Education. Southern Trust was an Epstein-controlled entity at the same 6100 Red Hook address.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:43",
+      "other_person": "Enhanced Education",
+      "other_person_slug": "enhanced-education",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02370820",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709872",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "person_a": "Financial Trust Company",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "corporate",
+      "description": "Southern Trust Company Inc is USVI EDC-registered entity linked to FTC. Kahn traded Carvana stock through Southern Trust. Groff loans from Southern Financial LLC.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:49:58",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02624629",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "person_a": "J. Epstein Virgin Islands Foundation",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "corporate",
+      "description": "Southern Trust Company Inc operates under the corporate umbrella of the Jeffrey Epstein VI Foundation. Southern Trust sponsored the STEM Fair.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:14",
+      "other_person": "J. Epstein Virgin Islands Foundation",
+      "other_person_slug": "j-epstein-virgin-islands-foundation",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709872",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "person_a": "Southern Trust Company",
+      "person_b": "VIEDC",
+      "relationship_type": "corporate",
+      "description": "Southern Trust Company Inc registered with USVI Economic Development Commission. Registration forms submitted by Cecile de Jongh Aug 2017.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:45",
+      "other_person": "VIEDC",
+      "other_person_slug": "viedc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02221770",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 830,
+      "person_a": "Honeycomb Partners",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC wired 20M to Honeycomb Partners on 05/31/2016. Honeycomb Ventures I LP wire instructions reference Southern Trust Company. Return distributions from Honeycomb flowed back to STC (1.75M in May 2018). Northern Trust held Honeycomb Partners LP account C15185220010 showing 5M outgoing June 2018.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:10:25",
+      "other_person": "Honeycomb Asset Management LP",
+      "other_person_slug": "honeycomb-asset-management-lp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 840,
+      "person_a": "Honeycomb Asset Management",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244. Additional Honeycomb transactions in Deutsche Bank statements June 2018. Wire reference line was Southern Trust Company. Honeycomb was the single largest fund allocation in the Dechert Exhibit B ledger at ~34M across 5 transactions.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:12:38",
+      "other_person": "Honeycomb Asset Management LP",
+      "other_person_slug": "honeycomb-asset-management-lp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027019",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 850,
+      "person_a": "Honeycomb Asset Management",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC MMDA account 9244 wired 20M to Honeycomb Partners LP on 05/31/2016. Wire reference marked Southern Trust Company. STC had 80.875M balance at time of wire. Additional flows via Deutsche Bank accounts totaling at least 60M across Honeycomb Partners and Ventures I-IV.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:43",
+      "other_person": "Honeycomb Asset Management LP",
+      "other_person_slug": "honeycomb-asset-management-lp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287619",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287701",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "person_a": "Honeycomb Asset Management LP",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment.",
+      "strength": "strong",
+      "date_range": "2016-05 to 2018-06",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:15:46",
+      "other_person": "Honeycomb Asset Management LP",
+      "other_person_slug": "honeycomb-asset-management-lp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376049",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366568",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 902,
+      "person_a": "Southern Trust Company",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was opened under the Southern Financial/STC relationship at Deutsche Bank. AML review identifies it as 'a new account for the Southern Financial relationship'.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:24",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 910,
+      "person_a": "Southern Trust Company",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was part of the Southern Financial/Southern Trust Company relationship at Deutsche Bank Private Bank (client since 2013). AML compliance explicitly identified it as a new account under this relationship. Deutsche Bank Account 42969987.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:18",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299262",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 913,
+      "person_a": "Southern Trust Company",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was part of Southern Financial relationship at Deutsche Bank. Received M from STC/Southern Financial LLC per Dechert Exhibit B. Both under DB RM code 81851.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:22",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01458780",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1428,
+      "person_a": "Brett Geary",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "corporate",
+      "description": "Brett Geary is the named business contact on Southern Trust Company Inc's USVI business license (EFTA01297594). STC's licensed activity is 'BUSINESS AND MANAGEMENT CONSULTING' (not banking/trust). License period: 12/01/2011-12/31/2018. This positions Geary as the operational contact for Epstein's primary USVI financial vehicle.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:32:02",
+      "other_person": "Brett Geary",
+      "other_person_slug": "brett-geary",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297594",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "person_a": "Interactive Brokers LLC",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:27",
+      "other_person": "Interactive Brokers LLC",
+      "other_person_slug": "interactive-brokers-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273178",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 638,
+      "person_a": "Laurie Cameron",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:30",
+      "other_person": "Laurie Cameron",
+      "other_person_slug": "laurie-cameron",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02518675",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02671795",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 639,
+      "person_a": "Leon Black",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:32",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708280",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708281",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01284214",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 640,
+      "person_a": "Alan Dlugash",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "advisory",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:40",
+      "other_person": "Alan Dlugash",
+      "other_person_slug": "alan-dlugash",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02488862",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 641,
+      "person_a": "FirstBank Puerto Rico",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:41",
+      "other_person": "FirstBank Puerto Rico",
+      "other_person_slug": "firstbank-puerto-rico",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273155",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 643,
+      "person_a": "Dina Perry-Malone",
+      "person_b": "Southern Trust Company",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:42",
+      "other_person": "Dina Perry-Malone",
+      "other_person_slug": "dina-perry-malone",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633183",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "person_a": "IGO Company LLC",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:29",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Unified DB doc 44923 - STC Statement of Assets June 2015",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 938,
+      "person_a": "IGO Company LLC",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:03",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365998",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1740,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 1751,
+      "person_a": "International Peace Institute",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 1788,
+      "person_a": "Lawrence Summers",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "financial",
+      "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Lawrence Summers",
+      "other_person_slug": "lawrence-summers",
+      "evidence": []
+    },
+    {
+      "id": 1871,
+      "person_a": "Prytanee LLC",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Prytanee LLC",
+      "other_person_slug": "prytanee-llc",
+      "evidence": []
+    },
+    {
+      "id": 1919,
+      "person_a": "FT Real Estate Inc",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "FT Real Estate Inc",
+      "other_person_slug": "ft-real-estate-inc",
+      "evidence": []
+    },
+    {
+      "id": 1953,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "financial",
+      "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship.",
+      "strength": "strong",
+      "date_range": "2013-08 to 2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:02",
+      "other_person": "Deutsche Bank AG",
+      "other_person_slug": "deutsche-bank-ag",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2011-11-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Complete Southern Trust corporate family structure with account details: (1) SOUTHERN TRUST COMPANY INC — parent entity, USVI domestic profit corp (581871), formed 11/18/2011, registered 9053 Estate Thomas Ste 101, agent Business Basics VI LLC (Kellerhals). Deutsche Bank accounts: 42952763 (money market), 77000965, 77000957, 44129241, 44129244 (wires to Valar/Seaford). FirstBank PR platinum banking. Citibank. Charles Schwab (opened Apr 2019). Interactive Brokers (Dec 2019). JPMorgan (pre-Feb 2014). (2) SOUTHERN FINANCIAL LLC — wholly owned subsidiary per NYDFS. Deutsche Bank: W91850003, W92099006 + DDA. ISDA derivatives master with DB London. Investment vehicle for equities/derivatives/hedge funds. Held Bear Stearns, Tudor Futures, Renault, Ariad, Carvana positions. Portfolio value peak $16.7M (Dec 2018). (3) SOUTHERN COUNTRY INTERNATIONAL LTD — offshore entity, Ltd designation. Schwab accounts (Apr 2019). Tax code 525990. (4) FINANCIAL STRATEGY GROUP INC (FL P93000087814, 1993-2000) — predecessor entity, renamed to Southern Country International.",
+      "confidence": "medium",
+      "id": 1302
+    },
+    {
+      "date": "2013-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Leon Black total payments to STC Deutsche Bank account documented: Feb 2013 = $15,000,000 (ORG-394001320945 LEON D RACK/BLACK, Chips Credit), May 2013 = $16,500,000 (ORG-394001320945 LEON D BLACK, Chips Credit), Oct 2013 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK). Three payments in 8 months totaling $40,000,000. All went directly to STC Elite Money Market Deposit at Deutsche Bank. The Feb-May $31.5M alone would account for the STC balance rising from near-zero to $27.3M end-Oct 2013 (with interim transfers out). Originator consistently LEON D BLACK via ORG-394001320945 (a Fedwire participant code). The Oct payment included Debra R Black (wife) as co-originator.",
+      "confidence": "confirmed",
+      "id": 1282
+    },
+    {
+      "date": "2013-08 to 2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship.",
+      "other_person": "Deutsche Bank AG",
+      "id": 1953
+    },
+    {
+      "date": "2013-10",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Oct 2013 $6M incoming TRACED: Deutsche Bank statement for STC (EFTA01284214) shows three deposits in October 2013 to the Elite Money Market Deposit account (Amanda Kirby, relationship manager): Oct 7 = $12,755,048.50 (ORG-003040315872 SOUTHERN TRUST COMPANY INC — internal transfer from another STC DB account), Oct 15 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK 760 PARK AVE NEW YORK NY 10 — Leon Black payment), Oct 17 = $6,000,000 (ORG-3040545872 SOUTHERN TRUST COMPANY INC — internal transfer). Total deposits: $27,258,838.74. The $6M was NOT from an external source — it was an internal STC-to-STC account transfer at Deutsche Bank. The originator code 3040545872 matches the Southern Trust entity. The $8.5M Leon Black deposit is notable as an early payment (Oct 2013) predating the later $16.5M (May 2013, separately documented) and $15M (Feb 2013) Black payments.",
+      "confidence": "confirmed",
+      "id": 1279
+    },
+    {
+      "date": "2014-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "JPMorgan account snapshot (Paul Barrett, Managing Director, Global Investment Opportunities Group, JP Morgan Private Bank) lists combined Southern Financial/Trust balances: Southern Financial LLC = $23,380,735.58 (WOD $9,056,419.71 + WOA $14,050,627.87 + DDA $273,688), Southern Trust Company Inc = $26,779,306.11 (W8964002 $2,234,360.80 + DDA $149,999.75 + Savings $24,394,495.56). Total combined: $50,160,041.69. These were JPMorgan accounts managed before the Feb 2014 migration to Deutsche Bank, when Harry Beller confirmed 'All positions at JPM were finally closed. JPM will wire today the remaining cash balances to Deutsche Bank: (1) Southern Financial $10,397,100, (2) Southern Trust (Laurie Cameron) $911,808 remaining balance (JPM wired yesterday $4,003,093).' Laurie Cameron was STC's FX/currency portfolio manager, not an EdR person.",
+      "confidence": "confirmed",
+      "id": 1293
+    },
+    {
+      "date": "2015-06-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Complete DS10 STC transaction map: 16 transactions totaling $19.6M outgoing + $8.6M incoming (net $11M outgoing). OUTGOING: $3.05M to Citibank/Morgan Stanley (Jun 5, 2015), $1M to Citibank/Morgan Stanley (Aug 23, 2015), $175K to FirstBank Puerto Rico (Jun 11, 2015), $2M internal transfer (Oct 17, 2017), $4.4K to JPMorgan Chase (Oct 20, 2017), $13M to Interactive Brokers (Dec 23, 2019). Six internal STC-to-STC transfers totaling $15.7M. INCOMING: $6M internal Oct 2013, $373K internal Oct 2013, periodic $200-400K transfers (Feb 2016 through Oct 2018), $349K final Jan 2020. STC held 20 balance observations with peak $26.7M (Nov 2013) in DS10, but this dramatically understates the true peak of $110M (Dec 2015 per EFTA02347813) — DS10 captures only partial account data. Southern Financial LLC had separate 6 transactions ($602K out, $59K in) and portfolio peak $16.7M (Dec 2018). The $500K SFL to JPMorgan Chase (May 5, 2017) was the largest SFL wire in DS10.",
+      "confidence": "medium",
+      "id": 1336
+    },
+    {
+      "date": "2015-08-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "On August 21, 2015, Epstein sent a self-memo (to-do list) revealing: (1) He was 'sitting on over 130 million in CASH', (2) His family office had too many employees ('brad hiring another bookkeeper?'), (3) He instructed 'brad' (Karp) to wire $5M charitable contribution to Gratitude America before Sept 1, (4) Referenced 'difficult few months.' The prior day (Aug 20), Epstein emailed Melanie Spinella with a stream-of-consciousness list: 'boat, plane, tax returns, art space, phaidon, IT, TRA jpm db gs' and instructed wiring to Southern Trust 'to cover work done until today.' This reveals Epstein's direct operational control over Southern Trust/Financial, his awareness of the $130M+ cash position across accounts, and Karp's role directing fund flows.",
+      "confidence": "confirmed",
+      "id": 631
+    },
+    {
+      "date": "2015-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company MMDA balance was $109,981,919.36 as of Dec 2015 (EFTA02347813). This was Epstein's single largest cash holding. STC had Deutsche Bank account (44129244) receiving Leon Black payments. Also invested in Carvana stock (75,000 shares at $65.19 avg, Sep 2018) through Morgan Stanley/Schermerhorn. STC registered as VIEDC beneficiary. Tax/accounting by Seckendorf Hasson & Reilly (Lake Success NY) covering all JE Entities. Used for visa applications (Karyna Shuliak Japan visa). Address used as meeting location (Albert Bryan visited 1:30pm, 3rd floor American Yacht Harbour).",
+      "confidence": "high",
+      "id": 233
+    },
+    {
+      "date": "2015-12-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "STC peak balance $109,981,919.36 (MMDA account, Dec 30, 2015) confirmed via Deutsche Bank online banking screenshot forwarded by Kahn. On that date, a single $10,000,000 incoming wire posted at 1:57PM ET. Separately, Oct 2014 statement shows balance reached $88,224,973.81 after $20M in same-day incoming wires ($13M + $7M on Oct 16 2014). Nov 2015 Kahn email to Epstein lists three accounts over $20M: Southern Trust $82.5M, Haze Trust $47.375M, Southern Financial LLC $29.25M — combined $159.125M in liquid balances. Darren Indyke instructed $20M transfer to 'erika escrow account' (Kellerhals) routing through JEE personal. Complete STC balance trajectory: Near-zero (early 2013) -> $27.3M (Oct 2013) -> $88.2M (Oct 2014) -> $110M (Dec 2015) -> $56.5M (June 2016) -> $18M (May 2017) -> near-zero (Oct 2017-2018) -> $91K (May 2019) -> consolidated to IB (Dec 2019).",
+      "confidence": "confirmed",
+      "id": 1287
+    },
+    {
+      "date": "2016-05 to 2018-06",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment.",
+      "other_person": "Honeycomb Asset Management LP",
+      "id": 851
+    },
+    {
+      "date": "2016-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc held $56,542,688.38 in a Deutsche Bank Elite Money Market Deposit account as of June 2016 (statement period June 1-30, 2016). Address: 6100 Red Hook Quarter B3, St Thomas 00802 USVI. Relationship manager: Paul Morris. This is the parent entity of Southern Financial LLC. The DB daily deposit report (EFTA01383662, Apr 2018) lists Southern Financial LLC alongside other Epstein entities: JEGE LLC, Darren K Indyke PLLC, HBRK Associates, NES LLC, LSJE LLC, Gratitude America Ltd, Neptune LLC, Plan D LLC, Zorro Management LLC - confirming Southern Financial as part of the core Epstein entity constellation at Deutsche Bank.",
+      "confidence": "confirmed",
+      "id": 636
+    },
+    {
+      "date": "2016-08-16",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SOUTHERN TRUST COMPANY BROKER-DEALER ACTIVITY -- ACTIVE SECURITIES TRADING: DOJ corpus reveals Southern Trust Company (the renamed FTC entity) was actively trading securities through Morgan Stanley, not merely holding the Apollo IPO shares passively. Evidence: (1) EFTA02454166 (Aug 16, 2016): Andrew Atlas (Morgan Stanley Financial Advisor, Midtown Manhattan Complex) notified Richard Kahn that 'Southern Trust Company was allocated 500m bonds' in an EsTrade Preferred offering at 5.875%. The $500M bond allocation indicates Southern Trust maintained institutional-scale brokerage relationships. (2) EFTA02360125: 'Southern Trust Co. WING allocated 200 shares; priced 19. Opened at 30.50.' Andrew Atlas asked if Kahn wanted to 'hold or sell.' (3) EFTA02714849: 'Southern Trust Company was allocated $1,000,000.00 worth of the SCHW 6% $25 Pfd.' (4) EFTA02505378: 'Southern Financial LLC' received a $1M capital call from Neoteny 3 LP (Apr 2015). (5) EFTA02624629 (Sep 2018): 'CVNA - Carvana - for Southern Trust Company' -- purchased 75,000 shares at $65.19 average ($4.9M position). This demonstrates that the Epstein entity holding Apollo IPO shares (transferred from FTC to Southern Financial LLC) was simultaneously conducting active securities trading through Morgan Stanley, with institutional-level bond allocations and IPO participation in multiple companies.",
+      "confidence": "high",
+      "id": 1507
+    },
+    {
+      "date": "2019-02-28",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FirstBank USVI rejected STC request to open 6 new deposit accounts on Feb 28, 2019 (4.5 months pre-arrest). VP Dina Perry-Malone wrote: 'After careful review and consideration of your request to open six additional deposit accounts, we cannot proceed with aforementioned at this time.' FirstBank simultaneously requested beneficial ownership certifications for 18 existing entity accounts: Cypress Inc, F T Real Estate Inc, Freedom Air Petroleum LLC, FSF LLC, Gratitude America Ltd, Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands Foundation Inc, Jeepers Inc, Laurel Inc, Little St James LLC, LSJE LLC, Maple Inc, and others. Michelle Smith-Roberts (Waterfront Branch and Platinum Banking Manager) had requested information about wire beneficiaries including American Yacht ($37K, $38K), Citizens for Better Government ($50K), Democratic Cong ($10K), and monthly payments to unnamed individuals ($8,333 each). This shows banks tightening oversight months before arrest.",
+      "confidence": "confirmed",
+      "id": 1303
+    },
+    {
+      "date": "2019-05-24",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Operational security failure May 24, 2019 (6 weeks pre-arrest): Journalist 'Nova' (surname only, no first name given) called STC's USVI office. When receptionist Una answered as 'Southern Trust Company,' Nova pivoted from his original inquiry about 'Financial Trust' to Southern Trust, noting he could find nothing about STC on Google. Nova told Una 'he would then have no choice but to leave what we did up to his own interpretation.' Cecile de Jongh (former USVI First Lady, STC office manager) reported to Indyke, asking: 'Should we start answering the phone with 2525?' (the address number). Richard Kahn identified Nova as 'a journalist. hes called a number of people.' This reveals: (1) STC had no public internet presence by design, (2) journalists were actively investigating pre-arrest, (3) the entity naming confused even staff (Groff writing checks to wrong entity), (4) the office operated under deliberate opacity.",
+      "confidence": "confirmed",
+      "id": 1296
+    },
+    {
+      "date": "2019-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "USMS personal effects at arrest confirm Southern Trust Company as Epstein's employer of record as of July 2019. UnitedHealthcare Choice Plus card shows Group Number 272605 under employer name 'Southern Trust Company'. The USM-312 form lists employer phone as 340-775-2525 (USVI area code). This confirms Southern Trust maintained active employee benefits through at least the arrest date. The health plan number 911-87726-04 and payer ID 87726 could be used to trace the corporate benefits arrangement. Also: USMS prisoner records list occupations as 1-BANKER, 2-SOUTHERN TRUST COMPANY, 3-SELF EMPLOYED (in that order), suggesting BANKER was primary identity and STC secondary.",
+      "confidence": "confirmed",
+      "id": 1297
+    },
+    {
+      "date": "2019-07-08",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc was the subject of a Charles Schwab Financial Crimes AML investigation (case opened 07/08/2019, EFTA01265973). STC established a relationship with Schwab in April 2019 alongside Southern Financial LLC and Southern Country International Ltd, all under Richard Kahn with Epstein as beneficial owner and internal control person. The Schwab accounts were opened just 3 months before Epstein July 2019 arrest. Deutsche Bank KYC described STC as a private consulting company that invests client assets and generates revenue from returns and management fees. STC was the entity that wired 2.5M to Valar Global Fund III (Thiel) and made regular disbursements to Seaford Avenue Capital LLC.",
+      "confidence": "confirmed",
+      "id": 625
+    },
+    {
+      "date": "2019-12-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Estate consolidation wave Dec 12, 2019: Seven HBRK Associates wires totaling $9,238,007.10 liquidated subsidiary entity accounts into STC at FirstBank. Each wire identified the originating entity: LSJE ($2,707,464.11), ZORRO ($1,451,474.78), NES ($1,345,169.03), NEPTUNE ($1,013,546.36), PLAN D ($971,262.20), JEGE ($922,789.01), HYPERION ($826,301.61). Additionally: Richard Kahn wired $98,795.45 from Butterfly Trust (via Kellerhals as trustee, National Financial Services/Fidelity), Darren Indyke PLLC IOLA Trust account wired $5,566,408.92 from TD Bank (Nov 20), and $4,657,830.34 from unknown source. Three Fortress Value Recovery Fund distributions ($79,206.92, $92,594.02, $15.00). Total consolidation inflow: ~$20M+. All directed to STC at FirstBank, then the $13M transferred to Interactive Brokers Dec 23.",
+      "confidence": "high",
+      "id": 1276
+    },
+    {
+      "date": "2019-12-23",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company M Dec 23, 2019 payment TRACED: Wire was from STC at Citibank (FirstBank USVI) to Interactive Brokers LLC, One Pickwick Plaza, Greenwich CT 06830, into a STC brokerage account. Wire instructions explicitly state 'PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT.' This was an estate asset repositioning — moving cash from banking to brokerage — not a distribution to an external party. Transaction number 201912230001627, charge . This occurred 5 months after Epstein's death (Aug 10, 2019) during the estate administration period when Indyke/Kahn were consolidating assets.",
+      "confidence": "confirmed",
+      "id": 1272
+    },
+    {
+      "date": "2023-08-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Three core Epstein USVI entities have LEI registrations: STC (549300AZFOXEILVV4R81), FTC (CKK88E24733DTGIKLS94), and Southern Financial LLC (549300KB8YL2XC7B4K14). All three share the same registered address: 6100 Red Hook Quarter B3, St. Thomas, USVI 00802. All LEIs were initially registered in 2012-2013 and are now LAPSED, with last updates on 2023-08-04. Entity status remains ACTIVE. No parent-subsidiary relationships reported in GLEIF — these entities operated as independent nodes despite sharing address and clearly being controlled by the same principals.",
+      "confidence": "medium",
+      "id": 1536
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      631,
+      1507,
+      625,
+      636,
+      1282,
+      1279,
+      1293,
+      1287,
+      1303,
+      1296,
+      1272,
+      233
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          766,
+          765,
+          52,
+          264,
+          272,
+          289,
+          830,
+          840,
+          850,
+          851,
+          902,
+          910,
+          913,
+          1428,
+          637
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1302,
+          1282,
+          1279,
+          1293,
+          1336,
+          631,
+          233,
+          1287,
+          636,
+          1507
+        ],
+        "connection_ids": [
+          830,
+          840,
+          850,
+          851,
+          902,
+          910,
+          913,
+          637
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-19T00:48:57.139731",
+    "lead": "<p>Southern Trust Company Inc. (USVI entity #581871) was a domestic profit corporation formed on November 18, 2011 in the U.S. Virgin Islands, and it functioned as <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>'s single largest financial vehicle. Registered at 9053 Estate Thomas Suite 101 with <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI LLC</a> (<a href=\"/dossiers/erika-kellerhals\">Erika Kellerhals</a>) as resident agent, STC was licensed for \"business and management consulting\" &mdash; not banking or trust services &mdash; despite its name and the scale of its financial operations. At its peak in December 2015, the entity held $109,981,919.36 in a single Deutsche Bank Elite Money Market Deposit Account, making it the gravitational center of Epstein's liquid wealth.</p>\n\n<p>STC's balance trajectory tells the story of a financial engine built on outside capital and deliberately drained over time. The account was near zero in early 2013, rose to $27.3 million by October 2013 on the strength of $40 million in wire transfers from <a href=\"/dossiers/leon-black\">Leon Black</a>, and surged through $88.2 million (October 2014) to its $110 million apex in December 2015. From there, the balance declined through major outward deployments &mdash; a $20 million wire to <a href=\"/dossiers/honeycomb-asset-management-lp\">Honeycomb Partners LP</a> in May 2016, transfers to <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a>, and distributions across the entity network &mdash; falling to $56.5 million by June 2016, $18 million by May 2017, and near zero by late 2017. The entity was revived briefly when <a href=\"/dossiers/deutsche-bank-ag\">Deutsche Bank</a> accounts closed and operations moved to Charles Schwab (April 2019) and Interactive Brokers (December 2019), but by then STC held only residual balances being consolidated for estate administration.</p>\n\n<p>The corporate family beneath STC included <a href=\"/dossiers/southern-financial-llc\">Southern Financial LLC</a> (a wholly-owned investment subsidiary that held an ISDA derivatives master agreement with Deutsche Bank London), <a href=\"/dossiers/southern-country-international-ltd\">Southern Country International Ltd</a> (an offshore entity with Schwab accounts), and <a href=\"/dossiers/igo-company-llc\">IGO Company LLC</a> (valued at $3 million on STC's balance sheet, later transferred to the Caterpillar Trust GRAT). <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> of HBRK Associates managed the accounts; <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> provided legal oversight; Cecile de Jongh, former First Lady of the U.S. Virgin Islands, ran the office; and Brett Geary was the named business contact on STC's USVI license. STC also served as Epstein's employer of record &mdash; at the time of his July 2019 arrest, his UnitedHealthcare card listed the employer as \"Southern Trust Company\" with a USVI phone number. USMS booking records list his occupations in order: \"1-BANKER, 2-SOUTHERN TRUST COMPANY, 3-SELF EMPLOYED.\" The entity operated under deliberate opacity: it maintained no public internet presence, and when a journalist called the office in May 2019, staff considered answering the phone with just the street number to avoid disclosing the entity name.</p>",
+    "open_questions": [
+      "What was the full scope of STC's role in the Leon Black tax planning arrangement, and did STC issue any documentation (consulting agreements, fee schedules, engagement letters) to justify the $40 million in incoming payments?",
+      "What was the complete set of accounts and balances at the time of Epstein's arrest across STC, Southern Financial LLC, and Southern Country International Ltd at Charles Schwab, Interactive Brokers, and FirstBank, and how were these assets allocated in estate proceedings?",
+      "What role did Laurie Cameron play as STC's FX/currency portfolio manager, what was the scope of the foreign exchange trading she managed, and what was her compensation arrangement with the entity?",
+      "Why did STC attempt to open six new accounts at FirstBank in February 2019 when existing banking relationships were already under stress -- was this an attempt to disperse assets ahead of anticipated enforcement action?",
+      "What was the journalist 'Nova's' full identity and which publication did they represent when calling STC in May 2019, and did any resulting story contribute to the investigation that led to Epstein's July arrest?"
+    ],
+    "system_role": "Southern Trust Company Inc. was the apex financial entity in the Epstein USVI corporate structure, functioning as both a $110 million cash management vehicle capitalized primarily by Leon Black's payments and an active securities trading operation through Morgan Stanley and Deutsche Bank, while its USVI 'consulting' license, deliberate absence from public records, and three-tier subsidiary architecture demonstrate how jurisdictional arbitrage and naming misdirection can render a nine-figure financial operation effectively invisible.",
+    "sections": [
+      {
+        "id": "formation-and-corporate-architecture",
+        "title": "Formation and Corporate Architecture",
+        "content": "<p>Southern Trust Company Inc. was incorporated in the U.S. Virgin Islands on November 18, 2011 as a domestic profit corporation, entity number 581871. Its registered address was 9053 Estate Thomas Suite 101, St. Thomas, VI 00802 &mdash; the Royal Palms Professional Building, where <a href=\"/dossiers/erika-kellerhals\">Erika Kellerhals</a>'s law firm Kellerhals Ferguson LLP served as registered agent through <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI LLC</a>. The USVI business license (EFTA01297594) identified Brett Geary as the named business contact and listed the licensed activity as \"BUSINESS AND MANAGEMENT CONSULTING,\" a categorization that conspicuously omitted any reference to banking, trust administration, or securities trading &mdash; activities that STC demonstrably conducted at institutional scale. The license ran from December 1, 2011 through December 31, 2018.</p>\n\n<p>STC sat atop a three-tier corporate family. Its wholly-owned subsidiary <a href=\"/dossiers/southern-financial-llc\">Southern Financial LLC</a> served as the active investment arm, holding an ISDA derivatives master agreement with Deutsche Bank London, maintaining equity positions in companies ranging from Bear Stearns to Tudor Futures to Carvana, and peaking at a $16.7 million portfolio value in December 2018. The second subsidiary, <a href=\"/dossiers/southern-country-international-ltd\">Southern Country International Ltd</a>, carried a \"Ltd\" offshore designation, Schwab brokerage accounts opened in April 2019, and tax code 525990. Southern Country's predecessor entity was Financial Strategy Group Inc., a Florida corporation (P93000087814) formed in 1993 and active through 2000 &mdash; a rare link between Epstein's 1990s Florida financial apparatus and the post-2011 USVI structure. STC also owned <a href=\"/dossiers/igo-company-llc\">IGO Company LLC</a>, valued at $3,000,002 on the June 30, 2015 STC balance sheet, which held Epstein's 50% interest in American Yacht Harbor and an early Coinbase investment. IGO's ownership was later transferred to <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a> as part of an estate-planning restructuring.</p>\n\n<p>All three core USVI entities &mdash; STC, <a href=\"/dossiers/financial-trust-company\">Financial Trust Company</a>, and Southern Financial LLC &mdash; obtained Legal Entity Identifiers from GLEIF, registered between 2012 and 2013. STC's LEI was 549300AZFOXEILVV4R81. Despite sharing the same address and the same controlling principals, no parent-subsidiary relationships were reported in the GLEIF database, meaning each entity appeared to external observers as an independent node in the financial system. The LEIs lapsed with last updates on August 4, 2023, but entity status remained ACTIVE &mdash; an ambiguity that persists in global financial infrastructure records years after Epstein's death.</p>",
+        "viz": null
+      },
+      {
+        "id": "leon-black-capitalization",
+        "title": "The Leon Black Capitalization",
+        "content": "<p>The financial history of Southern Trust Company cannot be understood without <a href=\"/dossiers/leon-black\">Leon Black</a>, co-founder of <a href=\"/dossiers/apollo-global-management\">Apollo Global Management</a>, whose wire transfers constituted the single largest identified source of STC's capital. Between February and October 2013, Black sent three payments totaling $40 million directly to STC's Elite Money Market Deposit Account at <a href=\"/dossiers/deutsche-bank-ag\">Deutsche Bank</a>: $15 million in February 2013 (EFTA02708281), $16.5 million in May 2013 (EFTA02708280), and $8.5 million in October 2013 (EFTA01284214). All three arrived via CHIPS Credit using Fedwire originator code ORG-394001320945, consistently identifying \"LEON D BLACK\" as the originator. The October payment also listed \"DEBRA R BLACK\" as co-originator, with the originating address at 760 Park Avenue, New York.</p>\n\n<p>The timing of these payments aligns precisely with STC's balance growth. The account was near zero in early 2013 when the Deutsche Bank relationship was first established (the official onboarding date was August 19, 2013 per the NYDFS Consent Order, though Black's February and May wires preceded the formal account opening). By October 2013, the account statement showed three deposits totaling $27,258,838.74 &mdash; the $8.5 million Black payment plus internal STC-to-STC account transfers of $12.75 million and $6 million. The $31.5 million from the February and May Black payments alone, after interim transfers out, accounts for the $27.3 million balance at October's close. This was the engine that propelled STC from an empty shell to a nine-figure financial vehicle within two years.</p>\n\n<p>Black's payments to STC were part of the broader financial relationship that the Dechert LLP investigation, commissioned by Apollo's board, later quantified at approximately $158 million over five years. The STC payments represent the purest documented form of that relationship: large, traceable wire transfers from an identified originator to an Epstein-controlled account, with no intermediary entities or ambiguous structuring to obscure the flow. That $40 million landed in an entity licensed for \"consulting\" in the U.S. Virgin Islands, managed by accountant <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> at HBRK Associates, raises questions about what services, if any, STC rendered in exchange.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "banking-trajectory",
+        "title": "The Banking Trajectory: JPMorgan to Deutsche Bank to Schwab",
+        "content": "<p>Before arriving at Deutsche Bank, STC and its subsidiary Southern Financial LLC held substantial accounts at JPMorgan Private Bank under managing director Paul Barrett of the Global Investment Opportunities Group. A JPMorgan account snapshot (EFTA02571157) lists combined balances of $50,160,041.69: Southern Financial LLC held $23,380,735.58 across three accounts (WOD, WOA, and DDA), while Southern Trust Company Inc. held $26,779,306.11 across a brokerage account, DDA, and savings. These were institutional-scale private banking relationships, not personal checking accounts.</p>\n\n<p>The migration to Deutsche Bank occurred in February 2014, when Harry Beller confirmed: \"All positions at JPM were finally closed. JPM will wire today the remaining cash balances to Deutsche Bank: (1) Southern Financial $10,397,100, (2) Southern Trust (Laurie Cameron) $911,808 remaining balance (JPM wired yesterday $4,003,093).\" The reference to Laurie Cameron is significant &mdash; she was STC's FX/currency portfolio manager, not a Deutsche Bank or <a href=\"/dossiers/edmond-de-rothschild-bank\">Edmond de Rothschild</a> employee, indicating that STC ran active foreign exchange positions requiring dedicated portfolio management.</p>\n\n<p>At Deutsche Bank, STC accumulated a sprawling set of accounts: 42952763 (money market), 77000965, 77000957, 44129241, and 44129244 (the last of which received wires to <a href=\"/dossiers/valar-ventures\">Valar</a> and Seaford Avenue Capital). Southern Financial LLC maintained separate Deutsche Bank accounts W91850003 and W92099006 plus a DDA. Relationship managers included Amanda Kirby (2013), Paul Morris (by 2016), and the accounts fell under DB RM code 81851. A November 2015 email from <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> to <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> (EFTA02671293) listed three liquid positions exceeding $20 million each: Southern Trust at $82.5 million, Haze Trust at $47.375 million, and Southern Financial LLC at $29.25 million &mdash; a combined $159.125 million in readily accessible cash. This was the high-water mark of the Deutsche Bank era.</p>\n\n<p>By early 2019, the banking relationships were unraveling. FirstBank Puerto Rico VP Dina Perry-Malone rejected STC's request to open six new deposit accounts on February 28, 2019, writing: \"After careful review and consideration of your request to open six additional deposit accounts, we cannot proceed with aforementioned at this time.\" FirstBank simultaneously demanded beneficial ownership certifications for 18 existing entity accounts and began questioning wire beneficiaries. In April 2019, STC pivoted to Charles Schwab, opening accounts alongside Southern Financial LLC and Southern Country International Ltd, all under Kahn with Epstein as beneficial owner. Schwab's Financial Crimes unit opened an AML investigation (case #EFTA01265973) on July 8, 2019 &mdash; two days after Epstein's arrest. The final banking move came on December 23, 2019, when STC wired $13 million from FirstBank to Interactive Brokers in Greenwich, Connecticut, with instructions to \"PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT.\" This was estate consolidation, not new business.</p>",
+        "viz": null
+      },
+      {
+        "id": "balance-trajectory-and-deployment",
+        "title": "Balance Trajectory and Capital Deployment",
+        "content": "<p>STC's balance trajectory &mdash; meticulously reconstructable from Deutsche Bank statements, emails, and DS10 data &mdash; reveals an entity that was capitalized by external money, held it temporarily, and deployed it into investment vehicles and subordinate entities. The documented arc runs: near-zero (early 2013) to $27.3 million (October 2013) to $88.2 million (October 2014, after $20 million in same-day incoming wires of $13 million and $7 million on October 16) to the peak of $109,981,919.36 (December 30, 2015, confirmed by a Deutsche Bank online banking screenshot forwarded by Kahn). A single $10 million incoming wire posted at 1:57 PM ET on that date pushed the balance to its final peak. By January 2016, <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> had instructed a $20 million transfer to \"erika escrow account\" (<a href=\"/dossiers/erika-kellerhals\">Kellerhals</a>), routing through JEE personal.</p>\n\n<p>The decline from the peak was sharp and deliberate. By June 2016, after the $20 million wire to <a href=\"/dossiers/honeycomb-asset-management-lp\">Honeycomb Partners LP</a> on May 31, 2016 (sent from the MMDA account at a balance of $80.875 million), STC held $56,542,688.38. By May 2017, the balance had fallen to $18 million. By October 2017, it was near zero. During 2018, the account was essentially dormant. The revival in 2019 was driven not by new capital but by estate consolidation: on December 12, 2019, seven HBRK Associates wires totaling $9,238,007.10 liquidated subsidiary entity accounts &mdash; LSJE ($2.7 million), Zorro ($1.45 million), NES ($1.35 million), Neptune ($1 million), Plan D ($971,000), JEGE ($923,000), Hyperion ($826,000) &mdash; into STC at FirstBank. Additional consolidation flows included $5.57 million from Indyke's IOLA Trust at TD Bank, $98,795 from the Butterfly Trust via Kellerhals, and three Fortress Value Recovery Fund distributions. This approximately $20 million pool was then sent to Interactive Brokers in the $13 million December 23 wire.</p>\n\n<p>The outward deployments tell a complementary story. STC was the primary funding conduit for Epstein's Honeycomb investment, which totaled at least $60 million across Honeycomb Partners and Ventures I through IV per the Dechert Exhibit B ledger, where Honeycomb represented the single largest fund allocation at approximately $34 million across five transactions. STC also funded <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a>, which Deutsche Bank AML compliance identified as \"a new account for the Southern Financial relationship.\" <a href=\"/dossiers/jeffrey-epstein\">Epstein</a>'s own August 21, 2015 self-memo (EFTA02489710) acknowledged the scale: \"you are still sitting on over 130 million in CASH,\" while instructing \"brad\" (<a href=\"/dossiers/brad-karp\">Brad Karp</a>) to wire $5 million to <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America</a> and Melanie Spinella to wire to Southern Trust \"to cover work done until today.\" This reveals Epstein's direct operational control over STC and his awareness that the $130 million-plus cash position required active deployment.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "securities-trading",
+        "title": "Institutional Securities Trading",
+        "content": "<p>Despite its USVI \"consulting\" license, STC and its subsidiary Southern Financial LLC conducted active securities trading at institutional scale through Morgan Stanley. Andrew Atlas, a Morgan Stanley Financial Advisor in the Midtown Manhattan Complex, served as the primary broker, routing IPO allocations, bond offerings, and equity trades through the STC accounts managed by <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>.</p>\n\n<p>The documented trading activity reveals the breadth of STC's market participation. In August 2016, Atlas notified Kahn that \"Southern Trust Company was allocated 500m bonds\" in an EsTrade Preferred offering at 5.875% (EFTA02454166) &mdash; a half-billion-dollar bond allocation indicating that Morgan Stanley treated STC as an institutional client, not a retail account. Separately, STC received an IPO allocation of 200 shares in an unnamed company (\"WING\") that priced at $19 and opened at $30.50, with Atlas asking Kahn whether to \"hold or sell\" (EFTA02360125). STC was also allocated $1 million of Charles Schwab 6% preferred stock (EFTA02714849), though the deal was oversubscribed and the fill was reduced from a $2 million request.</p>\n\n<p>The largest documented equity position was Carvana. In September 2018, Kahn directed the purchase of 75,000 shares of CVNA at a $65.19 average price, a position worth approximately $4.9 million (EFTA02624629). The position was acquired through Morgan Stanley's Schermerhorn desk. Southern Financial LLC, meanwhile, held portfolio positions in Bear Stearns, Tudor Futures, Renault, and Ariad, and received a $1 million capital call from Neoteny 3 LP (Joi Ito's venture fund) in April 2015 (EFTA02505378). The combined picture is of a USVI entity that maintained institutional-level brokerage relationships, received preferential IPO and bond allocations, actively traded public equities, and made venture capital investments &mdash; all under a business license for \"consulting\" in a jurisdiction chosen specifically for its tax advantages and regulatory distance from the mainland United States.</p>",
+        "viz": null
+      },
+      {
+        "id": "operational-opacity",
+        "title": "Operational Opacity and the Unraveling",
+        "content": "<p>STC's operational design prioritized invisibility. The entity had no public website, no listed phone number in public directories, and no Google-searchable presence as of May 2019. When journalist \"Nova\" &mdash; identified by Kahn only as \"a journalist. hes called a number of people\" &mdash; telephoned STC's USVI office on May 24, 2019, the call itself revealed the design. Receptionist Una answered as \"Southern Trust Company,\" whereupon Nova, who had originally been inquiring about <a href=\"/dossiers/financial-trust-company\">Financial Trust Company</a>, pivoted to asking about STC. He told Una that he could find nothing about the entity online and warned that \"he would then have no choice but to leave what we did up to his own interpretation\" (EFTA02288520). Cecile de Jongh, the former First Lady of the U.S. Virgin Islands who served as STC's office manager, reported the call to <a href=\"/dossiers/darren-indyke\">Indyke</a> and asked: \"Should we start answering the phone with 2525?\" &mdash; the street address number, rather than the company name.</p>\n\n<p>The opacity extended to STC's own personnel. <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>, Epstein's longtime executive assistant, mistakenly wrote checks to the wrong Southern entity, suggesting she did not fully understand the distinctions between STC, Southern Financial LLC, and Southern Country International Ltd. The Deutsche Bank KYC file described STC as \"a private consulting company that invests client assets and generates revenue from returns and management fees\" &mdash; a description that bears little resemblance to the entity's actual operations as a personal financial vehicle for a single beneficial owner.</p>\n\n<p>The unraveling accelerated in 2019. FirstBank refused new accounts in February. A journalist was calling in May. Charles Schwab opened an AML investigation on July 8 &mdash; two days after Epstein's arrest. The Schwab investigation file listed the subjects as \"JEFFREY EPSTEIN, SOUTHERN TRUST COMPANY INC., SOUTHERN FINANCIAL LLC, SOUTHERN COUNTRY INTERNATIONAL LTD, RICHARD KAHN\" (EFTA01265973), confirming that the entire Southern family was treated as a single investigation cluster. STC's accounts had been opened at Schwab just three months earlier, in April 2019, with Epstein named as beneficial owner and internal control person. The timing &mdash; opening new brokerage accounts at Schwab while Deutsche Bank was winding down the relationship and FirstBank was refusing to expand it &mdash; suggests an effort to maintain institutional access as existing banks pulled away.</p>\n\n<p>STC also served as Epstein's employer of record. At the time of his July 2019 arrest, the personal effects inventory included a UnitedHealthcare Choice Plus card listing the employer as \"Southern Trust Company\" under Group Number 272605, with the employer phone as 340-775-2525. The USMS booking records listed Epstein's occupations as: \"1-BANKER, 2-SOUTHERN TRUST COMPANY, 3-SELF EMPLOYED.\" That the entity serving as Epstein's employer &mdash; providing his health insurance, defining his professional identity &mdash; was simultaneously a $110 million cash management vehicle with no public presence captures the fundamental duality of the operation.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "estate-consolidation",
+        "title": "Estate Consolidation and Aftermath",
+        "content": "<p>Epstein's death on August 10, 2019 transformed STC from an active financial vehicle into a consolidation point for estate administration. On December 12, 2019, seven wires from HBRK Associates liquidated the sub-entity accounts &mdash; LSJE, Zorro, NES, Neptune, Plan D, JEGE, and Hyperion &mdash; totaling $9.24 million into STC at FirstBank. <a href=\"/dossiers/darren-indyke\">Indyke</a>'s IOLA Trust account wired an additional $5.57 million from TD Bank, the Butterfly Trust contributed $98,795 via <a href=\"/dossiers/erika-kellerhals\">Kellerhals</a> as trustee, and Fortress Value Recovery Fund distributed $171,816 in three payments. Approximately $20 million in total consolidation inflows arrived in STC during late 2019.</p>\n\n<p>Eleven days later, on December 23, the accumulated funds were repositioned via a $13 million Fedwire payment from STC at Citibank (FirstBank USVI's correspondent) to Interactive Brokers LLC at One Pickwick Plaza, Greenwich, Connecticut. The wire instructions explicitly stated: \"FOR TRANSFER TO SOUTHERN TRUST COMPANY INC PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT\" (EFTA01273178). This was asset repositioning from banking to brokerage &mdash; the executors moving cash into a money market fund while estate proceedings continued, not a distribution to any external party.</p>\n\n<p>As of August 2023, all three core USVI entities &mdash; STC, <a href=\"/dossiers/financial-trust-company\">Financial Trust Company</a>, and <a href=\"/dossiers/southern-financial-llc\">Southern Financial LLC</a> &mdash; retained ACTIVE entity status in the GLEIF database, though their LEI registrations were LAPSED with last updates on August 4, 2023. STC was included among the Epstein entities addressed in the USVI Attorney General's action against the estate, which settled for $105 million in November 2022. The entity's current status and final disposition of its assets remain to be fully documented.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "jurisdictional-arbitrage",
+      "parallel-financial-system",
+      "complexity-as-credential",
+      "manufactured-dependency",
+      "bridge-tax",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Southern Trust Company Inc",
+      "connections": [
+        {
+          "target": "Southern Financial LLC",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs. STC owns SF LLC (entity_relations). SF wholly owned subsidiary."
+        },
+        {
+          "target": "Financial Trust Company Inc",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs registered. Shared staff (Cecile de Jongh, Lesley Groff). STC administers trusts, FTC manages investments."
+        },
+        {
+          "target": "Enhanced Education",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02370820",
+          "description": "Southern Trust Company Inc was used as intermediary for Enhanced Education disbursements. USVI STEM Fair funding came through Southern Trust, not directly from Enhanced Education. Southern Trust was an Epstein-controlled entity at the same 6100 Red Hook address."
+        },
+        {
+          "target": "Financial Trust Company",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02624629",
+          "description": "Southern Trust Company Inc is USVI EDC-registered entity linked to FTC. Kahn traded Carvana stock through Southern Trust. Groff loans from Southern Financial LLC."
+        },
+        {
+          "target": "J. Epstein Virgin Islands Foundation",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02709872",
+          "description": "Southern Trust Company Inc operates under the corporate umbrella of the Jeffrey Epstein VI Foundation. Southern Trust sponsored the STEM Fair."
+        },
+        {
+          "target": "VIEDC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02221770",
+          "description": "Southern Trust Company Inc registered with USVI Economic Development Commission. Registration forms submitted by Cecile de Jongh Aug 2017."
+        },
+        {
+          "target": "Honeycomb Asset Management LP",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287619",
+          "description": "STC wired 20M to Honeycomb Partners on 05/31/2016. Honeycomb Ventures I LP wire instructions reference Southern Trust Company. Return distributions from Honeycomb flowed back to STC (1.75M in May 2018). Northern Trust held Honeycomb Partners LP account C15185220010 showing 5M outgoing June 2018."
+        },
+        {
+          "target": "Honeycomb Asset Management LP",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00027019",
+          "description": "STC wired 20M to Honeycomb Partners LP on May 31 2016 from MMDA account 9244. Additional Honeycomb transactions in Deutsche Bank statements June 2018. Wire reference line was Southern Trust Company. Honeycomb was the single largest fund allocation in the Dechert Exhibit B ledger at ~34M across 5 transactions."
+        },
+        {
+          "target": "Honeycomb Asset Management LP",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287619",
+          "description": "STC MMDA account 9244 wired 20M to Honeycomb Partners LP on 05/31/2016. Wire reference marked Southern Trust Company. STC had 80.875M balance at time of wire. Additional flows via Deutsche Bank accounts totaling at least 60M across Honeycomb Partners and Ventures I-IV."
+        },
+        {
+          "target": "Honeycomb Asset Management LP",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01376049",
+          "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust was opened under the Southern Financial/STC relationship at Deutsche Bank. AML review identifies it as 'a new account for the Southern Financial relationship'."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299262",
+          "description": "Caterpillar Trust was part of the Southern Financial/Southern Trust Company relationship at Deutsche Bank Private Bank (client since 2013). AML compliance explicitly identified it as a new account under this relationship. Deutsche Bank Account 42969987."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust was part of Southern Financial relationship at Deutsche Bank. Received M from STC/Southern Financial LLC per Dechert Exhibit B. Both under DB RM code 81851."
+        },
+        {
+          "target": "Brett Geary",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01297594",
+          "description": "Brett Geary is the named business contact on Southern Trust Company Inc's USVI business license (EFTA01297594). STC's licensed activity is 'BUSINESS AND MANAGEMENT CONSULTING' (not banking/trust). License period: 12/01/2011-12/31/2018. This positions Geary as the operational contact for Epstein's primary USVI financial vehicle."
+        },
+        {
+          "target": "Interactive Brokers LLC",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01273178",
+          "description": null
+        },
+        {
+          "target": "Laurie Cameron",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02518675",
+          "description": null
+        },
+        {
+          "target": "Leon Black",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02708280",
+          "description": null
+        },
+        {
+          "target": "Alan Dlugash",
+          "type": "advisory",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02488862",
+          "description": null
+        },
+        {
+          "target": "FirstBank Puerto Rico",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01273155",
+          "description": null
+        },
+        {
+          "target": "Dina Perry-Malone",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02633183",
+          "description": null
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Unified DB doc 44923 - STC Statement of Assets June 2015",
+          "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01365998",
+          "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015"
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Lawrence Summers",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+        },
+        {
+          "target": "Prytanee LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire"
+        },
+        {
+          "target": "FT Real Estate Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+        },
+        {
+          "target": "Deutsche Bank AG",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship."
+        }
+      ],
+      "secondHop": {
+        "Brett Geary": [
+          {
+            "target": "Business Basics VI LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Geary associated with Business Basics VI per agent email brett@bizusvi.com on LSJ Emergency LLC. Co-incorporator of Laurel Inc and Poplar Inc with Kellerhals and Ferguson."
+          },
+          {
+            "target": "Erika Kellerhals",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary and Erika Kellerhals are co-incorporators of multiple Epstein USVI entities, with Geary serving as 'business consultant' organizer and Kellerhals as attorney. Both listed as incorporators in Articles of Incorporation (e.g., Nautilus Inc, Maple Inc, Laurel Inc — all Nov 2011). Geary operates through BBVI (brett@bizusvi.com) while Kellerhals was the law firm principal (Kellerhals Ferguson LLP, later Kellerhals Ferguson Kroblin PLLC). They share the Royal Palms Professional Building address at 9053 Estate Thomas Suite 101."
+          },
+          {
+            "target": "Gregory Ferguson",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary and Gregory J. Ferguson are co-incorporators of Epstein USVI entities. Both listed in Articles of Incorporation for Nautilus Inc (EFTA01360967), with personal addresses: Geary at 2-11B St. Joseph & Rosendahl, Ferguson at 31-B Peterborg, St. Thomas. Ferguson was a partner in Kellerhals Ferguson LLP (the predecessor resident agent to BBVI). They are also co-incorporators with Nicole Miller in EFTA01387097."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary is the named business contact on Southern Trust Company Inc's USVI business license (EFTA01297594). STC's licensed activity is 'BUSINESS AND MANAGEMENT CONSULTING' (not banking/trust). License period: 12/01/2011-12/31/2018. This positions Geary as the operational contact for Epstein's primary USVI financial vehicle."
+          },
+          {
+            "target": "Financial Infomatics Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary served as one of three incorporators (alongside Erika Kellerhals and Gregory Ferguson) for Financial Infomatics Inc, an Epstein USVI entity. Per EFTA01298278, the corporation was established at 9100 Havensight Port of Sale Suite 15-16, with Kellerhals Ferguson LLP as initial resident agent. Geary's personal address listed as 2-11B St. Joseph and Rosendahl, St Thomas."
+          }
+        ],
+        "Enhanced Education": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Founder and controller. Enhanced Education is the trade name of J. Epstein Virgin Islands Foundation, Inc. Epstein directed all disbursements personally via email."
+          },
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Leon Black pledged $10.5M to Enhanced Education in Dec 2014, structured through his automotive LLC to 'avoid public disclosure of Leon name.' $4.75M specifically directed to J Epstein Virgin Islands Foundation Inc in Oct 2015."
+          },
+          {
+            "target": "IPI",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88."
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education reimbursed IPI $14,158.88 for Summers first-class flight to Almaty, Kazakhstan (Mar 2014). Enhanced Education also funded the Mongolia Advisory Board where Summers participated."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc., 575 Lexington Ave, 4th Floor, NYC) was the primary financial manager directing Enhanced Education transactions. He instructed stock sales, wire transfers, directed payments, and handled Leon Black donation structuring. Named as 'c/o' contact on ASU pledge."
+          }
+        ],
+        "Financial Trust Company": [
+          {
+            "target": "Jeepers Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "FTC is parent entity of Jeepers Inc. Tax returns prepared together. Both at 6100 Red Hook Quarter B3, St Thomas USVI."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc is USVI EDC-registered entity linked to FTC. Kahn traded Carvana stock through Southern Trust. Groff loans from Southern Financial LLC."
+          },
+          {
+            "target": "Valartis Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC maintained accounts at Valartis Bank AG Zurich with IBAN in USD/EUR/CAD. Bernard Andersen managed the relationship."
+          },
+          {
+            "target": "JP Morgan",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC $50,000,000 Line of Credit with JP Morgan documented in GRM Box #004740715. Includes collateral agreement, line letter, Form U-1, board resolutions, and corporate certificate."
+          },
+          {
+            "target": "Highbridge Capital",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Multiple FTC transaction files document Highbridge Capital investments: Highbridge Corporation Files I & II (from 9/19/00), Highbridge Capital Corp Private Placement, Highbridge Long/Short Equity Fund LP, Highbridge Capital 2010 Annual Review, FTC Consulting Agreement with Highbridge Management, HB Multi Strategy. GRM Boxes #004740711-004740714."
+          }
+        ],
+        "FirstBank Puerto Rico": [
+          {
+            "target": "IGO Company LLC",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IGO Company LLC held commercial checking account 7171030625 at FirstBank PR from 02/02/2007 until at least 2019. Account was 'CREDITS ONLY ALLOWED' with dormant balance of $274.96 (Feb 2012). Bank records subpoenaed by SDNY Grand Jury Dec 31, 2019."
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "DS10 shows DKIP PLLC wired $350K to FirstBank PR on 2014-11-06 (EFTA01285197). FirstBank PR was primary banking institution for Epstein USVI entities including STC, Laurel Inc, Cypress Inc. Connects Indyke personal law firm directly to the PR banking infrastructure."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Honeycomb Asset Management LP": [
+          {
+            "target": "Southern Trust Company",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "STC (Epstein's trust entity) wired 20M to Honeycomb Partners LP on 05/31/2016 from MMDA account 9244 (balance 80.9M). Wire reference: Southern Trust Company Inc. STC was the primary funding vehicle for Epstein's Honeycomb investment."
+          }
+        ],
+        "J. Epstein Virgin Islands Foundation": [
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc operates under the corporate umbrella of the Jeffrey Epstein VI Foundation. Southern Trust sponsored the STEM Fair."
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+          },
+          {
+            "target": "Melanie Walker",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she"
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #23: Gratitude America Ltd (EIN 66-0789697) incorporated in USVI on April 25, 2012 as a 501(c)(3) private foundation. Registered address: 9053 Estate Thoma"
+          },
+          {
+            "target": "Gates-Epstein DAF",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          }
+        ],
+        "Leon Black": [
+          {
+            "target": "Richard Kahn",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Richard Joslin",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Joslin served as CFO of Elysium Management LLC (Black's family office). Prepared charity commitment lists, financial reports, trust accounting summaries, art valuations, and tax returns — all routinely sent to Epstein. Key intermediary for Black-Epstein financial relationship."
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Tony Blair",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black Family Foundation granted $250,000 to Tony Blair Foundation in 2019 990-PF"
+          }
+        ],
+        "Southern Financial LLC": [
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013"
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "SFL LLC provided 1M 9-year below-market loan (1.41% AFR) to Harlequin Dane LLC (Indyke entity) in Jun 2016, using same structure as May 2015 loan. In May 2019, Harlequin Dane repaid 51K to SFL. SFL had 10.7M peak balance and 16.7M portfolio. Indyke was authorized signatory at SFL."
+          },
+          {
+            "target": "Deutsche Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank."
+          },
+          {
+            "target": "Harlequin Dane LLC",
+            "type": "financial",
+            "strength": 0.7,
+            "description": "DS10: 51K pass-through May 2-3 2019"
+          },
+          {
+            "target": "STC",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs. STC owns SF LLC (entity_relations). SF wholly owned subsidiary."
+          }
+        ],
+        "The 2017 Caterpillar Trust": [
+          {
+            "target": "The Haze Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Part of Epstein's nature-themed GRAT series. Haze (1999, Indyke trustee, NY law), Butterfly (2013), Caterpillar (2017, Wallace/Groff trustees, USVI). All administered by Richard Kahn/HBRK Associates."
+          },
+          {
+            "target": "The 2013 Butterfly Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "2.16M transferred from DB Caterpillar Trust to fund Butterfly Trust brokerage at Morgan Stanley on March 18 2019"
+          },
+          {
+            "target": "IGO Company LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Caterpillar Trust holds membership interest in IGO Company LLC per DB AML compliance review"
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Indyke PLLC served as legal counsel for Caterpillar Trust. Legal assistant Bebe Avdiu handled trust paperwork in Feb 2018"
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity"
+          }
+        ],
+        "VIEDC": [
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc registered with USVI Economic Development Commission. Registration forms submitted by Cecile de Jongh Aug 2017."
+          }
+        ],
+        "Alan Dlugash": [
+          {
+            "target": "Southern Trust Company",
+            "type": "advisory",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Dina Perry-Malone": [
+          {
+            "target": "Southern Trust Company",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Interactive Brokers LLC": [
+          {
+            "target": "Southern Trust Company",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Laurie Cameron": [
+          {
+            "target": "Southern Trust Company",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2011-11-18",
+        "label": "Complete Southern Trust corporate family structure with account details: (1) SOUTHERN TRUST COMPANY INC — parent entity, USVI domestic profit corp (581871), formed 11/18/2011, registered 9053 Estate Thomas Ste 101, agent Business Basics VI LLC (Kellerhals). Deutsche Bank accounts: 42952763 (money market), 77000965, 77000957, 44129241, 44129244 (wires to Valar/Seaford). FirstBank PR platinum banking. Citibank. Charles Schwab (opened Apr 2019). Interactive Brokers (Dec 2019). JPMorgan (pre-Feb 2014). (2) SOUTHERN FINANCIAL LLC — wholly owned subsidiary per NYDFS. Deutsche Bank: W91850003, W92099006 + DDA. ISDA derivatives master with DB London. Investment vehicle for equities/derivatives/hedge funds. Held Bear Stearns, Tudor Futures, Renault, Ariad, Carvana positions. Portfolio value peak $16.7M (Dec 2018). (3) SOUTHERN COUNTRY INTERNATIONAL LTD — offshore entity, Ltd designation. Schwab accounts (Apr 2019). Tax code 525990. (4) FINANCIAL STRATEGY GROUP INC (FL P93000087814, 1993-2000) — predecessor entity, renamed to Southern Country International.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1302
+      },
+      {
+        "date": "2013-02",
+        "label": "Leon Black total payments to STC Deutsche Bank account documented: Feb 2013 = $15,000,000 (ORG-394001320945 LEON D RACK/BLACK, Chips Credit), May 2013 = $16,500,000 (ORG-394001320945 LEON D BLACK, Chips Credit), Oct 2013 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK). Three payments in 8 months totaling $40,000,000. All went directly to STC Elite Money Market Deposit at Deutsche Bank. The Feb-May $31.5M alone would account for the STC balance rising from near-zero to $27.3M end-Oct 2013 (with interim transfers out). Originator consistently LEON D BLACK via ORG-394001320945 (a Fedwire participant code). The Oct payment included Debra R Black (wife) as co-originator.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1282
+      },
+      {
+        "date": "2013-08 to 2018-12",
+        "label": "financial with Deutsche Bank AG",
+        "type": "financial",
+        "entity": "Deutsche Bank AG",
+        "id": 1953
+      },
+      {
+        "date": "2013-10",
+        "label": "Oct 2013 $6M incoming TRACED: Deutsche Bank statement for STC (EFTA01284214) shows three deposits in October 2013 to the Elite Money Market Deposit account (Amanda Kirby, relationship manager): Oct 7 = $12,755,048.50 (ORG-003040315872 SOUTHERN TRUST COMPANY INC — internal transfer from another STC DB account), Oct 15 = $8,500,000 (ORG-394001320945 LEON D BLACK DEBRA R BLACK 760 PARK AVE NEW YORK NY 10 — Leon Black payment), Oct 17 = $6,000,000 (ORG-3040545872 SOUTHERN TRUST COMPANY INC — internal transfer). Total deposits: $27,258,838.74. The $6M was NOT from an external source — it was an internal STC-to-STC account transfer at Deutsche Bank. The originator code 3040545872 matches the Southern Trust entity. The $8.5M Leon Black deposit is notable as an early payment (Oct 2013) predating the later $16.5M (May 2013, separately documented) and $15M (Feb 2013) Black payments.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1279
+      },
+      {
+        "date": "2014-02",
+        "label": "JPMorgan account snapshot (Paul Barrett, Managing Director, Global Investment Opportunities Group, JP Morgan Private Bank) lists combined Southern Financial/Trust balances: Southern Financial LLC = $23,380,735.58 (WOD $9,056,419.71 + WOA $14,050,627.87 + DDA $273,688), Southern Trust Company Inc = $26,779,306.11 (W8964002 $2,234,360.80 + DDA $149,999.75 + Savings $24,394,495.56). Total combined: $50,160,041.69. These were JPMorgan accounts managed before the Feb 2014 migration to Deutsche Bank, when Harry Beller confirmed 'All positions at JPM were finally closed. JPM will wire today the remaining cash balances to Deutsche Bank: (1) Southern Financial $10,397,100, (2) Southern Trust (Laurie Cameron) $911,808 remaining balance (JPM wired yesterday $4,003,093).' Laurie Cameron was STC's FX/currency portfolio manager, not an EdR person.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1293
+      },
+      {
+        "date": "2015-06-05",
+        "label": "Complete DS10 STC transaction map: 16 transactions totaling $19.6M outgoing + $8.6M incoming (net $11M outgoing). OUTGOING: $3.05M to Citibank/Morgan Stanley (Jun 5, 2015), $1M to Citibank/Morgan Stanley (Aug 23, 2015), $175K to FirstBank Puerto Rico (Jun 11, 2015), $2M internal transfer (Oct 17, 2017), $4.4K to JPMorgan Chase (Oct 20, 2017), $13M to Interactive Brokers (Dec 23, 2019). Six internal STC-to-STC transfers totaling $15.7M. INCOMING: $6M internal Oct 2013, $373K internal Oct 2013, periodic $200-400K transfers (Feb 2016 through Oct 2018), $349K final Jan 2020. STC held 20 balance observations with peak $26.7M (Nov 2013) in DS10, but this dramatically understates the true peak of $110M (Dec 2015 per EFTA02347813) — DS10 captures only partial account data. Southern Financial LLC had separate 6 transactions ($602K out, $59K in) and portfolio peak $16.7M (Dec 2018). The $500K SFL to JPMorgan Chase (May 5, 2017) was the largest SFL wire in DS10.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1336
+      },
+      {
+        "date": "2015-08-21",
+        "label": "On August 21, 2015, Epstein sent a self-memo (to-do list) revealing: (1) He was 'sitting on over 130 million in CASH', (2) His family office had too many employees ('brad hiring another bookkeeper?'), (3) He instructed 'brad' (Karp) to wire $5M charitable contribution to Gratitude America before Sept 1, (4) Referenced 'difficult few months.' The prior day (Aug 20), Epstein emailed Melanie Spinella with a stream-of-consciousness list: 'boat, plane, tax returns, art space, phaidon, IT, TRA jpm db gs' and instructed wiring to Southern Trust 'to cover work done until today.' This reveals Epstein's direct operational control over Southern Trust/Financial, his awareness of the $130M+ cash position across accounts, and Karp's role directing fund flows.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 631
+      },
+      {
+        "date": "2015-12",
+        "label": "Southern Trust Company MMDA balance was $109,981,919.36 as of Dec 2015 (EFTA02347813). This was Epstein's single largest cash holding. STC had Deutsche Bank account (44129244) receiving Leon Black payments. Also invested in Carvana stock (75,000 shares at $65.19 avg, Sep 2018) through Morgan Stanley/Schermerhorn. STC registered as VIEDC beneficiary. Tax/accounting by Seckendorf Hasson & Reilly (Lake Success NY) covering all JE Entities. Used for visa applications (Karyna Shuliak Japan visa). Address used as meeting location (Albert Bryan visited 1:30pm, 3rd floor American Yacht Harbour).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 233
+      },
+      {
+        "date": "2015-12-30",
+        "label": "STC peak balance $109,981,919.36 (MMDA account, Dec 30, 2015) confirmed via Deutsche Bank online banking screenshot forwarded by Kahn. On that date, a single $10,000,000 incoming wire posted at 1:57PM ET. Separately, Oct 2014 statement shows balance reached $88,224,973.81 after $20M in same-day incoming wires ($13M + $7M on Oct 16 2014). Nov 2015 Kahn email to Epstein lists three accounts over $20M: Southern Trust $82.5M, Haze Trust $47.375M, Southern Financial LLC $29.25M — combined $159.125M in liquid balances. Darren Indyke instructed $20M transfer to 'erika escrow account' (Kellerhals) routing through JEE personal. Complete STC balance trajectory: Near-zero (early 2013) -> $27.3M (Oct 2013) -> $88.2M (Oct 2014) -> $110M (Dec 2015) -> $56.5M (June 2016) -> $18M (May 2017) -> near-zero (Oct 2017-2018) -> $91K (May 2019) -> consolidated to IB (Dec 2019).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1287
+      },
+      {
+        "date": "2016-05 to 2018-06",
+        "label": "financial with Honeycomb Asset Management LP",
+        "type": "financial",
+        "entity": "Honeycomb Asset Management LP",
+        "id": 851
+      },
+      {
+        "date": "2016-06",
+        "label": "Southern Trust Company Inc held $56,542,688.38 in a Deutsche Bank Elite Money Market Deposit account as of June 2016 (statement period June 1-30, 2016). Address: 6100 Red Hook Quarter B3, St Thomas 00802 USVI. Relationship manager: Paul Morris. This is the parent entity of Southern Financial LLC. The DB daily deposit report (EFTA01383662, Apr 2018) lists Southern Financial LLC alongside other Epstein entities: JEGE LLC, Darren K Indyke PLLC, HBRK Associates, NES LLC, LSJE LLC, Gratitude America Ltd, Neptune LLC, Plan D LLC, Zorro Management LLC - confirming Southern Financial as part of the core Epstein entity constellation at Deutsche Bank.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 636
+      },
+      {
+        "date": "2016-08-16",
+        "label": "SOUTHERN TRUST COMPANY BROKER-DEALER ACTIVITY -- ACTIVE SECURITIES TRADING: DOJ corpus reveals Southern Trust Company (the renamed FTC entity) was actively trading securities through Morgan Stanley, not merely holding the Apollo IPO shares passively. Evidence: (1) EFTA02454166 (Aug 16, 2016): Andrew Atlas (Morgan Stanley Financial Advisor, Midtown Manhattan Complex) notified Richard Kahn that 'Southern Trust Company was allocated 500m bonds' in an EsTrade Preferred offering at 5.875%. The $500M bond allocation indicates Southern Trust maintained institutional-scale brokerage relationships. (2) EFTA02360125: 'Southern Trust Co. WING allocated 200 shares; priced 19. Opened at 30.50.' Andrew Atlas asked if Kahn wanted to 'hold or sell.' (3) EFTA02714849: 'Southern Trust Company was allocated $1,000,000.00 worth of the SCHW 6% $25 Pfd.' (4) EFTA02505378: 'Southern Financial LLC' received a $1M capital call from Neoteny 3 LP (Apr 2015). (5) EFTA02624629 (Sep 2018): 'CVNA - Carvana - for Southern Trust Company' -- purchased 75,000 shares at $65.19 average ($4.9M position). This demonstrates that the Epstein entity holding Apollo IPO shares (transferred from FTC to Southern Financial LLC) was simultaneously conducting active securities trading through Morgan Stanley, with institutional-level bond allocations and IPO participation in multiple companies.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1507
+      },
+      {
+        "date": "2019-02-28",
+        "label": "FirstBank USVI rejected STC request to open 6 new deposit accounts on Feb 28, 2019 (4.5 months pre-arrest). VP Dina Perry-Malone wrote: 'After careful review and consideration of your request to open six additional deposit accounts, we cannot proceed with aforementioned at this time.' FirstBank simultaneously requested beneficial ownership certifications for 18 existing entity accounts: Cypress Inc, F T Real Estate Inc, Freedom Air Petroleum LLC, FSF LLC, Gratitude America Ltd, Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands Foundation Inc, Jeepers Inc, Laurel Inc, Little St James LLC, LSJE LLC, Maple Inc, and others. Michelle Smith-Roberts (Waterfront Branch and Platinum Banking Manager) had requested information about wire beneficiaries including American Yacht ($37K, $38K), Citizens for Better Government ($50K), Democratic Cong ($10K), and monthly payments to unnamed individuals ($8,333 each). This shows banks tightening oversight months before arrest.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1303
+      },
+      {
+        "date": "2019-05-24",
+        "label": "Operational security failure May 24, 2019 (6 weeks pre-arrest): Journalist 'Nova' (surname only, no first name given) called STC's USVI office. When receptionist Una answered as 'Southern Trust Company,' Nova pivoted from his original inquiry about 'Financial Trust' to Southern Trust, noting he could find nothing about STC on Google. Nova told Una 'he would then have no choice but to leave what we did up to his own interpretation.' Cecile de Jongh (former USVI First Lady, STC office manager) reported to Indyke, asking: 'Should we start answering the phone with 2525?' (the address number). Richard Kahn identified Nova as 'a journalist. hes called a number of people.' This reveals: (1) STC had no public internet presence by design, (2) journalists were actively investigating pre-arrest, (3) the entity naming confused even staff (Groff writing checks to wrong entity), (4) the office operated under deliberate opacity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1296
+      },
+      {
+        "date": "2019-07",
+        "label": "USMS personal effects at arrest confirm Southern Trust Company as Epstein's employer of record as of July 2019. UnitedHealthcare Choice Plus card shows Group Number 272605 under employer name 'Southern Trust Company'. The USM-312 form lists employer phone as 340-775-2525 (USVI area code). This confirms Southern Trust maintained active employee benefits through at least the arrest date. The health plan number 911-87726-04 and payer ID 87726 could be used to trace the corporate benefits arrangement. Also: USMS prisoner records list occupations as 1-BANKER, 2-SOUTHERN TRUST COMPANY, 3-SELF EMPLOYED (in that order), suggesting BANKER was primary identity and STC secondary.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1297
+      },
+      {
+        "date": "2019-07-08",
+        "label": "Southern Trust Company Inc was the subject of a Charles Schwab Financial Crimes AML investigation (case opened 07/08/2019, EFTA01265973). STC established a relationship with Schwab in April 2019 alongside Southern Financial LLC and Southern Country International Ltd, all under Richard Kahn with Epstein as beneficial owner and internal control person. The Schwab accounts were opened just 3 months before Epstein July 2019 arrest. Deutsche Bank KYC described STC as a private consulting company that invests client assets and generates revenue from returns and management fees. STC was the entity that wired 2.5M to Valar Global Fund III (Thiel) and made regular disbursements to Seaford Avenue Capital LLC.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 625
+      },
+      {
+        "date": "2019-12-12",
+        "label": "Estate consolidation wave Dec 12, 2019: Seven HBRK Associates wires totaling $9,238,007.10 liquidated subsidiary entity accounts into STC at FirstBank. Each wire identified the originating entity: LSJE ($2,707,464.11), ZORRO ($1,451,474.78), NES ($1,345,169.03), NEPTUNE ($1,013,546.36), PLAN D ($971,262.20), JEGE ($922,789.01), HYPERION ($826,301.61). Additionally: Richard Kahn wired $98,795.45 from Butterfly Trust (via Kellerhals as trustee, National Financial Services/Fidelity), Darren Indyke PLLC IOLA Trust account wired $5,566,408.92 from TD Bank (Nov 20), and $4,657,830.34 from unknown source. Three Fortress Value Recovery Fund distributions ($79,206.92, $92,594.02, $15.00). Total consolidation inflow: ~$20M+. All directed to STC at FirstBank, then the $13M transferred to Interactive Brokers Dec 23.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1276
+      },
+      {
+        "date": "2019-12-23",
+        "label": "Southern Trust Company M Dec 23, 2019 payment TRACED: Wire was from STC at Citibank (FirstBank USVI) to Interactive Brokers LLC, One Pickwick Plaza, Greenwich CT 06830, into a STC brokerage account. Wire instructions explicitly state 'PUT FUNDS IN INTEREST BEARING MONEY MARKET ACCOUNT.' This was an estate asset repositioning — moving cash from banking to brokerage — not a distribution to an external party. Transaction number 201912230001627, charge . This occurred 5 months after Epstein's death (Aug 10, 2019) during the estate administration period when Indyke/Kahn were consolidating assets.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1272
+      },
+      {
+        "date": "2023-08-04",
+        "label": "Three core Epstein USVI entities have LEI registrations: STC (549300AZFOXEILVV4R81), FTC (CKK88E24733DTGIKLS94), and Southern Financial LLC (549300KB8YL2XC7B4K14). All three share the same registered address: 6100 Red Hook Quarter B3, St. Thomas, USVI 00802. All LEIs were initially registered in 2012-2013 and are now LAPSED, with last updates on 2023-08-04. Entity status remains ACTIVE. No parent-subsidiary relationships reported in GLEIF — these entities operated as independent nodes despite sharing address and clearly being controlled by the same principals.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1536
+      }
+    ]
+  }
+}

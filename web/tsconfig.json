@@ -1,0 +1,17 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "include": [
+    ".astro/types.d.ts",
+    "**/*"
+  ],
+  "exclude": [
+    "dist",
+    "src/pages/viz-demo.astro"
+  ],
+  "compilerOptions": {
+    "types": ["node"],
+    "noImplicitAny": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}

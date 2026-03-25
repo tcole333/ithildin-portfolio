@@ -1,0 +1,543 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FindingCard from '../../components/FindingCard.astro';
+import EgoNetwork from '../../components/EgoNetwork';
+import TimelineChart from '../../components/TimelineChart';
+import { readFileSync, existsSync, readdirSync } from 'fs';
+import { resolve, basename } from 'path';
+import {
+  processDossierCurationEvidence,
+  safeJsonForScript,
+} from '../../lib/contentEvidencePipeline';
+import { loadDossierFindingCatalog, loadGlobalFindingCatalog, mergeFindingCatalogs } from '../../lib/findingCatalog';
+import { extractCitedFindingIds, buildDossierFindingDetailMap } from '../../lib/findingDetail';
+import { contentPath } from '../../lib/projectPaths';
+
+export function getStaticPaths() {
+  const contentDir = contentPath('dossiers');
+  if (!existsSync(contentDir)) return [];
+
+  const paths: { params: { slug: string } }[] = [];
+
+  const files = readdirSync(contentDir).filter(f => f.endsWith('.json') && !f.startsWith('_'));
+  for (const f of files) {
+    paths.push({ params: { slug: basename(f, '.json') } });
+  }
+
+  const redirectsPath = resolve(contentDir, '_redirects.json');
+  if (existsSync(redirectsPath)) {
+    const redirects = JSON.parse(readFileSync(redirectsPath, 'utf-8'));
+    for (const oldSlug of Object.keys(redirects)) {
+      if (!paths.some(p => p.params.slug === oldSlug)) {
+        paths.push({ params: { slug: oldSlug } });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { slug } = Astro.params;
+const contentDir = contentPath('dossiers');
+
+const redirectsPath = resolve(contentDir, '_redirects.json');
+let redirectTarget: string | null = null;
+if (existsSync(redirectsPath)) {
+  const redirects = JSON.parse(readFileSync(redirectsPath, 'utf-8'));
+  if (redirects[slug!]) {
+    redirectTarget = redirects[slug!];
+  }
+}
+
+if (redirectTarget) {
+  return Astro.redirect(`/dossiers/${redirectTarget}`, 301);
+}
+
+const dossierPath = resolve(contentDir, `${slug}.json`);
+
+let dossier: any = null;
+if (existsSync(dossierPath)) {
+  dossier = JSON.parse(readFileSync(dossierPath, 'utf-8'));
+}
+
+if (!dossier) {
+  return Astro.redirect('/dossiers');
+}
+
+const investigationsPath = contentPath('investigations.json');
+let investigationsData: Array<{ id: string; name: string; description: string; color: string }> = [];
+if (existsSync(investigationsPath)) {
+  investigationsData = JSON.parse(readFileSync(investigationsPath, 'utf-8'));
+}
+const invById = new Map(investigationsData.map(i => [i.id, i]));
+
+const backlinksPath = contentPath('backlinks.json');
+let relatedDossiers: any[] = [];
+let relatedArticles: any[] = [];
+let applicableModels: any[] = [];
+if (existsSync(backlinksPath)) {
+  const backlinks = JSON.parse(readFileSync(backlinksPath, 'utf-8'));
+  relatedDossiers = backlinks.dossier_to_dossier?.[slug] || [];
+  relatedArticles = backlinks.dossier_to_article?.[slug] || [];
+  applicableModels = backlinks.dossier_to_model?.[slug] || [];
+}
+
+// Curation data
+const curation = dossier.curation || null;
+const vizData = dossier.viz_data || null;
+
+// New sections-based layout (preferred) vs legacy flat layout
+const sections: any[] = curation?.sections || [];
+const hasLead = Boolean(curation?.lead);
+const hasSections = sections.length > 0;
+
+// Legacy fallback: old overview/financial_summary fields
+const legacyOverview = curation?.overview || null;
+const legacyFinancialSummary = curation?.financial_summary || null;
+
+// Build raw findings-by-type for the collapsed "All Findings" section
+const findingsByType: Record<string, any[]> = {};
+for (const f of dossier.findings) {
+  const type = f.finding_type || 'unknown';
+  if (!findingsByType[type]) findingsByType[type] = [];
+  findingsByType[type].push(f);
+}
+
+const typeOrder = ['financial', 'corporate', 'communication', 'relationship', 'legal', 'intelligence', 'identity', 'location', 'document'];
+const sortedTypes = Object.keys(findingsByType).sort((a, b) => {
+  const ai = typeOrder.indexOf(a);
+  const bi = typeOrder.indexOf(b);
+  return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+});
+
+// Merge applicable models from curation and backlinks
+const allModels = [...applicableModels];
+if (curation?.applicable_models) {
+  for (const modelId of curation.applicable_models) {
+    if (!allModels.some((m: any) => m.id === modelId)) {
+      allModels.push({ id: modelId, title: modelId });
+    }
+  }
+}
+
+const findingEvidenceMap = mergeFindingCatalogs(
+  loadGlobalFindingCatalog(),
+  loadDossierFindingCatalog(dossier),
+).evidenceMap;
+const evidenceModeEnabled = import.meta.env.PUBLIC_ENABLE_EVIDENCE_MODE === 'true';
+const {
+  leadHtml,
+  processedSections,
+  legacyOverviewHtml,
+  legacyFinancialSummaryHtml,
+  citationEntries: pageCitations,
+  footnotesHtml,
+  supportMap,
+  supportMetrics,
+} = processDossierCurationEvidence({
+  findingEvidenceMap,
+  lead: curation?.lead || '',
+  sections,
+  legacyOverview,
+  legacyFinancialSummary,
+  enableSupportSpans: evidenceModeEnabled,
+});
+const supportMapJson = safeJsonForScript(supportMap);
+
+const citedFindingIds = extractCitedFindingIds(pageCitations);
+const findingDetailMap = buildDossierFindingDetailMap(dossier, citedFindingIds);
+const findingDetailJson = safeJsonForScript(findingDetailMap);
+
+const supportSummary = supportMetrics.total_sentences > 0
+  ? `${supportMetrics.supported_sentence_pct}% supported (${supportMetrics.supported_sentences}/${supportMetrics.total_sentences} sentences)`
+  : 'No sentence-level support spans detected.';
+---
+<BaseLayout title={dossier.name}>
+  <div class="space-y-10">
+    {/* HEADER */}
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <div class="space-y-3">
+          <div class="section-label">Dossier</div>
+          <h1 class="text-3xl md:text-4xl font-display text-moon">{dossier.name}</h1>
+          {curation?.system_role && (
+            <p class="text-sm text-mithril font-body italic max-w-2xl">{curation.system_role}</p>
+          )}
+          {dossier.aliases?.length > 0 && (
+            <div class="text-sm text-mithril font-body">
+              Aliases: {dossier.aliases.join(', ')}
+            </div>
+          )}
+          {dossier.profile_ids?.length > 0 && (
+            <div class="flex flex-wrap gap-2 mt-1">
+              {dossier.profile_ids.map((pid: string) => {
+                const inv = invById.get(pid);
+                return inv ? (
+                  <span
+                    class="inv-badge"
+                    style={`border-color: ${inv.color}; color: ${inv.color};`}
+                  >
+                    {inv.name}
+                  </span>
+                ) : (
+                  <span class="inv-badge" style="border-color: var(--color-mithril); color: var(--color-mithril);">
+                    {pid}
+                  </span>
+                );
+              })}
+            </div>
+          )}
+        </div>
+        <div class="flex flex-wrap gap-4 text-xs text-mithril font-mono">
+          <span>{dossier.stats.total_findings} findings</span>
+          <span>{dossier.stats.total_connections} connections</span>
+          <span>{dossier.stats.total_entities} entities</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid gap-8 lg:grid-cols-[280px_1fr]">
+      {/* SIDEBAR */}
+      <aside class="space-y-4">
+        <div class="surface p-4">
+          <div class="section-label">Snapshot</div>
+          <div class="space-y-2 text-sm text-mithril font-body mt-3">
+            <div>Updated: {dossier.last_updated || dossier.generated_at || 'unknown'}</div>
+            <div>Findings: {dossier.stats.total_findings}</div>
+            <div>Connections: {dossier.stats.total_connections}</div>
+            <div>Entities: {dossier.stats.total_entities}</div>
+          </div>
+        </div>
+
+        {curation?.key_identifiers?.entities?.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Key Entities</div>
+            <div class="mt-3 space-y-2">
+              {curation.key_identifiers.entities.slice(0, 8).map((e: any) => (
+                <div class="text-sm">
+                  <div class="text-moon">{e.name}</div>
+                  <div class="text-xs text-mithril">{e.role}{e.jurisdiction ? ` (${e.jurisdiction})` : ''}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {curation?.key_identifiers?.jurisdictions?.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Jurisdictions</div>
+            <div class="mt-3 flex flex-wrap gap-2">
+              {curation.key_identifiers.jurisdictions.map((j: string) => (
+                <span class="text-xs text-mithril border border-[color:var(--color-ash)] px-2 py-0.5 rounded">{j}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {relatedDossiers.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Related Dossiers</div>
+            <div class="mt-3 space-y-2">
+              {relatedDossiers.slice(0, 6).map((d: any) => (
+                <a href={`/dossiers/${d.slug}`} class="block text-sm text-moon hover:text-ember">
+                  {d.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {relatedArticles.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Related Articles</div>
+            <div class="mt-3 space-y-2">
+              {relatedArticles.slice(0, 6).map((a: any) => (
+                <a href={`/articles/${a.slug}`} class="block text-sm text-moon hover:text-ember">
+                  {a.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {allModels.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Applicable Models</div>
+            <div class="mt-3 space-y-2">
+              {allModels.map((m: any) => (
+                <a href={`/models/${m.id}`} class="block text-sm text-moon hover:text-ember">
+                  {m.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {curation?.open_questions?.length > 0 && (
+          <div class="surface p-4">
+            <div class="section-label">Open Questions</div>
+            <div class="mt-3 space-y-2">
+              {curation.open_questions.map((q: string) => (
+                <p class="text-xs text-mithril font-body leading-relaxed">{q}</p>
+              ))}
+            </div>
+          </div>
+        )}
+      </aside>
+
+      {/* MAIN CONTENT */}
+      <div class="space-y-10" data-evidence-page={evidenceModeEnabled ? 'true' : undefined} data-support-map-id={evidenceModeEnabled ? 'support-map-data' : undefined}>
+        {evidenceModeEnabled && (
+          <div class="evidence-mode">
+            <label class="evidence-mode__toggle">
+              <input type="checkbox" data-evidence-mode-toggle />
+              <span>Evidence Mode</span>
+            </label>
+            <div class="evidence-mode__summary" data-evidence-mode-summary>
+              <span>{supportSummary}</span>
+              {supportMetrics.orphan_citations_count > 0 && (
+                <span>{supportMetrics.orphan_citations_count} orphan citation{supportMetrics.orphan_citations_count === 1 ? '' : 's'}</span>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* LEAD — standalone summary paragraphs */}
+        {hasLead && (
+          <section class="surface p-6 prose prose-invert max-w-none font-body text-[0.95rem] leading-relaxed text-mithril">
+            <Fragment set:html={leadHtml} />
+          </section>
+        )}
+
+        {/* SECTIONS — data-driven, each with optional embedded viz */}
+        {hasSections && processedSections.map((section: any) => (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">{section.title}</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+
+            {/* Section prose */}
+            <div class="prose prose-invert max-w-none font-body text-[0.95rem] leading-relaxed text-mithril">
+              <Fragment set:html={section.processedContent} />
+            </div>
+
+            {/* Contextual viz — embedded after the prose it supports */}
+            {section.viz === 'ego_network' && vizData?.ego_network?.connections?.length > 0 && (
+              <div class="mt-6">
+                <EgoNetwork
+                  client:load
+                  center={vizData.ego_network.center}
+                  connections={vizData.ego_network.connections}
+                  secondHop={vizData.ego_network.secondHop || {}}
+                  depth={vizData.ego_network.depth || 1}
+                  height={320}
+                />
+              </div>
+            )}
+
+            {section.viz === 'timeline' && vizData?.timeline_events?.length > 0 && (
+              <div class="mt-6">
+                <TimelineChart
+                  client:load
+                  events={vizData.timeline_events}
+                  groupBy="type"
+                  height={280}
+                />
+              </div>
+            )}
+          </section>
+        ))}
+
+        {/* LEGACY LAYOUT — when sections don't exist but old overview does */}
+        {!hasSections && legacyOverviewHtml && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Overview</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <div class="prose prose-invert max-w-none font-body text-[0.95rem] leading-relaxed text-mithril">
+              <Fragment set:html={legacyOverviewHtml} />
+            </div>
+          </section>
+        )}
+
+        {!hasSections && legacyFinancialSummaryHtml && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Financial Summary</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <div class="prose prose-invert max-w-none font-body text-[0.95rem] leading-relaxed text-mithril">
+              <Fragment set:html={legacyFinancialSummaryHtml} />
+            </div>
+          </section>
+        )}
+
+        {/* STANDALONE VIZS — only when no sections claim them */}
+        {!hasSections && vizData?.ego_network?.connections?.length > 0 && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Network</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <EgoNetwork
+              client:load
+              center={vizData.ego_network.center}
+              connections={vizData.ego_network.connections}
+              secondHop={vizData.ego_network.secondHop || {}}
+              depth={vizData.ego_network.depth || 1}
+              height={400}
+            />
+          </section>
+        )}
+
+        {!hasSections && vizData?.timeline_events?.length > 0 && (
+          <section>
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-semibold text-moon">Timeline</h2>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </div>
+            <TimelineChart
+              client:load
+              events={vizData.timeline_events}
+              groupBy="type"
+              height={320}
+            />
+          </section>
+        )}
+
+        {/* CONNECTIONS — collapsed reference */}
+        {dossier.connections?.length > 0 && (
+          <section>
+            <details>
+              <summary class="flex items-center justify-between cursor-pointer py-2 group">
+                <div class="flex items-center gap-4">
+                  <h2 class="text-xl font-semibold text-moon group-hover:text-ember">All Connections</h2>
+                  <span class="text-xs text-mithril font-mono">{dossier.connections?.length} total</span>
+                </div>
+                <div class="rune-divider flex-1 ml-6"></div>
+              </summary>
+              <div class="space-y-2 mt-4">
+                {dossier.connections.map((c: any) => {
+                  const displayName = c.other_person || (c.person_a === dossier.name ? c.person_b : c.person_a) || 'Unknown';
+                  const displaySlug = c.other_person_slug || displayName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+                  return (
+                  <div class="surface-muted px-4 py-3">
+                    <div class="flex items-center gap-3 text-sm">
+                      <a href={`/dossiers/${displaySlug}`} class="text-icy">
+                        {displayName}
+                      </a>
+                      <span class="text-mithril">{c.relationship_type}</span>
+                      <span class="text-xs text-ember uppercase tracking-[0.2em]">{c.strength}</span>
+                    </div>
+                    {c.description && <p class="text-xs text-mithril mt-1">{c.description}</p>}
+                  </div>
+                  );
+                })}
+              </div>
+            </details>
+          </section>
+        )}
+
+        {/* ALL FINDINGS — collapsed raw data */}
+        <section>
+          <details>
+            <summary class="flex items-center justify-between cursor-pointer py-2 group">
+              <div class="flex items-center gap-4">
+                <h2 class="text-xl font-semibold text-moon group-hover:text-ember">All Findings</h2>
+                <span class="text-xs text-mithril font-mono">{dossier.stats.total_findings} total</span>
+              </div>
+              <div class="rune-divider flex-1 ml-6"></div>
+            </summary>
+            <div class="mt-4">
+              {sortedTypes.map(type => (
+                <div class="mb-8">
+                  <h3 class="section-label mb-3">{type} ({findingsByType[type].length})</h3>
+                  <div class="space-y-3">
+                    {findingsByType[type].slice(0, 20).map((f: any) => (
+                      <div class="relative">
+                        {f.profile_id && invById.has(f.profile_id) && (
+                          <span
+                            class="inv-dot absolute top-3 right-3"
+                            style={`background-color: ${invById.get(f.profile_id)!.color};`}
+                            title={invById.get(f.profile_id)!.name}
+                          />
+                        )}
+                        <FindingCard finding={f} />
+                      </div>
+                    ))}
+                    {findingsByType[type].length > 20 && (
+                      <details>
+                        <summary class="text-sm text-mithril hover:text-moon cursor-pointer py-2">
+                          Show {findingsByType[type].length - 20} more {type} findings
+                        </summary>
+                        <div class="space-y-3 mt-3">
+                          {findingsByType[type].slice(20).map((f: any) => (
+                            <div class="relative">
+                              {f.profile_id && invById.has(f.profile_id) && (
+                                <span
+                                  class="inv-dot absolute top-3 right-3"
+                                  style={`background-color: ${invById.get(f.profile_id)!.color};`}
+                                  title={invById.get(f.profile_id)!.name}
+                                />
+                              )}
+                              <FindingCard finding={f} />
+                            </div>
+                          ))}
+                        </div>
+                      </details>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </details>
+        </section>
+
+        {/* FULL TIMELINE — collapsed raw data */}
+        {dossier.timeline?.length > 0 && (
+          <section>
+            <details>
+              <summary class="flex items-center justify-between cursor-pointer py-2 group">
+                <div class="flex items-center gap-4">
+                  <h2 class="text-xl font-semibold text-moon group-hover:text-ember">Full Timeline</h2>
+                  <span class="text-xs text-mithril font-mono">{dossier.timeline?.length ?? 0} events</span>
+                </div>
+                <div class="rune-divider flex-1 ml-6"></div>
+              </summary>
+              <div class="space-y-2 mt-4">
+                {dossier.timeline.map((event: any) => (
+                  <div class="surface-muted px-4 py-3">
+                    <div class="flex items-center justify-between text-sm">
+                      <div class="text-moon">{event.summary || event.description}</div>
+                      <div class="text-xs text-mithril font-mono">{event.date}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </details>
+          </section>
+        )}
+
+        {/* CITATIONS FOOTNOTES — shared across all content */}
+        {pageCitations.length > 0 && (
+          <Fragment set:html={footnotesHtml} />
+        )}
+
+      </div>
+    </div>
+  </div>
+  {evidenceModeEnabled && (
+    <script type="application/json" id="support-map-data" set:html={supportMapJson}></script>
+  )}
+  {citedFindingIds.length > 0 && (
+    <script type="application/json" id="finding-detail-data" set:html={findingDetailJson}></script>
+  )}
+  {(evidenceModeEnabled || citedFindingIds.length > 0) && (
+    <script>
+      import { initEvidencePage } from '../../lib/evidencePageBootstrap';
+      initEvidencePage();
+    </script>
+  )}
+</BaseLayout>

@@ -1,0 +1,601 @@
+{
+  "name": "Liquid Funding Ltd",
+  "slug": "liquid-funding-ltd",
+  "aliases": [
+    "Liquid Funding"
+  ],
+  "generated_at": "2026-02-20T01:17:47.277375",
+  "last_updated": "2026-02-17T17:10:02",
+  "stats": {
+    "total_findings": 18,
+    "total_connections": 0,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 13,
+      "document": 2,
+      "legal": 1,
+      "identity": 2
+    },
+    "connection_types": {},
+    "last_updated": "2026-02-17T17:10:02"
+  },
+  "findings": [
+    {
+      "id": 529,
+      "finding_type": "financial",
+      "summary": "Liquid Funding was an FTC K-1 investment showing minimal $969 income in 2009, but its significance extends beyond the K-1. Marc Rowan (Apollo co-founder) emailed Epstein and Perry Shwachman with subject 'Re-Introduction after Liquid Funding' (EFTA02454291, dated Aug 2016). Shwachman (Partner, Sidley Austin LLP) responded wanting to discuss 'potential new USVI insurance regulations' with Epstein (EFTA02361689). This reveals: (1) Liquid Funding was either an investment vehicle or business context where Rowan, Epstein, and Shwachman previously collaborated; (2) Rowan was actively re-introducing Epstein to new contacts for USVI regulatory influence; (3) Shwachman saw Epstein as having influence over USVI insurance regulation. OCCRP Aleph shows 'Liquid Funding, Ltd.' in ICIJ Paradise Papers (2017) \u2014 Bermuda entity (EC 29378) incorporated 10/19/2000 with Irish connection. A separate Liquid Funding LLC was incorporated in NY (2018).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2000-10-19",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:18:20",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02361689",
+          "source_quote": "Marc: \nThanks for introducing us. \nJeff: \n> \nIt would be great to talk to you about helping with potential new USVI insurance regulations. Let me know if there is a \ngood time to discuss. \nThanks \nPerry \nPERRY SHWACHMAN \nPartner \nSidley Austin LLP \nN3,1 IYVULI U 1101 i13IUic.y.wi \nI 1, 1 I iciiitu...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": "Marc Rowan Re-Introduction after Liquid Funding I will leave it to the two of you to discuss directly",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "finding_type": "financial",
+      "summary": "Liquid Funding appears as both a K-1 partner ($969 income on FTC 2009 return) and a topic connecting Marc Rowan (Apollo co-founder) to Epstein. A December 2004 FTC investment summary lists 'Liquid Funding Holding' alongside AP SHL Investors, Tudor Futures Fund, and other K-1 entities (EFTA01308282). In August 2016, Marc Rowan emailed Perry Shwachman (Partner, Sidley Austin LLP) and Epstein with subject line 'Re-Introduction after Liquid Funding' (EFTA02361689/EFTA02454291), suggesting Rowan and Epstein previously worked together on Liquid Funding and Rowan was re-introducing Shwachman to Epstein for USVI insurance regulation work. An ICIJ Paradise Papers entry shows 'Liquid Funding, Ltd.' (EC 29378) incorporated 10/19/2000 in Bermuda with Irish connections. The negligible K-1 amount ($969) and 'Holding' suffix suggest this was a dormant or legacy holding by 2009.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2000-10-19",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:46:48",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00725865",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01308282",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02361689",
+          "source_quote": "Re-Introduction after Liquid Funding. Marc Rowan to Perry Shwachman and jeffrey E.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02412219",
+          "source_quote": "To: \n\" \nail.com[jeevacation@gmail.com] \nFrom: \nSent: \nMon 6/14/2010 12:58:51 PM \nSubject: Reminder \nReminder : Liquid Funding \nEFTA_R1_01473777 \nEFTA02412219",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": "From: \nMarc Rowan < \nSent: \nFriday, August 1.\n1... \nTo: \nPerry Shwachman \nSubject: \nRe-Introduction after \"Liquid Funding\" \nI will leave it to the two of you to discuss directl=. Tk, MR \n'Jeffrey E.' \nThis email and any files transmitted with it are...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1547,
+      "finding_type": "financial",
+      "summary": "OCCRP Aleph confirms Liquid Funding, Ltd. appears in the ICIJ Paradise Papers (Appleby data through 2014). Entity registered in Bermuda (not BVI as commonly listed), registration EC 29378, incorporated 10/19/2000. Address: Canon's Court (Bermuda legal address). Countries: Ireland and Bermuda. Has 18 directorships, 3 unknown links, and 2 ownership relationships. The Appleby connection is significant \u2014 Appleby is a major offshore law firm that administered entities for high-net-worth clients. FTC was a K-1 partner in Liquid Funding with  income recorded, confirming investment relationship.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2000-10-19",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:53:52",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF:CKK88E24733DTGIKLS94",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ICIJ:82004676",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2489,
+      "finding_type": "financial",
+      "summary": "GRM Box #004740713 contains Liquid Funding distribution, dissolution documents, and indenture draft. Also includes commercial paper placement agreement, commercial paper depository agreement, private placement memorandum, program liquidity agreement, membership interest purchase and sale agreement. Key document: signed seller (Jeffrey Epstein) and purchaser (Jeffrey Lipman-Bear Stearns) document of Liquid Funding. Purchase and sale agreement with Darren's markings (Harry's analysis). Liquid Funding was Epstein's commercial paper vehicle that collapsed during 2008 crisis. Zwirn doc production from Harry Susman dated April 21 2011 reviewed for privilege also in this box.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2011-04-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:34:11",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": "p8-9 Liquid Funding Distribution and Dissolution Documents; Signed Seller (Jeffrey Epstein) and Purchaser (Jeffrey Lipman-Bear Stearns) Doc. Of Liquid Funding; Purchase and Sale Agreement with Darrens markings (Harrys analysis); Zwirn Doc Production from Harry Susman April 21 2011 Reviewed for Priveledge",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "finding_type": "financial",
+      "summary": "Liquid Funding Ltd appears in Epstein portfolio document (EFTA01308282) with 1,500,000 in holdings. Marc Rowan (Apollo Global co-founder) sent an email introducing Perry Shwachman to Epstein with subject line Re-Introduction after Liquid Funding (EFTA02454291), suggesting Epstein and Shwachman previously worked together through the Liquid Funding entity. Liquid Funding was a BVI-registered entity per ICIJ offshore leaks data. The Rowan email confirms an Apollo-Epstein financial relationship through this specific vehicle. Estate inventory total hedge fund and private equity holdings were 194,986,301.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:42:37",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01308282",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454291",
+          "source_quote": "Marc Rowan Re-Introduction after Liquid Funding",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3266,
+      "finding_type": "financial",
+      "summary": "RoC filings confirm Epstein as Director and Chairman of Liquid Funding Ltd. Private Placement Memorandum (Nov 9, 2001) lists: Jeffrey E. Epstein, 6100 Red Hook Quarter Suite B3, St. Thomas Virgin Islands 00804-0870 as 'Director; Chairman'. This is his USVI business address. Paul A. Novelly listed as 'Director; Deputy Chairman'. Marcus Klug (Vienna), Deborah Poole, Alex Erskine as Directors. Diane Perinchief as Secretary.",
+      "detail": "PPM Board of Directors listing from Nov 2001 Offering Circular filed with Bermuda Registrar. Epstein's address confirms he used the 6100 Red Hook Quarter B3 address for corporate filings. Consent of 2 directors required for board action. Bye-laws require at least 1 independent director not affiliated with Bear Stearns.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:05:08",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3267,
+      "finding_type": "financial",
+      "summary": "Updated Offering Circular (dated approx April 9, 2004, filed June 9 2006 with DeltaView amendments through March 2006) confirms Epstein STILL serving as Director and Chairman. James R. Burritt replaces Novelly as Deputy Chairman (address: 675 Fifth Avenue Suite 4100 6th Floor New York). Marcus Klug (Vienna) remains Director. Deborah L. Poole relocated to Royal Exchange Buildings 2nd Floor London EC3V. Alex L. Erskine at Canons Court 22 Victoria Street Hamilton Bermuda remains Director. Board now requires consent of 3 directors (previously 2).",
+      "detail": "The board composition change from Novelly to Burritt as Deputy Chairman occurred between Nov 2001 and April 2004. Critically, Epstein remained Chairman through at least March 2006 (the DeltaView date) and potentially through the June 2006 filing. The requirement for 3 directors consent (up from 2) indicates the board grew or governance tightened. This confirms Epstein served as Chairman for at least 4.5 years, possibly longer.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:05:21",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3269,
+      "finding_type": "financial",
+      "summary": "Complete share capital timeline from RoC filings: (1) Initial authorized capital US$12,000 divided into 12,000 shares of US$1.00 each at incorporation Oct 19 2000. (2) Shareholders resolution April 18 2001 increased capital by US$499,988,000. Form 7 filed May 4 2001 (Certificate of Deposit May 8/10 2001). New authorized capital: US$500,000,000. (3) Form 17a filed Feb 25 2005 (Certificate Mar 4 2005): Diminution of Authorised but Unissued Share Capital from US$500,000,000 to US$100,000,000.",
+      "detail": "The capital trajectory tells the story: $12K seed to $500M within 6 months (ready for $5B CP program launch Nov 2001), then reduced to $100M in 2005 (possibly reflecting reduced program ambitions after 3 years of operation). The rapid $12K-to-$500M increase in April 2001 was preparation for the Nov 2001 offering.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:05:51",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3270,
+      "finding_type": "financial",
+      "summary": "Two registered charges on Liquid Funding Ltd with full lifecycle documented: CHARGE 1 (Serial 13319): Collateral Trust and Security Agreement dated Nov 9 2001 among Liquid Funding Ltd, The Chase Manhattan Bank (Security Trustee), and Bear Stearns Securities Corp (Securities Intermediary). Registered 4:38pm Nov 9 2001. Amount: exceeding US$1M. Satisfied June 12 2014. Form 11 signed by Lipman June 23 2015. CHARGE 2 (Serial 14969): Elections and Variables to ISDA Credit Support Annex dated June 16 2003 between Liquid Funding Ltd and Bank of America NA. Registered July 7 2003. Amount: exceeding US$1M. Satisfied Nov 29 2013. Form 11 signed by Lipman June 23 2015.",
+      "detail": "The charge satisfaction sequence reveals the dissolution mechanics: BofA charge satisfied first (Nov 2013), then JPMorgan/Chase charge satisfied (June 2014), then liquidation proceedings began (Aug 2015), company dissolved (Nov 25 2015). The Nov 2001 charge was contemporaneous with the CP program launch. Chase Manhattan Bank became JPMorgan Chase Bank via Nov 16 2001 merger, then JPMorgan Chase Bank National Association via Nov 13 2004 merger with Bank One.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:06:05",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3271,
+      "finding_type": "document",
+      "summary": "Memorandum of Association (Form 2) dated Oct 16 2000 names three subscribers: Deborah Poole (British, non-Bermudian, Cedar House 41 Cedar Avenue Hamilton HM 12), Ruby L. Rawlins (British, Bermudian, same address), and Rachael M. Lathan (British, Bermudian, same address), plus Antoinette Simmons (British, Bermudian, same address). All are Appleby Spurling and Kempe staff. Company objects: to provide secured funding to financial institutions and other entities worldwide. Exempted company status. Authorized share capital: US$12,000 in 12,000 shares at US$1.00 each.",
+      "detail": "The four subscribers were all Appleby staff acting as nominee incorporators. None had any operational role. The incorporation letter from Ruby L. Rawlins (Manager-Incorporations at Appleby Spurling and Kempe) dated Oct 13 2000 states: 'It is imperative that this Company must be incorporated on 17 October, 2000.' Actual incorporation was Oct 19 2000. Certificate issued Oct 23 2000. First registered office: Cedar House 41 Cedar Avenue (Appleby address), changed to Canons Court 22 Victoria Street on Oct 1 2003.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:06:19",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3272,
+      "finding_type": "legal",
+      "summary": "Full corporate lifecycle: Incorporated Oct 19 2000 (Certificate Oct 23 2000). Registered office: Cedar House 41 Cedar Avenue (changed to Canons Court 22 Victoria Street Oct 1 2003, and again Nov 6 with same address). Capital increased to US$500M (May 2001). Prospectus filed Nov 9 2001 (Certificate Nov 15 2001). CP program launched Nov 14 2001 (up to US$5B). ISDA with BofA June 16 2003. Collateral Trust Agreement Nov 9 2001. Capital reduced to US$100M (Feb 25 2005). Offering Circular amended (filed June 9 2006). Bear Stearns collapse March 2008 - entity dormant. BofA charge satisfied Nov 29 2013. JPMorgan charge satisfied June 12 2014. Declarations of Solvency Aug 18 2015. Liquidator appointed Aug 27 2015. Creditor notice Sept 1 2015. Company dissolved Nov 25 2015 by written resolution. Registrar recorded dissolution Dec 9 2015.",
+      "detail": "A.S.&K. Services Ltd (Appleby subsidiary) served as initial assistant secretary. Appleby (Bermuda) Limited was registered agent throughout. Liquidation handled at JPMorgan Chase Bank 38th Floor 270 Park Avenue. Dissolution residual assets at time of filing: approx US$2,635,499 (as of Aug 30 2013, decreasing by fees). Liquid Funding Holdings LLC (DE parent) accepted transfer of all subsidiary rights and obligations including claims in Homebanc Mortgage Corporation and American Home Mortgage Holdings Inc bankruptcy proceedings in Delaware.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:06:34",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3273,
+      "finding_type": "identity",
+      "summary": "Dara Quinn identified as Director of Liquid Funding Ltd and Officer of Bear Stearns Bank (Dublin) with title Chief Financial Officer. She signed the winding-up resolution on Aug 27 2015 as Director and provided a Declaration of Solvency sworn in Dublin. Her address: JPMorgan Bank Dublin Plc 1 Georges Dock IFSC Dublin Ireland 1. She is listed as co-declarant with Lipman for dissolution. She represents the Bear Stearns/JPMorgan Dublin operational arm of the entity.",
+      "detail": "Quinn was the operational link between the Liquid Funding SIV and Bear Stearns Bank Dublin (the Investment Manager). The PPM states: 'Dara Quinn has been appointed Officer of Bear Stearns Bank with the title Chief Financial Officer.' Her subsequent appearance signing dissolution documents from JPMorgan Bank Dublin confirms she stayed with the entity through the Bear Stearns-JPMorgan transition. Her notary for the Declaration of Solvency: W. David Walley, 54 Amiens Street Dublin, Notary Public.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:06:47",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3274,
+      "finding_type": "financial",
+      "summary": "PPM and Offering Circular reveal three-bank placement agent structure: Bear Stearns and Co Inc (Arranger and Placement Agent, 245 Park Avenue 4th Floor NY, attention Betsy Malloy), Credit Suisse First Boston Corporation (11 Madison Avenue NY), and J.P. Morgan Securities Inc (270 Park Avenue 9th Floor NY). Rated P-1 (Moodys) and F1 (Fitch). Program capacity: up to US$5B Commercial Paper Notes plus US$5B Medium-Term Notes (US$10B total). Global Securitization Services LLC (400 West Main Street Suite 338 Babylon NY 11702) served as Process Agent. Deloitte and Touche appointed as auditors. Bear Stearns Bank plc (Dublin) as Investment Manager. Bear Stearns Securities Corp as Custodian and Clearing Agent.",
+      "detail": "The three placement agents represent the top tier of structured finance in 2001. Bear Stearns was the arranger (primary). CS First Boston and JP Morgan as co-dealers. The entity was designed as a AAA/Aaa/AAA-rated vehicle for institutional investors (QIBs and QPs only). Tax-exempt in Bermuda through March 28 2016 under Minister of Finance undertaking. Bear Stearns Liquid Funding Holdings LLC (BSLFH) held the non-voting ownership interest of Holdings. Bear Stearns Bank and affiliates do not have obligations to the Issuer beyond investment management and clearing.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:07:03",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3275,
+      "finding_type": "document",
+      "summary": "JPMorgan succession chain documented through charge release certificates: (1) The Chase Manhattan Bank (original Security Trustee, Nov 9 2001), merged with Morgan Guaranty Trust Company of New York effective Nov 10 2001 under name JPMorgan Chase Bank (Banking Department of NY approval Nov 16 2001, signed by P. Vincent Conlon Deputy Superintendent of Banks). (2) Bank One National Association (Chicago and Columbus) merged into JPMorgan Chase Bank under charter of JPMorgan Chase Bank National Association effective Nov 13 2004 (OCC certification Nov 4 2004). Lipman certified these documents on June 23 2015 in his capacity as Senior Vice President and Assistant Secretary of JPMorgan Chase Bank NA.",
+      "detail": "The merger chain explains why the Security Trustee changed names: Chase Manhattan -> JPMorgan Chase Bank -> JPMorgan Chase Bank National Association. This is significant for entity tracing as searches may miss the connection between these names. All three entities are the same legal successor. The charge release was signed at 270 Park Avenue (JPMorgan HQ) on June 12 2014.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:07:17",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3276,
+      "finding_type": "financial",
+      "summary": "BofA termination agreement reveals dissolution economics and subsidiary claim transfer. Dated Nov 29 2013 from JPMorgan to BofA and Liquid Funding. Confirms: (1) Total residual assets approx US$2,635,499 as of Aug 30 2013. (2) Liquid Funding Holdings LLC (DE parent) assumed all of the subsidiary's rights and obligations upon dissolution. (3) Specifically includes claims in Homebanc Mortgage Corporation and American Home Mortgage Holdings Inc bankruptcy proceedings in US Bankruptcy Court District of Delaware. (4) Confidentiality clause: two years from date, no third-party disclosure except agents/counsel/regulators. (5) Governed by NY law.",
+      "detail": "The residual $2.6M and claims in two mortgage company bankruptcies reveal the tail of the 2008 crisis. Homebanc Mortgage Corp filed Chapter 11 in Aug 2007. American Home Mortgage Holdings filed Chapter 11 in Aug 2007. Both were mortgage lenders whose securities Liquid Funding likely held. The claim transfer to the DE parent means these bankruptcy recoveries flowed to Liquid Funding Holdings LLC, not to the Bermuda entity. Lipman addressed the termination agreement to himself at c/o JPMorgan 270 Park Ave Floor 38.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:07:30",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3279,
+      "finding_type": "identity",
+      "summary": "Bear Stearns Bank plc (Dublin) directors identified from PPM: Samuel L. Molinaro Jr (SVP Finance and CFO of Bear Stearns and Co Inc), Pascal Lambert (Chairman, SMD, Head of Global Clearing Services), Liam Macnamara (Joint CEO BSB), Niamh Walsh (Joint CEO BSB), David Harte (COO and Company Secretary BSB), Jeffrey C. Bernstein (SMD), Michael I. Meagher (Non-Executive Director), Wendy L. de Monchaux (Chairman BSB Management Committee, SMD), Michael Minikes (Treasurer of Bear Stearns, SMD, Director DTC, Chairman IDCI), Graham Sadler (SMD and CFO Bear Stearns International Limited), Maire OConnor (Non-Executive Director, Ernst and Young Financial Services). Bear Stearns Liquid Funding Holdings LLC (BSLFH) was the initial holder of the non-voting ownership interest of Holdings.",
+      "detail": "These Bear Stearns Bank directors ran the Investment Manager that managed Liquid Funding's assets. Bear Stearns Bank was an Irish-licensed bank operating under Section 446 tax certificate. Molinaro as CFO of the parent and Lambert as head of clearing are senior Bear Stearns executives. The BSLFH entity confirms Bear Stearns held non-voting ownership but controlled operations. Business address for all BSB directors: Block 8 Harcourt Centre Charlotte Way Dublin 2 Ireland.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:08:06",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3280,
+      "finding_type": "financial",
+      "summary": "ANALYTICAL: Epstein's role as Chairman of a $6.7B SIV implies fiduciary governance over institutional investor capital. The PPM states board actions require majority consent (2 directors in Nov 2001, 3 by April 2004). As Chairman, Epstein would have presided over board meetings and governance. Bye-laws required at least 1 independent director not affiliated with Bear Stearns -- implying Epstein and the Deputy Chairman (Novelly/Burritt) were the independent directors, while Poole/Erskine/Klug may have been Bear Stearns-affiliated. The PPM explicitly states Epstein could not be a shareholder/employee/director of Bear Stearns or its affiliates during the 12 months prior to appointment. His name does NOT appear in any RoC statutory form (Form 2, 6, 7, 9, 11, 13, 17a) -- only in the prospectuses/offering circulars. This is consistent with appointment by board resolution rather than statutory filing.",
+      "detail": "The independence requirement is significant: it means Bear Stearns vetted Epstein and determined he had no disqualifying ties. His appointment as Chairman (not just Director) suggests he was selected for his financial acumen or connections. The Deputy Chairman (Novelly/Burritt) was the other likely independent director. The Appleby-staffed directors (Poole, Erskine) were common to many Bermuda exempted companies.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:09:48",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3281,
+      "finding_type": "financial",
+      "summary": "ISDA Master Agreement (June 16 2003) between Liquid Funding Ltd and Bank of America NA confirms the entity structure: Liquid Funding Ltd addresses at Cedar House 41 Cedar Avenue Hamilton HM 12 Bermuda (attention Deborah Poole), with copy to Bear Stearns Bank plc Block 8 Harcourt Centre Charlotte Way Dublin 2 Ireland (attention President). Bear Stearns Securities Corp (One Metrotech Centre North Brooklyn NY 11201) served as Custodian. The Custodian for Party A (Liquid Funding) was Bear Stearns Securities Corporation. Credit Support Annex registered as charge serial 14969.",
+      "detail": "The ISDA agreement demonstrates: (1) Liquid Funding's operational contact was Deborah Poole at the Bermuda office, (2) Bear Stearns Bank Dublin received copies as investment manager, (3) Bear Stearns Securities Corp in Brooklyn handled derivatives operations on the 7th floor. BofA Chicago office at Sears Tower handled swap operations. This confirms the triple-node structure: Bermuda entity, Dublin investment manager, Brooklyn/NY clearing operations.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 17:10:02",
+      "target_name": "Liquid Funding Ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Liquid-Funding-RoC-EC29378",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2000-10-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Liquid Funding was an FTC K-1 investment showing minimal $969 income in 2009, but its significance extends beyond the K-1. Marc Rowan (Apollo co-founder) emailed Epstein and Perry Shwachman with subject 'Re-Introduction after Liquid Funding' (EFTA02454291, dated Aug 2016). Shwachman (Partner, Sidley Austin LLP) responded wanting to discuss 'potential new USVI insurance regulations' with Epstein (EFTA02361689). This reveals: (1) Liquid Funding was either an investment vehicle or business context where Rowan, Epstein, and Shwachman previously collaborated; (2) Rowan was actively re-introducing Epstein to new contacts for USVI regulatory influence; (3) Shwachman saw Epstein as having influence over USVI insurance regulation. OCCRP Aleph shows 'Liquid Funding, Ltd.' in ICIJ Paradise Papers (2017) \u2014 Bermuda entity (EC 29378) incorporated 10/19/2000 with Irish connection. A separate Liquid Funding LLC was incorporated in NY (2018).",
+      "confidence": "medium",
+      "id": 529
+    },
+    {
+      "date": "2000-10-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Liquid Funding appears as both a K-1 partner ($969 income on FTC 2009 return) and a topic connecting Marc Rowan (Apollo co-founder) to Epstein. A December 2004 FTC investment summary lists 'Liquid Funding Holding' alongside AP SHL Investors, Tudor Futures Fund, and other K-1 entities (EFTA01308282). In August 2016, Marc Rowan emailed Perry Shwachman (Partner, Sidley Austin LLP) and Epstein with subject line 'Re-Introduction after Liquid Funding' (EFTA02361689/EFTA02454291), suggesting Rowan and Epstein previously worked together on Liquid Funding and Rowan was re-introducing Shwachman to Epstein for USVI insurance regulation work. An ICIJ Paradise Papers entry shows 'Liquid Funding, Ltd.' (EC 29378) incorporated 10/19/2000 in Bermuda with Irish connections. The negligible K-1 amount ($969) and 'Holding' suffix suggest this was a dormant or legacy holding by 2009.",
+      "confidence": "medium",
+      "id": 1012
+    },
+    {
+      "date": "2000-10-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "OCCRP Aleph confirms Liquid Funding, Ltd. appears in the ICIJ Paradise Papers (Appleby data through 2014). Entity registered in Bermuda (not BVI as commonly listed), registration EC 29378, incorporated 10/19/2000. Address: Canon's Court (Bermuda legal address). Countries: Ireland and Bermuda. Has 18 directorships, 3 unknown links, and 2 ownership relationships. The Appleby connection is significant \u2014 Appleby is a major offshore law firm that administered entities for high-net-worth clients. FTC was a K-1 partner in Liquid Funding with  income recorded, confirming investment relationship.",
+      "confidence": "high",
+      "id": 1547
+    },
+    {
+      "date": "2011-04-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "GRM Box #004740713 contains Liquid Funding distribution, dissolution documents, and indenture draft. Also includes commercial paper placement agreement, commercial paper depository agreement, private placement memorandum, program liquidity agreement, membership interest purchase and sale agreement. Key document: signed seller (Jeffrey Epstein) and purchaser (Jeffrey Lipman-Bear Stearns) document of Liquid Funding. Purchase and sale agreement with Darren's markings (Harry's analysis). Liquid Funding was Epstein's commercial paper vehicle that collapsed during 2008 crisis. Zwirn doc production from Harry Susman dated April 21 2011 reviewed for privilege also in this box.",
+      "confidence": "confirmed",
+      "id": 2489
+    },
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Liquid Funding Ltd appears in Epstein portfolio document (EFTA01308282) with 1,500,000 in holdings. Marc Rowan (Apollo Global co-founder) sent an email introducing Perry Shwachman to Epstein with subject line Re-Introduction after Liquid Funding (EFTA02454291), suggesting Epstein and Shwachman previously worked together through the Liquid Funding entity. Liquid Funding was a BVI-registered entity per ICIJ offshore leaks data. The Rowan email confirms an Apollo-Epstein financial relationship through this specific vehicle. Estate inventory total hedge fund and private equity holdings were 194,986,301.",
+      "confidence": "high",
+      "id": 632
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1012,
+      2489,
+      632,
+      529,
+      3272,
+      3271,
+      3273,
+      3275,
+      3279,
+      1547,
+      3266,
+      3267
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          529,
+          1012,
+          1547,
+          2489,
+          632,
+          3266,
+          3267,
+          3269,
+          3270,
+          3274
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.560104"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Liquid Funding Ltd",
+      "connections": [],
+      "secondHop": {},
+      "depth": 1
+    },
+    "timeline_events": [
+      {
+        "date": "2000-10-19",
+        "label": "Liquid Funding was an FTC K-1 investment showing minimal $969 income in 2009, but its significance extends beyond the K-1. Marc Rowan (Apollo co-founder) emailed Epstein and Perry Shwachman with subject 'Re-Introduction after Liquid Funding' (EFTA02454291, dated Aug 2016). Shwachman (Partner, Sidley Austin LLP) responded wanting to discuss 'potential new USVI insurance regulations' with Epstein (EFTA02361689). This reveals: (1) Liquid Funding was either an investment vehicle or business context where Rowan, Epstein, and Shwachman previously collaborated; (2) Rowan was actively re-introducing Epstein to new contacts for USVI regulatory influence; (3) Shwachman saw Epstein as having influence over USVI insurance regulation. OCCRP Aleph shows 'Liquid Funding, Ltd.' in ICIJ Paradise Papers (2017) \u2014 Bermuda entity (EC 29378) incorporated 10/19/2000 with Irish connection. A separate Liquid Funding LLC was incorporated in NY (2018).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 529
+      },
+      {
+        "date": "2000-10-19",
+        "label": "Liquid Funding appears as both a K-1 partner ($969 income on FTC 2009 return) and a topic connecting Marc Rowan (Apollo co-founder) to Epstein. A December 2004 FTC investment summary lists 'Liquid Funding Holding' alongside AP SHL Investors, Tudor Futures Fund, and other K-1 entities (EFTA01308282). In August 2016, Marc Rowan emailed Perry Shwachman (Partner, Sidley Austin LLP) and Epstein with subject line 'Re-Introduction after Liquid Funding' (EFTA02361689/EFTA02454291), suggesting Rowan and Epstein previously worked together on Liquid Funding and Rowan was re-introducing Shwachman to Epstein for USVI insurance regulation work. An ICIJ Paradise Papers entry shows 'Liquid Funding, Ltd.' (EC 29378) incorporated 10/19/2000 in Bermuda with Irish connections. The negligible K-1 amount ($969) and 'Holding' suffix suggest this was a dormant or legacy holding by 2009.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1012
+      },
+      {
+        "date": "2000-10-19",
+        "label": "OCCRP Aleph confirms Liquid Funding, Ltd. appears in the ICIJ Paradise Papers (Appleby data through 2014). Entity registered in Bermuda (not BVI as commonly listed), registration EC 29378, incorporated 10/19/2000. Address: Canon's Court (Bermuda legal address). Countries: Ireland and Bermuda. Has 18 directorships, 3 unknown links, and 2 ownership relationships. The Appleby connection is significant \u2014 Appleby is a major offshore law firm that administered entities for high-net-worth clients. FTC was a K-1 partner in Liquid Funding with  income recorded, confirming investment relationship.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1547
+      },
+      {
+        "date": "2011-04-21",
+        "label": "GRM Box #004740713 contains Liquid Funding distribution, dissolution documents, and indenture draft. Also includes commercial paper placement agreement, commercial paper depository agreement, private placement memorandum, program liquidity agreement, membership interest purchase and sale agreement. Key document: signed seller (Jeffrey Epstein) and purchaser (Jeffrey Lipman-Bear Stearns) document of Liquid Funding. Purchase and sale agreement with Darren's markings (Harry's analysis). Liquid Funding was Epstein's commercial paper vehicle that collapsed during 2008 crisis. Zwirn doc production from Harry Susman dated April 21 2011 reviewed for privilege also in this box.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2489
+      },
+      {
+        "date": "2015",
+        "label": "Liquid Funding Ltd appears in Epstein portfolio document (EFTA01308282) with 1,500,000 in holdings. Marc Rowan (Apollo Global co-founder) sent an email introducing Perry Shwachman to Epstein with subject line Re-Introduction after Liquid Funding (EFTA02454291), suggesting Epstein and Shwachman previously worked together through the Liquid Funding entity. Liquid Funding was a BVI-registered entity per ICIJ offshore leaks data. The Rowan email confirms an Apollo-Epstein financial relationship through this specific vehicle. Estate inventory total hedge fund and private equity holdings were 194,986,301.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 632
+      }
+    ]
+  }
+}

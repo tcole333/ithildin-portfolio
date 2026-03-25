@@ -1,0 +1,1368 @@
+{
+  "name": "Ghislaine Maxwell",
+  "slug": "ghislaine-maxwell",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.312256",
+  "last_updated": "2026-02-17T15:29:28",
+  "stats": {
+    "total_findings": 9,
+    "total_connections": 23,
+    "total_entities": 2,
+    "finding_types": {
+      "legal": 3,
+      "relationship": 1,
+      "financial": 2,
+      "intelligence": 1,
+      "location": 1,
+      "document": 1
+    },
+    "connection_types": {
+      "legal": 8,
+      "corporate": 3,
+      "social": 7,
+      "financial": 4,
+      "political": 1
+    },
+    "last_updated": "2026-02-17T15:29:28"
+  },
+  "findings": [
+    {
+      "id": 515,
+      "finding_type": "legal",
+      "summary": "GHISLAINE CORP. (FL P95000027272, EIN 650590904) was incorporated Apr 3 1995 in FL as a domestic profit corporation with Jeffrey E. Epstein as both registered agent and President/Director, and Amanda J. Ellison as Secretary at 457 Madison Ave NY. Principal address: 358 El Brillo Way, Palm Beach FL. Name changed to GHISLAINE CORP via amendment Apr 21 1995 (implying it had a different original name). Voluntarily dissolved Oct 23 1998. The entity's 3.5-year existence (1995-1998) coincides with the peak period of Maxwell's involvement in Epstein's operations. Epstein simultaneously operated FINANCIAL STRATEGY GROUP INC (P93000087814, EIN 650464008) from the same 358 El Brillo address.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1995-04-03",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:43:29",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:P93000087814",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL-SunBiz:P95000027272",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1351,
+      "finding_type": "legal",
+      "summary": "Flight log entry (Sep 2002) lists passengers: 'President Clinton, Kevin Spacey, Chris Tucker, Jeffrey Epstein and the initials GM.' Maxwell's deposition was asked about this trip to confirm she remembered traveling with Clinton in Sep 2002. Separately, Kellen, Mucinska, and Marcinkova all pled Fifth Amendment when asked about Copperfield, Spacey, and Wexner — prosecutor called it 'absolutely absurd.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2002-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:37:32",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402695",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3209,
+      "finding_type": "relationship",
+      "summary": "Maxwell provided explicit sexual instruction to Priscilla Doe on USVI island in 2006",
+      "detail": "During a 2006 trip to Little St. James Island USVI, Ghislaine Maxwell taught Plaintiff (Priscilla Doe) the specific way Epstein preferred to be sexually serviced. Maxwell described exact oral techniques and demonstrated manually. Maxwell conveyed this in a serious manner that instilled genuine fear in Plaintiff. Maxwell also ensured Plaintiff and other young females were constantly on call to sexually service Epstein.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2006",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:48",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "finding_type": "financial",
+      "summary": "Maxwell made 3 FEC-recorded donations: ,300 to Hillary Clinton for President (2007-03-30, listed as NOT EMPLOYED from NYC 10022), and ,000 to King for Congress/NM (2x ,000 on 2004-09-01, listed as RETIRED from St. Thomas VI). The King for Congress donations are for Gary King, NM politician -- same committee Indyke donated ,000 to in 2004. Maxwell and Indyke were the only Epstein network members donating to this NM political figure, while Epstein's Zorro Ranch was in NM. Maxwell also donated to Hillary Clinton, aligning with Dershowitz, Barrett, and Kahn donations to same candidate.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2007-03-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:48:33",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00393702/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00431569/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "finding_type": "intelligence",
+      "summary": "On Dec 8, 2009, Ghislaine Maxwell (from 'Gmax') emailed Epstein with blackmail-related advice: 'If you call I would start by saying what ever you saw was fake and part of a blackmail scheme.' This shows Maxwell coaching Epstein on how to dismiss compromising material as fabricated blackmail -- indicating awareness of the vulnerability and existence of such material.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2009-12-08",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:18:33",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02434764",
+          "source_quote": "If you call I'd start by saying what ever you saw was fake and part of a blackmail scheme",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1319,
+      "finding_type": "legal",
+      "summary": "Maxwell deposition on Clinton: Maxwell stated under oath 'the allegations that Clinton had a meal on Jeffrey's island is 100 percent false' but confirmed 'I'm sure he had a meal on Jeffrey's plane.' Confirmed she knows Doug Band (Clinton aide). When asked about relationship with Band, Maxwell stated 'We are talking about adult consensual relationships, it's off the record.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:34:06",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402693",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1346,
+      "finding_type": "financial",
+      "summary": "Court filing (Giuffre v. Maxwell) states Maxwell was on Epstein's Palm Beach House bank account as recently as 2005. Bates reference: SAO FOIA disc 7 (bates Giuffre 007590) at p.93-95. Maxwell also sold her townhouse at 116 E 65th St for 15 million dollars (NYPost Apr 2016). Separate deposition: Kellen pled Fifth Amendment when asked about bank account at Chase Bank.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:36:25",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402695",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "finding_type": "location",
+      "summary": "Ghislaine Maxwell has ZERO records in NYC ACRIS across all name variants searched (MAXWELL GHISLAINE, MAXWELL GHISLAINE L, GHISLAINE MAXWELL). This is notable because Maxwell was known to reside in NYC (116 E 65th St townhouse, purchased in her name per press reports). The absence suggests her NYC property was either held through an entity name not yet identified, held in another person's name, or the records predate the ACRIS digital system.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:05:25",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://a836-acris.nyc.gov/CP/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2513,
+      "finding_type": "document",
+      "summary": "GRM Box #004740715 contains Ghislaine Maxwell & 65th Street file: Sotheby's brokerage agreement for sale of her house, Emad's email to Diandra Douglas re damage to Ghislaine's house from construction, letter to Herb Wolman re AIG paying for services of Miller & Raved, and critically Pot and Kettle LLC Certificate of Formation and Certificate of Conversion AND Pot and Kettle Assignment of Limited Partnership Interest signed by Ghislaine and Duke of York (Prince Andrew). Also dispute with Diandra Douglas. Additionally GRM#004740714 JEE Misc Files III item 9 references Land Registry and info re Eaton Square Properties & Mrs. Paula Cussi De Azcarraga.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:35:18",
+      "target_name": "Ghislaine Maxwell",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": "p14 Pot and Kettle LLC Certificate of Formation and Certificate of Conversion AND Pot and Kettle Assignment of Limited Partnership Interest (signed by Ghislaine and Duke of York); Sothebys Brokerage Agreement for the Sale of her house; Letter Sent to Herb Wolman re AIG Paying for Services of Miller & Raved",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 679,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Les Wexner",
+      "relationship_type": "legal",
+      "description": "Co-defendants in SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, 2002-2003) breach of contract",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Les Wexner",
+      "other_person_slug": "les-wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:11742516",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 895,
+      "person_a": "Darren Indyke",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "legal",
+      "description": "Indyke purchased 116 E 65th St NYC property where Maxwell resided. Listed as person associate in LexisNexis records at same address 2008-2015.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:21",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01295770",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Jeffrey Schantz",
+      "relationship_type": "legal",
+      "description": "Maxwell replaced Schantz as co-trustee of 2001 Trust One (First Amendment Jun 2003)",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 17:08:11",
+      "other_person": "Jeffrey A. Schantz",
+      "other_person_slug": "jeffrey-a-schantz",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266298",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1021,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Jeffrey A. Schantz",
+      "relationship_type": "legal",
+      "description": "Maxwell replaced Schantz as co-Trustee of Trust One in 2003",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 17:08:52",
+      "other_person": "Jeffrey A. Schantz",
+      "other_person_slug": "jeffrey-a-schantz",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266298",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1137,
+      "person_a": "116 East 65th Street LLC",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "corporate",
+      "description": "Maxwell resided at 116 East 65th St — TransUnion records confirm Ghislaine Noelle Maxwell at address 1995-2020",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:15",
+      "other_person": "116 East 65th Street LLC",
+      "other_person_slug": "116-east-65th-street-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01654657",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1239,
+      "person_a": "Duke of York",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "corporate",
+      "description": "Both signed Pot and Kettle LLC Assignment of Limited Partnership Interest, documented in GRM Box #004740715. Pot and Kettle LLC had Certificate of Formation and Certificate of Conversion also on file.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:36:03",
+      "other_person": "Duke of York",
+      "other_person_slug": "duke-of-york",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1881,
+      "person_a": "Forums LLC",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "corporate",
+      "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Forums LLC",
+      "other_person_slug": "forums-llc",
+      "evidence": []
+    },
+    {
+      "id": 1932,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": "Referenced in complaint: arrested in NH one week before DFS fine announcement; described as Epstein associate and alleged fixer charged by federal prosecutors",
+      "strength": "strong",
+      "date_range": "2020-07",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:15",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1935,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Maxwell present on 2006 USVI island trip; directly instructed victim on how to sexually service Epstein; ensured victims constantly on call",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:28",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Kathy Ruemmler",
+      "relationship_type": "legal",
+      "description": "Ruemmler forwarded 50K retainer request for Maxwell legal defense to Epstein Oct 2015. Discussed Maxwell/Andrew media strategy.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:07:42",
+      "other_person": "Kathryn Ruemmler",
+      "other_person_slug": "kathryn-ruemmler",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02484900",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651512",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "person_a": "Amir Dossal",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "social",
+      "description": "Co-hosted June 20, 2013 UN event on oceans/SDGs at UN Conference Building. Dossal (Global Partnership Forum), Maxwell (TerraMar Project), and Stuart Beck (Palau Ambassador) co-organized.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:28",
+      "other_person": "Amir Dossal",
+      "other_person_slug": "amir-dossal",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707132",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "person_a": "Abe Gosman",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "social",
+      "description": "Gosman called Maxwell Apr 27, 2004 (EFTA02332924). Gosman was previous owner of Maison de l Amitie which Trump Properties LLC purchased out of his bankruptcy.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:56:28",
+      "other_person": "Abe Gosman",
+      "other_person_slug": "abe-gosman",
+      "evidence": []
+    },
+    {
+      "id": 345,
+      "person_a": "Darren Indyke",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "financial",
+      "description": "Both donated to King for Congress (Gary King, NM) in 2004: Indyke K, Maxwell K from St. Thomas VI. NM political influence during Zorro Ranch era",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:50",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00393702/schedule_a",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Richard Kahn",
+      "relationship_type": "financial",
+      "description": "Both donated to Hillary Clinton for President (C00431569): Maxwell ,300 (2007-03-30), Kahn  (2007-06-06). Part of broader 4-person Epstein network bundling for Clinton 2008",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:55",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00431569/schedule_a",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "person_a": "Anthony Barrett",
+      "person_b": "Ghislaine Maxwell",
+      "relationship_type": "financial",
+      "description": "Both donated to Hillary Clinton for President (C00431569): Maxwell ,300 (2007-03-30), Barrett ,000 (2007-06-20). Barrett manages Ossa Properties (Epstein family property entity)",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:59",
+      "other_person": "Anthony Barrett",
+      "other_person_slug": "anthony-barrett",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00431569/schedule_a",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:16:08",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 515,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Masha Drokova",
+      "relationship_type": "social",
+      "description": "Drokova served as advisor to Maxwell's TerraMar Project ocean conservation nonprofit (dissolved after Epstein arrest). She co-founded WE Talks webinar series with Lana Pozhidaeva (Epstein assistant/girlfriend), using trademark paperwork filed by Epstein's lawyer.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 20:52:30",
+      "other_person": "Masha Drokova",
+      "other_person_slug": "masha-drokova",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02445716",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 649,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Lesley Groff",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:35:22",
+      "other_person": "Lesley Groff",
+      "other_person_slug": "lesley-groff",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402696",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 650,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Natalya Malyshev",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:35:22",
+      "other_person": "Natalya Malyshev",
+      "other_person_slug": "natalya-malyshev",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402696",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1398,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Tom Barrack",
+      "relationship_type": "social",
+      "description": "Maxwell distributed Barracks Colony Capital contact info Aug 2004. Original connector.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 02:28:11",
+      "other_person": "Tom Barrack",
+      "other_person_slug": "tom-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02332968",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1409,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Tom Barrack",
+      "relationship_type": "social",
+      "description": "Maxwell shared Barrack Colony Capital contact info with Doug in Aug 2004. Maxwell was conduit for introductions between Barrack and Epstein social circle.",
+      "strength": "medium",
+      "date_range": "2004-2010",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 02:33:25",
+      "other_person": "Tom Barrack",
+      "other_person_slug": "tom-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02332968",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1421,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Tom Barrack",
+      "relationship_type": "social",
+      "description": "Maxwell distributed Barracks Colony Capital contact info Aug 2004 (EFTA02332968). From Gmax to Doug: Here is the information you requested Tom Barrack Colony Capital Inc. This is earliest documented link between Epstein network and Barrack.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 02:35:46",
+      "other_person": "Tom Barrack",
+      "other_person_slug": "tom-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02332968",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1522,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "William Barr",
+      "relationship_type": "political",
+      "description": "Maxwell arrested Jul 2, 2020 — two weeks after Barr attempted to fire SDNY USA Berman and replace him with Jay Clayton. Timeline: Jun 19 Barr announces Clayton, Jun 20 Berman fired, Jul 2 Maxwell arrested under Acting USA Strauss. Barr's DOJ oversaw Maxwell prosecution. Barr stated after Epstein death (Aug 2019): 'Any co-conspirators should not rest easy' — Maxwell was the only co-conspirator ever charged.",
+      "strength": "medium",
+      "date_range": "2019-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 16:14:59",
+      "other_person": "William Barr",
+      "other_person_slug": "william-barr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding:2974",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding:2986",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "founder",
+      "date_start": null,
+      "date_end": null,
+      "source": "Finding #114",
+      "entity_id": 86,
+      "entity_name": "TerraMar Project",
+      "entity_type": "nonprofit",
+      "jurisdiction": "NY",
+      "entity_status": "active"
+    },
+    {
+      "role": "owner",
+      "date_start": null,
+      "date_end": null,
+      "source": "master_narrative",
+      "entity_id": 188,
+      "entity_name": "Ellmax",
+      "entity_type": "unknown",
+      "jurisdiction": "unknown",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1995-04-03",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "GHISLAINE CORP. (FL P95000027272, EIN 650590904) was incorporated Apr 3 1995 in FL as a domestic profit corporation with Jeffrey E. Epstein as both registered agent and President/Director, and Amanda J. Ellison as Secretary at 457 Madison Ave NY. Principal address: 358 El Brillo Way, Palm Beach FL. Name changed to GHISLAINE CORP via amendment Apr 21 1995 (implying it had a different original name). Voluntarily dissolved Oct 23 1998. The entity's 3.5-year existence (1995-1998) coincides with the peak period of Maxwell's involvement in Epstein's operations. Epstein simultaneously operated FINANCIAL STRATEGY GROUP INC (P93000087814, EIN 650464008) from the same 358 El Brillo address.",
+      "confidence": "medium",
+      "id": 515
+    },
+    {
+      "date": "2002-09",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Flight log entry (Sep 2002) lists passengers: 'President Clinton, Kevin Spacey, Chris Tucker, Jeffrey Epstein and the initials GM.' Maxwell's deposition was asked about this trip to confirm she remembered traveling with Clinton in Sep 2002. Separately, Kellen, Mucinska, and Marcinkova all pled Fifth Amendment when asked about Copperfield, Spacey, and Wexner — prosecutor called it 'absolutely absurd.'",
+      "confidence": "confirmed",
+      "id": 1351
+    },
+    {
+      "date": "2004-2010",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Maxwell shared Barrack Colony Capital contact info with Doug in Aug 2004. Maxwell was conduit for introductions between Barrack and Epstein social circle.",
+      "other_person": "Tom Barrack",
+      "id": 1409
+    },
+    {
+      "date": "2006",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Maxwell provided explicit sexual instruction to Priscilla Doe on USVI island in 2006",
+      "confidence": "high",
+      "id": 3209
+    },
+    {
+      "date": "2007-03-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Maxwell made 3 FEC-recorded donations: ,300 to Hillary Clinton for President (2007-03-30, listed as NOT EMPLOYED from NYC 10022), and ,000 to King for Congress/NM (2x ,000 on 2004-09-01, listed as RETIRED from St. Thomas VI). The King for Congress donations are for Gary King, NM politician -- same committee Indyke donated ,000 to in 2004. Maxwell and Indyke were the only Epstein network members donating to this NM political figure, while Epstein's Zorro Ranch was in NM. Maxwell also donated to Hillary Clinton, aligning with Dershowitz, Barrett, and Kahn donations to same candidate.",
+      "confidence": "medium",
+      "id": 451
+    },
+    {
+      "date": "2009-12-08",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "On Dec 8, 2009, Ghislaine Maxwell (from 'Gmax') emailed Epstein with blackmail-related advice: 'If you call I would start by saying what ever you saw was fake and part of a blackmail scheme.' This shows Maxwell coaching Epstein on how to dismiss compromising material as fabricated blackmail -- indicating awareness of the vulnerability and existence of such material.",
+      "confidence": "confirmed",
+      "id": 531
+    },
+    {
+      "date": "2016",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Maxwell deposition on Clinton: Maxwell stated under oath 'the allegations that Clinton had a meal on Jeffrey's island is 100 percent false' but confirmed 'I'm sure he had a meal on Jeffrey's plane.' Confirmed she knows Doug Band (Clinton aide). When asked about relationship with Band, Maxwell stated 'We are talking about adult consensual relationships, it's off the record.'",
+      "confidence": "confirmed",
+      "id": 1319
+    },
+    {
+      "date": "2016-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Court filing (Giuffre v. Maxwell) states Maxwell was on Epstein's Palm Beach House bank account as recently as 2005. Bates reference: SAO FOIA disc 7 (bates Giuffre 007590) at p.93-95. Maxwell also sold her townhouse at 116 E 65th St for 15 million dollars (NYPost Apr 2016). Separate deposition: Kellen pled Fifth Amendment when asked about bank account at Chase Bank.",
+      "confidence": "confirmed",
+      "id": 1346
+    },
+    {
+      "date": "2019-2020",
+      "type": "connection",
+      "relationship_type": "political",
+      "description": "Maxwell arrested Jul 2, 2020 — two weeks after Barr attempted to fire SDNY USA Berman and replace him with Jay Clayton. Timeline: Jun 19 Barr announces Clayton, Jun 20 Berman fired, Jul 2 Maxwell arrested under Acting USA Strauss. Barr's DOJ oversaw Maxwell prosecution. Barr stated after Epstein death (Aug 2019): 'Any co-conspirators should not rest easy' — Maxwell was the only co-conspirator ever charged.",
+      "other_person": "William Barr",
+      "id": 1522
+    },
+    {
+      "date": "2020-07",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Referenced in complaint: arrested in NH one week before DFS fine announcement; described as Epstein associate and alleged fixer charged by federal prosecutors",
+      "other_person": "Jeffrey Epstein",
+      "id": 1932
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      531,
+      2513,
+      1346,
+      1351,
+      1319,
+      451,
+      515,
+      3209,
+      496
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "NY",
+        "unknown"
+      ],
+      "officers": [
+        {
+          "role": "founder",
+          "entity": "TerraMar Project",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "owner",
+          "entity": "Ellmax",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 86,
+          "name": "TerraMar Project",
+          "type": "nonprofit",
+          "jurisdiction": "NY",
+          "role": "founder"
+        },
+        {
+          "id": 188,
+          "name": "Ellmax",
+          "type": "unknown",
+          "jurisdiction": "unknown",
+          "role": "owner"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3209
+        ],
+        "connection_ids": [
+          679,
+          895,
+          1014,
+          1021,
+          1137,
+          1239,
+          1881,
+          1932,
+          1935,
+          11,
+          91,
+          295,
+          345,
+          346,
+          347
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          451,
+          1346
+        ],
+        "connection_ids": [
+          345,
+          346,
+          347,
+          359
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure",
+        "viz": null,
+        "finding_ids": [],
+        "connection_ids": [
+          1137,
+          1239,
+          1881
+        ],
+        "guidance": "Narrative about corporate entities, roles, jurisdictions. Explain the structure and its purpose, not just list entities."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          515,
+          1351,
+          1319
+        ],
+        "connection_ids": [
+          679,
+          895,
+          1014,
+          1021,
+          1932,
+          11
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-19T00:54:50.367536",
+    "lead": "<p>Ghislaine Maxwell served as the principal intermediary in <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>'s network -- not merely a social companion but an operational partner embedded in his financial, legal, and logistical infrastructure. The daughter of media baron Robert Maxwell, she brought to the partnership an inherited understanding of how to cultivate powerful relationships, manage information asymmetries, and navigate between jurisdictions. Court filings, depositions, and DOJ evidence establish her direct role in recruiting and instructing victims, managing Epstein's household staff, and serving as gatekeeper to his social world.</p>\n\n<p>Maxwell's position extended well beyond the abuse for which she was criminally convicted. She held formal roles within Epstein's trust structures, replacing Jeffrey Schantz as co-trustee of the 2001 Trust One in June 2003. She was on Epstein's Palm Beach house bank account as recently as 2005. Epstein's attorney <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> purchased the 116 East 65th Street property where she resided from 1995 through 2020, and the two coordinated political donations to an obscure New Mexico congressional race during the Zorro Ranch era. Forums LLC -- one of Epstein's corporate conduits -- transferred ,000 directly into Maxwell's JPMorgan Private Bank checking account in January 2006.</p>\n\n<p>Beyond the Epstein orbit, Maxwell maintained her own corporate entities (Ellmax, Ghislaine Corp., the TerraMar Project) and cultivated independent relationships with political and financial figures ranging from President Clinton to Tom Barrack of Colony Capital. A December 2009 email from \"Gmax\" to Epstein -- advising him to dismiss compromising material as \"fake and part of a blackmail scheme\" -- demonstrates her awareness of the intelligence dimensions of their operation. She co-signed the Pot and Kettle LLC partnership documents with the Duke of York (Prince Andrew), linking her directly to one of the network's most politically sensitive nodes. In December 2021, she was convicted on five of six federal counts including sex trafficking of a minor. She remains the only Epstein co-conspirator ever criminally charged.</p>",
+    "open_questions": [
+      "What was the original name of Ghislaine Corp. before the April 21, 1995 amendment renamed it? Why was it renamed?",
+      "What is the purpose and current status of Pot and Kettle LLC, and what was the nature of the limited partnership interest assigned jointly by Maxwell and Prince Andrew?",
+      "How was the 116 East 65th Street property structured -- did Indyke hold it personally, through an entity, or in trust? Who received the  million sale proceeds in 2016?",
+      "What was the contractual relationship underlying SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671) in which Maxwell and Wexner were co-defendants?",
+      "What role did Forums LLC play as a funding conduit to Maxwell, and were there other entity-to-personal transfers beyond the documented ,000 in January 2006?",
+      "Did Maxwell have accounts or entity interests in offshore jurisdictions (USVI, British Virgin Islands, UK) beyond what has been documented through her St. Thomas address on FEC filings?",
+      "What was Kathryn Ruemmler's full scope of work regarding Maxwell -- was the K retainer the extent of it, or did Latham & Watkins provide broader representation?",
+      "What is the full corporate history and purpose of Ellmax, and were there financial flows between Ellmax and Epstein-controlled entities?"
+    ],
+    "system_role": "Principal recruiter, operational manager, and social gatekeeper for Epstein's network, functioning as both a co-conspirator in abuse and a bridge between Epstein's financial infrastructure and elite social circles.",
+    "sections": [
+      {
+        "id": "operational-role",
+        "title": "Operational Role in the Epstein Network",
+        "content": "<p>Maxwell was not a passive participant. Multiple court filings and victim testimony establish her as an active operational manager within Epstein's enterprise. In a 2006 trip to Little St. James Island in the U.S. Virgin Islands, Maxwell personally instructed a victim (Priscilla Doe) on how Epstein preferred to be sexually serviced, demonstrating specific techniques and conveying instructions \"in a serious manner that instilled genuine fear.\" She ensured that young women were \"constantly on call\" to service Epstein. This was not an isolated incident but part of a systematic pattern documented across multiple civil complaints and the federal criminal case that led to her 2021 conviction.</p>\n\n<p>Flight logs from September 2002 place Maxwell (identified by the initials \"GM\") aboard Epstein's aircraft alongside President Clinton, Kevin Spacey, Chris Tucker, and Epstein himself. When other Epstein associates -- Kellen, Mucinska, and Marcinkova -- were deposed about their knowledge of various high-profile associates including <a href=\"/dossiers/les-wexner\">Les Wexner</a>, all three invoked the Fifth Amendment, a response the prosecutor called \"absolutely absurd.\" Maxwell herself, in a separate deposition, denied that Clinton had visited Epstein's island but confirmed he \"had a meal on Jeffrey's plane,\" and shut down questions about her relationship with Clinton aide Doug Band by declaring \"we are talking about adult consensual relationships, it's off the record.\"</p>\n\n<p>Maxwell's operational awareness extended to the intelligence dimensions of the network. On December 8, 2009, writing from \"Gmax,\" she emailed Epstein with explicit crisis-management advice: \"If you call I would start by saying what ever you saw was fake and part of a blackmail scheme.\" This email, preserved in EFTA02434764, demonstrates Maxwell's knowledge of compromising material's existence and her readiness to deploy counter-narratives -- a sophistication consistent with someone who understood the leverage mechanics at play, not merely someone providing social introductions.</p>",
+        "viz": null
+      },
+      {
+        "id": "financial-entanglement",
+        "title": "Financial Entanglement",
+        "content": "<p>The financial relationship between Maxwell and Epstein went far deeper than any employer-employee or romantic-partner framing would suggest. Court filings in Giuffre v. Maxwell established that Maxwell was listed on Epstein's Palm Beach house bank account as recently as 2005, indicating she had direct access to at least some of his financial infrastructure. In January 2006, Forums LLC -- one of Epstein's web of corporate entities -- made a ,000 internal funds transfer directly into Maxwell's JPMorgan Private Bank checking account (EFTA01524286). The routing through Forums LLC rather than a direct personal transfer is characteristic of how Epstein used entity layers to obscure the nature and purpose of payments.</p>\n\n<p>Maxwell's FEC donation records reveal a pattern of coordinated political giving with other Epstein network members. In 2004, she donated ,000 to King for Congress (Gary King, a New Mexico politician), listing her address as St. Thomas, U.S. Virgin Islands, and her employment status as \"RETIRED.\" <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> donated ,000 to the same committee that same year. Maxwell and Indyke were the only Epstein network members contributing to this otherwise obscure New Mexico race -- notable because Epstein's Zorro Ranch was located in New Mexico. In March 2007, Maxwell donated ,300 to Hillary Clinton for President, listing herself as \"NOT EMPLOYED\" from the 10022 ZIP code (Midtown East Manhattan). Anthony Barrett, who managed Epstein's 301 East 66th Street building through Ossa Properties, and Richard Kahn, Epstein's co-executor, both donated to the same Clinton committee within months -- a pattern consistent with bundled giving.</p>\n\n<p>In April 2016, Maxwell sold her townhouse at 116 East 65th Street for  million. The property's ownership history is itself significant: <a href=\"/dossiers/darren-indyke\">Indyke</a> purchased the property where Maxwell resided, and TransUnion records confirm her presence at the address from 1995 through 2020. Her complete absence from NYC ACRIS property records -- across all name variants -- suggests the property was held through an entity or another person's name, consistent with the broader Epstein network practice of obscuring beneficial ownership through corporate layers.</p>",
+        "viz": null
+      },
+      {
+        "id": "corporate-entities",
+        "title": "Corporate Entities and Trust Structures",
+        "content": "<p>Maxwell operated through several corporate entities whose purposes remain only partially understood. Ghislaine Corp. (FL P95000027272, EIN 650590904) was incorporated on April 3, 1995, in Florida as a domestic profit corporation. <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> served as both registered agent and President/Director, with Amanda J. Ellison as Secretary -- Ellison being an identity associated with the Epstein corporate address at 457 Madison Avenue, New York. The principal address was 358 El Brillo Way, Palm Beach -- Epstein's Palm Beach residence. An amendment on April 21, 1995, changed the corporation's name <em>to</em> Ghislaine Corp., implying it was originally incorporated under a different name. The entity was voluntarily dissolved on October 23, 1998. Its 3.5-year existence coincides with the peak period of Maxwell's documented involvement in Epstein's operations. Epstein simultaneously operated Financial Strategy Group Inc. from the same 358 El Brillo address.</p>\n\n<p>Ellmax, Maxwell's personal company (from which she used the email gmaxl@ellmax.com), remains poorly documented in public records. The TerraMar Project, a New York nonprofit focused on ocean conservation that Maxwell founded, provided her with a veneer of philanthropic legitimacy and a platform for cultivating relationships with international officials. She co-hosted a June 2013 UN event on oceans and sustainable development goals alongside Amir Dossal of the Global Partnership Forum. Masha Drokova, a Russian-born venture capitalist who later co-founded WE Talks with Epstein assistant Lana Pozhidaeva, served as an advisor to TerraMar. The nonprofit was dissolved shortly after Epstein's July 2019 arrest.</p>\n\n<p>Most significantly, Maxwell held a formal position within Epstein's trust architecture. In June 2003, via the First Amendment to the 2001 Trust One, Maxwell replaced Jeffrey Schantz as co-trustee. Schantz had been Epstein's original legal operative since 1995; his systematic removal from trust, will, and entity positions in 2003 and replacement by Maxwell and <a href=\"/dossiers/darren-indyke\">Indyke</a> marks a major restructuring of Epstein's inner circle. Documents in GRM Box #004740715 further reveal that Maxwell and the Duke of York (Prince Andrew) jointly signed the Pot and Kettle LLC Assignment of Limited Partnership Interest, alongside a Certificate of Formation and Certificate of Conversion -- a corporate relationship between Maxwell and a member of the British royal family that has never been publicly explained.</p>",
+        "viz": null
+      },
+      {
+        "id": "network-broker",
+        "title": "Network Brokerage and Social Capital",
+        "content": "<p>Maxwell's primary structural function within the Epstein network was as a bridge between worlds -- connecting Epstein's financial and operational infrastructure to social, political, and business elites. Email records show her actively brokering introductions: in August 2004, she forwarded Tom Barrack's Colony Capital contact information to \"Doug\" (likely Doug Band, Clinton's aide, or another Epstein associate), writing \"Here is the information you requested.\" This is the earliest documented link between the Epstein network and Barrack, who went on to become a major political fundraiser and was later convicted of acting as an unregistered foreign agent for the UAE.</p>\n\n<p>The breadth of Maxwell's connections emerges across the investigation database: 23 documented connections spanning legal, corporate, social, financial, and political relationship types. She connects to <a href=\"/dossiers/les-wexner\">Les Wexner</a> (co-defendant in a 2002 breach of contract suit, SHANKS v. WEXNER), to <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> (Epstein's executive assistant, linked through deposition records), to Kathryn Ruemmler (former Obama White House Counsel, who forwarded a ,000 retainer request for Maxwell's legal defense to Epstein in October 2015 and discussed Maxwell/Andrew media strategy), and to Natalya Malyshev. Abe Gosman -- previous owner of the Palm Beach mansion Maison de l'Amitie, which Trump Properties LLC purchased out of his bankruptcy -- called Maxwell in April 2004.</p>\n\n<p>Maxwell's social network functioned as what systems analysts would call a \"bridge\" in graph theory: she connected otherwise disconnected clusters. British aristocracy and royalty (the Duke of York, Pot and Kettle LLC), American political power (Clinton, Doug Band), Israeli security establishment (through her family's documented intelligence connections), Gulf and Middle Eastern finance (via Barrack and others), New York society (the <a href=\"/dossiers/eva-dubin\">Dubins</a>, various philanthropic circles), and the operational layer of Epstein's abuse apparatus (Groff, Kellen, Marcinkova). This bridging function made her simultaneously indispensable to the network's operation and uniquely dangerous to its members once she became a cooperating witness risk.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings and Prosecution",
+        "content": "<p>Maxwell's criminal prosecution unfolded against a backdrop of unusual DOJ maneuvering. She was arrested on July 2, 2020, in Bradford, New Hampshire -- just two weeks after Attorney General William Barr attempted to fire SDNY U.S. Attorney Geoffrey Berman and replace him with SEC Chairman Jay Clayton (June 19). Berman was officially removed on June 20; Maxwell was arrested under Acting U.S. Attorney Audrey Strauss. The compressed timeline -- Barr's statement after Epstein's August 2019 death that \"any co-conspirators should not rest easy,\" the leadership shakeup at SDNY, and then Maxwell's arrest -- raises questions about the prosecution's scope and political management. Maxwell remains the only Epstein co-conspirator ever federally charged.</p>\n\n<p>Prior civil litigation had already established key facts. The Giuffre v. Maxwell case (SDNY 15-cv-7433) produced depositions in which Maxwell made carefully calibrated statements about Clinton's presence on Epstein's plane versus his island, and about her relationship with Doug Band. The SHANKS v. WEXNER case (E.D. Pa. 2:02-cv-07671, filed October 2, 2002, terminated October 2003) is a breach of contract diversity action in which Maxwell and <a href=\"/dossiers/les-wexner\">Wexner</a> were co-defendants -- the nature of their shared contractual obligation in this case remains under-investigated. Kathryn Ruemmler's October 2015 communications forwarding a ,000 retainer request to Epstein for Maxwell's defense, and discussions about media strategy concerning Maxwell and Prince Andrew, reveal how legal defense was financed and coordinated through Epstein's resources even as Maxwell maintained the public posture of being a separate individual.</p>\n\n<p>The property at 116 East 65th Street figures in the legal record as well: <a href=\"/dossiers/darren-indyke\">Indyke</a> purchased it while Maxwell resided there, and she was listed as a \"person associate\" at the address in LexisNexis records from 2008 through 2015. The arrangement -- Epstein's personal attorney owning the home where his primary associate lived -- is consistent with a pattern in which beneficial ownership and true control were systematically separated from legal title, a structure that complicated both civil discovery and criminal asset forfeiture.</p>",
+        "viz": "timeline"
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "enabler-gradient",
+      "jurisdictional-arbitrage",
+      "manufactured-dependency",
+      "narrative-shield",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Ghislaine Maxwell",
+      "connections": [
+        {
+          "target": "Les Wexner",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener:11742516",
+          "description": "Co-defendants in SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, 2002-2003) breach of contract"
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01295770",
+          "description": "Indyke purchased 116 E 65th St NYC property where Maxwell resided. Listed as person associate in LexisNexis records at same address 2008-2015."
+        },
+        {
+          "target": "Jeffrey A. Schantz",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01266298",
+          "description": "Maxwell replaced Schantz as co-trustee of 2001 Trust One (First Amendment Jun 2003)"
+        },
+        {
+          "target": "Jeffrey A. Schantz",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01266298",
+          "description": "Maxwell replaced Schantz as co-Trustee of Trust One in 2003"
+        },
+        {
+          "target": "116 East 65th Street LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01654657",
+          "description": "Maxwell resided at 116 East 65th St — TransUnion records confirm Ghislaine Noelle Maxwell at address 1995-2020"
+        },
+        {
+          "target": "Duke of York",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00300480",
+          "description": "Both signed Pot and Kettle LLC Assignment of Limited Partnership Interest, documented in GRM Box #004740715. Pot and Kettle LLC had Certificate of Formation and Certificate of Conversion also on file."
+        },
+        {
+          "target": "Forums LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Ali-Karimi-v-DB",
+          "description": "Referenced in complaint: arrested in NH one week before DFS fine announcement; described as Epstein associate and alleged fixer charged by federal prosecutors"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "description": "Maxwell present on 2006 USVI island trip; directly instructed victim on how to sexually service Epstein; ensured victims constantly on call"
+        },
+        {
+          "target": "Kathryn Ruemmler",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02484900",
+          "description": "Ruemmler forwarded 50K retainer request for Maxwell legal defense to Epstein Oct 2015. Discussed Maxwell/Andrew media strategy."
+        },
+        {
+          "target": "Amir Dossal",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02707132",
+          "description": "Co-hosted June 20, 2013 UN event on oceans/SDGs at UN Conference Building. Dossal (Global Partnership Forum), Maxwell (TerraMar Project), and Stuart Beck (Palau Ambassador) co-organized."
+        },
+        {
+          "target": "Abe Gosman",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Gosman called Maxwell Apr 27, 2004 (EFTA02332924). Gosman was previous owner of Maison de l Amitie which Trump Properties LLC purchased out of his bankruptcy."
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "FEC:C00393702/schedule_a",
+          "description": "Both donated to King for Congress (Gary King, NM) in 2004: Indyke K, Maxwell K from St. Thomas VI. NM political influence during Zorro Ranch era"
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "FEC:C00431569/schedule_a",
+          "description": "Both donated to Hillary Clinton for President (C00431569): Maxwell ,300 (2007-03-30), Kahn  (2007-06-06). Part of broader 4-person Epstein network bundling for Clinton 2008"
+        },
+        {
+          "target": "Anthony Barrett",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "FEC:C00431569/schedule_a",
+          "description": "Both donated to Hillary Clinton for President (C00431569): Maxwell ,300 (2007-03-30), Barrett ,000 (2007-06-20). Barrett manages Ossa Properties (Epstein family property entity)"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Masha Drokova",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02445716",
+          "description": "Drokova served as advisor to Maxwell's TerraMar Project ocean conservation nonprofit (dissolved after Epstein arrest). She co-founded WE Talks webinar series with Lana Pozhidaeva (Epstein assistant/girlfriend), using trademark paperwork filed by Epstein's lawyer."
+        },
+        {
+          "target": "Lesley Groff",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "DOCUMENTCLOUD:24402696",
+          "description": null
+        },
+        {
+          "target": "Natalya Malyshev",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "DOCUMENTCLOUD:24402696",
+          "description": null
+        },
+        {
+          "target": "Tom Barrack",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02332968",
+          "description": "Maxwell distributed Barracks Colony Capital contact info Aug 2004. Original connector."
+        },
+        {
+          "target": "Tom Barrack",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02332968",
+          "description": "Maxwell shared Barrack Colony Capital contact info with Doug in Aug 2004. Maxwell was conduit for introductions between Barrack and Epstein social circle."
+        },
+        {
+          "target": "Tom Barrack",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02332968",
+          "description": "Maxwell distributed Barracks Colony Capital contact info Aug 2004 (EFTA02332968). From Gmax to Doug: Here is the information you requested Tom Barrack Colony Capital Inc. This is earliest documented link between Epstein network and Barrack."
+        },
+        {
+          "target": "William Barr",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "Finding:2974",
+          "description": "Maxwell arrested Jul 2, 2020 — two weeks after Barr attempted to fire SDNY USA Berman and replace him with Jay Clayton. Timeline: Jun 19 Barr announces Clayton, Jun 20 Berman fired, Jul 2 Maxwell arrested under Acting USA Strauss. Barr's DOJ oversaw Maxwell prosecution. Barr stated after Epstein death (Aug 2019): 'Any co-conspirators should not rest easy' — Maxwell was the only co-conspirator ever charged."
+        }
+      ],
+      "secondHop": {
+        "Anthony Barrett": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Barrett managed Epstein's 301 E 66th St building through Ossa Properties. Communicated with Lesley Groff about Epstein's apartment (3M), Barak's apartment (11.1/11J), and was told to call Jeffrey."
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Mark Epstein owns Ossa Properties Inc; Anthony Barrett is CEO. They jointly control 301 E 66th St building management."
+          }
+        ],
+        "Darren Indyke": [
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Indyke handled legal matters for both Epstein and Black. Conference call details (EFTA02340224) show joint calls between Epstein, Black-related parties, Brad Karp, Brad Wechsler, and Patrick Fenn."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Indyke served as Treasurer (2012-2015) then Vice President/Director (2017-2019). Signed account closure letter Jan 10, 2019. Address: 575 Lexington Ave 4th Floor NYC then 9053 Estate Thomas USVI. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "In-house attorney at Southern Financial LLC for 15+ years. Secretary at STC, Authorized Signatory at SFL. Co-executor of estate. Beneficiary of Butterfly Trust. Trustee of 1953 Trust and Epstein 2019 Trust."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-beneficiaries of Butterfly Trust. Co-trustees of 1953 Trust. Co-executors of estate. Both at 575 Lexington Ave 4th Floor. Co-occur in 830 LMSBAND files."
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Indyke corresponded extensively with Oldfield at Deutsche Bank on Prytanee LLC, CDD forms, account management. 381 LMSBAND co-occurrences."
+          }
+        ],
+        "Forums LLC": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A"
+          },
+          {
+            "target": "Investigation Network",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A"
+          },
+          {
+            "target": "NES LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #553: Forums LLC made a 220,000 dollar internal funds transfer to Ghislaine Maxwell JPMorgan Private Bank checking account in January 2006 (EFTA01524286). A"
+          }
+        ],
+        "Jeffrey A. Schantz": [
+          {
+            "target": "Jeffrey E. Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Co-Trustee of Trust One Two and Hart Trust and co-Executor of 2001 Will"
+          },
+          {
+            "target": "Paul Hoffman",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-officers in USVI entities including J Epstein VI Foundation"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1995-04-03",
+        "label": "GHISLAINE CORP. (FL P95000027272, EIN 650590904) was incorporated Apr 3 1995 in FL as a domestic profit corporation with Jeffrey E. Epstein as both registered agent and President/Director, and Amanda J. Ellison as Secretary at 457 Madison Ave NY. Principal address: 358 El Brillo Way, Palm Beach FL. Name changed to GHISLAINE CORP via amendment Apr 21 1995 (implying it had a different original name). Voluntarily dissolved Oct 23 1998. The entity's 3.5-year existence (1995-1998) coincides with the peak period of Maxwell's involvement in Epstein's operations. Epstein simultaneously operated FINANCIAL STRATEGY GROUP INC (P93000087814, EIN 650464008) from the same 358 El Brillo address.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 515
+      },
+      {
+        "date": "2002-09",
+        "label": "Flight log entry (Sep 2002) lists passengers: 'President Clinton, Kevin Spacey, Chris Tucker, Jeffrey Epstein and the initials GM.' Maxwell's deposition was asked about this trip to confirm she remembered traveling with Clinton in Sep 2002. Separately, Kellen, Mucinska, and Marcinkova all pled Fifth Amendment when asked about Copperfield, Spacey, and Wexner — prosecutor called it 'absolutely absurd.'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1351
+      },
+      {
+        "date": "2004-2010",
+        "label": "social with Tom Barrack",
+        "type": "social",
+        "entity": "Tom Barrack",
+        "id": 1409
+      },
+      {
+        "date": "2006",
+        "label": "Maxwell provided explicit sexual instruction to Priscilla Doe on USVI island in 2006",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 3209
+      },
+      {
+        "date": "2007-03-30",
+        "label": "Maxwell made 3 FEC-recorded donations: ,300 to Hillary Clinton for President (2007-03-30, listed as NOT EMPLOYED from NYC 10022), and ,000 to King for Congress/NM (2x ,000 on 2004-09-01, listed as RETIRED from St. Thomas VI). The King for Congress donations are for Gary King, NM politician -- same committee Indyke donated ,000 to in 2004. Maxwell and Indyke were the only Epstein network members donating to this NM political figure, while Epstein's Zorro Ranch was in NM. Maxwell also donated to Hillary Clinton, aligning with Dershowitz, Barrett, and Kahn donations to same candidate.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 451
+      },
+      {
+        "date": "2009-12-08",
+        "label": "On Dec 8, 2009, Ghislaine Maxwell (from 'Gmax') emailed Epstein with blackmail-related advice: 'If you call I would start by saying what ever you saw was fake and part of a blackmail scheme.' This shows Maxwell coaching Epstein on how to dismiss compromising material as fabricated blackmail -- indicating awareness of the vulnerability and existence of such material.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 531
+      },
+      {
+        "date": "2016",
+        "label": "Maxwell deposition on Clinton: Maxwell stated under oath 'the allegations that Clinton had a meal on Jeffrey's island is 100 percent false' but confirmed 'I'm sure he had a meal on Jeffrey's plane.' Confirmed she knows Doug Band (Clinton aide). When asked about relationship with Band, Maxwell stated 'We are talking about adult consensual relationships, it's off the record.'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1319
+      },
+      {
+        "date": "2016-04",
+        "label": "Court filing (Giuffre v. Maxwell) states Maxwell was on Epstein's Palm Beach House bank account as recently as 2005. Bates reference: SAO FOIA disc 7 (bates Giuffre 007590) at p.93-95. Maxwell also sold her townhouse at 116 E 65th St for 15 million dollars (NYPost Apr 2016). Separate deposition: Kellen pled Fifth Amendment when asked about bank account at Chase Bank.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1346
+      },
+      {
+        "date": "2019-2020",
+        "label": "political with William Barr",
+        "type": "political",
+        "entity": "William Barr",
+        "id": 1522
+      },
+      {
+        "date": "2020-07",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1932
+      }
+    ]
+  }
+}

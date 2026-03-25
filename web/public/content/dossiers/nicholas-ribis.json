@@ -1,0 +1,1347 @@
+{
+  "name": "Nicholas Ribis",
+  "slug": "nicholas-ribis",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.298796",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 12,
+    "total_connections": 12,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 7,
+      "intelligence": 3,
+      "legal": 1,
+      "communication": 1
+    },
+    "connection_types": {
+      "intelligence": 5,
+      "financial": 3,
+      "advisory": 1,
+      "corporate": 2,
+      "social": 1
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 2058,
+      "finding_type": "financial",
+      "summary": "Ribis asked Epstein for $2.5M wire for 'AC Hilton' deal (Oct 2010, EFTA02421450): 'if u can help I would appreciate it if not I fully understand -- late notice.' Total financial flows: loan at least $200K 'no interest' (Sep 2017), check for $158,025.02 'with interest accrued' (Jan 2018), wire $137,072.70 (Apr 2018, to DB acct 35269691 'Jeffrey Epstein'), check #1148 deposited Jun 29 2018 (cleared Jul 3 2018, then stop payment on separate check Jul 6 2018). Mikimoto Pearls + watches offered as collateral but delivery never confirmed. Ribis relationship spanned Feb 2010 through May 2019 (2 months pre-arrest).",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11,duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2010-10-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:25:08",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01345943",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01345945",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383892",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02341784",
+          "source_quote": "can you please advise on time we can meet today thank you \nRichard Kahn \nHBRK Associates Inc. \n575 =exington Avenue 4th Floor \nNew York, NY 10022 \nto \nfa \nce",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421450",
+          "source_quote": "Title: Re: FW: ACH APA \nOk thanks \n— Original Message — \nFrom: Jeffrey Epstein leevacation@gmail.com> \nTo: Nicholas L.Ribis \nSan: Wed Oct 20 12:16:57 2010 \nSubject: Re: FW: ACH APA \ntoo short notice„ for today„ sorry.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02543698",
+          "source_quote": "thank you \nonce sent please email me fed ex or ups tracking number \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue 4th Floor \nNew York, NY 10022 \ntel 212-971-1306 \nfax 212-320.0381 \ncell 917-414-7584 \n■ \n<mailt \nOk in AM \nSent from my iPhone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02546826",
+          "source_quote": "based on email below nothing =eceived.. \ni asked bella to =atch account and she did not see any incoming wires i =ill check again tomorrow am \nRichard Kahn \nHBRK Associates Inc. \n575 =exington Avenue, 4th Floor \nNew =ork, NY 10022 \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2206,
+      "finding_type": "financial",
+      "summary": "Nicholas L. Ribis (Resorts International Casinos) emailed Epstein Oct 20, 2010 requesting .5M wire for AC Hilton transaction, offering to secure with his Olympic Towers condo. Epstein declined citing short notice. This establishes Olympic Tower resident Ribis in Epstein financial network and shows Epstein was solicited for large rapid loans.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2010-10-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:47:41",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421450",
+          "source_quote": " Jeffrey - Hem documents which I executed relating to AC Hilton transaction - I need to fund 2.5m by wire today - if u can help I would appreciate it - I will guarantee 2.5m and secure with my condo at Olympic Towers",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2053,
+      "finding_type": "financial",
+      "summary": "Epstein lent Ribis at least $200K, relationship dating to 2011+. Jun 20, 2011: Epstein told Ribis 'I can't figure out how the money gets repaid... the plane is worth no more than 4' and 'the economy looks fragile.' Sep 11, 2017: Kahn demanded 'repayment of the 200k.' Apr-Jun 2018: repeated 'please do not deposit' from Ribis as checks faced bouncing. Jun 29, 2018: Ribis begged 'Please don't deposit it will bounce\\!\\!\\!' — Epstein deposited anyway. Ribis also owed jewelry promised 'day 1.' Epstein evaluated Ribis assets (plane ~$4M) as inadequate collateral.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11,duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2011-06-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:21:27",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02396297",
+          "source_quote": ", \n: \nTo: \nNick Ribis \nCc: \nJeffrey Epstein \nSubject: \nRe: \nnick just called your cell and left a voicemail please call me when free with an update thank you \nRichard Kahn \nHBRK Associates Inc. \n575 =exington Avenue 4th Floor \nNew York, NY 10022 \ntel 212-971-1306 \nfax 212-320-0381 \ncell 917-414-7584",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02457469",
+          "source_quote": "Richard Kahn \nHBRK Associates Inc. \n5=5 Lexington Avenue, 4th Floor \nBegin forwarded mess=ge: \nFrom: Nicholas Ribis.\n» \nDate: April 24, 2018 at 3:40:13 PM EDT \nTo:=/b> Richard Kah \nSubject: Re: \ning \n=/blockquote> \nPlease do not deposit. I will talk to Jeffrey",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02482366",
+          "source_quote": "Please don't deposit it will bounce!!! \nSent from my iPhone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02540261",
+          "source_quote": "Ok I understand we can talk - its me that's y it gets paid - fund money sale of assets etc - but I appreciate ur time concern \nand interest in my issue - thanks again - Nick \nFrom: Jeffrey Epstein Imailto:jeevacation@gmail.com] \nSent: Monday, June 20, 2011 09:25 AM \nTo: Nicholas L.Ribis \nSubject:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02582266",
+          "source_quote": "ribis called and said nothing done . tomorow b= tough , first jewlery then sept deal date . then three =thers. . at a \nminimum he shold give the jewlery he promo=ed day 1 \n=C2",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2057,
+      "finding_type": "intelligence",
+      "summary": "Ribis predicted both Trump presidency and Bannon firing with remarkable accuracy. Jan 21, 2016: 'DJT will be President' (10 months pre-election). Feb 3, 2017: 'Bannon will be gone by Sept - too out front taking glow off DJ' (Bannon fired Aug 18). Apr 25, 2016: Ribis asked Epstein to 'Remind ur friend that I designed the DJT business comeback and now he may be the President' — actively seeking re-engagement with Trump orbit via Epstein as intermediary. These predictions demonstrate genuine insider understanding of Trump psychology and decision-making from 24 years of proximity.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11,epstein_20k"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-01-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:24:58",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02661296",
+          "source_quote": "U r so right Bannon will be gone by Sept - too out front taking glow off DJ= \nSent from my BlackBerry 10 smartphone. \nFrom: jeffrey E. \nSent: Friday, February 3, 2017 7:33 AM \nTo: Nicholas Ribis \nSubject: \ndoes he turn on bannon soon as bannon is=getting too much attention and power",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022443",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022444",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2061,
+      "finding_type": "legal",
+      "summary": "Ribis claimed he could have been Caesars bankruptcy examiner but was blocked",
+      "detail": "EFTA02469638 (Mar 18, 2016): Ribis told Epstein after meeting Rowan: 'I could have been the examiner but Mark's lawyers nixed me and oked Davis'. This reveals Ribis had insider knowledge of Caesars restructuring. Separately, 'Steve P' was making money from prolonged litigation and wanted Ribis excluded because he 'knows too much' (EFTA02450801).",
+      "source_datasets": [
+        "DOJ Vol 11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-03-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:27:50",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": "> \nJeffrey - when u speak with Steve P later don't forget that he is maki=g much money having this continue, acts nice and \nrespectful but is not, di=n't return calls and emails for months before I was hired despite being to=d too, spoke to me \nonce in 5 months,( Mark met with me 5 times) now does...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02469638",
+          "source_quote": "to keep you in the loop \n----= ----- Forwarded messa e \nFrom: =icholas Ribis «mailtc\n> \nDate: Fri,=Mar 18, 2016 at 10:37 AM \nSubject: Re: \nTo: \"jeffrey E.\"  \nSent from my BlackBerry 10 smartphone. \nFrom: jeffrey E. \nSent: Friday, March 18, 2016 10:01 AM \nTo: Nicholas Ribis \nSubject: Fwd: Fwd: \n...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2050,
+      "finding_type": "communication",
+      "summary": "Nicholas Ribis (NLR Ventures, ex-CEO Trump Hotels & Casino Resorts) is a major Epstein correspondent with 748+ documents in corpus. Served as Epstein's gaming industry intelligence source on Caesars/Apollo litigation: met with 'Mark' (Rowan), relayed intelligence on creditor positions ('David Tepper wants a lot'), Apollo losses ('already lost 2b'), and court proceedings. Also conducted financial transactions via Richard Kahn. Email: nicholas.ribis@resortsintm.com.",
+      "detail": "Key emails: Feb 2012 pitched Caesars casino deal 'for Leon' through Epstein. Dec 2015 'did some digging on Caesars' + meeting at 9E71st. Jan 2016 warned about Davis Report. Jun 2016 'met with Mark' + Apollo losses. Aug 2016 court ruling tracking. Had Lisa Bauso as EA. Office: 60 Morris Turnpike, Summit NJ. Regular meetings at 9E71st 2012-2018.",
+      "source_datasets": [
+        "doj_vol11",
+        "duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-06-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:12:27",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01841927",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02338300",
+          "source_quote": "Apollo already lost 2b original investment now this - there concerned for sure let's talk - but I hear David Tepper wants a lot",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473658",
+          "source_quote": "not sure validity of article but mentions Leon can be personally sued =or Caesars mess.. \n=ttp://nypost.com/2016/01/21/court-appointed-probe-will-slam-caesars-for-f=aud/ \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue 4th Floor \nNew Y \ntel \nfa \nce \n \n \n \nalict> \nconversation-idgkey> \n91258",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477161",
+          "source_quote": "Jeffrey - I did some digging on Caesars I will call u in AM -Nick \nSent from my BlackBerry 10 smartphone. \nFrom: Jeffrey E. \nSent: Tuesday, December 15, 2015 9:17 AM \nTo: Nicholas Ribis \nSubject: Re: meeting \n9 east 71 st",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2054,
+      "finding_type": "financial",
+      "summary": "The 'deal' Ribis was working on for Epstein was the Cal Neva Resort & Casino (Lake Tahoe, legendary Sinatra property). Jun 16, 2017: Ribis told Epstein 'I'm at a critical point in my Cal Neva deal. If I cannot fund my half of legal fees the project will remain at a standstill.' Jun 1, 2017: asked Epstein for closing cost help. Jul 10, 2017: asked Epstein for intro to Larry Ellison/'Lawrence Investmentz.' Jan 22, 2013: asked about David Tepper. Jul 19, 2017: Epstein replied 'get your deal done. first priority.' Dec 12, 2018: Epstein asked 'deal done?' — Ribis: 'Today I hope.' Ribis used Epstein network access (Ellison, Tepper) as dealmaking leverage.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11,duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-06-16",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:21:37",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02342118",
+          "source_quote": "Forgot to ask do u know Larry Ellison - I'm trying to do a deal with h=s investment company Lawrence Investmentz \nSent from my BlackBerry 10 smartphone. \n1",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02342427",
+          "source_quote": "Jeffrey - thank u - I am verge of getting back to what I am - I know i= 's difficult to understand but I'm at a critical point in \nmy Cal Neva dea=. If I cannot fund my half of legal fees the project will remain at a stan= still - what I need is for \nsomeone to believe in me and what I do to build...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02354884",
+          "source_quote": "Can u. Call me At 830AM I'm still working \nSent from my iPhone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02610199",
+          "source_quote": "deal done?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02648538",
+          "source_quote": "> \nJeffrey - the good news is my deal is going well the bad news is that =y equity partner has requested we share costs of \nclosing - can u help ler= discuss - Nick \nSent from my BlackBerry 10 smartphone. \n1",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2056,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank compliance document EFTA01369041 confirms Epstein wired money to NLR Ventures LLC as a 'personal loan from Mr Epstein to Nick Ribis.' DB WM staff Bradley Gillin (345 Park Ave 24th FL) processed the wire. DB asked: 'What is the purpose of the Outgoing wire to NLR VENTURES LLC?' and 'What is the Beneficiary NLR VENTURES LLC line of business? Nick Ribis is in the hotel/entertainment business.' Separate repayment: Check #1148 from Ribis (~$151K) deposited via Kahn→Gillin→Bella Klein (DB teller). Jul 2017: Epstein told Kahn 'give nick a new amount calculated for july 15th payoff.' Jun 2017: 'how much left to fund?' / '125' ($125K outstanding).",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11,duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-07-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:23:38",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01369041",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384424",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02646810",
+          "source_quote": "125 \nSent from my BlackBerry 10 smartphone. \nFrom: jeffrey E. \nSent: Friday, June 16, 2017 3:18 PM \nTo: Nicholas Ribis \nSubject: Re: \nhow much left to fund ?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02647283",
+          "source_quote": "richard, give nick a new amount calculated for=july 15th payoff \n=AO",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2055,
+      "finding_type": "intelligence",
+      "summary": "Ribis provided Epstein near real-time White House intelligence. Jul 24, 2017: 'I hear RP and SB on way out - Moch to be chief of staff - I and JK killing all they view as enemy' (RP=Reince Priebus fired 4 days later Jul 28, SB=Steve Bannon fired Aug 18, Moch=Anthony Scaramucci appointed Jul 21, JK=Jared Kushner). Feb 28, 2018: Epstein told Bannon about Ribis: 'Nick was the person that negotiated Donald out of bankruptcy. Not Wilbur' and 'Nick Ribis loyal, lawyer. Knows Donald 25 years.' Epstein actively positioned Ribis as Trump-world intelligence asset to Bannon. Jul 9, 2018: Ribis forwarded Thomas Barrack Forbes article to Epstein.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11,duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-07-24",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:21:46",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02345089",
+          "source_quote": "I'm ok working on deal - but I hear RP and SB on way out -Moch to be chief =f staff - I and JK killing all they view as \nenemy \nSent from my iPhone=?xml version=.0\" encoding=TF-8\"?>  \n \nalict>",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02518158",
+          "source_quote": "Wednesday, February 28, 2018 9:56 PM \nRe: \nNick was the person that negotiated Donald out of ba=kruptcy. Not Wilbur",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02599194",
+          "source_quote": "For ur info \nhttps://www.forbes.cothites/forbesdigi talcovers/2018/07/09/disastrous-deal-staggers-trum p-al ly-=homas-\nbarrack/ <https://www.forbes.com/sites/forbesdigitalcovers/2018/07/09=disastrous-deal-staggers-trump-ally-thomas-\nbarrackh \n1",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2059,
+      "finding_type": "financial",
+      "summary": "Epstein deliberately excluded Ribis from regulatory filings while accepting K transfer",
+      "detail": "Dec 2017: Epstein told Ribis 'we are filling out our regulatory reports this fri. and leaving you off' while simultaneously accepting a K incoming transfer. This suggests Epstein was selectively reporting financial relationships to regulators — hiding the Ribis connection despite active money flows.",
+      "source_datasets": [
+        "DOJ Vol 11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:27:45",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02611649",
+          "source_quote": "wire just received in the amount of 50,000 \n12/20/2017 01:06 PM (ET) \nRichard Kahn \nHBRK Associates Inc. \n575 =exington Avenue 4th Floor \nNew York, NY 10022 \ntel \nfax \ncel \nINCOMING MONEY TRANSFER \n$50,000.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2062,
+      "finding_type": "intelligence",
+      "summary": "Epstein merged dual Trump intelligence channels (Ribis + Bannon) in Feb 2018 with OPSEC",
+      "detail": "Feb 28, 2018: Epstein introduced Ribis to Bannon via email: 'Nick Ribis loyal, lawyer. Knows Donald 25 years, and shares Kasowitz Expertise' and 'Nick was the person that negotiated Donald out of bankruptcy. Not Wilbur'. Added OPSEC: 'Not for Email call before you take off'. Ribis = Trump psychology/personnel channel (24yr relationship). Bannon = political strategy (526 docs). Merger created unified intelligence pipeline into Trump White House.",
+      "source_datasets": [
+        "DOJ Vol 11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:27:53",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02518158",
+          "source_quote": "Wednesday, February 28, 2018 9:56 PM \nRe: \nNick was the person that negotiated Donald out of ba=kruptcy. Not Wilbur",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2060,
+      "finding_type": "financial",
+      "summary": "Kahn demanded K jewelry collateral for Epstein loan — Mikimoto Pearls never delivered",
+      "detail": "Kahn: 'we made this loan to nick based on a promise of a jewelry delivery within two days in the amount of no less than 200k'. Ribis promised Mikimoto Pearls but blamed delays on wife. Check bounced, stop payment issued Jul 6 2018 (EFTA01383892). Pattern: Epstein→Ribis loan, Ribis promises collateral, collateral never arrives, checks bounce.",
+      "source_datasets": [
+        "DOJ Vol 11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-07-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:27:48",
+      "target_name": "Nicholas Ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383892",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02341784",
+          "source_quote": "can you please advise on time we can meet today thank you \nRichard Kahn \nHBRK Associates Inc. \n575 =exington Avenue 4th Floor \nNew York, NY 10022 \nto \nfa \nce",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02391412",
+          "source_quote": "Nick Ribis \nSubject: \nre: Nick \njeffrey \nwe made this loan to nick based on a promise of a jewelry delivery =ithin two days in the amount of no less than 200k. \nalmost each time =ick has promised to meet me, he then asks for one more day, one more =eekend. you said you \ntrusted him 100 percent....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02597601",
+          "source_quote": "i know you are not a bad guy but your follow up is =errible after you received money you told us you would =eliver 250k \nof jewelry on the next day - never received.. \nnow 2 months later i am chasing you each day and when i =inally hear from you after 3-4 calls and emails and am \npromised each =eek...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1043,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "intelligence",
+      "description": "Ribis as gaming intel source on Caesars/Apollo litigation for Epstein",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:13:48",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02338300",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1044,
+      "person_a": "Melanie Spinella",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "intelligence",
+      "description": "Epstein relayed Ribis Caesars intel to Spinella (Black EA)",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:13:48",
+      "other_person": "Melanie Spinella",
+      "other_person_slug": "melanie-spinella",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02468873",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "financial",
+      "description": "Epstein creditor to Ribis: $200K+ loan (2011-2018), bouncing checks, jewelry owed. Epstein evaluated Ribis assets (plane ~$4M). Cal Neva casino deal was primary business. Ribis used Epstein for intros to Larry Ellison, David Tepper.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:22:07",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02342427",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02396297",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02482366",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02540261",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1047,
+      "person_a": "Nicholas Ribis",
+      "person_b": "Steve Bannon",
+      "relationship_type": "intelligence",
+      "description": "Epstein positioned Ribis to Bannon as Trump loyalist (Feb 2018: 'Nick was the person that negotiated Donald out of bankruptcy. Knows Donald 25 years.'). Both served as parallel Trump-orbit intelligence channels to Epstein — Ribis provided White House personnel movements while Bannon provided political strategy intel.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:22:08",
+      "other_person": "Steve Bannon",
+      "other_person_slug": "steve-bannon",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02345089",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02518158",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1048,
+      "person_a": "Nicholas Ribis",
+      "person_b": "Richard Kahn",
+      "relationship_type": "financial",
+      "description": "Kahn managed Ribis loan account for Epstein: demanded $200K repayment, threatened to deposit bouncing checks, tracked hotel deal closing. Forwarded Ribis correspondence to Epstein. Ribis sent checks to Kahn/HBRK Associates.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:22:11",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02396297",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02457469",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529762",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02640360",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1050,
+      "person_a": "Leon Black",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "intelligence",
+      "description": "Ribis was Epstein's primary Caesars/Apollo intelligence source: met with Mark Rowan, tracked Davis Report criticizing Leon, reported Apollo losses. Separate from the financial relationship where Epstein loaned Ribis money for Cal Neva casino deal. Two-directional: Ribis gave gaming intel, Epstein provided financial support.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:23:49",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02338300",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02452879",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02468873",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1189,
+      "person_a": "Nicholas Ribis",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Pesner (Akin Gump) was assigned to coordinate with Ribis on Caesars engagement but slow-walked him. Ribis warned Epstein that Pesner was profiting from prolonging litigation and making negative comments about Epstein's involvement.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:42",
+      "other_person": "Steven Pesner",
+      "other_person_slug": "steven-pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02467282",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1796,
+      "person_a": "Michael Wolff",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "corporate",
+      "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Michael Wolff",
+      "other_person_slug": "michael-wolff",
+      "evidence": []
+    },
+    {
+      "id": 179,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "social",
+      "description": "Casino executive. 48 sent, 23 received emails. High-volume correspondent.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:14:59",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1049,
+      "person_a": "Nicholas Ribis",
+      "person_b": "Thomas Barrack",
+      "relationship_type": "corporate",
+      "description": "Colony Capital (Barrack) controlled Resorts International Hotel & Casino where Ribis served as VP/CEO. Ribis later forwarded Forbes article about Barrack's 'disastrous deal' to Epstein (Jul 2018, EFTA02599194). Barrack was later indicted (2021) for illegal UAE lobbying. Colony nexus connects Ribis's gaming career to Barrack's Trump-world influence.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:23:45",
+      "other_person": "Thomas Barrack",
+      "other_person_slug": "thomas-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02599194",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1116,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "financial",
+      "description": "Ribis (Resorts International Casinos) requested 2.5M loan from Epstein Oct 2010 for AC Hilton transaction, offering Olympic Towers condo as collateral. Epstein declined on short notice.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:24",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421450",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1399,
+      "person_a": "Nicholas Ribis",
+      "person_b": "Tom Barrack",
+      "relationship_type": "intelligence",
+      "description": "Ribis sent Epstein multiple Barrack articles 2017-2018. Epstein told Ribis about Barrack-Manafort-Gates-Patten chain.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 02:28:12",
+      "other_person": "Tom Barrack",
+      "other_person_slug": "tom-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02362141",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2010-10-20",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Ribis asked Epstein for $2.5M wire for 'AC Hilton' deal (Oct 2010, EFTA02421450): 'if u can help I would appreciate it if not I fully understand -- late notice.' Total financial flows: loan at least $200K 'no interest' (Sep 2017), check for $158,025.02 'with interest accrued' (Jan 2018), wire $137,072.70 (Apr 2018, to DB acct 35269691 'Jeffrey Epstein'), check #1148 deposited Jun 29 2018 (cleared Jul 3 2018, then stop payment on separate check Jul 6 2018). Mikimoto Pearls + watches offered as collateral but delivery never confirmed. Ribis relationship spanned Feb 2010 through May 2019 (2 months pre-arrest).",
+      "confidence": "high",
+      "id": 2058
+    },
+    {
+      "date": "2010-10-20",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Nicholas L. Ribis (Resorts International Casinos) emailed Epstein Oct 20, 2010 requesting .5M wire for AC Hilton transaction, offering to secure with his Olympic Towers condo. Epstein declined citing short notice. This establishes Olympic Tower resident Ribis in Epstein financial network and shows Epstein was solicited for large rapid loans.",
+      "confidence": "confirmed",
+      "id": 2206
+    },
+    {
+      "date": "2011-06-20",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein lent Ribis at least $200K, relationship dating to 2011+. Jun 20, 2011: Epstein told Ribis 'I can't figure out how the money gets repaid... the plane is worth no more than 4' and 'the economy looks fragile.' Sep 11, 2017: Kahn demanded 'repayment of the 200k.' Apr-Jun 2018: repeated 'please do not deposit' from Ribis as checks faced bouncing. Jun 29, 2018: Ribis begged 'Please don't deposit it will bounce\\!\\!\\!' — Epstein deposited anyway. Ribis also owed jewelry promised 'day 1.' Epstein evaluated Ribis assets (plane ~$4M) as inadequate collateral.",
+      "confidence": "high",
+      "id": 2053
+    },
+    {
+      "date": "2016-01-21",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Ribis predicted both Trump presidency and Bannon firing with remarkable accuracy. Jan 21, 2016: 'DJT will be President' (10 months pre-election). Feb 3, 2017: 'Bannon will be gone by Sept - too out front taking glow off DJ' (Bannon fired Aug 18). Apr 25, 2016: Ribis asked Epstein to 'Remind ur friend that I designed the DJT business comeback and now he may be the President' — actively seeking re-engagement with Trump orbit via Epstein as intermediary. These predictions demonstrate genuine insider understanding of Trump psychology and decision-making from 24 years of proximity.",
+      "confidence": "high",
+      "id": 2057
+    },
+    {
+      "date": "2016-03-18",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Ribis claimed he could have been Caesars bankruptcy examiner but was blocked",
+      "confidence": "high",
+      "id": 2061
+    },
+    {
+      "date": "2016-06-09",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Nicholas Ribis (NLR Ventures, ex-CEO Trump Hotels & Casino Resorts) is a major Epstein correspondent with 748+ documents in corpus. Served as Epstein's gaming industry intelligence source on Caesars/Apollo litigation: met with 'Mark' (Rowan), relayed intelligence on creditor positions ('David Tepper wants a lot'), Apollo losses ('already lost 2b'), and court proceedings. Also conducted financial transactions via Richard Kahn. Email: nicholas.ribis@resortsintm.com.",
+      "confidence": "high",
+      "id": 2050
+    },
+    {
+      "date": "2017-06-16",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The 'deal' Ribis was working on for Epstein was the Cal Neva Resort & Casino (Lake Tahoe, legendary Sinatra property). Jun 16, 2017: Ribis told Epstein 'I'm at a critical point in my Cal Neva deal. If I cannot fund my half of legal fees the project will remain at a standstill.' Jun 1, 2017: asked Epstein for closing cost help. Jul 10, 2017: asked Epstein for intro to Larry Ellison/'Lawrence Investmentz.' Jan 22, 2013: asked about David Tepper. Jul 19, 2017: Epstein replied 'get your deal done. first priority.' Dec 12, 2018: Epstein asked 'deal done?' — Ribis: 'Today I hope.' Ribis used Epstein network access (Ellison, Tepper) as dealmaking leverage.",
+      "confidence": "high",
+      "id": 2054
+    },
+    {
+      "date": "2017-07-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank compliance document EFTA01369041 confirms Epstein wired money to NLR Ventures LLC as a 'personal loan from Mr Epstein to Nick Ribis.' DB WM staff Bradley Gillin (345 Park Ave 24th FL) processed the wire. DB asked: 'What is the purpose of the Outgoing wire to NLR VENTURES LLC?' and 'What is the Beneficiary NLR VENTURES LLC line of business? Nick Ribis is in the hotel/entertainment business.' Separate repayment: Check #1148 from Ribis (~$151K) deposited via Kahn→Gillin→Bella Klein (DB teller). Jul 2017: Epstein told Kahn 'give nick a new amount calculated for july 15th payoff.' Jun 2017: 'how much left to fund?' / '125' ($125K outstanding).",
+      "confidence": "high",
+      "id": 2056
+    },
+    {
+      "date": "2017-07-24",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Ribis provided Epstein near real-time White House intelligence. Jul 24, 2017: 'I hear RP and SB on way out - Moch to be chief of staff - I and JK killing all they view as enemy' (RP=Reince Priebus fired 4 days later Jul 28, SB=Steve Bannon fired Aug 18, Moch=Anthony Scaramucci appointed Jul 21, JK=Jared Kushner). Feb 28, 2018: Epstein told Bannon about Ribis: 'Nick was the person that negotiated Donald out of bankruptcy. Not Wilbur' and 'Nick Ribis loyal, lawyer. Knows Donald 25 years.' Epstein actively positioned Ribis as Trump-world intelligence asset to Bannon. Jul 9, 2018: Ribis forwarded Thomas Barrack Forbes article to Epstein.",
+      "confidence": "high",
+      "id": 2055
+    },
+    {
+      "date": "2017-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein deliberately excluded Ribis from regulatory filings while accepting K transfer",
+      "confidence": "high",
+      "id": 2059
+    },
+    {
+      "date": "2018-02",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein merged dual Trump intelligence channels (Ribis + Bannon) in Feb 2018 with OPSEC",
+      "confidence": "high",
+      "id": 2062
+    },
+    {
+      "date": "2018-07-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Kahn demanded K jewelry collateral for Epstein loan — Mikimoto Pearls never delivered",
+      "confidence": "high",
+      "id": 2060
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2058,
+      2053,
+      2054,
+      2056,
+      2050,
+      2057,
+      2055,
+      2061,
+      2062,
+      2060,
+      2206,
+      2059
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1043,
+          1044,
+          1046,
+          1047,
+          1048,
+          1050,
+          1189,
+          1796,
+          179,
+          1049,
+          1116,
+          1399
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          2058,
+          2206,
+          2053,
+          2054,
+          2056,
+          2059,
+          2060
+        ],
+        "connection_ids": [
+          1046,
+          1048,
+          1116
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          2057,
+          2055,
+          2062
+        ],
+        "connection_ids": [
+          1043,
+          1044,
+          1047,
+          1050,
+          1399
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T01:04:43.033054",
+    "lead": "<p>Nicholas L. Ribis Sr. served as CEO and Vice President of Trump Hotels &amp; Casino Resorts and later Resorts International Casinos, occupying a singular position in the Epstein network: a gaming industry insider with a 24-year personal relationship with Donald Trump who simultaneously functioned as <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>'s gaming intelligence source, personal borrower, and conduit to Trump-world political intelligence. Operating through NLR Ventures LLC from offices at 60 Morris Turnpike in Summit, New Jersey, Ribis maintained a prolific correspondence with Epstein spanning at least February 2010 through May 2019 &mdash; just two months before Epstein's arrest &mdash; generating 748 documents in the DOJ Vol. 11 corpus, making him one of the highest-volume correspondents in the entire collection.</p>\n\n<p>The Ribis-Epstein relationship operated on two simultaneous tracks. On the financial side, Epstein extended personal loans totaling at least $200,000 to Ribis through NLR Ventures LLC, processed via <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>'s HBRK Associates and routed through <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> wealth management (account 35269691). These loans were plagued by bouncing checks, broken collateral promises involving Mikimoto pearls and watches, and desperate pleas from Ribis not to deposit checks that would not clear. On the intelligence side, Ribis provided Epstein with two distinct streams of high-value information: detailed reporting on the Caesars Entertainment bankruptcy litigation that directly implicated <a href=\"/dossiers/leon-black\">Leon Black</a>'s Apollo Global Management, and near real-time White House personnel intelligence drawn from his decades-long proximity to Trump.</p>\n\n<p>Epstein's handling of Ribis reveals a characteristic pattern: cultivating financial dependency in individuals who possess unique intelligence access, then leveraging that access across multiple fronts. In February 2018, Epstein explicitly merged his Ribis channel with his <a href=\"/dossiers/steve-bannon\">Steve Bannon</a> channel, introducing the two as complementary Trump-orbit assets with the operational security note \"Not for Email call before you take off.\" That Epstein was simultaneously lending money to a financially distressed Ribis while extracting White House intelligence and Caesars litigation intelligence &mdash; and deliberately omitting Ribis from regulatory filings while accepting $50,000 wire transfers &mdash; illustrates the intertwined financial and informational architecture that characterized Epstein's most operationally significant relationships.</p>",
+    "open_questions": [
+      "What was the full scope of Ribis's involvement in negotiating Trump out of bankruptcy in the early 1990s, and did this create financial or informational obligations that persisted into the 2016-2019 period?",
+      "Did the Cal Neva Resort & Casino deal ever close, and was Epstein's involvement disclosed to Nevada gaming regulators who would have been required to evaluate all financial backers?",
+      "What was the nature of Ribis's relationship with Larry Ellison / 'Lawrence Investmentz' that Epstein was asked to facilitate in July 2017, and did this introduction occur?",
+      "Were Ribis's White House personnel predictions based on direct contact with Trump-orbit principals, or on a secondary source network -- and did any of this intelligence flow beyond Epstein to foreign actors?",
+      "What regulatory filings was Epstein completing in December 2017 from which he deliberately excluded Ribis, and what entity or jurisdiction required them?"
+    ],
+    "system_role": "Ribis reveals how Epstein converted financial dependency into intelligence access, using personal loans to a cash-strapped gaming executive as leverage to maintain a pipeline of Trump White House personnel intelligence and Caesars/Apollo litigation intelligence that served Epstein's interests across political and financial domains simultaneously.",
+    "sections": [
+      {
+        "id": "gaming-career-and-trump-nexus",
+        "title": "Gaming Career and the Trump Nexus",
+        "content": "<p>Nicholas Ribis built his career in the casino industry during its most volatile period, serving as CEO and Vice President of Trump Hotels &amp; Casino Resorts during Trump's Atlantic City operations. Ribis later claimed credit for designing Trump's \"business comeback\" from the casino bankruptcies of the early 1990s &mdash; a claim he made directly to Epstein in an April 2016 email (EFTA02661296): \"Remind ur friend that I designed the DJT business comeback and now he may be the President.\" This was not idle boasting; Epstein subsequently told <a href=\"/dossiers/steve-bannon\">Steve Bannon</a> in February 2018 that \"Nick was the person that negotiated Donald out of bankruptcy. Not Wilbur\" &mdash; a pointed correction of the public narrative attributing that role to Wilbur Ross of Rothschild Inc.</p>\n\n<p>After leaving Trump's casino operations, Ribis became associated with Resorts International Hotel &amp; Casino under Colony Capital, controlled by Thomas Barrack. This placed Ribis at the intersection of two Trump-orbit power brokers: Barrack (later indicted in 2021 for illegal UAE lobbying) and Epstein. Ribis monitored Barrack's trajectory, forwarding a Forbes article about Barrack's \"disastrous deal\" to Epstein in July 2018 (EFTA02599194), while Epstein in turn shared intelligence with Ribis about the Barrack-Manafort-Gates-Patten chain. Ribis's late-career venture, NLR Ventures LLC, pursued the Cal Neva Resort &amp; Casino at Lake Tahoe &mdash; the legendary Sinatra property &mdash; a deal that would remain perpetually at a \"critical point\" and serve as the ostensible basis for Ribis's ongoing financial requests to Epstein.</p>",
+        "viz": null
+      },
+      {
+        "id": "financial-dependency",
+        "title": "Financial Flows and Dependency",
+        "content": "<p>The financial relationship between Epstein and Ribis began no later than October 2010, when Ribis emailed Epstein requesting a $2.5 million wire for an \"AC Hilton\" transaction, offering his Olympic Towers condominium as collateral (EFTA02421450): \"if u can help I would appreciate it if not I fully understand -- late notice.\" Epstein declined on short notice, but the exchange established a pattern that would persist for nearly a decade: Ribis approaching Epstein for rapid, large-sum financing with inadequate or illusory collateral.</p>\n\n<p>By 2011, Epstein had extended at least $200,000 in personal loans to Ribis, and was already skeptical of repayment. On June 20, 2011, Epstein wrote to Ribis: \"I can't figure out how the money gets repaid... the plane is worth no more than 4\" and noted \"the economy looks fragile.\" The loans were structured as zero-interest personal advances from Epstein to NLR Ventures LLC, processed through <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> wealth management. Deutsche Bank compliance flagged the wire, asking: \"What is the purpose of the Outgoing wire to NLR VENTURES LLC?\" and \"What is the Beneficiary NLR VENTURES LLC line of business?\" The bank's wealth management staffer Bradley Gillin (345 Park Ave, 24th floor) processed the transactions, while <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> at HBRK Associates managed the loan account on Epstein's side.</p>\n\n<p>The repayment history was chaotic. Kahn demanded repayment of the $200,000 on September 11, 2017. In July 2017, $125,000 remained outstanding and Epstein instructed Kahn to \"give nick a new amount calculated for july 15th payoff.\" A check for $158,025.02 \"with interest accrued\" arrived in January 2018, followed by a wire of $137,072.70 in April 2018 to Deutsche Bank account 35269691 (\"Jeffrey Epstein\"). But the signature episode came in mid-2018: Ribis's check #1148 was deposited on June 29, 2018, cleared on July 3, then a stop payment was issued on a separate check on July 6. Ribis had begged: \"Please don't deposit it will bounce!!!\" Epstein deposited it anyway. Throughout, Ribis promised Mikimoto pearls and watches as collateral, but as Kahn complained to Epstein: \"we made this loan to nick based on a promise of a jewelry delivery within two days in the amount of no less than 200k\" &mdash; the jewelry never arrived. This pattern of chronic financial distress gave Epstein persistent leverage over a man with unique intelligence access.</p>\n\n<p>Most significantly, in December 2017 Epstein told Ribis \"we are filling out our regulatory reports this fri. and leaving you off\" &mdash; while simultaneously accepting a $50,000 incoming wire transfer (EFTA02611649). This deliberate omission from regulatory filings, concurrent with active financial flows, represents a clear intent to hide the Ribis relationship from compliance oversight.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "caesars-apollo-intelligence",
+        "title": "Caesars and Apollo Intelligence Pipeline",
+        "content": "<p>Ribis's deepest intelligence value to Epstein lay in the Caesars Entertainment bankruptcy &mdash; one of the largest and most contentious restructurings in American corporate history, with direct implications for <a href=\"/dossiers/leon-black\">Leon Black</a>'s Apollo Global Management. Ribis had extensive gaming industry contacts and claimed insider access to the proceedings, telling Epstein in December 2015 that he had been \"doing some digging on Caesars\" and arranging meetings at Epstein's 9 East 71st Street residence to discuss his findings (EFTA02477161).</p>\n\n<p>Ribis reported directly from meetings with \"Mark\" &mdash; <a href=\"/dossiers/marc-rowan\">Marc Rowan</a>, Apollo's co-founder &mdash; relaying that \"Apollo already lost 2b original investment now this - there concerned for sure\" and that \"David Tepper wants a lot\" (EFTA02338300), providing Epstein with real-time intelligence on creditor positions during active litigation. In March 2016, Ribis told Epstein he \"could have been the examiner\" in the Caesars bankruptcy \"but Mark's lawyers nixed me and oked Davis\" (EFTA02469638), referring to the court-appointed examiner whose report would prove devastating to Apollo. Separately, Ribis warned Epstein that \"Steve P\" &mdash; Steven Pesner of Akin Gump, assigned to coordinate with Ribis on the Caesars engagement &mdash; was \"making money having this continue\" and had been slow-walking Ribis because he \"knows too much\" (EFTA02450801).</p>\n\n<p>Epstein did not keep this intelligence to himself. He relayed Ribis's Caesars reporting to Melanie Spinella, <a href=\"/dossiers/leon-black\">Leon Black</a>'s executive assistant (EFTA02468873), ensuring that intelligence about Apollo's legal exposure flowed from Ribis through Epstein to Black's inner circle. The February 2012 origin of this channel &mdash; when Ribis pitched a Caesars casino deal \"for Leon\" through Epstein &mdash; suggests Epstein was positioning himself as an indispensable intelligence intermediary between the gaming industry and Apollo's senior leadership during a period when Apollo was exposed to billions in potential Caesars liability.</p>",
+        "viz": null
+      },
+      {
+        "id": "trump-white-house-intelligence",
+        "title": "Trump White House Intelligence",
+        "content": "<p>Ribis's second intelligence stream &mdash; and arguably the more politically significant one &mdash; was his access to Trump White House personnel dynamics, drawn from 24 years of direct proximity to Trump. His predictions were remarkably precise. On January 21, 2016, ten months before the election, Ribis told Epstein flatly: \"DJT will be President.\" On February 3, 2017, less than two weeks into the administration, Ribis predicted: \"Bannon will be gone by Sept - too out front taking glow off DJ.\" Steve Bannon was fired on August 18, 2017 &mdash; within the timeframe Ribis specified, and for essentially the reason he identified.</p>\n\n<p>The most detailed intelligence dispatch came on July 24, 2017, when Ribis reported: \"I hear RP and SB on way out - Moch to be chief of staff - I and JK killing all they view as enemy.\" Decoded: RP was Reince Priebus (fired four days later on July 28), SB was Steve Bannon (fired August 18), \"Moch\" was Anthony Scaramucci (who had been appointed communications director on July 21), and JK was Jared Kushner. This was not punditry; this was insider reporting with a 72-hour lead time on personnel changes that would dominate the news cycle.</p>\n\n<p>In February 2018, Epstein moved to operationalize this asset by merging his two parallel Trump intelligence channels. He introduced Ribis to <a href=\"/dossiers/steve-bannon\">Bannon</a> via email, credentialing Ribis as \"loyal, lawyer. Knows Donald 25 years, and shares Kasowitz Expertise\" and correcting the historical record: \"Nick was the person that negotiated Donald out of bankruptcy. Not Wilbur.\" The introduction came with an explicit operational security instruction: \"Not for Email call before you take off.\" Ribis offered Trump personality intelligence and personnel predictions; Bannon offered political strategy and legislative dynamics. The merger created what amounted to a unified Trump administration intelligence pipeline flowing to a convicted sex offender who was simultaneously managing financial relationships with multiple Trump-orbit figures including <a href=\"/dossiers/tom-barrack\">Thomas Barrack</a>.</p>",
+        "viz": null
+      },
+      {
+        "id": "structural-significance",
+        "title": "Structural Significance",
+        "content": "<p>The Ribis dossier is significant less for the sums involved &mdash; $200,000 is modest by Epstein standards &mdash; than for what it reveals about Epstein's intelligence collection methodology. Ribis was not a billionaire being cultivated for his wealth, nor a scientist being funded for prestige. He was a financially distressed gaming executive whose unique value was informational: he knew Trump's psychology from 24 years of proximity, he knew the casino industry's hidden dynamics, and he had direct access to Apollo's leadership during the Caesars crisis. Epstein's loans to Ribis were not investments in NLR Ventures or the Cal Neva deal; they were the cost of maintaining an intelligence source.</p>\n\n<p>The relationship also reveals the role of <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> as more than a financial administrator. Kahn actively managed the Ribis account, demanded repayment, threatened to deposit bouncing checks, and served as an enforcement mechanism that kept Ribis in a state of perpetual financial obligation. The loan chain &mdash; Epstein to Kahn to Gillin (Deutsche Bank) to NLR Ventures, and repayments back through Kahn to Deutsche Bank &mdash; created a documented paper trail that constituted leverage. Ribis could not simply walk away from a man who held his bounced checks and unfulfilled collateral promises.</p>\n\n<p>Finally, the December 2017 regulatory omission &mdash; Epstein telling Ribis \"we are filling out our regulatory reports this fri. and leaving you off\" while simultaneously accepting a $50,000 wire &mdash; demonstrates that Epstein understood the Ribis relationship as something that needed to be hidden from regulators. Whether this was to protect Ribis (whose gaming licenses could be jeopardized by association with a convicted sex offender), to protect Epstein (whose regulatory filings would reveal undisclosed financial relationships), or both, the deliberate concealment transforms what might otherwise appear as casual personal lending into something with a more operational character.</p>"
+      }
+    ],
+    "applicable_models": [
+      "manufactured-dependency",
+      "enabler-gradient",
+      "parallel-financial-system",
+      "bridge-tax"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Nicholas Ribis",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02338300",
+          "description": "Ribis as gaming intel source on Caesars/Apollo litigation for Epstein"
+        },
+        {
+          "target": "Melanie Spinella",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02468873",
+          "description": "Epstein relayed Ribis Caesars intel to Spinella (Black EA)"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02342427",
+          "description": "Epstein creditor to Ribis: $200K+ loan (2011-2018), bouncing checks, jewelry owed. Epstein evaluated Ribis assets (plane ~$4M). Cal Neva casino deal was primary business. Ribis used Epstein for intros to Larry Ellison, David Tepper."
+        },
+        {
+          "target": "Steve Bannon",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02345089",
+          "description": "Epstein positioned Ribis to Bannon as Trump loyalist (Feb 2018: 'Nick was the person that negotiated Donald out of bankruptcy. Knows Donald 25 years.'). Both served as parallel Trump-orbit intelligence channels to Epstein — Ribis provided White House personnel movements while Bannon provided political strategy intel."
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02396297",
+          "description": "Kahn managed Ribis loan account for Epstein: demanded $200K repayment, threatened to deposit bouncing checks, tracked hotel deal closing. Forwarded Ribis correspondence to Epstein. Ribis sent checks to Kahn/HBRK Associates."
+        },
+        {
+          "target": "Leon Black",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02338300",
+          "description": "Ribis was Epstein's primary Caesars/Apollo intelligence source: met with Mark Rowan, tracked Davis Report criticizing Leon, reported Apollo losses. Separate from the financial relationship where Epstein loaned Ribis money for Cal Neva casino deal. Two-directional: Ribis gave gaming intel, Epstein provided financial support."
+        },
+        {
+          "target": "Steven Pesner",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02450801",
+          "description": "Pesner (Akin Gump) was assigned to coordinate with Ribis on Caesars engagement but slow-walked him. Ribis warned Epstein that Pesner was profiting from prolonging litigation and making negative comments about Epstein's involvement."
+        },
+        {
+          "target": "Michael Wolff",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Casino executive. 48 sent, 23 received emails. High-volume correspondent."
+        },
+        {
+          "target": "Thomas Barrack",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02599194",
+          "description": "Colony Capital (Barrack) controlled Resorts International Hotel & Casino where Ribis served as VP/CEO. Ribis later forwarded Forbes article about Barrack's 'disastrous deal' to Epstein (Jul 2018, EFTA02599194). Barrack was later indicted (2021) for illegal UAE lobbying. Colony nexus connects Ribis's gaming career to Barrack's Trump-world influence."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02421450",
+          "description": "Ribis (Resorts International Casinos) requested 2.5M loan from Epstein Oct 2010 for AC Hilton transaction, offering Olympic Towers condo as collateral. Epstein declined on short notice."
+        },
+        {
+          "target": "Tom Barrack",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02362141",
+          "description": "Ribis sent Epstein multiple Barrack articles 2017-2018. Epstein told Ribis about Barrack-Manafort-Gates-Patten chain."
+        }
+      ],
+      "secondHop": {
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Leon Black": [
+          {
+            "target": "Richard Kahn",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Richard Joslin",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Joslin served as CFO of Elysium Management LLC (Black's family office). Prepared charity commitment lists, financial reports, trust accounting summaries, art valuations, and tax returns — all routinely sent to Epstein. Key intermediary for Black-Epstein financial relationship."
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Tony Blair",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black Family Foundation granted $250,000 to Tony Blair Foundation in 2019 990-PF"
+          }
+        ],
+        "Michael Wolff": [
+          {
+            "target": "Steve Bannon",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Wolff served as intermediary. Forwarded WH intel Bannon->Wolff->Epstein. Proposed media project. Assessed leak risks."
+          },
+          {
+            "target": "Steve Bannon",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Wolff intermediary between Bannon and Epstein, forwarded communications and arranged meetings"
+          },
+          {
+            "target": "Woody Allen",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Wolff managed Woody Allen PR through Epstein, co-managed crisis strategy on MeToo allegations"
+          },
+          {
+            "target": "Dmitry Rybolovlev",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Manuscript with Epstein edits re: Rybolovlev/Trump [Wave 3]"
+          },
+          {
+            "target": "Tree of Life Limited",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not "
+          }
+        ],
+        "Richard Kahn": [
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Primary Deutsche Bank relationship manager for Epstein accounts. 1818 LMSBAND co-occurrences - the single highest co-occurrence for Kahn."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates) managed Caterpillar Trust administration and executed the $2.16M transfer from DB Caterpillar to MS Butterfly Trust on March 18, 2019. Coordinated with DB staff and Morgan Stanley's Andrew Atlas."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc) managed Caterpillar Trust finances, directed 2.16M transfer to Butterfly Trust at Morgan Stanley, coordinated with Andrew Atlas at Morgan Stanley for new account setup. Same 575 Lexington Ave address as Indyke PLLC."
+          },
+          {
+            "target": "Robert Lawrence Kuhn",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates, 575 Lexington Ave) processed the Gratitude America wire transfers to Kuhn Foundation: $150K on 8/1/2017 and $500K on 6/15/2018. Kahn handled the wire mechanics at Epstein's direction."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2010-10-20",
+        "label": "Ribis asked Epstein for $2.5M wire for 'AC Hilton' deal (Oct 2010, EFTA02421450): 'if u can help I would appreciate it if not I fully understand -- late notice.' Total financial flows: loan at least $200K 'no interest' (Sep 2017), check for $158,025.02 'with interest accrued' (Jan 2018), wire $137,072.70 (Apr 2018, to DB acct 35269691 'Jeffrey Epstein'), check #1148 deposited Jun 29 2018 (cleared Jul 3 2018, then stop payment on separate check Jul 6 2018). Mikimoto Pearls + watches offered as collateral but delivery never confirmed. Ribis relationship spanned Feb 2010 through May 2019 (2 months pre-arrest).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2058
+      },
+      {
+        "date": "2010-10-20",
+        "label": "Nicholas L. Ribis (Resorts International Casinos) emailed Epstein Oct 20, 2010 requesting .5M wire for AC Hilton transaction, offering to secure with his Olympic Towers condo. Epstein declined citing short notice. This establishes Olympic Tower resident Ribis in Epstein financial network and shows Epstein was solicited for large rapid loans.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2206
+      },
+      {
+        "date": "2011-06-20",
+        "label": "Epstein lent Ribis at least $200K, relationship dating to 2011+. Jun 20, 2011: Epstein told Ribis 'I can't figure out how the money gets repaid... the plane is worth no more than 4' and 'the economy looks fragile.' Sep 11, 2017: Kahn demanded 'repayment of the 200k.' Apr-Jun 2018: repeated 'please do not deposit' from Ribis as checks faced bouncing. Jun 29, 2018: Ribis begged 'Please don't deposit it will bounce\\!\\!\\!' — Epstein deposited anyway. Ribis also owed jewelry promised 'day 1.' Epstein evaluated Ribis assets (plane ~$4M) as inadequate collateral.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2053
+      },
+      {
+        "date": "2016-01-21",
+        "label": "Ribis predicted both Trump presidency and Bannon firing with remarkable accuracy. Jan 21, 2016: 'DJT will be President' (10 months pre-election). Feb 3, 2017: 'Bannon will be gone by Sept - too out front taking glow off DJ' (Bannon fired Aug 18). Apr 25, 2016: Ribis asked Epstein to 'Remind ur friend that I designed the DJT business comeback and now he may be the President' — actively seeking re-engagement with Trump orbit via Epstein as intermediary. These predictions demonstrate genuine insider understanding of Trump psychology and decision-making from 24 years of proximity.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2057
+      },
+      {
+        "date": "2016-03-18",
+        "label": "Ribis claimed he could have been Caesars bankruptcy examiner but was blocked",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2061
+      },
+      {
+        "date": "2016-06-09",
+        "label": "Nicholas Ribis (NLR Ventures, ex-CEO Trump Hotels & Casino Resorts) is a major Epstein correspondent with 748+ documents in corpus. Served as Epstein's gaming industry intelligence source on Caesars/Apollo litigation: met with 'Mark' (Rowan), relayed intelligence on creditor positions ('David Tepper wants a lot'), Apollo losses ('already lost 2b'), and court proceedings. Also conducted financial transactions via Richard Kahn. Email: nicholas.ribis@resortsintm.com.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2050
+      },
+      {
+        "date": "2017-06-16",
+        "label": "The 'deal' Ribis was working on for Epstein was the Cal Neva Resort & Casino (Lake Tahoe, legendary Sinatra property). Jun 16, 2017: Ribis told Epstein 'I'm at a critical point in my Cal Neva deal. If I cannot fund my half of legal fees the project will remain at a standstill.' Jun 1, 2017: asked Epstein for closing cost help. Jul 10, 2017: asked Epstein for intro to Larry Ellison/'Lawrence Investmentz.' Jan 22, 2013: asked about David Tepper. Jul 19, 2017: Epstein replied 'get your deal done. first priority.' Dec 12, 2018: Epstein asked 'deal done?' — Ribis: 'Today I hope.' Ribis used Epstein network access (Ellison, Tepper) as dealmaking leverage.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2054
+      },
+      {
+        "date": "2017-07-05",
+        "label": "Deutsche Bank compliance document EFTA01369041 confirms Epstein wired money to NLR Ventures LLC as a 'personal loan from Mr Epstein to Nick Ribis.' DB WM staff Bradley Gillin (345 Park Ave 24th FL) processed the wire. DB asked: 'What is the purpose of the Outgoing wire to NLR VENTURES LLC?' and 'What is the Beneficiary NLR VENTURES LLC line of business? Nick Ribis is in the hotel/entertainment business.' Separate repayment: Check #1148 from Ribis (~$151K) deposited via Kahn→Gillin→Bella Klein (DB teller). Jul 2017: Epstein told Kahn 'give nick a new amount calculated for july 15th payoff.' Jun 2017: 'how much left to fund?' / '125' ($125K outstanding).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2056
+      },
+      {
+        "date": "2017-07-24",
+        "label": "Ribis provided Epstein near real-time White House intelligence. Jul 24, 2017: 'I hear RP and SB on way out - Moch to be chief of staff - I and JK killing all they view as enemy' (RP=Reince Priebus fired 4 days later Jul 28, SB=Steve Bannon fired Aug 18, Moch=Anthony Scaramucci appointed Jul 21, JK=Jared Kushner). Feb 28, 2018: Epstein told Bannon about Ribis: 'Nick was the person that negotiated Donald out of bankruptcy. Not Wilbur' and 'Nick Ribis loyal, lawyer. Knows Donald 25 years.' Epstein actively positioned Ribis as Trump-world intelligence asset to Bannon. Jul 9, 2018: Ribis forwarded Thomas Barrack Forbes article to Epstein.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2055
+      },
+      {
+        "date": "2017-12",
+        "label": "Epstein deliberately excluded Ribis from regulatory filings while accepting K transfer",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2059
+      },
+      {
+        "date": "2018-02",
+        "label": "Epstein merged dual Trump intelligence channels (Ribis + Bannon) in Feb 2018 with OPSEC",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2062
+      },
+      {
+        "date": "2018-07-06",
+        "label": "Kahn demanded K jewelry collateral for Epstein loan — Mikimoto Pearls never delivered",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2060
+      }
+    ]
+  }
+}

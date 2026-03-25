@@ -1,0 +1,59 @@
+{
+  "links": [
+    {
+      "source": "Meridian Port Authority",
+      "target": "Harbor Ledger Holdings LLC",
+      "value": 1850000,
+      "tx_count": 2,
+      "first_date": "2025-01-06",
+      "last_date": "2025-01-21"
+    },
+    {
+      "source": "Harbor Ledger Holdings LLC",
+      "target": "Estuary Advisory Ltd",
+      "value": 275000,
+      "tx_count": 1,
+      "first_date": "2025-02-02",
+      "last_date": "2025-02-02"
+    }
+  ],
+  "stats": {
+    "total_nodes": 3,
+    "total_links": 2,
+    "total_value": 2125000
+  },
+  "top_transactions": [
+    {
+      "tx_date": "2025-01-21",
+      "amount": 1500000,
+      "sender": "Meridian Port Authority",
+      "receiver": "Harbor Ledger Holdings LLC",
+      "reference": "implementation milestone one",
+      "efta_id": null
+    },
+    {
+      "tx_date": "2025-02-02",
+      "amount": 275000,
+      "sender": "Harbor Ledger Holdings LLC",
+      "receiver": "Estuary Advisory Ltd",
+      "reference": "coordination retainer",
+      "efta_id": null
+    }
+  ],
+  "balances": {
+    "Harbor Ledger Holdings LLC": [
+      {
+        "date": "2025-01-06",
+        "balance": 350000
+      },
+      {
+        "date": "2025-01-21",
+        "balance": 1850000
+      },
+      {
+        "date": "2025-02-02",
+        "balance": 1575000
+      }
+    ]
+  }
+}

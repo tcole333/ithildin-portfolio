@@ -1,0 +1,239 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SankeyDiagram from '../components/SankeyDiagram';
+import FinancialWorkbench from '../components/FinancialWorkbench';
+import { readFileSync, existsSync } from 'fs';
+import { resolve } from 'path';
+import { contentPath } from '../lib/projectPaths';
+
+const contentDir = contentPath('financials');
+
+type ModelFinding = {
+  id: number;
+  target_name?: string;
+  summary: string;
+  confidence?: string;
+  date_of_event?: string | null;
+};
+
+type SankeyNode = {
+  id: string;
+  name: string;
+  category?: string;
+};
+
+type SankeyLink = {
+  source: string;
+  target: string;
+  value: number;
+  label?: string;
+};
+
+type ModelData = {
+  title: string;
+  subtitle?: string;
+  nodes: SankeyNode[];
+  links: SankeyLink[];
+  findings?: ModelFinding[];
+};
+
+type DS10Link = {
+  source: string;
+  target: string;
+  value: number;
+  tx_count?: number;
+  first_date?: string;
+  last_date?: string;
+};
+
+type DS10Transaction = {
+  tx_date: string;
+  amount: number;
+  sender?: string | null;
+  receiver?: string | null;
+  reference?: string | null;
+  efta_id?: string | null;
+};
+
+type DS10BalancePoint = {
+  date: string;
+  balance: number;
+};
+
+type DS10Data = {
+  links: DS10Link[];
+  nodes?: unknown[];
+  stats?: {
+    total_nodes?: number;
+    total_links?: number;
+    total_value?: number;
+  };
+  top_transactions?: DS10Transaction[];
+  balances?: Record<string, DS10BalancePoint[]>;
+};
+
+type DossierIndexEntry = {
+  name?: string;
+  slug?: string;
+};
+
+function loadJson<T>(filename: string): T | null {
+  const filepath = resolve(contentDir, filename);
+  if (!existsSync(filepath)) return null;
+  return JSON.parse(readFileSync(filepath, 'utf-8')) as T;
+}
+
+function cleanLabel(raw?: string | null): string {
+  const value = `${raw || ''}`.replace(/\s+/g, ' ').trim();
+  return value || 'Unknown';
+}
+
+function canonicalEntity(raw?: string | null): string {
+  const cleaned = cleanLabel(raw);
+  return cleaned
+    .toUpperCase()
+    .replace(/[^A-Z0-9]+/g, ' ')
+    .replace(/\bN A\b/g, 'NA')
+    .replace(/\bA C\b/g, 'AC')
+    .replace(/\bI N C\b/g, 'INC')
+    .replace(/\bL L C\b/g, 'LLC')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function formatMoney(value: number): string {
+  if (value >= 1_000_000_000) return `$${(value / 1_000_000_000).toFixed(1)}B`;
+  if (value >= 1_000_000) return `$${(value / 1_000_000).toFixed(1)}M`;
+  if (value >= 1_000) return `$${(value / 1_000).toFixed(0)}K`;
+  return `$${value.toLocaleString()}`;
+}
+
+// Dynamically discover all Sankey model files (exclude ds10-flows which uses FinancialWorkbench)
+import { readdirSync } from 'fs';
+const modelFiles = existsSync(contentDir)
+  ? readdirSync(contentDir).filter(f => f.endsWith('.json') && f !== 'ds10-flows.json').sort()
+  : [];
+const sankeyModels = modelFiles
+  .map(f => loadJson<ModelData>(f))
+  .filter((d): d is ModelData => d !== null && Array.isArray(d.nodes) && Array.isArray(d.links));
+
+// First model with findings gets the evidence anchors section
+const modelWithFindings = sankeyModels.find(m => m.findings && m.findings.length > 0);
+const findingCards = (modelWithFindings?.findings || []).slice(0, 6);
+
+const ds10Data = loadJson<DS10Data>('ds10-flows.json');
+const dossierIndexPath = contentPath('dossiers', '_index.json');
+const dossierIndex = existsSync(dossierIndexPath)
+  ? JSON.parse(readFileSync(dossierIndexPath, 'utf-8')) as DossierIndexEntry[]
+  : [];
+const dossierSlugByEntityKey = dossierIndex.reduce<Record<string, string>>((acc, entry) => {
+  if (!entry?.name || !entry?.slug) return acc;
+  const key = canonicalEntity(entry.name);
+  if (!key || acc[key]) return acc;
+  acc[key] = entry.slug;
+  return acc;
+}, {});
+
+const ds10HasData = Boolean(ds10Data && Array.isArray(ds10Data.links) && ds10Data.links.length > 0);
+---
+<BaseLayout title="Financial Flows">
+  <div class="space-y-8">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="space-y-3">
+        <div class="section-label">Financial Data</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">Financial Flows</h1>
+        <p class="text-mithril font-body">
+          Review key entities, flow links, and transactions in one place.
+        </p>
+      </div>
+
+      <div class="mt-5 grid gap-2 md:grid-cols-3">
+        <div class="surface-muted p-3">
+          <div class="text-[10px] text-mithril font-mono uppercase tracking-[0.2em]">Overview</div>
+          <p class="text-xs text-moon mt-1">Start with the highest-value links.</p>
+        </div>
+        <div class="surface-muted p-3">
+          <div class="text-[10px] text-mithril font-mono uppercase tracking-[0.2em]">Entity</div>
+          <p class="text-xs text-moon mt-1">Select one entity to inspect inbound and outbound activity.</p>
+        </div>
+        <div class="surface-muted p-3">
+          <div class="text-[10px] text-mithril font-mono uppercase tracking-[0.2em]">Transactions</div>
+          <p class="text-xs text-moon mt-1">Use dated transactions and EFTA records to verify details.</p>
+        </div>
+      </div>
+    </section>
+
+    {ds10HasData && ds10Data ? (
+      <FinancialWorkbench data={ds10Data} dossierSlugByEntityKey={dossierSlugByEntityKey} client:load />
+    ) : (
+      <section class="surface p-6">
+        <div class="section-label">DS10 Data</div>
+        <p class="text-sm text-mithril mt-2">
+          DS10 flow data is not available in this build. Run `uv run python pipeline/export_financials.py`
+          to regenerate `/content/financials/ds10-flows.json`.
+        </p>
+      </section>
+    )}
+
+    <section class="surface p-6">
+      <div class="section-label">Case Models</div>
+      <h2 class="text-xl text-moon font-semibold mt-2">Curated flow narratives</h2>
+      <p class="text-sm text-mithril mt-2">
+        These are compact explanatory models, not the full transaction universe. They help readers hold the
+        core structure in working memory while they read dossiers and longform articles.
+      </p>
+
+      <div class="mt-4 grid gap-4 xl:grid-cols-2">
+        {sankeyModels.map(model => (
+          <SankeyDiagram data={model} height={340} valueScale="sqrt" client:visible />
+        ))}
+      </div>
+    </section>
+
+    {findingCards.length > 0 && modelWithFindings && (
+      <section class="surface p-6">
+        <div class="section-label">Evidence Anchors</div>
+        <h2 class="text-xl text-moon font-semibold mt-2">High-signal findings behind {modelWithFindings.title || 'the model'}</h2>
+        <p class="text-sm text-mithril mt-2">
+          Model diagrams are only useful when they stay attached to specific records and dates.
+          These anchors keep the abstraction accountable.
+        </p>
+
+        <div class="mt-4 grid gap-2 md:grid-cols-2 xl:grid-cols-3">
+          {findingCards.map(finding => (
+            <article class="surface-muted p-3">
+              <div class="text-[10px] text-mithril font-mono uppercase tracking-[0.2em]">
+                Finding #{finding.id}{finding.confidence ? ` | ${finding.confidence}` : ''}
+              </div>
+              <div class="text-xs text-moon mt-1">
+                {finding.summary.length > 220 ? `${finding.summary.slice(0, 217)}...` : finding.summary}
+              </div>
+              {finding.date_of_event && (
+                <div class="text-[11px] text-mithril font-mono mt-2">{finding.date_of_event}</div>
+              )}
+              {finding.target_name && (
+                <div class="text-[11px] text-mithril font-mono">{finding.target_name}</div>
+              )}
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="surface-muted p-4">
+      <div class="text-[10px] text-mithril font-mono uppercase tracking-[0.2em]">Data Footprint</div>
+      <div class="text-xs text-mithril mt-2">
+        {ds10Data?.stats ? (
+          <>
+            DS10 currently includes {ds10Data.stats.total_nodes || 0} entities, {ds10Data.stats.total_links || 0} traced links, and{' '}
+            {formatMoney(ds10Data.stats.total_value || 0)} in aggregated value above threshold.
+          </>
+        ) : (
+          <>
+            DS10 stats are unavailable in this build.
+          </>
+        )}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

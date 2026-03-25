@@ -1,0 +1,24 @@
+---
+title: "The Port Watch Procurement Network"
+subtitle: "A compact case study in shell entities, evidence provenance, and source-record design"
+cluster: port-watch-procurement-network
+targets: "Harbor Ledger Holdings LLC, Lina Ortega, Estuary Advisory Ltd"
+date: "2026-03-24"
+status: reviewed
+---
+
+## Why this example exists
+
+This article is intentionally small. It is not here to sell a single investigation subject. It is here to show how Ithildin handles the infrastructure problem: public artifacts, hosted copies, metadata-only records, and finding-level provenance all in one reader-facing flow.
+
+The core pattern is a deniable procurement corridor. A thin Florida vehicle appears during the key shortlist window, a UK advisory entity sits behind the services layer, and a single intermediary keeps the handoff legible only when multiple source classes are combined [Finding #9101].
+
+## Mixed inspectability is the normal case
+
+The easiest systems to demo are the ones where every source is public and clean. Investigative infrastructure is rarely that tidy. In this case, a public registry filing [REG:FL:L23000214567] and a procurement packet [DOCUMENTCLOUD:24402693] are fully inspectable. A hosted minute excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11] is inspectable because Ithildin can safely publish the relevant extract. A reporting memo [PORT-WATCH-CALL-NOTES-2025-02-14] is not publicly inspectable, so the system falls back to a source record that exposes provenance, locator, excerpt, and every public use.
+
+That is the point of the source-record layer: keep evidence accountable even when the artifact itself cannot be published [Finding #9102].
+
+## What the demo demonstrates
+
+Harbor Ledger's dossier shows the entity-level path from formation timing to procurement narrative [Finding #9001, #9004]. Lina Ortega's dossier shows the human intermediary path, including where the record is public and where it is only metadata-rich [Finding #9006, #9007]. Together they demonstrate why investigative tooling needs more than a link checker. It needs explicit evidence classes, occurrence tracking, and UI that does not pretend a metadata-only record is the same thing as an open public document.

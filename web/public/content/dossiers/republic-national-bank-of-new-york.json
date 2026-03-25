@@ -1,0 +1,1029 @@
+{
+  "name": "Republic National Bank of New York",
+  "slug": "republic-national-bank-of-new-york",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.280401",
+  "last_updated": "2026-02-18T16:23:12",
+  "stats": {
+    "total_findings": 17,
+    "total_connections": 9,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 10,
+      "intelligence": 2,
+      "relationship": 2,
+      "legal": 3
+    },
+    "connection_types": {
+      "corporate": 4,
+      "financial": 4,
+      "employment": 1
+    },
+    "last_updated": "2026-02-18T16:23:12"
+  },
+  "findings": [
+    {
+      "id": 3323,
+      "finding_type": "financial",
+      "summary": "GLEIF confirms RNB (Uruguay) subsidiary became HSBC Bank (Uruguay) S.A. after 1999 acquisition",
+      "detail": "GLEIF LEI 549300YRMVVWXO9A2F30 shows HSBC Bank (Uruguay) S.A. with operating name Republic National Bank of New York (Uruguay) S.A., created 2000-07-19, confirming HSBC absorbed RNB Latin American operations post-acquisition. Headquarters in Montevideo.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2000-07-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:51:19",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF LEI 549300YRMVVWXO9A2F30",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3319,
+      "finding_type": "financial",
+      "summary": "RNB registered as FARA foreign agent (1975-1976) for Trade Development Bank (Overseas) Inc.",
+      "detail": "RNB registered under FARA (Registration #2604) at 452 Fifth Avenue, New York, NY 10018 on 09/04/1975, terminated 06/10/1976. Foreign principal was Trade Development Bank (Overseas) Inc. from the Philippines. Trade Development Bank was part of Edmond Safra's banking network.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:51:01",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA Registration #2604",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3332,
+      "finding_type": "financial",
+      "summary": "100 ACRIS NYC property records found for Republic National Bank - extensive NYC real estate portfolio",
+      "detail": "ACRIS database returns 100 party records for Republic National Bank in NYC property transactions. This indicates a substantial NYC real estate portfolio or mortgage/lending activity. Separate search for Republic New York returned 57 additional records. These need systematic analysis for connections to Epstein-linked properties.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:51:50",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS NYC property database",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3339,
+      "finding_type": "financial",
+      "summary": "RNB exposed Bank of New York $10B Russian money laundering linked to Mogilevich/Benex (1998-1999), months before Safra's death",
+      "detail": "Edmond Safra's Republic National Bank closed a suspicious account of Benex Worldwide in Aug 1998 and filed SARs alerting FBI to massive Russian money flows through Bank of New York. Benex was linked to Semion Mogilevich, alleged kingpin of Russian organized crime. RNB alerted both FBI and Swiss authorities about possible money laundering involving IMF funds, Russian Ministry of Finance and Russian Central Bank officials. Through Benex 18 accounts at Bank of New York, approximately 10B was laundered within two years. This whistleblowing occurred months before Safra death in Monaco fire Dec 1999.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:52:30",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://commdocs.house.gov/committees/bank/hba59889.000/hba59889_0.HTM",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.deseret.com/1999/12/4/19478739/safra-death-raises-questions-and-inspires-reflections-on-banking-dynasty/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3343,
+      "finding_type": "intelligence",
+      "summary": "American Express conducted unauthorized smear campaign against Safra/RNB (1986-1989), falsely accusing money laundering and Iran-Contra links; settled for $8M and public apology",
+      "detail": "After Safra sold Trade Development Bank to American Express in 1983 and later founded Safra Republic Holdings in 1988 (competing for clients), AmEx launched an investigation in late 1986 that devolved into an unauthorized smear campaign planting stories linking Safra to money laundering, drug trafficking, and Iran-Contra scandal. AmEx Chairman James D. Robinson III ultimately condemned the campaign as unauthorized and shameful. AmEx settled: public apology plus 8M in damages (Safra donated all to charity). Detailed in Bryan Burrough book Vendetta: American Express and the Smearing of Edmond Safra.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:52:44",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Bryan Burrough, Vendetta: American Express and the Smearing of Edmond Safra (1992)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.washingtonpost.com/archive/business/1989/07/29/american-express-offers-4-million-and-apology/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3346,
+      "finding_type": "financial",
+      "summary": "ICIJ offshore leaks: RNB (Suisse) served as intermediary for Panama Papers shell companies; RNB (Guernsey) as trustee of Munbank Trust",
+      "detail": "ICIJ offshore leaks database reveals Republic National Bank network in offshore finance: (1) RNB REPUBLIC NATIONAL BANK OF NEW YORK (SUISSE) S.A. as intermediary in Panama Papers (node 11008265, Switzerland); (2) REPUBLIC NATIONAL BANK OF NEW YORK (GUERSEY) LIMITED AS TRUSTEE OF THE MUNBANK TRUST as officer in Panama Papers (node 12200780, Guernsey); (3) Republic National Bank as intermediary in Singapore (Offshore Leaks, node 295164); (4) Republic National Bank as entity in undetermined jurisdiction (node 186385); (5) REPUBLIC NATIONAL LEASING & INVESTMENT LIMITED in Bahamas (Bahamas Leaks, node 20012725).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:52:59",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ICIJ offshore leaks: nodes 11008265, 12200780, 295164, 186385, 20012725",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3350,
+      "finding_type": "relationship",
+      "summary": "RNB key personnel from LittleSis: Theodore Kheel (Chairman 1966-1975), Jeffrey C. Keil (Vice Chairman 1984-1996), Meade H. Esposito (VP), Nan Morabia (officer), Ezra Safra (employee/nephew)",
+      "detail": "LittleSis (entity 86316) identifies key RNB personnel: Theodore W. Kheel was Chairman (1966-1975), a prominent labor mediator and civil rights lawyer. Jeffrey C. Keil served as Vice Chairman (1984-1996). Meade H. Esposito was Vice President (notable as former Brooklyn Democratic Party boss). Nan Morabia served as officer. Ezra Safra (Edmond nephew) was an employee. RNB owned Kings Lafayette Bank, American Swiss Credit Company Ltd (from 1975), and 49% of Safra Republic Holdings S.A. Republic New York Securities Corporation was a subsidiary from 1991. Parent company was Republic New York Corporation (entity 101458).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:26",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 86316 relationships",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3351,
+      "finding_type": "financial",
+      "summary": "RNB-HSBC acquisition (1999): $10.3B reduced to $9.85B after Japanese fraud conviction; RNB merged into HSBC Bank USA on Dec 31, 1999; Safra Republic Holdings became HSBC Private Bank",
+      "detail": "HSBC acquired Republic New York Corporation and Safra Republic Holdings S.A. for initial 10.3B, reduced to 9.85B after RNB convicted in scheme to defraud Japanese investors (fined over 600M). Acquisition completed at noon EST Dec 31 1999, just 28 days after Safra death. RNB converted to NY state-chartered bank then merged with HSBC Bank USA (formerly Marine Midland). Safra Republic Holdings became HSBC Private Bank. This transferred Safra entire offshore private banking network (Switzerland, Luxembourg, Monaco, Bahamas, Guernsey, Singapore) to HSBC.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:38",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://money.cnn.com/1999/05/10/worldbiz/hsbc/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.privatebanking.hsbc.com/about-us/company-history/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3353,
+      "finding_type": "financial",
+      "summary": "FEC identifies RNB employees making political donations: Cyril Dwek (NYC), Leslie Bains (Summit NJ), Ephraim Feuer (Brooklyn), Nathan Hasson (Brooklyn), William Hellmers (Huntington), Paul Bogart, Anthony Scotto",
+      "detail": "FEC employer search for Republic National Bank returns 20 donations from employees. Notable NYC-area donors with RNB as employer: Cyril Dwek (New York), Leslie Bains (Summit NJ), Ephraim Feuer (Brooklyn), Nathan Hasson (Brooklyn). Some entries are for different banks (National Republic Bank of Chicago, Republican National Bank). The NYC-based donors likely worked at Safra's Republic National Bank at 452 Fifth Ave. Dwek surname is notable - Solomon Dwek was an FBI informant in NJ corruption case.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:49",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC donor database",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3357,
+      "finding_type": "financial",
+      "summary": "RNB handled Iran-Contra Enterprise wire transfers; officer Nan Morabia conducted cash drops to Enterprise operatives including deliveries at RNB and $150K to Adnan Khashoggi",
+      "detail": "Walsh Independent Counsel Iran-Contra Final Report Vol 1 (p.195/221) reveals Republic National Bank of New York handled wire transfers for the Iran-Contra Enterprise. Nan Morabia, an officer of RNB, arranged cash drops to Enterprise operatives including Albert Hakim and Oliver North courier William Haskell. In August 1985, she delivered $7,000 to Robert W. Owen at Republic National Bank in New York. She also delivered $150,000 in cash to Adnan Khashoggi, the Iran arms sales financier. The Enterprise funds were wired through Zucker to a Codelis account at Trade Development Bank in Geneva (Edmond Safra's Swiss bank), controlled by the Mizrahi brothers.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:20",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Final Report Vol 1 p.221 (doc_id 8 in investigations DB)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3359,
+      "finding_type": "legal",
+      "summary": "RNB singled out by Senate PSI as having notably strong KYC policies for correspondent banking -- the only bank with written due diligence specifically for correspondent relationships",
+      "detail": "Levin PSI Correspondent Banking and Money Laundering report (2001) notes RNB (now HSBC USA) adopted a Know Your Customer Policy Statement for its International Banking Group, effective December 31, 1998, with mandatory written analysis of any bank applying for a correspondent relationship. The Senate committee noted this as a 'notable exception' among surveyed banks, most of which relied on general bank-wide policies. Anne Vitale, former Managing Director and Deputy General Counsel of RNB (then Special Litigation Counsel at HSBC USA), testified before the committee.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:40",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Levin PSI Correspondent Banking report p.30 (doc_id 6 in investigations DB)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3360,
+      "finding_type": "financial",
+      "summary": "RNB joined Bank of New York and Deutsche Bank in blocking correspondent wire transfers to South Pacific island nations (Nauru, Palau, Niue, Vanuatu) in late 1999 over money laundering concerns",
+      "detail": "Levin PSI Correspondent Banking report notes that in late 1999, several major banks including Bank of New York, Deutsche Bank, and Republic National Bank of New York stopped processing wire transfers involving certain South Pacific island nations such as Nauru, Palau, Niue and Vanuatu. This was significant because Nauru-licensed banks were used extensively for money laundering. Vanuatu later convinced banks to modify their ban. RNB specifically restricted correspondent banking with Nauru-licensed banks.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:49",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Levin PSI Correspondent Banking report p.236 and p.249 (doc_id 6)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3361,
+      "finding_type": "legal",
+      "summary": "FARA registration: RNB registered as foreign agent (Reg #2604, Sep 1975-Jun 1976) on behalf of Trade Development Bank Overseas Inc. (TDBO) from the Philippines -- Safra's Geneva bank's overseas affiliate",
+      "detail": "Republic National Bank of New York, at 452 Fifth Avenue, New York NY 10018, was registered under FARA as a foreign agent from September 4, 1975 to June 10, 1976. The foreign principal was Trade Development Bank (Overseas) Inc. (TDBO), listed as Philippines-based. Trade Development Bank was Edmond Safra's Geneva bank. This registration shows RNB formally acting as a US agent for Safra's overseas banking interests, confirming the institutional linkage between the two Safra entities.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:59",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA database, Registration Number 2604",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3362,
+      "finding_type": "legal",
+      "summary": "US v. Republic National Bank (1:90-cv-00613, EDNY, 1990) -- federal forfeiture case against RNB filed Feb 1990, assigned to Judge Raymond Dearie, terminated Apr 1993",
+      "detail": "United States v. Republic National Bank, Case 1:90-cv-00613, Eastern District of New York, filed February 21, 1990, terminated April 30, 1993. Nature of suit: 690 Other forfeiture and penalty suits. Assigned to Judge Raymond Joseph Dearie, referred to Magistrate Allyne R. Ross. This was a government forfeiture action against RNB, suggesting the bank was implicated in handling proceeds of illegal activity. The three-year duration suggests a contested proceeding. Judge Dearie later became the Special Master in the Trump Mar-a-Lago documents case.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:55:09",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 9608486",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3403,
+      "finding_type": "financial",
+      "summary": "RNB's dual role in Iran-Contra: (1) INSTITUTIONAL - handled Enterprise wire transfers officially through bank channels. (2) OFF-BOOKS - Nan Morabia explicitly told FBI the cash-delivery operation 'was conducted by her outside bank channels' (FBI 302, 11/16/87 p.4). This distinction is critical: RNB the institution processed legitimate-looking wire transfers while its officer Nan Morabia separately ran a parallel cash operation. Walsh identified 21 cash transactions totaling ~,000 involving North alone. The Morabia drops were structured specifically to avoid Currency Transaction Reports (CTRs) for transactions over ,000.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:15:14",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.220-221 fn20,26",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3411,
+      "finding_type": "intelligence",
+      "summary": "STRUCTURAL INSIGHT: Edmond Safra owned both Republic National Bank (New York) and Trade Development Bank (Geneva). Iran-Contra Enterprise funds flowed through BOTH institutions: (1) RNB NY handled wire transfers for Enterprise AND Nan Morabia ran off-books cash drops to Enterprise operatives. (2) TDB Geneva held the 'Codelis' account (controlled by Mizrahi brothers) into which Zucker wired equal amounts when Morabias delivered US cash. This means both ends of the Enterprise's US-Swiss cash pipeline ran through Safra-controlled institutions. Whether Safra himself was aware is unestablished, but the institutional co-incidence is structurally significant.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:17:33",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "Walsh IC Final Report Vol 1 pp.220-221; Consortium News 12/4/1999; FundingUniverse RNB history",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3472,
+      "finding_type": "relationship",
+      "summary": "Republic National Bank of New York appears in 4 investigation threads (1,2,3,4) and bridges the Safra banking network, Iran-Contra financial infrastructure (Khashoggi, Morabia), and Deutsche Bank pipeline, forming a historical nexus connecting 1980s covert finance to the Epstein-era network",
+      "detail": "RNBNY connects Edmond Safra, Adnan Khashoggi, Nan Morabia, HSBC Holdings, Trade Development Bank Geneva, and Deutsche Bank. It has betweenness 0.011 and brokerage score 0.952. Despite appearing in 4 threads (Core, Mega Group, Deutsche Bank, Israeli Intel), it has only 16 findings -- underinvestigated relative to its structural importance. The Safra->Republic->HSBC acquisition chain and the Khashoggi->Republic->Morabia Iran-Contra connections are historically significant pathways that may explain how financial infrastructure was repurposed across decades.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:23:12",
+      "target_name": "Republic National Bank of New York",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-6",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1997,
+      "person_a": "Edmond J. Safra",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "corporate",
+      "description": "Safra founded Republic National Bank of New York. Bank registered as FARA foreign agent 1975-1976.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:20",
+      "other_person": "Edmond J. Safra",
+      "other_person_slug": "edmond-j-safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA Registration #2604",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1998,
+      "person_a": "HSBC Holdings",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "corporate",
+      "description": "RNB/Republic New York Corporation acquired by HSBC for 10.3B in 1999. GLEIF confirms Uruguay subsidiary became HSBC Bank Uruguay.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:23",
+      "other_person": "HSBC Holdings",
+      "other_person_slug": "hsbc-holdings",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF LEI 549300YRMVVWXO9A2F30",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK 0000083246",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2004,
+      "person_a": "HSBC Holdings",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "corporate",
+      "description": "HSBC acquired Republic New York Corp and Safra Republic Holdings for $9.85B (reduced from $10.3B), completing Dec 31 1999",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:48",
+      "other_person": "HSBC Holdings",
+      "other_person_slug": "hsbc-holdings",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://money.cnn.com/1999/05/10/worldbiz/hsbc/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2008,
+      "person_a": "Republic National Bank of New York",
+      "person_b": "Trade Development Bank Geneva",
+      "relationship_type": "financial",
+      "description": "Both Safra-owned entities used as parallel conduits for Iran-Contra Enterprise funds -- RNB for US wire transfers, TDB Geneva for cash operations via Codelis account. FARA records also show RNB registered as agent for Trade Development Bank Overseas Inc.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:56:13",
+      "other_person": "Trade Development Bank Geneva",
+      "other_person_slug": "trade-development-bank-geneva",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA Registration 2604",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Vol 1 p.221",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2009,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "financial",
+      "description": "RNB officer Nan Morabia delivered $150,000 in cash to Khashoggi (Iran arms sales financier) in New York on Nov 26, 1986. Morabia also handled Enterprise wire transfers through RNB.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:56:18",
+      "other_person": "Adnan Khashoggi",
+      "other_person_slug": "adnan-khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Vol 1 p.221 footnote 24",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2047,
+      "person_a": "Nan Morabia",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "employment",
+      "description": "Morabia was an officer at RNB; cash operation was conducted outside bank channels",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:35",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 373414",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2050,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "financial",
+      "description": "Khashoggi received $150K cash at RNB via Morabia; RNB handled Enterprise wire transfers",
+      "strength": "strong",
+      "date_range": "1986",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:45",
+      "other_person": "Adnan Khashoggi",
+      "other_person_slug": "adnan-khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2051,
+      "person_a": "Edmond Safra",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "corporate",
+      "description": "Safra founded RNB in 1966; also founded Trade Development Bank Geneva (sold to AmEx 1983)",
+      "strength": "strong",
+      "date_range": "1966-1999",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:45",
+      "other_person": "Edmond Safra",
+      "other_person_slug": "edmond-safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 373383",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia: Edmond Safra",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2010,
+      "person_a": "Deutsche Bank",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "financial",
+      "description": "RNB and Deutsche Bank operated in parallel on correspondent banking: both blocked South Pacific island nation wire transfers in late 1999 (alongside Bank of New York) due to money laundering concerns with Nauru-licensed banks",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:56:25",
+      "other_person": "Deutsche Bank",
+      "other_person_slug": "deutsche-bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Levin PSI Correspondent Banking report pp.236, 249",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1966-1999",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Safra founded RNB in 1966; also founded Trade Development Bank Geneva (sold to AmEx 1983)",
+      "other_person": "Edmond Safra",
+      "id": 2051
+    },
+    {
+      "date": "1986",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Khashoggi received $150K cash at RNB via Morabia; RNB handled Enterprise wire transfers",
+      "other_person": "Adnan Khashoggi",
+      "id": 2050
+    },
+    {
+      "date": "2000-07-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "GLEIF confirms RNB (Uruguay) subsidiary became HSBC Bank (Uruguay) S.A. after 1999 acquisition",
+      "confidence": "confirmed",
+      "id": 3323
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3323,
+      3319,
+      3353,
+      3357,
+      3359,
+      3361,
+      3362,
+      3343,
+      3350,
+      3411,
+      3472,
+      3403
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3350,
+          3472
+        ],
+        "connection_ids": [
+          1997,
+          1998,
+          2004,
+          2008,
+          2009,
+          2047,
+          2050,
+          2051,
+          2010
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3323,
+          3319,
+          3332,
+          3339,
+          3346,
+          3351,
+          3353,
+          3357,
+          3360,
+          3403
+        ],
+        "connection_ids": [
+          2008,
+          2009,
+          2050,
+          2010
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3359,
+          3361,
+          3362
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          3343,
+          3411
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T01:04:31.719050",
+    "lead": "<p>Republic National Bank of New York (RNB) was the flagship American banking institution of <a href=\"/dossiers/edmond-safra\">Edmond Safra</a>, the Lebanese-Brazilian-Swiss financier who built a global private banking empire catering to wealthy families, particularly from the Sephardic Jewish diaspora, the Middle East, and Latin America. Founded by Safra in 1966 and headquartered at 452 Fifth Avenue in Manhattan, RNB grew into one of the largest privately controlled banks in the United States, with a parent holding company (Republic New York Corporation) that at its peak held over $50 billion in assets. The bank operated alongside Safra's offshore network &mdash; <a href=\"/dossiers/edmond-safra\">Trade Development Bank</a> in Geneva, Safra Republic Holdings in Luxembourg, and branches in Monaco, Guernsey, Singapore, and the Bahamas &mdash; creating a global architecture for moving wealth across jurisdictions with exceptional discretion.</p>\n\n<p>RNB occupies a structurally significant position in multiple investigative threads. The Walsh Independent Counsel's Iran-Contra investigation documented that both RNB and Safra's Trade Development Bank Geneva served as conduits for Enterprise funds: RNB processed wire transfers through official channels while bank officer Nan Morabia ran a parallel off-books cash operation, delivering funds to Enterprise operatives including <a href=\"/dossiers/adnan-khashoggi\">Adnan Khashoggi</a>. In 1998, RNB's compliance team exposed the $10 billion Bank of New York/Benex Russian money-laundering scandal by filing suspicious activity reports with the FBI &mdash; an act of institutional whistleblowing that occurred months before Safra's death in a Monaco fire in December 1999. The ICIJ Panama Papers and Offshore Leaks reveal RNB subsidiaries in Switzerland, Guernsey, Singapore, and the Bahamas serving as intermediaries and trustees for shell company structures.</p>\n\n<p>The bank's absorption into HSBC &mdash; completed at noon on December 31, 1999, just 28 days after Safra's death &mdash; transferred the entire Safra offshore private banking network to one of the world's largest financial institutions. The $9.85 billion acquisition (reduced from $10.3 billion after RNB's conviction for defrauding Japanese investors) merged RNB into HSBC Bank USA and converted Safra Republic Holdings into HSBC Private Bank, giving HSBC instant access to the Safra client base across six offshore jurisdictions. <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a>, which had operated alongside RNB in correspondent banking &mdash; both banks blocked wire transfers to Nauru-licensed shell banks in late 1999 &mdash; would later become <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>'s primary banking relationship.</p>",
+    "open_questions": [
+      "What was the substance of the 1990 federal forfeiture case (US v. Republic National Bank, 1:90-cv-00613 EDNY)? What assets were seized and what underlying criminal activity did the government allege?",
+      "Did Edmond Safra have personal knowledge of the Iran-Contra Enterprise's use of both RNB (New York) and TDB (Geneva) for covert fund flows, or were the Morabia cash operations and the Codelis account exploitations of access by intelligence-adjacent operatives?",
+      "What was the nature of the Japanese investor fraud that led to RNB's criminal conviction and $600M+ in fines? Who within RNB was responsible, and did the scheme connect to any of the offshore subsidiaries?",
+      "How much of HSBC's subsequent AML failures (culminating in the 2012 $1.9B settlement) trace to infrastructure, client relationships, or compliance gaps inherited from the Safra network?",
+      "The ACRIS database shows 100+ NYC property records for Republic National Bank. Do any of these connect to properties associated with Epstein-linked entities or individuals?",
+      "What was the relationship between RNB's compliance whistleblowing on Bank of New York/Benex (August 1998) and Safra's death in Monaco (December 1999)? Were there threats or retaliation linked to the Mogilevich exposure?",
+      "Who were the Munbank Trust beneficiaries behind the RNB Guernsey trustee structure identified in the Panama Papers (ICIJ node 12200780)?",
+      "What specific offshore structures did RNB's Swiss subsidiary (ICIJ node 11008265) create or administer as a Panama Papers intermediary?"
+    ],
+    "system_role": "Safra family's flagship US bank that served as both a compliant financial institution and a conduit for covert intelligence-linked operations, before its offshore network was absorbed wholesale by HSBC.",
+    "sections": [
+      {
+        "id": "safra-banking-empire",
+        "title": "The Safra Banking Empire",
+        "content": "<p><a href=\"/dossiers/edmond-safra\">Edmond Safra</a> built RNB as the American pillar of a banking network spanning six countries. The institutional architecture was deliberately distributed: RNB in New York handled US-dollar clearing and correspondent banking; Trade Development Bank in Geneva managed European and Middle Eastern wealth; Safra Republic Holdings in Luxembourg served as the umbrella for the offshore branches in Monaco, Guernsey, Singapore, and the Bahamas. This structure gave Safra clients the ability to move capital across jurisdictions through institutions controlled by the same family, with RNB's FARA registration (1975&ndash;1976) as agent for Trade Development Bank Overseas Inc. formalizing the relationship between the New York and Geneva operations.</p>\n\n<p>Key personnel at RNB reflected this family-and-trust model. Theodore W. Kheel served as Chairman from 1966 to 1975, a prominent labor mediator who lent the bank establishment credibility. Jeffrey C. Keil was Vice Chairman from 1984 to 1996. Meade H. Esposito, the former Brooklyn Democratic Party boss, served as Vice President &mdash; a political fixer embedded in a banking institution. Edmond's nephew Ezra Safra worked at the bank, and nephew <a href=\"/dossiers/jacqui-safra\">Jacqui Safra</a> maintained connections to the broader Safra social network. <a href=\"/dossiers/ron-soffer\">Ron Soffer</a> worked in banking law at RNB from 1988 to 1991. Peter A. Cohen, who went on to lead Shearson Lehman, worked for Safra at Republic NY and Trade Development Bank in 1978&ndash;1979 before returning as Vice Chairman of Republic NY and Chairman of Republic New York Securities Corp.</p>\n\n<p>Safra's relationship with American Express proved combustible. After selling Trade Development Bank to AmEx in 1983, Safra founded Safra Republic Holdings in 1988, directly competing for the clients he had just sold. AmEx responded with an unauthorized smear campaign (1986&ndash;1989) that planted stories linking Safra to money laundering, drug trafficking, and the Iran-Contra scandal. Chairman James D. Robinson III ultimately condemned the operation as \"unauthorized and shameful.\" AmEx settled with a public apology and $8 million in damages &mdash; all of which Safra donated to charity. The irony is that the Iran-Contra connection was not entirely fabricated: RNB did handle Enterprise funds, though the campaign's framing was designed to destroy rather than inform.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "iran-contra-pipeline",
+        "title": "Iran-Contra: The Dual-Channel Pipeline",
+        "content": "<p>The Walsh Independent Counsel's Final Report documented that Republic National Bank of New York served a dual role in the Iran-Contra Enterprise's financial infrastructure. At the institutional level, RNB processed wire transfers for the Enterprise through official banking channels &mdash; transactions that passed through the bank's normal compliance systems. But a parallel, off-books operation ran alongside it. <a href=\"/dossiers/nan-morabia\">Nan Morabia</a>, an officer of RNB, arranged and executed cash drops to Enterprise operatives, a function she explicitly told the FBI \"was conducted by her outside bank channels\" (FBI 302, 11/16/87, p.4). Walsh identified 21 cash transactions totaling approximately $91,000 involving Oliver North alone, with Morabia's drops structured specifically to stay below the $10,000 Currency Transaction Report threshold.</p>\n\n<p>The cash operation connected directly to high-profile figures. In August 1985, Morabia delivered $7,000 to Robert W. Owen at RNB in New York. On November 26, 1986, she delivered $150,000 in cash to <a href=\"/dossiers/adnan-khashoggi\">Adnan Khashoggi</a>, the Saudi arms dealer who served as the primary financier for the Iran arms sales. The Enterprise funds were wired by Willard Zucker &mdash; who directed Morabia's domestic cash drops &mdash; to a \"Codelis\" account at Trade Development Bank in Geneva, controlled by the Mizrahi brothers. This means both ends of the Enterprise's US-Swiss cash pipeline ran through Safra-controlled institutions: RNB on the American side, TDB Geneva on the Swiss side.</p>\n\n<p>Whether Edmond Safra himself had knowledge of the Enterprise operations remains unestablished. The structural coincidence &mdash; both the American cash distribution and the Swiss account used by the same covert operation running through banks he owned &mdash; is the kind of pattern that could reflect either deliberate facilitation or the exploitation of a banking network by intelligence-connected operatives who had cultivated access to its officers. The AmEx smear campaign's decision to target the Iran-Contra angle suggests external actors were aware of RNB's involvement, even if the campaign's purpose was competitive destruction rather than accountability.</p>",
+        "viz": null
+      },
+      {
+        "id": "compliance-and-whistleblowing",
+        "title": "Compliance Paradox: Whistleblower and Enabler",
+        "content": "<p>RNB presents a genuine paradox in the compliance landscape. The Levin Permanent Subcommittee on Investigations (PSI) singled out the bank as a \"notable exception\" among US correspondent banks for having adopted a written Know Your Customer Policy Statement for its International Banking Group, effective December 31, 1998, requiring mandatory written analysis of every bank applying for a correspondent relationship. Anne Vitale, former Managing Director and Deputy General Counsel of RNB, testified before the committee. At the same time, ICIJ offshore leaks databases reveal RNB subsidiaries in Switzerland, Guernsey, and Singapore serving as intermediaries and trustees for shell company structures in the Panama Papers and Offshore Leaks.</p>\n\n<p>The bank's most consequential compliance action was its exposure of the Bank of New York/Benex money-laundering scandal. In August 1998, RNB closed a suspicious account belonging to Benex Worldwide and filed SARs alerting the FBI to massive Russian money flows through Bank of New York. Benex was linked to Semion Mogilevich, alleged kingpin of Russian organized crime. RNB alerted both the FBI and Swiss authorities about possible laundering of IMF funds involving Russian Ministry of Finance and Russian Central Bank officials. Through 18 Benex accounts at Bank of New York, approximately $10 billion was laundered within two years. This institutional whistleblowing &mdash; directly targeting a competitor bank's illegal activity &mdash; occurred months before Safra's death in Monaco in December 1999. Notably, Safra had provided $25 million in seed capital to Bill Browder's Hermitage Capital Management in 1996 for Russian investments, meaning Safra had deep knowledge of Russian financial flows.</p>\n\n<p>In late 1999, RNB joined <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> and Bank of New York in blocking correspondent wire transfers to South Pacific island nations &mdash; Nauru, Palau, Niue, and Vanuatu &mdash; over money-laundering concerns with Nauru-licensed banks. This coordinated action against offshore shell-bank jurisdictions demonstrated institutional seriousness about correspondent banking risk, even as RNB's own offshore subsidiaries operated in jurisdictions with similar opacity.</p>",
+        "viz": null
+      },
+      {
+        "id": "hsbc-acquisition",
+        "title": "The HSBC Absorption",
+        "content": "<p>HSBC's acquisition of Republic New York Corporation and Safra Republic Holdings was announced in May 1999 for $10.3 billion. The price was subsequently reduced to $9.85 billion after RNB was convicted in a scheme to defraud Japanese investors, resulting in fines exceeding $600 million. The acquisition completed at noon EST on December 31, 1999 &mdash; 28 days after Edmond Safra's death in a fire at his Monaco penthouse on December 3, 1999. RNB was first converted to a New York state-chartered bank, then merged with HSBC Bank USA (formerly Marine Midland Bank). Safra Republic Holdings became HSBC Private Bank.</p>\n\n<p>The strategic significance of this transaction went far beyond the headline price. HSBC acquired Safra's entire offshore private banking network in a single stroke: Switzerland, Luxembourg, Monaco, the Bahamas, Guernsey, and Singapore. The GLEIF registry confirms the transition, with the Uruguay subsidiary (LEI 549300YRMVVWXO9A2F30) formally becoming HSBC Bank (Uruguay) S.A. while retaining the operating name Republic National Bank of New York (Uruguay) S.A. This was not merely a domestic banking acquisition; it was the transfer of a global wealth-management infrastructure that had taken Safra decades to build, complete with the client relationships, correspondent banking networks, and offshore trust structures that defined the Safra business model.</p>\n\n<p>HSBC would go on to face its own massive money-laundering scandals, including a $1.9 billion settlement in 2012 for failures in anti-money-laundering controls. The question of how much of HSBC's later compliance vulnerabilities traced back to the infrastructure and client base it inherited from Safra's network has never been publicly examined.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal and Regulatory History",
+        "content": "<p>RNB's regulatory footprint extends across multiple federal domains. The bank registered as a foreign agent under FARA (Registration #2604) from September 4, 1975, to June 10, 1976, on behalf of Trade Development Bank (Overseas) Inc., listed as Philippines-based. This registration formalized RNB's role as a US agent for Safra's overseas banking interests and provides primary-source confirmation of the institutional linkage between the New York and Geneva operations. The FARA filing gives the bank's address as 452 Fifth Avenue, New York, NY 10018.</p>\n\n<p>A federal forfeiture case, <em>United States v. Republic National Bank</em> (1:90-cv-00613, EDNY), was filed February 21, 1990, and terminated April 30, 1993. The case was classified under nature-of-suit code 690 (Other forfeiture and penalty suits) and assigned to Judge Raymond Joseph Dearie, with Magistrate Allyne R. Ross. A three-year contested forfeiture action implies the government seized assets it believed were connected to illegal activity, and that RNB disputed the seizure. The case's substance &mdash; what was forfeited and why &mdash; requires PACER docket retrieval for further analysis.</p>\n\n<p>The Japanese investor fraud conviction that reduced the HSBC acquisition price represents the most significant criminal proceeding directly involving RNB. The bank was convicted in a scheme to defraud Japanese investors, with fines exceeding $600 million. This conviction occurred during the pendency of the HSBC acquisition, suggesting the fraud was discovered or prosecuted during the due diligence period. FEC records show RNB employees making political donations from the bank's New York offices, including Cyril Dwek, Leslie Bains, Ephraim Feuer, and Nathan Hasson &mdash; personnel whose roles at the bank may warrant further investigation in the context of the fraud prosecution.</p>"
+      }
+    ],
+    "applicable_models": [
+      "jurisdictional-arbitrage",
+      "parallel-financial-system",
+      "complexity-as-credential",
+      "enabler-gradient",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Republic National Bank of New York",
+      "connections": [
+        {
+          "target": "Edmond J. Safra",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "FARA Registration #2604",
+          "description": "Safra founded Republic National Bank of New York. Bank registered as FARA foreign agent 1975-1976."
+        },
+        {
+          "target": "HSBC Holdings",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "GLEIF LEI 549300YRMVVWXO9A2F30",
+          "description": "RNB/Republic New York Corporation acquired by HSBC for 10.3B in 1999. GLEIF confirms Uruguay subsidiary became HSBC Bank Uruguay."
+        },
+        {
+          "target": "HSBC Holdings",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://money.cnn.com/1999/05/10/worldbiz/hsbc/",
+          "description": "HSBC acquired Republic New York Corp and Safra Republic Holdings for $9.85B (reduced from $10.3B), completing Dec 31 1999"
+        },
+        {
+          "target": "Trade Development Bank Geneva",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "FARA Registration 2604",
+          "description": "Both Safra-owned entities used as parallel conduits for Iran-Contra Enterprise funds -- RNB for US wire transfers, TDB Geneva for cash operations via Codelis account. FARA records also show RNB registered as agent for Trade Development Bank Overseas Inc."
+        },
+        {
+          "target": "Adnan Khashoggi",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh Iran-Contra Report Vol 1 p.221 footnote 24",
+          "description": "RNB officer Nan Morabia delivered $150,000 in cash to Khashoggi (Iran arms sales financier) in New York on Nov 26, 1986. Morabia also handled Enterprise wire transfers through RNB."
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis relationship 373414",
+          "description": "Morabia was an officer at RNB; cash operation was conducted outside bank channels"
+        },
+        {
+          "target": "Adnan Khashoggi",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "description": "Khashoggi received $150K cash at RNB via Morabia; RNB handled Enterprise wire transfers"
+        },
+        {
+          "target": "Edmond Safra",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis relationship 373383",
+          "description": "Safra founded RNB in 1966; also founded Trade Development Bank Geneva (sold to AmEx 1983)"
+        },
+        {
+          "target": "Deutsche Bank",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "Levin PSI Correspondent Banking report pp.236, 249",
+          "description": "RNB and Deutsche Bank operated in parallel on correspondent banking: both blocked South Pacific island nation wire transfers in late 1999 (alongside Bank of New York) due to money laundering concerns with Nauru-licensed banks"
+        }
+      ],
+      "secondHop": {
+        "Adnan Khashoggi": [
+          {
+            "target": "Nan Morabia",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Morabia delivered $150,000 cash to Khashoggi on Nov 26, 1986 from Trabigulsi account"
+          },
+          {
+            "target": "BCCI",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Khashoggi used BCCI Monte Carlo for bridge financing of Iran arms sales, $30M+ total"
+          },
+          {
+            "target": "Hill and Knowlton",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "H&K registered as FARA agent for Khashoggi 1984-1986, terminated Dec 12 1986 when Iran-Contra exposed"
+          },
+          {
+            "target": "Nan Morabia",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Nan Morabia delivered $150,000 cash to Khashoggi on Nov 26 1986 per Walsh Report; Khashoggi was Iran arms sales financier"
+          },
+          {
+            "target": "Nan Morabia",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Nan Morabia personally delivered ,000 cash to Khashoggi on Nov 26, 1986 in New York - from Samir Trabigulsi account, described as authorized payment unconnected to Iran-Contra Enterprise"
+          }
+        ],
+        "Deutsche Bank": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank Trust Company Americas was primary banking relationship for GA. Account managed by Stewart Oldfield. KYC case #01353080. Part of the SOUTHERN FINANCIAL RELATIONSHIP umbrella with Mort Inc. GA account changed to Inactive Prospect after all accounts closed."
+          },
+          {
+            "target": "Enhanced Education",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank held Enhanced Education brokerage account managed by Ted Serure. Account underwent KYC/AML review 2018-2019. DB compliance flagged the Enhanced Education trade name for due diligence. Account closed Feb 2019."
+          },
+          {
+            "target": "The Limited Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment — same bank that later maintained Epstein's accounts (RM 82289)"
+          },
+          {
+            "target": "The Limited Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility"
+          },
+          {
+            "target": "Robert Rankin",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Rankin was head of Deutsche Bank Asia-Pacific, later Crown Resorts executive chairman"
+          }
+        ],
+        "Edmond Safra": [
+          {
+            "target": "Ron Soffer",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Ron Soffer worked in banking law at Edmond Safra's Republic National Bank of New York (1988-1991). Republic was Safra's flagship US banking institution. Soffer was an employee/in-house counsel, not a principal."
+          },
+          {
+            "target": "Jacqui Safra",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Jacqui Safra is Edmond Safra's nephew (Safra banking dynasty). Edmond founded Republic National Bank of NY. Both appear on Peggy Siegal master contact lists associated with Epstein social network."
+          },
+          {
+            "target": "Peter A. Cohen",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Cohen worked for Safra at Republic NY/Trade Development Bank 1978-1979, later returned as Vice Chairman of Republic NY and Chairman of Republic NY Securities Corp"
+          },
+          {
+            "target": "Bill Browder",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Co-founded Hermitage Capital Management 1996 with RNB providing $25M seed capital for Russian investments"
+          },
+          {
+            "target": "American Express",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "AmEx conducted unauthorized smear campaign against Safra 1986-1989, falsely linking him to money laundering and Iran-Contra; settled for $8M and public apology"
+          }
+        ],
+        "Nan Morabia": [
+          {
+            "target": "Willard Zucker",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker directed Morabia to make cash drops for Enterprise; she was his domestic cash distribution agent"
+          },
+          {
+            "target": "Robert Owen",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Morabia delivered $7,000 cash to Owen at Republic National Bank, Aug 1985"
+          },
+          {
+            "target": "Republic National Bank",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Officer at Republic National Bank of New York; conducted cash drops outside bank channels"
+          },
+          {
+            "target": "Oliver North",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Morabia family conducted cash drops for Enterprise operations supervised by North"
+          },
+          {
+            "target": "Willard Zucker",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker directed Morabia family cash drops from 1985-1986; Nan was primary RNB contact, coordinated 6 drops ranging K-K at Zucker's request"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1966-1999",
+        "label": "corporate with Edmond Safra",
+        "type": "corporate",
+        "entity": "Edmond Safra",
+        "id": 2051
+      },
+      {
+        "date": "1986",
+        "label": "financial with Adnan Khashoggi",
+        "type": "financial",
+        "entity": "Adnan Khashoggi",
+        "id": 2050
+      },
+      {
+        "date": "2000-07-19",
+        "label": "GLEIF confirms RNB (Uruguay) subsidiary became HSBC Bank (Uruguay) S.A. after 1999 acquisition",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3323
+      }
+    ]
+  }
+}

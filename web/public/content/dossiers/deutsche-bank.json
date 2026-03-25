@@ -1,0 +1,1854 @@
+{
+  "name": "Deutsche Bank",
+  "slug": "deutsche-bank",
+  "aliases": [
+    "DB TRUST",
+    "DEUTSCHE BANK",
+    "Deutsche Bank Trust"
+  ],
+  "generated_at": "2026-02-20T01:17:47.259243",
+  "last_updated": "2026-02-18T18:32:45",
+  "stats": {
+    "total_findings": 25,
+    "total_connections": 19,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 10,
+      "intelligence": 2,
+      "financial": 12,
+      "identity": 1
+    },
+    "connection_types": {
+      "financial": 11,
+      "employment": 2,
+      "legal": 3,
+      "corporate": 2,
+      "political": 1
+    },
+    "last_updated": "2026-02-18T18:32:45"
+  },
+  "findings": [
+    {
+      "id": 395,
+      "finding_type": "legal",
+      "summary": "Deutsche Bank had 4 FARA-registered foreign principal entries through 3 different registrants: Sullivan & Worcester (#2843, 1977-1985), TransAtlantic Futures Inc (#4353, 1990-1992), and Van Scoyoc Associates (#5401, 2003). The Van Scoyoc registration for Deutsche Bank AG New York Branch (2003) overlaps with the period Deutsche Bank maintained 40+ accounts for Epstein and facilitated $2.65M via Butterfly Trust. Deutsche Bank's FARA registrations confirm it was actively lobbying US government while simultaneously serving as Epstein's primary banking relationship.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1990",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:42:27",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA:2843",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA:4353",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA:5401",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "finding_type": "intelligence",
+      "summary": "Deutsche Bank lobbied specifically on Anti-Money Laundering issues in H1 2007 while simultaneously maintaining 40+ Epstein accounts that would later result in 150M NYDFS penalty. DB spent 200K on AML/hedge fund/securities regulation lobbying in H1 2007 and 450K on mortgage/hedge fund/securities in H2 2007. This lobbying occurred during the exact period (2006-2008) when Epstein's NPA was being negotiated and when DB was processing suspicious transactions for Epstein entities. The juxtaposition of lobbying to influence AML regulation while facilitating suspicious transactions for a known sex offender is investigatively significant.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2006",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:27",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:a4af493d-717a-42e4-b59a-e4049bd3a8b5",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank maintained extensive lobbying apparatus: 142 total filings spanning 2002-present. In 2007 (Epstein NPA year), DB lobbied on Anti-Money Laundering and Hedge Fund Regulation (200K H1, 450K H2 = 650K total). In 2019 (Epstein arrest year), DB lobbied via Tiber Creek Group at 150-210K/quarter (660K total) on Dodd-Frank reform, financial services regulation, trade, and cybersecurity. Key lobbyists: Jeffrey Peck, Drew Cantor. Notable: DB was simultaneously lobbying on AML/banking regulation while maintaining 40+ Epstein accounts and processing 2.65M via Butterfly Trust to co-conspirators. 29 LD-203 contribution reports filed, including contributions to Schumer, Shelby, Barney Frank, Gillibrand, and Harry Reid.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2007",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:22",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:a4af493d-717a-42e4-b59a-e4049bd3a8b5",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank Securities Inc filed 29 LD-203 contribution reports. Notable political contributions from DB registered lobbyists include: Schumer (2.5K, 2010), Gillibrand (multiple 2.4-2.5K, 2009-2010), Harry Reid (1.5K, 2010), Barney Frank (5K, 2010), Shelby (5K, 2010), Kanjorski (5K, 2008; 2.7K, 2010), Jim Himes (2.5K, 2010), Kelly Ayotte (2.5K, 2010), Stabenow (5K, 2010), and DCCC (5K, 2008). These contributions went to members of the Senate Banking Committee and House Financial Services Committee who oversaw banking regulation, including AML/BSA enforcement that would later result in Deutsche Bank's 150M NYDFS penalty for Epstein-related AML failures.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:45:39",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:324ee8eb-12a2-42b9-8676-fba8683878e7",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 923,
+      "finding_type": "financial",
+      "summary": "LMSBAND dataset contains a Deutsche Bank 1MDB article (EFTA01384845) documenting DB's investigation for possible foreign corruption or anti-money-laundering violations in its work for 1MDB. Headlines captured: 'Deutsche Bank Caught Up in Scandal Over Malaysian 1MDB Fund' (NYT), 'Deutsche Bank latest headache: Its role in Malaysia 1MDB scandal' (CNN), 'US Investigating Deutsche Bank Dealings With Malaysian Fund 1MDB' (WSJ). This is significant because Deutsche Bank maintained 40+ Epstein accounts simultaneously. The DOJ Vol 11 article (EFTA02466190) specifically notes: 'Deutsche Bank, as 1MDB banker, was involved in sending 1 billion of the funds money out of the country in 2009' and 'the US Department of Justice has asked banks including Deutsche Bank AG and J.P. Morgan Chase for documents related to their interactions with 1MDB.' Both DB and JPM -- Epstein's two primary banks -- were implicated in the 1MDB probe.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:16:26",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384845",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02466190",
+          "source_quote": "Deutsche Bank as 1MDB banker was involved in sending 1 billion of the funds money out of the country in 2009; the US Department of Justice has asked banks including Deutsche Bank AG and J.P. Morgan Chase for documents related to their interactions with 1MDB",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3192,
+      "finding_type": "financial",
+      "summary": "ATTORNEY-1 (Epstein personal attorney) withdrew over $800,000 in cash from Epstein personal accounts over roughly four years (2013-2017), making 97 withdrawals from DB Park Avenue Branch at $7,500 each (bank third-party withdrawal limit). In May 2014, ATTORNEY-1 asked how often he could withdraw without triggering alerts. In July 2017, ATTORNEY-1 broke up a withdrawal over $10K into two days to avoid CTR filing — bank confronted but found him credible. In 2018, ATTORNEY-1 withdrew $100,000 in single cash withdrawal prior to branch closing.",
+      "detail": "Bank filed CTRs but never sought explanation beyond ATTORNEY-1 claim of travel, tipping, and expenses. ATTORNEY-1 inquired about alert thresholds in May 2014 — RELATIONSHIP COORDINATOR-1 asked branch manager about frequency limits but no response recorded. In July 2017, ATTORNEY-1 asked teller if withdrawal over $10K would require reporting, then broke transaction over two days — textbook structuring behavior. AML OFFICER-2 team confronted ATTORNEY-1 about pattern. Bank personnel found ATTORNEY-1 credible and allowed continued withdrawals. Cash structured at just below reporting thresholds across 97 transactions. Park Avenue Branch was located nearby Epstein house.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:05",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3249,
+      "finding_type": "intelligence",
+      "summary": "Epstein modeling agency connection flagged in consent order: press reports noted allegations that Epstein was involved with Eastern European women and that a modeling agency he helped fund brought young girls, often from Eastern Europe to the US on Epstein private jets. This was publicly known before DB onboarding in 2013.",
+      "detail": "The consent order cites pre-2013 press reports about a modeling agency funded by Epstein that brought Eastern European young women to the US. This is likely a reference to MC2 Model Management, which Epstein helped fund and was run by Jean-Luc Brunel. The NYDFS order implicitly criticizes DB for onboarding Epstein despite awareness of this trafficking-adjacent infrastructure. Payments to women with Eastern European surnames then continued through DB accounts including the Butterfly Trust.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:56",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3187,
+      "finding_type": "financial",
+      "summary": "DB onboarded Epstein in August 2013 through RELATIONSHIP MANAGER-1, who had previously serviced Epstein at US BANK-1 (competitor bank, likely JPMorgan). RM-1 joined DB Nov 2012, pitched Epstein as generating '$100-300M flows overtime with revenue of $2-4M annually.' Proposed all accounts be for entities, not personal accounts. Onboarding approved via informal email from EXECUTIVE-1 (Co-Head of Wealth Management Americas) citing conversations with Head of AML Compliance and General Counsel — but no ARRC review occurred.",
+      "detail": "RM-1 proposed relationship in spring 2013. Junior coordinator RELATIONSHIP COORDINATOR-1 prepared memo containing Epstein criminal history (2007 plea, 13-month sentence, accusations of paying young women for massages, 17 out-of-court settlements). EXECUTIVE-1 sent Approval Email on May 5, 2013 stating neither Head of AML nor General Counsel suggested rep risk review needed. Bank has no other record of this conversation. ARRC did not meet for initial onboarding. AML compliance officer cleared relationship based solely on Approval Email without speaking directly to parties mentioned.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-05-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:25:51",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "finding_type": "financial",
+      "summary": "NYDFS Consent Order (2020) confirms Deutsche Bank maintained 40+ accounts for Epstein entities from Aug 2013 to Dec 2018. DB classified relationship as 'high-risk' but failed to properly monitor. Butterfly Trust included co-conspirators as beneficiaries. Over 120 wires totaling $2.65M sent to beneficiaries including women with Eastern European surnames. Payments to 'a Russian model and Russian publicity agent' deemed 'normal for this client.' ARRC conditions never communicated to relationship team. $150M penalty.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-08",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:00",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NYDFS-ConsentOrder-2020",
+          "source_quote": "Since this type of activity is normal for this client it is not deemed suspicious",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3258,
+      "finding_type": "legal",
+      "summary": "NYDFS consent order identifies Epstein as 'Honorary PEP' at Deutsche Bank — not formally classified as politically exposed person, but given informal designation due to connections to prominent political figures. This resulted in enhanced transaction monitoring but monitoring was not tailored to the specific risks he posed (sex trafficking, payments to co-conspirators).",
+      "detail": "The Honorary PEP designation combined with high-risk classification should have triggered comprehensive monitoring. Instead, AML OFFICER-2 narrowly interpreted monitoring to only check if women in transactions were at least 18 years old. The failure to tailor monitoring to known risks (co-conspirator payments, trafficking, cash structuring) was the central compliance failure per NYDFS.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-08",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:20",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3241,
+      "finding_type": "legal",
+      "summary": "October 2013: DB compliance officer performed background checks on Butterfly Trust beneficiaries and flagged CO-CONSPIRATOR-2 as alleged Epstein co-conspirator. RELATIONSHIP COORDINATOR-1 confirmed CO-CONSPIRATOR-2 was 'accused as a co-conspirator in a case but was never brought to trial nor ever convicted.' Alert was cleared citing the Approval Email from EXECUTIVE-1. Trust was onboarded despite known co-conspirator beneficiary.",
+      "detail": "This finding demonstrates that DB personnel knew before the Butterfly Trust opened (Jan 24, 2014) that at least one beneficiary was an alleged co-conspirator. The compliance flag was explicitly cleared based on EXECUTIVE-1 Approval Email — an informal email that was never intended as blanket approval for all Epstein-related accounts. CO-CONSPIRATOR-2 identity is redacted in consent order but publicly known from other court filings. The trust created risk that payments could be used to further or coverup criminal activity and perhaps even to endanger more young women per NYDFS.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:27",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3198,
+      "finding_type": "financial",
+      "summary": "Epstein used DB accounts for over $7M in settlement payments to law firms (apparent victim settlements) plus over $6M in legal expenses for Epstein and co-conspirators. Also sent over 120 wires totaling $2.65M to Butterfly Trust beneficiaries including at least 18 wires of $10K+ to named co-conspirators (CO-CONSPIRATORS 1, 2, 3). Payments included hotel expenses, tuition, rent, and immigration expenses for young women with Eastern European surnames.",
+      "detail": "Wire activity to co-conspirators began November 1, 2013, within weeks of account opening. Some early wires to entity only later publicly associated with co-conspirator (2015). Butterfly Trust opened Jan 24, 2014 — checking and money market accounts. Beneficiaries included CO-CONSPIRATORS 1-3 and women with Eastern European surnames. Epstein told bank they were employees or friends. KYC stated trust purpose was to pay taxes and trust fees. May 2018 compliance inquiry about payments to women at Russian bank — cleared after ACCOUNTANT-1 replied SENT TO A FRIEND FOR TUITION FOR SCHOOL and RM-2 explained Epstein had flexibility to use any funded account. March 2017 alert about payments to Russian model and Russian publicity agent cleared with note: since this type of activity is normal for this client it is not deemed suspicious.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:21",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3205,
+      "finding_type": "legal",
+      "summary": "ARRC reviewed Epstein relationship on January 30, 2015 after AML OFFICER-1 escalated new press reports (June 2014 appeals court ruling on Epstein plea, allegations involving prominent US politician and European royal). No minutes taken of meeting (violating bank policy). Committee was 'comfortable with things continuing,' noting 'a number of sizable deals recently.' Three conditions imposed but never communicated to relationship team or transaction monitoring team.",
+      "detail": "Before ARRC meeting, EXECUTIVE-1 and RELATIONSHIP MANAGER-1 met Epstein at his NY home on Jan 22, 2015. No contemporaneous records of meeting substance. AML OFFICER-1 had flagged that Approval Email was 'not a direct approval' — just a front office MD reporting conversations. AML OFFICER-2 escalated to ARRC noting '40 underage girls had come forward' and '17 lawsuits settled.' ARRC conditions: (1) trades in existing accounts without compliance pre-approval unless unusual/suspicious, (2) CBS unit could open booking accounts for approved activity, (3) business must monitor for further developments and review activity. Conditions communicated to senior personnel up to CEO of the Americas — but NOT to relationship managers. AML OFFICER-2 misinterpreted conditions to mean unusual only relative to prior Epstein history, resulting in March 2017 clearance of Russian model payments as 'normal for this client.' RM-2 replaced RM-1 in April 2016 and was never informed of ARRC conditions.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-01-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:37",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3259,
+      "finding_type": "legal",
+      "summary": "ARRC Head of Compliance Americas characterized Jan 2015 ARRC decision as: continue business as usual with Jeff Epstein based upon [EXECUTIVE-1] due diligence visit with him. This explicitly tied continued approval to a single in-person meeting between EXECUTIVE-1/RM-1 and Epstein at his New York home on January 22, 2015 — no independent investigation, no external due diligence, substance of meeting never documented.",
+      "detail": "The quote reveals that the ARRC decision to continue was based primarily on EXECUTIVE-1 personal visit and assurances. The January 22, 2015 meeting at Epstein NY home was conducted by two front-office personnel (EXECUTIVE-1 and RELATIONSHIP MANAGER-1) — neither AML nor compliance officers attended. EXECUTIVE-1 asked Epstein about veracity of recent allegations and appeared to be satisfied by response. Bank has no contemporaneous records of meeting substance and is not aware of any other steps taken to investigate beyond speaking with Epstein himself.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:31",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3255,
+      "finding_type": "financial",
+      "summary": "Epstein requested trading limit increase on July 21, 2015. COVERAGE TEAM MEMBER-1 escalated to AML OFFICER-2, who escalated to ARRC Chairman. Chairman approved without formal meeting, adding: I also checked in with [EXECUTIVE-1] last night to make sure he supports this and has heard nothing negative on the client. EXECUTIVE-1 confirmed both.",
+      "detail": "This shows that EXECUTIVE-1 continued to actively support the Epstein relationship as late as July 2015, six months after the ARRC review. The informal approval process — Chairman checking in with EXECUTIVE-1 by phone — mirrors the same ad hoc governance that characterized the initial onboarding. The ARRC Chairman did not convene a formal meeting but instead polled members individually and approved. The reference to EXECUTIVE-1 hearing nothing negative on the client suggests EXECUTIVE-1 was monitoring the relationship and providing ongoing assurance.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-07-29",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:18",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3217,
+      "finding_type": "financial",
+      "summary": "Gratitude America (Epstein private charity) account opening attempted in January 2016. ACCOUNTANT-1 requested brokerage account. COVERAGE TEAM MEMBER-1 escalated to AML OFFICER-2, then to ARRC Secretary. External due diligence report ordered on Epstein — but ACCOUNTANT-1 informed bank of Epstein resignation from Gratitude America and withdrew account request, so NO due diligence report was actually run.",
+      "detail": "This is significant because it shows that even when an opportunity arose in 2016 to conduct proper due diligence on Epstein, the request was withdrawn before execution, meaning DB went through the entire relationship (2013-2018) without conducting an external due diligence report on Epstein. The withdrawal of the Gratitude America request itself is suspicious — suggests Epstein or his representatives wanted to avoid scrutiny.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-01-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:27:08",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3251,
+      "finding_type": "legal",
+      "summary": "Deutsche Bank had prior independent monitor engaged per January 30, 2017 Consent Order. NYDFS directed that existing monitor address the Epstein/FBME/Danske compliance failures within the timetable of that engagement. Department reserved right to extend scope or duration of monitorship.",
+      "detail": "This reveals that DB was already under enhanced NYDFS supervision (monitorship) since January 2017 — while still maintaining Epstein accounts through December 2018. The 2017 consent order was for separate compliance issues. DB was simultaneously being monitored for prior AML failures while continuing to fail at monitoring Epstein accounts. The 2020 consent order added the Epstein/FBME/Danske failures to the existing monitors scope rather than requiring a new monitor.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:07",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3208,
+      "finding_type": "legal",
+      "summary": "AML OFFICER-2 misinterpreted ARRC conditions on Epstein monitoring: instead of monitoring for all potential crimes implicated by Epstein past (payments to co-conspirators, sex trafficking), officer only instructed transaction monitoring team to verify via internet searches that any woman in transactions was at least 18 years old, and to only flag transactions if no rational reason could be discerned. This standard had little if any effect on monitoring.",
+      "detail": "The misinterpretation was exemplified by March 2017 email exchange: member of transaction monitoring team responded to alert about payments to a Russian model and Russian publicity agent, stating: since this type of activity is normal for this client it is not deemed suspicious. The ARRC clause about unusual and/or suspicious activity or are in a size that is unusually significant or novel in structure was interpreted to mean unusual only relative to prior Epstein transaction history — effectively defining away all suspicious activity as normal baseline.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:47",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3257,
+      "finding_type": "financial",
+      "summary": "May 2018: Compliance officer inquired about Epstein payments to accounts of women with Eastern European surnames at a Russian bank. RELATIONSHIP MANAGER-2 forwarded ACCOUNTANT-1 response: SENT TO A FRIEND FOR TUITION FOR SCHOOL. When compliance asked why this account was being used to pay school tuition, RM-2 explained Epstein had flexibility to use any account. No further follow-up questions recorded and transaction was cleared.",
+      "detail": "This May 2018 incident, just seven months before the relationship was terminated, shows the monitoring failure pattern: (1) Compliance flags suspicious activity — payments to Eastern European women at Russian bank. (2) RM obtains explanation from Epstein side — generic claim about tuition for a friend. (3) Compliance accepts explanation despite it making little business sense. (4) No further investigation. The consent order notes the Bank has represented it has no records of the compliance officer asking further follow-up questions. This is one of the most specific examples of how the monitoring failure enabled Epstein to continue using accounts for potentially suspicious purposes.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:31",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3213,
+      "finding_type": "legal",
+      "summary": "After DB terminated Epstein relationship in December 2018, RELATIONSHIP MANAGER-2 drafted reference letters to two other financial institutions on Deutsche Bank letterhead, stating in one letter he was 'unaware of any problems relating to the operation or use of [the] accounts.' This despite the reputational-risk-based termination and the full history of compliance concerns.",
+      "detail": "Bank informed Epstein by letter on December 21, 2018 that they would no longer service his accounts, triggered by November 2018 Miami Herald article detailing 2008 plea deal. Despite the bank decision to offboard ALL Epstein accounts due to reputational risk, RM-2 provided reference letters to help Epstein move to other banks. This is investigatively significant — identifies RM-2 as potentially sympathetic to Epstein even after termination.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-12-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:57",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3183,
+      "finding_type": "legal",
+      "summary": "NYDFS imposed $150M penalty on Deutsche Bank for AML failures related to Epstein, FBME, and Danske Estonia relationships. Consent Order signed July 6, 2020 under NY Banking Law Sections 39 and 44. Bank found to have conducted business in unsafe and unsound manner (Section 44 violation) and failed to maintain effective AML program (3 NYCRR Section 116.2 violation).",
+      "detail": "Consent Order between NYDFS, Deutsche Bank AG, Deutsche Bank AG New York Branch, and Deutsche Bank Trust Company of the Americas. Penalty of $150,000,000 payable within 10 business days. Bank agreed not to claim tax deductions or seek insurance reimbursement for penalty. Independent monitor already engaged per prior January 30, 2017 Consent Order directed to address these additional failures.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:25:35",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3244,
+      "finding_type": "identity",
+      "summary": "DB consent order identifies key anonymous individuals in Epstein relationship: RELATIONSHIP MANAGER-1 (joined DB Nov 2012 from US BANK-1), RELATIONSHIP COORDINATOR-1 (junior coordinator), EXECUTIVE-1 (Co-Head Wealth Management Americas), EXECUTIVE-2 (COO Wealth Management Americas), AML OFFICER-1 and AML OFFICER-2 (compliance officers), RELATIONSHIP MANAGER-2 (replaced RM-1 in April 2016), ATTORNEY-1 (Epstein personal attorney who withdrew cash), ACCOUNTANT-1 (Epstein accountant), COVERAGE TEAM MEMBER-1, AML COMPLIANCE DIRECTOR-1 (former Director of US Anti-Financial Crimes).",
+      "detail": "Named signatories to the consent order: NYDFS side — Linda A. Lacewell (Superintendent), Katherine A. Lemire (Executive Deputy Superintendent), Kevin R. Puvalowski (Senior Deputy Superintendent), R. Bruce Wells (Associate Counsel), Terri-Anne Caplan (Sr. Asst. Deputy Superintendent for Enforcement), Randolph Hall (Asst. Counsel for Enforcement), Zachary Shapiro (Attorney for Enforcement). Deutsche Bank side — Karen Kuder (General Counsel), Thorsten Seyfried (General Counsel Germany/EMEA), Joe Salama (Global Head of Litigation and Regulatory Enforcement), Andrew Stemmer (Head of Litigation and Regulatory Enforcement Americas), Steven F. Reich (General Counsel Americas). US BANK-1 is likely JPMorgan based on public reporting.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:28:43",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3260,
+      "finding_type": "legal",
+      "summary": "DB consent order correspondent banking compliance failures: bank failed to maintain policies with specific criteria for when to terminate correspondent banking relationships (e.g., patterns of high RAC scores, high suspicious activity volumes). Failed to maintain policies for closure of accounts based on failure to obtain/update USA PATRIOT Act certifications. Failed to maintain policies with practical guidance for determining whether other foreign banks use the respondent account, or for verifying beneficial owner identities.",
+      "detail": "These systemic policy failures applied across the DB correspondent banking business, not just to FBME and Danske Estonia. The absence of termination criteria meant that even maximum risk scores (RAC 10 for Danske Estonia) and hundreds of suspicious transactions did not trigger automatic account closure review. The policy gaps were structural — no clear off-ramp existed for high-risk correspondent relationships regardless of how many red flags accumulated.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:43",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 960,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank had dual exposure to both 1MDB and Epstein networks simultaneously. DB was investigated by DOJ for possible FCPA/AML violations related to 1MDB fund work (EFTA01384845: 'Deutsche Bank faces US investigation over work for Malaysia 1MDB fund'). DB also maintained 40+ Epstein accounts with $2.65M flowing via Butterfly Trust to co-conspirators. DB lobbied on 'Anti-Money Laundering' issues in H1 2007 while maintaining Epstein accounts. The Wildman v. Deutsche Bank case (EDNY 2021, 2nd Cir 2023) is a 1MDB-related shareholder suit. Doe 1 v. Deutsche Bank (SDNY 2022) is the Epstein victim case. Both involved the same bank's compliance failures.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:18:54",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384845",
+          "source_quote": "Deutsche Bank faces US investigation over work for Malaysia 1MDB fund — The Guardian",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3639,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank informed Epstein on Dec 21, 2018 that they would close his accounts, giving him until Feb 28, 2019. But Epstein still held 9 accounts totaling .77M as of May 3, 2019. DB continued offering services including cash transfers and currency exchanges through April 2019. Accounts were not finally closed until after Epstein's July 6 2019 arrest. This means during the entire period of the Kraft spa investigation (Feb-May 2019), Epstein's Deutsche Bank accounts remained active despite the stated closure deadline.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 18:32:45",
+      "target_name": "Deutsche Bank",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.amlintelligence.com/2026/02/insight-deutsche-bank-continued-serving-epstein-after-deciding-to-close-accounts/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 39,
+      "person_a": "Deutsche Bank",
+      "person_b": "Gratitude America Ltd",
+      "relationship_type": "financial",
+      "description": "Deutsche Bank Trust Company Americas was primary banking relationship for GA. Account managed by Stewart Oldfield. KYC case #01353080. Part of the SOUTHERN FINANCIAL RELATIONSHIP umbrella with Mort Inc. GA account changed to Inactive Prospect after all accounts closed.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:12:32",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01284072",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01345320",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01376946",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "person_a": "Deutsche Bank",
+      "person_b": "Enhanced Education",
+      "relationship_type": "financial",
+      "description": "Deutsche Bank held Enhanced Education brokerage account managed by Ted Serure. Account underwent KYC/AML review 2018-2019. DB compliance flagged the Enhanced Education trade name for due diligence. Account closed Feb 2019.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:36",
+      "other_person": "Enhanced Education",
+      "other_person_slug": "enhanced-education",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01374774",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01378650",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01357627",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1209,
+      "person_a": "Deutsche Bank",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment — same bank that later maintained Epstein's accounts (RM 82289)",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:11:49",
+      "other_person": "The Limited Inc",
+      "other_person_slug": "the-limited-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950132-96-000246",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1268,
+      "person_a": "Deutsche Bank",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:04:36",
+      "other_person": "The Limited Inc",
+      "other_person_slug": "the-limited-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1329,
+      "person_a": "Deutsche Bank",
+      "person_b": "Robert Rankin",
+      "relationship_type": "employment",
+      "description": "Rankin was head of Deutsche Bank Asia-Pacific, later Crown Resorts executive chairman",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 22:22:13",
+      "other_person": "Robert Rankin",
+      "other_person_slug": "robert-rankin",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:440095",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1341,
+      "person_a": "Deutsche Bank",
+      "person_b": "Robert Rankin",
+      "relationship_type": "employment",
+      "description": "Rankin was CEO Deutsche Bank Asia-Pacific excluding Japan Oct 2009 to Jun 2012 then Co-Head Corporate Banking and Securities from Jun 2012. Deutsche Bank was Epsteins primary bank with 67M plus 32M Wanek accounts.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 23:00:52",
+      "other_person": "Robert Rankin",
+      "other_person_slug": "robert-rankin",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "web:db.com/newsroom_news/archive",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1448,
+      "person_a": "Deutsche Bank",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "financial",
+      "description": "DB performed formal KYC screening of Kellerhals (GCIS ID 11593661, Oct 2016) and listed her alongside inner circle (Beller, Indyke, Kahn) in account opening documents for Butterfly entity (Oct 2018). Kellerhals was DB-recognized as a related person for Epstein account management.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:48:21",
+      "other_person": "Erika Kellerhals",
+      "other_person_slug": "erika-kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363310",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01386745",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1474,
+      "person_a": "Deutsche Bank",
+      "person_b": "Paul Weiss",
+      "relationship_type": "legal",
+      "description": "PW is outside defense counsel for DB in LIBOR, swap rates, structured products, tax shelter, and AML matters since 2010",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 04:41:30",
+      "other_person": "Paul Weiss",
+      "other_person_slug": "paul-weiss",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.paulweiss.com/practices/litigation/white-collar-regulatory-defense/practice-overview/representative-engagements",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1591,
+      "person_a": "Deutsche Bank",
+      "person_b": "Kirkland and Ellis",
+      "relationship_type": "legal",
+      "description": "KE in 7048 SEC EDGAR filings with Deutsche Bank. Counsel on structured finance.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:12:19",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=EFTS_DB",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1662,
+      "person_a": "Deutsche Bank",
+      "person_b": "Kirkland & Ellis",
+      "relationship_type": "corporate",
+      "description": "K&E represented DB in CFTC precious metals spoofing settlement (M), shareholder litigation after forex investigation, and MidOcean Partners .6B spin-off.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:21:59",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://globalinvestigationsreview.com/survey/gir-100/2018/organization-profile/kirkland-ellis",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1743,
+      "person_a": "Deutsche Bank",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 1773,
+      "person_a": "Deutsche Bank",
+      "person_b": "Lawrence Summers",
+      "relationship_type": "financial",
+      "description": "Finding #140: Deutsche Bank account statement (Nov 2014) shows two wire transfers from Epstein's account (account ending 44129244) to LH Summers Economic Consulting",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Lawrence Summers",
+      "other_person_slug": "lawrence-summers",
+      "evidence": []
+    },
+    {
+      "id": 1863,
+      "person_a": "Deutsche Bank",
+      "person_b": "Prytanee LLC",
+      "relationship_type": "corporate",
+      "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Prytanee LLC",
+      "other_person_slug": "prytanee-llc",
+      "evidence": []
+    },
+    {
+      "id": 1813,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Deutsche Bank",
+      "relationship_type": "financial",
+      "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Carbyne/Reporty",
+      "other_person_slug": "carbynereporty",
+      "evidence": []
+    },
+    {
+      "id": 279,
+      "person_a": "Deutsche Bank",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "40+ accounts at DB from Aug 2013-Dec 2018. $2.65M in wires through Butterfly Trust. NYDFS $150M penalty. Relationship managed via wealth management division.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:20",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 327,
+      "person_a": "Deutsche Bank",
+      "person_b": "Epstein",
+      "relationship_type": "legal",
+      "description": "Deutsche Bank had 4 FARA registrations as foreign principal while simultaneously maintaining 40+ accounts for Epstein. FARA lobbying and Epstein banking were concurrent activities.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:13",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA:5401",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "person_a": "Deutsche Bank",
+      "person_b": "Tiber Creek Group",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:45:53",
+      "other_person": "Tiber Creek Group",
+      "other_person_slug": "tiber-creek-group",
+      "evidence": []
+    },
+    {
+      "id": 1538,
+      "person_a": "Deutsche Bank",
+      "person_b": "William Barr",
+      "relationship_type": "political",
+      "description": "Epstein iMessage (May 27, 2019): 'Navigate Biden Horowitz Barr. DB NYS /' — DB likely refers to Deutsche Bank, Epstein's primary banker. Barr as AG oversaw DOJ during period when Deutsche Bank was under investigation for Epstein accounts, money laundering, and sanctions violations. SDNY investigated DB's Epstein relationship. Barr attempted to replace SDNY USA Berman with Jay Clayton, who had represented Deutsche Bank at Sullivan & Cromwell.",
+      "strength": "medium",
+      "date_range": "2019-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 16:17:05",
+      "other_person": "William Barr",
+      "other_person_slug": "william-barr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding:2954",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding:2968",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2010,
+      "person_a": "Deutsche Bank",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "financial",
+      "description": "RNB and Deutsche Bank operated in parallel on correspondent banking: both blocked South Pacific island nation wire transfers in late 1999 (alongside Bank of New York) due to money laundering concerns with Nauru-licensed banks",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:56:25",
+      "other_person": "Republic National Bank of New York",
+      "other_person_slug": "republic-national-bank-of-new-york",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Levin PSI Correspondent Banking report pp.236, 249",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1990",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Deutsche Bank had 4 FARA-registered foreign principal entries through 3 different registrants: Sullivan & Worcester (#2843, 1977-1985), TransAtlantic Futures Inc (#4353, 1990-1992), and Van Scoyoc Associates (#5401, 2003). The Van Scoyoc registration for Deutsche Bank AG New York Branch (2003) overlaps with the period Deutsche Bank maintained 40+ accounts for Epstein and facilitated $2.65M via Butterfly Trust. Deutsche Bank's FARA registrations confirm it was actively lobbying US government while simultaneously serving as Epstein's primary banking relationship.",
+      "confidence": "medium",
+      "id": 395
+    },
+    {
+      "date": "2006",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Deutsche Bank lobbied specifically on Anti-Money Laundering issues in H1 2007 while simultaneously maintaining 40+ Epstein accounts that would later result in 150M NYDFS penalty. DB spent 200K on AML/hedge fund/securities regulation lobbying in H1 2007 and 450K on mortgage/hedge fund/securities in H2 2007. This lobbying occurred during the exact period (2006-2008) when Epstein's NPA was being negotiated and when DB was processing suspicious transactions for Epstein entities. The juxtaposition of lobbying to influence AML regulation while facilitating suspicious transactions for a known sex offender is investigatively significant.",
+      "confidence": "medium",
+      "id": 416
+    },
+    {
+      "date": "2007",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank maintained extensive lobbying apparatus: 142 total filings spanning 2002-present. In 2007 (Epstein NPA year), DB lobbied on Anti-Money Laundering and Hedge Fund Regulation (200K H1, 450K H2 = 650K total). In 2019 (Epstein arrest year), DB lobbied via Tiber Creek Group at 150-210K/quarter (660K total) on Dodd-Frank reform, financial services regulation, trade, and cybersecurity. Key lobbyists: Jeffrey Peck, Drew Cantor. Notable: DB was simultaneously lobbying on AML/banking regulation while maintaining 40+ Epstein accounts and processing 2.65M via Butterfly Trust to co-conspirators. 29 LD-203 contribution reports filed, including contributions to Schumer, Shelby, Barney Frank, Gillibrand, and Harry Reid.",
+      "confidence": "medium",
+      "id": 415
+    },
+    {
+      "date": "2009",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank Securities Inc filed 29 LD-203 contribution reports. Notable political contributions from DB registered lobbyists include: Schumer (2.5K, 2010), Gillibrand (multiple 2.4-2.5K, 2009-2010), Harry Reid (1.5K, 2010), Barney Frank (5K, 2010), Shelby (5K, 2010), Kanjorski (5K, 2008; 2.7K, 2010), Jim Himes (2.5K, 2010), Kelly Ayotte (2.5K, 2010), Stabenow (5K, 2010), and DCCC (5K, 2008). These contributions went to members of the Senate Banking Committee and House Financial Services Committee who oversaw banking regulation, including AML/BSA enforcement that would later result in Deutsche Bank's 150M NYDFS penalty for Epstein-related AML failures.",
+      "confidence": "medium",
+      "id": 434
+    },
+    {
+      "date": "2009",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "LMSBAND dataset contains a Deutsche Bank 1MDB article (EFTA01384845) documenting DB's investigation for possible foreign corruption or anti-money-laundering violations in its work for 1MDB. Headlines captured: 'Deutsche Bank Caught Up in Scandal Over Malaysian 1MDB Fund' (NYT), 'Deutsche Bank latest headache: Its role in Malaysia 1MDB scandal' (CNN), 'US Investigating Deutsche Bank Dealings With Malaysian Fund 1MDB' (WSJ). This is significant because Deutsche Bank maintained 40+ Epstein accounts simultaneously. The DOJ Vol 11 article (EFTA02466190) specifically notes: 'Deutsche Bank, as 1MDB banker, was involved in sending 1 billion of the funds money out of the country in 2009' and 'the US Department of Justice has asked banks including Deutsche Bank AG and J.P. Morgan Chase for documents related to their interactions with 1MDB.' Both DB and JPM -- Epstein's two primary banks -- were implicated in the 1MDB probe.",
+      "confidence": "high",
+      "id": 923
+    },
+    {
+      "date": "2013",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ATTORNEY-1 (Epstein personal attorney) withdrew over $800,000 in cash from Epstein personal accounts over roughly four years (2013-2017), making 97 withdrawals from DB Park Avenue Branch at $7,500 each (bank third-party withdrawal limit). In May 2014, ATTORNEY-1 asked how often he could withdraw without triggering alerts. In July 2017, ATTORNEY-1 broke up a withdrawal over $10K into two days to avoid CTR filing — bank confronted but found him credible. In 2018, ATTORNEY-1 withdrew $100,000 in single cash withdrawal prior to branch closing.",
+      "confidence": "high",
+      "id": 3192
+    },
+    {
+      "date": "2013",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein modeling agency connection flagged in consent order: press reports noted allegations that Epstein was involved with Eastern European women and that a modeling agency he helped fund brought young girls, often from Eastern Europe to the US on Epstein private jets. This was publicly known before DB onboarding in 2013.",
+      "confidence": "high",
+      "id": 3249
+    },
+    {
+      "date": "2013-05-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB onboarded Epstein in August 2013 through RELATIONSHIP MANAGER-1, who had previously serviced Epstein at US BANK-1 (competitor bank, likely JPMorgan). RM-1 joined DB Nov 2012, pitched Epstein as generating '$100-300M flows overtime with revenue of $2-4M annually.' Proposed all accounts be for entities, not personal accounts. Onboarding approved via informal email from EXECUTIVE-1 (Co-Head of Wealth Management Americas) citing conversations with Head of AML Compliance and General Counsel — but no ARRC review occurred.",
+      "confidence": "high",
+      "id": 3187
+    },
+    {
+      "date": "2013-08",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "NYDFS Consent Order (2020) confirms Deutsche Bank maintained 40+ accounts for Epstein entities from Aug 2013 to Dec 2018. DB classified relationship as 'high-risk' but failed to properly monitor. Butterfly Trust included co-conspirators as beneficiaries. Over 120 wires totaling $2.65M sent to beneficiaries including women with Eastern European surnames. Payments to 'a Russian model and Russian publicity agent' deemed 'normal for this client.' ARRC conditions never communicated to relationship team. $150M penalty.",
+      "confidence": "high",
+      "id": 322
+    },
+    {
+      "date": "2013-08",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "NYDFS consent order identifies Epstein as 'Honorary PEP' at Deutsche Bank — not formally classified as politically exposed person, but given informal designation due to connections to prominent political figures. This resulted in enhanced transaction monitoring but monitoring was not tailored to the specific risks he posed (sex trafficking, payments to co-conspirators).",
+      "confidence": "high",
+      "id": 3258
+    },
+    {
+      "date": "2013-10",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "October 2013: DB compliance officer performed background checks on Butterfly Trust beneficiaries and flagged CO-CONSPIRATOR-2 as alleged Epstein co-conspirator. RELATIONSHIP COORDINATOR-1 confirmed CO-CONSPIRATOR-2 was 'accused as a co-conspirator in a case but was never brought to trial nor ever convicted.' Alert was cleared citing the Approval Email from EXECUTIVE-1. Trust was onboarded despite known co-conspirator beneficiary.",
+      "confidence": "high",
+      "id": 3241
+    },
+    {
+      "date": "2013-11",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein used DB accounts for over $7M in settlement payments to law firms (apparent victim settlements) plus over $6M in legal expenses for Epstein and co-conspirators. Also sent over 120 wires totaling $2.65M to Butterfly Trust beneficiaries including at least 18 wires of $10K+ to named co-conspirators (CO-CONSPIRATORS 1, 2, 3). Payments included hotel expenses, tuition, rent, and immigration expenses for young women with Eastern European surnames.",
+      "confidence": "high",
+      "id": 3198
+    },
+    {
+      "date": "2015-01-30",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "ARRC reviewed Epstein relationship on January 30, 2015 after AML OFFICER-1 escalated new press reports (June 2014 appeals court ruling on Epstein plea, allegations involving prominent US politician and European royal). No minutes taken of meeting (violating bank policy). Committee was 'comfortable with things continuing,' noting 'a number of sizable deals recently.' Three conditions imposed but never communicated to relationship team or transaction monitoring team.",
+      "confidence": "high",
+      "id": 3205
+    },
+    {
+      "date": "2015-02",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "ARRC Head of Compliance Americas characterized Jan 2015 ARRC decision as: continue business as usual with Jeff Epstein based upon [EXECUTIVE-1] due diligence visit with him. This explicitly tied continued approval to a single in-person meeting between EXECUTIVE-1/RM-1 and Epstein at his New York home on January 22, 2015 — no independent investigation, no external due diligence, substance of meeting never documented.",
+      "confidence": "high",
+      "id": 3259
+    },
+    {
+      "date": "2015-07-29",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein requested trading limit increase on July 21, 2015. COVERAGE TEAM MEMBER-1 escalated to AML OFFICER-2, who escalated to ARRC Chairman. Chairman approved without formal meeting, adding: I also checked in with [EXECUTIVE-1] last night to make sure he supports this and has heard nothing negative on the client. EXECUTIVE-1 confirmed both.",
+      "confidence": "high",
+      "id": 3255
+    },
+    {
+      "date": "2016-01-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Gratitude America (Epstein private charity) account opening attempted in January 2016. ACCOUNTANT-1 requested brokerage account. COVERAGE TEAM MEMBER-1 escalated to AML OFFICER-2, then to ARRC Secretary. External due diligence report ordered on Epstein — but ACCOUNTANT-1 informed bank of Epstein resignation from Gratitude America and withdrew account request, so NO due diligence report was actually run.",
+      "confidence": "high",
+      "id": 3217
+    },
+    {
+      "date": "2017-01-30",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Deutsche Bank had prior independent monitor engaged per January 30, 2017 Consent Order. NYDFS directed that existing monitor address the Epstein/FBME/Danske compliance failures within the timetable of that engagement. Department reserved right to extend scope or duration of monitorship.",
+      "confidence": "high",
+      "id": 3251
+    },
+    {
+      "date": "2017-03",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "AML OFFICER-2 misinterpreted ARRC conditions on Epstein monitoring: instead of monitoring for all potential crimes implicated by Epstein past (payments to co-conspirators, sex trafficking), officer only instructed transaction monitoring team to verify via internet searches that any woman in transactions was at least 18 years old, and to only flag transactions if no rational reason could be discerned. This standard had little if any effect on monitoring.",
+      "confidence": "high",
+      "id": 3208
+    },
+    {
+      "date": "2018-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "May 2018: Compliance officer inquired about Epstein payments to accounts of women with Eastern European surnames at a Russian bank. RELATIONSHIP MANAGER-2 forwarded ACCOUNTANT-1 response: SENT TO A FRIEND FOR TUITION FOR SCHOOL. When compliance asked why this account was being used to pay school tuition, RM-2 explained Epstein had flexibility to use any account. No further follow-up questions recorded and transaction was cleared.",
+      "confidence": "high",
+      "id": 3257
+    },
+    {
+      "date": "2018-12-21",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "After DB terminated Epstein relationship in December 2018, RELATIONSHIP MANAGER-2 drafted reference letters to two other financial institutions on Deutsche Bank letterhead, stating in one letter he was 'unaware of any problems relating to the operation or use of [the] accounts.' This despite the reputational-risk-based termination and the full history of compliance concerns.",
+      "confidence": "high",
+      "id": 3213
+    },
+    {
+      "date": "2019-2020",
+      "type": "connection",
+      "relationship_type": "political",
+      "description": "Epstein iMessage (May 27, 2019): 'Navigate Biden Horowitz Barr. DB NYS /' — DB likely refers to Deutsche Bank, Epstein's primary banker. Barr as AG oversaw DOJ during period when Deutsche Bank was under investigation for Epstein accounts, money laundering, and sanctions violations. SDNY investigated DB's Epstein relationship. Barr attempted to replace SDNY USA Berman with Jay Clayton, who had represented Deutsche Bank at Sullivan & Cromwell.",
+      "other_person": "William Barr",
+      "id": 1538
+    },
+    {
+      "date": "2020-07-06",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "NYDFS imposed $150M penalty on Deutsche Bank for AML failures related to Epstein, FBME, and Danske Estonia relationships. Consent Order signed July 6, 2020 under NY Banking Law Sections 39 and 44. Bank found to have conducted business in unsafe and unsound manner (Section 44 violation) and failed to maintain effective AML program (3 NYCRR Section 116.2 violation).",
+      "confidence": "high",
+      "id": 3183
+    },
+    {
+      "date": "2020-07-06",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "DB consent order identifies key anonymous individuals in Epstein relationship: RELATIONSHIP MANAGER-1 (joined DB Nov 2012 from US BANK-1), RELATIONSHIP COORDINATOR-1 (junior coordinator), EXECUTIVE-1 (Co-Head Wealth Management Americas), EXECUTIVE-2 (COO Wealth Management Americas), AML OFFICER-1 and AML OFFICER-2 (compliance officers), RELATIONSHIP MANAGER-2 (replaced RM-1 in April 2016), ATTORNEY-1 (Epstein personal attorney who withdrew cash), ACCOUNTANT-1 (Epstein accountant), COVERAGE TEAM MEMBER-1, AML COMPLIANCE DIRECTOR-1 (former Director of US Anti-Financial Crimes).",
+      "confidence": "high",
+      "id": 3244
+    },
+    {
+      "date": "2020-07-06",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "DB consent order correspondent banking compliance failures: bank failed to maintain policies with specific criteria for when to terminate correspondent banking relationships (e.g., patterns of high RAC scores, high suspicious activity volumes). Failed to maintain policies for closure of accounts based on failure to obtain/update USA PATRIOT Act certifications. Failed to maintain policies with practical guidance for determining whether other foreign banks use the respondent account, or for verifying beneficial owner identities.",
+      "confidence": "high",
+      "id": 3260
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      923,
+      960,
+      3192,
+      3187,
+      395,
+      3258,
+      3241,
+      3205,
+      3249,
+      3244,
+      416,
+      322
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          39,
+          50,
+          1209,
+          1268,
+          1329,
+          1341,
+          1448,
+          1474,
+          1591,
+          1662,
+          1743,
+          1773,
+          1863,
+          1813,
+          279
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          415,
+          434,
+          923,
+          3192,
+          3187,
+          322,
+          3198,
+          3255,
+          3217,
+          3257
+        ],
+        "connection_ids": [
+          39,
+          50,
+          1209,
+          1268,
+          1448,
+          1743,
+          1773,
+          1813
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          395,
+          3258,
+          3241,
+          3205,
+          3259,
+          3251,
+          3208,
+          3213
+        ],
+        "connection_ids": [
+          1474,
+          1591,
+          327
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          416,
+          3249
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:53:11.014986+00:00",
+    "lead": "<p><strong>Deutsche Bank</strong> served as <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>&rsquo;s primary banking relationship from August 2013 to December 2018, maintaining over forty accounts for Epstein entities and processing millions of dollars in transactions that the New York Department of Financial Services would later characterize as facilitating potential sex trafficking. The relationship was initiated by a relationship manager who had previously serviced Epstein at a competitor bank&mdash;likely JPMorgan&mdash;and was pitched internally as generating &ldquo;$100&ndash;300M flows over time with revenue of $2&ndash;4M annually.&rdquo; Onboarding was approved via an informal email from a Co-Head of Wealth Management Americas citing unrecorded conversations with AML compliance and general counsel, bypassing the bank&rsquo;s own reputational risk committee entirely. Deutsche Bank personnel knew at the time of onboarding that Epstein was a convicted sex offender, that press reports linked him to a modeling agency that brought Eastern European girls to the United States on his private jets, and that at least one designated beneficiary of his Butterfly Trust was a named co-conspirator.</p><p>Over the five-year relationship, Epstein used Deutsche Bank accounts to send over 120 wire transfers totaling $2.65 million through the Butterfly Trust to beneficiaries including women with Eastern European surnames, co-conspirators, a &ldquo;Russian model and Russian publicity agent,&rdquo; and entities later connected to his intelligence and financial networks. His personal attorney withdrew over $800,000 in cash through 97 transactions structured at $7,500 each&mdash;just below the bank&rsquo;s third-party withdrawal limit&mdash;from the Park Avenue branch near Epstein&rsquo;s townhouse, at one point explicitly asking how often he could withdraw without triggering alerts. The bank&rsquo;s transaction monitoring team dismissed payments to Eastern European women as &ldquo;normal for this client&rdquo; and interpreted its compliance mandate to require only internet searches confirming that women named in transactions were at least eighteen years old. When the bank finally terminated the relationship in December 2018&mdash;prompted not by its own compliance work but by the Miami Herald&rsquo;s investigative reporting&mdash;a relationship manager drafted reference letters on Deutsche Bank letterhead to help Epstein open accounts at other institutions, stating he was &ldquo;unaware of any problems relating to the operation or use of the accounts.&rdquo;</p><p>The NYDFS imposed a $150 million penalty on July 6, 2020, finding that Deutsche Bank conducted business in an &ldquo;unsafe and unsound manner&rdquo; and failed to maintain an effective anti-money-laundering program. The consent order was bundled with parallel failures involving FBME Bank (a Tanzanian shell bank linked to Hezbollah financing) and Danske Estonia (the $230 billion laundromat), revealing that Deutsche Bank&rsquo;s Epstein compliance failure was not an isolated lapse but a symptom of systemic AML deficiency. The bank was already under an independent monitor from a prior 2017 consent order when the Epstein penalty was assessed. Deutsche Bank&rsquo;s role extended beyond Epstein&rsquo;s personal accounts: it served as managing agent on <a href=\"/dossiers/the-limited-inc\">The Limited</a>&rsquo;s $715 million credit facility for <a href=\"/dossiers/les-wexner\">Les Wexner</a>, channeled <a href=\"/dossiers/carbynereporty\">Carbyne</a> investment funds involving <a href=\"/dossiers/ehud-barak\">Ehud Barak</a>, processed wire transfers to <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>&rsquo; consulting firm, and held accounts for Epstein entities including <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America</a>, <a href=\"/dossiers/enhanced-education\">Enhanced Education</a>, and the Butterfly Trust. <a href=\"/dossiers/paul-weiss\">Paul Weiss</a> has served as Deutsche Bank&rsquo;s outside defense counsel in LIBOR, swap rate, and AML matters since 2010, while <a href=\"/dossiers/kirkland-ellis\">Kirkland &amp; Ellis</a> represented the bank in CFTC spoofing settlements and structured finance transactions.</p>",
+    "open_questions": [
+      "Who are RELATIONSHIP MANAGER-1 and EXECUTIVE-1 behind the anonymized designations in the NYDFS consent order, and did either have personal financial incentives (bonuses, revenue credit) tied to maintaining the Epstein relationship that were not disclosed to the ARRC?",
+      "What was the substance of the January 22, 2015 meeting between EXECUTIVE-1, RM-1, and Epstein at his New York home that formed the sole basis for the ARRC's decision to continue the relationship, and why does Deutsche Bank have no contemporaneous records of it?",
+      "Did Deutsche Bank file Suspicious Activity Reports (SARs) on Epstein transactions during the 2013-2018 relationship, and if so, how many were filed versus how many flagged transactions were cleared internally without SAR filing?",
+      "What role did Deutsche Bank's concurrent 1MDB exposure play in its approach to the Epstein relationship, given that both involved the same AML compliance infrastructure and the same NYDFS supervisory relationship?",
+      "Why did ATTORNEY-1's $800,000 in structured cash withdrawals not trigger a SAR filing or law enforcement referral, particularly after the July 2017 incident where he explicitly asked whether a withdrawal exceeding $10,000 would require reporting and then broke it across two days?"
+    ],
+    "system_role": "Deutsche Bank functioned as the primary financial infrastructure enabling Epstein's operations from 2013 to 2018, providing the banking channels through which settlement payments, co-conspirator compensation, cash structuring, and cross-border transfers flowed while systematically neutralizing its own compliance mechanisms through informal approvals, misinterpreted monitoring standards, and institutional deference to revenue-generating relationships.",
+    "sections": [
+      {
+        "id": "onboarding-and-approval",
+        "title": "How Deutsche Bank Onboarded a Convicted Sex Offender",
+        "viz": "timeline",
+        "content": "<p>The Deutsche Bank&ndash;Epstein relationship began with a relationship manager, identified in the NYDFS consent order as RELATIONSHIP MANAGER-1, who joined Deutsche Bank in November 2012 after servicing Epstein at a competitor institution referred to as US BANK-1&mdash;almost certainly JPMorgan, which terminated its Epstein relationship around this period. RM-1 pitched the Epstein account to Deutsche Bank management in spring 2013, projecting &ldquo;$100&ndash;300M flows over time with revenue of $2&ndash;4M annually&rdquo; and proposing that all accounts be structured for entities rather than personal accounts, a design that would complicate beneficial ownership scrutiny. A junior coordinator, RELATIONSHIP COORDINATOR-1, prepared a memo for internal review that explicitly documented Epstein&rsquo;s criminal history: his 2007 plea to state solicitation charges, 13-month sentence, accusations of paying underage women for massages, and 17 out-of-court settlements with victims.</p><p>On May 5, 2013, EXECUTIVE-1&mdash;the Co-Head of Wealth Management Americas&mdash;sent what the consent order calls the &ldquo;Approval Email,&rdquo; stating that neither the Head of AML Compliance nor the General Counsel &ldquo;suggested rep risk review needed.&rdquo; Deutsche Bank has no other record of the conversations EXECUTIVE-1 referenced. The bank&rsquo;s Adverse Risk and Reputation Committee, the body specifically designed to evaluate high-risk clients, did not meet for the initial onboarding. An AML compliance officer cleared the relationship based solely on the Approval Email without speaking directly to the parties mentioned in it. This single informal email would become the institutional justification for every subsequent escalation, compliance flag, and red-flag dismissal across the next five years.</p><p>The bank designated Epstein as an &ldquo;Honorary PEP&rdquo;&mdash;an informal classification acknowledging his connections to prominent political figures without triggering the full procedural obligations of a formal Politically Exposed Person designation. In October 2013, when a compliance officer performed background checks on beneficiaries of the Butterfly Trust (opened January 24, 2014), one was flagged as an alleged Epstein co-conspirator. RELATIONSHIP COORDINATOR-1 confirmed the individual was &ldquo;accused as a co-conspirator in a case but was never brought to trial nor ever convicted.&rdquo; The alert was cleared by citing the Approval Email. Deutsche Bank thus opened the Butterfly Trust with full knowledge that its beneficiary list included a person publicly identified as complicit in Epstein&rsquo;s criminal conduct.</p>"
+      },
+      {
+        "id": "financial-flows",
+        "title": "The Anatomy of Epstein's Deutsche Bank Transactions",
+        "viz": null,
+        "content": "<p>Over the course of the relationship, <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> used Deutsche Bank accounts to process over $7 million in settlement payments to law firms (apparent victim settlements), over $6 million in legal expenses for himself and co-conspirators, and more than 120 wire transfers totaling $2.65 million through the Butterfly Trust. At least 18 of these wires exceeded $10,000 and were directed to named co-conspirators (identified in the consent order as CO-CONSPIRATORS 1, 2, and 3). Wire activity to co-conspirators began on November 1, 2013&mdash;within weeks of the account opening. Other payments covered hotel expenses, tuition, rent, and immigration expenses for young women with Eastern European surnames, whom Epstein described to the bank as employees or friends.</p><p>The cash withdrawal pattern was equally revealing. ATTORNEY-1&mdash;Epstein&rsquo;s personal attorney&mdash;made 97 cash withdrawals from the Park Avenue branch, each set at $7,500, the bank&rsquo;s third-party withdrawal limit, accumulating over $800,000 across roughly four years. In May 2014, ATTORNEY-1 asked the relationship coordinator how often he could withdraw without triggering alerts; the coordinator checked with the branch manager but no response was recorded. In July 2017, ATTORNEY-1 asked a teller whether a withdrawal exceeding $10,000 would require reporting, then broke the transaction across two days&mdash;textbook structuring behavior. When AML OFFICER-2&rsquo;s team confronted ATTORNEY-1 about the pattern, bank personnel found him credible and allowed continued withdrawals. In 2018, ATTORNEY-1 withdrew $100,000 in a single cash transaction before the branch closed.</p><p>Deutsche Bank account statements from November 2014 document wire transfers from Epstein&rsquo;s account (ending 44129244) to <a href=\"/dossiers/lawrence-summers\">LH Summers Economic Consulting</a>, channeling money to the former Treasury Secretary. The bank also processed <a href=\"/dossiers/carbynereporty\">Carbyne</a> investment transfers, with <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> referencing &ldquo;the transferring bank which is DB&rdquo; and coordinating through account manager Stewart Oldfield. <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America</a>, Epstein&rsquo;s private charity, held accounts at Deutsche Bank Trust Company Americas, from which checks were drawn to the <a href=\"/dossiers/international-peace-institute\">International Peace Institute</a>. When Epstein attempted to open a Gratitude America brokerage account in January 2016, and an external due diligence report was ordered, the request was withdrawn before the report could be run&mdash;meaning Deutsche Bank went through the entire five-year relationship without ever commissioning an independent due diligence investigation of its client.</p>"
+      },
+      {
+        "id": "compliance-failure",
+        "title": "Engineered Blindness: How Monitoring Was Neutralized",
+        "viz": null,
+        "content": "<p>The Deutsche Bank compliance failure was not an absence of process but a systematic neutralization of it. The ARRC first reviewed the Epstein relationship on January 30, 2015, after AML OFFICER-1 escalated new press reports including a June 2014 appeals court ruling on Epstein&rsquo;s plea deal and allegations involving a &ldquo;prominent US politician and European royal.&rdquo; Before the meeting, EXECUTIVE-1 and RELATIONSHIP MANAGER-1 visited Epstein at his New York home on January 22, 2015. No contemporaneous records of the meeting substance exist. The ARRC took no minutes of its own meeting, violating bank policy, and concluded it was &ldquo;comfortable with things continuing,&rdquo; noting &ldquo;a number of sizable deals recently.&rdquo; Three conditions were imposed, but none were communicated to the relationship team or the transaction monitoring team&mdash;the people who actually handled Epstein&rsquo;s accounts.</p><p>The Head of Compliance Americas later characterized the decision as: &ldquo;continue business as usual with Jeff Epstein based upon [EXECUTIVE-1] due diligence visit with him.&rdquo; The bank&rsquo;s reputational risk committee had outsourced its judgment to a single front-office executive who visited the client at his home, asked him about the veracity of allegations, and apparently was satisfied by whatever Epstein told him. AML OFFICER-1 had previously flagged that the Approval Email was &ldquo;not a direct approval&rdquo;&mdash;merely a front-office managing director relaying conversations&mdash;but this observation gained no institutional traction.</p><p>The most consequential compliance failure was AML OFFICER-2&rsquo;s interpretation of the ARRC conditions. Rather than monitoring for the full range of crimes implicated by Epstein&rsquo;s history&mdash;payments to co-conspirators, trafficking-related wire activity, structured cash withdrawals&mdash;AML OFFICER-2 instructed the transaction monitoring team to verify only that women named in transactions were at least eighteen years old (using internet searches) and to flag transactions only if &ldquo;no rational reason could be discerned.&rdquo; The NYDFS found this standard had &ldquo;little if any effect on monitoring.&rdquo; In March 2017, when an alert flagged payments to &ldquo;a Russian model and Russian publicity agent,&rdquo; the monitoring team cleared it with the notation: &ldquo;since this type of activity is normal for this client it is not deemed suspicious.&rdquo; The ARRC&rsquo;s requirement to flag &ldquo;unusual and/or suspicious activity&rdquo; had been interpreted to mean unusual only relative to Epstein&rsquo;s own transaction history, defining away all suspicious activity as established baseline behavior.</p><p>When RELATIONSHIP MANAGER-2 replaced RM-1 in April 2016, the new manager was never informed of the ARRC conditions. In May 2018, a compliance officer inquired about Epstein&rsquo;s payments to women at a Russian bank. The explanation provided&mdash;&ldquo;SENT TO A FRIEND FOR TUITION FOR SCHOOL&rdquo;&mdash;was accepted without follow-up. Deutsche Bank has represented it has no records of further questions being asked. Seven months later, the Miami Herald&rsquo;s November 2018 investigation prompted the bank to terminate the relationship on December 21, 2018, not because its own monitoring detected problems but because external journalism created reputational exposure.</p>"
+      },
+      {
+        "id": "parallel-failures",
+        "title": "Systemic Pattern: From Epstein to 1MDB to Danske",
+        "viz": null,
+        "content": "<p>The NYDFS consent order deliberately bundled the Epstein compliance failure with two other cases: Deutsche Bank&rsquo;s correspondent banking relationship with FBME Bank and its processing of Danske Bank Estonia transactions. This was not incidental. The regulators were establishing that Deutsche Bank&rsquo;s AML failures were institutional, not episodic. FBME Bank, a Tanzanian-licensed shell bank linked to Hezbollah financing and sanctioned entities, maintained a correspondent account at Deutsche Bank even after FinCEN designated it a primary money laundering concern. Danske Estonia processed an estimated $230 billion in non-resident deposits from 2007 to 2015, much of it Russian and former-Soviet capital, through correspondent accounts at Deutsche Bank and other major banks.</p><p>The consent order identified structural policy failures that applied across all three cases: Deutsche Bank lacked specific criteria for when to terminate correspondent banking relationships even when risk scores reached maximum levels; lacked policies for closing accounts based on failure to obtain or update USA PATRIOT Act certifications; and lacked practical guidance for determining whether other foreign banks were using respondent accounts or for verifying beneficial owner identities. These were not gaps specific to high-profile clients but the absence of foundational AML infrastructure across the bank&rsquo;s correspondent banking business.</p><p>The 1MDB parallel is especially significant. DOJ Volume 11 documents (EFTA02466190) confirm that &ldquo;Deutsche Bank, as 1MDB banker, was involved in sending 1 billion of the fund&rsquo;s money out of the country in 2009,&rdquo; and that the U.S. Department of Justice asked Deutsche Bank and JPMorgan&mdash;Epstein&rsquo;s two primary banks&mdash;for documents related to their interactions with the Malaysian sovereign wealth fund. Deutsche Bank thus had simultaneous exposure to the Epstein network and one of the largest sovereign corruption cases in history. The Wildman v. Deutsche Bank shareholder suit (EDNY 2021, 2nd Cir 2023) addressed 1MDB-related losses, while Doe 1 v. Deutsche Bank (SDNY 2022) addressed the Epstein relationship. Both cases traced to the same systemic compliance architecture that treated revenue-generating client relationships as presumptively acceptable regardless of risk signals.</p><p>Deutsche Bank&rsquo;s lobbying activity during this period adds a structural dimension. The bank&rsquo;s 142 lobbying disclosure filings spanning 2002 to the present document $650,000 spent in 2007 specifically on &ldquo;Anti-Money Laundering&rdquo; and &ldquo;Hedge Fund Regulation&rdquo; lobbying&mdash;during the exact period when Epstein&rsquo;s non-prosecution agreement was being negotiated and when the bank was processing suspicious transactions. Political contributions from Deutsche Bank&rsquo;s registered lobbyists went to members of the Senate Banking Committee and House Financial Services Committee, the bodies overseeing AML/BSA enforcement. In 2019, the year of Epstein&rsquo;s arrest, DB lobbied via the Tiber Creek Group at $150,000&ndash;$210,000 per quarter on Dodd-Frank reform and financial services regulation.</p>"
+      },
+      {
+        "id": "network-position",
+        "title": "Deutsche Bank in the Epstein Financial Infrastructure",
+        "viz": "ego_network",
+        "content": "<p>Deutsche Bank occupied a unique position in the Epstein network: it was the institutional node through which financial flows connected otherwise discrete clusters of activity. Wire transfers from Epstein&rsquo;s Deutsche Bank accounts reached <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>&rsquo; consulting firm, <a href=\"/dossiers/carbynereporty\">Carbyne</a> (the Israeli surveillance company connected to <a href=\"/dossiers/ehud-barak\">Ehud Barak</a>), the <a href=\"/dossiers/international-peace-institute\">International Peace Institute</a> (through <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America</a> checks drawn on Deutsche Bank Trust Company Americas), and co-conspirators identified in the consent order. The bank performed formal KYC screening of <a href=\"/dossiers/erika-kellerhals\">Erika Kellerhals</a> in October 2016 and listed her alongside inner-circle members Beller, Indyke, and Kahn in account opening documents for a Butterfly entity in October 2018.</p><p>The Deutsche Bank relationship also connected to the broader Wexner network. Deutsche Bank AG served as managing agent on <a href=\"/dossiers/the-limited-inc\">The Limited</a>&rsquo;s approximately $715 million 1995 credit facility with an $82 million commitment&mdash;the same New York branch that would later maintain Epstein&rsquo;s accounts. Deutsche Bank&rsquo;s 2018 periodic review of Prytanee LLC documented the ownership structure as 50% <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company</a> (sole shareholder <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>) and 50% <a href=\"/dossiers/todd-wanek\">Todd Wanek</a>&rsquo;s entities, revealing how the bank&rsquo;s own KYC documentation mapped Epstein&rsquo;s corporate control structures.</p><p>On the legal side, <a href=\"/dossiers/paul-weiss\">Paul Weiss</a> has served as Deutsche Bank&rsquo;s outside defense counsel in LIBOR manipulation, swap rate rigging, structured products, tax shelter, and AML matters since 2010, including the period covering the Epstein accounts. <a href=\"/dossiers/kirkland-ellis\">Kirkland &amp; Ellis</a> represented Deutsche Bank in CFTC precious metals spoofing settlements, shareholder litigation following the forex investigation, and the MidOcean Partners $1.6 billion spin-off. Both firms simultaneously represented Epstein-connected individuals in other capacities. An Epstein iMessage from May 27, 2019 reading &ldquo;Navigate Biden Horowitz Barr. DB NYS /&rdquo; suggests Epstein was tracking Deutsche Bank&rsquo;s regulatory exposure in the context of <a href=\"/dossiers/william-barr\">Attorney General Barr</a>&rsquo;s DOJ, which oversaw SDNY&rsquo;s investigation of the bank. Barr&rsquo;s subsequent attempt to replace SDNY U.S. Attorney Geoffrey Berman with <a href=\"/dossiers/jay-clayton\">Jay Clayton</a>&mdash;who had represented Deutsche Bank at Sullivan &amp; Cromwell&mdash;adds a further dimension to the political overlay on the bank&rsquo;s regulatory exposure.</p><p>Deutsche Bank&rsquo;s role in parallel with <a href=\"/dossiers/republic-national-bank-of-new-york\">Republic National Bank of New York</a>&mdash;both banks blocked South Pacific island nation wire transfers in late 1999 due to money laundering concerns with Nauru-licensed banks&mdash;situates the institution within the broader correspondent banking ecosystem documented by the Levin Permanent Subcommittee on Investigations. The bank&rsquo;s AML failures were not aberrations but features of an institutional model that prioritized transaction volume over compliance rigor across multiple business lines and decades.</p>"
+      }
+    ],
+    "applicable_models": [
+      "enabler-gradient",
+      "jurisdictional-arbitrage",
+      "parallel-financial-system",
+      "complexity-as-credential",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Deutsche Bank",
+      "connections": [
+        {
+          "target": "Gratitude America Ltd",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01284072",
+          "description": "Deutsche Bank Trust Company Americas was primary banking relationship for GA. Account managed by Stewart Oldfield. KYC case #01353080. Part of the SOUTHERN FINANCIAL RELATIONSHIP umbrella with Mort Inc. GA account changed to Inactive Prospect after all accounts closed."
+        },
+        {
+          "target": "Enhanced Education",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01374774",
+          "description": "Deutsche Bank held Enhanced Education brokerage account managed by Ted Serure. Account underwent KYC/AML review 2018-2019. DB compliance flagged the Enhanced Education trade name for due diligence. Account closed Feb 2019."
+        },
+        {
+          "target": "The Limited Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "SEC:0000950132-96-000246",
+          "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment — same bank that later maintained Epstein's accounts (RM 82289)"
+        },
+        {
+          "target": "The Limited Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility"
+        },
+        {
+          "target": "Robert Rankin",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis:440095",
+          "description": "Rankin was head of Deutsche Bank Asia-Pacific, later Crown Resorts executive chairman"
+        },
+        {
+          "target": "Robert Rankin",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "web:db.com/newsroom_news/archive",
+          "description": "Rankin was CEO Deutsche Bank Asia-Pacific excluding Japan Oct 2009 to Jun 2012 then Co-Head Corporate Banking and Securities from Jun 2012. Deutsche Bank was Epsteins primary bank with 67M plus 32M Wanek accounts."
+        },
+        {
+          "target": "Erika Kellerhals",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01363310",
+          "description": "DB performed formal KYC screening of Kellerhals (GCIS ID 11593661, Oct 2016) and listed her alongside inner circle (Beller, Indyke, Kahn) in account opening documents for Butterfly entity (Oct 2018). Kellerhals was DB-recognized as a related person for Epstein account management."
+        },
+        {
+          "target": "Paul Weiss",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "https://www.paulweiss.com/practices/litigation/white-collar-regulatory-defense/practice-overview/representative-engagements",
+          "description": "PW is outside defense counsel for DB in LIBOR, swap rates, structured products, tax shelter, and AML matters since 2010"
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=EFTS_DB",
+          "description": "KE in 7048 SEC EDGAR filings with Deutsche Bank. Counsel on structured finance."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://globalinvestigationsreview.com/survey/gir-100/2018/organization-profile/kirkland-ellis",
+          "description": "K&E represented DB in CFTC precious metals spoofing settlement (M), shareholder litigation after forex investigation, and MidOcean Partners .6B spin-off."
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Lawrence Summers",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #140: Deutsche Bank account statement (Nov 2014) shows two wire transfers from Epstein's account (account ending 44129244) to LH Summers Economic Consulting"
+        },
+        {
+          "target": "Prytanee LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire"
+        },
+        {
+          "target": "Carbyne/Reporty",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "40+ accounts at DB from Aug 2013-Dec 2018. $2.65M in wires through Butterfly Trust. NYDFS $150M penalty. Relationship managed via wealth management division."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "FARA:5401",
+          "description": "Deutsche Bank had 4 FARA registrations as foreign principal while simultaneously maintaining 40+ accounts for Epstein. FARA lobbying and Epstein banking were concurrent activities."
+        },
+        {
+          "target": "Tiber Creek Group",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "William Barr",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "Finding:2954",
+          "description": "Epstein iMessage (May 27, 2019): 'Navigate Biden Horowitz Barr. DB NYS /' — DB likely refers to Deutsche Bank, Epstein's primary banker. Barr as AG oversaw DOJ during period when Deutsche Bank was under investigation for Epstein accounts, money laundering, and sanctions violations. SDNY investigated DB's Epstein relationship. Barr attempted to replace SDNY USA Berman with Jay Clayton, who had represented Deutsche Bank at Sullivan & Cromwell."
+        },
+        {
+          "target": "Republic National Bank of New York",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "Levin PSI Correspondent Banking report pp.236, 249",
+          "description": "RNB and Deutsche Bank operated in parallel on correspondent banking: both blocked South Pacific island nation wire transfers in late 1999 (alongside Bank of New York) due to money laundering concerns with Nauru-licensed banks"
+        }
+      ],
+      "secondHop": {
+        "Carbyne/Reporty": [
+          {
+            "target": "Darren Indyke",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+          },
+          {
+            "target": "Ehud Barak",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+          }
+        ],
+        "Enhanced Education": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Founder and controller. Enhanced Education is the trade name of J. Epstein Virgin Islands Foundation, Inc. Epstein directed all disbursements personally via email."
+          },
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Leon Black pledged $10.5M to Enhanced Education in Dec 2014, structured through his automotive LLC to 'avoid public disclosure of Leon name.' $4.75M specifically directed to J Epstein Virgin Islands Foundation Inc in Oct 2015."
+          },
+          {
+            "target": "IPI",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88."
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education reimbursed IPI $14,158.88 for Summers first-class flight to Almaty, Kazakhstan (Mar 2014). Enhanced Education also funded the Mongolia Advisory Board where Summers participated."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc., 575 Lexington Ave, 4th Floor, NYC) was the primary financial manager directing Enhanced Education transactions. He instructed stock sales, wire transfers, directed payments, and handled Leon Black donation structuring. Named as 'c/o' contact on ASU pledge."
+          }
+        ],
+        "Erika Kellerhals": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kellerhals served as Secretary (2012-2019) and also Treasurer (2017-2019). Attorney at Kellerhals Ferguson LLP in USVI. Handled articles of incorporation, director appointments, and book-keeping. Repeatedly requested director names for the foundation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "USVI attorney through Kellerhals Ferguson Kroblin PLLC. Advised on residency, dynasty trusts, naturalization, tax strategy. Handled real estate deals, property management. Officer on Gratitude America, JEVIF, Enhanced Education."
+          },
+          {
+            "target": "Kenneth Mapp",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Kellerhals on direct email thread with USVI Governor Mapp AND Epstein simultaneously (July 2017) discussing KFK firm invoicing for apparent government legal work"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kellerhals requested wire transfer from Epstein after completing a 'deal' and 'endorsement' meeting (Nov 14, 2018). Pattern of personal gifts (Apple Watch Hermes), direct payment via DB checks, and now wire transfer requests shows Kellerhals as financial conduit, not just registered agent."
+          },
+          {
+            "target": "Stacey Plaskett",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Kellerhals donated $7,631.83 to Plaskett campaigns (2013-2021) via Virgin Islands for Plaskett and ActBlue. LittleSis maps this as a direct donation relationship. Plaskett previously worked at Kellerhals Ferguson Kroblin PLLC (per RealClearInvestigations). Plaskett is USVI Delegate to Congress."
+          }
+        ],
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ],
+        "International Peace Institute": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Southern Trust Company Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Zorro Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1990",
+        "label": "Deutsche Bank had 4 FARA-registered foreign principal entries through 3 different registrants: Sullivan & Worcester (#2843, 1977-1985), TransAtlantic Futures Inc (#4353, 1990-1992), and Van Scoyoc Associates (#5401, 2003). The Van Scoyoc registration for Deutsche Bank AG New York Branch (2003) overlaps with the period Deutsche Bank maintained 40+ accounts for Epstein and facilitated $2.65M via Butterfly Trust. Deutsche Bank's FARA registrations confirm it was actively lobbying US government while simultaneously serving as Epstein's primary banking relationship.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 395
+      },
+      {
+        "date": "2006",
+        "label": "Deutsche Bank lobbied specifically on Anti-Money Laundering issues in H1 2007 while simultaneously maintaining 40+ Epstein accounts that would later result in 150M NYDFS penalty. DB spent 200K on AML/hedge fund/securities regulation lobbying in H1 2007 and 450K on mortgage/hedge fund/securities in H2 2007. This lobbying occurred during the exact period (2006-2008) when Epstein's NPA was being negotiated and when DB was processing suspicious transactions for Epstein entities. The juxtaposition of lobbying to influence AML regulation while facilitating suspicious transactions for a known sex offender is investigatively significant.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 416
+      },
+      {
+        "date": "2007",
+        "label": "Deutsche Bank maintained extensive lobbying apparatus: 142 total filings spanning 2002-present. In 2007 (Epstein NPA year), DB lobbied on Anti-Money Laundering and Hedge Fund Regulation (200K H1, 450K H2 = 650K total). In 2019 (Epstein arrest year), DB lobbied via Tiber Creek Group at 150-210K/quarter (660K total) on Dodd-Frank reform, financial services regulation, trade, and cybersecurity. Key lobbyists: Jeffrey Peck, Drew Cantor. Notable: DB was simultaneously lobbying on AML/banking regulation while maintaining 40+ Epstein accounts and processing 2.65M via Butterfly Trust to co-conspirators. 29 LD-203 contribution reports filed, including contributions to Schumer, Shelby, Barney Frank, Gillibrand, and Harry Reid.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 415
+      },
+      {
+        "date": "2009",
+        "label": "Deutsche Bank Securities Inc filed 29 LD-203 contribution reports. Notable political contributions from DB registered lobbyists include: Schumer (2.5K, 2010), Gillibrand (multiple 2.4-2.5K, 2009-2010), Harry Reid (1.5K, 2010), Barney Frank (5K, 2010), Shelby (5K, 2010), Kanjorski (5K, 2008; 2.7K, 2010), Jim Himes (2.5K, 2010), Kelly Ayotte (2.5K, 2010), Stabenow (5K, 2010), and DCCC (5K, 2008). These contributions went to members of the Senate Banking Committee and House Financial Services Committee who oversaw banking regulation, including AML/BSA enforcement that would later result in Deutsche Bank's 150M NYDFS penalty for Epstein-related AML failures.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 434
+      },
+      {
+        "date": "2009",
+        "label": "LMSBAND dataset contains a Deutsche Bank 1MDB article (EFTA01384845) documenting DB's investigation for possible foreign corruption or anti-money-laundering violations in its work for 1MDB. Headlines captured: 'Deutsche Bank Caught Up in Scandal Over Malaysian 1MDB Fund' (NYT), 'Deutsche Bank latest headache: Its role in Malaysia 1MDB scandal' (CNN), 'US Investigating Deutsche Bank Dealings With Malaysian Fund 1MDB' (WSJ). This is significant because Deutsche Bank maintained 40+ Epstein accounts simultaneously. The DOJ Vol 11 article (EFTA02466190) specifically notes: 'Deutsche Bank, as 1MDB banker, was involved in sending 1 billion of the funds money out of the country in 2009' and 'the US Department of Justice has asked banks including Deutsche Bank AG and J.P. Morgan Chase for documents related to their interactions with 1MDB.' Both DB and JPM -- Epstein's two primary banks -- were implicated in the 1MDB probe.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 923
+      },
+      {
+        "date": "2013",
+        "label": "ATTORNEY-1 (Epstein personal attorney) withdrew over $800,000 in cash from Epstein personal accounts over roughly four years (2013-2017), making 97 withdrawals from DB Park Avenue Branch at $7,500 each (bank third-party withdrawal limit). In May 2014, ATTORNEY-1 asked how often he could withdraw without triggering alerts. In July 2017, ATTORNEY-1 broke up a withdrawal over $10K into two days to avoid CTR filing — bank confronted but found him credible. In 2018, ATTORNEY-1 withdrew $100,000 in single cash withdrawal prior to branch closing.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3192
+      },
+      {
+        "date": "2013",
+        "label": "Epstein modeling agency connection flagged in consent order: press reports noted allegations that Epstein was involved with Eastern European women and that a modeling agency he helped fund brought young girls, often from Eastern Europe to the US on Epstein private jets. This was publicly known before DB onboarding in 2013.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 3249
+      },
+      {
+        "date": "2013-05-05",
+        "label": "DB onboarded Epstein in August 2013 through RELATIONSHIP MANAGER-1, who had previously serviced Epstein at US BANK-1 (competitor bank, likely JPMorgan). RM-1 joined DB Nov 2012, pitched Epstein as generating '$100-300M flows overtime with revenue of $2-4M annually.' Proposed all accounts be for entities, not personal accounts. Onboarding approved via informal email from EXECUTIVE-1 (Co-Head of Wealth Management Americas) citing conversations with Head of AML Compliance and General Counsel — but no ARRC review occurred.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3187
+      },
+      {
+        "date": "2013-08",
+        "label": "NYDFS Consent Order (2020) confirms Deutsche Bank maintained 40+ accounts for Epstein entities from Aug 2013 to Dec 2018. DB classified relationship as 'high-risk' but failed to properly monitor. Butterfly Trust included co-conspirators as beneficiaries. Over 120 wires totaling $2.65M sent to beneficiaries including women with Eastern European surnames. Payments to 'a Russian model and Russian publicity agent' deemed 'normal for this client.' ARRC conditions never communicated to relationship team. $150M penalty.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 322
+      },
+      {
+        "date": "2013-08",
+        "label": "NYDFS consent order identifies Epstein as 'Honorary PEP' at Deutsche Bank — not formally classified as politically exposed person, but given informal designation due to connections to prominent political figures. This resulted in enhanced transaction monitoring but monitoring was not tailored to the specific risks he posed (sex trafficking, payments to co-conspirators).",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3258
+      },
+      {
+        "date": "2013-10",
+        "label": "October 2013: DB compliance officer performed background checks on Butterfly Trust beneficiaries and flagged CO-CONSPIRATOR-2 as alleged Epstein co-conspirator. RELATIONSHIP COORDINATOR-1 confirmed CO-CONSPIRATOR-2 was 'accused as a co-conspirator in a case but was never brought to trial nor ever convicted.' Alert was cleared citing the Approval Email from EXECUTIVE-1. Trust was onboarded despite known co-conspirator beneficiary.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3241
+      },
+      {
+        "date": "2013-11",
+        "label": "Epstein used DB accounts for over $7M in settlement payments to law firms (apparent victim settlements) plus over $6M in legal expenses for Epstein and co-conspirators. Also sent over 120 wires totaling $2.65M to Butterfly Trust beneficiaries including at least 18 wires of $10K+ to named co-conspirators (CO-CONSPIRATORS 1, 2, 3). Payments included hotel expenses, tuition, rent, and immigration expenses for young women with Eastern European surnames.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3198
+      },
+      {
+        "date": "2015-01-30",
+        "label": "ARRC reviewed Epstein relationship on January 30, 2015 after AML OFFICER-1 escalated new press reports (June 2014 appeals court ruling on Epstein plea, allegations involving prominent US politician and European royal). No minutes taken of meeting (violating bank policy). Committee was 'comfortable with things continuing,' noting 'a number of sizable deals recently.' Three conditions imposed but never communicated to relationship team or transaction monitoring team.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3205
+      },
+      {
+        "date": "2015-02",
+        "label": "ARRC Head of Compliance Americas characterized Jan 2015 ARRC decision as: continue business as usual with Jeff Epstein based upon [EXECUTIVE-1] due diligence visit with him. This explicitly tied continued approval to a single in-person meeting between EXECUTIVE-1/RM-1 and Epstein at his New York home on January 22, 2015 — no independent investigation, no external due diligence, substance of meeting never documented.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3259
+      },
+      {
+        "date": "2015-07-29",
+        "label": "Epstein requested trading limit increase on July 21, 2015. COVERAGE TEAM MEMBER-1 escalated to AML OFFICER-2, who escalated to ARRC Chairman. Chairman approved without formal meeting, adding: I also checked in with [EXECUTIVE-1] last night to make sure he supports this and has heard nothing negative on the client. EXECUTIVE-1 confirmed both.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3255
+      },
+      {
+        "date": "2016-01-04",
+        "label": "Gratitude America (Epstein private charity) account opening attempted in January 2016. ACCOUNTANT-1 requested brokerage account. COVERAGE TEAM MEMBER-1 escalated to AML OFFICER-2, then to ARRC Secretary. External due diligence report ordered on Epstein — but ACCOUNTANT-1 informed bank of Epstein resignation from Gratitude America and withdrew account request, so NO due diligence report was actually run.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3217
+      },
+      {
+        "date": "2017-01-30",
+        "label": "Deutsche Bank had prior independent monitor engaged per January 30, 2017 Consent Order. NYDFS directed that existing monitor address the Epstein/FBME/Danske compliance failures within the timetable of that engagement. Department reserved right to extend scope or duration of monitorship.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3251
+      },
+      {
+        "date": "2017-03",
+        "label": "AML OFFICER-2 misinterpreted ARRC conditions on Epstein monitoring: instead of monitoring for all potential crimes implicated by Epstein past (payments to co-conspirators, sex trafficking), officer only instructed transaction monitoring team to verify via internet searches that any woman in transactions was at least 18 years old, and to only flag transactions if no rational reason could be discerned. This standard had little if any effect on monitoring.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3208
+      },
+      {
+        "date": "2018-05",
+        "label": "May 2018: Compliance officer inquired about Epstein payments to accounts of women with Eastern European surnames at a Russian bank. RELATIONSHIP MANAGER-2 forwarded ACCOUNTANT-1 response: SENT TO A FRIEND FOR TUITION FOR SCHOOL. When compliance asked why this account was being used to pay school tuition, RM-2 explained Epstein had flexibility to use any account. No further follow-up questions recorded and transaction was cleared.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3257
+      },
+      {
+        "date": "2018-12-21",
+        "label": "After DB terminated Epstein relationship in December 2018, RELATIONSHIP MANAGER-2 drafted reference letters to two other financial institutions on Deutsche Bank letterhead, stating in one letter he was 'unaware of any problems relating to the operation or use of [the] accounts.' This despite the reputational-risk-based termination and the full history of compliance concerns.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3213
+      },
+      {
+        "date": "2019-2020",
+        "label": "political with William Barr",
+        "type": "political",
+        "entity": "William Barr",
+        "id": 1538
+      },
+      {
+        "date": "2020-07-06",
+        "label": "NYDFS imposed $150M penalty on Deutsche Bank for AML failures related to Epstein, FBME, and Danske Estonia relationships. Consent Order signed July 6, 2020 under NY Banking Law Sections 39 and 44. Bank found to have conducted business in unsafe and unsound manner (Section 44 violation) and failed to maintain effective AML program (3 NYCRR Section 116.2 violation).",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3183
+      },
+      {
+        "date": "2020-07-06",
+        "label": "DB consent order identifies key anonymous individuals in Epstein relationship: RELATIONSHIP MANAGER-1 (joined DB Nov 2012 from US BANK-1), RELATIONSHIP COORDINATOR-1 (junior coordinator), EXECUTIVE-1 (Co-Head Wealth Management Americas), EXECUTIVE-2 (COO Wealth Management Americas), AML OFFICER-1 and AML OFFICER-2 (compliance officers), RELATIONSHIP MANAGER-2 (replaced RM-1 in April 2016), ATTORNEY-1 (Epstein personal attorney who withdrew cash), ACCOUNTANT-1 (Epstein accountant), COVERAGE TEAM MEMBER-1, AML COMPLIANCE DIRECTOR-1 (former Director of US Anti-Financial Crimes).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 3244
+      },
+      {
+        "date": "2020-07-06",
+        "label": "DB consent order correspondent banking compliance failures: bank failed to maintain policies with specific criteria for when to terminate correspondent banking relationships (e.g., patterns of high RAC scores, high suspicious activity volumes). Failed to maintain policies for closure of accounts based on failure to obtain/update USA PATRIOT Act certifications. Failed to maintain policies with practical guidance for determining whether other foreign banks use the respondent account, or for verifying beneficial owner identities.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3260
+      }
+    ]
+  }
+}

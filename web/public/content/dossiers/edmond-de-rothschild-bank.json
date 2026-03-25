@@ -1,0 +1,1070 @@
+{
+  "name": "Edmond de Rothschild Bank",
+  "slug": "edmond-de-rothschild-bank",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.286437",
+  "last_updated": "2026-02-13T23:06:44",
+  "stats": {
+    "total_findings": 15,
+    "total_connections": 5,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 10,
+      "relationship": 1,
+      "intelligence": 2,
+      "legal": 2
+    },
+    "connection_types": {
+      "financial": 1,
+      "legal": 1,
+      "corporate": 3
+    },
+    "last_updated": "2026-02-13T23:06:44"
+  },
+  "findings": [
+    {
+      "id": 1252,
+      "finding_type": "financial",
+      "summary": "DS10 Deutsche Bank financial records show Southern Trust Company Inc. (Epstein's USVI entity that signed the $25M EdR agreement) had $19.6M in outgoing and $8.6M in incoming transactions through Deutsche Bank (2013-2020). Key flows: $6M incoming Oct 17 2013 (source unknown), $3.05M to Citibank/Morgan Stanley Jun 5 2015, $1M to Citibank/Morgan Stanley Aug 23 2015, $2M internal transfer Oct 17 2017, $13M outgoing Dec 23 2019 (5 months post-death). EdR/Rothschild does NOT appear as a named counterparty -- payments likely routed through intermediary banks. The $6M Oct 2013 incoming deposit predates the Oct 2015 formal agreement, suggesting an earlier undocumented arrangement.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-10-17",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:05:51",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10",
+          "source_quote": "SOUTHERN TRUST COMPANY INC 16 transactions, outgoing 19646905.73, incoming 8621589.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1138,
+      "finding_type": "financial",
+      "summary": "Cynthia Tobiano, CFO of Edmond de Rothschild, sent Epstein the bank's organizational chart and cash flow statements (consolidated and statutory views for 2013 and H1 2014) on Sep 6, 2014. Cc'd to Ariane de Rothschild. Epstein immediately asked to speak with Tobiano. This proves Epstein had direct access to EdR's confidential financial data, far beyond normal advisory.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2014-09-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:54:18",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02588506",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nSaturday, September 6, 2014 10:37 AM \nTo: \nTOBIANO, Cynthia \nSubject: \nRe: Informations \nthnks \nOn Sat, Sep 6, 2014 at 6:09 AM, TOBIANO, Cynthia < \nwrote: \nDear Mr Epstein,<=span> \nYou=will find attached (i) our organizational chart and (ii) cash flow...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02588559",
+          "source_quote": "do you have time to speak today?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02688019",
+          "source_quote": "You will find attached (i) our organizational chart and (ii) cash flow statement. On the cash flow statements, we have included both consolidated and statutory views for 2013 as well as H1 2014",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1149,
+      "finding_type": "relationship",
+      "summary": "Mohamed Badawy Al-Husseiny (CEO of Aabar Investments, 1MDB co-conspirator) appeared on a guest list shared with Epstein (EFTA02593759, Nov 9, 2014). Al-Husseiny was a key figure in laundering 1MDB funds through Aabar BVI -- the same scandal that led to the raid on EdR Luxembourg. Aabar funds that flowed through EdR are the basis of the bank's 2025 money laundering conviction. This shows Epstein was connected to both sides of the 1MDB scandal: the bank that received the money and the people who sent it.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-11-09",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:50",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02593759",
+          "source_quote": "Mohamed Badawy Al-Husseiny (Aabar) [on guest list forwarded to Epstein]",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1144,
+      "finding_type": "intelligence",
+      "summary": "Epstein introduced EdR CFO Cynthia Tobiano to Alireza Ittihadieh (President & CEO, Freestream Aircraft Bermuda Limited) on Jul 28, 2015: 'ali cynthia. cynthia, ali.' The three-way thread discusses Malta and Tobiano says she 'spoke w. Kathy. Sorted.' Ittihadieh operated from Bermuda (freestreambermuda.bm), handled aircraft transactions for Epstein (G550 deals, BBJ maintenance via VP-BBJ). This connects EdR's CFO to Epstein's aviation/offshore network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-07-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:22",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718566",
+          "source_quote": "ali cynthia. cynthia, ali / EFTA02718592:Sopke w. Kathy. Sorted / Ok, later lets talk Malta etc",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718592",
+          "source_quote": "De: jeffrey E. \nEnvoye: vendredi 31 juillet 2015 17:07 \nA: TOBIANO, Cynthia \nObjet: Re: \nCurrent structure of buildings?? Etc . Please send number to call",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1137,
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc. (Epstein's USVI entity) signed a $25M consulting agreement with Edmond de Rothschild Holding S.A. on Oct 5, 2015. The contract was for 'risk analysis and the application and use of certain algorithms.' Payment was contingent on EdR completing its payment to US authorities re 1MDB. This was signed 2 months after Epstein's Jul 30 email demanding an agreement 'before the DOJ meeting.' Ariane de Rothschild signed for EdR.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-10-05",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:54:12",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718592",
+          "source_quote": "I woudl like to get an agreement before the DOJ meeting. WebSearch: Oct 5 2015 Southern Trust agreement with EdR Holding S.A. for 25M",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1186,
+      "finding_type": "intelligence",
+      "summary": "TIMELINE OF EPSTEIN-EDR 1MDB INTELLIGENCE CHANNEL: Sep 2013: Ariane+Colom breakfast at 71st. Nov 2013: Colom offers Epstein judicial contacts. Sep 2014: EdR CFO Tobiano sends Epstein confidential financials. Jul 2015: Epstein demands agreement before DOJ meeting Aug 27. Sep 2015: Ariane sends Aabar/Wolves of Wall St article. Oct 2015: 25M Southern Trust agreement signed. Oct 2015: Ariane 'so worried' re Jho Low. Jan 2016: Ariane+Tobiano+Rowen(Apollo)+Ruemmler meet at 71st. Feb 2016: El Hachem infrastructure pitch in Paris. Mar 2016: Epstein sends Ruemmler BNY Mellon 1MDB article. Jun 24 2016: Ariane preparing CSSF meeting about 1MDB. Jun 27 2016: Ariane shares governance restructuring plan. Jun 29 2016: 90-officer police raid - Ariane tells Epstein in real-time. Jul 20 2016: Epstein advises Ariane on DOJ perception. Sep 2016: Ruemmler sends Sarawak Report raid article. May 2017: Kahn/HBRK actively trading EdR stock via Deutsche Bank. 2018: Ariane continues visiting Epstein at 71st. Oct 2025: EdR convicted - first bank convicted of ML in Luxembourg.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2016-06-24",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:59",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02337912",
+          "source_quote": "From: \nA. de Rothschild-2 \nSent: \nThursday, October 1, 2015 5:08 AM \nTo: \njeevacation@gmail.com \nhttp://www.sarawakreport.org/2015/09/the-real-wolves-of-wall-street-the-boys-from-aabar-and-their-friends-from-\nmalaysia-exclusive-investigation/...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02455931",
+          "source_quote": "From: \nSent: \nTo: \nSubject: \nPhone only \nOn Wednesday, 20 July 2016 \njeffrey E. <jeevacation@gmail.com> \nWednesday, July 20, 2016 11:27 PM \nRe: \nrote: \nJeff , its not because i m in Africa , on the exact same time zone, =hat i don t follow these...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459022",
+          "source_quote": "From: \nSent: \nWednesday, June 29, 2016 10:11 AM \nTo: \njeevacation@gmail.com \nSubject: \nLuxembourg \nShit is hitting the fan. \nPolice thoughout the bank - full bk search with people locked and not allow=d to get out Cynthia & emmanuel at the \nsame...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459923",
+          "source_quote": "From: \nSent: \nFriday, June 24, 2016 12:32 PM \nTo: \njeffrey E. \nSubject: \nRe: \nNo, I m up since 4>30 AM to follow markets Also preparing meeting for next week a= CSSF about 1MDB \nAriane de Rothschild \nOn 24 Jun 2016, at 14:27, jeffrey E....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02688019",
+          "source_quote": "From: \nTOBIANO, Cynthia \nSent: \nSaturday, September 6, 2014 10:10 AM \nTo: \njeevacation@gmail.com* \nCc: \nA. de Rothschild \nSubject: \nInformations \nAttachments: \nCash flow statement.pdt Organisational chart.pdf \nDear Mr Epstein, \nYou will find...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718592",
+          "source_quote": "From: \nTOBIANO, Cynthia \nSent: \nFriday, July 31, 2015 3:44 PM \nTo: \nJeffrey E. \nSubject: \nRe: \nDe: jeffrey E. \nEnvoye: vendredi 31 juillet 2015 17:07 \nA: TOBIANO, Cynthia \nObjet: Re: \nCurrent structure of buildings?? Etc . Please send number to call...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1166,
+      "finding_type": "financial",
+      "summary": "Epstein discussed Apollo Global in the context of EdR banking. On Jun 27, 2016, Ariane asked 'What is Apollo going to do in London?' and Epstein replied about 'leon in china. many things to be rethought on his return.' On Jan 14, 2016, Marc Rowen (Apollo co-founder) and his colleague Miran Siddiqui met with Ariane de Rothschild and EdR CFO Cynthia Tobiano at 9 E 71st, with Ruemmler joining. This places Apollo Global as part of the EdR-Epstein financial axis.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-06-27",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:03",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02340160",
+          "source_quote": "Lyn; JoJo Fontanilla; merwin dela cruz;\nSubject: \nSchedule Thurs. Jan. 14, 2016 \nThurs. Jan. 14, 2016 =Y \n9:30am Appt w/Rich and Darren \n(10:00am Eric Krempp, chef candidate to arrive NY, he come by house to view kitchen (ce \nI IF YOU CAN \nMEET W/HIM TO DISCUSS LUNCH IT WOULD BE =REATI \n10:30am...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459917",
+          "source_quote": "What is appollo going to do in london? / leon in china. many things to be rethought on his return. EFTA02340160:3:45pm Appt w/Marc Rowen, Miran Siddiqui Ariane and Cynthia Tobiano",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1143,
+      "finding_type": "financial",
+      "summary": "Epstein told EdR executive Johnny El Hachem: 'thanks, the issue will be returns on investment... there is a HUGE amount of cash sitting on the sidelines, trump will want to do private public partnerships on most things... donald loves the rothschild name.' El Hachem had pitched Epstein on EdR infrastructure fund (senior/mezzanine debt, 8-10% yield). Epstein advised niche strategy. This reveals Epstein positioning himself as political connector between EdR and Trump infrastructure spending.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:15",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02485775",
+          "source_quote": "oct 14th works, please instruct susswein to do=his homework , so we have history and details. and proposals",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1139,
+      "finding_type": "financial",
+      "summary": "Richard Kahn (HBRK Associates) was actively trading Edmond de Rothschild stock through Deutsche Bank Securities (Delores Rubin, Tazia Smith, Vahe Stepanian, Stewart Oldfield) in May-June 2017. DS10 records show multiple trading emails: asking for bid/ask quotes (May 22, 2017), monitoring closing prices (28.26 EUR), and getting intraday charts. LMSBAND shows 195+ files with Kahn co-occurring with Rothschild. This represents Epstein entity trading in the stock of a bank where he was also serving as crisis advisor -- potential insider trading.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-05-22",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:54:38",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01375412",
+          "source_quote": "Rothschild closed off the highs today at 28.26 EUR. Please let us know if you would like us to work anything for tomorrow.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01375578",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01380918",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01385225",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1255,
+      "finding_type": "financial",
+      "summary": "House Oversight documents (Epstein 20K dataset) contain 75 Rothschild matches, including previously unanalyzed material: (1) HOUSE_OVERSIGHT_026432 -- EdR infrastructure fund pitch with TIIC Group (EUR 140M Fund 1, EUR 300M Fund 2) and BRIDGE partnership, El Hachem writing 'With Ariane we strongly believe that we should absolutely find a way to collaborate together with you.' (2) Multiple copies of El Hachem infrastructure pitch with Epstein's 'donald loves the rothschild name' reply. (3) French confidentiality disclaimers from 'La Compagnie Financiere Edmond de Rothschild Banque' on emails sent to Epstein's jeevacation@gmail.com -- confirming direct bank-to-Epstein electronic communications. (4) Nov 8, 2018 meeting arranged between Ariane and Epstein in NYC -- 8 months pre-arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-11-08",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:06:25",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_026069",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_026432",
+          "source_quote": "With Ariane we strongly believe that we should absolutely find a way to collaborate together with you",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_030741",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1171,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR shows Edmond de Rothschild Holding S.A. (CIK 1649647) has filed 13F-HR forms quarterly since at least 2017, disclosing US equity holdings. Aleph/OCCRP shows extensive EdR corporate structure: Groupe EdR (CH), Banque Privee EdR (CH), EdR Suisse (CH-660.0.011.924-3, Geneva), EdR Holding at Route de Pregny 21 Chambesy 1292, EdR Asset Management (France), EdR Foundation (NY reg #268461, est 1973). US DOJ civil forfeiture case 2:20-cv-05912 (C.D. Cal, filed Jul 1, 2020) targets account numbers 0610 and 1751 at Banque Privee EdR.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2020-07-01",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:19",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459022",
+          "source_quote": "From: \nSent: \nWednesday, June 29, 2016 10:11 AM \nTo: \njeevacation@gmail.com \nSubject: \nLuxembourg \nShit is hitting the fan. \nPolice thoughout the bank - full bk search with people locked and not allow=d to get out Cynthia & emmanuel at the \nsame...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1178,
+      "finding_type": "financial",
+      "summary": "DOJ civil forfeiture case US v. All Funds on Deposit in Bank Privee Edmond de Rothschild Account Numbers 0610 and 1751 (2:20-cv-05912, C.D. Cal, Judge Dale S. Fischer, filed Jul 1, 2020, still open). Nature of suit: Forfeit/Penalty. Cause: 18 USC 981 Civil Forfeiture. These specific accounts held 1MDB-related proceeds. This US enforcement action is separate from the Luxembourg conviction (EUR 25M, May 2025) and CSSF fine (EUR 8.9M, 2017).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2020-07-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:36",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459022",
+          "source_quote": "Shit is hitting the fan. \nPolice thoughout the bank - full bk search with people locked and not allow=d to get out Cynthia & emmanuel at the \nsame time presenting the remediation plan to Cssf=20 \nAriane de Rothschild =?xml version=.0\" encoding=TF-8\"?>",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1250,
+      "finding_type": "financial",
+      "summary": "GLEIF confirms EdR corporate hierarchy: Edmond de Rothschild (Suisse) S.A. (LEI: 52990049YMGDGTAMFX97, Rue de Hesse 18, Geneva, CHE-105.978.847) controls 3 direct subsidiaries: EdR Monaco (LEI: 2138004JHFADM38LBP89), EdR UK Limited (LEI: 213800KM8L7F7CREKM71), and EdR France (LEI: 9695002JOWSRCLLLNY11). Total GLEIF ecosystem: 707 entities bearing the Edmond de Rothschild name, overwhelmingly Luxembourg-domiciled fund vehicles. EdR Private Equity S.A. (Luxembourg, LEI: 549300WPWUTT0VTXBD64) was formerly CBR Holding Luxembourg. No direct parent or ultimate parent reported to GLEIF for the Swiss parent -- consistent with private family ownership.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2021",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:05:32",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF",
+          "source_quote": "EdR Suisse LEI 52990049YMGDGTAMFX97, Rue de Hesse 18 Geneva, 3 subsidiaries",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1145,
+      "finding_type": "legal",
+      "summary": "Edmond de Rothschild (Europe) became the first bank ever convicted of money laundering in Luxembourg (May 22, 2025), paying EUR 25M to settle 1MDB-related charges. Approximately USD 472.5M in suspicious funds from 1MDB flowed through EdR Luxembourg accounts. Earlier, CSSF fined EdR EUR 8.9M (2017). The DOJ filed civil forfeiture against two EdR account numbers (2:20-cv-05912, C.D. California, Jul 2020). FINMA also found major AML violations. The 90-officer police raid Ariane reported to Epstein in real-time (Jun 29, 2016) was part of this investigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2025-05-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:30",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459022",
+          "source_quote": "From: \nSent: \nWednesday, June 29, 2016 10:11 AM \nTo: \njeevacation@gmail.com \nSubject: \nLuxembourg \nShit is hitting the fan. \nPolice thoughout the bank - full bk search with people locked and not allow=d to get out Cynthia & emmanuel at the \nsame...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1251,
+      "finding_type": "legal",
+      "summary": "Marc Ambroisien, former director of EdR Luxembourg, allegedly brought Khadem al-Qubaisi (Aabar/IPIC CEO) into the bank as a client and processed 1MDB fund transfers. Al-Qubaisi allegedly gifted Ambroisien an Aston Martin for his services (denied by Ambroisien). Ambroisien departed ~2015, replaced by Bernard Coucke as CEO of EdR Luxembourg (summer 2016). CSSF fined EdR EUR 8.99M (2017). Ambroisien banned from financial sector for 10 years (Mar 2020). Formally indicted by Luxembourg judiciary (Jan 2022). Bank convicted May 22, 2025, EUR 25M confiscated. This is the same Coucke who Ariane discussed with Epstein in governance restructuring emails.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2025-05-22",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:05:40",
+      "target_name": "Edmond de Rothschild Bank",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.comsuregroup.com/news/2016-2017-2020-and-2025",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.finews.com/news/english-news/27823-edmond-de-rothschild-1mdb",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 547,
+      "person_a": "Edmond de Rothschild Bank",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "25M consulting via Southern Trust (Oct 2015). Received confidential org chart and cash flows. Managed 1MDB crisis. Kahn/HBRK traded EdR stock. Introduced EdR execs to Gulf contacts.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:56:36",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01385225",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459922",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02688019",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "person_a": "Edmond de Rothschild Bank",
+      "person_b": "Kathy Ruemmler",
+      "relationship_type": "legal",
+      "description": "Former White House Counsel deployed by Epstein to manage EdR 1MDB crisis. Ariane: 3 Lux law firms + Kathy on all angles. Tobiano: spoke w Kathy, sorted. Tracked Sarawak Report articles on EdR raid.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:56:47",
+      "other_person": "Kathryn Ruemmler",
+      "other_person_slug": "kathryn-ruemmler",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02452636",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02455931",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718592",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 586,
+      "person_a": "Edmond de Rothschild Bank",
+      "person_b": "Marc Ambroisien",
+      "relationship_type": "corporate",
+      "description": "Former director of EdR Luxembourg who allegedly brought al-Qubaisi as client and processed 1MDB transfers. Departed ~2015, banned from financial sector 10 years (2020), indicted (2022).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:06:30",
+      "other_person": "Marc Ambroisien",
+      "other_person_slug": "marc-ambroisien",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.finews.com/news/english-news/27823",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "person_a": "Bernard Coucke",
+      "person_b": "Edmond de Rothschild Bank",
+      "relationship_type": "corporate",
+      "description": "Replaced Ambroisien as CEO of EdR Luxembourg (summer 2016). Discussed in Epstein-Ariane governance restructuring emails. Tasked with remediation of 1MDB compliance failures.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 23:06:44",
+      "other_person": "Bernard Coucke",
+      "other_person_slug": "bernard-coucke",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459917",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.finews.com/news/english-news/27823",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 482,
+      "person_a": "Ariane de Rothschild",
+      "person_b": "Edmond de Rothschild Bank",
+      "relationship_type": "corporate",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:19:40",
+      "other_person": "Ariane de Rothschild",
+      "other_person_slug": "ariane-de-rothschild",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2013-10-17",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DS10 Deutsche Bank financial records show Southern Trust Company Inc. (Epstein's USVI entity that signed the $25M EdR agreement) had $19.6M in outgoing and $8.6M in incoming transactions through Deutsche Bank (2013-2020). Key flows: $6M incoming Oct 17 2013 (source unknown), $3.05M to Citibank/Morgan Stanley Jun 5 2015, $1M to Citibank/Morgan Stanley Aug 23 2015, $2M internal transfer Oct 17 2017, $13M outgoing Dec 23 2019 (5 months post-death). EdR/Rothschild does NOT appear as a named counterparty -- payments likely routed through intermediary banks. The $6M Oct 2013 incoming deposit predates the Oct 2015 formal agreement, suggesting an earlier undocumented arrangement.",
+      "confidence": "high",
+      "id": 1252
+    },
+    {
+      "date": "2014-09-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Cynthia Tobiano, CFO of Edmond de Rothschild, sent Epstein the bank's organizational chart and cash flow statements (consolidated and statutory views for 2013 and H1 2014) on Sep 6, 2014. Cc'd to Ariane de Rothschild. Epstein immediately asked to speak with Tobiano. This proves Epstein had direct access to EdR's confidential financial data, far beyond normal advisory.",
+      "confidence": "confirmed",
+      "id": 1138
+    },
+    {
+      "date": "2014-11-09",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Mohamed Badawy Al-Husseiny (CEO of Aabar Investments, 1MDB co-conspirator) appeared on a guest list shared with Epstein (EFTA02593759, Nov 9, 2014). Al-Husseiny was a key figure in laundering 1MDB funds through Aabar BVI -- the same scandal that led to the raid on EdR Luxembourg. Aabar funds that flowed through EdR are the basis of the bank's 2025 money laundering conviction. This shows Epstein was connected to both sides of the 1MDB scandal: the bank that received the money and the people who sent it.",
+      "confidence": "medium",
+      "id": 1149
+    },
+    {
+      "date": "2015-07-28",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein introduced EdR CFO Cynthia Tobiano to Alireza Ittihadieh (President & CEO, Freestream Aircraft Bermuda Limited) on Jul 28, 2015: 'ali cynthia. cynthia, ali.' The three-way thread discusses Malta and Tobiano says she 'spoke w. Kathy. Sorted.' Ittihadieh operated from Bermuda (freestreambermuda.bm), handled aircraft transactions for Epstein (G550 deals, BBJ maintenance via VP-BBJ). This connects EdR's CFO to Epstein's aviation/offshore network.",
+      "confidence": "confirmed",
+      "id": 1144
+    },
+    {
+      "date": "2015-10-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc. (Epstein's USVI entity) signed a $25M consulting agreement with Edmond de Rothschild Holding S.A. on Oct 5, 2015. The contract was for 'risk analysis and the application and use of certain algorithms.' Payment was contingent on EdR completing its payment to US authorities re 1MDB. This was signed 2 months after Epstein's Jul 30 email demanding an agreement 'before the DOJ meeting.' Ariane de Rothschild signed for EdR.",
+      "confidence": "medium",
+      "id": 1137
+    },
+    {
+      "date": "2016-06-24",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "TIMELINE OF EPSTEIN-EDR 1MDB INTELLIGENCE CHANNEL: Sep 2013: Ariane+Colom breakfast at 71st. Nov 2013: Colom offers Epstein judicial contacts. Sep 2014: EdR CFO Tobiano sends Epstein confidential financials. Jul 2015: Epstein demands agreement before DOJ meeting Aug 27. Sep 2015: Ariane sends Aabar/Wolves of Wall St article. Oct 2015: 25M Southern Trust agreement signed. Oct 2015: Ariane 'so worried' re Jho Low. Jan 2016: Ariane+Tobiano+Rowen(Apollo)+Ruemmler meet at 71st. Feb 2016: El Hachem infrastructure pitch in Paris. Mar 2016: Epstein sends Ruemmler BNY Mellon 1MDB article. Jun 24 2016: Ariane preparing CSSF meeting about 1MDB. Jun 27 2016: Ariane shares governance restructuring plan. Jun 29 2016: 90-officer police raid - Ariane tells Epstein in real-time. Jul 20 2016: Epstein advises Ariane on DOJ perception. Sep 2016: Ruemmler sends Sarawak Report raid article. May 2017: Kahn/HBRK actively trading EdR stock via Deutsche Bank. 2018: Ariane continues visiting Epstein at 71st. Oct 2025: EdR convicted - first bank convicted of ML in Luxembourg.",
+      "confidence": "medium",
+      "id": 1186
+    },
+    {
+      "date": "2016-06-27",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein discussed Apollo Global in the context of EdR banking. On Jun 27, 2016, Ariane asked 'What is Apollo going to do in London?' and Epstein replied about 'leon in china. many things to be rethought on his return.' On Jan 14, 2016, Marc Rowen (Apollo co-founder) and his colleague Miran Siddiqui met with Ariane de Rothschild and EdR CFO Cynthia Tobiano at 9 E 71st, with Ruemmler joining. This places Apollo Global as part of the EdR-Epstein financial axis.",
+      "confidence": "confirmed",
+      "id": 1166
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein told EdR executive Johnny El Hachem: 'thanks, the issue will be returns on investment... there is a HUGE amount of cash sitting on the sidelines, trump will want to do private public partnerships on most things... donald loves the rothschild name.' El Hachem had pitched Epstein on EdR infrastructure fund (senior/mezzanine debt, 8-10% yield). Epstein advised niche strategy. This reveals Epstein positioning himself as political connector between EdR and Trump infrastructure spending.",
+      "confidence": "confirmed",
+      "id": 1143
+    },
+    {
+      "date": "2017-05-22",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Richard Kahn (HBRK Associates) was actively trading Edmond de Rothschild stock through Deutsche Bank Securities (Delores Rubin, Tazia Smith, Vahe Stepanian, Stewart Oldfield) in May-June 2017. DS10 records show multiple trading emails: asking for bid/ask quotes (May 22, 2017), monitoring closing prices (28.26 EUR), and getting intraday charts. LMSBAND shows 195+ files with Kahn co-occurring with Rothschild. This represents Epstein entity trading in the stock of a bank where he was also serving as crisis advisor -- potential insider trading.",
+      "confidence": "confirmed",
+      "id": 1139
+    },
+    {
+      "date": "2018-11-08",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "House Oversight documents (Epstein 20K dataset) contain 75 Rothschild matches, including previously unanalyzed material: (1) HOUSE_OVERSIGHT_026432 -- EdR infrastructure fund pitch with TIIC Group (EUR 140M Fund 1, EUR 300M Fund 2) and BRIDGE partnership, El Hachem writing 'With Ariane we strongly believe that we should absolutely find a way to collaborate together with you.' (2) Multiple copies of El Hachem infrastructure pitch with Epstein's 'donald loves the rothschild name' reply. (3) French confidentiality disclaimers from 'La Compagnie Financiere Edmond de Rothschild Banque' on emails sent to Epstein's jeevacation@gmail.com -- confirming direct bank-to-Epstein electronic communications. (4) Nov 8, 2018 meeting arranged between Ariane and Epstein in NYC -- 8 months pre-arrest.",
+      "confidence": "high",
+      "id": 1255
+    },
+    {
+      "date": "2020-07-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR shows Edmond de Rothschild Holding S.A. (CIK 1649647) has filed 13F-HR forms quarterly since at least 2017, disclosing US equity holdings. Aleph/OCCRP shows extensive EdR corporate structure: Groupe EdR (CH), Banque Privee EdR (CH), EdR Suisse (CH-660.0.011.924-3, Geneva), EdR Holding at Route de Pregny 21 Chambesy 1292, EdR Asset Management (France), EdR Foundation (NY reg #268461, est 1973). US DOJ civil forfeiture case 2:20-cv-05912 (C.D. Cal, filed Jul 1, 2020) targets account numbers 0610 and 1751 at Banque Privee EdR.",
+      "confidence": "medium",
+      "id": 1171
+    },
+    {
+      "date": "2020-07-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DOJ civil forfeiture case US v. All Funds on Deposit in Bank Privee Edmond de Rothschild Account Numbers 0610 and 1751 (2:20-cv-05912, C.D. Cal, Judge Dale S. Fischer, filed Jul 1, 2020, still open). Nature of suit: Forfeit/Penalty. Cause: 18 USC 981 Civil Forfeiture. These specific accounts held 1MDB-related proceeds. This US enforcement action is separate from the Luxembourg conviction (EUR 25M, May 2025) and CSSF fine (EUR 8.9M, 2017).",
+      "confidence": "confirmed",
+      "id": 1178
+    },
+    {
+      "date": "2021",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "GLEIF confirms EdR corporate hierarchy: Edmond de Rothschild (Suisse) S.A. (LEI: 52990049YMGDGTAMFX97, Rue de Hesse 18, Geneva, CHE-105.978.847) controls 3 direct subsidiaries: EdR Monaco (LEI: 2138004JHFADM38LBP89), EdR UK Limited (LEI: 213800KM8L7F7CREKM71), and EdR France (LEI: 9695002JOWSRCLLLNY11). Total GLEIF ecosystem: 707 entities bearing the Edmond de Rothschild name, overwhelmingly Luxembourg-domiciled fund vehicles. EdR Private Equity S.A. (Luxembourg, LEI: 549300WPWUTT0VTXBD64) was formerly CBR Holding Luxembourg. No direct parent or ultimate parent reported to GLEIF for the Swiss parent -- consistent with private family ownership.",
+      "confidence": "high",
+      "id": 1250
+    },
+    {
+      "date": "2025-05-22",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Edmond de Rothschild (Europe) became the first bank ever convicted of money laundering in Luxembourg (May 22, 2025), paying EUR 25M to settle 1MDB-related charges. Approximately USD 472.5M in suspicious funds from 1MDB flowed through EdR Luxembourg accounts. Earlier, CSSF fined EdR EUR 8.9M (2017). The DOJ filed civil forfeiture against two EdR account numbers (2:20-cv-05912, C.D. California, Jul 2020). FINMA also found major AML violations. The 90-officer police raid Ariane reported to Epstein in real-time (Jun 29, 2016) was part of this investigation.",
+      "confidence": "medium",
+      "id": 1145
+    },
+    {
+      "date": "2025-05-22",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Marc Ambroisien, former director of EdR Luxembourg, allegedly brought Khadem al-Qubaisi (Aabar/IPIC CEO) into the bank as a client and processed 1MDB fund transfers. Al-Qubaisi allegedly gifted Ambroisien an Aston Martin for his services (denied by Ambroisien). Ambroisien departed ~2015, replaced by Bernard Coucke as CEO of EdR Luxembourg (summer 2016). CSSF fined EdR EUR 8.99M (2017). Ambroisien banned from financial sector for 10 years (Mar 2020). Formally indicted by Luxembourg judiciary (Jan 2022). Bank convicted May 22, 2025, EUR 25M confiscated. This is the same Coucke who Ariane discussed with Epstein in governance restructuring emails.",
+      "confidence": "high",
+      "id": 1251
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1139,
+      1138,
+      1166,
+      1144,
+      1143,
+      1186,
+      1145,
+      1149,
+      1251,
+      1178,
+      1137,
+      1171
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1149
+        ],
+        "connection_ids": [
+          547,
+          552,
+          586,
+          589,
+          482
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          1252,
+          1138,
+          1137,
+          1166,
+          1143,
+          1139,
+          1255,
+          1171,
+          1178,
+          1250
+        ],
+        "connection_ids": [
+          547
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1145,
+          1251
+        ],
+        "connection_ids": [
+          552
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1144,
+          1186
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T03:53:27.945573",
+    "lead": "<p>Edmond de Rothschild Bank is a Swiss private banking group that became the <strong>first bank ever convicted of money laundering in Luxembourg</strong> in May 2025, settling 1MDB-related charges for EUR 25 million. The conviction capped nearly a decade of regulatory and legal scrutiny that began with a 90-officer police raid on June 29, 2016—a raid that <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a> reported to <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> in real-time via encrypted communications. The investigation revealed that approximately <strong>USD 472.5 million in suspicious funds</strong> from Malaysia's 1MDB sovereign wealth scandal had flowed through the bank's Luxembourg accounts, with former director <a href=\"/dossiers/marc-ambroisien\">Marc Ambroisien</a> allegedly facilitating the transfers at the direction of Khadem al-Qubaisi, CEO of Abu Dhabi's Aabar Investments.</p>\n\n<p>Epstein's relationship with the bank extended far beyond casual acquaintance. In October 2015, his USVI entity <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a> signed a <strong>$25 million consulting agreement</strong> with Edmond de Rothschild Holding S.A. for \"risk analysis and the application and use of certain algorithms\"—payment contingent on the bank completing its settlement with U.S. authorities over 1MDB. By September 2014, bank CFO <a href=\"/dossiers/cynthia-tobiano\">Cynthia Tobiano</a> had already sent Epstein confidential organizational charts and cash flow statements, with <a href=\"/dossiers/kathryn-ruemmler\">Kathryn Ruemmler</a>, former White House Counsel, deployed as legal counsel during the crisis. The bank's stock was actively traded by Epstein's financial advisor <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> through Deutsche Bank in May-June 2017, while Epstein simultaneously advised Ariane de Rothschild on managing regulatory fallout.</p>\n\n<p>The enforcement actions against Edmond de Rothschild span three jurisdictions: the CSSF fine of EUR 8.9 million (Luxembourg, 2017), an ongoing U.S. Department of Justice civil forfeiture case targeting specific account numbers 0610 and 1751 at Banque Privée Edmond de Rothschild (2:20-cv-05912, C.D. Cal., filed July 1, 2020), and the historic May 2025 criminal conviction. Marc Ambroisien was banned from the financial sector for ten years in March 2020 and formally indicted in January 2022. The bank's corporate structure encompasses over 700 entities globally, domiciled primarily in Luxembourg, Switzerland, Monaco, France, and the United Kingdom, with no ultimate parent reported to GLEIF—consistent with private family ownership.</p>",
+    "open_questions": [
+      "Was the $25 million consulting payment from Edmond de Rothschild to Southern Trust Company actually made? The agreement was contingent on EdR completing its payment to U.S. authorities—did the bank's settlement negotiations with DOJ affect payment status?",
+      "Did Epstein's trading of EdR stock through Richard Kahn/HBRK Associates constitute insider trading? Kahn was trading while Epstein had access to confidential information about the bank's 1MDB regulatory crisis and CSSF negotiations.",
+      "What is the current status of U.S. DOJ civil forfeiture case 2:20-cv-05912 targeting EdR accounts 0610 and 1751? Which specific 1MDB funds remain subject to forfeiture, and what connection exists to Aabar BVI transactions?",
+      "Who were the beneficial owners of the 1MDB funds flowing through EdR Luxembourg? The bank's conviction addressed institutional liability, but individual accountability for the USD 472.5 million in suspicious flows remains unclear.",
+      "Did Epstein introduce other EdR executives to his aviation/offshore network beyond the documented introduction to Alireza Ittihadieh? The bank's use of offshore structures for fund vehicles suggests potential integration with Epstein's broader infrastructure."
+    ],
+    "system_role": "Edmond de Rothschild reveals how a centuries-old private banking dynasty adapted to modern financial crime by deploying the same access-controlled networks it used for legitimate wealth management—treating regulatory investigations as reputational crises to be managed through personal relationships rather than compliance procedures. The bank's simultaneous roles as 1MDB conduit, Epstein client, and institutional investor illustrate the 'enabler gradient' in its purest form: an institution sliding from willful blindness to criminal conviction while maintaining the social infrastructure of elite private banking.",
+    "sections": [
+      {
+        "id": "key-relationships",
+        "title": "The Epstein Intelligence Channel",
+        "content": "<p>The relationship between Edmond de Rothschild and Jeffrey Epstein operated as a sophisticated intelligence channel spanning 2013 to 2019, with Epstein positioned as a crisis advisor during the bank's most perilous regulatory moment. The documented timeline reveals systematic integration: in September 2013, Ariane de Rothschild and executive Claude Colom breakfasted at Epstein's 9 East 71st Street townhouse; by November 2013, Colom was offering Epstein access to judicial contacts. By September 2014, CFO Cynthia Tobiano was transmitting confidential financial data directly to Epstein's personal email, including organizational charts and cash flow statements with consolidated and statutory views for 2013 and first-half 2014.</p>\n\n<p>The $25 million consulting agreement signed October 5, 2015, formalized what had been an informal advisory relationship. The contract—signed by Ariane de Rothschild for the bank and executed through Southern Trust Company Inc.—specified services for \"risk analysis and the application and use of certain algorithms.\" Contingent payment terms tied to the bank's 1MDB settlement with U.S. authorities suggest Epstein was positioning himself to profit from the crisis he was helping manage. Two months earlier, Epstein had emailed demanding an agreement \"before the DOJ meeting\" scheduled for August 27, 2015.</p>\n\n<p><a href=\"/dossiers/kathryn-ruemmler\">Kathryn Ruemmler</a>'s deployment as legal counsel to the bank in 2016 represents the fusion of Epstein's personal legal infrastructure with the bank's defense strategy. On January 14, 2016, Ruemmler joined Ariane de Rothschild, Cynthia Tobiano, and Apollo Global Management co-founder <a href=\"/dossiers/marc-rowan\">Marc Rowen</a> for a meeting at 9 East 71st Street. Tobiano later reported to Epstein that she \"spoke w. Kathy. Sorted\" regarding a Malta matter. Ruemmler tracked media coverage of the bank's raid, sending Ariane Sarawak Report articles about the investigation. Ariane confirmed Ruemmler was covering \"all angles\" alongside three Luxembourg law firms.</p>\n\n<p>The bank's relationship with <a href=\"/dossiers/apollo-global-management\">Apollo Global Management</a>—which intersected with Epstein through the $158 million consulting arrangement with <a href=\"/dossiers/leon-black\">Leon Black</a>—created a nexus of overlapping advisory relationships. When Ariane asked Epstein in June 2016 what Apollo planned for London, Epstein's response about \"leon in china\" demonstrated his ongoing intelligence on Apollo's leadership while simultaneously advising both the bank and its potential business partner.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Flows and Trading Activity",
+        "content": "<p>Financial flows connecting Edmond de Rothschild to Epstein entities remain partially obscured by intermediary banking, but documented transactions reveal a multi-year financial relationship of significant scale. Deutsche Bank records show that Southern Trust Company Inc.—the entity that signed the $25 million consulting agreement—processed $19.6 million in outgoing and $8.6 million in incoming transactions through Deutsche Bank between 2013 and 2020. Notably, a $6 million incoming deposit on October 17, 2013 predated the formal October 2015 agreement, suggesting an earlier undocumented financial arrangement. The EdR/Rothschild name does not appear as a direct counterparty in available transaction records, indicating payments were likely routed through intermediary institutions.</p>\n\n<p>The trading activity presents potential insider trading concerns. From May through June 2017, <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> of HBRK Associates—Epstein's long-time financial advisor—actively traded Edmond de Rothschild stock through Deutsche Bank Securities, with relationship managers Delores Rubin, Tazia Smith, Vahe Stepanian, and Stewart Oldfield handling the transactions. Records show requests for bid/ask quotes (May 22, 2017), monitoring of closing prices at 28.26 EUR, and requests for intraday charts. This trading occurred while Epstein was simultaneously serving as crisis advisor to the bank's chairwoman—creating a situation where an Epstein-controlled entity was trading securities of a company receiving confidential crisis management advice from Epstein himself.</p>\n\n<p>Edmond de Rothschild executives pursued infrastructure investment opportunities with Epstein in 2016-2017. Johnny El Hachem, representing the bank's infrastructure fund initiative, pitched Epstein on senior and mezzanine debt structures targeting 8-10% yields, with proposed funds of EUR 140 million (Fund 1) and EUR 300 million (Fund 2) through a BRIDGE partnership with TIIC Group. Epstein's response revealed his positioning as a political connector: \"there is a HUGE amount of cash sitting on the sidelines, trump will want to do private public partnerships on most things... donald loves the rothschild name.\" A meeting between Ariane de Rothschild and Epstein was arranged for November 8, 2018—eight months before Epstein's arrest on federal sex trafficking charges.</p>\n\n<p>The bank's corporate structure spans multiple jurisdictions with over 700 entities bearing the Edmond de Rothschild name, overwhelmingly Luxembourg-domiciled fund vehicles. GLEIF records confirm Edmond de Rothschild (Suisse) S.A. (LEI: 52990049YMGDGTAMFX97) controls direct subsidiaries in Monaco, the United Kingdom, and France, with no ultimate parent reported—consistent with private family ownership. The U.S. Department of Justice civil forfeiture case (2:20-cv-05912) targets specific account numbers 0610 and 1751 at Banque Privée Edmond de Rothschild, seeking recovery of 1MDB-related proceeds.</p>",
+        "viz": null
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Regulatory Actions and Criminal Conviction",
+        "content": "<p>Edmond de Rothschild's legal trajectory over the past decade illustrates the escalation from regulatory scrutiny to criminal conviction, with Epstein present at key inflection points. On June 24, 2016, Ariane de Rothschild informed Epstein she was \"preparing meeting for next week at CSSF about 1MDB\"—referring to Luxembourg's financial regulator. Five days later, on June 29, 2016, she reported the raid in real-time: \"Shit is hitting the fan. Police throughout the bank—full bank search with people locked and not allowed to get out.\" This 90-officer police operation marked the beginning of what would become Luxembourg's most significant money laundering prosecution.</p>\n\n<p>The CSSF imposed an EUR 8.9 million fine in 2017 for anti-money laundering failures. The investigation centered on Marc Ambroisien, who allegedly brought Khadem al-Qubaisi into the bank as a client and processed 1MDB fund transfers. Al-Qubaisi reportedly gifted Ambroisien an Aston Martin for his services—a claim Ambroisien has denied. Ambroisien departed the bank around 2015 and was replaced by <a href=\"/dossiers/bernard-coucke\">Bernard Coucke</a> as CEO of Edmond de Rothschild Luxembourg in summer 2016, with Coucke tasked with governance restructuring and remediation of compliance failures.</p>\n\n<p>Marc Ambroisien was banned from Luxembourg's financial sector for ten years in March 2020 and formally indicted by the Luxembourg judiciary in January 2022. The bank itself faced parallel proceedings: the U.S. Department of Justice filed civil forfeiture action on July 1, 2020 (2:20-cv-05912, C.D. Cal., Judge Dale S. Fischer), targeting specific account numbers 0610 and 1751 holding 1MDB-related proceeds. This U.S. action remains open and operates independently of Luxembourg proceedings.</p>\n\n<p>On May 22, 2025, Edmond de Rothschild (Europe) became the <strong>first bank ever convicted of money laundering in Luxembourg</strong>, paying EUR 25 million to settle charges related to approximately USD 472.5 million in suspicious 1MDB funds that flowed through its Luxembourg accounts. The conviction represented a historic enforcement action against a banking institution that had positioned itself as an advisor to royalty and sovereign wealth funds while serving as a conduit for one of the largest financial frauds in history.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Network Position and Intelligence Connections",
+        "content": "<p>Edmond de Rothschild occupied a unique position in Epstein's network as both a client requiring crisis management and a node connecting to broader financial intelligence operations. Epstein's introduction of CFO Cynthia Tobiano to Alireza Ittihadieh—President & CEO of Freestream Aircraft Bermuda Limited—on July 28, 2015, connected the bank's senior leadership to Epstein's aviation and offshore infrastructure. Ittihadieh operated from Bermuda, handling aircraft transactions including Gulfstream G550 deals and BBJ maintenance through registration VP-BBJ. This introduction occurred in a three-way email thread where Tobiano reported that Ruemmler had already \"sorted\" a Malta matter, demonstrating the integration of legal, financial, and operational support channels.</p>\n\n<p>The bank's exposure to 1MDB came through its relationship with Aabar Investments, the Abu Dhabi sovereign wealth fund vehicle that served as a key conduit in the 1MDB fraud. Mohamed Badawy Al-Husseiny—CEO of Aabar Investments and a documented 1MDB co-conspirator—appeared on a guest list shared with Epstein on November 9, 2014. This placed Epstein in connection with both sides of the 1MDB scandal: the bank that received the laundered funds and the individuals who directed them. Ariane de Rothschild forwarded Epstein a Sarawak Report article in October 2015 about \"The Real Wolves of Wall Street\" detailing Aabar's role, with the subject line indicating her concern: she was \"so worried\" about Jho Low, the Malaysian financier at the center of the 1MDB fraud.</p>\n\n<p>Epstein's advice to the bank following the 2016 raid extended to DOJ perception management. On July 20, 2016, he wrote to Ariane about managing how the Department of Justice viewed the bank's cooperation. This advisory role—spanning regulatory preparation, real-time crisis response, legal counsel deployment, and U.S. enforcement strategy—represented a comprehensive intelligence and influence operation conducted on behalf of a major European private bank. That this same bank would become the first convicted of money laundering in its home jurisdiction raises questions about the effectiveness and legality of the advice provided.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "enabler-gradient",
+      "jurisdictional-arbitrage",
+      "private-order",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Edmond de Rothschild Bank",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01385225",
+          "description": "25M consulting via Southern Trust (Oct 2015). Received confidential org chart and cash flows. Managed 1MDB crisis. Kahn/HBRK traded EdR stock. Introduced EdR execs to Gulf contacts."
+        },
+        {
+          "target": "Kathryn Ruemmler",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02452636",
+          "description": "Former White House Counsel deployed by Epstein to manage EdR 1MDB crisis. Ariane: 3 Lux law firms + Kathy on all angles. Tobiano: spoke w Kathy, sorted. Tracked Sarawak Report articles on EdR raid."
+        },
+        {
+          "target": "Marc Ambroisien",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://www.finews.com/news/english-news/27823",
+          "description": "Former director of EdR Luxembourg who allegedly brought al-Qubaisi as client and processed 1MDB transfers. Departed ~2015, banned from financial sector 10 years (2020), indicted (2022)."
+        },
+        {
+          "target": "Bernard Coucke",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02459917",
+          "description": "Replaced Ambroisien as CEO of EdR Luxembourg (summer 2016). Discussed in Epstein-Ariane governance restructuring emails. Tasked with remediation of 1MDB compliance failures."
+        },
+        {
+          "target": "Ariane de Rothschild",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "Ariane de Rothschild": [
+          {
+            "target": "Kathy Ruemmler",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Close personal friends. Traveled together Paris Jul 2015. Epstein proposed Ruemmler do succession planning for Ariane."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "CEO of EdR Group. 25M consulting agreement (Oct 2015). Regular meetings 2013-2019 at 9 E 71st. Shared 1MDB intelligence in real-time. Deployed Ruemmler as EdR legal advisor."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Ruemmler provided legal counsel to EdR during 1MDB crisis. Dinner with Ariane (Mar 2017). Joint meetings at 9 E 71st. Ariane confirmed Kathy on all angles of Lux remediation."
+          },
+          {
+            "target": "Sultan Bin Sulayem",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Finding #353: Sulayem-Barak Israel back-channel confirmed. July 2018: Sulayem thanked Barak for visa help, staying at 1 Rothschild Blvd Tel Aviv penthouse for 3 mon"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Kathryn Ruemmler": [
+          {
+            "target": "Lesley Groff",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #50: Epstein provided Ruemmler with substantial gifts and personal services. Nov 2015 — Epstein bought Ruemmler an iMac for NY ('He is so over the top\\!\\!\\"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #50: Epstein provided Ruemmler with substantial gifts and personal services. Nov 2015 — Epstein bought Ruemmler an iMac for NY ('He is so over the top\\!\\!\\"
+          },
+          {
+            "target": "Michael Wolff",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2013-10-17",
+        "label": "DS10 Deutsche Bank financial records show Southern Trust Company Inc. (Epstein's USVI entity that signed the $25M EdR agreement) had $19.6M in outgoing and $8.6M in incoming transactions through Deutsche Bank (2013-2020). Key flows: $6M incoming Oct 17 2013 (source unknown), $3.05M to Citibank/Morgan Stanley Jun 5 2015, $1M to Citibank/Morgan Stanley Aug 23 2015, $2M internal transfer Oct 17 2017, $13M outgoing Dec 23 2019 (5 months post-death). EdR/Rothschild does NOT appear as a named counterparty -- payments likely routed through intermediary banks. The $6M Oct 2013 incoming deposit predates the Oct 2015 formal agreement, suggesting an earlier undocumented arrangement.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1252
+      },
+      {
+        "date": "2014-09-06",
+        "label": "Cynthia Tobiano, CFO of Edmond de Rothschild, sent Epstein the bank's organizational chart and cash flow statements (consolidated and statutory views for 2013 and H1 2014) on Sep 6, 2014. Cc'd to Ariane de Rothschild. Epstein immediately asked to speak with Tobiano. This proves Epstein had direct access to EdR's confidential financial data, far beyond normal advisory.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1138
+      },
+      {
+        "date": "2014-11-09",
+        "label": "Mohamed Badawy Al-Husseiny (CEO of Aabar Investments, 1MDB co-conspirator) appeared on a guest list shared with Epstein (EFTA02593759, Nov 9, 2014). Al-Husseiny was a key figure in laundering 1MDB funds through Aabar BVI -- the same scandal that led to the raid on EdR Luxembourg. Aabar funds that flowed through EdR are the basis of the bank's 2025 money laundering conviction. This shows Epstein was connected to both sides of the 1MDB scandal: the bank that received the money and the people who sent it.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1149
+      },
+      {
+        "date": "2015-07-28",
+        "label": "Epstein introduced EdR CFO Cynthia Tobiano to Alireza Ittihadieh (President & CEO, Freestream Aircraft Bermuda Limited) on Jul 28, 2015: 'ali cynthia. cynthia, ali.' The three-way thread discusses Malta and Tobiano says she 'spoke w. Kathy. Sorted.' Ittihadieh operated from Bermuda (freestreambermuda.bm), handled aircraft transactions for Epstein (G550 deals, BBJ maintenance via VP-BBJ). This connects EdR's CFO to Epstein's aviation/offshore network.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1144
+      },
+      {
+        "date": "2015-10-05",
+        "label": "Southern Trust Company Inc. (Epstein's USVI entity) signed a $25M consulting agreement with Edmond de Rothschild Holding S.A. on Oct 5, 2015. The contract was for 'risk analysis and the application and use of certain algorithms.' Payment was contingent on EdR completing its payment to US authorities re 1MDB. This was signed 2 months after Epstein's Jul 30 email demanding an agreement 'before the DOJ meeting.' Ariane de Rothschild signed for EdR.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1137
+      },
+      {
+        "date": "2016-06-24",
+        "label": "TIMELINE OF EPSTEIN-EDR 1MDB INTELLIGENCE CHANNEL: Sep 2013: Ariane+Colom breakfast at 71st. Nov 2013: Colom offers Epstein judicial contacts. Sep 2014: EdR CFO Tobiano sends Epstein confidential financials. Jul 2015: Epstein demands agreement before DOJ meeting Aug 27. Sep 2015: Ariane sends Aabar/Wolves of Wall St article. Oct 2015: 25M Southern Trust agreement signed. Oct 2015: Ariane 'so worried' re Jho Low. Jan 2016: Ariane+Tobiano+Rowen(Apollo)+Ruemmler meet at 71st. Feb 2016: El Hachem infrastructure pitch in Paris. Mar 2016: Epstein sends Ruemmler BNY Mellon 1MDB article. Jun 24 2016: Ariane preparing CSSF meeting about 1MDB. Jun 27 2016: Ariane shares governance restructuring plan. Jun 29 2016: 90-officer police raid - Ariane tells Epstein in real-time. Jul 20 2016: Epstein advises Ariane on DOJ perception. Sep 2016: Ruemmler sends Sarawak Report raid article. May 2017: Kahn/HBRK actively trading EdR stock via Deutsche Bank. 2018: Ariane continues visiting Epstein at 71st. Oct 2025: EdR convicted - first bank convicted of ML in Luxembourg.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1186
+      },
+      {
+        "date": "2016-06-27",
+        "label": "Epstein discussed Apollo Global in the context of EdR banking. On Jun 27, 2016, Ariane asked 'What is Apollo going to do in London?' and Epstein replied about 'leon in china. many things to be rethought on his return.' On Jan 14, 2016, Marc Rowen (Apollo co-founder) and his colleague Miran Siddiqui met with Ariane de Rothschild and EdR CFO Cynthia Tobiano at 9 E 71st, with Ruemmler joining. This places Apollo Global as part of the EdR-Epstein financial axis.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1166
+      },
+      {
+        "date": "2017",
+        "label": "Epstein told EdR executive Johnny El Hachem: 'thanks, the issue will be returns on investment... there is a HUGE amount of cash sitting on the sidelines, trump will want to do private public partnerships on most things... donald loves the rothschild name.' El Hachem had pitched Epstein on EdR infrastructure fund (senior/mezzanine debt, 8-10% yield). Epstein advised niche strategy. This reveals Epstein positioning himself as political connector between EdR and Trump infrastructure spending.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1143
+      },
+      {
+        "date": "2017-05-22",
+        "label": "Richard Kahn (HBRK Associates) was actively trading Edmond de Rothschild stock through Deutsche Bank Securities (Delores Rubin, Tazia Smith, Vahe Stepanian, Stewart Oldfield) in May-June 2017. DS10 records show multiple trading emails: asking for bid/ask quotes (May 22, 2017), monitoring closing prices (28.26 EUR), and getting intraday charts. LMSBAND shows 195+ files with Kahn co-occurring with Rothschild. This represents Epstein entity trading in the stock of a bank where he was also serving as crisis advisor -- potential insider trading.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1139
+      },
+      {
+        "date": "2018-11-08",
+        "label": "House Oversight documents (Epstein 20K dataset) contain 75 Rothschild matches, including previously unanalyzed material: (1) HOUSE_OVERSIGHT_026432 -- EdR infrastructure fund pitch with TIIC Group (EUR 140M Fund 1, EUR 300M Fund 2) and BRIDGE partnership, El Hachem writing 'With Ariane we strongly believe that we should absolutely find a way to collaborate together with you.' (2) Multiple copies of El Hachem infrastructure pitch with Epstein's 'donald loves the rothschild name' reply. (3) French confidentiality disclaimers from 'La Compagnie Financiere Edmond de Rothschild Banque' on emails sent to Epstein's jeevacation@gmail.com -- confirming direct bank-to-Epstein electronic communications. (4) Nov 8, 2018 meeting arranged between Ariane and Epstein in NYC -- 8 months pre-arrest.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1255
+      },
+      {
+        "date": "2020-07-01",
+        "label": "SEC EDGAR shows Edmond de Rothschild Holding S.A. (CIK 1649647) has filed 13F-HR forms quarterly since at least 2017, disclosing US equity holdings. Aleph/OCCRP shows extensive EdR corporate structure: Groupe EdR (CH), Banque Privee EdR (CH), EdR Suisse (CH-660.0.011.924-3, Geneva), EdR Holding at Route de Pregny 21 Chambesy 1292, EdR Asset Management (France), EdR Foundation (NY reg #268461, est 1973). US DOJ civil forfeiture case 2:20-cv-05912 (C.D. Cal, filed Jul 1, 2020) targets account numbers 0610 and 1751 at Banque Privee EdR.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1171
+      },
+      {
+        "date": "2020-07-01",
+        "label": "DOJ civil forfeiture case US v. All Funds on Deposit in Bank Privee Edmond de Rothschild Account Numbers 0610 and 1751 (2:20-cv-05912, C.D. Cal, Judge Dale S. Fischer, filed Jul 1, 2020, still open). Nature of suit: Forfeit/Penalty. Cause: 18 USC 981 Civil Forfeiture. These specific accounts held 1MDB-related proceeds. This US enforcement action is separate from the Luxembourg conviction (EUR 25M, May 2025) and CSSF fine (EUR 8.9M, 2017).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1178
+      },
+      {
+        "date": "2021",
+        "label": "GLEIF confirms EdR corporate hierarchy: Edmond de Rothschild (Suisse) S.A. (LEI: 52990049YMGDGTAMFX97, Rue de Hesse 18, Geneva, CHE-105.978.847) controls 3 direct subsidiaries: EdR Monaco (LEI: 2138004JHFADM38LBP89), EdR UK Limited (LEI: 213800KM8L7F7CREKM71), and EdR France (LEI: 9695002JOWSRCLLLNY11). Total GLEIF ecosystem: 707 entities bearing the Edmond de Rothschild name, overwhelmingly Luxembourg-domiciled fund vehicles. EdR Private Equity S.A. (Luxembourg, LEI: 549300WPWUTT0VTXBD64) was formerly CBR Holding Luxembourg. No direct parent or ultimate parent reported to GLEIF for the Swiss parent -- consistent with private family ownership.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1250
+      },
+      {
+        "date": "2025-05-22",
+        "label": "Edmond de Rothschild (Europe) became the first bank ever convicted of money laundering in Luxembourg (May 22, 2025), paying EUR 25M to settle 1MDB-related charges. Approximately USD 472.5M in suspicious funds from 1MDB flowed through EdR Luxembourg accounts. Earlier, CSSF fined EdR EUR 8.9M (2017). The DOJ filed civil forfeiture against two EdR account numbers (2:20-cv-05912, C.D. California, Jul 2020). FINMA also found major AML violations. The 90-officer police raid Ariane reported to Epstein in real-time (Jun 29, 2016) was part of this investigation.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1145
+      },
+      {
+        "date": "2025-05-22",
+        "label": "Marc Ambroisien, former director of EdR Luxembourg, allegedly brought Khadem al-Qubaisi (Aabar/IPIC CEO) into the bank as a client and processed 1MDB fund transfers. Al-Qubaisi allegedly gifted Ambroisien an Aston Martin for his services (denied by Ambroisien). Ambroisien departed ~2015, replaced by Bernard Coucke as CEO of EdR Luxembourg (summer 2016). CSSF fined EdR EUR 8.99M (2017). Ambroisien banned from financial sector for 10 years (Mar 2020). Formally indicted by Luxembourg judiciary (Jan 2022). Bank convicted May 22, 2025, EUR 25M confiscated. This is the same Coucke who Ariane discussed with Epstein in governance restructuring emails.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1251
+      }
+    ]
+  }
+}

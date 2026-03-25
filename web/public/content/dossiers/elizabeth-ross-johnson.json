@@ -1,0 +1,419 @@
+{
+  "name": "Elizabeth Ross Johnson",
+  "slug": "elizabeth-ross-johnson",
+  "aliases": [],
+  "stats": {
+    "total_findings": 7,
+    "total_connections": 3,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 2,
+      "relationship": 3,
+      "intelligence": 1,
+      "location": 1
+    },
+    "connection_types": {
+      "financial": 2,
+      "familial": 1
+    }
+  },
+  "findings": [
+    {
+      "id": 582,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank due diligence research on Epstein (EFTA01296720) reveals a deed record in Eagle County, Colorado showing Elizabeth Ross Johnson (J&J heiress known as Libet Johnson) as both SELLER and co-BUYER with Jeffrey E. Epstein of 375 Mill Creek Circle, Vail, CO 81657. Both parties used the address 457 Madison Ave NYC 10022 (Epstein office). Total market value was 19,280,153 dollars (land 1,626,790 plus improvements 17,653,363). Johnson effectively added Epstein to the deed of her existing property, giving a convicted sex offender co-ownership of a multi-million dollar estate.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:33:33",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296720",
+          "source_quote": "Buyer: JOHNSON ELIZABETH ROSS, EPSTEIN JEFFREY E, Address 457 MADISON AVE NEW YORK NY 10022...Seller: JOHNSON ELIZABETH ROSS...Property 375 MILL CREEK CIR VAIL CO 81657...Total Market Value 19280153",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "finding_type": "financial",
+      "summary": "The Vail property co-ownership was dissolved in 1998. A subsequent deed record shows: Contract Date 08/26/1998, Recording Date 09/21/1998, Document Number 670194, Document Type INTRAFAMILY TRANSFER AND DISSOLUTION. The use of INTRAFAMILY suggests the property transfer was characterized as within a family unit, implying a close personal relationship between Johnson and Epstein. Stewart Title handled the transaction. The property was later reportedly sold for 24 million dollars to French buyers who never visited it.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:33:42",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296720",
+          "source_quote": "Assessors Parcel 2101 082 50 003, Contract Date 08/26/1998, Recording Date 09/21/1998, Document Number 670194, Document Type INTRAFAMILY TRANSFER AND DISSOLUTION, Title Company STEWART TITLE",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 585,
+      "finding_type": "relationship",
+      "summary": "Elizabeth Ross Johnson used Epstein business address 457 Madison Ave NYC 10022 as her own address on the Vail property deed. This is the same address as J. Epstein & Co., DKIP LLC, and numerous other Epstein entities. The sharing of a business address suggests Johnson had her affairs managed through Epstein operations, consistent with the pattern of Epstein gaining financial control over wealthy individuals. LittleSis confirms a professional relationship between Johnson and Epstein (relationship ID 2027530).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:33:49",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296720",
+          "source_quote": "Seller JOHNSON ELIZABETH ROSS Address 457 MADISON AVE NEW YORK NY 10022-6843",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "finding_type": "intelligence",
+      "summary": "BILLIONAIRE CONTROL PATTERN ANALYSIS: The Epstein-Johnson relationship is the earliest documented case of the billionaire control pattern, predating even the Wexner relationship in some respects. Key elements: 1) Johnson (J&J heiress, died 2017 at age 92) added Epstein to the deed of her 19.28M dollar Vail property at 375 Mill Creek Circle, Eagle County CO, 2) Both parties used 457 Madison Ave as their address -- Epstein business office -- indicating Johnson affairs were run through Epstein operations, 3) Document type INTRAFAMILY TRANSFER AND DISSOLUTION in 1998 suggests the relationship was characterized as familial, 4) The property was later sold for 24M to French buyers who reportedly never saw it (needs verification), 5) Johnson had relationships with Frederic Fekkai (hairdresser, ended 2001) and is connected to Woody Johnson (family). The early 1990s timing and use of Epstein business address strongly suggest Johnson was among Epstein earliest high-net-worth clients, potentially introduced through the Wexner/J&J social circles.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:38:52",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296720",
+          "source_quote": "Buyer JOHNSON ELIZABETH ROSS and EPSTEIN JEFFREY E at 457 MADISON AVE...Document Type INTRAFAMILY TRANSFER AND DISSOLUTION...Total Market Value 19280153",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 644,
+      "finding_type": "location",
+      "summary": "ACRIS property records confirm Elizabeth Ross Johnson operated through the Elizabeth Ross Johnson Amended and Restated Revocable Trust Indenture (dated May 13, 1998), with Christopher Wold Johnson as co-trustee. The trust conducted extensive NYC real estate transactions: sold units at 1 Central Park West (Block 1113) -- Lot 1541 for 18.5M (Jan 2007) to North-51 LLC, Lot 1539 for 6.9M (Mar 2006) to Andrew Rosen, Lot 1537 for 13M (Aug 2005) to Sarah Merritt Eastman and Kevin Pinto, Lot 1438 for 3.475M (Oct 2013) to Placid Sadie LLC, Lot 1532 for 21.85M (Jun 2013) to Unit 48A CPW LLC. Also purchased Lot 1438 for 2M (Nov 2004) from Keller Enterprises LLC, and Lot 1540 (2001) from Wang Family Holdings LLC. Trust address: 1 Central Park West, NYC. Attorneys: Baer Marks and Upham LLP. Also a 20M mortgage from Morgan Stanley Private Bank (2012) on Queens property. Total documented NYC real estate activity exceeds 65M dollars, establishing Johnson as a major Manhattan real estate holder whose portfolio would have been attractive to Epstein financial management.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:46:00",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2005090101295001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2006032700486001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2007011600137001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2013070900801001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2013102500557001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 645,
+      "finding_type": "relationship",
+      "summary": "The Elizabeth Ross Johnson Revocable Trust was amended and restated on May 13, 1998 -- the same year the INTRAFAMILY TRANSFER AND DISSOLUTION removed Epstein from the Vail property deed (August 26, 1998). Christopher Wold Johnson served as co-trustee. The trust subsequently managed all Johnson property transactions through professional counsel (Baer Marks and Upham LLP, later Kramer Levin Naftalis) rather than through Epstein operations at 457 Madison Ave. This timing suggests Johnson may have professionally restructured her financial management away from Epstein in 1998, establishing formal trust governance with family co-trustees. The Vail property dissolution and trust restructuring occurring within 3 months of each other supports this interpretation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:46:10",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2007011600137001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296720",
+          "source_quote": "Document Type INTRAFAMILY TRANSFER AND DISSOLUTION Contract Date 08/26/1998",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1556,
+      "finding_type": "relationship",
+      "summary": "Elizabeth Ross Johnson social network connections relevant to Epstein. LittleSis documents four key relationships: (1) Professional relationship with Jeffrey Epstein (rel 2027530) - Epstein managed her money. (2) Ownership relationship with Elizabeth Ross Johnson Trust (rel 2040592). (3) Family relationship with Woody Johnson (rel 1501668) - Robert Wood Johnson IV, owner of the NY Jets and Trump's Ambassador to the UK. (4) Social/romantic relationship with Frederic Fekkai (rel 2037601), the celebrity hairstylist, ending circa 2001. The 2003 NY Post article (EFTA01334074) confirms: 'Frederic Fekkai has charmed the pants off Libet Johnson, Patricia Duff and other blondes. One rich girlfriend supposedly gave him a Gulfstream jet, and it was not even Christmas.' Epstein's original access to Johnson wealth came through Wexner: 'Wexner gave him legitimacy as a money manager for the wealthy, and he began handling the portfolio of Elizabeth Ross Johnson.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:05:06",
+      "target_name": "Elizabeth Ross Johnson",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01334074",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365971",
+          "source_quote": "Wexner gave him legitimacy as a money manager for the wealthy, and he began handling the portfolio of Elizabeth Ross Johnson, the heiress of the Johnson and Johnson fortune. Ms. Johnson, known as Libet, was a tabloid fixture in New York with five husbands and years of family drama.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 374,
+      "person_a": "Elizabeth Ross Johnson",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:34:17",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296720",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 774,
+      "person_a": "Elizabeth Ross Johnson",
+      "person_b": "Epstein",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:07:45",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 775,
+      "person_a": "Elizabeth Ross Johnson",
+      "person_b": "Woody Johnson",
+      "relationship_type": "familial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:07:49",
+      "other_person": "Woody Johnson",
+      "other_person_slug": "woody-johnson",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [],
+  "curation": {
+    "key_finding_ids": [
+      582,
+      584,
+      1556,
+      645,
+      611,
+      585,
+      644
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          585,
+          645,
+          1556
+        ],
+        "connection_ids": [
+          374,
+          774,
+          775
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          582,
+          584
+        ],
+        "connection_ids": [
+          374,
+          774
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.432894",
+    "lead": "<p>Elizabeth Ross Johnson (1925\u20132017), known as Libet Johnson, was an heiress to the Johnson & Johnson pharmaceutical fortune and a prominent Manhattan real estate holder whose documented financial relationship with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> represents one of the earliest known cases of Epstein\u2019s pattern of gaining financial control over ultra-wealthy individuals. Deutsche Bank due diligence records (EFTA01296720) reveal that Johnson added Epstein as co-owner of her $19.28 million Vail, Colorado estate at 375 Mill Creek Circle, with both parties listing Epstein\u2019s business address at 457 Madison Avenue, New York, as their own \u2014 the same address used by J. Epstein & Co. and numerous other Epstein entities (Findings #582, #585). Epstein\u2019s access to Johnson\u2019s wealth reportedly originated through <a href=\"/dossiers/les-wexner\">Les Wexner</a>: \u201cWexner gave him legitimacy as a money manager for the wealthy, and he began handling the portfolio of Elizabeth Ross Johnson\u201d (EFTA01365971, Finding #1556).</p><p>The Vail property co-ownership was dissolved on August 26, 1998, through a transaction classified as an \u201cINTRAFAMILY TRANSFER AND DISSOLUTION\u201d \u2014 a designation that implies the relationship was characterized as familial in nature (Finding #584). Within three months, Johnson restructured her financial management by amending her revocable trust on May 13, 1998, installing family member Christopher Wold Johnson as co-trustee and routing all subsequent property transactions through professional counsel at Baer Marks and Upham LLP rather than through Epstein\u2019s office (Finding #645). This coordinated unwinding suggests a deliberate separation from Epstein\u2019s financial operations.</p><p>Johnson\u2019s documented NYC real estate portfolio exceeded $65 million across multiple units at 1 Central Park West, managed through the Elizabeth Ross Johnson Amended and Restated Revocable Trust (Finding #644). Her family connections include <a href=\"/dossiers/woody-johnson\">Woody Johnson</a> (Robert Wood Johnson IV), owner of the New York Jets and later U.S. Ambassador to the United Kingdom. A \u201ctabloid fixture in New York with five husbands and years of family drama\u201d (EFTA01365971), Johnson also maintained a social relationship with celebrity hairstylist Frederic Fekkai, who was reportedly gifted a Gulfstream jet by a wealthy girlfriend (EFTA01334074, Finding #1556). Johnson died in 2017 at age 92, before the full scope of Epstein\u2019s operations became public.</p>",
+    "sections": [
+      {
+        "id": "epstein-financial-relationship",
+        "title": "The Epstein Financial Relationship",
+        "viz": "ego_network",
+        "content": "<p><a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>\u2019s relationship with Johnson originated through <a href=\"/dossiers/les-wexner\">Les Wexner</a>, whose endorsement gave Epstein \u201clegitimacy as a money manager for the wealthy\u201d (EFTA01365971). The relationship went far beyond conventional financial advisory. Deutsche Bank due diligence records (EFTA01296720) document that Johnson added Epstein to the deed of her Vail, Colorado property at 375 Mill Creek Circle, Eagle County \u2014 a property with a total market value of $19,280,153 (land $1,626,790 plus improvements $17,653,363). Johnson appeared as both seller and co-buyer on the transaction, effectively granting Epstein co-ownership of an asset she already held (Finding #582).</p><p>Both Johnson and Epstein listed the same address on the deed: 457 Madison Avenue, New York, NY 10022. This was not Johnson\u2019s residential address but the headquarters of J. Epstein & Co., DKIP LLC, and other Epstein-controlled entities (Finding #585). The use of Epstein\u2019s business address as her own on a legal property document indicates that Johnson\u2019s financial affairs were being managed through Epstein\u2019s operations \u2014 consistent with the pattern of control Epstein established over wealthy clients, where he positioned himself not merely as an advisor but as an embedded participant in their financial infrastructure. LittleSis independently confirms the relationship as \u201cprofessional\u201d (relationship ID 2027530), specifically noting that \u201cEpstein managed her money\u201d (Finding #1556).</p><p>The property co-ownership was dissolved on August 26, 1998, through Eagle County Document Number 670194. The transaction was classified as an \u201cINTRAFAMILY TRANSFER AND DISSOLUTION,\u201d processed by Stewart Title (Finding #584). The \u201cintrafamily\u201d designation is significant: it is a legal characterization typically reserved for transfers between family members, suggesting that Johnson and Epstein\u2019s arrangement had been formally structured as a familial or quasi-familial relationship \u2014 a level of entanglement that goes well beyond standard wealth management. The Vail property was subsequently sold for a reported $24 million to French buyers, though this sale price and the circumstances require further verification (Finding #611).</p>"
+      },
+      {
+        "id": "trust-restructuring-and-exit",
+        "title": "Trust Restructuring and Exit from Epstein",
+        "viz": null,
+        "content": "<p>The chronology of 1998 reveals a coordinated effort by Johnson to extricate herself from Epstein\u2019s financial orbit. On May 13, 1998, Johnson amended and restated her revocable trust, installing Christopher Wold Johnson as co-trustee. Three months later, on August 26, the \u201cINTRAFAMILY TRANSFER AND DISSOLUTION\u201d removed Epstein from the Vail property deed (Finding #645). The near-simultaneity of these two actions \u2014 formalizing family governance of her trust and severing property co-ownership with Epstein \u2014 strongly suggests a deliberate restructuring designed to replace Epstein\u2019s involvement with professional institutional management.</p><p>All subsequent Johnson property transactions flowed through the Elizabeth Ross Johnson Amended and Restated Revocable Trust Indenture, with legal counsel provided by Baer Marks and Upham LLP and later Kramer Levin Naftalis (Finding #644). The trust\u2019s NYC real estate activity was substantial, with documented transactions exceeding $65 million across multiple units at 1 Central Park West (Block 1113): Lot 1541 sold for $18.5 million (January 2007) to North-51 LLC; Lot 1539 for $6.9 million (March 2006) to Andrew Rosen; Lot 1537 for $13 million (August 2005); Lot 1532 for $21.85 million (June 2013) to Unit 48A CPW LLC; and Lot 1438 for $3.475 million (October 2013). The trust also carried a $20 million mortgage from Morgan Stanley Private Bank (2012). None of these post-1998 transactions show any connection to Epstein or his entities, confirming the completeness of the separation.</p><p>The 1998 exit raises the question of what prompted it. The timing predates Epstein\u2019s first criminal investigation by several years, suggesting that Johnson or her advisors may have recognized the problematic nature of the arrangement on their own. Whether the separation was precipitated by a specific incident, advice from outside counsel, or pressure from the Johnson family remains an open question.</p>"
+      },
+      {
+        "id": "family-and-social-network",
+        "title": "Family and Social Network",
+        "viz": null,
+        "content": "<p>Johnson\u2019s most significant family connection within the investigation context is <a href=\"/dossiers/woody-johnson\">Woody Johnson</a> (Robert Wood Johnson IV), her relative in the Johnson & Johnson dynasty. Woody Johnson is the owner of the New York Jets and served as U.S. Ambassador to the United Kingdom under the Trump administration. The family relationship is documented through LittleSis (relationship ID 1501668, Finding #1556). Christopher Wold Johnson, who became co-trustee of Elizabeth\u2019s restructured trust in 1998, is another member of the Johnson family who played a direct role in the financial separation from Epstein (Finding #645).</p><p>Johnson\u2019s social life earned her a reputation as a \u201ctabloid fixture in New York with five husbands and years of family drama\u201d (EFTA01365971). Among her documented social relationships was one with Frederic Fekkai, the celebrity hairstylist, which ended circa 2001 (LittleSis relationship ID 2037601). A 2003 New York Post article (EFTA01334074) noted that \u201cFrederic Fekkai has charmed the pants off Libet Johnson, Patricia Duff and other blondes. One rich girlfriend supposedly gave him a Gulfstream jet, and it was not even Christmas\u201d (Finding #1556). Johnson\u2019s pattern of generous gifts to social companions parallels her financial entanglement with Epstein and suggests a vulnerability to relationships that blurred personal and financial boundaries \u2014 precisely the type of target Epstein cultivated.</p>"
+      }
+    ],
+    "system_role": "Johnson illustrates Epstein\u2019s earliest method of wealth capture: gaining co-ownership of a billionaire client\u2019s property, routing her affairs through his office address, and characterizing the arrangement as \u201cfamilial\u201d \u2014 a template he would refine with subsequent targets. Her 1998 exit also demonstrates that some clients recognized the arrangement\u2019s nature and formally severed ties.",
+    "open_questions": [
+      "What was the exact date Johnson added Epstein to the Vail property deed, and does Eagle County maintain the original filing that would establish the start date of the co-ownership arrangement?",
+      "Who introduced Johnson to Epstein \u2014 was it directly through Les Wexner, through J&J social circles, or through another intermediary? The Wexner connection is reported but the specific mechanism is undocumented.",
+      "What prompted the 1998 exit? Did Johnson receive outside legal advice, was there a specific incident, or did the Johnson family intervene to install Christopher Wold Johnson as co-trustee?",
+      "Can the reported $24 million sale of the Vail property to French buyers be verified through Eagle County records, and who were the buyers? The claim that they never visited the property is unverified.",
+      "Were there other Epstein-linked transactions in Johnson\u2019s financial history beyond the Vail property \u2014 particularly any involving Epstein entities like Financial Trust Company or Southern Trust?"
+    ],
+    "applicable_models": [
+      "manufactured-dependency",
+      "private-order",
+      "enabler-gradient"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Elizabeth Ross Johnson",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01296720",
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Woody Johnson",
+          "type": "familial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": []
+  }
+}

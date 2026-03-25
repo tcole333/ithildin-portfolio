@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="About"
+  description="Architecture overview for Ithildin, an investigative tooling platform for evidence-linked publishing."
+>
+  <div class="space-y-10">
+    <section class="surface beam p-8 md:p-10 reveal" style="--delay: 0s;">
+      <div class="space-y-4">
+        <div class="section-label">Architecture</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">How Ithildin Works</h1>
+        <p class="text-mithril font-body max-w-3xl">
+          Ithildin is an investigative tooling platform built around one constraint: a reviewer should be able to inspect what a claim depends on. The system ingests records, tracks findings, preserves evidence provenance, and publishes reader-facing pages that keep public artifacts distinct from metadata-only source records.
+        </p>
+      </div>
+    </section>
+
+    <section class="surface p-6 reveal" style="--delay: 0.05s;">
+      <div class="section-label">System Flow</div>
+      <p class="text-sm text-mithril font-body mt-2">
+        High-level flow from source intake to portfolio-grade static output.
+      </p>
+      <div class="mt-4 overflow-x-auto">
+        <pre class="mermaid">
+flowchart LR
+  A["Providers<br/>Registries, released docs, public records"] --> B["Trackers<br/>Leads, findings, infra tasks"]
+  B --> C["Queue + Workers<br/>Enrichment, curation, exports"]
+  C --> D["Evidence Layer<br/>Citation resolution + source records"]
+  D --> E["Publish Layer<br/>Dossiers, articles, network, financial views"]
+  E --> F["Quality Gates<br/>Lint, snapshots, support coverage, build"]
+        </pre>
+      </div>
+    </section>
+
+    <section class="grid gap-4 md:grid-cols-2 reveal" style="--delay: 0.1s;">
+      <div class="surface p-5">
+        <div class="section-label">Platform Surfaces</div>
+        <ul class="mt-3 space-y-2 text-sm text-mithril font-body">
+          <li>Dossiers combine findings, timelines, and curation prose with evidence mode.</li>
+          <li>Articles turn finding clusters into reviewable case studies.</li>
+          <li>Network and financial pages expose the underlying structure rather than only the prose output.</li>
+        </ul>
+      </div>
+      <div class="surface p-5">
+        <div class="section-label">Engineering Focus</div>
+        <ul class="mt-3 space-y-2 text-sm text-mithril font-body">
+          <li>Shared path/config handling for local, CI, and demo-mode builds.</li>
+          <li>A canonical CLI for trackers, providers, queue actions, and builds.</li>
+          <li>Static artifacts backed by lint, snapshot, and support-coverage checks.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="surface p-6 reveal" style="--delay: 0.15s;">
+      <div class="section-label">Evidence Contract</div>
+      <p class="text-sm text-mithril font-body mt-3 max-w-3xl">
+        Claims are expected to resolve either to a public artifact, a hosted copy, or a metadata-rich source record. Metadata-only records must still expose provenance, locator context, access notes, and every public occurrence where the source is used.
+      </p>
+    </section>
+
+    <section class="surface p-6 reveal" style="--delay: 0.2s;">
+      <div class="section-label">Portfolio Demo</div>
+      <p class="text-sm text-mithril font-body mt-3 max-w-3xl">
+        The public demo fixture is intentionally small: two dossiers, one article, a network graph, a financial view, and mixed citation types. The point is reproducibility and legibility, not hiding the engineering inside a giant private corpus.
+      </p>
+      <div class="mt-4">
+        <a href="/articles" class="text-sm text-[color:var(--color-icy)] hover:text-[#cfeaf1] font-mono tracking-wide">
+          Open the demo case study &rarr;
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" is:inline>
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: "strict",
+      theme: "dark",
+      flowchart: { curve: "linear" }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .mermaid {
+    min-width: 640px;
+    border: 1px solid var(--color-ash);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: rgba(11, 13, 16, 0.55);
+  }
+
+  .mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
+</style>

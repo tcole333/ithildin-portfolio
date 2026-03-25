@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ModelSystemDiagram from '../../components/ModelSystemDiagram';
+import { readFileSync, existsSync } from 'fs';
+import { contentPath } from '../../lib/projectPaths';
+
+const indexPath = contentPath('models', '_index.json');
+
+interface ModelSummary {
+  id: string;
+  title: string;
+  subtitle: string;
+  archetype: string;
+  definition: string;
+  instance_count: number;
+  mechanism_count: number;
+  related_models: string[];
+  visualization_type: string;
+  last_updated: string;
+}
+
+let models: ModelSummary[] = [];
+if (existsSync(indexPath)) {
+  models = JSON.parse(readFileSync(indexPath, 'utf-8'));
+}
+
+const backlinksPath = contentPath('backlinks.json');
+let modelDossiers: Record<string, any[]> = {};
+if (existsSync(backlinksPath)) {
+  const backlinks = JSON.parse(readFileSync(backlinksPath, 'utf-8'));
+  modelDossiers = backlinks.model_to_dossier || {};
+}
+---
+<BaseLayout title="Analytical Models">
+  <div class="space-y-10">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="space-y-4">
+        <div class="section-label">Frameworks</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">Analytical Models</h1>
+        <p class="text-mithril font-body max-w-2xl">
+          Recurring patterns identified across the investigation. Each model defines a mechanism,
+          its indicators, and documented instances. Multiple models can apply to the same evidence.
+        </p>
+      </div>
+    </section>
+
+    <div class="grid md:grid-cols-2 gap-4">
+      {models.map((model, idx) => {
+        const dossiers = modelDossiers[model.id] || [];
+        return (
+          <a
+            href={`/models/${model.id}`}
+            class="surface p-6 transition reveal"
+            style={`--delay: ${Math.min(idx * 0.06, 0.4)}s;`}
+          >
+            <div class="flex items-start justify-between gap-4">
+              <div class="space-y-3 flex-1">
+                <div class="section-label">Model</div>
+                <h2 class="text-xl text-moon">{model.title}</h2>
+                <p class="text-sm text-mithril font-body">{model.subtitle}</p>
+              </div>
+              <span class="archetype-badge">{model.archetype}</span>
+            </div>
+            <p class="text-sm text-mithril font-body mt-4 line-clamp-3">{model.definition}</p>
+            <div class="flex flex-wrap items-center gap-4 mt-4 text-xs text-mithril font-mono">
+              <span>{model.mechanism_count} steps</span>
+              <span>{model.instance_count} instances</span>
+              {dossiers.length > 0 && <span>{dossiers.length} dossiers</span>}
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <section class="surface p-6 reveal" style="--delay: 0.5s;">
+      <div class="section-label">System View</div>
+      <p class="text-sm text-mithril font-body mt-3 mb-6 max-w-3xl">
+        These eight models form an interlocking system. Hover over a node to see its
+        relationships. Click to navigate to the full model page.
+      </p>
+      <ModelSystemDiagram client:load />
+    </section>
+  </div>
+</BaseLayout>

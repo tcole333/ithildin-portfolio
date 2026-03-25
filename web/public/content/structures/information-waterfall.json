@@ -1,0 +1,85 @@
+{
+  "title": "Who Owns This Money?",
+  "subtitle": "Tracing beneficial ownership through the shell network — information degrades at every layer",
+  "nodes": [
+    {
+      "id": "question",
+      "name": "Who owns this $56.5M?",
+      "category": "question"
+    },
+    {
+      "id": "db_account",
+      "name": "Deutsche Bank Account",
+      "category": "bank"
+    },
+    {
+      "id": "stc",
+      "name": "Southern Trust Company, Inc.",
+      "category": "entity"
+    },
+    {
+      "id": "bbvi",
+      "name": "Business Basics VI, LLC",
+      "category": "entity"
+    },
+    {
+      "id": "kellerhals",
+      "name": "Kellerhals Ferguson Kroblin",
+      "category": "person"
+    },
+    {
+      "id": "usvi_registry",
+      "name": "USVI Corporate Registry",
+      "category": "registry"
+    },
+    {
+      "id": "beneficial_owner",
+      "name": "Jeffrey Epstein (invisible)",
+      "category": "person"
+    }
+  ],
+  "links": [
+    {
+      "source": "question",
+      "target": "db_account",
+      "value": 100,
+      "label": "Bank statement shows: Southern Trust Company, Inc.",
+      "info_loss": "0%"
+    },
+    {
+      "source": "db_account",
+      "target": "stc",
+      "value": 80,
+      "label": "STC registered in USVI. Address: 6100 Red Hook Quarter B3.",
+      "info_loss": "20% — entity is in a different jurisdiction from the bank"
+    },
+    {
+      "source": "stc",
+      "target": "usvi_registry",
+      "value": 60,
+      "label": "USVI registry shows: Registered agent is Business Basics VI, LLC",
+      "info_loss": "40% — no beneficial owner disclosed in USVI filings"
+    },
+    {
+      "source": "usvi_registry",
+      "target": "bbvi",
+      "value": 40,
+      "label": "BBVI at 9053 Estate Thomas. Agent: Erika Kellerhals. Purpose: 'Other.'",
+      "info_loss": "60% — BBVI has zero internet presence, zero litigation history"
+    },
+    {
+      "source": "bbvi",
+      "target": "kellerhals",
+      "value": 20,
+      "label": "Law firm handles all entity formation. No public client list.",
+      "info_loss": "80% — attorney-client privilege blocks further inquiry"
+    },
+    {
+      "source": "kellerhals",
+      "target": "beneficial_owner",
+      "value": 5,
+      "label": "Jeffrey Epstein — 'Sole shareholder' per DB KYC (not public)",
+      "info_loss": "95% — beneficial ownership only visible in bank's own internal records"
+    }
+  ]
+}

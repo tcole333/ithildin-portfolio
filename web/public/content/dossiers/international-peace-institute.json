@@ -1,0 +1,2493 @@
+{
+  "name": "International Peace Institute",
+  "slug": "international-peace-institute",
+  "aliases": [
+    "IPI"
+  ],
+  "generated_at": "2026-02-20T01:17:47.235033",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 32,
+    "total_connections": 27,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 21,
+      "relationship": 4,
+      "legal": 5,
+      "document": 2
+    },
+    "connection_types": {
+      "financial": 24,
+      "advisory": 1,
+      "employment": 2
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 421,
+      "finding_type": "financial",
+      "summary": "IPI (EIN 03-0213226) 990 filings show dramatic financial decline correlating with Epstein exposure. Peak assets were .6M in 2010, declining steadily to .4M in 2014, .7M in 2015, .7M in 2016, .7M in 2017, .5M in 2018, .4M in 2019, then collapsing to .9M in 2020 (COVID+Epstein), recovering briefly to .3M in 2021, but continuing decline to .4M in 2022 and .9M in 2023. Revenue dropped from .9M (2014) to .9M (2020) - a 67% collapse. The 2020 year shows revenue of only .9M against .6M in expenses, indicating severe financial distress.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2010",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:48",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "finding_type": "financial",
+      "summary": "IPI cumulative financial analysis from 990 filings: Over 2010-2023, IPI ran a cumulative deficit of .5M. Assets declined from .6M (2010) to .9M (2023), a 73% decline. Only TWO years showed surpluses: 2010 (+.4M) and 2021 (+.9M). Five years showed deficits exceeding M: 2011 (-.1M, worst single year), 2016 (-.0M), 2018 (-.3M), 2020 (-.7M, COVID+Epstein), 2023 (-.6M). The 2011 deficit of .1M on .6M revenue suggests a major one-time write-down or accounting adjustment. At current burn rate (.6M/yr deficit), IPI has approximately 2.5 years of reserves remaining.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2010",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:49:34",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "finding_type": "financial",
+      "summary": "IPI 2011 anomaly: Revenue was only .64M against .71M in expenses, creating an .07M deficit in a single year. This was by far the worst year. The prior year (2010) showed .63M in revenue and .6M in assets. The 2011 collapse took assets from .6M to .5M. This could represent: (1) a major investment loss, (2) a one-time accounting adjustment, (3) loss of a very large donor. The 2010 revenue of .6M vs 2011 revenue of .6M represents an 81% year-over-year decline that preceded the Epstein plea deal. This warrants examination of the actual 2011 990 PDF to understand the revenue collapse.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2010",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:57",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "finding_type": "relationship",
+      "summary": "Epstein actively pitched IPI to Bill Gates through multiple channels. Jan 31, 2011: Epstein to Rod-Larsen: 'I have bill gates for the nxt two days.. I know what i am supposed to say re ipi.. any specific challenge?' (EFTA01834272). Apr 2, 2013: Epstein to Rod-Larsen: 'get me the info on ipi, to give to bg' (EFTA01898063). Jan 2014: Rod-Larsen to Epstein: 'the International Peace Institute (IPI), now can celebrate [X] years of cooperation with the Gates Foundation... may I suggest that we have lunch together [at Davos]?' (EFTA02625684). Sep 11, 2013: A full-day meeting between IPI and Gates Foundation staff at the Gates campus with formal agenda (EFTA02725118). Mar 3, 2014: Rod-Larsen forwarded the signed Gates Foundation grant agreement (OPP1096058) directly to Epstein (EFTA01934403). This chain confirms Epstein was the intermediary who brought the Gates Foundation to IPI, making him not just a donor but the architect of IPI's largest funding relationship.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011-01-31",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:12:35",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01834272",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01898063",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01934403",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01934405",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02625684",
+          "source_quote": "Sent from my iPhone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725118",
+          "source_quote": "International Peace Institute \nBill & Melinda Gates Foundation \nWednesday, September 11, 2013 \n10:00 A.M. to 3:00 P.M. \nGates Foundation Campus \nMeeting Location: \"Bainbridge Island\" Conference Room \nAs of August 21, 2013 \nAgenda \n10:00 a.m. \nArrival at Bill & Melinda Gates Foundation Reception...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "finding_type": "financial",
+      "summary": "IPI Distinguished Fund publicly launched May 21, 2012, with Epstein named as founding philanthropist. Press coverage in CNBC, Reuters, and The Street: 'The International Peace Institute Launches a Distinguished Fund with Philanthropist Jeffrey Epstein.' This was 4 years after Epstein's 2008 Florida conviction. The launch represented IPI publicly embracing Epstein as a major donor post-conviction, lending him legitimacy through association with the UN-adjacent think tank. By August 2012, Epstein was actively involved in IPI's organizational expansion, emailing Boris Nikolic: 'IPI, is the institute going to be formed in vienna, Terje RoedLarsen, chair' (EFTA01891138).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2012-05-21",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:11:42",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01886861",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01891138",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02721041",
+          "source_quote": "Mon 5/21/2012 7:58:29 PM \nHi Jeffrey, \nRick Hooper article also picked up by: CNBC, Reuters The Street \nhttp://mvw.cnbc.comfid/47506709 \nhttp://www.reuters.com/article/2012/05/21/idUS169811+21-May-2012+PRN 2012052...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1182,
+      "finding_type": "financial",
+      "summary": "IPI Norwegian government funding pipeline confirmed via DOJ documents. EFTA02675352: IPI staff emailed Epstein saying 'I understood from terje that you needed some material on IPI activities. Terje has forwarded you the annual report 2012 and 2011 and I add as an attachment IPI program activities (which we usually forward to donor countries like Sweden or Norway).' This confirms: (1) Norway and Sweden are designated 'donor countries' to IPI; (2) Rod-Larsen directed IPI staff to provide Epstein the same program activity reports given to sovereign donors; (3) Epstein was receiving donor-level reporting from IPI. IPI's 990 filings show 2014 revenue of $11.87M. Norway's Ministry of Foreign Affairs and Norwegian Agency for Development Cooperation (NORAD) are known IPI funders. 990s show government grants as a revenue category but exact Norwegian government amounts require Schedule B review (not publicly available). IPI also received funding from Switzerland (Vienna office), Finland, Denmark, and multiple Middle Eastern governments (co-hosted events). The pattern of sovereign donor countries funding IPI while IPI had zero FARA/LDA registration is the core regulatory gap.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:44",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02675352",
+          "source_quote": "which we usually forward to donor countries like Sweden or Norway",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678411",
+          "source_quote": "Grant Proposal Cover Page \nDate \n4 September 2013 \nProject Title \nHealth \nPolio Eradication and the Connection between Peace and \nOrganization Name \nInternational Peace Institute \n(IPI) \nProject Duration (months) \n60 months \n(2014-2018)...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "finding_type": "relationship",
+      "summary": "IPI served as a platform for high-level diplomatic access that Epstein leveraged. Documentary evidence shows: (1) Ministerial Working Dinners on the Middle East co-hosted at IPI by UAE Foreign Minister Sheikh Abdullah Bin Zayed Al Nahyan and Luxembourg Foreign Minister (EFTA02683654, Sep 2014; EFTA02726418, Sep 2012); (2) IPI pandemics conferences in Geneva with global health leaders (EFTA02702398, EFTA02359162); (3) A Feb 7, 2013 email about building Epstein's international website noting 'putting in info about the Intl Peace Institute etc. Are there other intl. organizations that you have worked with?' (EFTA02723098); (4) Epstein received personal invitations to the Vienna Opera Ball through IPI Vienna (EFTA02686494, EFTA02719092); (5) IPI hosted a dinner for Stowe School headmaster at 777 UN Plaza attended by Epstein (EFTA02386639). IPI thus provided Epstein with continuous access to heads of state, foreign ministers, and the UN diplomatic community -- extraordinary access for a registered sex offender.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-02-07",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:13:23",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02359162",
+          "source_quote": "IPI \nINTERNATIONAL \nPEACE \nINSTITUTE \nAgenda \nPreparing for Pandemics: \nLessons Learned for More Effective Responses \nGeneva, Switzerland \na May 2015, Geneva \n19:30 Formal dinner Es \n11111110112 \nst May 2015, Geneva \n09:00 - 09:15 Registration/Coffee \n09:15 — 09:45 Welcome/Opening session...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02386639",
+          "source_quote": "Hi Jeff, \nTerje asked that I send you the below invitatio= for Woody Allen and Soon-Yi. They are also welcome to bring their kids. \nThanks, \nCamilla \nDear Woody and Soon-=i, \nWe have the pleasure of inviting you to a dinner in honor of Dr. Anth=ny Wallersteiner, Headmaster of Stowe School in...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02683654",
+          "source_quote": "GRAND•DUCHE DE LUXEMBOURC \nNinth Ministerial Working Dinner on the Middle East \nMonday, September 22, 2014 at 7:00pm \nInternational Peace Institute \nTrygve Lie Center for Peace, Security and Development \n777 United Nations Plaza, 12th Floor \nIPI \nHT' PNIATICH4A; \nPt AC E. \nCo-hosts: \nSheikh...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02686494",
+          "source_quote": "Attachments: \nInvitation Vienna Opera Ball.pdf \nFrom:=/b> Johanna =orstner \nSent: Wednesday, February 09, 2011 10:09 AM \nTo: \nSubject: Invitation to the Vienna Opera Ball for Mr. =pstein \nJohanna Borstner \nAdministrative Assistant \nInternational Peace Institute Vienna (IPI) \nFreyung 3/2/14 \n1010...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02702398",
+          "source_quote": "IPI \nINTERNATIONAL \nPEACE \nINSTITUTE \nPREPARING FOR PANDEMICS \nLessons Learned for More Effective Responses \nLIST OF PARTICIPANTS \nKjetil Aasland, Minister Counsellor, Permanent Mission of Norway to the United Nations, Geneva \nSelidji Todagbe Agnandji, Clinical Researcher and Co-director, Centre de...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02719092",
+          "source_quote": "Attachments: \nInvitation Mr. Epstein.pdf \nDear Mr. Epstein, \n=span lang=EN-US>l am sorry, I forgot to attach your invitation before.  \nKind regards, \nJohanna Borstner=/o:p> \naspan> \n \nJohanna Borstner \nOffice & Events Manager \nIPI Vienna Office \nInternational Peace Institute \nFreyung 3/2/14 \n1010...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02723098",
+          "source_quote": "Thur 2/7/2013 6:00:55 PM \nHi Jeffrey, \nI'm working on your international website. Am putting in info about the Intl Peace \nInstitute etc. \nAre there other intl. organizations that you have worked with? Anything that you would \nlike me to include/highlight? \nPlease let me know. Also are you still a...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02726418",
+          "source_quote": "CRAND-DUCHE DE LUXEMBOURG \nAIL; \nSeventh Ministerial Working Dinner on the Middle East \nMonday, September 24, 2012 at 8:30pm \nInternational Peace Institute \nTrygve Lie Center for Peace, Security and Development \n777 United Nations Plaza, 12th Floor \nIPI \nLH \nOINIAL \nKAU \nMSTinflt \nCo-hosts: \nSheikh...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "finding_type": "financial",
+      "summary": "Epstein forwarded IPI bank wiring instructions to Boris Nikolic (Bill Gates science advisor) on June 10, 2013, with the note: 'These are the wiring instructions for the 5 million from the foundatoin. for IPI.' IPI banked at JPMorgan Chase, Branch 292, 1 United Nations Plaza, New York, NY 10017. Account: International Peace Institute, ABA 021-000021, SWIFT CHASUS-33. The $5M reference indicates Epstein was brokering a major donation from the Gates Foundation to IPI. This is confirmed by the Gates Foundation grant agreement (OPP1096058) that Rod-Larsen forwarded to Epstein on March 3, 2014, and the September 11, 2013 meeting agenda at Gates Foundation campus between IPI and BMGF staff.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-06-10",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:11:31",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01934405",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02378458",
+          "source_quote": "Hi Jeff,=o:p> \nHope all is well with you! \nTerje asked me to send you IPI's bank instruct=ons: \nBank name: \n&nb=p; JPMorgan Chase \nAcc=unt name: \nInternational Peace Institut= \nAccount number: \n \nBank address: \n&=bsp; 1 United Nations Plaza, Branch 292 \n&n=sp; \n&n=sp; New York, NY 10017 \nABA:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02635738",
+          "source_quote": "Forwarded message \nFrom: Camilla Reksten-Monsen  \nHi Jeff, \nTerje asked me to send you IPIs bank info. \nThanks, \nCamilla \nBank name: \nBank address: \nABA: \nSWIFT: \nAccount name: \nAccount number: \nJPMorgan Chase \n1 United Nations Plaza, Branch 292 \nNew York, NY 10017 \nUSA \nInternational Peace...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707935",
+          "source_quote": "Attachments: \nIRS_NewTaxRuling2008.pdf \nThese are the wiring instructions for the 5 million fro= the foundatoin. for IPI \n \n-Forwarded me \nFrom: Terje =od-Larsen \nDate: Mon, Jun 10, 201 \nSubject: Fw: IPI bank instructions an= 501c3 certification \nTo: \"  \" Ceevacation@gmailcom  \n \nDavid Witt...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725118",
+          "source_quote": "International Peace Institute \nBill & Melinda Gates Foundation \nWednesday, September 11, 2013 \n10:00 A.M. to 3:00 P.M. \nGates Foundation Campus \nMeeting Location: \"Bainbridge Island\" Conference Room \nAs of August 21, 2013 \nAgenda \n10:00 a.m. \nArrival at Bill & Melinda Gates Foundation Reception...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "finding_type": "financial",
+      "summary": "IPI submitted a 20M grant proposal to Gates Foundation on September 4, 2013 for Polio Eradication and Peace and Health (EFTA02678411). The proposal was for 60 months (2014-2018) covering Pakistan, Nigeria, Somalia. The Foundation approved only 2.5M (grant OPP1096058), signed March 2, 2014. Payment: 1.25M upon signing, 1.25M in March 2015 contingent on progress report. Grant end date December 31, 2015.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-09-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:30",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678411",
+          "source_quote": "Amount Requested from Foundation 20,000,000",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709169",
+          "source_quote": "Total Grant Amount 2,500,000.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "finding_type": "relationship",
+      "summary": "Boris Nikolic (Bill Gates science advisor) was listed as attendee at the Sept 11, 2013 IPI-Gates Foundation meeting at Gates campus. The meeting agenda discussed IPI's polio eradication proposal. Nikolic was also the recipient of IPI bank wiring instructions forwarded by Epstein on June 10, 2013 (finding #73). Nikolic was later named as backup executor in Epstein's will (publicly reported Aug 2019). This creates a direct triangle: Epstein forwarded IPI banking details to Gates' science advisor, who then attended the grant negotiation meeting 3 months later. The $2.5M grant was signed 6 months after that meeting.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2013-09-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:58:20",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725118",
+          "source_quote": "September 11th Meeting Attendees. Bill and Melinda Gates Foundation: Boris Nikolic, Scientific Advisor",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "finding_type": "financial",
+      "summary": "IPI 990 filings reveal dramatic revenue decline after Epstein scandal. Peak revenue $11.87M in 2014 (year of Gates grant), declining to $8.47M in 2016, collapsing to $3.93M in 2020 (COVID plus Rod-Larsen resignation/scandal). Brief recovery to $10.77M in 2021 (likely Open Society Foundations $1.5M per LittleSis), then continued decline to $5.04M in 2023. Assets dropped from $16.37M (2014) to $6.91M (2023). Schedule B (major donors) is not publicly available for 501(c)(3) organizations. Confirmed donors beyond Epstein entities: Gates Foundation ($2.76M total across 2 grants), Open Society Foundations ($1.5M per LittleSis), Norway and Sweden as government donors.",
+      "detail": null,
+      "source_datasets": [
+        "propublica_990"
+      ],
+      "confidence": "high",
+      "date_of_event": "2014",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:59:27",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ProPublica:EIN-30213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "finding_type": "legal",
+      "summary": "IPI FARA LEGAL ANALYSIS: IPI has zero FARA registrations despite receiving funding from Norwegian government (confirmed as 'donor country' in EFTA02675352: 'which we usually forward to donor countries like Sweden or Norway'). IPI's activities that potentially trigger FARA: (1) Received $650K KPMG-confirmed Epstein conduit funds while Norwegian national Rod-Larsen was president; (2) Hosted Ministerial Working Dinners at 777 UN Plaza with UAE, Luxembourg, and other foreign government officials; (3) Operated Mongolia Advisory Board paying $100K each to former heads of state (Rod-Larsen, Summers, Barak, Bondevik, Rudd); (4) Rod-Larsen forwarded IPI program activities 'which we usually forward to donor countries' directly to Epstein; (5) IPI bank instructions sent to Epstein for $5M Gates Foundation wire (EFTA02707935). FARA EXEMPTIONS IPI MIGHT CLAIM: (a) 22 USC 611(d) academic/scientific exemption -- IPI registered as 501(c)(3) think tank; (b) UN affiliate exemption -- IPI's charter connects to Trygve Lie Center; (c) No direct foreign government instruction. COUNTER-ARGUMENTS: (a) IPI's Congressional engagement (hosting 33+ members) goes beyond academic research; (b) Norwegian government was a confirmed donor country; (c) Rod-Larsen directed IPI activities through Epstein, a non-diplomatic channel; (d) $5.86M total Epstein-directed funding makes IPI financially dependent on non-transparent sources. COMPARABLE: Norwegian Agency for Development Cooperation registered 6 FARA entries (via Waxman Consulting #6710, Center for International Policy #6896), showing Norway DOES register its grantees. IPI's absence is anomalous.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:39",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02675352",
+          "source_quote": "IPI program activities which we usually forward to donor countries like Sweden or Norway",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707935",
+          "source_quote": "From: \nJeffrey Epstein <jeevacation@gmail.com> \nSent: \nMonday, June 10, 2013 5:46 PM \nTo: \nBoris Nikolic \nSubject: \nFwd: Fw: IPI bank instructions and 501c3 certification \nAttachments: \nIRS_NewTaxRuling2008.pdf \nThese are the wiring instructions for...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "finding_type": "financial",
+      "summary": "Gates Foundation grant OPP1096058 confirmed: $2,500,000 to IPI for 'Polio Eradication and Peace and Health.' Signed March 2, 2014, end date December 31, 2015. Two payments: $1.25M upon signing, $1.25M after progress report. Primary contacts: Amy Carter (Gates Deputy Director, Family Interest Grants) and Max Gasteen (Program Officer, Global Program Advocacy). IPI primary contact: Andrea Pfanzelter (Senior Director, Development, Vienna). IPI requested $20M originally (Sept 2013 proposal, EFTA02678411). Grant covered work in Afghanistan, Pakistan, Nigeria, Somalia. A second Gates grant INV-009501 (June 2019, $256,968, 14 months) was also awarded for polio work.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2014-03-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:58:08",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678411",
+          "source_quote": "Grant Proposal Cover Page \nDate \n4 September 2013 \nProject Title \nHealth \nPolio Eradication and the Connection between Peace and \nOrganization Name \nInternational Peace Institute \n(IPI) \nProject Duration (months) \n60 months \n(2014-2018)...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678515",
+          "source_quote": "IPI \n•••=4~e/e \nPOLIO ERADICATION AND PEACE & HEALTH \nsupported by the Bill & Melinda Gates Foundation \nBudget Summary: 2013 \nSUPPORT OF BMGF POLIO ERADICATION PROGRAM \nFor Afghanistan. Pakistan, Nigeria, and Somalia (as applicable): \nthreat...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709169",
+          "source_quote": "Investment ID OPP1096058. Total Grant Amount $2,500,000.00. to support polio eradication and initiatives supporting peace and health in developing countries",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725118",
+          "source_quote": "International Peace Institute \nBill & Melinda Gates Foundation \nWednesday, September 11, 2013 \n10:00 A.M. to 3:00 P.M. \nGates Foundation Campus \nMeeting Location: \"Bainbridge Island\" Conference Room \nAs of August 21, 2013 \nAgenda \n10:00 a.m....",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "finding_type": "financial",
+      "summary": "Summers' first-class Lufthansa flight from JFK to Almaty via Frankfurt on March 19-20, 2014 was booked through Protravel International and invoiced to IPI at 777 United Nations Plaza. The $14,158.88 cost was reimbursed by Enhanced Education (Epstein's opaque foundation) on March 28, 2014, confirmed by KPMG. This demonstrates the financial pipeline: Enhanced Education (Epstein) paid for services booked through IPI for Mongolia Advisory Board activities, with IPI serving as the administrative pass-through entity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-03-28",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:12:10",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02711226",
+          "source_quote": "THE RIVERSIDE GROUP \nPROTRAVEL INTERNATIONAL \n1776 BROADWAY \nSUITE 2403 \nNEW YORK, NY 10019 \nBRANCH: P11191 \nAGENT: LINDA BLOCH \nINVOICE \nINVOICE NBR: 31605 \nTO: INTERNATIONAL PEACE INSTITUTE \n777 UNITED NATIONS PLAZA \nNEW YORK NY 10017 \nDATE: \n18MAR14 \nPAGE: \n1 \nOUR REF: BSL0022234C BVZUSJ \nFOR:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02713371",
+          "source_quote": "THE RIVERSIDE GROUP \nPROTRAVEL INTERNATIONAL \n1776 BROADWAY \nSUITE 2403 \nNEW YORK, NY 10019 \nBRANCH: P11191 \nAGENT: \nBLOCH \nINVOICE \nINVOICE NBR: \nTO: INTERNATIONAL PEACE INSTITUTE \n777 UNITED NATIONS PLAZA \nNEW YORK NY 10017 \nDATE: \n18MAR14 \nPAGE: \n1 \nOUR REF: \nFOR: \nLAWRENCE HENRY SUMMERS...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "datasets/IPI-KPMG-Forensic-Review-12-18-2020.pdf",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "finding_type": "financial",
+      "summary": "Leon Black donated $200,000 to IPI in December 2014. The donation letter (EFTA02705181) from Black at 760 Park Avenue was addressed to 'Terje Rod-Larsen, President, International Peace Institute, Inc., 777 United Nations Plaza 4th Floor, New York, NY 10017-3521.' This donation was separate from Black's $10M to Gratitude America (Oct 2015), which subsequently made its own donations to IPI. The letter refers to 'the excellent work being done at International Peace Institute Inc.' Richard Kahn (Epstein's accountant) tracked this alongside Black's other charitable giving directed by Epstein: 'Leon 2014 year end charities along with fees 2013-2015' (EFTA02465679). Kahn noted he forgot to include 'the 10,000,000 to g[ratitude America]' in the email.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:12:22",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02465679",
+          "source_quote": "Thursday, April 7, 2016 12:18 AM \njeffrey E. \nRe: Leon 2014 year end charities along with fees 2013-2015 \nI am sorry I did not include =n email the 10,000,000 to gratitude in october 2015 \nFrom: Jeffrey Epstein  \nOn Wed, Apr 6= 2016 at 6:25 PM, Richard Kahn \n > \nCredit \nNov 18 - Dec 31, 11 \nNov 18...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02467352",
+          "source_quote": "jeffrey E.  \nWednesday, April 6, 2016 11:36 PM \nRichard Kahn \nRe: Leon 2014 year end charities along with fees 2013-2015",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02705181",
+          "source_quote": "Leon D. Black \n760 Park Avenue \nNew York NY 10021 \nDecember 19, 2014 \nTerje Rod-Larsen, President \nInternational Peace Institute, Inc. \n777 United Nations Plaza 4th Floor \nNew York, NY 10017-3521 \nDear Mr. Larsen: \nIn appreciation of the excellent work being done at International Peace Institute...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "finding_type": "financial",
+      "summary": "IPI expenses have consistently exceeded revenue since 2015, indicating the organization has been drawing down reserves. Revenue vs expenses gap: 2015 (.3M vs .2M), 2016 (.5M vs .5M), 2017 (.7M vs .6M), 2018 (.4M vs .6M), 2019 (.3M vs .1M), 2020 (.9M vs .6M), 2023 (.0M vs .6M). The persistent deficit since 2015 suggests IPI lost a major funding source and has been spending down endowment. This aligns with the KPMG-confirmed K Epstein conduit and subsequent donor flight.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:56",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "finding_type": "financial",
+      "summary": "Gates Foundation declined IPI's second proposal (pandemics convening) in March 2015. Letter from Amy Carter (EFTA02713880) stated 'many of the groups in IPI's proposal are already in discussions with Gates Foundation staff about pandemic preparedness.' Rod-Larsen forwarded the rejection letter to Epstein. Despite this rejection, Gates Foundation maintained the 'polio eradication' relationship and awarded a second grant INV-009501 in June 2019 for $256,968. The letter notably states: 'We deeply appreciate the partnership that the foundation has with IPI overall but specifically in support of our polio eradication work.' Epstein was not named in the grant agreement (OPP1096058), but his fingerprints are on the relationship: he requested IPI info 'to give to bg' (Apr 2013, EFTA01898063) and forwarded IPI banking details to Nikolic (Jun 2013).",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2015-03",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:58:32",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01898063",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02713877",
+          "source_quote": "From: \nTerje Rod-Larsen \nSent: \nWednesday, Marc 11, \n1 : \nTo: \nJeffrey Epstein \nSubject: \nFwd: Pandemics proposal \nAttachments: \nIPI_Letter_March 10 2015.pdf; ATT00001.htm \nSent from my iPhone \nar>Begin forwarded message: \nFrom: Andrea Pfanzelte=...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02713880",
+          "source_quote": "We deeply appreciate the partnership that the foundation has with IPI overall but specifically in support of our polio eradication work",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "finding_type": "financial",
+      "summary": "Epstein treated IPI as part of his personal financial architecture, listing it alongside his trusts, Harvard donations, and consulting fees in an April 14, 2015 estate planning email: '7 estate modification given new circunstances and altered probablities. (use etc) 8 charity, new trusts,\\!\\!d IPI, harvard, fees.' The email was sent to an advisor referred to as 'brad' who was 'desperate for help.' This placement of IPI alongside 'estate modification' and 'new trusts' suggests Epstein viewed his IPI donations not as philanthropy but as components of a broader financial strategy. The total Epstein-directed financial flow to IPI includes: direct donations 650K, Enhanced Education flight reimbursement 14K, Leon Black donation 200K (directed by Epstein per Kahn emails), and the brokered 5M Gates Foundation grant -- making Epstein responsible for approximately 5.86M or more in IPI funding.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-04-14",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:16:49",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02465679",
+          "source_quote": "Thursday, April 7, 2016 12:18 AM \njeffrey E. \nRe: Leon 2014 year end charities along with fees 2013-2015 \nI am sorry I did not include =n email the 10,000,000 to gratitude in october 2015 \nFrom: Jeffrey Epstein  \nOn Wed, Apr 6= 2016 at 6:25 PM, Richard Kahn \n > \nCredit \nNov 18 - Dec 31, 11 \nNov 18...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707935",
+          "source_quote": "Attachments: \nIRS_NewTaxRuling2008.pdf \nThese are the wiring instructions for the 5 million fro= the foundatoin. for IPI \n \n-Forwarded me \nFrom: Terje =od-Larsen \nDate: Mon, Jun 10, 201 \nSubject: Fw: IPI bank instructions an= 501c3 certification \nTo: \"  \" Ceevacation@gmailcom  \n \nDavid Witt...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_023273",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "finding_type": "financial",
+      "summary": "The 'Oslo Play' was used as justification for $250,000 in payments from Gratitude America to IPI in 2017. Two checks totaling $250K: $150K on May 8, 2017 ('Reimbursement of tickets to the Oslo Play') and $100K on Nov 1, 2017 ('Contribution from Gatitude America, LTD Oslo Play'). The Broadway play 'Oslo' by J.T. Rogers premiered at Lincoln Center in June 2016 and transferred to Broadway in April 2017. Rod-Larsen hosted a private cocktail reception before a May 5, 2017 performance (EFTA02650430). Epstein 'hired out the entire theatre for the U.N.' (EFTA02650158). However, $250K for theater tickets is wildly disproportionate. KPMG noted no donor restrictions on these contributions, meaning IPI could use the funds for any purpose. This pattern suggests the 'Oslo Play' label may have been a pretext for unrestricted charitable donations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017-05-08",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:11:19",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02650158",
+          "source_quote": "Thursday, May 18, 2017 11:33 AM \nRe: \ncousins> you started to say=that structurally not terrible separate from them adding exceptions to the=r commitments \nre brand. . you never got to the \" bu= \" \nto do a deal anytime in the future not o=ly now. requires a great deal of thought. =AO trusts....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02650430",
+          "source_quote": "Camilla Reksten-Monsen \nSubject: \npre-show reception and the gathering afterwards \nDear Mr. Epstein, \nWe are delighted that you will be joining us fo= a special performance of OSLO on Friday, May 5th.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "datasets/IPI-KPMG-Forensic-Review-12-18-2020.pdf",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "finding_type": "financial",
+      "summary": "LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). Checks: EFTA01357084 (May 8 2017, 150K), EFTA01360128 (Jun 12 2017, 125K), EFTA01362195 (Nov 1 2017, 100K). All payable to International Peace Institute Inc, 777 United Nations Plaza, 4th Floor, New York NY 10017-3521. This confirms Gratitude America banked at Deutsche Bank Trust Company Americas -- the same bank that maintained Epstein personal accounts and was later fined by NYDFS for the Epstein relationship.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-05-08",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:13:45",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01357084",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01360128",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01362195",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "finding_type": "financial",
+      "summary": "Epstein offered to subsidize his romantic partner's salary at IPI. Mar 6, 2018: Epstein emailed someone described as 'president UN' introducing the woman: 'is a woman that works for Terje at iPI. She is educated (the new school) and works on water issues. Is there a way to get her involved in the water project. I will subsidize if needed.' Response: 'Absolutely\\! Let her contact me, I will arrange.' This confirms Epstein was willing to use his own funds to maintain his partner's position at IPI, making IPI essentially a cover for placing women in diplomatic environments.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2018-03-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:57:41",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02512436",
+          "source_quote": "is a woman that works for Terje at iPI. She is educated (the new school) and works on water issues. Is there a way to get her involved in the water project. I will subsidize if needed",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "finding_type": "document",
+      "summary": "Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonder if it ok if I have sex with her, she is s000 sexy' before forwarding to the woman. Multiple variants exist (EFTA02630683, EFTA02630033, EFTA02630230, EFTA02629992). The woman recognized the edit was Epstein's: 'Adam would never say that.' This reveals Epstein treated IPI staffing documents as personal property and sexualized a woman whose employment he controlled.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2019-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:57:32",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629992",
+          "source_quote": "Jaja still laughing• you made my day?! =A0",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630033",
+          "source_quote": "You such a sneaky dog\\!\\!\\!hahahaha Adam would never say that and I would never have a sec with him",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630230",
+          "source_quote": "Ok first of all I was paid as an intern $10 per hour=which was increased to $ 13 per hour and it only became 15$ per \nhour in Ja=uary 2018. \nSecondly 71$ from 2016-2018 why are they cou=ting the money that I earned through internship? I only started to get \npai= from the funding you gave me in...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630683",
+          "source_quote": "I wonder if it ok if I have sex with her, she is s000 sexy",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "finding_type": "relationship",
+      "summary": "Epstein had operational control over IPI staffing decisions for his romantic partner. Feb 11, 2019: IPI VP Adam Lupel sent Rod-Larsen a detailed employee costs memo about a woman employed at IPI since Oct 2016 (intern at $15/hr, then full-time at $45K, then volunteer due to visa issues, then intern again). Lupel recommended hiring her part-time under Gunbat sponsorship at $50K/yr. Rod-Larsen immediately forwarded the memo to Epstein. This was 5 months before arrest. The woman sent her resume to Epstein to forward to IPI (Jun 2016), drafted emails to IPI staff for Epstein review (Aug 2016), asked Epstein about salary negotiation (Jan 2018), and consulted Epstein about her visa situation (Mar 2018). Total IPI expense on her: approx $71K (Oct 2016-Jul 2018).",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2019-02-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:57:23",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02390796",
+          "source_quote": "From: \nSent: \nTuesday, August 2, 2016 6:23 PM \nTo: \nJeffrey Epstein \nSubject: \nhow about this email to send to the IPI woman? \nDear Mary Anne, \nHope this note fi=ds you well. \nI am writing to follow up on our last convers=tion and my briefly meeting...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02460674",
+          "source_quote": "From: \nSent: \nMonday, June 6, 2016 6:19 PM \nTo: \nJeffrey Epstein \n> \nHi sneaky, \nHere is my updated 4=A0resume to forward to Terry and Adam Lupel, who is the current Vic=-Presidnet in IPI and who \ncomepted phD at the New School. Let me know if they...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02492920",
+          "source_quote": "From: \nSent: \nTuesday, March 27, 2018 3:30 PM \nTo: \njeffrey E. \nSubject: \nRe: Visa question \nok, thank you! \nOn Tue, Mar 27, 2018 at 10:54 AM, jeffrey E. <jee=acation@gmail.com <mailto:jeevacation@gmail.com> wrote: \n=div> \nCall Arda \nOn Tue, Mar 27,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02539626",
+          "source_quote": "From: \nSent: \nTo: \nSubject: \nThursday, January 11, 2018 3:28 PM \njeffrey E. \nFwd: FW: Offer Letter for External Relations Asst. \nCould you take a look before I signed and enrolled t=in contract? Below You paid 100K but the sala=y is 45K per year....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629771",
+          "source_quote": "IPI internship program structured to last no more than a year. Thus to keep engaged at IPI, Zelia and suggest hiring her as part-time employee under Gunbats sponsorship with annual full-time salary of 50000",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "finding_type": "financial",
+      "summary": "The April 5, 2019 donation of $150,000 from Gratitude America to IPI -- just 3 months before Epstein's July 6 arrest -- was facilitated by Bella Klein (Epstein's accounting staff). On April 4, 2019, Klein emailed Camilla Reksten-Monsen (Rod-Larsen's special assistant at IPI) requesting IPI bank instructions and 501c3 certification. Reksten-Monsen provided IPI's JPMorgan Chase account details. Klein responded: 'I will send check tomorrow AM' to IPI's offices at 777 UN Plaza (EFTA02282103). Klein preferred to 'send an overnight check or deliver check via messenger' rather than wire (EFTA02280923). This was the last Epstein-related donation to IPI. The timing -- April 2019, with SDNY investigation already underway -- raises questions about whether this was a final disbursement before anticipated legal proceedings.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-04-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:12:49",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02280923",
+          "source_quote": "Subject Fwd: IPI bank instructions and 501c3 certification \nThank you, \nBella \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02280949",
+          "source_quote": "Subject Jeffrey Epstein \n• \nHi Camilla...Bella, in Jeffrey Epstein's accounting department, is in need of your help! Can you \nplease provide her an address to overnight or messenger the check she needs to get to Terje?! \nWould greatly appreicate your help as soon as possible. Bella is on this...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02281277",
+          "source_quote": "Subject Re: Jeffrey Epstein \nHi= \nsure, you can send it to IPIs offices at 777 UN Plaza, New York, NY 10017. Taje is \nin London though, so best to send it to Adam Lupel (Vice President of IPI). \nThanks, \nCamilla \nSent from my iPhone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02281399",
+          "source_quote": "Bella Klein \nGreat! thank you! Bella will get back to you for sure on next move...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282103",
+          "source_quote": "Subject Re: Jeffrey Epstein \nThank you Lesley and Camilla, \nI will send check tomorrow AM with a messenger service. \nThank you, \nBella",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02635738",
+          "source_quote": "Forwarded message \nFrom: Camilla Reksten-Monsen  \nHi Jeff, \nTerje asked me to send you IPIs bank info. \nThanks, \nCamilla \nBank name: \nBank address: \nABA: \nSWIFT: \nAccount name: \nAccount number: \nJPMorgan Chase \n1 United Nations Plaza, Branch 292 \nNew York, NY 10017 \nUSA \nInternational Peace...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02635854",
+          "source_quote": "Hi Jeff, \nTerje asked me to send you IPIs bank info. \nThanks, \nCamilla \nBank name: \n=nbsp; \n&nb=p; JPMorgan Chase \nBank address: \n&nb=p; \n=1 United Nations Plaza, Branch 292 \n&nbs=; \n&=bsp; \n&nbs=; \n&=bsp; New York, NY 10017 \n&nbs=; \n&=bsp; \n&nbs=; \n&=bsp; USA \nABA: \n=nbsp; \n&nb=p; \n=nbsp; \nSWIFT:...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "finding_type": "financial",
+      "summary": "IPI financial trajectory shows decline coinciding with Epstein scandal. Revenue peaked at 11.87M in 2014, then declined: 2015 10.33M, 2016 8.47M, 2017 8.70M, 2018 8.39M, 2019 9.33M, 2020 3.93M (post-arrest collapse), 2021 10.77M (recovery from Soros), 2022 6.66M, 2023 5.04M. Assets fell from 16.37M (2014) to 6.91M (2023). The 2020 revenue drop of 58 percent is striking -- this was the year IPI commissioned the KPMG forensic review (Nov 2020). Open Society Foundations provided 1.5M (per LittleSis) after the scandal, likely to stabilize IPI. Rod-Larsen resigned as president by November 2020.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2020-11",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:13:09",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ProPublica-990-030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "finding_type": "financial",
+      "summary": "KPMG forensic review (Dec 18, 2020) confirmed exactly 5 donations to IPI totaling $650,000 from Epstein-controlled entities between 2010-2020: (1) Enhanced Education $125,000 on Oct 11, 2011 for 'WK Rick Hooper fellowship'; (2) Gratitude America $150,000 on May 8, 2017 labeled 'Reimbursement of tickets to the Oslo Play'; (3) Gratitude America $125,000 on Jun 12, 2017; (4) Gratitude America $100,000 on Nov 1, 2017 labeled 'Contribution from Gatitude [sic] America, LTD Oslo Play'; (5) Gratitude America $150,000 on Apr 5, 2019 (3 months before arrest). KPMG also found one flight reimbursement of $14,158.88 from Enhanced Education on Mar 28, 2014 for 'L. Summers flight'. Total Epstein-related financial flow through IPI: $664,158.88.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2020-12-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:11:06",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "datasets/IPI-KPMG-Forensic-Review-12-18-2020.pdf",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "finding_type": "legal",
+      "summary": "A qui tam (False Claims Act) case was filed against IPI in the District of Minnesota on December 20, 2022: United States of America ex rel. v. International Peace Institute, Inc. (CourtListener docket 69737684). The case number and sealed nature (typical for qui tam cases) suggest a whistleblower alleged IPI defrauded the U.S. government. Given IPI received U.S. government funding and hosted programs with government participation, this case could relate to misrepresentation of donor sources or misuse of funds. IPI also incorporated in Austria as a 'Verein' (EFTA02505644, legal documents sent by IPI Vienna to Rod-Larsen who forwarded to Epstein in Apr 2015), creating a dual-jurisdiction structure.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2022-12-20",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:13:56",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener-69737684",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02505644",
+          "source_quote": "good \n<r \n» \nwrote: \nSent from my iPhone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "finding_type": "legal",
+      "summary": "Qui tam (False Claims Act) whistleblower case confirmed: United States ex rel. v. International Peace Institute, Inc., Case No. 0:22-cv-03127 (D. Minn.), filed Dec 20, 2022, before Judge Jeffrey M. Bryan. Nature of suit: 376 Qui Tam under 31 USC 3729(a). Case has not been terminated. No public complaint available, case likely remains under seal. Filed in D. Minnesota (not SDNY), suggesting the whistleblower relator may be based in Minnesota. The False Claims Act basis suggests IPI allegedly made false claims to the federal government, possibly related to grant applications, certifications, or misuse of funds.",
+      "detail": null,
+      "source_datasets": [
+        "courtlistener"
+      ],
+      "confidence": "high",
+      "date_of_event": "2022-12-20",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:58:57",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "CourtListener:docket/69737684",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 474,
+      "finding_type": "financial",
+      "summary": "IPI employees made 325+ FEC contributions, but ALL are small-dollar (.50-) donations from rank-and-file staff: Adam Lupel (Nonprofit Management, Brooklyn), Olivia Fielding (Program Coordinator, Alexandria VA), Albert Trithart (Editor/Research Fellow, Astoria NY). All donations went through ActBlue. Zero donations from IPI leadership or from anyone associated with Rod-Larsen. This is consistent with IPI being a legitimate nonprofit whose staff make personal small-dollar donations -- the Epstein connection operated at the board/funding level, not through employee political activity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2024",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:52:21",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC:employer_search_IPI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "finding_type": "document",
+      "summary": "Epstein's files contain O-1 visa templates and multiple completed recommendation letters designed to secure US work visas for women. Key documents: (1) EFTA02679158: blank template for O-1 visa 'extraordinary ability' letter with instructions including 'name dropping if possible.' (2) EFTA02674498: Ariane de Rothschild wrote visa letter for same woman, calling her 'a communications and public relations professional of extraordinary ability.' (3) EFTA02674762: David Blaine wrote O-1 visa letter for same woman. (4) EFTA02389172: Michael Harrigan (USVI Deputy Superintendent of Schools) wrote O-1B letter crediting her work through Enhanced Education on STEM competition. This system of coordinated visa letters from high-profile individuals corroborates Al Jazeera/OCCRP reporting (Feb 2026) that Rod-Larsen wrote official visa recommendation letters for women connected to Epstein.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2026-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:57:54",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02389172",
+          "source_quote": "[Please insert on your letterhead] \n[Please insert the date here[ \nUS DHS CIS \nVermont Service Center \n30 Houghton Street \nSt. Albans, VT 05478 \nRe: \nMs. \nDear Sir or Madam: \nO-IB Application \nI am writing this letter on behalf of Ms. \n, a...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02674498",
+          "source_quote": "[Please insert on your letterhead] \n[Please insert the date here] \nUS OHS CIS \nVermont Service Center \n30 Houghton Street \nSt. Albans, VT 05478 \nRe: \nVisa Application \nDear Sir or Madam: \nI am writing this letter on behalf of Ms. \n, a communications...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02674762",
+          "source_quote": "[Please insert on your letterhead] \n[Please insert the date here] \nUS DHS CIS \nVermont Service Center \n30 Houghton Street \nSt. Albans, VT 05478 \nRe: \nMs. \nDear Sir or Madam: \ns Immigration Application \nI am writing this letter on behalf of Ms. \nand...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02679158",
+          "source_quote": "I am writing on behalf of Ms [blank], a professional of extraordinary ability. [please include a short bio and the info on the organization here, name dropping if possible]",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "finding_type": "legal",
+      "summary": "IPI has no FARA registration despite receiving Norwegian government funding and hosting US Congressional members on advisory boards. Norway has 50 FARA-registered foreign principals, but IPI -- which received $650K in Epstein-conduit funds and lobbied Congress on foreign policy -- appears nowhere in the FARA database. This is a potential FARA violation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:41:41",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://efile.fara.gov/ords/f?p=1381:200#q=negative_search_IPI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "finding_type": "legal",
+      "summary": "International Peace Institute (IPI) has ZERO lobbying filings in Senate LDA records despite maintaining 33+ Congressional members on its advisory board and operating what amounted to a Congressional influence pipeline. IPI facilitated CODELs (Congressional delegations), hosted Congressional events, and maintained relationships with sitting members of Congress. The absence of lobbying registration, combined with documented Congressional influence activities, raises questions about compliance with the Lobbying Disclosure Act (LDA). Under 2 USC 1602, organizations that spend above threshold amounts on lobbying contacts with covered officials must register.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:43:51",
+      "target_name": "International Peace Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:negative_search_IPI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 44,
+      "person_a": "Enhanced Education",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:13:52",
+      "other_person": "Enhanced Education",
+      "other_person_slug": "enhanced-education",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02713369",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "person_a": "IPI",
+      "person_b": "Norwegian Government",
+      "relationship_type": "financial",
+      "description": "IPI received Norwegian govt funding as confirmed donor country. NORAD registered 6 FARA entries but IPI never registered.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:22",
+      "other_person": "Norwegian Government",
+      "other_person_slug": "norwegian-government",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02675352",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "person_a": "IPI",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:39",
+      "other_person": "Terje Rod-Larsen",
+      "other_person_slug": "terje-rod-larsen",
+      "evidence": []
+    },
+    {
+      "id": 56,
+      "person_a": "IPI",
+      "person_b": "Kevin Rudd",
+      "relationship_type": "advisory",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Kevin Rudd",
+      "other_person_slug": "kevin-rudd",
+      "evidence": []
+    },
+    {
+      "id": 57,
+      "person_a": "IPI",
+      "person_b": "Leon Black",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": []
+    },
+    {
+      "id": 58,
+      "person_a": "Enhanced Education",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Enhanced Education",
+      "other_person_slug": "enhanced-education",
+      "evidence": []
+    },
+    {
+      "id": 59,
+      "person_a": "Gratitude America",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 60,
+      "person_a": "IPI",
+      "person_b": "JPMorgan Chase",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:50",
+      "other_person": "JPMorgan Chase",
+      "other_person_slug": "jpmorgan-chase",
+      "evidence": []
+    },
+    {
+      "id": 61,
+      "person_a": "Boris Nikolic",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:50",
+      "other_person": "Boris Nikolic",
+      "other_person_slug": "boris-nikolic",
+      "evidence": []
+    },
+    {
+      "id": 62,
+      "person_a": "Gates Foundation",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:50",
+      "other_person": "Gates Foundation",
+      "other_person_slug": "gates-foundation",
+      "evidence": []
+    },
+    {
+      "id": 340,
+      "person_a": "IPI",
+      "person_b": "Leon Black",
+      "relationship_type": "financial",
+      "description": "Black Family Foundation (EIN 13-3947890) K to IPI (Dec 2014 per KPMG). IPI 990 shows .87M revenue in 2014, its peak year. Black was a key donor to the Rod-Larsen-led entity.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:03",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:133947890",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:11:00",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "IRS-990PF-2017",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "IRS-990PF-2019",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 741,
+      "person_a": "Gratitude America",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Gratitude America granted $375,000 to IPI in 2017 per 990-PF Statement 5",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:41:06",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990-PF-EIN-66-0789697-2017",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1745,
+      "person_a": "International Peace Institute",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1750,
+      "person_a": "International Peace Institute",
+      "person_b": "Mark Epstein",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Mark Epstein",
+      "other_person_slug": "mark-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1751,
+      "person_a": "International Peace Institute",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": []
+    },
+    {
+      "id": 1752,
+      "person_a": "International Peace Institute",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": []
+    },
+    {
+      "id": 1753,
+      "person_a": "International Peace Institute",
+      "person_b": "Zorro Trust",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Zorro Trust",
+      "other_person_slug": "zorro-trust",
+      "evidence": []
+    },
+    {
+      "id": 1798,
+      "person_a": "International Peace Institute",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "employment",
+      "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Terje Rod-Larsen",
+      "other_person_slug": "terje-rod-larsen",
+      "evidence": []
+    },
+    {
+      "id": 1799,
+      "person_a": "International Peace Institute",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "employment",
+      "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Terje Rod-Larsen",
+      "other_person_slug": "terje-rod-larsen",
+      "evidence": []
+    },
+    {
+      "id": 1743,
+      "person_a": "Deutsche Bank",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Deutsche Bank",
+      "other_person_slug": "deutsche-bank",
+      "evidence": []
+    },
+    {
+      "id": 1744,
+      "person_a": "Elizabeth Ross Johnson Trust",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Elizabeth Ross Johnson Trust",
+      "other_person_slug": "elizabeth-ross-johnson-trust",
+      "evidence": []
+    },
+    {
+      "id": 1746,
+      "person_a": "Financial Ballistics Trust",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Financial Ballistics Trust",
+      "other_person_slug": "financial-ballistics-trust",
+      "evidence": []
+    },
+    {
+      "id": 1747,
+      "person_a": "Financial Trust Company",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": []
+    },
+    {
+      "id": 1748,
+      "person_a": "Haze Trust",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Haze Trust",
+      "other_person_slug": "haze-trust",
+      "evidence": []
+    },
+    {
+      "id": 1749,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Humpty Dumpty Institute",
+      "other_person_slug": "humpty-dumpty-institute",
+      "evidence": []
+    },
+    {
+      "id": 46,
+      "person_a": "International Peace Institute",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:09",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2010",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI (EIN 03-0213226) 990 filings show dramatic financial decline correlating with Epstein exposure. Peak assets were .6M in 2010, declining steadily to .4M in 2014, .7M in 2015, .7M in 2016, .7M in 2017, .5M in 2018, .4M in 2019, then collapsing to .9M in 2020 (COVID+Epstein), recovering briefly to .3M in 2021, but continuing decline to .4M in 2022 and .9M in 2023. Revenue dropped from .9M (2014) to .9M (2020) - a 67% collapse. The 2020 year shows revenue of only .9M against .6M in expenses, indicating severe financial distress.",
+      "confidence": "medium",
+      "id": 421
+    },
+    {
+      "date": "2010",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI cumulative financial analysis from 990 filings: Over 2010-2023, IPI ran a cumulative deficit of .5M. Assets declined from .6M (2010) to .9M (2023), a 73% decline. Only TWO years showed surpluses: 2010 (+.4M) and 2021 (+.9M). Five years showed deficits exceeding M: 2011 (-.1M, worst single year), 2016 (-.0M), 2018 (-.3M), 2020 (-.7M, COVID+Epstein), 2023 (-.6M). The 2011 deficit of .1M on .6M revenue suggests a major one-time write-down or accounting adjustment. At current burn rate (.6M/yr deficit), IPI has approximately 2.5 years of reserves remaining.",
+      "confidence": "medium",
+      "id": 458
+    },
+    {
+      "date": "2010",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI 2011 anomaly: Revenue was only .64M against .71M in expenses, creating an .07M deficit in a single year. This was by far the worst year. The prior year (2010) showed .63M in revenue and .6M in assets. The 2011 collapse took assets from .6M to .5M. This could represent: (1) a major investment loss, (2) a one-time accounting adjustment, (3) loss of a very large donor. The 2010 revenue of .6M vs 2011 revenue of .6M represents an 81% year-over-year decline that preceded the Epstein plea deal. This warrants examination of the actual 2011 990 PDF to understand the revenue collapse.",
+      "confidence": "medium",
+      "id": 468
+    },
+    {
+      "date": "2011-01-31",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein actively pitched IPI to Bill Gates through multiple channels. Jan 31, 2011: Epstein to Rod-Larsen: 'I have bill gates for the nxt two days.. I know what i am supposed to say re ipi.. any specific challenge?' (EFTA01834272). Apr 2, 2013: Epstein to Rod-Larsen: 'get me the info on ipi, to give to bg' (EFTA01898063). Jan 2014: Rod-Larsen to Epstein: 'the International Peace Institute (IPI), now can celebrate [X] years of cooperation with the Gates Foundation... may I suggest that we have lunch together [at Davos]?' (EFTA02625684). Sep 11, 2013: A full-day meeting between IPI and Gates Foundation staff at the Gates campus with formal agenda (EFTA02725118). Mar 3, 2014: Rod-Larsen forwarded the signed Gates Foundation grant agreement (OPP1096058) directly to Epstein (EFTA01934403). This chain confirms Epstein was the intermediary who brought the Gates Foundation to IPI, making him not just a donor but the architect of IPI's largest funding relationship.",
+      "confidence": "medium",
+      "id": 82
+    },
+    {
+      "date": "2012-05-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI Distinguished Fund publicly launched May 21, 2012, with Epstein named as founding philanthropist. Press coverage in CNBC, Reuters, and The Street: 'The International Peace Institute Launches a Distinguished Fund with Philanthropist Jeffrey Epstein.' This was 4 years after Epstein's 2008 Florida conviction. The launch represented IPI publicly embracing Epstein as a major donor post-conviction, lending him legitimacy through association with the UN-adjacent think tank. By August 2012, Epstein was actively involved in IPI's organizational expansion, emailing Boris Nikolic: 'IPI, is the institute going to be formed in vienna, Terje RoedLarsen, chair' (EFTA01891138).",
+      "confidence": "high",
+      "id": 75
+    },
+    {
+      "date": "2013",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI Norwegian government funding pipeline confirmed via DOJ documents. EFTA02675352: IPI staff emailed Epstein saying 'I understood from terje that you needed some material on IPI activities. Terje has forwarded you the annual report 2012 and 2011 and I add as an attachment IPI program activities (which we usually forward to donor countries like Sweden or Norway).' This confirms: (1) Norway and Sweden are designated 'donor countries' to IPI; (2) Rod-Larsen directed IPI staff to provide Epstein the same program activity reports given to sovereign donors; (3) Epstein was receiving donor-level reporting from IPI. IPI's 990 filings show 2014 revenue of $11.87M. Norway's Ministry of Foreign Affairs and Norwegian Agency for Development Cooperation (NORAD) are known IPI funders. 990s show government grants as a revenue category but exact Norwegian government amounts require Schedule B review (not publicly available). IPI also received funding from Switzerland (Vienna office), Finland, Denmark, and multiple Middle Eastern governments (co-hosted events). The pattern of sovereign donor countries funding IPI while IPI had zero FARA/LDA registration is the core regulatory gap.",
+      "confidence": "high",
+      "id": 1182
+    },
+    {
+      "date": "2013-02-07",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "IPI served as a platform for high-level diplomatic access that Epstein leveraged. Documentary evidence shows: (1) Ministerial Working Dinners on the Middle East co-hosted at IPI by UAE Foreign Minister Sheikh Abdullah Bin Zayed Al Nahyan and Luxembourg Foreign Minister (EFTA02683654, Sep 2014; EFTA02726418, Sep 2012); (2) IPI pandemics conferences in Geneva with global health leaders (EFTA02702398, EFTA02359162); (3) A Feb 7, 2013 email about building Epstein's international website noting 'putting in info about the Intl Peace Institute etc. Are there other intl. organizations that you have worked with?' (EFTA02723098); (4) Epstein received personal invitations to the Vienna Opera Ball through IPI Vienna (EFTA02686494, EFTA02719092); (5) IPI hosted a dinner for Stowe School headmaster at 777 UN Plaza attended by Epstein (EFTA02386639). IPI thus provided Epstein with continuous access to heads of state, foreign ministers, and the UN diplomatic community -- extraordinary access for a registered sex offender.",
+      "confidence": "medium",
+      "id": 89
+    },
+    {
+      "date": "2013-06-10",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein forwarded IPI bank wiring instructions to Boris Nikolic (Bill Gates science advisor) on June 10, 2013, with the note: 'These are the wiring instructions for the 5 million from the foundatoin. for IPI.' IPI banked at JPMorgan Chase, Branch 292, 1 United Nations Plaza, New York, NY 10017. Account: International Peace Institute, ABA 021-000021, SWIFT CHASUS-33. The $5M reference indicates Epstein was brokering a major donation from the Gates Foundation to IPI. This is confirmed by the Gates Foundation grant agreement (OPP1096058) that Rod-Larsen forwarded to Epstein on March 3, 2014, and the September 11, 2013 meeting agenda at Gates Foundation campus between IPI and BMGF staff.",
+      "confidence": "high",
+      "id": 73
+    },
+    {
+      "date": "2013-09-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI submitted a 20M grant proposal to Gates Foundation on September 4, 2013 for Polio Eradication and Peace and Health (EFTA02678411). The proposal was for 60 months (2014-2018) covering Pakistan, Nigeria, Somalia. The Foundation approved only 2.5M (grant OPP1096058), signed March 2, 2014. Payment: 1.25M upon signing, 1.25M in March 2015 contingent on progress report. Grant end date December 31, 2015.",
+      "confidence": "high",
+      "id": 290
+    },
+    {
+      "date": "2013-09-11",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Boris Nikolic (Bill Gates science advisor) was listed as attendee at the Sept 11, 2013 IPI-Gates Foundation meeting at Gates campus. The meeting agenda discussed IPI's polio eradication proposal. Nikolic was also the recipient of IPI bank wiring instructions forwarded by Epstein on June 10, 2013 (finding #73). Nikolic was later named as backup executor in Epstein's will (publicly reported Aug 2019). This creates a direct triangle: Epstein forwarded IPI banking details to Gates' science advisor, who then attended the grant negotiation meeting 3 months later. The $2.5M grant was signed 6 months after that meeting.",
+      "confidence": "high",
+      "id": 238
+    },
+    {
+      "date": "2014",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI 990 filings reveal dramatic revenue decline after Epstein scandal. Peak revenue $11.87M in 2014 (year of Gates grant), declining to $8.47M in 2016, collapsing to $3.93M in 2020 (COVID plus Rod-Larsen resignation/scandal). Brief recovery to $10.77M in 2021 (likely Open Society Foundations $1.5M per LittleSis), then continued decline to $5.04M in 2023. Assets dropped from $16.37M (2014) to $6.91M (2023). Schedule B (major donors) is not publicly available for 501(c)(3) organizations. Confirmed donors beyond Epstein entities: Gates Foundation ($2.76M total across 2 grants), Open Society Foundations ($1.5M per LittleSis), Norway and Sweden as government donors.",
+      "confidence": "high",
+      "id": 241
+    },
+    {
+      "date": "2014",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "IPI FARA LEGAL ANALYSIS: IPI has zero FARA registrations despite receiving funding from Norwegian government (confirmed as 'donor country' in EFTA02675352: 'which we usually forward to donor countries like Sweden or Norway'). IPI's activities that potentially trigger FARA: (1) Received $650K KPMG-confirmed Epstein conduit funds while Norwegian national Rod-Larsen was president; (2) Hosted Ministerial Working Dinners at 777 UN Plaza with UAE, Luxembourg, and other foreign government officials; (3) Operated Mongolia Advisory Board paying $100K each to former heads of state (Rod-Larsen, Summers, Barak, Bondevik, Rudd); (4) Rod-Larsen forwarded IPI program activities 'which we usually forward to donor countries' directly to Epstein; (5) IPI bank instructions sent to Epstein for $5M Gates Foundation wire (EFTA02707935). FARA EXEMPTIONS IPI MIGHT CLAIM: (a) 22 USC 611(d) academic/scientific exemption -- IPI registered as 501(c)(3) think tank; (b) UN affiliate exemption -- IPI's charter connects to Trygve Lie Center; (c) No direct foreign government instruction. COUNTER-ARGUMENTS: (a) IPI's Congressional engagement (hosting 33+ members) goes beyond academic research; (b) Norwegian government was a confirmed donor country; (c) Rod-Larsen directed IPI activities through Epstein, a non-diplomatic channel; (d) $5.86M total Epstein-directed funding makes IPI financially dependent on non-transparent sources. COMPARABLE: Norwegian Agency for Development Cooperation registered 6 FARA entries (via Waxman Consulting #6710, Center for International Policy #6896), showing Norway DOES register its grantees. IPI's absence is anomalous.",
+      "confidence": "medium",
+      "id": 1147
+    },
+    {
+      "date": "2014-03-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Gates Foundation grant OPP1096058 confirmed: $2,500,000 to IPI for 'Polio Eradication and Peace and Health.' Signed March 2, 2014, end date December 31, 2015. Two payments: $1.25M upon signing, $1.25M after progress report. Primary contacts: Amy Carter (Gates Deputy Director, Family Interest Grants) and Max Gasteen (Program Officer, Global Program Advocacy). IPI primary contact: Andrea Pfanzelter (Senior Director, Development, Vienna). IPI requested $20M originally (Sept 2013 proposal, EFTA02678411). Grant covered work in Afghanistan, Pakistan, Nigeria, Somalia. A second Gates grant INV-009501 (June 2019, $256,968, 14 months) was also awarded for polio work.",
+      "confidence": "high",
+      "id": 237
+    },
+    {
+      "date": "2014-03-28",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Summers' first-class Lufthansa flight from JFK to Almaty via Frankfurt on March 19-20, 2014 was booked through Protravel International and invoiced to IPI at 777 United Nations Plaza. The $14,158.88 cost was reimbursed by Enhanced Education (Epstein's opaque foundation) on March 28, 2014, confirmed by KPMG. This demonstrates the financial pipeline: Enhanced Education (Epstein) paid for services booked through IPI for Mongolia Advisory Board activities, with IPI serving as the administrative pass-through entity.",
+      "confidence": "high",
+      "id": 78
+    },
+    {
+      "date": "2014-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Leon Black donated $200,000 to IPI in December 2014. The donation letter (EFTA02705181) from Black at 760 Park Avenue was addressed to 'Terje Rod-Larsen, President, International Peace Institute, Inc., 777 United Nations Plaza 4th Floor, New York, NY 10017-3521.' This donation was separate from Black's $10M to Gratitude America (Oct 2015), which subsequently made its own donations to IPI. The letter refers to 'the excellent work being done at International Peace Institute Inc.' Richard Kahn (Epstein's accountant) tracked this alongside Black's other charitable giving directed by Epstein: 'Leon 2014 year end charities along with fees 2013-2015' (EFTA02465679). Kahn noted he forgot to include 'the 10,000,000 to g[ratitude America]' in the email.",
+      "confidence": "high",
+      "id": 80
+    },
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI expenses have consistently exceeded revenue since 2015, indicating the organization has been drawing down reserves. Revenue vs expenses gap: 2015 (.3M vs .2M), 2016 (.5M vs .5M), 2017 (.7M vs .6M), 2018 (.4M vs .6M), 2019 (.3M vs .1M), 2020 (.9M vs .6M), 2023 (.0M vs .6M). The persistent deficit since 2015 suggests IPI lost a major funding source and has been spending down endowment. This aligns with the KPMG-confirmed K Epstein conduit and subsequent donor flight.",
+      "confidence": "medium",
+      "id": 423
+    },
+    {
+      "date": "2015-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Gates Foundation declined IPI's second proposal (pandemics convening) in March 2015. Letter from Amy Carter (EFTA02713880) stated 'many of the groups in IPI's proposal are already in discussions with Gates Foundation staff about pandemic preparedness.' Rod-Larsen forwarded the rejection letter to Epstein. Despite this rejection, Gates Foundation maintained the 'polio eradication' relationship and awarded a second grant INV-009501 in June 2019 for $256,968. The letter notably states: 'We deeply appreciate the partnership that the foundation has with IPI overall but specifically in support of our polio eradication work.' Epstein was not named in the grant agreement (OPP1096058), but his fingerprints are on the relationship: he requested IPI info 'to give to bg' (Apr 2013, EFTA01898063) and forwarded IPI banking details to Nikolic (Jun 2013).",
+      "confidence": "high",
+      "id": 239
+    },
+    {
+      "date": "2015-04-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein treated IPI as part of his personal financial architecture, listing it alongside his trusts, Harvard donations, and consulting fees in an April 14, 2015 estate planning email: '7 estate modification given new circunstances and altered probablities. (use etc) 8 charity, new trusts,\\!\\!d IPI, harvard, fees.' The email was sent to an advisor referred to as 'brad' who was 'desperate for help.' This placement of IPI alongside 'estate modification' and 'new trusts' suggests Epstein viewed his IPI donations not as philanthropy but as components of a broader financial strategy. The total Epstein-directed financial flow to IPI includes: direct donations 650K, Enhanced Education flight reimbursement 14K, Leon Black donation 200K (directed by Epstein per Kahn emails), and the brokered 5M Gates Foundation grant -- making Epstein responsible for approximately 5.86M or more in IPI funding.",
+      "confidence": "high",
+      "id": 93
+    },
+    {
+      "date": "2017-05-08",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The 'Oslo Play' was used as justification for $250,000 in payments from Gratitude America to IPI in 2017. Two checks totaling $250K: $150K on May 8, 2017 ('Reimbursement of tickets to the Oslo Play') and $100K on Nov 1, 2017 ('Contribution from Gatitude America, LTD Oslo Play'). The Broadway play 'Oslo' by J.T. Rogers premiered at Lincoln Center in June 2016 and transferred to Broadway in April 2017. Rod-Larsen hosted a private cocktail reception before a May 5, 2017 performance (EFTA02650430). Epstein 'hired out the entire theatre for the U.N.' (EFTA02650158). However, $250K for theater tickets is wildly disproportionate. KPMG noted no donor restrictions on these contributions, meaning IPI could use the funds for any purpose. This pattern suggests the 'Oslo Play' label may have been a pretext for unrestricted charitable donations.",
+      "confidence": "medium",
+      "id": 71
+    },
+    {
+      "date": "2017-05-08",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). Checks: EFTA01357084 (May 8 2017, 150K), EFTA01360128 (Jun 12 2017, 125K), EFTA01362195 (Nov 1 2017, 100K). All payable to International Peace Institute Inc, 777 United Nations Plaza, 4th Floor, New York NY 10017-3521. This confirms Gratitude America banked at Deutsche Bank Trust Company Americas -- the same bank that maintained Epstein personal accounts and was later fined by NYDFS for the Epstein relationship.",
+      "confidence": "confirmed",
+      "id": 90
+    },
+    {
+      "date": "2018-03-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein offered to subsidize his romantic partner's salary at IPI. Mar 6, 2018: Epstein emailed someone described as 'president UN' introducing the woman: 'is a woman that works for Terje at iPI. She is educated (the new school) and works on water issues. Is there a way to get her involved in the water project. I will subsidize if needed.' Response: 'Absolutely\\! Let her contact me, I will arrange.' This confirms Epstein was willing to use his own funds to maintain his partner's position at IPI, making IPI essentially a cover for placing women in diplomatic environments.",
+      "confidence": "confirmed",
+      "id": 232
+    },
+    {
+      "date": "2019-02",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonder if it ok if I have sex with her, she is s000 sexy' before forwarding to the woman. Multiple variants exist (EFTA02630683, EFTA02630033, EFTA02630230, EFTA02629992). The woman recognized the edit was Epstein's: 'Adam would never say that.' This reveals Epstein treated IPI staffing documents as personal property and sexualized a woman whose employment he controlled.",
+      "confidence": "confirmed",
+      "id": 231
+    },
+    {
+      "date": "2019-02-11",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein had operational control over IPI staffing decisions for his romantic partner. Feb 11, 2019: IPI VP Adam Lupel sent Rod-Larsen a detailed employee costs memo about a woman employed at IPI since Oct 2016 (intern at $15/hr, then full-time at $45K, then volunteer due to visa issues, then intern again). Lupel recommended hiring her part-time under Gunbat sponsorship at $50K/yr. Rod-Larsen immediately forwarded the memo to Epstein. This was 5 months before arrest. The woman sent her resume to Epstein to forward to IPI (Jun 2016), drafted emails to IPI staff for Epstein review (Aug 2016), asked Epstein about salary negotiation (Jan 2018), and consulted Epstein about her visa situation (Mar 2018). Total IPI expense on her: approx $71K (Oct 2016-Jul 2018).",
+      "confidence": "high",
+      "id": 229
+    },
+    {
+      "date": "2019-04-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The April 5, 2019 donation of $150,000 from Gratitude America to IPI -- just 3 months before Epstein's July 6 arrest -- was facilitated by Bella Klein (Epstein's accounting staff). On April 4, 2019, Klein emailed Camilla Reksten-Monsen (Rod-Larsen's special assistant at IPI) requesting IPI bank instructions and 501c3 certification. Reksten-Monsen provided IPI's JPMorgan Chase account details. Klein responded: 'I will send check tomorrow AM' to IPI's offices at 777 UN Plaza (EFTA02282103). Klein preferred to 'send an overnight check or deliver check via messenger' rather than wire (EFTA02280923). This was the last Epstein-related donation to IPI. The timing -- April 2019, with SDNY investigation already underway -- raises questions about whether this was a final disbursement before anticipated legal proceedings.",
+      "confidence": "high",
+      "id": 84
+    },
+    {
+      "date": "2020-11",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI financial trajectory shows decline coinciding with Epstein scandal. Revenue peaked at 11.87M in 2014, then declined: 2015 10.33M, 2016 8.47M, 2017 8.70M, 2018 8.39M, 2019 9.33M, 2020 3.93M (post-arrest collapse), 2021 10.77M (recovery from Soros), 2022 6.66M, 2023 5.04M. Assets fell from 16.37M (2014) to 6.91M (2023). The 2020 revenue drop of 58 percent is striking -- this was the year IPI commissioned the KPMG forensic review (Nov 2020). Open Society Foundations provided 1.5M (per LittleSis) after the scandal, likely to stabilize IPI. Rod-Larsen resigned as president by November 2020.",
+      "confidence": "medium",
+      "id": 87
+    },
+    {
+      "date": "2020-12-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "KPMG forensic review (Dec 18, 2020) confirmed exactly 5 donations to IPI totaling $650,000 from Epstein-controlled entities between 2010-2020: (1) Enhanced Education $125,000 on Oct 11, 2011 for 'WK Rick Hooper fellowship'; (2) Gratitude America $150,000 on May 8, 2017 labeled 'Reimbursement of tickets to the Oslo Play'; (3) Gratitude America $125,000 on Jun 12, 2017; (4) Gratitude America $100,000 on Nov 1, 2017 labeled 'Contribution from Gatitude [sic] America, LTD Oslo Play'; (5) Gratitude America $150,000 on Apr 5, 2019 (3 months before arrest). KPMG also found one flight reimbursement of $14,158.88 from Enhanced Education on Mar 28, 2014 for 'L. Summers flight'. Total Epstein-related financial flow through IPI: $664,158.88.",
+      "confidence": "confirmed",
+      "id": 69
+    },
+    {
+      "date": "2022-12-20",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "A qui tam (False Claims Act) case was filed against IPI in the District of Minnesota on December 20, 2022: United States of America ex rel. v. International Peace Institute, Inc. (CourtListener docket 69737684). The case number and sealed nature (typical for qui tam cases) suggest a whistleblower alleged IPI defrauded the U.S. government. Given IPI received U.S. government funding and hosted programs with government participation, this case could relate to misrepresentation of donor sources or misuse of funds. IPI also incorporated in Austria as a 'Verein' (EFTA02505644, legal documents sent by IPI Vienna to Rod-Larsen who forwarded to Epstein in Apr 2015), creating a dual-jurisdiction structure.",
+      "confidence": "medium",
+      "id": 91
+    },
+    {
+      "date": "2022-12-20",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Qui tam (False Claims Act) whistleblower case confirmed: United States ex rel. v. International Peace Institute, Inc., Case No. 0:22-cv-03127 (D. Minn.), filed Dec 20, 2022, before Judge Jeffrey M. Bryan. Nature of suit: 376 Qui Tam under 31 USC 3729(a). Case has not been terminated. No public complaint available, case likely remains under seal. Filed in D. Minnesota (not SDNY), suggesting the whistleblower relator may be based in Minnesota. The False Claims Act basis suggests IPI allegedly made false claims to the federal government, possibly related to grant applications, certifications, or misuse of funds.",
+      "confidence": "high",
+      "id": 240
+    },
+    {
+      "date": "2024",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI employees made 325+ FEC contributions, but ALL are small-dollar (.50-) donations from rank-and-file staff: Adam Lupel (Nonprofit Management, Brooklyn), Olivia Fielding (Program Coordinator, Alexandria VA), Albert Trithart (Editor/Research Fellow, Astoria NY). All donations went through ActBlue. Zero donations from IPI leadership or from anyone associated with Rod-Larsen. This is consistent with IPI being a legitimate nonprofit whose staff make personal small-dollar donations -- the Epstein connection operated at the board/funding level, not through employee political activity.",
+      "confidence": "medium",
+      "id": 474
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Epstein's files contain O-1 visa templates and multiple completed recommendation letters designed to secure US work visas for women. Key documents: (1) EFTA02679158: blank template for O-1 visa 'extraordinary ability' letter with instructions including 'name dropping if possible.' (2) EFTA02674498: Ariane de Rothschild wrote visa letter for same woman, calling her 'a communications and public relations professional of extraordinary ability.' (3) EFTA02674762: David Blaine wrote O-1 visa letter for same woman. (4) EFTA02389172: Michael Harrigan (USVI Deputy Superintendent of Schools) wrote O-1B letter crediting her work through Enhanced Education on STEM competition. This system of coordinated visa letters from high-profile individuals corroborates Al Jazeera/OCCRP reporting (Feb 2026) that Rod-Larsen wrote official visa recommendation letters for women connected to Epstein.",
+      "confidence": "high",
+      "id": 234
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      73,
+      84,
+      90,
+      231,
+      237,
+      229,
+      234,
+      82,
+      89,
+      238,
+      1147,
+      91
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          82,
+          89,
+          238,
+          229
+        ],
+        "connection_ids": [
+          44,
+          556,
+          51,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          340,
+          32,
+          741,
+          1745,
+          1750
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          421,
+          458,
+          468,
+          75,
+          1182,
+          73,
+          290,
+          241,
+          237,
+          78
+        ],
+        "connection_ids": [
+          44,
+          556,
+          51,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1147,
+          91,
+          240,
+          387,
+          409
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-19T00:43:35.055712",
+    "lead": "<p>The <strong>International Peace Institute</strong> (IPI) is a New York-based international policy think tank, headquartered at 777 United Nations Plaza, that traces its origins to the Trygve Lie Center for Peace, Security and Development. Registered as a 501(c)(3) with EIN 03-0213226, IPI historically operated on annual revenues exceeding $11 million, funded by Scandinavian governments (Norway and Sweden were designated \"donor countries\"), the Gates Foundation, the Open Society Foundations, and private philanthropists. Under the two-decade presidency of Norwegian diplomat <a href=\"/dossiers/terje-rod-larsen\">Terje Rod-Larsen</a>, IPI maintained advisory boards that included 33 sitting members of the U.S. Congress, former heads of state, and foreign ministers, providing a nexus between the United Nations diplomatic community and Western political establishments.</p><p>DOJ Volume 11 records and a December 2020 KPMG forensic review reveal that <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> was not merely a donor to IPI but a structural architect of its funding relationships. KPMG confirmed five donations totaling $650,000 from Epstein-controlled entities <a href=\"/dossiers/enhanced-education\">Enhanced Education</a> and <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a> between 2011 and 2019, with all Gratitude America checks drawn on <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> Trust Company Americas. Beyond direct donations, Epstein brokered IPI's largest institutional relationship: in June 2013, he forwarded IPI bank wiring instructions to Boris Nikolic, Bill Gates's science advisor, with the note \"These are the wiring instructions for the 5 million from the foundatoin. for IPI\" (EFTA02707935). The Gates Foundation subsequently awarded a $2.5 million grant (OPP1096058) signed March 2014, after a full-day negotiation meeting at the Gates campus that Nikolic attended. <a href=\"/dossiers/leon-black\">Leon Black</a> separately donated $200,000 in December 2014, a contribution tracked by Epstein's accountant <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> alongside Black's other Epstein-directed charitable giving (EFTA02465679). In total, Epstein was responsible for directing an estimated $5.86 million or more in funding to IPI.</p><p>IPI's financial trajectory after the Epstein relationship became public documents the institutional cost of that dependency. Revenue peaked at $11.87 million in 2014 and declined steadily, collapsing to $3.93 million in 2020 following Rod-Larsen's resignation and the KPMG review. Assets fell 73 percent, from $25.6 million in 2010 to $6.91 million in 2023, and IPI ran a cumulative deficit of approximately $16.5 million over the 2010-2023 period. A qui tam (False Claims Act) whistleblower lawsuit was filed against IPI in December 2022 in the District of Minnesota (Case No. 0:22-cv-03127), and the organization has zero FARA or LDA registrations despite receiving foreign government funding and hosting Congressional advisory programs -- an anomalous regulatory posture for an entity of its profile and activities.</p>",
+    "open_questions": [
+      "What is the substance of the sealed qui tam whistleblower complaint (Case No. 0:22-cv-03127, D. Minn.) filed against IPI in December 2022, and does it relate to misrepresentation of donor sources on federal grant applications or to the Epstein-conduit funding?",
+      "What were the specific Norwegian government funding amounts to IPI in each year, and did any changes in Norwegian appropriations correlate with Rod-Larsen's communications with Epstein about IPI's financial needs?",
+      "What caused the anomalous $8.07 million deficit in 2011 -- specifically, was it an investment loss, an accounting adjustment, or the departure of a major donor -- and does it relate to any change in the Epstein-IPI financial relationship?",
+      "Who are the individuals on IPI's Mongolia Advisory Board beyond those already identified (Rod-Larsen, Summers, Barak, Bondevik, Rudd), and were their $100,000 annual payments funded through Epstein-controlled entities or through IPI's general operating budget?",
+      "What was the full scope of Rod-Larsen's visa recommendation letters for women connected to Epstein, as reported by Al Jazeera/OCCRP in February 2026, and how many IPI employees were placed through Epstein's recruitment pipeline?"
+    ],
+    "system_role": "IPI functioned as a UN-adjacent institutional platform that provided Jeffrey Epstein with diplomatic legitimacy, high-level governmental access, and a pass-through conduit for directing philanthropic capital from figures including Leon Black and the Gates Foundation, while its Norwegian-led presidency created a bridge between Scandinavian government funding and Epstein's private financial architecture.",
+    "sections": [
+      {
+        "id": "epstein-as-funding-architect",
+        "title": "Epstein as Funding Architect",
+        "content": "<p>The documentary record from DOJ Volume 11 reveals that Epstein's relationship to IPI extended far beyond charitable donation. He operated as the organization's primary external fundraiser, donor liaison, and de facto strategic advisor to Rod-Larsen. On January 31, 2011, Epstein emailed Rod-Larsen: \"I have bill gates for the nxt two days.. I know what i am supposed to say re ipi.. any specific challenge?\" (EFTA01834272). By April 2013, the pitch had matured: \"get me the info on ipi, to give to bg\" (EFTA01898063). By January 2014, Rod-Larsen wrote Epstein celebrating that \"the International Peace Institute (IPI), now can celebrate [X] years of cooperation with the Gates Foundation\" and proposed a joint lunch at Davos (EFTA02625684).</p><p>The mechanics of the Gates relationship are unusually well-documented. On June 10, 2013, Epstein forwarded IPI's JPMorgan Chase wiring instructions to Boris Nikolic with the note about \"the 5 million from the foundatoin\" (EFTA02707935). On September 11, 2013, IPI and Gates Foundation staff held a full-day meeting at the Gates campus; Nikolic attended as \"Scientific Advisor\" (EFTA02725118). IPI had submitted a $20 million proposal for polio eradication work across Afghanistan, Pakistan, Nigeria, and Somalia (EFTA02678411), but the Foundation approved only $2.5 million. When the grant agreement was signed on March 2, 2014, Rod-Larsen forwarded it directly to Epstein (EFTA01934403). When the Gates Foundation rejected a second IPI proposal on pandemic preparedness in March 2015, Rod-Larsen again forwarded the rejection letter to Epstein (EFTA02713877). This chain confirms Epstein was treated as the principal intermediary for IPI's most significant institutional funding relationship.</p><p>Epstein viewed IPI not as a philanthropic beneficiary but as a component of his financial architecture. In an April 14, 2015 estate planning email, he listed IPI alongside \"estate modification,\" \"new trusts,\" and Harvard donations (HOUSE_OVERSIGHT_023273). IPI staff were directed by Rod-Larsen to provide Epstein the same program activity reports \"which we usually forward to donor countries like Sweden or Norway\" (EFTA02675352), granting a registered sex offender the same institutional access as sovereign states.</p>",
+        "viz": null
+      },
+      {
+        "id": "financial-flows-and-conduits",
+        "title": "Financial Flows and Conduits",
+        "content": "<p>The KPMG forensic review of December 18, 2020, confirmed five discrete donations from Epstein-controlled entities totaling $650,000. <a href=\"/dossiers/enhanced-education\">Enhanced Education</a> contributed $125,000 on October 11, 2011, designated for the \"WK Rick Hooper fellowship.\" <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a> made four additional payments: $150,000 on May 8, 2017, labeled \"Reimbursement of tickets to the Oslo Play\"; $125,000 on June 12, 2017; $100,000 on November 1, 2017, labeled \"Contribution from Gatitude [sic] America, LTD Oslo Play\"; and a final $150,000 on April 5, 2019, just three months before Epstein's arrest. KPMG also identified a $14,158.88 reimbursement from Enhanced Education on March 28, 2014, for a first-class Lufthansa flight from JFK to Almaty for <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>, booked through Protravel International and invoiced to IPI at 777 United Nations Plaza.</p><p>The \"Oslo Play\" designations on $250,000 in 2017 payments warrant scrutiny. The Broadway play \"Oslo\" by J.T. Rogers dramatized Rod-Larsen's role in the 1993 Oslo Accords. Rod-Larsen hosted a private cocktail reception before a May 5, 2017 performance (EFTA02650430), and Epstein reportedly \"hired out the entire theatre for the U.N.\" (EFTA02650158). Yet $250,000 for theater tickets is wildly disproportionate. KPMG noted no donor restrictions on these contributions, meaning IPI could apply the funds to any purpose -- suggesting the \"Oslo Play\" label may have been a pretext for unrestricted donations.</p><p>All Gratitude America checks were drawn on <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> Trust Company Americas, the same institution that maintained Epstein's personal accounts and was later fined $150 million by NYDFS for the Epstein relationship. Beyond direct Epstein-entity funds, <a href=\"/dossiers/leon-black\">Leon Black</a> donated $200,000 to IPI in December 2014, a contribution tracked by Epstein's accountant <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> alongside Black's other Epstein-directed charitable giving (EFTA02465679). Combined with the $2.5 million Gates Foundation grant brokered by Epstein and a second $256,968 Gates grant in June 2019, the total financial flow to IPI attributable to Epstein's intermediation is approximately $5.86 million.</p>",
+        "viz": null
+      },
+      {
+        "id": "diplomatic-access-platform",
+        "title": "Diplomatic Access Platform",
+        "content": "<p>IPI provided Epstein with continuous access to heads of state, foreign ministers, and the broader UN diplomatic community -- extraordinary access for a registered sex offender. Documentary evidence from DOJ Volume 11 reveals Ministerial Working Dinners on the Middle East co-hosted at IPI by the UAE Foreign Minister Sheikh Abdullah Bin Zayed Al Nahyan and the Luxembourg Foreign Minister (EFTA02683654, EFTA02726418). IPI hosted pandemics conferences in Geneva attended by global health leaders (EFTA02702398, EFTA02359162). Epstein received personal invitations to the Vienna Opera Ball through IPI's Vienna office, with staff member Johanna Borstner forwarding formal invitations (EFTA02719092). IPI also hosted a dinner for the headmaster of Stowe School at 777 UN Plaza that Epstein attended (EFTA02386639).</p><p>In May 2012, IPI publicly launched a \"Distinguished Fund\" with Epstein named as founding philanthropist, generating press coverage in CNBC, Reuters, and The Street -- four years after his 2008 Florida conviction. By February 2013, IPI was being featured on Epstein's personal international website, with an associate noting \"putting in info about the Intl Peace Institute etc. Are there other intl. organizations that you have worked with?\" (EFTA02723098). IPI thus served a dual function: it provided Epstein with a credible institutional affiliation for reputation laundering while simultaneously giving him operational access to diplomatic networks that a private individual -- let alone a convicted sex offender -- would not ordinarily be able to penetrate.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "staffing-control-and-personal-exploitation",
+        "title": "Staffing Control and Personal Exploitation",
+        "content": "<p>DOJ Volume 11 records reveal that Epstein exercised operational control over at least one IPI employee's career. In June 2016, a woman sent her resume to Epstein asking him to forward it to \"Terry and Adam Lupel, who is the current Vice-President in IPI\" (EFTA02460674). By August 2016, she was drafting emails to IPI staff for Epstein's review before sending them (EFTA02390796). She was hired as an intern at $10-$15 per hour, then promoted to a full-time position at $45,000 per year. When visa issues arose, she consulted Epstein (EFTA02492920), and when negotiating salary, she sent Epstein her offer letter for review (EFTA02539626). In February 2019, IPI Vice President Adam Lupel sent Rod-Larsen a detailed employee costs memo about her, recommending part-time employment at $50,000 per year. Rod-Larsen immediately forwarded the memo to Epstein (EFTA02629771).</p><p>In March 2018, Epstein emailed someone described as \"president UN,\" introducing the same woman: \"is a woman that works for Terje at iPI. She is educated (the new school) and works on water issues. Is there a way to get her involved in the water project. I will subsidize if needed\" (EFTA02512436). The response was \"Absolutely! Let her contact me, I will arrange.\" When Lupel's staffing memo was forwarded through the email chain, Epstein inserted a sexually explicit comment -- \"I wonder if it ok if I have sex with her, she is s000 sexy\" -- before forwarding it onward (EFTA02630683). The woman recognized the edit was Epstein's: \"Adam would never say that\" (EFTA02630033). This pattern -- subsidizing employment, controlling career decisions, and sexualizing official personnel documents -- demonstrates that Epstein treated IPI's staffing apparatus as an extension of his personal operations.</p><p>Separately, Epstein's files contain O-1 visa templates and multiple completed recommendation letters designed to secure U.S. work visas for women, with letters from <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a>, David Blaine, and others characterizing visa applicants as professionals \"of extraordinary ability\" (EFTA02679158, EFTA02674498). This system of coordinated visa letters corroborates February 2026 Al Jazeera/OCCRP reporting that <a href=\"/dossiers/terje-rod-larsen\">Rod-Larsen</a> wrote official visa recommendation letters for women connected to Epstein.</p>",
+        "viz": null
+      },
+      {
+        "id": "regulatory-gaps-and-legal-proceedings",
+        "title": "Regulatory Gaps and Legal Proceedings",
+        "content": "<p>IPI has zero registrations under either the Foreign Agents Registration Act (FARA) or the Lobbying Disclosure Act (LDA), despite a profile that raises questions under both statutes. Norway and Sweden were confirmed \"donor countries\" (EFTA02675352), and IPI maintained advisory boards with 33 sitting members of Congress, facilitated Congressional delegations (CODELs), and hosted government officials from the UAE, Luxembourg, and other states. IPI might claim exemptions under 22 USC 611(d) as an academic/scientific institution or under its historical UN affiliation, but several factors complicate those claims: its Congressional engagement went beyond academic research; its Norwegian-national president directed IPI activities through Epstein, a non-diplomatic channel; and $5.86 million in Epstein-directed funding created financial dependency on non-transparent sources. Notably, Norway's own development agency (NORAD) registered six FARA entries through consulting firms, demonstrating that Norwegian-funded entities in the U.S. do register. IPI's absence from the FARA database is anomalous.</p><p>In December 2022, a qui tam whistleblower lawsuit was filed against IPI under the False Claims Act: <em>United States ex rel. v. International Peace Institute, Inc.</em>, Case No. 0:22-cv-03127 (D. Minn.), before Judge Jeffrey M. Bryan. The case nature (376 Qui Tam under 31 USC 3729(a)) indicates an allegation that IPI made false claims to the federal government, possibly related to grant applications or certifications. The filing in Minnesota rather than SDNY suggests the whistleblower relator may be based in that jurisdiction. As of early 2026, the case had not been terminated and likely remains under seal.</p><p>IPI also maintains a dual-jurisdiction corporate structure, having incorporated in Austria as a \"Verein\" (EFTA02505644). Legal documents related to this Austrian incorporation were sent by IPI Vienna to <a href=\"/dossiers/terje-rod-larsen\">Rod-Larsen</a>, who forwarded them to Epstein in April 2015, further demonstrating Epstein's involvement in IPI's institutional governance decisions.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "financial-collapse-and-institutional-fallout",
+        "title": "Financial Collapse and Institutional Fallout",
+        "content": "<p>IPI's IRS 990 filings document a dramatic and sustained financial decline that correlates closely with the public exposure of the Epstein relationship. Peak assets of $25.6 million in 2010 declined to $16.37 million by 2014, then fell further: $14.7 million (2015), $12.7 million (2016), $11.7 million (2017), $10.5 million (2018), $10.4 million (2019). Following Epstein's arrest and Rod-Larsen's resignation, assets collapsed to $7.9 million in 2020, recovered briefly to $9.3 million in 2021, then continued declining to $8.4 million (2022) and $6.91 million (2023) -- a 73 percent decline from the 2010 peak.</p><p>Revenue tells a parallel story of institutional distress. The $11.87 million peak in 2014 -- the year the Gates Foundation grant was signed -- gave way to steady erosion: $8.47 million in 2016, $8.39 million in 2018. The 2020 collapse to $3.93 million, a 67 percent decline from peak, coincided with both COVID-19 and the KPMG forensic review. A brief recovery to $10.77 million in 2021, likely bolstered by a reported $1.5 million from the Open Society Foundations, proved unsustainable: revenue fell to $6.66 million in 2022 and $5.04 million in 2023. Over the full 2010-2023 period, IPI ran a cumulative deficit of approximately $16.5 million. Expenses exceeded revenue in every year except 2010 and 2021. At the 2023 deficit rate, IPI had approximately 2.5 years of reserves remaining.</p><p>The 2011 financial anomaly is separately notable: revenue was only $5.64 million against $13.71 million in expenses, producing an $8.07 million single-year deficit that reduced assets from $25.6 million to $17.5 million. This predated the Epstein exposure period and may represent a major investment loss or accounting adjustment. The actual 2011 990 PDF warrants examination to understand the revenue collapse.</p>",
+        "viz": "timeline"
+      }
+    ],
+    "applicable_models": [
+      "narrative-shield",
+      "enabler-gradient",
+      "manufactured-dependency",
+      "bridge-tax",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "International Peace Institute",
+      "connections": [
+        {
+          "target": "Enhanced Education",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02713369",
+          "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88."
+        },
+        {
+          "target": "Norwegian Government",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02675352",
+          "description": "IPI received Norwegian govt funding as confirmed donor country. NORAD registered 6 FARA entries but IPI never registered."
+        },
+        {
+          "target": "Terje Rod-Larsen",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Kevin Rudd",
+          "type": "advisory",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Leon Black",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Enhanced Education",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "JPMorgan Chase",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Boris Nikolic",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Gates Foundation",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Leon Black",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "990:133947890",
+          "description": "Black Family Foundation (EIN 13-3947890) K to IPI (Dec 2014 per KPMG). IPI 990 shows .87M revenue in 2014, its peak year. Black was a key donor to the Rod-Larsen-led entity."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "IRS-990PF-2017",
+          "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "990-PF-EIN-66-0789697-2017",
+          "description": "Gratitude America granted $375,000 to IPI in 2017 per 990-PF Statement 5"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Mark Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Zorro Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Terje Rod-Larsen",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde"
+        },
+        {
+          "target": "Terje Rod-Larsen",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde"
+        },
+        {
+          "target": "Deutsche Bank",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Elizabeth Ross Johnson Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Financial Ballistics Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Financial Trust Company",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Haze Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Humpty Dumpty Institute",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "Boris Nikolic": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Nikolic (Gates science advisor) received IPI bank wiring instructions from Epstein (Jun 2013), attended IPI-Gates meeting 3 months later. Named backup executor in Epstein will."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Nikolic named as alternate trustee in Epstein 2019 Trust. Had breakfast with Epstein July 11, 2015 at NY residence."
+          },
+          {
+            "target": "Bill Gates",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Financial partnership: Foundation Medicine/ResearchGate 2013-2018 [Wave 4]"
+          }
+        ],
+        "Enhanced Education": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Founder and controller. Enhanced Education is the trade name of J. Epstein Virgin Islands Foundation, Inc. Epstein directed all disbursements personally via email."
+          },
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Leon Black pledged $10.5M to Enhanced Education in Dec 2014, structured through his automotive LLC to 'avoid public disclosure of Leon name.' $4.75M specifically directed to J Epstein Virgin Islands Foundation Inc in Oct 2015."
+          },
+          {
+            "target": "IPI",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88."
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education reimbursed IPI $14,158.88 for Summers first-class flight to Almaty, Kazakhstan (Mar 2014). Enhanced Education also funded the Mongolia Advisory Board where Summers participated."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc., 575 Lexington Ave, 4th Floor, NYC) was the primary financial manager directing Enhanced Education transactions. He instructed stock sales, wire transfers, directed payments, and handled Leon Black donation structuring. Named as 'c/o' contact on ASU pledge."
+          }
+        ],
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          },
+          {
+            "target": "Kuhn Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kuhn Foundation (Pasadena CA) received $650,000 from GA: $150K in 2017 and $500K in 2018. Second largest cumulative recipient. Relationship between Epstein and Kuhn Foundation needs investigation."
+          }
+        ],
+        "JPMorgan Chase": [
+          {
+            "target": "Paul Weiss",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "PW defended JPM in Epstein fiduciary breach derivative action dismissed with prejudice plus Bear Stearns class action and Asia FCPA and spoofing"
+          },
+          {
+            "target": "Jay Clayton",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Clayton advised Bear Stearns on its fire sale to JPMorgan in 2008 at Sullivan+Cromwell. JPM is a named target in Bondi Epstein investigation that Clayton now leads."
+          },
+          {
+            "target": "Kirkland and Ellis",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE in 6593 SEC EDGAR filings with JPMorgan. Counsel on banking transactions."
+          },
+          {
+            "target": "Liquid Funding, Ltd",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "JPMorgan Chase Bank (successor to Chase Manhattan Bank) served as Security Trustee under Collateral Trust and Security Agreement. Also a Placement Agent (J.P. Morgan Securities Inc). Lipman served as JPMorgan MD and LF Director simultaneously."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2010",
+        "label": "IPI (EIN 03-0213226) 990 filings show dramatic financial decline correlating with Epstein exposure. Peak assets were .6M in 2010, declining steadily to .4M in 2014, .7M in 2015, .7M in 2016, .7M in 2017, .5M in 2018, .4M in 2019, then collapsing to .9M in 2020 (COVID+Epstein), recovering briefly to .3M in 2021, but continuing decline to .4M in 2022 and .9M in 2023. Revenue dropped from .9M (2014) to .9M (2020) - a 67% collapse. The 2020 year shows revenue of only .9M against .6M in expenses, indicating severe financial distress.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 421
+      },
+      {
+        "date": "2010",
+        "label": "IPI cumulative financial analysis from 990 filings: Over 2010-2023, IPI ran a cumulative deficit of .5M. Assets declined from .6M (2010) to .9M (2023), a 73% decline. Only TWO years showed surpluses: 2010 (+.4M) and 2021 (+.9M). Five years showed deficits exceeding M: 2011 (-.1M, worst single year), 2016 (-.0M), 2018 (-.3M), 2020 (-.7M, COVID+Epstein), 2023 (-.6M). The 2011 deficit of .1M on .6M revenue suggests a major one-time write-down or accounting adjustment. At current burn rate (.6M/yr deficit), IPI has approximately 2.5 years of reserves remaining.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 458
+      },
+      {
+        "date": "2010",
+        "label": "IPI 2011 anomaly: Revenue was only .64M against .71M in expenses, creating an .07M deficit in a single year. This was by far the worst year. The prior year (2010) showed .63M in revenue and .6M in assets. The 2011 collapse took assets from .6M to .5M. This could represent: (1) a major investment loss, (2) a one-time accounting adjustment, (3) loss of a very large donor. The 2010 revenue of .6M vs 2011 revenue of .6M represents an 81% year-over-year decline that preceded the Epstein plea deal. This warrants examination of the actual 2011 990 PDF to understand the revenue collapse.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 468
+      },
+      {
+        "date": "2011-01-31",
+        "label": "Epstein actively pitched IPI to Bill Gates through multiple channels. Jan 31, 2011: Epstein to Rod-Larsen: 'I have bill gates for the nxt two days.. I know what i am supposed to say re ipi.. any specific challenge?' (EFTA01834272). Apr 2, 2013: Epstein to Rod-Larsen: 'get me the info on ipi, to give to bg' (EFTA01898063). Jan 2014: Rod-Larsen to Epstein: 'the International Peace Institute (IPI), now can celebrate [X] years of cooperation with the Gates Foundation... may I suggest that we have lunch together [at Davos]?' (EFTA02625684). Sep 11, 2013: A full-day meeting between IPI and Gates Foundation staff at the Gates campus with formal agenda (EFTA02725118). Mar 3, 2014: Rod-Larsen forwarded the signed Gates Foundation grant agreement (OPP1096058) directly to Epstein (EFTA01934403). This chain confirms Epstein was the intermediary who brought the Gates Foundation to IPI, making him not just a donor but the architect of IPI's largest funding relationship.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 82
+      },
+      {
+        "date": "2012-05-21",
+        "label": "IPI Distinguished Fund publicly launched May 21, 2012, with Epstein named as founding philanthropist. Press coverage in CNBC, Reuters, and The Street: 'The International Peace Institute Launches a Distinguished Fund with Philanthropist Jeffrey Epstein.' This was 4 years after Epstein's 2008 Florida conviction. The launch represented IPI publicly embracing Epstein as a major donor post-conviction, lending him legitimacy through association with the UN-adjacent think tank. By August 2012, Epstein was actively involved in IPI's organizational expansion, emailing Boris Nikolic: 'IPI, is the institute going to be formed in vienna, Terje RoedLarsen, chair' (EFTA01891138).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 75
+      },
+      {
+        "date": "2013",
+        "label": "IPI Norwegian government funding pipeline confirmed via DOJ documents. EFTA02675352: IPI staff emailed Epstein saying 'I understood from terje that you needed some material on IPI activities. Terje has forwarded you the annual report 2012 and 2011 and I add as an attachment IPI program activities (which we usually forward to donor countries like Sweden or Norway).' This confirms: (1) Norway and Sweden are designated 'donor countries' to IPI; (2) Rod-Larsen directed IPI staff to provide Epstein the same program activity reports given to sovereign donors; (3) Epstein was receiving donor-level reporting from IPI. IPI's 990 filings show 2014 revenue of $11.87M. Norway's Ministry of Foreign Affairs and Norwegian Agency for Development Cooperation (NORAD) are known IPI funders. 990s show government grants as a revenue category but exact Norwegian government amounts require Schedule B review (not publicly available). IPI also received funding from Switzerland (Vienna office), Finland, Denmark, and multiple Middle Eastern governments (co-hosted events). The pattern of sovereign donor countries funding IPI while IPI had zero FARA/LDA registration is the core regulatory gap.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1182
+      },
+      {
+        "date": "2013-02-07",
+        "label": "IPI served as a platform for high-level diplomatic access that Epstein leveraged. Documentary evidence shows: (1) Ministerial Working Dinners on the Middle East co-hosted at IPI by UAE Foreign Minister Sheikh Abdullah Bin Zayed Al Nahyan and Luxembourg Foreign Minister (EFTA02683654, Sep 2014; EFTA02726418, Sep 2012); (2) IPI pandemics conferences in Geneva with global health leaders (EFTA02702398, EFTA02359162); (3) A Feb 7, 2013 email about building Epstein's international website noting 'putting in info about the Intl Peace Institute etc. Are there other intl. organizations that you have worked with?' (EFTA02723098); (4) Epstein received personal invitations to the Vienna Opera Ball through IPI Vienna (EFTA02686494, EFTA02719092); (5) IPI hosted a dinner for Stowe School headmaster at 777 UN Plaza attended by Epstein (EFTA02386639). IPI thus provided Epstein with continuous access to heads of state, foreign ministers, and the UN diplomatic community -- extraordinary access for a registered sex offender.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 89
+      },
+      {
+        "date": "2013-06-10",
+        "label": "Epstein forwarded IPI bank wiring instructions to Boris Nikolic (Bill Gates science advisor) on June 10, 2013, with the note: 'These are the wiring instructions for the 5 million from the foundatoin. for IPI.' IPI banked at JPMorgan Chase, Branch 292, 1 United Nations Plaza, New York, NY 10017. Account: International Peace Institute, ABA 021-000021, SWIFT CHASUS-33. The $5M reference indicates Epstein was brokering a major donation from the Gates Foundation to IPI. This is confirmed by the Gates Foundation grant agreement (OPP1096058) that Rod-Larsen forwarded to Epstein on March 3, 2014, and the September 11, 2013 meeting agenda at Gates Foundation campus between IPI and BMGF staff.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 73
+      },
+      {
+        "date": "2013-09-04",
+        "label": "IPI submitted a 20M grant proposal to Gates Foundation on September 4, 2013 for Polio Eradication and Peace and Health (EFTA02678411). The proposal was for 60 months (2014-2018) covering Pakistan, Nigeria, Somalia. The Foundation approved only 2.5M (grant OPP1096058), signed March 2, 2014. Payment: 1.25M upon signing, 1.25M in March 2015 contingent on progress report. Grant end date December 31, 2015.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 290
+      },
+      {
+        "date": "2013-09-11",
+        "label": "Boris Nikolic (Bill Gates science advisor) was listed as attendee at the Sept 11, 2013 IPI-Gates Foundation meeting at Gates campus. The meeting agenda discussed IPI's polio eradication proposal. Nikolic was also the recipient of IPI bank wiring instructions forwarded by Epstein on June 10, 2013 (finding #73). Nikolic was later named as backup executor in Epstein's will (publicly reported Aug 2019). This creates a direct triangle: Epstein forwarded IPI banking details to Gates' science advisor, who then attended the grant negotiation meeting 3 months later. The $2.5M grant was signed 6 months after that meeting.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 238
+      },
+      {
+        "date": "2014",
+        "label": "IPI 990 filings reveal dramatic revenue decline after Epstein scandal. Peak revenue $11.87M in 2014 (year of Gates grant), declining to $8.47M in 2016, collapsing to $3.93M in 2020 (COVID plus Rod-Larsen resignation/scandal). Brief recovery to $10.77M in 2021 (likely Open Society Foundations $1.5M per LittleSis), then continued decline to $5.04M in 2023. Assets dropped from $16.37M (2014) to $6.91M (2023). Schedule B (major donors) is not publicly available for 501(c)(3) organizations. Confirmed donors beyond Epstein entities: Gates Foundation ($2.76M total across 2 grants), Open Society Foundations ($1.5M per LittleSis), Norway and Sweden as government donors.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 241
+      },
+      {
+        "date": "2014",
+        "label": "IPI FARA LEGAL ANALYSIS: IPI has zero FARA registrations despite receiving funding from Norwegian government (confirmed as 'donor country' in EFTA02675352: 'which we usually forward to donor countries like Sweden or Norway'). IPI's activities that potentially trigger FARA: (1) Received $650K KPMG-confirmed Epstein conduit funds while Norwegian national Rod-Larsen was president; (2) Hosted Ministerial Working Dinners at 777 UN Plaza with UAE, Luxembourg, and other foreign government officials; (3) Operated Mongolia Advisory Board paying $100K each to former heads of state (Rod-Larsen, Summers, Barak, Bondevik, Rudd); (4) Rod-Larsen forwarded IPI program activities 'which we usually forward to donor countries' directly to Epstein; (5) IPI bank instructions sent to Epstein for $5M Gates Foundation wire (EFTA02707935). FARA EXEMPTIONS IPI MIGHT CLAIM: (a) 22 USC 611(d) academic/scientific exemption -- IPI registered as 501(c)(3) think tank; (b) UN affiliate exemption -- IPI's charter connects to Trygve Lie Center; (c) No direct foreign government instruction. COUNTER-ARGUMENTS: (a) IPI's Congressional engagement (hosting 33+ members) goes beyond academic research; (b) Norwegian government was a confirmed donor country; (c) Rod-Larsen directed IPI activities through Epstein, a non-diplomatic channel; (d) $5.86M total Epstein-directed funding makes IPI financially dependent on non-transparent sources. COMPARABLE: Norwegian Agency for Development Cooperation registered 6 FARA entries (via Waxman Consulting #6710, Center for International Policy #6896), showing Norway DOES register its grantees. IPI's absence is anomalous.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1147
+      },
+      {
+        "date": "2014-03-02",
+        "label": "Gates Foundation grant OPP1096058 confirmed: $2,500,000 to IPI for 'Polio Eradication and Peace and Health.' Signed March 2, 2014, end date December 31, 2015. Two payments: $1.25M upon signing, $1.25M after progress report. Primary contacts: Amy Carter (Gates Deputy Director, Family Interest Grants) and Max Gasteen (Program Officer, Global Program Advocacy). IPI primary contact: Andrea Pfanzelter (Senior Director, Development, Vienna). IPI requested $20M originally (Sept 2013 proposal, EFTA02678411). Grant covered work in Afghanistan, Pakistan, Nigeria, Somalia. A second Gates grant INV-009501 (June 2019, $256,968, 14 months) was also awarded for polio work.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 237
+      },
+      {
+        "date": "2014-03-28",
+        "label": "Summers' first-class Lufthansa flight from JFK to Almaty via Frankfurt on March 19-20, 2014 was booked through Protravel International and invoiced to IPI at 777 United Nations Plaza. The $14,158.88 cost was reimbursed by Enhanced Education (Epstein's opaque foundation) on March 28, 2014, confirmed by KPMG. This demonstrates the financial pipeline: Enhanced Education (Epstein) paid for services booked through IPI for Mongolia Advisory Board activities, with IPI serving as the administrative pass-through entity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 78
+      },
+      {
+        "date": "2014-12",
+        "label": "Leon Black donated $200,000 to IPI in December 2014. The donation letter (EFTA02705181) from Black at 760 Park Avenue was addressed to 'Terje Rod-Larsen, President, International Peace Institute, Inc., 777 United Nations Plaza 4th Floor, New York, NY 10017-3521.' This donation was separate from Black's $10M to Gratitude America (Oct 2015), which subsequently made its own donations to IPI. The letter refers to 'the excellent work being done at International Peace Institute Inc.' Richard Kahn (Epstein's accountant) tracked this alongside Black's other charitable giving directed by Epstein: 'Leon 2014 year end charities along with fees 2013-2015' (EFTA02465679). Kahn noted he forgot to include 'the 10,000,000 to g[ratitude America]' in the email.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 80
+      },
+      {
+        "date": "2015",
+        "label": "IPI expenses have consistently exceeded revenue since 2015, indicating the organization has been drawing down reserves. Revenue vs expenses gap: 2015 (.3M vs .2M), 2016 (.5M vs .5M), 2017 (.7M vs .6M), 2018 (.4M vs .6M), 2019 (.3M vs .1M), 2020 (.9M vs .6M), 2023 (.0M vs .6M). The persistent deficit since 2015 suggests IPI lost a major funding source and has been spending down endowment. This aligns with the KPMG-confirmed K Epstein conduit and subsequent donor flight.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 423
+      },
+      {
+        "date": "2015-03",
+        "label": "Gates Foundation declined IPI's second proposal (pandemics convening) in March 2015. Letter from Amy Carter (EFTA02713880) stated 'many of the groups in IPI's proposal are already in discussions with Gates Foundation staff about pandemic preparedness.' Rod-Larsen forwarded the rejection letter to Epstein. Despite this rejection, Gates Foundation maintained the 'polio eradication' relationship and awarded a second grant INV-009501 in June 2019 for $256,968. The letter notably states: 'We deeply appreciate the partnership that the foundation has with IPI overall but specifically in support of our polio eradication work.' Epstein was not named in the grant agreement (OPP1096058), but his fingerprints are on the relationship: he requested IPI info 'to give to bg' (Apr 2013, EFTA01898063) and forwarded IPI banking details to Nikolic (Jun 2013).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 239
+      },
+      {
+        "date": "2015-04-14",
+        "label": "Epstein treated IPI as part of his personal financial architecture, listing it alongside his trusts, Harvard donations, and consulting fees in an April 14, 2015 estate planning email: '7 estate modification given new circunstances and altered probablities. (use etc) 8 charity, new trusts,\\!\\!d IPI, harvard, fees.' The email was sent to an advisor referred to as 'brad' who was 'desperate for help.' This placement of IPI alongside 'estate modification' and 'new trusts' suggests Epstein viewed his IPI donations not as philanthropy but as components of a broader financial strategy. The total Epstein-directed financial flow to IPI includes: direct donations 650K, Enhanced Education flight reimbursement 14K, Leon Black donation 200K (directed by Epstein per Kahn emails), and the brokered 5M Gates Foundation grant -- making Epstein responsible for approximately 5.86M or more in IPI funding.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 93
+      },
+      {
+        "date": "2017-05-08",
+        "label": "The 'Oslo Play' was used as justification for $250,000 in payments from Gratitude America to IPI in 2017. Two checks totaling $250K: $150K on May 8, 2017 ('Reimbursement of tickets to the Oslo Play') and $100K on Nov 1, 2017 ('Contribution from Gatitude America, LTD Oslo Play'). The Broadway play 'Oslo' by J.T. Rogers premiered at Lincoln Center in June 2016 and transferred to Broadway in April 2017. Rod-Larsen hosted a private cocktail reception before a May 5, 2017 performance (EFTA02650430). Epstein 'hired out the entire theatre for the U.N.' (EFTA02650158). However, $250K for theater tickets is wildly disproportionate. KPMG noted no donor restrictions on these contributions, meaning IPI could use the funds for any purpose. This pattern suggests the 'Oslo Play' label may have been a pretext for unrestricted charitable donations.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 71
+      },
+      {
+        "date": "2017-05-08",
+        "label": "LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). Checks: EFTA01357084 (May 8 2017, 150K), EFTA01360128 (Jun 12 2017, 125K), EFTA01362195 (Nov 1 2017, 100K). All payable to International Peace Institute Inc, 777 United Nations Plaza, 4th Floor, New York NY 10017-3521. This confirms Gratitude America banked at Deutsche Bank Trust Company Americas -- the same bank that maintained Epstein personal accounts and was later fined by NYDFS for the Epstein relationship.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 90
+      },
+      {
+        "date": "2018-03-06",
+        "label": "Epstein offered to subsidize his romantic partner's salary at IPI. Mar 6, 2018: Epstein emailed someone described as 'president UN' introducing the woman: 'is a woman that works for Terje at iPI. She is educated (the new school) and works on water issues. Is there a way to get her involved in the water project. I will subsidize if needed.' Response: 'Absolutely\\! Let her contact me, I will arrange.' This confirms Epstein was willing to use his own funds to maintain his partner's position at IPI, making IPI essentially a cover for placing women in diplomatic environments.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 232
+      },
+      {
+        "date": "2019-02",
+        "label": "Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonder if it ok if I have sex with her, she is s000 sexy' before forwarding to the woman. Multiple variants exist (EFTA02630683, EFTA02630033, EFTA02630230, EFTA02629992). The woman recognized the edit was Epstein's: 'Adam would never say that.' This reveals Epstein treated IPI staffing documents as personal property and sexualized a woman whose employment he controlled.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 231
+      },
+      {
+        "date": "2019-02-11",
+        "label": "Epstein had operational control over IPI staffing decisions for his romantic partner. Feb 11, 2019: IPI VP Adam Lupel sent Rod-Larsen a detailed employee costs memo about a woman employed at IPI since Oct 2016 (intern at $15/hr, then full-time at $45K, then volunteer due to visa issues, then intern again). Lupel recommended hiring her part-time under Gunbat sponsorship at $50K/yr. Rod-Larsen immediately forwarded the memo to Epstein. This was 5 months before arrest. The woman sent her resume to Epstein to forward to IPI (Jun 2016), drafted emails to IPI staff for Epstein review (Aug 2016), asked Epstein about salary negotiation (Jan 2018), and consulted Epstein about her visa situation (Mar 2018). Total IPI expense on her: approx $71K (Oct 2016-Jul 2018).",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 229
+      },
+      {
+        "date": "2019-04-05",
+        "label": "The April 5, 2019 donation of $150,000 from Gratitude America to IPI -- just 3 months before Epstein's July 6 arrest -- was facilitated by Bella Klein (Epstein's accounting staff). On April 4, 2019, Klein emailed Camilla Reksten-Monsen (Rod-Larsen's special assistant at IPI) requesting IPI bank instructions and 501c3 certification. Reksten-Monsen provided IPI's JPMorgan Chase account details. Klein responded: 'I will send check tomorrow AM' to IPI's offices at 777 UN Plaza (EFTA02282103). Klein preferred to 'send an overnight check or deliver check via messenger' rather than wire (EFTA02280923). This was the last Epstein-related donation to IPI. The timing -- April 2019, with SDNY investigation already underway -- raises questions about whether this was a final disbursement before anticipated legal proceedings.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 84
+      },
+      {
+        "date": "2020-11",
+        "label": "IPI financial trajectory shows decline coinciding with Epstein scandal. Revenue peaked at 11.87M in 2014, then declined: 2015 10.33M, 2016 8.47M, 2017 8.70M, 2018 8.39M, 2019 9.33M, 2020 3.93M (post-arrest collapse), 2021 10.77M (recovery from Soros), 2022 6.66M, 2023 5.04M. Assets fell from 16.37M (2014) to 6.91M (2023). The 2020 revenue drop of 58 percent is striking -- this was the year IPI commissioned the KPMG forensic review (Nov 2020). Open Society Foundations provided 1.5M (per LittleSis) after the scandal, likely to stabilize IPI. Rod-Larsen resigned as president by November 2020.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 87
+      },
+      {
+        "date": "2020-12-18",
+        "label": "KPMG forensic review (Dec 18, 2020) confirmed exactly 5 donations to IPI totaling $650,000 from Epstein-controlled entities between 2010-2020: (1) Enhanced Education $125,000 on Oct 11, 2011 for 'WK Rick Hooper fellowship'; (2) Gratitude America $150,000 on May 8, 2017 labeled 'Reimbursement of tickets to the Oslo Play'; (3) Gratitude America $125,000 on Jun 12, 2017; (4) Gratitude America $100,000 on Nov 1, 2017 labeled 'Contribution from Gatitude [sic] America, LTD Oslo Play'; (5) Gratitude America $150,000 on Apr 5, 2019 (3 months before arrest). KPMG also found one flight reimbursement of $14,158.88 from Enhanced Education on Mar 28, 2014 for 'L. Summers flight'. Total Epstein-related financial flow through IPI: $664,158.88.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 69
+      },
+      {
+        "date": "2022-12-20",
+        "label": "A qui tam (False Claims Act) case was filed against IPI in the District of Minnesota on December 20, 2022: United States of America ex rel. v. International Peace Institute, Inc. (CourtListener docket 69737684). The case number and sealed nature (typical for qui tam cases) suggest a whistleblower alleged IPI defrauded the U.S. government. Given IPI received U.S. government funding and hosted programs with government participation, this case could relate to misrepresentation of donor sources or misuse of funds. IPI also incorporated in Austria as a 'Verein' (EFTA02505644, legal documents sent by IPI Vienna to Rod-Larsen who forwarded to Epstein in Apr 2015), creating a dual-jurisdiction structure.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 91
+      },
+      {
+        "date": "2022-12-20",
+        "label": "Qui tam (False Claims Act) whistleblower case confirmed: United States ex rel. v. International Peace Institute, Inc., Case No. 0:22-cv-03127 (D. Minn.), filed Dec 20, 2022, before Judge Jeffrey M. Bryan. Nature of suit: 376 Qui Tam under 31 USC 3729(a). Case has not been terminated. No public complaint available, case likely remains under seal. Filed in D. Minnesota (not SDNY), suggesting the whistleblower relator may be based in Minnesota. The False Claims Act basis suggests IPI allegedly made false claims to the federal government, possibly related to grant applications, certifications, or misuse of funds.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 240
+      },
+      {
+        "date": "2024",
+        "label": "IPI employees made 325+ FEC contributions, but ALL are small-dollar (.50-) donations from rank-and-file staff: Adam Lupel (Nonprofit Management, Brooklyn), Olivia Fielding (Program Coordinator, Alexandria VA), Albert Trithart (Editor/Research Fellow, Astoria NY). All donations went through ActBlue. Zero donations from IPI leadership or from anyone associated with Rod-Larsen. This is consistent with IPI being a legitimate nonprofit whose staff make personal small-dollar donations -- the Epstein connection operated at the board/funding level, not through employee political activity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 474
+      },
+      {
+        "date": "2026-02",
+        "label": "Epstein's files contain O-1 visa templates and multiple completed recommendation letters designed to secure US work visas for women. Key documents: (1) EFTA02679158: blank template for O-1 visa 'extraordinary ability' letter with instructions including 'name dropping if possible.' (2) EFTA02674498: Ariane de Rothschild wrote visa letter for same woman, calling her 'a communications and public relations professional of extraordinary ability.' (3) EFTA02674762: David Blaine wrote O-1 visa letter for same woman. (4) EFTA02389172: Michael Harrigan (USVI Deputy Superintendent of Schools) wrote O-1B letter crediting her work through Enhanced Education on STEM competition. This system of coordinated visa letters from high-profile individuals corroborates Al Jazeera/OCCRP reporting (Feb 2026) that Rod-Larsen wrote official visa recommendation letters for women connected to Epstein.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 234
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readFileSync, existsSync } from 'fs';
+import { contentPath } from '../lib/projectPaths';
+
+let dossierIndex: Array<{ name: string; slug: string; stats: any; last_updated?: string }> = [];
+const dossierIndexPath = contentPath('dossiers', '_index.json');
+if (existsSync(dossierIndexPath)) {
+  dossierIndex = JSON.parse(readFileSync(dossierIndexPath, 'utf-8'));
+}
+
+let networkStats = { total_nodes: 0, person_nodes: 0, entity_nodes: 0, total_edges: 0 };
+const networkPath = contentPath('network.json');
+if (existsSync(networkPath)) {
+  const network = JSON.parse(readFileSync(networkPath, 'utf-8'));
+  networkStats = network.stats;
+}
+
+const totalFindings = dossierIndex.reduce((sum, d) => sum + d.stats.total_findings, 0);
+const totalConnections = networkStats.total_edges;
+---
+<BaseLayout title="Overview">
+  <div class="space-y-16">
+    <section class="surface beam p-8 md:p-12 reveal" style="--delay: 0s;">
+      <div class="grid gap-10 md:grid-cols-[1.1fr_0.9fr] items-center">
+        <div class="space-y-6">
+          <div class="section-label">Investigative Infrastructure</div>
+          <h1 class="text-4xl md:text-5xl font-display text-moon">Ithildin</h1>
+          <p class="font-body text-lg md:text-xl text-mithril leading-relaxed max-w-xl">
+            A tooling platform for evidence-linked investigations: source records, queue-backed workflows, reproducible publishing, and a demo case study built to be reviewable from clone.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href="/articles" class="chip">Explore the demo case study</a>
+            <a href="/about" class="chip">See the architecture</a>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="surface-muted p-6 flex items-center justify-center">
+            <img src="/ithildin-logo.png" alt="Ithildin mark" class="w-56 opacity-90" />
+          </div>
+          <div class="rune-divider"></div>
+          <p class="text-sm text-mithril font-body">
+            Reviewers should be able to follow every public claim back to an artifact or a source record.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="surface p-5 reveal" style="--delay: 0.1s;">
+        <div class="section-label">Findings</div>
+        <div class="text-3xl font-mono text-moon mt-3">{totalFindings.toLocaleString()}</div>
+        <div class="text-xs text-mithril mt-2">Tracked with evidence references</div>
+      </div>
+      <div class="surface p-5 reveal" style="--delay: 0.15s;">
+        <div class="section-label">Dossiers</div>
+        <div class="text-3xl font-mono text-moon mt-3">{dossierIndex.length}</div>
+        <div class="text-xs text-mithril mt-2">Case-study targets</div>
+      </div>
+      <div class="surface p-5 reveal" style="--delay: 0.2s;">
+        <div class="section-label">Network</div>
+        <div class="text-3xl font-mono text-moon mt-3">{networkStats.entity_nodes}</div>
+        <div class="text-xs text-mithril mt-2">Organizations in the graph</div>
+      </div>
+      <div class="surface p-5 reveal" style="--delay: 0.25s;">
+        <div class="section-label">Connections</div>
+        <div class="text-3xl font-mono text-moon mt-3">{totalConnections.toLocaleString()}</div>
+        <div class="text-xs text-mithril mt-2">Documented relationships</div>
+      </div>
+    </section>
+
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-moon">Platform Surfaces</h2>
+        <div class="rune-divider flex-1 ml-6"></div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="/dossiers" class="surface p-6 transition">
+          <div class="section-label">Dossiers</div>
+          <h3 class="text-xl text-moon mt-3">Entity pages with evidence trails</h3>
+          <p class="text-sm text-mithril mt-2 font-body">
+            Profiles aggregate findings, timelines, and source-backed narrative sections.
+          </p>
+        </a>
+        <a href="/articles" class="surface p-6 transition">
+          <div class="section-label">Articles</div>
+          <h3 class="text-xl text-moon mt-3">Case-study narratives</h3>
+          <p class="text-sm text-mithril mt-2 font-body">
+            Longform writeups show how findings, source records, and evidence mode fit together.
+          </p>
+        </a>
+        <a href="/network" class="surface p-6 transition">
+          <div class="section-label">Network</div>
+          <h3 class="text-xl text-moon mt-3">Relationship graph</h3>
+          <p class="text-sm text-mithril mt-2 font-body">
+            Inspect the documented relationship layer the content is built on top of.
+          </p>
+        </a>
+        <a href="/financials" class="surface p-6 transition">
+          <div class="section-label">Financial Flows</div>
+          <h3 class="text-xl text-moon mt-3">Flow views and evidence anchors</h3>
+          <p class="text-sm text-mithril mt-2 font-body">
+            Curated transaction views keep the narrative attached to specific findings and documents.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-moon">Case Study Entry Points</h2>
+        <div class="rune-divider flex-1 ml-6"></div>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {dossierIndex.slice(0, 18).map(d => (
+          <a href={`/dossiers/${d.slug}`} class="surface p-4 transition">
+            <div class="flex items-center justify-between gap-4">
+              <div>
+                <div class="text-sm text-moon font-semibold">{d.name}</div>
+                <div class="text-xs text-mithril mt-1">
+                  {d.stats.total_findings} findings / {d.stats.total_connections} connections
+                </div>
+              </div>
+              <div class="text-xs text-mithril font-mono">{d.stats.total_entities}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+      {dossierIndex.length > 18 && (
+        <a href="/dossiers" class="text-sm text-mithril font-body">
+          View all {dossierIndex.length} dossiers &rarr;
+        </a>
+      )}
+    </section>
+  </div>
+</BaseLayout>

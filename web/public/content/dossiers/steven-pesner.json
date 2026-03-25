@@ -1,0 +1,627 @@
+{
+  "name": "Steven Pesner",
+  "slug": "steven-pesner",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.325901",
+  "last_updated": "2026-02-14T22:37:43",
+  "stats": {
+    "total_findings": 5,
+    "total_connections": 5,
+    "total_entities": 0,
+    "finding_types": {
+      "identity": 1,
+      "legal": 1,
+      "intelligence": 1,
+      "communication": 2
+    },
+    "connection_types": {
+      "advisory": 5
+    },
+    "last_updated": "2026-02-14T22:37:43"
+  },
+  "findings": [
+    {
+      "id": 2349,
+      "finding_type": "identity",
+      "summary": "Steve P identified as Steven M. Pesner, Akin Gump Strauss Hauer & Feld LLP partner (24 years). Pesner was the 'Steve P' referenced by Nicholas Ribis in EFTA02450801 as making money from prolonging Caesars litigation. Confirmed via EFTA02467282 where Ribis names him explicitly: 'The lawyer Steve Pesner seems to be slow walking me.' Practice: complex commercial litigation, bankruptcy/creditors' rights, securities. Represented 'major PE and investment management funds.' Left Akin Gump Jan 2018 for Friedman Kaplan.",
+      "detail": "Cross-referenced: (1) EFTA02450801 Sep 11, 2016 \u2014 Ribis warns Epstein about 'Steve P' making money from litigation continuing. (2) EFTA02467282 Apr 5, 2016 \u2014 Ribis names 'Steve Pesner' explicitly. (3) EFTA02449580 Sep 29, 2016 \u2014 Epstein lists 'pezner' among advisors. (4) EFTA02450447 Sep 10-11, 2016 \u2014 Pesner on Reasonable cause statement call with Karp/Fenn/Epstein. (5) Friedman Kaplan bio confirms 24yr Akin Gump tenure, bankruptcy practice, PE fund clients. Same firm as Patrick Fenn.",
+      "source_datasets": [
+        "doj_vol11",
+        "fklaw.com"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2016-04-05",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:36:36",
+      "target_name": "Steven Pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02449580",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, September 29, 2016 10:34 AM \nTo: \nMelanie Spinella \nLeon, I am on the verge of giving up. so=ry. \nI cannot deal with the major incompetenc= of your family office. I have \nbeen vocal about...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450447",
+          "source_quote": "Fenn, Patrick; Karp, Brad S \nSubject: \nRe: Reasonable cause statement \ncan josh harris join the call tomorrow? =ight be very helpful.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": "From: \nNicholas Ribis < \nSent: \nSunday, September 11, 2016 10:54 AM \nTo: \nJeffrey Epstein \n> \nJeffrey - when u speak with Steve P later don't forget that he is maki=g much money having this continue, acts nice and \nrespectful but is not, di=n't...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02467282",
+          "source_quote": "From: \nNicholas Ribis \nSent: \nTuesday, April IIIMI \nTo: \njeffrey E. \nSubject: \nRe: \nOk \nSent from my BlackBerry 10 smartphone. \nFrom: jeffrey E. \nSent: Tuesday, April 5, 2016 10:32 AM \nTo: Nicholas Ribis \nSubject: Re: \nGive me a days \nOn Tuesday, 5...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2351,
+      "finding_type": "legal",
+      "summary": "Pesner was on the core advisory team for Apollo founders' IRS Form 8865 filing crisis (BRH Holdings LP, Cayman). EFTA02450447 shows Pesner on 'Reasonable cause statement' call Sep 10-11, 2016 with Karp (Paul Weiss) and Fenn (Akin Gump). EFTA02348561 shows Brad Wechsler sending '07-14 materials to steve' with Karp, Epstein, and Leon Black CC'd. Team included PWC, Deloitte, BDO accounting firms. Epstein directed strategy, asked 'can josh harris join the call tomorrow? might be very helpful.'",
+      "detail": "Full team per EFTA02668080 (Fenn listing): Brad S Karp, Pesner Steven, PWC-Josh, Deloitte, Apollo, Akin-the 3 individuals. Per EFTA02449580: Epstein spoke to 'each of karp, pezner, fenn, brad, joslin, bodian multiple times.' Suzanne Wong (Apollo) preparing historical 8865 data 2007-2014 with Oct 17 deadline for Steve to review. Brad Wechsler coordinating all-hands meeting.",
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-09-11",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:36:42",
+      "target_name": "Steven Pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02348561",
+          "source_quote": "From: \nBrad Wechsler <\n1.1 \nSent: \nFriday, October 7, 2016 1:58 PM \nTo: \nSuzanne Wong; Steve Pesner \nCc: \nBrad Karp; Jeffrey Epstein; Leon Black \nSubject: \nUpdate \nSuzanne-i just wanted to check in on time table. Are you still shooting to =et...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02449580",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, September 29, 2016 10:34 AM \nTo: \nMelanie Spinella \nLeon, I am on the verge of giving up. so=ry. \nI cannot deal with the major incompetenc= of your family office. I have \nbeen vocal about...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450447",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nSunday, September 11, 2016 12:52 AM \nTo: \nPesner, Steven \nCc: \nFenn, Patrick; Karp, Brad S \nSubject: \nRe: Reasonable cause statement \ncan josh harris join the call tomorrow? =ight be very helpful....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02668080",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, November 30, 2016 2:06 PM \nTo: \nLeon Black \nSubject: \nFwd: \n \nForwarded messag= \nFrom: Fenn, Patrick \nDate: Wed, Nov 30, 2016 at 7:47 AM \nSubject: Re: \nTo: =quot;jeffrey E.\"...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2352,
+      "finding_type": "intelligence",
+      "summary": "Ribis warned Epstein that Pesner was obstructing Caesars settlement efforts. Sep 11, 2016: 'Steve P... is making much money having this continue, acts nice and respectful but is not, didn't return calls and emails for months before I was hired despite being told to, spoke to me once in 5 months (Mark met with me 5 times), now does not want me around because I know too much and can settle this, made a comment about u when he found out u recommended me.' Next day Ribis asked 'How did ur call with Steve go?'",
+      "detail": "Timeline: Mar 29, 2016 (EFTA02467883) \u2014 Ribis met with Steve P, asked Epstein to call. Apr 5, 2016 (EFTA02467282) \u2014 'Steve Pesner seems to be slow walking me.' Sep 11, 2016 (EFTA02450801) \u2014 full warning about financial incentive, obstruction, and comment about Epstein. Sep 12, 2016 (EFTA02451101) \u2014 Ribis asks about Epstein's call with Steve. Pesner had financial incentive as billing Akin Gump partner to prolong matter.",
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-09-11",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:36:51",
+      "target_name": "Steven Pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": "> \nJeffrey - when u speak with Steve P later don't forget that he is maki=g much money having this continue, acts nice and \nrespectful but is not, di=n't return calls and emails for months before I was hired despite being to=d too, spoke to me \nonce in 5 months,( Mark met with me 5 times) now does...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02451101",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nMonday, September 12, 2016 11:10 AM \nTo: \nNicholas Ribis \nSubject: \nRe: \nOn Mon, Sep 12, 2016 at 7:08 AM, Nicholas Ribis < \n<mailto \n> wrote: \nHow did ur call with Steve go? \nSent from my BlackBerry 10 smartphone. \nFrom: jeffrey E. \nSent: Sunday, September...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02467282",
+          "source_quote": "Ok \nSent from my BlackBerry 10 smartphone. \nFrom: jeffrey E. \nSent: Tuesday, April 5, 2016 10:32 AM \nTo: Nicholas Ribis \nSubject: Re: \nGive me a days",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02467883",
+          "source_quote": "goes to voicemail im on",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2356,
+      "finding_type": "communication",
+      "summary": "Pesner made negative comment about Epstein when he discovered Epstein had recommended Ribis for Caesars engagement. Per Ribis (EFTA02450801): 'made a comment about u when he found out u recommended me.' This shows awareness within the advisory team that Epstein's involvement was problematic, yet the professional relationship continued. Pesner's discomfort did not prevent him from participating in the 8865 filing team alongside Epstein through at least Nov 2016.",
+      "detail": "Pesner's awareness of Epstein's reputation is significant because it establishes that Akin Gump professionals knew they were working with a convicted sex offender and continued. Pesner left Akin Gump in Jan 2018, approximately when the 8865 matter would have concluded. Whether his departure was related is unknown.",
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2016-09-11",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:06",
+      "target_name": "Steven Pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": "From: \nNicholas Ribis < \nSent: \nSunday, September 11, 2016 10:54 AM \nTo: \nJeffrey Epstein \n> \nJeffrey - when u speak with Steve P later don't forget that he is maki=g much money having this continue, acts nice and \nrespectful but is not, di=n't...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2354,
+      "finding_type": "communication",
+      "summary": "Epstein found Pesner 'difficult to finesse' and overrode his professional advice. EFTA02476189 (Nov 29, 2016 to Spinella/Black): 'Tuesday if you like we should discuss Giacometti, and pesner. difficult to finesse him if they are filing documents that you won't.' EFTA02659977: Epstein 'did not give in to the views of pesner, josh.s guy, okun, fenn, brad, barry.' A convicted sex offender directing tax strategy for Apollo founders over their own lawyers' objections.",
+      "detail": "EFTA02476189 is a self-forwarded email (Apr 7, 2018) of Nov 29, 2016 original to Spinella. Context: Epstein managing Leon Black's financial affairs including art (Giacometti, M sale to LGT Group/Liechtenstein royal family) and 8865 filings simultaneously. 'These ridiculous conversations with tons of people on the phone removes any claim you might have to not be considered...' (truncated in source). Pesner was one of several professionals whose advice Epstein rejected.",
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-11-29",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:01",
+      "target_name": "Steven Pesner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02476189",
+          "source_quote": "Forwarded messag= \nFrom: jeffrey E.  > \nI have told the brads and barry,- I am done. its no= a negotiation , out !! - fyi given my carlyn joslin ca=trucci, \nadmonishments,- though my involvement in those - in one inst=nce only gave a name - in another only given an eileen \ndictated =AO choice...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02659977",
+          "source_quote": "The protection strategy is always the same. tr= to avoid unintended fires. if one starts put it o=t as quick as possible, \nusing at first, Standard Procedures. based=on experience . no guarantee of success but increasing its odd=. ie When \ngigi first approached you, I told you , argued with =ou and...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1189,
+      "person_a": "Nicholas Ribis",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Pesner (Akin Gump) was assigned to coordinate with Ribis on Caesars engagement but slow-walked him. Ribis warned Epstein that Pesner was profiting from prolonging litigation and making negative comments about Epstein's involvement.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:42",
+      "other_person": "Nicholas Ribis",
+      "other_person_slug": "nicholas-ribis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02467282",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1190,
+      "person_a": "Brad Karp",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Pesner (Akin Gump) and Karp (Paul Weiss) were co-members of Apollo founders' 8865 advisory team. Both communicated directly with Epstein. Both named in EFTA02449580 berating email. Appeared together on Reasonable cause statement calls.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:42",
+      "other_person": "Brad Karp",
+      "other_person_slug": "brad-karp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02449580",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450447",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1191,
+      "person_a": "Marc Rowan",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Pesner obstructed Ribis's Caesars settlement work while Rowan engaged with Ribis directly (5 meetings). Pesner simultaneously on 8865 team handling Rowan's BRH Holdings tax filings. Dual exposure to Rowan's most sensitive legal and financial matters.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:43",
+      "other_person": "Marc Rowan",
+      "other_person_slug": "marc-rowan",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02348561",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1192,
+      "person_a": "Leon Black",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Pesner on 8865 advisory team for all three Apollo founders including Black. Epstein discussed Pesner with Black's office (via Spinella) multiple times. Epstein found Pesner 'difficult to finesse' and overrode his advice. EFTA02348561 shows Black CC'd on Pesner's 8865 data review timeline.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:43",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02348561",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02449580",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02476189",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1193,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Steven Pesner",
+      "relationship_type": "advisory",
+      "description": "Epstein had direct communication with Pesner (EFTA02448418: 'happy to bounce some thoughts off you'), was CC'd on Pesner's work product, overrode Pesner's professional advice on 8865 filings, and attempted to 'finesse' Pesner on filing matters. Pesner made negative comment about Epstein but continued working with him.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:43",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02448418",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02450801",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02476189",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02659977",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2016-04-05",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Steve P identified as Steven M. Pesner, Akin Gump Strauss Hauer & Feld LLP partner (24 years). Pesner was the 'Steve P' referenced by Nicholas Ribis in EFTA02450801 as making money from prolonging Caesars litigation. Confirmed via EFTA02467282 where Ribis names him explicitly: 'The lawyer Steve Pesner seems to be slow walking me.' Practice: complex commercial litigation, bankruptcy/creditors' rights, securities. Represented 'major PE and investment management funds.' Left Akin Gump Jan 2018 for Friedman Kaplan.",
+      "confidence": "medium",
+      "id": 2349
+    },
+    {
+      "date": "2016-09-11",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Pesner was on the core advisory team for Apollo founders' IRS Form 8865 filing crisis (BRH Holdings LP, Cayman). EFTA02450447 shows Pesner on 'Reasonable cause statement' call Sep 10-11, 2016 with Karp (Paul Weiss) and Fenn (Akin Gump). EFTA02348561 shows Brad Wechsler sending '07-14 materials to steve' with Karp, Epstein, and Leon Black CC'd. Team included PWC, Deloitte, BDO accounting firms. Epstein directed strategy, asked 'can josh harris join the call tomorrow? might be very helpful.'",
+      "confidence": "high",
+      "id": 2351
+    },
+    {
+      "date": "2016-09-11",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Ribis warned Epstein that Pesner was obstructing Caesars settlement efforts. Sep 11, 2016: 'Steve P... is making much money having this continue, acts nice and respectful but is not, didn't return calls and emails for months before I was hired despite being told to, spoke to me once in 5 months (Mark met with me 5 times), now does not want me around because I know too much and can settle this, made a comment about u when he found out u recommended me.' Next day Ribis asked 'How did ur call with Steve go?'",
+      "confidence": "high",
+      "id": 2352
+    },
+    {
+      "date": "2016-09-11",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Pesner made negative comment about Epstein when he discovered Epstein had recommended Ribis for Caesars engagement. Per Ribis (EFTA02450801): 'made a comment about u when he found out u recommended me.' This shows awareness within the advisory team that Epstein's involvement was problematic, yet the professional relationship continued. Pesner's discomfort did not prevent him from participating in the 8865 filing team alongside Epstein through at least Nov 2016.",
+      "confidence": "medium",
+      "id": 2356
+    },
+    {
+      "date": "2016-11-29",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein found Pesner 'difficult to finesse' and overrode his professional advice. EFTA02476189 (Nov 29, 2016 to Spinella/Black): 'Tuesday if you like we should discuss Giacometti, and pesner. difficult to finesse him if they are filing documents that you won't.' EFTA02659977: Epstein 'did not give in to the views of pesner, josh.s guy, okun, fenn, brad, barry.' A convicted sex offender directing tax strategy for Apollo founders over their own lawyers' objections.",
+      "confidence": "high",
+      "id": 2354
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2351,
+      2352,
+      2349,
+      2354,
+      2356
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1189,
+          1190,
+          1191,
+          1192,
+          1193
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": "timeline",
+        "finding_ids": [
+          2356,
+          2354
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications \u2014 emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.636393"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Steven Pesner",
+      "connections": [
+        {
+          "target": "Nicholas Ribis",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02450801",
+          "description": "Pesner (Akin Gump) was assigned to coordinate with Ribis on Caesars engagement but slow-walked him. Ribis warned Epstein that Pesner was profiting from prolonging litigation and making negative comments about Epstein's involvement."
+        },
+        {
+          "target": "Brad Karp",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02449580",
+          "description": "Pesner (Akin Gump) and Karp (Paul Weiss) were co-members of Apollo founders' 8865 advisory team. Both communicated directly with Epstein. Both named in EFTA02449580 berating email. Appeared together on Reasonable cause statement calls."
+        },
+        {
+          "target": "Marc Rowan",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02348561",
+          "description": "Pesner obstructed Ribis's Caesars settlement work while Rowan engaged with Ribis directly (5 meetings). Pesner simultaneously on 8865 team handling Rowan's BRH Holdings tax filings. Dual exposure to Rowan's most sensitive legal and financial matters."
+        },
+        {
+          "target": "Leon Black",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02348561",
+          "description": "Pesner on 8865 advisory team for all three Apollo founders including Black. Epstein discussed Pesner with Black's office (via Spinella) multiple times. Epstein found Pesner 'difficult to finesse' and overrode his advice. EFTA02348561 shows Black CC'd on Pesner's 8865 data review timeline."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02448418",
+          "description": "Epstein had direct communication with Pesner (EFTA02448418: 'happy to bounce some thoughts off you'), was CC'd on Pesner's work product, overrode Pesner's professional advice on 8865 filings, and attempted to 'finesse' Pesner on filing matters. Pesner made negative comment about Epstein but continued working with him."
+        }
+      ],
+      "secondHop": {
+        "Brad Karp": [
+          {
+            "target": "Guzel Ganieva",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp coordinated Nardello surveillance (Leon Black dispute) 2015."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss chairman, personal friend, regular visits to 71st St 2016-2019, Leon Black escrow, Misra representation, Ghosn crisis"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss represented Misra in SoftBank matters; Karp confirmed to Epstein Jan 26 2019"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp (Chairman Paul Weiss) confirmed to Epstein he sort of represented Misra and spoke to him the previous day, Jan 26 2019."
+          },
+          {
+            "target": "Carlos Ghosn",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp was dealing with Ghosn crisis from Nov 20 2018, personally traveled to Tokyo, confirmed Epstein source intelligence accurate, Paul Weiss later lobbied for Ghosn in Japan Q3-Q4 2019 and Q1 2020"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Leon Black": [
+          {
+            "target": "Richard Kahn",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Richard Joslin",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Joslin served as CFO of Elysium Management LLC (Black's family office). Prepared charity commitment lists, financial reports, trust accounting summaries, art valuations, and tax returns \u2014 all routinely sent to Epstein. Key intermediary for Black-Epstein financial relationship."
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2016-04-05",
+        "label": "Steve P identified as Steven M. Pesner, Akin Gump Strauss Hauer & Feld LLP partner (24 years). Pesner was the 'Steve P' referenced by Nicholas Ribis in EFTA02450801 as making money from prolonging Caesars litigation. Confirmed via EFTA02467282 where Ribis names him explicitly: 'The lawyer Steve Pesner seems to be slow walking me.' Practice: complex commercial litigation, bankruptcy/creditors' rights, securities. Represented 'major PE and investment management funds.' Left Akin Gump Jan 2018 for Friedman Kaplan.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2349
+      },
+      {
+        "date": "2016-09-11",
+        "label": "Pesner was on the core advisory team for Apollo founders' IRS Form 8865 filing crisis (BRH Holdings LP, Cayman). EFTA02450447 shows Pesner on 'Reasonable cause statement' call Sep 10-11, 2016 with Karp (Paul Weiss) and Fenn (Akin Gump). EFTA02348561 shows Brad Wechsler sending '07-14 materials to steve' with Karp, Epstein, and Leon Black CC'd. Team included PWC, Deloitte, BDO accounting firms. Epstein directed strategy, asked 'can josh harris join the call tomorrow? might be very helpful.'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2351
+      },
+      {
+        "date": "2016-09-11",
+        "label": "Ribis warned Epstein that Pesner was obstructing Caesars settlement efforts. Sep 11, 2016: 'Steve P... is making much money having this continue, acts nice and respectful but is not, didn't return calls and emails for months before I was hired despite being told to, spoke to me once in 5 months (Mark met with me 5 times), now does not want me around because I know too much and can settle this, made a comment about u when he found out u recommended me.' Next day Ribis asked 'How did ur call with Steve go?'",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2352
+      },
+      {
+        "date": "2016-09-11",
+        "label": "Pesner made negative comment about Epstein when he discovered Epstein had recommended Ribis for Caesars engagement. Per Ribis (EFTA02450801): 'made a comment about u when he found out u recommended me.' This shows awareness within the advisory team that Epstein's involvement was problematic, yet the professional relationship continued. Pesner's discomfort did not prevent him from participating in the 8865 filing team alongside Epstein through at least Nov 2016.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2356
+      },
+      {
+        "date": "2016-11-29",
+        "label": "Epstein found Pesner 'difficult to finesse' and overrode his professional advice. EFTA02476189 (Nov 29, 2016 to Spinella/Black): 'Tuesday if you like we should discuss Giacometti, and pesner. difficult to finesse him if they are filing documents that you won't.' EFTA02659977: Epstein 'did not give in to the views of pesner, josh.s guy, okun, fenn, brad, barry.' A convicted sex offender directing tax strategy for Apollo founders over their own lawyers' objections.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 2354
+      }
+    ]
+  }
+}

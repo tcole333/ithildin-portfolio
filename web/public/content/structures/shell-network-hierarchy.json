@@ -1,0 +1,643 @@
+{
+  "id": "shell-network-hierarchy",
+  "title": "The Corporate Shell Network",
+  "subtitle": "30+ entities across 6 jurisdictions, every one properly filed",
+  "nodes": [
+    {
+      "id": "person:jeffrey_epstein",
+      "name": "Jeffrey Epstein",
+      "nodeType": "person",
+      "emphasis": "secondary",
+      "parentIds": []
+    },
+    {
+      "id": "entity:stc",
+      "name": "Southern Trust Company, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "emphasis": "primary",
+      "parentIds": ["person:jeffrey_epstein"]
+    },
+    {
+      "id": "entity:southern_financial",
+      "name": "Southern Financial LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:haze_trust",
+      "name": "Haze Trust",
+      "nodeType": "entity",
+      "entityType": "trust",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:butterfly_trust",
+      "name": "Butterfly Trust",
+      "nodeType": "entity",
+      "entityType": "trust",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:caterpillar_trust",
+      "name": "2017 Caterpillar Trust",
+      "nodeType": "entity",
+      "entityType": "trust",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:maple",
+      "name": "Maple, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:nautilus",
+      "name": "Nautilus, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:laurel",
+      "name": "Laurel, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:cypress",
+      "name": "Cypress, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:poplar",
+      "name": "Poplar, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:lsje",
+      "name": "LSJE, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:plan_d",
+      "name": "Plan D, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:hyperion",
+      "name": "Hyperion Air, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:jege",
+      "name": "JEGE, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:prytanee",
+      "name": "Prytanee, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:gratitude",
+      "name": "Gratitude America, Ltd.",
+      "nodeType": "entity",
+      "entityType": "nonprofit",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:jevif",
+      "name": "J. Epstein VI Foundation",
+      "nodeType": "entity",
+      "entityType": "foundation",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:igo",
+      "name": "IGO Company LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:jeepers",
+      "name": "Jeepers, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "USVI",
+      "status": "dissolved",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:zorro",
+      "name": "Zorro Management, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:thomas_world",
+      "name": "Thomas World Air, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:freedom_air",
+      "name": "Freedom Air Petroleum, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:michelle",
+      "name": "Michelle's Transportation Co LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:neptune",
+      "name": "Neptune, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:mermaid_cove",
+      "name": "Mermaid Cove, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:cypress_hill",
+      "name": "Cypress Hill, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": ["entity:stc"]
+    },
+    {
+      "id": "entity:bbvi",
+      "name": "Business Basics VI, LLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "emphasis": "primary",
+      "parentIds": []
+    },
+    {
+      "id": "entity:kfk",
+      "name": "Kellerhals Ferguson Kroblin PLLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "status": "active",
+      "parentIds": []
+    },
+    {
+      "id": "entity:west_indies",
+      "name": "West Indies Title",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "USVI",
+      "parentIds": []
+    },
+    {
+      "id": "person:kellerhals",
+      "name": "Erika Kellerhals",
+      "nodeType": "person",
+      "parentIds": []
+    },
+    {
+      "id": "person:indyke",
+      "name": "Darren Indyke",
+      "nodeType": "person",
+      "parentIds": []
+    },
+    {
+      "id": "person:kahn",
+      "name": "Richard Kahn",
+      "nodeType": "person",
+      "parentIds": []
+    },
+    {
+      "id": "entity:dkip",
+      "name": "DKIP PLLC",
+      "nodeType": "entity",
+      "entityType": "llc",
+      "jurisdiction": "NY",
+      "parentIds": []
+    },
+    {
+      "id": "entity:hbrk",
+      "name": "HBRK Associates, Inc.",
+      "nodeType": "entity",
+      "entityType": "inc",
+      "jurisdiction": "NY",
+      "parentIds": []
+    },
+    {
+      "id": "property:71st",
+      "name": "9 East 71st St, NYC",
+      "nodeType": "entity",
+      "entityType": "property",
+      "jurisdiction": "NY",
+      "parentIds": ["entity:maple"]
+    },
+    {
+      "id": "property:lsj",
+      "name": "Little Saint James Island",
+      "nodeType": "entity",
+      "entityType": "property",
+      "jurisdiction": "USVI",
+      "parentIds": ["entity:nautilus"]
+    },
+    {
+      "id": "property:palm_beach",
+      "name": "Palm Beach Estate",
+      "nodeType": "entity",
+      "entityType": "property",
+      "jurisdiction": "FL",
+      "parentIds": ["entity:laurel"]
+    },
+    {
+      "id": "property:zorro",
+      "name": "Zorro Ranch, NM",
+      "nodeType": "entity",
+      "entityType": "property",
+      "jurisdiction": "NM",
+      "parentIds": ["entity:cypress"]
+    }
+  ],
+  "edges": [
+    {
+      "source": "person:jeffrey_epstein",
+      "target": "entity:stc",
+      "relationType": "beneficial_owner",
+      "description": "Sole shareholder with Full POA",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:southern_financial",
+      "relationType": "controls",
+      "description": "Wholly owned subsidiary",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:haze_trust",
+      "relationType": "controls",
+      "description": "Administered by STC",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:butterfly_trust",
+      "relationType": "controls",
+      "description": "Administered by STC",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:maple",
+      "relationType": "controls",
+      "description": "Property holding entity",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:nautilus",
+      "relationType": "controls",
+      "description": "Property holding entity",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:laurel",
+      "relationType": "controls",
+      "description": "Property holding entity",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:cypress",
+      "relationType": "controls",
+      "description": "Property holding entity",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:poplar",
+      "relationType": "controls",
+      "description": "Dissolved 2023",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:plan_d",
+      "relationType": "controls",
+      "description": "$82M wire volume",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:gratitude",
+      "relationType": "controls",
+      "description": "Charitable vehicle",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:jevif",
+      "relationType": "controls",
+      "description": "Foundation",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:hyperion",
+      "relationType": "controls",
+      "description": "Aviation entity",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:jege",
+      "relationType": "controls",
+      "description": "Aviation/transport",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:lsje",
+      "relationType": "controls",
+      "description": "Island operations",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:thomas_world",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:freedom_air",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:michelle",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:neptune",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:igo",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:jeepers",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:prytanee",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:zorro",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:caterpillar_trust",
+      "relationType": "controls",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:mermaid_cove",
+      "relationType": "controls",
+      "evidence": "inferred"
+    },
+    {
+      "source": "entity:stc",
+      "target": "entity:cypress_hill",
+      "relationType": "controls",
+      "description": "Post-death formation (2024)",
+      "evidence": "inferred"
+    },
+    {
+      "source": "entity:maple",
+      "target": "property:71st",
+      "relationType": "owns",
+      "description": "9 East 71st St, NYC",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "entity:nautilus",
+      "target": "property:lsj",
+      "relationType": "owns",
+      "description": "Little Saint James",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "entity:laurel",
+      "target": "property:palm_beach",
+      "relationType": "owns",
+      "description": "Palm Beach property",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "entity:cypress",
+      "target": "property:zorro",
+      "relationType": "owns",
+      "description": "Zorro Ranch, NM",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "entity:bbvi",
+      "target": "entity:stc",
+      "relationType": "registered_agent",
+      "description": "Universal registered agent for all USVI entities",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "entity:bbvi",
+      "target": "entity:maple",
+      "relationType": "registered_agent",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:bbvi",
+      "target": "entity:nautilus",
+      "relationType": "registered_agent",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:bbvi",
+      "target": "entity:laurel",
+      "relationType": "registered_agent",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "entity:bbvi",
+      "target": "entity:cypress",
+      "relationType": "registered_agent",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "person:kellerhals",
+      "target": "entity:bbvi",
+      "relationType": "operator",
+      "description": "Resident agent, principal",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "person:kellerhals",
+      "target": "entity:kfk",
+      "relationType": "member",
+      "description": "Founding member",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "person:indyke",
+      "target": "entity:dkip",
+      "relationType": "principal",
+      "description": "DKIP PLLC, 457 Madison Ave",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "person:indyke",
+      "target": "entity:stc",
+      "relationType": "authorized_signer",
+      "description": "Secretary, authorized signer on all DB accounts",
+      "evidence": "confirmed"
+    },
+    {
+      "source": "person:kahn",
+      "target": "entity:hbrk",
+      "relationType": "principal",
+      "description": "HBRK Associates, 575 Lexington Ave",
+      "evidence": "confirmed",
+      "showLabel": true
+    },
+    {
+      "source": "person:kahn",
+      "target": "entity:stc",
+      "relationType": "financial_operator",
+      "description": "Executed trades, managed accounts",
+      "evidence": "confirmed"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "ann-bbvi",
+      "targetId": "entity:bbvi",
+      "text": "THE CHOKEPOINT: Every USVI entity registered through this single LLC. Zero internet presence. Zero federal litigation appearances.",
+      "align": "left"
+    },
+    {
+      "id": "ann-stc",
+      "targetId": "entity:stc",
+      "text": "Peak balance: $109,981,919.36 (Dec 2015). Licensed as 'business and management consulting.'",
+      "align": "right"
+    },
+    {
+      "id": "ann-trees",
+      "targetId": "entity:maple",
+      "text": "Named after streets in Sea Gate, Brooklyn — Epstein's childhood neighborhood. All formed Nov 22, 2011.",
+      "align": "bottom"
+    },
+    {
+      "id": "ann-post-death",
+      "targetId": "entity:cypress_hill",
+      "text": "Formed March 2024 — five years after Epstein's death. The infrastructure outlives its user.",
+      "align": "right"
+    }
+  ]
+}

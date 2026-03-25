@@ -1,0 +1,442 @@
+{
+  "name": "Republic National Bank",
+  "slug": "republic-national-bank",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.324411",
+  "last_updated": "2026-02-17T20:20:03",
+  "stats": {
+    "total_findings": 5,
+    "total_connections": 4,
+    "total_entities": 0,
+    "finding_types": {
+      "intelligence": 2,
+      "financial": 3
+    },
+    "connection_types": {
+      "financial": 1,
+      "employment": 2,
+      "corporate": 1
+    },
+    "last_updated": "2026-02-17T20:20:03"
+  },
+  "findings": [
+    {
+      "id": 3341,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: Exhaustive search across all local document databases (DOJ Vol 11, Duggan, LMSBAND, Unified, Epstein 20K) found ZERO direct mentions of Republic National Bank of New York or Republic New York Corporation in Epstein's banking records, wire transfers, or correspondence. All 'Republic National Bank' phrase matches were false positives. No evidence of Epstein banking relationship with RNB. However, Jacqui Safra (Safra banking family) was a direct Epstein social associate.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:52:34",
+      "target_name": "Republic National Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "search_log",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3370,
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Republic National Bank / Safra investigation reveals a banking institution operating at the intersection of intelligence operations, organized crime exposure, and the Epstein network. Key convergences: (1) IRAN-CONTRA: Both RNB (NY) and Trade Development Bank (Geneva) served as conduits for Enterprise funds \u2014 RNB officer Nan Morabia delivered $150K cash to Adnan Khashoggi, TDB held Enterprise funds in 'Codelis' account (Walsh Report). (2) RUSSIAN ORGANIZED CRIME: RNB exposed $10B Bank of NY/Mogilevich money laundering (Aug 1998), Safra co-founded Hermitage Capital with Bill Browder (1996, $25M RNB seed). (3) SUSPICIOUS DEATH TIMELINE: Safra died in arson fire Dec 3, 1999 \u2014 between RNB's Mogilevich exposure and HSBC acquisition closing Dec 31, 1999. Nurse Ted Maher (Green Beret background) convicted. (4) EPSTEIN CONNECTION via nephew Jacqui Safra \u2014 Edge Foundation dinners with Epstein/Bezos/Gates (2012-14), Jerusalem property offered to Lauder (Mega Group) then Epstein, bank loan difficulties offered as financial opportunity. (5) MADOFF: Safra banks served as both conduit and victim. (6) 70 Safra entities in ICIJ offshore leaks, entire offshore infrastructure absorbed by HSBC 1999. (7) Ron Soffer worked at RNB 1988-91, bridging Safra world to Epstein legal network. Peter A. Cohen identified as bridge between Safra empire and Wall Street. Zero RNB documents in Epstein's 331K-page DOJ corpus \u2014 connection runs through family social network, not institutional banking.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:01:26",
+      "target_name": "Republic National Bank",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02365899",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02413047",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707165",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421758",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02439943",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02662561",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3390,
+      "finding_type": "financial",
+      "summary": "RNB handled many Enterprise wire transfers per Walsh Report AND later adopted exemplary KYC policies per 2001 Levin PSI report (before HSBC acquisition)",
+      "detail": "Two contrasting references: (1) Walsh Report p.221 fn.20: RNB 'handled many of the Enterprise's wire transfers' for Iran-Contra. This means the bank processed covert financial flows for a secret US government operation involving illegal arms sales and contra funding. (2) Levin PSI Correspondent Banking Report (2001), p.30: Republic National Bank of New York (now HSBC USA) was cited as a 'notable exception' for its 'Know Your Customer Policy Statement' adopted for its International Banking Group, effective Dec 31, 1998. This KYC policy may have been adopted specifically because of lessons from the Iran-Contra and forfeiture experience. Edmond Safra founded RNB; he also controlled Trade Development Bank in Geneva where the Codelis account was held.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:07",
+      "target_name": "Republic National Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Levin PSI Correspondent Banking Report (2001), p.30",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, Ch.14, p.221 fn.20",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3414,
+      "finding_type": "financial",
+      "summary": "RNB handled Enterprise wire transfers AND had an officer coordinating off-book cash deliveries",
+      "detail": "Republic National Bank of New York (founded by Edmond Safra 1966, 452 Fifth Avenue) played a dual role in Iran-Contra: (1) It handled many of the Enterprise's legitimate wire transfers as a banking institution, and (2) one of its officers (Nan Morabia) coordinated an off-the-books cash delivery operation outside bank channels. Per Walsh Report, Morabia stated the cash-delivery operation was conducted by her outside bank channels. This is a critical distinction -- RNB's institutional role in wire transfers was separate from the Morabia family's personal cash operation, though the two were connected through Zucker's coordination. RNB was later acquired by HSBC in 1999 for $10.3B. Key RNB personnel per LittleSis: Edmond J. Safra (Founder 1966), Ezra Safra (employee), Jeffrey C. Keil (Vice Chairman 1984-1996), Theodore W. Kheel (Chairman 1966-1975), Meade H. Esposito (VP). RNB also had offshore entities in Guernsey and Panama.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:17:49",
+      "target_name": "Republic National Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 86316 relationships",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OCCRP Aleph: Republic National Bank entities in Panama and Guernsey",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3421,
+      "finding_type": "financial",
+      "summary": "RNB was America's largest gold bullion dealer -- critical context for Iran-Contra cash operations",
+      "detail": "Republic National Bank was the first American bank licensed to sell gold for industrial purposes. After the 1974 lifting of the private gold ownership ban, RNB became the nation's leading importer of gold coins and a major gold bullion dealer. This precious metals expertise is critical context: (1) The Safra family began as precious metals traders in Ottoman Aleppo, Syria. (2) RNB's gold trading made it expert in physical cash and commodity handling. (3) An officer at America's largest gold bank facilitating six-figure cash deliveries suggests institutional competence in physical asset transfers. (4) RNB was the 11th largest bank in the US. The bank's culture of physical precious metals trading may have normalized the handling of large amounts of physical cash.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:20:03",
+      "target_name": "Republic National Bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FundingUniverse: Republic New York Corporation history",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia: Edmond Safra",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 2024,
+      "person_a": "Republic National Bank",
+      "person_b": "Willard Zucker",
+      "relationship_type": "financial",
+      "description": "Enterprise wire transfers routed through RNB; Zucker managed Swiss side via CSF Geneva",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:57",
+      "other_person": "Willard Zucker",
+      "other_person_slug": "willard-zucker",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221 fn.20",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2020,
+      "person_a": "Nan Morabia",
+      "person_b": "Republic National Bank",
+      "relationship_type": "employment",
+      "description": "Officer at Republic National Bank of New York; conducted cash drops outside bank channels",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:57",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221 fn.20",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2029,
+      "person_a": "Republic National Bank",
+      "person_b": "Trade Development Bank",
+      "relationship_type": "corporate",
+      "description": "Both banks controlled by Edmond Safra; RNB (NY) handled Enterprise wire transfers, TDB (Geneva) held Codelis account",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:15:07",
+      "other_person": "Trade Development Bank",
+      "other_person_slug": "trade-development-bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2038,
+      "person_a": "Nan Morabia",
+      "person_b": "Republic National Bank",
+      "relationship_type": "employment",
+      "description": "Nan Morabia was an officer at Republic National Bank of New York (Edmond Safra's bank, 452 Fifth Ave); she delivered $7,000 to Robert Owen at RNB in Aug 1985",
+      "strength": "strong",
+      "date_range": "1985-1986",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:15:47",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis (finding 3350)",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch 14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1985-1986",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Nan Morabia was an officer at Republic National Bank of New York (Edmond Safra's bank, 452 Fifth Ave); she delivered $7,000 to Robert Owen at RNB in Aug 1985",
+      "other_person": "Nan Morabia",
+      "id": 2038
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3370,
+      3414,
+      3390,
+      3421,
+      3341
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          2024,
+          2020,
+          2029,
+          2038
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3390,
+          3414,
+          3421
+        ],
+        "connection_ids": [
+          2024
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          3341,
+          3370
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.607869"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Republic National Bank",
+      "connections": [
+        {
+          "target": "Willard Zucker",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221 fn.20",
+          "description": "Enterprise wire transfers routed through RNB; Zucker managed Swiss side via CSF Geneva"
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221 fn.20",
+          "description": "Officer at Republic National Bank of New York; conducted cash drops outside bank channels"
+        },
+        {
+          "target": "Trade Development Bank",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221",
+          "description": "Both banks controlled by Edmond Safra; RNB (NY) handled Enterprise wire transfers, TDB (Geneva) held Codelis account"
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis (finding 3350)",
+          "description": "Nan Morabia was an officer at Republic National Bank of New York (Edmond Safra's bank, 452 Fifth Ave); she delivered $7,000 to Robert Owen at RNB in Aug 1985"
+        }
+      ],
+      "secondHop": {
+        "Nan Morabia": [
+          {
+            "target": "Willard Zucker",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker directed Morabia to make cash drops for Enterprise; she was his domestic cash distribution agent"
+          },
+          {
+            "target": "Robert Owen",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Morabia delivered $7,000 cash to Owen at Republic National Bank, Aug 1985"
+          },
+          {
+            "target": "Oliver North",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Morabia family conducted cash drops for Enterprise operations supervised by North"
+          },
+          {
+            "target": "Willard Zucker",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker directed Morabia family cash drops from 1985-1986; Nan was primary RNB contact, coordinated 6 drops ranging K-K at Zucker's request"
+          },
+          {
+            "target": "Robert Owen",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Nan Morabia personally delivered ,000 cash to Robert W. Owen (North's courier to contras) at Republic National Bank in New York in August 1985"
+          }
+        ],
+        "Willard Zucker": [
+          {
+            "target": "Albert Hakim",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker managed Enterprise Swiss accounts for Hakim since mid-1970s; ran CSF financial management"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1985-1986",
+        "label": "employment with Nan Morabia",
+        "type": "employment",
+        "entity": "Nan Morabia",
+        "id": 2038
+      }
+    ]
+  }
+}

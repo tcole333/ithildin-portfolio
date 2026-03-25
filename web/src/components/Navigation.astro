@@ -1,0 +1,53 @@
+---
+const currentPath = Astro.url.pathname;
+
+const links = [
+  { href: '/', label: 'Overview' },
+  { href: '/articles', label: 'Articles' },
+  { href: '/dossiers', label: 'Dossiers' },
+  { href: '/network', label: 'Network' },
+  { href: '/financials', label: 'Financial Flows' },
+  { href: '/about', label: 'About' },
+];
+---
+<nav class="sticky top-0 z-50 border-b border-[color:var(--color-ash)] bg-[rgba(11,13,16,0.82)] backdrop-blur">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-4 py-4 md:flex-row md:items-center md:justify-between">
+      <a href="/" class="flex items-center gap-3">
+        <img src="/ithildin-logo.png" alt="Ithildin mark" class="h-10 w-10 rounded-sm opacity-90" />
+        <div>
+          <div class="font-display text-sm text-moon">Ithildin</div>
+          <div class="text-xs text-mithril tracking-[0.32em] uppercase">Evidence Platform</div>
+        </div>
+      </a>
+      <div class="flex flex-wrap items-center gap-2">
+        {links.map(link => (
+          <a
+            href={link.href}
+            class:list={[
+              'nav-link',
+              currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))
+                ? 'active'
+                : ''
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+        <button id="search-trigger" class="nav-link" aria-label="Search" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <kbd class="search-shortcut">&#8984;K</kbd>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('search-trigger')?.addEventListener('click', () => {
+    window.dispatchEvent(new CustomEvent('open-search'));
+  });
+</script>

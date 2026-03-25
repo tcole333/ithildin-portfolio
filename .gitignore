@@ -1,0 +1,56 @@
+# System and editor
+.DS_Store
+.env
+.envrc
+.cache/
+.playwright-mcp/
+.claude/worktrees/
+.claude/plans/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Python
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Data and databases
+data/
+!web/src/data/
+datasets/
+backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+investigation*.db*
+registry.db
+!tests/fixtures/**/*.db
+!tests/fixtures/**/*.sqlite
+!tests/fixtures/**/*.sqlite3
+!examples/portfolio-demo/*.db
+
+# Build artifacts
+site/web/node_modules/
+site/web/dist/
+site/web/.astro/
+site/web/.cache/
+
+# Logs
+*.log
+
+# Build artifacts and test output
+node_modules/
+dist/
+.astro/
+.wrangler/
+web/test-results/
+.playwright-cli/
+
+# Keep only the public queue adapter script in the portfolio repo.
+scripts/*
+!scripts/queue_tools.py

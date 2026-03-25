@@ -1,0 +1,316 @@
+{
+  "name": "Southern Country International Ltd",
+  "slug": "southern-country-international-ltd",
+  "aliases": [
+    "Southern Country International"
+  ],
+  "generated_at": "2026-02-20T01:17:47.325426",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 5,
+    "total_connections": 1,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 4,
+      "legal": 1
+    },
+    "connection_types": {
+      "corporate": 1
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 1298,
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd (SCI) was the offshore arm of the Southern Trust corporate family. Tax filing strategy discussed Sep 2015: Richard Kahn and accountant Jeanne Brennan consulted CPA Alan Dlugash on IRS Form 1120 business activity codes. Dlugash recommended code 525990 (Other Financial Vehicles) with activity 'Investments' rather than language including 'International Banking' which he believed 'may unnecessarily trigger an audit from IRS task force.' FTC (Financial Trust Company) used code 523900 (Other Financial Investment Activities). This shows deliberate tax classification to avoid IRS international banking scrutiny. SCI was also flagged in Charles Schwab AML investigation (Jul 2019) alongside STC, Southern Financial LLC, and Jeffrey Epstein \u2014 all accounts opened April 2019 (3 months before arrest) suggesting pre-arrest diversification away from Deutsche Bank.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:32:26",
+      "target_name": "Southern Country International Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02488862",
+          "source_quote": "Alan Dlugash today and he feels strongly that we should use biz activity code 525990 (other financial vehicles) along with Business Activity: Investments Product or Service: Investments Alan believes that if we were to include language that included International Banking it may unnecessarily trigger an audit from IRS task force",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 627,
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd was the subject of Charles Schwab AML investigation alongside STC, Southern Financial LLC, Jeffrey Epstein, and Richard Kahn. Opened Schwab accounts April 2019. This is the offshore (non-US) entity in the Southern Trust corporate family, likely incorporated in a foreign jurisdiction (Ltd designation). Its inclusion with the domestic Southern entities in bank records suggests it was used for international investment activity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:41:31",
+      "target_name": "Southern Country International Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01265973",
+          "source_quote": "SOUTHERN COUNTRY INTERNATIONAL LTD",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 729,
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd was a USVI entity at 6100 Red Hook Quarter B3 St Thomas (standard Epstein USVI address). Richard Kahn and Alan Dlugash (Epstein accountant) discussed the entity IRS Form 1120 business activity code in Sep 2015 (EFTA02488862). Dlugash recommended code 525990 (Other Financial Vehicles) over International Banking Entity language to avoid triggering an IRS task force audit. FTC used 523900 (Other Financial Investment Activities). The entity received a M check and a ,738 check from HBRK Associates Neptune LLC account on Nov 25 2019 (EFTA01270954), months after Epstein's death. This suggests Southern Country International was an active Epstein investment vehicle managed by Kahn/HBRK that continued operating post-mortem as part of estate administration.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-11-25",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:21:21",
+      "target_name": "Southern Country International",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01270954",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02488862",
+          "source_quote": "Jeanne and I reviewed attached with Alan Dlugash today and he feels strongly that we should use biz activity code 525990 other financial vehicles",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1588,
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd was chartered as a USVI international banking entity under Title 9 Chapter 25 of the VI Code. Its Articles of Incorporation (EFTA01265913) explicitly state the purpose includes 'to engage in any lawful business in the United States Virgin Islands, including the operation of an international banking entity.' This is not merely an investment vehicle -- it was a licensed offshore bank. The entity was originally named Financial Strategy Group Ltd, with resident agent Business Basics LLC (Kellerhals) at 9100 Port of Sale Mall Suite 15, St Thomas. After Epstein's death, SCI became the subject of a formal federal investigation: the USVI US Attorney opened a joint FBI/IRS-CI investigation of the Epstein estate and Southern Country International Bank (Mar 3, 2020). The USVI AUSA coordinated with Geoffrey Berman at SDNY, who confirmed 'We are looking into aspects of the estate.' Grand jury subpoenas were issued for Epstein jail calls and custodial materials. The DS10 records show M transferred on Dec 23, 2019 (post-mortem) within STC accounts, and the NYT reported Southern Country received millions from the estate in December 2019. SCI was administratively dissolved (last AR 2019). A companion entity, Southern Country Opportunity Fund LLC, was formed Feb 21, 2019 (5 months before arrest) and also administratively dissolved.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2020-03-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:12:50",
+      "target_name": "Southern Country International Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01265913",
+          "source_quote": "the corporation known as SOUTHERN COUNTRY INTERNATIONAL LTD. Formerly: FINANCIAL STRATEGY GROUP LTD. filed Articles of Incorporation... the Corporation shall have the following purposes, objects and powers: (1) To engage in any lawful business in the United States Virgin Islands, including the operation of an international banking entity in accordance with Title 9, chapter 25",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1589,
+      "finding_type": "legal",
+      "summary": "USVI US Attorney opened formal investigation of Epstein estate and Southern Country International Bank (Mar 3, 2020). Investigation assigned to FBI and IRS-CI. The USVI AUSA emailed SDNY US Attorney Geoffrey Berman directly: 'We are opening an investigation of the Jeffrey Epstein estate and Southern Country International Bank in the USVI. The investigation will be worked by FBI and IRS-CI. I wanted to reach out to you, in order to make certain that we are not interfering with any ongoing investigation that your office may have.' Berman responded: 'thanks for the heads up. We are looking into aspects of the estate.' By April 2020, the USVI office expected grand jury subpoenas for Epstein jail calls and related custodial materials. The coordination between USVI and SDNY was somewhat disorganized -- Berman forwarded a direct email from a line AUSA to staff saying 'I dont know why this guy continues to email Geoff\\! Can you see if you can redirect that?'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2020-03-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:13:00",
+      "target_name": "Southern Country International Ltd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00028346",
+          "source_quote": "We are opening an investigation of the Jeffrey Epstein estate and Southern Country International Bank in the USVI. The investigation will be worked by FBI and IRS-CI.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1739,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "Southern Country International Ltd",
+      "relationship_type": "corporate",
+      "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2015-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd (SCI) was the offshore arm of the Southern Trust corporate family. Tax filing strategy discussed Sep 2015: Richard Kahn and accountant Jeanne Brennan consulted CPA Alan Dlugash on IRS Form 1120 business activity codes. Dlugash recommended code 525990 (Other Financial Vehicles) with activity 'Investments' rather than language including 'International Banking' which he believed 'may unnecessarily trigger an audit from IRS task force.' FTC (Financial Trust Company) used code 523900 (Other Financial Investment Activities). This shows deliberate tax classification to avoid IRS international banking scrutiny. SCI was also flagged in Charles Schwab AML investigation (Jul 2019) alongside STC, Southern Financial LLC, and Jeffrey Epstein \u2014 all accounts opened April 2019 (3 months before arrest) suggesting pre-arrest diversification away from Deutsche Bank.",
+      "confidence": "confirmed",
+      "id": 1298
+    },
+    {
+      "date": "2019-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd was the subject of Charles Schwab AML investigation alongside STC, Southern Financial LLC, Jeffrey Epstein, and Richard Kahn. Opened Schwab accounts April 2019. This is the offshore (non-US) entity in the Southern Trust corporate family, likely incorporated in a foreign jurisdiction (Ltd designation). Its inclusion with the domestic Southern entities in bank records suggests it was used for international investment activity.",
+      "confidence": "high",
+      "id": 627
+    },
+    {
+      "date": "2019-11-25",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd was a USVI entity at 6100 Red Hook Quarter B3 St Thomas (standard Epstein USVI address). Richard Kahn and Alan Dlugash (Epstein accountant) discussed the entity IRS Form 1120 business activity code in Sep 2015 (EFTA02488862). Dlugash recommended code 525990 (Other Financial Vehicles) over International Banking Entity language to avoid triggering an IRS task force audit. FTC used 523900 (Other Financial Investment Activities). The entity received a M check and a ,738 check from HBRK Associates Neptune LLC account on Nov 25 2019 (EFTA01270954), months after Epstein's death. This suggests Southern Country International was an active Epstein investment vehicle managed by Kahn/HBRK that continued operating post-mortem as part of estate administration.",
+      "confidence": "high",
+      "id": 729
+    },
+    {
+      "date": "2020-03-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Country International Ltd was chartered as a USVI international banking entity under Title 9 Chapter 25 of the VI Code. Its Articles of Incorporation (EFTA01265913) explicitly state the purpose includes 'to engage in any lawful business in the United States Virgin Islands, including the operation of an international banking entity.' This is not merely an investment vehicle -- it was a licensed offshore bank. The entity was originally named Financial Strategy Group Ltd, with resident agent Business Basics LLC (Kellerhals) at 9100 Port of Sale Mall Suite 15, St Thomas. After Epstein's death, SCI became the subject of a formal federal investigation: the USVI US Attorney opened a joint FBI/IRS-CI investigation of the Epstein estate and Southern Country International Bank (Mar 3, 2020). The USVI AUSA coordinated with Geoffrey Berman at SDNY, who confirmed 'We are looking into aspects of the estate.' Grand jury subpoenas were issued for Epstein jail calls and custodial materials. The DS10 records show M transferred on Dec 23, 2019 (post-mortem) within STC accounts, and the NYT reported Southern Country received millions from the estate in December 2019. SCI was administratively dissolved (last AR 2019). A companion entity, Southern Country Opportunity Fund LLC, was formed Feb 21, 2019 (5 months before arrest) and also administratively dissolved.",
+      "confidence": "confirmed",
+      "id": 1588
+    },
+    {
+      "date": "2020-03-03",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "USVI US Attorney opened formal investigation of Epstein estate and Southern Country International Bank (Mar 3, 2020). Investigation assigned to FBI and IRS-CI. The USVI AUSA emailed SDNY US Attorney Geoffrey Berman directly: 'We are opening an investigation of the Jeffrey Epstein estate and Southern Country International Bank in the USVI. The investigation will be worked by FBI and IRS-CI. I wanted to reach out to you, in order to make certain that we are not interfering with any ongoing investigation that your office may have.' Berman responded: 'thanks for the heads up. We are looking into aspects of the estate.' By April 2020, the USVI office expected grand jury subpoenas for Epstein jail calls and related custodial materials. The coordination between USVI and SDNY was somewhat disorganized -- Berman forwarded a direct email from a line AUSA to staff saying 'I dont know why this guy continues to email Geoff\\! Can you see if you can redirect that?'",
+      "confidence": "confirmed",
+      "id": 1589
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1298,
+      1588,
+      729,
+      1589,
+      627
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1298,
+          627,
+          729,
+          1588
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.627472"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Southern Country International Ltd",
+      "connections": [
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+        }
+      ],
+      "secondHop": {
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2015-09",
+        "label": "Southern Country International Ltd (SCI) was the offshore arm of the Southern Trust corporate family. Tax filing strategy discussed Sep 2015: Richard Kahn and accountant Jeanne Brennan consulted CPA Alan Dlugash on IRS Form 1120 business activity codes. Dlugash recommended code 525990 (Other Financial Vehicles) with activity 'Investments' rather than language including 'International Banking' which he believed 'may unnecessarily trigger an audit from IRS task force.' FTC (Financial Trust Company) used code 523900 (Other Financial Investment Activities). This shows deliberate tax classification to avoid IRS international banking scrutiny. SCI was also flagged in Charles Schwab AML investigation (Jul 2019) alongside STC, Southern Financial LLC, and Jeffrey Epstein \u2014 all accounts opened April 2019 (3 months before arrest) suggesting pre-arrest diversification away from Deutsche Bank.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1298
+      },
+      {
+        "date": "2019-04",
+        "label": "Southern Country International Ltd was the subject of Charles Schwab AML investigation alongside STC, Southern Financial LLC, Jeffrey Epstein, and Richard Kahn. Opened Schwab accounts April 2019. This is the offshore (non-US) entity in the Southern Trust corporate family, likely incorporated in a foreign jurisdiction (Ltd designation). Its inclusion with the domestic Southern entities in bank records suggests it was used for international investment activity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 627
+      },
+      {
+        "date": "2019-11-25",
+        "label": "Southern Country International Ltd was a USVI entity at 6100 Red Hook Quarter B3 St Thomas (standard Epstein USVI address). Richard Kahn and Alan Dlugash (Epstein accountant) discussed the entity IRS Form 1120 business activity code in Sep 2015 (EFTA02488862). Dlugash recommended code 525990 (Other Financial Vehicles) over International Banking Entity language to avoid triggering an IRS task force audit. FTC used 523900 (Other Financial Investment Activities). The entity received a M check and a ,738 check from HBRK Associates Neptune LLC account on Nov 25 2019 (EFTA01270954), months after Epstein's death. This suggests Southern Country International was an active Epstein investment vehicle managed by Kahn/HBRK that continued operating post-mortem as part of estate administration.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 729
+      },
+      {
+        "date": "2020-03-03",
+        "label": "Southern Country International Ltd was chartered as a USVI international banking entity under Title 9 Chapter 25 of the VI Code. Its Articles of Incorporation (EFTA01265913) explicitly state the purpose includes 'to engage in any lawful business in the United States Virgin Islands, including the operation of an international banking entity.' This is not merely an investment vehicle -- it was a licensed offshore bank. The entity was originally named Financial Strategy Group Ltd, with resident agent Business Basics LLC (Kellerhals) at 9100 Port of Sale Mall Suite 15, St Thomas. After Epstein's death, SCI became the subject of a formal federal investigation: the USVI US Attorney opened a joint FBI/IRS-CI investigation of the Epstein estate and Southern Country International Bank (Mar 3, 2020). The USVI AUSA coordinated with Geoffrey Berman at SDNY, who confirmed 'We are looking into aspects of the estate.' Grand jury subpoenas were issued for Epstein jail calls and custodial materials. The DS10 records show M transferred on Dec 23, 2019 (post-mortem) within STC accounts, and the NYT reported Southern Country received millions from the estate in December 2019. SCI was administratively dissolved (last AR 2019). A companion entity, Southern Country Opportunity Fund LLC, was formed Feb 21, 2019 (5 months before arrest) and also administratively dissolved.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1588
+      },
+      {
+        "date": "2020-03-03",
+        "label": "USVI US Attorney opened formal investigation of Epstein estate and Southern Country International Bank (Mar 3, 2020). Investigation assigned to FBI and IRS-CI. The USVI AUSA emailed SDNY US Attorney Geoffrey Berman directly: 'We are opening an investigation of the Jeffrey Epstein estate and Southern Country International Bank in the USVI. The investigation will be worked by FBI and IRS-CI. I wanted to reach out to you, in order to make certain that we are not interfering with any ongoing investigation that your office may have.' Berman responded: 'thanks for the heads up. We are looking into aspects of the estate.' By April 2020, the USVI office expected grand jury subpoenas for Epstein jail calls and related custodial materials. The coordination between USVI and SDNY was somewhat disorganized -- Berman forwarded a direct email from a line AUSA to staff saying 'I dont know why this guy continues to email Geoff\\! Can you see if you can redirect that?'",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1589
+      }
+    ]
+  }
+}

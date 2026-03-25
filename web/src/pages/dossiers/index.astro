@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DossierIndex from '../../components/DossierIndex';
+import { readFileSync, existsSync } from 'fs';
+import { contentPath } from '../../lib/projectPaths';
+
+const dossierIndexPath = contentPath('dossiers', '_index.json');
+const investigationsPath = contentPath('investigations.json');
+
+let dossierIndex: Array<{ name: string; slug: string; profile_ids: string[]; stats: any; last_updated?: string }> = [];
+if (existsSync(dossierIndexPath)) {
+  dossierIndex = JSON.parse(readFileSync(dossierIndexPath, 'utf-8'));
+}
+
+let investigations: Array<{ id: string; name: string; description: string; color: string }> = [];
+if (existsSync(investigationsPath)) {
+  investigations = JSON.parse(readFileSync(investigationsPath, 'utf-8'));
+}
+---
+<BaseLayout title="Dossiers">
+  <div class="space-y-10">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div>
+          <div class="section-label">Index</div>
+          <h1 class="text-3xl md:text-4xl font-display text-moon mt-3">Target Dossiers</h1>
+          <p class="text-mithril font-body mt-4 max-w-2xl">
+            Findings, connections, and corporate roles for each subject. Backed by cited evidence
+            and updated as new sources are processed.
+          </p>
+        </div>
+        <div class="surface-muted px-6 py-4">
+          <div class="section-label">Total</div>
+          <div class="text-3xl font-mono text-moon mt-2">{dossierIndex.length}</div>
+          <div class="text-xs text-mithril mt-1">Tracked targets</div>
+        </div>
+      </div>
+    </section>
+
+    <DossierIndex
+      client:load
+      dossiers={dossierIndex}
+      investigations={investigations}
+    />
+  </div>
+</BaseLayout>

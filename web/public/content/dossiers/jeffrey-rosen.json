@@ -1,0 +1,1093 @@
+{
+  "name": "Jeffrey Rosen",
+  "slug": "jeffrey-rosen",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.317180",
+  "last_updated": "2026-02-16T17:46:55",
+  "stats": {
+    "total_findings": 7,
+    "total_connections": 12,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 4,
+      "relationship": 1,
+      "financial": 1,
+      "identity": 1
+    },
+    "connection_types": {
+      "political": 2,
+      "employment": 8,
+      "legal": 2
+    },
+    "last_updated": "2026-02-16T17:46:55"
+  },
+  "findings": [
+    {
+      "id": 3129,
+      "finding_type": "legal",
+      "summary": "Rosen's K&E client work pre-DOJ involved complex business litigation for GM, AOL, Netscape, Marriott and other major corporations. He was adjunct professor at Georgetown Law 1996-2003. At K&E he served as co-head of the DC office and on the Global Executive Management Committee (elected 1999 at age 41). His practice focused on litigation and regulatory matters. Post-DOJ he was appointed Chair of the Virginia Commission to Combat Antisemitism (2022-23), and is a member of the Federalist Society. Currently a nonresident senior fellow at AEI and of counsel at Cravath focusing on investigations, regulatory enforcement, compliance, and monitoring.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1996",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:31",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "AEI:profile",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Cravath:rosen-profile",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FedSoc:jeffrey-rosen",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3126,
+      "finding_type": "relationship",
+      "summary": "K&E revolving door network around Rosen: (1) AG Barr was K&E partner before DOJ. (2) Jeffrey Clark was K&E partner 2005-2017 before returning to DOJ. (3) Steven Engel was K&E associate 2002-2006 before DOJ OLC. (4) Rosen's chief of staff at DOJ was Patrick Hovakimian (per LittleSis). (5) Rosen was co-head of K&E DC office and on Global Executive Management Committee \u2014 meaning he was one of the firm's most senior leaders. The same firm that represented Epstein in 2008 had its senior alumni filling AG, DAG, and AAG OLC simultaneously.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2005",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:09",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "AEI:rosen-profile",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:339638",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "PBS:engel-jan6",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3125,
+      "finding_type": "financial",
+      "summary": "FEC records show Rosen made exclusively Republican political donations while at K&E (McLean, VA address). Key recipients: John Boehner (,000 + ,700 + ,300 via Boehner for Speaker and personal), Mitt Romney (,955 + ,500 via Romney Victory), Rob Portman (,650, 8 filings 2009-2015), Mike Gallagher (,100), Marco Rubio (,350), Ted Cruz (,000), Liz Cheney (), Kirkland & Ellis PAC (,250, 1992-1995), George W. Bush (,000, 1999-2004). Also gave to RNC, NRSC, NRCC. Total identified donations approximately ,000+ from 1992-2021. Consistent establishment Republican donor.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:01",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.fec.gov/data/search/?q=schedule-a-kirkland",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:339638-donations",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3128,
+      "finding_type": "legal",
+      "summary": "No direct Epstein connection found in document corpus. DOJ Vol 11, DugganUSA (1000 hits but all different Rosens \u2014 Gary Rosen via Brockman/JTF, Aby Rosen real estate, Arthur Rosen tax attorney at McDermott Will, Robert Rosen, Rosen Aviation displays), LMSBAND, and Unified DB searches returned zero documents linking Jeffrey A. Rosen (K&E/DAG) to Jeffrey Epstein. The Epstein corpus 'Jeffrey Rosen' hit EFTA02350642 is a different Jeffrey Rosen \u2014 a Lazard investment banker connected to Mortimer Zuckerman and Eric Gertler regarding the Daily News sale (2015). This confirms Rosen's relevance is institutional (K&E network, DOJ oversight role) not personal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:22",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ:search-jeffrey-rosen",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DugganUSA:search-jeffrey-rosen",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02350642",
+          "source_quote": " Eric Gertler email 'He should contact Jeffrey Rosen or Louis Zachary at Lazard' \u2014 this is a DIFFERENT Jeffrey Rosen (Lazard MD)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3119,
+      "finding_type": "identity",
+      "summary": "Jeffrey A. Rosen (b. 1958, Boston) complete career: K&E Associate 1982-1988, Partner 1988-2003 (Global Executive Management Committee 1999), returned 2009-2017. Government: DOT General Counsel 2003-2006, OMB General Counsel 2006-2009, DOT Deputy Secretary 2017-2019, DAG May 22 2019-Dec 24 2020, Acting AG Dec 24 2020-Jan 20 2021. Post-DOJ: AEI Fellow 2021, Cravath Swaine & Moore Of Counsel July 2023-present. Nearly 30 years total at K&E. Did NOT return to K&E after DOJ \u2014 went to Cravath instead.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-05-22",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:31",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "AEI:profile",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ:dag-bio",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:339638",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3121,
+      "finding_type": "legal",
+      "summary": "Rosen was DAG when Epstein was arrested (Jul 6, 2019) and died at MCC (Aug 10, 2019). Senator Kamala Harris specifically demanded both AG Barr AND DAG Rosen recuse from Epstein case due to shared K&E connection \u2014 Epstein's 2008 plea deal was negotiated by K&E attorneys (Jay Lefkowitz, Ken Starr). Barr consulted DOJ career ethics officials and chose NOT to recuse from the SDNY prosecution (only recused from retrospective NPA review). No public record of Rosen recusing. After Epstein's death, Rosen received briefings from Deputy FBI Director Michael Bowdich approximately every three hours on the investigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-07-06",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:41",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CNBC:barr-recusal-2019-07-09",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GoldRushCam:harris-letter-2019",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NBC:epstein-death-irregularities",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3123,
+      "finding_type": "legal",
+      "summary": "K&E alumni dominated both sides of the Jan 3, 2021 DOJ crisis. Jeffrey Clark (K&E 1996-2001, 2005-2017) tried to send fraudulent election letters to states. Rosen (K&E nearly 30 years) and Steven Engel (K&E 2002-2006, AAG OLC) resisted and threatened mass resignation. Trump backed down only when told entire DOJ leadership would resign within 24-48 hours. Three K&E alumni \u2014 Rosen, Engel, Clark \u2014 were the three principal actors in this constitutional crisis. Rosen testified at Jan. 6 Committee hearings June 23, 2022.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2021-01-03",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:51",
+      "target_name": "Jeffrey Rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CBS:clark-coup-attempt",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NPR:doj-mass-resignation-threat",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "PBS:jan6-rosen-testimony",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1518,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "William Barr",
+      "relationship_type": "political",
+      "description": "Rosen served as Barr's Deputy AG and succeeded him as Acting AG (Dec 2020 - Jan 2021). Rosen was previously Deputy Secretary of Transportation. Under Rosen, DOJ maintained continuity on Epstein-related matters after Barr's departure. Rosen later testified to Jan 6 Committee about Trump pressure to use DOJ to overturn election.",
+      "strength": "strong",
+      "date_range": "2019-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 16:14:37",
+      "other_person": "William Barr",
+      "other_person_slug": "william-barr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ_records",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1552,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "William Barr",
+      "relationship_type": "political",
+      "description": "Rosen served as DAG under Barr. Became acting AG Dec 23 2020 when Barr resigned. Rosen then faced Trump pressure on election fraud claims in final month. Testified to Jan 6 committee about attempts to weaponize DOJ.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 16:17:38",
+      "other_person": "William Barr",
+      "other_person_slug": "william-barr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CNN Rosen profile Dec 2020",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1614,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "Kirkland Ellis",
+      "relationship_type": "employment",
+      "description": "KE longtime partner. DAG under Barr. Later became acting AG after Barr resigned Dec 2020.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:19:39",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "LittleSis:littlesis.org/news/kirkland-ellis",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1625,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "Kirkland & Ellis",
+      "relationship_type": "employment",
+      "description": "K&E Partner. Defended Raytheon, GM, Chamber of Commerce at K&E. Became Deputy AG then Acting AG.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:20:22",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:339638 Rosen at K&E",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1626,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "U.S. Department of Justice",
+      "relationship_type": "employment",
+      "description": "Deputy AG 2019-2020, Acting AG Dec 2020-Jan 2021. Resisted Trump pressure to declare election corrupt. K&E partner before.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:20:22",
+      "other_person": "U.S. Department of Justice",
+      "other_person_slug": "us-department-of-justice",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Jeffrey_A._Rosen",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1675,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "Kirkland & Ellis",
+      "relationship_type": "employment",
+      "description": "Partner at K&E for nearly 30 years total (1982-2003, 2009-2017). Co-head DC office, Global Executive Management Committee member. K&E PAC donor. Did NOT return to K&E post-DOJ \u2014 went to Cravath instead.",
+      "strength": "strong",
+      "date_range": "1982-2017",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:41",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "AEI:profile",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.fec.gov/data/search/?q=kirkland-pac",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:339638",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1678,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "William Barr",
+      "relationship_type": "employment",
+      "description": "Both K&E alumni who served simultaneously at DOJ leadership \u2014 Barr as AG, Rosen as DAG. Both faced recusal demands from Sen. Harris over Epstein case due to K&E connection. Both declined to recuse from SDNY prosecution.",
+      "strength": "strong",
+      "date_range": "2019-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:46",
+      "other_person": "William Barr",
+      "other_person_slug": "william-barr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CNBC:barr-recusal",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GoldRushCam:harris-recusal-letter",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1679,
+      "person_a": "Jeffrey Clark",
+      "person_b": "Jeffrey Rosen",
+      "relationship_type": "legal",
+      "description": "Both K&E alumni at DOJ. Clark (K&E 1996-2001, 2005-2017) attempted to use DOJ to overturn 2020 election; Rosen (K&E nearly 30 years) resisted as Acting AG. Clark tried to replace Rosen with Trump's backing. Trump backed down after mass resignation threat. Three K&E alumni (Rosen, Engel, Clark) were the three principal actors in this constitutional crisis.",
+      "strength": "strong",
+      "date_range": "2020-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:52",
+      "other_person": "Jeffrey Clark",
+      "other_person_slug": "jeffrey-clark",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CBS:clark-coup",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NPR:mass-resignation-threat",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1680,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "Steven Engel",
+      "relationship_type": "legal",
+      "description": "Both K&E alumni at DOJ. Engel (K&E 2002-2006) served as AAG OLC under Rosen. Together they resisted Jeffrey Clark's election overthrow scheme and threatened mass resignation on Jan 3, 2021. Both testified at Jan. 6 Committee hearings June 23, 2022.",
+      "strength": "strong",
+      "date_range": "2019-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:57",
+      "other_person": "Steven Engel",
+      "other_person_slug": "steven-engel",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NPR:mass-resignation",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "PBS:engel-jan6",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1681,
+      "person_a": "DOJ",
+      "person_b": "Jeffrey Rosen",
+      "relationship_type": "employment",
+      "description": "DAG May 22 2019-Dec 24 2020 (confirmed 52-45), Acting AG Dec 24 2020-Jan 20 2021. As DAG was #2 at DOJ during Epstein arrest, death at MCC, and start of Maxwell investigation. Received briefings from Deputy FBI Director Bowdich every 3 hours post-Epstein death.",
+      "strength": "strong",
+      "date_range": "2019-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:40:04",
+      "other_person": "DOJ",
+      "other_person_slug": "doj",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ:dag-bio",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NBC:epstein-death",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1689,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Both KE partners. Rosen was 29-year KE partner received 1.57M comp plus 189K annual from KE defined benefit plan even while serving as DAG. Oversaw DOJ while Filip defended clients at KE.",
+      "strength": "strong",
+      "date_range": "2019-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:41",
+      "other_person": "Mark Filip",
+      "other_person_slug": "mark-filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1695,
+      "person_a": "Brian Benczkowski",
+      "person_b": "Jeffrey Rosen",
+      "relationship_type": "employment",
+      "description": "Both K&E alumni at DOJ simultaneously. Rosen was Deputy AG (and later Acting AG), 29 years at K&E, received .57M in final year compensation. Together with Barr, the three top DOJ Criminal Division decision-makers were all K&E alumni.",
+      "strength": "strong",
+      "date_range": "2019-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:46:55",
+      "other_person": "Brian Benczkowski",
+      "other_person_slug": "brian-benczkowski",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "WallStOnParade:wallstreetonparade.com 2020/07 top men",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1982-2017",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Partner at K&E for nearly 30 years total (1982-2003, 2009-2017). Co-head DC office, Global Executive Management Committee member. K&E PAC donor. Did NOT return to K&E post-DOJ \u2014 went to Cravath instead.",
+      "other_person": "Kirkland & Ellis",
+      "id": 1675
+    },
+    {
+      "date": "1996",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Rosen's K&E client work pre-DOJ involved complex business litigation for GM, AOL, Netscape, Marriott and other major corporations. He was adjunct professor at Georgetown Law 1996-2003. At K&E he served as co-head of the DC office and on the Global Executive Management Committee (elected 1999 at age 41). His practice focused on litigation and regulatory matters. Post-DOJ he was appointed Chair of the Virginia Commission to Combat Antisemitism (2022-23), and is a member of the Federalist Society. Currently a nonresident senior fellow at AEI and of counsel at Cravath focusing on investigations, regulatory enforcement, compliance, and monitoring.",
+      "confidence": "high",
+      "id": 3129
+    },
+    {
+      "date": "2005",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "K&E revolving door network around Rosen: (1) AG Barr was K&E partner before DOJ. (2) Jeffrey Clark was K&E partner 2005-2017 before returning to DOJ. (3) Steven Engel was K&E associate 2002-2006 before DOJ OLC. (4) Rosen's chief of staff at DOJ was Patrick Hovakimian (per LittleSis). (5) Rosen was co-head of K&E DC office and on Global Executive Management Committee \u2014 meaning he was one of the firm's most senior leaders. The same firm that represented Epstein in 2008 had its senior alumni filling AG, DAG, and AAG OLC simultaneously.",
+      "confidence": "medium",
+      "id": 3126
+    },
+    {
+      "date": "2009",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC records show Rosen made exclusively Republican political donations while at K&E (McLean, VA address). Key recipients: John Boehner (,000 + ,700 + ,300 via Boehner for Speaker and personal), Mitt Romney (,955 + ,500 via Romney Victory), Rob Portman (,650, 8 filings 2009-2015), Mike Gallagher (,100), Marco Rubio (,350), Ted Cruz (,000), Liz Cheney (), Kirkland & Ellis PAC (,250, 1992-1995), George W. Bush (,000, 1999-2004). Also gave to RNC, NRSC, NRCC. Total identified donations approximately ,000+ from 1992-2021. Consistent establishment Republican donor.",
+      "confidence": "high",
+      "id": 3125
+    },
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "No direct Epstein connection found in document corpus. DOJ Vol 11, DugganUSA (1000 hits but all different Rosens \u2014 Gary Rosen via Brockman/JTF, Aby Rosen real estate, Arthur Rosen tax attorney at McDermott Will, Robert Rosen, Rosen Aviation displays), LMSBAND, and Unified DB searches returned zero documents linking Jeffrey A. Rosen (K&E/DAG) to Jeffrey Epstein. The Epstein corpus 'Jeffrey Rosen' hit EFTA02350642 is a different Jeffrey Rosen \u2014 a Lazard investment banker connected to Mortimer Zuckerman and Eric Gertler regarding the Daily News sale (2015). This confirms Rosen's relevance is institutional (K&E network, DOJ oversight role) not personal.",
+      "confidence": "medium",
+      "id": 3128
+    },
+    {
+      "date": "2019-05-22",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Jeffrey A. Rosen (b. 1958, Boston) complete career: K&E Associate 1982-1988, Partner 1988-2003 (Global Executive Management Committee 1999), returned 2009-2017. Government: DOT General Counsel 2003-2006, OMB General Counsel 2006-2009, DOT Deputy Secretary 2017-2019, DAG May 22 2019-Dec 24 2020, Acting AG Dec 24 2020-Jan 20 2021. Post-DOJ: AEI Fellow 2021, Cravath Swaine & Moore Of Counsel July 2023-present. Nearly 30 years total at K&E. Did NOT return to K&E after DOJ \u2014 went to Cravath instead.",
+      "confidence": "medium",
+      "id": 3119
+    },
+    {
+      "date": "2019-07-06",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Rosen was DAG when Epstein was arrested (Jul 6, 2019) and died at MCC (Aug 10, 2019). Senator Kamala Harris specifically demanded both AG Barr AND DAG Rosen recuse from Epstein case due to shared K&E connection \u2014 Epstein's 2008 plea deal was negotiated by K&E attorneys (Jay Lefkowitz, Ken Starr). Barr consulted DOJ career ethics officials and chose NOT to recuse from the SDNY prosecution (only recused from retrospective NPA review). No public record of Rosen recusing. After Epstein's death, Rosen received briefings from Deputy FBI Director Michael Bowdich approximately every three hours on the investigation.",
+      "confidence": "medium",
+      "id": 3121
+    },
+    {
+      "date": "2019-2020",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Both K&E alumni who served simultaneously at DOJ leadership \u2014 Barr as AG, Rosen as DAG. Both faced recusal demands from Sen. Harris over Epstein case due to K&E connection. Both declined to recuse from SDNY prosecution.",
+      "other_person": "William Barr",
+      "id": 1678
+    },
+    {
+      "date": "2019-2020",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Both K&E alumni at DOJ simultaneously. Rosen was Deputy AG (and later Acting AG), 29 years at K&E, received .57M in final year compensation. Together with Barr, the three top DOJ Criminal Division decision-makers were all K&E alumni.",
+      "other_person": "Brian Benczkowski",
+      "id": 1695
+    },
+    {
+      "date": "2019-2021",
+      "type": "connection",
+      "relationship_type": "political",
+      "description": "Rosen served as Barr's Deputy AG and succeeded him as Acting AG (Dec 2020 - Jan 2021). Rosen was previously Deputy Secretary of Transportation. Under Rosen, DOJ maintained continuity on Epstein-related matters after Barr's departure. Rosen later testified to Jan 6 Committee about Trump pressure to use DOJ to overturn election.",
+      "other_person": "William Barr",
+      "id": 1518
+    },
+    {
+      "date": "2019-2021",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Both K&E alumni at DOJ. Engel (K&E 2002-2006) served as AAG OLC under Rosen. Together they resisted Jeffrey Clark's election overthrow scheme and threatened mass resignation on Jan 3, 2021. Both testified at Jan. 6 Committee hearings June 23, 2022.",
+      "other_person": "Steven Engel",
+      "id": 1680
+    },
+    {
+      "date": "2019-2021",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "DAG May 22 2019-Dec 24 2020 (confirmed 52-45), Acting AG Dec 24 2020-Jan 20 2021. As DAG was #2 at DOJ during Epstein arrest, death at MCC, and start of Maxwell investigation. Received briefings from Deputy FBI Director Bowdich every 3 hours post-Epstein death.",
+      "other_person": "DOJ",
+      "id": 1681
+    },
+    {
+      "date": "2019-2021",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Both KE partners. Rosen was 29-year KE partner received 1.57M comp plus 189K annual from KE defined benefit plan even while serving as DAG. Oversaw DOJ while Filip defended clients at KE.",
+      "other_person": "Mark Filip",
+      "id": 1689
+    },
+    {
+      "date": "2020-2021",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Both K&E alumni at DOJ. Clark (K&E 1996-2001, 2005-2017) attempted to use DOJ to overturn 2020 election; Rosen (K&E nearly 30 years) resisted as Acting AG. Clark tried to replace Rosen with Trump's backing. Trump backed down after mass resignation threat. Three K&E alumni (Rosen, Engel, Clark) were the three principal actors in this constitutional crisis.",
+      "other_person": "Jeffrey Clark",
+      "id": 1679
+    },
+    {
+      "date": "2021-01-03",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "K&E alumni dominated both sides of the Jan 3, 2021 DOJ crisis. Jeffrey Clark (K&E 1996-2001, 2005-2017) tried to send fraudulent election letters to states. Rosen (K&E nearly 30 years) and Steven Engel (K&E 2002-2006, AAG OLC) resisted and threatened mass resignation. Trump backed down only when told entire DOJ leadership would resign within 24-48 hours. Three K&E alumni \u2014 Rosen, Engel, Clark \u2014 were the three principal actors in this constitutional crisis. Rosen testified at Jan. 6 Committee hearings June 23, 2022.",
+      "confidence": "medium",
+      "id": 3123
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3128,
+      3129,
+      3125,
+      3121,
+      3123,
+      3126,
+      3119
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3126
+        ],
+        "connection_ids": [
+          1518,
+          1552,
+          1614,
+          1625,
+          1626,
+          1675,
+          1678,
+          1679,
+          1680,
+          1681,
+          1689,
+          1695
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3129,
+          3128,
+          3121,
+          3123
+        ],
+        "connection_ids": [
+          1679,
+          1680
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.518748"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Jeffrey Rosen",
+      "connections": [
+        {
+          "target": "William Barr",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "DOJ_records",
+          "description": "Rosen served as Barr's Deputy AG and succeeded him as Acting AG (Dec 2020 - Jan 2021). Rosen was previously Deputy Secretary of Transportation. Under Rosen, DOJ maintained continuity on Epstein-related matters after Barr's departure. Rosen later testified to Jan 6 Committee about Trump pressure to use DOJ to overturn election."
+        },
+        {
+          "target": "William Barr",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "CNN Rosen profile Dec 2020",
+          "description": "Rosen served as DAG under Barr. Became acting AG Dec 23 2020 when Barr resigned. Rosen then faced Trump pressure on election fraud claims in final month. Testified to Jan 6 committee about attempts to weaponize DOJ."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis:littlesis.org/news/kirkland-ellis",
+          "description": "KE longtime partner. DAG under Barr. Later became acting AG after Barr resigned Dec 2020."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis:339638 Rosen at K&E",
+          "description": "K&E Partner. Defended Raytheon, GM, Chamber of Commerce at K&E. Became Deputy AG then Acting AG."
+        },
+        {
+          "target": "U.S. Department of Justice",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "https://en.wikipedia.org/wiki/Jeffrey_A._Rosen",
+          "description": "Deputy AG 2019-2020, Acting AG Dec 2020-Jan 2021. Resisted Trump pressure to declare election corrupt. K&E partner before."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "AEI:profile",
+          "description": "Partner at K&E for nearly 30 years total (1982-2003, 2009-2017). Co-head DC office, Global Executive Management Committee member. K&E PAC donor. Did NOT return to K&E post-DOJ \u2014 went to Cravath instead."
+        },
+        {
+          "target": "William Barr",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "CNBC:barr-recusal",
+          "description": "Both K&E alumni who served simultaneously at DOJ leadership \u2014 Barr as AG, Rosen as DAG. Both faced recusal demands from Sen. Harris over Epstein case due to K&E connection. Both declined to recuse from SDNY prosecution."
+        },
+        {
+          "target": "Jeffrey Clark",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "CBS:clark-coup",
+          "description": "Both K&E alumni at DOJ. Clark (K&E 1996-2001, 2005-2017) attempted to use DOJ to overturn 2020 election; Rosen (K&E nearly 30 years) resisted as Acting AG. Clark tried to replace Rosen with Trump's backing. Trump backed down after mass resignation threat. Three K&E alumni (Rosen, Engel, Clark) were the three principal actors in this constitutional crisis."
+        },
+        {
+          "target": "Steven Engel",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "NPR:mass-resignation",
+          "description": "Both K&E alumni at DOJ. Engel (K&E 2002-2006) served as AAG OLC under Rosen. Together they resisted Jeffrey Clark's election overthrow scheme and threatened mass resignation on Jan 3, 2021. Both testified at Jan. 6 Committee hearings June 23, 2022."
+        },
+        {
+          "target": "DOJ",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "DOJ:dag-bio",
+          "description": "DAG May 22 2019-Dec 24 2020 (confirmed 52-45), Acting AG Dec 24 2020-Jan 20 2021. As DAG was #2 at DOJ during Epstein arrest, death at MCC, and start of Maxwell investigation. Received briefings from Deputy FBI Director Bowdich every 3 hours post-Epstein death."
+        },
+        {
+          "target": "Mark Filip",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman",
+          "description": "Both KE partners. Rosen was 29-year KE partner received 1.57M comp plus 189K annual from KE defined benefit plan even while serving as DAG. Oversaw DOJ while Filip defended clients at KE."
+        },
+        {
+          "target": "Brian Benczkowski",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "WallStOnParade:wallstreetonparade.com 2020/07 top men",
+          "description": "Both K&E alumni at DOJ simultaneously. Rosen was Deputy AG (and later Acting AG), 29 years at K&E, received .57M in final year compensation. Together with Barr, the three top DOJ Criminal Division decision-makers were all K&E alumni."
+        }
+      ],
+      "secondHop": {
+        "Brian Benczkowski": [
+          {
+            "target": "Kirkland Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "KE longtime partner. Became AAG Criminal Division under Trump. Ethics waiver for Goldman 1MDB. Returned to KE Sept 2020."
+          },
+          {
+            "target": "Kirkland & Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner (twice: pre-DOJ and returned Sept 2020). Represented Alfa Bank at K&E. Led Trump DOJ transition team."
+          },
+          {
+            "target": "U.S. Department of Justice",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "AAG Criminal Division 2018-2020. Confirmed 51-48 despite Alfa Bank controversy. K&E partner before and after."
+          },
+          {
+            "target": "Mark Filip",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Filip-Benczkowski tandem: DAG chief of staff 2008, KE co-counsel BP/VW/Abbott 2010-2018, AAG Criminal Division 2018-2020 while Filip defended Boeing/Goldman at KE"
+          },
+          {
+            "target": "Mark Filip",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Benczkowski was Chief of Staff to Deputy AG Filip in 2008, during the period K&E partner Ken Starr wrote to Filip lobbying to drop the Epstein federal case. Both later at K&E."
+          }
+        ],
+        "Jeffrey Clark": [
+          {
+            "target": "Kirkland & Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner (1996-2001, 2005-2018). Represented BP in Deepwater Horizon. Left for DOJ 2018."
+          },
+          {
+            "target": "U.S. Department of Justice",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "AAG Environment 2018-2021. Attempted to use DOJ to overturn 2020 election results. Indicted in GA. Law license suspension recommended."
+          }
+        ],
+        "Kirkland & Ellis": [
+          {
+            "target": "William Barr",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Barr served as Of Counsel at K&E (2009-2018). K&E billed Epstein ,319,336.03 for JEE defense matter through 12/31/2008, plus ,000 for FTC/DB Zwirn matter through 9/30/2009. K&E partners Lefkowitz and Ken Starr negotiated Epstein's 2008 NPA. Barr joined K&E one year after K&E secured Epstein's deal. Epstein continued using K&E during Barr's tenure (Apr 2012 email re Lefkowitz). Barr partially recused: only from NPA review, NOT from current prosecution."
+          },
+          {
+            "target": "Steven Sinofsky",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "K&E attorneys Price and Lefkowitz represented Sinofsky in Microsoft severance negotiation (Nov 2012-Jan 2013), referred by Epstein who actively coached strategy"
+          },
+          {
+            "target": "Mark Filip",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "K&E partner Mark Filip became Deputy Attorney General (2008) during active Epstein NPA review. Filip was highest DOJ official to review the NPA. Returned to K&E after DOJ service. Epstein explicitly cited Filip's approval in NPA defense documents."
+          },
+          {
+            "target": "William Barr",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Of Counsel 2009+, Consultant 2011, Of Counsel 2017-2020. Recused from Epstein case due to K&E employment."
+          },
+          {
+            "target": "Mark Filip",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner (current, DC office). Led Boeing 737 MAX defense, BP Deepwater Horizon, VW emissions, Goldman Sachs 1MDB. Former Deputy AG 2008-2009."
+          }
+        ],
+        "Mark Filip": [
+          {
+            "target": "U.S. Department of Justice",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Deputy AG 2008-2009 under Bush. Served as Acting AG Jan 2009. Then returned to K&E to defend corporations against same DOJ."
+          },
+          {
+            "target": "PG&E",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Court-appointed corporate compliance monitor 2017-2022 following PGE 5 felony convictions for San Bruno explosion"
+          },
+          {
+            "target": "William Barr",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Both KE Of Counsel/partners. Barr as AG oversaw DOJ while Filip defended Goldman Boeing at KE. Claire Murray quote: an agency can never be led by too many lawyers from Kirkland and Ellis"
+          },
+          {
+            "target": "Volkswagen",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE defense counsel VW Dieselgate with Benczkowski. 4.3B plea, 3 felony counts, WITH independent monitor. Less favorable than Boeing despite zero deaths."
+          },
+          {
+            "target": "Kirkland Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "KE partner since May 2009. Previously Deputy AG 2008-2009. Federal judge NDIL 2004-2008. Authored Filip Memo creating DPA framework then used it at KE to defend Boeing BP VW."
+          }
+        ],
+        "U.S. Department of Justice": [
+          {
+            "target": "William Barr",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "85th Attorney General 2019-2020, also 77th AG 1991-1993. K&E Of Counsel before/after both stints."
+          }
+        ],
+        "William Barr": [
+          {
+            "target": "George H.W. Bush",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Bush appointed Barr as 77th Attorney General (1991-1993). Barr previously served as Deputy AG and head of OLC under Bush. Barr recommended pardons for Iran-Contra figures Caspar Weinberger et al. in Dec 1992, which Bush granted."
+          },
+          {
+            "target": "Donald Trump",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Trump nominated Barr as 85th Attorney General (Feb 14, 2019 - Dec 23, 2020). Barr oversaw Mueller Report characterization, Epstein SDNY prosecution, fired Geoffrey Berman from SDNY, intervened in Roger Stone and Michael Flynn cases. Epstein reacted to nomination: 'Barr a disaster for t[rump]' (Dec 7, 2018)."
+          },
+          {
+            "target": "Rod Rosenstein",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Rosenstein served as Deputy AG when Barr arrived as AG in Feb 2019. Rosenstein had appointed Mueller as Special Counsel and oversaw the investigation. Rosenstein resigned May 2019 after Barr took control of Mueller Report rollout. Rosenstein's departure removed oversight buffer between Barr and SDNY."
+          },
+          {
+            "target": "Robert Mueller",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Barr characterized Mueller's Special Counsel Report in his 4-page summary (Mar 24, 2019), which Mueller himself objected to as not capturing the 'context, nature, and substance' of the report. Judge Reggie Walton found Barr displayed 'lack of candor' in Mueller Report representations. Barr and Mueller had known each other for decades \u2014 their wives attended Bible study together."
+          },
+          {
+            "target": "John Durham",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Barr appointed Durham as Special Counsel to investigate origins of FBI's Crossfire Hurricane investigation into Trump-Russia ties (May 2019). Durham's investigation lasted 4 years, cost .5M, resulted in zero convictions. Epstein tracked this: 'intel chiefs in barrs sights' (HOUSE_OVERSIGHT_027719). Durham appointment diverted DOJ resources and attention during period of Epstein prosecution."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1982-2017",
+        "label": "employment with Kirkland & Ellis",
+        "type": "employment",
+        "entity": "Kirkland & Ellis",
+        "id": 1675
+      },
+      {
+        "date": "1996",
+        "label": "Rosen's K&E client work pre-DOJ involved complex business litigation for GM, AOL, Netscape, Marriott and other major corporations. He was adjunct professor at Georgetown Law 1996-2003. At K&E he served as co-head of the DC office and on the Global Executive Management Committee (elected 1999 at age 41). His practice focused on litigation and regulatory matters. Post-DOJ he was appointed Chair of the Virginia Commission to Combat Antisemitism (2022-23), and is a member of the Federalist Society. Currently a nonresident senior fellow at AEI and of counsel at Cravath focusing on investigations, regulatory enforcement, compliance, and monitoring.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3129
+      },
+      {
+        "date": "2005",
+        "label": "K&E revolving door network around Rosen: (1) AG Barr was K&E partner before DOJ. (2) Jeffrey Clark was K&E partner 2005-2017 before returning to DOJ. (3) Steven Engel was K&E associate 2002-2006 before DOJ OLC. (4) Rosen's chief of staff at DOJ was Patrick Hovakimian (per LittleSis). (5) Rosen was co-head of K&E DC office and on Global Executive Management Committee \u2014 meaning he was one of the firm's most senior leaders. The same firm that represented Epstein in 2008 had its senior alumni filling AG, DAG, and AAG OLC simultaneously.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 3126
+      },
+      {
+        "date": "2009",
+        "label": "FEC records show Rosen made exclusively Republican political donations while at K&E (McLean, VA address). Key recipients: John Boehner (,000 + ,700 + ,300 via Boehner for Speaker and personal), Mitt Romney (,955 + ,500 via Romney Victory), Rob Portman (,650, 8 filings 2009-2015), Mike Gallagher (,100), Marco Rubio (,350), Ted Cruz (,000), Liz Cheney (), Kirkland & Ellis PAC (,250, 1992-1995), George W. Bush (,000, 1999-2004). Also gave to RNC, NRSC, NRCC. Total identified donations approximately ,000+ from 1992-2021. Consistent establishment Republican donor.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3125
+      },
+      {
+        "date": "2015",
+        "label": "No direct Epstein connection found in document corpus. DOJ Vol 11, DugganUSA (1000 hits but all different Rosens \u2014 Gary Rosen via Brockman/JTF, Aby Rosen real estate, Arthur Rosen tax attorney at McDermott Will, Robert Rosen, Rosen Aviation displays), LMSBAND, and Unified DB searches returned zero documents linking Jeffrey A. Rosen (K&E/DAG) to Jeffrey Epstein. The Epstein corpus 'Jeffrey Rosen' hit EFTA02350642 is a different Jeffrey Rosen \u2014 a Lazard investment banker connected to Mortimer Zuckerman and Eric Gertler regarding the Daily News sale (2015). This confirms Rosen's relevance is institutional (K&E network, DOJ oversight role) not personal.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3128
+      },
+      {
+        "date": "2019-05-22",
+        "label": "Jeffrey A. Rosen (b. 1958, Boston) complete career: K&E Associate 1982-1988, Partner 1988-2003 (Global Executive Management Committee 1999), returned 2009-2017. Government: DOT General Counsel 2003-2006, OMB General Counsel 2006-2009, DOT Deputy Secretary 2017-2019, DAG May 22 2019-Dec 24 2020, Acting AG Dec 24 2020-Jan 20 2021. Post-DOJ: AEI Fellow 2021, Cravath Swaine & Moore Of Counsel July 2023-present. Nearly 30 years total at K&E. Did NOT return to K&E after DOJ \u2014 went to Cravath instead.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 3119
+      },
+      {
+        "date": "2019-07-06",
+        "label": "Rosen was DAG when Epstein was arrested (Jul 6, 2019) and died at MCC (Aug 10, 2019). Senator Kamala Harris specifically demanded both AG Barr AND DAG Rosen recuse from Epstein case due to shared K&E connection \u2014 Epstein's 2008 plea deal was negotiated by K&E attorneys (Jay Lefkowitz, Ken Starr). Barr consulted DOJ career ethics officials and chose NOT to recuse from the SDNY prosecution (only recused from retrospective NPA review). No public record of Rosen recusing. After Epstein's death, Rosen received briefings from Deputy FBI Director Michael Bowdich approximately every three hours on the investigation.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3121
+      },
+      {
+        "date": "2019-2020",
+        "label": "employment with William Barr",
+        "type": "employment",
+        "entity": "William Barr",
+        "id": 1678
+      },
+      {
+        "date": "2019-2020",
+        "label": "employment with Brian Benczkowski",
+        "type": "employment",
+        "entity": "Brian Benczkowski",
+        "id": 1695
+      },
+      {
+        "date": "2019-2021",
+        "label": "political with William Barr",
+        "type": "political",
+        "entity": "William Barr",
+        "id": 1518
+      },
+      {
+        "date": "2019-2021",
+        "label": "legal with Steven Engel",
+        "type": "legal",
+        "entity": "Steven Engel",
+        "id": 1680
+      },
+      {
+        "date": "2019-2021",
+        "label": "employment with DOJ",
+        "type": "employment",
+        "entity": "DOJ",
+        "id": 1681
+      },
+      {
+        "date": "2019-2021",
+        "label": "employment with Mark Filip",
+        "type": "employment",
+        "entity": "Mark Filip",
+        "id": 1689
+      },
+      {
+        "date": "2020-2021",
+        "label": "legal with Jeffrey Clark",
+        "type": "legal",
+        "entity": "Jeffrey Clark",
+        "id": 1679
+      },
+      {
+        "date": "2021-01-03",
+        "label": "K&E alumni dominated both sides of the Jan 3, 2021 DOJ crisis. Jeffrey Clark (K&E 1996-2001, 2005-2017) tried to send fraudulent election letters to states. Rosen (K&E nearly 30 years) and Steven Engel (K&E 2002-2006, AAG OLC) resisted and threatened mass resignation. Trump backed down only when told entire DOJ leadership would resign within 24-48 hours. Three K&E alumni \u2014 Rosen, Engel, Clark \u2014 were the three principal actors in this constitutional crisis. Rosen testified at Jan. 6 Committee hearings June 23, 2022.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3123
+      }
+    ]
+  }
+}

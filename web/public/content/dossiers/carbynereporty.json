@@ -1,0 +1,912 @@
+{
+  "name": "Carbyne/Reporty",
+  "slug": "carbynereporty",
+  "aliases": [
+    "Carbyne"
+  ],
+  "generated_at": "2026-02-20T01:17:47.309965",
+  "last_updated": "2026-02-17T04:24:25",
+  "stats": {
+    "total_findings": 9,
+    "total_connections": 13,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 7,
+      "relationship": 1,
+      "legal": 1
+    },
+    "connection_types": {
+      "corporate": 1,
+      "financial": 12
+    },
+    "last_updated": "2026-02-17T04:24:25"
+  },
+  "findings": [
+    {
+      "id": 328,
+      "finding_type": "financial",
+      "summary": "STC entity identified as Southern Trust Company, Inc. (USVI). Indyke wired $1M from STC account #9244 to ERGO Ltd. at Bank Leumi Israel on March 16, 2015, reference 'Reporty Investment'. Indyke explicitly stated 'I thought we did not want your name associated with this Investment' when Israeli lawyers requested controlling person info for anti-money laundering compliance.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-03-16",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:29",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01360528",
+          "source_quote": "Southern Trust Company Inc. MEMORANDUM To Amanda Kirby From: Dan K Indyke Value Date: March 16, 2015 Debit Account #: 9244 Please wire One Million Dollars (1,000,000) Beneficiary Name: ERGO Ltd. Reference: Reporty Investment",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "finding_type": "financial",
+      "summary": "Barak 'carry' on Carbyne investment confirmed. Nicole Junkermann asked Epstein directly on Jan 10, 2016: 'Ehud is interested in a carry (of course) how much would you give him?' NJF Capital (Junkermann's CFO Nikolajs Smirnovs) modeled sensitivity analysis of Ehud carry at various valuations: at $100M valuation, Ehud carry = $695K; at $200M valuation, Ehud carry = $1.97M. Axon Enterprise signed definitive agreement to acquire Carbyne in Q4 2025.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-01-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:07",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02359091",
+          "source_quote": "Ehud is interested in a carry (of course) how much would you give him?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "finding_type": "financial",
+      "summary": "Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stewart Oldfield at DB' for bank recommendation letter. This ties Epstein's Carbyne investment to his Deutsche Bank accounts — same bank later fined $150M for Epstein-related compliance failures.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018",
+      "claim_type": "direct_quote",
+      "verification_status": "verified",
+      "created_at": "2026-02-12 21:53:15",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02634615",
+          "source_quote": "Tomer is asking for a bank rec letter from the transferring bank which is DB. I have asked Rich to find out from Stewart Oldfield at DB with whom Rich has a decent relationship if that would even be possible at this point.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "finding_type": "relationship",
+      "summary": "Carbyne connected to Peter Thiel's Founders Fund via Nicole Junkermann. Email chain (May 2018): Junkermann brokered intro between Carbyne CEO Amir Elichai and Trae Stephens at Founders Fund (ex-Palantir). Chris Hopkins of NW/RIF Capital facilitated, noting Stephens' 'background at Palantir' and expected 'serendipity.' Junkermann told Epstein and Barak: 'We made the connection to Founders Forum from Peter Thiel.' Epstein and Barak CC'd throughout.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:53:31",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02656963",
+          "source_quote": "We made the connection to Founders Forum from Peter Thiel. (see below) If you want to put in a word with Peter maybe :)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "finding_type": "financial",
+      "summary": "Epstein invested 3.6M in Carbyne (formerly Reporty Ltd) through an entity called STC, with Darren Indyke managing the transaction. Indyke noted in March 2019: I thought we did not want your name associated with this Investment. The anti-money-laundering process required identifying the controlling person. Nicole Junkermann (NJF Capital) and Ehud Barak were co-investors with carried interest. Valuation models ranged from 67M to 200M. Carbyne connected to Founders Fund / Trae Stephens (Palantir background) via NJF Capital.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-03",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:40",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630978",
+          "source_quote": "If we pass warrants to Ehud what you potentially give up is NET Gain in red",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02634615",
+          "source_quote": "I thought we did not want your name associated with this Investment",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02656963",
+          "source_quote": "From: \nSent: \nMonday, May 21, 2018 5:12 PM \nTo: \njeffrey E. \nCc: \nEhud Barak WORLD ( \n@gmail.com) \nSubject: \nFW: Connecting Amir Elichai, founder and CEO of Carbyne with Trae Stephens, \nFounders Fund \nDear both, \nWe made the connection to Founders...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "finding_type": "financial",
+      "summary": "Full $3.6M Carbyne warrants exercise structure revealed. SUM (E.B.) Limited Partnership held warrants to purchase 61,251 Preferred A Shares. SUM's two limited partners: Southern Trust Company Inc. (66.67%, $2.4M) and Montilla International Corporation/NJF Capital Corp (33.33%, $1.2M). Warrants exercised March 2019, funds received in ERGO (E.B. 2014) Ltd. account at Bank Leumi. This would increase SUM holdings from ~13% to ~26.33% of Carbyne on fully diluted basis.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-03",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:40",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02634615",
+          "source_quote": "Southern Trust Inc. 66.67% 2,333,333 66,667 2,400,000 Montilla International Corporation 33.33% 1,166,667 1,200,000 Total 100.00% 3,500,000 100,000 3,600,000",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "finding_type": "financial",
+      "summary": "Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought we did not want your name associated with this Investment.' Barak reassured Epstein: 'That is the Israeli banks paranoia after they paid the penalties...it was never leaked out of the banks.' Epstein ultimately gave 'ok' to disclose on March 14, 2019 — 4 months before arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-03-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:52:57",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02634615",
+          "source_quote": "Not sure how to respond. I thought we did not want your name associated with this Investment? Also,Tomer is asking for a bank rec letter from the transferring bank which is DB.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "finding_type": "financial",
+      "summary": "Carbyne Inc. maintained active lobbying from Q3 2021 through Q4 2025 (19 filings) via LSN Partners LLC, focused exclusively on Next Generation 911 and Emergency Communications. Spending was steady at 10K/quarter through Q3 2025, increasing to 20K/quarter from Q4 2024. Lobbied on Build Back Better Act, H.R.59 SAVE Act, and H.R.637 SAVE Act. Key lobbyist: Jose Fuentes (consistent throughout). Carbyne was co-founded by Ehud Barak with Epstein investment (STC wired 1M to ERGO Ltd at Bank Leumi). Barak was chairman. Axon acquired Carbyne Q4 2025. Lobbying continued through acquisition.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2021-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:13",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:5bb76e0c-86c9-486f-98ab-29f45707655d",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "finding_type": "legal",
+      "summary": "Carbyne (formerly Reporty) has no FARA registration despite being an Israeli surveillance technology company with direct links to Israeli intelligence (Barak as chairman, Talpiot program connections). NSO Group and Q Cyber Technologies (NSO's parent) both registered under FARA through multiple firms. Carbyne's absence is notable given it received $1M from STC via Bank Leumi, had Barak as investor, and Epstein/Indyke attempted to conceal ownership. Unlike NSO which registered, Carbyne operated without FARA disclosure.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:42:15",
+      "target_name": "Carbyne/Reporty",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://efile.fara.gov/ords/f?p=1381:200#q=negative_search_Carbyne",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 494,
+      "person_a": "Carbyne",
+      "person_b": "Ehud Barak",
+      "relationship_type": "corporate",
+      "description": "Barak chaired Carbyne, Israeli surveillance tech with Epstein investment",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 04:20:53",
+      "other_person": "Ehud Barak",
+      "other_person_slug": "ehud-barak",
+      "evidence": []
+    },
+    {
+      "id": 330,
+      "person_a": "Carbyne",
+      "person_b": "LSN Partners",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:45:54",
+      "other_person": "LSN Partners",
+      "other_person_slug": "lsn-partners",
+      "evidence": []
+    },
+    {
+      "id": 1807,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Darren Indyke",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": []
+    },
+    {
+      "id": 1808,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Darren Indyke",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": []
+    },
+    {
+      "id": 1809,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Ehud Barak",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Ehud Barak",
+      "other_person_slug": "ehud-barak",
+      "evidence": []
+    },
+    {
+      "id": 1810,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1805,
+      "person_a": "Bernard Indyke",
+      "person_b": "Carbyne/Reporty",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Bernard Indyke",
+      "other_person_slug": "bernard-indyke",
+      "evidence": []
+    },
+    {
+      "id": 1806,
+      "person_a": "Bernard Indyke",
+      "person_b": "Carbyne/Reporty",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Bernard Indyke",
+      "other_person_slug": "bernard-indyke",
+      "evidence": []
+    },
+    {
+      "id": 1811,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1812,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Mark Epstein",
+      "relationship_type": "financial",
+      "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Mark Epstein",
+      "other_person_slug": "mark-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1813,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Deutsche Bank",
+      "relationship_type": "financial",
+      "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Deutsche Bank",
+      "other_person_slug": "deutsche-bank",
+      "evidence": []
+    },
+    {
+      "id": 1814,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Richard Kahn",
+      "relationship_type": "financial",
+      "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": []
+    },
+    {
+      "id": 1815,
+      "person_a": "Carbyne/Reporty",
+      "person_b": "Stewart Oldfield",
+      "relationship_type": "financial",
+      "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Stewart Oldfield",
+      "other_person_slug": "stewart-oldfield",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2015-03-16",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "STC entity identified as Southern Trust Company, Inc. (USVI). Indyke wired $1M from STC account #9244 to ERGO Ltd. at Bank Leumi Israel on March 16, 2015, reference 'Reporty Investment'. Indyke explicitly stated 'I thought we did not want your name associated with this Investment' when Israeli lawyers requested controlling person info for anti-money laundering compliance.",
+      "confidence": "high",
+      "id": 328
+    },
+    {
+      "date": "2016-01-10",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Barak 'carry' on Carbyne investment confirmed. Nicole Junkermann asked Epstein directly on Jan 10, 2016: 'Ehud is interested in a carry (of course) how much would you give him?' NJF Capital (Junkermann's CFO Nikolajs Smirnovs) modeled sensitivity analysis of Ehud carry at various valuations: at $100M valuation, Ehud carry = $695K; at $200M valuation, Ehud carry = $1.97M. Axon Enterprise signed definitive agreement to acquire Carbyne in Q4 2025.",
+      "confidence": "confirmed",
+      "id": 333
+    },
+    {
+      "date": "2018",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stewart Oldfield at DB' for bank recommendation letter. This ties Epstein's Carbyne investment to his Deutsche Bank accounts — same bank later fined $150M for Epstein-related compliance failures.",
+      "confidence": "confirmed",
+      "id": 335
+    },
+    {
+      "date": "2018-05",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Carbyne connected to Peter Thiel's Founders Fund via Nicole Junkermann. Email chain (May 2018): Junkermann brokered intro between Carbyne CEO Amir Elichai and Trae Stephens at Founders Fund (ex-Palantir). Chris Hopkins of NW/RIF Capital facilitated, noting Stephens' 'background at Palantir' and expected 'serendipity.' Junkermann told Epstein and Barak: 'We made the connection to Founders Forum from Peter Thiel.' Epstein and Barak CC'd throughout.",
+      "confidence": "high",
+      "id": 340
+    },
+    {
+      "date": "2019-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein invested 3.6M in Carbyne (formerly Reporty Ltd) through an entity called STC, with Darren Indyke managing the transaction. Indyke noted in March 2019: I thought we did not want your name associated with this Investment. The anti-money-laundering process required identifying the controlling person. Nicole Junkermann (NJF Capital) and Ehud Barak were co-investors with carried interest. Valuation models ranged from 67M to 200M. Carbyne connected to Founders Fund / Trae Stephens (Palantir background) via NJF Capital.",
+      "confidence": "medium",
+      "id": 291
+    },
+    {
+      "date": "2019-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Full $3.6M Carbyne warrants exercise structure revealed. SUM (E.B.) Limited Partnership held warrants to purchase 61,251 Preferred A Shares. SUM's two limited partners: Southern Trust Company Inc. (66.67%, $2.4M) and Montilla International Corporation/NJF Capital Corp (33.33%, $1.2M). Warrants exercised March 2019, funds received in ERGO (E.B. 2014) Ltd. account at Bank Leumi. This would increase SUM holdings from ~13% to ~26.33% of Carbyne on fully diluted basis.",
+      "confidence": "high",
+      "id": 330
+    },
+    {
+      "date": "2019-03-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought we did not want your name associated with this Investment.' Barak reassured Epstein: 'That is the Israeli banks paranoia after they paid the penalties...it was never leaked out of the banks.' Epstein ultimately gave 'ok' to disclose on March 14, 2019 — 4 months before arrest.",
+      "confidence": "confirmed",
+      "id": 331
+    },
+    {
+      "date": "2021-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Carbyne Inc. maintained active lobbying from Q3 2021 through Q4 2025 (19 filings) via LSN Partners LLC, focused exclusively on Next Generation 911 and Emergency Communications. Spending was steady at 10K/quarter through Q3 2025, increasing to 20K/quarter from Q4 2024. Lobbied on Build Back Better Act, H.R.59 SAVE Act, and H.R.637 SAVE Act. Key lobbyist: Jose Fuentes (consistent throughout). Carbyne was co-founded by Ehud Barak with Epstein investment (STC wired 1M to ERGO Ltd at Bank Leumi). Barak was chairman. Axon acquired Carbyne Q4 2025. Lobbying continued through acquisition.",
+      "confidence": "medium",
+      "id": 413
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      335,
+      333,
+      331,
+      291,
+      340,
+      393,
+      328,
+      330,
+      413
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          340
+        ],
+        "connection_ids": [
+          494,
+          330,
+          1807,
+          1808,
+          1809,
+          1810,
+          1805,
+          1806,
+          1811,
+          1812,
+          1813,
+          1814,
+          1815
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          328,
+          333,
+          335,
+          291,
+          330,
+          331,
+          413
+        ],
+        "connection_ids": [
+          330,
+          1807,
+          1808,
+          1809,
+          1810,
+          1805,
+          1806,
+          1811
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-19T03:52:40.677833",
+    "lead": "<p>Carbyne (originally Reporty Ltd.) was an Israeli emergency-response surveillance technology company that received at least $3.6 million from Jeffrey Epstein's network through a deliberately concealed investment structure. Former Israeli Prime Minister <a href=\"/dossiers/ehud-barak\">Ehud Barak</a> served as chairman and secured a carried interest in the investment vehicle, while <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> managed transactions through Southern Trust Company (STC), a US Virgin Islands entity. When Israeli lawyers handling anti-money-laundering compliance requested identification of the controlling person for the investment, Indyke wrote: \"I thought we did not want your name associated with this Investment\" (Finding #331). Epstein ultimately authorized disclosure of his ownership on March 14, 2019 — four months before his arrest.</p>\n\n<p>The investment flowed through a multi-jurisdictional architecture: STC wired $1 million from account #9244 to ERGO Ltd. at Bank Leumi Israel on March 16, 2015, with reference \"Reporty Investment\" (Finding #328). The full $3.6 million structure involved SUM (E.B.) Limited Partnership acquiring warrants for 61,251 Preferred A Shares, with STC contributing 66.67% ($2.4M) and Nicole Junkermann's Montilla International Corporation contributing 33.33% ($1.2M) (Finding #330). The transaction also channeled through <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> — the same institution later fined $150 million for Epstein-related compliance failures — with Indyke requesting that <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> obtain a bank recommendation letter from <a href=\"/dossiers/stewart-oldfield\">Stewart Oldfield</a> at DB (Finding #335). Axon Enterprise acquired Carbyne in Q4 2025.</p>\n\n<p>Carbyne maintained active US lobbying operations from Q3 2021 through Q4 2025, filing 19 disclosure reports through LSN Partners LLC focused on Next Generation 911 and emergency communications legislation including the SAVE Act (Finding #413). Notably, despite being an Israeli surveillance technology company with an Israeli intelligence figure as chairman, Carbyne had no Foreign Agents Registration Act (FARA) filing — unlike comparable Israeli firm NSO Group (Finding #393). The company also secured connections to <a href=\"/dossiers/peter-thiel\">Peter Thiel</a>'s Founders Fund through Junkermann's introduction of Carbyne CEO Amir Elichai to Trae Stephens, formerly of Palantir (Finding #340).</p>",
+    "open_questions": [
+      "What was the full extent of Epstein's ownership in Carbyne beyond the documented $3.6 million SUM LP investment, and were there additional investment vehicles or side agreements?",
+      "Did Carbyne's emergency response technology products receive procurement contracts from US government agencies, and if so, which agencies and under what compliance frameworks?",
+      "What was the nature of the 'intelligence' connections referenced in the Qatar pitch to Hamad bin Jassim Al Thani for World Cup 2022 security, and did Carbyne have formal relationships with Israeli intelligence services?",
+      "Why did Carbyne not file FARA registrations when comparable Israeli surveillance companies NSO Group and Q Cyber Technologies did, and what legal advice supported this position?",
+      "What due diligence did Axon Enterprise conduct regarding the Epstein-Barak investment history prior to the Q4 2025 acquisition, and were representations made about beneficial ownership?"
+    ],
+    "system_role": "Carbyne reveals how the network operationalized jurisdictional arbitrage to conceal beneficial ownership: USVI entities for opacity, Israeli banks for operational distance, and Deutsche Bank as a compliance-willing bridge. The AML evasion tactics and absence of FARA registration demonstrate how intelligence-adjacent commercial ventures could operate in the US without standard foreign agent disclosure.",
+    "sections": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "content": "<p>The Carbyne investment structure created interlocking relationships between Epstein's financial infrastructure, Israeli intelligence figures, and European investors. <a href=\"/dossiers/ehud-barak\">Ehud Barak</a> served as chairman of Carbyne and held a carried interest through SUM (E.B.) Limited Partnership, the investment vehicle holding Carbyne warrants (Finding #330). In January 2016, <a href=\"/dossiers/nicole-junkermann\">Nicole Junkermann</a> asked Epstein directly: \"Ehud is interested in a carry (of course) how much would you give him?\" — with NJF Capital modeling scenarios showing Barak's carry would range from $695,000 at a $100 million valuation to $1.97 million at a $200 million valuation (Finding #333).</p>\n\n<p>Junkermann functioned as a critical network bridge, connecting the Epstein-Barak investment to Silicon Valley capital. In May 2018, she brokered an introduction between Carbyne CEO Amir Elichai and Trae Stephens at Founders Fund, the venture capital firm founded by <a href=\"/dossiers/peter-thiel\">Peter Thiel</a> (Finding #340). Junkermann reported back to Epstein and Barak: \"We made the connection to Founders Forum from Peter Thiel.\" The email chain shows both Epstein and Barak were CC'd throughout, with Chris Hopkins of NW/RIF Capital facilitating the connection and noting Stephens' \"background at Palantir\" and expected \"serendipity.\" This placed an Israeli surveillance technology company with Epstein-Barak backing into direct conversation with Thiel's network of intelligence-adjacent technology investors.</p>\n\n<p>On the financial infrastructure side, <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> served as the operational manager for Epstein's Carbyne investment, executing the STC wire transfers and handling AML compliance requests from Israeli lawyers (Finding #331). <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> was enlisted to obtain Deutsche Bank documentation, with Indyke noting Kahn had \"a decent relationship\" with <a href=\"/dossiers/stewart-oldfield\">Stewart Oldfield</a> at DB (Finding #335). The investment thus drew upon the core Epstein-Indyke-Kahn relationship network that managed his broader financial operations.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "content": "<p>The Carbyne investment structure was designed to obscure Epstein's beneficial ownership while maintaining his economic interest. On March 16, 2015, <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> wired $1 million from Southern Trust Company account #9244 to ERGO Ltd. at Bank Leumi Israel, with wire instructions specifying \"Reporty Investment\" as the reference (Finding #328). The full investment ultimately totaled $3.6 million, structured through SUM (E.B.) Limited Partnership holding warrants to purchase 61,251 Preferred A Shares. STC contributed $2.4 million (66.67%) while Montilla International Corporation — an entity associated with Nicole Junkermann's NJF Capital — contributed $1.2 million (33.33%) (Finding #330).</p>\n\n<p>The investment was channeled through <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a>, with Indyke referencing \"the transferring bank which is DB\" in communications regarding compliance documentation (Finding #335). This linked the Carbyne transaction to the same banking relationship that would later result in a $150 million regulatory fine for Deutsche Bank's handling of Epstein accounts. In March 2019, when Israeli lawyers requested a bank recommendation letter for AML purposes, Indyke asked <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> to contact <a href=\"/dossiers/stewart-oldfield\">Stewart Oldfield</a> at Deutsche Bank, noting that Kahn had \"a decent relationship\" with Oldfield.</p>\n\n<p>The AML compliance process generated documentary evidence of deliberate ownership concealment. When Israeli lawyers handling the warrants exercise requested identification of the controlling person for anti-money-laundering purposes, Indyke wrote: \"Not sure how to respond. I thought we did not want your name associated with this Investment?\" (Finding #331). Barak reassured Epstein that the request reflected \"Israeli banks paranoia after they paid the penalties...it was never leaked out of the banks.\" Epstein ultimately gave \"ok\" to disclose on March 14, 2019 — just four months before his July 2019 arrest. The fully exercised position would have increased SUM holdings from approximately 13% to 26.33% of Carbyne on a fully diluted basis.</p>\n\n<p>From Q3 2021 through Q4 2025, Carbyne Inc. maintained active lobbying operations in the United States through LSN Partners LLC, filing 19 quarterly disclosure reports (Finding #413). Lobbying focused exclusively on Next Generation 911 and emergency communications legislation, including the Build Back Better Act, H.R.59 SAVE Act, and H.R.637 SAVE Act. Spending remained steady at $10,000 per quarter through Q3 2023, increasing to $20,000 per quarter from Q4 2024. Jose Fuentes served as the consistent lobbyist throughout the engagement, with lobbying continuing through Axon Enterprise's Q4 2025 acquisition of Carbyne.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "regulatory-gaps",
+        "title": "Regulatory Gaps",
+        "content": "<p>Carbyne's operational history reveals significant gaps in US regulatory coverage for foreign-owned surveillance technology companies. Despite being an Israeli company with an Israeli intelligence figure (<a href=\"/dossiers/ehud-barak\">Ehud Barak</a>) as chairman, Carbyne maintained no Foreign Agents Registration Act (FARA) filing (Finding #393). This absence is particularly notable given comparable Israeli surveillance firm NSO Group and its parent company Q Cyber Technologies both maintained active FARA registrations through multiple US law firms. Carbyne's business model — providing emergency response and location-tracking technology to US government agencies — would typically trigger FARA disclosure requirements when foreign principals are involved in policy advocacy.</p>\n\n<p>The AML compliance resistance documented in March 2019 (Finding #331) demonstrates how beneficial ownership information can be systematically withheld even when regulatory frameworks technically require disclosure. <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>'s initial response to Israeli bank requests — \"I thought we did not want your name associated with this Investment\" — reveals that concealment was the default preference, with disclosure only authorized when the transaction could not proceed otherwise. Barak's characterization of Israeli bank AML requirements as \"paranoia\" following regulatory penalties suggests an operational culture that viewed compliance obligations as obstacles to be managed rather than requirements to be met.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "jurisdictional-arbitrage",
+      "enabler-gradient",
+      "complexity-as-credential"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Carbyne/Reporty",
+      "connections": [
+        {
+          "target": "Ehud Barak",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Barak chaired Carbyne, Israeli surveillance tech with Epstein investment"
+        },
+        {
+          "target": "LSN Partners",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Ehud Barak",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Bernard Indyke",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Bernard Indyke",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Mark Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #331: Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought"
+        },
+        {
+          "target": "Deutsche Bank",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew"
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew"
+        },
+        {
+          "target": "Stewart Oldfield",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #335: Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stew"
+        }
+      ],
+      "secondHop": {
+        "Bernard Indyke": [
+          {
+            "target": "Darren Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Bernard was manager and board member at Jackie Fine Arts (Gold and Wachtel client). Got Darren hired at Gold and Wachtel after Colgate/Cornell, where Darren first encountered Epstein as client."
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Bernard was manager/board at Jackie Fine Arts, a Gold & Wachtel client. Wachtel hired Darren as favor to Bernard. Gold & Wachtel represented Epstein from 1988."
+          },
+          {
+            "target": "Darren K. Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Bernard managed Jackie Fine Arts, a Gold & Wachtel client. This family connection brought Darren into Epsteins orbit via the firm."
+          },
+          {
+            "target": "Jackie Fine Arts",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Bernard Indyke (Darren Indykes father) served as manager and member of the board at Jackie Fine Arts Inc, a Gold and Wachtel client that ran tax shelter fraud selling overvalued art master reproduction rights. Herman Finesod founded Jackie Fine Arts."
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son relationship. Bernard (b.12/1933, deceased) is Darren's (b.2/1965) father per DB KYC records. Bernard placed Darren at Gold & Wachtel as pre-law assistant in 1986, where Darren first encountered Epstein. FedEx record shows Darren sending Priority Overnight package to Bernard at NYSO LLC in Nov 2003, indicating Bernard remained involved with Epstein entity operations into his 70s."
+          }
+        ],
+        "Darren Indyke": [
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Indyke handled legal matters for both Epstein and Black. Conference call details (EFTA02340224) show joint calls between Epstein, Black-related parties, Brad Karp, Brad Wechsler, and Patrick Fenn."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Indyke served as Treasurer (2012-2015) then Vice President/Director (2017-2019). Signed account closure letter Jan 10, 2019. Address: 575 Lexington Ave 4th Floor NYC then 9053 Estate Thomas USVI. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "In-house attorney at Southern Financial LLC for 15+ years. Secretary at STC, Authorized Signatory at SFL. Co-executor of estate. Beneficiary of Butterfly Trust. Trustee of 1953 Trust and Epstein 2019 Trust."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-beneficiaries of Butterfly Trust. Co-trustees of 1953 Trust. Co-executors of estate. Both at 575 Lexington Ave 4th Floor. Co-occur in 830 LMSBAND files."
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Indyke corresponded extensively with Oldfield at Deutsche Bank on Prytanee LLC, CDD forms, account management. 381 LMSBAND co-occurrences."
+          }
+        ],
+        "Deutsche Bank": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank Trust Company Americas was primary banking relationship for GA. Account managed by Stewart Oldfield. KYC case #01353080. Part of the SOUTHERN FINANCIAL RELATIONSHIP umbrella with Mort Inc. GA account changed to Inactive Prospect after all accounts closed."
+          },
+          {
+            "target": "Enhanced Education",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank held Enhanced Education brokerage account managed by Ted Serure. Account underwent KYC/AML review 2018-2019. DB compliance flagged the Enhanced Education trade name for due diligence. Account closed Feb 2019."
+          },
+          {
+            "target": "The Limited Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment — same bank that later maintained Epstein's accounts (RM 82289)"
+          },
+          {
+            "target": "The Limited Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility"
+          },
+          {
+            "target": "Robert Rankin",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Rankin was head of Deutsche Bank Asia-Pacific, later Crown Resorts executive chairman"
+          }
+        ],
+        "Ehud Barak": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Co-investors in Carbyne/Reporty via SUM (E.B.) LP. Epstein through STC (66.67%), Barak as GP with carried interest."
+          },
+          {
+            "target": "Jabor Al Thani",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Epstein introduced Nov 10 2018. Jabor brokered Barak-HBJ meeting Dec 20 2018 at 100 Knightsbridge London. Barak pitched Carbyne 911 for Qatar 2022 World Cup security, offering to minimize Israeli profile. Jabor requested more info on the security company."
+          },
+          {
+            "target": "Hamad bin Jassim Al Thani",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Barak met HBJ Dec 20 2018 in London, facilitated by Epstein via Jabor. Barak: Vividly remember my past meetings with HE HBJ. Really enthusiast about coming meeting. So many fascinating and disturbing events. Followed by Carbyne 911 Qatar presentation Jan 1, 2019. Former Israeli PM meeting former Qatar PM -- extraordinary back-channel."
+          },
+          {
+            "target": "Nili Priell Barak",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Married couple. Nili served as Baraks primary scheduler and contact person for all Epstein meetings"
+          },
+          {
+            "target": "Wexner Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Wexner Foundation paid Barak .3M (2004-2006) for two research papers (one incomplete). Epstein was de facto CFO of Wexner family office approving grants during this exact period. Creates direct financial flow: Wexner -> Foundation -> Barak, with Epstein as gatekeeper."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2015-03-16",
+        "label": "STC entity identified as Southern Trust Company, Inc. (USVI). Indyke wired $1M from STC account #9244 to ERGO Ltd. at Bank Leumi Israel on March 16, 2015, reference 'Reporty Investment'. Indyke explicitly stated 'I thought we did not want your name associated with this Investment' when Israeli lawyers requested controlling person info for anti-money laundering compliance.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 328
+      },
+      {
+        "date": "2016-01-10",
+        "label": "Barak 'carry' on Carbyne investment confirmed. Nicole Junkermann asked Epstein directly on Jan 10, 2016: 'Ehud is interested in a carry (of course) how much would you give him?' NJF Capital (Junkermann's CFO Nikolajs Smirnovs) modeled sensitivity analysis of Ehud carry at various valuations: at $100M valuation, Ehud carry = $695K; at $200M valuation, Ehud carry = $1.97M. Axon Enterprise signed definitive agreement to acquire Carbyne in Q4 2025.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 333
+      },
+      {
+        "date": "2018",
+        "label": "Carbyne investment channeled through Deutsche Bank (DB). Indyke referenced 'the transferring bank which is DB' and asked Richard Kahn to contact 'Stewart Oldfield at DB' for bank recommendation letter. This ties Epstein's Carbyne investment to his Deutsche Bank accounts — same bank later fined $150M for Epstein-related compliance failures.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 335
+      },
+      {
+        "date": "2018-05",
+        "label": "Carbyne connected to Peter Thiel's Founders Fund via Nicole Junkermann. Email chain (May 2018): Junkermann brokered intro between Carbyne CEO Amir Elichai and Trae Stephens at Founders Fund (ex-Palantir). Chris Hopkins of NW/RIF Capital facilitated, noting Stephens' 'background at Palantir' and expected 'serendipity.' Junkermann told Epstein and Barak: 'We made the connection to Founders Forum from Peter Thiel.' Epstein and Barak CC'd throughout.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 340
+      },
+      {
+        "date": "2019-03",
+        "label": "Epstein invested 3.6M in Carbyne (formerly Reporty Ltd) through an entity called STC, with Darren Indyke managing the transaction. Indyke noted in March 2019: I thought we did not want your name associated with this Investment. The anti-money-laundering process required identifying the controlling person. Nicole Junkermann (NJF Capital) and Ehud Barak were co-investors with carried interest. Valuation models ranged from 67M to 200M. Carbyne connected to Founders Fund / Trae Stephens (Palantir background) via NJF Capital.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 291
+      },
+      {
+        "date": "2019-03",
+        "label": "Full $3.6M Carbyne warrants exercise structure revealed. SUM (E.B.) Limited Partnership held warrants to purchase 61,251 Preferred A Shares. SUM's two limited partners: Southern Trust Company Inc. (66.67%, $2.4M) and Montilla International Corporation/NJF Capital Corp (33.33%, $1.2M). Warrants exercised March 2019, funds received in ERGO (E.B. 2014) Ltd. account at Bank Leumi. This would increase SUM holdings from ~13% to ~26.33% of Carbyne on fully diluted basis.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 330
+      },
+      {
+        "date": "2019-03-14",
+        "label": "Indyke resisted revealing Epstein as controlling person of STC to Israeli lawyers handling Carbyne anti-money-laundering compliance. Wrote: 'I thought we did not want your name associated with this Investment.' Barak reassured Epstein: 'That is the Israeli banks paranoia after they paid the penalties...it was never leaked out of the banks.' Epstein ultimately gave 'ok' to disclose on March 14, 2019 — 4 months before arrest.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 331
+      },
+      {
+        "date": "2021-07",
+        "label": "Carbyne Inc. maintained active lobbying from Q3 2021 through Q4 2025 (19 filings) via LSN Partners LLC, focused exclusively on Next Generation 911 and Emergency Communications. Spending was steady at 10K/quarter through Q3 2025, increasing to 20K/quarter from Q4 2024. Lobbied on Build Back Better Act, H.R.59 SAVE Act, and H.R.637 SAVE Act. Key lobbyist: Jose Fuentes (consistent throughout). Carbyne was co-founded by Ehud Barak with Epstein investment (STC wired 1M to ERGO Ltd at Bank Leumi). Barak was chairman. Axon acquired Carbyne Q4 2025. Lobbying continued through acquisition.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 413
+      }
+    ]
+  }
+}

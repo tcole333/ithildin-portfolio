@@ -1,0 +1,2425 @@
+{
+  "name": "Les Wexner",
+  "slug": "les-wexner",
+  "aliases": [
+    "Leslie Wexner",
+    "Wexner"
+  ],
+  "generated_at": "2026-02-20T01:17:47.250503",
+  "last_updated": "2026-02-15T08:33:21",
+  "stats": {
+    "total_findings": 27,
+    "total_connections": 29,
+    "total_entities": 1,
+    "finding_types": {
+      "intelligence": 5,
+      "location": 1,
+      "financial": 13,
+      "legal": 5,
+      "communication": 3
+    },
+    "connection_types": {
+      "corporate": 11,
+      "legal": 4,
+      "familial": 1,
+      "social": 1,
+      "financial": 12
+    },
+    "last_updated": "2026-02-15T08:33:21"
+  },
+  "findings": [
+    {
+      "id": 1379,
+      "finding_type": "intelligence",
+      "summary": "LittleSis entity 4432 (Les Wexner, net worth 2.8B) has 50+ documented relationships including positions at Limited Brands entities and family connections. Wexner SEC CIK is 901359. Abigail S. Wexner (nee Koppel, LittleSis entity 80089) was an associate at Davis Polk and Wardwell in NYC and London 1987-1992 before marrying Wexner. Her father Yehuda Koppel opened the first El Al Israel Airlines ticket office in New York in the 1950s - establishing an Israeli connection predating the Epstein relationship. The Leslie H. Wexner Charitable Fund (entity 458503) is a separate philanthropy vehicle from the Wexner Foundation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1987",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:03:10",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:4432",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "finding_type": "location",
+      "summary": "Wexner/SAM Conversion Corp held BOTH 9 E 71st (BBL 1/1386/10) and 11 E 71st (BBL 1/1386/12) via Columbus OH entities. SAM Conversion Corp acquired 11 E 71st from Xandra Corporation NV (offshore) in 1988. Nine East 71st St Corp (also at 41 South High St Columbus OH) acquired 9 E 71st from Birch Wathen School in 1989. Wexner also had personal mortgage at 5 East 74th St (BBL 1/1389/7) for 7.975M via Citibank. Wexner also sold BBL 1/1379/1 for 36M in 2011.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1988",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:59:38",
+      "target_name": "Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2011011201001001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1090000264109",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1690000317169",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1980000171298",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1514,
+      "finding_type": "financial",
+      "summary": "ACRIS complete property chain for 9 E 71st St (BBL 1/1386/10) with valuations: (1) Sep 6 1989: Birch Wathen School deeds to Nine East 71st St Corp (41 South High St Columbus OH = Wexner L Brands HQ), amount 0 recorded; (2) Dec 23 2011: Nine East 71st Street Corporation (now at 301 E 66th St 10F = Epstein/Ossa address) deeds to Maple Inc (9100 Havensight Port of Sale Suite 15/16 St Thomas USVI 00802) for 0 dollars recorded, 100 percent transfer; (3) Mar 8 2021: Maple Inc (9053 Estate Thomas Suite 101 St Thomas USVI) deeds to Back To NYC 71 LLC for 51M dollars; (4) May 26 2021: Back To NYC 71 LLC (24 Lansdowne Road London W11 3LL) takes 30.6M mortgage from MERS; (5) Jun 22 2023: Back To NYC 71 LLC deeds to Bolt 1 LP for 65.6M. Key: Maple Inc was a USVI corporation (entity 581976, registered 11/22/2011, dissolved 12/21/2021) managed by Business Basics VI LLC (Kellerhals hub). The 2011 deed showed the address change from Columbus OH to 301 E 66th = control shift from Wexner to Epstein operation. The 2021 sale at 51M was post-mortem estate liquidation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1989-09-06",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:40:39",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "2021031500304001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "2023073100715001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2011122700736001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FT_1690000317169",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "finding_type": "financial",
+      "summary": "Leslie Wexner personally had 5 lobbying filings: 2 in 1999 (personal client 'WEXNER LESLIE H' via A. Mark Neuman, on Apparel/Textiles and Trade, terminated mid-1999), and 3 in 2002-2003 (Wexner Heritage Village via Matthew G. Kallner, on Budget/Appropriations, terminated mid-2003). No personal lobbying after 2003. All subsequent lobbying was through L Brands/Limited Brands corporate entities.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1999",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:45",
+      "target_name": "Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:44a141fd-5da1-4fee-bc21-e64fd5c510de",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2344,
+      "finding_type": "legal",
+      "summary": "The Limited (Wexner) was NAMED DEFENDANT in Jan 13 1999 Saipan sweatshop lawsuits. SEC 10-K filings confirm: (1) two complaints filed alleging RICO, peonage, indentured servitude, international law violations; (2) lawsuit related to Saipan labor practices; (3) settlement granted conditional preliminary approval Oct 31 2002; (4) Mast Industries Inc (wholly-owned subsidiary) was contract manufacturer/apparel importer handling 35% of merchandise, with Hong Kong subsidiary Mast Industries (Far East) Ltd sourcing from Far East. Mast had $329M external sales (FY2002). The Limited's Columbus OH distribution had 6.1M sq ft. Foreign income from sourcing: $69.7M (FY2000).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1999-01-13",
+      "claim_type": "direct_quote",
+      "verification_status": "disputed",
+      "created_at": "2026-02-14 22:35:34",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FY2000 10-K",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FY2002 10-K (settlement)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK 701985",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2358,
+      "finding_type": "legal",
+      "summary": "Full Saipan lawsuit docket structure identified. DOE 001 v. Advance Textile Corp (1:99-cv-00002, D.N.Mar.I., filed 1/14/1999) = class action against 26+ manufacturers and 23 US retailers including The Limited. Doe I v. The Gap (1:01-cv-00031, RICO 18:1962, 2001-2014) = 13-year RICO case alleging organized criminal enterprise. Also: US v. CNMI (1:99-cv-00017, consent decree in 2 days), US v. Micronesian Garment Manufacturing (1:99-cr-00049, criminal prosecution), Herman v. Micronesian Garment (DOL enforcement). Settlement: $11.25M from 23 manufacturers + 7 retailers to compensate 30,000+ workers. Additional 10+ garment labor cases in CNMI through 2008.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1999-01-14",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:19",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener DocketID 18838563",
+          "source_quote": " Doe 001 v. Advance Textile Corp, 1:99-cv-00002 D.N.Mar.I., Filed 1999-01-14. CourtListener DocketID 18885284: Doe I v. The Gap Inc, 1:01-cv-00031 D.N.Mar.I., Filed 2001-06-04 (RICO, 18:1962). Gap 8-K Sep 26 2002: '.25 million financial contribution by 23 manufacturers and 7 retailers...compensate potentially more than 30,000 garment workers.'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener DocketID 18885284",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR Gap 8-K ADSH 0000093066-02-003385",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2389,
+      "finding_type": "legal",
+      "summary": "Delaware Chancery Court derivative action (May-June 1999): shareholders sued The Limited board seeking to rescind a Contingent Stock Redemption Agreement with Leslie H. Wexner and The Wexner Children's Trust. Filed simultaneously with the Saipan lawsuits. This agreement would have allowed Wexner to redeem stock at guaranteed prices — shareholders alleged it was self-dealing.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1999-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:09:37",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0001021408-00-001562",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1359,
+      "finding_type": "financial",
+      "summary": "NYSG LLC at 457 Madison Ave (Epstein entity) sent FedEx packages to Abigail S. Wexner at One Whitebarn Rd New Albany OH and to Peg Ugland at New Albany Property Inc 6525 West Campus Oval Ste 105 New Albany OH 43054 and to Julie Ferree at The Limited Inc Three Limited Pkwy Gahanna OH regularly in 2001-2002. Senders were Lauren K. Wintner and Darren K. Indyke from NYSG LLC. Also sent to Karl Schwabe in West Palm Beach FL. Documents routine document flow between Epstein operations and Wexner family and corporate addresses.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2001",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:00:31",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01314883",
+          "source_quote": "LAUREN K WINTNER NYSG LLC 457 MADISON AVE to ABIGAIL S WEXNER ONE WHITEBARN RD NEW ALBANY OH and PEG UGLAND NEW ALBANY PROPERTY INC",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1358,
+      "finding_type": "legal",
+      "summary": "SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, filed Oct 2 2002, terminated Oct 21 2003) is a diversity breach of contract case where ALL FIVE parties are Leslie Wexner, Abigail Wexner, Jeffrey E. Epstein, Ghislaine Maxwell, and Nelson Shanks (portrait artist). Assigned to Judge Clarence Charles Newcomer. This joint lawsuit establishes a legal nexus: Wexner, Abigail Wexner, Epstein, and Maxwell were co-defendants in 2002, consistent with their intertwined personal and business relationships.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2002-10-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:00:31",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:11742516",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1525,
+      "finding_type": "intelligence",
+      "summary": "Comprehensive timeline of Wexner-Epstein financial separation documented across SEC, ACRIS, and DOJ sources: (1) Dec 9 2004: Abigail Trust restructured - 3.3M shares to Trust 600, 3.75M shares to Wexner directly; (2) Sept 1 2005: H.R.E.I. Trust restructured - 4.57M shares to R.H.R.E.I. Trust, 4.76M to Wexner directly (net reduction in Epstein-controlled trusts despite same total); (3) Jul-Aug 2006: Foxcote One sells 4.5M shares; Foxcote Two sells 509K shares (Wexner-only trusts liquidating); (4) Aug 31 2006: Amendment 33 - Epstein STILL signing as FTC President for Trust 600 and R.H.R.E.I. Trust (this is AFTER Epstein's July 2006 arrest); (5) Sept 21 2007: Amendment 34 - Kaufman replaces Epstein as trustee. Summary: the formal removal took 14 months from Epstein arrest. The trust restructurings of 2004-2005 preceded the arrest and may have been motivated by the 2005 Palm Beach investigation beginning. However Epstein continued signing SEC filings 13 months after arrest - suggesting either the separation was procedural not substantive, or the legal process was genuinely slow. The replacement trustee (Kaufman) had pre-existing ties to Epstein's 457 Madison office.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2004-12-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:42:48",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=CIK+901359+Amendments31-34",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1511,
+      "finding_type": "financial",
+      "summary": "The complete Wexner trust entity architecture revealed by SEC filings (2001-2007): (1) Trust 600 - trustee was Financial Trust Company Inc with Epstein as sole stockholder/director/president, held 3.3M L Brands shares; (2) R.H.R.E.I. Trust - same FTC trustee structure, held 4.57M shares; (3) H.R.E.I. Trust - Wexner and Epstein as co-trustees (restructured Sept 2005 into R.H.R.E.I. Trust); (4) The Abigail Trust - Wexner and Epstein as co-trustees (restructured Dec 2004 into Trust 600 and direct Wexner holdings); (5) Foxcote One - Wexner sole trustee, 15M shares (sold 4.5M shares Aug 2006); (6) Foxcote Two - Abigail and Leslie co-trustees, 5M shares; (7) The Family Trust - Wexner sole trustee (added Amendment 33, Aug 2006); (8) The Concierge Trust - Wexner sole trustee, 1.5M shares (added Amendment 34); (9) Wexner Personal Holdings Corporation - Wexner sole stockholder/director/officer, 4.89M shares. The restructuring trend (2004-2007) systematically moved shares from Epstein-connected trusts to Wexner-only entities BEFORE the formal removal in Sept 2007.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2005-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:40:13",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000909518-05-000716",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1508,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR SC 13D/A filings (Amendments 1-33, 2001-2006) document Epstein as President of Financial Trust Company Inc, the sole trustee entity controlling Trust 600 (3,300,568 L Brands shares) and R.H.R.E.I. Trust (4,571,601 shares). Epstein signed as officer on behalf of these trusts, giving him direct fiduciary control over 7.87M L Brands shares worth approximately 200M at 2005 prices. This was not merely advisory - Epstein had sole dispositive power over these trusts. Amendment 31 (Sept 7 2005) is the clearest: Financial Trust Company Inc Jeffrey E Epstein President signed on behalf of Trust 600 and R.H.R.E.I. Trust. Additionally the Abigail Trust and H.R.E.I. Trust named both Wexner and Epstein as co-trustees. Total Epstein-connected shares in 2005 filing: approximately 7.87M direct through FTC plus shared power in Abigail and HREI trusts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2005-09-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:39:49",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000909518-05-000716",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1522,
+      "finding_type": "financial",
+      "summary": "NYSG LLC served as the operational billing entity for Epstein travel. DOJ corpus shows NYSG as the account name on all Tristar Worldwide luxury car service bookings for Jeffrey Epstein in 2018 (EFTA02260159, EFTA02265253, EFTA02305590, et al.). Trips included: BED (Bedford airport) to 1 Brattle Sq Cambridge MA (Harvard), 207 Fisher Ave Brookline MA (Summers residence), and return. Also EFTA02679045 shows NYSG alongside HBRK in a compensation table for Richard Kahn (hire date 10/17/2005), documenting that NYSG and HBRK were distinct payroll entities within the Epstein operation. NYSG LLC at 457 Madison Ave shipped FedEx packages to Abigail Wexner and Wexner-related entities per finding 1359. The name NYSG may stand for New York Sending Group or similar; it is NOT registered in NY SoS records as of 2026, suggesting it was incorporated elsewhere (possibly USVI or DE).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2005-10-17",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:42:05",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02260159",
+          "source_quote": "Subject TRISTAR WORLDWIDE TRIP ALERT FOR JEFFREY EPSTEIN CONFIRMATION # 2367 \nDEAR VALUED TRISTAR WORLDWIDE CLIENT, \nTRIP ALERT: YOU HAVE A PICKUP SCHEDULED FOR TOMORROW: \nTRAVELER : JEFFREY EPSTEIN \nACCOUNT: NYSG \nCONFIRMATION #: 722367 \nPICKUP DATE: 10/15/2018 10:30 \nPICKUP: Airport: BED /...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02265253",
+          "source_quote": "Subject TRISTAR WORLDWIDE TRIP ALERT FOR JEFFREY EPSTEIN CONFIRMATION # 6674 \nDEAR VALUED TRISTAR WORLDWIDE CLIENT, \nTRIP ALERT: YOU HAVE A PICKUP SCHEDULED FOR TOMORROW: \nTRAVELER : JEFFREY EPSTEIN \nACCOUNT: NYSG \nCONFIRMATION #: 836674 \nPICKUP DATE: 12/02/2018 10:15 \nPICKUP: Airport: BED /...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02305590",
+          "source_quote": "Attachments: \nTT_1800724729_23104257.html; Untitled attachment 00094.htm \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02679045",
+          "source_quote": "HBRK ASSOCIATES COMPENSATION & BENEFITS \n• \n \n \nNYSG \n2004 \nNYSG ; NYSG \n 1  NYSG  !_NYSG \n2005 \n1 2006 \ni \n2007 \nI 2008 \nHBRK \n2009 \nHBRK \n HBRK \n2010 1 2011 1 \nHBRK \n2012 \n. \nHBRK \n2013 \ni \nRichard Kahn \nHire date: 10/17/2005 \n \n10:6ffi \n..1 \nMOM \n.\ni- 236:Citiilil -260:10-i 250,000 \n.6....",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1531,
+      "finding_type": "intelligence",
+      "summary": "Mega Group co-founder confirmed by LittleSis (relationship 1634429). The Mega Group was a secretive organization of Jewish billionaire philanthropists co-founded by Wexner and Charles Bronfman in the 1990s. Members included Ronald Lauder, Edgar Bronfman Sr., Michael Steinhardt, and others. The group coordinated large-scale philanthropy to Israel and Jewish causes but has been the subject of speculation regarding connections to Israeli intelligence. Wexner also served as Chair of Board of Trustees at Ohio State University (from Dec 2005), Dean's Council member at Harvard Kennedy School, Director at Sun-Times Media Group 1996-2002 (Hollinger International/Conrad Black connection), and is on the board of L Brands from 1963. Wexner's wife Abigail S. Wexner (nee Koppel) was an associate at Davis Polk and Wardwell 1987-1992 - her father Yehuda Koppel opened the first El Al Israel Airlines ticket office in New York in the 1950s (per finding 1379).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2005-12",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:43:59",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:4432:rel1634429",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "findings:1379",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1530,
+      "finding_type": "intelligence",
+      "summary": "The Wexner-Epstein separation was NOT clean despite SEC formalization in Sept 2007. Multiple lines of evidence show continued operational entanglement post-separation: (1) SMG/Seed Media Group cap table forwarded to Lesley Groff in Sept 2009 showing Wexner interest, brokered by Epstein post-conviction (per finding 1357); (2) NYSG LLC at 457 Madison Ave (Epstein) sending regular FedEx packages to Abigail Wexner at One Whitebarn Rd New Albany OH 2001-2002 (finding 1359); (3) Landmark Land Company in New Albany OH continuing direct Epstein communication through at least 2010; (4) Gideon Kaufman receiving shipments from 457 Madison Ave from 2001 onwards - the replacement trustee was embedded in Epstein operations; (5) HBRK Associates (Epstein entity) and NYSG compensation table showing parallel corporate structures (EFTA02679045). The SEC filings documented a formal change; the operational evidence shows continued financial and operational integration well beyond 2007.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2007-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:43:46",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "1359",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "DugganUSA:Kaufman",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02679045",
+          "source_quote": "HBRK ASSOCIATES COMPENSATION & BENEFITS \n• \n \n \nNYSG \n2004 \nNYSG ; NYSG \n 1  NYSG  !_NYSG \n2005 \n1 2006 \ni \n2007 \nI 2008 \nHBRK \n2009 \nHBRK \n HBRK \n2010 1 2011 1 \nHBRK \n2012 \n. \nHBRK \n2013 \ni \nRichard Kahn \nHire date: 10/17/2005 \n \n10:6ffi \n..1 \nMOM \n.\ni- 236:Citiilil -260:10-i 250,000 \n.6....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "findings:1357",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1510,
+      "finding_type": "financial",
+      "summary": "SEC SC 13D/A Amendment 34 (September 21 2007) documents the formal removal of Epstein from Wexner trust structure. Filing states: On September 21 2007 Gideon I. Kaufman succeeded as sole trustee of each of Trust 600 and R.H.R.E.I. Trust. Kaufman is described as an attorney and shareholder of Kaufman Peterson and Dishler PC at 315 East Hyman Ave Suite 305 Aspen CO 81611. This was filed 14 months after Epstein's July 2006 arrest by Palm Beach PD. Critically, the filing does NOT mention Epstein by name or explain the succession - it simply states Kaufman succeeded. Foxcote One and Foxcote Two also ceased to be Purchasers as they no longer held shares. This is the documented moment of formal financial separation between Wexner and Epstein in the SEC record.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2007-09-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:40:00",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000909518-07-000835",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1546,
+      "finding_type": "financial",
+      "summary": "ACRIS records confirm Wexner NYC real estate footprint: (1) Leslie Herbert Wexner purchased property at Block 1389 Lot 7 (near E 71st St) in 1985 from Gloria Ann Gurney, with Citibank mortgage subsequently satisfied; sold to German government (Bundersrepublik) in 1991 from 5 East 74th St address. (2) Abigail S. Wexner purchased at 15 Central Park West for USD 13,339,075 in Jan 2008. (3) Wexners sold Block 1379 Lot 1 property for USD 36M to Lazarus Samuel Heyman in Jan 2011, address given as 1 Whitebarn Road, New Albany OH. (4) Susan Wexner 2014 Revocable Trust at 980 Fifth Avenue. The 1989 purchase of 9 E 71st St used Columbus OH address 41 South High St matching The Limited headquarters — this deed pre-dates the well-known 1996/1998 'gift' narrative.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2008-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:52:41",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2011011201001001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1500000093650",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1690000317169",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1357,
+      "finding_type": "communication",
+      "summary": "Epstein forwarded a cap table document showing Wexner interest in SMG (Seed Media Group, Adam Bly company) in Sept 2009. Neil Raymond sent cap table to Adam Bly who forwarded to Lesley Groff per Jeffreys request. This documents Epstein brokering Wexner investment in Seed Media Group as late as 2009 - post-conviction - showing the financial relationship continued after the 2008 plea deal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:00:31",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02437099",
+          "source_quote": "Wexner interest in SMG Seed Wexner Cap Table Sept 2009 Per Jeffreys request from Neil Raymond to Adam Bly",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1526,
+      "finding_type": "financial",
+      "summary": "ACRIS documents Wexner property at 5 East 74th Street (BBL 1/1389/7): 1987 mortgage from Citibank NA for 7.975M to Leslie H. Wexner at 5 East 74th Street. 1991 PAT (power of attorney) from Leslie Herbert Wexner to Barbara M. Pizzolato. Also ACRIS 2011011201001001: Leslie H and Abigail S Wexner (1 Whitebarn Road New Albany OH 43054) sold 834 Fifth Avenue unit 5-6A to Lazarus Samuel Heyman (25 Sutton Place NYC) for 36M on Jan 12 2011. Additionally, document 2015012000265001 shows Susan Wexner transferred to Susan R. Wexner 2014 Revocable Trust at 980 Fifth Avenue Apartment 21A. Wexner family maintains multiple NYC properties through various family members and trusts, all independent of Epstein after 2007.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-01-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:43:01",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2011011201001001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2015012000265001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1980000171298",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1356,
+      "finding_type": "communication",
+      "summary": "Epstein drafted detailed personal talking points about Wexner on June 14 2014, sent to himself via jeevacation@gmail.com. Notes incrementally built in subject line: necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan followed, put in fake secretary took an attny. This is Epstein rehearsing a defense narrative about Wexner referencing a necklace, Wexner mother Bella suicide and sister Sharon, New Albany OH, bankruptcy concerns, a claim he never acted without informing Wexner, attorney Jack Kessler, Wexner being scared, a trust sale with put-call option, architect Thierry Despont who renovated 9 E 71st, and Wexner retaining an attorney. Suggests Epstein anticipated legal confrontation with Wexner.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-06-14",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:00:31",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708682",
+          "source_quote": "necklaace mother suicide sharon taxes new albany bankrupt never ever did anything without informing les taken advantage of understand scared",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1521,
+      "finding_type": "communication",
+      "summary": "The fullest version of Epstein's defense talking points re Wexner is EFTA02358202 (DugganUSA, sent from jeevacation@gmail.com June 14 2014 11:01 AM, subject wexner). The complete text is an incrementally built bullet-point narrative: necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand, scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan, followed put in fake secretary took an attny I would never give him up, craig lursen everyday 24 hrs a day, security jancks house new albay aspen, ghislane stood by father brothers wexner apt house forrester mother money rescued, ted dana, shelley concord skiing hollywood support before and after, dersh dont make deal probation 5 years with 3 early term no details of probation transfer, 30k per day millions brother J rory. This document is a roadmap of Epstein's claims about the Wexner relationship including: sale of trust with put-call option, Wexner being scared, Thierry Despont (architect), Dick Grey (attorney), Jack Kessler (attorney), Craig and Lursen (unidentified contacts), and Dershowitz plea negotiation terms.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-06-14",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:41:47",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02358202",
+          "source_quote": "necklaace mother suicide sharon taxes new albany bankrupt never ever did anything without informing les questionable as to unrelated third party jack kessler stanley jerry my personal taken advantage of understand scared i would never put les in harms way He never called sale of trust put call despont dick grey susan followed put in fake secretary took an attny I would never give him up craig lursen everyday 24 hrs a day security jancks house new albay aspen ghislane stood by father brothers wexner apt house forrester mother money rescued ted dana shelley concord skiing hollywood support before and after dersh dont make deal probation 5 years with 3 early term no details of probation transfer 30k per day millions brother J rory",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "finding_type": "financial",
+      "summary": "Leslie Wexner made 515+ FEC contributions, predominantly Republican with some bipartisan giving. Largest donations: K Right to Rise USA/Jeb Bush (2015), K With Honor Fund (2017), K Buckeye Leadership Fund (2024), K Fighting for Ohio Fund (2016). Heavy Ohio focus: Joyce Beatty, Troy Balderson, Jim Jordan, Steve Stivers. Also donates nationally: NRSC (K+), Senate Majority PAC, Republican Majority Fund. Like Black, Wexner's political giving operates at a scale completely independent of Epstein's network. Both Wexner and Black gave K to Right to Rise USA (Jeb Bush) in 2015 -- the only shared mega-recipient.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:49:57",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00570549/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00571703/schedule_a",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1532,
+      "finding_type": "legal",
+      "summary": "Dershowitz deposition testimony (HOUSE_OVERSIGHT_022159) reveals he called Abigail Wexner to warn about an alleged extortion plot directed against Leslie Wexner. Dershowitz testified: I called Leslie Wexner. I got his wife on the phone Abigail Wexner. I said I think you ought to know that there is an extortion plot being directed against your husband by unscrupulous lawyers in Florida. And she said Oh we are aware of that they have already been in contact with us. Dershowitz then learned that Brad Edwards (plaintiff attorney) had sent communications urging people to watch Virginia Roberts interview on television. This testimony, while self-serving on Dershowitz's part, documents: (1) Abigail Wexner was the point of contact, not Leslie; (2) the Wexners were already aware of the allegations; (3) Dershowitz framed the abuse claims as an extortion plot, consistent with Epstein defense strategy. The separate finding 1316 documents Giuffre testimony of multiple sexual encounters including at Wexner properties.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:44:10",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022159",
+          "source_quote": "I called Leslie Wexner I got his wife on the phone Abigail Wexner I said I think you ought to know that there is an extortion plot being directed against your husband by unscrupulous lawyers in Florida And she said Oh we are aware of that they have already been in contact with us",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1518,
+      "finding_type": "financial",
+      "summary": "Wexner insider transaction pattern 2017-2021 shows massive liquidation of L Brands holdings. Key events: (1) Apr 2017: Exercised 1.55M stock options at 6-42 per share; (2) Oct 2017: J transaction 509K shares at 41.84; (3) Dec 2016: J transaction 1.13M shares at 65.93; (4) Dec 2018: Gift of 960K shares; (5) Aug 2020: Gift of 2M shares + sale of 3M shares at 29.70 (after stock crashed from ~80 to ~30 during COVID); (6) Mar 2021: Gift 2M + sale 3.05M shares at 58.31; (7) Jun 2021: Gift 3.5M + sale 5M shares at 65.30; (8) Jul 2021: Gift 10.8M + sale 28.96M shares at 73.01. The July 2021 transaction - disposing of nearly 29M shares at 73.01 - was by far the largest, occurring just before the L Brands/Bath and Body Works spinoff. Total insider dispositions 2020-2021 exceeded 40M shares, roughly 2-3B in value. Wexner held 58.98M shares in 2005 (14.4 percent) and systematically reduced to near zero by the July 2021 exit.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:41:16",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=CIK+901359+Form4+2017-04-10",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=CIK+901359+Form4+2021-06-07",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=CIK+901359+Form4+2021-07-20",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1401,
+      "finding_type": "intelligence",
+      "summary": "LMSBAND entity co-occurrence analysis reveals Wexner appears in 142 files with Epstein, 127 with Jeffrey Epstein. Top non-Epstein co-occurring entities: Bruce Wasserstein (43 files, Lazard banker who died 2009), Harvey Weinstein (41 files), Mortimer Zuckerman (41 files, 34 under full name), Donny Deutsch (38 files), Radar magazine (37 files), Darren Indyke (36 files), Nelson Peitz (34 files), Alan C. Greenberg (33 files, Bear Stearns chairman), Maer Roshan (31 files, Radar editor), Paul Morris (27 files), Richard Kahn (25 files), Abigail S. Wexner (23 files), Lawrence Newman (23 files), and Bill Clinton (22 files). The Wasserstein-Wexner-Weinstein co-occurrence cluster at 41-43 files suggests these appear in media monitoring or reputation management contexts. Indyke and Kahn co-occurrence confirms legal-financial integration.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019",
+      "claim_type": "direct_quote",
+      "verification_status": "disputed",
+      "created_at": "2026-02-14 02:05:27",
+      "target_name": "Les Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LMSBAND:cooccurrence",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1519,
+      "finding_type": "financial",
+      "summary": "Wexner Family Charitable Fund (EIN 31-1318013) at 8000 Walton Pkwy Suite 100 New Albany OH, established 1991, is the primary Wexner philanthropic vehicle with assets of 140.7M (2023). Revenue trajectory shows massive surges correlating with L Brands stock sales: 2014 revenue 170.7M (same year Wexner sold shares aggressively), 2021 revenue 254.4M (massive stock liquidation year), 2023 revenue 129.9M. This pattern of high-revenue years matching insider transaction activity strongly suggests Wexner channeled L Brands stock proceeds through this charitable fund as a tax-efficient liquidation strategy. Assets grew from 87.7M (2011) to 184.9M (2021). By contrast, the Wexner Foundation (EIN 23-7320631) maintained steady 10-15M annual revenue with only 3-6M in assets - it was the operating foundation while the Family Charitable Fund was the endowment vehicle.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2023",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:41:30",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:237320631",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:311318013",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2493,
+      "finding_type": "financial",
+      "summary": "GRM Box #004750684 (EFTA00300480 p47) contains Form Trust Agreements with a Wexner Miscellaneous section listing: (1) YLK Charitable Fund, (2) Annual Invoice for Statutory Representation for Buckeye LLC, (3) 1099-DIV for the RHREI Trust. Also contains LSW Clippings (Leslie Wexner). YLK is a previously unidentified Wexner-linked entity appearing in the same box as trust agreements. The continued presence of a page 46 YLK agreement letter, transfer agreement between WCOUQ and YLK, irrevocable assignment, and YLK board resolution approval of entire transfer — all in Epstein's storage — indicates Epstein managed transfers between Wexner entities including YLK and COUQ/WCOUQ.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:34:23",
+      "target_name": "Leslie Wexner",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 688,
+      "person_a": "Les Wexner",
+      "person_b": "NYSG LLC",
+      "relationship_type": "corporate",
+      "description": "NYSG LLC at 457 Madison sent FedEx to Wexner family and corporate addresses in New Albany OH 2001-2002",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "NYSG LLC",
+      "other_person_slug": "nysg-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01314883",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 678,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Les Wexner",
+      "relationship_type": "legal",
+      "description": "Co-defendants in SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, 2002-2003) alongside Maxwell and Abigail Wexner",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:11742516",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 679,
+      "person_a": "Ghislaine Maxwell",
+      "person_b": "Les Wexner",
+      "relationship_type": "legal",
+      "description": "Co-defendants in SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, 2002-2003) breach of contract",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Ghislaine Maxwell",
+      "other_person_slug": "ghislaine-maxwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:11742516",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "person_a": "Abigail Wexner",
+      "person_b": "Les Wexner",
+      "relationship_type": "familial",
+      "description": "Married couple. Abigail Wexner (nee Koppel) former Davis Polk attorney",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:04:12",
+      "other_person": "Abigail Wexner",
+      "other_person_slug": "abigail-wexner",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:80089",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 709,
+      "person_a": "Les Wexner",
+      "person_b": "New Albany Property Inc",
+      "relationship_type": "corporate",
+      "description": "NYSG LLC shipped documents to Peg Ugland and Paul Burkhardt at New Albany Property Inc 6525 West Campus Oval in Wexner territory",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:07:18",
+      "other_person": "New Albany Property Inc",
+      "other_person_slug": "new-albany-property-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01314883",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1213,
+      "person_a": "Delta Galil Industries",
+      "person_b": "Les Wexner",
+      "relationship_type": "corporate",
+      "description": "Delta Galil was a major supplier to Wexner's Victoria's Secret (private label manufacturer) and franchise operator of VS/BBW in Israel (60% stake). Multi-layered commercial relationship spanning manufacturing, brand licensing, and retail operations.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:19:12",
+      "other_person": "Delta Galil Industries",
+      "other_person_slug": "delta-galil-industries",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #2398",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 1673741",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1225,
+      "person_a": "Isaac Dabah",
+      "person_b": "Les Wexner",
+      "relationship_type": "corporate",
+      "description": "Dabah (Delta Galil CEO/54% owner since 2007-2008) continued and deepened the Victoria's Secret supplier relationship, adding franchise operations in Israel. GMM Capital (Dabah's family fund) acquired controlling interest in Delta Galil 2007. Dabah's FEC donations show AIPAC orientation (K UDP, .5K AIPAC PAC).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:19:45",
+      "other_person": "Isaac Dabah",
+      "other_person_slug": "isaac-dabah",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #2398",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #2413",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 374538",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 652,
+      "person_a": "Les Wexner",
+      "person_b": "Virginia Giuffre",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:35:22",
+      "other_person": "Virginia Giuffre",
+      "other_person_slug": "virginia-giuffre",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOCUMENTCLOUD:24402697",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 708,
+      "person_a": "Bruce Wasserstein",
+      "person_b": "Les Wexner",
+      "relationship_type": "social",
+      "description": "Co-occur in 43 LMSBAND files - highest non-Epstein Wexner associate in corpus",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:07:18",
+      "other_person": "Bruce Wasserstein",
+      "other_person_slug": "bruce-wasserstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LMSBAND:cooccurrence",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "person_a": "Les Wexner",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "financial",
+      "description": "1989 buyer address 41 S High St Columbus OH = Wexner HQ",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:50:54",
+      "other_person": "Nine East 71st Street Corporation",
+      "other_person_slug": "nine-east-71st-street-corporation",
+      "evidence": []
+    },
+    {
+      "id": 1165,
+      "person_a": "Les Wexner",
+      "person_b": "Robbie Karp",
+      "relationship_type": "corporate",
+      "description": "Both Liz Claiborne (Robbie Karp as GC) and The Limited (Wexner) were co-defendants in the 1999 Saipan RICO/peonage class actions involving 30,000 trafficked garment workers. Both companies settled as part of the $20M settlement in 2004.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:02:34",
+      "other_person": "Robbie Karp",
+      "other_person_slug": "robbie-karp",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.business-humanrights.org/en/latest-news/us-apparel-cos-lawsuit-re-saipan/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1220,
+      "person_a": "Dov Lautman",
+      "person_b": "Les Wexner",
+      "relationship_type": "corporate",
+      "description": "Indirect but deep commercial relationship: Lautman's Delta Galil was major supplier to Wexner's Victoria's Secret. Lautman founded Delta Galil in Karmiel (same town as Limited Brands/Mast Industries Israel office). Both operated in Israeli textile/apparel ecosystem. No evidence of direct personal relationship found.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:19:32",
+      "other_person": "Dov Lautman",
+      "other_person_slug": "dov-lautman",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #2384",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #2398",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1188,
+      "person_a": "Les Wexner",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "SAT relocated to Rickenbacker Airport in Columbus OH (Wexner's base), where SAT planes reportedly flew garments from Hong Kong/China for The Limited. Wexner's Mast Industries (Far East) Ltd sourced from Hong Kong. $46.5M state incentives. LittleSis records SAT-Epstein business relationship, and Epstein was Wexner's financial manager. No direct documentary evidence of SAT-Wexner relationship found in corpus or SEC filings.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 22:37:42",
+      "other_person": "Southern Air Transport",
+      "other_person_slug": "southern-air-transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "American Conservative Dec 2025 article",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 345808",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK 701985 10-K (Mast Industries HK)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 612,
+      "person_a": "Leslie Wexner",
+      "person_b": "Darren Indyke",
+      "relationship_type": "legal",
+      "description": "Power of attorney ACRIS 2008012900966001 [Wave 6 ACRIS]",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 00:46:53",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": []
+    },
+    {
+      "id": 871,
+      "person_a": "Darren Indyke",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "financial",
+      "description": "Indyke named in Wexner SC 13D/A SEC filing for TOO Inc 2001 (EDGAR 0000909518-01-000297). Indyke was secretary of Wexner Foundation 1998-2006 per LittleSis. Abigail Wexner gave Indyke power of attorney over 15 CPW condo per ACRIS 2008012900966001.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:40:43",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2008012900966001",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EDGAR:0000909518-01-000297",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:349261",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1235,
+      "person_a": "Leslie Wexner",
+      "person_b": "NES LLC",
+      "relationship_type": "financial",
+      "description": "GRM filing index contains dedicated binder: Leslie H. Wexner Sale of Nine East 71st Street Corporation to NES, LLC. Full closing documents including Nominee Agreement, Stock Power, Stock Certificate, Assignment and Assumption Agreement, Promissory Note, Guaranty, LHW Resignation as Director. General Ledger dated 9/30/98.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:35:40",
+      "other_person": "NES LLC",
+      "other_person_slug": "nes-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1251,
+      "person_a": "Financial Trust Company",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "financial",
+      "description": "GRM Box #004626325 (EFTA00300480 p50) documents FTC/Wexner Children's Trust/MBZ - Purchase of Boston Properties from Prudential, confirming FTC served as investment vehicle for Wexner family trust real estate acquisitions. Also YLK Charitable Fund and Buckeye LLC statutory representation invoiced through Wexner Miscellaneous section of trust agreements (p47).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:36:30",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1271,
+      "person_a": "Leslie Wexner",
+      "person_b": "Southern Air Transport",
+      "relationship_type": "corporate",
+      "description": "SAT flew twice-weekly Hong Kong-Rickenbacker cargo for Wexner's The Limited. Ohio officials and news accounts confirm Wexner played role in SAT relocation.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:33:21",
+      "other_person": "Southern Air Transport",
+      "other_person_slug": "southern-air-transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "freepress_spook_air",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 350,
+      "person_a": "Leon Black",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "financial",
+      "description": "Both donated K to Right to Rise USA (Jeb Bush) in 2015 -- the only shared mega-recipient among Epstein's major financial associates",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:51:12",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "FEC:C00571703/schedule_a",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 747,
+      "person_a": "Gideon Kaufman",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:42:17",
+      "other_person": "Gideon Kaufman",
+      "other_person_slug": "gideon-kaufman",
+      "evidence": []
+    },
+    {
+      "id": 749,
+      "person_a": "Leslie Wexner",
+      "person_b": "Stephen Caplinger",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:43:31",
+      "other_person": "Stephen Caplinger",
+      "other_person_slug": "stephen-caplinger",
+      "evidence": []
+    },
+    {
+      "id": 755,
+      "person_a": "Leslie Wexner",
+      "person_b": "Maple Inc",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:44:18",
+      "other_person": "Maple, Inc.",
+      "other_person_slug": "maple-inc",
+      "evidence": []
+    },
+    {
+      "id": 752,
+      "person_a": "Landmark Land Company",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:44:18",
+      "other_person": "Landmark Land Company",
+      "other_person_slug": "landmark-land-company",
+      "evidence": []
+    },
+    {
+      "id": 753,
+      "person_a": "Financial Trust Company",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:44:18",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": []
+    },
+    {
+      "id": 1015,
+      "person_a": "Jeffrey Schantz",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "corporate",
+      "description": "FedEx shows Schantz as primary contact for Wexner Limited Inc entities and Columbus OH network",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 17:08:13",
+      "other_person": "Jeffrey A. Schantz",
+      "other_person_slug": "jeffrey-a-schantz",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01315419",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1034,
+      "person_a": "Jeffrey Schantz",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "corporate",
+      "description": "FedEx records show Schantz sending documents from J Epstein & Co/NYSG to TIC Limited (The Limited Inc HQ, Gahanna OH), to Herb Wolman at Columbus OH insurance office, and to On Jaffe in Columbus OH — establishing at least 3 separate NYSG-to-Wexner-orbit delivery channels between 1999-2002.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 17:17:57",
+      "other_person": "Jeffrey A. Schantz",
+      "other_person_slug": "jeffrey-a-schantz",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01319292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01319611",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "person_a": "Delta Galil Industries",
+      "person_b": "Leslie Wexner",
+      "relationship_type": "corporate",
+      "description": "Wexner's Limited Brands maintained an overseas office in Karmiel, Israel -- the same small city where Delta Galil has its 534K sqft principal manufacturing facility. Mast Industries (LB subsidiary) managed the sourcing relationship. Epstein had Mast Industries Milan contact in his personal address book.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:19:32",
+      "other_person": "Delta Galil Industries",
+      "other_person_slug": "delta-galil-industries",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00190233",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0001188112-07-000882",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1264,
+      "person_a": "Leslie Wexner",
+      "person_b": "Mortimer Zuckerman",
+      "relationship_type": "financial",
+      "description": "Co-investors in Boston Properties via FTC/Wexner Children's Trust/MBZ joint purchase from Prudential. GRM Filing Index FTC Transaction VI section.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:44:09",
+      "other_person": "Mortimer Zuckerman",
+      "other_person_slug": "mortimer-zuckerman",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "person_a": "Epstein",
+      "person_b": "Wexner",
+      "relationship_type": "financial",
+      "description": "ACRIS deed chain: Wexner entities (SAM Conversion Corp/Nine East 71st Corp at 41 S High St Columbus OH) transferred both 9 E 71st and 11 E 71st properties. 11 E 71st went directly to Epstein as trustee Dec 1992 for zero consideration.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:01:22",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1690000317169",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1850000419485",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "principal",
+      "date_start": null,
+      "date_end": null,
+      "source": "master_narrative",
+      "entity_id": 162,
+      "entity_name": "YHS LLC",
+      "entity_type": "llc",
+      "jurisdiction": "unknown",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1987",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "LittleSis entity 4432 (Les Wexner, net worth 2.8B) has 50+ documented relationships including positions at Limited Brands entities and family connections. Wexner SEC CIK is 901359. Abigail S. Wexner (nee Koppel, LittleSis entity 80089) was an associate at Davis Polk and Wardwell in NYC and London 1987-1992 before marrying Wexner. Her father Yehuda Koppel opened the first El Al Israel Airlines ticket office in New York in the 1950s - establishing an Israeli connection predating the Epstein relationship. The Leslie H. Wexner Charitable Fund (entity 458503) is a separate philanthropy vehicle from the Wexner Foundation.",
+      "confidence": "high",
+      "id": 1379
+    },
+    {
+      "date": "1988",
+      "type": "finding",
+      "finding_type": "location",
+      "summary": "Wexner/SAM Conversion Corp held BOTH 9 E 71st (BBL 1/1386/10) and 11 E 71st (BBL 1/1386/12) via Columbus OH entities. SAM Conversion Corp acquired 11 E 71st from Xandra Corporation NV (offshore) in 1988. Nine East 71st St Corp (also at 41 South High St Columbus OH) acquired 9 E 71st from Birch Wathen School in 1989. Wexner also had personal mortgage at 5 East 74th St (BBL 1/1389/7) for 7.975M via Citibank. Wexner also sold BBL 1/1379/1 for 36M in 2011.",
+      "confidence": "medium",
+      "id": 483
+    },
+    {
+      "date": "1989-09-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ACRIS complete property chain for 9 E 71st St (BBL 1/1386/10) with valuations: (1) Sep 6 1989: Birch Wathen School deeds to Nine East 71st St Corp (41 South High St Columbus OH = Wexner L Brands HQ), amount 0 recorded; (2) Dec 23 2011: Nine East 71st Street Corporation (now at 301 E 66th St 10F = Epstein/Ossa address) deeds to Maple Inc (9100 Havensight Port of Sale Suite 15/16 St Thomas USVI 00802) for 0 dollars recorded, 100 percent transfer; (3) Mar 8 2021: Maple Inc (9053 Estate Thomas Suite 101 St Thomas USVI) deeds to Back To NYC 71 LLC for 51M dollars; (4) May 26 2021: Back To NYC 71 LLC (24 Lansdowne Road London W11 3LL) takes 30.6M mortgage from MERS; (5) Jun 22 2023: Back To NYC 71 LLC deeds to Bolt 1 LP for 65.6M. Key: Maple Inc was a USVI corporation (entity 581976, registered 11/22/2011, dissolved 12/21/2021) managed by Business Basics VI LLC (Kellerhals hub). The 2011 deed showed the address change from Columbus OH to 301 E 66th = control shift from Wexner to Epstein operation. The 2021 sale at 51M was post-mortem estate liquidation.",
+      "confidence": "medium",
+      "id": 1514
+    },
+    {
+      "date": "1999",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Leslie Wexner personally had 5 lobbying filings: 2 in 1999 (personal client 'WEXNER LESLIE H' via A. Mark Neuman, on Apparel/Textiles and Trade, terminated mid-1999), and 3 in 2002-2003 (Wexner Heritage Village via Matthew G. Kallner, on Budget/Appropriations, terminated mid-2003). No personal lobbying after 2003. All subsequent lobbying was through L Brands/Limited Brands corporate entities.",
+      "confidence": "medium",
+      "id": 420
+    },
+    {
+      "date": "1999-01-13",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "The Limited (Wexner) was NAMED DEFENDANT in Jan 13 1999 Saipan sweatshop lawsuits. SEC 10-K filings confirm: (1) two complaints filed alleging RICO, peonage, indentured servitude, international law violations; (2) lawsuit related to Saipan labor practices; (3) settlement granted conditional preliminary approval Oct 31 2002; (4) Mast Industries Inc (wholly-owned subsidiary) was contract manufacturer/apparel importer handling 35% of merchandise, with Hong Kong subsidiary Mast Industries (Far East) Ltd sourcing from Far East. Mast had $329M external sales (FY2002). The Limited's Columbus OH distribution had 6.1M sq ft. Foreign income from sourcing: $69.7M (FY2000).",
+      "confidence": "confirmed",
+      "id": 2344
+    },
+    {
+      "date": "1999-01-14",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Full Saipan lawsuit docket structure identified. DOE 001 v. Advance Textile Corp (1:99-cv-00002, D.N.Mar.I., filed 1/14/1999) = class action against 26+ manufacturers and 23 US retailers including The Limited. Doe I v. The Gap (1:01-cv-00031, RICO 18:1962, 2001-2014) = 13-year RICO case alleging organized criminal enterprise. Also: US v. CNMI (1:99-cv-00017, consent decree in 2 days), US v. Micronesian Garment Manufacturing (1:99-cr-00049, criminal prosecution), Herman v. Micronesian Garment (DOL enforcement). Settlement: $11.25M from 23 manufacturers + 7 retailers to compensate 30,000+ workers. Additional 10+ garment labor cases in CNMI through 2008.",
+      "confidence": "high",
+      "id": 2358
+    },
+    {
+      "date": "1999-06",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Delaware Chancery Court derivative action (May-June 1999): shareholders sued The Limited board seeking to rescind a Contingent Stock Redemption Agreement with Leslie H. Wexner and The Wexner Children's Trust. Filed simultaneously with the Saipan lawsuits. This agreement would have allowed Wexner to redeem stock at guaranteed prices — shareholders alleged it was self-dealing.",
+      "confidence": "high",
+      "id": 2389
+    },
+    {
+      "date": "2001",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "NYSG LLC at 457 Madison Ave (Epstein entity) sent FedEx packages to Abigail S. Wexner at One Whitebarn Rd New Albany OH and to Peg Ugland at New Albany Property Inc 6525 West Campus Oval Ste 105 New Albany OH 43054 and to Julie Ferree at The Limited Inc Three Limited Pkwy Gahanna OH regularly in 2001-2002. Senders were Lauren K. Wintner and Darren K. Indyke from NYSG LLC. Also sent to Karl Schwabe in West Palm Beach FL. Documents routine document flow between Epstein operations and Wexner family and corporate addresses.",
+      "confidence": "confirmed",
+      "id": 1359
+    },
+    {
+      "date": "2002-10-02",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, filed Oct 2 2002, terminated Oct 21 2003) is a diversity breach of contract case where ALL FIVE parties are Leslie Wexner, Abigail Wexner, Jeffrey E. Epstein, Ghislaine Maxwell, and Nelson Shanks (portrait artist). Assigned to Judge Clarence Charles Newcomer. This joint lawsuit establishes a legal nexus: Wexner, Abigail Wexner, Epstein, and Maxwell were co-defendants in 2002, consistent with their intertwined personal and business relationships.",
+      "confidence": "high",
+      "id": 1358
+    },
+    {
+      "date": "2004-12-09",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Comprehensive timeline of Wexner-Epstein financial separation documented across SEC, ACRIS, and DOJ sources: (1) Dec 9 2004: Abigail Trust restructured - 3.3M shares to Trust 600, 3.75M shares to Wexner directly; (2) Sept 1 2005: H.R.E.I. Trust restructured - 4.57M shares to R.H.R.E.I. Trust, 4.76M to Wexner directly (net reduction in Epstein-controlled trusts despite same total); (3) Jul-Aug 2006: Foxcote One sells 4.5M shares; Foxcote Two sells 509K shares (Wexner-only trusts liquidating); (4) Aug 31 2006: Amendment 33 - Epstein STILL signing as FTC President for Trust 600 and R.H.R.E.I. Trust (this is AFTER Epstein's July 2006 arrest); (5) Sept 21 2007: Amendment 34 - Kaufman replaces Epstein as trustee. Summary: the formal removal took 14 months from Epstein arrest. The trust restructurings of 2004-2005 preceded the arrest and may have been motivated by the 2005 Palm Beach investigation beginning. However Epstein continued signing SEC filings 13 months after arrest - suggesting either the separation was procedural not substantive, or the legal process was genuinely slow. The replacement trustee (Kaufman) had pre-existing ties to Epstein's 457 Madison office.",
+      "confidence": "medium",
+      "id": 1525
+    },
+    {
+      "date": "2005-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The complete Wexner trust entity architecture revealed by SEC filings (2001-2007): (1) Trust 600 - trustee was Financial Trust Company Inc with Epstein as sole stockholder/director/president, held 3.3M L Brands shares; (2) R.H.R.E.I. Trust - same FTC trustee structure, held 4.57M shares; (3) H.R.E.I. Trust - Wexner and Epstein as co-trustees (restructured Sept 2005 into R.H.R.E.I. Trust); (4) The Abigail Trust - Wexner and Epstein as co-trustees (restructured Dec 2004 into Trust 600 and direct Wexner holdings); (5) Foxcote One - Wexner sole trustee, 15M shares (sold 4.5M shares Aug 2006); (6) Foxcote Two - Abigail and Leslie co-trustees, 5M shares; (7) The Family Trust - Wexner sole trustee (added Amendment 33, Aug 2006); (8) The Concierge Trust - Wexner sole trustee, 1.5M shares (added Amendment 34); (9) Wexner Personal Holdings Corporation - Wexner sole stockholder/director/officer, 4.89M shares. The restructuring trend (2004-2007) systematically moved shares from Epstein-connected trusts to Wexner-only entities BEFORE the formal removal in Sept 2007.",
+      "confidence": "medium",
+      "id": 1511
+    },
+    {
+      "date": "2005-09-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR SC 13D/A filings (Amendments 1-33, 2001-2006) document Epstein as President of Financial Trust Company Inc, the sole trustee entity controlling Trust 600 (3,300,568 L Brands shares) and R.H.R.E.I. Trust (4,571,601 shares). Epstein signed as officer on behalf of these trusts, giving him direct fiduciary control over 7.87M L Brands shares worth approximately 200M at 2005 prices. This was not merely advisory - Epstein had sole dispositive power over these trusts. Amendment 31 (Sept 7 2005) is the clearest: Financial Trust Company Inc Jeffrey E Epstein President signed on behalf of Trust 600 and R.H.R.E.I. Trust. Additionally the Abigail Trust and H.R.E.I. Trust named both Wexner and Epstein as co-trustees. Total Epstein-connected shares in 2005 filing: approximately 7.87M direct through FTC plus shared power in Abigail and HREI trusts.",
+      "confidence": "high",
+      "id": 1508
+    },
+    {
+      "date": "2005-10-17",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "NYSG LLC served as the operational billing entity for Epstein travel. DOJ corpus shows NYSG as the account name on all Tristar Worldwide luxury car service bookings for Jeffrey Epstein in 2018 (EFTA02260159, EFTA02265253, EFTA02305590, et al.). Trips included: BED (Bedford airport) to 1 Brattle Sq Cambridge MA (Harvard), 207 Fisher Ave Brookline MA (Summers residence), and return. Also EFTA02679045 shows NYSG alongside HBRK in a compensation table for Richard Kahn (hire date 10/17/2005), documenting that NYSG and HBRK were distinct payroll entities within the Epstein operation. NYSG LLC at 457 Madison Ave shipped FedEx packages to Abigail Wexner and Wexner-related entities per finding 1359. The name NYSG may stand for New York Sending Group or similar; it is NOT registered in NY SoS records as of 2026, suggesting it was incorporated elsewhere (possibly USVI or DE).",
+      "confidence": "high",
+      "id": 1522
+    },
+    {
+      "date": "2005-12",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Mega Group co-founder confirmed by LittleSis (relationship 1634429). The Mega Group was a secretive organization of Jewish billionaire philanthropists co-founded by Wexner and Charles Bronfman in the 1990s. Members included Ronald Lauder, Edgar Bronfman Sr., Michael Steinhardt, and others. The group coordinated large-scale philanthropy to Israel and Jewish causes but has been the subject of speculation regarding connections to Israeli intelligence. Wexner also served as Chair of Board of Trustees at Ohio State University (from Dec 2005), Dean's Council member at Harvard Kennedy School, Director at Sun-Times Media Group 1996-2002 (Hollinger International/Conrad Black connection), and is on the board of L Brands from 1963. Wexner's wife Abigail S. Wexner (nee Koppel) was an associate at Davis Polk and Wardwell 1987-1992 - her father Yehuda Koppel opened the first El Al Israel Airlines ticket office in New York in the 1950s (per finding 1379).",
+      "confidence": "medium",
+      "id": 1531
+    },
+    {
+      "date": "2007-09",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "The Wexner-Epstein separation was NOT clean despite SEC formalization in Sept 2007. Multiple lines of evidence show continued operational entanglement post-separation: (1) SMG/Seed Media Group cap table forwarded to Lesley Groff in Sept 2009 showing Wexner interest, brokered by Epstein post-conviction (per finding 1357); (2) NYSG LLC at 457 Madison Ave (Epstein) sending regular FedEx packages to Abigail Wexner at One Whitebarn Rd New Albany OH 2001-2002 (finding 1359); (3) Landmark Land Company in New Albany OH continuing direct Epstein communication through at least 2010; (4) Gideon Kaufman receiving shipments from 457 Madison Ave from 2001 onwards - the replacement trustee was embedded in Epstein operations; (5) HBRK Associates (Epstein entity) and NYSG compensation table showing parallel corporate structures (EFTA02679045). The SEC filings documented a formal change; the operational evidence shows continued financial and operational integration well beyond 2007.",
+      "confidence": "medium",
+      "id": 1530
+    },
+    {
+      "date": "2007-09-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC SC 13D/A Amendment 34 (September 21 2007) documents the formal removal of Epstein from Wexner trust structure. Filing states: On September 21 2007 Gideon I. Kaufman succeeded as sole trustee of each of Trust 600 and R.H.R.E.I. Trust. Kaufman is described as an attorney and shareholder of Kaufman Peterson and Dishler PC at 315 East Hyman Ave Suite 305 Aspen CO 81611. This was filed 14 months after Epstein's July 2006 arrest by Palm Beach PD. Critically, the filing does NOT mention Epstein by name or explain the succession - it simply states Kaufman succeeded. Foxcote One and Foxcote Two also ceased to be Purchasers as they no longer held shares. This is the documented moment of formal financial separation between Wexner and Epstein in the SEC record.",
+      "confidence": "confirmed",
+      "id": 1510
+    },
+    {
+      "date": "2008-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ACRIS records confirm Wexner NYC real estate footprint: (1) Leslie Herbert Wexner purchased property at Block 1389 Lot 7 (near E 71st St) in 1985 from Gloria Ann Gurney, with Citibank mortgage subsequently satisfied; sold to German government (Bundersrepublik) in 1991 from 5 East 74th St address. (2) Abigail S. Wexner purchased at 15 Central Park West for USD 13,339,075 in Jan 2008. (3) Wexners sold Block 1379 Lot 1 property for USD 36M to Lazarus Samuel Heyman in Jan 2011, address given as 1 Whitebarn Road, New Albany OH. (4) Susan Wexner 2014 Revocable Trust at 980 Fifth Avenue. The 1989 purchase of 9 E 71st St used Columbus OH address 41 South High St matching The Limited headquarters — this deed pre-dates the well-known 1996/1998 'gift' narrative.",
+      "confidence": "high",
+      "id": 1546
+    },
+    {
+      "date": "2009-09",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein forwarded a cap table document showing Wexner interest in SMG (Seed Media Group, Adam Bly company) in Sept 2009. Neil Raymond sent cap table to Adam Bly who forwarded to Lesley Groff per Jeffreys request. This documents Epstein brokering Wexner investment in Seed Media Group as late as 2009 - post-conviction - showing the financial relationship continued after the 2008 plea deal.",
+      "confidence": "high",
+      "id": 1357
+    },
+    {
+      "date": "2011-01-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ACRIS documents Wexner property at 5 East 74th Street (BBL 1/1389/7): 1987 mortgage from Citibank NA for 7.975M to Leslie H. Wexner at 5 East 74th Street. 1991 PAT (power of attorney) from Leslie Herbert Wexner to Barbara M. Pizzolato. Also ACRIS 2011011201001001: Leslie H and Abigail S Wexner (1 Whitebarn Road New Albany OH 43054) sold 834 Fifth Avenue unit 5-6A to Lazarus Samuel Heyman (25 Sutton Place NYC) for 36M on Jan 12 2011. Additionally, document 2015012000265001 shows Susan Wexner transferred to Susan R. Wexner 2014 Revocable Trust at 980 Fifth Avenue Apartment 21A. Wexner family maintains multiple NYC properties through various family members and trusts, all independent of Epstein after 2007.",
+      "confidence": "high",
+      "id": 1526
+    },
+    {
+      "date": "2014-06-14",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein drafted detailed personal talking points about Wexner on June 14 2014, sent to himself via jeevacation@gmail.com. Notes incrementally built in subject line: necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan followed, put in fake secretary took an attny. This is Epstein rehearsing a defense narrative about Wexner referencing a necklace, Wexner mother Bella suicide and sister Sharon, New Albany OH, bankruptcy concerns, a claim he never acted without informing Wexner, attorney Jack Kessler, Wexner being scared, a trust sale with put-call option, architect Thierry Despont who renovated 9 E 71st, and Wexner retaining an attorney. Suggests Epstein anticipated legal confrontation with Wexner.",
+      "confidence": "medium",
+      "id": 1356
+    },
+    {
+      "date": "2014-06-14",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "The fullest version of Epstein's defense talking points re Wexner is EFTA02358202 (DugganUSA, sent from jeevacation@gmail.com June 14 2014 11:01 AM, subject wexner). The complete text is an incrementally built bullet-point narrative: necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand, scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan, followed put in fake secretary took an attny I would never give him up, craig lursen everyday 24 hrs a day, security jancks house new albay aspen, ghislane stood by father brothers wexner apt house forrester mother money rescued, ted dana, shelley concord skiing hollywood support before and after, dersh dont make deal probation 5 years with 3 early term no details of probation transfer, 30k per day millions brother J rory. This document is a roadmap of Epstein's claims about the Wexner relationship including: sale of trust with put-call option, Wexner being scared, Thierry Despont (architect), Dick Grey (attorney), Jack Kessler (attorney), Craig and Lursen (unidentified contacts), and Dershowitz plea negotiation terms.",
+      "confidence": "high",
+      "id": 1521
+    },
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Leslie Wexner made 515+ FEC contributions, predominantly Republican with some bipartisan giving. Largest donations: K Right to Rise USA/Jeb Bush (2015), K With Honor Fund (2017), K Buckeye Leadership Fund (2024), K Fighting for Ohio Fund (2016). Heavy Ohio focus: Joyce Beatty, Troy Balderson, Jim Jordan, Steve Stivers. Also donates nationally: NRSC (K+), Senate Majority PAC, Republican Majority Fund. Like Black, Wexner's political giving operates at a scale completely independent of Epstein's network. Both Wexner and Black gave K to Right to Rise USA (Jeb Bush) in 2015 -- the only shared mega-recipient.",
+      "confidence": "medium",
+      "id": 463
+    },
+    {
+      "date": "2016",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Dershowitz deposition testimony (HOUSE_OVERSIGHT_022159) reveals he called Abigail Wexner to warn about an alleged extortion plot directed against Leslie Wexner. Dershowitz testified: I called Leslie Wexner. I got his wife on the phone Abigail Wexner. I said I think you ought to know that there is an extortion plot being directed against your husband by unscrupulous lawyers in Florida. And she said Oh we are aware of that they have already been in contact with us. Dershowitz then learned that Brad Edwards (plaintiff attorney) had sent communications urging people to watch Virginia Roberts interview on television. This testimony, while self-serving on Dershowitz's part, documents: (1) Abigail Wexner was the point of contact, not Leslie; (2) the Wexners were already aware of the allegations; (3) Dershowitz framed the abuse claims as an extortion plot, consistent with Epstein defense strategy. The separate finding 1316 documents Giuffre testimony of multiple sexual encounters including at Wexner properties.",
+      "confidence": "high",
+      "id": 1532
+    },
+    {
+      "date": "2017-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Wexner insider transaction pattern 2017-2021 shows massive liquidation of L Brands holdings. Key events: (1) Apr 2017: Exercised 1.55M stock options at 6-42 per share; (2) Oct 2017: J transaction 509K shares at 41.84; (3) Dec 2016: J transaction 1.13M shares at 65.93; (4) Dec 2018: Gift of 960K shares; (5) Aug 2020: Gift of 2M shares + sale of 3M shares at 29.70 (after stock crashed from ~80 to ~30 during COVID); (6) Mar 2021: Gift 2M + sale 3.05M shares at 58.31; (7) Jun 2021: Gift 3.5M + sale 5M shares at 65.30; (8) Jul 2021: Gift 10.8M + sale 28.96M shares at 73.01. The July 2021 transaction - disposing of nearly 29M shares at 73.01 - was by far the largest, occurring just before the L Brands/Bath and Body Works spinoff. Total insider dispositions 2020-2021 exceeded 40M shares, roughly 2-3B in value. Wexner held 58.98M shares in 2005 (14.4 percent) and systematically reduced to near zero by the July 2021 exit.",
+      "confidence": "high",
+      "id": 1518
+    },
+    {
+      "date": "2019",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "LMSBAND entity co-occurrence analysis reveals Wexner appears in 142 files with Epstein, 127 with Jeffrey Epstein. Top non-Epstein co-occurring entities: Bruce Wasserstein (43 files, Lazard banker who died 2009), Harvey Weinstein (41 files), Mortimer Zuckerman (41 files, 34 under full name), Donny Deutsch (38 files), Radar magazine (37 files), Darren Indyke (36 files), Nelson Peitz (34 files), Alan C. Greenberg (33 files, Bear Stearns chairman), Maer Roshan (31 files, Radar editor), Paul Morris (27 files), Richard Kahn (25 files), Abigail S. Wexner (23 files), Lawrence Newman (23 files), and Bill Clinton (22 files). The Wasserstein-Wexner-Weinstein co-occurrence cluster at 41-43 files suggests these appear in media monitoring or reputation management contexts. Indyke and Kahn co-occurrence confirms legal-financial integration.",
+      "confidence": "confirmed",
+      "id": 1401
+    },
+    {
+      "date": "2023",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Wexner Family Charitable Fund (EIN 31-1318013) at 8000 Walton Pkwy Suite 100 New Albany OH, established 1991, is the primary Wexner philanthropic vehicle with assets of 140.7M (2023). Revenue trajectory shows massive surges correlating with L Brands stock sales: 2014 revenue 170.7M (same year Wexner sold shares aggressively), 2021 revenue 254.4M (massive stock liquidation year), 2023 revenue 129.9M. This pattern of high-revenue years matching insider transaction activity strongly suggests Wexner channeled L Brands stock proceeds through this charitable fund as a tax-efficient liquidation strategy. Assets grew from 87.7M (2011) to 184.9M (2021). By contrast, the Wexner Foundation (EIN 23-7320631) maintained steady 10-15M annual revenue with only 3-6M in assets - it was the operating foundation while the Family Charitable Fund was the endowment vehicle.",
+      "confidence": "medium",
+      "id": 1519
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1522,
+      1359,
+      1530,
+      1357,
+      1521,
+      1356,
+      2493,
+      2344,
+      1546,
+      2358,
+      1401,
+      483
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "unknown"
+      ],
+      "officers": [
+        {
+          "role": "principal",
+          "entity": "YHS LLC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 162,
+          "name": "YHS LLC",
+          "type": "llc",
+          "jurisdiction": "unknown",
+          "role": "principal"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          688,
+          678,
+          679,
+          680,
+          709,
+          1213,
+          1225,
+          652,
+          708,
+          762,
+          1165,
+          1220,
+          612,
+          871,
+          1235
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          1514,
+          420,
+          1359,
+          1511,
+          1508,
+          1522,
+          1510,
+          1546,
+          1526,
+          463
+        ],
+        "connection_ids": [
+          762,
+          871,
+          1235,
+          1251,
+          350,
+          747,
+          749,
+          755
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2344,
+          2358,
+          2389,
+          1358,
+          1532
+        ],
+        "connection_ids": [
+          678,
+          679,
+          652,
+          612
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1379,
+          1525,
+          1531,
+          1530,
+          1401
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          1357,
+          1356,
+          1521
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:46:36.201419",
+    "lead": "<p>Leslie Herbert Wexner (born September 8, 1937) is an American billionaire businessman, founder of The Limited Inc, and the original patron of <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>. Through a relationship that began in the mid-1980s, Wexner granted Epstein sweeping fiduciary authority over his personal wealth, trust architecture, and real estate holdings. SEC SC 13D/A filings (CIK 901359) document that Epstein, as President of <a href=\"/dossiers/financial-trust-company\">Financial Trust Company Inc</a>, held sole dispositive power over at least 7.87 million L Brands shares worth approximately $200 million at 2005 prices through Trust 600 and the R.H.R.E.I. Trust. Additional trusts — the Abigail Trust and H.R.E.I. Trust — named Wexner and Epstein as co-trustees. Wexner’s Columbus, Ohio entities SAM Conversion Corp and <a href=\"/dossiers/nine-east-71st-street-corporation\">Nine East 71st Street Corporation</a> acquired the adjacent Manhattan townhouses at 9 and 11 East 71st Street in 1988 and 1989, which were subsequently transferred into Epstein’s control — the 11 East 71st property deeded directly to Epstein as trustee in December 1992 for zero consideration, and 9 East 71st eventually transferred to Maple Inc, a USVI entity managed by <a href=\"/dossiers/erika-kellerhals\">Business Basics VI LLC</a>. GRM storage documents (EFTA00300480) reveal the full transactional apparatus: a dedicated binder titled “Leslie H. Wexner Sale of Nine East 71st Street Corporation to NES, LLC” contained closing documents including a Nominee Agreement, Stock Power, Promissory Note, and Wexner’s resignation as director, with a general ledger dated September 30, 1998.</p>\n\n<p>The entanglement was not limited to real estate. FedEx records confirm that NYSG LLC at 457 Madison Avenue — an Epstein operational entity — sent regular document shipments to Abigail S. Wexner at One Whitebarn Road, New Albany, Ohio, and to Wexner corporate contacts at The Limited Inc, Three Limited Parkway, Gahanna, Ohio, throughout 2001–2002 (EFTA01314883). Senders included <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> and Lauren K. Wintner. Indyke himself served as secretary of the Wexner Foundation from 1998 to 2006, was named in Wexner’s SEC filings for TOO Inc in 2001, and held power of attorney over Abigail Wexner’s condominium at 15 Central Park West. The formal financial separation, documented in SEC Amendment 34 filed September 21, 2007, came 14 months after Epstein’s July 2006 arrest — and even then, Epstein had continued signing SEC filings as FTC President through at least August 31, 2006. The replacement trustee, Gideon Kaufman of Kaufman Peterson and Dishler PC in Aspen, Colorado, had himself received shipments from 457 Madison Avenue since 2001, embedding continuity with the Epstein operation into the very mechanism of the formal separation.</p>\n\n<p>Evidence of continued entanglement after the formal break is substantial. In September 2009, Epstein brokered a Wexner investment in Seed Media Group, forwarding a cap table showing “Wexner interest in SMG” through <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> (EFTA02437099) — more than a year after Epstein’s 2008 Florida plea deal. In June 2014, Epstein drafted detailed personal talking points about Wexner (EFTA02358202), an incrementally built defense narrative referencing a necklace, Wexner’s mother Bella’s suicide, Wexner being “scared,” a “sale of trust put call,” and the claim that Epstein “never ever did anything without informing les.” The document reads as rehearsal for a legal confrontation with Wexner. Wexner co-founded the Mega Group in the 1990s with Charles Bronfman, a secretive organization of billionaire philanthropists with deep ties to Israel. His wife Abigail’s father, Yehuda Koppel, opened the first El Al Israel Airlines ticket office in New York in the 1950s. The Wexner Foundation and Wexner Family Charitable Fund (assets: $140.7 million as of 2023) channel philanthropy focused on Jewish leadership development and Israeli institutions. By July 2021, Wexner had liquidated virtually his entire L Brands stake — over 40 million shares worth $2–3 billion — timed to the Bath & Body Works spinoff, severing his last formal connection to the company he founded in 1963.</p>",
+    "open_questions": [
+      "What services did Epstein actually provide to Wexner that justified granting sole dispositive power over 7.87 million L Brands shares? The conventional 'financial advisor' framing does not explain why a billionaire would cede fiduciary control to an individual with no disclosed professional credentials, licensing, or regulatory oversight.",
+      "What was the nature and purpose of the 1992 transfer of 11 East 71st Street to Epstein as trustee for zero consideration, and why did the parallel 9 East 71st transfer require a dedicated GRM binder with a Nominee Agreement, Stock Power, and Wexner's resignation as director — paperwork far more complex than a simple gift?",
+      "Did the trust restructurings of 2004–2005 — which preceded Epstein's 2006 arrest by more than a year — respond to the Palm Beach investigation that began in 2005, or were they part of a longer-planned financial separation? The timing suggests foreknowledge of legal exposure.",
+      "What is the full scope of Epstein's management of transfers between Wexner entities including the previously unidentified YLK Charitable Fund, WCOUQ, and Buckeye LLC, as documented in the GRM storage inventory?",
+      "To what extent did the Mega Group's philanthropic coordination with Israel intersect with Epstein's documented intelligence connections, and does Wexner's institutional position — co-founder of the Mega Group, chair of Ohio State's Board of Trustees, Dean's Council member at Harvard Kennedy School — explain why Epstein cultivated the relationship as a platform for access to elite networks?"
+    ],
+    "system_role": "Wexner represents the foundational patron relationship that gave Epstein his initial financial platform, institutional credibility, and operational infrastructure — the original manufactured dependency in which a retail billionaire ceded extraordinary fiduciary control over wealth, property, and corporate trusts to a man with no disclosed credentials, enabling Epstein to convert the Wexner relationship into the prototype for every subsequent client engagement.",
+    "sections": [
+      {
+        "id": "the-trust-architecture",
+        "title": "The Trust Architecture and Fiduciary Control",
+        "content": "<p>The depth of Epstein's control over Wexner's wealth is most precisely documented in SEC SC 13D/A filings for L Brands (CIK 901359), which span Amendments 1 through 34 from 2001 to 2007. The architecture consisted of at least nine distinct trust entities. <a href=\"/dossiers/financial-trust-company\">Financial Trust Company Inc</a>, of which Epstein was sole stockholder, director, and president, served as trustee for Trust 600 (holding 3,300,568 L Brands shares) and R.H.R.E.I. Trust (holding 4,571,601 shares). This gave Epstein sole dispositive power over 7.87 million shares worth approximately $200 million at 2005 prices. Beyond these, the Abigail Trust and H.R.E.I. Trust named both Wexner and Epstein as co-trustees, extending Epstein's authority into the family's broader estate planning. Foxcote One (Wexner sole trustee, 15 million shares), Foxcote Two (Leslie and Abigail co-trustees, 5 million shares), The Family Trust, The Concierge Trust (1.5 million shares), and Wexner Personal Holdings Corporation (4.89 million shares) completed the architecture — but only the first four involved Epstein directly.</p>\n\n<p>The restructuring that preceded the formal separation reveals careful sequencing. In December 2004, the Abigail Trust was restructured: 3.3 million shares moved to Trust 600 and 3.75 million shares were transferred directly to Wexner. In September 2005, H.R.E.I. Trust was restructured similarly: 4.57 million shares to R.H.R.E.I. Trust and 4.76 million directly to Wexner. The net effect was to reduce the number of Epstein-connected trusts while maintaining total share counts — a consolidation that preceded the Palm Beach investigation. In July and August 2006, Foxcote One sold 4.5 million shares and Foxcote Two sold 509,000 shares. Yet on August 31, 2006 — more than a month after Epstein's arrest — Amendment 33 was filed with Epstein still signing as FTC President for Trust 600 and R.H.R.E.I. Trust. It was not until September 21, 2007, fourteen months after the arrest, that Amendment 34 documented Gideon I. Kaufman succeeding as sole trustee. The filing did not mention Epstein by name or explain the succession.</p>\n\n<p>GRM storage records (EFTA00300480) provide a parallel paper trail. Box #004750684 contains trust agreements with a dedicated “Wexner Miscellaneous” section listing YLK Charitable Fund, annual invoices for statutory representation for Buckeye LLC, and 1099-DIV for the RHREI Trust. Transfer agreements between WCOUQ and YLK, an irrevocable assignment, and a YLK board resolution approving the entire transfer all resided in Epstein's storage — confirming he managed the operational mechanics of transfers between Wexner entities. Box #004626325 documents FTC/Wexner Children's Trust/MBZ — a joint purchase of Boston Properties from Prudential, establishing that Financial Trust Company served as the investment vehicle for Wexner family trust real estate acquisitions, including a co-investment with <a href=\"/dossiers/mortimer-zuckerman\">Mortimer Zuckerman</a>.</p>",
+        "viz": null
+      },
+      {
+        "id": "east-71st-street-property-chain",
+        "title": "The East 71st Street Property Chain",
+        "content": "<p>The two adjacent townhouses at 9 and 11 East 71st Street form the physical centerpiece of the Wexner-Epstein relationship. ACRIS records trace every transfer with documentary precision. SAM Conversion Corp acquired 11 East 71st (BBL 1/1386/12) from Xandra Corporation NV, an offshore entity, in 1988. <a href=\"/dossiers/nine-east-71st-street-corporation\">Nine East 71st Street Corporation</a>, registered at 41 South High Street, Columbus, Ohio — the headquarters of The Limited — acquired 9 East 71st (BBL 1/1386/10) from the Birch Wathen School on September 6, 1989, with zero dollars recorded as consideration. The 11 East 71st property was deeded directly to Epstein as trustee in December 1992 for zero consideration (ACRIS FT_1850000419485). The dedicated GRM binder “Leslie H. Wexner Sale of Nine East 71st Street Corporation to NES, LLC” with a general ledger dated September 30, 1998, documents the mechanics of the 9 East 71st transfer through a Nominee Agreement and Stock Power.</p>\n\n<p>The subsequent chain for 9 East 71st reveals the shift from Wexner to Epstein control through address changes alone. On December 23, 2011, Nine East 71st Street Corporation — now listed at 301 East 66th Street, 10F, a known Epstein/Ossa Properties address rather than the original Columbus, Ohio location — deeded the property to Maple Inc at 9100 Havensight, Port of Sale, Suite 15/16, St. Thomas, USVI 00802, for zero dollars, recording a 100 percent transfer (ACRIS 2011122700736001). Maple Inc was a USVI corporation (entity 581976), registered November 22, 2011 — one month before the transfer — and dissolved December 21, 2021, managed by <a href=\"/dossiers/erika-kellerhals\">Business Basics VI LLC</a>. In the post-mortem estate liquidation, Maple Inc deeded 9 East 71st to Back To NYC 71 LLC (24 Lansdowne Road, London W11 3LL) for $51 million on March 8, 2021. That entity took a $30.6 million MERS mortgage in May 2021 and subsequently sold to Bolt 1 LP for $65.6 million in June 2023.</p>\n\n<p>Wexner also maintained a broader New York real estate presence beyond the East 71st properties. A 1987 Citibank mortgage of $7.975 million secured the property at 5 East 74th Street (BBL 1/1389/7). In January 2008, Abigail S. Wexner purchased a condominium at 15 Central Park West for $13,339,075. The Wexners sold their apartment at 834 Fifth Avenue (units 5-6A) to Lazarus Samuel Heyman for $36 million in January 2011. Susan Wexner transferred property at 980 Fifth Avenue to the Susan R. Wexner 2014 Revocable Trust. The contrast between these arm’s-length family transactions and the zero-consideration transfers on East 71st Street underscores the anomalous nature of the property chain that ultimately placed both townhouses under Epstein’s control.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "the-operational-network",
+        "title": "The Operational Network: Columbus, New Albany, and 457 Madison",
+        "content": "<p>The Wexner-Epstein relationship operated through three geographic nodes: Epstein's 457 Madison Avenue office in Manhattan, Wexner's corporate headquarters in Columbus/Gahanna, Ohio, and Wexner's personal estate in New Albany, Ohio. FedEx shipping records from the DOJ corpus document the routine flow of documents between these locations with granular specificity. NYSG LLC at 457 Madison Avenue — an entity that does not appear in New York Secretary of State records and may have been incorporated in the USVI or Delaware — shipped packages to Abigail S. Wexner at One Whitebarn Road, New Albany; to Peg Ugland at New Albany Property Inc, 6525 West Campus Oval, Suite 105, New Albany; and to Julie Ferree at The Limited Inc, Three Limited Parkway, Gahanna, Ohio (EFTA01314883). Senders included <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> and Lauren K. Wintner, both key Epstein operatives. <a href=\"/dossiers/jeffrey-a-schantz\">Jeffrey Schantz</a> sent documents from J. Epstein & Co/NYSG to TIC Limited (The Limited Inc headquarters), to Herb Wolman at a Columbus insurance office, and to On Jaffe in Columbus — establishing at least three separate NYSG-to-Wexner-orbit delivery channels between 1999 and 2002 (EFTA01319292, EFTA01319611).</p>\n\n<p>NYSG LLC was not merely a mailing operation. DOJ corpus documents confirm it served as the operational billing entity for Epstein’s travel as late as 2018, with “NYSG” appearing as the account name on all Tristar Worldwide luxury car service bookings for <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> — including trips from Bedford airport to Harvard’s 1 Brattle Square and to 207 Fisher Avenue, Brookline (the residence of <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>). EFTA02679045 shows NYSG alongside HBRK in a compensation table for <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> (hire date October 17, 2005), confirming NYSG and HBRK were distinct payroll entities within the Epstein operation. The entity that handled Wexner family document shipments in 2001 was the same entity booking Epstein’s car service to Harvard in 2018 — a continuity of infrastructure that outlasted the formal separation by more than a decade.</p>\n\n<p>Indyke's role spanned both the Wexner and Epstein sides of the relationship in ways that made clean separation structurally impossible. He was named in Wexner’s SEC filings for TOO Inc in 2001 (EDGAR 0000909518-01-000297), served as secretary of the Wexner Foundation from 1998 to 2006, and held power of attorney over Abigail Wexner’s 15 Central Park West condominium (ACRIS 2008012900966001). Simultaneously, he was Epstein’s primary attorney and executor of his estate. Gideon Kaufman, the Aspen-based attorney who replaced Epstein as trustee in September 2007, had himself received shipments from 457 Madison Avenue since 2001. The replacement was not a break from the Epstein network but a lateral transfer within it.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "the-limited-and-international-supply-chain",
+        "title": "The Limited, Saipan, and the Israeli Textile Nexus",
+        "content": "<p>Wexner built The Limited into one of America’s largest specialty retailers from its founding in 1963, with Victoria’s Secret, Bath & Body Works, Express, and Lane Bryant among its brands. The company’s international sourcing operation was managed through Mast Industries Inc, a wholly owned subsidiary that handled 35 percent of merchandise and generated $329 million in external sales in fiscal year 2002. Mast Industries (Far East) Ltd, a Hong Kong subsidiary, coordinated production across Asian manufacturers. Foreign income from sourcing reached $69.7 million in fiscal year 2000 (SEC EDGAR CIK 701985). This supply chain had a dark underside: in January 1999, The Limited was named as a defendant in class action lawsuits filed in the District of Northern Mariana Islands alleging RICO violations, peonage, and indentured servitude in Saipan garment factories (DOE 001 v. Advance Textile Corp, 1:99-cv-00002). A separate RICO case (Doe I v. The Gap, 1:01-cv-00031) alleged an organized criminal enterprise spanning 26 manufacturers and 23 U.S. retailers. The settlement, approved October 31, 2002, required $11.25 million from manufacturers and retailers to compensate over 30,000 workers.</p>\n\n<p>The Israeli dimension of Wexner’s business operations has received less attention but is structurally significant. <a href=\"/dossiers/delta-galil-industries\">Delta Galil Industries</a>, an Israeli textile manufacturer, was a major private-label supplier to Victoria’s Secret and operated the Victoria’s Secret and Bath & Body Works franchise in Israel with a 60 percent stake. Delta Galil’s principal manufacturing facility occupied 534,000 square feet in Karmiel — the same small city where Limited Brands maintained an overseas office. This co-location was not coincidental: Mast Industries managed the sourcing relationship, and Epstein had a Mast Industries Milan contact in his personal address book (EFTA00190233). Delta Galil’s founder, Dov Lautman, was a prominent Israeli industrialist. After his death, Isaac Dabah acquired a controlling 54 percent interest through GMM Capital in 2007–2008, deepening the Victoria’s Secret supplier relationship and adding franchise operations. Dabah’s FEC donations show AIPAC orientation.</p>\n\n<p><a href=\"/dossiers/southern-air-transport\">Southern Air Transport</a>, a cargo airline with documented CIA history, relocated its operations to Rickenbacker Airport in Columbus, Ohio — Wexner’s home base — where it flew twice-weekly cargo routes from Hong Kong carrying garments for The Limited. State incentives for the relocation totaled $46.5 million. LittleSis records a business relationship between Southern Air Transport and Epstein (entity 345808), and Epstein was Wexner’s financial manager during the period of SAT’s Columbus operations. The simultaneous filing of the Saipan lawsuits and a Delaware Chancery Court derivative action in mid-1999 — in which shareholders sought to rescind a Contingent Stock Redemption Agreement between The Limited, Leslie H. Wexner, and the Wexner Children’s Trust on grounds of self-dealing — suggests the supply chain controversies and the financial trust architecture operated as interconnected vulnerabilities rather than isolated legal matters.</p>",
+        "viz": null
+      },
+      {
+        "id": "separation-narrative-versus-evidence",
+        "title": "The Separation Narrative Versus the Evidence",
+        "content": "<p>The conventional account holds that Wexner severed ties with Epstein around the time of Epstein’s 2006 arrest and 2008 plea deal. SEC records do confirm a formal separation: Amendment 34 (September 21, 2007) replaced Epstein with Gideon Kaufman as trustee. But multiple lines of evidence demonstrate that the operational relationship persisted well beyond the formal break. In September 2009, more than a year after Epstein’s Florida conviction, Epstein brokered a Wexner investment in Seed Media Group (Adam Bly’s company), forwarding a cap table showing “Wexner interest in SMG” to <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> with the notation “per Jeffrey’s request” (EFTA02437099). Landmark Land Company in New Albany, Ohio — a Wexner-linked entity — continued direct communication with Epstein through at least 2010.</p>\n\n<p>Epstein’s own documents reveal that he viewed the relationship as far from over. On June 14, 2014, Epstein sent himself a stream-of-consciousness email (EFTA02358202) with the subject line “wexner,” building an incremental defense narrative: “necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand, scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan, followed put in fake secretary took an attny I would never give him up.” The references are dense: a necklace (specific incident), Wexner’s mother Bella’s suicide and sister Sharon, New Albany tax matters, bankruptcy concerns, attorney Jack Kessler, Wexner being “scared,” the “sale of trust put call” (the property transfer mechanism), architect Thierry Despont (who renovated 9 East 71st), and Wexner retaining attorney Dick Grey. The note “I would never give him up” and “dersh dont make deal probation 5 years with 3 early term” suggest Epstein framed his silence about Wexner as a bargaining chip in his legal defense, with Dershowitz negotiating plea terms.</p>\n\n<p>The Dershowitz deposition testimony adds another dimension. Dershowitz testified (HOUSE_OVERSIGHT_022159) that he called Leslie Wexner to warn about what he characterized as “an extortion plot being directed against your husband by unscrupulous lawyers in Florida.” Abigail Wexner answered and responded: “Oh, we are aware of that, they have already been in contact with us.” This exchange — while filtered through Dershowitz’s self-interest — documents that Abigail rather than Leslie was the point of contact, that the Wexners were already aware of the victim allegations, and that the Epstein defense team’s initial strategy was to characterize the abuse claims as extortion. The 2002 Shanks v. Wexner breach-of-contract case (E.D. Pa. 2:02-cv-07671), in which all five parties were Leslie Wexner, Abigail Wexner, <a href=\"/dossiers/jeffrey-epstein\">Epstein</a>, <a href=\"/dossiers/ghislaine-maxwell\">Ghislaine Maxwell</a>, and portrait artist Nelson Shanks, established the legal intertwining of all four principals years before the criminal investigation began.</p>",
+        "viz": null
+      },
+      {
+        "id": "mega-group-philanthropy-and-political-influence",
+        "title": "The Mega Group, Philanthropy, and Political Influence",
+        "content": "<p>Wexner co-founded the Mega Group in the 1990s with Charles Bronfman, establishing a secretive network of Jewish billionaire philanthropists that included Ronald Lauder, Edgar Bronfman Sr., Michael Steinhardt, and others. The group coordinated large-scale philanthropy to Israel and Jewish causes but has been the subject of persistent speculation regarding connections to Israeli intelligence — speculation sharpened by Wexner’s family ties. His wife Abigail (nee Koppel) was an associate at Davis Polk and Wardwell in New York and London from 1987 to 1992 before marrying Wexner. Her father, Yehuda Koppel, opened the first El Al Israel Airlines ticket office in New York in the 1950s (LittleSis entity 80089), establishing an Israeli connection that predated the Epstein relationship by decades. Wexner served on the board of Sun-Times Media Group from 1996 to 2002, overlapping with the Hollinger International/Conrad Black orbit — another network with documented intelligence dimensions.</p>\n\n<p>The Wexner philanthropic apparatus operated through two primary vehicles. The Wexner Family Charitable Fund (EIN 31-1318013), established in 1991 and based at 8000 Walton Parkway, Suite 100, New Albany, Ohio, held $140.7 million in assets as of 2023. Its revenue trajectory reveals a pattern that correlates precisely with L Brands insider sales: $170.7 million in revenue in 2014 (a year of aggressive stock sales), $254.4 million in 2021 (the year of massive liquidation), and $129.9 million in 2023. This pattern strongly suggests Wexner channeled L Brands stock proceeds through the charitable fund as a tax-efficient liquidation strategy. The Wexner Foundation (EIN 23-7320631), by contrast, maintained a steady $10–15 million annual revenue with only $3–6 million in assets, functioning as the operating foundation for leadership development programs while the Family Charitable Fund served as the endowment vehicle.</p>\n\n<p>Wexner’s political influence operated primarily through FEC contributions — over 515 documented — with a predominantly Republican orientation and a heavy Ohio focus. Major donations include $100,000 to Right to Rise USA (Jeb Bush, 2015), $100,000 to With Honor Fund (2017), $100,000 to Buckeye Leadership Fund (2024), and $100,000 to Fighting for Ohio Fund (2016). Ohio-specific recipients include Joyce Beatty, Troy Balderson, Jim Jordan, and Steve Stivers, alongside national recipients through the NRSC and Senate Majority PAC. Personal lobbying was limited: five filings between 1999 and 2003, two on apparel and trade issues and three for Wexner Heritage Village budget matters, with all subsequent lobbying conducted through L Brands corporate entities. The convergence of <a href=\"/dossiers/leon-black\">Leon Black</a> and Wexner in a shared $100,000 donation to Right to Rise USA in 2015 represents the only identified shared mega-recipient between Epstein’s two most significant financial patrons.</p>",
+        "viz": null
+      },
+      {
+        "id": "the-complete-exit",
+        "title": "The Complete Exit from L Brands",
+        "content": "<p>Between 2017 and July 2021, Wexner executed a systematic and total liquidation of his L Brands holdings, reducing his position from 58.98 million shares (14.4 percent of the company) to effectively zero. The exit accelerated dramatically in 2020–2021. In August 2020, Wexner gifted 2 million shares and sold 3 million at $29.70 — after the stock had crashed from roughly $80 to $30 during the COVID pandemic. In March 2021, he gifted 2 million and sold 3.05 million shares at $58.31. By June 2021, the pace increased further: gifts of 3.5 million and sales of 5 million shares at $65.30. The culmination came in July 2021 with the largest single transaction: a gift of 10.8 million shares and a sale of 28.96 million shares at $73.01, timed to coincide with the L Brands/Bath & Body Works spinoff. Total insider dispositions in 2020–2021 exceeded 40 million shares, representing roughly $2–3 billion in value.</p>\n\n<p>The revenue surges in the Wexner Family Charitable Fund align with these disposal events, confirming that a significant portion of the stock was channeled through charitable structures. The fund’s $254.4 million revenue in 2021 corresponded to the year of peak liquidation. This pattern — donating stock to the family charitable fund while simultaneously selling on the open market — represents a standard but highly effective tax-efficient exit strategy. By severing his equity position entirely, Wexner ended his 58-year connection to the company he built from a single women’s clothing store in Columbus, Ohio. The timing was driven by multiple converging pressures: the Epstein scandal’s ongoing reputational damage to Victoria’s Secret, the strategic logic of the Bath & Body Works spinoff, and the practical reality that the formal separation from Epstein had been contested in the public record for years. LMSBAND corpus co-occurrence analysis shows Wexner appearing in 142 files alongside Epstein — more than any other individual — confirming that the documentary entanglement between the two remained a central fact of the evidentiary record long after the formal separation.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "manufactured-dependency",
+      "parallel-financial-system",
+      "bridge-tax",
+      "narrative-shield",
+      "enabler-gradient",
+      "complexity-as-credential",
+      "jurisdictional-arbitrage"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Les Wexner",
+      "connections": [
+        {
+          "target": "NYSG LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01314883",
+          "description": "NYSG LLC at 457 Madison sent FedEx to Wexner family and corporate addresses in New Albany OH 2001-2002"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener:11742516",
+          "description": "Co-defendants in SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, 2002-2003) alongside Maxwell and Abigail Wexner"
+        },
+        {
+          "target": "Ghislaine Maxwell",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener:11742516",
+          "description": "Co-defendants in SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, 2002-2003) breach of contract"
+        },
+        {
+          "target": "Abigail Wexner",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis:80089",
+          "description": "Married couple. Abigail Wexner (nee Koppel) former Davis Polk attorney"
+        },
+        {
+          "target": "New Albany Property Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01314883",
+          "description": "NYSG LLC shipped documents to Peg Ugland and Paul Burkhardt at New Albany Property Inc 6525 West Campus Oval in Wexner territory"
+        },
+        {
+          "target": "Delta Galil Industries",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Finding #2398",
+          "description": "Delta Galil was a major supplier to Wexner's Victoria's Secret (private label manufacturer) and franchise operator of VS/BBW in Israel (60% stake). Multi-layered commercial relationship spanning manufacturing, brand licensing, and retail operations."
+        },
+        {
+          "target": "Isaac Dabah",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Finding #2398",
+          "description": "Dabah (Delta Galil CEO/54% owner since 2007-2008) continued and deepened the Victoria's Secret supplier relationship, adding franchise operations in Israel. GMM Capital (Dabah's family fund) acquired controlling interest in Delta Galil 2007. Dabah's FEC donations show AIPAC orientation (K UDP, .5K AIPAC PAC)."
+        },
+        {
+          "target": "Virginia Giuffre",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "DOCUMENTCLOUD:24402697",
+          "description": null
+        },
+        {
+          "target": "Bruce Wasserstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "LMSBAND:cooccurrence",
+          "description": "Co-occur in 43 LMSBAND files - highest non-Epstein Wexner associate in corpus"
+        },
+        {
+          "target": "Nine East 71st Street Corporation",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "1989 buyer address 41 S High St Columbus OH = Wexner HQ"
+        },
+        {
+          "target": "Robbie Karp",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "https://www.business-humanrights.org/en/latest-news/us-apparel-cos-lawsuit-re-saipan/",
+          "description": "Both Liz Claiborne (Robbie Karp as GC) and The Limited (Wexner) were co-defendants in the 1999 Saipan RICO/peonage class actions involving 30,000 trafficked garment workers. Both companies settled as part of the $20M settlement in 2004."
+        },
+        {
+          "target": "Dov Lautman",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "Finding #2384",
+          "description": "Indirect but deep commercial relationship: Lautman's Delta Galil was major supplier to Wexner's Victoria's Secret. Lautman founded Delta Galil in Karmiel (same town as Limited Brands/Mast Industries Israel office). Both operated in Israeli textile/apparel ecosystem. No evidence of direct personal relationship found."
+        },
+        {
+          "target": "Southern Air Transport",
+          "type": "corporate",
+          "strength": 0.2,
+          "evidence_ref": "American Conservative Dec 2025 article",
+          "description": "SAT relocated to Rickenbacker Airport in Columbus OH (Wexner's base), where SAT planes reportedly flew garments from Hong Kong/China for The Limited. Wexner's Mast Industries (Far East) Ltd sourced from Hong Kong. $46.5M state incentives. LittleSis records SAT-Epstein business relationship, and Epstein was Wexner's financial manager. No direct documentary evidence of SAT-Wexner relationship found in corpus or SEC filings."
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Power of attorney ACRIS 2008012900966001 [Wave 6 ACRIS]"
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "ACRIS:2008012900966001",
+          "description": "Indyke named in Wexner SC 13D/A SEC filing for TOO Inc 2001 (EDGAR 0000909518-01-000297). Indyke was secretary of Wexner Foundation 1998-2006 per LittleSis. Abigail Wexner gave Indyke power of attorney over 15 CPW condo per ACRIS 2008012900966001."
+        },
+        {
+          "target": "NES LLC",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00300480",
+          "description": "GRM filing index contains dedicated binder: Leslie H. Wexner Sale of Nine East 71st Street Corporation to NES, LLC. Full closing documents including Nominee Agreement, Stock Power, Stock Certificate, Assignment and Assumption Agreement, Promissory Note, Guaranty, LHW Resignation as Director. General Ledger dated 9/30/98."
+        },
+        {
+          "target": "Financial Trust Company",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00300480",
+          "description": "GRM Box #004626325 (EFTA00300480 p50) documents FTC/Wexner Children's Trust/MBZ - Purchase of Boston Properties from Prudential, confirming FTC served as investment vehicle for Wexner family trust real estate acquisitions. Also YLK Charitable Fund and Buckeye LLC statutory representation invoiced through Wexner Miscellaneous section of trust agreements (p47)."
+        },
+        {
+          "target": "Southern Air Transport",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "freepress_spook_air",
+          "description": "SAT flew twice-weekly Hong Kong-Rickenbacker cargo for Wexner's The Limited. Ohio officials and news accounts confirm Wexner played role in SAT relocation."
+        },
+        {
+          "target": "Leon Black",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "FEC:C00571703/schedule_a",
+          "description": "Both donated K to Right to Rise USA (Jeb Bush) in 2015 -- the only shared mega-recipient among Epstein's major financial associates"
+        },
+        {
+          "target": "Gideon Kaufman",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Stephen Caplinger",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Maple, Inc.",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Landmark Land Company",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Financial Trust Company",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Jeffrey A. Schantz",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01315419",
+          "description": "FedEx shows Schantz as primary contact for Wexner Limited Inc entities and Columbus OH network"
+        },
+        {
+          "target": "Jeffrey A. Schantz",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01319292",
+          "description": "FedEx records show Schantz sending documents from J Epstein & Co/NYSG to TIC Limited (The Limited Inc HQ, Gahanna OH), to Herb Wolman at Columbus OH insurance office, and to On Jaffe in Columbus OH — establishing at least 3 separate NYSG-to-Wexner-orbit delivery channels between 1999-2002."
+        },
+        {
+          "target": "Delta Galil Industries",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA00190233",
+          "description": "Wexner's Limited Brands maintained an overseas office in Karmiel, Israel -- the same small city where Delta Galil has its 534K sqft principal manufacturing facility. Mast Industries (LB subsidiary) managed the sourcing relationship. Epstein had Mast Industries Milan contact in his personal address book."
+        },
+        {
+          "target": "Mortimer Zuckerman",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA00300480",
+          "description": "Co-investors in Boston Properties via FTC/Wexner Children's Trust/MBZ joint purchase from Prudential. GRM Filing Index FTC Transaction VI section."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "ACRIS:1690000317169",
+          "description": "ACRIS deed chain: Wexner entities (SAM Conversion Corp/Nine East 71st Corp at 41 S High St Columbus OH) transferred both 9 E 71st and 11 E 71st properties. 11 E 71st went directly to Epstein as trustee Dec 1992 for zero consideration."
+        }
+      ],
+      "secondHop": {
+        "Abigail Wexner": [
+          {
+            "target": "Darren Indyke",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Abigail Wexner granted power of attorney to Indyke for NYC real property matters Jan 2008"
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Abigail Wexner transferred Unit 10B at 15 Central Park West to Darren Indyke (ACRIS doc 2008012900966001, Jan 2008). Direct property transfer from Wexner family to Epstein's primary attorney."
+          }
+        ],
+        "Darren Indyke": [
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Indyke handled legal matters for both Epstein and Black. Conference call details (EFTA02340224) show joint calls between Epstein, Black-related parties, Brad Karp, Brad Wechsler, and Patrick Fenn."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Indyke served as Treasurer (2012-2015) then Vice President/Director (2017-2019). Signed account closure letter Jan 10, 2019. Address: 575 Lexington Ave 4th Floor NYC then 9053 Estate Thomas USVI. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "In-house attorney at Southern Financial LLC for 15+ years. Secretary at STC, Authorized Signatory at SFL. Co-executor of estate. Beneficiary of Butterfly Trust. Trustee of 1953 Trust and Epstein 2019 Trust."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-beneficiaries of Butterfly Trust. Co-trustees of 1953 Trust. Co-executors of estate. Both at 575 Lexington Ave 4th Floor. Co-occur in 830 LMSBAND files."
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Indyke corresponded extensively with Oldfield at Deutsche Bank on Prytanee LLC, CDD forms, account management. 381 LMSBAND co-occurrences."
+          }
+        ],
+        "Delta Galil Industries": [
+          {
+            "target": "Victoria's Secret",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Major private-label supply relationship: Delta Galil manufactured intimate apparel for VS at Karmiel Israel plant. VS was top-5 NA customer. Sales to VS drove 2006 growth."
+          },
+          {
+            "target": "Dov Lautman",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Founder (1975), Chairman of Board, 24.8% owner through Nichsei Adinoam Ltd and NDRL Investments. Controlled company jointly with GMM Capital via shareholders agreement."
+          },
+          {
+            "target": "Isaac Dabah",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "CEO of Delta Galil and Managing Director of GMM Capital LLC (28.4% owner). GMM Capital controlled by Dabah family through GMM Trust."
+          },
+          {
+            "target": "Victoria's Secret",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Major supplier relationship. VS was top-5 NA customer. 2006 sales growth mainly from VS intimate apparel. Top-5 NA customers represented 79% of 418M NA revenue."
+          },
+          {
+            "target": "Limited Brands",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Supply chain relationship: Delta Galil was major private-label supplier to Limited Brands subsidiary Victoria's Secret. LB maintained an office in Karmiel Israel where Delta Galil had its 534K sqft principal manufacturing facility."
+          }
+        ],
+        "Dov Lautman": [
+          {
+            "target": "Ehud Barak",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Lautman was a 'close associate' of Barak. Donated indirectly to Barak's 1999 campaign via Generation of Peace org (part of Barak Affair scandal, M+ fine). Both connected through Labor Party and Israeli peace/business establishment."
+          }
+        ],
+        "Financial Trust Company": [
+          {
+            "target": "Jeepers Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "FTC is parent entity of Jeepers Inc. Tax returns prepared together. Both at 6100 Red Hook Quarter B3, St Thomas USVI."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc is USVI EDC-registered entity linked to FTC. Kahn traded Carvana stock through Southern Trust. Groff loans from Southern Financial LLC."
+          },
+          {
+            "target": "Valartis Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC maintained accounts at Valartis Bank AG Zurich with IBAN in USD/EUR/CAD. Bernard Andersen managed the relationship."
+          },
+          {
+            "target": "JP Morgan",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC $50,000,000 Line of Credit with JP Morgan documented in GRM Box #004740715. Includes collateral agreement, line letter, Form U-1, board resolutions, and corporate certificate."
+          },
+          {
+            "target": "Highbridge Capital",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Multiple FTC transaction files document Highbridge Capital investments: Highbridge Corporation Files I & II (from 9/19/00), Highbridge Capital Corp Private Placement, Highbridge Long/Short Equity Fund LP, Highbridge Capital 2010 Annual Review, FTC Consulting Agreement with Highbridge Management, HB Multi Strategy. GRM Boxes #004740711-004740714."
+          }
+        ],
+        "Ghislaine Maxwell": [
+          {
+            "target": "Jeffrey Schantz",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Maxwell replaced Schantz as co-trustee of 2001 Trust One (First Amendment Jun 2003)"
+          },
+          {
+            "target": "Jeffrey A. Schantz",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Maxwell replaced Schantz as co-Trustee of Trust One in 2003"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Referenced in complaint: arrested in NH one week before DFS fine announcement; described as Epstein associate and alleged fixer charged by federal prosecutors"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Maxwell present on 2006 USVI island trip; directly instructed victim on how to sexually service Epstein; ensured victims constantly on call"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1987",
+        "label": "LittleSis entity 4432 (Les Wexner, net worth 2.8B) has 50+ documented relationships including positions at Limited Brands entities and family connections. Wexner SEC CIK is 901359. Abigail S. Wexner (nee Koppel, LittleSis entity 80089) was an associate at Davis Polk and Wardwell in NYC and London 1987-1992 before marrying Wexner. Her father Yehuda Koppel opened the first El Al Israel Airlines ticket office in New York in the 1950s - establishing an Israeli connection predating the Epstein relationship. The Leslie H. Wexner Charitable Fund (entity 458503) is a separate philanthropy vehicle from the Wexner Foundation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1379
+      },
+      {
+        "date": "1988",
+        "label": "Wexner/SAM Conversion Corp held BOTH 9 E 71st (BBL 1/1386/10) and 11 E 71st (BBL 1/1386/12) via Columbus OH entities. SAM Conversion Corp acquired 11 E 71st from Xandra Corporation NV (offshore) in 1988. Nine East 71st St Corp (also at 41 South High St Columbus OH) acquired 9 E 71st from Birch Wathen School in 1989. Wexner also had personal mortgage at 5 East 74th St (BBL 1/1389/7) for 7.975M via Citibank. Wexner also sold BBL 1/1379/1 for 36M in 2011.",
+        "type": "location",
+        "evidence_ref": null,
+        "id": 483
+      },
+      {
+        "date": "1989-09-06",
+        "label": "ACRIS complete property chain for 9 E 71st St (BBL 1/1386/10) with valuations: (1) Sep 6 1989: Birch Wathen School deeds to Nine East 71st St Corp (41 South High St Columbus OH = Wexner L Brands HQ), amount 0 recorded; (2) Dec 23 2011: Nine East 71st Street Corporation (now at 301 E 66th St 10F = Epstein/Ossa address) deeds to Maple Inc (9100 Havensight Port of Sale Suite 15/16 St Thomas USVI 00802) for 0 dollars recorded, 100 percent transfer; (3) Mar 8 2021: Maple Inc (9053 Estate Thomas Suite 101 St Thomas USVI) deeds to Back To NYC 71 LLC for 51M dollars; (4) May 26 2021: Back To NYC 71 LLC (24 Lansdowne Road London W11 3LL) takes 30.6M mortgage from MERS; (5) Jun 22 2023: Back To NYC 71 LLC deeds to Bolt 1 LP for 65.6M. Key: Maple Inc was a USVI corporation (entity 581976, registered 11/22/2011, dissolved 12/21/2021) managed by Business Basics VI LLC (Kellerhals hub). The 2011 deed showed the address change from Columbus OH to 301 E 66th = control shift from Wexner to Epstein operation. The 2021 sale at 51M was post-mortem estate liquidation.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1514
+      },
+      {
+        "date": "1999",
+        "label": "Leslie Wexner personally had 5 lobbying filings: 2 in 1999 (personal client 'WEXNER LESLIE H' via A. Mark Neuman, on Apparel/Textiles and Trade, terminated mid-1999), and 3 in 2002-2003 (Wexner Heritage Village via Matthew G. Kallner, on Budget/Appropriations, terminated mid-2003). No personal lobbying after 2003. All subsequent lobbying was through L Brands/Limited Brands corporate entities.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 420
+      },
+      {
+        "date": "1999-01-13",
+        "label": "The Limited (Wexner) was NAMED DEFENDANT in Jan 13 1999 Saipan sweatshop lawsuits. SEC 10-K filings confirm: (1) two complaints filed alleging RICO, peonage, indentured servitude, international law violations; (2) lawsuit related to Saipan labor practices; (3) settlement granted conditional preliminary approval Oct 31 2002; (4) Mast Industries Inc (wholly-owned subsidiary) was contract manufacturer/apparel importer handling 35% of merchandise, with Hong Kong subsidiary Mast Industries (Far East) Ltd sourcing from Far East. Mast had $329M external sales (FY2002). The Limited's Columbus OH distribution had 6.1M sq ft. Foreign income from sourcing: $69.7M (FY2000).",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2344
+      },
+      {
+        "date": "1999-01-14",
+        "label": "Full Saipan lawsuit docket structure identified. DOE 001 v. Advance Textile Corp (1:99-cv-00002, D.N.Mar.I., filed 1/14/1999) = class action against 26+ manufacturers and 23 US retailers including The Limited. Doe I v. The Gap (1:01-cv-00031, RICO 18:1962, 2001-2014) = 13-year RICO case alleging organized criminal enterprise. Also: US v. CNMI (1:99-cv-00017, consent decree in 2 days), US v. Micronesian Garment Manufacturing (1:99-cr-00049, criminal prosecution), Herman v. Micronesian Garment (DOL enforcement). Settlement: $11.25M from 23 manufacturers + 7 retailers to compensate 30,000+ workers. Additional 10+ garment labor cases in CNMI through 2008.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2358
+      },
+      {
+        "date": "1999-06",
+        "label": "Delaware Chancery Court derivative action (May-June 1999): shareholders sued The Limited board seeking to rescind a Contingent Stock Redemption Agreement with Leslie H. Wexner and The Wexner Children's Trust. Filed simultaneously with the Saipan lawsuits. This agreement would have allowed Wexner to redeem stock at guaranteed prices — shareholders alleged it was self-dealing.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2389
+      },
+      {
+        "date": "2001",
+        "label": "NYSG LLC at 457 Madison Ave (Epstein entity) sent FedEx packages to Abigail S. Wexner at One Whitebarn Rd New Albany OH and to Peg Ugland at New Albany Property Inc 6525 West Campus Oval Ste 105 New Albany OH 43054 and to Julie Ferree at The Limited Inc Three Limited Pkwy Gahanna OH regularly in 2001-2002. Senders were Lauren K. Wintner and Darren K. Indyke from NYSG LLC. Also sent to Karl Schwabe in West Palm Beach FL. Documents routine document flow between Epstein operations and Wexner family and corporate addresses.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1359
+      },
+      {
+        "date": "2002-10-02",
+        "label": "SHANKS v. WEXNER (E.D. Pa. 2:02-cv-07671, filed Oct 2 2002, terminated Oct 21 2003) is a diversity breach of contract case where ALL FIVE parties are Leslie Wexner, Abigail Wexner, Jeffrey E. Epstein, Ghislaine Maxwell, and Nelson Shanks (portrait artist). Assigned to Judge Clarence Charles Newcomer. This joint lawsuit establishes a legal nexus: Wexner, Abigail Wexner, Epstein, and Maxwell were co-defendants in 2002, consistent with their intertwined personal and business relationships.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1358
+      },
+      {
+        "date": "2004-12-09",
+        "label": "Comprehensive timeline of Wexner-Epstein financial separation documented across SEC, ACRIS, and DOJ sources: (1) Dec 9 2004: Abigail Trust restructured - 3.3M shares to Trust 600, 3.75M shares to Wexner directly; (2) Sept 1 2005: H.R.E.I. Trust restructured - 4.57M shares to R.H.R.E.I. Trust, 4.76M to Wexner directly (net reduction in Epstein-controlled trusts despite same total); (3) Jul-Aug 2006: Foxcote One sells 4.5M shares; Foxcote Two sells 509K shares (Wexner-only trusts liquidating); (4) Aug 31 2006: Amendment 33 - Epstein STILL signing as FTC President for Trust 600 and R.H.R.E.I. Trust (this is AFTER Epstein's July 2006 arrest); (5) Sept 21 2007: Amendment 34 - Kaufman replaces Epstein as trustee. Summary: the formal removal took 14 months from Epstein arrest. The trust restructurings of 2004-2005 preceded the arrest and may have been motivated by the 2005 Palm Beach investigation beginning. However Epstein continued signing SEC filings 13 months after arrest - suggesting either the separation was procedural not substantive, or the legal process was genuinely slow. The replacement trustee (Kaufman) had pre-existing ties to Epstein's 457 Madison office.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1525
+      },
+      {
+        "date": "2005-09",
+        "label": "The complete Wexner trust entity architecture revealed by SEC filings (2001-2007): (1) Trust 600 - trustee was Financial Trust Company Inc with Epstein as sole stockholder/director/president, held 3.3M L Brands shares; (2) R.H.R.E.I. Trust - same FTC trustee structure, held 4.57M shares; (3) H.R.E.I. Trust - Wexner and Epstein as co-trustees (restructured Sept 2005 into R.H.R.E.I. Trust); (4) The Abigail Trust - Wexner and Epstein as co-trustees (restructured Dec 2004 into Trust 600 and direct Wexner holdings); (5) Foxcote One - Wexner sole trustee, 15M shares (sold 4.5M shares Aug 2006); (6) Foxcote Two - Abigail and Leslie co-trustees, 5M shares; (7) The Family Trust - Wexner sole trustee (added Amendment 33, Aug 2006); (8) The Concierge Trust - Wexner sole trustee, 1.5M shares (added Amendment 34); (9) Wexner Personal Holdings Corporation - Wexner sole stockholder/director/officer, 4.89M shares. The restructuring trend (2004-2007) systematically moved shares from Epstein-connected trusts to Wexner-only entities BEFORE the formal removal in Sept 2007.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1511
+      },
+      {
+        "date": "2005-09-07",
+        "label": "SEC EDGAR SC 13D/A filings (Amendments 1-33, 2001-2006) document Epstein as President of Financial Trust Company Inc, the sole trustee entity controlling Trust 600 (3,300,568 L Brands shares) and R.H.R.E.I. Trust (4,571,601 shares). Epstein signed as officer on behalf of these trusts, giving him direct fiduciary control over 7.87M L Brands shares worth approximately 200M at 2005 prices. This was not merely advisory - Epstein had sole dispositive power over these trusts. Amendment 31 (Sept 7 2005) is the clearest: Financial Trust Company Inc Jeffrey E Epstein President signed on behalf of Trust 600 and R.H.R.E.I. Trust. Additionally the Abigail Trust and H.R.E.I. Trust named both Wexner and Epstein as co-trustees. Total Epstein-connected shares in 2005 filing: approximately 7.87M direct through FTC plus shared power in Abigail and HREI trusts.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1508
+      },
+      {
+        "date": "2005-10-17",
+        "label": "NYSG LLC served as the operational billing entity for Epstein travel. DOJ corpus shows NYSG as the account name on all Tristar Worldwide luxury car service bookings for Jeffrey Epstein in 2018 (EFTA02260159, EFTA02265253, EFTA02305590, et al.). Trips included: BED (Bedford airport) to 1 Brattle Sq Cambridge MA (Harvard), 207 Fisher Ave Brookline MA (Summers residence), and return. Also EFTA02679045 shows NYSG alongside HBRK in a compensation table for Richard Kahn (hire date 10/17/2005), documenting that NYSG and HBRK were distinct payroll entities within the Epstein operation. NYSG LLC at 457 Madison Ave shipped FedEx packages to Abigail Wexner and Wexner-related entities per finding 1359. The name NYSG may stand for New York Sending Group or similar; it is NOT registered in NY SoS records as of 2026, suggesting it was incorporated elsewhere (possibly USVI or DE).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1522
+      },
+      {
+        "date": "2005-12",
+        "label": "Mega Group co-founder confirmed by LittleSis (relationship 1634429). The Mega Group was a secretive organization of Jewish billionaire philanthropists co-founded by Wexner and Charles Bronfman in the 1990s. Members included Ronald Lauder, Edgar Bronfman Sr., Michael Steinhardt, and others. The group coordinated large-scale philanthropy to Israel and Jewish causes but has been the subject of speculation regarding connections to Israeli intelligence. Wexner also served as Chair of Board of Trustees at Ohio State University (from Dec 2005), Dean's Council member at Harvard Kennedy School, Director at Sun-Times Media Group 1996-2002 (Hollinger International/Conrad Black connection), and is on the board of L Brands from 1963. Wexner's wife Abigail S. Wexner (nee Koppel) was an associate at Davis Polk and Wardwell 1987-1992 - her father Yehuda Koppel opened the first El Al Israel Airlines ticket office in New York in the 1950s (per finding 1379).",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1531
+      },
+      {
+        "date": "2007-09",
+        "label": "The Wexner-Epstein separation was NOT clean despite SEC formalization in Sept 2007. Multiple lines of evidence show continued operational entanglement post-separation: (1) SMG/Seed Media Group cap table forwarded to Lesley Groff in Sept 2009 showing Wexner interest, brokered by Epstein post-conviction (per finding 1357); (2) NYSG LLC at 457 Madison Ave (Epstein) sending regular FedEx packages to Abigail Wexner at One Whitebarn Rd New Albany OH 2001-2002 (finding 1359); (3) Landmark Land Company in New Albany OH continuing direct Epstein communication through at least 2010; (4) Gideon Kaufman receiving shipments from 457 Madison Ave from 2001 onwards - the replacement trustee was embedded in Epstein operations; (5) HBRK Associates (Epstein entity) and NYSG compensation table showing parallel corporate structures (EFTA02679045). The SEC filings documented a formal change; the operational evidence shows continued financial and operational integration well beyond 2007.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1530
+      },
+      {
+        "date": "2007-09-21",
+        "label": "SEC SC 13D/A Amendment 34 (September 21 2007) documents the formal removal of Epstein from Wexner trust structure. Filing states: On September 21 2007 Gideon I. Kaufman succeeded as sole trustee of each of Trust 600 and R.H.R.E.I. Trust. Kaufman is described as an attorney and shareholder of Kaufman Peterson and Dishler PC at 315 East Hyman Ave Suite 305 Aspen CO 81611. This was filed 14 months after Epstein's July 2006 arrest by Palm Beach PD. Critically, the filing does NOT mention Epstein by name or explain the succession - it simply states Kaufman succeeded. Foxcote One and Foxcote Two also ceased to be Purchasers as they no longer held shares. This is the documented moment of formal financial separation between Wexner and Epstein in the SEC record.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1510
+      },
+      {
+        "date": "2008-01",
+        "label": "ACRIS records confirm Wexner NYC real estate footprint: (1) Leslie Herbert Wexner purchased property at Block 1389 Lot 7 (near E 71st St) in 1985 from Gloria Ann Gurney, with Citibank mortgage subsequently satisfied; sold to German government (Bundersrepublik) in 1991 from 5 East 74th St address. (2) Abigail S. Wexner purchased at 15 Central Park West for USD 13,339,075 in Jan 2008. (3) Wexners sold Block 1379 Lot 1 property for USD 36M to Lazarus Samuel Heyman in Jan 2011, address given as 1 Whitebarn Road, New Albany OH. (4) Susan Wexner 2014 Revocable Trust at 980 Fifth Avenue. The 1989 purchase of 9 E 71st St used Columbus OH address 41 South High St matching The Limited headquarters — this deed pre-dates the well-known 1996/1998 'gift' narrative.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1546
+      },
+      {
+        "date": "2009-09",
+        "label": "Epstein forwarded a cap table document showing Wexner interest in SMG (Seed Media Group, Adam Bly company) in Sept 2009. Neil Raymond sent cap table to Adam Bly who forwarded to Lesley Groff per Jeffreys request. This documents Epstein brokering Wexner investment in Seed Media Group as late as 2009 - post-conviction - showing the financial relationship continued after the 2008 plea deal.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1357
+      },
+      {
+        "date": "2011-01-12",
+        "label": "ACRIS documents Wexner property at 5 East 74th Street (BBL 1/1389/7): 1987 mortgage from Citibank NA for 7.975M to Leslie H. Wexner at 5 East 74th Street. 1991 PAT (power of attorney) from Leslie Herbert Wexner to Barbara M. Pizzolato. Also ACRIS 2011011201001001: Leslie H and Abigail S Wexner (1 Whitebarn Road New Albany OH 43054) sold 834 Fifth Avenue unit 5-6A to Lazarus Samuel Heyman (25 Sutton Place NYC) for 36M on Jan 12 2011. Additionally, document 2015012000265001 shows Susan Wexner transferred to Susan R. Wexner 2014 Revocable Trust at 980 Fifth Avenue Apartment 21A. Wexner family maintains multiple NYC properties through various family members and trusts, all independent of Epstein after 2007.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1526
+      },
+      {
+        "date": "2014-06-14",
+        "label": "Epstein drafted detailed personal talking points about Wexner on June 14 2014, sent to himself via jeevacation@gmail.com. Notes incrementally built in subject line: necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan followed, put in fake secretary took an attny. This is Epstein rehearsing a defense narrative about Wexner referencing a necklace, Wexner mother Bella suicide and sister Sharon, New Albany OH, bankruptcy concerns, a claim he never acted without informing Wexner, attorney Jack Kessler, Wexner being scared, a trust sale with put-call option, architect Thierry Despont who renovated 9 E 71st, and Wexner retaining an attorney. Suggests Epstein anticipated legal confrontation with Wexner.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1356
+      },
+      {
+        "date": "2014-06-14",
+        "label": "The fullest version of Epstein's defense talking points re Wexner is EFTA02358202 (DugganUSA, sent from jeevacation@gmail.com June 14 2014 11:01 AM, subject wexner). The complete text is an incrementally built bullet-point narrative: necklaace, mother suicide sharon, taxes new albany, bankrupt, never ever did anything without informing les, questionable as to unrelated third party jack kessler stanley jerry my personal, taken advantage of understand, scared i would never put les in harms way, He never called, sale of trust put call, despont dick grey susan, followed put in fake secretary took an attny I would never give him up, craig lursen everyday 24 hrs a day, security jancks house new albay aspen, ghislane stood by father brothers wexner apt house forrester mother money rescued, ted dana, shelley concord skiing hollywood support before and after, dersh dont make deal probation 5 years with 3 early term no details of probation transfer, 30k per day millions brother J rory. This document is a roadmap of Epstein's claims about the Wexner relationship including: sale of trust with put-call option, Wexner being scared, Thierry Despont (architect), Dick Grey (attorney), Jack Kessler (attorney), Craig and Lursen (unidentified contacts), and Dershowitz plea negotiation terms.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1521
+      },
+      {
+        "date": "2015",
+        "label": "Leslie Wexner made 515+ FEC contributions, predominantly Republican with some bipartisan giving. Largest donations: K Right to Rise USA/Jeb Bush (2015), K With Honor Fund (2017), K Buckeye Leadership Fund (2024), K Fighting for Ohio Fund (2016). Heavy Ohio focus: Joyce Beatty, Troy Balderson, Jim Jordan, Steve Stivers. Also donates nationally: NRSC (K+), Senate Majority PAC, Republican Majority Fund. Like Black, Wexner's political giving operates at a scale completely independent of Epstein's network. Both Wexner and Black gave K to Right to Rise USA (Jeb Bush) in 2015 -- the only shared mega-recipient.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 463
+      },
+      {
+        "date": "2016",
+        "label": "Dershowitz deposition testimony (HOUSE_OVERSIGHT_022159) reveals he called Abigail Wexner to warn about an alleged extortion plot directed against Leslie Wexner. Dershowitz testified: I called Leslie Wexner. I got his wife on the phone Abigail Wexner. I said I think you ought to know that there is an extortion plot being directed against your husband by unscrupulous lawyers in Florida. And she said Oh we are aware of that they have already been in contact with us. Dershowitz then learned that Brad Edwards (plaintiff attorney) had sent communications urging people to watch Virginia Roberts interview on television. This testimony, while self-serving on Dershowitz's part, documents: (1) Abigail Wexner was the point of contact, not Leslie; (2) the Wexners were already aware of the allegations; (3) Dershowitz framed the abuse claims as an extortion plot, consistent with Epstein defense strategy. The separate finding 1316 documents Giuffre testimony of multiple sexual encounters including at Wexner properties.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1532
+      },
+      {
+        "date": "2017-04",
+        "label": "Wexner insider transaction pattern 2017-2021 shows massive liquidation of L Brands holdings. Key events: (1) Apr 2017: Exercised 1.55M stock options at 6-42 per share; (2) Oct 2017: J transaction 509K shares at 41.84; (3) Dec 2016: J transaction 1.13M shares at 65.93; (4) Dec 2018: Gift of 960K shares; (5) Aug 2020: Gift of 2M shares + sale of 3M shares at 29.70 (after stock crashed from ~80 to ~30 during COVID); (6) Mar 2021: Gift 2M + sale 3.05M shares at 58.31; (7) Jun 2021: Gift 3.5M + sale 5M shares at 65.30; (8) Jul 2021: Gift 10.8M + sale 28.96M shares at 73.01. The July 2021 transaction - disposing of nearly 29M shares at 73.01 - was by far the largest, occurring just before the L Brands/Bath and Body Works spinoff. Total insider dispositions 2020-2021 exceeded 40M shares, roughly 2-3B in value. Wexner held 58.98M shares in 2005 (14.4 percent) and systematically reduced to near zero by the July 2021 exit.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1518
+      },
+      {
+        "date": "2019",
+        "label": "LMSBAND entity co-occurrence analysis reveals Wexner appears in 142 files with Epstein, 127 with Jeffrey Epstein. Top non-Epstein co-occurring entities: Bruce Wasserstein (43 files, Lazard banker who died 2009), Harvey Weinstein (41 files), Mortimer Zuckerman (41 files, 34 under full name), Donny Deutsch (38 files), Radar magazine (37 files), Darren Indyke (36 files), Nelson Peitz (34 files), Alan C. Greenberg (33 files, Bear Stearns chairman), Maer Roshan (31 files, Radar editor), Paul Morris (27 files), Richard Kahn (25 files), Abigail S. Wexner (23 files), Lawrence Newman (23 files), and Bill Clinton (22 files). The Wasserstein-Wexner-Weinstein co-occurrence cluster at 41-43 files suggests these appear in media monitoring or reputation management contexts. Indyke and Kahn co-occurrence confirms legal-financial integration.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1401
+      },
+      {
+        "date": "2023",
+        "label": "Wexner Family Charitable Fund (EIN 31-1318013) at 8000 Walton Pkwy Suite 100 New Albany OH, established 1991, is the primary Wexner philanthropic vehicle with assets of 140.7M (2023). Revenue trajectory shows massive surges correlating with L Brands stock sales: 2014 revenue 170.7M (same year Wexner sold shares aggressively), 2021 revenue 254.4M (massive stock liquidation year), 2023 revenue 129.9M. This pattern of high-revenue years matching insider transaction activity strongly suggests Wexner channeled L Brands stock proceeds through this charitable fund as a tax-efficient liquidation strategy. Assets grew from 87.7M (2011) to 184.9M (2021). By contrast, the Wexner Foundation (EIN 23-7320631) maintained steady 10-15M annual revenue with only 3-6M in assets - it was the operating foundation while the Family Charitable Fund was the endowment vehicle.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1519
+      }
+    ]
+  }
+}

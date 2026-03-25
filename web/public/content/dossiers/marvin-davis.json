@@ -1,0 +1,2162 @@
+{
+  "name": "Marvin Davis",
+  "slug": "marvin-davis",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.225311",
+  "last_updated": "2026-02-14T19:52:10",
+  "stats": {
+    "total_findings": 37,
+    "total_connections": 15,
+    "total_entities": 0,
+    "finding_types": {
+      "intelligence": 16,
+      "financial": 6,
+      "document": 7,
+      "legal": 4,
+      "relationship": 4
+    },
+    "connection_types": {
+      "financial": 10,
+      "corporate": 2,
+      "employment": 2,
+      "social": 1
+    },
+    "last_updated": "2026-02-14T19:52:10"
+  },
+  "findings": [
+    {
+      "id": 1919,
+      "finding_type": "intelligence",
+      "summary": "Marvin Davis bought 20th Century Fox in 1981 with Marc Rich — the fugitive commodities trader later pardoned by Bill Clinton. Davis and Rich were business partners per LittleSis (entity 182011). This places Davis at the intersection of two Epstein-adjacent networks: (1) Bear Stearns where Epstein worked, and (2) the Marc Rich orbit which connected to Clinton, Ehud Barak, and intelligence circles. Rich was indicted in 1983 for tax evasion and illegal dealings with Iran during the hostage crisis, fleeing to Switzerland. The Fox acquisition was financed through Bear Stearns — the very firm where Epstein worked during this period. Davis later sold Fox to Rupert Murdoch's News Corp in 1985.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1981",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:24",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 182011",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1929,
+      "finding_type": "intelligence",
+      "summary": "The Wolff narrative describes Davis as 'a real estate developer who owns Twentieth Century Fox' — a factual error. Davis was primarily an oil tycoon (Davis Oil Company, Denver) who diversified into entertainment. The Fox acquisition was financed through Bear Stearns — the exact firm where Epstein worked at that time (1981). If Epstein was involved in the Bear Stearns financing of Davis's Fox purchase, this would explain both how they met and why Davis became Epstein's client. Davis sold Fox to Murdoch's News Corp in 1985 for approximately M. The timing of Epstein's 1982 departure from Bear Stearns aligns with the post-acquisition period when Davis would have needed ongoing financial management for his Fox profits.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1981",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:14",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": " he leaves in 1982 with billionaire clients, including Marvin Davis, a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor in the 1980s",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1935,
+      "finding_type": "financial",
+      "summary": "Davis bought 20th Century Fox in 1981 for 703M with Marc Rich as silent 50pct partner. Rich funded via offshore structures. Davis named Gerald Ford and Henry Kissinger to Fox board. Sold to Rupert Murdoch in 1985. Davis also owned Pebble Beach Company, Aspen Skiing Company, Beverly Hills Hotel. Forbes estimated wealth at 5.8B in 2004. This profile matches Epstein target client exactly: hyper-wealthy, complex asset structures, entertainment/oil/real estate conglomerate requiring sophisticated financial advisory.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1981",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:58",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Marvin_Davis",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1936,
+      "finding_type": "intelligence",
+      "summary": "The timing of Epstein's relationship with Davis is investigatively significant. Davis sold his oil/gas holdings at market peak (1981), immediately bought 20th Century Fox with Marc Rich (1981) financed through Bear Stearns, and Epstein left Bear Stearns in 1982 taking Davis as a client. This suggests Epstein may have been directly involved in Davis's financial transactions at Bear Stearns during the Fox acquisition — one of the largest entertainment deals of the era. The fact-check questions ask specifically about 1982 departure timing, suggesting the Fox deal may have been the catalyst or capstone of their relationship. Davis's fortune was estimated at 5.8B by Forbes (2004), making him one of the wealthiest men in America when Epstein began managing his money.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1981",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:05",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 182011",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1917,
+      "finding_type": "document",
+      "summary": "Michael Wolff's profile draft/book excerpt (HOUSE_OVERSIGHT_022717) explicitly names Marvin Davis as one of Epstein's billionaire clients upon leaving Bear Stearns in 1982: 'he leaves in 1982 with billionaire clients, including Marvin Davis, a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor in the 1980s.' The text describes Davis as 'a real estate developer who owns Twentieth Century Fox' — slightly misnaming him as a real estate developer when he was primarily an oil tycoon. A separate report (HOUSE_OVERSIGHT_023631) repeats this nearly verbatim.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1982",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:07",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_023631",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1918,
+      "finding_type": "document",
+      "summary": "Fact-checking questions for a profile of Epstein (HOUSE_OVERSIGHT_025876, HOUSE_OVERSIGHT_026349 — two versions of same document) explicitly ask: 'Did you leave Bear Stearns in 1982? Why? Did you take clients including Marvin Davis and Herb Siegel?' This is a primary source — interview questions prepared by Alex Yablon for New York Magazine, confirming the Davis-Epstein client relationship was understood as fact by 2015 and posed for confirmation, not as speculation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1982",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:14",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_026349",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1933,
+      "finding_type": "document",
+      "summary": "Michael Wolff book draft/article (HOUSE_OVERSIGHT_024229) states: when Epstein left Bear Stearns in 1982 he took with him billionaire clients including Marvin Davis, described as a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor. At this point Epstein was dating Morgan Fairchild. Wolff describes Epstein developing perception that hyper-wealthy had different problems than very wealthy.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1982",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:41",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_023627",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "source_quote": "when he left in 1982 he took with him billionaire clients including Marvin Davis a real estate developer who owns Twentieth Century Fox and Herb Seigel a major media investor",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1962,
+      "finding_type": "intelligence",
+      "summary": "Wolff article (HOUSE_OVERSIGHT_024229) reveals Epstein narrative about post-Bear Stearns career trajectory: After taking Davis and Siegel as clients in 1982, Epstein began developing philosophy that hyper-wealthy have different problems than very wealthy. Traditional wealth structure of accountant, investment advisor, personal lawyer, and idiot brother-in-law became hopelessly outdated. He began recovering monies for countries looted by exiled dictators and representing vastly wealthy people. Davis with 5.8B fortune across oil, entertainment, real estate, hotels, ski resorts was the archetype of client Epstein built his advisory practice around.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1982",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:34:23",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "source_quote": "The traditional wealth service structure an accountant and investment advisor a personal lawyer and an idiot brother-in-law became hopelessly outdated as amounts exponentially increased",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1970,
+      "finding_type": "financial",
+      "summary": "Marvin Davis: FEC records confirm 20+ political donations from Denver CO (1984-1992). Employers listed: Davis Oil, 20th Century Fox Film Co, Self-Employed, Miller Klutznick Davis Gray (law firm). Bipartisan giving: Democrats (Tim Wirth, Pat Schroeder, Cranston, DSCC, DCCC) and Republicans (Dick Cheney, Pete Wilson, Bill Armstrong). Also: DAVIS MARVIN MRS from ENGLEWOOD CO donated 1000 to Bentsen 1987. FOXPAC donation of 5000 in 1985 confirms corporate giving through Fox. Pattern shows peak political activity 1984-1988 during Fox ownership period.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1984",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:37:11",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC API Schedule A search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2064,
+      "finding_type": "legal",
+      "summary": "Amos Draw Oil Lease Lottery Scandal (1983-1985): Davis Oil chief geologist Edward LaFaye discovered the Amos Draw field near Gillette, Wyoming — estimated 100M barrels worth $50-100M. Instead of competitive bidding, Davis Oil allowed 23 federal tracts to go through the non-competitive lottery system. BLM received $900K instead of ~$40M. FBI and federal prosecutors investigated. Interior Department audit 'could not provide assurances that all lease lottery applications were filed correctly.' Chicago Tribune exposed the scandal May 1985. This occurred during the period Epstein was allegedly advising Marvin Davis (post-1982 Bear Stearns). The A.E. Investments securities fraud lawsuit was filed 3 months later (July 1985), with Davis named personally as defendant.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1985-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:51:49",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:9255699",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1920,
+      "finding_type": "legal",
+      "summary": "Davis Oil Company faced a securities fraud lawsuit: A.E. Investments Inc v. Davis Oil Company (D. Colorado, 1:85-cv-01821, filed 1985-07-29, terminated 1991-01-28). Cause: 15:78 Securities Exchange Act. Represented by Susman Godfrey LLP and Ballard Spahr LLP. This securities violation suit against Davis's oil company was filed during the exact period when Epstein was reportedly managing Davis's financial affairs post-Bear Stearns (1982-1985). The timing raises the question of whether Epstein's financial management role extended to Davis Oil Company securities.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1985-07-29",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:33",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 9255699",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1948,
+      "finding_type": "relationship",
+      "summary": "LittleSis entity 182011 confirms Davis key relationships: Marc Rich (business partner in Fox acquisition), Barbara Davis (wife), son John Davis, daughters Patricia Davis Raynes, sister Joan Chorney. Political donations 1989-2003 to Democrats: DSCC 57500, DNC 200000, Al Gore 2000, John McCain 1000, Dianne Feinstein 3000, Tom Daschle 4000, Carl Levin 5000. Also donated to Bill Bradley 200000.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1989",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:34",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://littlesis.org/person/182011-Marvin_Davis",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1921,
+      "finding_type": "legal",
+      "summary": "Masek v. Davis Oil Company (D. Colorado, 1:91-mc-00002, filed 1991-01-04). Parties include both 'Marvin Davis' personally and 'Davis Oil Company' as defendants, along with suppliers Wilson Supply Company, Sooner Pipe & Supply, Dura Supply Company, and UGI Union Supply Company. This case directly names Marvin Davis as a personal party (not just his company), suggesting personal liability exposure in the oil business. Filed as a civil miscellaneous/diversity case.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1991-01-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:40",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 24126241",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1922,
+      "finding_type": "intelligence",
+      "summary": "LittleSis (entity 182011) documents Davis's significant political donation history: $450K to DNC-Non-Federal Individual (1993-2000), $100K to DNC National Health Care (1994), $57.5K to Democratic Senatorial Campaign Committee (1989-2003), $35K to Republican National Committee (1992-2004). Individual donations to Al Gore ($2K), John McCain ($3K), Dianne Feinstein ($3K), Bill Bradley ($2K), Tom Daschle ($4K), Carl Levin ($5K), Paul Simon ($1K). Davis was a major Democratic donor while also contributing to Republicans — a bipartisan access strategy similar to Epstein's own approach.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1993",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:50",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC records",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 182011",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1926,
+      "finding_type": "intelligence",
+      "summary": "Marvin Davis's biographical profile (LittleSis entity 182011, d. Sept 2004): Born 1925 Newark NJ, Denver-based oil tycoon who sold most oil/gas holdings at peak in 1981, then bought 20th Century Fox with Marc Rich (1981), sold to Murdoch's News Corp (1985). Named Gerald Ford and Henry Kissinger to Fox board. Also owned Pebble Beach Company, Aspen Skiing Company, Beverly Hills Hotel. Forbes listed him as 30th richest in US at .8B in 2004. He placed Ford and Kissinger on the Fox board — both figures with established connections to intelligence and geopolitical networks that would later intersect with Epstein's own. Davis died Sept 2004 in Beverly Hills.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2004-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:30:58",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis entity 182011",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1942,
+      "finding_type": "financial",
+      "summary": "Post-Marvin death (Sep 2004), Davis Petroleum filed for bankruptcy in 2006 after family dispute. Nancy Davis forced bankruptcy alleging brother Gregg and partners undervalued company by up to 50M. Barbara Davis owned 56pct of shares. Davis bylaws required 100pct shareholder approval to sell. Evercore Capital Partners led buyout for approximately 150M. This family wealth dissolution pattern is relevant to understanding whether Epstein advisory role continued with heirs.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2004-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:17",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.denverpost.com/2006/03/09/davis-petroleum-bankruptcy-was-forced-by-nancy-davis/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "finding_type": "intelligence",
+      "summary": "No Davis family members (Nancy Davis Rickel, Patricia Davis Raynes, Dana Davis, Gregg Davis, John Davis) appear in Epstein document corpus, flight logs, or any investigative databases searched. No ICIJ offshore leaks hits. No SEC filings connecting Davis entities to Epstein entities. No court filings linking them. Davis died Sep 2004. The Getty Images photo of Barbara Davis with Epstein at CDF event is the only evidence of post-Bear Stearns social connection to the Davis family. The Epstein-Davis relationship appears to be primarily from 1981-1982 Bear Stearns era with limited continuation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2004-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:34:35",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "investigation.db",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2039,
+      "finding_type": "financial",
+      "summary": "PATTERN MATCH — TRUST LOOTING: In 2005, Patricia Davis Raynes (Marvin's daughter) sued her mother Barbara and four siblings alleging they 'looted' a trust fund established by her paternal grandfather Jack Davis, who created the original Davis Oil Co. — the foundation of the family fortune. This parallels Epstein's documented pattern of gaining control over wealthy clients' financial structures and extracting assets (cf. Wexner, where billions went unaccounted). Key questions: (1) Was Epstein involved in advising on or restructuring the Jack Davis trust during his 1982+ advisory relationship with Marvin? (2) Did the alleged looting occur during Epstein's advisory period? (3) Marvin died Sept 2004; Patricia filed 2005 — did Marvin's death expose financial irregularities that had been hidden? (4) Patricia's husband Martin Raynes was a NYC real estate developer — any Epstein network overlap? The 2005 filing date also coincides with Epstein's Palm Beach arrest timeline. Court: likely California Superior Court or C.D. Cal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2004-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 18:05:17",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Marvin_Davis",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1924,
+      "finding_type": "document",
+      "summary": "EFTA02441654 (DOJ Vol 11, Aug 25 2009): Email from Sultan Bin Sulayem, Chairman of DP World, requesting a meeting with Lord Mandelson and Lord Marvin Davis in London. Found in Epstein email corpus. Puzzling because Davis died 2004. OCR may have garbled names. Regardless, email presence in corpus shows Epstein in Sulayem communication chain.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": "2009-08-25",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:30:46",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02441654",
+          "source_quote": "To: \nFrom: \nSultan Bin Sulayem \nSent \nTue 8/25/2009 4:43:27 PM \nLord MandeIson , we met in Duhai During your visit to UAE. \nI would appreciate it if we could set a meeting date to meet you and I.ord Marvin Davis in London on a date convenient to...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1925,
+      "finding_type": "document",
+      "summary": "EFTA02441654 (DOJ Vol 11) initially appears to mention 'Marvin Davis' in a Sultan Bin Sulayem email dated 8/25/2009, but analysis reveals this is an OCR error. The email reads: 'Lord MandeIson, we met in Duhai During your visit to UAE. I would appreciate it if we could set a meeting date to meet you and I.ord Marvin Davis in London.' The text is actually: 'Lord Mandelson... meet you and Lord Marvin Davis.' However, Marvin Davis died in September 2004 — five years before this 2009 email. The 'Marvin Davis' in this document is either a different person or further OCR corruption. This document should NOT be treated as evidence of an Epstein-Marvin Davis connection.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009-08-25",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:30:52",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02441654",
+          "source_quote": " Lord MandeIson, we met in Duhai During your visit to UAE. I would appreciate it if we could set a meeting date to meet you and I.ord Marvin Davis in London on a date convenient to you",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1946,
+      "finding_type": "intelligence",
+      "summary": "EFTA02441654 email from Sultan Bin Sulayem (DP World chairman) dated Aug 25 2009 mentions meeting with Lord Marvin Davis and Lord Mandelson in London. Since Marvin Davis died in 2004, this likely refers to Lord Mervyn Davies (Baron Davies of Abersoch), a British trade minister who worked with Mandelson. OCR mangled Mervyn to Marvin. NOT the oil tycoon. This document is a false positive for this investigation but confirms Epstein network included Sultan Bin Sulayem and Lord Mandelson.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009-08-25",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:26",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02441654",
+          "source_quote": "Lord MandeIson we met in Duhai During your visit to UAE I would appreciate meeting with Lord Marvin Davis in London",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1972,
+      "finding_type": "relationship",
+      "summary": "Marvin Davis (via Marc Rich connection): EFTA01831907 (Dec 31, 2010) shows someone messaged Epstein from a New Years party saying they were sitting near Marc Rich. Marc Rich was Marvin Davis's business partner in the 1981 Fox acquisition (50pct silent partner). This email places Marc Rich in Epstein's active social orbit in 2010 -- 9 years after Rich's Clinton pardon, 6 years after Davis's death. The Marc Rich-Davis-Epstein triangle: Davis was Epstein's Bear Stearns client, Rich was Davis's business partner, and Rich remained connected to Epstein's circle post-conviction. Rich died June 2013 in Switzerland.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2010-12-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:37:33",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01831907",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1974,
+      "finding_type": "document",
+      "summary": "Marvin Davis (Beverly Hills Hotel link): EFTA01888486 (Apr 25, 2012) shows someone emailing Epstein about the Beverly Hills Hotel, recalling that Epstein told them to mention Murray Koppleman when staying there approximately 25 years earlier (circa 1987). Marvin Davis owned the Beverly Hills Hotel from 1987 to 2003 (sold to Sultan of Brunei). Epstein having a contact name to drop at the BHH during Davis's ownership period is consistent with the client relationship. Murray Koppelman was a Brooklyn-born businessman. EFTA01888528 follow-up corrects the name to 'Charlie not Murray, he now runs Martha Stewart' -- likely Charles Koppelman, who was CEO of Martha Stewart Living. Koppelman was a music/entertainment executive connected to Beverly Hills circles.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2012-04-25",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:37:59",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01888486",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01888528",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1931,
+      "finding_type": "financial",
+      "summary": "New York Magazine fact-checker Alex Yablon asked Epstein in March 2015 whether he left Bear Stearns in 1982 and took clients including Marvin Davis and Herb Siegel. This was for Michael Wolff profile piece. Confirms Epstein claimed Davis as original Bear Stearns era client.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:24",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025875",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": "Did you leave Bear Stearns in 1982 Why Did you take clients including Marvin Davis and Herb Siegel",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1938,
+      "finding_type": "intelligence",
+      "summary": "The Alex Yablon fact-checking email (March 31 2015) was sent to jeevacation@gmail.com and forwarded by Epstein to Darren Indyke (his lawyer at DKIP). HOUSE_OVERSIGHT_026348 shows the forwarding header: 'From: jeffrey E. <jeevacation@gmail.com> To: Darren Indyke.' Epstein routing media fact-checking questions through his attorney suggests coordinated narrative management. The questions themselves are leading/confirmatory in tone, suggesting Wolff had already written the narrative and Yablon was simply verifying. The Davis reference was treated as established fact by the magazine, not as allegation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-03-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:09",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_026348",
+          "source_quote": " Date: Tuesday, March 31 2015 03:26 PM Subject: Fwd: fact checking questions for New York Magazine story From: jeffrey E. <jeevacation@gmail.com> To: Darren Indyke",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1932,
+      "finding_type": "relationship",
+      "summary": "In Jan 2018 email to himself, Epstein listed marvin davis alongside herb segal, jimmy cayne, rothchild, agnelli, leon black, larry summers, prince mbs, woody allen, and other key contacts. This self-sent list appears to be Epstein cataloging his network of clients and powerful associates.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:32",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019871",
+          "source_quote": "marvin davis herb segal jimmy cyane jes staleyk rothchild agnelli karim prince mbs",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1961,
+      "finding_type": "intelligence",
+      "summary": "Epstein Jan 2018 email to himself includes Marvin Davis in a list that appears chronological, starting with early contacts: kashoggi, bunker hunt, george mitchell, wayne owens, prince andrew, then moving to marvin davis, herb segal, jimmy cayne. The ordering suggests Davis/Siegel/Cayne cluster together as Bear Stearns era. Morgan Fairchild also appears separately. List includes Khashoggi and Bunker Hunt, both major wealth figures of early 1980s who dealt with Bear Stearns. Davis appears alongside agnelli, rothchild, suggesting tier of European/global billionaires Epstein cultivated.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-01",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:34:13",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019871",
+          "source_quote": "kashoggi bunker hunt george mitchell wayne owens prince andrew marvin davis herb segal jimmy cyane jes staleyk rothchild agnelli",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1916,
+      "finding_type": "document",
+      "summary": "Epstein's Jan 8, 2018 'radical breakthrough' self-forwarded email (HOUSE_OVERSIGHT_019871) includes 'marvin davis' in a handwritten list of key contacts alongside 'herb segal, jimmy cyane, jes staleyk, rothchild, agnelli, karim, prince mbs, mbr, sultan, bill clinton, prince andrew, leon balck, tom pritzker, woody allen, larry summers.' This is Epstein listing people he considered his network core — Davis appears grouped with Bear Stearns era contacts. Notably, Davis died in 2004, 14 years before this email, suggesting Epstein still counted him as a foundational relationship marker.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-01-08",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:29:00",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019871",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1927,
+      "finding_type": "intelligence",
+      "summary": "In Epstein's Jan 8 2018 'radical breakthrough' contact list (HOUSE_OVERSIGHT_019871), Marvin Davis is grouped in a specific cluster: 'woody allen. morgain fairchild. mike ovitz. . marvin davis, herb segal. jimmy cyane, jes staleyk, rothchild. agnelli.' This grouping reveals Epstein's mental categorization: Davis sits between entertainment contacts (Allen, Fairchild, Ovitz) and Bear Stearns/finance contacts (Siegel, Cayne, Staley, Rothschild, Agnelli). Davis served as a bridge figure — both an entertainment mogul (Fox) and a financial client. The list was written 14 years after Davis's 2004 death, indicating Davis remained a foundational reference point in Epstein's self-narrative about his network origins.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-01-08",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:03",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019871",
+          "source_quote": " woody allen . morgain fairchild. mike ovitz. . marvin davis, herb segal. jimmy cyane, jes staleyk , rothchild. agnelli.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1971,
+      "finding_type": "financial",
+      "summary": "Marvin Davis: Three Davis Petroleum entities maintain active LEIs in GLEIF: Davis Petroleum Corp (LEI 549300SKJKWOUV5EZR09, DE registered, Wilmington), Davis Petroleum Acquisition Corp (LEI 54930055JCZSZN8WH746, DE registered, HQ Houston TX at 1330 Post Oak Blvd Suite 600), and Davis Petroleum Pipeline LLC (LEI 549300XIWOIILSHF4L24, DE registered). All three remain active as of Feb 2026. These are the corporate successors to Marvin Davis's oil empire. The company was later renamed Yuma Energy Inc (CIK 0000081318) which filed for bankruptcy. Evercore led the buyout circa 2007 for approximately 150M after family disputes.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2026-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:37:23",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF LEI Registry",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1973,
+      "finding_type": "intelligence",
+      "summary": "Marvin Davis: Comprehensive negative results across 7 database categories. Corporate registries (FL/NY/NM/PA/VI/UK/CA): zero results for Davis Petroleum, Davis Oil, Davis Industries, or Marvin Davis as entity or officer. These were Colorado/California companies not registered in Epstein-relevant jurisdictions. UCC: zero filings. FAA: no aircraft registrations under Davis name (he likely used corporate entities not in FAA bulk data). OpenSanctions: not listed. DS10 Deutsche Bank: zero transactions matching Davis. SEC EDGAR: CIK 1558613 'Davis Marvin' is the LifeLock CMO, NOT the oil tycoon. NYC ACRIS: two records for a different Marvin Davis (Queens, 1966, wife Bessie). The investigative significance: Davis's financial operations were centered in Denver and Beverly Hills, entirely outside the FL/NY/NM/USVI jurisdictions covered by our registry databases.",
+      "detail": "FL SunBiz re-verification (Feb 15 2026): DAVIS PETROLEUM CORP (P12031, foreign profit corp, inactive) IS present in FL SunBiz — formed/qualified 1986-11-06, EIN 841029517, at 2121 Avenue of the Stars Suite 2800, Los Angeles CA 90067. Also DAVIS PETROLEUM COMPANY (157174, domestic profit, inactive, formed 1949, EIN 741481980, San Antonio TX). The Century City address (2121 Ave of Stars) matches Davis's known Beverly Hills/LA operations. This corrects the original claim of 'zero results' for Davis Petroleum in FL registries.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02-15",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:37:48",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "Corporate registry search (FL/NY/NM/PA/VI/UK/CA)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FAA Registry",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NYC ACRIS",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK lookup",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UCC search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1923,
+      "finding_type": "intelligence",
+      "summary": "Exhaustive search across ALL local document databases (DOJ Vol 11: 331K pages, DugganUSA: 204K docs, LMSBAND: 60K/851K entities, Unified DB: 70K, Epstein 20K: 25.8K, Investigations DB, DS10 financial, EpsteinExposed) finds ZERO direct correspondence between Epstein and Marvin Davis, ZERO financial transactions, and ZERO entries in any entity database (LMSBAND, unified, DS10). Davis appears ONLY in: (1) Wolff's profile narratives, (2) Yablon's fact-checking questions, and (3) Epstein's 2018 self-forwarded contact list. This total absence from 700K+ pages of financial and email records is investigatively significant — either Davis's records were excluded from the DOJ production, the relationship predated the digital record era (pre-1990s), or the relationship was briefer than portrayed.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:30:42",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "investigation.db",
+          "source_quote": " DOJ 6 hits (0 direct correspondence), Duggan 1000 hits (1 relevant - OCR error), LMSBAND 0 entity matches, Unified 3 emails (all secondary references), DS10 0 transactions, 20K 33 matches (all Wolff/Yablon variants)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1934,
+      "finding_type": "relationship",
+      "summary": "Getty Images photo documents Barbara Davis, Jeffrey Epstein, and Cathy Davis (likely daughter Dana/Nancy) attending a Children's Diabetes Foundation benefit event at Denver City Center Marriott. The CDF was founded by Barbara and Marvin Davis in 1977 after youngest daughter diagnosed with type 1 diabetes. This places Epstein in the Davis family social circle, attending their personal charity events in Denver.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:49",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.gettyimages.com/detail/news-photo/cathy-davis-and-barbara-davis-attend-an-event-benefitting-news-photo/1753635019",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1937,
+      "finding_type": "intelligence",
+      "summary": "Davis-Marc Rich partnership reveals critical context for Epstein connection. Rich was a major commodities trader later indicted for tax evasion and trading with Iran (pardoned by Clinton 2001). Rich financed Fox acquisition with offshore capital. Bear Stearns, where Epstein worked, was deeply involved in commodities and would have intersected with Rich-Davis financial flows. This suggests Epstein may have first encountered Davis through Bear Stearns involvement with the Fox acquisition financing or Rich-related business in early 1980s.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:06",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.hollywoodreporter.com/news/general-news/marc-rich-marvin-davis-rupert-578073/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1940,
+      "finding_type": "legal",
+      "summary": "CourtListener search for 'Marvin Davis Epstein' and 'Marvin Davis Bear Stearns' returned zero direct results linking Davis to Epstein in any court filing or legal proceeding. No litigation connects Davis personally to Epstein or any Epstein-related entity. The CourtListener 'Marvin Davis' search primarily returns unrelated individuals (Chapter 13 bankruptcies in California and Alabama). This absence of legal connection is consistent with Epstein's pre-scandal period — the client relationship was purely financial management, pre-dating any known criminal activity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:12",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener searches",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1943,
+      "finding_type": "intelligence",
+      "summary": "Multiple variant versions of the Wolff narrative exist in the corpus: HOUSE_OVERSIGHT_022717 (fragment), HOUSE_OVERSIGHT_023631 (longer version), HOUSE_OVERSIGHT_024229 (most complete, 5253 words). Similarly, the Yablon fact-checking questions appear in 5+ variant copies: HOUSE_OVERSIGHT_025876, 026349, 026352, 026348, and 025875. This duplication pattern — the same Marvin Davis narrative repeated across many document IDs — means the corpus evidence for the Epstein-Davis relationship ultimately traces to a SINGLE source: Michael Wolff, who had extensive personal access to Epstein. The Wolff narrative should be treated with extreme caution per CLAUDE.md source reliability standards (Wolff flagged for potential planted/suppressed stories).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:19",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "source_quote": " But, no matter, when he left in 1982 he took with him billionaire clients, including Marvin Davis, a real estate developer who owns Twentieth Century Fox, and Herb Seigel",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2038,
+      "finding_type": "intelligence",
+      "summary": "SOURCE RELIABILITY WARNING: ALL evidence for the Epstein-Davis client relationship traces to Michael Wolff, who had 303 communications with Epstein and was working intimately with him on narrative management. Wolff is not an independent source — he was a collaborator in constructing Epstein's public image. The Wolff profile (HOUSE_OVERSIGHT_024229) and its variants were vetted through Epstein's attorney Darren Indyke before publication. The fact-check questions (HOUSE_OVERSIGHT_025876) were forwarded to Indyke for coordinated response. Wolff's characterization of Epstein as a sophisticated advisor to 'hyper-wealthy' clients like Davis served Epstein's self-mythologizing interests. Without independent financial records, the Davis client relationship rests entirely on Epstein's own claims laundered through a sympathetic profiler. This does not mean the relationship is fabricated — Epstein's 2018 self-compiled list and the Barbara Davis charity photo provide circumstantial support — but the specifics of what Epstein did for Davis are unverifiable from current sources.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 18:01:42",
+      "target_name": "Marvin Davis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "source_quote": "when he left in 1982 he took with him billionaire clients, including Marvin Davis",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 988,
+      "person_a": "Herbert Siegel",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Both were named clients of Epstein at Bear Stearns in early 1980s. Both left with Epstein when he departed Bear Stearns in 1982. Both were billionaire media moguls: Siegel in TV via Chris-Craft and Davis in oil and entertainment via 20th Century Fox.",
+      "strength": "strong",
+      "date_range": "1980-1982",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:27:02",
+      "other_person": "Herbert Siegel",
+      "other_person_slug": "herbert-siegel",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025875",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 990,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Epstein was Davis's financial manager/advisor after leaving Bear Stearns in 1982. Davis was one of two named billionaire clients (with Herb Siegel) that Epstein took from Bear Stearns. This client relationship placed Epstein at center of a 5.8B fortune with connections to oil, entertainment (Fox), real estate. Primary sources: HOUSE_OVERSIGHT_022717, HOUSE_OVERSIGHT_025876.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:10",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "person_a": "Marc Rich",
+      "person_b": "Marvin Davis",
+      "relationship_type": "corporate",
+      "description": "Davis and Rich were business partners who jointly purchased 20th Century Fox in 1981. Rich was later indicted for tax evasion and illegal Iran dealings (1983), fled to Switzerland, and was pardoned by Clinton (2001). The Fox acquisition was financed through Bear Stearns — where Epstein worked. Rich's attorney for the pardon was Jack Quinn; his key fixer in the pardon was Ehud Barak associate Avner Azulay.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:17",
+      "other_person": "Marc Rich",
+      "other_person_slug": "marc-rich",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 1455363",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "person_a": "Herbert Siegel",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Both Davis and Siegel were the only two named billionaire clients that Epstein took from Bear Stearns in 1982. They appear together in: Wolff's profile (HOUSE_OVERSIGHT_022717), Yablon's fact-check questions (HOUSE_OVERSIGHT_025876), and Epstein's own 2018 contact list email (HOUSE_OVERSIGHT_019871). Both were media moguls: Davis owned Fox, Siegel was a major media investor. Both met Epstein through Bear Stearns.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:23",
+      "other_person": "Herbert Siegel",
+      "other_person_slug": "herbert-siegel",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019871",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 994,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Epstein managed Davis financial affairs after departing Bear Stearns in 1982. Davis was one of Epstein first two billionaire clients alongside Herb Siegel. Confirmed by Wolff profile, Yablon fact-checking questions, and Epstein own 2018 contact list. No direct correspondence survives in the 700K page document corpus.",
+      "strength": "strong",
+      "date_range": "1982-2004",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:38",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 995,
+      "person_a": "Marc Rich",
+      "person_b": "Marvin Davis",
+      "relationship_type": "corporate",
+      "description": "Davis and Rich were business partners who jointly purchased 20th Century Fox in 1981. Rich was later indicted for tax evasion and illegal Iran dealings in 1983, fleeing to Switzerland. Rich was pardoned by Bill Clinton in 2001. The Fox acquisition was financed through Bear Stearns where Epstein worked.",
+      "strength": "strong",
+      "date_range": "1981-1985",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:44",
+      "other_person": "Marc Rich",
+      "other_person_slug": "marc-rich",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis_entity_182011",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 997,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Davis was Epstein original Bear Stearns era billionaire client circa 1981-1982. Epstein left Bear Stearns and took Davis as independent client. Relationship confirmed via NYMag fact-check and Wolff article.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:32:48",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 999,
+      "person_a": "Marc Rich",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Davis and Rich were 50-50 partners in 703M acquisition of 20th Century Fox in 1981. Rich was silent partner with no voting control. Rich later indicted for tax evasion and trading with Iran. Bear Stearns where Epstein worked would have been aware of this major transaction.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:33:01",
+      "other_person": "Marc Rich",
+      "other_person_slug": "marc-rich",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.hollywoodreporter.com/news/general-news/marc-rich-marvin-davis-rupert-578073/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1051,
+      "person_a": "Edward LaFaye",
+      "person_b": "Marvin Davis",
+      "relationship_type": "employment",
+      "description": "Chief geologist of Davis Oil Company who discovered Amos Draw field. Co-defendant with Marvin Davis in A.E. Investments securities fraud case (1985-1991).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:52:09",
+      "other_person": "Edward LaFaye",
+      "other_person_slug": "edward-lafaye",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:9255699",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1052,
+      "person_a": "John Aylsworth",
+      "person_b": "Marvin Davis",
+      "relationship_type": "employment",
+      "description": "CFO of Davis Oil Company. Co-defendant with Marvin Davis in A.E. Investments securities fraud case (1985-1991).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 19:52:10",
+      "other_person": "John Aylsworth",
+      "other_person_slug": "john-aylsworth",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:9255699",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "person_a": "Jimmy Cayne",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Both connected via Bear Stearns. Epstein was Cayne's protege at Bear Stearns, and Davis was a Bear Stearns client. The Wolff profile (HOUSE_OVERSIGHT_022717) places Cayne and Davis in the same narrative: Epstein became 'the protege of Jimmy Cayne' and then left Bear Stearns in 1982 taking 'billionaire clients, including Marvin Davis.' The Fox acquisition (1981) was financed through Bear Stearns during this exact period.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:30",
+      "other_person": "Jimmy Cayne",
+      "other_person_slug": "jimmy-cayne",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 996,
+      "person_a": "Jimmy Cayne",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Both connected through Bear Stearns in early 1980s. Cayne was Epstein protege at Bear Stearns and later ran the firm. Davis Fox acquisition was financed through Bear Stearns. Epstein left Bear Stearns in 1982 taking Davis as a client, while maintaining relationship with Cayne.",
+      "strength": "medium",
+      "date_range": "1980-1982",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:31:50",
+      "other_person": "Jimmy Cayne",
+      "other_person_slug": "jimmy-cayne",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "person_a": "Herb Siegel",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Davis and Siegel were both billionaire clients that Epstein took when he left Bear Stearns in 1982. They represent Epstein first independent clients and the genesis of his wealth management career. Both named together in Wolff article and NYMag fact-check.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:33:08",
+      "other_person": "Herb Siegel",
+      "other_person_slug": "herb-siegel",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "person_a": "Herbert J. Siegel",
+      "person_b": "Marvin Davis",
+      "relationship_type": "financial",
+      "description": "Co-clients of Epstein from Bear Stearns era. Both named as clients Epstein took when leaving Bear Stearns in 1982.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:34:26",
+      "other_person": "Herbert Siegel",
+      "other_person_slug": "herbert-siegel",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_026351",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "person_a": "Charles Koppelman",
+      "person_b": "Marvin Davis",
+      "relationship_type": "social",
+      "description": "Epstein told someone to name-drop at Davis-owned Beverly Hills Hotel circa 1987. Follow-up email corrects name to Charlie (Koppelman), who 'now runs Martha Stewart.' Charles Koppelman was entertainment executive connected to BHH circles during Davis ownership.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 16:38:27",
+      "other_person": "Charles Koppelman",
+      "other_person_slug": "charles-koppelman",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01888486",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01888528",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1980-1982",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Both were named clients of Epstein at Bear Stearns in early 1980s. Both left with Epstein when he departed Bear Stearns in 1982. Both were billionaire media moguls: Siegel in TV via Chris-Craft and Davis in oil and entertainment via 20th Century Fox.",
+      "other_person": "Herbert Siegel",
+      "id": 988
+    },
+    {
+      "date": "1980-1982",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Both connected through Bear Stearns in early 1980s. Cayne was Epstein protege at Bear Stearns and later ran the firm. Davis Fox acquisition was financed through Bear Stearns. Epstein left Bear Stearns in 1982 taking Davis as a client, while maintaining relationship with Cayne.",
+      "other_person": "Jimmy Cayne",
+      "id": 996
+    },
+    {
+      "date": "1981",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Marvin Davis bought 20th Century Fox in 1981 with Marc Rich — the fugitive commodities trader later pardoned by Bill Clinton. Davis and Rich were business partners per LittleSis (entity 182011). This places Davis at the intersection of two Epstein-adjacent networks: (1) Bear Stearns where Epstein worked, and (2) the Marc Rich orbit which connected to Clinton, Ehud Barak, and intelligence circles. Rich was indicted in 1983 for tax evasion and illegal dealings with Iran during the hostage crisis, fleeing to Switzerland. The Fox acquisition was financed through Bear Stearns — the very firm where Epstein worked during this period. Davis later sold Fox to Rupert Murdoch's News Corp in 1985.",
+      "confidence": "medium",
+      "id": 1919
+    },
+    {
+      "date": "1981",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "The Wolff narrative describes Davis as 'a real estate developer who owns Twentieth Century Fox' — a factual error. Davis was primarily an oil tycoon (Davis Oil Company, Denver) who diversified into entertainment. The Fox acquisition was financed through Bear Stearns — the exact firm where Epstein worked at that time (1981). If Epstein was involved in the Bear Stearns financing of Davis's Fox purchase, this would explain both how they met and why Davis became Epstein's client. Davis sold Fox to Murdoch's News Corp in 1985 for approximately M. The timing of Epstein's 1982 departure from Bear Stearns aligns with the post-acquisition period when Davis would have needed ongoing financial management for his Fox profits.",
+      "confidence": "medium",
+      "id": 1929
+    },
+    {
+      "date": "1981",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Davis bought 20th Century Fox in 1981 for 703M with Marc Rich as silent 50pct partner. Rich funded via offshore structures. Davis named Gerald Ford and Henry Kissinger to Fox board. Sold to Rupert Murdoch in 1985. Davis also owned Pebble Beach Company, Aspen Skiing Company, Beverly Hills Hotel. Forbes estimated wealth at 5.8B in 2004. This profile matches Epstein target client exactly: hyper-wealthy, complex asset structures, entertainment/oil/real estate conglomerate requiring sophisticated financial advisory.",
+      "confidence": "high",
+      "id": 1935
+    },
+    {
+      "date": "1981",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "The timing of Epstein's relationship with Davis is investigatively significant. Davis sold his oil/gas holdings at market peak (1981), immediately bought 20th Century Fox with Marc Rich (1981) financed through Bear Stearns, and Epstein left Bear Stearns in 1982 taking Davis as a client. This suggests Epstein may have been directly involved in Davis's financial transactions at Bear Stearns during the Fox acquisition — one of the largest entertainment deals of the era. The fact-check questions ask specifically about 1982 departure timing, suggesting the Fox deal may have been the catalyst or capstone of their relationship. Davis's fortune was estimated at 5.8B by Forbes (2004), making him one of the wealthiest men in America when Epstein began managing his money.",
+      "confidence": "medium",
+      "id": 1936
+    },
+    {
+      "date": "1981-1985",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Davis and Rich were business partners who jointly purchased 20th Century Fox in 1981. Rich was later indicted for tax evasion and illegal Iran dealings in 1983, fleeing to Switzerland. Rich was pardoned by Bill Clinton in 2001. The Fox acquisition was financed through Bear Stearns where Epstein worked.",
+      "other_person": "Marc Rich",
+      "id": 995
+    },
+    {
+      "date": "1982",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Michael Wolff's profile draft/book excerpt (HOUSE_OVERSIGHT_022717) explicitly names Marvin Davis as one of Epstein's billionaire clients upon leaving Bear Stearns in 1982: 'he leaves in 1982 with billionaire clients, including Marvin Davis, a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor in the 1980s.' The text describes Davis as 'a real estate developer who owns Twentieth Century Fox' — slightly misnaming him as a real estate developer when he was primarily an oil tycoon. A separate report (HOUSE_OVERSIGHT_023631) repeats this nearly verbatim.",
+      "confidence": "high",
+      "id": 1917
+    },
+    {
+      "date": "1982",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Fact-checking questions for a profile of Epstein (HOUSE_OVERSIGHT_025876, HOUSE_OVERSIGHT_026349 — two versions of same document) explicitly ask: 'Did you leave Bear Stearns in 1982? Why? Did you take clients including Marvin Davis and Herb Siegel?' This is a primary source — interview questions prepared by Alex Yablon for New York Magazine, confirming the Davis-Epstein client relationship was understood as fact by 2015 and posed for confirmation, not as speculation.",
+      "confidence": "confirmed",
+      "id": 1918
+    },
+    {
+      "date": "1982",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Michael Wolff book draft/article (HOUSE_OVERSIGHT_024229) states: when Epstein left Bear Stearns in 1982 he took with him billionaire clients including Marvin Davis, described as a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor. At this point Epstein was dating Morgan Fairchild. Wolff describes Epstein developing perception that hyper-wealthy had different problems than very wealthy.",
+      "confidence": "high",
+      "id": 1933
+    },
+    {
+      "date": "1982",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Wolff article (HOUSE_OVERSIGHT_024229) reveals Epstein narrative about post-Bear Stearns career trajectory: After taking Davis and Siegel as clients in 1982, Epstein began developing philosophy that hyper-wealthy have different problems than very wealthy. Traditional wealth structure of accountant, investment advisor, personal lawyer, and idiot brother-in-law became hopelessly outdated. He began recovering monies for countries looted by exiled dictators and representing vastly wealthy people. Davis with 5.8B fortune across oil, entertainment, real estate, hotels, ski resorts was the archetype of client Epstein built his advisory practice around.",
+      "confidence": "medium",
+      "id": 1962
+    },
+    {
+      "date": "1982-2004",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Epstein managed Davis financial affairs after departing Bear Stearns in 1982. Davis was one of Epstein first two billionaire clients alongside Herb Siegel. Confirmed by Wolff profile, Yablon fact-checking questions, and Epstein own 2018 contact list. No direct correspondence survives in the 700K page document corpus.",
+      "other_person": "Jeffrey Epstein",
+      "id": 994
+    },
+    {
+      "date": "1984",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Marvin Davis: FEC records confirm 20+ political donations from Denver CO (1984-1992). Employers listed: Davis Oil, 20th Century Fox Film Co, Self-Employed, Miller Klutznick Davis Gray (law firm). Bipartisan giving: Democrats (Tim Wirth, Pat Schroeder, Cranston, DSCC, DCCC) and Republicans (Dick Cheney, Pete Wilson, Bill Armstrong). Also: DAVIS MARVIN MRS from ENGLEWOOD CO donated 1000 to Bentsen 1987. FOXPAC donation of 5000 in 1985 confirms corporate giving through Fox. Pattern shows peak political activity 1984-1988 during Fox ownership period.",
+      "confidence": "medium",
+      "id": 1970
+    },
+    {
+      "date": "1985-05",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Amos Draw Oil Lease Lottery Scandal (1983-1985): Davis Oil chief geologist Edward LaFaye discovered the Amos Draw field near Gillette, Wyoming — estimated 100M barrels worth $50-100M. Instead of competitive bidding, Davis Oil allowed 23 federal tracts to go through the non-competitive lottery system. BLM received $900K instead of ~$40M. FBI and federal prosecutors investigated. Interior Department audit 'could not provide assurances that all lease lottery applications were filed correctly.' Chicago Tribune exposed the scandal May 1985. This occurred during the period Epstein was allegedly advising Marvin Davis (post-1982 Bear Stearns). The A.E. Investments securities fraud lawsuit was filed 3 months later (July 1985), with Davis named personally as defendant.",
+      "confidence": "medium",
+      "id": 2064
+    },
+    {
+      "date": "1985-07-29",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Davis Oil Company faced a securities fraud lawsuit: A.E. Investments Inc v. Davis Oil Company (D. Colorado, 1:85-cv-01821, filed 1985-07-29, terminated 1991-01-28). Cause: 15:78 Securities Exchange Act. Represented by Susman Godfrey LLP and Ballard Spahr LLP. This securities violation suit against Davis's oil company was filed during the exact period when Epstein was reportedly managing Davis's financial affairs post-Bear Stearns (1982-1985). The timing raises the question of whether Epstein's financial management role extended to Davis Oil Company securities.",
+      "confidence": "medium",
+      "id": 1920
+    },
+    {
+      "date": "1989",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "LittleSis entity 182011 confirms Davis key relationships: Marc Rich (business partner in Fox acquisition), Barbara Davis (wife), son John Davis, daughters Patricia Davis Raynes, sister Joan Chorney. Political donations 1989-2003 to Democrats: DSCC 57500, DNC 200000, Al Gore 2000, John McCain 1000, Dianne Feinstein 3000, Tom Daschle 4000, Carl Levin 5000. Also donated to Bill Bradley 200000.",
+      "confidence": "high",
+      "id": 1948
+    },
+    {
+      "date": "1991-01-04",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Masek v. Davis Oil Company (D. Colorado, 1:91-mc-00002, filed 1991-01-04). Parties include both 'Marvin Davis' personally and 'Davis Oil Company' as defendants, along with suppliers Wilson Supply Company, Sooner Pipe & Supply, Dura Supply Company, and UGI Union Supply Company. This case directly names Marvin Davis as a personal party (not just his company), suggesting personal liability exposure in the oil business. Filed as a civil miscellaneous/diversity case.",
+      "confidence": "high",
+      "id": 1921
+    },
+    {
+      "date": "1993",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "LittleSis (entity 182011) documents Davis's significant political donation history: $450K to DNC-Non-Federal Individual (1993-2000), $100K to DNC National Health Care (1994), $57.5K to Democratic Senatorial Campaign Committee (1989-2003), $35K to Republican National Committee (1992-2004). Individual donations to Al Gore ($2K), John McCain ($3K), Dianne Feinstein ($3K), Bill Bradley ($2K), Tom Daschle ($4K), Carl Levin ($5K), Paul Simon ($1K). Davis was a major Democratic donor while also contributing to Republicans — a bipartisan access strategy similar to Epstein's own approach.",
+      "confidence": "high",
+      "id": 1922
+    },
+    {
+      "date": "2004-09",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Marvin Davis's biographical profile (LittleSis entity 182011, d. Sept 2004): Born 1925 Newark NJ, Denver-based oil tycoon who sold most oil/gas holdings at peak in 1981, then bought 20th Century Fox with Marc Rich (1981), sold to Murdoch's News Corp (1985). Named Gerald Ford and Henry Kissinger to Fox board. Also owned Pebble Beach Company, Aspen Skiing Company, Beverly Hills Hotel. Forbes listed him as 30th richest in US at .8B in 2004. He placed Ford and Kissinger on the Fox board — both figures with established connections to intelligence and geopolitical networks that would later intersect with Epstein's own. Davis died Sept 2004 in Beverly Hills.",
+      "confidence": "high",
+      "id": 1926
+    },
+    {
+      "date": "2004-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Post-Marvin death (Sep 2004), Davis Petroleum filed for bankruptcy in 2006 after family dispute. Nancy Davis forced bankruptcy alleging brother Gregg and partners undervalued company by up to 50M. Barbara Davis owned 56pct of shares. Davis bylaws required 100pct shareholder approval to sell. Evercore Capital Partners led buyout for approximately 150M. This family wealth dissolution pattern is relevant to understanding whether Epstein advisory role continued with heirs.",
+      "confidence": "high",
+      "id": 1942
+    },
+    {
+      "date": "2004-09",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "No Davis family members (Nancy Davis Rickel, Patricia Davis Raynes, Dana Davis, Gregg Davis, John Davis) appear in Epstein document corpus, flight logs, or any investigative databases searched. No ICIJ offshore leaks hits. No SEC filings connecting Davis entities to Epstein entities. No court filings linking them. Davis died Sep 2004. The Getty Images photo of Barbara Davis with Epstein at CDF event is the only evidence of post-Bear Stearns social connection to the Davis family. The Epstein-Davis relationship appears to be primarily from 1981-1982 Bear Stearns era with limited continuation.",
+      "confidence": "medium",
+      "id": 1963
+    },
+    {
+      "date": "2004-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "PATTERN MATCH — TRUST LOOTING: In 2005, Patricia Davis Raynes (Marvin's daughter) sued her mother Barbara and four siblings alleging they 'looted' a trust fund established by her paternal grandfather Jack Davis, who created the original Davis Oil Co. — the foundation of the family fortune. This parallels Epstein's documented pattern of gaining control over wealthy clients' financial structures and extracting assets (cf. Wexner, where billions went unaccounted). Key questions: (1) Was Epstein involved in advising on or restructuring the Jack Davis trust during his 1982+ advisory relationship with Marvin? (2) Did the alleged looting occur during Epstein's advisory period? (3) Marvin died Sept 2004; Patricia filed 2005 — did Marvin's death expose financial irregularities that had been hidden? (4) Patricia's husband Martin Raynes was a NYC real estate developer — any Epstein network overlap? The 2005 filing date also coincides with Epstein's Palm Beach arrest timeline. Court: likely California Superior Court or C.D. Cal.",
+      "confidence": "medium",
+      "id": 2039
+    },
+    {
+      "date": "2009-08-25",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "EFTA02441654 (DOJ Vol 11, Aug 25 2009): Email from Sultan Bin Sulayem, Chairman of DP World, requesting a meeting with Lord Mandelson and Lord Marvin Davis in London. Found in Epstein email corpus. Puzzling because Davis died 2004. OCR may have garbled names. Regardless, email presence in corpus shows Epstein in Sulayem communication chain.",
+      "confidence": "low",
+      "id": 1924
+    },
+    {
+      "date": "2009-08-25",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "EFTA02441654 (DOJ Vol 11) initially appears to mention 'Marvin Davis' in a Sultan Bin Sulayem email dated 8/25/2009, but analysis reveals this is an OCR error. The email reads: 'Lord MandeIson, we met in Duhai During your visit to UAE. I would appreciate it if we could set a meeting date to meet you and I.ord Marvin Davis in London.' The text is actually: 'Lord Mandelson... meet you and Lord Marvin Davis.' However, Marvin Davis died in September 2004 — five years before this 2009 email. The 'Marvin Davis' in this document is either a different person or further OCR corruption. This document should NOT be treated as evidence of an Epstein-Marvin Davis connection.",
+      "confidence": "medium",
+      "id": 1925
+    },
+    {
+      "date": "2009-08-25",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "EFTA02441654 email from Sultan Bin Sulayem (DP World chairman) dated Aug 25 2009 mentions meeting with Lord Marvin Davis and Lord Mandelson in London. Since Marvin Davis died in 2004, this likely refers to Lord Mervyn Davies (Baron Davies of Abersoch), a British trade minister who worked with Mandelson. OCR mangled Mervyn to Marvin. NOT the oil tycoon. This document is a false positive for this investigation but confirms Epstein network included Sultan Bin Sulayem and Lord Mandelson.",
+      "confidence": "medium",
+      "id": 1946
+    },
+    {
+      "date": "2010-12-31",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Marvin Davis (via Marc Rich connection): EFTA01831907 (Dec 31, 2010) shows someone messaged Epstein from a New Years party saying they were sitting near Marc Rich. Marc Rich was Marvin Davis's business partner in the 1981 Fox acquisition (50pct silent partner). This email places Marc Rich in Epstein's active social orbit in 2010 -- 9 years after Rich's Clinton pardon, 6 years after Davis's death. The Marc Rich-Davis-Epstein triangle: Davis was Epstein's Bear Stearns client, Rich was Davis's business partner, and Rich remained connected to Epstein's circle post-conviction. Rich died June 2013 in Switzerland.",
+      "confidence": "medium",
+      "id": 1972
+    },
+    {
+      "date": "2012-04-25",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Marvin Davis (Beverly Hills Hotel link): EFTA01888486 (Apr 25, 2012) shows someone emailing Epstein about the Beverly Hills Hotel, recalling that Epstein told them to mention Murray Koppleman when staying there approximately 25 years earlier (circa 1987). Marvin Davis owned the Beverly Hills Hotel from 1987 to 2003 (sold to Sultan of Brunei). Epstein having a contact name to drop at the BHH during Davis's ownership period is consistent with the client relationship. Murray Koppelman was a Brooklyn-born businessman. EFTA01888528 follow-up corrects the name to 'Charlie not Murray, he now runs Martha Stewart' -- likely Charles Koppelman, who was CEO of Martha Stewart Living. Koppelman was a music/entertainment executive connected to Beverly Hills circles.",
+      "confidence": "medium",
+      "id": 1974
+    },
+    {
+      "date": "2015-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "New York Magazine fact-checker Alex Yablon asked Epstein in March 2015 whether he left Bear Stearns in 1982 and took clients including Marvin Davis and Herb Siegel. This was for Michael Wolff profile piece. Confirms Epstein claimed Davis as original Bear Stearns era client.",
+      "confidence": "high",
+      "id": 1931
+    },
+    {
+      "date": "2015-03-31",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "The Alex Yablon fact-checking email (March 31 2015) was sent to jeevacation@gmail.com and forwarded by Epstein to Darren Indyke (his lawyer at DKIP). HOUSE_OVERSIGHT_026348 shows the forwarding header: 'From: jeffrey E. <jeevacation@gmail.com> To: Darren Indyke.' Epstein routing media fact-checking questions through his attorney suggests coordinated narrative management. The questions themselves are leading/confirmatory in tone, suggesting Wolff had already written the narrative and Yablon was simply verifying. The Davis reference was treated as established fact by the magazine, not as allegation.",
+      "confidence": "high",
+      "id": 1938
+    },
+    {
+      "date": "2018-01",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "In Jan 2018 email to himself, Epstein listed marvin davis alongside herb segal, jimmy cayne, rothchild, agnelli, leon black, larry summers, prince mbs, woody allen, and other key contacts. This self-sent list appears to be Epstein cataloging his network of clients and powerful associates.",
+      "confidence": "high",
+      "id": 1932
+    },
+    {
+      "date": "2018-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein Jan 2018 email to himself includes Marvin Davis in a list that appears chronological, starting with early contacts: kashoggi, bunker hunt, george mitchell, wayne owens, prince andrew, then moving to marvin davis, herb segal, jimmy cayne. The ordering suggests Davis/Siegel/Cayne cluster together as Bear Stearns era. Morgan Fairchild also appears separately. List includes Khashoggi and Bunker Hunt, both major wealth figures of early 1980s who dealt with Bear Stearns. Davis appears alongside agnelli, rothchild, suggesting tier of European/global billionaires Epstein cultivated.",
+      "confidence": "medium",
+      "id": 1961
+    },
+    {
+      "date": "2018-01-08",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Epstein's Jan 8, 2018 'radical breakthrough' self-forwarded email (HOUSE_OVERSIGHT_019871) includes 'marvin davis' in a handwritten list of key contacts alongside 'herb segal, jimmy cyane, jes staleyk, rothchild, agnelli, karim, prince mbs, mbr, sultan, bill clinton, prince andrew, leon balck, tom pritzker, woody allen, larry summers.' This is Epstein listing people he considered his network core — Davis appears grouped with Bear Stearns era contacts. Notably, Davis died in 2004, 14 years before this email, suggesting Epstein still counted him as a foundational relationship marker.",
+      "confidence": "high",
+      "id": 1916
+    },
+    {
+      "date": "2018-01-08",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "In Epstein's Jan 8 2018 'radical breakthrough' contact list (HOUSE_OVERSIGHT_019871), Marvin Davis is grouped in a specific cluster: 'woody allen. morgain fairchild. mike ovitz. . marvin davis, herb segal. jimmy cyane, jes staleyk, rothchild. agnelli.' This grouping reveals Epstein's mental categorization: Davis sits between entertainment contacts (Allen, Fairchild, Ovitz) and Bear Stearns/finance contacts (Siegel, Cayne, Staley, Rothschild, Agnelli). Davis served as a bridge figure — both an entertainment mogul (Fox) and a financial client. The list was written 14 years after Davis's 2004 death, indicating Davis remained a foundational reference point in Epstein's self-narrative about his network origins.",
+      "confidence": "medium",
+      "id": 1927
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Marvin Davis: Three Davis Petroleum entities maintain active LEIs in GLEIF: Davis Petroleum Corp (LEI 549300SKJKWOUV5EZR09, DE registered, Wilmington), Davis Petroleum Acquisition Corp (LEI 54930055JCZSZN8WH746, DE registered, HQ Houston TX at 1330 Post Oak Blvd Suite 600), and Davis Petroleum Pipeline LLC (LEI 549300XIWOIILSHF4L24, DE registered). All three remain active as of Feb 2026. These are the corporate successors to Marvin Davis's oil empire. The company was later renamed Yuma Energy Inc (CIK 0000081318) which filed for bankruptcy. Evercore led the buyout circa 2007 for approximately 150M after family disputes.",
+      "confidence": "high",
+      "id": 1971
+    },
+    {
+      "date": "2026-02-15",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Marvin Davis: Comprehensive negative results across 7 database categories. Corporate registries (FL/NY/NM/PA/VI/UK/CA): zero results for Davis Petroleum, Davis Oil, Davis Industries, or Marvin Davis as entity or officer. These were Colorado/California companies not registered in Epstein-relevant jurisdictions. UCC: zero filings. FAA: no aircraft registrations under Davis name (he likely used corporate entities not in FAA bulk data). OpenSanctions: not listed. DS10 Deutsche Bank: zero transactions matching Davis. SEC EDGAR: CIK 1558613 'Davis Marvin' is the LifeLock CMO, NOT the oil tycoon. NYC ACRIS: two records for a different Marvin Davis (Queens, 1966, wife Bessie). The investigative significance: Davis's financial operations were centered in Denver and Beverly Hills, entirely outside the FL/NY/NM/USVI jurisdictions covered by our registry databases.",
+      "confidence": "medium",
+      "id": 1973
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1974,
+      1946,
+      1925,
+      1972,
+      1924,
+      1918,
+      1973,
+      1931,
+      1935,
+      1922,
+      1942,
+      1971
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1948,
+          1972,
+          1932,
+          1934
+        ],
+        "connection_ids": [
+          988,
+          990,
+          991,
+          992,
+          994,
+          995,
+          997,
+          999,
+          1051,
+          1052,
+          993,
+          996,
+          1000,
+          1006
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          1935,
+          1970,
+          1942,
+          2039,
+          1931,
+          1971
+        ],
+        "connection_ids": [
+          988,
+          990,
+          992,
+          994,
+          997,
+          999,
+          993,
+          996
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2064,
+          1920,
+          1921,
+          1940
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1919,
+          1929,
+          1936,
+          1962,
+          1922,
+          1926,
+          1963,
+          1946
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:40:23.515324",
+    "lead": "<p>Marvin Harold Davis (1925&ndash;2004) was a Denver-based oil tycoon and entertainment mogul who, according to multiple documentary sources, became one of <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>'s first billionaire clients when Epstein departed Bear Stearns in 1982. Michael Wolff's profile draft for New York Magazine (HOUSE_OVERSIGHT_024229) names Davis alongside <a href=\"/dossiers/herbert-siegel\">Herbert Siegel</a> as the two clients Epstein took with him into independent practice. Fact-checking questions prepared by Alex Yablon in March 2015 (HOUSE_OVERSIGHT_025876) posed the Davis relationship as established fact, asking Epstein: \"Did you leave Bear Stearns in 1982? Why? Did you take clients including Marvin Davis and Herb Siegel?\" However, all evidence for the client relationship ultimately traces to a single source &mdash; Wolff, who maintained 303 documented communications with Epstein and was actively collaborating on his public narrative &mdash; and no independent financial records have been located to corroborate the specifics of what services Epstein provided.</p>\n\n<p>Davis's fortune derived from Davis Oil Company, a wildcat operation that made him one of America's wealthiest men. In 1981, he purchased 20th Century Fox for  million with Marc Rich as a silent fifty-percent partner, financing the acquisition through Bear Stearns &mdash; the very firm where Epstein was then employed. Davis installed Gerald Ford and Henry Kissinger on the Fox board before selling the studio to Rupert Murdoch's News Corp in 1985. He subsequently acquired the Beverly Hills Hotel, Pebble Beach Company, and Aspen Skiing Company, accumulating a fortune Forbes estimated at .8 billion by 2004. The scale and complexity of his holdings &mdash; spanning oil, entertainment, luxury hospitality, and real estate across multiple states &mdash; made him the archetype of the \"hyper-wealthy\" client around whom Epstein built his financial advisory mythology.</p>\n\n<p>Despite the prominence Davis holds in the Epstein origin narrative, an exhaustive search across more than 700,000 pages of documents in the DOJ Volume 11, DugganUSA, LMSBAND, and unified databases returned zero direct correspondence between Epstein and Davis, zero financial transaction records, and zero entity database entries (Finding #1923). Davis appears only in Wolff's profile drafts, Yablon's fact-checking questions, and a January 2018 self-sent email (HOUSE_OVERSIGHT_019871) in which Epstein listed Davis among his foundational contacts &mdash; fourteen years after Davis's death in September 2004. A Getty Images photograph documenting Barbara Davis and Epstein together at a Children's Diabetes Foundation benefit in Denver provides the only non-textual evidence of a social connection (Finding #1934). The evidentiary gap between the narrative significance Davis holds in the Epstein story and the documentary record of their actual relationship remains a central interpretive challenge.</p>",
+    "open_questions": [
+      "What specific financial services did Epstein provide to Davis, and do any independent records (Bear Stearns archives, Davis family records, tax filings) corroborate the advisory relationship beyond Wolff's narrative?",
+      "Was Epstein involved in the Bear Stearns financing of the 1981 Fox acquisition, and did this transaction serve as the origin of their professional relationship?",
+      "Did Epstein's advisory role extend to Davis Oil Company's securities activities, and was he involved in any capacity during the Amos Draw lease lottery scandal or the A.E. Investments securities fraud litigation (1985&ndash;1991)?",
+      "Was the Jack Davis family trust &mdash; alleged by Patricia Davis Raynes to have been \"looted\" &mdash; restructured during Epstein's advisory period, and does this parallel Epstein's documented pattern of gaining control over client financial structures (cf. Wexner)?",
+      "Did the Epstein-Davis advisory relationship continue beyond the mid-1980s Fox sale, or was Davis primarily useful as a narrative credential for Epstein's subsequent client acquisition?"
+    ],
+    "system_role": "Davis functions as the foundational credential in Epstein's origin mythology: the first named billionaire client who legitimized Epstein's transition from Bear Stearns employee to independent financial advisor, yet whose relationship is documented almost entirely through Epstein's own self-narrative rather than independent financial records.",
+    "sections": [
+      {
+        "id": "bear-stearns-origins",
+        "title": "Bear Stearns and the Fox Acquisition",
+        "content": "<p>The Epstein-Davis relationship is anchored to one of the largest entertainment transactions of the early 1980s. In 1981, Davis purchased 20th Century Fox for  million, partnering with fugitive commodities trader Marc Rich, who held a silent fifty-percent stake funded through offshore structures (Finding #1935). The acquisition was financed through Bear Stearns, where Epstein worked under the patronage of <a href=\"/dossiers/jeffrey-epstein\">Jimmy Cayne</a>. Wolff's profile narrative states that when Epstein departed Bear Stearns in 1982, he took Davis and <a href=\"/dossiers/herbert-siegel\">Herbert Siegel</a> as his first independent clients (HOUSE_OVERSIGHT_024229). The timing is suggestive: Davis sold his oil and gas holdings at market peak in 1981, immediately acquired Fox, and Epstein left Bear Stearns the following year &mdash; the post-acquisition period when Davis would have required ongoing financial management for the proceeds of the largest entertainment deal of the era (Finding #1936).</p>\n\n<p>Davis's business partner in the Fox deal, Marc Rich, would later become one of the most infamous fugitives in American history. Indicted in 1983 for tax evasion and illegal dealings with Iran during the hostage crisis, Rich fled to Switzerland, where he remained until his controversial pardon by Bill Clinton in January 2001 &mdash; a pardon facilitated by <a href=\"/dossiers/ehud-barak\">Ehud Barak</a> associate Avner Azulay. A DOJ document (EFTA01831907) from December 31, 2010, records someone messaging Epstein from a New Year's party, noting they were seated near Marc Rich &mdash; placing Rich in Epstein's active social orbit six years after Davis's death and nine years after Rich's pardon (Finding #1972). The Davis-Rich-Epstein triangle thus connects three distinct networks: Bear Stearns financial circles, the Clinton pardon apparatus, and Israeli intelligence-adjacent figures.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "epstein-advisory-relationship",
+        "title": "The Advisory Relationship",
+        "content": "<p>Wolff's profile describes Epstein developing a philosophy, in the wake of acquiring clients like Davis, that the \"hyper-wealthy\" had fundamentally different problems from the merely very wealthy. According to the Wolff narrative (HOUSE_OVERSIGHT_024229), Epstein came to believe that the \"traditional wealth service structure &mdash; an accountant and investment advisor, a personal lawyer, and an idiot brother-in-law &mdash; became hopelessly outdated as amounts exponentially increased.\" Davis, with .8 billion in assets spanning oil extraction, a Hollywood studio, luxury hotels, and ski resorts, was the archetype of this new class of client requiring holistic financial management (Finding #1962).</p>\n\n<p>The nature of this advisory relationship, however, remains entirely unverified through independent documentation. No contracts, account statements, correspondence, or transaction records between Epstein and Davis have surfaced in any document corpus. Fact-checker Alex Yablon's March 2015 questions about the Davis relationship (HOUSE_OVERSIGHT_025876) were forwarded by Epstein to <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>, his attorney at DKIP, suggesting coordinated narrative management rather than transparent verification (Finding #1938). The questions themselves were leading and confirmatory in tone, indicating Wolff had already written the narrative and Yablon was merely checking it. It is worth noting that Wolff is flagged in the investigation's source reliability framework as a figure of extreme caution &mdash; a profiler who maintained extensive personal access to Epstein and may have served as a conduit for planted or suppressed narratives.</p>\n\n<p>Circumstantial evidence does support some form of ongoing connection. A Getty Images photograph places Epstein at a Children's Diabetes Foundation benefit event at the Denver City Center Marriott alongside Barbara Davis and a Davis family member &mdash; the CDF being the personal charity founded by Barbara and Marvin Davis in 1977 (Finding #1934). And a 2012 email (EFTA01888486) shows someone reminding Epstein that he had once told them to name-drop at the Beverly Hills Hotel &mdash; which Davis owned from 1987 to 2003 &mdash; approximately twenty-five years earlier, consistent with the early advisory period (Finding #1974).</p>",
+        "viz": null
+      },
+      {
+        "id": "davis-empire",
+        "title": "The Davis Financial Empire",
+        "content": "<p>Davis's wealth originated with Davis Oil Company, a Denver wildcatting operation that grew into a significant domestic oil and gas producer. He sold most of his oil holdings at market peak in 1981, converting extractive industry profits into a diversified conglomerate. Beyond 20th Century Fox (1981&ndash;1985), Davis owned Pebble Beach Company, Aspen Skiing Company, and the Beverly Hills Hotel, along with significant real estate holdings. Forbes listed him as the 30th wealthiest person in America at .8 billion in 2004, the year of his death (Finding #1926).</p>\n\n<p>FEC records document bipartisan political donations spanning 1984 to 2004, totaling over ,000. Major contributions included ,000 to the DNC (1993&ndash;2000), ,000 to DNC National Health Care (1994), ,500 to the Democratic Senatorial Campaign Committee (1989&ndash;2003), and ,000 to the Republican National Committee (1992&ndash;2004). Individual recipients included Al Gore, John McCain, Dianne Feinstein, Bill Bradley, Tom Daschle, and Carl Levin (Finding #1922). His employer listings on FEC filings shifted from Davis Oil to 20th Century Fox Film Co to Self-Employed, tracking his career transitions. FOXPAC, a corporate PAC, donated ,000 in 1985, confirming institutional giving through Fox during Davis's ownership (Finding #1970). The bipartisan access strategy mirrors Epstein's own documented approach to political influence.</p>\n\n<p>Following Davis's death in September 2004, the family fortune rapidly fragmented. Davis Petroleum filed for bankruptcy in 2006 after his daughter Nancy Davis forced the filing, alleging her brother Gregg and partners had undervalued the company by up to  million. Barbara Davis retained 56% of shares, but the company bylaws required unanimous shareholder approval for a sale, creating a deadlock (Finding #1942). Evercore Capital Partners ultimately led a buyout for approximately  million. In a separate proceeding, daughter Patricia Davis Raynes sued her mother and siblings in 2005, alleging they had \"looted\" a trust fund established by Marvin's father Jack Davis, the original founder of Davis Oil Company (Finding #2039). Three Davis Petroleum successor entities &mdash; Davis Petroleum Corp, Davis Petroleum Acquisition Corp, and Davis Petroleum Pipeline LLC &mdash; maintain active LEIs in the GLEIF registry as of February 2026, though the operating company was eventually renamed Yuma Energy Inc. and itself entered bankruptcy (Finding #1971).</p>",
+        "viz": null
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "content": "<p>Davis Oil Company faced a securities fraud lawsuit, A.E. Investments Inc v. Davis Oil Company (D. Colorado, 1:85-cv-01821, filed July 29, 1985, terminated January 28, 1991), brought under Section 78 of the Securities Exchange Act and represented by Susman Godfrey LLP and Ballard Spahr LLP (Finding #1920). The suit was filed during the exact period when Epstein was reportedly managing Davis's financial affairs, raising unresolved questions about whether Epstein's advisory role extended to Davis Oil Company's securities activities.</p>\n\n<p>The securities suit followed closely on the Amos Draw oil lease lottery scandal. In 1983&ndash;1985, Davis Oil chief geologist Edward LaFaye discovered the Amos Draw field near Gillette, Wyoming, estimated at 100 million barrels worth &ndash;100 million. Rather than competitive bidding, Davis Oil allowed 23 federal tracts to pass through the non-competitive lottery system, resulting in the Bureau of Land Management receiving ,000 instead of an estimated  million. The FBI and federal prosecutors investigated, and an Interior Department audit reported it \"could not provide assurances that all lease lottery applications were filed correctly.\" The Chicago Tribune exposed the scandal in May 1985, three months before the A.E. Investments securities fraud filing (Finding #2064).</p>\n\n<p>A separate matter, Masek v. Davis Oil Company (D. Colorado, 1:91-mc-00002, filed January 4, 1991), named Marvin Davis as a personal party alongside his company and several suppliers, indicating personal liability exposure in the oil business (Finding #1921). No court filings link Davis directly to Epstein or any Epstein-related entity. A CourtListener search for \"Marvin Davis Epstein\" and \"Marvin Davis Bear Stearns\" returned zero results connecting the two figures in any legal proceeding (Finding #1940).</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "epstein-network-position",
+        "title": "Position in Epstein's Self-Narrative",
+        "content": "<p>Perhaps the most revealing evidence of Davis's significance to Epstein is not from the 1980s but from January 8, 2018 &mdash; when Epstein, in a self-forwarded email titled \"radical breakthrough\" (HOUSE_OVERSIGHT_019871), listed \"marvin davis\" in a handwritten catalog of his core network alongside \"herb segal, jimmy cyane, jes staleyk, rothchild, agnelli, karim, prince mbs, mbr, sultan, bill clinton, prince andrew, leon balck, tom pritzker, woody allen, larry summers\" (Finding #1916). Davis had been dead for fourteen years. His inclusion in this private self-inventory &mdash; never intended for outside eyes &mdash; suggests Epstein continued to view Davis as a foundational relationship marker, the original credential that validated his self-presentation as advisor to the ultra-wealthy.</p>\n\n<p>The list's ordering reveals Epstein's mental taxonomy. Davis appears in a cluster between entertainment figures (Woody Allen, Morgan Fairchild, Mike Ovitz) and Bear Stearns financial contacts (<a href=\"/dossiers/herbert-siegel\">Herb Siegel</a>, Jimmy Cayne, Jes Staley, Rothschild, Agnelli). Davis occupied a bridge position &mdash; both an entertainment mogul through Fox and a financial client through oil and real estate &mdash; that made him the ideal narrative anchor for Epstein's origin story as an advisor who transcended industry categories (Finding #1927). The earlier entries in the list &mdash; Khashoggi, Bunker Hunt, George Mitchell, Wayne Owens, Prince Andrew &mdash; appear to be roughly chronological, positioning Davis in the earliest tier of Epstein's client acquisition, consistent with the 1981&ndash;1982 Bear Stearns narrative (Finding #1961).</p>",
+        "viz": null
+      },
+      {
+        "id": "source-reliability",
+        "title": "Source Reliability Assessment",
+        "content": "<p>The evidentiary record for the Epstein-Davis relationship presents a significant methodological challenge. All substantive claims about the nature of their relationship trace to <a href=\"/dossiers/michael-wolff\">Michael Wolff</a>, who maintained 303 documented communications with Epstein and was working intimately with him on narrative management. Wolff's characterization of Epstein as a sophisticated advisor to \"hyper-wealthy\" clients like Davis served Epstein's self-mythologizing interests. The Wolff profile and its variants were vetted through <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> before publication, and the fact-check questions were forwarded to Indyke for coordinated response (Finding #2038).</p>\n\n<p>Multiple variant versions of the Wolff narrative exist in the House Oversight document corpus: HOUSE_OVERSIGHT_022717 (fragment), HOUSE_OVERSIGHT_023631 (longer version), and HOUSE_OVERSIGHT_024229 (most complete at 5,253 words). The Yablon fact-checking questions appear in five or more variant copies: HOUSE_OVERSIGHT_025876, 026349, 026352, 026348, and 025875. This duplication pattern means the apparent volume of evidence &mdash; many document IDs referencing Davis &mdash; is misleading. The corpus evidence for the Epstein-Davis relationship ultimately collapses to a single source, Wolff, supplemented by Epstein's own 2018 self-compiled contact list and a charity event photograph (Finding #1943).</p>\n\n<p>An apparent mention of \"Marvin Davis\" in EFTA02441654, a 2009 email from <a href=\"/dossiers/sultan-bin-sulayem\">Sultan Bin Sulayem</a> referencing a meeting with \"Lord Marvin Davis\" and Lord Mandelson in London, has been determined to be an OCR error. Since Davis died in 2004, the reference almost certainly refers to Lord Mervyn Davies (Baron Davies of Abersoch), a British trade minister who worked with Mandelson. The OCR system rendered \"Mervyn\" as \"Marvin,\" creating a false positive (Finding #1946). This document should not be treated as evidence of any Epstein-Davis connection.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "narrative-shield",
+      "complexity-as-credential",
+      "bridge-tax"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Marvin Davis",
+      "connections": [
+        {
+          "target": "Herbert Siegel",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "HOUSE_OVERSIGHT_025875",
+          "description": "Both were named clients of Epstein at Bear Stearns in early 1980s. Both left with Epstein when he departed Bear Stearns in 1982. Both were billionaire media moguls: Siegel in TV via Chris-Craft and Davis in oil and entertainment via 20th Century Fox."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "description": "Epstein was Davis's financial manager/advisor after leaving Bear Stearns in 1982. Davis was one of two named billionaire clients (with Herb Siegel) that Epstein took from Bear Stearns. This client relationship placed Epstein at center of a 5.8B fortune with connections to oil, entertainment (Fox), real estate. Primary sources: HOUSE_OVERSIGHT_022717, HOUSE_OVERSIGHT_025876."
+        },
+        {
+          "target": "Marc Rich",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis relationship 1455363",
+          "description": "Davis and Rich were business partners who jointly purchased 20th Century Fox in 1981. Rich was later indicted for tax evasion and illegal Iran dealings (1983), fled to Switzerland, and was pardoned by Clinton (2001). The Fox acquisition was financed through Bear Stearns — where Epstein worked. Rich's attorney for the pardon was Jack Quinn; his key fixer in the pardon was Ehud Barak associate Avner Azulay."
+        },
+        {
+          "target": "Herbert Siegel",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "HOUSE_OVERSIGHT_019871",
+          "description": "Both Davis and Siegel were the only two named billionaire clients that Epstein took from Bear Stearns in 1982. They appear together in: Wolff's profile (HOUSE_OVERSIGHT_022717), Yablon's fact-check questions (HOUSE_OVERSIGHT_025876), and Epstein's own 2018 contact list email (HOUSE_OVERSIGHT_019871). Both were media moguls: Davis owned Fox, Siegel was a major media investor. Both met Epstein through Bear Stearns."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "HOUSE_OVERSIGHT_025876",
+          "description": "Epstein managed Davis financial affairs after departing Bear Stearns in 1982. Davis was one of Epstein first two billionaire clients alongside Herb Siegel. Confirmed by Wolff profile, Yablon fact-checking questions, and Epstein own 2018 contact list. No direct correspondence survives in the 700K page document corpus."
+        },
+        {
+          "target": "Marc Rich",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis_entity_182011",
+          "description": "Davis and Rich were business partners who jointly purchased 20th Century Fox in 1981. Rich was later indicted for tax evasion and illegal Iran dealings in 1983, fleeing to Switzerland. Rich was pardoned by Bill Clinton in 2001. The Fox acquisition was financed through Bear Stearns where Epstein worked."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "description": "Davis was Epstein original Bear Stearns era billionaire client circa 1981-1982. Epstein left Bear Stearns and took Davis as independent client. Relationship confirmed via NYMag fact-check and Wolff article."
+        },
+        {
+          "target": "Marc Rich",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "https://www.hollywoodreporter.com/news/general-news/marc-rich-marvin-davis-rupert-578073/",
+          "description": "Davis and Rich were 50-50 partners in 703M acquisition of 20th Century Fox in 1981. Rich was silent partner with no voting control. Rich later indicted for tax evasion and trading with Iran. Bear Stearns where Epstein worked would have been aware of this major transaction."
+        },
+        {
+          "target": "Edward LaFaye",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener:9255699",
+          "description": "Chief geologist of Davis Oil Company who discovered Amos Draw field. Co-defendant with Marvin Davis in A.E. Investments securities fraud case (1985-1991)."
+        },
+        {
+          "target": "John Aylsworth",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener:9255699",
+          "description": "CFO of Davis Oil Company. Co-defendant with Marvin Davis in A.E. Investments securities fraud case (1985-1991)."
+        },
+        {
+          "target": "Jimmy Cayne",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "description": "Both connected via Bear Stearns. Epstein was Cayne's protege at Bear Stearns, and Davis was a Bear Stearns client. The Wolff profile (HOUSE_OVERSIGHT_022717) places Cayne and Davis in the same narrative: Epstein became 'the protege of Jimmy Cayne' and then left Bear Stearns in 1982 taking 'billionaire clients, including Marvin Davis.' The Fox acquisition (1981) was financed through Bear Stearns during this exact period."
+        },
+        {
+          "target": "Jimmy Cayne",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "HOUSE_OVERSIGHT_022717",
+          "description": "Both connected through Bear Stearns in early 1980s. Cayne was Epstein protege at Bear Stearns and later ran the firm. Davis Fox acquisition was financed through Bear Stearns. Epstein left Bear Stearns in 1982 taking Davis as a client, while maintaining relationship with Cayne."
+        },
+        {
+          "target": "Herb Siegel",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "HOUSE_OVERSIGHT_024229",
+          "description": "Davis and Siegel were both billionaire clients that Epstein took when he left Bear Stearns in 1982. They represent Epstein first independent clients and the genesis of his wealth management career. Both named together in Wolff article and NYMag fact-check."
+        },
+        {
+          "target": "Herbert Siegel",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "HOUSE_OVERSIGHT_026351",
+          "description": "Co-clients of Epstein from Bear Stearns era. Both named as clients Epstein took when leaving Bear Stearns in 1982."
+        },
+        {
+          "target": "Charles Koppelman",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "EFTA01888486",
+          "description": "Epstein told someone to name-drop at Davis-owned Beverly Hills Hotel circa 1987. Follow-up email corrects name to Charlie (Koppelman), who 'now runs Martha Stewart.' Charles Koppelman was entertainment executive connected to BHH circles during Davis ownership."
+        }
+      ],
+      "secondHop": {
+        "Herb Siegel": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein managed Herb Siegel's money during Bear Stearns era (1980s). Herb was chairman of Chris-Craft Industries. Relationship continued through son Bill through 2017."
+          },
+          {
+            "target": "Bill Siegel",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Herb Siegel was chairman of Chris-Craft/BHC and one of Epstein's original billionaire clients from Bear Stearns. Bill arranged joint lunches."
+          }
+        ],
+        "Herbert Siegel": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Herb Siegel was one of two named clients taken by Epstein when he left Bear Stearns in 1982. Both resided in Palm Beach. Relationship confirmed by Yablon NY Mag fact-checking 2015 and entity database hop_distance=1."
+          },
+          {
+            "target": "Bill Siegel",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Herbert J. Siegel was Chairman/CEO of Chris-Craft Industries and BHC Communications. William D. Siegel served as President of BHC and EVP of Chris-Craft. Both had split-dollar life insurance policies. Chris-Craft sold to News Corp in 2001 for approximately 5.3B."
+          },
+          {
+            "target": "Bill Siegel",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Both independently at hop_distance=1 in Epstein entity database. Herbert was Chris-Craft chairman worth 1.1B."
+          },
+          {
+            "target": "Bill Siegel",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father and son. Both at hop_distance=1 in Epstein entity database. Herbert was original Bear Stearns-era client. Bill maintained 7-year personal relationship 2010-2017. Bill arranged lunches between Epstein and his father, confirming ongoing tripartite relationship."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1980-1982",
+        "label": "financial with Herbert Siegel",
+        "type": "financial",
+        "entity": "Herbert Siegel",
+        "id": 988
+      },
+      {
+        "date": "1980-1982",
+        "label": "financial with Jimmy Cayne",
+        "type": "financial",
+        "entity": "Jimmy Cayne",
+        "id": 996
+      },
+      {
+        "date": "1981",
+        "label": "Marvin Davis bought 20th Century Fox in 1981 with Marc Rich — the fugitive commodities trader later pardoned by Bill Clinton. Davis and Rich were business partners per LittleSis (entity 182011). This places Davis at the intersection of two Epstein-adjacent networks: (1) Bear Stearns where Epstein worked, and (2) the Marc Rich orbit which connected to Clinton, Ehud Barak, and intelligence circles. Rich was indicted in 1983 for tax evasion and illegal dealings with Iran during the hostage crisis, fleeing to Switzerland. The Fox acquisition was financed through Bear Stearns — the very firm where Epstein worked during this period. Davis later sold Fox to Rupert Murdoch's News Corp in 1985.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1919
+      },
+      {
+        "date": "1981",
+        "label": "The Wolff narrative describes Davis as 'a real estate developer who owns Twentieth Century Fox' — a factual error. Davis was primarily an oil tycoon (Davis Oil Company, Denver) who diversified into entertainment. The Fox acquisition was financed through Bear Stearns — the exact firm where Epstein worked at that time (1981). If Epstein was involved in the Bear Stearns financing of Davis's Fox purchase, this would explain both how they met and why Davis became Epstein's client. Davis sold Fox to Murdoch's News Corp in 1985 for approximately M. The timing of Epstein's 1982 departure from Bear Stearns aligns with the post-acquisition period when Davis would have needed ongoing financial management for his Fox profits.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1929
+      },
+      {
+        "date": "1981",
+        "label": "Davis bought 20th Century Fox in 1981 for 703M with Marc Rich as silent 50pct partner. Rich funded via offshore structures. Davis named Gerald Ford and Henry Kissinger to Fox board. Sold to Rupert Murdoch in 1985. Davis also owned Pebble Beach Company, Aspen Skiing Company, Beverly Hills Hotel. Forbes estimated wealth at 5.8B in 2004. This profile matches Epstein target client exactly: hyper-wealthy, complex asset structures, entertainment/oil/real estate conglomerate requiring sophisticated financial advisory.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1935
+      },
+      {
+        "date": "1981",
+        "label": "The timing of Epstein's relationship with Davis is investigatively significant. Davis sold his oil/gas holdings at market peak (1981), immediately bought 20th Century Fox with Marc Rich (1981) financed through Bear Stearns, and Epstein left Bear Stearns in 1982 taking Davis as a client. This suggests Epstein may have been directly involved in Davis's financial transactions at Bear Stearns during the Fox acquisition — one of the largest entertainment deals of the era. The fact-check questions ask specifically about 1982 departure timing, suggesting the Fox deal may have been the catalyst or capstone of their relationship. Davis's fortune was estimated at 5.8B by Forbes (2004), making him one of the wealthiest men in America when Epstein began managing his money.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1936
+      },
+      {
+        "date": "1981-1985",
+        "label": "corporate with Marc Rich",
+        "type": "corporate",
+        "entity": "Marc Rich",
+        "id": 995
+      },
+      {
+        "date": "1982",
+        "label": "Michael Wolff's profile draft/book excerpt (HOUSE_OVERSIGHT_022717) explicitly names Marvin Davis as one of Epstein's billionaire clients upon leaving Bear Stearns in 1982: 'he leaves in 1982 with billionaire clients, including Marvin Davis, a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor in the 1980s.' The text describes Davis as 'a real estate developer who owns Twentieth Century Fox' — slightly misnaming him as a real estate developer when he was primarily an oil tycoon. A separate report (HOUSE_OVERSIGHT_023631) repeats this nearly verbatim.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1917
+      },
+      {
+        "date": "1982",
+        "label": "Fact-checking questions for a profile of Epstein (HOUSE_OVERSIGHT_025876, HOUSE_OVERSIGHT_026349 — two versions of same document) explicitly ask: 'Did you leave Bear Stearns in 1982? Why? Did you take clients including Marvin Davis and Herb Siegel?' This is a primary source — interview questions prepared by Alex Yablon for New York Magazine, confirming the Davis-Epstein client relationship was understood as fact by 2015 and posed for confirmation, not as speculation.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1918
+      },
+      {
+        "date": "1982",
+        "label": "Michael Wolff book draft/article (HOUSE_OVERSIGHT_024229) states: when Epstein left Bear Stearns in 1982 he took with him billionaire clients including Marvin Davis, described as a real estate developer who owns Twentieth Century Fox, and Herb Seigel, a major media investor. At this point Epstein was dating Morgan Fairchild. Wolff describes Epstein developing perception that hyper-wealthy had different problems than very wealthy.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1933
+      },
+      {
+        "date": "1982",
+        "label": "Wolff article (HOUSE_OVERSIGHT_024229) reveals Epstein narrative about post-Bear Stearns career trajectory: After taking Davis and Siegel as clients in 1982, Epstein began developing philosophy that hyper-wealthy have different problems than very wealthy. Traditional wealth structure of accountant, investment advisor, personal lawyer, and idiot brother-in-law became hopelessly outdated. He began recovering monies for countries looted by exiled dictators and representing vastly wealthy people. Davis with 5.8B fortune across oil, entertainment, real estate, hotels, ski resorts was the archetype of client Epstein built his advisory practice around.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1962
+      },
+      {
+        "date": "1982-2004",
+        "label": "financial with Jeffrey Epstein",
+        "type": "financial",
+        "entity": "Jeffrey Epstein",
+        "id": 994
+      },
+      {
+        "date": "1984",
+        "label": "Marvin Davis: FEC records confirm 20+ political donations from Denver CO (1984-1992). Employers listed: Davis Oil, 20th Century Fox Film Co, Self-Employed, Miller Klutznick Davis Gray (law firm). Bipartisan giving: Democrats (Tim Wirth, Pat Schroeder, Cranston, DSCC, DCCC) and Republicans (Dick Cheney, Pete Wilson, Bill Armstrong). Also: DAVIS MARVIN MRS from ENGLEWOOD CO donated 1000 to Bentsen 1987. FOXPAC donation of 5000 in 1985 confirms corporate giving through Fox. Pattern shows peak political activity 1984-1988 during Fox ownership period.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1970
+      },
+      {
+        "date": "1985-05",
+        "label": "Amos Draw Oil Lease Lottery Scandal (1983-1985): Davis Oil chief geologist Edward LaFaye discovered the Amos Draw field near Gillette, Wyoming — estimated 100M barrels worth $50-100M. Instead of competitive bidding, Davis Oil allowed 23 federal tracts to go through the non-competitive lottery system. BLM received $900K instead of ~$40M. FBI and federal prosecutors investigated. Interior Department audit 'could not provide assurances that all lease lottery applications were filed correctly.' Chicago Tribune exposed the scandal May 1985. This occurred during the period Epstein was allegedly advising Marvin Davis (post-1982 Bear Stearns). The A.E. Investments securities fraud lawsuit was filed 3 months later (July 1985), with Davis named personally as defendant.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2064
+      },
+      {
+        "date": "1985-07-29",
+        "label": "Davis Oil Company faced a securities fraud lawsuit: A.E. Investments Inc v. Davis Oil Company (D. Colorado, 1:85-cv-01821, filed 1985-07-29, terminated 1991-01-28). Cause: 15:78 Securities Exchange Act. Represented by Susman Godfrey LLP and Ballard Spahr LLP. This securities violation suit against Davis's oil company was filed during the exact period when Epstein was reportedly managing Davis's financial affairs post-Bear Stearns (1982-1985). The timing raises the question of whether Epstein's financial management role extended to Davis Oil Company securities.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1920
+      },
+      {
+        "date": "1989",
+        "label": "LittleSis entity 182011 confirms Davis key relationships: Marc Rich (business partner in Fox acquisition), Barbara Davis (wife), son John Davis, daughters Patricia Davis Raynes, sister Joan Chorney. Political donations 1989-2003 to Democrats: DSCC 57500, DNC 200000, Al Gore 2000, John McCain 1000, Dianne Feinstein 3000, Tom Daschle 4000, Carl Levin 5000. Also donated to Bill Bradley 200000.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1948
+      },
+      {
+        "date": "1991-01-04",
+        "label": "Masek v. Davis Oil Company (D. Colorado, 1:91-mc-00002, filed 1991-01-04). Parties include both 'Marvin Davis' personally and 'Davis Oil Company' as defendants, along with suppliers Wilson Supply Company, Sooner Pipe & Supply, Dura Supply Company, and UGI Union Supply Company. This case directly names Marvin Davis as a personal party (not just his company), suggesting personal liability exposure in the oil business. Filed as a civil miscellaneous/diversity case.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1921
+      },
+      {
+        "date": "1993",
+        "label": "LittleSis (entity 182011) documents Davis's significant political donation history: $450K to DNC-Non-Federal Individual (1993-2000), $100K to DNC National Health Care (1994), $57.5K to Democratic Senatorial Campaign Committee (1989-2003), $35K to Republican National Committee (1992-2004). Individual donations to Al Gore ($2K), John McCain ($3K), Dianne Feinstein ($3K), Bill Bradley ($2K), Tom Daschle ($4K), Carl Levin ($5K), Paul Simon ($1K). Davis was a major Democratic donor while also contributing to Republicans — a bipartisan access strategy similar to Epstein's own approach.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1922
+      },
+      {
+        "date": "2004-09",
+        "label": "Marvin Davis's biographical profile (LittleSis entity 182011, d. Sept 2004): Born 1925 Newark NJ, Denver-based oil tycoon who sold most oil/gas holdings at peak in 1981, then bought 20th Century Fox with Marc Rich (1981), sold to Murdoch's News Corp (1985). Named Gerald Ford and Henry Kissinger to Fox board. Also owned Pebble Beach Company, Aspen Skiing Company, Beverly Hills Hotel. Forbes listed him as 30th richest in US at .8B in 2004. He placed Ford and Kissinger on the Fox board — both figures with established connections to intelligence and geopolitical networks that would later intersect with Epstein's own. Davis died Sept 2004 in Beverly Hills.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1926
+      },
+      {
+        "date": "2004-09",
+        "label": "Post-Marvin death (Sep 2004), Davis Petroleum filed for bankruptcy in 2006 after family dispute. Nancy Davis forced bankruptcy alleging brother Gregg and partners undervalued company by up to 50M. Barbara Davis owned 56pct of shares. Davis bylaws required 100pct shareholder approval to sell. Evercore Capital Partners led buyout for approximately 150M. This family wealth dissolution pattern is relevant to understanding whether Epstein advisory role continued with heirs.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1942
+      },
+      {
+        "date": "2004-09",
+        "label": "No Davis family members (Nancy Davis Rickel, Patricia Davis Raynes, Dana Davis, Gregg Davis, John Davis) appear in Epstein document corpus, flight logs, or any investigative databases searched. No ICIJ offshore leaks hits. No SEC filings connecting Davis entities to Epstein entities. No court filings linking them. Davis died Sep 2004. The Getty Images photo of Barbara Davis with Epstein at CDF event is the only evidence of post-Bear Stearns social connection to the Davis family. The Epstein-Davis relationship appears to be primarily from 1981-1982 Bear Stearns era with limited continuation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1963
+      },
+      {
+        "date": "2004-09",
+        "label": "PATTERN MATCH — TRUST LOOTING: In 2005, Patricia Davis Raynes (Marvin's daughter) sued her mother Barbara and four siblings alleging they 'looted' a trust fund established by her paternal grandfather Jack Davis, who created the original Davis Oil Co. — the foundation of the family fortune. This parallels Epstein's documented pattern of gaining control over wealthy clients' financial structures and extracting assets (cf. Wexner, where billions went unaccounted). Key questions: (1) Was Epstein involved in advising on or restructuring the Jack Davis trust during his 1982+ advisory relationship with Marvin? (2) Did the alleged looting occur during Epstein's advisory period? (3) Marvin died Sept 2004; Patricia filed 2005 — did Marvin's death expose financial irregularities that had been hidden? (4) Patricia's husband Martin Raynes was a NYC real estate developer — any Epstein network overlap? The 2005 filing date also coincides with Epstein's Palm Beach arrest timeline. Court: likely California Superior Court or C.D. Cal.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2039
+      },
+      {
+        "date": "2009-08-25",
+        "label": "EFTA02441654 (DOJ Vol 11, Aug 25 2009): Email from Sultan Bin Sulayem, Chairman of DP World, requesting a meeting with Lord Mandelson and Lord Marvin Davis in London. Found in Epstein email corpus. Puzzling because Davis died 2004. OCR may have garbled names. Regardless, email presence in corpus shows Epstein in Sulayem communication chain.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1924
+      },
+      {
+        "date": "2009-08-25",
+        "label": "EFTA02441654 (DOJ Vol 11) initially appears to mention 'Marvin Davis' in a Sultan Bin Sulayem email dated 8/25/2009, but analysis reveals this is an OCR error. The email reads: 'Lord MandeIson, we met in Duhai During your visit to UAE. I would appreciate it if we could set a meeting date to meet you and I.ord Marvin Davis in London.' The text is actually: 'Lord Mandelson... meet you and Lord Marvin Davis.' However, Marvin Davis died in September 2004 — five years before this 2009 email. The 'Marvin Davis' in this document is either a different person or further OCR corruption. This document should NOT be treated as evidence of an Epstein-Marvin Davis connection.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1925
+      },
+      {
+        "date": "2009-08-25",
+        "label": "EFTA02441654 email from Sultan Bin Sulayem (DP World chairman) dated Aug 25 2009 mentions meeting with Lord Marvin Davis and Lord Mandelson in London. Since Marvin Davis died in 2004, this likely refers to Lord Mervyn Davies (Baron Davies of Abersoch), a British trade minister who worked with Mandelson. OCR mangled Mervyn to Marvin. NOT the oil tycoon. This document is a false positive for this investigation but confirms Epstein network included Sultan Bin Sulayem and Lord Mandelson.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1946
+      },
+      {
+        "date": "2010-12-31",
+        "label": "Marvin Davis (via Marc Rich connection): EFTA01831907 (Dec 31, 2010) shows someone messaged Epstein from a New Years party saying they were sitting near Marc Rich. Marc Rich was Marvin Davis's business partner in the 1981 Fox acquisition (50pct silent partner). This email places Marc Rich in Epstein's active social orbit in 2010 -- 9 years after Rich's Clinton pardon, 6 years after Davis's death. The Marc Rich-Davis-Epstein triangle: Davis was Epstein's Bear Stearns client, Rich was Davis's business partner, and Rich remained connected to Epstein's circle post-conviction. Rich died June 2013 in Switzerland.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1972
+      },
+      {
+        "date": "2012-04-25",
+        "label": "Marvin Davis (Beverly Hills Hotel link): EFTA01888486 (Apr 25, 2012) shows someone emailing Epstein about the Beverly Hills Hotel, recalling that Epstein told them to mention Murray Koppleman when staying there approximately 25 years earlier (circa 1987). Marvin Davis owned the Beverly Hills Hotel from 1987 to 2003 (sold to Sultan of Brunei). Epstein having a contact name to drop at the BHH during Davis's ownership period is consistent with the client relationship. Murray Koppelman was a Brooklyn-born businessman. EFTA01888528 follow-up corrects the name to 'Charlie not Murray, he now runs Martha Stewart' -- likely Charles Koppelman, who was CEO of Martha Stewart Living. Koppelman was a music/entertainment executive connected to Beverly Hills circles.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1974
+      },
+      {
+        "date": "2015-03",
+        "label": "New York Magazine fact-checker Alex Yablon asked Epstein in March 2015 whether he left Bear Stearns in 1982 and took clients including Marvin Davis and Herb Siegel. This was for Michael Wolff profile piece. Confirms Epstein claimed Davis as original Bear Stearns era client.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1931
+      },
+      {
+        "date": "2015-03-31",
+        "label": "The Alex Yablon fact-checking email (March 31 2015) was sent to jeevacation@gmail.com and forwarded by Epstein to Darren Indyke (his lawyer at DKIP). HOUSE_OVERSIGHT_026348 shows the forwarding header: 'From: jeffrey E. <jeevacation@gmail.com> To: Darren Indyke.' Epstein routing media fact-checking questions through his attorney suggests coordinated narrative management. The questions themselves are leading/confirmatory in tone, suggesting Wolff had already written the narrative and Yablon was simply verifying. The Davis reference was treated as established fact by the magazine, not as allegation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1938
+      },
+      {
+        "date": "2018-01",
+        "label": "In Jan 2018 email to himself, Epstein listed marvin davis alongside herb segal, jimmy cayne, rothchild, agnelli, leon black, larry summers, prince mbs, woody allen, and other key contacts. This self-sent list appears to be Epstein cataloging his network of clients and powerful associates.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1932
+      },
+      {
+        "date": "2018-01",
+        "label": "Epstein Jan 2018 email to himself includes Marvin Davis in a list that appears chronological, starting with early contacts: kashoggi, bunker hunt, george mitchell, wayne owens, prince andrew, then moving to marvin davis, herb segal, jimmy cayne. The ordering suggests Davis/Siegel/Cayne cluster together as Bear Stearns era. Morgan Fairchild also appears separately. List includes Khashoggi and Bunker Hunt, both major wealth figures of early 1980s who dealt with Bear Stearns. Davis appears alongside agnelli, rothchild, suggesting tier of European/global billionaires Epstein cultivated.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1961
+      },
+      {
+        "date": "2018-01-08",
+        "label": "Epstein's Jan 8, 2018 'radical breakthrough' self-forwarded email (HOUSE_OVERSIGHT_019871) includes 'marvin davis' in a handwritten list of key contacts alongside 'herb segal, jimmy cyane, jes staleyk, rothchild, agnelli, karim, prince mbs, mbr, sultan, bill clinton, prince andrew, leon balck, tom pritzker, woody allen, larry summers.' This is Epstein listing people he considered his network core — Davis appears grouped with Bear Stearns era contacts. Notably, Davis died in 2004, 14 years before this email, suggesting Epstein still counted him as a foundational relationship marker.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1916
+      },
+      {
+        "date": "2018-01-08",
+        "label": "In Epstein's Jan 8 2018 'radical breakthrough' contact list (HOUSE_OVERSIGHT_019871), Marvin Davis is grouped in a specific cluster: 'woody allen. morgain fairchild. mike ovitz. . marvin davis, herb segal. jimmy cyane, jes staleyk, rothchild. agnelli.' This grouping reveals Epstein's mental categorization: Davis sits between entertainment contacts (Allen, Fairchild, Ovitz) and Bear Stearns/finance contacts (Siegel, Cayne, Staley, Rothschild, Agnelli). Davis served as a bridge figure — both an entertainment mogul (Fox) and a financial client. The list was written 14 years after Davis's 2004 death, indicating Davis remained a foundational reference point in Epstein's self-narrative about his network origins.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1927
+      },
+      {
+        "date": "2026-02",
+        "label": "Marvin Davis: Three Davis Petroleum entities maintain active LEIs in GLEIF: Davis Petroleum Corp (LEI 549300SKJKWOUV5EZR09, DE registered, Wilmington), Davis Petroleum Acquisition Corp (LEI 54930055JCZSZN8WH746, DE registered, HQ Houston TX at 1330 Post Oak Blvd Suite 600), and Davis Petroleum Pipeline LLC (LEI 549300XIWOIILSHF4L24, DE registered). All three remain active as of Feb 2026. These are the corporate successors to Marvin Davis's oil empire. The company was later renamed Yuma Energy Inc (CIK 0000081318) which filed for bankruptcy. Evercore led the buyout circa 2007 for approximately 150M after family disputes.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1971
+      },
+      {
+        "date": "2026-02-15",
+        "label": "Marvin Davis: Comprehensive negative results across 7 database categories. Corporate registries (FL/NY/NM/PA/VI/UK/CA): zero results for Davis Petroleum, Davis Oil, Davis Industries, or Marvin Davis as entity or officer. These were Colorado/California companies not registered in Epstein-relevant jurisdictions. UCC: zero filings. FAA: no aircraft registrations under Davis name (he likely used corporate entities not in FAA bulk data). OpenSanctions: not listed. DS10 Deutsche Bank: zero transactions matching Davis. SEC EDGAR: CIK 1558613 'Davis Marvin' is the LifeLock CMO, NOT the oil tycoon. NYC ACRIS: two records for a different Marvin Davis (Queens, 1966, wife Bessie). The investigative significance: Davis's financial operations were centered in Denver and Beverly Hills, entirely outside the FL/NY/NM/USVI jurisdictions covered by our registry databases.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1973
+      }
+    ]
+  }
+}

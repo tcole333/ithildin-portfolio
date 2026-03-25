@@ -1,0 +1,634 @@
+{
+  "name": "The Limited Inc",
+  "slug": "the-limited-inc",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.315024",
+  "last_updated": "2026-02-15T08:32:58",
+  "stats": {
+    "total_findings": 9,
+    "total_connections": 5,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 3,
+      "intelligence": 3,
+      "document": 1,
+      "legal": 2
+    },
+    "connection_types": {
+      "legal": 1,
+      "financial": 4
+    },
+    "last_updated": "2026-02-15T08:32:58"
+  },
+  "findings": [
+    {
+      "id": 2551,
+      "finding_type": "financial",
+      "summary": "FULL TEXT of Unrestricted Subsidiary definition from Dec 15, 1995 $1B credit agreement (EX-4.8): Five carve-out categories allow The Limited to designate entities that are EXCLUDED from consolidated SEC reporting via private written notice to Agent (Morgan Guaranty Trust). Category (c): 'exclusively in the business of owning or leasing, and operating, aircraft and/or trucks.' Category (e): 'primarily as a carrier transporting goods in both intrastate and interstate commerce.' Designation is one-way: may only change once during agreement term. Deutsche Bank AG New York Branch was Managing Agent. Agreement replaced Aug 30, 1990 facility. Counsel: Davis Polk & Wardwell (Company), Cravath Swaine & Moore (Agent).",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "1995-12-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:03:47",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2553,
+      "finding_type": "intelligence",
+      "summary": "STRUCTURAL ANALYSIS: The Dec 1995 credit agreement creates a complete opacity mechanism for aviation operations. By designating an entity as Unrestricted Subsidiary: (1) excluded from consolidated financial statements, (2) excluded from Exhibit 21 if individually insignificant, (3) exempt from credit agreement debt covenants (Section 5.9 Consolidated Subsidiary Debt Limitations), (4) exempt from current ratio covenant (Section 5.6.1), (5) exempt from tangible net worth covenant (Section 5.6.2). The only constraint: investments in Unrestricted Subsidiaries are carved out of 'WFN Companies Tangible Assets.' Designation is by private written notice to Agent \u2014 NEVER publicly disclosed. This means any Limited-owned aircraft entity or carrier entity would be legally invisible in all SEC filings, creating a structural gap that cannot be filled through public records alone.",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar"
+      ],
+      "confidence": "medium",
+      "date_of_event": "1995-12-15",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:04:09",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2554,
+      "finding_type": "intelligence",
+      "summary": "TEMPORAL CORRELATION: The Dec 15, 1995 credit agreement with aircraft/carrier Unrestricted Subsidiary carve-outs was executed the SAME YEAR SAT relocated to Columbus/Rickenbacker (April 1995 first flights). It replaced the Aug 30, 1990 credit agreement. Without access to the 1990 agreement text, cannot confirm whether the carve-out is (a) new language added specifically for the SAT relationship, or (b) pre-existing boilerplate carried forward. The 1990 agreement was incorporated by reference in FY1994 10-K and full text is not available in EDGAR. A new credit agreement was executed Sep 25, 1997, also not filed in full. Key question: was the aircraft/carrier carve-out added or modified in December 1995? This would require obtaining the 1990 agreement from Morgan Guaranty Trust/JPMorgan archives or from the lender syndicate.",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar"
+      ],
+      "confidence": "medium",
+      "date_of_event": "1995-12-15",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:04:21",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2552,
+      "finding_type": "document",
+      "summary": "NEGATIVE RESULT: Exhibit 21 subsidiary lists reviewed across 4 fiscal years (FY1994/1995/1996/FY2005) \u2014 zero aviation, air cargo, freight, or carrier entities appear in ANY year. All named subsidiaries are retail brands, distribution services, and holding companies. Every year includes the caveat: 'The names of certain subsidiaries are omitted since such unnamed subsidiaries, considered in the aggregate as a single subsidiary, would not constitute a significant subsidiary.' Entity evolution tracked: Limited Distribution Services Inc (under LTDSP Inc) \u2192 renamed to Limited Logistics Services Inc by FY2005. LTDSP Inc is a Delaware holding corp \u2014 parent of the distribution arm. Neither entity has aviation-related naming.",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "1996-05-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:03:59",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-21",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2390,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: Zero mentions of Southern Air Transport, Rickenbacker Airport, air cargo, or freight operations in ANY Limited Brands 10-K filing from 1997-2007 (11 annual reports reviewed). Despite SAT operating out of Rickenbacker to fly garments for The Limited from Hong Kong, this relationship was never disclosed to SEC or shareholders. The 10-Ks describe 'Most merchandise shipped to distribution centers in the Columbus, Ohio area' without specifying the air cargo operation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1997",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:09:48",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000701985-18-000018",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2387,
+      "finding_type": "legal",
+      "summary": "ATMI (American Textile Manufacturers Institute) sued The Limited under the federal False Claims Act for 'submitting false country of origin declarations to the U.S. Customs Service.' Filed pre-1997, dismissed with prejudice Nov 1997, affirmed by 6th Circuit Sep 1999, cert denied by Supreme Court Apr 2000. This directly relates to CNMI quota circumvention \u2014 garments manufactured in Saipan were labeled with false country of origin to avoid US import quotas.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1997-11",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:09:27",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950109-98-002823",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2388,
+      "finding_type": "legal",
+      "summary": "Saipan CNMI lawsuits (filed Jan 13, 1999) named 'the Company and its subsidiary, Lane Bryant, Inc.' as defendants alongside 'many national retailers.' The Limited's own SEC disclosure characterized the CNMI manufacturers as 'apparel manufacturers unrelated to the Company (some of which have sold goods to the Company)' \u2014 distancing language that obscures Mast Industries' role as the sourcing intermediary.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1999-01-13",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:09:32",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950109-99-001502",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2391,
+      "finding_type": "financial",
+      "summary": "CRITICAL STRUCTURAL FINDING: The Limited's 1995 credit agreement (filed with FY1995 10-K) defines 'Unrestricted Subsidiaries' with specific carve-outs for entities (c) 'exclusively in the business of owning or leasing, and operating, aircraft and/or trucks' and (e) 'primarily as a carrier transporting goods in both intrastate and interstate commerce.' Unrestricted Subsidiaries are EXCLUDED from consolidated financial reporting \u2014 meaning any air cargo or freight carrier subsidiary would be legally invisible in SEC filings. This is the mechanism by which a Southern Air Transport relationship could be structured without ever appearing in The Limited's 10-K. The credit agreement was executed the same year SAT relocated to Columbus.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:11:34",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950132-96-000246",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2392,
+      "finding_type": "financial",
+      "summary": "The Limited's 1995 credit facility (~$715M total) banking syndicate: Morgan Guaranty Trust ($125M, Agent), Citibank ($82M, Managing Agent), DEUTSCHE BANK AG NEW YORK AND/OR CAYMAN ISLANDS BRANCHES ($82M, Managing Agent), Chemical Bank ($62.5M), First National Bank of Chicago ($62.5M), HSBC ($62.5M), NationsBank ($62.5M), Bank of New York ($50M), Bank of America ($42M), Mellon Bank ($42M), UBS Chicago ($42M). National City Bank Columbus served as CD Reference Bank. Deutsche Bank \u2014 which later maintained Epstein's personal accounts \u2014 was a Managing Agent with Cayman Islands capability. HSBC was the same bank Mast Industries (Far East) used in Hong Kong.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:11:42",
+      "target_name": "The Limited Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950132-96-000246",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1208,
+      "person_a": "ATMI",
+      "person_b": "The Limited Inc",
+      "relationship_type": "legal",
+      "description": "ATMI sued The Limited under False Claims Act for false country of origin declarations to US Customs \u2014 directly related to CNMI quota circumvention scheme",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:09:55",
+      "other_person": "ATMI",
+      "other_person_slug": "atmi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950109-98-002823",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1209,
+      "person_a": "Deutsche Bank",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment \u2014 same bank that later maintained Epstein's accounts (RM 82289)",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 05:11:49",
+      "other_person": "Deutsche Bank",
+      "other_person_slug": "deutsche-bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC:0000950132-96-000246",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1268,
+      "person_a": "Deutsche Bank",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:04:36",
+      "other_person": "Deutsche Bank",
+      "other_person_slug": "deutsche-bank",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1269,
+      "person_a": "Southern Air Transport",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:32:58",
+      "other_person": "Southern Air Transport",
+      "other_person_slug": "southern-air-transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "freepress_spook_air",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1267,
+      "person_a": "Southern Air Transport",
+      "person_b": "The Limited Inc",
+      "relationship_type": "financial",
+      "description": "Dec 1995 credit agreement has Unrestricted Subsidiary carve-outs for aircraft/carrier entities. SAT relocated to Columbus same year.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 08:04:35",
+      "other_person": "Southern Air Transport",
+      "other_person_slug": "southern-air-transport",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1995-12-15",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FULL TEXT of Unrestricted Subsidiary definition from Dec 15, 1995 $1B credit agreement (EX-4.8): Five carve-out categories allow The Limited to designate entities that are EXCLUDED from consolidated SEC reporting via private written notice to Agent (Morgan Guaranty Trust). Category (c): 'exclusively in the business of owning or leasing, and operating, aircraft and/or trucks.' Category (e): 'primarily as a carrier transporting goods in both intrastate and interstate commerce.' Designation is one-way: may only change once during agreement term. Deutsche Bank AG New York Branch was Managing Agent. Agreement replaced Aug 30, 1990 facility. Counsel: Davis Polk & Wardwell (Company), Cravath Swaine & Moore (Agent).",
+      "confidence": "confirmed",
+      "id": 2551
+    },
+    {
+      "date": "1995-12-15",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "STRUCTURAL ANALYSIS: The Dec 1995 credit agreement creates a complete opacity mechanism for aviation operations. By designating an entity as Unrestricted Subsidiary: (1) excluded from consolidated financial statements, (2) excluded from Exhibit 21 if individually insignificant, (3) exempt from credit agreement debt covenants (Section 5.9 Consolidated Subsidiary Debt Limitations), (4) exempt from current ratio covenant (Section 5.6.1), (5) exempt from tangible net worth covenant (Section 5.6.2). The only constraint: investments in Unrestricted Subsidiaries are carved out of 'WFN Companies Tangible Assets.' Designation is by private written notice to Agent \u2014 NEVER publicly disclosed. This means any Limited-owned aircraft entity or carrier entity would be legally invisible in all SEC filings, creating a structural gap that cannot be filled through public records alone.",
+      "confidence": "medium",
+      "id": 2553
+    },
+    {
+      "date": "1995-12-15",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "TEMPORAL CORRELATION: The Dec 15, 1995 credit agreement with aircraft/carrier Unrestricted Subsidiary carve-outs was executed the SAME YEAR SAT relocated to Columbus/Rickenbacker (April 1995 first flights). It replaced the Aug 30, 1990 credit agreement. Without access to the 1990 agreement text, cannot confirm whether the carve-out is (a) new language added specifically for the SAT relationship, or (b) pre-existing boilerplate carried forward. The 1990 agreement was incorporated by reference in FY1994 10-K and full text is not available in EDGAR. A new credit agreement was executed Sep 25, 1997, also not filed in full. Key question: was the aircraft/carrier carve-out added or modified in December 1995? This would require obtaining the 1990 agreement from Morgan Guaranty Trust/JPMorgan archives or from the lender syndicate.",
+      "confidence": "medium",
+      "id": 2554
+    },
+    {
+      "date": "1996-05-02",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "NEGATIVE RESULT: Exhibit 21 subsidiary lists reviewed across 4 fiscal years (FY1994/1995/1996/FY2005) \u2014 zero aviation, air cargo, freight, or carrier entities appear in ANY year. All named subsidiaries are retail brands, distribution services, and holding companies. Every year includes the caveat: 'The names of certain subsidiaries are omitted since such unnamed subsidiaries, considered in the aggregate as a single subsidiary, would not constitute a significant subsidiary.' Entity evolution tracked: Limited Distribution Services Inc (under LTDSP Inc) \u2192 renamed to Limited Logistics Services Inc by FY2005. LTDSP Inc is a Delaware holding corp \u2014 parent of the distribution arm. Neither entity has aviation-related naming.",
+      "confidence": "confirmed",
+      "id": 2552
+    },
+    {
+      "date": "1997",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: Zero mentions of Southern Air Transport, Rickenbacker Airport, air cargo, or freight operations in ANY Limited Brands 10-K filing from 1997-2007 (11 annual reports reviewed). Despite SAT operating out of Rickenbacker to fly garments for The Limited from Hong Kong, this relationship was never disclosed to SEC or shareholders. The 10-Ks describe 'Most merchandise shipped to distribution centers in the Columbus, Ohio area' without specifying the air cargo operation.",
+      "confidence": "medium",
+      "id": 2390
+    },
+    {
+      "date": "1997-11",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "ATMI (American Textile Manufacturers Institute) sued The Limited under the federal False Claims Act for 'submitting false country of origin declarations to the U.S. Customs Service.' Filed pre-1997, dismissed with prejudice Nov 1997, affirmed by 6th Circuit Sep 1999, cert denied by Supreme Court Apr 2000. This directly relates to CNMI quota circumvention \u2014 garments manufactured in Saipan were labeled with false country of origin to avoid US import quotas.",
+      "confidence": "high",
+      "id": 2387
+    },
+    {
+      "date": "1999-01-13",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Saipan CNMI lawsuits (filed Jan 13, 1999) named 'the Company and its subsidiary, Lane Bryant, Inc.' as defendants alongside 'many national retailers.' The Limited's own SEC disclosure characterized the CNMI manufacturers as 'apparel manufacturers unrelated to the Company (some of which have sold goods to the Company)' \u2014 distancing language that obscures Mast Industries' role as the sourcing intermediary.",
+      "confidence": "high",
+      "id": 2388
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2551,
+      2552,
+      2387,
+      2388,
+      2553,
+      2554,
+      2390,
+      2391,
+      2392
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1208,
+          1209,
+          1268,
+          1269,
+          1267
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          2551,
+          2391,
+          2392
+        ],
+        "connection_ids": [
+          1209,
+          1268,
+          1269,
+          1267
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2387,
+          2388
+        ],
+        "connection_ids": [
+          1208
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          2553,
+          2554,
+          2390
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.647834"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "The Limited Inc",
+      "connections": [
+        {
+          "target": "ATMI",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "SEC:0000950109-98-002823",
+          "description": "ATMI sued The Limited under False Claims Act for false country of origin declarations to US Customs \u2014 directly related to CNMI quota circumvention scheme"
+        },
+        {
+          "target": "Deutsche Bank",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "SEC:0000950132-96-000246",
+          "description": "Deutsche Bank AG (NY/Cayman) served as Managing Agent on The Limited's ~$715M 1995 credit facility with $82M commitment \u2014 same bank that later maintained Epstein's accounts (RM 82289)"
+        },
+        {
+          "target": "Deutsche Bank",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "description": "Deutsche Bank AG New York Branch was Managing Agent on The Limited Dec 15, 1995 B revolving credit facility"
+        },
+        {
+          "target": "Southern Air Transport",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "freepress_spook_air",
+          "description": null
+        },
+        {
+          "target": "Southern Air Transport",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "0000950132-96-000246:EX-4.8",
+          "description": "Dec 1995 credit agreement has Unrestricted Subsidiary carve-outs for aircraft/carrier entities. SAT relocated to Columbus same year."
+        }
+      ],
+      "secondHop": {
+        "Deutsche Bank": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank Trust Company Americas was primary banking relationship for GA. Account managed by Stewart Oldfield. KYC case #01353080. Part of the SOUTHERN FINANCIAL RELATIONSHIP umbrella with Mort Inc. GA account changed to Inactive Prospect after all accounts closed."
+          },
+          {
+            "target": "Enhanced Education",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Deutsche Bank held Enhanced Education brokerage account managed by Ted Serure. Account underwent KYC/AML review 2018-2019. DB compliance flagged the Enhanced Education trade name for due diligence. Account closed Feb 2019."
+          },
+          {
+            "target": "Robert Rankin",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Rankin was head of Deutsche Bank Asia-Pacific, later Crown Resorts executive chairman"
+          },
+          {
+            "target": "Robert Rankin",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Rankin was CEO Deutsche Bank Asia-Pacific excluding Japan Oct 2009 to Jun 2012 then Co-Head Corporate Banking and Securities from Jun 2012. Deutsche Bank was Epsteins primary bank with 67M plus 32M Wanek accounts."
+          },
+          {
+            "target": "Erika Kellerhals",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "DB performed formal KYC screening of Kellerhals (GCIS ID 11593661, Oct 2016) and listed her alongside inner circle (Beller, Indyke, Kahn) in account opening documents for Butterfly entity (Oct 2018). Kellerhals was DB-recognized as a related person for Epstein account management."
+          }
+        ],
+        "Southern Air Transport": [
+          {
+            "target": "Emery Air Freight",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "SAT aircraft being re-leased to Emery Worldwide at time of 1998 bankruptcy"
+          },
+          {
+            "target": "DEA",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "CIA IG confirms SAT in DEA database Jan 1985-Sep 1990 for alleged cocaine trafficking. DEA cable and database entries document narcotics currency allegations"
+          },
+          {
+            "target": "Leslie Wexner",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "SAT flew twice-weekly Hong Kong-Rickenbacker cargo for Wexner's The Limited. Ohio officials and news accounts confirm Wexner played role in SAT relocation."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+          },
+          {
+            "target": "Douglas Leese",
+            "type": "intelligence",
+            "strength": 0.7,
+            "description": "Leese collaborated with Adnan Khashoggi (Iran-Contra arms intermediary). SAT was CIA's covert air transport for Iran-Contra. Leese mentored Epstein from 1981, and LittleSis records SAT-Epstein business relationship. Chain: Khashoggi-Leese-Epstein-SAT links the arms/intelligence world to the logistics operation."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1995-12-15",
+        "label": "FULL TEXT of Unrestricted Subsidiary definition from Dec 15, 1995 $1B credit agreement (EX-4.8): Five carve-out categories allow The Limited to designate entities that are EXCLUDED from consolidated SEC reporting via private written notice to Agent (Morgan Guaranty Trust). Category (c): 'exclusively in the business of owning or leasing, and operating, aircraft and/or trucks.' Category (e): 'primarily as a carrier transporting goods in both intrastate and interstate commerce.' Designation is one-way: may only change once during agreement term. Deutsche Bank AG New York Branch was Managing Agent. Agreement replaced Aug 30, 1990 facility. Counsel: Davis Polk & Wardwell (Company), Cravath Swaine & Moore (Agent).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2551
+      },
+      {
+        "date": "1995-12-15",
+        "label": "STRUCTURAL ANALYSIS: The Dec 1995 credit agreement creates a complete opacity mechanism for aviation operations. By designating an entity as Unrestricted Subsidiary: (1) excluded from consolidated financial statements, (2) excluded from Exhibit 21 if individually insignificant, (3) exempt from credit agreement debt covenants (Section 5.9 Consolidated Subsidiary Debt Limitations), (4) exempt from current ratio covenant (Section 5.6.1), (5) exempt from tangible net worth covenant (Section 5.6.2). The only constraint: investments in Unrestricted Subsidiaries are carved out of 'WFN Companies Tangible Assets.' Designation is by private written notice to Agent \u2014 NEVER publicly disclosed. This means any Limited-owned aircraft entity or carrier entity would be legally invisible in all SEC filings, creating a structural gap that cannot be filled through public records alone.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2553
+      },
+      {
+        "date": "1995-12-15",
+        "label": "TEMPORAL CORRELATION: The Dec 15, 1995 credit agreement with aircraft/carrier Unrestricted Subsidiary carve-outs was executed the SAME YEAR SAT relocated to Columbus/Rickenbacker (April 1995 first flights). It replaced the Aug 30, 1990 credit agreement. Without access to the 1990 agreement text, cannot confirm whether the carve-out is (a) new language added specifically for the SAT relationship, or (b) pre-existing boilerplate carried forward. The 1990 agreement was incorporated by reference in FY1994 10-K and full text is not available in EDGAR. A new credit agreement was executed Sep 25, 1997, also not filed in full. Key question: was the aircraft/carrier carve-out added or modified in December 1995? This would require obtaining the 1990 agreement from Morgan Guaranty Trust/JPMorgan archives or from the lender syndicate.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2554
+      },
+      {
+        "date": "1996-05-02",
+        "label": "NEGATIVE RESULT: Exhibit 21 subsidiary lists reviewed across 4 fiscal years (FY1994/1995/1996/FY2005) \u2014 zero aviation, air cargo, freight, or carrier entities appear in ANY year. All named subsidiaries are retail brands, distribution services, and holding companies. Every year includes the caveat: 'The names of certain subsidiaries are omitted since such unnamed subsidiaries, considered in the aggregate as a single subsidiary, would not constitute a significant subsidiary.' Entity evolution tracked: Limited Distribution Services Inc (under LTDSP Inc) \u2192 renamed to Limited Logistics Services Inc by FY2005. LTDSP Inc is a Delaware holding corp \u2014 parent of the distribution arm. Neither entity has aviation-related naming.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2552
+      },
+      {
+        "date": "1997",
+        "label": "NEGATIVE RESULT: Zero mentions of Southern Air Transport, Rickenbacker Airport, air cargo, or freight operations in ANY Limited Brands 10-K filing from 1997-2007 (11 annual reports reviewed). Despite SAT operating out of Rickenbacker to fly garments for The Limited from Hong Kong, this relationship was never disclosed to SEC or shareholders. The 10-Ks describe 'Most merchandise shipped to distribution centers in the Columbus, Ohio area' without specifying the air cargo operation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2390
+      },
+      {
+        "date": "1997-11",
+        "label": "ATMI (American Textile Manufacturers Institute) sued The Limited under the federal False Claims Act for 'submitting false country of origin declarations to the U.S. Customs Service.' Filed pre-1997, dismissed with prejudice Nov 1997, affirmed by 6th Circuit Sep 1999, cert denied by Supreme Court Apr 2000. This directly relates to CNMI quota circumvention \u2014 garments manufactured in Saipan were labeled with false country of origin to avoid US import quotas.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2387
+      },
+      {
+        "date": "1999-01-13",
+        "label": "Saipan CNMI lawsuits (filed Jan 13, 1999) named 'the Company and its subsidiary, Lane Bryant, Inc.' as defendants alongside 'many national retailers.' The Limited's own SEC disclosure characterized the CNMI manufacturers as 'apparel manufacturers unrelated to the Company (some of which have sold goods to the Company)' \u2014 distancing language that obscures Mast Industries' role as the sourcing intermediary.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2388
+      }
+    ]
+  }
+}

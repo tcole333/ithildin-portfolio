@@ -1,0 +1,1456 @@
+{
+  "name": "Mark Filip",
+  "slug": "mark-filip",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.302447",
+  "last_updated": "2026-02-16T18:01:21",
+  "stats": {
+    "total_findings": 11,
+    "total_connections": 19,
+    "total_entities": 0,
+    "finding_types": {
+      "identity": 1,
+      "financial": 1,
+      "intelligence": 1,
+      "legal": 7,
+      "relationship": 1
+    },
+    "connection_types": {
+      "legal": 8,
+      "employment": 11
+    },
+    "last_updated": "2026-02-16T18:01:21"
+  },
+  "findings": [
+    {
+      "id": 3136,
+      "finding_type": "identity",
+      "summary": "Mark Robert Filip: Born June 1 1966 Chicago. Republican. Education: UIUC BA summa 1988, Oxford BA First Class 1990 Marshall Scholar, Harvard Law JD magna 1992 Law Review. Clerked for Justice Scalia SCOTUS 1993-94 and Judge Williams DC Cir 1992-93. Career: KE associate 1994-95, AUSA Chicago 1995-99, Skadden partner 1999-2004, NDIL judge 2004-2008 confirmed 96-0, DAG/Acting AG 2008-2009 confirmed unanimously, KE partner May 2009-present. KE Executive Committee. Fellow American College of Trial Lawyers. Taught U Chicago Law 2000-2008. IL bar 1995 DC bar 2010.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1966-06-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:44:07",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland:filip-bio;DOJ:dag-bio-filip;OpenSanctions:Q1773127",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3150,
+      "finding_type": "financial",
+      "summary": "Filip political donations exclusively Republican per LittleSis: George W Bush 1999-2003, RNC 2012, NRSC 2002, NRCC 2002, IL Republican Party 2000-2002, 2002 Presidents Dinner Committee, Romney 2011-12, Kirk R-IL 2009-11, Dold R-IL 2010-12, Allen R-VA 2011, Freedom First PAC 2009, Skadden PAC 2003. No Democratic donations found. No FEC records under Kirkland Ellis employer. LittleSis entity 128114 maps 12 donation relationships.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1999",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:46:13",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:128114-relationships",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3141,
+      "finding_type": "intelligence",
+      "summary": "Filip as KE institutional capture keystone: Filip represents the single most concentrated revolving door in modern DOJ history. As DAG (2008-2009) he: (1) authored the Filip Memo codifying DPAs as prosecution framework; (2) had oversight during Epstein NPA execution period; (3) hired Benczkowski as chief of staff. He then returned to KE and: (4) became highest-grossing corporate criminal defense lawyer in US; (5) defended 14B+ in corporate criminal cases using his own framework; (6) served as monitor appointed by the DOJ he previously ran; (7) was proposed as Ticketmaster monitor by DOJ while actively defending Boeing; (8) represented Goldman Sachs while former KE colleagues Barr and Benczkowski ran DOJ. LittleSis entity 128114 maps 14 relationships including campaign contributions and KE/DOJ positions. He sits on KE Executive Committee, meaning he influences firm strategy, not just individual cases.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2008",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:44:42",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:128114;Kirkland:filip-bio;LittleSis:kirkland-doj-article",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3130,
+      "finding_type": "legal",
+      "summary": "Filip Memorandum (Aug 28, 2008): As DAG, Filip issued binding revision to 'Principles of Federal Prosecution of Business Organizations' replacing the McNulty Memo. Key changes: (1) Cooperation credit no longer requires waiver of attorney-client privilege — now focuses on 'disclosure of relevant facts'; (2) Explicitly codified DPAs/NPAs as legitimate 'third option' between indictment and declination; (3) Prohibited government requests for non-factual privileged materials; (4) Set 'Filip Factors' for evaluating corporate cooperation. The memo was drafted with chief of staff Brian Benczkowski. Filip then returned to K&E and became the most prolific user of the DPA framework he created, defending Boeing (.5B DPA), BP (.5B criminal), and VW (.3B plea). The framework he authored as regulator became the tool he wielded as defense counsel.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2008-08-28",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:42:44",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ:dag-memo-08282008.pdf",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3083,
+      "finding_type": "legal",
+      "summary": "Mark Filip career trajectory: federal judge NDIL (2004-2008), Deputy Attorney General of the United States (2008-2009), briefly Acting AG (Jan 20-Feb 3, 2009). Joined K&E May 2009. Authored the 'Filip Memorandum' (Aug 28, 2008) while Deputy AG — DOJ's guidebook for deferred prosecution agreements. Then as K&E partner, used the very DPA framework he created to represent Boeing, BP, and VW. Led BP Deepwater Horizon criminal defense ($4B criminal settlement, largest in US history at the time). Led Boeing 737 MAX DPA ($2.5B). Represented VW in emissions scandal ($2.8B guilty plea). The architect of the DPA system became its most prolific defense practitioner.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2009-02-03",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:16:56",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "Wikipedia:en.wikipedia.org/wiki/Mark_Filip;K&E:kirkland.com/lawyers/f/filip-mark-pc;DOJ:justice.gov/jm/jm-9-28000",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3133,
+      "finding_type": "legal",
+      "summary": "Goldman Sachs 1MDB defense: Filip was retained by Goldman Sachs as lead criminal defense counsel (K&E) to argue Goldman should not be prosecuted for its role in the 1MDB scandal (B raised, .5B allegedly misappropriated, Goldman earned M+ in fees). Critical conflict: AG William Barr (K&E Of Counsel 2017-2018, received .19M salary + K bonus) and AAG Criminal Division Brian Benczkowski (K&E partner 2010-2018, received .5K) both oversaw the case while Filip — their former K&E colleague and former DOJ boss — represented Goldman. Both received ethics waivers. Goldman ultimately paid .9B but escaped guilty plea — a favorable outcome considering the fraud's scale. This represents the K&E institutional capture pattern at its most complete: the firm's partners wrote the rules (Filip Memo), staffed the enforcers (Barr, Benczkowski, Rosen), and defended the targets (Filip at K&E) simultaneously.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:43:22",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman;GIR:goldman-adds-kirkland;LawAndCrime:barr-goldman",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3139,
+      "finding_type": "legal",
+      "summary": "VW vs Boeing monitor comparison reveals KE strategy: VW Dieselgate (2017) got guilty plea WITH independent monitor; Boeing 737 MAX (2021) got DPA with NO monitor, NO guilty plea, only 243.6M criminal fine (low end of guidelines) despite 346 deaths. Same defense firm (KE), same lead counsel (Filip), same co-counsel (Benczkowski on VW, returned to DOJ for Boeing era). Key difference: by 2021, AG Barr (KE Of Counsel), DAG Rosen (KE 29-year partner), and AAG Benczkowski (KE partner) had all recently occupied or still held the DOJ positions overseeing the Boeing case. Boeing DPA was later found breached by DOJ (2024), leading to new prosecution. Harvard Law analysis called it 'one of the worst deferred prosecution agreements' noting judge and venue were chosen to favor Boeing.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:44:31",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HarvardLaw:nosedive-boeing-dpa;DOJ:boeing-dpa-breach-2024;GIR:kirkland-2018",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3134,
+      "finding_type": "legal",
+      "summary": "PG&E Corporate Monitor: Filip was appointed by Judge Thelton E. Henderson (Jan 26, 2017) as Compliance and Ethics Monitor of PG&E following its five felony convictions for willful violations of the Natural Gas Pipeline Safety Act and corrupt obstruction of the investigation of the 2010 San Bruno gas explosion (8 dead). Filip served as monitor for five years until PG&E's probation ended Jan 2022. During monitoring, Filip raised alarms about wildfire prevention: 'We doubt anyone would seriously contend PG&E's performance has been adequate, or that substantial improvement is not still imperative.' This role — appointed by DOJ he previously ran — demonstrates the bidirectional nature of Filip's government ties: he defends corporations against DOJ AND monitors corporations for DOJ, depending on the engagement.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01-26",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:43:33",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ:usao-ndca-pge-monitor-2017;NPR:pge-criminal-probation-2022",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3131,
+      "finding_type": "legal",
+      "summary": "Epstein NPA: Defense counsel appealed directly to DAG Filip's office. Deposition transcript (EFTA00009329) confirms: 'The DAG, Deputy Attorney General Mark Filip, and this is -- you certainly recall that there was an appeal, if you will, a small appeal to the DAG's office -- by defense counsel, and submitted a fairly substantial accounting of what had...' Separately, defense document EFTA02612560 (sent by Epstein to Ruemmler Dec 9, 2018) claims the NPA was 'reviewed by three levels of senior officials at the Department of Justice in Washington: first by the heads of CEOS (Child Exploitation and Obscenity Section), then by the Criminal Division, and finally by the Deputy Attorney General, Mark Filip, who, with the exception of the Attorney General himself, was the highest ranking official at the Department.' Filip was DAG from March 10, 2008; Epstein pled guilty June 30, 2008. The NPA was signed Sept 24, 2007 — before Filip's confirmation — but Filip's office reviewed it during execution phase.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-12-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:42:57",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00009329",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02612560",
+          "source_quote": "=div class=\"gmail_quote\"> \nfor tuesday , we want a contigent sig=ing bonus, contingent on the stock being higher by x \npercent i= three years.. makes the current payment non taxable. &=uot;_ \n=blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-=eft:lpx solid...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA00009329",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA00009116",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02612560",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3132,
+      "finding_type": "relationship",
+      "summary": "Filip-Benczkowski revolving door tandem: Brian Benczkowski served as Filip's chief of staff in the Office of the Deputy AG (2008). Together they co-authored the Filip Memorandum establishing DPA framework. Benczkowski then followed Filip to K&E (joined 2010) where they served as co-counsel on at least three major corporate criminal cases: BP Deepwater Horizon, Volkswagen Dieselgate, and Abbott Laboratories misbranding. In 2018, Benczkowski returned to DOJ as AAG Criminal Division — the division that oversees DPAs — while Filip continued defending Boeing at K&E. Benczkowski received an ethics waiver to participate in Goldman Sachs 1MDB case despite Filip representing Goldman at K&E. Benczkowski then returned to K&E again in September 2020.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2020-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:43:08",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:kirkland-ellis-doj-article;GIR:kirkland-ellis-2018;WallStreetOnParade:2020-07-goldman",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3137,
+      "finding_type": "legal",
+      "summary": "Filip complete client portfolio at KE (post-DOJ): Boeing 737 MAX DPA 2.5B (signed DPA Jan 2021), BP Deepwater Horizon 4.5B criminal (2012-2013), Volkswagen Dieselgate 4.3B plea (2017, with Benczkowski), Goldman Sachs 1MDB defense (escaped guilty plea), General Motors ignition switch defense, JP Morgan Chase market manipulation/spoofing defense, Allergan opioid class action/MDL defense, Abbott Laboratories misbranding (with Benczkowski), PGE corporate monitor 2017-2022 (5 felony convictions). Also proposed as Live Nation/Ticketmaster compliance monitor by DOJ (Feb 2020) and represented Valeant Pharmaceuticals and Hospira per SEC EDGAR filings. Combined known criminal penalties in cases Filip defended: over 14B dollars. He has appeared before DOJ SEC FTC EPA DoD DHS Congress Federal Reserve NY DFS state AGs and foreign regulators.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2021-01",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:44:19",
+      "target_name": "Mark Filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://www.sec.gov/edgar/search/#/q=mark-filip-filings",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1604,
+      "person_a": "Kirkland & Ellis",
+      "person_b": "Mark Filip",
+      "relationship_type": "legal",
+      "description": "K&E partner Mark Filip became Deputy Attorney General (2008) during active Epstein NPA review. Filip was highest DOJ official to review the NPA. Returned to K&E after DOJ service. Epstein explicitly cited Filip's approval in NPA defense documents.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:15:06",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02612560",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1610,
+      "person_a": "Kirkland Ellis",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "KE partner since May 2009. Previously Deputy AG 2008-2009. Federal judge NDIL 2004-2008. Authored Filip Memo creating DPA framework then used it at KE to defend Boeing BP VW.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:19:18",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "kirkland.com/lawyers/f/filip-mark-pc",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1632,
+      "person_a": "Mark Filip",
+      "person_b": "U.S. Department of Justice",
+      "relationship_type": "employment",
+      "description": "Deputy AG 2008-2009 under Bush. Served as Acting AG Jan 2009. Then returned to K&E to defend corporations against same DOJ.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:20:35",
+      "other_person": "U.S. Department of Justice",
+      "other_person_slug": "us-department-of-justice",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Mark_Filip",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1631,
+      "person_a": "Kirkland & Ellis",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "K&E Partner (current, DC office). Led Boeing 737 MAX defense, BP Deepwater Horizon, VW emissions, Goldman Sachs 1MDB. Former Deputy AG 2008-2009.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:20:35",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:128114 Filip at K&E",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1671,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Prosecutor-defense counsel on Boeing 737 MAX case 4:21-cr-00005. Filip signed DPA for Boeing defense, Cox oversaw prosecution as NDTX USA. Filip welcomed Cox to K&E as partner Sep 2021. Now colleagues at K&E Government Regulatory practice.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:35",
+      "other_person": "Erin Nealy Cox",
+      "other_person_slug": "erin-nealy-cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland press release 2021-06-23; CourtListener docket 29089563",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1682,
+      "person_a": "Brian Benczkowski",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Filip-Benczkowski tandem: DAG chief of staff 2008, KE co-counsel BP/VW/Abbott 2010-2018, AAG Criminal Division 2018-2020 while Filip defended Boeing/Goldman at KE",
+      "strength": "strong",
+      "date_range": "2008-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:00",
+      "other_person": "Brian Benczkowski",
+      "other_person_slug": "brian-benczkowski",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GIR:kirkland-2018",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1683,
+      "person_a": "Goldman Sachs",
+      "person_b": "Mark Filip",
+      "relationship_type": "legal",
+      "description": "KE defense counsel for Goldman in 1MDB criminal investigation, argued Goldman should not be prosecuted, Goldman paid 2.9B but escaped guilty plea",
+      "strength": "strong",
+      "date_range": "2018-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:06",
+      "other_person": "Goldman Sachs",
+      "other_person_slug": "goldman-sachs",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1684,
+      "person_a": "Mark Filip",
+      "person_b": "PG&E",
+      "relationship_type": "legal",
+      "description": "Court-appointed corporate compliance monitor 2017-2022 following PGE 5 felony convictions for San Bruno explosion",
+      "strength": "strong",
+      "date_range": "2017-2022",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:11",
+      "other_person": "PG&E",
+      "other_person_slug": "pge",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ:usao-ndca-pge-monitor",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1685,
+      "person_a": "Antonin Scalia",
+      "person_b": "Mark Filip",
+      "relationship_type": "legal",
+      "description": "Filip clerked for Justice Scalia at SCOTUS 1993-94, Scalia is pipeline for conservative legal establishment",
+      "strength": "strong",
+      "date_range": "1993-1994",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:16",
+      "other_person": "Antonin Scalia",
+      "other_person_slug": "antonin-scalia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland:filip-bio",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1687,
+      "person_a": "Mark Filip",
+      "person_b": "William Barr",
+      "relationship_type": "employment",
+      "description": "Both KE Of Counsel/partners. Barr as AG oversaw DOJ while Filip defended Goldman Boeing at KE. Claire Murray quote: an agency can never be led by too many lawyers from Kirkland and Ellis",
+      "strength": "strong",
+      "date_range": "2017-2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:28",
+      "other_person": "William Barr",
+      "other_person_slug": "william-barr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:kirkland-doj-article",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1688,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Nealy Cox was US Atty NDTX who signed Boeing DPA on Jan 7 2021 her last day. Joined KE as partner Jun 23 2021. Filip personally welcomed her per KE press release.",
+      "strength": "strong",
+      "date_range": "2021-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:36",
+      "other_person": "Erin Nealy Cox",
+      "other_person_slug": "erin-nealy-cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CorporateCrimeReporter:lead-boeing-prosecutor;Kirkland:nealy-cox-press",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1689,
+      "person_a": "Jeffrey Rosen",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Both KE partners. Rosen was 29-year KE partner received 1.57M comp plus 189K annual from KE defined benefit plan even while serving as DAG. Oversaw DOJ while Filip defended clients at KE.",
+      "strength": "strong",
+      "date_range": "2019-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:41",
+      "other_person": "Jeffrey Rosen",
+      "other_person_slug": "jeffrey-rosen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1690,
+      "person_a": "Brian Benczkowski",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Benczkowski was Chief of Staff to Deputy AG Filip in 2008, during the period K&E partner Ken Starr wrote to Filip lobbying to drop the Epstein federal case. Both later at K&E.",
+      "strength": "strong",
+      "date_range": "2008-2009",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:46:21",
+      "other_person": "Brian Benczkowski",
+      "other_person_slug": "brian-benczkowski",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "DOJ:justice.gov/archive/opa/pr/2008/August/08-ag-695.html",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1697,
+      "person_a": "Boeing",
+      "person_b": "Mark Filip",
+      "relationship_type": "legal",
+      "description": "KE lead defense counsel Boeing 737 MAX criminal case. Filip signed DPA Jan 7 2021, 2.5B penalty, no guilty plea, no monitor despite 346 deaths. DPA later breached.",
+      "strength": "strong",
+      "date_range": "2019-2025",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:47:57",
+      "other_person": "Boeing",
+      "other_person_slug": "boeing",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EDGAR:0000012927-21-000003",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1698,
+      "person_a": "BP",
+      "person_b": "Mark Filip",
+      "relationship_type": "legal",
+      "description": "KE lead defense counsel BP Deepwater Horizon criminal case with Gibson Dunn. 14 felony counts, 4.525B settlement largest criminal resolution in US history at time.",
+      "strength": "strong",
+      "date_range": "2010-2013",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:48:03",
+      "other_person": "BP",
+      "other_person_slug": "bp",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland:filip-bio",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1699,
+      "person_a": "Mark Filip",
+      "person_b": "Volkswagen",
+      "relationship_type": "legal",
+      "description": "KE defense counsel VW Dieselgate with Benczkowski. 4.3B plea, 3 felony counts, WITH independent monitor. Less favorable than Boeing despite zero deaths.",
+      "strength": "strong",
+      "date_range": "2015-2017",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:48:08",
+      "other_person": "Volkswagen",
+      "other_person_slug": "volkswagen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland:filip-bio;GIR:kirkland-2018",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1686,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Mark Filip",
+      "relationship_type": "legal",
+      "description": "As DAG Mar 2008, Filip had oversight during Epstein NPA execution. Defense counsel appealed to Filip office. Epstein pled guilty June 30 2008 while Filip was DAG. Defense memo claims Filip reviewed and approved the NPA.",
+      "strength": "medium",
+      "date_range": "2008-2008",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:23",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA00009329",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02612560",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1702,
+      "person_a": "Kirkland & Ellis",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Filip wrote DPA guidelines as Deputy AG then joined K&E and used them for BP VW Boeing defense",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:00:44",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": []
+    },
+    {
+      "id": 1705,
+      "person_a": "Brian Benczkowski",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Benczkowski was Filip chief of staff at DOJ then co-counseled BP VW Boeing at KE",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:01:21",
+      "other_person": "Brian Benczkowski",
+      "other_person_slug": "brian-benczkowski",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1966-06-01",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Mark Robert Filip: Born June 1 1966 Chicago. Republican. Education: UIUC BA summa 1988, Oxford BA First Class 1990 Marshall Scholar, Harvard Law JD magna 1992 Law Review. Clerked for Justice Scalia SCOTUS 1993-94 and Judge Williams DC Cir 1992-93. Career: KE associate 1994-95, AUSA Chicago 1995-99, Skadden partner 1999-2004, NDIL judge 2004-2008 confirmed 96-0, DAG/Acting AG 2008-2009 confirmed unanimously, KE partner May 2009-present. KE Executive Committee. Fellow American College of Trial Lawyers. Taught U Chicago Law 2000-2008. IL bar 1995 DC bar 2010.",
+      "confidence": "high",
+      "id": 3136
+    },
+    {
+      "date": "1993-1994",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Filip clerked for Justice Scalia at SCOTUS 1993-94, Scalia is pipeline for conservative legal establishment",
+      "other_person": "Antonin Scalia",
+      "id": 1685
+    },
+    {
+      "date": "1999",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Filip political donations exclusively Republican per LittleSis: George W Bush 1999-2003, RNC 2012, NRSC 2002, NRCC 2002, IL Republican Party 2000-2002, 2002 Presidents Dinner Committee, Romney 2011-12, Kirk R-IL 2009-11, Dold R-IL 2010-12, Allen R-VA 2011, Freedom First PAC 2009, Skadden PAC 2003. No Democratic donations found. No FEC records under Kirkland Ellis employer. LittleSis entity 128114 maps 12 donation relationships.",
+      "confidence": "high",
+      "id": 3150
+    },
+    {
+      "date": "2008",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Filip as KE institutional capture keystone: Filip represents the single most concentrated revolving door in modern DOJ history. As DAG (2008-2009) he: (1) authored the Filip Memo codifying DPAs as prosecution framework; (2) had oversight during Epstein NPA execution period; (3) hired Benczkowski as chief of staff. He then returned to KE and: (4) became highest-grossing corporate criminal defense lawyer in US; (5) defended 14B+ in corporate criminal cases using his own framework; (6) served as monitor appointed by the DOJ he previously ran; (7) was proposed as Ticketmaster monitor by DOJ while actively defending Boeing; (8) represented Goldman Sachs while former KE colleagues Barr and Benczkowski ran DOJ. LittleSis entity 128114 maps 14 relationships including campaign contributions and KE/DOJ positions. He sits on KE Executive Committee, meaning he influences firm strategy, not just individual cases.",
+      "confidence": "medium",
+      "id": 3141
+    },
+    {
+      "date": "2008-08-28",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Filip Memorandum (Aug 28, 2008): As DAG, Filip issued binding revision to 'Principles of Federal Prosecution of Business Organizations' replacing the McNulty Memo. Key changes: (1) Cooperation credit no longer requires waiver of attorney-client privilege — now focuses on 'disclosure of relevant facts'; (2) Explicitly codified DPAs/NPAs as legitimate 'third option' between indictment and declination; (3) Prohibited government requests for non-factual privileged materials; (4) Set 'Filip Factors' for evaluating corporate cooperation. The memo was drafted with chief of staff Brian Benczkowski. Filip then returned to K&E and became the most prolific user of the DPA framework he created, defending Boeing (.5B DPA), BP (.5B criminal), and VW (.3B plea). The framework he authored as regulator became the tool he wielded as defense counsel.",
+      "confidence": "medium",
+      "id": 3130
+    },
+    {
+      "date": "2008-2008",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "As DAG Mar 2008, Filip had oversight during Epstein NPA execution. Defense counsel appealed to Filip office. Epstein pled guilty June 30 2008 while Filip was DAG. Defense memo claims Filip reviewed and approved the NPA.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1686
+    },
+    {
+      "date": "2008-2009",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Benczkowski was Chief of Staff to Deputy AG Filip in 2008, during the period K&E partner Ken Starr wrote to Filip lobbying to drop the Epstein federal case. Both later at K&E.",
+      "other_person": "Brian Benczkowski",
+      "id": 1690
+    },
+    {
+      "date": "2008-2020",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Filip-Benczkowski tandem: DAG chief of staff 2008, KE co-counsel BP/VW/Abbott 2010-2018, AAG Criminal Division 2018-2020 while Filip defended Boeing/Goldman at KE",
+      "other_person": "Brian Benczkowski",
+      "id": 1682
+    },
+    {
+      "date": "2009-02-03",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Mark Filip career trajectory: federal judge NDIL (2004-2008), Deputy Attorney General of the United States (2008-2009), briefly Acting AG (Jan 20-Feb 3, 2009). Joined K&E May 2009. Authored the 'Filip Memorandum' (Aug 28, 2008) while Deputy AG — DOJ's guidebook for deferred prosecution agreements. Then as K&E partner, used the very DPA framework he created to represent Boeing, BP, and VW. Led BP Deepwater Horizon criminal defense ($4B criminal settlement, largest in US history at the time). Led Boeing 737 MAX DPA ($2.5B). Represented VW in emissions scandal ($2.8B guilty plea). The architect of the DPA system became its most prolific defense practitioner.",
+      "confidence": "medium",
+      "id": 3083
+    },
+    {
+      "date": "2010-2013",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "KE lead defense counsel BP Deepwater Horizon criminal case with Gibson Dunn. 14 felony counts, 4.525B settlement largest criminal resolution in US history at time.",
+      "other_person": "BP",
+      "id": 1698
+    },
+    {
+      "date": "2015-2017",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "KE defense counsel VW Dieselgate with Benczkowski. 4.3B plea, 3 felony counts, WITH independent monitor. Less favorable than Boeing despite zero deaths.",
+      "other_person": "Volkswagen",
+      "id": 1699
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Goldman Sachs 1MDB defense: Filip was retained by Goldman Sachs as lead criminal defense counsel (K&E) to argue Goldman should not be prosecuted for its role in the 1MDB scandal (B raised, .5B allegedly misappropriated, Goldman earned M+ in fees). Critical conflict: AG William Barr (K&E Of Counsel 2017-2018, received .19M salary + K bonus) and AAG Criminal Division Brian Benczkowski (K&E partner 2010-2018, received .5K) both oversaw the case while Filip — their former K&E colleague and former DOJ boss — represented Goldman. Both received ethics waivers. Goldman ultimately paid .9B but escaped guilty plea — a favorable outcome considering the fraud's scale. This represents the K&E institutional capture pattern at its most complete: the firm's partners wrote the rules (Filip Memo), staffed the enforcers (Barr, Benczkowski, Rosen), and defended the targets (Filip at K&E) simultaneously.",
+      "confidence": "medium",
+      "id": 3133
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "VW vs Boeing monitor comparison reveals KE strategy: VW Dieselgate (2017) got guilty plea WITH independent monitor; Boeing 737 MAX (2021) got DPA with NO monitor, NO guilty plea, only 243.6M criminal fine (low end of guidelines) despite 346 deaths. Same defense firm (KE), same lead counsel (Filip), same co-counsel (Benczkowski on VW, returned to DOJ for Boeing era). Key difference: by 2021, AG Barr (KE Of Counsel), DAG Rosen (KE 29-year partner), and AAG Benczkowski (KE partner) had all recently occupied or still held the DOJ positions overseeing the Boeing case. Boeing DPA was later found breached by DOJ (2024), leading to new prosecution. Harvard Law analysis called it 'one of the worst deferred prosecution agreements' noting judge and venue were chosen to favor Boeing.",
+      "confidence": "medium",
+      "id": 3139
+    },
+    {
+      "date": "2017-01-26",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "PG&E Corporate Monitor: Filip was appointed by Judge Thelton E. Henderson (Jan 26, 2017) as Compliance and Ethics Monitor of PG&E following its five felony convictions for willful violations of the Natural Gas Pipeline Safety Act and corrupt obstruction of the investigation of the 2010 San Bruno gas explosion (8 dead). Filip served as monitor for five years until PG&E's probation ended Jan 2022. During monitoring, Filip raised alarms about wildfire prevention: 'We doubt anyone would seriously contend PG&E's performance has been adequate, or that substantial improvement is not still imperative.' This role — appointed by DOJ he previously ran — demonstrates the bidirectional nature of Filip's government ties: he defends corporations against DOJ AND monitors corporations for DOJ, depending on the engagement.",
+      "confidence": "high",
+      "id": 3134
+    },
+    {
+      "date": "2017-2020",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Both KE Of Counsel/partners. Barr as AG oversaw DOJ while Filip defended Goldman Boeing at KE. Claire Murray quote: an agency can never be led by too many lawyers from Kirkland and Ellis",
+      "other_person": "William Barr",
+      "id": 1687
+    },
+    {
+      "date": "2017-2022",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Court-appointed corporate compliance monitor 2017-2022 following PGE 5 felony convictions for San Bruno explosion",
+      "other_person": "PG&E",
+      "id": 1684
+    },
+    {
+      "date": "2018-12-09",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Epstein NPA: Defense counsel appealed directly to DAG Filip's office. Deposition transcript (EFTA00009329) confirms: 'The DAG, Deputy Attorney General Mark Filip, and this is -- you certainly recall that there was an appeal, if you will, a small appeal to the DAG's office -- by defense counsel, and submitted a fairly substantial accounting of what had...' Separately, defense document EFTA02612560 (sent by Epstein to Ruemmler Dec 9, 2018) claims the NPA was 'reviewed by three levels of senior officials at the Department of Justice in Washington: first by the heads of CEOS (Child Exploitation and Obscenity Section), then by the Criminal Division, and finally by the Deputy Attorney General, Mark Filip, who, with the exception of the Attorney General himself, was the highest ranking official at the Department.' Filip was DAG from March 10, 2008; Epstein pled guilty June 30, 2008. The NPA was signed Sept 24, 2007 — before Filip's confirmation — but Filip's office reviewed it during execution phase.",
+      "confidence": "high",
+      "id": 3131
+    },
+    {
+      "date": "2018-2020",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "KE defense counsel for Goldman in 1MDB criminal investigation, argued Goldman should not be prosecuted, Goldman paid 2.9B but escaped guilty plea",
+      "other_person": "Goldman Sachs",
+      "id": 1683
+    },
+    {
+      "date": "2019-2021",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Both KE partners. Rosen was 29-year KE partner received 1.57M comp plus 189K annual from KE defined benefit plan even while serving as DAG. Oversaw DOJ while Filip defended clients at KE.",
+      "other_person": "Jeffrey Rosen",
+      "id": 1689
+    },
+    {
+      "date": "2019-2025",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "KE lead defense counsel Boeing 737 MAX criminal case. Filip signed DPA Jan 7 2021, 2.5B penalty, no guilty plea, no monitor despite 346 deaths. DPA later breached.",
+      "other_person": "Boeing",
+      "id": 1697
+    },
+    {
+      "date": "2020-09",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Filip-Benczkowski revolving door tandem: Brian Benczkowski served as Filip's chief of staff in the Office of the Deputy AG (2008). Together they co-authored the Filip Memorandum establishing DPA framework. Benczkowski then followed Filip to K&E (joined 2010) where they served as co-counsel on at least three major corporate criminal cases: BP Deepwater Horizon, Volkswagen Dieselgate, and Abbott Laboratories misbranding. In 2018, Benczkowski returned to DOJ as AAG Criminal Division — the division that oversees DPAs — while Filip continued defending Boeing at K&E. Benczkowski received an ethics waiver to participate in Goldman Sachs 1MDB case despite Filip representing Goldman at K&E. Benczkowski then returned to K&E again in September 2020.",
+      "confidence": "medium",
+      "id": 3132
+    },
+    {
+      "date": "2021-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Filip complete client portfolio at KE (post-DOJ): Boeing 737 MAX DPA 2.5B (signed DPA Jan 2021), BP Deepwater Horizon 4.5B criminal (2012-2013), Volkswagen Dieselgate 4.3B plea (2017, with Benczkowski), Goldman Sachs 1MDB defense (escaped guilty plea), General Motors ignition switch defense, JP Morgan Chase market manipulation/spoofing defense, Allergan opioid class action/MDL defense, Abbott Laboratories misbranding (with Benczkowski), PGE corporate monitor 2017-2022 (5 felony convictions). Also proposed as Live Nation/Ticketmaster compliance monitor by DOJ (Feb 2020) and represented Valeant Pharmaceuticals and Hospira per SEC EDGAR filings. Combined known criminal penalties in cases Filip defended: over 14B dollars. He has appeared before DOJ SEC FTC EPA DoD DHS Congress Federal Reserve NY DFS state AGs and foreign regulators.",
+      "confidence": "medium",
+      "id": 3137
+    },
+    {
+      "date": "2021-2021",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Nealy Cox was US Atty NDTX who signed Boeing DPA on Jan 7 2021 her last day. Joined KE as partner Jun 23 2021. Filip personally welcomed her per KE press release.",
+      "other_person": "Erin Nealy Cox",
+      "id": 1688
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3131,
+      3150,
+      3134,
+      3136,
+      3130,
+      3083,
+      3141,
+      3132,
+      3133,
+      3139,
+      3137
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3132
+        ],
+        "connection_ids": [
+          1604,
+          1610,
+          1632,
+          1631,
+          1671,
+          1682,
+          1683,
+          1684,
+          1685,
+          1687,
+          1688,
+          1689,
+          1690,
+          1697,
+          1698
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3130,
+          3083,
+          3133,
+          3139,
+          3134,
+          3131,
+          3137
+        ],
+        "connection_ids": [
+          1604,
+          1683,
+          1684,
+          1685,
+          1697,
+          1698
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-19T00:55:05.740164",
+    "lead": "<p><strong>Mark Robert Filip</strong> (born June 1, 1966) is a Kirkland &amp; Ellis partner who represents the single most concentrated revolving door in modern Department of Justice history. A Marshall Scholar, Harvard Law Review editor, and former clerk to Justice Antonin Scalia, Filip moved from federal prosecutor to federal judge (Northern District of Illinois, 2004&ndash;2008, confirmed 96-0) to the 33rd Deputy Attorney General of the United States (2008&ndash;2009, confirmed unanimously), briefly serving as Acting Attorney General during the presidential transition of January 2009. He joined <a href=\"/dossiers/kirkland-and-ellis\">Kirkland &amp; Ellis</a> as partner in May 2009 and currently sits on the firm's Executive Committee. His combined known criminal penalties in cases defended at K&amp;E exceed $14 billion.</p>\n\n<p>Filip's significance in this investigation is structural rather than biographical. As Deputy Attorney General, he authored the \"Filip Memorandum\" (August 28, 2008), which codified deferred prosecution agreements and non-prosecution agreements as a legitimate \"third option\" between indictment and declination, and established the \"Filip Factors\" for evaluating corporate cooperation. He drafted this framework with his chief of staff <a href=\"/dossiers/brian-benczkowski\">Brian Benczkowski</a>. He then returned to K&amp;E and became the most prolific practitioner of the very system he created, defending BP in the Deepwater Horizon criminal case ($4.525 billion, then the largest criminal resolution in U.S. history), Volkswagen in the Dieselgate scandal ($4.3 billion plea), and Boeing in the 737 MAX case ($2.5 billion DPA that Columbia Law Professor John Coffee called \"one of the worst deferred prosecution agreements I have seen\"). The architect of the DPA framework became its most effective wielder for corporate defendants.</p>\n\n<p>Filip also had oversight authority during the execution phase of the <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> non-prosecution agreement. Deposition transcript EFTA00009329 confirms defense counsel appealed directly to DAG Filip's office, and a December 2018 defense document (EFTA02612560) sent by Epstein to <a href=\"/dossiers/kathryn-ruemmler\">Kathy Ruemmler</a> invoked Filip as \"the highest ranking official at the Department\" to have reviewed the NPA. The NPA was signed September 24, 2007 &mdash; before Filip's confirmation &mdash; but Filip's office reviewed it during the execution phase when he assumed the DAG role in March 2008, and Epstein pled guilty June 30, 2008 while Filip was Deputy AG. Concurrently, K&amp;E partner Ken Starr wrote to Filip's office lobbying to drop the Epstein federal case, while <a href=\"/dossiers/brian-benczkowski\">Benczkowski</a> served as Filip's chief of staff.</p>",
+    "open_questions": [
+      "What was the precise nature and extent of Filip's office review of the Epstein NPA during the execution phase (March-June 2008)? Deposition transcripts confirm defense counsel appealed to the DAG's office, but the substance of that review and any written communications between Filip's office and the Southern District of Florida prosecutors have not been released.",
+      "Did Filip have any role in receiving or acting upon Ken Starr's June 2008 letter to the DAG's office lobbying to drop the Epstein federal case, given that Starr was a fellow K&E partner? The letter was addressed to Filip's office, but whether Filip personally reviewed it or recused himself due to the K&E connection is undocumented.",
+      "Why did DOJ propose Filip as Live Nation/Ticketmaster compliance monitor in February 2020 while he was actively serving as Boeing's defense counsel against DOJ prosecution? The simultaneous roles of DOJ-trusted monitor and DOJ-opposing defense counsel for different clients suggest a level of institutional comfort that warrants examination.",
+      "What is the full scope of Filip's client portfolio at K&E beyond the publicly documented cases? SEC EDGAR filings reference Valeant Pharmaceuticals and Hospira representations, and his biography lists appearances before DOJ, SEC, FTC, EPA, DoD, DHS, Congress, the Federal Reserve, NY DFS, state attorneys general, and foreign regulators, but the complete client list has not been mapped.",
+      "How did the Boeing 737 MAX DPA end up filed in the Northern District of Texas (Case 4:21-cr-00005) despite Boeing having no Texas connection, and what role did Filip's defense team play in venue selection? Professor Coffee specifically flagged the venue choice as suspicious."
+    ],
+    "system_role": "Filip functions as the keystone of the Kirkland & Ellis institutional capture pattern: the former Deputy Attorney General who wrote the DOJ's corporate prosecution framework, then returned to private practice and became its most prolific user for corporate defendants, while his protege and co-author Benczkowski cycled back into DOJ to oversee the same framework from the enforcement side.",
+    "sections": [
+      {
+        "id": "filip-memorandum",
+        "title": "The Filip Memorandum and DPA Architecture",
+        "viz": "timeline",
+        "content": "<p>On August 28, 2008, Deputy Attorney General Filip issued a binding revision to the \"Principles of Federal Prosecution of Business Organizations,\" replacing the McNulty Memorandum. The Filip Memo introduced several consequential changes: cooperation credit no longer required waiver of attorney-client privilege, instead focusing on \"disclosure of relevant facts\"; it explicitly codified DPAs and NPAs as a legitimate third option between indictment and declination; it prohibited government requests for non-factual privileged materials; and it established the \"Filip Factors\" for evaluating corporate cooperation. The memo was drafted with chief of staff <a href=\"/dossiers/brian-benczkowski\">Brian Benczkowski</a>, who would later oversee DPA enforcement as AAG Criminal Division (2018&ndash;2020).</p>\n\n<p>The operational significance of this document became clear only after Filip left government. Returning to <a href=\"/dossiers/kirkland-and-ellis\">Kirkland &amp; Ellis</a> in May 2009, Filip deployed the framework he had authored to defend the three largest corporate criminal cases of the 2010s&ndash;2020s. BP Deepwater Horizon (2012): 14 felony counts including 11 manslaughter charges, $4.525 billion criminal settlement &mdash; then the largest in U.S. history. Volkswagen Dieselgate (2017): guilty plea with $4.3 billion penalty and an independent compliance monitor, co-counseled with Benczkowski at K&amp;E. Boeing 737 MAX (2021): a DPA with $2.5 billion total but only $243.6 million in criminal penalties, no guilty plea, no executive charged, and no compliance monitor &mdash; despite 346 deaths from fraud on the FAA. The Boeing DPA was later found breached by DOJ in 2024 and ultimately resolved through a non-prosecution agreement in May 2025. Filip's additional defense portfolio at K&amp;E includes Goldman Sachs (1MDB), General Motors (ignition switch), JP Morgan Chase (market manipulation/spoofing), Allergan (opioid MDL), and Abbott Laboratories (misbranding, with Benczkowski).</p>\n\n<p>The comparison between VW and Boeing is particularly revealing. Same defense firm, same lead counsel (Filip), same co-counsel (Benczkowski on VW, returned to DOJ for the Boeing era). VW: guilty plea, independent monitor, $4.3 billion. Boeing: DPA, no monitor, no guilty plea, $243.6 million criminal fine &mdash; despite causing 346 deaths compared to zero for VW's emissions fraud. The critical variable that changed between 2017 and 2021 was not the severity of the conduct but the composition of DOJ leadership: by 2021, AG <a href=\"/dossiers/william-barr\">William Barr</a> (K&amp;E Of Counsel), DAG Jeffrey Rosen (29-year K&amp;E partner), and AAG <a href=\"/dossiers/brian-benczkowski\">Benczkowski</a> (K&amp;E partner) had all recently occupied or still held the DOJ positions overseeing Boeing's case. Harvard Law analysis called the Boeing DPA \"one of the worst deferred prosecution agreements,\" noting that judge and venue were chosen to favor Boeing despite the company having no Texas connection.</p>"
+      },
+      {
+        "id": "epstein-npa-oversight",
+        "title": "The Epstein NPA and DOJ Oversight",
+        "viz": "timeline",
+        "content": "<p>Filip's connection to the <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> matter is institutional rather than personal, but it occupies a critical position in the chain of authority. The Epstein NPA was signed on September 24, 2007, before Filip's confirmation as Deputy Attorney General. Filip assumed the DAG role on March 10, 2008, at which point the NPA was in its execution phase. Epstein pled guilty under the state component of the arrangement on June 30, 2008, while Filip held the second-highest position at DOJ.</p>\n\n<p>Deposition transcript EFTA00009329 confirms that defense counsel made \"a small appeal to the DAG's office\" &mdash; Filip's office &mdash; \"and submitted a fairly substantial accounting\" of the case. A separate defense document (EFTA02612560), sent by Epstein to <a href=\"/dossiers/kathryn-ruemmler\">Kathy Ruemmler</a> on December 9, 2018, claimed the NPA was \"reviewed by three levels of senior officials at the Department of Justice in Washington: first by the heads of CEOS (Child Exploitation and Obscenity Section), then by the Criminal Division, and finally by the Deputy Attorney General, Mark Filip, who, with the exception of the Attorney General himself, was the highest ranking official at the Department.\" While this characterization appeared in an Epstein defense document and thus served Epstein's interest in legitimizing the NPA, the deposition evidence corroborates that Filip's office was indeed involved in review.</p>\n\n<p>The structural irony is considerable. K&amp;E partner Ken Starr wrote directly to DAG Filip's office lobbying to drop the federal case against Epstein (EFTA00013989). Filip's chief of staff <a href=\"/dossiers/brian-benczkowski\">Benczkowski</a> had previously authored a November 9, 2007 DOJ letter cited by K&amp;E in the Epstein defense, arguing that prostitution crimes belonged at the state level. The chain runs: K&amp;E partner (Starr) writes to K&amp;E alumnus (Filip, as DAG), whose chief of staff (Benczkowski) later joins K&amp;E (2010), then becomes AAG Criminal Division (2018) overseeing the exact statutes (18 USC 1591) used to prosecute Epstein in 2019. Filip himself, after reviewing the NPA from the government side, returned to K&amp;E and became the firm's most prominent corporate criminal defense partner &mdash; defending clients using the same DPA/NPA machinery that had been extended to Epstein.</p>"
+      },
+      {
+        "id": "filip-benczkowski-tandem",
+        "title": "The Filip-Benczkowski Revolving Door Tandem",
+        "viz": "ego_network",
+        "content": "<p>The Filip-<a href=\"/dossiers/brian-benczkowski\">Benczkowski</a> relationship is the most consequential mentor-protege pairing in modern DOJ-to-private practice history. Benczkowski served as Filip's chief of staff in the Office of the Deputy Attorney General (2008), where together they co-authored the Filip Memorandum establishing the DPA framework. When Filip returned to <a href=\"/dossiers/kirkland-and-ellis\">Kirkland &amp; Ellis</a> in May 2009, Benczkowski followed in 2010, and they served as co-counsel on at least three major corporate criminal cases: BP Deepwater Horizon, Volkswagen Dieselgate, and Abbott Laboratories misbranding.</p>\n\n<p>In 2018, Benczkowski returned to DOJ as Assistant Attorney General for the Criminal Division &mdash; the division that directly oversees DPAs &mdash; while Filip continued defending Boeing and Goldman Sachs at K&amp;E. The conflict was manifest: Benczkowski received an ethics waiver in April 2019 to participate in the Goldman Sachs 1MDB case despite K&amp;E (via Filip) representing Goldman. A second waiver followed in November 2018 for 1MDB, and a third in December 2019 for an unspecified \"confidential criminal matter.\" AG <a href=\"/dossiers/william-barr\">Barr</a> received parallel 1MDB waivers. Goldman ultimately paid $2.9 billion but escaped a guilty plea &mdash; a favorable outcome given that $6.5 billion was allegedly misappropriated and Goldman earned $600 million in fees. Filip's former K&amp;E colleagues simultaneously wrote the enforcement rules (Filip Memo), staffed the enforcers (Barr, Benczkowski, Rosen), and defended the targets (Filip at K&amp;E).</p>\n\n<p>Benczkowski returned to K&amp;E in September 2020. In September 2025, he joined Boeing as VP/Assistant General Counsel for Government Operations &mdash; the same company Filip had defended against criminal prosecution, and whose DPA Benczkowski's Criminal Division had overseen. The revolving door did not merely rotate between government and one firm; it concentrated the architect of the DPA system, the co-author who enforced it, and the corporate client who benefited from it into a single institutional orbit.</p>"
+      },
+      {
+        "id": "corporate-monitor-role",
+        "title": "The Bidirectional Role: Corporate Monitor and Defense Counsel",
+        "content": "<p>Filip's career at K&amp;E reveals a figure who operates on both sides of the corporate criminal enforcement divide, sometimes simultaneously. In January 2017, Judge Thelton E. Henderson appointed Filip as Compliance and Ethics Monitor of PG&amp;E following the utility's five felony convictions for willful violations of the Natural Gas Pipeline Safety Act and corrupt obstruction of the investigation into the 2010 San Bruno gas explosion, which killed eight people. Filip served as monitor for five years until PG&amp;E's probation ended in January 2022. During his tenure, he raised alarms about wildfire prevention, writing: \"We doubt anyone would seriously contend PG&amp;E's performance has been adequate, or that substantial improvement is not still imperative.\"</p>\n\n<p>This role &mdash; appointed by the same DOJ he previously ran &mdash; demonstrates the bidirectional nature of Filip's government ties. He defends corporations against DOJ prosecution AND monitors corporations for DOJ compliance, depending on the engagement. In February 2020, DOJ proposed Filip as Live Nation/Ticketmaster compliance monitor while he was actively defending Boeing against DOJ prosecution. The fact that DOJ considered the same attorney trustworthy enough to serve as its monitor while he was defending a client against DOJ prosecution underscores the degree to which Filip's institutional position transcends the adversarial structure of the legal system. He does not merely pass through the revolving door; he operates as though the door is permanently open.</p>\n\n<p><a href=\"/dossiers/erin-nealy-cox\">Erin Nealy Cox</a>, the U.S. Attorney for the Northern District of Texas who oversaw Boeing's prosecution and signed the DPA on January 7, 2021 &mdash; her last day in office &mdash; joined K&amp;E as a partner in June 2021. Filip personally welcomed her per the firm's press release. She now practices government regulatory and internal investigations at K&amp;E in Dallas, the same city where the Boeing case was filed. Columbia Law Professor John Coffee observed: \"the US Attorney's joining the defense counsel's law firm suggests they were both on the same wavelength.\"</p>"
+      },
+      {
+        "id": "political-profile",
+        "title": "Political Alignment and Institutional Position",
+        "content": "<p>Filip's political donations are exclusively Republican according to LittleSis entity 128114: George W. Bush (1999&ndash;2003), RNC (2012), NRSC (2002), NRCC (2002), Illinois Republican Party (2000&ndash;2002), 2002 Presidents Dinner Committee, Mitt Romney (2011&ndash;2012), Mark Kirk (R-IL, 2009&ndash;2011), Robert Dold (R-IL, 2010&ndash;2012), George Allen (R-VA, 2011), Freedom First PAC (2009), and Skadden PAC (2003). No Democratic donations have been identified. Notably, no FEC records appear under a Kirkland &amp; Ellis employer listing, despite Filip's partnership since 2009.</p>\n\n<p>His educational pedigree &mdash; UIUC summa cum laude, Oxford First Class as a Marshall Scholar, Harvard Law magna cum laude with Law Review &mdash; combined with the Scalia clerkship and a 96-0 Senate confirmation for his judgeship, positions Filip within the elite stratum of the conservative legal establishment. His career arc traces the Federalist Society pipeline from judicial clerk to federal bench to executive branch to BigLaw partnership. Yet Filip's influence operates primarily through institutional position rather than political visibility. He does not appear in political commentary or media profiles with the frequency of a <a href=\"/dossiers/william-barr\">Barr</a> or a <a href=\"/dossiers/jay-clayton\">Clayton</a>. His power is exercised through the K&amp;E Executive Committee, where he helps shape firm strategy; through the DPA framework he authored, which structures every major corporate criminal negotiation; and through the relationships with former subordinates and colleagues who cycle between K&amp;E and DOJ leadership.</p>"
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "complexity-as-credential",
+      "enabler-gradient",
+      "manufactured-dependency",
+      "private-order"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Mark Filip",
+      "connections": [
+        {
+          "target": "Kirkland & Ellis",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02612560",
+          "description": "K&E partner Mark Filip became Deputy Attorney General (2008) during active Epstein NPA review. Filip was highest DOJ official to review the NPA. Returned to K&E after DOJ service. Epstein explicitly cited Filip's approval in NPA defense documents."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "kirkland.com/lawyers/f/filip-mark-pc",
+          "description": "KE partner since May 2009. Previously Deputy AG 2008-2009. Federal judge NDIL 2004-2008. Authored Filip Memo creating DPA framework then used it at KE to defend Boeing BP VW."
+        },
+        {
+          "target": "U.S. Department of Justice",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "https://en.wikipedia.org/wiki/Mark_Filip",
+          "description": "Deputy AG 2008-2009 under Bush. Served as Acting AG Jan 2009. Then returned to K&E to defend corporations against same DOJ."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis:128114 Filip at K&E",
+          "description": "K&E Partner (current, DC office). Led Boeing 737 MAX defense, BP Deepwater Horizon, VW emissions, Goldman Sachs 1MDB. Former Deputy AG 2008-2009."
+        },
+        {
+          "target": "Erin Nealy Cox",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "Kirkland press release 2021-06-23; CourtListener docket 29089563",
+          "description": "Prosecutor-defense counsel on Boeing 737 MAX case 4:21-cr-00005. Filip signed DPA for Boeing defense, Cox oversaw prosecution as NDTX USA. Filip welcomed Cox to K&E as partner Sep 2021. Now colleagues at K&E Government Regulatory practice."
+        },
+        {
+          "target": "Brian Benczkowski",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "GIR:kirkland-2018",
+          "description": "Filip-Benczkowski tandem: DAG chief of staff 2008, KE co-counsel BP/VW/Abbott 2010-2018, AAG Criminal Division 2018-2020 while Filip defended Boeing/Goldman at KE"
+        },
+        {
+          "target": "Goldman Sachs",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman",
+          "description": "KE defense counsel for Goldman in 1MDB criminal investigation, argued Goldman should not be prosecuted, Goldman paid 2.9B but escaped guilty plea"
+        },
+        {
+          "target": "PG&E",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "DOJ:usao-ndca-pge-monitor",
+          "description": "Court-appointed corporate compliance monitor 2017-2022 following PGE 5 felony convictions for San Bruno explosion"
+        },
+        {
+          "target": "Antonin Scalia",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "Kirkland:filip-bio",
+          "description": "Filip clerked for Justice Scalia at SCOTUS 1993-94, Scalia is pipeline for conservative legal establishment"
+        },
+        {
+          "target": "William Barr",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis:kirkland-doj-article",
+          "description": "Both KE Of Counsel/partners. Barr as AG oversaw DOJ while Filip defended Goldman Boeing at KE. Claire Murray quote: an agency can never be led by too many lawyers from Kirkland and Ellis"
+        },
+        {
+          "target": "Erin Nealy Cox",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "CorporateCrimeReporter:lead-boeing-prosecutor;Kirkland:nealy-cox-press",
+          "description": "Nealy Cox was US Atty NDTX who signed Boeing DPA on Jan 7 2021 her last day. Joined KE as partner Jun 23 2021. Filip personally welcomed her per KE press release."
+        },
+        {
+          "target": "Jeffrey Rosen",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "WallStreetOnParade:2020-07-goldman",
+          "description": "Both KE partners. Rosen was 29-year KE partner received 1.57M comp plus 189K annual from KE defined benefit plan even while serving as DAG. Oversaw DOJ while Filip defended clients at KE."
+        },
+        {
+          "target": "Brian Benczkowski",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "DOJ:justice.gov/archive/opa/pr/2008/August/08-ag-695.html",
+          "description": "Benczkowski was Chief of Staff to Deputy AG Filip in 2008, during the period K&E partner Ken Starr wrote to Filip lobbying to drop the Epstein federal case. Both later at K&E."
+        },
+        {
+          "target": "Boeing",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EDGAR:0000012927-21-000003",
+          "description": "KE lead defense counsel Boeing 737 MAX criminal case. Filip signed DPA Jan 7 2021, 2.5B penalty, no guilty plea, no monitor despite 346 deaths. DPA later breached."
+        },
+        {
+          "target": "BP",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "Kirkland:filip-bio",
+          "description": "KE lead defense counsel BP Deepwater Horizon criminal case with Gibson Dunn. 14 felony counts, 4.525B settlement largest criminal resolution in US history at time."
+        },
+        {
+          "target": "Volkswagen",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "Kirkland:filip-bio;GIR:kirkland-2018",
+          "description": "KE defense counsel VW Dieselgate with Benczkowski. 4.3B plea, 3 felony counts, WITH independent monitor. Less favorable than Boeing despite zero deaths."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA00009329",
+          "description": "As DAG Mar 2008, Filip had oversight during Epstein NPA execution. Defense counsel appealed to Filip office. Epstein pled guilty June 30 2008 while Filip was DAG. Defense memo claims Filip reviewed and approved the NPA."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Filip wrote DPA guidelines as Deputy AG then joined K&E and used them for BP VW Boeing defense"
+        },
+        {
+          "target": "Brian Benczkowski",
+          "type": "employment",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Benczkowski was Filip chief of staff at DOJ then co-counseled BP VW Boeing at KE"
+        }
+      ],
+      "secondHop": {
+        "Boeing": [
+          {
+            "target": "Kirkland & Ellis",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "K&E defended Boeing in 737 MAX criminal case via Mark Filip. Also represented by Claire Murray and John Moran at K&E before they joined DOJ. Prosecutor Erin Nealy Cox later joined K&E."
+          }
+        ],
+        "Brian Benczkowski": [
+          {
+            "target": "Kirkland Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "KE longtime partner. Became AAG Criminal Division under Trump. Ethics waiver for Goldman 1MDB. Returned to KE Sept 2020."
+          },
+          {
+            "target": "Kirkland & Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner (twice: pre-DOJ and returned Sept 2020). Represented Alfa Bank at K&E. Led Trump DOJ transition team."
+          },
+          {
+            "target": "U.S. Department of Justice",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "AAG Criminal Division 2018-2020. Confirmed 51-48 despite Alfa Bank controversy. K&E partner before and after."
+          },
+          {
+            "target": "Ken Starr",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Both K&E partners. Starr wrote to Deputy AG Filip (Benczkowski's boss) lobbying to drop Epstein case. K&E submission (EFTA00013811) cited Benczkowski's 2007 DOJ letter arguing prostitution crimes belong at state level."
+          },
+          {
+            "target": "William Barr",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Both K&E alumni serving simultaneously at DOJ (2018-2020). Both received ethics waivers in April 2019 for Goldman Sachs 1MDB case. Barr was Of Counsel at K&E receiving .2M+ compensation. Barr as AG oversaw Criminal Division head Benczkowski."
+          }
+        ],
+        "Erin Nealy Cox": [
+          {
+            "target": "Kirkland Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "KE partner since June 2021. Previously US Attorney NDTX 2017-2021. Resigned Jan 9 2021 same day Boeing DPA filed. Joined KE 5 months later."
+          },
+          {
+            "target": "Kirkland & Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner (Dallas, June 2021). Former US Attorney NDTX 2017-2021 who brought Boeing DPA. Joined same firm that defended Boeing."
+          },
+          {
+            "target": "The Boeing Company",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Nealy Cox as NDTX US Attorney oversaw prosecution of Boeing in 4:21-cr-00005. Filed DPA Jan 7 2021. Boeing charged with conspiracy to defraud US re 737 MAX MCAS. 2.51B total penalty. No guilty plea, no exec charged, no monitor. DPA breached May 2024. Case ultimately dismissed Nov 2025 via NPA."
+          }
+        ],
+        "Goldman Sachs": [
+          {
+            "target": "Kathy Ruemmler",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Global Head of Regulatory Affairs from Apr 2020. Recruited by John Waldron (President/COO) in Apr 2019 while Epstein coached negotiations. 214 EDGAR filings mention her."
+          },
+          {
+            "target": "Michael Daffey",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Chairman of Goldman Sachs Global Markets Division, 28 years at the firm"
+          },
+          {
+            "target": "Jay Clayton",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Clayton advised Goldman at S+C on TARP bailout and Berkshire Hathaway investment during 2008 crisis. Wife Gretchen was Goldman VP 17 years."
+          },
+          {
+            "target": "Kirkland and Ellis",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE in 9544 SEC EDGAR filings with Goldman Sachs. Highest overlap of any bank."
+          },
+          {
+            "target": "Kirkland & Ellis",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "K&E partner Mark Filip represented Goldman Sachs in 1MDB criminal investigation. AG Barr and Criminal Division head Benczkowski (both former K&E) obtained ethics waivers to participate despite conflicts. Settlement reportedly below market expectations."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Jeffrey Rosen": [
+          {
+            "target": "William Barr",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Rosen served as Barr's Deputy AG and succeeded him as Acting AG (Dec 2020 - Jan 2021). Rosen was previously Deputy Secretary of Transportation. Under Rosen, DOJ maintained continuity on Epstein-related matters after Barr's departure. Rosen later testified to Jan 6 Committee about Trump pressure to use DOJ to overturn election."
+          },
+          {
+            "target": "William Barr",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Rosen served as DAG under Barr. Became acting AG Dec 23 2020 when Barr resigned. Rosen then faced Trump pressure on election fraud claims in final month. Testified to Jan 6 committee about attempts to weaponize DOJ."
+          },
+          {
+            "target": "Kirkland Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "KE longtime partner. DAG under Barr. Later became acting AG after Barr resigned Dec 2020."
+          },
+          {
+            "target": "Kirkland & Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner. Defended Raytheon, GM, Chamber of Commerce at K&E. Became Deputy AG then Acting AG."
+          },
+          {
+            "target": "U.S. Department of Justice",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Deputy AG 2019-2020, Acting AG Dec 2020-Jan 2021. Resisted Trump pressure to declare election corrupt. K&E partner before."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1966-06-01",
+        "label": "Mark Robert Filip: Born June 1 1966 Chicago. Republican. Education: UIUC BA summa 1988, Oxford BA First Class 1990 Marshall Scholar, Harvard Law JD magna 1992 Law Review. Clerked for Justice Scalia SCOTUS 1993-94 and Judge Williams DC Cir 1992-93. Career: KE associate 1994-95, AUSA Chicago 1995-99, Skadden partner 1999-2004, NDIL judge 2004-2008 confirmed 96-0, DAG/Acting AG 2008-2009 confirmed unanimously, KE partner May 2009-present. KE Executive Committee. Fellow American College of Trial Lawyers. Taught U Chicago Law 2000-2008. IL bar 1995 DC bar 2010.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 3136
+      },
+      {
+        "date": "1993-1994",
+        "label": "legal with Antonin Scalia",
+        "type": "legal",
+        "entity": "Antonin Scalia",
+        "id": 1685
+      },
+      {
+        "date": "1999",
+        "label": "Filip political donations exclusively Republican per LittleSis: George W Bush 1999-2003, RNC 2012, NRSC 2002, NRCC 2002, IL Republican Party 2000-2002, 2002 Presidents Dinner Committee, Romney 2011-12, Kirk R-IL 2009-11, Dold R-IL 2010-12, Allen R-VA 2011, Freedom First PAC 2009, Skadden PAC 2003. No Democratic donations found. No FEC records under Kirkland Ellis employer. LittleSis entity 128114 maps 12 donation relationships.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3150
+      },
+      {
+        "date": "2008",
+        "label": "Filip as KE institutional capture keystone: Filip represents the single most concentrated revolving door in modern DOJ history. As DAG (2008-2009) he: (1) authored the Filip Memo codifying DPAs as prosecution framework; (2) had oversight during Epstein NPA execution period; (3) hired Benczkowski as chief of staff. He then returned to KE and: (4) became highest-grossing corporate criminal defense lawyer in US; (5) defended 14B+ in corporate criminal cases using his own framework; (6) served as monitor appointed by the DOJ he previously ran; (7) was proposed as Ticketmaster monitor by DOJ while actively defending Boeing; (8) represented Goldman Sachs while former KE colleagues Barr and Benczkowski ran DOJ. LittleSis entity 128114 maps 14 relationships including campaign contributions and KE/DOJ positions. He sits on KE Executive Committee, meaning he influences firm strategy, not just individual cases.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 3141
+      },
+      {
+        "date": "2008-08-28",
+        "label": "Filip Memorandum (Aug 28, 2008): As DAG, Filip issued binding revision to 'Principles of Federal Prosecution of Business Organizations' replacing the McNulty Memo. Key changes: (1) Cooperation credit no longer requires waiver of attorney-client privilege — now focuses on 'disclosure of relevant facts'; (2) Explicitly codified DPAs/NPAs as legitimate 'third option' between indictment and declination; (3) Prohibited government requests for non-factual privileged materials; (4) Set 'Filip Factors' for evaluating corporate cooperation. The memo was drafted with chief of staff Brian Benczkowski. Filip then returned to K&E and became the most prolific user of the DPA framework he created, defending Boeing (.5B DPA), BP (.5B criminal), and VW (.3B plea). The framework he authored as regulator became the tool he wielded as defense counsel.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3130
+      },
+      {
+        "date": "2008-2008",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1686
+      },
+      {
+        "date": "2008-2009",
+        "label": "employment with Brian Benczkowski",
+        "type": "employment",
+        "entity": "Brian Benczkowski",
+        "id": 1690
+      },
+      {
+        "date": "2008-2020",
+        "label": "employment with Brian Benczkowski",
+        "type": "employment",
+        "entity": "Brian Benczkowski",
+        "id": 1682
+      },
+      {
+        "date": "2009-02-03",
+        "label": "Mark Filip career trajectory: federal judge NDIL (2004-2008), Deputy Attorney General of the United States (2008-2009), briefly Acting AG (Jan 20-Feb 3, 2009). Joined K&E May 2009. Authored the 'Filip Memorandum' (Aug 28, 2008) while Deputy AG — DOJ's guidebook for deferred prosecution agreements. Then as K&E partner, used the very DPA framework he created to represent Boeing, BP, and VW. Led BP Deepwater Horizon criminal defense ($4B criminal settlement, largest in US history at the time). Led Boeing 737 MAX DPA ($2.5B). Represented VW in emissions scandal ($2.8B guilty plea). The architect of the DPA system became its most prolific defense practitioner.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3083
+      },
+      {
+        "date": "2010-2013",
+        "label": "legal with BP",
+        "type": "legal",
+        "entity": "BP",
+        "id": 1698
+      },
+      {
+        "date": "2015-2017",
+        "label": "legal with Volkswagen",
+        "type": "legal",
+        "entity": "Volkswagen",
+        "id": 1699
+      },
+      {
+        "date": "2017",
+        "label": "Goldman Sachs 1MDB defense: Filip was retained by Goldman Sachs as lead criminal defense counsel (K&E) to argue Goldman should not be prosecuted for its role in the 1MDB scandal (B raised, .5B allegedly misappropriated, Goldman earned M+ in fees). Critical conflict: AG William Barr (K&E Of Counsel 2017-2018, received .19M salary + K bonus) and AAG Criminal Division Brian Benczkowski (K&E partner 2010-2018, received .5K) both oversaw the case while Filip — their former K&E colleague and former DOJ boss — represented Goldman. Both received ethics waivers. Goldman ultimately paid .9B but escaped guilty plea — a favorable outcome considering the fraud's scale. This represents the K&E institutional capture pattern at its most complete: the firm's partners wrote the rules (Filip Memo), staffed the enforcers (Barr, Benczkowski, Rosen), and defended the targets (Filip at K&E) simultaneously.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3133
+      },
+      {
+        "date": "2017",
+        "label": "VW vs Boeing monitor comparison reveals KE strategy: VW Dieselgate (2017) got guilty plea WITH independent monitor; Boeing 737 MAX (2021) got DPA with NO monitor, NO guilty plea, only 243.6M criminal fine (low end of guidelines) despite 346 deaths. Same defense firm (KE), same lead counsel (Filip), same co-counsel (Benczkowski on VW, returned to DOJ for Boeing era). Key difference: by 2021, AG Barr (KE Of Counsel), DAG Rosen (KE 29-year partner), and AAG Benczkowski (KE partner) had all recently occupied or still held the DOJ positions overseeing the Boeing case. Boeing DPA was later found breached by DOJ (2024), leading to new prosecution. Harvard Law analysis called it 'one of the worst deferred prosecution agreements' noting judge and venue were chosen to favor Boeing.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3139
+      },
+      {
+        "date": "2017-01-26",
+        "label": "PG&E Corporate Monitor: Filip was appointed by Judge Thelton E. Henderson (Jan 26, 2017) as Compliance and Ethics Monitor of PG&E following its five felony convictions for willful violations of the Natural Gas Pipeline Safety Act and corrupt obstruction of the investigation of the 2010 San Bruno gas explosion (8 dead). Filip served as monitor for five years until PG&E's probation ended Jan 2022. During monitoring, Filip raised alarms about wildfire prevention: 'We doubt anyone would seriously contend PG&E's performance has been adequate, or that substantial improvement is not still imperative.' This role — appointed by DOJ he previously ran — demonstrates the bidirectional nature of Filip's government ties: he defends corporations against DOJ AND monitors corporations for DOJ, depending on the engagement.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3134
+      },
+      {
+        "date": "2017-2020",
+        "label": "employment with William Barr",
+        "type": "employment",
+        "entity": "William Barr",
+        "id": 1687
+      },
+      {
+        "date": "2017-2022",
+        "label": "legal with PG&E",
+        "type": "legal",
+        "entity": "PG&E",
+        "id": 1684
+      },
+      {
+        "date": "2018-12-09",
+        "label": "Epstein NPA: Defense counsel appealed directly to DAG Filip's office. Deposition transcript (EFTA00009329) confirms: 'The DAG, Deputy Attorney General Mark Filip, and this is -- you certainly recall that there was an appeal, if you will, a small appeal to the DAG's office -- by defense counsel, and submitted a fairly substantial accounting of what had...' Separately, defense document EFTA02612560 (sent by Epstein to Ruemmler Dec 9, 2018) claims the NPA was 'reviewed by three levels of senior officials at the Department of Justice in Washington: first by the heads of CEOS (Child Exploitation and Obscenity Section), then by the Criminal Division, and finally by the Deputy Attorney General, Mark Filip, who, with the exception of the Attorney General himself, was the highest ranking official at the Department.' Filip was DAG from March 10, 2008; Epstein pled guilty June 30, 2008. The NPA was signed Sept 24, 2007 — before Filip's confirmation — but Filip's office reviewed it during execution phase.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3131
+      },
+      {
+        "date": "2018-2020",
+        "label": "legal with Goldman Sachs",
+        "type": "legal",
+        "entity": "Goldman Sachs",
+        "id": 1683
+      },
+      {
+        "date": "2019-2021",
+        "label": "employment with Jeffrey Rosen",
+        "type": "employment",
+        "entity": "Jeffrey Rosen",
+        "id": 1689
+      },
+      {
+        "date": "2019-2025",
+        "label": "legal with Boeing",
+        "type": "legal",
+        "entity": "Boeing",
+        "id": 1697
+      },
+      {
+        "date": "2020-09",
+        "label": "Filip-Benczkowski revolving door tandem: Brian Benczkowski served as Filip's chief of staff in the Office of the Deputy AG (2008). Together they co-authored the Filip Memorandum establishing DPA framework. Benczkowski then followed Filip to K&E (joined 2010) where they served as co-counsel on at least three major corporate criminal cases: BP Deepwater Horizon, Volkswagen Dieselgate, and Abbott Laboratories misbranding. In 2018, Benczkowski returned to DOJ as AAG Criminal Division — the division that oversees DPAs — while Filip continued defending Boeing at K&E. Benczkowski received an ethics waiver to participate in Goldman Sachs 1MDB case despite Filip representing Goldman at K&E. Benczkowski then returned to K&E again in September 2020.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 3132
+      },
+      {
+        "date": "2021-01",
+        "label": "Filip complete client portfolio at KE (post-DOJ): Boeing 737 MAX DPA 2.5B (signed DPA Jan 2021), BP Deepwater Horizon 4.5B criminal (2012-2013), Volkswagen Dieselgate 4.3B plea (2017, with Benczkowski), Goldman Sachs 1MDB defense (escaped guilty plea), General Motors ignition switch defense, JP Morgan Chase market manipulation/spoofing defense, Allergan opioid class action/MDL defense, Abbott Laboratories misbranding (with Benczkowski), PGE corporate monitor 2017-2022 (5 felony convictions). Also proposed as Live Nation/Ticketmaster compliance monitor by DOJ (Feb 2020) and represented Valeant Pharmaceuticals and Hospira per SEC EDGAR filings. Combined known criminal penalties in cases Filip defended: over 14B dollars. He has appeared before DOJ SEC FTC EPA DoD DHS Congress Federal Reserve NY DFS state AGs and foreign regulators.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3137
+      },
+      {
+        "date": "2021-2021",
+        "label": "employment with Erin Nealy Cox",
+        "type": "employment",
+        "entity": "Erin Nealy Cox",
+        "id": 1688
+      }
+    ]
+  }
+}

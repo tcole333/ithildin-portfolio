@@ -1,0 +1,739 @@
+{
+  "name": "Edmond Safra",
+  "slug": "edmond-safra",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.310690",
+  "last_updated": "2026-02-18T16:44:56",
+  "stats": {
+    "total_findings": 9,
+    "total_connections": 8,
+    "total_entities": 0,
+    "finding_types": {
+      "relationship": 3,
+      "financial": 3,
+      "identity": 1,
+      "intelligence": 1,
+      "legal": 1
+    },
+    "connection_types": {
+      "employment": 2,
+      "familial": 1,
+      "financial": 2,
+      "legal": 1,
+      "corporate": 1,
+      "intelligence": 1
+    },
+    "last_updated": "2026-02-18T16:44:56"
+  },
+  "findings": [
+    {
+      "id": 3331,
+      "finding_type": "relationship",
+      "summary": "Edmond Safra and wife Marielle appear on Peggy Siegal's master contact list (39 pages) sent to Epstein in September 2010. Listed as 'Mr. & Mrs. Edmond Safra (Marielle) / 600/ FASHION/ LI/ BUSINESS/'. Since Edmond died Dec 1999, this appears to be a historical master list, but confirms Safra moved in overlapping social circles. Jean Doumanian (Jacqui Safra's partner) also listed.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:51:48",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421758",
+          "source_quote": " Mr. & Mrs. Edmond Safra ( Marielle ) / 600/ FASHION/ LI/ BUSINESS/",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3335,
+      "finding_type": "financial",
+      "summary": "Zero FEC donations found for Edmond Safra; no OpenSanctions records; no FARA registrations for Safra entities",
+      "detail": "Negative results from authoritative sources: FEC returns 0 donations from Edmond Safra. OpenSanctions returns 0 results for Edmond Safra. FARA returns 0 registrations for any Safra entity. No UCC filings found for Republic National in our registry. These absences are notable for a banker of Safra magnitude - may reflect non-US citizenship limiting political donations.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:52:01",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC, OpenSanctions, FARA databases",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3338,
+      "finding_type": "financial",
+      "summary": "Safra co-founded Hermitage Capital Management with Bill Browder (1996), seeded by Republic National Bank with $25M for Russian investments; grew to $4.5B AUM",
+      "detail": "Edmond Safra co-founded Hermitage Capital Management in 1996 with Bill Browder and Beny Steinmetz, with Republic National Bank providing $25M seed capital for Russian privatization investments. Hermitage grew to $4.5B AUM and became one of the most important investment companies in Russia. Later famous for Sergei Magnitsky affair. Browder listed as business partner of Safra in LittleSis (entity IDs 235209, 86312).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:52:23",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship ID 1140922",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Bill_Browder",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Hermitage_Capital_Management",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3348,
+      "finding_type": "financial",
+      "summary": "ICIJ: Massive Safra offshore network across 5+ leak datasets: 70 entities including J. Safra Holding (Bahamas), Safra International Bank & Trust, 10+ fund vehicles, SAFRA FOUNDATION (Pandora Papers)",
+      "detail": "ICIJ offshore leaks search for Safra returned 70 results spanning Panama Papers, Bahamas Leaks, Paradise Papers, Pandora Papers, and Offshore Leaks. Key entities: J. SAFRA HOLDING (BAHAMAS) LIMITED (node 20090571), SAFRA INTERNATIONAL BANK AND TRUST LTD (node 20161886/11004191 as intermediary), SAFRA CAPITAL MANAGEMENT LIMITED (node 20156239), multiple fund vehicles (Galileo, Tesla, FX Hedge, Strategy Hedge, Brazil Fixed Income, Telecom Brazil Equity), MOISE Y. SAFRA PHILANTHROPIC FOUNDATION (Bahamas, node 21000579), SAFRA FOUNDATION (Pandora Papers Alcogal, node 240082417). Officers include SAFRA JACOB JOSEPH (node 22000825), SAFRA EZRA (nodes 22007499, 22014823). Multiple Banque J. Safra entities as intermediaries.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:18",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ICIJ offshore leaks: 70 results for 'Safra' across 5 datasets",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3352,
+      "finding_type": "identity",
+      "summary": "OCCRP Aleph: Edmond Moise Safra registered in Panama Companies Registry (2008 scrape) and NY State active corporations at 46th floor address in zip 10153",
+      "detail": "OCCRP Aleph identifies Edmond Safra in multiple registries: (1) EDMOND MOISE SAFRA in Panama Companies Registry (node f635010d), (2) EDMOND J. SAFRA in same Panama registry (node 22d55285), (3) EDMOND M SAFRA at 46TH FLOOR, NEW YORK, NY 10153 in New York State Department of State active corporations (node 767f0031). Also listed in Billionaire Characteristics dataset as Lebanese national, self-made finance category.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:45",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OCCRP Aleph entity IDs: f635010d (Panama), 22d55285 (Panama), 767f0031 (NY State), 086f9481 (Billionaires)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3354,
+      "finding_type": "relationship",
+      "summary": "Andrew Safra (Safra family member) organizing NY premiere events in Epstein social orbit; Epstein questioned why Andrew not using Peggy Siegal (Dec 2009)",
+      "detail": "EFTA02433816: Dec 7, 2009 email shows Epstein discussing 'andrew safra' who was doing 'your new york premiere for young victoria' and asking why not Peggy Siegal (prominent socialite/PR). This shows another Safra family member in Epstein social circle beyond Jacqui. Combined with Jacqui Safra Edge dinner connections (2010-2015), Peggy Siegal email mentioning Jacqui Safra in Portofino (July 2009), and Brockman brokering Jerusalem house deal, the Safra family had multiple touchpoints with Epstein network.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:52",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02433816",
+          "source_quote": "Nothing to do with me.. But you have a point, let me find out. \n \nOriginal Message \nFrom: Jeffrey Epstein \nTo: \nSub.. \nSent: Dec 7, 2009 7:56 PM \nandrew safra , is doing your new york prmeir for young victoria\u201e why not peggy \nsiegal that loves you? \n***** ******* \n************************ \n*******...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3355,
+      "finding_type": "relationship",
+      "summary": "Safra-Epstein network convergence: Jacqui Safra offered Jerusalem house previously negotiated with Ronald Lauder (Mega Group), linking Safra banking dynasty to Mega Group network through shared real estate and Edge Foundation circles",
+      "detail": "SYNTHESIS: The Safra-Epstein-Mega Group triangle operates through multiple channels: (1) Jacqui Safra tried to sell Epstein his Jerusalem house (The Sherover House, Talbieh) that was previously in negotiations with Ronald Lauder (Mega Group co-member with Wexner); (2) John Brockman brokered both the Edge Foundation social connections and the real estate deal; (3) Jacqui Safra attended the 2012 Edge Billionaires Dinner with Epstein, Bezos, Brin, Gates; (4) Brockman flagged Jacqui financial difficulties (bank loan not renewed) to Epstein as business opportunity in 2010; (5) The Safra-Lauder real estate channel shows these two Jewish philanthropy/finance networks (Safra Sephardic banking and Mega Group Ashkenazi billionaires) overlapped in Israel real estate market. Both networks share intelligence community adjacent profiles.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:07",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01902608",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02392189",
+          "source_quote": "Lesley Groff \nSubject: \ntoday \nWestin \nJE, \nYOUR HOUSE IN JERUSALEM \nJacque Safra is here with me. Wants to sell you his Jerusalem house in =albieh neighborhood known as \"The Sherover \nHouse\" across st from =erusalem Theatre (that the Sherovers built and donated to city), and a =ew doors down from...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02413047",
+          "source_quote": "JE, \nHad dinner with Jacqui last night, whose is in town scrambling because his loan \nat one of the big banks is not getting renewed. Something for you?? \nHe took us out to celebrate Max's 30th birthday (today!!). \nSaw Ronna Tanenbaum in SF last week. (Remember her?) She's going to put together \na...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02440202",
+          "source_quote": "Title: London \nJaqui Safra, Jean Doumanian and I left Portofino this morning- drove to Genoa and flew into Famborough....now driving \nto London. \nJean's play \"The Mountain Top\" is opening tonight and we are all going. It's about Martin Luther King and his last night \nalive in that Memphis Motel....",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3356,
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Safra death (Dec 3, 1999) occurred 3 months after RNB exposed $10B Bank of New York/Mogilevich money laundering, and 28 days before HSBC acquisition completed",
+      "detail": "Timeline convergence: (1) Aug 1998: RNB closes Benex Worldwide account, files SARs alerting FBI to Bank of New York Russian money laundering; (2) May 1999: HSBC announces 10.3B acquisition of Republic New York Corp and Safra Republic Holdings; (3) Aug 1999: Bank of New York scandal breaks publicly, RNB role as whistleblower becomes known; (4) Dec 3 1999: Edmond Safra dies in arson fire at Monaco penthouse, nurse Ted Maher convicted; (5) Dec 31 1999: HSBC acquisition completes, RNB ceases to exist. The timing of Safra death between the money laundering exposure and HSBC acquisition completion has been widely noted. Maher (Green Beret background) was hired just 4 months before the fire. Russian organized crime, intelligence agency involvement, or acquisition-related motives have all been speculated but none proven.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:20",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Ted_Maher",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.deseret.com/1999/12/4/19478739/safra-death-raises-questions-and-inspires-reflections-on-banking-dynasty/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3366,
+      "finding_type": "legal",
+      "summary": "In Re: Precious Metals Dealers/SafraBank Securities Litigation (MDL 909, JPML, 1991) -- multi-district litigation against Safra banking entities over precious metals dealings",
+      "detail": "MDL No. 909, filed October 25, 1991 at the Judicial Panel on Multidistrict Litigation, consolidated litigation titled 'In re Precious Metals Dealers/SafraBank Securities Litigation.' This multi-district litigation targeted Safra banking entities over precious metals dealings and securities. The MDL consolidation indicates multiple plaintiffs across multiple districts sued SafraBank over similar claims. Precious metals dealing was a core business of Safra's banking operations, particularly Republic National Bank which was one of the largest precious metals dealers in the US.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:55:53",
+      "target_name": "Edmond Safra",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener MDL 909, JPML",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1979,
+      "person_a": "Edmond Safra",
+      "person_b": "Ron Soffer",
+      "relationship_type": "employment",
+      "description": "Ron Soffer worked in banking law at Edmond Safra's Republic National Bank of New York (1988-1991). Republic was Safra's flagship US banking institution. Soffer was an employee/in-house counsel, not a principal.",
+      "strength": "strong",
+      "date_range": "1988-1991",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 18:11:59",
+      "other_person": "Ron Soffer",
+      "other_person_slug": "ron-soffer",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.ronsoffer.com/membres_eng",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1991,
+      "person_a": "Edmond Safra",
+      "person_b": "Jacqui Safra",
+      "relationship_type": "familial",
+      "description": "Jacqui Safra is Edmond Safra's nephew (Safra banking dynasty). Edmond founded Republic National Bank of NY. Both appear on Peggy Siegal master contact lists associated with Epstein social network.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:53:10",
+      "other_person": "Jacqui Safra",
+      "other_person_slug": "jacqui-safra",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421758",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2000,
+      "person_a": "Bill Browder",
+      "person_b": "Edmond Safra",
+      "relationship_type": "financial",
+      "description": "Co-founded Hermitage Capital Management 1996 with RNB providing $25M seed capital for Russian investments",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:38",
+      "other_person": "Bill Browder",
+      "other_person_slug": "bill-browder",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Hermitage_Capital_Management",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2001,
+      "person_a": "Edmond Safra",
+      "person_b": "Peter A. Cohen",
+      "relationship_type": "employment",
+      "description": "Cohen worked for Safra at Republic NY/Trade Development Bank 1978-1979, later returned as Vice Chairman of Republic NY and Chairman of Republic NY Securities Corp",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:41",
+      "other_person": "Peter A. Cohen",
+      "other_person_slug": "peter-a-cohen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 883624",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Peter_A._Cohen",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2005,
+      "person_a": "American Express",
+      "person_b": "Edmond Safra",
+      "relationship_type": "legal",
+      "description": "AmEx conducted unauthorized smear campaign against Safra 1986-1989, falsely linking him to money laundering and Iran-Contra; settled for $8M and public apology",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:52",
+      "other_person": "American Express",
+      "other_person_slug": "american-express",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.washingtonpost.com/archive/business/1989/07/29/american-express-offers-4-million-and-apology/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2051,
+      "person_a": "Edmond Safra",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "corporate",
+      "description": "Safra founded RNB in 1966; also founded Trade Development Bank Geneva (sold to AmEx 1983)",
+      "strength": "strong",
+      "date_range": "1966-1999",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:45",
+      "other_person": "Republic National Bank of New York",
+      "other_person_slug": "republic-national-bank-of-new-york",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationship 373383",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia: Edmond Safra",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2002,
+      "person_a": "Edmond Safra",
+      "person_b": "Semion Mogilevich",
+      "relationship_type": "intelligence",
+      "description": "Safra's RNB exposed Mogilevich-linked Benex money laundering through Bank of New York (1998-1999); Safra died in arson 3 months later",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:54:44",
+      "other_person": "Semion Mogilevich",
+      "other_person_slug": "semion-mogilevich",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://commdocs.house.gov/committees/bank/hba59889.000/hba59889_0.HTM",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2090,
+      "person_a": "Ariane de Rothschild",
+      "person_b": "Edmond Safra",
+      "relationship_type": "financial",
+      "description": "Safra banking network (RNB, Republic New York Corp) partially absorbed into Edmond de Rothschild banking system after Safra death 1999. Both represent Sephardic private banking dynasties.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:44:56",
+      "other_person": "Ariane de Rothschild",
+      "other_person_slug": "ariane-de-rothschild",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1966-1999",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Safra founded RNB in 1966; also founded Trade Development Bank Geneva (sold to AmEx 1983)",
+      "other_person": "Republic National Bank of New York",
+      "id": 2051
+    },
+    {
+      "date": "1988-1991",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Ron Soffer worked in banking law at Edmond Safra's Republic National Bank of New York (1988-1991). Republic was Safra's flagship US banking institution. Soffer was an employee/in-house counsel, not a principal.",
+      "other_person": "Ron Soffer",
+      "id": 1979
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3355,
+      3354,
+      3331,
+      3338,
+      3366,
+      3348,
+      3352,
+      3335,
+      3356
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3331,
+          3354,
+          3355
+        ],
+        "connection_ids": [
+          1979,
+          1991,
+          2000,
+          2001,
+          2005,
+          2051,
+          2002,
+          2090
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3335,
+          3338,
+          3348
+        ],
+        "connection_ids": [
+          2000,
+          2090
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.422855"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Edmond Safra",
+      "connections": [
+        {
+          "target": "Ron Soffer",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "https://www.ronsoffer.com/membres_eng",
+          "description": "Ron Soffer worked in banking law at Edmond Safra's Republic National Bank of New York (1988-1991). Republic was Safra's flagship US banking institution. Soffer was an employee/in-house counsel, not a principal."
+        },
+        {
+          "target": "Jacqui Safra",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02421758",
+          "description": "Jacqui Safra is Edmond Safra's nephew (Safra banking dynasty). Edmond founded Republic National Bank of NY. Both appear on Peggy Siegal master contact lists associated with Epstein social network."
+        },
+        {
+          "target": "Bill Browder",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "https://en.wikipedia.org/wiki/Hermitage_Capital_Management",
+          "description": "Co-founded Hermitage Capital Management 1996 with RNB providing $25M seed capital for Russian investments"
+        },
+        {
+          "target": "Peter A. Cohen",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis relationship 883624",
+          "description": "Cohen worked for Safra at Republic NY/Trade Development Bank 1978-1979, later returned as Vice Chairman of Republic NY and Chairman of Republic NY Securities Corp"
+        },
+        {
+          "target": "American Express",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "https://www.washingtonpost.com/archive/business/1989/07/29/american-express-offers-4-million-and-apology/",
+          "description": "AmEx conducted unauthorized smear campaign against Safra 1986-1989, falsely linking him to money laundering and Iran-Contra; settled for $8M and public apology"
+        },
+        {
+          "target": "Republic National Bank of New York",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis relationship 373383",
+          "description": "Safra founded RNB in 1966; also founded Trade Development Bank Geneva (sold to AmEx 1983)"
+        },
+        {
+          "target": "Semion Mogilevich",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "https://commdocs.house.gov/committees/bank/hba59889.000/hba59889_0.HTM",
+          "description": "Safra's RNB exposed Mogilevich-linked Benex money laundering through Bank of New York (1998-1999); Safra died in arson 3 months later"
+        },
+        {
+          "target": "Ariane de Rothschild",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Safra banking network (RNB, Republic New York Corp) partially absorbed into Edmond de Rothschild banking system after Safra death 1999. Both represent Sephardic private banking dynasties."
+        }
+      ],
+      "secondHop": {
+        "American Express": [
+          {
+            "target": "Peter A. Cohen",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Cohen was CEO of Shearson Lehman/American Express 1983-1990, youngest head of major Wall Street firm at age 36; key figure in AmEx-Safra competitive tension"
+          }
+        ],
+        "Ariane de Rothschild": [
+          {
+            "target": "Kathy Ruemmler",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Close personal friends. Traveled together Paris Jul 2015. Epstein proposed Ruemmler do succession planning for Ariane."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "CEO of EdR Group. 25M consulting agreement (Oct 2015). Regular meetings 2013-2019 at 9 E 71st. Shared 1MDB intelligence in real-time. Deployed Ruemmler as EdR legal advisor."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Ruemmler provided legal counsel to EdR during 1MDB crisis. Dinner with Ariane (Mar 2017). Joint meetings at 9 E 71st. Ariane confirmed Kathy on all angles of Lux remediation."
+          },
+          {
+            "target": "Sultan Bin Sulayem",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Finding #353: Sulayem-Barak Israel back-channel confirmed. July 2018: Sulayem thanked Barak for visa help, staying at 1 Rothschild Blvd Tel Aviv penthouse for 3 mon"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Jacqui Safra": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Repeated attendance at Edge Foundation dinners together (2012-2014), Jerusalem real estate negotiations, financial discussions via John Brockman intermediary. At least 15 DOJ documents reference both."
+          },
+          {
+            "target": "Ronald Lauder",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Jacqui Safra was in negotiations with Ronald Lauder to sell his Jerusalem property (The Sherover House in Talbieh), but the deal fell through. Safra then offered the property to Epstein through Brockman."
+          },
+          {
+            "target": "John Brockman",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Brockman was primary intermediary between Safra and Epstein. Managed Edge dinner invitations, brokered Jerusalem property sale, reported on Safra financial troubles and medical connections."
+          },
+          {
+            "target": "Peggy Siegal",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Siegal flew on Safra's private plane (Geneva-Portofino-London, July 2009). Jean Doumanian (Safra's girlfriend) was Siegal's close friend. Siegal reported Safra activities to Epstein."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Safra in Epstein social circle via Brockman Edge Foundation. Brockman brokered potential financial deals between them."
+          }
+        ],
+        "Republic National Bank of New York": [
+          {
+            "target": "Trade Development Bank Geneva",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Both Safra-owned entities used as parallel conduits for Iran-Contra Enterprise funds -- RNB for US wire transfers, TDB Geneva for cash operations via Codelis account. FARA records also show RNB registered as agent for Trade Development Bank Overseas Inc."
+          },
+          {
+            "target": "Edmond J. Safra",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Safra founded Republic National Bank of New York. Bank registered as FARA foreign agent 1975-1976."
+          },
+          {
+            "target": "HSBC Holdings",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "RNB/Republic New York Corporation acquired by HSBC for 10.3B in 1999. GLEIF confirms Uruguay subsidiary became HSBC Bank Uruguay."
+          },
+          {
+            "target": "HSBC Holdings",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "HSBC acquired Republic New York Corp and Safra Republic Holdings for $9.85B (reduced from $10.3B), completing Dec 31 1999"
+          },
+          {
+            "target": "Adnan Khashoggi",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "RNB officer Nan Morabia delivered $150,000 in cash to Khashoggi (Iran arms sales financier) in New York on Nov 26, 1986. Morabia also handled Enterprise wire transfers through RNB."
+          }
+        ],
+        "Ron Soffer": [
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer Avocats served as lead counsel for Bouvier in the billion-dollar Bouvier Affair against Rybolovlev. SDNY cases: Accent Delight/Xitrans (1:16-mc-00125) and Accent Delight v. Sothebys (1:18-cv-09011)."
+          },
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer is lead defense counsel for Bouvier in Bouvier Affair billion-dollar art fraud dispute with Rybolovlev, across Monaco Switzerland Singapore France and US from 2015 to Dec 2023 settlement"
+          },
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer represented Bouvier in Accent Delight/Xitrans Finance litigation in SDNY (Rybolovlev art fraud case, 2016-2024). Paris-based counsel for multi-jurisdictional defense."
+          },
+          {
+            "target": "Yves Bouvier",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer Avocats served as lead counsel for Yves Bouvier in the Bouvier Affair litigation (Accent Delight/Xitrans v. Sotheby's 1:18-cv-09011, In Re: Accent Delight Section 1782 cases, Monaco, Geneva, Singapore). The attorney-client relationship spanned from at least 2015 through settlement in Dec 2023."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Weingarten (Steptoe) considered hiring Soffer for the SoftBank caper in Jan 2019. Soffer had approached Weingarten seeking work. Weingarten asked Epstein to vet him."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1966-1999",
+        "label": "corporate with Republic National Bank of New York",
+        "type": "corporate",
+        "entity": "Republic National Bank of New York",
+        "id": 2051
+      },
+      {
+        "date": "1988-1991",
+        "label": "employment with Ron Soffer",
+        "type": "employment",
+        "entity": "Ron Soffer",
+        "id": 1979
+      }
+    ]
+  }
+}

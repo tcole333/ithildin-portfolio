@@ -1,0 +1,2933 @@
+{
+  "name": "IGO Company LLC",
+  "slug": "igo-company-llc",
+  "aliases": [
+    "IGO COMPANY LLC",
+    "Igo Company Llc"
+  ],
+  "generated_at": "2026-02-20T01:17:47.221726",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 39,
+    "total_connections": 27,
+    "total_entities": 0,
+    "finding_types": {
+      "document": 6,
+      "identity": 2,
+      "financial": 21,
+      "relationship": 2,
+      "intelligence": 3,
+      "legal": 5
+    },
+    "connection_types": {
+      "corporate": 16,
+      "legal": 1,
+      "financial": 10
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 1808,
+      "finding_type": "document",
+      "summary": "The Beneficial Owner Certification (31 CFR 1020.230) for IGO Company LLC (EFTA01268751) shows Jeffrey Epstein as both the person opening the account and the individual owning 25%+ of equity interests, with DOB 01/20/1953 and address 6100 Red Hook Quarter B3, St Thomas USVI 00802. Darren Indyke is listed as second signatory. The document was prepared by U.McNeil and authorized at FirstBank. The form carries dual bates stamps: SDNY_GM_00012904 and FirstBankPR000067, confirming it was produced both to SDNY Grand Jury and JPMorgan litigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1953-01-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:01",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1818,
+      "finding_type": "document",
+      "summary": "Beneficial Owner Certification for IGO Company LLC (31 CFR 1020.230) filed with FirstBank PR. Jeffrey Epstein listed as 100% equity owner, CEO/manager, DOB 01/20/1953, USVI DL T-4200411933, US Passport 54538864. Entity address: 6100 Red Hook Quarter B3, St Thomas USVI 00802. Prepared by U. McNeil. Darren Indyke listed as second signatory. Document confirms IGO was directly owned by Epstein (prior to trust restructuring).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1953-01-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:52",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": "CERTIFICATION OF BENEFICIAL OWNERS Name and type of Legal Entity IGO COMPANY LLC 6100 Red Hook Quarter B3 St Thomas USVI 00802 Jeffrey Epstein DOB 01/20/1953 Ownership 100 pct Passport 54538864",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1822,
+      "finding_type": "document",
+      "summary": "FirstBank beneficial ownership certification confirms: Jeffrey Epstein was 100% owner of IGO Company LLC. SSN-associated ID: USVI DL T-4200411933. DOB: 01/20/1953. Prepared by U. McNeil, authorized signatory. Account setup date 12/24 (likely December 2006, before formation date of 12/28/2006). Entity classified as 'IGO, LLC Watercraft' — confirming the entity designation was specifically for watercraft/marine operations, consistent with its function as AYH marina holding vehicle.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1953-01-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:08",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": "IGO COMPANY LLC 100% Jeffrey Epstein 01/20/1953 6100 Red Hook Quarter B3 St Thomas USVI 00802",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1805,
+      "finding_type": "identity",
+      "summary": "USVI corporate registry confirms IGO Company, L.L.C. (entity #571920) was a Domestic Limited Liability Company registered 12/28/2006, now status 'Dissolved/Withdrawn.' Registered agent: Business Basics VI, LLC. Registered address: 9053 Estate Thomas Ste 101, Charlotte Amalie, 00802 VI US. Last Annual Report filed: 2021. This entity was ingested into registry.db as ID 86429. The KPMG IPI Forensic Review independently lists IGO Company L.L.C as entity #5 in Epstein's USVI corporate network with his role as 'Founder/Owner/President.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2006-12-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:41",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "KPMG IPI Forensic Review",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI Registry entity 571920",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1807,
+      "finding_type": "financial",
+      "summary": "IGO Company LLC was the vehicle through which Jeffrey Epstein held his 50% ownership interest in American Yacht Harbor (AYH) at St. Thomas, USVI. The marina was acquired by Island Global Yachting (IGY, controlled by Andrew Farkas/Island Capital Group LLC) in January 2007 for approximately $25 million from Sun Resorts. Epstein contributed 50% of total acquisition costs. The entity was formed 12/28/2006, one month before the 1/18/07 AYH closing, specifically for this investment.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2006-12-28",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:53",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02416287",
+          "source_quote": "you are a 50 percent owner of IGY-AYH Saint Thomas Holdings",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571194",
+          "source_quote": "From: \nJeffrey Epstein <jeevacation@gmail.com> \nSent: \nWednesday, June 19, 2013 10:40 PM \nTo: \nJeffrey Epstein; Cecile de Jongh \nSubject: \n?? \nandrew these are the facts as we now know=20 them, I only have your best interests at heart. I really do....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02674278",
+          "source_quote": "50% of that amount was included in the total amount Jeffrey paid to IGY Facilities for his 50% interest in AYH",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708042",
+          "source_quote": "To: \nJeffrey \nFrom: Harry \nDate: February 26, 2013 \nRe: \nAmerican Yacht Harbor \nI have reviewed AYH and have the following observations: \n• \nManagement Fees- Pursuant to the LLC agreement IGY has the ability to charge \nfees under the following: \no...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1838,
+      "finding_type": "document",
+      "summary": "IGO Company LLC was formed 12/28/2006 in USVI. Organizer and initial manager: Jeanne Brennan (later Brennan-Wiebracht), Epstein USVI office manager. Registered agent: Maria Tankenson Hodge at 1340 Taarneberg St Thomas. Capital: $1,000. Manager-managed LLC at 6100 Red Hook Quarter Suite B-3, American Yacht Harbor. FirstBank PR account 7171030625 opened 02/02/2007. Original signatories at FirstBank: Epstein and Jeanne Brennan-Wiebracht (not Indyke as later stated). Account status: Credits Only Allowed.",
+      "detail": null,
+      "source_datasets": [
+        "FirstBank PR production EFTA01268751",
+        "Holland Knight letter EFTA01273238"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2006-12-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:09:59",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273240",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1842,
+      "finding_type": "relationship",
+      "summary": "IGO Company LLC was registered at American Yacht Harbor (6100 Red Hook Quarter B3, St Thomas), a marina Epstein co-owned 50-50 with Andrew Farkas through IGY-AYH St Thomas Holdings LLC. Farkas, founder of Island Global Yachting (IGY), split ownership with Epstein circa 2007. The partnership remained secret until 2018 deposition. After Epsteins death, the estate sold its stake in 2021. Farkas then sold IGY for $480M to MarineMax in 2022.",
+      "detail": null,
+      "source_datasets": [
+        "VI Daily News",
+        "DNYUZ 2025-12-03"
+      ],
+      "confidence": "high",
+      "date_of_event": "2007",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:26",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1846,
+      "finding_type": "document",
+      "summary": "No vessel named IGO exists in the USCG PSIX vessel documentation database. Search returned only partial matches (CONMIGO, AMIGOS, ABENDIGO, etc). Combined with the dormant bank account 2007-2014 and the general-purpose Operating Agreement, this confirms the Watercraft designation on the FirstBank account card was either a placeholder description or an abandoned initial purpose. IGO was used exclusively as an investment holding entity.",
+      "detail": null,
+      "source_datasets": [
+        "USCG CGMIX PSIX database"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2007",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:56",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://cgmix.uscg.mil/psix/psixsearch.aspx",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1801,
+      "finding_type": "financial",
+      "summary": "FirstBank Puerto Rico account for IGO Company LLC (acct 7171030625, commercial checking) was opened 02/02/2007 with 'CREDITS ONLY ALLOWED' status, meaning no debit transactions were permitted on the account. Signatories were Jeffrey Epstein and Jeanne Brennan-Wiebracht (not Indyke as previously recorded for the FirstBank account). This is documented in the Holland & Knight production letter to AUSA Rossmiller dated April 15, 2020 (EFTA01273238), responding to a Grand Jury Subpoena to FirstBank PR dated December 31, 2019.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2007-02-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:06",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273238",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1812,
+      "finding_type": "financial",
+      "summary": "IGO Company LLC FirstBank PR account #7171030625 (Commercial Checking) opened 02/02/2007 with signatories Jeffrey Epstein and Jeanne Brennan-Wiebracht. Brennan had CREDITS ONLY access. Darren Indyke was added as signatory. Account was dormant throughout 2012 with balance of $274.96 (Feb-May 2012) rising to $1,974.96 (Jun-Dec 2012) on a single $1,700 credit. Address: American Yacht Harbor, 6100 Red Hook Quarter Ste B3, St Thomas VI 00802.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2007-02-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:21",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269867",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273240",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1809,
+      "finding_type": "financial",
+      "summary": "Epstein disputed IGY management of AYH: IGY extracted $4.5M while Epstein received only $250K. The $25M purchase price was questioned since an appraisal completed June 2007 valued the property at only $21M. Epstein accused Andrew Farkas/IGY of poor disclosure about the seller being an IGY affiliate. Harry Beller's Feb 2013 analysis showed AYH generated $7.1-7.2M gross annual revenue but was unprofitable after IGY's management fees (7.5% on gross) and payroll, with P&L losses of -$270K to -$295K per year from 2010-2012.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2007-06",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:04",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571194",
+          "source_quote": "THis is of course Seperate and apart from IGy taking out the 4.5 million while i received only 250k",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02674278",
+          "source_quote": "From: \nCecile de Jongh < \nSent: \nSaturday, June 8, \nTo: \nJEE \nCc: \nRichard Kahn; Jeanne Brennan \nSubject: \nFwd: AYH/BPPR Financing (August 2007) Bank appraisal \nAttachments: \nIGY Checking acct-wire transfers re AYH 2007.pdf; Untitled attachment...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708042",
+          "source_quote": "It would be very unlikely from future cash flows to turn a profit on this investment",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "finding_type": "financial",
+      "summary": "IGO Company LLC (also referred to as IGO L.L.C) was an Epstein USVI entity at American Yacht Harbor, 6100 Red Hook Quarter Ste B3, St Thomas VI 00802. FirstBank PR commercial checking account (7171030625) with dormant balance of .96 as of Feb 2012. Signatories: Jeffrey Epstein and Darren Indyke. Listed as 'IGO LLC Watercraft' in FirstBank account opening documentation, indicating it was a marine/watercraft holding entity. Deutsche Bank KYC review also covered this entity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2012-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:49:20",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269867",
+          "source_quote": "IGO COMPANY LLC AMERICAN YACHT HARBOR 6100 RED HOOK QUARTER STE B3 ST THOMAS VI 00802 205-COMMERCIAL CHECKING ENDING BALANCE 274.96",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1841,
+      "finding_type": "financial",
+      "summary": "IGO Company LLCs FirstBank PR account was nearly dormant 2007-2012. Balance went from $274.96 to $1,974.96 after a single $2,000 deposit in June 2012 and one $300 check in the same month. No significant activity through 2012 statements. The Watercraft label on the bank signature card appears to be a cover description that never materialized operationally. The LLC was repurposed for crypto investment in 2014.",
+      "detail": null,
+      "source_datasets": [
+        "FirstBank PR statements EFTA01269867"
+      ],
+      "confidence": "high",
+      "date_of_event": "2012-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:16",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269867",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1845,
+      "finding_type": "financial",
+      "summary": "FirstBank PR monthly statements (EFTA01269867-series) show IGO Company LLC account 7171030625 was essentially dormant throughout 2012: static $274.96 balance Jan-May 2012, then $2,000 deposit 06/19/2012 and $300 check (#1008) 06/22/2012 bringing balance to $1,974.96. This minimal activity is inconsistent with the entity supposedly holding a 50% interest in a $25M marina generating $7M+ annual gross revenue. The real AYH investment flows were likely routed through IGY-AYH St Thomas Holdings LLC, not directly through this FirstBank account.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2012-06-19",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:46",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269867",
+          "source_quote": "IGO COMPANY LLC 205-COMMERCIAL CHECKING BEGINNING BALANCE 274.96 CREDITS 0 DEBITS 0 ENDING BALANCE 274.96",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1829,
+      "finding_type": "intelligence",
+      "summary": "Watercraft fleet associated with Epstein's island operations identified from shipping logs and punchlist: Gibbs Quadski XL (amphibious, purchased May 2014 via Riva Pompano Beach for ~$48,900, color red, repaired by EBL Watercraft Inc in FL 2019), multiple Nautica boats (3+), Sportis boat, sailboat, crew boat (30ft Boulton Powerboat considered June 2015), barge(s), and 'Big N' (docked at AYH and PR -- likely vessel Nautilus). The Quadski was serviced at EBL Watercraft in FL with shipping via Tropical Shipping. IGO Company LLC was the watercraft holding entity but specific vessel registrations under IGO were not found in the document corpus.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-05",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:39",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01927777",
+          "source_quote": "Riva Pompano Beach dealer Quadski XL two seater version Machine MSRP is 48,900 Please advise if you would like me to place order for red as discussed",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02285542",
+          "source_quote": "Quadski Nautica Boat Sportis Boat Sail Boat New Crew Boat AYH/Big N",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02289635",
+          "source_quote": "To: \nJeffrey Epsteinfieeyacation©gmail.com]; \nFrom: \nAnn Rodriquez \nSent: \nWed 5/29/2019 9:35:01 PM \nSubject: Fwd: Quad ski \nTap persistence with Bart payed off... \nWe are working On the Quadski, ls' - The ECU was not \ncommunicating with the...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02497111",
+          "source_quote": "From: \nann rodriquez \nSent: \nSunday, June 28, 2015 7:16 PM \nTo: \nJeffrey Epstein; Carlos Rodriguez \nSubject: \nFw: crew boat \nDISCLAIMER: T=e information contained in this e-mail may be privileged,confidential, and=protected from disclosure. If \nyou...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633977",
+          "source_quote": "EBL Watercraft - GIBBS Quadski to be returned to dealer for repairs per JE",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1835,
+      "finding_type": "financial",
+      "summary": "IGO Company LLC (USVI #571920) was the vehicle through which Jeffrey Epstein invested approximately $3 million in Coinbase Series C round in December 2014. Brock Pierce of Blockchain Capital introduced the deal. Despite being labeled Watercraft on FirstBank PR account card, IGO actual documented purpose was holding this crypto investment.",
+      "detail": null,
+      "source_datasets": [
+        "DOJ EFTA",
+        "CoinDesk 2026-02-04",
+        "Blockspace 2026-02"
+      ],
+      "confidence": "high",
+      "date_of_event": "2014-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:09:28",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02354362",
+          "source_quote": "From: \nBrock Pierce \nSent: \nMonday, December 1, 2014 9:54 PM \nTo: \nJeffrey Epstein \nSubject: \nCoinbase - Are you calling? \nBest regards, \nBrock Pierce \nManaging Partner - Crypto Currency Partners \nMobile: \nSkype \nE: \n<mailto\nW:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02371875",
+          "source_quote": "From: \nBrock Pierce \nSent: \nFriday, November 14, 2014 1:31 AM \nTo: \nJeffrey Epstein \nSubject: \nCoinbase \nThey are doing their next round. Biggest player in the Bitcoin sector in th= US. Able to meet the founder tomorrow? \nBest regards, \nBrock Pierce...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1803,
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc. balance sheet (June 30, 2015) lists 'IGO LLC 3,000,002' as an investment in subsidiaries, alongside Southern Financial LLC (153,314,312) and Haze Trust (87,512,260). This confirms IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc., Epstein's primary USVI holding company, valued at approximately $3 million on a tax basis. The entity was held through STC before the 2017 Caterpillar Trust GRAT restructuring transferred its membership interest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-06-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:22",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Unified DB doc 44923 - STC Statement of Assets June 2015",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1810,
+      "finding_type": "financial",
+      "summary": "IGO Company LLC ownership chain underwent a specific restructuring: originally held as a subsidiary of Southern Trust Company Inc. (valued at $3,000,002 on the June 30, 2015 STC balance sheet), the 100% membership interest was transferred to The 2017 Caterpillar Trust (a GRAT) effective January 3, 2017 (EIN 28-6639711). Deutsche Bank's KYC states the Caterpillar Trust was designed to terminate two years after initial funding, at which point IGO Company LLC membership interest would transfer to The 2013 Butterfly Trust. This three-step chain (STC -> Caterpillar GRAT -> Butterfly Trust) is a classic estate planning structure to transfer a $3M watercraft asset at reduced gift/estate tax cost. The GRAT annuity payments went back to Epstein as grantor, while the 'remainder' (the IGO membership interest minus annuity value) passed to the Butterfly Trust beneficiaries tax-free.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-06-30",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:11",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Unified DB doc 43335 (Schedule A)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Unified DB doc 44923 (STC balance sheet)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1816,
+      "finding_type": "financial",
+      "summary": "IGO LLC valued at $3,000,002 as subsidiary of Southern Trust Company Inc on STC balance sheet (Statement of Assets, Liabilities and Shareholders Equity, Income Tax Basis) as of June 30, 2015. Listed alongside Southern Financial LLC ($153.3M) and Haze Trust ($87.5M). Total STC assets: $340.5M. The $3M valuation for a nominally dormant watercraft LLC suggests IGO held tangible assets (vessels) worth approximately that amount.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-06-30",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:44",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365998",
+          "source_quote": "Investment in subsidiaries Southern Financial LLC 153,314,312 Haze Trust 87,512,260 IGO LLC 3,000,002 Other assets 51,500 Total other assets 243,878,073 TOTAL ASSETS 340,521,023",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1815,
+      "finding_type": "financial",
+      "summary": "Richard Kahn confirmed distribution of $200,000 to each partner from AYH in April 2016, meaning both Epstein (via IGO Company) and Farkas/IGY each received $200K. Kahn communicated with Luke Brown (Controller, Corporate Accounting, Island Global Yachting, 201 E. McBee Ave Suite 301, Greenville SC 29601) and Mark Lande of IGY about quarterly financial statements. This shows AYH was actively distributing cash to partners as late as 2016.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:35",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02703185",
+          "source_quote": "mr epstein and mr farkas have agreed to distribute 200,000 to each partner this week",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1814,
+      "finding_type": "financial",
+      "summary": "IGO Company LLC ownership traced through GRAT structure: The 2017 Caterpillar Trust (EIN 28-6639711, GRAT formed Jan 2017) holds 100% membership interest in IGO Company LLC. Trust terminates two years from initial funding, with annual annuity distributions to grantor only. Upon termination, membership interest transfers to The 2013 Butterfly Trust. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Beneficiaries: Jeffrey Epstein and The 2013 Butterfly Trust.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:35",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": "SCHEDULE A 100 pct of the Membership Interests in IGO Company LLC a USVI limited liability company",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": "This is a grantor retained annuity trust that holds membership interest in IGO Company LLC This trust will terminate two years from the date of initial funding and annual annuity distributions will be paid to the grantor only. Upon termination the membership interest will then transfer to the 2013 Butterfly Trust. Grantor: Jeffrey Epstein Trustee: Lesley Groff and Daphne Wallace",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1837,
+      "finding_type": "financial",
+      "summary": "The 2017 Caterpillar Trust (EIN 28-6639711) was a Grantor Retained Annuity Trust formed January 2017 specifically to hold 100% membership interest in IGO Company LLC. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Upon termination (2 years from funding), membership interest transfers to The 2013 Butterfly Trust. This created a tax-efficient structure to hold the appreciated Coinbase investment.",
+      "detail": null,
+      "source_datasets": [
+        "Deutsche Bank KYC EFTA01387281"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2017-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:09:47",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1811,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank KYC for The 2017 Caterpillar Trust (EIN 28-6639711) confirms it was a Grantor Retained Annuity Trust formed 01/03/2017 holding 100% membership interest in IGO Company LLC. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Beneficiaries: Jeffrey Epstein and The 2013 Butterfly Trust (upon termination). The trust was set to terminate two years from initial funding, with annual annuity distributions paid to the grantor only. Expected account volume: approx $300,000 USD. Less than 2 distributions annually between $0 and $100K.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-01-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:14",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": "the purpose of this account is to hold the member interest in IGO Company LLC",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": "This is a grantor retained annuity trust that holds membership interest in IGO Company LLC This trust will terminate two years from the date of initial funding and annual annuity distributions will be paid to the grantor only",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1820,
+      "finding_type": "financial",
+      "summary": "AYH monthly rent/office expenses were $10,428-10,987 per month as of late 2017 (Sep $10,987, Oct $9,724, Nov $10,428). Epstein instructed Richard Kahn to 'hold' on paying these bills in November 2017, with 3 months outstanding totaling $31,149. Una Pascal (assistant) handled invoice processing.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-11",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:59",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02567405",
+          "source_quote": "pay nothing and wait.. b) pay all months outstanding (sep, oct & nov totaling 31,149) c) pay november only (10,428)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1804,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank KYC case 01898372 for The 2017 Caterpillar Trust (part of the Southern Financial relationship) specifically describes the trust as existing to hold IGO Company LLC membership interest: 'the purpose of this account is to hold the member interest in IGO Company LLC.' Expected account activity was 'less than 2 distributions on an annual basis between $0 and $100k' with expected assets of $300,000 USD. Trust EIN: 28-6639711. RUSH KYC clearance was needed by 02/07/2018 for 'an upcoming acquisition where funds will need to be available.' The Caterpillar Trust was designed to terminate two years from initial funding date, at which point the IGO Company LLC membership interest would transfer to The 2013 Butterfly Trust.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-02-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:33",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1836,
+      "finding_type": "financial",
+      "summary": "In February 2018, Blockchain Capital purchased 50% of Epsteins Coinbase position held through IGO Company LLC for $15 million. Three payments on 2018-02-21: Blockchain Capital Parallel Fund IV LP ($1.875M), BC III Digital Liquid Venture Fund LP ($2.625M), BC IV LP ($10.5M). Funds went to The 2017 Caterpillar Trust account at Deutsche Bank, which held the membership interest in IGO.",
+      "detail": null,
+      "source_datasets": [
+        "Deutsche Bank statement EFTA01287396"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2018-02-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:09:38",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287396",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1831,
+      "finding_type": "financial",
+      "summary": "Epstein held investment/partnership interest in American Yacht Harbor (AYH) via IGY-AYH St Thomas Holdings LLC, a partnership with Andrew Farkas (Island Capital Group/Island Global Yachting). In April 2016, Epstein and Farkas agreed to distribute $200,000 to each partner from AYH. IGO Company LLC's registered address was at AYH (6100 Red Hook Quarter B3). Epstein also paid ~$10K/month office rent at AYH. Payments of $37,000 (4/26/2018) and $38,000 (5/3/2018) to 'American Yacht' from Epstein FirstBank account suggest additional marina/berth fees or investment payments.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-04-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:51",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02567405",
+          "source_quote": "American Yacht Habor September Billing 10,986.79 October Billing 9,724.23 November Billing 10,428",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02572864",
+          "source_quote": "putting together a chronology for Darren on American Yacht Harbor Is it ok to request from Island Global Yachting a copy of the 2012 Audited Financials and Form 1065 for IGY-AYH St Thomas Holdings LLC",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629982",
+          "source_quote": "Dina Perry; Yvonne George \nSubject: \nRequest to Open 6 Deposit Accounts: J. Epstein Request \nImportance: \nHigh \nMr. Epstein, \nI hope this email finds you well. \nPlease be advised that your request to open six (6= additional deposit accounts is currently under review and \nconsideration= In regards...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02703185",
+          "source_quote": "mr epstein and mr farkas have agreed to distribute 200,000 to each partner this week",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1821,
+      "finding_type": "financial",
+      "summary": "FirstBank denied Epstein's request to open 6 additional deposit accounts on Feb 28, 2019 (3 weeks before Epstein got new passport on 3/8/2019). IGO Company LLC listed among 16 existing account relationships requiring beneficial ownership certification. The denial letter from VP Dina Perry-Malone was forwarded by Epstein to Richard Kahn and Cecile de Jongh. De Jongh confirmed FirstBank would continue to maintain existing accounts under platinum banking. This suggests enhanced scrutiny of Epstein's USVI banking in early 2019.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-02-28",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:02",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629982",
+          "source_quote": "Dina Perry; Yvonne George \nSubject: \nRequest to Open 6 Deposit Accounts: J. Epstein Request \nImportance: \nHigh \nMr. Epstein, \nI hope this email finds you well. \nPlease be advised that your request to open six (6= additional deposit accounts is currently under review and \nconsideration= In regards...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633183",
+          "source_quote": "Dina just called me to tell me that she sent you this email. They will continue to maintain the existing accounts under their platinum banking dept",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633246",
+          "source_quote": "After careful review and consideration of your request to open six (6) additional accounts we cannot proceed with aforementioned at this time",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1840,
+      "finding_type": "document",
+      "summary": "KPMG IPI Forensic Review (2020) lists IGO Company L.L.C. as entity #5 where Epstein was 'Founder/Owner/President', alongside Southern Trust Company Inc (#4), Southern Country International Ltd (#6), and Financial Strategy Group Ltd (#7). This confirms IGO Company was known to investigators as part of the Epstein corporate web.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2020",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:09",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "KPMG IPI Forensic Review p.12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1802,
+      "finding_type": "legal",
+      "summary": "Holland & Knight LLP (attorney Michael E. Hantman) produced 7,537 documents (bates FirstBankPR000001-FirstBankPR007537) to AUSA Alex Rossmiller (SDNY) on April 15, 2020 in response to a Grand Jury Subpoena dated December 31, 2019 directed to FirstBank Puerto Rico. IGO Company LLC records were included in this production. Documents were separated into: Bank Opening Records (000005-001025), Manager's Checks (001026-001059), Monthly Account Statements (001060-007308), and Wire Transfer Records (007309-007537). This confirms IGO Company LLC bank records were part of the SDNY Grand Jury investigation into Epstein's financial network post-mortem.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2020-04-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:15",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273238",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1813,
+      "finding_type": "legal",
+      "summary": "USVI Registry confirms IGO Company LLC (ID 571920) was voluntarily terminated on 06/09/2022 after maintaining In Good Standing status from formation (12/28/2006) through 06/15/2022 - over 15 years. Last annual report filed 01/12/2022. Resident agent Business Basics VI LLC (brett@bizusvi.com). This is notable as it was NOT administratively dissolved like many other Epstein USVI entities post-death, but deliberately wound down as part of estate proceedings, suggesting active estate management.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2022-06-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:26",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI Registry 571920",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1824,
+      "finding_type": "legal",
+      "summary": "USVI registry confirms IGO Company LLC (#571920) was voluntarily terminated on 06/09/2022, NOT administratively dissolved. Entity maintained In Good Standing from formation (12/28/2006) to dissolution. Resident agent changed to Business Basics VI LLC (brett@bizusvi.com) on 07/31/2019 -- 25 days after Epstein's arrest on 7/6/2019 and 21 days after his death on 8/10/2019. Last annual report filed 01/12/2022. Address changed from American Yacht Harbor to Royal Palms Professional Building, 9053 Estate Thomas Suite 101. Entity managed post-arrest by estate administrators.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2022-06-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:11",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:571920",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1844,
+      "finding_type": "legal",
+      "summary": "IGO Company LLC voluntarily terminated 06/09/2022 per USVI registry (not merely administratively dissolved as previously believed). It was in good standing from formation 12/28/2006 through 06/15/2022. Last annual report filed 01/12/2022. Registered agent changed from Maria Tankenson Hodge to Business Basics VI LLC (brett@bizusvi.com) at Royal Palms Professional Building 9053 Estate Thomas Ste 101. This voluntary termination during estate administration suggests deliberate wind-down of entity.",
+      "detail": null,
+      "source_datasets": [
+        "USVI Corporate Registry"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2022-06-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:43",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI Registry 571920",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1800,
+      "finding_type": "legal",
+      "summary": "IGO Company LLC had ZERO litigation history across all court databases searched. CourtListener full-text search, party search, and case search returned no matches for IGO Company LLC as a litigant in any federal or state court. No admiralty/maritime cases, no commercial lawsuits, no regulatory actions. This is consistent with it being a dormant shell entity holding watercraft assets with minimal actual marine operations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:04:58",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener search",
+          "source_quote": " 0 results matching Epstein IGO Company LLC as litigant across all federal courts",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1806,
+      "finding_type": "intelligence",
+      "summary": "IGO Company LLC is absent from all regulatory and lobbying databases: zero FARA registrations, zero LDA lobbying filings, zero OpenSanctions entries, zero ICIJ offshore records, zero OCCRP Aleph records. It does not appear in DS10 Deutsche Bank wire transfer records (despite Southern Trust Company and other USVI entities having significant DB wire activity). It is absent from DocumentCloud Epstein-related document collections (Giuffre v. Maxwell depositions, MCC records). It is absent from the Epstein 20K House Oversight documents and EpsteinExposed database. This comprehensive absence across regulatory, financial, and investigative databases is consistent with IGO Company LLC being a dormant asset-holding shell with no operational activity, no financial flows through Deutsche Bank, and no involvement in the regulatory or lobbying activities of other Epstein entities.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:05:52",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DocumentCloud (0 relevant results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Epstein 20K (0 relevant results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA search (0 results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA search (0 results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions (0 results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "finding_type": "financial",
+      "summary": "Comprehensive negative results: IGO Company LLC has ZERO registrations in any state beyond USVI (checked FL, NY, NM, PA, CA, UK registries). ZERO UCC filings anywhere. ZERO SEC EDGAR filings. ZERO NYC ACRIS property records. ZERO FAA aircraft registrations. ZERO GLEIF LEI identifiers. ZERO OpenSanctions entries. ZERO Deutsche Bank DS10 transactions or balances. ZERO ProPublica 990 filings. ZERO FEC contributions. ZERO FARA registrations. ZERO LDA lobbying filings. The entity was exclusively a USVI pass-through holding company for the AYH marina interest with no independent operations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:51",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "multi-source negative search results",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1825,
+      "finding_type": "intelligence",
+      "summary": "IGO Company LLC had NO Deutsche Bank account. Absent from all DS10 financial transaction records (579 transactions across 35+ entities). Only banking relationship was FirstBank PR account #7171030625. The 2017 Caterpillar Trust held IGO membership at Deutsche Bank for custody purposes only -- the DB account held the membership interest certificate, not an operating account. This means IGO's financial activity is limited to FirstBank records already reviewed, showing minimal cash flows through a nominally dormant commercial checking account.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:19",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10:entity_summary",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1839,
+      "finding_type": "identity",
+      "summary": "The name IGO likely derives from Igor, a Russian staff member who served as security and personal aide to Epstein. Emails show Epstein addressing him as Igo (shortened form). Multiple emails from Epstein TO Igo confirm this was a regular nickname. Email EFTA01835382 CCs Igo and says have igor do it as well. EFTA01840226 CCs Igo and says I told igor to take his time. Igor traveled between Epsteins properties (island, NM, FL) and held a security license.",
+      "detail": null,
+      "source_datasets": [
+        "DOJ EFTA email corpus"
+      ],
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:08",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01832825",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01835382",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01837001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01840226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1843,
+      "finding_type": "relationship",
+      "summary": "Coinbase co-founder Fred Ehrsam discussed meeting Epstein regarding the $3M investment through IGO Company LLC. Ehrsam expressed availability for a meeting in NYC. Reid Hoffman advised Epstein against participating, stating he probably wouldnt play. Despite Hoffmans warning, Epstein proceeded with the investment through IGO. This connects Epstein to the Silicon Valley crypto ecosystem through Pierce and Ehrsam.",
+      "detail": null,
+      "source_datasets": [
+        "CoinDesk 2026-02-04",
+        "DOJ EFTA email corpus"
+      ],
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:10:34",
+      "target_name": "IGO Company LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02365357",
+          "source_quote": "From: \nSteven Sinofsky \nSent: \nMonday, December 1, 2014 10:32 PM \nTo: \nJeffrey E. \nSubject: \nRe: \nWe are already in coinbase. \nhttp://www.crunchbase.com/organization/coinbase \nSent using Acompli <http://t.acompli.com/ac_sig_5> email app \nOn Mon, Dec...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 885,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Caterpillar Trust holds membership interest in IGO Company LLC per DB AML compliance review",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:12",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust held membership interest in IGO Company LLC per Deutsche Bank AML compliance documentation. IGO Company LLC is a USVI entity listed alongside Little St James LLC, Jeepers Inc, and other core Epstein entities.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:01",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629982",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 911,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust GRAT held membership interest in IGO Company LLC, a USVI entity (571920, formed 12/28/2006, dissolved)",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:08",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "person_a": "IGO Company LLC",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:29",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Unified DB doc 44923 - STC Statement of Assets June 2015",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 928,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust (GRAT, EIN 28-6639711) was created January 3, 2017 to hold 100% membership interest in IGO Company LLC. Trust terminates 2 years after funding, then IGO interest transfers to The 2013 Butterfly Trust.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:32",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "person_a": "Holland & Knight LLP",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "legal",
+      "description": "Holland & Knight LLP (Michael Hantman) produced IGO Company LLC bank records from FirstBank PR to AUSA Alex Rossmiller (SDNY) on April 15, 2020 in response to Dec 31, 2019 Grand Jury Subpoena. 7,537 documents produced.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:35",
+      "other_person": "Holland & Knight LLP",
+      "other_person_slug": "holland-knight-llp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273238",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 930,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2013 Butterfly Trust",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC membership interest designated to transfer from the Caterpillar GRAT to The 2013 Butterfly Trust upon GRAT termination (2 years post-funding, approx 2019). Part of estate planning chain: STC -> Caterpillar GRAT -> Butterfly Trust.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:37",
+      "other_person": "The 2013 Butterfly Trust",
+      "other_person_slug": "the-2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 932,
+      "person_a": "FirstBank Puerto Rico",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "IGO Company LLC held commercial checking account 7171030625 at FirstBank PR from 02/02/2007 until at least 2019. Account was 'CREDITS ONLY ALLOWED' with dormant balance of $274.96 (Feb 2012). Bank records subpoenaed by SDNY Grand Jury Dec 31, 2019.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:47",
+      "other_person": "FirstBank Puerto Rico",
+      "other_person_slug": "firstbank-puerto-rico",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269867",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273238",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 934,
+      "person_a": "IGO Company LLC",
+      "person_b": "Island Global Yachting",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC held Epstein's 50% interest in the IGY-AYH St Thomas Holdings joint venture. IGY managed AYH operations under a management agreement charging 7.5% on gross annual revenues plus leasing and development fees.",
+      "strength": "strong",
+      "date_range": "2007-2022",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:29",
+      "other_person": "Island Global Yachting",
+      "other_person_slug": "island-global-yachting",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02572864",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708042",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02717562",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 935,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "The 2017 Caterpillar Trust (EIN 28-6639711, GRAT) held 100% membership interest in IGO Company LLC. Upon trust termination (2 years from funding), membership interest was to transfer to The 2013 Butterfly Trust. DB account managed by Stewart Oldfield.",
+      "strength": "strong",
+      "date_range": "2017-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:36",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 938,
+      "person_a": "IGO Company LLC",
+      "person_b": "Southern Trust Company Inc",
+      "relationship_type": "corporate",
+      "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:03",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365998",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Caterpillar Trust (GRAT, EIN 28-6639711) holds 100% membership interest in IGO Company LLC. Trustees: Lesley Groff and Daphne Wallace. Upon termination, interest transfers to 2013 Butterfly Trust.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:08",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 940,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2013 Butterfly Trust",
+      "relationship_type": "corporate",
+      "description": "Upon termination of the 2017 Caterpillar Trust, IGO Company LLC membership interest transfers to The 2013 Butterfly Trust. This creates a succession chain: Epstein -> Caterpillar Trust -> Butterfly Trust for IGO ownership.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:12",
+      "other_person": "The 2013 Butterfly Trust",
+      "other_person_slug": "the-2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 941,
+      "person_a": "American Yacht Harbor",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC registered at AYH address (6100 Red Hook Quarter B3, St Thomas). Epstein was an investor/partner in AYH via IGY-AYH St Thomas Holdings LLC. AYH served as physical base for IGO's watercraft operations.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:17",
+      "other_person": "American Yacht Harbor",
+      "other_person_slug": "american-yacht-harbor",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269867",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02572864",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 949,
+      "person_a": "Brock Pierce",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "Brock Pierce introduced Epstein to Coinbase Series C investment in November 2014. Epsteins $3M invested through IGO Company LLC. In 2018, Blockchain Capital (Pierces firm) purchased 50% of the stake for $15M.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:08",
+      "other_person": "Brock Pierce",
+      "other_person_slug": "brock-pierce",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287396",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02354362",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02371875",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 950,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust (EIN 28-6639711) held 100% membership interest in IGO Company LLC. Upon trust termination, interest transfers to The 2013 Butterfly Trust. Three-tier ownership: Epstein -> Caterpillar GRAT -> IGO LLC -> Coinbase equity.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:15",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 953,
+      "person_a": "IGO Company LLC",
+      "person_b": "Jeanne Brennan-Wiebracht",
+      "relationship_type": "corporate",
+      "description": "Jeanne Brennan-Wiebracht was the organizer and initial manager of IGO Company LLC and an original signatory on its FirstBank PR account. She was Epsteins USVI office manager.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:31",
+      "other_person": "Jeanne Brennan-Wiebracht",
+      "other_person_slug": "jeanne-brennan-wiebracht",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273240",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 954,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2013 Butterfly Trust",
+      "relationship_type": "corporate",
+      "description": "Upon termination of The 2017 Caterpillar Trust (2 years from funding), membership interest in IGO Company LLC transfers to The 2013 Butterfly Trust. This creates a chain: Caterpillar GRAT -> Butterfly Trust as ultimate beneficial owner of IGO.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:37",
+      "other_person": "The 2013 Butterfly Trust",
+      "other_person_slug": "the-2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1733,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "corporate",
+      "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 931,
+      "person_a": "IGO Company LLC",
+      "person_b": "Jeanne Brennan-Wiebracht",
+      "relationship_type": "financial",
+      "description": "Jeanne Brennan-Wiebracht was a signatory on the IGO Company LLC FirstBank PR commercial checking account (opened 02/02/2007). She also received a payment of $11,252.00 on 12/7/2018 from an Epstein FirstBank account, as documented in the Feb 2019 FirstBank inquiry.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:44",
+      "other_person": "Jeanne Brennan-Wiebracht",
+      "other_person_slug": "jeanne-brennan-wiebracht",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273238",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629982",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 936,
+      "person_a": "Cecile de Jongh",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "Cecile de Jongh conducted forensic financial review of the IGO Company/AYH investment on Epstein's behalf in 2013. She was described as a 'local banker' and scrutinized the $25M purchase price, IGY management fees, and Sun Resorts transaction disclosure. She communicated directly with Frank Garrison of Island Capital Group about discrepancies.",
+      "strength": "medium",
+      "date_range": "2013",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:44",
+      "other_person": "Cecile de Jongh",
+      "other_person_slug": "cecile-de-jongh",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02571194",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02674278",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 937,
+      "person_a": "Harry Beller",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "Harry Beller conducted detailed review of AYH operations for Epstein in Feb 2013, analyzing management fees, payroll, occupancy, and capital expenditures. He also initiated request in Aug 2009 to discuss AYH with Epstein, and in Aug 2013 compiled a chronology of AYH transactions for Darren Indyke.",
+      "strength": "medium",
+      "date_range": "2009-2013",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:51",
+      "other_person": "Harry Beller",
+      "other_person_slug": "harry-beller",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02441348",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02572864",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02708042",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 942,
+      "person_a": "IGO Company LLC",
+      "person_b": "Jeanne Brennan-Wiebracht",
+      "relationship_type": "financial",
+      "description": "Brennan-Wiebracht was signatory on IGO Company LLC FirstBank account #7171030625 with CREDITS ONLY access. Also signatory on Lafayette Contractors LLC and other Epstein entities at FirstBank.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:24",
+      "other_person": "Jeanne Brennan-Wiebracht",
+      "other_person_slug": "jeanne-brennan-wiebracht",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273240",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 943,
+      "person_a": "Andrew Farkas",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "Farkas (Island Capital Group/IGY CEO) was Epstein's partner in AYH. IGO was registered at AYH address. Farkas and Epstein agreed to $200K distributions from AYH in April 2016. IGO may have held watercraft docked at the marina Farkas operated.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:29",
+      "other_person": "Andrew Farkas",
+      "other_person_slug": "andrew-farkas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02703185",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 944,
+      "person_a": "EBL Watercraft Inc",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "EBL Watercraft in FL was the repair facility for Epstein's Gibbs Quadski. Quadski returned to EBL for repairs per JE in April-May 2019. Repair rate $125/hr. EBL handled dismantling and diagnostics.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:34",
+      "other_person": "EBL Watercraft Inc",
+      "other_person_slug": "ebl-watercraft-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02289635",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633977",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 951,
+      "person_a": "Fred Ehrsam",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "financial",
+      "description": "Coinbase co-founder Fred Ehrsam discussed meeting Epstein regarding the $3M investment through IGO Company LLC. Ehrsam expressed availability for a NYC meeting.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:20",
+      "other_person": "Fred Ehrsam",
+      "other_person_slug": "fred-ehrsam",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02365357",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 952,
+      "person_a": "Andrew Farkas",
+      "person_b": "IGO Company LLC",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC was registered at American Yacht Harbor, co-owned 50-50 by Epstein and Andrew Farkas through IGY-AYH St Thomas Holdings LLC. Farkas founded Island Global Yachting (IGY) and split marina ownership with Epstein circa 2007.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:25",
+      "other_person": "Andrew Farkas",
+      "other_person_slug": "andrew-farkas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268751",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1953-01-20",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "The Beneficial Owner Certification (31 CFR 1020.230) for IGO Company LLC (EFTA01268751) shows Jeffrey Epstein as both the person opening the account and the individual owning 25%+ of equity interests, with DOB 01/20/1953 and address 6100 Red Hook Quarter B3, St Thomas USVI 00802. Darren Indyke is listed as second signatory. The document was prepared by U.McNeil and authorized at FirstBank. The form carries dual bates stamps: SDNY_GM_00012904 and FirstBankPR000067, confirming it was produced both to SDNY Grand Jury and JPMorgan litigation.",
+      "confidence": "confirmed",
+      "id": 1808
+    },
+    {
+      "date": "1953-01-20",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Beneficial Owner Certification for IGO Company LLC (31 CFR 1020.230) filed with FirstBank PR. Jeffrey Epstein listed as 100% equity owner, CEO/manager, DOB 01/20/1953, USVI DL T-4200411933, US Passport 54538864. Entity address: 6100 Red Hook Quarter B3, St Thomas USVI 00802. Prepared by U. McNeil. Darren Indyke listed as second signatory. Document confirms IGO was directly owned by Epstein (prior to trust restructuring).",
+      "confidence": "high",
+      "id": 1818
+    },
+    {
+      "date": "1953-01-20",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "FirstBank beneficial ownership certification confirms: Jeffrey Epstein was 100% owner of IGO Company LLC. SSN-associated ID: USVI DL T-4200411933. DOB: 01/20/1953. Prepared by U. McNeil, authorized signatory. Account setup date 12/24 (likely December 2006, before formation date of 12/28/2006). Entity classified as 'IGO, LLC Watercraft' — confirming the entity designation was specifically for watercraft/marine operations, consistent with its function as AYH marina holding vehicle.",
+      "confidence": "confirmed",
+      "id": 1822
+    },
+    {
+      "date": "2006-12-28",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "USVI corporate registry confirms IGO Company, L.L.C. (entity #571920) was a Domestic Limited Liability Company registered 12/28/2006, now status 'Dissolved/Withdrawn.' Registered agent: Business Basics VI, LLC. Registered address: 9053 Estate Thomas Ste 101, Charlotte Amalie, 00802 VI US. Last Annual Report filed: 2021. This entity was ingested into registry.db as ID 86429. The KPMG IPI Forensic Review independently lists IGO Company L.L.C as entity #5 in Epstein's USVI corporate network with his role as 'Founder/Owner/President.'",
+      "confidence": "confirmed",
+      "id": 1805
+    },
+    {
+      "date": "2006-12-28",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLC was the vehicle through which Jeffrey Epstein held his 50% ownership interest in American Yacht Harbor (AYH) at St. Thomas, USVI. The marina was acquired by Island Global Yachting (IGY, controlled by Andrew Farkas/Island Capital Group LLC) in January 2007 for approximately $25 million from Sun Resorts. Epstein contributed 50% of total acquisition costs. The entity was formed 12/28/2006, one month before the 1/18/07 AYH closing, specifically for this investment.",
+      "confidence": "medium",
+      "id": 1807
+    },
+    {
+      "date": "2006-12-28",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "IGO Company LLC was formed 12/28/2006 in USVI. Organizer and initial manager: Jeanne Brennan (later Brennan-Wiebracht), Epstein USVI office manager. Registered agent: Maria Tankenson Hodge at 1340 Taarneberg St Thomas. Capital: $1,000. Manager-managed LLC at 6100 Red Hook Quarter Suite B-3, American Yacht Harbor. FirstBank PR account 7171030625 opened 02/02/2007. Original signatories at FirstBank: Epstein and Jeanne Brennan-Wiebracht (not Indyke as later stated). Account status: Credits Only Allowed.",
+      "confidence": "confirmed",
+      "id": 1838
+    },
+    {
+      "date": "2007",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "IGO Company LLC was registered at American Yacht Harbor (6100 Red Hook Quarter B3, St Thomas), a marina Epstein co-owned 50-50 with Andrew Farkas through IGY-AYH St Thomas Holdings LLC. Farkas, founder of Island Global Yachting (IGY), split ownership with Epstein circa 2007. The partnership remained secret until 2018 deposition. After Epsteins death, the estate sold its stake in 2021. Farkas then sold IGY for $480M to MarineMax in 2022.",
+      "confidence": "high",
+      "id": 1842
+    },
+    {
+      "date": "2007",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "No vessel named IGO exists in the USCG PSIX vessel documentation database. Search returned only partial matches (CONMIGO, AMIGOS, ABENDIGO, etc). Combined with the dormant bank account 2007-2014 and the general-purpose Operating Agreement, this confirms the Watercraft designation on the FirstBank account card was either a placeholder description or an abandoned initial purpose. IGO was used exclusively as an investment holding entity.",
+      "confidence": "medium",
+      "id": 1846
+    },
+    {
+      "date": "2007-02-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FirstBank Puerto Rico account for IGO Company LLC (acct 7171030625, commercial checking) was opened 02/02/2007 with 'CREDITS ONLY ALLOWED' status, meaning no debit transactions were permitted on the account. Signatories were Jeffrey Epstein and Jeanne Brennan-Wiebracht (not Indyke as previously recorded for the FirstBank account). This is documented in the Holland & Knight production letter to AUSA Rossmiller dated April 15, 2020 (EFTA01273238), responding to a Grand Jury Subpoena to FirstBank PR dated December 31, 2019.",
+      "confidence": "confirmed",
+      "id": 1801
+    },
+    {
+      "date": "2007-02-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLC FirstBank PR account #7171030625 (Commercial Checking) opened 02/02/2007 with signatories Jeffrey Epstein and Jeanne Brennan-Wiebracht. Brennan had CREDITS ONLY access. Darren Indyke was added as signatory. Account was dormant throughout 2012 with balance of $274.96 (Feb-May 2012) rising to $1,974.96 (Jun-Dec 2012) on a single $1,700 credit. Address: American Yacht Harbor, 6100 Red Hook Quarter Ste B3, St Thomas VI 00802.",
+      "confidence": "high",
+      "id": 1812
+    },
+    {
+      "date": "2007-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein disputed IGY management of AYH: IGY extracted $4.5M while Epstein received only $250K. The $25M purchase price was questioned since an appraisal completed June 2007 valued the property at only $21M. Epstein accused Andrew Farkas/IGY of poor disclosure about the seller being an IGY affiliate. Harry Beller's Feb 2013 analysis showed AYH generated $7.1-7.2M gross annual revenue but was unprofitable after IGY's management fees (7.5% on gross) and payroll, with P&L losses of -$270K to -$295K per year from 2010-2012.",
+      "confidence": "medium",
+      "id": 1809
+    },
+    {
+      "date": "2007-2022",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "IGO Company LLC held Epstein's 50% interest in the IGY-AYH St Thomas Holdings joint venture. IGY managed AYH operations under a management agreement charging 7.5% on gross annual revenues plus leasing and development fees.",
+      "other_person": "Island Global Yachting",
+      "id": 934
+    },
+    {
+      "date": "2009-2013",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Harry Beller conducted detailed review of AYH operations for Epstein in Feb 2013, analyzing management fees, payroll, occupancy, and capital expenditures. He also initiated request in Aug 2009 to discuss AYH with Epstein, and in Aug 2013 compiled a chronology of AYH transactions for Darren Indyke.",
+      "other_person": "Harry Beller",
+      "id": 937
+    },
+    {
+      "date": "2012-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLC (also referred to as IGO L.L.C) was an Epstein USVI entity at American Yacht Harbor, 6100 Red Hook Quarter Ste B3, St Thomas VI 00802. FirstBank PR commercial checking account (7171030625) with dormant balance of .96 as of Feb 2012. Signatories: Jeffrey Epstein and Darren Indyke. Listed as 'IGO LLC Watercraft' in FirstBank account opening documentation, indicating it was a marine/watercraft holding entity. Deutsche Bank KYC review also covered this entity.",
+      "confidence": "confirmed",
+      "id": 653
+    },
+    {
+      "date": "2012-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLCs FirstBank PR account was nearly dormant 2007-2012. Balance went from $274.96 to $1,974.96 after a single $2,000 deposit in June 2012 and one $300 check in the same month. No significant activity through 2012 statements. The Watercraft label on the bank signature card appears to be a cover description that never materialized operationally. The LLC was repurposed for crypto investment in 2014.",
+      "confidence": "high",
+      "id": 1841
+    },
+    {
+      "date": "2012-06-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FirstBank PR monthly statements (EFTA01269867-series) show IGO Company LLC account 7171030625 was essentially dormant throughout 2012: static $274.96 balance Jan-May 2012, then $2,000 deposit 06/19/2012 and $300 check (#1008) 06/22/2012 bringing balance to $1,974.96. This minimal activity is inconsistent with the entity supposedly holding a 50% interest in a $25M marina generating $7M+ annual gross revenue. The real AYH investment flows were likely routed through IGY-AYH St Thomas Holdings LLC, not directly through this FirstBank account.",
+      "confidence": "high",
+      "id": 1845
+    },
+    {
+      "date": "2013",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Cecile de Jongh conducted forensic financial review of the IGO Company/AYH investment on Epstein's behalf in 2013. She was described as a 'local banker' and scrutinized the $25M purchase price, IGY management fees, and Sun Resorts transaction disclosure. She communicated directly with Frank Garrison of Island Capital Group about discrepancies.",
+      "other_person": "Cecile de Jongh",
+      "id": 936
+    },
+    {
+      "date": "2014-05",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Watercraft fleet associated with Epstein's island operations identified from shipping logs and punchlist: Gibbs Quadski XL (amphibious, purchased May 2014 via Riva Pompano Beach for ~$48,900, color red, repaired by EBL Watercraft Inc in FL 2019), multiple Nautica boats (3+), Sportis boat, sailboat, crew boat (30ft Boulton Powerboat considered June 2015), barge(s), and 'Big N' (docked at AYH and PR -- likely vessel Nautilus). The Quadski was serviced at EBL Watercraft in FL with shipping via Tropical Shipping. IGO Company LLC was the watercraft holding entity but specific vessel registrations under IGO were not found in the document corpus.",
+      "confidence": "medium",
+      "id": 1829
+    },
+    {
+      "date": "2014-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLC (USVI #571920) was the vehicle through which Jeffrey Epstein invested approximately $3 million in Coinbase Series C round in December 2014. Brock Pierce of Blockchain Capital introduced the deal. Despite being labeled Watercraft on FirstBank PR account card, IGO actual documented purpose was holding this crypto investment.",
+      "confidence": "high",
+      "id": 1835
+    },
+    {
+      "date": "2015-06-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Trust Company Inc. balance sheet (June 30, 2015) lists 'IGO LLC 3,000,002' as an investment in subsidiaries, alongside Southern Financial LLC (153,314,312) and Haze Trust (87,512,260). This confirms IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc., Epstein's primary USVI holding company, valued at approximately $3 million on a tax basis. The entity was held through STC before the 2017 Caterpillar Trust GRAT restructuring transferred its membership interest.",
+      "confidence": "high",
+      "id": 1803
+    },
+    {
+      "date": "2015-06-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLC ownership chain underwent a specific restructuring: originally held as a subsidiary of Southern Trust Company Inc. (valued at $3,000,002 on the June 30, 2015 STC balance sheet), the 100% membership interest was transferred to The 2017 Caterpillar Trust (a GRAT) effective January 3, 2017 (EIN 28-6639711). Deutsche Bank's KYC states the Caterpillar Trust was designed to terminate two years after initial funding, at which point IGO Company LLC membership interest would transfer to The 2013 Butterfly Trust. This three-step chain (STC -> Caterpillar GRAT -> Butterfly Trust) is a classic estate planning structure to transfer a $3M watercraft asset at reduced gift/estate tax cost. The GRAT annuity payments went back to Epstein as grantor, while the 'remainder' (the IGO membership interest minus annuity value) passed to the Butterfly Trust beneficiaries tax-free.",
+      "confidence": "medium",
+      "id": 1810
+    },
+    {
+      "date": "2015-06-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO LLC valued at $3,000,002 as subsidiary of Southern Trust Company Inc on STC balance sheet (Statement of Assets, Liabilities and Shareholders Equity, Income Tax Basis) as of June 30, 2015. Listed alongside Southern Financial LLC ($153.3M) and Haze Trust ($87.5M). Total STC assets: $340.5M. The $3M valuation for a nominally dormant watercraft LLC suggests IGO held tangible assets (vessels) worth approximately that amount.",
+      "confidence": "high",
+      "id": 1816
+    },
+    {
+      "date": "2016-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Richard Kahn confirmed distribution of $200,000 to each partner from AYH in April 2016, meaning both Epstein (via IGO Company) and Farkas/IGY each received $200K. Kahn communicated with Luke Brown (Controller, Corporate Accounting, Island Global Yachting, 201 E. McBee Ave Suite 301, Greenville SC 29601) and Mark Lande of IGY about quarterly financial statements. This shows AYH was actively distributing cash to partners as late as 2016.",
+      "confidence": "confirmed",
+      "id": 1815
+    },
+    {
+      "date": "2017-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IGO Company LLC ownership traced through GRAT structure: The 2017 Caterpillar Trust (EIN 28-6639711, GRAT formed Jan 2017) holds 100% membership interest in IGO Company LLC. Trust terminates two years from initial funding, with annual annuity distributions to grantor only. Upon termination, membership interest transfers to The 2013 Butterfly Trust. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Beneficiaries: Jeffrey Epstein and The 2013 Butterfly Trust.",
+      "confidence": "high",
+      "id": 1814
+    },
+    {
+      "date": "2017-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The 2017 Caterpillar Trust (EIN 28-6639711) was a Grantor Retained Annuity Trust formed January 2017 specifically to hold 100% membership interest in IGO Company LLC. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Upon termination (2 years from funding), membership interest transfers to The 2013 Butterfly Trust. This created a tax-efficient structure to hold the appreciated Coinbase investment.",
+      "confidence": "confirmed",
+      "id": 1837
+    },
+    {
+      "date": "2017-01-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank KYC for The 2017 Caterpillar Trust (EIN 28-6639711) confirms it was a Grantor Retained Annuity Trust formed 01/03/2017 holding 100% membership interest in IGO Company LLC. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Beneficiaries: Jeffrey Epstein and The 2013 Butterfly Trust (upon termination). The trust was set to terminate two years from initial funding, with annual annuity distributions paid to the grantor only. Expected account volume: approx $300,000 USD. Less than 2 distributions annually between $0 and $100K.",
+      "confidence": "confirmed",
+      "id": 1811
+    },
+    {
+      "date": "2017-11",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "AYH monthly rent/office expenses were $10,428-10,987 per month as of late 2017 (Sep $10,987, Oct $9,724, Nov $10,428). Epstein instructed Richard Kahn to 'hold' on paying these bills in November 2017, with 3 months outstanding totaling $31,149. Una Pascal (assistant) handled invoice processing.",
+      "confidence": "confirmed",
+      "id": 1820
+    },
+    {
+      "date": "2017-2019",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "The 2017 Caterpillar Trust (EIN 28-6639711, GRAT) held 100% membership interest in IGO Company LLC. Upon trust termination (2 years from funding), membership interest was to transfer to The 2013 Butterfly Trust. DB account managed by Stewart Oldfield.",
+      "other_person": "The 2017 Caterpillar Trust",
+      "id": 935
+    },
+    {
+      "date": "2018-02-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank KYC case 01898372 for The 2017 Caterpillar Trust (part of the Southern Financial relationship) specifically describes the trust as existing to hold IGO Company LLC membership interest: 'the purpose of this account is to hold the member interest in IGO Company LLC.' Expected account activity was 'less than 2 distributions on an annual basis between $0 and $100k' with expected assets of $300,000 USD. Trust EIN: 28-6639711. RUSH KYC clearance was needed by 02/07/2018 for 'an upcoming acquisition where funds will need to be available.' The Caterpillar Trust was designed to terminate two years from initial funding date, at which point the IGO Company LLC membership interest would transfer to The 2013 Butterfly Trust.",
+      "confidence": "confirmed",
+      "id": 1804
+    },
+    {
+      "date": "2018-02-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "In February 2018, Blockchain Capital purchased 50% of Epsteins Coinbase position held through IGO Company LLC for $15 million. Three payments on 2018-02-21: Blockchain Capital Parallel Fund IV LP ($1.875M), BC III Digital Liquid Venture Fund LP ($2.625M), BC IV LP ($10.5M). Funds went to The 2017 Caterpillar Trust account at Deutsche Bank, which held the membership interest in IGO.",
+      "confidence": "confirmed",
+      "id": 1836
+    },
+    {
+      "date": "2018-04-26",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein held investment/partnership interest in American Yacht Harbor (AYH) via IGY-AYH St Thomas Holdings LLC, a partnership with Andrew Farkas (Island Capital Group/Island Global Yachting). In April 2016, Epstein and Farkas agreed to distribute $200,000 to each partner from AYH. IGO Company LLC's registered address was at AYH (6100 Red Hook Quarter B3). Epstein also paid ~$10K/month office rent at AYH. Payments of $37,000 (4/26/2018) and $38,000 (5/3/2018) to 'American Yacht' from Epstein FirstBank account suggest additional marina/berth fees or investment payments.",
+      "confidence": "high",
+      "id": 1831
+    },
+    {
+      "date": "2019-02-28",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FirstBank denied Epstein's request to open 6 additional deposit accounts on Feb 28, 2019 (3 weeks before Epstein got new passport on 3/8/2019). IGO Company LLC listed among 16 existing account relationships requiring beneficial ownership certification. The denial letter from VP Dina Perry-Malone was forwarded by Epstein to Richard Kahn and Cecile de Jongh. De Jongh confirmed FirstBank would continue to maintain existing accounts under platinum banking. This suggests enhanced scrutiny of Epstein's USVI banking in early 2019.",
+      "confidence": "confirmed",
+      "id": 1821
+    },
+    {
+      "date": "2020",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "KPMG IPI Forensic Review (2020) lists IGO Company L.L.C. as entity #5 where Epstein was 'Founder/Owner/President', alongside Southern Trust Company Inc (#4), Southern Country International Ltd (#6), and Financial Strategy Group Ltd (#7). This confirms IGO Company was known to investigators as part of the Epstein corporate web.",
+      "confidence": "confirmed",
+      "id": 1840
+    },
+    {
+      "date": "2020-04-15",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Holland & Knight LLP (attorney Michael E. Hantman) produced 7,537 documents (bates FirstBankPR000001-FirstBankPR007537) to AUSA Alex Rossmiller (SDNY) on April 15, 2020 in response to a Grand Jury Subpoena dated December 31, 2019 directed to FirstBank Puerto Rico. IGO Company LLC records were included in this production. Documents were separated into: Bank Opening Records (000005-001025), Manager's Checks (001026-001059), Monthly Account Statements (001060-007308), and Wire Transfer Records (007309-007537). This confirms IGO Company LLC bank records were part of the SDNY Grand Jury investigation into Epstein's financial network post-mortem.",
+      "confidence": "confirmed",
+      "id": 1802
+    },
+    {
+      "date": "2022-06-09",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "USVI Registry confirms IGO Company LLC (ID 571920) was voluntarily terminated on 06/09/2022 after maintaining In Good Standing status from formation (12/28/2006) through 06/15/2022 - over 15 years. Last annual report filed 01/12/2022. Resident agent Business Basics VI LLC (brett@bizusvi.com). This is notable as it was NOT administratively dissolved like many other Epstein USVI entities post-death, but deliberately wound down as part of estate proceedings, suggesting active estate management.",
+      "confidence": "high",
+      "id": 1813
+    },
+    {
+      "date": "2022-06-09",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "USVI registry confirms IGO Company LLC (#571920) was voluntarily terminated on 06/09/2022, NOT administratively dissolved. Entity maintained In Good Standing from formation (12/28/2006) to dissolution. Resident agent changed to Business Basics VI LLC (brett@bizusvi.com) on 07/31/2019 -- 25 days after Epstein's arrest on 7/6/2019 and 21 days after his death on 8/10/2019. Last annual report filed 01/12/2022. Address changed from American Yacht Harbor to Royal Palms Professional Building, 9053 Estate Thomas Suite 101. Entity managed post-arrest by estate administrators.",
+      "confidence": "confirmed",
+      "id": 1824
+    },
+    {
+      "date": "2022-06-09",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "IGO Company LLC voluntarily terminated 06/09/2022 per USVI registry (not merely administratively dissolved as previously believed). It was in good standing from formation 12/28/2006 through 06/15/2022. Last annual report filed 01/12/2022. Registered agent changed from Maria Tankenson Hodge to Business Basics VI LLC (brett@bizusvi.com) at Royal Palms Professional Building 9053 Estate Thomas Ste 101. This voluntary termination during estate administration suggests deliberate wind-down of entity.",
+      "confidence": "confirmed",
+      "id": 1844
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1837,
+      1811,
+      1804,
+      1821,
+      1838,
+      1829,
+      1802,
+      1808,
+      1822,
+      1818,
+      1842,
+      1839
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1842,
+          1843
+        ],
+        "connection_ids": [
+          885,
+          907,
+          911,
+          927,
+          928,
+          929,
+          930,
+          932,
+          934,
+          935,
+          938,
+          939,
+          940,
+          941,
+          949
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          1807,
+          1801,
+          1812,
+          1809,
+          653,
+          1841,
+          1845,
+          1835,
+          1803,
+          1810
+        ],
+        "connection_ids": [
+          932,
+          935,
+          949,
+          931,
+          936,
+          937,
+          942,
+          943
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1802,
+          1813,
+          1824,
+          1844,
+          1800
+        ],
+        "connection_ids": [
+          929
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1829,
+          1806,
+          1825
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:38:44.568360",
+    "lead": "<p>IGO Company LLC was a U.S. Virgin Islands limited liability company (entity #571920) formed on December 28, 2006, wholly owned by Jeffrey Epstein and administered by his inner circle of USVI staff and attorneys. Registered at 6100 Red Hook Quarter Suite B-3 at American Yacht Harbor in St. Thomas, the entity was organized by Jeanne Brennan-Wiebracht, Epstein's local office manager, with an initial capital of just $1,000. FirstBank Puerto Rico opened a commercial checking account for IGO on February 2, 2007, designated as \"IGO, LLC Watercraft\" on the bank's signature card, with signatories Epstein and Brennan-Wiebracht and a \"Credits Only Allowed\" restriction. <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> was subsequently added as an account signatory.</p>\n\n<p>Despite its nominal watercraft designation, IGO Company LLC served two distinct and far more significant investment purposes. First, it functioned as the vehicle through which Epstein held his 50% ownership interest in American Yacht Harbor, acquired in January 2007 through a joint venture with <a href=\"/dossiers/andrew-farkas\">Andrew Farkas</a> of Island Global Yachting (IGY) for approximately $25 million. Second, and more consequentially, IGO was the entity through which Epstein invested approximately $3 million in Coinbase's Series C funding round in December 2014, an investment introduced by Brock Pierce of Blockchain Capital. That Coinbase stake appreciated dramatically: in February 2018, Blockchain Capital purchased 50% of the position for $15 million, representing a five-fold return on the original $3 million outlay in just over three years.</p>\n\n<p>IGO's ownership structure underwent a deliberate estate-planning restructuring. Originally a subsidiary of <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a> (valued at $3,000,002 on STC's June 2015 balance sheet), the entity's 100% membership interest was transferred in January 2017 to <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a>, a Grantor Retained Annuity Trust with <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> and Daphne Wallace as trustees. Upon the GRAT's termination two years after funding, the membership interest was designated to pass to The 2013 Butterfly Trust, creating a three-step chain designed to transfer the appreciated Coinbase investment at reduced gift and estate tax cost. IGO Company LLC was voluntarily terminated on June 9, 2022, as part of the deliberate wind-down of Epstein's estate, having maintained good standing for over fifteen years.</p>",
+    "open_questions": [
+      "What was the final disposition of Epstein's remaining 50% Coinbase position held through IGO Company LLC? The Blockchain Capital purchase in February 2018 covered only half the stake; did the estate sell the remainder before or after Coinbase's April 2021 direct listing, and at what valuation?",
+      "Did the $3,000,002 valuation on Southern Trust Company's June 2015 balance sheet reflect the Coinbase investment at cost basis, or had it been marked to fair value? If at cost, the actual fair market value at the time of the January 2017 GRAT transfer would be critical for determining the estate-tax benefit of the restructuring.",
+      "What was the actual purpose of the 'Watercraft' designation on IGO's FirstBank account card? No vessel registrations under IGO Company LLC appear in the USCG PSIX database, and the entity's only documented material assets were the AYH partnership interest and the Coinbase equity. Was the watercraft label an initial purpose that was abandoned, or a deliberate misdescription?",
+      "Who were the beneficiaries of The 2013 Butterfly Trust, the ultimate intended recipient of IGO's membership interest after the Caterpillar GRAT terminated? The identity of these beneficiaries would reveal who stood to inherit the appreciated Coinbase position.",
+      "What was the total return on Epstein's Coinbase investment across all liquidation events? The $15 million partial sale in February 2018 represents a 10x return on $1.5 million (half of $3M), but the remaining half may have appreciated further through Coinbase's 2021 public listing at a valuation exceeding $85 billion."
+    ],
+    "system_role": "IGO Company LLC was a nominally dormant USVI shell entity that served as a dual-purpose investment vehicle in Epstein's corporate network, holding both his 50% stake in American Yacht Harbor and his early Coinbase cryptocurrency investment, while its 'watercraft' bank designation obscured the entity's actual financial significance within the broader trust restructuring chain.",
+    "sections": [
+      {
+        "id": "formation-and-corporate-structure",
+        "title": "Formation and Corporate Structure",
+        "content": "<p>IGO Company, L.L.C. was registered as a Domestic Limited Liability Company in the U.S. Virgin Islands on December 28, 2006, under entity number 571920. The organizer and initial manager was Jeanne Brennan-Wiebracht, who served as Epstein's USVI office manager and was simultaneously involved in the formation and administration of multiple Epstein entities at FirstBank Puerto Rico. The initial registered agent was Maria Tankenson Hodge at 1340 Taarneberg, St. Thomas; the registered agent was later changed to <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI, LLC</a> on July 31, 2019 &mdash; twenty-five days after Epstein's arrest on July 6, 2019. The LLC's registered address was 6100 Red Hook Quarter Suite B-3 at American Yacht Harbor, the same marina in which Epstein held a 50% ownership interest.</p>\n\n<p>Beneficial ownership certifications filed with FirstBank Puerto Rico under 31 CFR 1020.230 (EFTA01268751) identified Epstein as 100% equity owner and CEO/manager, providing his USVI driver's license number T-4200411933 and U.S. passport number 54538864. <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> was listed as a second signatory. The KPMG IPI Forensic Review (2020) independently cataloged IGO Company L.L.C. as entity #5 in Epstein's USVI corporate network, alongside <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a> (#4) and <a href=\"/dossiers/southern-country-international-ltd\">Southern Country International Ltd</a> (#6), with Epstein's role designated as \"Founder/Owner/President.\"</p>\n\n<p>The entity's name may derive from \"Igor,\" a Russian security staff member who worked for Epstein across his properties. Emails in the DOJ EFTA corpus show Epstein addressing this individual as \"Igo\" in shorthand, and multiple CC'd messages confirm this as a regular nickname. However, the naming remains an inference rather than a documented fact.</p>",
+        "viz": null
+      },
+      {
+        "id": "american-yacht-harbor-investment",
+        "title": "The American Yacht Harbor Partnership",
+        "content": "<p>IGO Company LLC was formed one month before the closing on American Yacht Harbor (AYH) on January 18, 2007, specifically to hold Epstein's 50% interest in the marina. The acquisition was structured through IGY-AYH St Thomas Holdings LLC, a joint venture with <a href=\"/dossiers/andrew-farkas\">Andrew Farkas</a> and his Island Global Yachting (IGY), a subsidiary of Island Capital Group LLC. IGY acquired AYH from Sun Resorts for approximately $25 million, with Epstein contributing 50% of the total acquisition costs. The partnership remained secret from public view until it surfaced in a 2018 deposition.</p>\n\n<p>The investment proved contentious. A bank appraisal completed in June 2007 valued the property at only $21 million, $4 million below the purchase price. Epstein accused Farkas and IGY of poor disclosure regarding the seller being an IGY affiliate. Cecile de Jongh, described in emails as a \"local banker,\" conducted a forensic financial review of the transaction on Epstein's behalf in 2013, communicating directly with Frank Garrison of Island Capital Group about discrepancies. Harry Beller prepared a detailed analysis for Epstein in February 2013 showing that AYH generated $7.1-7.2 million in gross annual revenue but was unprofitable after IGY's management fees &mdash; which ran at 7.5% on gross revenues &mdash; and payroll costs, with annual P&L losses of $270,000 to $295,000 from 2010 through 2012.</p>\n\n<p>In a June 2013 email (EFTA02571194), Epstein wrote to Farkas: \"THis is of course Seperate and apart from IGy taking out the 4.5 million while i received only 250k.\" The disparity in distributions was a persistent grievance. Despite these tensions, the partnership continued to operate, with <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> confirming a $200,000 distribution to each partner in April 2016. By late 2017, Epstein was instructing Kahn to withhold payment on $31,149 in accumulated office rent at AYH. After Epstein's death, the estate sold its stake in 2021. Farkas subsequently sold IGY to MarineMax for $480 million in 2022.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "coinbase-investment",
+        "title": "The Coinbase Series C Investment",
+        "content": "<p>In November 2014, Brock Pierce of Blockchain Capital introduced Epstein to an investment opportunity in Coinbase's Series C funding round. Pierce emailed Epstein on November 14, 2014 (EFTA02371875): \"They are doing their next round. Biggest player in the Bitcoin sector in the US. Able to meet the founder tomorrow?\" By December 1, Pierce was pressing Epstein directly: \"Coinbase - Are you calling?\" (EFTA02354362). Coinbase co-founder Fred Ehrsam discussed meeting Epstein regarding the investment and expressed availability for a meeting in New York. Steven Sinofsky, a former Microsoft executive, informed Epstein that same day: \"We are already in coinbase.\" Reid Hoffman reportedly advised Epstein that the investment \"probably wouldn't play,\" but Epstein proceeded regardless.</p>\n\n<p>Epstein invested approximately $3 million in the Series C round through IGO Company LLC, despite the entity's \"Watercraft\" designation on its FirstBank account card. The <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a> balance sheet as of June 30, 2015, valued the IGO subsidiary at exactly $3,000,002 &mdash; consistent with the Coinbase investment being IGO's sole material asset at that date.</p>\n\n<p>In February 2018, Blockchain Capital purchased 50% of Epstein's Coinbase position for $15 million, a transaction routed through <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a> account at <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a>. Three separate wire transfers arrived on February 21, 2018: Blockchain Capital Parallel Fund IV LP ($1.875 million), BC III Digital Liquid Venture Fund LP ($2.625 million), and BC IV LP ($10.5 million). The rush KYC clearance that Deutsche Bank processed for the Caterpillar Trust account by February 7, 2018, citing \"an upcoming acquisition where funds will need to be available,\" was almost certainly in anticipation of this transaction. The remaining 50% Coinbase position, still held through IGO, would have appreciated further before Coinbase's April 2021 direct listing at a valuation exceeding $85 billion.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "ownership-restructuring",
+        "title": "Trust Restructuring and Tax Strategy",
+        "content": "<p>IGO Company LLC's ownership chain underwent a deliberate estate-planning restructuring that moved the entity through a three-step succession designed to minimize gift and estate tax liability on the appreciated Coinbase investment. Originally held as a wholly-owned subsidiary of <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc.</a>, the entity's 100% membership interest was transferred on January 3, 2017, to <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a> (EIN 28-6639711), a Grantor Retained Annuity Trust with Jeffrey Epstein as grantor and <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> and Daphne Wallace as trustees.</p>\n\n<p>Deutsche Bank's KYC documentation (EFTA01387281) specified: \"This is a grantor retained annuity trust that holds membership interest in IGO Company LLC. This trust will terminate two years from the date of initial funding and annual annuity distributions will be paid to the grantor only. Upon termination the membership interest will then transfer to the 2013 Butterfly Trust.\" The expected account activity was \"less than 2 distributions on an annual basis between $0 and $100k\" with expected total assets of approximately $300,000 USD &mdash; a figure that dramatically understated the actual value of the underlying Coinbase equity by this point.</p>\n\n<p>The GRAT mechanism is a standard estate-planning technique for transferring appreciating assets: the grantor receives annuity payments during the trust term, while any growth in excess of the IRS Section 7520 rate passes to the remainder beneficiary (here, The 2013 Butterfly Trust) free of gift tax. The timing of the restructuring &mdash; January 2017, when the Coinbase investment had already appreciated significantly from the $3 million entry point &mdash; suggests the advisors around Epstein (likely including Indyke and <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>) recognized the need to move an asset with substantial unrealized gains into a tax-efficient holding structure. The full chain ran: Southern Trust Company &rarr; 2017 Caterpillar Trust (GRAT) &rarr; 2013 Butterfly Trust, with IGO Company LLC as the asset held at each stage.</p>",
+        "viz": null
+      },
+      {
+        "id": "banking-and-financial-footprint",
+        "title": "Banking Activity and Regulatory Footprint",
+        "content": "<p>IGO Company LLC maintained a single bank account: commercial checking account 7171030625 at FirstBank Puerto Rico, opened February 2, 2007. The account was marked \"Credits Only Allowed,\" meaning debit transactions were restricted. Monthly statements (EFTA01269867 series) reveal the account was essentially dormant for years: a static balance of $274.96 persisted from at least January through May 2012, broken only by a $2,000 deposit on June 19, 2012, and a $300 check (#1008) on June 22, bringing the balance to $1,974.96. This minimal activity was strikingly inconsistent with an entity nominally holding a 50% interest in a $25 million marina generating over $7 million in annual gross revenue. The actual AYH investment flows were routed through IGY-AYH St Thomas Holdings LLC, not through IGO's FirstBank account.</p>\n\n<p>IGO Company LLC had no Deutsche Bank account. While <a href=\"/dossiers/the-2017-caterpillar-trust\">The 2017 Caterpillar Trust</a> held the IGO membership interest at Deutsche Bank for custody purposes, the bank account held the membership interest certificate rather than serving as an operating account. IGO is absent from all 579 Deutsche Bank DS10 financial transactions tracked across Epstein's 35+ entities. The entity has zero registrations in any jurisdiction beyond the USVI (checked across Florida, New York, New Mexico, Pennsylvania, California, and UK registries), zero UCC filings, zero SEC EDGAR filings, zero ACRIS property records, zero FAA aircraft registrations, and zero entries in OpenSanctions, FARA, LDA, or FEC databases.</p>\n\n<p>In February 2019, FirstBank denied Epstein's request to open six additional deposit accounts. IGO Company LLC was listed among sixteen existing account relationships requiring beneficial ownership certification. The denial letter from VP Dina Perry-Malone was forwarded by Epstein to <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> and Cecile de Jongh, who confirmed FirstBank would continue to maintain existing accounts under its platinum banking program. This refusal, coming three weeks before Epstein obtained a new passport, may reflect enhanced institutional scrutiny of his USVI banking relationships in early 2019.</p>",
+        "viz": null
+      },
+      {
+        "id": "legal-proceedings-and-dissolution",
+        "title": "Legal Proceedings and Dissolution",
+        "content": "<p>IGO Company LLC's bank records became part of the federal investigation into Epstein's financial network after his death. On December 31, 2019, a Grand Jury Subpoena was issued to FirstBank Puerto Rico. Holland & Knight LLP, through attorney Michael E. Hantman, produced 7,537 documents (bates-stamped FirstBankPR000001 through FirstBankPR007537) to AUSA Alex Rossmiller at SDNY on April 15, 2020. The production was organized into Bank Opening Records (000005-001025), Manager's Checks (001026-001059), Monthly Account Statements (001060-007308), and Wire Transfer Records (007309-007537). The beneficial ownership certification for IGO Company LLC carried dual bates stamps &mdash; SDNY_GM_00012904 and FirstBankPR000067 &mdash; confirming it was produced to both the SDNY Grand Jury and the JPMorgan litigation.</p>\n\n<p>Despite being part of the Epstein corporate web, IGO Company LLC had zero litigation history across all federal and state court databases. No admiralty or maritime cases, no commercial lawsuits, and no regulatory actions were filed against or involving the entity, consistent with its function as a passive holding vehicle rather than an operating business.</p>\n\n<p>The entity's dissolution followed a deliberate trajectory. The registered agent was changed from Maria Tankenson Hodge to <a href=\"/dossiers/business-basics-vi-llc\">Business Basics VI, LLC</a> on July 31, 2019, shortly after Epstein's arrest. The registered address was moved from American Yacht Harbor to the Royal Palms Professional Building at 9053 Estate Thomas Suite 101. IGO Company LLC maintained \"In Good Standing\" status throughout, filed its last annual report on January 12, 2022, and was voluntarily terminated on June 9, 2022. Unlike many other Epstein USVI entities that were administratively dissolved post-death, IGO's deliberate wind-down indicates active estate management and the orderly liquidation of the underlying assets &mdash; consistent with the estate's reported sale of its AYH stake in 2021.</p>",
+        "viz": "timeline"
+      }
+    ],
+    "applicable_models": [
+      "jurisdictional-arbitrage",
+      "complexity-as-credential",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "IGO Company LLC",
+      "connections": [
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust holds membership interest in IGO Company LLC per DB AML compliance review"
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "The 2017 Caterpillar Trust held membership interest in IGO Company LLC per Deutsche Bank AML compliance documentation. IGO Company LLC is a USVI entity listed alongside Little St James LLC, Jeepers Inc, and other core Epstein entities."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "The 2017 Caterpillar Trust GRAT held membership interest in IGO Company LLC, a USVI entity (571920, formed 12/28/2006, dissolved)"
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Unified DB doc 44923 - STC Statement of Assets June 2015",
+          "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "The 2017 Caterpillar Trust (GRAT, EIN 28-6639711) was created January 3, 2017 to hold 100% membership interest in IGO Company LLC. Trust terminates 2 years after funding, then IGO interest transfers to The 2013 Butterfly Trust."
+        },
+        {
+          "target": "Holland & Knight LLP",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01273238",
+          "description": "Holland & Knight LLP (Michael Hantman) produced IGO Company LLC bank records from FirstBank PR to AUSA Alex Rossmiller (SDNY) on April 15, 2020 in response to Dec 31, 2019 Grand Jury Subpoena. 7,537 documents produced."
+        },
+        {
+          "target": "The 2013 Butterfly Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01387281",
+          "description": "IGO Company LLC membership interest designated to transfer from the Caterpillar GRAT to The 2013 Butterfly Trust upon GRAT termination (2 years post-funding, approx 2019). Part of estate planning chain: STC -> Caterpillar GRAT -> Butterfly Trust."
+        },
+        {
+          "target": "FirstBank Puerto Rico",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01269867",
+          "description": "IGO Company LLC held commercial checking account 7171030625 at FirstBank PR from 02/02/2007 until at least 2019. Account was 'CREDITS ONLY ALLOWED' with dormant balance of $274.96 (Feb 2012). Bank records subpoenaed by SDNY Grand Jury Dec 31, 2019."
+        },
+        {
+          "target": "Island Global Yachting",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02572864",
+          "description": "IGO Company LLC held Epstein's 50% interest in the IGY-AYH St Thomas Holdings joint venture. IGY managed AYH operations under a management agreement charging 7.5% on gross annual revenues plus leasing and development fees."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364292",
+          "description": "The 2017 Caterpillar Trust (EIN 28-6639711, GRAT) held 100% membership interest in IGO Company LLC. Upon trust termination (2 years from funding), membership interest was to transfer to The 2013 Butterfly Trust. DB account managed by Stewart Oldfield."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01365998",
+          "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015"
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364292",
+          "description": "Caterpillar Trust (GRAT, EIN 28-6639711) holds 100% membership interest in IGO Company LLC. Trustees: Lesley Groff and Daphne Wallace. Upon termination, interest transfers to 2013 Butterfly Trust."
+        },
+        {
+          "target": "The 2013 Butterfly Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01387281",
+          "description": "Upon termination of the 2017 Caterpillar Trust, IGO Company LLC membership interest transfers to The 2013 Butterfly Trust. This creates a succession chain: Epstein -> Caterpillar Trust -> Butterfly Trust for IGO ownership."
+        },
+        {
+          "target": "American Yacht Harbor",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01269867",
+          "description": "IGO Company LLC registered at AYH address (6100 Red Hook Quarter B3, St Thomas). Epstein was an investor/partner in AYH via IGY-AYH St Thomas Holdings LLC. AYH served as physical base for IGO's watercraft operations."
+        },
+        {
+          "target": "Brock Pierce",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287396",
+          "description": "Brock Pierce introduced Epstein to Coinbase Series C investment in November 2014. Epsteins $3M invested through IGO Company LLC. In 2018, Blockchain Capital (Pierces firm) purchased 50% of the stake for $15M."
+        },
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364292",
+          "description": "The 2017 Caterpillar Trust (EIN 28-6639711) held 100% membership interest in IGO Company LLC. Upon trust termination, interest transfers to The 2013 Butterfly Trust. Three-tier ownership: Epstein -> Caterpillar GRAT -> IGO LLC -> Coinbase equity."
+        },
+        {
+          "target": "Jeanne Brennan-Wiebracht",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01268751",
+          "description": "Jeanne Brennan-Wiebracht was the organizer and initial manager of IGO Company LLC and an original signatory on its FirstBank PR account. She was Epsteins USVI office manager."
+        },
+        {
+          "target": "The 2013 Butterfly Trust",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01387281",
+          "description": "Upon termination of The 2017 Caterpillar Trust (2 years from funding), membership interest in IGO Company LLC transfers to The 2013 Butterfly Trust. This creates a chain: Caterpillar GRAT -> Butterfly Trust as ultimate beneficial owner of IGO."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+        },
+        {
+          "target": "Jeanne Brennan-Wiebracht",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01273238",
+          "description": "Jeanne Brennan-Wiebracht was a signatory on the IGO Company LLC FirstBank PR commercial checking account (opened 02/02/2007). She also received a payment of $11,252.00 on 12/7/2018 from an Epstein FirstBank account, as documented in the Feb 2019 FirstBank inquiry."
+        },
+        {
+          "target": "Cecile de Jongh",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02571194",
+          "description": "Cecile de Jongh conducted forensic financial review of the IGO Company/AYH investment on Epstein's behalf in 2013. She was described as a 'local banker' and scrutinized the $25M purchase price, IGY management fees, and Sun Resorts transaction disclosure. She communicated directly with Frank Garrison of Island Capital Group about discrepancies."
+        },
+        {
+          "target": "Harry Beller",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02441348",
+          "description": "Harry Beller conducted detailed review of AYH operations for Epstein in Feb 2013, analyzing management fees, payroll, occupancy, and capital expenditures. He also initiated request in Aug 2009 to discuss AYH with Epstein, and in Aug 2013 compiled a chronology of AYH transactions for Darren Indyke."
+        },
+        {
+          "target": "Jeanne Brennan-Wiebracht",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01273240",
+          "description": "Brennan-Wiebracht was signatory on IGO Company LLC FirstBank account #7171030625 with CREDITS ONLY access. Also signatory on Lafayette Contractors LLC and other Epstein entities at FirstBank."
+        },
+        {
+          "target": "Andrew Farkas",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02703185",
+          "description": "Farkas (Island Capital Group/IGY CEO) was Epstein's partner in AYH. IGO was registered at AYH address. Farkas and Epstein agreed to $200K distributions from AYH in April 2016. IGO may have held watercraft docked at the marina Farkas operated."
+        },
+        {
+          "target": "EBL Watercraft Inc",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02289635",
+          "description": "EBL Watercraft in FL was the repair facility for Epstein's Gibbs Quadski. Quadski returned to EBL for repairs per JE in April-May 2019. Repair rate $125/hr. EBL handled dismantling and diagnostics."
+        },
+        {
+          "target": "Fred Ehrsam",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02365357",
+          "description": "Coinbase co-founder Fred Ehrsam discussed meeting Epstein regarding the $3M investment through IGO Company LLC. Ehrsam expressed availability for a NYC meeting."
+        },
+        {
+          "target": "Andrew Farkas",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01268751",
+          "description": "IGO Company LLC was registered at American Yacht Harbor, co-owned 50-50 by Epstein and Andrew Farkas through IGY-AYH St Thomas Holdings LLC. Farkas founded Island Global Yachting (IGY) and split marina ownership with Epstein circa 2007."
+        }
+      ],
+      "secondHop": {
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ],
+        "The 2013 Butterfly Trust": [
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "2.16M transferred from DB Caterpillar Trust to fund Butterfly Trust brokerage at Morgan Stanley on March 18 2019"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Caterpillar Trust funded Butterfly Trust with $2.16M on March 18, 2019 when DB accounts closed and MS account opened. Caterpillar=accumulation vehicle, Butterfly=distribution vehicle. Same grantor (Epstein), different trustees."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "On March 18, 2019, ,160,000 transferred from DB Caterpillar Trust to fund newly opened Butterfly Trust brokerage at Morgan Stanley"
+          }
+        ],
+        "The 2017 Caterpillar Trust": [
+          {
+            "target": "The Haze Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Part of Epstein's nature-themed GRAT series. Haze (1999, Indyke trustee, NY law), Butterfly (2013), Caterpillar (2017, Wallace/Groff trustees, USVI). All administered by Richard Kahn/HBRK Associates."
+          },
+          {
+            "target": "Southern Financial LLC",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013"
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Indyke PLLC served as legal counsel for Caterpillar Trust. Legal assistant Bebe Avdiu handled trust paperwork in Feb 2018"
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity"
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Oldfield was primary DB banker for Caterpillar Trust, handled trustee matters, consulted on trust follow-ups, confirmed he did not disclose Epstein's name to counterparties"
+          }
+        ],
+        "FirstBank Puerto Rico": [
+          {
+            "target": "Darren Indyke",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "DS10 shows DKIP PLLC wired $350K to FirstBank PR on 2014-11-06 (EFTA01285197). FirstBank PR was primary banking institution for Epstein USVI entities including STC, Laurel Inc, Cypress Inc. Connects Indyke personal law firm directly to the PR banking infrastructure."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Southern Trust Company Inc": [
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+          },
+          {
+            "target": "Prytanee LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire"
+          },
+          {
+            "target": "FT Real Estate Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          },
+          {
+            "target": "Deutsche Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "First Epstein-related accounts opened Aug 19, 2013 for Southern Trust Company Inc (brokerage account to hold marketable securities and cash). Official start of DB-Epstein relationship."
+          }
+        ],
+        "Brock Pierce": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 0.7,
+            "description": "Blockchain Capital founder. Pierce-Kahn email (EFTA02669093, Nov 2016) shows Pierce offered to broker Bannon-Epstein introduction."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1953-01-20",
+        "label": "The Beneficial Owner Certification (31 CFR 1020.230) for IGO Company LLC (EFTA01268751) shows Jeffrey Epstein as both the person opening the account and the individual owning 25%+ of equity interests, with DOB 01/20/1953 and address 6100 Red Hook Quarter B3, St Thomas USVI 00802. Darren Indyke is listed as second signatory. The document was prepared by U.McNeil and authorized at FirstBank. The form carries dual bates stamps: SDNY_GM_00012904 and FirstBankPR000067, confirming it was produced both to SDNY Grand Jury and JPMorgan litigation.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1808
+      },
+      {
+        "date": "1953-01-20",
+        "label": "Beneficial Owner Certification for IGO Company LLC (31 CFR 1020.230) filed with FirstBank PR. Jeffrey Epstein listed as 100% equity owner, CEO/manager, DOB 01/20/1953, USVI DL T-4200411933, US Passport 54538864. Entity address: 6100 Red Hook Quarter B3, St Thomas USVI 00802. Prepared by U. McNeil. Darren Indyke listed as second signatory. Document confirms IGO was directly owned by Epstein (prior to trust restructuring).",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1818
+      },
+      {
+        "date": "1953-01-20",
+        "label": "FirstBank beneficial ownership certification confirms: Jeffrey Epstein was 100% owner of IGO Company LLC. SSN-associated ID: USVI DL T-4200411933. DOB: 01/20/1953. Prepared by U. McNeil, authorized signatory. Account setup date 12/24 (likely December 2006, before formation date of 12/28/2006). Entity classified as 'IGO, LLC Watercraft' — confirming the entity designation was specifically for watercraft/marine operations, consistent with its function as AYH marina holding vehicle.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1822
+      },
+      {
+        "date": "2006-12-28",
+        "label": "USVI corporate registry confirms IGO Company, L.L.C. (entity #571920) was a Domestic Limited Liability Company registered 12/28/2006, now status 'Dissolved/Withdrawn.' Registered agent: Business Basics VI, LLC. Registered address: 9053 Estate Thomas Ste 101, Charlotte Amalie, 00802 VI US. Last Annual Report filed: 2021. This entity was ingested into registry.db as ID 86429. The KPMG IPI Forensic Review independently lists IGO Company L.L.C as entity #5 in Epstein's USVI corporate network with his role as 'Founder/Owner/President.'",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1805
+      },
+      {
+        "date": "2006-12-28",
+        "label": "IGO Company LLC was the vehicle through which Jeffrey Epstein held his 50% ownership interest in American Yacht Harbor (AYH) at St. Thomas, USVI. The marina was acquired by Island Global Yachting (IGY, controlled by Andrew Farkas/Island Capital Group LLC) in January 2007 for approximately $25 million from Sun Resorts. Epstein contributed 50% of total acquisition costs. The entity was formed 12/28/2006, one month before the 1/18/07 AYH closing, specifically for this investment.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1807
+      },
+      {
+        "date": "2006-12-28",
+        "label": "IGO Company LLC was formed 12/28/2006 in USVI. Organizer and initial manager: Jeanne Brennan (later Brennan-Wiebracht), Epstein USVI office manager. Registered agent: Maria Tankenson Hodge at 1340 Taarneberg St Thomas. Capital: $1,000. Manager-managed LLC at 6100 Red Hook Quarter Suite B-3, American Yacht Harbor. FirstBank PR account 7171030625 opened 02/02/2007. Original signatories at FirstBank: Epstein and Jeanne Brennan-Wiebracht (not Indyke as later stated). Account status: Credits Only Allowed.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1838
+      },
+      {
+        "date": "2007",
+        "label": "IGO Company LLC was registered at American Yacht Harbor (6100 Red Hook Quarter B3, St Thomas), a marina Epstein co-owned 50-50 with Andrew Farkas through IGY-AYH St Thomas Holdings LLC. Farkas, founder of Island Global Yachting (IGY), split ownership with Epstein circa 2007. The partnership remained secret until 2018 deposition. After Epsteins death, the estate sold its stake in 2021. Farkas then sold IGY for $480M to MarineMax in 2022.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1842
+      },
+      {
+        "date": "2007",
+        "label": "No vessel named IGO exists in the USCG PSIX vessel documentation database. Search returned only partial matches (CONMIGO, AMIGOS, ABENDIGO, etc). Combined with the dormant bank account 2007-2014 and the general-purpose Operating Agreement, this confirms the Watercraft designation on the FirstBank account card was either a placeholder description or an abandoned initial purpose. IGO was used exclusively as an investment holding entity.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1846
+      },
+      {
+        "date": "2007-02-02",
+        "label": "FirstBank Puerto Rico account for IGO Company LLC (acct 7171030625, commercial checking) was opened 02/02/2007 with 'CREDITS ONLY ALLOWED' status, meaning no debit transactions were permitted on the account. Signatories were Jeffrey Epstein and Jeanne Brennan-Wiebracht (not Indyke as previously recorded for the FirstBank account). This is documented in the Holland & Knight production letter to AUSA Rossmiller dated April 15, 2020 (EFTA01273238), responding to a Grand Jury Subpoena to FirstBank PR dated December 31, 2019.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1801
+      },
+      {
+        "date": "2007-02-02",
+        "label": "IGO Company LLC FirstBank PR account #7171030625 (Commercial Checking) opened 02/02/2007 with signatories Jeffrey Epstein and Jeanne Brennan-Wiebracht. Brennan had CREDITS ONLY access. Darren Indyke was added as signatory. Account was dormant throughout 2012 with balance of $274.96 (Feb-May 2012) rising to $1,974.96 (Jun-Dec 2012) on a single $1,700 credit. Address: American Yacht Harbor, 6100 Red Hook Quarter Ste B3, St Thomas VI 00802.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1812
+      },
+      {
+        "date": "2007-06",
+        "label": "Epstein disputed IGY management of AYH: IGY extracted $4.5M while Epstein received only $250K. The $25M purchase price was questioned since an appraisal completed June 2007 valued the property at only $21M. Epstein accused Andrew Farkas/IGY of poor disclosure about the seller being an IGY affiliate. Harry Beller's Feb 2013 analysis showed AYH generated $7.1-7.2M gross annual revenue but was unprofitable after IGY's management fees (7.5% on gross) and payroll, with P&L losses of -$270K to -$295K per year from 2010-2012.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1809
+      },
+      {
+        "date": "2007-2022",
+        "label": "corporate with Island Global Yachting",
+        "type": "corporate",
+        "entity": "Island Global Yachting",
+        "id": 934
+      },
+      {
+        "date": "2009-2013",
+        "label": "financial with Harry Beller",
+        "type": "financial",
+        "entity": "Harry Beller",
+        "id": 937
+      },
+      {
+        "date": "2012-02",
+        "label": "IGO Company LLC (also referred to as IGO L.L.C) was an Epstein USVI entity at American Yacht Harbor, 6100 Red Hook Quarter Ste B3, St Thomas VI 00802. FirstBank PR commercial checking account (7171030625) with dormant balance of .96 as of Feb 2012. Signatories: Jeffrey Epstein and Darren Indyke. Listed as 'IGO LLC Watercraft' in FirstBank account opening documentation, indicating it was a marine/watercraft holding entity. Deutsche Bank KYC review also covered this entity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 653
+      },
+      {
+        "date": "2012-06",
+        "label": "IGO Company LLCs FirstBank PR account was nearly dormant 2007-2012. Balance went from $274.96 to $1,974.96 after a single $2,000 deposit in June 2012 and one $300 check in the same month. No significant activity through 2012 statements. The Watercraft label on the bank signature card appears to be a cover description that never materialized operationally. The LLC was repurposed for crypto investment in 2014.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1841
+      },
+      {
+        "date": "2012-06-19",
+        "label": "FirstBank PR monthly statements (EFTA01269867-series) show IGO Company LLC account 7171030625 was essentially dormant throughout 2012: static $274.96 balance Jan-May 2012, then $2,000 deposit 06/19/2012 and $300 check (#1008) 06/22/2012 bringing balance to $1,974.96. This minimal activity is inconsistent with the entity supposedly holding a 50% interest in a $25M marina generating $7M+ annual gross revenue. The real AYH investment flows were likely routed through IGY-AYH St Thomas Holdings LLC, not directly through this FirstBank account.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1845
+      },
+      {
+        "date": "2013",
+        "label": "financial with Cecile de Jongh",
+        "type": "financial",
+        "entity": "Cecile de Jongh",
+        "id": 936
+      },
+      {
+        "date": "2014-05",
+        "label": "Watercraft fleet associated with Epstein's island operations identified from shipping logs and punchlist: Gibbs Quadski XL (amphibious, purchased May 2014 via Riva Pompano Beach for ~$48,900, color red, repaired by EBL Watercraft Inc in FL 2019), multiple Nautica boats (3+), Sportis boat, sailboat, crew boat (30ft Boulton Powerboat considered June 2015), barge(s), and 'Big N' (docked at AYH and PR -- likely vessel Nautilus). The Quadski was serviced at EBL Watercraft in FL with shipping via Tropical Shipping. IGO Company LLC was the watercraft holding entity but specific vessel registrations under IGO were not found in the document corpus.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1829
+      },
+      {
+        "date": "2014-12",
+        "label": "IGO Company LLC (USVI #571920) was the vehicle through which Jeffrey Epstein invested approximately $3 million in Coinbase Series C round in December 2014. Brock Pierce of Blockchain Capital introduced the deal. Despite being labeled Watercraft on FirstBank PR account card, IGO actual documented purpose was holding this crypto investment.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1835
+      },
+      {
+        "date": "2015-06-30",
+        "label": "Southern Trust Company Inc. balance sheet (June 30, 2015) lists 'IGO LLC 3,000,002' as an investment in subsidiaries, alongside Southern Financial LLC (153,314,312) and Haze Trust (87,512,260). This confirms IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc., Epstein's primary USVI holding company, valued at approximately $3 million on a tax basis. The entity was held through STC before the 2017 Caterpillar Trust GRAT restructuring transferred its membership interest.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1803
+      },
+      {
+        "date": "2015-06-30",
+        "label": "IGO Company LLC ownership chain underwent a specific restructuring: originally held as a subsidiary of Southern Trust Company Inc. (valued at $3,000,002 on the June 30, 2015 STC balance sheet), the 100% membership interest was transferred to The 2017 Caterpillar Trust (a GRAT) effective January 3, 2017 (EIN 28-6639711). Deutsche Bank's KYC states the Caterpillar Trust was designed to terminate two years after initial funding, at which point IGO Company LLC membership interest would transfer to The 2013 Butterfly Trust. This three-step chain (STC -> Caterpillar GRAT -> Butterfly Trust) is a classic estate planning structure to transfer a $3M watercraft asset at reduced gift/estate tax cost. The GRAT annuity payments went back to Epstein as grantor, while the 'remainder' (the IGO membership interest minus annuity value) passed to the Butterfly Trust beneficiaries tax-free.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1810
+      },
+      {
+        "date": "2015-06-30",
+        "label": "IGO LLC valued at $3,000,002 as subsidiary of Southern Trust Company Inc on STC balance sheet (Statement of Assets, Liabilities and Shareholders Equity, Income Tax Basis) as of June 30, 2015. Listed alongside Southern Financial LLC ($153.3M) and Haze Trust ($87.5M). Total STC assets: $340.5M. The $3M valuation for a nominally dormant watercraft LLC suggests IGO held tangible assets (vessels) worth approximately that amount.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1816
+      },
+      {
+        "date": "2016-04",
+        "label": "Richard Kahn confirmed distribution of $200,000 to each partner from AYH in April 2016, meaning both Epstein (via IGO Company) and Farkas/IGY each received $200K. Kahn communicated with Luke Brown (Controller, Corporate Accounting, Island Global Yachting, 201 E. McBee Ave Suite 301, Greenville SC 29601) and Mark Lande of IGY about quarterly financial statements. This shows AYH was actively distributing cash to partners as late as 2016.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1815
+      },
+      {
+        "date": "2017-01",
+        "label": "IGO Company LLC ownership traced through GRAT structure: The 2017 Caterpillar Trust (EIN 28-6639711, GRAT formed Jan 2017) holds 100% membership interest in IGO Company LLC. Trust terminates two years from initial funding, with annual annuity distributions to grantor only. Upon termination, membership interest transfers to The 2013 Butterfly Trust. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Beneficiaries: Jeffrey Epstein and The 2013 Butterfly Trust.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1814
+      },
+      {
+        "date": "2017-01",
+        "label": "The 2017 Caterpillar Trust (EIN 28-6639711) was a Grantor Retained Annuity Trust formed January 2017 specifically to hold 100% membership interest in IGO Company LLC. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Upon termination (2 years from funding), membership interest transfers to The 2013 Butterfly Trust. This created a tax-efficient structure to hold the appreciated Coinbase investment.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1837
+      },
+      {
+        "date": "2017-01-03",
+        "label": "Deutsche Bank KYC for The 2017 Caterpillar Trust (EIN 28-6639711) confirms it was a Grantor Retained Annuity Trust formed 01/03/2017 holding 100% membership interest in IGO Company LLC. Grantor: Jeffrey Epstein. Trustees: Lesley Groff and Daphne Wallace. Beneficiaries: Jeffrey Epstein and The 2013 Butterfly Trust (upon termination). The trust was set to terminate two years from initial funding, with annual annuity distributions paid to the grantor only. Expected account volume: approx $300,000 USD. Less than 2 distributions annually between $0 and $100K.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1811
+      },
+      {
+        "date": "2017-11",
+        "label": "AYH monthly rent/office expenses were $10,428-10,987 per month as of late 2017 (Sep $10,987, Oct $9,724, Nov $10,428). Epstein instructed Richard Kahn to 'hold' on paying these bills in November 2017, with 3 months outstanding totaling $31,149. Una Pascal (assistant) handled invoice processing.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1820
+      },
+      {
+        "date": "2017-2019",
+        "label": "financial with The 2017 Caterpillar Trust",
+        "type": "financial",
+        "entity": "The 2017 Caterpillar Trust",
+        "id": 935
+      },
+      {
+        "date": "2018-02-07",
+        "label": "Deutsche Bank KYC case 01898372 for The 2017 Caterpillar Trust (part of the Southern Financial relationship) specifically describes the trust as existing to hold IGO Company LLC membership interest: 'the purpose of this account is to hold the member interest in IGO Company LLC.' Expected account activity was 'less than 2 distributions on an annual basis between $0 and $100k' with expected assets of $300,000 USD. Trust EIN: 28-6639711. RUSH KYC clearance was needed by 02/07/2018 for 'an upcoming acquisition where funds will need to be available.' The Caterpillar Trust was designed to terminate two years from initial funding date, at which point the IGO Company LLC membership interest would transfer to The 2013 Butterfly Trust.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1804
+      },
+      {
+        "date": "2018-02-21",
+        "label": "In February 2018, Blockchain Capital purchased 50% of Epsteins Coinbase position held through IGO Company LLC for $15 million. Three payments on 2018-02-21: Blockchain Capital Parallel Fund IV LP ($1.875M), BC III Digital Liquid Venture Fund LP ($2.625M), BC IV LP ($10.5M). Funds went to The 2017 Caterpillar Trust account at Deutsche Bank, which held the membership interest in IGO.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1836
+      },
+      {
+        "date": "2018-04-26",
+        "label": "Epstein held investment/partnership interest in American Yacht Harbor (AYH) via IGY-AYH St Thomas Holdings LLC, a partnership with Andrew Farkas (Island Capital Group/Island Global Yachting). In April 2016, Epstein and Farkas agreed to distribute $200,000 to each partner from AYH. IGO Company LLC's registered address was at AYH (6100 Red Hook Quarter B3). Epstein also paid ~$10K/month office rent at AYH. Payments of $37,000 (4/26/2018) and $38,000 (5/3/2018) to 'American Yacht' from Epstein FirstBank account suggest additional marina/berth fees or investment payments.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1831
+      },
+      {
+        "date": "2019-02-28",
+        "label": "FirstBank denied Epstein's request to open 6 additional deposit accounts on Feb 28, 2019 (3 weeks before Epstein got new passport on 3/8/2019). IGO Company LLC listed among 16 existing account relationships requiring beneficial ownership certification. The denial letter from VP Dina Perry-Malone was forwarded by Epstein to Richard Kahn and Cecile de Jongh. De Jongh confirmed FirstBank would continue to maintain existing accounts under platinum banking. This suggests enhanced scrutiny of Epstein's USVI banking in early 2019.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1821
+      },
+      {
+        "date": "2020",
+        "label": "KPMG IPI Forensic Review (2020) lists IGO Company L.L.C. as entity #5 where Epstein was 'Founder/Owner/President', alongside Southern Trust Company Inc (#4), Southern Country International Ltd (#6), and Financial Strategy Group Ltd (#7). This confirms IGO Company was known to investigators as part of the Epstein corporate web.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1840
+      },
+      {
+        "date": "2020-04-15",
+        "label": "Holland & Knight LLP (attorney Michael E. Hantman) produced 7,537 documents (bates FirstBankPR000001-FirstBankPR007537) to AUSA Alex Rossmiller (SDNY) on April 15, 2020 in response to a Grand Jury Subpoena dated December 31, 2019 directed to FirstBank Puerto Rico. IGO Company LLC records were included in this production. Documents were separated into: Bank Opening Records (000005-001025), Manager's Checks (001026-001059), Monthly Account Statements (001060-007308), and Wire Transfer Records (007309-007537). This confirms IGO Company LLC bank records were part of the SDNY Grand Jury investigation into Epstein's financial network post-mortem.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1802
+      },
+      {
+        "date": "2022-06-09",
+        "label": "USVI Registry confirms IGO Company LLC (ID 571920) was voluntarily terminated on 06/09/2022 after maintaining In Good Standing status from formation (12/28/2006) through 06/15/2022 - over 15 years. Last annual report filed 01/12/2022. Resident agent Business Basics VI LLC (brett@bizusvi.com). This is notable as it was NOT administratively dissolved like many other Epstein USVI entities post-death, but deliberately wound down as part of estate proceedings, suggesting active estate management.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1813
+      },
+      {
+        "date": "2022-06-09",
+        "label": "USVI registry confirms IGO Company LLC (#571920) was voluntarily terminated on 06/09/2022, NOT administratively dissolved. Entity maintained In Good Standing from formation (12/28/2006) to dissolution. Resident agent changed to Business Basics VI LLC (brett@bizusvi.com) on 07/31/2019 -- 25 days after Epstein's arrest on 7/6/2019 and 21 days after his death on 8/10/2019. Last annual report filed 01/12/2022. Address changed from American Yacht Harbor to Royal Palms Professional Building, 9053 Estate Thomas Suite 101. Entity managed post-arrest by estate administrators.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1824
+      },
+      {
+        "date": "2022-06-09",
+        "label": "IGO Company LLC voluntarily terminated 06/09/2022 per USVI registry (not merely administratively dissolved as previously believed). It was in good standing from formation 12/28/2006 through 06/15/2022. Last annual report filed 01/12/2022. Registered agent changed from Maria Tankenson Hodge to Business Basics VI LLC (brett@bizusvi.com) at Royal Palms Professional Building 9053 Estate Thomas Ste 101. This voluntary termination during estate administration suggests deliberate wind-down of entity.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1844
+      }
+    ]
+  }
+}

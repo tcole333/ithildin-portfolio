@@ -1,0 +1,1754 @@
+{
+  "name": "David Petraeus",
+  "slug": "david-petraeus",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.254305",
+  "last_updated": "2026-02-17T22:22:27",
+  "stats": {
+    "total_findings": 26,
+    "total_connections": 21,
+    "total_entities": 0,
+    "finding_types": {
+      "identity": 1,
+      "legal": 3,
+      "intelligence": 11,
+      "financial": 6,
+      "relationship": 5
+    },
+    "connection_types": {
+      "social": 7,
+      "corporate": 3,
+      "advisory": 1,
+      "intelligence": 8,
+      "political": 2
+    },
+    "last_updated": "2026-02-17T22:22:27"
+  },
+  "findings": [
+    {
+      "id": 3441,
+      "finding_type": "identity",
+      "summary": "Americans for Petraeus 2012 Inc Tampa FL nonprofit - inactive since 2011",
+      "detail": "FL registry: Americans for Petraeus 2012 Inc (N10000010684), domestic nonprofit formed 2010-11-15, inactive, at 4009 Southernwood Ct Tampa FL 33616. EIN 273987299. Draft-Petraeus presidential campaign entity. Tampa address notable given Jill Kelley connection to MacDill AFB social circles.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2010-11-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:24",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL corporate registry N10000010684",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3451,
+      "finding_type": "legal",
+      "summary": "Petraeus criminal case: United States v. Petraeus, 3:15-cr-00047, W.D. North Carolina, Judge David Keesler, filed 2015-03-03, terminated 2015-04-23. Pled guilty to misdemeanor unauthorized removal of classified docs. 2 years probation, $100K fine. Prosecution by DOJ National Security Division in Charlotte — far from DC. Case resolved in 50 days, reflecting pre-arranged plea deal with extraordinary leniency for a former CIA Director.",
+      "detail": "CourtListener docket ID 4305495. PACER case ncwd/78230. Two CourtListener docket entries (4305495 and 4305496) suggest PACER tracking anomaly. Internet Archive docket XML at gov.uscourts.ncwd.78230. Date last filing 2025-03-10 suggests ongoing supervised release records even a decade later.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-03-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:19:27",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 4305495",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "PACER case 3:15-cr-00047 W.D.N.C.",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3456,
+      "finding_type": "intelligence",
+      "summary": "Tampa FBI field office temporal overlap: The Petraeus investigation and the Hogan/Davidson extortion case were both handled by or involved the Tampa/M.D. Florida FBI field office in overlapping timeframes. Kelley reported threatening emails to a Tampa FBI agent (Frederick Humphries) in May 2012. The FBI Tampa field office investigated, tracing emails to Paula Broadwell, discovering the Petraeus affair by summer 2012. Petraeus resigned Nov 9, 2012. The Davidson FBI sting at a Clearwater Beach hotel occurred Dec 2012 — Davidson allegedly claimed a Petraeus sex tape during this sting, just weeks after the Petraeus resignation. Both investigations originated from the same Tampa FBI jurisdiction (M.D. Florida). The Gawker Media v. FBI FOIA case (M.D. Fla. docket 4500580) sought FBI records about the Hogan tape investigation.",
+      "detail": "Key timeline: May 2012 - Kelley reports emails to Tampa FBI Agent Humphries. Summer 2012 - FBI traces to Broadwell. Nov 9, 2012 - Petraeus resigns. Dec 2012 - Davidson FBI sting in Clearwater Beach (Tampa area). Davidson claims Petraeus sex tape exists. The proximity suggests Davidson may have been exploiting the Petraeus scandal news to inflate his leverage. Gawker Media v. FBI, M.D. Fla. docket 4500580, filed 2015-05-19.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-05-19",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:03",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 4226213 (Kelley M.D. Fla.)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 4500580 (Gawker v FBI)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3428 (Davidson Petraeus tape claim)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3434,
+      "finding_type": "financial",
+      "summary": "Petraeus SEC Form 3 filing for OneStream Inc (KKR portfolio company) - board director",
+      "detail": "David Petraeus (CIK 0001920463) filed SEC Form 3 for OneStream Inc (OS, CIK 0001889956) on 2024-07-24. OneStream is a KKR-backed enterprise software company in MI that IPO'd July 2024. Multiple filings (S-1, 424B4, DEF 14A, 10-K, PREM14C through Feb 2026) confirm ongoing board role.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2024-07-24",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:04",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR ADSH 0001415889-24-020075",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3432,
+      "finding_type": "relationship",
+      "summary": "Tom Pritzker had an extraordinarily close personal relationship with General David Petraeus documented across 3 emails forwarded to Epstein: (1) June 6, 2011 — Pritzker in 'a remote valley of Afghanistan' on his birthday, 'Spent time w Patraeus yesterday and he loaned me a chopper (actually two with one as a back up)' — the ISAF commander gave a private citizen personal helicopter transport in a war zone; (2) Sept 7, 2012 — 'Had Patraeus over to lunch today. Interesting.' — just 2 months before the Petraeus scandal broke Nov 9; (3) July 2008 — 8-page letter from Baghdad after 5 days in Iraq including 2-hour meeting with Petraeus as 'dry run' for Obama's visit, forwarded to Epstein. Pritzker reported each Petraeus interaction directly to Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:06:45",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01885793",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02690559",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01865679",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3433,
+      "finding_type": "intelligence",
+      "summary": "Edward Jay Epstein (journalist/intelligence writer) sent Jeffrey Epstein a detailed analysis titled 'Ten Missing Dates in the Petraeus Penetration Scandal' on Nov 14, 2012 — just 5 days after Petraeus resigned as CIA Director. The memo frames the Broadwell affair as a possible intelligence penetration, asking 10 specific questions about: when the sexual liaison began relative to FBI background checks, the use of anonymous Gmail drop boxes to evade surveillance, the role of Gilberte Khawam Kelley as a 'seductress' connected to General Allen (20K-30K pages of emails), and when the FBI obtained FISA warrants. This shows Jeffrey Epstein was receiving sophisticated intelligence analysis about the Petraeus scandal from a writer known for intelligence community access.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:06:52",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": "Before we can walk the cat back and establish a chronology of a possible penetration we need to answer the following ten questions",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3435,
+      "finding_type": "financial",
+      "summary": "Petraeus appears in Devon Energy proxy statements 2019-2025 as board member",
+      "detail": "Petraeus named in Devon Energy Corp (DVN) DEF 14A proxy statements from 2019 through 2025. Devon is a major OK-based oil/gas E&P. Multiple annual proxy filings confirm involvement. He served on Devon board from at least 2018.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:07",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A for Devon Energy ADSH 0001193125-19-115142",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3436,
+      "finding_type": "financial",
+      "summary": "Petraeus in Corporate Capital Trust and FS KKR Capital Corp SEC filings",
+      "detail": "Petraeus in SEC filings for Corporate Capital Trust (CIK 0001494538) DEFA14A (Sep 2017), investor presentation (Nov 2017), and FS KKR Capital Corp/II filings (2020-2021). Corporate Capital Trust was a KKR-managed BDC that merged into FS KKR. Confirms deep KKR integration beyond KKR Global Institute.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:10",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR ADSH 0001387131-17-004667",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3437,
+      "finding_type": "financial",
+      "summary": "Petraeus in Golden Falcon Acquisition Corp SPAC for MNG Airlines Turkey",
+      "detail": "Petraeus in Golden Falcon Acquisition Corp (CIK 0001823896) SEC filings Feb 2023 related to MNG Havayollari ve Tasimacilik AS (MNG Airlines Istanbul Turkey). Golden Falcon is a SPAC acquiring a Turkish cargo airline. Petraeus involvement in Turkey-linked SPAC notable.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:12",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR ADSH 0001193125-23-045802",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3440,
+      "finding_type": "intelligence",
+      "summary": "Petraeus sanctioned by Russia MFA and Iran MFA-SANC per OpenSanctions",
+      "detail": "OpenSanctions ID Q28591 shows Petraeus on Russian MFA sanctions list and Iranian sanctions list. Topics: sanction.counter, role.pep, mil. Relevant to understanding KKR valuation of his geopolitical role.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:21",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions Q28591",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3442,
+      "finding_type": "relationship",
+      "summary": "Epstein explicitly invoked the Petraeus scandal as a cautionary analogy when advising Leon Black through Brad Karp (Paul Weiss chairman). In Oct 19, 2017 email to Karp, Epstein wrote: 'I told him using an apollo eemployee ie melanie as a go between, is very silly and frought with danger. for a chairman of a public co. . ala patraeus' — comparing Black's use of an Apollo employee as intermediary for his mistress to the way Petraeus's classified info sharing with Broadwell destroyed his career. This shows Epstein had internalized the Petraeus scandal as a template for understanding kompromat risk.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:14:28",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02372647",
+          "source_quote": "I told him using an apollo eemployee ie melanie as a go between, is very silly and frought with danger. for a chairman of a public co. . ala patraeus",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3443,
+      "finding_type": "relationship",
+      "summary": "Tom Pritzker informed Epstein that Petraeus was a member of the Aspen Strategy Group alongside Albright, Scowcroft, Nick Burns, Donilon (Obama NSA), Hadley (Bush NSA), Sullivan (NSA for Hillary), Bill Burns (State #2), Kurt Campbell, Hoss Cartwright (#2 Joint Chiefs), Harman, Ignatius, Sanger, Nunn, Reed, Sawers (MI6), Sherman (Iran deal), Work (current #2 DoD). Pritzker had just finished a 'presentation on leadership to grand pooh baahs of Aspen Strategy Group' on Aug 8, 2016 and was listing Petraeus among its members to impress Epstein. This places Petraeus in a specific national security elite network that Pritzker was reporting to Epstein about.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:14:36",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454350",
+          "source_quote": "Members include Patraeus, Albright, Slaughter, Donalon (Obama NSA), Hadley (Bush NSA), Sullivan (NSA Hillary), Bill Burns (State #2), Kurt Campbell, Hoss Carwright (#2 it Chiefs), Harman, Ignatius, Sanger, Nunn, Reed, Sawers (MI6), Sherman (iran deal), Work (current #2 DoD)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3444,
+      "finding_type": "intelligence",
+      "summary": "Ariane de Rothschild forwarded a Wilson Center Global Advisory Council invitation to Jeffrey Epstein on Sept 30, 2015 with the message 'What do u think?' The invitation was from Tom Nides (Wilson Center Board Chairman). The agenda for Oct 29-30, 2015 shows Petraeus featured prominently: '11:00 AM Co-chair David Petraeus: Tour d'Horizon of Global Change'; he also co-chaired a working group and headlined a dinner reception. Other attendees included SecDef Ashton Carter, SecState John Kerry, Mitch McConnell, Newt Gingrich, Jane Harman, Fred Malek. Rothschild forwarding this to Epstein suggests she was gauging whether he wanted to attend a Petraeus-hosted event.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:14:47",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02377394",
+          "source_quote": "11:00 AM Co-chair David Petraeus: Tour d'Horizon of Global Change With Wilson Center experts",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3445,
+      "finding_type": "intelligence",
+      "summary": "Ed Epstein's 'Ten Missing Dates in the Petraeus Penetration Scandal' analysis (Nov 14, 2012) reveals awareness of the Jill Kelley / General John Allen dimension of the scandal: it notes Broadwell sent anonymous emails to General Allen under the pseudonym 'KelleyPatrol' warning that Gilberte Khawam Kelley was a 'seductress', that Allen exchanged '20,000 to 30,000 pages of emails' with Kelley, and asks specific questions about FBI FISA warrants. Ed Epstein was framing the entire Petraeus scandal as a possible foreign intelligence penetration operation, not merely a domestic affair. The analysis was sent directly TO Jeffrey Epstein's email.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:14:53",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": "It is reported that Paula Broadwell, a former military intelligence officer, under pseudonym KelleyPatrol sent an email to General John Allen, the former deputy to General Petraeus in Tampa, warning him that Gilberte Khawam Kelley was a seductress",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3446,
+      "finding_type": "relationship",
+      "summary": "Epstein's full Summers/Lockhart PR chain reveals Epstein was specifically seeking crisis management help from the same PR operative who managed Petraeus's fall from grace. On Jan 25, 2015, Epstein asked Summers about Lockhart: 'id like to talk to lockhard if you think he is smart'. Summers replied: 'Capable and experienced. Calm. Was Clinton press secretary.' Separately, Kelly Friendly recommended Lockhart to Summers for Epstein: 'He has helped Clinton and General Petraeus.' Summers then connected the two directly, and on Jan 26, 2015 Epstein emailed Lockhart: 'larry summers suggested we speak'. The Petraeus connection was an explicit selling point for this PR hire.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:15:03",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02511965",
+          "source_quote": "id like to talk to lockhard if you think he is smart; EFTA02384585:He has helped Clinton and General Petraeus",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3447,
+      "finding_type": "intelligence",
+      "summary": "Multiple Rod-Larsen IPI news digest emails forwarded to Epstein's network contained Petraeus references in geopolitical analysis context: (1) Feb 11, 2013 update (EFTA02368871) included WSJ article noting 'The Petraeus-Clinton proposal speaks well of Mr. Obama's first-term security team' and contrasting departing officials with replacements; (2) Other Rod-Larsen updates from 2012-2014 mention Petraeus in Iraq/Afghanistan/Syria policy context. These show Petraeus was tracked in the IPI geopolitical newsletter that Epstein received regularly through Terje Rod-Larsen.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:15:09",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02368871",
+          "source_quote": "The Petraeus-Clinton proposal speaks well of Mr. Obama's first-term security team but also raises more alarm about his second-term choices",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3448,
+      "finding_type": "intelligence",
+      "summary": "Epstein forwarded his own Jan 8, 2015 'idea for jefferey e.' email to Kathy Ruemmler (former White House Counsel, now Epstein's lawyer). The email was the Summers/Lockhart chain where Lockhart's Petraeus credential was the selling point. This means Epstein ensured his legal counsel was tracking the same PR strategy, creating a three-way coordination between Summers (strategy), Lockhart (PR execution), and Ruemmler (legal/White House connections).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:15:19",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02514269",
+          "source_quote": "From: jeffrey E. <jeevacation@gmail.com> Sent: Thursday, January 8, 2015 3:11 PM To: Kathy Ruemmler Subject: Fwd: idea for jefferey e.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3450,
+      "finding_type": "financial",
+      "summary": "Petraeus is an investor in Windward Ltd, an Israeli maritime intelligence AI company founded by former Israeli Navy officers. Co-investors include Dan Senor (co-author of Startup Nation), Marc Benioff (Salesforce), and Li Ka-shing (Hong Kong billionaire). This places Petraeus in the Israeli defense-tech ecosystem alongside intelligence-linked figures.",
+      "detail": "LittleSis records Petraeus as an investor/owner of Windward Ltd. The company uses AI to analyze global shipping data for intelligence, sanctions compliance, and commodity tracking. Founded in Tel Aviv by former Israeli Navy intelligence officers. Petraeus said: 'in the military and intelligence world, the ability to identify suspicious activity at sea in real time is priceless.' Dan Senor co-invested. Lord John Browne (former BP CEO) joined the board. Company was acquired by FTV Capital for 270M in 2024, doubling its IPO valuation.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:19:26",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://littlesis.org/person/28650-David_Petraeus",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.prnewswire.com/news-releases/windward-announces-general-petraeus-and-dan-senor-coming-on-board-as-investors-525885521.html",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3453,
+      "finding_type": "relationship",
+      "summary": "LittleSis maps Petraeus's institutional network: KKR partner (2013-present), Trilateral Commission member, Atlantic Council board, Council on Foreign Relations task force, Belfer Center (Harvard) senior fellow, Wilson Center co-chair, friend of Alex Karp (Palantir CEO), friend of Michael Flynn, adviser relationship with Kim and Frederick Kagan (neoconservative think tank figures), client of Robert Barnett and David Kendall (top DC lawyers).",
+      "detail": "Full LittleSis relationship map shows 44 tracked relationships. Key institutional memberships: Trilateral Commission, Atlantic Council (board), CFR, McCain Institute (board of trustees), RUSI (senior VP), Jackson Institute at Yale. Key personal relationships: close friend of Michael Flynn, friend of Alex Karp (Palantir CEO - Israeli intelligence connections), professional relationship with Stanley McChrystal, Jack Keane (mentor), Robert Zoellick (task force co-chair). Legal team: Robert Barnett (attorney, from Nov 2012), David Kendall (attorney). Think tank advisers: Kim Kagan and Frederick Kagan served as his personal advisers in Afghanistan. Also Honorary Chair of Silverado Policy Accelerator and Board of Advisors for Team Rubicon and Third Option Foundation.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:19:39",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://littlesis.org/person/28650-David_Petraeus",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3455,
+      "finding_type": "financial",
+      "summary": "KKR appointed Petraeus as Chairman of the Middle East in April 2025, with a dedicated investment team in the region. This extends his role beyond the KKR Global Institute (chairman since 2013) into direct Middle East dealmaking — combining his CENTCOM commander relationships with KKR's capital deployment in Gulf states.",
+      "detail": "BusinessWire announcement April 2025: KKR appoints General David Petraeus as Chairman of the Middle East and establishes a dedicated investment team in the region. This significantly expands his KKR role. Previously he was Partner and Chairman of the KKR Global Institute (since June 2013). He is also a board director of OneStream Inc (KKR portfolio company, SEC Form 3 filing). KKR's Middle East operations create natural overlap with Gulf state sovereign wealth funds — the same Gulf states (Qatar, UAE, Saudi) connected to Thread 6 of this investigation. KKR hired several former Deutsche Bank personnel: Harald Duerr (26 years at DB, joined KKR 2023), Daniel Pietrzak (DB structured finance), Varun Khanna (DB equity research).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:19:51",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.businesswire.com/news/home/20250413402703/en/KKR-Appoints-General-David-Petraeus-as-Chairman-of-the-Middle-East-and-Establishes-Dedicated-Investment-Team-in-the-Region",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3457,
+      "finding_type": "intelligence",
+      "summary": "Anil Ambani discussed Petraeus as potential US Ambassador to India in email to Epstein (reported by DropSite News and The Hindu from DOJ Vol 11). Ambani wrote he needed 'a strong person like patreaus' and Epstein responded that Trump liked Petraeus but Pentagon was wary. This shows Epstein was consulted on high-level diplomatic appointments by foreign billionaires.",
+      "detail": "Indian billionaire Anil Ambani, who had extensive documented contact with Epstein (including visits to 9 E 71st St, per EFTA02286211), discussed whether Petraeus could be the US Ambassador to India. Ambani stated 'Amb to India is key' and needed 'a strong person like patreaus. To deal wth neighbores pak afghanistan etc.' Epstein reportedly responded that while Trump liked Petraeus, the Pentagon was wary. This demonstrates Epstein served as an informal intelligence broker — being consulted by a major Indian business figure about US diplomatic appointments. The Ambani-Epstein relationship is documented across multiple EFTA documents.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:04",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.dropsitenews.com/p/modi-epstein-files-bannon-billionaire-anil-ambani-india-israel-united-states-justice-department",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3458,
+      "finding_type": "legal",
+      "summary": "No FARA or lobbying registrations found for David Petraeus despite his post-government career at KKR Global Institute (partner since 2013) and extensive engagement with foreign governments and state-owned entities. Petraeus chairs the KKR Global Institute advising on geopolitical risk. FARA search returned zero registrants, zero foreign principals. Lobbying disclosure search returned zero filings. This is a negative result but noteworthy: Petraeus's KKR role involves direct engagement with sovereign wealth funds and foreign government officials but apparently falls outside FARA/LDA registration requirements.",
+      "detail": "FARA search 'Petraeus' - no results. LDA search 'Petraeus' - no results. KKR itself not registered as FARA agent. Petraeus joined KKR in June 2013 after completing probation in April 2015. His KKR role is advisory/investment-oriented rather than lobbying/advocacy, which may explain the absence.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:13",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA search results (empty)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA search results (empty)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3461,
+      "finding_type": "intelligence",
+      "summary": "Paula Broadwell's military intelligence background is more extensive than commonly reported: she was a US Army military intelligence officer who served in electronic warfare, document exploitation, counterterrorism analysis, human intelligence, and worked at USSOCOM and FBI Counterterrorism Task Forces. She traveled to 60+ countries over 15 years of service. Ed Epstein specifically flagged her as 'a former military intelligence officer' in his penetration analysis to Jeffrey Epstein.",
+      "detail": "Paula Broadwell (nee Kranz, born Nov 9, 1972) graduated West Point 1995 with BS in engineering and political geography. Served 20+ years active and reserve Army duty as military intelligence officer across four continents. Specialized in: electronic warfare, document exploitation, counterterrorism analysis and operations, human intelligence (HUMINT). Served at USSOCOM (Special Operations Command) and FBI Counterterrorism Task Forces. Applied to FBI in 2001, passed polygraph. Her security clearance gave her access to classified material — which is what made Petraeus's sharing of classified notebooks with her a criminal matter. Ed Epstein's Nov 14 2012 memo to Jeff Epstein specifically noted she was 'a former military intelligence officer' and asked whether the liaison began before or after Petraeus's 2011 FBI background check. The combination of HUMINT training + SOCOM/FBI CT experience + relationship with CIA director creates a profile that intelligence professionals would flag as a potential penetration risk.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:33",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": "Before we can walk the cat back, and establish a chronology of a =ossible penetration, we need to answer the following \nten questions? \n1. When and where did the sexual liaison between Paula Broadwell =egin? Was it before, during, or after the FBI \nconducted its mandatory =ackground check on...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Paula_Broadwell",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3463,
+      "finding_type": "intelligence",
+      "summary": "Timeline convergence Oct-Dec 2012: Hogan sex tape published on Gawker (Oct 4, 2012), Petraeus affair exposed/resigned (Nov 9, 2012), Ed Epstein sent penetration analysis to Jeff Epstein (Nov 14, 2012), Davidson claimed Petraeus sex tape during FBI sting (Dec 14, 2012). All events centered on Tampa/Clearwater FL. Jill Kelley was the nexus connecting Petraeus/Allen to the same Bubba Clem whose parties were the alleged source of the Petraeus tape claim.",
+      "detail": "The Oct-Dec 2012 convergence of events is striking: (1) Oct 4, 2012: Gawker publishes Hogan sex tape filmed by Bubba Clem; (2) Nov 9, 2012: Petraeus resigns as CIA Director over Broadwell affair; (3) Nov 14, 2012: Ed Epstein sends Jeff Epstein detailed 'penetration' analysis of the Petraeus scandal (EFTA02562913); (4) Dec 14, 2012: FBI sting in Clearwater FL where Keith Davidson, while negotiating Hogan tape sale, claims he heard Petraeus was at a Bubba Clem swingers party and there is video. The geographic nexus is Tampa/Clearwater: MacDill AFB (CENTCOM HQ), Bubba Clem's radio show, Jill Kelley's socialite operations, and the FBI sting location. Kelley had documented relationships with both the military generals (Petraeus, Allen) AND Bubba Clem (March 2012 Quran threat intervention). Davidson's Petraeus tape claim was never verified and may have been fabricated to inflate his leverage, but the social network overlap in Tampa between military and entertainment circles is documented.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:49",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": "Before we can walk the cat back, and establish a chronology of a =ossible penetration, we need to answer the following \nten questions? \n1. When and where did the sexual liaison between Paula Broadwell =egin? Was it before, during, or after the FBI \nconducted its mandatory =ackground check on...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.nbcnews.com/news/investigations/jill-kelley-emails-petraeus-allen-asked-me-help-silence-bubba-flna1c7128130",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.thesmokinggun.com/documents/investigation/keith-davidson-profile-907453",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3464,
+      "finding_type": "intelligence",
+      "summary": "Jeffrey Epstein asked Michael Wolff about Petraeus for a potential Trump administration position. On March 4, 2017, Epstein emailed Wolff: 'if you get a chance see if you can gleam the name of the next us ambassador to INDIA.' Wolff replied he was 'at WH all week' and asked 'What are some of the names being discussed and I will fish this week?' Five days later (March 9, 2017), Epstein followed up with 'david patraeus?' — suggesting Epstein was tracking whether Petraeus might receive a Trump administration appointment and was using Wolff as his eyes-and-ears at the White House. This occurred during the period when Petraeus was reportedly under consideration for Secretary of State or National Security Advisor in the Trump administration.",
+      "detail": "EFTA02656903. Email thread: Epstein -> Wolff March 4 2017 re India ambassador, Wolff replies from WH, Epstein follows up March 9 2017 asking 'david patraeus?' Wolff was gathering material for what became 'Fire and Fury' (2018). Epstein was using this relationship to gather real-time intelligence on Trump appointments.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:45",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02656903",
+          "source_quote": "david patraeus ?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3465,
+      "finding_type": "legal",
+      "summary": "No Petraeus references found in Epstein-related litigation (Giuffre v. Maxwell, USVI v. JPMorgan). CourtListener search for 'Giuffre Maxwell Petraeus' returned zero relevant results. Petraeus does not appear in the Giuffre v. Maxwell sealed depositions or docket materials indexed on CourtListener, nor in any USVI v. JPMorgan filings. This is a negative result: Petraeus was connected to Epstein through intermediaries (Pritzker, Rothschild, Nides, Wolff) but was not named in the major Epstein-related civil litigation.",
+      "detail": "CourtListener search for 'Giuffre Maxwell Petraeus' returned 1 result — NYT v. Microsoft (completely unrelated). No party search hits. Petraeus's connection to the Epstein network runs through Tom Pritzker, Ariane de Rothschild, the Wilson Center/Aspen Strategy Group, and the Lockhart PR discussion — not through direct social or sexual contact as alleged for other Epstein associates.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:22:27",
+      "target_name": "David Petraeus",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener search 'Giuffre Maxwell Petraeus' (no relevant results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 2062,
+      "person_a": "David Petraeus",
+      "person_b": "Tom Pritzker",
+      "relationship_type": "social",
+      "description": "Close personal relationship: Pritzker visited Petraeus in Afghanistan (June 2011, Petraeus loaned personal helicopter), in Iraq (July 2008, 2-hour private meeting), and hosted Petraeus for lunch (Sept 2012). All interactions reported directly to Jeffrey Epstein.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:06:55",
+      "other_person": "Tom Pritzker",
+      "other_person_slug": "tom-pritzker",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01885793",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02690559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2064,
+      "person_a": "David Petraeus",
+      "person_b": "KKR",
+      "relationship_type": "corporate",
+      "description": "Petraeus is Partner at KKR and Chairman of KKR Global Institute since 2013. SEC filings confirm board roles in KKR portfolio companies OneStream Inc, Corporate Capital Trust, FS KKR Capital Corp",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:39",
+      "other_person": "KKR",
+      "other_person_slug": "kkr",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR ADSH 0001387131-17-004667",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR ADSH 0001415889-24-020075",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2065,
+      "person_a": "David Petraeus",
+      "person_b": "Devon Energy",
+      "relationship_type": "corporate",
+      "description": "Petraeus served on Devon Energy board of directors, appears in DEF 14A proxy statements 2019-2025",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:40",
+      "other_person": "Devon Energy",
+      "other_person_slug": "devon-energy",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A filings",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2067,
+      "person_a": "David Petraeus",
+      "person_b": "Paula Broadwell",
+      "relationship_type": "social",
+      "description": "Extramarital affair caused Petraeus resignation as CIA Director Nov 2012. Broadwell was his biographer. Post-scandal both rebuilt careers separately.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:44",
+      "other_person": "Paula Broadwell",
+      "other_person_slug": "paula-broadwell",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2068,
+      "person_a": "David Petraeus",
+      "person_b": "Wilson Center",
+      "relationship_type": "advisory",
+      "description": "Petraeus Co-chair of Wilson Center Global Advisory Council. Oct 2015 agenda shows him chairing Tour d Horizon session. Tom Nides was board chairman. Ariane de Rothschild forwarded invite to Epstein.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:47",
+      "other_person": "Wilson Center",
+      "other_person_slug": "wilson-center",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02377394",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2070,
+      "person_a": "David Petraeus",
+      "person_b": "Tom Pritzker",
+      "relationship_type": "social",
+      "description": "3 documented personal interactions reported to Epstein: 2-hour meeting Baghdad July 2008, helicopter ride Afghanistan June 2011, lunch Sept 6 2012. In Aug 2016, Pritzker lists Petraeus as Aspen Strategy Group member.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:15:43",
+      "other_person": "Tom Pritzker",
+      "other_person_slug": "tom-pritzker",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454350",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02690559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2074,
+      "person_a": "David Petraeus",
+      "person_b": "Jill Kelley",
+      "relationship_type": "social",
+      "description": "Kelley was the Tampa socialite whose report of threatening emails to FBI Agent Humphries triggered the investigation that exposed the Petraeus-Broadwell affair. Kelley hosted events at her Tampa home for senior military officers from MacDill AFB including Petraeus and Allen. Her Privacy Act lawsuit (Kelley v. FBI, 1:13-cv-00825) directly challenged the FBI's handling of the investigation she initiated.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:58",
+      "other_person": "Jill Kelley",
+      "other_person_slug": "jill-kelley",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3452 (Kelley v FBI)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2077,
+      "person_a": "David Petraeus",
+      "person_b": "Jill Kelley",
+      "relationship_type": "social",
+      "description": "Petraeus, as CENTCOM commander and later CIA Director, had extensive social relationship with Kelley: attended Kelley's Tampa parties (including pirate-themed Gasparilla event arriving in 28-cop motorcade), gave her Honorary Ambassador title, awarded Pentagon recognition, and used her as back-channel to manage Tampa community issues (Quran threat). The relationship was close enough that Broadwell's jealous emails to Kelley triggered the FBI investigation.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:08",
+      "other_person": "Jill Kelley",
+      "other_person_slug": "jill-kelley",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.nbcnews.com/news/investigations/jill-kelley-emails-petraeus-allen-asked-me-help-silence-bubba-flna1c7128130",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.tampabay.com/news/military/macdill/petraeus-friend-jill-kelley-found-place-hosting-military-parties/1261272/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2078,
+      "person_a": "David Petraeus",
+      "person_b": "Paula Broadwell",
+      "relationship_type": "intelligence",
+      "description": "Broadwell was Petraeus's biographer and lover. She received classified documents from Petraeus including his 'black books' containing identities of covert officers, war strategy, intelligence capabilities, and notes from meetings with the President. Despite possessing classified material on her computer, Broadwell was never charged — only Petraeus received a misdemeanor plea. Broadwell sent the anonymous 'KelleyPatrol' emails that ultimately triggered the FBI investigation.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:11",
+      "other_person": "Paula Broadwell",
+      "other_person_slug": "paula-broadwell",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3451 (criminal case)",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3462 (no Broadwell prosecution)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2080,
+      "person_a": "David Petraeus",
+      "person_b": "Tom Pritzker",
+      "relationship_type": "social",
+      "description": "Pritzker had extraordinary personal access to Petraeus: (1) helicopter rides in Afghanistan war zone (June 2011); (2) private lunch (Sept 2012); (3) 2-hour meeting in Baghdad (July 2008). Pritzker listed Petraeus as Aspen Strategy Group member (Aug 2016). Every interaction was reported directly to Jeffrey Epstein.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:22",
+      "other_person": "Tom Pritzker",
+      "other_person_slug": "tom-pritzker",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454350",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02690559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2081,
+      "person_a": "David Petraeus",
+      "person_b": "Paula Broadwell",
+      "relationship_type": "intelligence",
+      "description": "Broadwell was a military intelligence officer (HUMINT, electronic warfare, CT analysis, SOCOM, FBI CT task forces) who became Petraeus's biographer and lover. The affair led to his CIA resignation Nov 2012. Ed Epstein analyzed this as a possible 'penetration' operation. Petraeus shared classified notebooks with Broadwell, resulting in misdemeanor plea deal.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:28",
+      "other_person": "Paula Broadwell",
+      "other_person_slug": "paula-broadwell",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://en.wikipedia.org/wiki/Paula_Broadwell",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2063,
+      "person_a": "David Petraeus",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "intelligence",
+      "description": "Indirect but significant: Pritzker reported all Petraeus interactions to Epstein. Ed Epstein (journalist) sent Jeffrey Epstein intelligence analysis of Petraeus scandal framing it as possible penetration operation. Larry Summers suggested Epstein hire Joe Lockhart (who helped Clinton and General Petraeus) for PR crisis management. Davidson claimed during FBI sting that Petraeus tape existed involving the Clems.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:06:59",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02384585",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2066,
+      "person_a": "David Petraeus",
+      "person_b": "Golden Falcon Acquisition Corp",
+      "relationship_type": "corporate",
+      "description": "Petraeus involved in Golden Falcon SPAC acquiring MNG Airlines Turkey 2023",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:13:42",
+      "other_person": "Golden Falcon Acquisition Corp",
+      "other_person_slug": "golden-falcon-acquisition-corp",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR ADSH 0001193125-23-045802",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2079,
+      "person_a": "David Petraeus",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "intelligence",
+      "description": "Indirect connection through multiple channels: (1) Tom Pritzker reported all Petraeus interactions to Epstein; (2) Ed Epstein sent Petraeus penetration analysis TO Jeff Epstein; (3) Epstein invoked Petraeus scandal when advising Leon Black; (4) Lockhart's Petraeus credential was selling point for Epstein PR hire; (5) Ariane de Rothschild forwarded Wilson Center invite (Petraeus co-chaired) to Epstein; (6) Pritzker listed Petraeus as Aspen Strategy Group member to Epstein; (7) Ambani asked Epstein about Petraeus as India ambassador. No evidence of DIRECT contact between Petraeus and Jeff Epstein.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:16",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02372647",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02377394",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02454350",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2082,
+      "person_a": "Alex Karp",
+      "person_b": "David Petraeus",
+      "relationship_type": "social",
+      "description": "LittleSis records Petraeus and Alex Karp (Palantir CEO) as friends. Palantir was founded with CIA venture capital (In-Q-Tel) and has deep intelligence community connections. This friendship links Petraeus to the data analytics/surveillance sector.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:34",
+      "other_person": "Alex Karp",
+      "other_person_slug": "alex-karp",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://littlesis.org/person/28650-David_Petraeus",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2087,
+      "person_a": "David Petraeus",
+      "person_b": "Ed Epstein",
+      "relationship_type": "intelligence",
+      "description": "Ed Epstein (journalist/intelligence writer) sent Jeffrey Epstein a sophisticated 10-question analysis of the Petraeus scandal framing it as a possible foreign intelligence penetration operation, just 5 days after Petraeus resigned. This was the same Ed Epstein who had extensive intelligence community access and wrote for Commentary, NYT, WSJ.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:58",
+      "other_person": "Ed Epstein",
+      "other_person_slug": "ed-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2069,
+      "person_a": "David Petraeus",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "intelligence",
+      "description": "No direct Epstein-Petraeus communication found. Connection mediated through: Pritzker reporting interactions, Ed Epstein sending intelligence analysis, Rothschild forwarding Wilson Center events, Epstein using Petraeus as cautionary example for Black. Absence of direct contact is investigatively significant.",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:15:41",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02372647",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02377394",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02397051",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02562913",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2072,
+      "person_a": "Ariane de Rothschild",
+      "person_b": "David Petraeus",
+      "relationship_type": "political",
+      "description": "Rothschild forwarded Wilson Center Global Advisory Council invitation featuring Petraeus as co-chair to Epstein with 'What do u think?' Event Oct 2015 included Carter, Kerry, McConnell, Gingrich.",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:15:46",
+      "other_person": "Ariane de Rothschild",
+      "other_person_slug": "ariane-de-rothschild",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02377394",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2083,
+      "person_a": "Anil Ambani",
+      "person_b": "David Petraeus",
+      "relationship_type": "political",
+      "description": "Ambani discussed Petraeus as potential US Ambassador to India in email exchange with Jeffrey Epstein. Ambani wanted a strong person like patreaus to deal with Pakistan/Afghanistan. Epstein relayed that Trump liked Petraeus but Pentagon was wary.",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:40",
+      "other_person": "Anil Ambani",
+      "other_person_slug": "anil-ambani",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.dropsitenews.com/p/modi-epstein-files-bannon-billionaire-anil-ambani-india-israel-united-states-justice-department",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2073,
+      "person_a": "David Petraeus",
+      "person_b": "Keith Davidson",
+      "relationship_type": "intelligence",
+      "description": "Davidson invoked Petraeus during Dec 2012 FBI sting in Tampa, claiming he had heard a rumor of a Petraeus sex tape. The Petraeus investigation originated from Tampa FBI field office (May 2012), and Davidson's Hogan extortion sting was also in Tampa (Dec 2012). Davidson exploited the Petraeus scandal news to position himself as a kompromat broker with access to high-value targets.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:20:52",
+      "other_person": "Keith Davidson",
+      "other_person_slug": "keith-davidson",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3428",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3456",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2086,
+      "person_a": "David Petraeus",
+      "person_b": "Leon Black",
+      "relationship_type": "intelligence",
+      "description": "Epstein explicitly invoked the Petraeus scandal as a cautionary analogy when advising Leon Black through Brad Karp: comparing Black's use of an Apollo employee as intermediary to how Petraeus/Broadwell dynamic destroyed careers. Both are examples of Epstein analyzing kompromat risk for powerful clients.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:52",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02372647",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2010-11-15",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Americans for Petraeus 2012 Inc Tampa FL nonprofit - inactive since 2011",
+      "confidence": "confirmed",
+      "id": 3441
+    },
+    {
+      "date": "2015-03-03",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Petraeus criminal case: United States v. Petraeus, 3:15-cr-00047, W.D. North Carolina, Judge David Keesler, filed 2015-03-03, terminated 2015-04-23. Pled guilty to misdemeanor unauthorized removal of classified docs. 2 years probation, $100K fine. Prosecution by DOJ National Security Division in Charlotte — far from DC. Case resolved in 50 days, reflecting pre-arranged plea deal with extraordinary leniency for a former CIA Director.",
+      "confidence": "confirmed",
+      "id": 3451
+    },
+    {
+      "date": "2015-05-19",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Tampa FBI field office temporal overlap: The Petraeus investigation and the Hogan/Davidson extortion case were both handled by or involved the Tampa/M.D. Florida FBI field office in overlapping timeframes. Kelley reported threatening emails to a Tampa FBI agent (Frederick Humphries) in May 2012. The FBI Tampa field office investigated, tracing emails to Paula Broadwell, discovering the Petraeus affair by summer 2012. Petraeus resigned Nov 9, 2012. The Davidson FBI sting at a Clearwater Beach hotel occurred Dec 2012 — Davidson allegedly claimed a Petraeus sex tape during this sting, just weeks after the Petraeus resignation. Both investigations originated from the same Tampa FBI jurisdiction (M.D. Florida). The Gawker Media v. FBI FOIA case (M.D. Fla. docket 4500580) sought FBI records about the Hogan tape investigation.",
+      "confidence": "medium",
+      "id": 3456
+    },
+    {
+      "date": "2024-07-24",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Petraeus SEC Form 3 filing for OneStream Inc (KKR portfolio company) - board director",
+      "confidence": "confirmed",
+      "id": 3434
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3432,
+      3433,
+      3444,
+      3445,
+      3448,
+      3442,
+      3443,
+      3446,
+      3451,
+      3434,
+      3441,
+      3458
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3432,
+          3442,
+          3443,
+          3446,
+          3453
+        ],
+        "connection_ids": [
+          2062,
+          2064,
+          2065,
+          2067,
+          2068,
+          2070,
+          2074,
+          2077,
+          2078,
+          2080,
+          2081,
+          2063,
+          2066,
+          2079,
+          2082
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3434,
+          3435,
+          3436,
+          3437,
+          3450,
+          3455
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3451,
+          3458,
+          3465
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          3456,
+          3433,
+          3440,
+          3444,
+          3445,
+          3447,
+          3448,
+          3457
+        ],
+        "connection_ids": [
+          2078,
+          2081,
+          2063,
+          2079,
+          2087,
+          2069
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:48:30.710366",
+    "lead": "<p><strong>David Howell Petraeus</strong> (born November 7, 1952) is a retired four-star U.S. Army general who served as Commander of U.S. Central Command, Commander of the International Security Assistance Force in Afghanistan, and Director of the Central Intelligence Agency (2011&ndash;2012). Since June 2013 he has been a Partner at KKR and Chairman of the KKR Global Institute, and in April 2025 was named Chairman of KKR's Middle East operations. Petraeus appears throughout the <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> document corpus not as a direct contact &mdash; no email, meeting, or financial transaction between the two men has been identified &mdash; but as a persistent object of interest across multiple Epstein information channels. Tom Pritzker reported every personal interaction with Petraeus directly to Epstein, from a two-hour meeting in Baghdad in July 2008 (EFTA02690559) to a private helicopter ride in an Afghan war zone in June 2011 (EFTA01885793) to a lunch just two months before the scandal broke in September 2012 (EFTA02397051). Edward Jay Epstein, the intelligence journalist, sent Jeffrey Epstein a detailed ten-question analysis framing the Petraeus-Broadwell affair as a possible foreign intelligence penetration operation just five days after the resignation (EFTA02562913). <a href=\"/dossiers/ariane-de-rothschild\">Ariane de Rothschild</a> forwarded a Wilson Center invitation featuring Petraeus as co-chair to Epstein asking \"What do u think?\" (EFTA02377394). Indian billionaire Anil Ambani consulted Epstein on whether Petraeus should be U.S. Ambassador to India. And Epstein himself invoked the Petraeus scandal when advising <a href=\"/dossiers/leon-black\">Leon Black</a> through <a href=\"/dossiers/brad-karp\">Brad Karp</a>, warning that Black's use of an <a href=\"/dossiers/apollo-global-management\">Apollo</a> employee as intermediary for a mistress was \"very silly and frought with danger. for a chairman of a public co. . ala patraeus\" (EFTA02372647).</p>\n\n<p>The pattern is revealing: Petraeus functioned in Epstein's world as a reference case for how intelligence vulnerability destroys powerful careers, as a geopolitical asset tracked through multiple reporting channels, and ultimately as a model for the commodification of national security credentials in private equity. His post-scandal trajectory &mdash; from a misdemeanor plea in Charlotte, North Carolina (United States v. Petraeus, 3:15-cr-00047, W.D.N.C., resolved in 50 days) to a KKR partnership reportedly worth millions annually, board seats at Devon Energy and OneStream Inc., investment in the Israeli maritime intelligence firm Windward Ltd, and involvement in a Turkish cargo airline SPAC &mdash; illustrates how the national security establishment's revolving door converts classified access and wartime relationships into private capital, with no Foreign Agents Registration Act obligations despite extensive engagement with sovereign wealth funds and foreign government officials.</p>",
+    "open_questions": [
+      "Why did Tom Pritzker report every interaction with Petraeus directly to Jeffrey Epstein, and what was Epstein's standing interest in the general? The pattern -- Baghdad meeting forwarded, Afghan helicopter ride forwarded, lunch forwarded, Aspen Strategy Group membership listed -- suggests Epstein had specifically requested this reporting, not that Pritzker was spontaneously sharing anecdotes.",
+      "What was the full scope of the KKR Global Institute's engagement with Gulf state sovereign wealth funds during Petraeus's chairmanship (2013-present), and does his April 2025 appointment as KKR's Middle East chairman create FARA obligations that were previously avoided by characterizing the role as purely advisory?",
+      "Did Petraeus attend the October 2015 Wilson Center Global Advisory Council event that Ariane de Rothschild forwarded to Epstein, and if so, did any interaction with Epstein or Epstein associates occur at the event -- which also featured SecDef Ashton Carter, SecState John Kerry, Mitch McConnell, and Newt Gingrich?",
+      "What explains the extraordinary leniency of the Petraeus plea deal -- a misdemeanor for sharing classified notebooks containing identities of covert officers with a HUMINT-trained military intelligence officer -- and why was Paula Broadwell, who possessed the classified material on her computer, never charged?",
+      "Keith Davidson claimed during an FBI sting that a Petraeus sex tape existed from a Bubba Clem swingers party. While this claim was never verified, what was the actual extent of Petraeus's social interactions within Tampa's MacDill AFB entertainment circuit, and did Jill Kelley's role as nexus between military and civilian social worlds create additional undocumented exposure?"
+    ],
+    "system_role": "Petraeus represents the paradigmatic case of national security credentials converted into private financial capital, a process in which the very scandal that ended his government career &mdash; demonstrating both his vulnerability to intelligence compromise and the leniency of the system's response &mdash; paradoxically enhanced his value to KKR as someone who had navigated the most consequential personal security breach of the post-9/11 era and emerged with his network intact.",
+    "sections": [
+      {
+        "id": "pritzker-reporting-channel",
+        "title": "The Pritzker Reporting Channel",
+        "content": "<p>The most direct documentary link between Petraeus and the Epstein network runs through Tom Pritzker, the Hyatt Hotels executive chairman and Epstein associate who maintained an extraordinarily close personal relationship with the general. Three distinct episodes are preserved in emails forwarded to <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>. In July 2008, Pritzker spent five days in Iraq as a kind of advance party for Barack Obama's forthcoming visit, including a two-hour private meeting with Petraeus at which they discussed the war in granular detail; Pritzker wrote up an eight-page letter about the trip and forwarded it to Epstein (EFTA02690559, EFTA01865679). On June 6, 2011 &mdash; Pritzker's birthday &mdash; he was visiting \"a remote valley of Afghanistan\" and reported to Epstein that he had \"Spent time w Patraeus yesterday and he loaned me a chopper (actually two with one as a back up),\" meaning the ISAF commander had provided a private citizen with personal military helicopter transport in an active war zone (EFTA01885793). On September 7, 2012, Pritzker told Epstein he had \"Had Patraeus over to lunch today. Interesting\" &mdash; just two months before the Broadwell scandal broke on November 9 (EFTA02397051).</p>\n\n<p>What makes this channel significant is its consistency and its direction: Pritzker did not merely mention Petraeus in passing but reported each interaction to Epstein as though Epstein had a standing interest in the general's activities and views. In August 2016, Pritzker listed the membership of the Aspen Strategy Group to Epstein, placing Petraeus alongside Madeleine Albright, Tom Donilon, Stephen Hadley, Jake Sullivan, Bill Burns, Kurt Campbell, Jane Harman, David Ignatius, Sam Nunn, John Sawers (former MI6 chief), and Wendy Sherman (EFTA02454350). This was not gossip; it was an inventory of the national security establishment's inner circle, provided to a man who had no official role in any of its deliberations. The Pritzker channel reveals Epstein as a collector of intelligence about power &mdash; not through espionage in the traditional sense, but through wealthy intermediaries who treated him as a natural recipient for this kind of reporting.</p>",
+        "viz": null
+      },
+      {
+        "id": "penetration-analysis",
+        "title": "The Penetration Analysis and Epstein's Intelligence Interest",
+        "content": "<p>Five days after Petraeus resigned as CIA Director on November 9, 2012, Edward Jay Epstein &mdash; a journalist and intelligence writer with extensive intelligence community access, no relation to Jeffrey Epstein &mdash; sent Jeffrey Epstein a document titled \"Ten Missing Dates in the Petraeus Penetration Scandal\" (EFTA02562913). The memo was not casual commentary. It posed ten specific questions designed to assess whether the Broadwell affair constituted a foreign intelligence penetration operation: When did the sexual liaison begin relative to Petraeus's FBI background check? How were anonymous Gmail drop boxes used to evade surveillance? What was the role of Gilberte Khawam Kelley, described as a \"seductress\" connected to General John Allen? When did the FBI obtain FISA warrants? Ed Epstein specifically flagged that Broadwell was \"a former military intelligence officer\" with training in electronic warfare, human intelligence, document exploitation, and counterterrorism analysis, and who had served at U.S. Special Operations Command and FBI Counterterrorism Task Forces.</p>\n\n<p>The document's framing is revealing. Ed Epstein was not treating the Petraeus scandal as a domestic tabloid story but as a possible intelligence operation &mdash; and he chose to send this analysis to Jeffrey Epstein, who had no visible national security role. That Jeffrey Epstein was receiving this caliber of intelligence analysis, and that he evidently internalized its lessons, is confirmed by his later use of the Petraeus case as a cautionary template. In an October 19, 2017 email to <a href=\"/dossiers/brad-karp\">Brad Karp</a>, chairman of <a href=\"/dossiers/paul-weiss\">Paul, Weiss</a>, Epstein warned about <a href=\"/dossiers/leon-black\">Leon Black</a>'s exposure: \"I told him using an apollo eemployee ie melanie as a go between, is very silly and frought with danger. for a chairman of a public co. . ala patraeus\" (EFTA02372647). The reference was precise &mdash; Epstein understood that Petraeus had been brought down not by the affair itself but by the operational security failure of using a connected intermediary, and he was applying that tradecraft lesson to protect a client's exposure.</p>",
+        "viz": null
+      },
+      {
+        "id": "epstein-orbit-indirect-connections",
+        "title": "Orbiting the Epstein Network Without Direct Contact",
+        "content": "<p>Despite the density of references, no direct communication between David Petraeus and <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> has been found in the DOJ Volume 11 corpus or any other source. Petraeus does not appear in Epstein-related civil litigation &mdash; neither the Giuffre v. Maxwell docket (SDNY 15-cv-7433) nor the USVI v. JPMorgan filings (SDNY 1:22-cv-10904) contain his name. This absence is itself noteworthy in an investigation where even tangential figures tend to surface in depositions or discovery. The connection instead flows through at least seven documented channels: Pritzker's direct reporting, Ed Epstein's intelligence analysis, the <a href=\"/dossiers/ariane-de-rothschild\">Rothschild</a>-forwarded Wilson Center invitation, the Lockhart PR chain through <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>, Pritzker's Aspen Strategy Group membership list, Anil Ambani's India ambassador inquiry, and <a href=\"/dossiers/michael-wolff\">Michael Wolff</a>'s White House intelligence gathering.</p>\n\n<p>The Lockhart thread is particularly instructive. In January 2015, Epstein asked Summers about hiring Joe Lockhart for crisis PR management. Summers replied that Lockhart was \"Capable and experienced. Calm. Was Clinton press secretary.\" Separately, an associate named Kelly Friendly recommended Lockhart with a specific credential: \"He has helped Clinton and General Petraeus\" (EFTA02384585, EFTA02511965). Epstein forwarded this entire chain to <a href=\"/dossiers/kathryn-ruemmler\">Kathryn Ruemmler</a>, his former White House Counsel-turned-lawyer, creating a three-way coordination between Summers (strategy), Lockhart (PR execution), and Ruemmler (legal/White House connections) (EFTA02514269). That Petraeus's rehabilitation was the qualifying credential for Epstein's own crisis management is a kind of structural irony: the man whose downfall Epstein studied as an intelligence case became the template for Epstein's own attempted reputation repair. On March 9, 2017, Epstein directly asked Wolff &mdash; who was at the White House gathering material for <em>Fire and Fury</em> &mdash; \"david patraeus?\" in a thread about the India ambassadorship, using Wolff as real-time intelligence on Trump administration appointments (EFTA02656903).</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "kkr-and-the-monetization-of-clearance",
+        "title": "KKR and the Monetization of Clearance",
+        "content": "<p>Petraeus joined KKR as a Partner and Chairman of the KKR Global Institute in June 2013, roughly eight months after resigning in disgrace as CIA Director and before his criminal case was even filed. The position converted his decades of relationships with heads of state, defense ministers, and intelligence chiefs into a private equity advisory function. SEC filings confirm the depth of his KKR integration: he sat on the board of Corporate Capital Trust, a KKR-managed business development company, and appeared in DEFA14A and investor presentation filings through 2017 (SEC EDGAR ADSH 0001387131-17-004667). When Corporate Capital Trust merged into FS KKR Capital Corp, Petraeus continued appearing in filings through 2021. He also serves on the board of OneStream Inc., a KKR-backed enterprise software company that IPO'd in July 2024, confirmed by a SEC Form 3 filing (ADSH 0001415889-24-020075). Separately, Petraeus served on the board of Devon Energy, an Oklahoma-based oil and gas company, appearing in DEF 14A proxy statements from 2019 through 2025.</p>\n\n<p>In April 2025, KKR significantly expanded Petraeus's role, naming him Chairman of KKR's Middle East operations with a dedicated investment team. This appointment places the former CENTCOM commander &mdash; who built personal relationships with Gulf state rulers during the Iraq and Afghanistan wars &mdash; in direct charge of KKR's capital deployment into the same sovereign wealth funds and state-linked entities that populate Thread 6 of this investigation. KKR has also absorbed several former <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> personnel, including Harald Duerr (26 years at Deutsche Bank, joined KKR 2023), Daniel Pietrzak (Deutsche Bank structured finance), and Varun Khanna (Deutsche Bank equity research). The convergence of former military command relationships, Gulf state capital, and ex-Deutsche Bank dealmakers under one roof represents a distinctive institutional architecture for converting geopolitical access into financial returns.</p>",
+        "viz": null
+      },
+      {
+        "id": "broadwell-scandal-and-tampa-nexus",
+        "title": "The Broadwell Scandal and the Tampa Nexus",
+        "content": "<p>The Petraeus scandal of November 2012 originated not from counterintelligence surveillance but from a domestic complaint. Jill Kelley, a Tampa socialite who hosted lavish parties for senior military officers stationed at MacDill Air Force Base &mdash; including Petraeus, who once arrived at her pirate-themed Gasparilla event with a 28-cop motorcade &mdash; reported threatening anonymous emails to FBI agent Frederick Humphries in May 2012. The FBI's Tampa field office traced the emails to Paula Broadwell, Petraeus's biographer. By summer 2012, investigators had discovered the affair. Petraeus resigned on November 9, 2012. The criminal case, United States v. Petraeus (3:15-cr-00047, W.D.N.C.), was filed on March 3, 2015 and terminated on April 23, 2015 &mdash; a 50-day resolution reflecting a pre-arranged plea deal. Petraeus pled guilty to a single misdemeanor count of unauthorized removal of classified documents and received two years' probation and a $100,000 fine. The case was prosecuted in Charlotte, far from Washington, by the DOJ National Security Division. Broadwell, despite possessing classified material on her computer including the identities of covert officers, war strategy, and notes from presidential meetings, was never charged.</p>\n\n<p>The Tampa geography creates a striking temporal overlap with other threads in this investigation. In October 2012, one month before Petraeus's resignation, Gawker published the Hulk Hogan sex tape filmed by Bubba Clem (Todd Clem) in the Tampa/Clearwater area. On December 14, 2012, five weeks after Petraeus resigned, attorney Keith Davidson was caught in an FBI sting at a Clearwater Beach hotel while negotiating the Hogan tape sale; during the sting, Davidson claimed he had heard that Petraeus attended a Bubba Clem swingers party and that video existed. Kelley herself was the social nexus connecting these worlds: she served as intermediary between CENTCOM generals (Petraeus and Allen) and Bubba Clem during a March 2012 Quran-burning threat, establishing a direct operational link between Tampa's military and entertainment circuits. General John Allen, Petraeus's deputy, had exchanged 20,000 to 30,000 pages of emails with Kelley. Both the Petraeus investigation and the Hogan extortion case originated from the same Tampa FBI jurisdiction (Middle District of Florida). Davidson's Petraeus tape claim was never verified and may have been fabricated to inflate leverage, but the documented social network overlap in Tampa between senior military command and local media figures is not speculation.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "defense-tech-and-israeli-nexus",
+        "title": "Defense Technology and the Israeli Intelligence Nexus",
+        "content": "<p>Petraeus's post-government investments and affiliations place him squarely within the Israeli defense technology ecosystem. He is an investor in Windward Ltd, an Israeli maritime intelligence company founded by former Israeli Navy officers that uses artificial intelligence to analyze global shipping data for intelligence, sanctions compliance, and commodity tracking. Petraeus has said that \"in the military and intelligence world, the ability to identify suspicious activity at sea in real time is priceless.\" His co-investors include Dan Senor, co-author of <em>Start-Up Nation</em> and a prominent figure in the Israeli tech advocacy space, Marc Benioff of Salesforce, and Li Ka-shing, the Hong Kong billionaire. Windward was acquired by FTV Capital for $270 million in 2024, doubling its IPO valuation. LittleSis records Petraeus as a friend of Alex Karp, the CEO of Palantir Technologies, which was founded with CIA venture capital from In-Q-Tel and has deep intelligence community contracts. The Karp connection links Petraeus to <a href=\"/dossiers/peter-thiel\">Peter Thiel</a>, Palantir's co-founder and chairman.</p>\n\n<p>In 2023, Petraeus appeared in SEC filings for Golden Falcon Acquisition Corp (CIK 0001823896), a special purpose acquisition company targeting MNG Havayollari ve Tasimacilik AS &mdash; MNG Airlines, a Turkish cargo airline based in Istanbul (SEC EDGAR ADSH 0001193125-23-045802). Petraeus's involvement in a Turkey-linked SPAC is notable given Turkey's strategic position in Middle Eastern logistics and defense supply chains. His institutional memberships as mapped by LittleSis span 44 tracked relationships across the Trilateral Commission, the Atlantic Council board, the Council on Foreign Relations, the McCain Institute board of trustees, the Royal United Services Institute (as senior vice president), and the Jackson Institute at Yale. He counts among his personal network Michael Flynn, Stanley McChrystal, Jack Keane (mentor), Robert Zoellick, and the Kagan family (Kim and Frederick Kagan served as his personal advisers in Afghanistan). Russia's Ministry of Foreign Affairs and Iran's foreign ministry have both placed Petraeus on sanctions lists (OpenSanctions Q28591), a measure of how adversarial governments assess his ongoing strategic significance. Despite this extensive foreign engagement, no FARA or lobbying disclosure registrations exist for Petraeus &mdash; his KKR role is characterized as advisory and investment-oriented rather than advocacy, a distinction that may not survive scrutiny given his appointment as KKR's Middle East chairman.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "complexity-as-credential",
+      "narrative-shield",
+      "enabler-gradient",
+      "private-order"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "David Petraeus",
+      "connections": [
+        {
+          "target": "Tom Pritzker",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01885793",
+          "description": "Close personal relationship: Pritzker visited Petraeus in Afghanistan (June 2011, Petraeus loaned personal helicopter), in Iraq (July 2008, 2-hour private meeting), and hosted Petraeus for lunch (Sept 2012). All interactions reported directly to Jeffrey Epstein."
+        },
+        {
+          "target": "KKR",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR ADSH 0001387131-17-004667",
+          "description": "Petraeus is Partner at KKR and Chairman of KKR Global Institute since 2013. SEC filings confirm board roles in KKR portfolio companies OneStream Inc, Corporate Capital Trust, FS KKR Capital Corp"
+        },
+        {
+          "target": "Devon Energy",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR DEF 14A filings",
+          "description": "Petraeus served on Devon Energy board of directors, appears in DEF 14A proxy statements 2019-2025"
+        },
+        {
+          "target": "Paula Broadwell",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02562913",
+          "description": "Extramarital affair caused Petraeus resignation as CIA Director Nov 2012. Broadwell was his biographer. Post-scandal both rebuilt careers separately."
+        },
+        {
+          "target": "Wilson Center",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02377394",
+          "description": "Petraeus Co-chair of Wilson Center Global Advisory Council. Oct 2015 agenda shows him chairing Tour d Horizon session. Tom Nides was board chairman. Ariane de Rothschild forwarded invite to Epstein."
+        },
+        {
+          "target": "Tom Pritzker",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02397051",
+          "description": "3 documented personal interactions reported to Epstein: 2-hour meeting Baghdad July 2008, helicopter ride Afghanistan June 2011, lunch Sept 6 2012. In Aug 2016, Pritzker lists Petraeus as Aspen Strategy Group member."
+        },
+        {
+          "target": "Jill Kelley",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02562913",
+          "description": "Kelley was the Tampa socialite whose report of threatening emails to FBI Agent Humphries triggered the investigation that exposed the Petraeus-Broadwell affair. Kelley hosted events at her Tampa home for senior military officers from MacDill AFB including Petraeus and Allen. Her Privacy Act lawsuit (Kelley v. FBI, 1:13-cv-00825) directly challenged the FBI's handling of the investigation she initiated."
+        },
+        {
+          "target": "Jill Kelley",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "https://www.nbcnews.com/news/investigations/jill-kelley-emails-petraeus-allen-asked-me-help-silence-bubba-flna1c7128130",
+          "description": "Petraeus, as CENTCOM commander and later CIA Director, had extensive social relationship with Kelley: attended Kelley's Tampa parties (including pirate-themed Gasparilla event arriving in 28-cop motorcade), gave her Honorary Ambassador title, awarded Pentagon recognition, and used her as back-channel to manage Tampa community issues (Quran threat). The relationship was close enough that Broadwell's jealous emails to Kelley triggered the FBI investigation."
+        },
+        {
+          "target": "Paula Broadwell",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "Finding #3451 (criminal case)",
+          "description": "Broadwell was Petraeus's biographer and lover. She received classified documents from Petraeus including his 'black books' containing identities of covert officers, war strategy, intelligence capabilities, and notes from meetings with the President. Despite possessing classified material on her computer, Broadwell was never charged — only Petraeus received a misdemeanor plea. Broadwell sent the anonymous 'KelleyPatrol' emails that ultimately triggered the FBI investigation."
+        },
+        {
+          "target": "Tom Pritzker",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02397051",
+          "description": "Pritzker had extraordinary personal access to Petraeus: (1) helicopter rides in Afghanistan war zone (June 2011); (2) private lunch (Sept 2012); (3) 2-hour meeting in Baghdad (July 2008). Pritzker listed Petraeus as Aspen Strategy Group member (Aug 2016). Every interaction was reported directly to Jeffrey Epstein."
+        },
+        {
+          "target": "Paula Broadwell",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02562913",
+          "description": "Broadwell was a military intelligence officer (HUMINT, electronic warfare, CT analysis, SOCOM, FBI CT task forces) who became Petraeus's biographer and lover. The affair led to his CIA resignation Nov 2012. Ed Epstein analyzed this as a possible 'penetration' operation. Petraeus shared classified notebooks with Broadwell, resulting in misdemeanor plea deal."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02384585",
+          "description": "Indirect but significant: Pritzker reported all Petraeus interactions to Epstein. Ed Epstein (journalist) sent Jeffrey Epstein intelligence analysis of Petraeus scandal framing it as possible penetration operation. Larry Summers suggested Epstein hire Joe Lockhart (who helped Clinton and General Petraeus) for PR crisis management. Davidson claimed during FBI sting that Petraeus tape existed involving the Clems."
+        },
+        {
+          "target": "Golden Falcon Acquisition Corp",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "SEC EDGAR ADSH 0001193125-23-045802",
+          "description": "Petraeus involved in Golden Falcon SPAC acquiring MNG Airlines Turkey 2023"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02372647",
+          "description": "Indirect connection through multiple channels: (1) Tom Pritzker reported all Petraeus interactions to Epstein; (2) Ed Epstein sent Petraeus penetration analysis TO Jeff Epstein; (3) Epstein invoked Petraeus scandal when advising Leon Black; (4) Lockhart's Petraeus credential was selling point for Epstein PR hire; (5) Ariane de Rothschild forwarded Wilson Center invite (Petraeus co-chaired) to Epstein; (6) Pritzker listed Petraeus as Aspen Strategy Group member to Epstein; (7) Ambani asked Epstein about Petraeus as India ambassador. No evidence of DIRECT contact between Petraeus and Jeff Epstein."
+        },
+        {
+          "target": "Alex Karp",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "https://littlesis.org/person/28650-David_Petraeus",
+          "description": "LittleSis records Petraeus and Alex Karp (Palantir CEO) as friends. Palantir was founded with CIA venture capital (In-Q-Tel) and has deep intelligence community connections. This friendship links Petraeus to the data analytics/surveillance sector."
+        },
+        {
+          "target": "Ed Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02562913",
+          "description": "Ed Epstein (journalist/intelligence writer) sent Jeffrey Epstein a sophisticated 10-question analysis of the Petraeus scandal framing it as a possible foreign intelligence penetration operation, just 5 days after Petraeus resigned. This was the same Ed Epstein who had extensive intelligence community access and wrote for Commentary, NYT, WSJ."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.4,
+          "evidence_ref": "EFTA02372647",
+          "description": "No direct Epstein-Petraeus communication found. Connection mediated through: Pritzker reporting interactions, Ed Epstein sending intelligence analysis, Rothschild forwarding Wilson Center events, Epstein using Petraeus as cautionary example for Black. Absence of direct contact is investigatively significant."
+        },
+        {
+          "target": "Ariane de Rothschild",
+          "type": "political",
+          "strength": 0.4,
+          "evidence_ref": "EFTA02377394",
+          "description": "Rothschild forwarded Wilson Center Global Advisory Council invitation featuring Petraeus as co-chair to Epstein with 'What do u think?' Event Oct 2015 included Carter, Kerry, McConnell, Gingrich."
+        },
+        {
+          "target": "Anil Ambani",
+          "type": "political",
+          "strength": 0.4,
+          "evidence_ref": "https://www.dropsitenews.com/p/modi-epstein-files-bannon-billionaire-anil-ambani-india-israel-united-states-justice-department",
+          "description": "Ambani discussed Petraeus as potential US Ambassador to India in email exchange with Jeffrey Epstein. Ambani wanted a strong person like patreaus to deal with Pakistan/Afghanistan. Epstein relayed that Trump liked Petraeus but Pentagon was wary."
+        },
+        {
+          "target": "Keith Davidson",
+          "type": "intelligence",
+          "strength": 0.2,
+          "evidence_ref": "Finding #3428",
+          "description": "Davidson invoked Petraeus during Dec 2012 FBI sting in Tampa, claiming he had heard a rumor of a Petraeus sex tape. The Petraeus investigation originated from Tampa FBI field office (May 2012), and Davidson's Hogan extortion sting was also in Tampa (Dec 2012). Davidson exploited the Petraeus scandal news to position himself as a kompromat broker with access to high-value targets."
+        },
+        {
+          "target": "Leon Black",
+          "type": "intelligence",
+          "strength": 0.2,
+          "evidence_ref": "EFTA02372647",
+          "description": "Epstein explicitly invoked the Petraeus scandal as a cautionary analogy when advising Leon Black through Brad Karp: comparing Black's use of an Apollo employee as intermediary to how Petraeus/Broadwell dynamic destroyed careers. Both are examples of Epstein analyzing kompromat risk for powerful clients."
+        }
+      ],
+      "secondHop": {
+        "Alex Karp": [
+          {
+            "target": "Peter Thiel",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Palantir co-founder and CEO. Karp runs day-to-day operations, Thiel is chairman. Together met Israeli defense officials for IDF partnership."
+          }
+        ],
+        "Ariane de Rothschild": [
+          {
+            "target": "Kathy Ruemmler",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Close personal friends. Traveled together Paris Jul 2015. Epstein proposed Ruemmler do succession planning for Ariane."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "CEO of EdR Group. 25M consulting agreement (Oct 2015). Regular meetings 2013-2019 at 9 E 71st. Shared 1MDB intelligence in real-time. Deployed Ruemmler as EdR legal advisor."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Ruemmler provided legal counsel to EdR during 1MDB crisis. Dinner with Ariane (Mar 2017). Joint meetings at 9 E 71st. Ariane confirmed Kathy on all angles of Lux remediation."
+          },
+          {
+            "target": "Sultan Bin Sulayem",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Finding #353: Sulayem-Barak Israel back-channel confirmed. July 2018: Sulayem thanked Barak for visa help, staying at 1 Rothschild Blvd Tel Aviv penthouse for 3 mon"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Jill Kelley": [
+          {
+            "target": "Todd Clem",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Kelley served as intermediary between CENTCOM generals (Petraeus/Allen) and Bubba the Love Sponge (Todd Clem) during March 2012 Quran threat, establishing direct operational link between Tampa's military and entertainment worlds"
+          },
+          {
+            "target": "John Allen",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Allen exchanged 20,000-30,000 pages of emails with Kelley. The volume of correspondence triggered a DOD IG investigation of Allen. Broadwell sent anonymous threatening emails to Kelley under the pseudonym 'KelleyPatrol' warning Allen that Kelley was a 'seductress.' Allen forwarded the anonymous warning to Kelley, who then reported it to the FBI — triggering the investigation that exposed both the Petraeus affair and the Allen correspondence."
+          },
+          {
+            "target": "John Allen",
+            "type": "social",
+            "strength": 1.0,
+            "description": "General John Allen exchanged 20,000-30,000 pages of emails with Kelley. Allen and Petraeus both used Kelley as intermediary for Tampa community issues. Allen was Petraeus's deputy at CENTCOM/ISAF and later commander of ISAF."
+          }
+        ],
+        "Keith Davidson": [
+          {
+            "target": "Todd Clem",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Davidson brokered extortion of Hogan sex tape stolen from Bubbas office. During FBI sting Davidson claimed Petraeus met Clems at swingers party with video."
+          },
+          {
+            "target": "Sara Sweeney",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Both named in Hogan tape grand jury investigation. Court ordered both names unredacted in EOUSA documents."
+          },
+          {
+            "target": "Sara Sweeney",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Sweeney was the AUSA who ran the federal grand jury investigation into Davidson's extortion of Hulk Hogan (2012-2013). She authored the 16-page prosecution memo and corresponded with Davidson's targets. The investigation was closed with no charges."
+          },
+          {
+            "target": "Matt Loyd",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Loyd hired Davidson to engage in the extortion of Terry Bollea after stealing sex tape DVDs from Bubba Clem's studio. Davidson was the legal front for the extortion scheme."
+          }
+        ],
+        "Tom Pritzker": [
+          {
+            "target": "Vitaly Churkin",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Pritzker: 'I want to meet Churkin.' EFTA02663759."
+          },
+          {
+            "target": "Ehud Barak",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Pritzker: 'I want to see Ehud to hear him on Obama Kerry.' Dec 2016."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2010-11-15",
+        "label": "Americans for Petraeus 2012 Inc Tampa FL nonprofit - inactive since 2011",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 3441
+      },
+      {
+        "date": "2015-03-03",
+        "label": "Petraeus criminal case: United States v. Petraeus, 3:15-cr-00047, W.D. North Carolina, Judge David Keesler, filed 2015-03-03, terminated 2015-04-23. Pled guilty to misdemeanor unauthorized removal of classified docs. 2 years probation, $100K fine. Prosecution by DOJ National Security Division in Charlotte — far from DC. Case resolved in 50 days, reflecting pre-arranged plea deal with extraordinary leniency for a former CIA Director.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3451
+      },
+      {
+        "date": "2015-05-19",
+        "label": "Tampa FBI field office temporal overlap: The Petraeus investigation and the Hogan/Davidson extortion case were both handled by or involved the Tampa/M.D. Florida FBI field office in overlapping timeframes. Kelley reported threatening emails to a Tampa FBI agent (Frederick Humphries) in May 2012. The FBI Tampa field office investigated, tracing emails to Paula Broadwell, discovering the Petraeus affair by summer 2012. Petraeus resigned Nov 9, 2012. The Davidson FBI sting at a Clearwater Beach hotel occurred Dec 2012 — Davidson allegedly claimed a Petraeus sex tape during this sting, just weeks after the Petraeus resignation. Both investigations originated from the same Tampa FBI jurisdiction (M.D. Florida). The Gawker Media v. FBI FOIA case (M.D. Fla. docket 4500580) sought FBI records about the Hogan tape investigation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 3456
+      },
+      {
+        "date": "2024-07-24",
+        "label": "Petraeus SEC Form 3 filing for OneStream Inc (KKR portfolio company) - board director",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3434
+      }
+    ]
+  }
+}

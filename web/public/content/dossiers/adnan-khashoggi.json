@@ -1,0 +1,848 @@
+{
+  "name": "Adnan Khashoggi",
+  "slug": "adnan-khashoggi",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.317823",
+  "last_updated": "2026-02-18T16:22:52",
+  "stats": {
+    "total_findings": 6,
+    "total_connections": 13,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 4,
+      "relationship": 2
+    },
+    "connection_types": {
+      "financial": 11,
+      "advisory": 1,
+      "intelligence": 1
+    },
+    "last_updated": "2026-02-18T16:22:52"
+  },
+  "findings": [
+    {
+      "id": 3382,
+      "finding_type": "financial",
+      "summary": "Khashoggi's FARA registration (Hill & Knowlton, 1984-1986) terminated Dec 12, 1986 - precisely when Iran-Contra exposed; he provided $30M+ in bridge financing for US arms sales to Iran through BCCI",
+      "detail": "FARA records: Hill & Knowlton registered as Khashoggi's agent (reg #3301, filed 5/4/1984, terminated 12/12/1986). BCCI Kerry/Brown Report pp.299-303: Khashoggi provided approximately $30 million in bridge financing for US arms sales to Iran. He banked at BCCI Monte Carlo, using BCCI's 'float' to provide short-term credit. BCCI officer Manir Karim facilitated transactions, was paid $100,000 bribe. Hakim ledgers show Khashoggi deposited $2.5M (2/7/86), $2.5M (2/10/86), two checks of $5M (2/18/86), and $5M (5/18/86) into Enterprise accounts from BCCI. Walsh Report: Khashoggi was indicted with Imelda Marcos in SDNY (1988) on fraud/racketeering charges related to looting Philippines - both acquitted July 1990.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:13:36",
+      "target_name": "Adnan Khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "BCCI Kerry/Brown Senate Report pp.299-303 (1992)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA registration #3301",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, pp.194-196",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3395,
+      "finding_type": "financial",
+      "summary": "Khashoggi donated $2,200 to RNC 1990-1995 via AKORP NV; FARA registered via Hill and Knowlton 1984-1986",
+      "detail": "FEC records show Adnan Khashoggi made 5 donations to the Republican National Committee between 1990-1995, totaling $2,200 (all from NYC). Employer listed as AKORP NV (his Netherlands Antilles holding company) and self-employed. FARA records show Khashoggi was a foreign principal of Saudi Arabia represented by Hill and Knowlton Strategies LLC (registration 3301), registered May 4 1984, terminated Dec 12 1986 \u2014 covering the peak Iran-Contra period. The FARA termination date (Dec 1986) is notably just weeks after the Nov 26 1986 $150K cash delivery from Nan Morabia to Khashoggi.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:23",
+      "target_name": "Adnan Khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA foreign principal registration 3301",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC donor records",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3397,
+      "finding_type": "relationship",
+      "summary": "Khashoggi family corporate footprint: Essam at EarthShell/E. Khashoggi Industries (SEC CIK 1107077/1308722), Nabila in FL film companies, Husni at Trump Tower address",
+      "detail": "SEC EDGAR shows extensive Khashoggi family SEC filings: (1) ESSAM KHASHOGGI (CIK 0001107077) \u2014 major insider at EarthShell Corp (CIK 0000911801), filing Form 4s, 5s, SC 13Gs 2001-2006. (2) LAYLA KHASHOGGI (CIK 0001252550) \u2014 also insider at EarthShell, filing Form 4s 2004-2006. (3) E. Khashoggi Industries LLC (CIK 0001308722) \u2014 entity filing Form 4s for EarthShell. FL registry shows: Mohamad Khashoggi director of TMAN GLOBAL.COM INC (Marbella address), Nabila Khashoggi director of In Motion Pictures Inc and Plum Pictures Inc (Van Nuys CA), Husni Khashoggi VCD of Interchange Associates Inc (PO Box 13162 Jeddah / c/o 725 Fifth Ave NY \u2014 Trump Tower). ACRIS shows Essam Khashoggi property in Santa Barbara, Soheir Khashoggi in NYC (c/o Nabila in Hillsdale NY).",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:38",
+      "target_name": "Adnan Khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FL corporate registry",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NYC ACRIS records",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR filings",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3398,
+      "finding_type": "financial",
+      "summary": "Khashoggi's Iran-Contra bridge financing: deposited M into Enterprise's Lake Resources account Feb 7-18, 1986 (four payments: .5M Feb 7, .5M Feb 10, two M Feb 18 - all via BCCI). Deposited M for HAWK spare parts May 14-16, 1986 (raised from Tiny Rowlands [declined], Oussama Lababidi via 'Kremdale Corp' [M], and Vertex International/Cayman Islands backed by Ernie Walter Miller and Donald Fraser of Canada [M via 'Trivert International']). Ghorbanifar only repaid Khashoggi .1M of M owed (including 20% commission), leaving Khashoggi deeply exposed.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:43",
+      "target_name": "Adnan Khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, pp.194-196 (pages 220-222)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3409,
+      "finding_type": "financial",
+      "summary": "BCCI Monte Carlo processed Khashoggi's Iran arms bridge financing via 'float' mechanism - officer Manir Karim received $100,000 bribe; BCCI London approved the transactions",
+      "detail": "BCCI Kerry/Brown Report pp.299-303: BCCI Paris manager Nazir Chinoy testified that Khashoggi maintained 2-3 'very active' deposit accounts at BCCI Monte Carlo, kept very large balances, paid his crew through traveler's checks at $100K-$150K/month. BCCI officer Manir Karim facilitated the arms financing by exploiting BCCI's 'float': taking a check Thursday/Friday from Khashoggi, giving him credit immediately, then Khashoggi would have arms delivered over the weekend and repay Tuesday/Wednesday with demand draft from Credit Suisse (Enterprise accounts). 5+ transactions totaling $8-10M before Chinoy learned of them. Karim received $100,000 bribe deposited in non-BCCI Swiss account. FBI investigated and BCCI agreed to provide records on condition US government prevent public exposure. Hakim's ledgers show Khashoggi deposited $2.5M (2/7/86), $2.5M (2/10/86), two $5M checks (2/18/86), and $5M (5/18/86) from BCCI into Enterprise accounts.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:17:18",
+      "target_name": "Adnan Khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "BCCI Kerry/Brown Senate Report pp.299-303 (1992)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3469,
+      "finding_type": "relationship",
+      "summary": "Adnan Khashoggi has the 11th highest betweenness centrality (0.039) despite only 8 connections, indicating he is a critical historical bridge between arms dealing/intelligence networks and the Epstein-adjacent banking infrastructure",
+      "detail": "Khashoggi bridges Republic National Bank of New York, Nan Morabia (Iran-Contra era), BCCI, Douglas Leese, and Jeffrey Epstein. His betweenness-to-degree ratio (0.039/8 = 0.0049 per connection) is one of the highest in the graph, meaning each of his connections is disproportionately important for network connectivity. He bridges the Iran-Contra era financial infrastructure to the Epstein network, connecting through Republic National Bank and Safra banking networks. He has 0 findings -- a critical investigation gap.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:22:52",
+      "target_name": "Adnan Khashoggi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-6",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 2009,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "financial",
+      "description": "RNB officer Nan Morabia delivered $150,000 in cash to Khashoggi (Iran arms sales financier) in New York on Nov 26, 1986. Morabia also handled Enterprise wire transfers through RNB.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 19:56:18",
+      "other_person": "Republic National Bank of New York",
+      "other_person_slug": "republic-national-bank-of-new-york",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Vol 1 p.221 footnote 24",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2016,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Nan Morabia",
+      "relationship_type": "financial",
+      "description": "Morabia delivered $150,000 cash to Khashoggi on Nov 26, 1986 from Trabigulsi account",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:44",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221 fn.24",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2022,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "BCCI",
+      "relationship_type": "financial",
+      "description": "Khashoggi used BCCI Monte Carlo for bridge financing of Iran arms sales, $30M+ total",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:14:57",
+      "other_person": "BCCI",
+      "other_person_slug": "bcci",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "BCCI Kerry/Brown Senate Report pp.299-303 (1992)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2028,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Hill and Knowlton",
+      "relationship_type": "advisory",
+      "description": "H&K registered as FARA agent for Khashoggi 1984-1986, terminated Dec 12 1986 when Iran-Contra exposed",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:15:06",
+      "other_person": "Hill and Knowlton",
+      "other_person_slug": "hill-and-knowlton",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA registration #3301",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2032,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Nan Morabia",
+      "relationship_type": "financial",
+      "description": "Nan Morabia delivered $150,000 cash to Khashoggi on Nov 26 1986 per Walsh Report; Khashoggi was Iran arms sales financier",
+      "strength": "strong",
+      "date_range": "1985-1986",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:15:34",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch 14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2033,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Nan Morabia",
+      "relationship_type": "financial",
+      "description": "Nan Morabia personally delivered ,000 cash to Khashoggi on Nov 26, 1986 in New York - from Samir Trabigulsi account, described as authorized payment unconnected to Iran-Contra Enterprise",
+      "strength": "strong",
+      "date_range": "1986-11-26",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:15:37",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1 p.221 fn24",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2041,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Samir Trabigulsi",
+      "relationship_type": "financial",
+      "description": "Trabigulsi maintained account at RNB from which Nan Morabia drew K cash for delivery to Khashoggi (Nov 26, 1986). Described as 'authorized payment' but Trabigulsi 'not identified as Iran/contra figure.' Khashoggi was never questioned about this.",
+      "strength": "strong",
+      "date_range": "1986-11-26",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:16:03",
+      "other_person": "Samir Trabigulsi",
+      "other_person_slug": "samir-trabigulsi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh IC Final Report Vol 1 p.221 fn24",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2042,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "BCCI",
+      "relationship_type": "financial",
+      "description": "BCCI Monte Carlo branch provided bridge financing for Khashoggi's Iran arms sales: exploited 'float' mechanism, 5+ transactions totaling -10M initially, then -17M more. Khashoggi deposited M (Feb 1986) and M (May 1986) into Enterprise Lake Resources account via BCCI. Officer Manir Karim accepted K bribe.",
+      "strength": "strong",
+      "date_range": "1985-1986",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:16:10",
+      "other_person": "BCCI",
+      "other_person_slug": "bcci",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "BCCI Affair Kerry/Brown Senate Report pp.301-302",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2044,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Nan Morabia",
+      "relationship_type": "financial",
+      "description": "Morabia delivered $150,000 cash to Khashoggi on Nov 26, 1986 from Samir Traboulsi account",
+      "strength": "strong",
+      "date_range": "1986-11-26",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:34",
+      "other_person": "Nan Morabia",
+      "other_person_slug": "nan-morabia",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2049,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Samir Traboulsi",
+      "relationship_type": "financial",
+      "description": "Business partners since 1970 in arms intermediary work; Traboulsi account funded $150K Khashoggi cash delivery",
+      "strength": "strong",
+      "date_range": "1970-1986",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:45",
+      "other_person": "Samir Traboulsi",
+      "other_person_slug": "samir-traboulsi",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "French Wikipedia: Samir Traboulsi",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2050,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Republic National Bank of New York",
+      "relationship_type": "financial",
+      "description": "Khashoggi received $150K cash at RNB via Morabia; RNB handled Enterprise wire transfers",
+      "strength": "strong",
+      "date_range": "1986",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:18:45",
+      "other_person": "Republic National Bank of New York",
+      "other_person_slug": "republic-national-bank-of-new-york",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2055,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "financial",
+      "description": "Khashoggi was Epstein's financial client; Epstein described as financial fixer",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 20:19:42",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis relationships 2037411 and 2016804",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1200,
+      "person_a": "Adnan Khashoggi",
+      "person_b": "Douglas Leese",
+      "relationship_type": "intelligence",
+      "description": "Arms dealer collaborators per LittleSis",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 03:52:37",
+      "other_person": "Douglas Leese",
+      "other_person_slug": "douglas-leese",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LittleSis:353555",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1970-1986",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Business partners since 1970 in arms intermediary work; Traboulsi account funded $150K Khashoggi cash delivery",
+      "other_person": "Samir Traboulsi",
+      "id": 2049
+    },
+    {
+      "date": "1985-1986",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Nan Morabia delivered $150,000 cash to Khashoggi on Nov 26 1986 per Walsh Report; Khashoggi was Iran arms sales financier",
+      "other_person": "Nan Morabia",
+      "id": 2032
+    },
+    {
+      "date": "1985-1986",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "BCCI Monte Carlo branch provided bridge financing for Khashoggi's Iran arms sales: exploited 'float' mechanism, 5+ transactions totaling -10M initially, then -17M more. Khashoggi deposited M (Feb 1986) and M (May 1986) into Enterprise Lake Resources account via BCCI. Officer Manir Karim accepted K bribe.",
+      "other_person": "BCCI",
+      "id": 2042
+    },
+    {
+      "date": "1986",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Khashoggi received $150K cash at RNB via Morabia; RNB handled Enterprise wire transfers",
+      "other_person": "Republic National Bank of New York",
+      "id": 2050
+    },
+    {
+      "date": "1986-11-26",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Nan Morabia personally delivered ,000 cash to Khashoggi on Nov 26, 1986 in New York - from Samir Trabigulsi account, described as authorized payment unconnected to Iran-Contra Enterprise",
+      "other_person": "Nan Morabia",
+      "id": 2033
+    },
+    {
+      "date": "1986-11-26",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Trabigulsi maintained account at RNB from which Nan Morabia drew K cash for delivery to Khashoggi (Nov 26, 1986). Described as 'authorized payment' but Trabigulsi 'not identified as Iran/contra figure.' Khashoggi was never questioned about this.",
+      "other_person": "Samir Trabigulsi",
+      "id": 2041
+    },
+    {
+      "date": "1986-11-26",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Morabia delivered $150,000 cash to Khashoggi on Nov 26, 1986 from Samir Traboulsi account",
+      "other_person": "Nan Morabia",
+      "id": 2044
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3395,
+      3397,
+      3382,
+      3398,
+      3409,
+      3469
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3397,
+          3469
+        ],
+        "connection_ids": [
+          2009,
+          2016,
+          2022,
+          2028,
+          2032,
+          2033,
+          2041,
+          2042,
+          2044,
+          2049,
+          2050,
+          2055,
+          1200
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3382,
+          3395,
+          3398,
+          3409
+        ],
+        "connection_ids": [
+          2009,
+          2016,
+          2022,
+          2032,
+          2033,
+          2041,
+          2042,
+          2044
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.362495"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Adnan Khashoggi",
+      "connections": [
+        {
+          "target": "Republic National Bank of New York",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh Iran-Contra Report Vol 1 p.221 footnote 24",
+          "description": "RNB officer Nan Morabia delivered $150,000 in cash to Khashoggi (Iran arms sales financier) in New York on Nov 26, 1986. Morabia also handled Enterprise wire transfers through RNB."
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh IC Final Report Vol 1, p.221 fn.24",
+          "description": "Morabia delivered $150,000 cash to Khashoggi on Nov 26, 1986 from Trabigulsi account"
+        },
+        {
+          "target": "BCCI",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "BCCI Kerry/Brown Senate Report pp.299-303 (1992)",
+          "description": "Khashoggi used BCCI Monte Carlo for bridge financing of Iran arms sales, $30M+ total"
+        },
+        {
+          "target": "Hill and Knowlton",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "FARA registration #3301",
+          "description": "H&K registered as FARA agent for Khashoggi 1984-1986, terminated Dec 12 1986 when Iran-Contra exposed"
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh Iran-Contra Report Ch 14",
+          "description": "Nan Morabia delivered $150,000 cash to Khashoggi on Nov 26 1986 per Walsh Report; Khashoggi was Iran arms sales financier"
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh IC Final Report Vol 1 p.221 fn24",
+          "description": "Nan Morabia personally delivered ,000 cash to Khashoggi on Nov 26, 1986 in New York - from Samir Trabigulsi account, described as authorized payment unconnected to Iran-Contra Enterprise"
+        },
+        {
+          "target": "Samir Trabigulsi",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh IC Final Report Vol 1 p.221 fn24",
+          "description": "Trabigulsi maintained account at RNB from which Nan Morabia drew K cash for delivery to Khashoggi (Nov 26, 1986). Described as 'authorized payment' but Trabigulsi 'not identified as Iran/contra figure.' Khashoggi was never questioned about this."
+        },
+        {
+          "target": "BCCI",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "BCCI Affair Kerry/Brown Senate Report pp.301-302",
+          "description": "BCCI Monte Carlo branch provided bridge financing for Khashoggi's Iran arms sales: exploited 'float' mechanism, 5+ transactions totaling -10M initially, then -17M more. Khashoggi deposited M (Feb 1986) and M (May 1986) into Enterprise Lake Resources account via BCCI. Officer Manir Karim accepted K bribe."
+        },
+        {
+          "target": "Nan Morabia",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "description": "Morabia delivered $150,000 cash to Khashoggi on Nov 26, 1986 from Samir Traboulsi account"
+        },
+        {
+          "target": "Samir Traboulsi",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "French Wikipedia: Samir Traboulsi",
+          "description": "Business partners since 1970 in arms intermediary work; Traboulsi account funded $150K Khashoggi cash delivery"
+        },
+        {
+          "target": "Republic National Bank of New York",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "Walsh Iran-Contra Report Ch.14",
+          "description": "Khashoggi received $150K cash at RNB via Morabia; RNB handled Enterprise wire transfers"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "LittleSis relationships 2037411 and 2016804",
+          "description": "Khashoggi was Epstein's financial client; Epstein described as financial fixer"
+        },
+        {
+          "target": "Douglas Leese",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "LittleSis:353555",
+          "description": "Arms dealer collaborators per LittleSis"
+        }
+      ],
+      "secondHop": {
+        "BCCI": [
+          {
+            "target": "William Barr",
+            "type": "political",
+            "strength": 1.0,
+            "description": "As AG (1991-1993), Barr oversaw DOJ during BCCI investigation. Kerry/Brown Senate Report documented DOJ obstruction of BCCI investigation before and during Barr's tenure. DOJ obstructed Congressional access and NY DA Morgenthau's investigation. Barr testified about 'coordination problems,' promised remedy, but prosecutors claim he thwarted Florida indictments. Pattern: major financial crime investigation with intelligence community implications, DOJ obstruction, and Congressional frustration \u2014 directly parallels Epstein case handling."
+          }
+        ],
+        "Douglas Leese": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Leese was Epstein's mentor from 1981 (LittleSis). Leese collaborated with Khashoggi (arms dealer). Competing stories: Hoffenberg says Leese introduced Epstein; Epstein says John Mitchell. Sons Julian and Nicholas maintained familial ties with Epstein 2002-2019. Julian provided PwC/Paul Weiss UK introductions."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Mentor-protege from 1981. Leese collaborated with Khashoggi."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Mentor-protege from 1981. Leese collaborated with Khashoggi."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Nan Morabia": [
+          {
+            "target": "Willard Zucker",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker directed Morabia to make cash drops for Enterprise; she was his domestic cash distribution agent"
+          },
+          {
+            "target": "Robert Owen",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Morabia delivered $7,000 cash to Owen at Republic National Bank, Aug 1985"
+          },
+          {
+            "target": "Republic National Bank",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Officer at Republic National Bank of New York; conducted cash drops outside bank channels"
+          },
+          {
+            "target": "Oliver North",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Morabia family conducted cash drops for Enterprise operations supervised by North"
+          },
+          {
+            "target": "Willard Zucker",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Zucker directed Morabia family cash drops from 1985-1986; Nan was primary RNB contact, coordinated 6 drops ranging K-K at Zucker's request"
+          }
+        ],
+        "Republic National Bank of New York": [
+          {
+            "target": "Trade Development Bank Geneva",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Both Safra-owned entities used as parallel conduits for Iran-Contra Enterprise funds -- RNB for US wire transfers, TDB Geneva for cash operations via Codelis account. FARA records also show RNB registered as agent for Trade Development Bank Overseas Inc."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1970-1986",
+        "label": "financial with Samir Traboulsi",
+        "type": "financial",
+        "entity": "Samir Traboulsi",
+        "id": 2049
+      },
+      {
+        "date": "1985-1986",
+        "label": "financial with Nan Morabia",
+        "type": "financial",
+        "entity": "Nan Morabia",
+        "id": 2032
+      },
+      {
+        "date": "1985-1986",
+        "label": "financial with BCCI",
+        "type": "financial",
+        "entity": "BCCI",
+        "id": 2042
+      },
+      {
+        "date": "1986",
+        "label": "financial with Republic National Bank of New York",
+        "type": "financial",
+        "entity": "Republic National Bank of New York",
+        "id": 2050
+      },
+      {
+        "date": "1986-11-26",
+        "label": "financial with Nan Morabia",
+        "type": "financial",
+        "entity": "Nan Morabia",
+        "id": 2033
+      },
+      {
+        "date": "1986-11-26",
+        "label": "financial with Samir Trabigulsi",
+        "type": "financial",
+        "entity": "Samir Trabigulsi",
+        "id": 2041
+      },
+      {
+        "date": "1986-11-26",
+        "label": "financial with Nan Morabia",
+        "type": "financial",
+        "entity": "Nan Morabia",
+        "id": 2044
+      }
+    ]
+  }
+}

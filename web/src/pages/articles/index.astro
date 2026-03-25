@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readdirSync, readFileSync, existsSync } from 'fs';
+import { resolve, basename } from 'path';
+import { contentPath } from '../../lib/projectPaths';
+
+const articlesDir = contentPath('articles');
+
+interface ArticleMeta {
+  slug: string;
+  title: string;
+  subtitle?: string;
+  cluster?: string;
+  targets?: string[];
+  wordCount?: number;
+}
+
+let articles: ArticleMeta[] = [];
+
+if (existsSync(articlesDir)) {
+  const files = readdirSync(articlesDir).filter(f => f.endsWith('.mdx'));
+  for (const file of files) {
+    const content = readFileSync(resolve(articlesDir, file), 'utf-8');
+    const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+    if (frontmatterMatch) {
+      const lines = frontmatterMatch[1].split('\n');
+      const meta: any = { slug: basename(file, '.mdx') };
+      for (const line of lines) {
+        const [key, ...valueParts] = line.split(':');
+        if (key && valueParts.length > 0) {
+          const value = valueParts.join(':').trim().replace(/^["']|["']$/g, '');
+          meta[key.trim()] = value;
+        }
+      }
+      meta.wordCount = content.split(/\s+/).length;
+      articles.push(meta);
+    }
+  }
+}
+
+---
+<BaseLayout title="Articles">
+  <div class="space-y-10">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="space-y-4">
+        <div class="section-label">Longform</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">Investigative Articles</h1>
+        <p class="text-mithril font-body max-w-2xl">
+          Case-study narratives that demonstrate how Ithildin turns structured findings and evidence records into reviewer-friendly reporting surfaces.
+        </p>
+      </div>
+    </section>
+
+    {articles.length > 0 && (
+      <section class="space-y-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-semibold text-moon">Case Studies</h2>
+          <div class="rune-divider flex-1 ml-6"></div>
+        </div>
+        <div class="grid gap-4">
+          {articles.map((article, idx) => (
+            <a
+              href={`/articles/${article.slug}`}
+              class="surface p-6 transition reveal"
+              style={`--delay: ${Math.min(idx * 0.05, 0.4)}s;`}
+            >
+                <div class="section-label">Article</div>
+                <h3 class="text-xl text-moon mt-3">{article.title}</h3>
+                {article.subtitle && <p class="text-sm text-mithril mt-2 font-body">{article.subtitle}</p>}
+                {article.wordCount && (
+                  <div class="text-xs text-mithril mt-4 font-mono">
+                    {Math.round(article.wordCount / 1000)}K words / {Math.ceil(article.wordCount / 250)} min read
+                  </div>
+                )}
+              </a>
+            ))}
+        </div>
+      </section>
+    )}
+
+    <section class="surface-muted p-6">
+      <div class="section-label">Portfolio Note</div>
+      <p class="text-sm text-mithril mt-3 max-w-3xl font-body">
+        In this branch, articles are positioned as case studies for the platform itself: citation rendering, source-record fidelity, and evidence-mode explainability matter as much as the narrative text.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

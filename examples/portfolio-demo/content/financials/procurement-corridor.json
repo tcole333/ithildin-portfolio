@@ -1,0 +1,51 @@
+{
+  "title": "Procurement Corridor",
+  "subtitle": "Curated flow view for the demo case study.",
+  "nodes": [
+    {
+      "id": "meridian",
+      "name": "Meridian Port Authority",
+      "category": "public"
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor Ledger Holdings LLC",
+      "category": "shell"
+    },
+    {
+      "id": "estuary",
+      "name": "Estuary Advisory Ltd",
+      "category": "advisory"
+    }
+  ],
+  "links": [
+    {
+      "source": "meridian",
+      "target": "harbor",
+      "value": 1850000,
+      "label": "implementation contract"
+    },
+    {
+      "source": "harbor",
+      "target": "estuary",
+      "value": 275000,
+      "label": "services addendum"
+    }
+  ],
+  "findings": [
+    {
+      "id": 9002,
+      "target_name": "Harbor Ledger Holdings LLC",
+      "summary": "Board minutes show Harbor Ledger approving an Estuary Advisory addendum without a competitive review memo.",
+      "confidence": "confirmed",
+      "date_of_event": "2024-11-18"
+    },
+    {
+      "id": 9102,
+      "target_name": "Port Watch Procurement Network",
+      "summary": "The case combines public artifacts, a hosted excerpt, and a metadata-only source record rather than flattening them into one evidence class.",
+      "confidence": "confirmed",
+      "date_of_event": "2025-02"
+    }
+  ]
+}

@@ -1,0 +1,1548 @@
+{
+  "name": "Business Basics VI LLC",
+  "slug": "business-basics-vi-llc",
+  "aliases": [
+    "Business Basics VI"
+  ],
+  "generated_at": "2026-02-20T01:17:47.267988",
+  "last_updated": "2026-02-16T04:38:46",
+  "stats": {
+    "total_findings": 21,
+    "total_connections": 10,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 4,
+      "document": 6,
+      "financial": 3,
+      "intelligence": 6,
+      "identity": 2
+    },
+    "connection_types": {
+      "corporate": 10
+    },
+    "last_updated": "2026-02-16T04:38:46"
+  },
+  "findings": [
+    {
+      "id": 2839,
+      "finding_type": "legal",
+      "summary": "Business Basics VI LLC operates a three-entity corporate services ecosystem at 9053 Estate Thomas Suite 101: (1) BBVI itself - entity formation, registered agent services, business licensing, annual compliance filings, tax preparation (via Brett Geary EA); (2) Kellerhals Ferguson Kroblin PLLC - law firm handling tax planning, EDC program, corporate transactions, litigation, real estate, banking; (3) West Indies Title LLC - title insurance company (Carrie de Leon principal, operating since 2003). BBVI's website (bizusvi.com, SSL expired) explicitly states it is 'an affiliate of the law firm Kellerhals Ferguson Kroblin PLLC and the title insurance company West Indies Title, LLC.' KFK also has NY office at 40 Wall Street 35th Floor (212-267-7600). KFK is affiliated with Solomon Blum Heymann LLP (AV-rated Wall Street firm). This three-entity structure provides full-service corporate lifecycle management: formation (BBVI), legal counsel/tax strategy (KFK), and real estate closings/title insurance (West Indies Title).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2003",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:43:40",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://bizusvi.com/affiliates.html",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://westindiestitle.com/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.kellfer.com/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2814,
+      "finding_type": "document",
+      "summary": "Southern Trust Company Inc (STC) USVI business license (EFTA01297594) names Brett Geary as the primary business contact. License details: Business Name: SOUTHERN TRUST COMPANY INC, Organization Type: C CORP, Contact: Brett Geary, Physical Address: 18A-1, 18B-1, E 188 EST SMITH STE B3-3 6B-6 (Red Hook), Mailing Address: 6100 RED HOOK QUARTER STE 8.3, Business Activity: BUSINESS AND MANAGEMENT CONSULTING, License period: 12/01/2011 - 12/31/2018. This confirms Brett Geary was the operational contact for STC (not just a formation agent) and that STC's licensed business activity was formally classified as consulting, not banking or trust services.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2011-12-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:30:39",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297594",
+          "source_quote": " Business Name: SOUTHERN TRUST COMPANY INC...Contact First Name: BRETT...Last Name: GEARY...Business Activity: BUSINESS AND MANAGEMENT CONSULTING",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1504,
+      "finding_type": "legal",
+      "summary": "Business Basics VI LLC (USVI entity 582110) serves as the central registered agent hub for the entire Epstein USVI corporate infrastructure. Registered Jan 26, 2012. Resident agent: Erika Kellerhals. Agent email: all@bizusvi.com (general), brett@bizusvi.com (Brett Geary, co-incorporator of Poplar Inc and Laurel Inc). Physical address: Royal Palms Professional Building 62-3a and 62-3b Estate Thomas Suite 101, Charlotte Amalie VI 00802. Mailing address: 9053 Estate Thomas Suite 101. Currently IN GOOD STANDING with last annual report filed April 7, 2025 -- the entity is actively maintained 6+ years post-Epstein death. Business Basics VI served as registered agent for a minimum of 20 Epstein USVI entities including Southern Trust Company, LSJE LLC, all island holding companies, vehicle/air entities, and financial entities. The continued good standing of Business Basics VI alongside Kellerhals Ferguson Kroblin PLLC and Southern Financial LLC indicates ongoing estate administration or successor operations. CRITICAL: New entity Cypress Hill LLC (DC0128296, Mar 2024) was registered with Business Basics VI as agent, suggesting the infrastructure continues to onboard new entities.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2012-01-26",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:38:59",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582110",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:DC0128296",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1543,
+      "finding_type": "financial",
+      "summary": "Business Basics VI LLC (USVI 582110), registered 01/26/2012, resident agent Erika Kellerhals. Currently IN GOOD STANDING (last AR 2025). Served as registered agent for at least 15 Epstein entities in USVI: LSJE LLC (581737), STC (581871), Poplar Inc (581872), Maple Inc (581976), Nautilus Inc (581975), Laurel Inc (581980), Cypress Inc (581974), JEGE LLC (582953), Plan D LLC (582954), Hyperion Air LLC (582952), Southern Financial LLC (583164), Southern Country Intl (584624), Southern Country Opportunity Fund (DC0102285), Prytanee LLC (586644), Freedom Air Petroleum (581842). BBVI operates from Royal Palms Professional Building, 62-3a and 62-3b Estate Thomas Suite 101, Charlotte Amalie. BBVI is the single chokepoint for the entire USVI corporate infrastructure — Kellerhals controlled all registered agent functions.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2012-01-26",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:50:18",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581737",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581842",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581871",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581872",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581974",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581975",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581976",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:581980",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582110",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582952",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582953",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582954",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:583164",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:584624",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:586644",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2816,
+      "finding_type": "document",
+      "summary": "BBVI contact details from USVI Resident Agent Forms (multiple EFTAs): Phone: (340) 776-8812, Email: info@bizusvi.com, Physical: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101, St. Thomas VI 00802, Mailing: 9053 Estate Thomas Suite 101, St. Thomas VI 00802. Earlier address (pre-move, circa 2012): 9100 Havensight, Port of Sale, Suite 15-16, St. Thomas VI 00802 (shared with Kellerhals Ferguson LLP). A second phone (340) 779-2564 appears on earlier agent forms (Sept 2012). The address migration from Havensight to Royal Palms correlates with the firm's evolution from Kellerhals Ferguson LLP to standalone BBVI operations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2012-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:30:57",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266735",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296015",
+          "source_quote": " DAYTIME CONTACT NUMBER (340) 776-8812...EMAIL ADDRESS info@bizusvi.com...MAILING ADDRESS Royal Palms Professional Building, 9053 Estate Thomas Suite 101",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01298093",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01298505",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2813,
+      "finding_type": "document",
+      "summary": "Formal corporate resolution for Nautilus Inc (EFTA01266733) documents the deliberate transition from Kellerhals Ferguson LLP to Business Basics VI LLC as registered agent. The resolution, signed by Jeffrey E. Epstein (President) and Darren Indyke (Secretary), states: 'the current agent for service of process of the Corporation, Kellerhals Ferguson LLP, hereby resigns as agent for service of process' and 'the Corporation hereby appoints, Business Basics VI LLC, as the new agent.' This was executed on September 13, 2012, with BBVI's initial address at 9100 Havensight, Port of Sale, Ste 15-16, St. Thomas VI 00802 (same as Kellerhals Ferguson LLP). The transition was notarized by Harry I. Beller, Notary Public State of New York (Commission No. 01814853924, Rockland County). This shows BBVI was purpose-built to replace the law firm as registered agent.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2012-09-13",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:30:29",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266724",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266733",
+          "source_quote": " the current agent for service of process of the Corporation, Kellerhals Ferguson LLP, hereby resigns as agent for service of process for the Corporation...the Corporation hereby appoints, Business Basics VI, LLC, as the new agent for service of process",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266734",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "finding_type": "financial",
+      "summary": "Gratitude America Ltd received IRS 501(c)(3) tax-exempt determination (EFTA01365895) dated Sept 27, 2012, addressed to 9100 Havensight Port of Sale Ste 15, St Thomas VI 00802 -- the BBVI/Kellerhals Ferguson LLP address. Effective date April 25, 2012. Classified as private foundation under section 509(a). Contact: Sherry Q Wan (IRS). Separate Fedwire records (EFTA01273131-32) show Gratitude America received wires at this address: $150,000 (Dec 11, 2017) and $233,087.94 (date unclear, annotated 'TO CLOSE DB ACCOUNT'). Originator: Gratitude America Ltd C/O HBRK Associates Inc, 575 Lexington Avenue 4th Floor, New York NY 10022 (Indyke/Kahn entity). Wire routed from Deutsche Bank Trust Company Americas to FirstBank Puerto Rico. This confirms BBVI's address served as the official IRS and banking address for Epstein's primary charitable vehicle.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2012-09-27",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:33:33",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273131",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01273132",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365895",
+          "source_quote": " GRATITUDE AMERICA LTD 9100 HAVENSIGHT PORT OF SALE STE 15...Effective Date of Exemption: April 25, 2012...we have determined that you are exempt from Federal income tax under section 501(c)(3)",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2818,
+      "finding_type": "document",
+      "summary": "Prytanee LLC Articles of Organization (EFTA01296058-60, Corp No. 586644) show Brett Geary as sole organizer, with BBVI as resident agent. Registered July 22, 2016, certified same date by Lt. Gov. Osbert E. Potter. Initial manager address is '6-04 Avenue Evenement' — a French address consistent with Prytanee being the art acquisition vehicle for Etienne Binant in Paris. The LLC was member-managed with initial capital of One Thousand Dollars (,000.00). Physical/mailing address: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101. This confirms Brett Geary personally organized entities with operational addresses in France, not just USVI.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-07-22",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:31:18",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296058",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296059",
+          "source_quote": " Organizer...Brett Geary...Physical Address: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101...initial manager...6-04 Avenue Evenement",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296060",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2857,
+      "finding_type": "intelligence",
+      "summary": "Synthesis across 5+ Deutsche Bank and corporate documents reveals Kellerhals occupied a precise structural position in the Epstein USVI corporate hierarchy: she held officer titles (Secretary/Treasurer) across multiple entities but was explicitly denied signing authority over financial accounts per Richard Kahn (EFTA01373347). In DB KYC filings, she was grouped with inner-circle members (Beller, Indyke, Kahn) for Contact Information only, while Indyke and Kahn were listed for Current ID (account access level). She was the local USVI touchpoint for DB relationship managers (EFTA01386745 re Butterfly account opening, Oct 2018). This is a deliberate compartmentalization: Kellerhals provided the local legal infrastructure and government relations while Kahn/Indyke retained exclusive financial control from New York. BBVI and KFK PLLC functioned as the USVI service layer of a NY-controlled financial operation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-10",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:47:27",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01298343",
+          "source_quote": "President Jeffrey E Epstein Vice President Darren K Indyke Treasurer Erika Kellerhals Secretary Erika Kellerhals",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363310",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01373347",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01386745",
+          "source_quote": "For Butterfly Approved KYC Harry Beller Contact Information Erika Kellerhals Contact Information Darren Indyke Current ID Richard Kahn Current ID",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387097",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2812,
+      "finding_type": "identity",
+      "summary": "Brett Geary (full name Brett A. Geary) is confirmed female per notarized Articles of Organization for multiple Epstein USVI entities. Multiple formation documents state 'personally appeared Brett Geary, who, being by me first duly sworn, declared that she is the person who signed the foregoing document as the Organizer.' Geary is described as a 'business consultant' (not attorney) in Virgin Islands Daily News reporting (May 7, 2019). Personal address: 2-11B St. Joseph & Rosendahl, St. Thomas, V.I. 00802. She served as organizer (incorporator) for at least 7 Epstein USVI entities including Zorro Management LLC, Prytanee LLC, and others alongside Erika Kellerhals and Gregory Ferguson.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-05-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:30:18",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296011",
+          "source_quote": " personally appeared Brett Geary, who being by me first duly sworn, declared that she is the person who signed the foregoing document as the Organizer of the Company",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01360967",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364159",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_031209",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2858,
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Business Basics VI LLC (USVI 582110) is a single-client captive service entity — NOT a general registered agent. All 14+ entities in registry.db with BBVI as agent are confirmed Epstein entities (the only exception is KFK Strategic Holdings LLC, the law firm's own holding company). BBVI operated as part of a coordinated three-entity platform at Suite 101 Royal Palms: BBVI (formation/compliance/tax via Brett Geary, IRS Enrolled Agent), KFK PLLC (legal/EDC via Kellerhals), and West Indies Title LLC (closings). Kellerhals functioned as a triple-role intermediary: (1) corporate infrastructure (28+ entities, IDC tax benefits), (2) political conduit (arranged Epstein meetings with both USVI governors Mapp and Bryan, maintained Plaskett relationship, conducted DC Hill meetings, facilitated endorsement-linked wire transfers), (3) operations manager (utilities, construction, staffing, real estate acquisitions). Yet she had NO financial signing authority — Kahn/Indyke retained all financial control from NY. BBVI fees were NOT paid through captured Deutsche Bank records — payment channel remains unknown. Brett Geary (female, IRS Enrolled Agent, self-employed consultant) was the operational backbone handling entity formations and tax compliance. Marcel Kellerhals remains a documentary ghost — zero results across all databases except DugganUSA corporate filings (possibly OCR artifacts). The BBVI infrastructure remains active: BBVI In Good Standing 2025, Geary confirmed at same address via 2024 FEC donation, Cypress Hill LLC formed Mar 2024, Kellerhals Law P.C. formed Jan 2026. Zero federal court exposure, zero FARA/LDA registrations despite documented political activity, zero offshore leak appearances — consistent with deliberate operational security.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2024-03",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:50:52",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266733",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296011",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297594",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363310",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363319",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01373347",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02239485",
+          "source_quote": "Lesley. I am in some meetings on the Hill - which will take up most of my day. \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802 \nOffice \nCell: \n> On Mar 14, 2018, at 3:39 PM, \nwrote: \n> \n• HI Erika...Hope you are well_Jeffrey would...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02343601",
+          "source_quote": "Jeffrey E. \nSubject: \nRe: \nUnderstood. Thank you Governor.  \nErika A. Kellerhals \nMember \nKellerhals Ferguson Kr=blin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366972",
+          "source_quote": "He's the former Commissioner of Labor who is running for Governor. =o:p> \nErika A. Kellerhals \nMember \nKellerhals Fer=uson Kroblin PLLC \nRoyal Palm Professional Building \n9053 Est=te Thomas, Suite 101 \nSt. Thomas, VI 00802 \nTel: \n=o:p> \nFax: \ntel\nemail: =span style&color:#0563C1\nmailto \nNotice:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616202",
+          "source_quote": "I tried you. Deal is done. Need wire : ) \nErika A. Kellerhals \nMemb=r \nKellerhals Ferguson Kroblin PLLC \n9053 Estate Thomas, Suite 101 \nSt. Thomas VI 00802",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1579,
+      "finding_type": "intelligence",
+      "summary": "BBVI infrastructure continues active operations as of February 2026 with three distinct operational threads: (1) ONGOING MAINTENANCE: BBVI itself (582110) In Good Standing with AR 2025 filed Apr 7 2025. Kellerhals Ferguson Kroblin PLLC (583297) In Good Standing with AR 2025. (2) ACTIVE ESTATE OPERATIONS: Southern Financial LLC (583164) was administratively dissolved FOUR TIMES in 2024-2025 but restored each time, most recently Feb 21 2025 (agent email Brett@bizusvi.com). J. Epstein Virgin Islands Foundation (551494) voluntarily dissolved Nov 6 2024. (3) NEW ENTITY FORMATION: Cypress Hill LLC (DC0128296) registered Mar 26 2024. Kellerhals Law P.C. (DP0137481) registered Jan 28 2026 -- just 2 weeks ago -- as Erika Kellerhals sole professional corporation at 9053 Estate Thomas. The pattern shows: wind-down of legacy Epstein entities (Foundation dissolved), persistent maintenance of financial entities (Southern Financial repeatedly rescued from dissolution), and new entity formation through the same infrastructure. Kellerhals has rebranded her legal practice from partnership (Kellerhals Ferguson Kroblin) to solo P.C., suggesting either partner departure or strategic restructuring.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2025-04-07",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:12:04",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI-582110",
+          "source_quote": "BUSINESS BASICS VI LLC, Status: In Good Standing, Last AR Filed Date: 04/07/2025, Resident Agent: Erika KELLERHALS",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2847,
+      "finding_type": "intelligence",
+      "summary": "BBVI website (bizusvi.com, SSL certificate expired as of Feb 2026) markets itself as a general corporate services company: 'locally owned and operated corporate services company in the USVI' offering 'business formations, obtaining necessary licenses, preparing all annual statutory filing requirements as well as providing resident agent services.' Website has About, Services, Affiliates, Contact pages. Also has Twitter/X account @BizUSVI. However, investigation database finding #2822 confirms zero non-Epstein clients identified across ALL search sources. The public-facing website creates an appearance of a legitimate multi-client corporate services firm, but all available evidence points to a captive single-client entity. The expired SSL certificate (HTTP-only, no HTTPS) suggests minimal ongoing web presence maintenance. ZoomInfo lists BBVI at 9053 Estate Thomas Ste 101 but details are paywalled.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:09",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "http://bizusvi.com/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.zoominfo.com/c/business-basics-vi/395742308",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2815,
+      "finding_type": "identity",
+      "summary": "Nicole Miller of St. Thomas, USVI is identified as a third incorporator alongside Brett Geary and Greg Ferguson in the Articles of Incorporation for at least one Epstein USVI entity (EFTA01387097). This entity lists three incorporators (Brett Geary, Greg Ferguson, Nicole Miller) with initial board of directors: President Jeffrey E. Epstein, Treasurer Darren Indyke, Secretary Erika A. Kellerhals. Minimum 3 directors required. Nicole Miller has zero prior findings or connections in the investigation database. Her role appears limited to satisfying USVI corporate law minimum incorporator requirements.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:30:48",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387097",
+          "source_quote": " INCORPORATORS...Brett Geary St. Thomas, USVI...Greg Ferguson ISMt. Thomas, USVI...Nicole Miller St. Thomas USVI",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2817,
+      "finding_type": "document",
+      "summary": "Brett Geary appears on USVI Division of Corporations personnel list (EFTA01363319) as 'GEARY, BRETT A A' at position #6, alongside TRAYNOR, CARA / ROBINSON, CARA (#5) and THOMAS, WILLIAM AVERY (#7). Separate document (EFTA01363318) lists FERGUSON, GREG J / FERGUSON, GREGORY J (#2), HANRATTY, THOMAS E (#3), and ROBINSON, KELLY M / TRAYNOR, KELLY (#4). These appear to be authorized corporate contacts associated with BBVI-serviced entities, listing all persons with signing authority or corporate roles. The presence of multiple individuals beyond the Kellerhals-Ferguson-Geary triad suggests BBVI maintained a small staff for managing entity filings.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:31:07",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363318",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363319",
+          "source_quote": " No. Full Name 5: TRAYNOR, CARA ROBINSON, CARA 6: GEARY, BRETT A A 7: THOMAS, WILLIAM AVERY",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2819,
+      "finding_type": "document",
+      "summary": "Cross-database document inventory for BBVI: LMSBAND identifies 'Business Basics VI' as an ORG entity appearing in 60 files (67 total mentions). DugganUSA returns 1,000 hits for 'Business Basics' and 277 for 'Brett Geary.' LMSBAND returns 20+ documents for Brett Geary and 1 for Marcel Kellerhals. The Marcel Kellerhals reference (EFTA01269393) is a FirstBank banking form — the OCR renders 'Email' as 'Emit Marcel' — likely a false positive rather than a genuine Marcel Kellerhals reference. Marcel Kellerhals returns zero results in DOJ Vol 11, zero in Epstein 20K, and zero in Unified DB, despite 661 DugganUSA hits (per earlier finding #1367). This indicates Marcel appears primarily in DugganUSA-exclusive corporate filings, NOT in Epstein's personal correspondence or seized documents.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:31:31",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269393",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LMSBAND:search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2820,
+      "finding_type": "financial",
+      "summary": "Zero financial transactions found for Business Basics VI LLC, Brett Geary, or Kellerhals in the DS10 Deutsche Bank dataset (579 transactions, $304M total). This is investigatively significant: it means BBVI fees and Kellerhals legal fees were NOT paid through the Deutsche Bank accounts captured in the SDNY grand jury subpoena. Payments likely flowed through separate banking channels (FirstBank VI is documented for Laurel Inc, EFTA01269393) or through inter-entity transfers within the STC ecosystem. Combined with zero results for bizusvi email addresses in DOJ Vol 11, this suggests BBVI's operational communications and financial dealings were deliberately segregated from Epstein's personal email accounts and DB banking.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:32:53",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10:search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01269393",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2822,
+      "finding_type": "intelligence",
+      "summary": "Registry database confirms 14 entities with BBVI as registered agent -- ALL are known Epstein entities. Zero non-Epstein clients identified across all search sources (DOJ Vol 11, DugganUSA, LMSBAND, Unified DB, Epstein 20K, USVI registry, investigations DB). The 14 entities: Cypress Hill LLC (active), Cypress Inc (dissolved), Gratitude America Ltd (dissolved), IGO Company LLC (dissolved), J. Epstein VI Foundation Inc (dissolved), Jeepers Inc (admin dissolved), Laurel Inc (dissolved), LSJ Emergency LLC (dissolved), LSJE LLC (dissolved), Maple Inc (dissolved), Nautilus Inc (dissolved), Poplar Inc (dissolved), Southern Trust Company Inc (active), Zorro Management LLC (dissolved). This is consistent with BBVI being a single-client captive service entity, not a general-purpose registered agent. The 'business consultant' designation on STC's license may have been used to justify EDC tax benefits rather than reflecting actual multi-client consulting practice.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:34:59",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "registry.db:agent_search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2829,
+      "finding_type": "legal",
+      "summary": "BBVI appears in ZERO federal litigation as a party despite managing 28+ Epstein USVI shell entities. Comprehensive CourtListener search across all federal courts found: zero cases naming 'Business Basics VI' as plaintiff, defendant, or party. Search for 'Business Basics' returned 20 results, all unrelated (Design Basics copyright cases, Kitchen Basics bankruptcy, etc.). Cases search returned 20 results with zero matches. Opinions search returned 10 results with zero matches. This is investigatively significant: a registered agent company managing a M+ corporate infrastructure with 28 entities has zero federal court footprint, suggesting effective legal insulation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:39:26",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener_search_2026-02-15",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2842,
+      "finding_type": "legal",
+      "summary": "The Royal Palms Professional Building at 9053 Estate Thomas, St Thomas VI 00802 is a multi-tenant professional office building located behind the hospital in Estate Thomas. Google Maps link shared by Kellerhals in EFTA02606182. Other tenants include: COG RESTORE (Suite 206) - Comprehensive Orthopaedic Global physical therapy/orthopedics (Dr. Brian C. Bacot), St. Thomas Dental, and other healthcare providers. Suite 101 houses KFK/BBVI/Gratitude America. Suite 102 was previously used for some Epstein entities (EFTA01296058 shows Prytanee LLC at Suite 102). The building physical address uses lot identifiers 62-3A and 62-3B Estate Thomas. Ownership of the building was NOT identified in available sources -- no ACRIS records (not NYC jurisdiction) and USVI property records were not accessible. The building appears to be a standard professional/medical office complex, not a Kellerhals-owned property.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:44:03",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01296058",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02606182",
+          "source_quote": "Royal Palms Professional Building Suite 101. Its the new office building behind the hospital",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://cogvi.com/locations/cog-restore-st-thomas/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2843,
+      "finding_type": "intelligence",
+      "summary": "BBVI confirmed absent from all offshore leak databases and sanctions lists. OCCRP Aleph: 20 results for 'Business Basics' but ZERO matches for BBVI (all unrelated companies). OpenSanctions: zero results for both 'Business Basics' and 'Kellerhals.' ICIJ database not searchable (Neo4j not installed), but Aleph (which includes ICIJ data) returned no matches. CourtListener: zero results for BBVI as a party. GDELT news search: zero results for 'Kellerhals Epstein' and 'Business Basics Epstein' in the 3-month rolling window. EpsteinExposed API returned HTTP 500 errors (service down). The absence from ICIJ/Aleph is expected since USVI is a US territory (not a traditional offshore jurisdiction tracked by ICIJ) and BBVI is a domestic entity, not an offshore intermediary. However, the absence from news databases is investigatively significant -- BBVI has maintained near-total media invisibility despite managing 28+ entities for the world's most notorious sex trafficker.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:44:17",
+      "target_name": "Business Basics VI LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GDELT search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OCCRP Aleph search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 764,
+      "person_a": "Business Basics VI",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Resident agent of BBVI, which served as agent for 15+ Epstein USVI entities",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:50:59",
+      "other_person": "Erika Kellerhals",
+      "other_person_slug": "erika-kellerhals",
+      "evidence": []
+    },
+    {
+      "id": 769,
+      "person_a": "Business Basics VI",
+      "person_b": "LSJE LLC",
+      "relationship_type": "corporate",
+      "description": "BBVI served as registered agent for LSJE LLC and 14+ other Epstein USVI entities",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:53:09",
+      "other_person": "LSJE LLC",
+      "other_person_slug": "lsje-llc",
+      "evidence": []
+    },
+    {
+      "id": 727,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "Erika Kellerhals",
+      "relationship_type": "corporate",
+      "description": "Kellerhals is registered agent for Business Basics VI LLC (USVI 582110, Jan 2012). Business Basics serves as registered agent for 20+ Epstein USVI entities. Agent email all@bizusvi.com. Both at 9053 Estate Thomas Suite 101.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:37:41",
+      "other_person": "Erika Kellerhals",
+      "other_person_slug": "erika-kellerhals",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:582110",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "person_a": "Brett Geary",
+      "person_b": "Business Basics VI LLC",
+      "relationship_type": "corporate",
+      "description": "Geary associated with Business Basics VI per agent email brett@bizusvi.com on LSJ Emergency LLC. Co-incorporator of Laurel Inc and Poplar Inc with Kellerhals and Ferguson.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:37:46",
+      "other_person": "Brett Geary",
+      "other_person_slug": "brett-geary",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI:585911",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA01269407",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1427,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "Kellerhals Ferguson LLP",
+      "relationship_type": "corporate",
+      "description": "BBVI was purpose-built to replace Kellerhals Ferguson LLP as registered agent for Epstein USVI entities. Documented in formal corporate resolution for Nautilus Inc (EFTA01266733, Sept 13, 2012), signed by Epstein (President) and Indyke (Secretary). BBVI took the same address as KF LLP (9100 Havensight Port of Sale Ste 15-16) before later moving to Royal Palms. The transition separated the law practice from the registered agent function.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:32:02",
+      "other_person": "Kellerhals Ferguson LLP",
+      "other_person_slug": "kellerhals-ferguson-llp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266724",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01266733",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1433,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "Kellerhals Ferguson Kroblin PLLC",
+      "relationship_type": "corporate",
+      "description": "KFK PLLC is the operating law firm; BBVI LLC is the registered agent entity. Both controlled by Erika Kellerhals. KFK handles litigation and legal advisory; BBVI provides registered agent services for 28+ Epstein entities. Same physical address: Royal Palms Professional Building, 9053 Estate Thomas Suite 101.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:41:22",
+      "other_person": "Kellerhals Ferguson Kroblin PLLC",
+      "other_person_slug": "kellerhals-ferguson-kroblin-pllc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener_KFK_cases",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1439,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "West Indies Title LLC",
+      "relationship_type": "corporate",
+      "description": "BBVI and West Indies Title LLC are formally affiliated companies per bizusvi.com. Both operate from the same Royal Palms Professional Building complex in St Thomas. West Indies Title provides title insurance and real estate closing services. This affiliation means the Kellerhals ecosystem handled every aspect of Epstein's USVI real estate transactions: entity formation (BBVI), legal counsel (KFK), and title/closings (West Indies Title).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:45:45",
+      "other_person": "West Indies Title LLC",
+      "other_person_slug": "west-indies-title-llc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://bizusvi.com/affiliates.html",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1447,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "KFK Strategic Holdings LLC",
+      "relationship_type": "corporate",
+      "description": "KFK Strategic Holdings LLC (USVI 585923, formed Dec 2015) uses BBVI as its registered agent. KFK is the holding company for the Kellerhals Ferguson Kroblin law firm. This creates a circular dependency: BBVI manages KFK, and KFK PLLC is the affiliated law firm of BBVI.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 03:48:14",
+      "other_person": "KFK Strategic Holdings LLC",
+      "other_person_slug": "kfk-strategic-holdings-llc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI-585923",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1453,
+      "person_a": "Business Basics VI LLC",
+      "person_b": "Mermaid Cove LLC",
+      "relationship_type": "corporate",
+      "description": "BBVI serves as registered agent for Mermaid Cove LLC (DC0100643) at Royal Palms. Still active AR 04/02/2025",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 04:38:46",
+      "other_person": "Mermaid Cove LLC",
+      "other_person_slug": "mermaid-cove-llc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI-DC0100643",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1452,
+      "person_a": "Bayview Holdings LLC",
+      "person_b": "Business Basics VI LLC",
+      "relationship_type": "corporate",
+      "description": "BBVI served as registered agent for Bayview Holdings LLC (DC0100491) at Royal Palms Professional Building",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 04:38:46",
+      "other_person": "Bayview Holdings LLC",
+      "other_person_slug": "bayview-holdings-llc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "USVI-DC0100491",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2003",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Business Basics VI LLC operates a three-entity corporate services ecosystem at 9053 Estate Thomas Suite 101: (1) BBVI itself - entity formation, registered agent services, business licensing, annual compliance filings, tax preparation (via Brett Geary EA); (2) Kellerhals Ferguson Kroblin PLLC - law firm handling tax planning, EDC program, corporate transactions, litigation, real estate, banking; (3) West Indies Title LLC - title insurance company (Carrie de Leon principal, operating since 2003). BBVI's website (bizusvi.com, SSL expired) explicitly states it is 'an affiliate of the law firm Kellerhals Ferguson Kroblin PLLC and the title insurance company West Indies Title, LLC.' KFK also has NY office at 40 Wall Street 35th Floor (212-267-7600). KFK is affiliated with Solomon Blum Heymann LLP (AV-rated Wall Street firm). This three-entity structure provides full-service corporate lifecycle management: formation (BBVI), legal counsel/tax strategy (KFK), and real estate closings/title insurance (West Indies Title).",
+      "confidence": "high",
+      "id": 2839
+    },
+    {
+      "date": "2011-12-01",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Southern Trust Company Inc (STC) USVI business license (EFTA01297594) names Brett Geary as the primary business contact. License details: Business Name: SOUTHERN TRUST COMPANY INC, Organization Type: C CORP, Contact: Brett Geary, Physical Address: 18A-1, 18B-1, E 188 EST SMITH STE B3-3 6B-6 (Red Hook), Mailing Address: 6100 RED HOOK QUARTER STE 8.3, Business Activity: BUSINESS AND MANAGEMENT CONSULTING, License period: 12/01/2011 - 12/31/2018. This confirms Brett Geary was the operational contact for STC (not just a formation agent) and that STC's licensed business activity was formally classified as consulting, not banking or trust services.",
+      "confidence": "confirmed",
+      "id": 2814
+    },
+    {
+      "date": "2012-01-26",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Business Basics VI LLC (USVI entity 582110) serves as the central registered agent hub for the entire Epstein USVI corporate infrastructure. Registered Jan 26, 2012. Resident agent: Erika Kellerhals. Agent email: all@bizusvi.com (general), brett@bizusvi.com (Brett Geary, co-incorporator of Poplar Inc and Laurel Inc). Physical address: Royal Palms Professional Building 62-3a and 62-3b Estate Thomas Suite 101, Charlotte Amalie VI 00802. Mailing address: 9053 Estate Thomas Suite 101. Currently IN GOOD STANDING with last annual report filed April 7, 2025 -- the entity is actively maintained 6+ years post-Epstein death. Business Basics VI served as registered agent for a minimum of 20 Epstein USVI entities including Southern Trust Company, LSJE LLC, all island holding companies, vehicle/air entities, and financial entities. The continued good standing of Business Basics VI alongside Kellerhals Ferguson Kroblin PLLC and Southern Financial LLC indicates ongoing estate administration or successor operations. CRITICAL: New entity Cypress Hill LLC (DC0128296, Mar 2024) was registered with Business Basics VI as agent, suggesting the infrastructure continues to onboard new entities.",
+      "confidence": "medium",
+      "id": 1504
+    },
+    {
+      "date": "2012-01-26",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Business Basics VI LLC (USVI 582110), registered 01/26/2012, resident agent Erika Kellerhals. Currently IN GOOD STANDING (last AR 2025). Served as registered agent for at least 15 Epstein entities in USVI: LSJE LLC (581737), STC (581871), Poplar Inc (581872), Maple Inc (581976), Nautilus Inc (581975), Laurel Inc (581980), Cypress Inc (581974), JEGE LLC (582953), Plan D LLC (582954), Hyperion Air LLC (582952), Southern Financial LLC (583164), Southern Country Intl (584624), Southern Country Opportunity Fund (DC0102285), Prytanee LLC (586644), Freedom Air Petroleum (581842). BBVI operates from Royal Palms Professional Building, 62-3a and 62-3b Estate Thomas Suite 101, Charlotte Amalie. BBVI is the single chokepoint for the entire USVI corporate infrastructure — Kellerhals controlled all registered agent functions.",
+      "confidence": "confirmed",
+      "id": 1543
+    },
+    {
+      "date": "2012-09",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "BBVI contact details from USVI Resident Agent Forms (multiple EFTAs): Phone: (340) 776-8812, Email: info@bizusvi.com, Physical: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101, St. Thomas VI 00802, Mailing: 9053 Estate Thomas Suite 101, St. Thomas VI 00802. Earlier address (pre-move, circa 2012): 9100 Havensight, Port of Sale, Suite 15-16, St. Thomas VI 00802 (shared with Kellerhals Ferguson LLP). A second phone (340) 779-2564 appears on earlier agent forms (Sept 2012). The address migration from Havensight to Royal Palms correlates with the firm's evolution from Kellerhals Ferguson LLP to standalone BBVI operations.",
+      "confidence": "confirmed",
+      "id": 2816
+    },
+    {
+      "date": "2012-09-13",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Formal corporate resolution for Nautilus Inc (EFTA01266733) documents the deliberate transition from Kellerhals Ferguson LLP to Business Basics VI LLC as registered agent. The resolution, signed by Jeffrey E. Epstein (President) and Darren Indyke (Secretary), states: 'the current agent for service of process of the Corporation, Kellerhals Ferguson LLP, hereby resigns as agent for service of process' and 'the Corporation hereby appoints, Business Basics VI LLC, as the new agent.' This was executed on September 13, 2012, with BBVI's initial address at 9100 Havensight, Port of Sale, Ste 15-16, St. Thomas VI 00802 (same as Kellerhals Ferguson LLP). The transition was notarized by Harry I. Beller, Notary Public State of New York (Commission No. 01814853924, Rockland County). This shows BBVI was purpose-built to replace the law firm as registered agent.",
+      "confidence": "confirmed",
+      "id": 2813
+    },
+    {
+      "date": "2012-09-27",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Gratitude America Ltd received IRS 501(c)(3) tax-exempt determination (EFTA01365895) dated Sept 27, 2012, addressed to 9100 Havensight Port of Sale Ste 15, St Thomas VI 00802 -- the BBVI/Kellerhals Ferguson LLP address. Effective date April 25, 2012. Classified as private foundation under section 509(a). Contact: Sherry Q Wan (IRS). Separate Fedwire records (EFTA01273131-32) show Gratitude America received wires at this address: $150,000 (Dec 11, 2017) and $233,087.94 (date unclear, annotated 'TO CLOSE DB ACCOUNT'). Originator: Gratitude America Ltd C/O HBRK Associates Inc, 575 Lexington Avenue 4th Floor, New York NY 10022 (Indyke/Kahn entity). Wire routed from Deutsche Bank Trust Company Americas to FirstBank Puerto Rico. This confirms BBVI's address served as the official IRS and banking address for Epstein's primary charitable vehicle.",
+      "confidence": "confirmed",
+      "id": 2821
+    },
+    {
+      "date": "2016-07-22",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Prytanee LLC Articles of Organization (EFTA01296058-60, Corp No. 586644) show Brett Geary as sole organizer, with BBVI as resident agent. Registered July 22, 2016, certified same date by Lt. Gov. Osbert E. Potter. Initial manager address is '6-04 Avenue Evenement' — a French address consistent with Prytanee being the art acquisition vehicle for Etienne Binant in Paris. The LLC was member-managed with initial capital of One Thousand Dollars (,000.00). Physical/mailing address: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101. This confirms Brett Geary personally organized entities with operational addresses in France, not just USVI.",
+      "confidence": "high",
+      "id": 2818
+    },
+    {
+      "date": "2018-10",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Synthesis across 5+ Deutsche Bank and corporate documents reveals Kellerhals occupied a precise structural position in the Epstein USVI corporate hierarchy: she held officer titles (Secretary/Treasurer) across multiple entities but was explicitly denied signing authority over financial accounts per Richard Kahn (EFTA01373347). In DB KYC filings, she was grouped with inner-circle members (Beller, Indyke, Kahn) for Contact Information only, while Indyke and Kahn were listed for Current ID (account access level). She was the local USVI touchpoint for DB relationship managers (EFTA01386745 re Butterfly account opening, Oct 2018). This is a deliberate compartmentalization: Kellerhals provided the local legal infrastructure and government relations while Kahn/Indyke retained exclusive financial control from New York. BBVI and KFK PLLC functioned as the USVI service layer of a NY-controlled financial operation.",
+      "confidence": "medium",
+      "id": 2857
+    },
+    {
+      "date": "2019-05-07",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Brett Geary (full name Brett A. Geary) is confirmed female per notarized Articles of Organization for multiple Epstein USVI entities. Multiple formation documents state 'personally appeared Brett Geary, who, being by me first duly sworn, declared that she is the person who signed the foregoing document as the Organizer.' Geary is described as a 'business consultant' (not attorney) in Virgin Islands Daily News reporting (May 7, 2019). Personal address: 2-11B St. Joseph & Rosendahl, St. Thomas, V.I. 00802. She served as organizer (incorporator) for at least 7 Epstein USVI entities including Zorro Management LLC, Prytanee LLC, and others alongside Erika Kellerhals and Gregory Ferguson.",
+      "confidence": "high",
+      "id": 2812
+    },
+    {
+      "date": "2024-03",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Business Basics VI LLC (USVI 582110) is a single-client captive service entity — NOT a general registered agent. All 14+ entities in registry.db with BBVI as agent are confirmed Epstein entities (the only exception is KFK Strategic Holdings LLC, the law firm's own holding company). BBVI operated as part of a coordinated three-entity platform at Suite 101 Royal Palms: BBVI (formation/compliance/tax via Brett Geary, IRS Enrolled Agent), KFK PLLC (legal/EDC via Kellerhals), and West Indies Title LLC (closings). Kellerhals functioned as a triple-role intermediary: (1) corporate infrastructure (28+ entities, IDC tax benefits), (2) political conduit (arranged Epstein meetings with both USVI governors Mapp and Bryan, maintained Plaskett relationship, conducted DC Hill meetings, facilitated endorsement-linked wire transfers), (3) operations manager (utilities, construction, staffing, real estate acquisitions). Yet she had NO financial signing authority — Kahn/Indyke retained all financial control from NY. BBVI fees were NOT paid through captured Deutsche Bank records — payment channel remains unknown. Brett Geary (female, IRS Enrolled Agent, self-employed consultant) was the operational backbone handling entity formations and tax compliance. Marcel Kellerhals remains a documentary ghost — zero results across all databases except DugganUSA corporate filings (possibly OCR artifacts). The BBVI infrastructure remains active: BBVI In Good Standing 2025, Geary confirmed at same address via 2024 FEC donation, Cypress Hill LLC formed Mar 2024, Kellerhals Law P.C. formed Jan 2026. Zero federal court exposure, zero FARA/LDA registrations despite documented political activity, zero offshore leak appearances — consistent with deliberate operational security.",
+      "confidence": "medium",
+      "id": 2858
+    },
+    {
+      "date": "2025-04-07",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "BBVI infrastructure continues active operations as of February 2026 with three distinct operational threads: (1) ONGOING MAINTENANCE: BBVI itself (582110) In Good Standing with AR 2025 filed Apr 7 2025. Kellerhals Ferguson Kroblin PLLC (583297) In Good Standing with AR 2025. (2) ACTIVE ESTATE OPERATIONS: Southern Financial LLC (583164) was administratively dissolved FOUR TIMES in 2024-2025 but restored each time, most recently Feb 21 2025 (agent email Brett@bizusvi.com). J. Epstein Virgin Islands Foundation (551494) voluntarily dissolved Nov 6 2024. (3) NEW ENTITY FORMATION: Cypress Hill LLC (DC0128296) registered Mar 26 2024. Kellerhals Law P.C. (DP0137481) registered Jan 28 2026 -- just 2 weeks ago -- as Erika Kellerhals sole professional corporation at 9053 Estate Thomas. The pattern shows: wind-down of legacy Epstein entities (Foundation dissolved), persistent maintenance of financial entities (Southern Financial repeatedly rescued from dissolution), and new entity formation through the same infrastructure. Kellerhals has rebranded her legal practice from partnership (Kellerhals Ferguson Kroblin) to solo P.C., suggesting either partner departure or strategic restructuring.",
+      "confidence": "medium",
+      "id": 1579
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "BBVI website (bizusvi.com, SSL certificate expired as of Feb 2026) markets itself as a general corporate services company: 'locally owned and operated corporate services company in the USVI' offering 'business formations, obtaining necessary licenses, preparing all annual statutory filing requirements as well as providing resident agent services.' Website has About, Services, Affiliates, Contact pages. Also has Twitter/X account @BizUSVI. However, investigation database finding #2822 confirms zero non-Epstein clients identified across ALL search sources. The public-facing website creates an appearance of a legitimate multi-client corporate services firm, but all available evidence points to a captive single-client entity. The expired SSL certificate (HTTP-only, no HTTPS) suggests minimal ongoing web presence maintenance. ZoomInfo lists BBVI at 9053 Estate Thomas Ste 101 but details are paywalled.",
+      "confidence": "medium",
+      "id": 2847
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2821,
+      2816,
+      2813,
+      2812,
+      2857,
+      2858,
+      2818,
+      2814,
+      2842,
+      2820,
+      2815,
+      1543
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          764,
+          769,
+          727,
+          730,
+          1427,
+          1433,
+          1439,
+          1447,
+          1453,
+          1452
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          1543,
+          2821,
+          2820
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2839,
+          1504,
+          2829,
+          2842
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          2857,
+          2858,
+          1579,
+          2847,
+          2822,
+          2843
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:54:53.625514",
+    "lead": "<p>Business Basics VI LLC (USVI entity 582110) is a corporate services company registered in the U.S. Virgin Islands on January 26, 2012, with Erika Kellerhals as resident agent. Despite marketing itself on its website (bizusvi.com) as a \"locally owned and operated corporate services company,\" all available evidence indicates BBVI was a single-client captive entity built exclusively to service <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>&rsquo;s USVI corporate infrastructure. It served as the registered agent for at least 20 Epstein entities &mdash; including <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company</a>, LSJE LLC, Hyperion Air LLC, and all the island holding companies &mdash; while no non-Epstein clients have been identified across any search source. BBVI operated from Suite 101 of the Royal Palms Professional Building at 9053 Estate Thomas, Charlotte Amalie, alongside two formally affiliated entities: the law firm Kellerhals Ferguson Kroblin PLLC (legal counsel, tax strategy, EDC program) and West Indies Title LLC (title insurance, real estate closings). Together, this three-entity platform provided full-service corporate lifecycle management for the Epstein network in the territory.</p>\n\n<p>The entity was purpose-built to replace Kellerhals Ferguson LLP as registered agent, a transition documented in a formal corporate resolution for Nautilus Inc dated September 13, 2012, signed by <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> as President and <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> as Secretary (EFTA01266733). BBVI initially shared the Kellerhals Ferguson LLP address at 9100 Havensight before relocating to Royal Palms. The operational backbone was Brett Geary, an IRS Enrolled Agent and business consultant who handled entity formations and tax compliance, while Kellerhals herself held officer titles (Secretary/Treasurer) across multiple Epstein entities but was explicitly denied financial signing authority &mdash; <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> and <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> retained exclusive control over all financial accounts from New York.</p>\n\n<p>Perhaps most notably, BBVI remains active as of 2026. Its last annual report was filed April 7, 2025. New entities continue to be registered through the infrastructure: Cypress Hill LLC was formed in March 2024, and Kellerhals Law P.C. &mdash; Erika Kellerhals&rsquo;s solo professional corporation &mdash; was registered in January 2026. BBVI has zero federal court exposure, zero appearances in offshore leak databases, zero FARA or LDA registrations despite Kellerhals&rsquo;s documented political activity, and its fees were not paid through any captured Deutsche Bank accounts. The entity achieved near-total invisibility while managing the registered agent functions for one of the most scrutinized corporate networks in modern American legal history.</p>",
+    "open_questions": [
+      "Through which banking channels were BBVI fees and Kellerhals legal fees paid, given their complete absence from captured Deutsche Bank records covering $304 million in Epstein transactions?",
+      "Does BBVI or Kellerhals have any non-Epstein clients that would establish it as a genuinely independent corporate services company rather than a captive entity?",
+      "What is the purpose of Cypress Hill LLC (formed March 2024) and the newly registered Kellerhals Law P.C. (January 2026) — do these represent continued estate administration or new client relationships?",
+      "Why was Southern Financial LLC administratively dissolved and restored four times in 2024-2025, and what assets or obligations require keeping this particular entity alive?",
+      "What role did Kellerhals play in facilitating EDC (Economic Development Commission) tax benefits for Epstein entities, and did BBVI’s status as a nominal corporate services company support those applications?"
+    ],
+    "system_role": "BBVI illustrates the captive registered agent model: a nominally independent corporate services company that in practice served a single client, providing the administrative infrastructure that kept 20+ shell entities in good standing while creating a layer of professional separation between the beneficial owner and the jurisdictional authorities.",
+    "sections": [
+      {
+        "id": "formation-and-structure",
+        "title": "Formation and Corporate Structure",
+        "content": "<p>Business Basics VI LLC was registered in the USVI on January 26, 2012, under entity number 582110, with Erika Kellerhals as resident agent. The entity was created to assume the registered agent function previously performed by Kellerhals Ferguson LLP. A formal corporate resolution for Nautilus Inc (EFTA01266733), signed by <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> (President) and <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> (Secretary) on September 13, 2012, documents this deliberate transition: \"the current agent for service of process of the Corporation, Kellerhals Ferguson LLP, hereby resigns as agent for service of process\" and \"the Corporation hereby appoints, Business Basics VI, LLC, as the new agent.\" The resolution was notarized by Harry I. Beller, Notary Public for the State of New York (Rockland County), confirming New York involvement in USVI corporate mechanics.</p>\n\n<p>BBVI initially operated from 9100 Havensight, Port of Sale, Suite 15-16 &mdash; the same address as Kellerhals Ferguson LLP &mdash; before relocating to the Royal Palms Professional Building at 62-3A and 62-3B Estate Thomas, Suite 101 (mailing: 9053 Estate Thomas Suite 101). The Royal Palms location, described in one email as \"the new office building behind the hospital\" (EFTA02606182), is a multi-tenant professional complex housing medical and legal practices. BBVI shared Suite 101 with two formally affiliated entities, as disclosed on its own website (bizusvi.com/affiliates.html): Kellerhals Ferguson Kroblin PLLC, the law firm handling tax planning, EDC benefits, corporate transactions, and litigation; and West Indies Title LLC, the title insurance company (principal: Carrie de Leon) providing real estate closing services. The Kellerhals law firm also maintained a New York office at 40 Wall Street, 35th Floor, and was affiliated with Solomon Blum Heymann LLP, an AV-rated Wall Street firm. This tripartite structure meant that every aspect of a corporate entity&rsquo;s lifecycle in the USVI &mdash; formation, ongoing compliance, legal representation, tax strategy, and property transactions &mdash; could be handled entirely within the Kellerhals ecosystem.</p>",
+        "viz": null
+      },
+      {
+        "id": "client-portfolio-and-captive-nature",
+        "title": "Client Portfolio and Captive Nature",
+        "content": "<p>Registry database searches confirm that all entities with BBVI as registered agent are Epstein-connected. The sole exception is KFK Strategic Holdings LLC (USVI 585923, formed December 2015), the holding company for the Kellerhals Ferguson Kroblin law firm itself &mdash; creating a circular dependency where BBVI manages KFK, and KFK PLLC is the affiliated law firm of BBVI. The confirmed Epstein entities serviced by BBVI include: LSJE LLC (581737), <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company Inc</a> (581871), Poplar Inc (581872), Cypress Inc (581974), Nautilus Inc (581975), Maple Inc (581976), Laurel Inc (581980), Freedom Air Petroleum (581842), <a href=\"/dossiers/southern-financial-llc\">Southern Financial LLC</a> (583164), Southern Country International Ltd (584624), Hyperion Air LLC (582952), JEGE LLC (582953), Plan D LLC (582954), Prytanee LLC (586644), <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a>, Zorro Management LLC, <a href=\"/dossiers/igo-company-llc\">IGO Company LLC</a>, Cypress Hill LLC, Bayview Holdings LLC, and Mermaid Cove LLC, among others.</p>\n\n<p>Despite its website presenting BBVI as a general-purpose corporate services company offering \"business formations, obtaining necessary licenses, preparing all annual statutory filing requirements as well as providing resident agent services,\" zero non-Epstein clients have been identified across the DOJ Volume 11 database, DugganUSA, LMSBAND, the Unified DB, Epstein 20K corpus, USVI corporate registry, or the broader investigation database. The website&rsquo;s SSL certificate has expired (HTTP-only as of February 2026), and the entity maintains a Twitter/X account (@BizUSVI) with minimal activity. This presents the appearance of a legitimate multi-client firm while functioning as a captive single-client operation. The \"business consultant\" classification on <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company</a>&rsquo;s USVI business license (EFTA01297594), where Brett Geary was listed as primary contact, may have been selected to support EDC tax benefit claims rather than to reflect actual multi-client consulting activity.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "key-personnel",
+        "title": "Key Personnel and Compartmentalization",
+        "content": "<p>Two individuals formed BBVI&rsquo;s operational core. Erika Kellerhals, a USVI attorney and the entity&rsquo;s resident agent, controlled the registered agent function for all Epstein USVI entities and held officer titles (Secretary and Treasurer) at multiple Epstein entities. She was the local USVI touchpoint for Deutsche Bank relationship managers, appearing in KYC filings alongside inner-circle members Harry Beller, <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>, and <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> (EFTA01386745). However, a critical distinction separated her from the New York principals: Kellerhals was listed for \"Contact Information\" only, while Indyke and Kahn were listed for \"Current ID\" &mdash; meaning they held actual account access. <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> explicitly denied Kellerhals financial signing authority (EFTA01373347). This was deliberate compartmentalization: Kellerhals provided the local legal infrastructure, government relations, and corporate compliance layer, while Kahn and Indyke retained exclusive financial control from New York. BBVI and KFK PLLC functioned as the USVI service layer of a New York-controlled financial operation.</p>\n\n<p>Brett A. Geary (confirmed female per notarized formation documents) served as the operational backbone of BBVI. An IRS Enrolled Agent described as a \"business consultant\" by the Virgin Islands Daily News (May 7, 2019), Geary personally organized at least seven Epstein USVI entities as incorporator &mdash; including Zorro Management LLC, Prytanee LLC, and others &mdash; alongside Kellerhals and Gregory Ferguson. She was the named business contact on <a href=\"/dossiers/southern-trust-company-inc\">Southern Trust Company</a>&rsquo;s business license and handled entity formations, annual compliance filings, and tax preparation. Geary&rsquo;s reach extended beyond domestic entities: the Articles of Organization for Prytanee LLC (EFTA01296059) list her as sole organizer, with the initial manager address at \"6-04 Avenue Evenement\" &mdash; a French address consistent with Prytanee&rsquo;s function as an art acquisition vehicle for Etienne Binant in Paris. A third incorporator, Nicole Miller of St. Thomas, appears on at least one set of formation documents (EFTA01387097), apparently to satisfy USVI minimum incorporator requirements. USVI Division of Corporations personnel lists also reference Thomas Hanratty, Cara Traynor/Robinson, Kelly Robinson/Traynor, and William Avery Thomas as authorized contacts associated with BBVI-serviced entities.</p>",
+        "viz": null
+      },
+      {
+        "id": "financial-opacity",
+        "title": "Financial Opacity",
+        "content": "<p>Zero financial transactions involving Business Basics VI LLC, Brett Geary, or Erika Kellerhals appear in the DS10 Deutsche Bank dataset, which covers 579 transactions totaling $304 million across Epstein&rsquo;s captured bank accounts. This is investigatively significant: the registered agent company managing the entire USVI corporate infrastructure was not paid through the banking channels subpoenaed by the SDNY grand jury. BBVI fees and Kellerhals legal fees likely flowed through separate banking channels. FirstBank of the Virgin Islands (later FirstBank Puerto Rico) is documented for at least one Epstein entity &mdash; Laurel Inc&rsquo;s banking records appear at EFTA01269393 &mdash; and Fedwire records show <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a> receiving $150,000 (December 11, 2017) and $233,087.94 (annotated \"TO CLOSE DB ACCOUNT\") at the BBVI/Kellerhals address via Deutsche Bank Trust Company Americas to FirstBank Puerto Rico.</p>\n\n<p>The BBVI address at 9100 Havensight (and later Royal Palms) served as the official IRS and banking address for <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America Ltd</a>, Epstein&rsquo;s primary charitable vehicle. The foundation&rsquo;s IRS 501(c)(3) tax-exempt determination letter (EFTA01365895), dated September 27, 2012, was addressed to the Havensight suite. This means BBVI&rsquo;s physical address anchored both the corporate formation infrastructure and the charitable entity&rsquo;s regulatory identity, concentrating multiple distinct functions at a single controlled address. Combined with zero results for bizusvi.com email addresses in the DOJ Volume 11 corpus, this suggests BBVI&rsquo;s operational communications and financial dealings were deliberately segregated from Epstein&rsquo;s personal email accounts and the Deutsche Bank relationships that ultimately attracted regulatory scrutiny.</p>",
+        "viz": null
+      },
+      {
+        "id": "continued-operations",
+        "title": "Continued Operations (2019-2026)",
+        "content": "<p>BBVI has remained continuously active since <a href=\"/dossiers/jeffrey-epstein\">Epstein</a>&rsquo;s death in August 2019, with its most recent annual report filed April 7, 2025. The post-death period reveals three distinct operational threads. First, ongoing maintenance: BBVI itself and Kellerhals Ferguson Kroblin PLLC both maintain \"In Good Standing\" status with current annual reports. Second, active estate operations: <a href=\"/dossiers/southern-financial-llc\">Southern Financial LLC</a> (583164) was administratively dissolved four times in 2024-2025 but restored each time &mdash; most recently February 21, 2025, with Brett Geary&rsquo;s email (brett@bizusvi.com) listed as agent contact &mdash; indicating deliberate effort to keep this particular entity alive. Meanwhile, the J. Epstein Virgin Islands Foundation (551494) was voluntarily dissolved on November 6, 2024, suggesting selective wind-down of legacy Epstein entities. Third, new entity formation: Cypress Hill LLC (DC0128296) was registered through BBVI on March 26, 2024, and Kellerhals Law P.C. (DP0137481) was registered on January 28, 2026 &mdash; just weeks before the date of this analysis &mdash; as Erika Kellerhals&rsquo;s solo professional corporation at the same 9053 Estate Thomas address.</p>\n\n<p>The formation of Kellerhals Law P.C. as a separate solo entity, distinct from Kellerhals Ferguson Kroblin PLLC, suggests either partner departure or a strategic restructuring of the legal practice. Brett Geary was confirmed at the same St. Thomas address via a 2024 FEC donation record. Meanwhile, BBVI has achieved a remarkable degree of legal and media insulation: zero federal litigation as a party (per comprehensive CourtListener search), zero appearances in ICIJ/OCCRP offshore leak databases, zero OpenSanctions matches, zero GDELT news results for \"Kellerhals Epstein\" or \"Business Basics Epstein,\" and zero FARA or Lobbying Disclosure Act registrations despite Kellerhals&rsquo;s documented political activity including arranging meetings between Epstein and both USVI Governors Mapp and Bryan. For a registered agent company managing 20+ entities belonging to the world&rsquo;s most notorious sex trafficker, this level of invisibility is itself a finding.</p>",
+        "viz": "timeline"
+      }
+    ],
+    "applicable_models": [
+      "complexity-as-credential",
+      "enabler-gradient",
+      "jurisdictional-arbitrage",
+      "narrative-shield",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Business Basics VI LLC",
+      "connections": [
+        {
+          "target": "Erika Kellerhals",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Resident agent of BBVI, which served as agent for 15+ Epstein USVI entities"
+        },
+        {
+          "target": "LSJE LLC",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "BBVI served as registered agent for LSJE LLC and 14+ other Epstein USVI entities"
+        },
+        {
+          "target": "Erika Kellerhals",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "USVI:582110",
+          "description": "Kellerhals is registered agent for Business Basics VI LLC (USVI 582110, Jan 2012). Business Basics serves as registered agent for 20+ Epstein USVI entities. Agent email all@bizusvi.com. Both at 9053 Estate Thomas Suite 101."
+        },
+        {
+          "target": "Brett Geary",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "USVI:585911",
+          "description": "Geary associated with Business Basics VI per agent email brett@bizusvi.com on LSJ Emergency LLC. Co-incorporator of Laurel Inc and Poplar Inc with Kellerhals and Ferguson."
+        },
+        {
+          "target": "Kellerhals Ferguson LLP",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01266724",
+          "description": "BBVI was purpose-built to replace Kellerhals Ferguson LLP as registered agent for Epstein USVI entities. Documented in formal corporate resolution for Nautilus Inc (EFTA01266733, Sept 13, 2012), signed by Epstein (President) and Indyke (Secretary). BBVI took the same address as KF LLP (9100 Havensight Port of Sale Ste 15-16) before later moving to Royal Palms. The transition separated the law practice from the registered agent function."
+        },
+        {
+          "target": "Kellerhals Ferguson Kroblin PLLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "CourtListener_KFK_cases",
+          "description": "KFK PLLC is the operating law firm; BBVI LLC is the registered agent entity. Both controlled by Erika Kellerhals. KFK handles litigation and legal advisory; BBVI provides registered agent services for 28+ Epstein entities. Same physical address: Royal Palms Professional Building, 9053 Estate Thomas Suite 101."
+        },
+        {
+          "target": "West Indies Title LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://bizusvi.com/affiliates.html",
+          "description": "BBVI and West Indies Title LLC are formally affiliated companies per bizusvi.com. Both operate from the same Royal Palms Professional Building complex in St Thomas. West Indies Title provides title insurance and real estate closing services. This affiliation means the Kellerhals ecosystem handled every aspect of Epstein's USVI real estate transactions: entity formation (BBVI), legal counsel (KFK), and title/closings (West Indies Title)."
+        },
+        {
+          "target": "KFK Strategic Holdings LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "USVI-585923",
+          "description": "KFK Strategic Holdings LLC (USVI 585923, formed Dec 2015) uses BBVI as its registered agent. KFK is the holding company for the Kellerhals Ferguson Kroblin law firm. This creates a circular dependency: BBVI manages KFK, and KFK PLLC is the affiliated law firm of BBVI."
+        },
+        {
+          "target": "Mermaid Cove LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "USVI-DC0100643",
+          "description": "BBVI serves as registered agent for Mermaid Cove LLC (DC0100643) at Royal Palms. Still active AR 04/02/2025"
+        },
+        {
+          "target": "Bayview Holdings LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "USVI-DC0100491",
+          "description": "BBVI served as registered agent for Bayview Holdings LLC (DC0100491) at Royal Palms Professional Building"
+        }
+      ],
+      "secondHop": {
+        "Brett Geary": [
+          {
+            "target": "Erika Kellerhals",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary and Erika Kellerhals are co-incorporators of multiple Epstein USVI entities, with Geary serving as 'business consultant' organizer and Kellerhals as attorney. Both listed as incorporators in Articles of Incorporation (e.g., Nautilus Inc, Maple Inc, Laurel Inc — all Nov 2011). Geary operates through BBVI (brett@bizusvi.com) while Kellerhals was the law firm principal (Kellerhals Ferguson LLP, later Kellerhals Ferguson Kroblin PLLC). They share the Royal Palms Professional Building address at 9053 Estate Thomas Suite 101."
+          },
+          {
+            "target": "Gregory Ferguson",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary and Gregory J. Ferguson are co-incorporators of Epstein USVI entities. Both listed in Articles of Incorporation for Nautilus Inc (EFTA01360967), with personal addresses: Geary at 2-11B St. Joseph & Rosendahl, Ferguson at 31-B Peterborg, St. Thomas. Ferguson was a partner in Kellerhals Ferguson LLP (the predecessor resident agent to BBVI). They are also co-incorporators with Nicole Miller in EFTA01387097."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary is the named business contact on Southern Trust Company Inc's USVI business license (EFTA01297594). STC's licensed activity is 'BUSINESS AND MANAGEMENT CONSULTING' (not banking/trust). License period: 12/01/2011-12/31/2018. This positions Geary as the operational contact for Epstein's primary USVI financial vehicle."
+          },
+          {
+            "target": "Financial Infomatics Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Brett Geary served as one of three incorporators (alongside Erika Kellerhals and Gregory Ferguson) for Financial Infomatics Inc, an Epstein USVI entity. Per EFTA01298278, the corporation was established at 9100 Havensight Port of Sale Suite 15-16, with Kellerhals Ferguson LLP as initial resident agent. Geary's personal address listed as 2-11B St. Joseph and Rosendahl, St Thomas."
+          }
+        ],
+        "Erika Kellerhals": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kellerhals served as Secretary (2012-2019) and also Treasurer (2017-2019). Attorney at Kellerhals Ferguson LLP in USVI. Handled articles of incorporation, director appointments, and book-keeping. Repeatedly requested director names for the foundation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "USVI attorney through Kellerhals Ferguson Kroblin PLLC. Advised on residency, dynasty trusts, naturalization, tax strategy. Handled real estate deals, property management. Officer on Gratitude America, JEVIF, Enhanced Education."
+          },
+          {
+            "target": "Kenneth Mapp",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Kellerhals on direct email thread with USVI Governor Mapp AND Epstein simultaneously (July 2017) discussing KFK firm invoicing for apparent government legal work"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kellerhals requested wire transfer from Epstein after completing a 'deal' and 'endorsement' meeting (Nov 14, 2018). Pattern of personal gifts (Apple Watch Hermes), direct payment via DB checks, and now wire transfer requests shows Kellerhals as financial conduit, not just registered agent."
+          },
+          {
+            "target": "Stacey Plaskett",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Kellerhals donated $7,631.83 to Plaskett campaigns (2013-2021) via Virgin Islands for Plaskett and ActBlue. LittleSis maps this as a direct donation relationship. Plaskett previously worked at Kellerhals Ferguson Kroblin PLLC (per RealClearInvestigations). Plaskett is USVI Delegate to Congress."
+          }
+        ],
+        "Bayview Holdings LLC": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": "Sea Gate naming pattern (Bayview Ave 11224). BBVI agent. Voluntarily terminated 05/12/2022"
+          }
+        ],
+        "LSJE LLC": [
+          {
+            "target": "NOSA Inc",
+            "type": "financial",
+            "strength": 0.7,
+            "description": "DS10: 33K in payments via TotalBank 2016-2017 - island vendor"
+          },
+          {
+            "target": "Business Basics VI",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": "BBVI served as registered agent for LSJE LLC and 14+ other Epstein USVI entities"
+          }
+        ],
+        "Mermaid Cove LLC": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": "Sea Gate naming pattern (Mermaid Ave 11224). BBVI agent. Still active post-death"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2003",
+        "label": "Business Basics VI LLC operates a three-entity corporate services ecosystem at 9053 Estate Thomas Suite 101: (1) BBVI itself - entity formation, registered agent services, business licensing, annual compliance filings, tax preparation (via Brett Geary EA); (2) Kellerhals Ferguson Kroblin PLLC - law firm handling tax planning, EDC program, corporate transactions, litigation, real estate, banking; (3) West Indies Title LLC - title insurance company (Carrie de Leon principal, operating since 2003). BBVI's website (bizusvi.com, SSL expired) explicitly states it is 'an affiliate of the law firm Kellerhals Ferguson Kroblin PLLC and the title insurance company West Indies Title, LLC.' KFK also has NY office at 40 Wall Street 35th Floor (212-267-7600). KFK is affiliated with Solomon Blum Heymann LLP (AV-rated Wall Street firm). This three-entity structure provides full-service corporate lifecycle management: formation (BBVI), legal counsel/tax strategy (KFK), and real estate closings/title insurance (West Indies Title).",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2839
+      },
+      {
+        "date": "2011-12-01",
+        "label": "Southern Trust Company Inc (STC) USVI business license (EFTA01297594) names Brett Geary as the primary business contact. License details: Business Name: SOUTHERN TRUST COMPANY INC, Organization Type: C CORP, Contact: Brett Geary, Physical Address: 18A-1, 18B-1, E 188 EST SMITH STE B3-3 6B-6 (Red Hook), Mailing Address: 6100 RED HOOK QUARTER STE 8.3, Business Activity: BUSINESS AND MANAGEMENT CONSULTING, License period: 12/01/2011 - 12/31/2018. This confirms Brett Geary was the operational contact for STC (not just a formation agent) and that STC's licensed business activity was formally classified as consulting, not banking or trust services.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2814
+      },
+      {
+        "date": "2012-01-26",
+        "label": "Business Basics VI LLC (USVI entity 582110) serves as the central registered agent hub for the entire Epstein USVI corporate infrastructure. Registered Jan 26, 2012. Resident agent: Erika Kellerhals. Agent email: all@bizusvi.com (general), brett@bizusvi.com (Brett Geary, co-incorporator of Poplar Inc and Laurel Inc). Physical address: Royal Palms Professional Building 62-3a and 62-3b Estate Thomas Suite 101, Charlotte Amalie VI 00802. Mailing address: 9053 Estate Thomas Suite 101. Currently IN GOOD STANDING with last annual report filed April 7, 2025 -- the entity is actively maintained 6+ years post-Epstein death. Business Basics VI served as registered agent for a minimum of 20 Epstein USVI entities including Southern Trust Company, LSJE LLC, all island holding companies, vehicle/air entities, and financial entities. The continued good standing of Business Basics VI alongside Kellerhals Ferguson Kroblin PLLC and Southern Financial LLC indicates ongoing estate administration or successor operations. CRITICAL: New entity Cypress Hill LLC (DC0128296, Mar 2024) was registered with Business Basics VI as agent, suggesting the infrastructure continues to onboard new entities.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1504
+      },
+      {
+        "date": "2012-01-26",
+        "label": "Business Basics VI LLC (USVI 582110), registered 01/26/2012, resident agent Erika Kellerhals. Currently IN GOOD STANDING (last AR 2025). Served as registered agent for at least 15 Epstein entities in USVI: LSJE LLC (581737), STC (581871), Poplar Inc (581872), Maple Inc (581976), Nautilus Inc (581975), Laurel Inc (581980), Cypress Inc (581974), JEGE LLC (582953), Plan D LLC (582954), Hyperion Air LLC (582952), Southern Financial LLC (583164), Southern Country Intl (584624), Southern Country Opportunity Fund (DC0102285), Prytanee LLC (586644), Freedom Air Petroleum (581842). BBVI operates from Royal Palms Professional Building, 62-3a and 62-3b Estate Thomas Suite 101, Charlotte Amalie. BBVI is the single chokepoint for the entire USVI corporate infrastructure — Kellerhals controlled all registered agent functions.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1543
+      },
+      {
+        "date": "2012-09",
+        "label": "BBVI contact details from USVI Resident Agent Forms (multiple EFTAs): Phone: (340) 776-8812, Email: info@bizusvi.com, Physical: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101, St. Thomas VI 00802, Mailing: 9053 Estate Thomas Suite 101, St. Thomas VI 00802. Earlier address (pre-move, circa 2012): 9100 Havensight, Port of Sale, Suite 15-16, St. Thomas VI 00802 (shared with Kellerhals Ferguson LLP). A second phone (340) 779-2564 appears on earlier agent forms (Sept 2012). The address migration from Havensight to Royal Palms correlates with the firm's evolution from Kellerhals Ferguson LLP to standalone BBVI operations.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2816
+      },
+      {
+        "date": "2012-09-13",
+        "label": "Formal corporate resolution for Nautilus Inc (EFTA01266733) documents the deliberate transition from Kellerhals Ferguson LLP to Business Basics VI LLC as registered agent. The resolution, signed by Jeffrey E. Epstein (President) and Darren Indyke (Secretary), states: 'the current agent for service of process of the Corporation, Kellerhals Ferguson LLP, hereby resigns as agent for service of process' and 'the Corporation hereby appoints, Business Basics VI LLC, as the new agent.' This was executed on September 13, 2012, with BBVI's initial address at 9100 Havensight, Port of Sale, Ste 15-16, St. Thomas VI 00802 (same as Kellerhals Ferguson LLP). The transition was notarized by Harry I. Beller, Notary Public State of New York (Commission No. 01814853924, Rockland County). This shows BBVI was purpose-built to replace the law firm as registered agent.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2813
+      },
+      {
+        "date": "2012-09-27",
+        "label": "Gratitude America Ltd received IRS 501(c)(3) tax-exempt determination (EFTA01365895) dated Sept 27, 2012, addressed to 9100 Havensight Port of Sale Ste 15, St Thomas VI 00802 -- the BBVI/Kellerhals Ferguson LLP address. Effective date April 25, 2012. Classified as private foundation under section 509(a). Contact: Sherry Q Wan (IRS). Separate Fedwire records (EFTA01273131-32) show Gratitude America received wires at this address: $150,000 (Dec 11, 2017) and $233,087.94 (date unclear, annotated 'TO CLOSE DB ACCOUNT'). Originator: Gratitude America Ltd C/O HBRK Associates Inc, 575 Lexington Avenue 4th Floor, New York NY 10022 (Indyke/Kahn entity). Wire routed from Deutsche Bank Trust Company Americas to FirstBank Puerto Rico. This confirms BBVI's address served as the official IRS and banking address for Epstein's primary charitable vehicle.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2821
+      },
+      {
+        "date": "2016-07-22",
+        "label": "Prytanee LLC Articles of Organization (EFTA01296058-60, Corp No. 586644) show Brett Geary as sole organizer, with BBVI as resident agent. Registered July 22, 2016, certified same date by Lt. Gov. Osbert E. Potter. Initial manager address is '6-04 Avenue Evenement' — a French address consistent with Prytanee being the art acquisition vehicle for Etienne Binant in Paris. The LLC was member-managed with initial capital of One Thousand Dollars (,000.00). Physical/mailing address: Royal Palms Professional Building, 62-3A & 62-3B Estate Thomas, Suite 101. This confirms Brett Geary personally organized entities with operational addresses in France, not just USVI.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 2818
+      },
+      {
+        "date": "2018-10",
+        "label": "Synthesis across 5+ Deutsche Bank and corporate documents reveals Kellerhals occupied a precise structural position in the Epstein USVI corporate hierarchy: she held officer titles (Secretary/Treasurer) across multiple entities but was explicitly denied signing authority over financial accounts per Richard Kahn (EFTA01373347). In DB KYC filings, she was grouped with inner-circle members (Beller, Indyke, Kahn) for Contact Information only, while Indyke and Kahn were listed for Current ID (account access level). She was the local USVI touchpoint for DB relationship managers (EFTA01386745 re Butterfly account opening, Oct 2018). This is a deliberate compartmentalization: Kellerhals provided the local legal infrastructure and government relations while Kahn/Indyke retained exclusive financial control from New York. BBVI and KFK PLLC functioned as the USVI service layer of a NY-controlled financial operation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2857
+      },
+      {
+        "date": "2019-05-07",
+        "label": "Brett Geary (full name Brett A. Geary) is confirmed female per notarized Articles of Organization for multiple Epstein USVI entities. Multiple formation documents state 'personally appeared Brett Geary, who, being by me first duly sworn, declared that she is the person who signed the foregoing document as the Organizer.' Geary is described as a 'business consultant' (not attorney) in Virgin Islands Daily News reporting (May 7, 2019). Personal address: 2-11B St. Joseph & Rosendahl, St. Thomas, V.I. 00802. She served as organizer (incorporator) for at least 7 Epstein USVI entities including Zorro Management LLC, Prytanee LLC, and others alongside Erika Kellerhals and Gregory Ferguson.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2812
+      },
+      {
+        "date": "2024-03",
+        "label": "SYNTHESIS: Business Basics VI LLC (USVI 582110) is a single-client captive service entity — NOT a general registered agent. All 14+ entities in registry.db with BBVI as agent are confirmed Epstein entities (the only exception is KFK Strategic Holdings LLC, the law firm's own holding company). BBVI operated as part of a coordinated three-entity platform at Suite 101 Royal Palms: BBVI (formation/compliance/tax via Brett Geary, IRS Enrolled Agent), KFK PLLC (legal/EDC via Kellerhals), and West Indies Title LLC (closings). Kellerhals functioned as a triple-role intermediary: (1) corporate infrastructure (28+ entities, IDC tax benefits), (2) political conduit (arranged Epstein meetings with both USVI governors Mapp and Bryan, maintained Plaskett relationship, conducted DC Hill meetings, facilitated endorsement-linked wire transfers), (3) operations manager (utilities, construction, staffing, real estate acquisitions). Yet she had NO financial signing authority — Kahn/Indyke retained all financial control from NY. BBVI fees were NOT paid through captured Deutsche Bank records — payment channel remains unknown. Brett Geary (female, IRS Enrolled Agent, self-employed consultant) was the operational backbone handling entity formations and tax compliance. Marcel Kellerhals remains a documentary ghost — zero results across all databases except DugganUSA corporate filings (possibly OCR artifacts). The BBVI infrastructure remains active: BBVI In Good Standing 2025, Geary confirmed at same address via 2024 FEC donation, Cypress Hill LLC formed Mar 2024, Kellerhals Law P.C. formed Jan 2026. Zero federal court exposure, zero FARA/LDA registrations despite documented political activity, zero offshore leak appearances — consistent with deliberate operational security.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2858
+      },
+      {
+        "date": "2025-04-07",
+        "label": "BBVI infrastructure continues active operations as of February 2026 with three distinct operational threads: (1) ONGOING MAINTENANCE: BBVI itself (582110) In Good Standing with AR 2025 filed Apr 7 2025. Kellerhals Ferguson Kroblin PLLC (583297) In Good Standing with AR 2025. (2) ACTIVE ESTATE OPERATIONS: Southern Financial LLC (583164) was administratively dissolved FOUR TIMES in 2024-2025 but restored each time, most recently Feb 21 2025 (agent email Brett@bizusvi.com). J. Epstein Virgin Islands Foundation (551494) voluntarily dissolved Nov 6 2024. (3) NEW ENTITY FORMATION: Cypress Hill LLC (DC0128296) registered Mar 26 2024. Kellerhals Law P.C. (DP0137481) registered Jan 28 2026 -- just 2 weeks ago -- as Erika Kellerhals sole professional corporation at 9053 Estate Thomas. The pattern shows: wind-down of legacy Epstein entities (Foundation dissolved), persistent maintenance of financial entities (Southern Financial repeatedly rescued from dissolution), and new entity formation through the same infrastructure. Kellerhals has rebranded her legal practice from partnership (Kellerhals Ferguson Kroblin) to solo P.C., suggesting either partner departure or strategic restructuring.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1579
+      },
+      {
+        "date": "2026-02",
+        "label": "BBVI website (bizusvi.com, SSL certificate expired as of Feb 2026) markets itself as a general corporate services company: 'locally owned and operated corporate services company in the USVI' offering 'business formations, obtaining necessary licenses, preparing all annual statutory filing requirements as well as providing resident agent services.' Website has About, Services, Affiliates, Contact pages. Also has Twitter/X account @BizUSVI. However, investigation database finding #2822 confirms zero non-Epstein clients identified across ALL search sources. The public-facing website creates an appearance of a legitimate multi-client corporate services firm, but all available evidence points to a captive single-client entity. The expired SSL certificate (HTTP-only, no HTTPS) suggests minimal ongoing web presence maintenance. ZoomInfo lists BBVI at 9053 Estate Thomas Ste 101 but details are paywalled.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2847
+      }
+    ]
+  }
+}

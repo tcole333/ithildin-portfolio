@@ -1,0 +1,1002 @@
+{
+  "name": "Southern Financial LLC",
+  "slug": "southern-financial-llc",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.295628",
+  "last_updated": "2026-02-17T15:30:05",
+  "stats": {
+    "total_findings": 13,
+    "total_connections": 6,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 12,
+      "legal": 1
+    },
+    "connection_types": {
+      "financial": 4,
+      "corporate": 2
+    },
+    "last_updated": "2026-02-17T15:30:05"
+  },
+  "findings": [
+    {
+      "id": 648,
+      "finding_type": "financial",
+      "summary": "ISDA derivatives master agreement between Deutsche Bank AG (London branch) and Southern Financial LLC. Key details: (1) Southern Financial LLC address: 6100 Red Hook Quarter B3, St Thomas USVI 00802, (2) Attention: Jeffrey Epstein, (3) Fax: 340-775-2528, (4) Deutsche Bank AG London Winchester House as counterparty. This confirms Southern Financial LLC was the entity used for derivatives/swap trading with Deutsche Bank. Separately, account statements show Southern Financial holding Global Mortgage Securitization 2005-A Class B2 bonds ($8.25M face value at 5.250%, maturing 2032) traded through JPMorgan Securities LLC, confirming cross-bank trading activity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:47:47",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01390592",
+          "source_quote": " Address for notices for Party B: SOUTHERN FINANCIAL LLC / 6100 Red Hook Quarter B3 / St Thomas USVI 00802 / Attention: Jeffrey Epstein / Fax: 340-775-2528 / Deutsche Bank AG London Winchester House",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "finding_type": "financial",
+      "summary": "JEE portfolio summary as of 6/30/2013 (EFTA02678941) shows total cash across entities: Southern Financial LLC USD 14.59M, J.Epstein USD 2.23M, Haze Trust USD 28K, Southern Trust Company USD 24.75M, Jeepers USD 28.02M, J.Epstein VI Foundation USD 4.62M, Total Cash USD 74.24M. Comparison with Aug 2014 snapshot (EFTA02435864 / finding #221): Southern Trust USD 70.78M, Southern Financial USD 48.77M, Jeepers USD 22.68M, Haze Trust USD 9.86M \u2014 showing Southern Financial grew from USD 14.59M (June 2013) to USD 48.77M (Aug 2014), a USD 34M increase in 14 months, while Southern Trust grew from USD 24.75M to USD 70.78M. Combined Southern Financial + Southern Trust balances: USD 39.3M (June 2013) to USD 119.55M (Aug 2014) to over USD 230M at peak per DB characterization. This demonstrates rapid asset growth in the 2013-2014 period.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-06-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:34:44",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02435864",
+          "source_quote": "LIMITED LIABILITY COMPANY AGREEMENT \nOF \nC3 ACQUISITION CO. LLC \nEFTA_R1_01 508099 \nEFTA02435864\n\nTABLE OF CONTENTS \nPage \nARTICLE I \nGENERAL PROVISIONS \nSection 1.1 \nFormation \n 1 \nSection 1.2 \nName \n1 \nSection 1.3 \nAgent for Service and Registered Office \n1 \nSection 1.4 \nPurpose \nSection 1.5...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678941",
+          "source_quote": "Valuations \n6/30/13 \nEFTA_R1_01980106 \nEFTA02678941\n\nJEE and Rotated Entities \nPm/mime nt Summary \n6/30/13 \nCash & Equivilants \nSouthern Financial LLC- (see nc4e below) \n14.591.497 \nJ.Epslein \n2.233502 \nHAZE Trine \n28,361 \nFT Real Estee \n. \nSouthern Trust Company \n24,746.453 \nJeePers \n28,018,650...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 596,
+      "finding_type": "legal",
+      "summary": "Per NYDFS Consent Order (2020), Southern Financial LLC was a wholly owned subsidiary of Southern Trust Company Inc. The DB-Epstein relationship officially began August 19, 2013 when DB opened brokerage accounts for both Southern Trust Company Inc. (self-described 'database company and services' founded in USVI 2011) and Southern Financial LLC. KYC purposes: Southern Trust to 'hold marketable securities and cash,' Southern Financial to 'invest long term with the bank.' Over the relationship, Epstein/entities/associates opened 40+ accounts at DB. Classified 'high-risk' from onset with enhanced due diligence. Designated 'Honorary PEP' due to connections to prominent political figures. ARRC reviewed in Jan 2015, was 'comfortable with things continuing' despite 40 underage victims and co-conspirators as Butterfly Trust beneficiaries.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-08-19",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:35:36",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NYDFS-Consent-Order-2020-p12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NYDFS-Consent-Order-2020-p8",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC was Epstein's primary trading and derivatives vehicle at Deutsche Bank. Key documented activities: (1) Twitter IPO allocation: 1,500 shares at USD 26 allocated by Tazia Smith (DB Director, Key Client Partners), EFTA02577080; (2) Twitter equity swap: 100,000 share TWTR position with monthly resets and Libor+75bps spread (EFTA02348007); (3) Currency derivatives: JPY/USD put at 102.5 strike, USD 10M notional, USD 190K premium on 1/31/2014 (EFTA02383565); (4) DB internal note (EFTA02719222): Vahe Stepanian flagged sizeable equity gains in SFLLC account x804, 'SPX > 2,000'; (5) Wire authority: Harry Beller managed verbal approval for all wires from Southern Financial LLC, Haze Trust, Jeepers, and Southern Trust Co at DB (EFTA02575944); (6) DB KYC/onboarding documents for Southern Financial LLC: ISDA uncleared margin, Volcker screening, account opening checklist (EFTA01368144-EFTA01368146). Southern Financial operated as a brokerage/derivatives overlay vehicle distinct from Southern Trust Company (the cash/investment entity).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-01-31",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:34:33",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01368144",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01368146",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02348007",
+          "source_quote": "why .06 per share in and out when previous trades were for =03.. \nTotal Return Swap: \nSwap =eller: \nDB \nSwap =uyer: \nSouthern Financial LLC \nTicker: \n&n=sp; \nTWTR \nSize: \n&nbs=; \n=100,000 shares \nExpiry: \n&n=sp; \n1/27/2016 \nSpread: \n&n=sp; \nlm L+ 75bps \nResets: \n&n=sp; \nMonthly \nOptional =arly...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02383565",
+          "source_quote": "Jeffrey \nOn 1/31/14 Southern Financial purchased a JPY/USD put @102.5 expiration 41/14, Notional $10,000,000. The premium \npaid was $190,000. \nMay I sign the Deutche Bank confirmation for Southern Financial \nThanks \nHarry=?xml version=.0\" encoding=TF-8\"?>",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02575944",
+          "source_quote": "Jeffrey \nDeutche Bank must verbally approve all wire transfers from brokerage =ccounts. \nMay I have Authority to verbally approve wires for Haze Trust, Jeepers, =effrey Epstein accounts \nand may Jeanne have verbal authority for: \nHaze Trust \nJeepers \nSouthern Trust Co \nSouthern Financial LLC...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02577080",
+          "source_quote": "Vahe Stepanian \nSubject: \nAllocation [C] \nClassification: Confidential \nJeffrey - \nPer my voicemail, this morning you were allocated 1,500 shares of TWTR in Southern Financial, priced at $26. \nSpeak with you soon, \nTazia \nTazia Smith \nDirector I Key Client Partners - US \nDeutsche Bank Securities...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02700407",
+          "source_quote": "February 11, 2014 \nDeutsche Bank \nAttn: Amanda Kirby \n345 Park Avenue, 27th Fl \nNew York, NY 10154 \nRE: Southern Financial Relationship \nTo Whom It May Concern, \nPlease accept this letter as authorization to give \nsigning authority and \nverbal confirmation/callback authority on all accounts...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02719222",
+          "source_quote": "attached are equity positions with unrealized gains =nd losses per vahe.. \nRichard Kahn \nHBRK Associates =nc. \n575 Lexington Avenue 4th Floor \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1310,
+      "finding_type": "financial",
+      "summary": "Aug 31, 2014 comprehensive valuation report shows Southern Financial LLC fixed income portfolio holding $16.7M+ in bonds including: Bank of America 8.125% (Dec 2049) $2M face, Barclays 7.75% (2023) $300K, Earthlink 8.875% (2019) $1M, GE Capital 7.125% (Dec 2049) $2M, Headwaters 7.625% (2019) $1M, HSBC structured notes, JPM structured notes, multiple JP Morgan Chase preferred 7.9% (Apr 2049) $5M total, LBG Capital bonds $3.1M. Southern Trust Co held separate fixed income: Ally Financial 8.5% preferred, Nationwide 6.875% GBP callable 2019, and Petroleos de Venezuela (PDVSA) 10/28/15 $2M position (sovereign risk). Total STC fixed income: $6.9M. Combined SFL+STC investment portfolios plus cash ($163.4M) plus hedge funds ($105.7M) totaled $403.8M across all entities. This shows SFL as the primary bond/derivatives vehicle and STC as the primary cash/money market vehicle \u2014 deliberate functional separation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-08-31",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:22",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02711200",
+          "source_quote": "Southern Financial LW Fixed income Bank of America 8.125% PM Dec 29 2049 2,000,000; Southern Trust Co Fixed Income Ally Financial 8.5% Pfd Ser A; SUMMARY OF ASSETS AUGUST 31 2014 Total Assets 404,219,036 403,801,452",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 649,
+      "finding_type": "financial",
+      "summary": "Richard Kahn forwarded a $1,000,000 capital call for Neoteny 3 LP (Joi Ito's venture fund) to Epstein on April 10-13, 2015. Kahn asked 'please advise if ok to send from SFL LLC' confirming Southern Financial LLC (abbreviated SFL LLC) was the investment vehicle for this capital call. The capital call notice came from Danielle Prague at Neoteny. Kahn managed this from HBRK Associates Inc at 575 Lexington Avenue 4th Floor. This connects: (1) Southern Financial LLC to Joi Ito's venture fund, (2) Richard Kahn/HBRK as the operational fund administration center, (3) Epstein having approval authority over all fund disbursements.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:48:13",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02505285",
+          "source_quote": " attached is 1,000,000 capital call for Joi Ito fund Neoteny 3 LP due by April 16th / please advise if ok to send from SFL LLC today / Richard Kahn HBRK Associates Inc 575 Lexington Avenue 4th Floor",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1495,
+      "finding_type": "financial",
+      "summary": "DS10 confirms Southern Financial LLC operated as the DERIVATIVES/TRADING vehicle with distinctive patterns. DS10 captures 6 transactions ($602K out, $59K in) but the balance data reveals far more: peak cash balance $10.72M (Jun 2015), portfolio value peaked at $16.72M (Dec 2018-Jan 2019). KEY FLOWS: (1) $500K to JPMorgan Chase (May 5, 2017 \u2014 likely an investment payment), (2) $51K received from Harlequin Dane LLC (May 2, 2019 \u2014 an entity not seen elsewhere in the investigation), (3) $51K immediately passed through to Citibank (May 3, 2019 \u2014 same-day pass-through). (4) Two Bear Stearns Asset Management payments received ($8.2K Aug 2015, $0.78 Jun 2015 \u2014 legacy distributions from collapsed Bear Stearns funds). The Harlequin Dane LLC pass-through is notable: $51K in from an unknown entity, $51K out next day to Citibank \u2014 classic conduit behavior. Harlequin Dane LLC needs investigation. The Bear Stearns distributions confirm SFL inherited legacy BS positions. The ISDA derivatives master agreement with Deutsche Bank AG London branch (finding #648) confirms SFL as the counterparty for swaps/options. SFL balance trajectory: zero (Nov 2013) -> $10.7M (Jun 2015) -> $8K (May 2017) -> $157K (May 2019) -> zero (May 2019 closure).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017-05-05",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:37:11",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297003",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01365967",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01377570",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01389013",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1307,
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC operated as internal lending vehicle: Lesley Groff had 3 personal loans from Southern Financial LLC (not Southern Trust), with interest payments due monthly. Dec 2018 email chain reveals Groff wrote check to wrong entity (Southern Trust) for $2,110 interest payment (2.11% on $100,000). Bella Klein (office admin) instructed rewrite to Southern Financial LLC. Kahn directed 'deposit in SFL.' Groff's next payment was $1,970 (1.97% on $100,000). Promissory notes were drafted by Kahn at HBRK Associates (Dec 19, 2017 note template 'Promissory Note of Lesley Groff to Southern Financial, LLC'). Additionally, $51,000 flowed from Harlequin Dane LLC to Southern Financial LLC on May 2, 2019, then immediately out ($51,000) to Citibank on May 3 \u2014 pass-through transaction. This confirms SFL operated as both a lending and pass-through vehicle.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-12-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:33:08",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02270094",
+          "source_quote": "Can you confirm I am to pay all 3 of my loans to Southern Financial LLC...it is never to Southern Trust? I pulled the loan agreements and they all state Southern Financial. I need to write another check; EFTA02233819:Promissory Note of Lesley Groff to Southern Financial, LLC 12-19-2017.doc",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 641,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank KYC/NCA document for Southern Financial LLC reveals: (1) Jeffrey Epstein sole owner - 100% of 100 shares issued, (2) Darren Indyke is co-signor on account, (3) Southern Trust Company Inc is sole member of Southern Financial LLC, (4) PEP flag cites 'Connection with Prince Andrew and Bill Clinton', (5) Estimated annual income $10,000,000+, (6) Investable assets $50M-$100M, (7) Source of wealth: 'High Risk financial Institutions', (8) Business Owner + Investment as wealth categories, (9) Expected monthly flows: 10-15/month at $100K-$350K, (10) Relationship Manager: Stewart Oldfield, (11) Account status: Approved in 2018 periodic review. This is the most detailed primary source on Southern Financial's structure at Deutsche Bank.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:44:39",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01298740",
+          "source_quote": " Jeffrey Epstein is the sole owner and member. He owns 100% of the 100 shares issued. The signors on this account are Jeffrey Epstein and Darren Indyke / PEP: Connection with Prince Andrew and Bill Clinton / Estimated Annual Income 10,000,000 / Estimated amount of investable assets: $50 MM - 100 MM / Source of Wealth: High Risk financial Institutions",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 626,
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC was the subject of Charles Schwab AML investigation alongside Southern Trust Company Inc, Southern Country International Ltd, Jeffrey Epstein, and Richard Kahn. Opened Schwab accounts April 2019 (3 months before arrest). Also referenced in Deutsche Bank periodic reviews as the SOUTHERN FINANCIAL RELATIONSHIP that grouped multiple Epstein entities including Prytanee LLC. The Southern Financial relationship at DB was classified as HIGH RISK requiring enhanced due diligence and periodic KYC reviews.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:41:25",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01265973",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384509",
+          "source_quote": "2018 Periodic Review of acct Prytanee, LLC under SOUTHERN FINANCIAL RELATIONSHIP",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 650,
+      "finding_type": "financial",
+      "summary": "On May 31, 2019 (5 weeks before Epstein's July 6 arrest), Richard Kahn at HBRK Associates was transferring money out of SF LLC (Southern Financial LLC) through Aloha Group Capital. Kahn wrote 'great news, thank you again for your help, i will transfer out money now as well.' A processor had been working to 'correct the transfer' which was 'in queue for this evening to process.' Cc: Jeanne Brennan at Aloha Group Capital. This suggests pre-arrest asset movement through an intermediary financial institution, with urgency ('now as well'). Combined with the $52.5M Valar wire and other fund subscriptions, Southern Financial LLC served as the primary disbursement vehicle for Epstein's investment operations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:48:42",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268485",
+          "source_quote": " From Richard Kahn To WorkMod Cc Jeanne Brennan Aloha Group Capital / Re SF LLC / May 31 2019 / great news thank you again for your help i will transfer out money now as well / work item that the processor was working to correct the transfer has been completed",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1581,
+      "finding_type": "financial",
+      "summary": "Pre-arrest asset extraction from Southern Financial LLC through TD Ameritrade brokerage (May 31, 2019 -- 5 weeks before arrest). Richard Kahn at HBRK Associates urgently coordinated with Chad Markland (Senior Financial Consultant, TD Ameritrade) to transfer remaining stock positions out of SF LLC. The email chain reveals: (1) A processor had incorrectly handled the transfer -- Markland found the error and corrected it. (2) The correction was for 'the remaining shares to move the remaining full amount of that position.' (3) Once stocks transferred, Kahn immediately stated 'i will transfer out money now as well' -- indicating both securities AND cash were being extracted. (4) Jeanne Brennan was Cc'd as 'Aloha Group Capital' -- this appears to be a brokerage account name/alias at TD Ameritrade, not a separate financial institution. (5) This follows an earlier Oct 2017 asset transfer where Kahn moved stocks into the same account, asking about a  credit for bringing in new money. The SF LLC extraction coincides with DS10 records showing SF LLC balance going to zero in May 2019, and Schwab accounts being opened in April 2019 for STC/SFL/SCI. Kahn was simultaneously zeroing DB accounts and TD Ameritrade positions.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 03:12:10",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01268485",
+          "source_quote": "great news thank you again for your help i will transfer out money now as well",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 628,
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC was pitched for investment in Glendower Capital Secondary Opportunities Fund IV LP, a $1.75 billion secondaries fund. The full Confidential Private Placement Memorandum (PPM) was prepared specifically for 'GLOUS238 SOUTHERN FINANCIAL LLC' (the GLOUS238 appears to be a Deutsche Bank client code). This documents Southern Financial as an active institutional-scale investor being marketed to by major PE fund-of-funds, consistent with DB's description of accounts holding 'marketable securities and cash' and 'invest long term.' Documents span EFTA01383008 through EFTA01383032+.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:41:51",
+      "target_name": "Southern Financial LLC",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383008",
+          "source_quote": " GLOUS238 SOUTHERN FINANCIAL LLC / Glendower Capital Secondary Opportunities Fund IV, LP / Confidential Private Placement Memorandum / $1,750,000,000 LIMITED PARTNER INTERESTS",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383032",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 887,
+      "person_a": "Southern Financial LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:16",
+      "other_person": "The 2017 Caterpillar Trust",
+      "other_person_slug": "the-2017-caterpillar-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1120,
+      "person_a": "Darren Indyke",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "financial",
+      "description": "SFL LLC provided 1M 9-year below-market loan (1.41% AFR) to Harlequin Dane LLC (Indyke entity) in Jun 2016, using same structure as May 2015 loan. In May 2019, Harlequin Dane repaid 51K to SFL. SFL had 10.7M peak balance and 16.7M portfolio. Indyke was authorized signatory at SFL.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:38",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01389013",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02460458",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1954,
+      "person_a": "Deutsche Bank AG",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "financial",
+      "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank.",
+      "strength": "strong",
+      "date_range": "2013-08 to 2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:05",
+      "other_person": "Deutsche Bank AG",
+      "other_person_slug": "deutsche-bank-ag",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 732,
+      "person_a": "Financial Trust Company",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "corporate",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:37:47",
+      "other_person": "Financial Trust Company",
+      "other_person_slug": "financial-trust-company",
+      "evidence": []
+    },
+    {
+      "id": 738,
+      "person_a": "Harlequin Dane LLC",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "financial",
+      "description": "DS10: 51K pass-through May 2-3 2019",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:38:06",
+      "other_person": "Harlequin Dane LLC",
+      "other_person_slug": "harlequin-dane-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01389013",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 766,
+      "person_a": "STC",
+      "person_b": "Southern Financial LLC",
+      "relationship_type": "corporate",
+      "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs. STC owns SF LLC (entity_relations). SF wholly owned subsidiary.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:53:09",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2013",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ISDA derivatives master agreement between Deutsche Bank AG (London branch) and Southern Financial LLC. Key details: (1) Southern Financial LLC address: 6100 Red Hook Quarter B3, St Thomas USVI 00802, (2) Attention: Jeffrey Epstein, (3) Fax: 340-775-2528, (4) Deutsche Bank AG London Winchester House as counterparty. This confirms Southern Financial LLC was the entity used for derivatives/swap trading with Deutsche Bank. Separately, account statements show Southern Financial holding Global Mortgage Securitization 2005-A Class B2 bonds ($8.25M face value at 5.250%, maturing 2032) traded through JPMorgan Securities LLC, confirming cross-bank trading activity.",
+      "confidence": "confirmed",
+      "id": 648
+    },
+    {
+      "date": "2013-06-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "JEE portfolio summary as of 6/30/2013 (EFTA02678941) shows total cash across entities: Southern Financial LLC USD 14.59M, J.Epstein USD 2.23M, Haze Trust USD 28K, Southern Trust Company USD 24.75M, Jeepers USD 28.02M, J.Epstein VI Foundation USD 4.62M, Total Cash USD 74.24M. Comparison with Aug 2014 snapshot (EFTA02435864 / finding #221): Southern Trust USD 70.78M, Southern Financial USD 48.77M, Jeepers USD 22.68M, Haze Trust USD 9.86M \u2014 showing Southern Financial grew from USD 14.59M (June 2013) to USD 48.77M (Aug 2014), a USD 34M increase in 14 months, while Southern Trust grew from USD 24.75M to USD 70.78M. Combined Southern Financial + Southern Trust balances: USD 39.3M (June 2013) to USD 119.55M (Aug 2014) to over USD 230M at peak per DB characterization. This demonstrates rapid asset growth in the 2013-2014 period.",
+      "confidence": "medium",
+      "id": 592
+    },
+    {
+      "date": "2013-08 to 2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank.",
+      "other_person": "Deutsche Bank AG",
+      "id": 1954
+    },
+    {
+      "date": "2013-08-19",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Per NYDFS Consent Order (2020), Southern Financial LLC was a wholly owned subsidiary of Southern Trust Company Inc. The DB-Epstein relationship officially began August 19, 2013 when DB opened brokerage accounts for both Southern Trust Company Inc. (self-described 'database company and services' founded in USVI 2011) and Southern Financial LLC. KYC purposes: Southern Trust to 'hold marketable securities and cash,' Southern Financial to 'invest long term with the bank.' Over the relationship, Epstein/entities/associates opened 40+ accounts at DB. Classified 'high-risk' from onset with enhanced due diligence. Designated 'Honorary PEP' due to connections to prominent political figures. ARRC reviewed in Jan 2015, was 'comfortable with things continuing' despite 40 underage victims and co-conspirators as Butterfly Trust beneficiaries.",
+      "confidence": "medium",
+      "id": 596
+    },
+    {
+      "date": "2014-01-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC was Epstein's primary trading and derivatives vehicle at Deutsche Bank. Key documented activities: (1) Twitter IPO allocation: 1,500 shares at USD 26 allocated by Tazia Smith (DB Director, Key Client Partners), EFTA02577080; (2) Twitter equity swap: 100,000 share TWTR position with monthly resets and Libor+75bps spread (EFTA02348007); (3) Currency derivatives: JPY/USD put at 102.5 strike, USD 10M notional, USD 190K premium on 1/31/2014 (EFTA02383565); (4) DB internal note (EFTA02719222): Vahe Stepanian flagged sizeable equity gains in SFLLC account x804, 'SPX > 2,000'; (5) Wire authority: Harry Beller managed verbal approval for all wires from Southern Financial LLC, Haze Trust, Jeepers, and Southern Trust Co at DB (EFTA02575944); (6) DB KYC/onboarding documents for Southern Financial LLC: ISDA uncleared margin, Volcker screening, account opening checklist (EFTA01368144-EFTA01368146). Southern Financial operated as a brokerage/derivatives overlay vehicle distinct from Southern Trust Company (the cash/investment entity).",
+      "confidence": "medium",
+      "id": 590
+    },
+    {
+      "date": "2014-08-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Aug 31, 2014 comprehensive valuation report shows Southern Financial LLC fixed income portfolio holding $16.7M+ in bonds including: Bank of America 8.125% (Dec 2049) $2M face, Barclays 7.75% (2023) $300K, Earthlink 8.875% (2019) $1M, GE Capital 7.125% (Dec 2049) $2M, Headwaters 7.625% (2019) $1M, HSBC structured notes, JPM structured notes, multiple JP Morgan Chase preferred 7.9% (Apr 2049) $5M total, LBG Capital bonds $3.1M. Southern Trust Co held separate fixed income: Ally Financial 8.5% preferred, Nationwide 6.875% GBP callable 2019, and Petroleos de Venezuela (PDVSA) 10/28/15 $2M position (sovereign risk). Total STC fixed income: $6.9M. Combined SFL+STC investment portfolios plus cash ($163.4M) plus hedge funds ($105.7M) totaled $403.8M across all entities. This shows SFL as the primary bond/derivatives vehicle and STC as the primary cash/money market vehicle \u2014 deliberate functional separation.",
+      "confidence": "high",
+      "id": 1310
+    },
+    {
+      "date": "2015-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Richard Kahn forwarded a $1,000,000 capital call for Neoteny 3 LP (Joi Ito's venture fund) to Epstein on April 10-13, 2015. Kahn asked 'please advise if ok to send from SFL LLC' confirming Southern Financial LLC (abbreviated SFL LLC) was the investment vehicle for this capital call. The capital call notice came from Danielle Prague at Neoteny. Kahn managed this from HBRK Associates Inc at 575 Lexington Avenue 4th Floor. This connects: (1) Southern Financial LLC to Joi Ito's venture fund, (2) Richard Kahn/HBRK as the operational fund administration center, (3) Epstein having approval authority over all fund disbursements.",
+      "confidence": "confirmed",
+      "id": 649
+    },
+    {
+      "date": "2017-05-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DS10 confirms Southern Financial LLC operated as the DERIVATIVES/TRADING vehicle with distinctive patterns. DS10 captures 6 transactions ($602K out, $59K in) but the balance data reveals far more: peak cash balance $10.72M (Jun 2015), portfolio value peaked at $16.72M (Dec 2018-Jan 2019). KEY FLOWS: (1) $500K to JPMorgan Chase (May 5, 2017 \u2014 likely an investment payment), (2) $51K received from Harlequin Dane LLC (May 2, 2019 \u2014 an entity not seen elsewhere in the investigation), (3) $51K immediately passed through to Citibank (May 3, 2019 \u2014 same-day pass-through). (4) Two Bear Stearns Asset Management payments received ($8.2K Aug 2015, $0.78 Jun 2015 \u2014 legacy distributions from collapsed Bear Stearns funds). The Harlequin Dane LLC pass-through is notable: $51K in from an unknown entity, $51K out next day to Citibank \u2014 classic conduit behavior. Harlequin Dane LLC needs investigation. The Bear Stearns distributions confirm SFL inherited legacy BS positions. The ISDA derivatives master agreement with Deutsche Bank AG London branch (finding #648) confirms SFL as the counterparty for swaps/options. SFL balance trajectory: zero (Nov 2013) -> $10.7M (Jun 2015) -> $8K (May 2017) -> $157K (May 2019) -> zero (May 2019 closure).",
+      "confidence": "medium",
+      "id": 1495
+    },
+    {
+      "date": "2017-12-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC operated as internal lending vehicle: Lesley Groff had 3 personal loans from Southern Financial LLC (not Southern Trust), with interest payments due monthly. Dec 2018 email chain reveals Groff wrote check to wrong entity (Southern Trust) for $2,110 interest payment (2.11% on $100,000). Bella Klein (office admin) instructed rewrite to Southern Financial LLC. Kahn directed 'deposit in SFL.' Groff's next payment was $1,970 (1.97% on $100,000). Promissory notes were drafted by Kahn at HBRK Associates (Dec 19, 2017 note template 'Promissory Note of Lesley Groff to Southern Financial, LLC'). Additionally, $51,000 flowed from Harlequin Dane LLC to Southern Financial LLC on May 2, 2019, then immediately out ($51,000) to Citibank on May 3 \u2014 pass-through transaction. This confirms SFL operated as both a lending and pass-through vehicle.",
+      "confidence": "confirmed",
+      "id": 1307
+    },
+    {
+      "date": "2018",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank KYC/NCA document for Southern Financial LLC reveals: (1) Jeffrey Epstein sole owner - 100% of 100 shares issued, (2) Darren Indyke is co-signor on account, (3) Southern Trust Company Inc is sole member of Southern Financial LLC, (4) PEP flag cites 'Connection with Prince Andrew and Bill Clinton', (5) Estimated annual income $10,000,000+, (6) Investable assets $50M-$100M, (7) Source of wealth: 'High Risk financial Institutions', (8) Business Owner + Investment as wealth categories, (9) Expected monthly flows: 10-15/month at $100K-$350K, (10) Relationship Manager: Stewart Oldfield, (11) Account status: Approved in 2018 periodic review. This is the most detailed primary source on Southern Financial's structure at Deutsche Bank.",
+      "confidence": "confirmed",
+      "id": 641
+    },
+    {
+      "date": "2019-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Southern Financial LLC was the subject of Charles Schwab AML investigation alongside Southern Trust Company Inc, Southern Country International Ltd, Jeffrey Epstein, and Richard Kahn. Opened Schwab accounts April 2019 (3 months before arrest). Also referenced in Deutsche Bank periodic reviews as the SOUTHERN FINANCIAL RELATIONSHIP that grouped multiple Epstein entities including Prytanee LLC. The Southern Financial relationship at DB was classified as HIGH RISK requiring enhanced due diligence and periodic KYC reviews.",
+      "confidence": "high",
+      "id": 626
+    },
+    {
+      "date": "2019-05-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "On May 31, 2019 (5 weeks before Epstein's July 6 arrest), Richard Kahn at HBRK Associates was transferring money out of SF LLC (Southern Financial LLC) through Aloha Group Capital. Kahn wrote 'great news, thank you again for your help, i will transfer out money now as well.' A processor had been working to 'correct the transfer' which was 'in queue for this evening to process.' Cc: Jeanne Brennan at Aloha Group Capital. This suggests pre-arrest asset movement through an intermediary financial institution, with urgency ('now as well'). Combined with the $52.5M Valar wire and other fund subscriptions, Southern Financial LLC served as the primary disbursement vehicle for Epstein's investment operations.",
+      "confidence": "confirmed",
+      "id": 650
+    },
+    {
+      "date": "2019-05-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Pre-arrest asset extraction from Southern Financial LLC through TD Ameritrade brokerage (May 31, 2019 -- 5 weeks before arrest). Richard Kahn at HBRK Associates urgently coordinated with Chad Markland (Senior Financial Consultant, TD Ameritrade) to transfer remaining stock positions out of SF LLC. The email chain reveals: (1) A processor had incorrectly handled the transfer -- Markland found the error and corrected it. (2) The correction was for 'the remaining shares to move the remaining full amount of that position.' (3) Once stocks transferred, Kahn immediately stated 'i will transfer out money now as well' -- indicating both securities AND cash were being extracted. (4) Jeanne Brennan was Cc'd as 'Aloha Group Capital' -- this appears to be a brokerage account name/alias at TD Ameritrade, not a separate financial institution. (5) This follows an earlier Oct 2017 asset transfer where Kahn moved stocks into the same account, asking about a  credit for bringing in new money. The SF LLC extraction coincides with DS10 records showing SF LLC balance going to zero in May 2019, and Schwab accounts being opened in April 2019 for STC/SFL/SCI. Kahn was simultaneously zeroing DB accounts and TD Ameritrade positions.",
+      "confidence": "high",
+      "id": 1581
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      590,
+      648,
+      649,
+      1307,
+      596,
+      641,
+      650,
+      1495,
+      626,
+      1310,
+      1581,
+      628
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          887,
+          1120,
+          1954,
+          732,
+          738,
+          766
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          648,
+          592,
+          590,
+          1310,
+          649,
+          1495,
+          1307,
+          641,
+          626,
+          650
+        ],
+        "connection_ids": [
+          887,
+          1120,
+          1954,
+          738
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.629126"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Southern Financial LLC",
+      "connections": [
+        {
+          "target": "The 2017 Caterpillar Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013"
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01389013",
+          "description": "SFL LLC provided 1M 9-year below-market loan (1.41% AFR) to Harlequin Dane LLC (Indyke entity) in Jun 2016, using same structure as May 2015 loan. In May 2019, Harlequin Dane repaid 51K to SFL. SFL had 10.7M peak balance and 16.7M portfolio. Indyke was authorized signatory at SFL."
+        },
+        {
+          "target": "Deutsche Bank AG",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:DB-Consent-Order-NYDFS",
+          "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank."
+        },
+        {
+          "target": "Financial Trust Company",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Harlequin Dane LLC",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01389013",
+          "description": "DS10: 51K pass-through May 2-3 2019"
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs. STC owns SF LLC (entity_relations). SF wholly owned subsidiary."
+        }
+      ],
+      "secondHop": {
+        "Darren Indyke": [
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Indyke handled legal matters for both Epstein and Black. Conference call details (EFTA02340224) show joint calls between Epstein, Black-related parties, Brad Karp, Brad Wechsler, and Patrick Fenn."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Indyke served as Treasurer (2012-2015) then Vice President/Director (2017-2019). Signed account closure letter Jan 10, 2019. Address: 575 Lexington Ave 4th Floor NYC then 9053 Estate Thomas USVI. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "In-house attorney at Southern Financial LLC for 15+ years. Secretary at STC, Authorized Signatory at SFL. Co-executor of estate. Beneficiary of Butterfly Trust. Trustee of 1953 Trust and Epstein 2019 Trust."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-beneficiaries of Butterfly Trust. Co-trustees of 1953 Trust. Co-executors of estate. Both at 575 Lexington Ave 4th Floor. Co-occur in 830 LMSBAND files."
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Indyke corresponded extensively with Oldfield at Deutsche Bank on Prytanee LLC, CDD forms, account management. 381 LMSBAND co-occurrences."
+          }
+        ],
+        "Deutsche Bank AG": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "DB processed hundreds of Epstein transactions totaling millions; failed to adhere to own monitoring requirements; DFS fined DB $150M partly for this failure"
+          },
+          {
+            "target": "FBME Bank",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "DB was last major Western bank maintaining correspondent banking with FBME even after FinCEN ordered all US-footprint banks to sever ties; DFS fined DB $150M partly for this failure"
+          },
+          {
+            "target": "John Cryan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "CEO of Deutsche Bank from before Nov 2017 until April 8, 2018; signed SOX certification for 2017 20-F"
+          },
+          {
+            "target": "James von Moltke",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "CFO of Deutsche Bank throughout class period (Nov 2017-July 2020); signed SOX certifications for all three annual 20-F filings (2017, 2018, 2019)"
+          },
+          {
+            "target": "Florian Drinhausen",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "General Counsel of Deutsche Bank; appointed Nov 2017 to signal AML remediation; departed by mutual agreement May 31, 2020 without explanation, two weeks before Fed audit criticism became public"
+          }
+        ],
+        "Financial Trust Company": [
+          {
+            "target": "Jeepers Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "FTC is parent entity of Jeepers Inc. Tax returns prepared together. Both at 6100 Red Hook Quarter B3, St Thomas USVI."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc is USVI EDC-registered entity linked to FTC. Kahn traded Carvana stock through Southern Trust. Groff loans from Southern Financial LLC."
+          },
+          {
+            "target": "Valartis Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC maintained accounts at Valartis Bank AG Zurich with IBAN in USD/EUR/CAD. Bernard Andersen managed the relationship."
+          },
+          {
+            "target": "JP Morgan",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "FTC $50,000,000 Line of Credit with JP Morgan documented in GRM Box #004740715. Includes collateral agreement, line letter, Form U-1, board resolutions, and corporate certificate."
+          },
+          {
+            "target": "Highbridge Capital",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Multiple FTC transaction files document Highbridge Capital investments: Highbridge Corporation Files I & II (from 9/19/00), Highbridge Capital Corp Private Placement, Highbridge Long/Short Equity Fund LP, Highbridge Capital 2010 Annual Review, FTC Consulting Agreement with Highbridge Management, HB Multi Strategy. GRM Boxes #004740711-004740714."
+          }
+        ],
+        "The 2017 Caterpillar Trust": [
+          {
+            "target": "The Haze Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Part of Epstein's nature-themed GRAT series. Haze (1999, Indyke trustee, NY law), Butterfly (2013), Caterpillar (2017, Wallace/Groff trustees, USVI). All administered by Richard Kahn/HBRK Associates."
+          },
+          {
+            "target": "The 2013 Butterfly Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "2.16M transferred from DB Caterpillar Trust to fund Butterfly Trust brokerage at Morgan Stanley on March 18 2019"
+          },
+          {
+            "target": "IGO Company LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Caterpillar Trust holds membership interest in IGO Company LLC per DB AML compliance review"
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity"
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Oldfield was primary DB banker for Caterpillar Trust, handled trustee matters, consulted on trust follow-ups, confirmed he did not disclose Epstein's name to counterparties"
+          }
+        ],
+        "Southern Trust Company Inc": [
+          {
+            "target": "IGO Company LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT."
+          },
+          {
+            "target": "IGO Company LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015"
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2013",
+        "label": "ISDA derivatives master agreement between Deutsche Bank AG (London branch) and Southern Financial LLC. Key details: (1) Southern Financial LLC address: 6100 Red Hook Quarter B3, St Thomas USVI 00802, (2) Attention: Jeffrey Epstein, (3) Fax: 340-775-2528, (4) Deutsche Bank AG London Winchester House as counterparty. This confirms Southern Financial LLC was the entity used for derivatives/swap trading with Deutsche Bank. Separately, account statements show Southern Financial holding Global Mortgage Securitization 2005-A Class B2 bonds ($8.25M face value at 5.250%, maturing 2032) traded through JPMorgan Securities LLC, confirming cross-bank trading activity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 648
+      },
+      {
+        "date": "2013-06-30",
+        "label": "JEE portfolio summary as of 6/30/2013 (EFTA02678941) shows total cash across entities: Southern Financial LLC USD 14.59M, J.Epstein USD 2.23M, Haze Trust USD 28K, Southern Trust Company USD 24.75M, Jeepers USD 28.02M, J.Epstein VI Foundation USD 4.62M, Total Cash USD 74.24M. Comparison with Aug 2014 snapshot (EFTA02435864 / finding #221): Southern Trust USD 70.78M, Southern Financial USD 48.77M, Jeepers USD 22.68M, Haze Trust USD 9.86M \u2014 showing Southern Financial grew from USD 14.59M (June 2013) to USD 48.77M (Aug 2014), a USD 34M increase in 14 months, while Southern Trust grew from USD 24.75M to USD 70.78M. Combined Southern Financial + Southern Trust balances: USD 39.3M (June 2013) to USD 119.55M (Aug 2014) to over USD 230M at peak per DB characterization. This demonstrates rapid asset growth in the 2013-2014 period.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 592
+      },
+      {
+        "date": "2013-08 to 2018-12",
+        "label": "financial with Deutsche Bank AG",
+        "type": "financial",
+        "entity": "Deutsche Bank AG",
+        "id": 1954
+      },
+      {
+        "date": "2013-08-19",
+        "label": "Per NYDFS Consent Order (2020), Southern Financial LLC was a wholly owned subsidiary of Southern Trust Company Inc. The DB-Epstein relationship officially began August 19, 2013 when DB opened brokerage accounts for both Southern Trust Company Inc. (self-described 'database company and services' founded in USVI 2011) and Southern Financial LLC. KYC purposes: Southern Trust to 'hold marketable securities and cash,' Southern Financial to 'invest long term with the bank.' Over the relationship, Epstein/entities/associates opened 40+ accounts at DB. Classified 'high-risk' from onset with enhanced due diligence. Designated 'Honorary PEP' due to connections to prominent political figures. ARRC reviewed in Jan 2015, was 'comfortable with things continuing' despite 40 underage victims and co-conspirators as Butterfly Trust beneficiaries.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 596
+      },
+      {
+        "date": "2014-01-31",
+        "label": "Southern Financial LLC was Epstein's primary trading and derivatives vehicle at Deutsche Bank. Key documented activities: (1) Twitter IPO allocation: 1,500 shares at USD 26 allocated by Tazia Smith (DB Director, Key Client Partners), EFTA02577080; (2) Twitter equity swap: 100,000 share TWTR position with monthly resets and Libor+75bps spread (EFTA02348007); (3) Currency derivatives: JPY/USD put at 102.5 strike, USD 10M notional, USD 190K premium on 1/31/2014 (EFTA02383565); (4) DB internal note (EFTA02719222): Vahe Stepanian flagged sizeable equity gains in SFLLC account x804, 'SPX > 2,000'; (5) Wire authority: Harry Beller managed verbal approval for all wires from Southern Financial LLC, Haze Trust, Jeepers, and Southern Trust Co at DB (EFTA02575944); (6) DB KYC/onboarding documents for Southern Financial LLC: ISDA uncleared margin, Volcker screening, account opening checklist (EFTA01368144-EFTA01368146). Southern Financial operated as a brokerage/derivatives overlay vehicle distinct from Southern Trust Company (the cash/investment entity).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 590
+      },
+      {
+        "date": "2014-08-31",
+        "label": "Aug 31, 2014 comprehensive valuation report shows Southern Financial LLC fixed income portfolio holding $16.7M+ in bonds including: Bank of America 8.125% (Dec 2049) $2M face, Barclays 7.75% (2023) $300K, Earthlink 8.875% (2019) $1M, GE Capital 7.125% (Dec 2049) $2M, Headwaters 7.625% (2019) $1M, HSBC structured notes, JPM structured notes, multiple JP Morgan Chase preferred 7.9% (Apr 2049) $5M total, LBG Capital bonds $3.1M. Southern Trust Co held separate fixed income: Ally Financial 8.5% preferred, Nationwide 6.875% GBP callable 2019, and Petroleos de Venezuela (PDVSA) 10/28/15 $2M position (sovereign risk). Total STC fixed income: $6.9M. Combined SFL+STC investment portfolios plus cash ($163.4M) plus hedge funds ($105.7M) totaled $403.8M across all entities. This shows SFL as the primary bond/derivatives vehicle and STC as the primary cash/money market vehicle \u2014 deliberate functional separation.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1310
+      },
+      {
+        "date": "2015-04",
+        "label": "Richard Kahn forwarded a $1,000,000 capital call for Neoteny 3 LP (Joi Ito's venture fund) to Epstein on April 10-13, 2015. Kahn asked 'please advise if ok to send from SFL LLC' confirming Southern Financial LLC (abbreviated SFL LLC) was the investment vehicle for this capital call. The capital call notice came from Danielle Prague at Neoteny. Kahn managed this from HBRK Associates Inc at 575 Lexington Avenue 4th Floor. This connects: (1) Southern Financial LLC to Joi Ito's venture fund, (2) Richard Kahn/HBRK as the operational fund administration center, (3) Epstein having approval authority over all fund disbursements.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 649
+      },
+      {
+        "date": "2017-05-05",
+        "label": "DS10 confirms Southern Financial LLC operated as the DERIVATIVES/TRADING vehicle with distinctive patterns. DS10 captures 6 transactions ($602K out, $59K in) but the balance data reveals far more: peak cash balance $10.72M (Jun 2015), portfolio value peaked at $16.72M (Dec 2018-Jan 2019). KEY FLOWS: (1) $500K to JPMorgan Chase (May 5, 2017 \u2014 likely an investment payment), (2) $51K received from Harlequin Dane LLC (May 2, 2019 \u2014 an entity not seen elsewhere in the investigation), (3) $51K immediately passed through to Citibank (May 3, 2019 \u2014 same-day pass-through). (4) Two Bear Stearns Asset Management payments received ($8.2K Aug 2015, $0.78 Jun 2015 \u2014 legacy distributions from collapsed Bear Stearns funds). The Harlequin Dane LLC pass-through is notable: $51K in from an unknown entity, $51K out next day to Citibank \u2014 classic conduit behavior. Harlequin Dane LLC needs investigation. The Bear Stearns distributions confirm SFL inherited legacy BS positions. The ISDA derivatives master agreement with Deutsche Bank AG London branch (finding #648) confirms SFL as the counterparty for swaps/options. SFL balance trajectory: zero (Nov 2013) -> $10.7M (Jun 2015) -> $8K (May 2017) -> $157K (May 2019) -> zero (May 2019 closure).",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1495
+      },
+      {
+        "date": "2017-12-19",
+        "label": "Southern Financial LLC operated as internal lending vehicle: Lesley Groff had 3 personal loans from Southern Financial LLC (not Southern Trust), with interest payments due monthly. Dec 2018 email chain reveals Groff wrote check to wrong entity (Southern Trust) for $2,110 interest payment (2.11% on $100,000). Bella Klein (office admin) instructed rewrite to Southern Financial LLC. Kahn directed 'deposit in SFL.' Groff's next payment was $1,970 (1.97% on $100,000). Promissory notes were drafted by Kahn at HBRK Associates (Dec 19, 2017 note template 'Promissory Note of Lesley Groff to Southern Financial, LLC'). Additionally, $51,000 flowed from Harlequin Dane LLC to Southern Financial LLC on May 2, 2019, then immediately out ($51,000) to Citibank on May 3 \u2014 pass-through transaction. This confirms SFL operated as both a lending and pass-through vehicle.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1307
+      },
+      {
+        "date": "2018",
+        "label": "Deutsche Bank KYC/NCA document for Southern Financial LLC reveals: (1) Jeffrey Epstein sole owner - 100% of 100 shares issued, (2) Darren Indyke is co-signor on account, (3) Southern Trust Company Inc is sole member of Southern Financial LLC, (4) PEP flag cites 'Connection with Prince Andrew and Bill Clinton', (5) Estimated annual income $10,000,000+, (6) Investable assets $50M-$100M, (7) Source of wealth: 'High Risk financial Institutions', (8) Business Owner + Investment as wealth categories, (9) Expected monthly flows: 10-15/month at $100K-$350K, (10) Relationship Manager: Stewart Oldfield, (11) Account status: Approved in 2018 periodic review. This is the most detailed primary source on Southern Financial's structure at Deutsche Bank.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 641
+      },
+      {
+        "date": "2019-04",
+        "label": "Southern Financial LLC was the subject of Charles Schwab AML investigation alongside Southern Trust Company Inc, Southern Country International Ltd, Jeffrey Epstein, and Richard Kahn. Opened Schwab accounts April 2019 (3 months before arrest). Also referenced in Deutsche Bank periodic reviews as the SOUTHERN FINANCIAL RELATIONSHIP that grouped multiple Epstein entities including Prytanee LLC. The Southern Financial relationship at DB was classified as HIGH RISK requiring enhanced due diligence and periodic KYC reviews.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 626
+      },
+      {
+        "date": "2019-05-31",
+        "label": "On May 31, 2019 (5 weeks before Epstein's July 6 arrest), Richard Kahn at HBRK Associates was transferring money out of SF LLC (Southern Financial LLC) through Aloha Group Capital. Kahn wrote 'great news, thank you again for your help, i will transfer out money now as well.' A processor had been working to 'correct the transfer' which was 'in queue for this evening to process.' Cc: Jeanne Brennan at Aloha Group Capital. This suggests pre-arrest asset movement through an intermediary financial institution, with urgency ('now as well'). Combined with the $52.5M Valar wire and other fund subscriptions, Southern Financial LLC served as the primary disbursement vehicle for Epstein's investment operations.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 650
+      },
+      {
+        "date": "2019-05-31",
+        "label": "Pre-arrest asset extraction from Southern Financial LLC through TD Ameritrade brokerage (May 31, 2019 -- 5 weeks before arrest). Richard Kahn at HBRK Associates urgently coordinated with Chad Markland (Senior Financial Consultant, TD Ameritrade) to transfer remaining stock positions out of SF LLC. The email chain reveals: (1) A processor had incorrectly handled the transfer -- Markland found the error and corrected it. (2) The correction was for 'the remaining shares to move the remaining full amount of that position.' (3) Once stocks transferred, Kahn immediately stated 'i will transfer out money now as well' -- indicating both securities AND cash were being extracted. (4) Jeanne Brennan was Cc'd as 'Aloha Group Capital' -- this appears to be a brokerage account name/alias at TD Ameritrade, not a separate financial institution. (5) This follows an earlier Oct 2017 asset transfer where Kahn moved stocks into the same account, asking about a  credit for bringing in new money. The SF LLC extraction coincides with DS10 records showing SF LLC balance going to zero in May 2019, and Schwab accounts being opened in April 2019 for STC/SFL/SCI. Kahn was simultaneously zeroing DB accounts and TD Ameritrade positions.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1581
+      }
+    ]
+  }
+}

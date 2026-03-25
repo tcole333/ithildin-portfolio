@@ -1,0 +1,538 @@
+{
+  "name": "Nine East 71st Street Corporation",
+  "slug": "nine-east-71st-street-corporation",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.322815",
+  "last_updated": "2026-02-17T15:31:02",
+  "stats": {
+    "total_findings": 5,
+    "total_connections": 8,
+    "total_entities": 0,
+    "finding_types": {
+      "location": 1,
+      "financial": 1,
+      "document": 1,
+      "legal": 1,
+      "identity": 1
+    },
+    "connection_types": {
+      "corporate": 6,
+      "financial": 2
+    },
+    "last_updated": "2026-02-17T15:31:02"
+  },
+  "findings": [
+    {
+      "id": 492,
+      "finding_type": "location",
+      "summary": "Nine East 71st Street Corp (also styled as NINE EAST 71ST ST CORP) was registered at 41 South High St Columbus OH (Wexner's L Brands HQ). Acquired 9 E 71st St (BBL 1/1386/10) from Birch Wathen School in Sep 1989. Transfer address changed to 301 East 66th Street 10F (Ossa Properties / Epstein address) by the time it transferred to Maple Inc USVI in Dec 2011. This address change from Columbus OH to 301 E 66th reflects the shift in control from Wexner to the Epstein operation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1989-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:02:31",
+      "target_name": "Nine East 71st Street Corporation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2011122700736001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:1690000317169",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3202,
+      "finding_type": "financial",
+      "summary": "Nine East 71st Street Corp owned Epstein Manhattan mansion 1989-2011, then deeded to Maple Inc",
+      "detail": "Nine East 71st Street Corporation (domestic business corp, principal place of business at 575 Lexington Ave 4th Floor, NY 10022) owned 9 East 71st Street from 1989 until December 23, 2011 when it was deeded to Maple Inc (USVI corp). Valued at .9M assessed/M per SDNY estimate.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-12-23",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:26:32",
+      "target_name": "Nine East 71st Street Corporation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2468,
+      "finding_type": "document",
+      "summary": "GRM filing index contains extensive binder for Sale of 9 East 71st Street including: General Ledger 9/30/98, Vorys Reviews, Draft Contract of Sale, Nominee Agreement, NES LLC Articles of Organization, Lease Agreement, Biennial Statement, Purchase & Sale Agreement, Promissory Note, Guaranty, Assignment & Assumption Agreement, Stock Power, Stock Certificate, LHW Resignation as Director, Settlement Statement, and Closing Documents. Critically includes 'BINDER: Leslie H. Wexner Sale of Nine East 71st Street Corporation to NES, LLC' confirming the Wexner-to-Epstein transfer chain. General Ledger date of 9/30/98 dates the transaction to late 1998.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-15 06:33:09",
+      "target_name": "Nine East 71st Street Corporation",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00300480",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3189,
+      "finding_type": "legal",
+      "summary": "Nine East 71st Street Corp acquired 9 E 71st St on Sep 6 1989, transferred to Maple Inc on Dec 11 2011",
+      "detail": "Per Katlyn Doe complaint paras 7, 138, 102: Nine East 71st Street Corporation was a domestic business corporation with principal place of business at 575 Lexington Avenue, Fourth Floor, NY 10022. Acquired title to 9 East 71st Street on September 6, 1989. Retained title until December 11, 2011 when transferred to Maple, Inc. (Note: para 102 gives Dec 23, 2011 as transfer date; para 138 gives Dec 11, 2011 -- minor inconsistency in complaint).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:25:55",
+      "target_name": "Nine East 71st Street Corporation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Katlyn-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3263,
+      "finding_type": "identity",
+      "summary": "Nine East 71st Street Corp principal business address was 575 Lexington Avenue, Fourth Floor, NY 10022",
+      "detail": "Per complaint para 7: Nine East 71st Street Corporation was a domestic business corporation with its principal place of business located at 575 Lexington Avenue, Fourth Floor, New York, NY 10022. This is notable because 575 Lexington Avenue is also associated with other Epstein-related entities and is a separate location from the 9 East 71st Street property it owned.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:31:02",
+      "target_name": "Nine East 71st Street Corporation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Katlyn-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1905,
+      "person_a": "CDE Inc",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "corporate",
+      "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "CDE Inc",
+      "other_person_slug": "cde-inc",
+      "evidence": []
+    },
+    {
+      "id": 1910,
+      "person_a": "Mort Inc",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "corporate",
+      "description": "Finding #556: Mort Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehicle for 50",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Mort Inc",
+      "other_person_slug": "mort-inc",
+      "evidence": []
+    },
+    {
+      "id": 1918,
+      "person_a": "FT Real Estate Inc",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "corporate",
+      "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "FT Real Estate Inc",
+      "other_person_slug": "ft-real-estate-inc",
+      "evidence": []
+    },
+    {
+      "id": 1936,
+      "person_a": "Maple, Inc.",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "corporate",
+      "description": "Nine East transferred 9 E 71st St mansion to Maple Inc on Dec 23, 2011 per Katlyn Doe complaint",
+      "strength": "strong",
+      "date_range": "2011-12-23",
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:30",
+      "other_person": "Maple, Inc.",
+      "other_person_slug": "maple-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Katlyn-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1949,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "corporate",
+      "description": "Owned Manhattan mansion at 9 East 71st St (1989-2011) where commercial sex trafficking occurred; principal place of business 575 Lexington Ave 4th Fl",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:29:56",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1965,
+      "person_a": "Maple, Inc.",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "corporate",
+      "description": "Nine East deeded 9 East 71st St Manhattan to Maple Inc on December 23, 2011; Maple is USVI corp",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 15:30:42",
+      "other_person": "Maple, Inc.",
+      "other_person_slug": "maple-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "person_a": "Maple, Inc.",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "financial",
+      "description": "ACRIS deed transfer 12/23/2011, 9 E 71st St NYC",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:50:54",
+      "other_person": "Maple, Inc.",
+      "other_person_slug": "maple-inc",
+      "evidence": []
+    },
+    {
+      "id": 762,
+      "person_a": "Les Wexner",
+      "person_b": "Nine East 71st Street Corporation",
+      "relationship_type": "financial",
+      "description": "1989 buyer address 41 S High St Columbus OH = Wexner HQ",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:50:54",
+      "other_person": "Les Wexner",
+      "other_person_slug": "les-wexner",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1989-09",
+      "type": "finding",
+      "finding_type": "location",
+      "summary": "Nine East 71st Street Corp (also styled as NINE EAST 71ST ST CORP) was registered at 41 South High St Columbus OH (Wexner's L Brands HQ). Acquired 9 E 71st St (BBL 1/1386/10) from Birch Wathen School in Sep 1989. Transfer address changed to 301 East 66th Street 10F (Ossa Properties / Epstein address) by the time it transferred to Maple Inc USVI in Dec 2011. This address change from Columbus OH to 301 E 66th reflects the shift in control from Wexner to the Epstein operation.",
+      "confidence": "medium",
+      "id": 492
+    },
+    {
+      "date": "2011-12-23",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Nine East 71st Street Corp owned Epstein Manhattan mansion 1989-2011, then deeded to Maple Inc",
+      "confidence": "high",
+      "id": 3202
+    },
+    {
+      "date": "2011-12-23",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Nine East transferred 9 E 71st St mansion to Maple Inc on Dec 23, 2011 per Katlyn Doe complaint",
+      "other_person": "Maple, Inc.",
+      "id": 1936
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2468,
+      3202,
+      492,
+      3189,
+      3263
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1905,
+          1910,
+          1918,
+          1936,
+          1949,
+          1965,
+          760,
+          762
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.584357"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Nine East 71st Street Corporation",
+      "connections": [
+        {
+          "target": "CDE Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti"
+        },
+        {
+          "target": "Mort Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #556: Mort Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehicle for 50"
+        },
+        {
+          "target": "FT Real Estate Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+        },
+        {
+          "target": "Maple, Inc.",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Katlyn-Doe-v-Epstein",
+          "description": "Nine East transferred 9 E 71st St mansion to Maple Inc on Dec 23, 2011 per Katlyn Doe complaint"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "description": "Owned Manhattan mansion at 9 East 71st St (1989-2011) where commercial sex trafficking occurred; principal place of business 575 Lexington Ave 4th Fl"
+        },
+        {
+          "target": "Maple, Inc.",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OffshoreAlert:Priscilla-Doe-v-Epstein",
+          "description": "Nine East deeded 9 East 71st St Manhattan to Maple Inc on December 23, 2011; Maple is USVI corp"
+        },
+        {
+          "target": "Maple, Inc.",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "ACRIS deed transfer 12/23/2011, 9 E 71st St NYC"
+        },
+        {
+          "target": "Les Wexner",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "1989 buyer address 41 S High St Columbus OH = Wexner HQ"
+        }
+      ],
+      "secondHop": {
+        "CDE Inc": [
+          {
+            "target": "Darren Indyke",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti"
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti"
+          },
+          {
+            "target": "Flight Options",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #555: CDE Inc. confirmed as USVI S Corporation owned by Jeffrey Epstein (JEE Owner). Listed in Richard Kahn Open Items memo (March 2012) as one of 8 potenti"
+          }
+        ],
+        "FT Real Estate Inc": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          },
+          {
+            "target": "Financial Ballistics Trust",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          },
+          {
+            "target": "Financial Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          },
+          {
+            "target": "Haze Trust",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Les Wexner": [
+          {
+            "target": "NYSG LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "NYSG LLC at 457 Madison sent FedEx to Wexner family and corporate addresses in New Albany OH 2001-2002"
+          },
+          {
+            "target": "New Albany Property Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "NYSG LLC shipped documents to Peg Ugland and Paul Burkhardt at New Albany Property Inc 6525 West Campus Oval in Wexner territory"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1989-09",
+        "label": "Nine East 71st Street Corp (also styled as NINE EAST 71ST ST CORP) was registered at 41 South High St Columbus OH (Wexner's L Brands HQ). Acquired 9 E 71st St (BBL 1/1386/10) from Birch Wathen School in Sep 1989. Transfer address changed to 301 East 66th Street 10F (Ossa Properties / Epstein address) by the time it transferred to Maple Inc USVI in Dec 2011. This address change from Columbus OH to 301 E 66th reflects the shift in control from Wexner to the Epstein operation.",
+        "type": "location",
+        "evidence_ref": null,
+        "id": 492
+      },
+      {
+        "date": "2011-12-23",
+        "label": "Nine East 71st Street Corp owned Epstein Manhattan mansion 1989-2011, then deeded to Maple Inc",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3202
+      },
+      {
+        "date": "2011-12-23",
+        "label": "corporate with Maple, Inc.",
+        "type": "corporate",
+        "entity": "Maple, Inc.",
+        "id": 1936
+      }
+    ]
+  }
+}

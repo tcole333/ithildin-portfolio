@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import SearchModal from '../components/SearchModal.tsx';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Open-source intelligence platform. Public records, court filings, and corporate registries — cited and cross-referenced." } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} | Ithildin</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen antialiased">
+    <Navigation />
+    <SearchModal client:load />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <slot />
+    </main>
+    <footer class="border-t border-[color:var(--color-ash)] mt-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-mithril">
+        <p class="font-body text-[0.95rem] text-mithril">
+          Ithildin is a portfolio investigative platform for source-linked research, queue orchestration, and static publishing.
+        </p>
+        <p class="mt-2 font-body text-[0.95rem] text-mithril">
+          Public claims resolve to either an inspectable artifact or a metadata-rich source record that explains provenance and use.
+        </p>
+      </div>
+    </footer>
+    <script>
+      import { initBacklinkPopover } from '../lib/backlinkPopover';
+      initBacklinkPopover();
+    </script>
+  </body>
+</html>

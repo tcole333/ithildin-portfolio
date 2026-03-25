@@ -1,0 +1,427 @@
+{
+  "name": "Jackie Fine Arts Inc",
+  "slug": "jackie-fine-arts-inc",
+  "aliases": [
+    "Jackie Fine Arts"
+  ],
+  "generated_at": "2026-02-20T01:17:47.315453",
+  "last_updated": "2026-02-14T20:51:54",
+  "stats": {
+    "total_findings": 8,
+    "total_connections": 1,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 4,
+      "financial": 3,
+      "identity": 1
+    },
+    "connection_types": {
+      "corporate": 1
+    },
+    "last_updated": "2026-02-14T20:51:54"
+  },
+  "findings": [
+    {
+      "id": 2106,
+      "finding_type": "legal",
+      "summary": "Jackie Fine Arts Inc faced lawsuits across at least 8 federal districts 1983-1992: Turner v JFA (SD CA 1983), Menish v JFA (CD CA 1984), Ross v JFA (D SC 1985), Westheimer v Finesod (SD TX 1986), Nichols v JFA (D ME 1987), Bergin v JFA (D MN 1987), Faircloth v JFA (ED NY and SD FL 1989), Ross v JFA (SD CA 1990-1992), Burch v JFA (ED NY 1992). Founder Herman Finesod personally sued: Vigil v Finesod (D NM 1987, multi-district), Levi v Finesod (SD NY 1992), bankruptcy (WD PA 1994). Entity sold low-value art reproduction rights to wealthy buyers as calculated tax dodge.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1983",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:50:12",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:JFA-multi-district",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2135,
+      "finding_type": "legal",
+      "summary": "IRS disallowed all Jackie Fine Arts art master tax deductions. Rose v Commissioner 868 F.2d 851 6th Cir 1989 ruled art master packages lacked economic substance and were generic tax shelters. Tax court found investors had no honest profit motive. Nationwide lawsuits arose: at least 10 separate federal cases across SC AL MN ME CA FL NY districts from 1983-1992.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1983",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:51:43",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Rose v Commissioner 868 F.2d 851 6th Cir 1989",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2117,
+      "finding_type": "financial",
+      "summary": "Jackie Fine Arts sold 2000+ art masters at 225-250K each actual value 10K with 409M in notes receivable",
+      "detail": "Per Faircloth v. Finesod 938 F.2d 513 (4th Cir 1991): Jackie Fine Arts Inc wholly owned by M and J Holding Corporation owned by Herman Finesod. M and J 1986 tax return showed assets of 1.33 billion. Jackie sold over 2000 art masters at 225K-250K average price. Actual cost per art master approximately 10K. In 1986 Jackie held 409 million in notes receivable from buyers. Fraudulent independent appraisals by Sigmund Rothschild (250/appraisal) and F Peter Rose (150-300 each plus 50 kickback to Rothschild) valuing masters at 700K-750K. An LA law firm wrote tax opinion while secretly receiving 1 percent of cash from sales.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1986",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:50:59",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "CourtListener:opinion/1583303",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "CourtListener:opinion/564802",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2130,
+      "finding_type": "legal",
+      "summary": "Jackie Fine Arts sold 2000+ art masters at 225-250K each that cost only 10K. 409M in notes receivable by 1986. Jury found fraud RICO civil conspiracy. 5M punitive against JFA, 2.5M against Finesod, 500K against Rose. Total judgment exceeded 4.3M plus 615K attorney fees. Faircloth v Finesod 938 F.2d 513 4th Cir 1991.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1986",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:51:43",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Faircloth v Finesod 938 F.2d 513 4th Cir 1991",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2131,
+      "finding_type": "financial",
+      "summary": "Jackie Fine Arts art master scheme: bought Picasso reproduction rights via Paraselenes SA (Marina Picasso company) through AMI for roughly 10K per master. Sold to investors at 225-250K with fake independent appraisals from Rothschild (750K) and Rose (700K) who shared office and secretary. LA law firm gave tax opinion while secretly receiving 1 pct of sales. 2500 total appraisals produced.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1986",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:51:43",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Faircloth v Finesod 938 F.2d 513",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2139,
+      "finding_type": "legal",
+      "summary": "Jackie Fine Arts generated nationwide litigation in at least 10 federal districts and multiple state courts",
+      "detail": "CourtListener search reveals Jackie Fine Arts was sued in at least 12 separate federal and state courts: D. South Carolina (Faircloth Ross), D. Minnesota (Bergin), D. Maine (Nichols), C.D. California (Ross Menish), S.D. California (Turner Ross Gray Cary), E.D. New York (Faircloth transfer Burch Cracchiolo), S.D. Florida (Faircloth), Arizona Court of Appeals (Daggett), Wyoming Supreme Court (McGreal), Alabama Supreme Court (Berkowitz), 6th Circuit (Hoops v Hudson). Related Finesod cases in D. New Mexico (Vigil), S.D. Texas (Westheimer), and S.D. New York (Levi). The Terra-Drill Partnerships Securities Litigation (MDL No. 791) was also a Finesod vehicle.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1990",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:51:54",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener:search:Jackie+Fine+Arts",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2099,
+      "finding_type": "financial",
+      "summary": "Jackie Fine Arts Inc was a Gold and Wachtel client that ran a massive tax shelter fraud scheme. Founded by Herman Finesod (called King of Tax Shelters). Sold art master reproduction rights - copies of famous paintings purchased for approx 10K each - to over 2000 investors at 225K-250K each with fraudulent independent appraisals at 700K-750K. Appraisers Sigmund Rothschild and F Peter Rose shared an office and secretary (undisclosed). IRS disallowed the tax shelters. Finesod hit with 4.3M+ judgment for fraud RICO and civil conspiracy (Faircloth v Finesod 938 F.2d 513, 4th Cir 1991). Bernard Indyke (Darren Indykes father) was manager and board member of Jackie Fine Arts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:16:12",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://law.justia.com/cases/federal/appellate-courts/F2/938/513/294111/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.thedailybeast.com/jeffrey-epsteins-right-hand-mystery-men/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2136,
+      "finding_type": "identity",
+      "summary": "Jackie Fine Arts GmbH registered in Munich Germany (Handelsregister HRB 58801). Status: removed. This shows JFA had international operations beyond the US, including a German subsidiary. OCCRP Aleph confirmed via German companies registry OpenCorporates scrape.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:51:43",
+      "target_name": "Jackie Fine Arts Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OCCRP Aleph entity 0b68e0777d621f7ccfe78eb55d30a424178a42e6",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1072,
+      "person_a": "Bernard Indyke",
+      "person_b": "Jackie Fine Arts",
+      "relationship_type": "corporate",
+      "description": "Bernard Indyke (Darren Indykes father) served as manager and member of the board at Jackie Fine Arts Inc, a Gold and Wachtel client that ran tax shelter fraud selling overvalued art master reproduction rights. Herman Finesod founded Jackie Fine Arts.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 20:17:11",
+      "other_person": "Bernard Indyke",
+      "other_person_slug": "bernard-indyke",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.thedailybeast.com/jeffrey-epsteins-right-hand-mystery-men/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1983",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Jackie Fine Arts Inc faced lawsuits across at least 8 federal districts 1983-1992: Turner v JFA (SD CA 1983), Menish v JFA (CD CA 1984), Ross v JFA (D SC 1985), Westheimer v Finesod (SD TX 1986), Nichols v JFA (D ME 1987), Bergin v JFA (D MN 1987), Faircloth v JFA (ED NY and SD FL 1989), Ross v JFA (SD CA 1990-1992), Burch v JFA (ED NY 1992). Founder Herman Finesod personally sued: Vigil v Finesod (D NM 1987, multi-district), Levi v Finesod (SD NY 1992), bankruptcy (WD PA 1994). Entity sold low-value art reproduction rights to wealthy buyers as calculated tax dodge.",
+      "confidence": "medium",
+      "id": 2106
+    },
+    {
+      "date": "1983",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "IRS disallowed all Jackie Fine Arts art master tax deductions. Rose v Commissioner 868 F.2d 851 6th Cir 1989 ruled art master packages lacked economic substance and were generic tax shelters. Tax court found investors had no honest profit motive. Nationwide lawsuits arose: at least 10 separate federal cases across SC AL MN ME CA FL NY districts from 1983-1992.",
+      "confidence": "confirmed",
+      "id": 2135
+    },
+    {
+      "date": "1986",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jackie Fine Arts sold 2000+ art masters at 225-250K each actual value 10K with 409M in notes receivable",
+      "confidence": "high",
+      "id": 2117
+    },
+    {
+      "date": "1986",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Jackie Fine Arts sold 2000+ art masters at 225-250K each that cost only 10K. 409M in notes receivable by 1986. Jury found fraud RICO civil conspiracy. 5M punitive against JFA, 2.5M against Finesod, 500K against Rose. Total judgment exceeded 4.3M plus 615K attorney fees. Faircloth v Finesod 938 F.2d 513 4th Cir 1991.",
+      "confidence": "confirmed",
+      "id": 2130
+    },
+    {
+      "date": "1986",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Jackie Fine Arts art master scheme: bought Picasso reproduction rights via Paraselenes SA (Marina Picasso company) through AMI for roughly 10K per master. Sold to investors at 225-250K with fake independent appraisals from Rothschild (750K) and Rose (700K) who shared office and secretary. LA law firm gave tax opinion while secretly receiving 1 pct of sales. 2500 total appraisals produced.",
+      "confidence": "confirmed",
+      "id": 2131
+    },
+    {
+      "date": "1990",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Jackie Fine Arts generated nationwide litigation in at least 10 federal districts and multiple state courts",
+      "confidence": "medium",
+      "id": 2139
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2131,
+      2135,
+      2117,
+      2130,
+      2099,
+      2106,
+      2139,
+      2136
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          2117,
+          2131,
+          2099
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2106,
+          2135,
+          2130,
+          2139
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.494730"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Jackie Fine Arts Inc",
+      "connections": [
+        {
+          "target": "Bernard Indyke",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://www.thedailybeast.com/jeffrey-epsteins-right-hand-mystery-men/",
+          "description": "Bernard Indyke (Darren Indykes father) served as manager and member of the board at Jackie Fine Arts Inc, a Gold and Wachtel client that ran tax shelter fraud selling overvalued art master reproduction rights. Herman Finesod founded Jackie Fine Arts."
+        }
+      ],
+      "secondHop": {
+        "Bernard Indyke": [
+          {
+            "target": "Darren Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Bernard was manager and board member at Jackie Fine Arts (Gold and Wachtel client). Got Darren hired at Gold and Wachtel after Colgate/Cornell, where Darren first encountered Epstein as client."
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Bernard was manager/board at Jackie Fine Arts, a Gold & Wachtel client. Wachtel hired Darren as favor to Bernard. Gold & Wachtel represented Epstein from 1988."
+          },
+          {
+            "target": "Darren K. Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son. Bernard managed Jackie Fine Arts, a Gold & Wachtel client. This family connection brought Darren into Epsteins orbit via the firm."
+          },
+          {
+            "target": "Jackie Fine Arts",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Bernard Indyke (Darren Indykes father) served as manager and member of the board at Jackie Fine Arts Inc, a Gold and Wachtel client that ran tax shelter fraud selling overvalued art master reproduction rights. Herman Finesod founded Jackie Fine Arts."
+          },
+          {
+            "target": "Darren Indyke",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Father-son relationship. Bernard (b.12/1933, deceased) is Darren's (b.2/1965) father per DB KYC records. Bernard placed Darren at Gold & Wachtel as pre-law assistant in 1986, where Darren first encountered Epstein. FedEx record shows Darren sending Priority Overnight package to Bernard at NYSO LLC in Nov 2003, indicating Bernard remained involved with Epstein entity operations into his 70s."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1983",
+        "label": "Jackie Fine Arts Inc faced lawsuits across at least 8 federal districts 1983-1992: Turner v JFA (SD CA 1983), Menish v JFA (CD CA 1984), Ross v JFA (D SC 1985), Westheimer v Finesod (SD TX 1986), Nichols v JFA (D ME 1987), Bergin v JFA (D MN 1987), Faircloth v JFA (ED NY and SD FL 1989), Ross v JFA (SD CA 1990-1992), Burch v JFA (ED NY 1992). Founder Herman Finesod personally sued: Vigil v Finesod (D NM 1987, multi-district), Levi v Finesod (SD NY 1992), bankruptcy (WD PA 1994). Entity sold low-value art reproduction rights to wealthy buyers as calculated tax dodge.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2106
+      },
+      {
+        "date": "1983",
+        "label": "IRS disallowed all Jackie Fine Arts art master tax deductions. Rose v Commissioner 868 F.2d 851 6th Cir 1989 ruled art master packages lacked economic substance and were generic tax shelters. Tax court found investors had no honest profit motive. Nationwide lawsuits arose: at least 10 separate federal cases across SC AL MN ME CA FL NY districts from 1983-1992.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2135
+      },
+      {
+        "date": "1986",
+        "label": "Jackie Fine Arts sold 2000+ art masters at 225-250K each actual value 10K with 409M in notes receivable",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2117
+      },
+      {
+        "date": "1986",
+        "label": "Jackie Fine Arts sold 2000+ art masters at 225-250K each that cost only 10K. 409M in notes receivable by 1986. Jury found fraud RICO civil conspiracy. 5M punitive against JFA, 2.5M against Finesod, 500K against Rose. Total judgment exceeded 4.3M plus 615K attorney fees. Faircloth v Finesod 938 F.2d 513 4th Cir 1991.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2130
+      },
+      {
+        "date": "1986",
+        "label": "Jackie Fine Arts art master scheme: bought Picasso reproduction rights via Paraselenes SA (Marina Picasso company) through AMI for roughly 10K per master. Sold to investors at 225-250K with fake independent appraisals from Rothschild (750K) and Rose (700K) who shared office and secretary. LA law firm gave tax opinion while secretly receiving 1 pct of sales. 2500 total appraisals produced.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2131
+      },
+      {
+        "date": "1990",
+        "label": "Jackie Fine Arts generated nationwide litigation in at least 10 federal districts and multiple state courts",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2139
+      }
+    ]
+  }
+}

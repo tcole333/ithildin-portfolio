@@ -1,0 +1,469 @@
+{
+  "name": "Kirkland & Ellis Foundation",
+  "slug": "kirkland-ellis-foundation",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.321936",
+  "last_updated": "2026-02-17T04:24:25",
+  "stats": {
+    "total_findings": 5,
+    "total_connections": 4,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 4,
+      "identity": 1
+    },
+    "connection_types": {
+      "financial": 2,
+      "corporate": 1,
+      "social": 1
+    },
+    "last_updated": "2026-02-17T04:24:25"
+  },
+  "findings": [
+    {
+      "id": 3172,
+      "finding_type": "financial",
+      "summary": "K&E Foundation (EIN 36-3160355) gave $78.6M across 348 grants (2015-2024 e-file data). 2015 itemized: 341 named recipients including Northwestern ($588K), ACLU Foundation ($570K), UChicago ($565K), Chicago Council on Global Affairs ($513K), Legal Aid Society NY ($426K). 2016-2024 filings use 'SEE ATTACHED' for 300+ org recipients. Foundation is 509(a)(2) public charity, receives matching partner gifts plus firm contributions. K&E LLP (EIN 36-1326630) is sole related entity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:11:32",
+      "target_name": "Kirkland & Ellis Foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:363160355",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3176,
+      "finding_type": "financial",
+      "summary": "K&E Foundation-LLP financial relationship (Schedule R): In 2016, K&E LLP paid $154,853 to Foundation (gift/grant) plus $23,000 (reimbursement). In 2022, K&E LLP paid $13,743,532 to Foundation (gift/grant, in cash). Both years show sharing of facilities, mailing lists, and paid employees (de minimis). K&E LLP EIN 36-1326630. The Foundation functions as K&E's partner matching gift vehicle - individual partners contribute (including stock), Foundation matches and distributes to 300+ nonprofits annually.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2016",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:12:32",
+      "target_name": "Kirkland & Ellis Foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:363160355",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3173,
+      "finding_type": "financial",
+      "summary": "2016 revenue spike to $25.5M explained: 317 noncash contributions of publicly traded securities worth $11.3M (average stock price valuation) plus $14.2M cash. Most surplus went to temporarily restricted net assets ($6.2M\u2192$18.6M). Grants that year were only $11.9M to 321 orgs. The restricted funds released in 2017 when grants jumped to $14.6M on only $9.6M revenue. Pattern: K&E partners make stock donations to Foundation which distributes as matching gifts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:11:44",
+      "target_name": "Kirkland & Ellis Foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:363160355",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3175,
+      "finding_type": "identity",
+      "summary": "K&E Foundation board composition: 2016 = Andrew R. McGaan (President), David B. Feirstein, Ashley S. Gregory, David A. Handler, Mikaal Shoaib, Seth D. Traxler, Karen N. Walker (Secretary/Treasurer). By 2022, Daniel Laytin replaced McGaan as President, with Handler, Shoaib, Traxler continuing plus new directors Jennifer Levy (Secretary/Treasurer), Jai Agrawal, Jason Kanner, Leo Plank. All K&E partners, zero compensation. Foundation does NOT monitor use of grant funds (Schedule I Part IV).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2022",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:12:21",
+      "target_name": "Kirkland & Ellis Foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:363160355",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3174,
+      "finding_type": "financial",
+      "summary": "K&E Foundation grant categories (2015 data, $10.8M itemized): Legal/policy orgs $2.66M (83 recipients), Universities $2.22M (29, targeting K&E feeder schools), Social services $3.44M (140), Jewish/Israel orgs $591K (16 including JUF $159K, UJA $104K, AJC $101K), Youth/education $811K (27), Arts/culture $764K, Medical $301K. Federalist Society received only $8,167 - de minimis. No grants to any Epstein-connected entity (Gratitude America, Enhanced Education, JEVI Foundation, Southern Trust, Ghislaine Corp).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:11:58",
+      "target_name": "Kirkland & Ellis Foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:363160355",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1784,
+      "person_a": "Kirkland & Ellis Foundation",
+      "person_b": "Lawrence Summers",
+      "relationship_type": "financial",
+      "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Lawrence Summers",
+      "other_person_slug": "lawrence-summers",
+      "evidence": []
+    },
+    {
+      "id": 1717,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "Kirkland & Ellis Foundation",
+      "relationship_type": "corporate",
+      "description": "Finding #23: Gratitude America Ltd (EIN 66-0789697) incorporated in USVI on April 25, 2012 as a 501(c)(3) private foundation. Registered address: 9053 Estate Thoma",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 1823,
+      "person_a": "Kirkland & Ellis Foundation",
+      "person_b": "Melanie Walker",
+      "relationship_type": "social",
+      "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Melanie Walker",
+      "other_person_slug": "melanie-walker",
+      "evidence": []
+    },
+    {
+      "id": 1836,
+      "person_a": "Gates-Epstein DAF",
+      "person_b": "Kirkland & Ellis Foundation",
+      "relationship_type": "financial",
+      "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Gates-Epstein DAF",
+      "other_person_slug": "gates-epstein-daf",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "K&E Foundation (EIN 36-3160355) gave $78.6M across 348 grants (2015-2024 e-file data). 2015 itemized: 341 named recipients including Northwestern ($588K), ACLU Foundation ($570K), UChicago ($565K), Chicago Council on Global Affairs ($513K), Legal Aid Society NY ($426K). 2016-2024 filings use 'SEE ATTACHED' for 300+ org recipients. Foundation is 509(a)(2) public charity, receives matching partner gifts plus firm contributions. K&E LLP (EIN 36-1326630) is sole related entity.",
+      "confidence": "high",
+      "id": 3172
+    },
+    {
+      "date": "2016",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "K&E Foundation-LLP financial relationship (Schedule R): In 2016, K&E LLP paid $154,853 to Foundation (gift/grant) plus $23,000 (reimbursement). In 2022, K&E LLP paid $13,743,532 to Foundation (gift/grant, in cash). Both years show sharing of facilities, mailing lists, and paid employees (de minimis). K&E LLP EIN 36-1326630. The Foundation functions as K&E's partner matching gift vehicle - individual partners contribute (including stock), Foundation matches and distributes to 300+ nonprofits annually.",
+      "confidence": "confirmed",
+      "id": 3176
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "2016 revenue spike to $25.5M explained: 317 noncash contributions of publicly traded securities worth $11.3M (average stock price valuation) plus $14.2M cash. Most surplus went to temporarily restricted net assets ($6.2M\u2192$18.6M). Grants that year were only $11.9M to 321 orgs. The restricted funds released in 2017 when grants jumped to $14.6M on only $9.6M revenue. Pattern: K&E partners make stock donations to Foundation which distributes as matching gifts.",
+      "confidence": "confirmed",
+      "id": 3173
+    },
+    {
+      "date": "2022",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "K&E Foundation board composition: 2016 = Andrew R. McGaan (President), David B. Feirstein, Ashley S. Gregory, David A. Handler, Mikaal Shoaib, Seth D. Traxler, Karen N. Walker (Secretary/Treasurer). By 2022, Daniel Laytin replaced McGaan as President, with Handler, Shoaib, Traxler continuing plus new directors Jennifer Levy (Secretary/Treasurer), Jai Agrawal, Jason Kanner, Leo Plank. All K&E partners, zero compensation. Foundation does NOT monitor use of grant funds (Schedule I Part IV).",
+      "confidence": "confirmed",
+      "id": 3175
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3176,
+      3173,
+      3175,
+      3172,
+      3174
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1784,
+          1717,
+          1823,
+          1836
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          3172,
+          3176,
+          3173,
+          3174
+        ],
+        "connection_ids": [
+          1784,
+          1836
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.539980"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Kirkland & Ellis Foundation",
+      "connections": [
+        {
+          "target": "Lawrence Summers",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #23: Gratitude America Ltd (EIN 66-0789697) incorporated in USVI on April 25, 2012 as a 501(c)(3) private foundation. Registered address: 9053 Estate Thoma"
+        },
+        {
+          "target": "Melanie Walker",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she"
+        },
+        {
+          "target": "Gates-Epstein DAF",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+        }
+      ],
+      "secondHop": {
+        "Gates-Epstein DAF": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "J. Epstein Virgin Islands Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "K2 Intelligence",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "Kuhn Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          }
+        ],
+        "Gratitude America Ltd": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black donated $10,003,000 to GA in Oct 2015 via BV70 LLC. Possible additional $5M. Part of larger $35M payment day. GA then donated $225K back to Black's Melanoma Research Alliance charity."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "IPI received $525,000 total from GA: $375K in 2017 and $150K in 2019. Largest cumulative recipient. Combined with $650K from Enhanced Education, IPI received $1.175M+ from Epstein foundations."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Epstein listed as Director (deceased) on 2019 990-PF. Deutsche Bank KYC identified him as President of GA. Epstein called it 'my private foundation' and directed all grant decisions personally. Part of his USVI entity network."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Thomas received $30,000 from GA in Aug 2017 while active NYT financial reporter. Directed by Epstein. Thomas asked what name the check would come under."
+          }
+        ],
+        "Lawrence Summers": [
+          {
+            "target": "Mark Epstein",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Finding #134: Summers forwarded a classified/sensitive U.S. Treasury and NSC assessment on Mongolia directly to Epstein (convicted sex offender) on Oct 4, 2015. The"
+          },
+          {
+            "target": "NSO Group",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Finding #137: Summers asked Epstein for permission and pricing on Mongolia consulting engagement (Mar 25, 2016). The thread shows Summers writing: 'Foreign min of M"
+          },
+          {
+            "target": "Lesley Groff",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #154: Summers wrote a recommendation letter for Nicole Junkermann at Epstein's request (Jul 2014). Epstein forwarded to Lesley Groff: 'Larry Summers Recomme"
+          },
+          {
+            "target": "Norwegian Network",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #154: Summers wrote a recommendation letter for Nicole Junkermann at Epstein's request (Jul 2014). Epstein forwarded to Lesley Groff: 'Larry Summers Recomme"
+          },
+          {
+            "target": "Onassis Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+          }
+        ],
+        "Melanie Walker": [
+          {
+            "target": "Onassis Foundation",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she"
+          },
+          {
+            "target": "See Forever Foundation",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she"
+          },
+          {
+            "target": "Wexner Foundation",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Walker sent bgC3 deliverables to Epstein for approval. Epstein directed work scope ('crypto health'). Relationship continued post-conviction despite inner circle warning."
+          },
+          {
+            "target": "Bill Gates",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Walker employed at bgC3 (Gates private office) and Gates Foundation. Sent deliverables to billg@bgc3.com. Work included neurotechnologies, pandemic simulation, health data security."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2015",
+        "label": "K&E Foundation (EIN 36-3160355) gave $78.6M across 348 grants (2015-2024 e-file data). 2015 itemized: 341 named recipients including Northwestern ($588K), ACLU Foundation ($570K), UChicago ($565K), Chicago Council on Global Affairs ($513K), Legal Aid Society NY ($426K). 2016-2024 filings use 'SEE ATTACHED' for 300+ org recipients. Foundation is 509(a)(2) public charity, receives matching partner gifts plus firm contributions. K&E LLP (EIN 36-1326630) is sole related entity.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3172
+      },
+      {
+        "date": "2016",
+        "label": "K&E Foundation-LLP financial relationship (Schedule R): In 2016, K&E LLP paid $154,853 to Foundation (gift/grant) plus $23,000 (reimbursement). In 2022, K&E LLP paid $13,743,532 to Foundation (gift/grant, in cash). Both years show sharing of facilities, mailing lists, and paid employees (de minimis). K&E LLP EIN 36-1326630. The Foundation functions as K&E's partner matching gift vehicle - individual partners contribute (including stock), Foundation matches and distributes to 300+ nonprofits annually.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3176
+      },
+      {
+        "date": "2017",
+        "label": "2016 revenue spike to $25.5M explained: 317 noncash contributions of publicly traded securities worth $11.3M (average stock price valuation) plus $14.2M cash. Most surplus went to temporarily restricted net assets ($6.2M\u2192$18.6M). Grants that year were only $11.9M to 321 orgs. The restricted funds released in 2017 when grants jumped to $14.6M on only $9.6M revenue. Pattern: K&E partners make stock donations to Foundation which distributes as matching gifts.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3173
+      },
+      {
+        "date": "2022",
+        "label": "K&E Foundation board composition: 2016 = Andrew R. McGaan (President), David B. Feirstein, Ashley S. Gregory, David A. Handler, Mikaal Shoaib, Seth D. Traxler, Karen N. Walker (Secretary/Treasurer). By 2022, Daniel Laytin replaced McGaan as President, with Handler, Shoaib, Traxler continuing plus new directors Jennifer Levy (Secretary/Treasurer), Jai Agrawal, Jason Kanner, Leo Plank. All K&E partners, zero compensation. Foundation does NOT monitor use of grant funds (Schedule I Part IV).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 3175
+      }
+    ]
+  }
+}

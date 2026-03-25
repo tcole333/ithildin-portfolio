@@ -1,0 +1,2786 @@
+{
+  "name": "Robert Kraft",
+  "slug": "robert-kraft",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.205701",
+  "last_updated": "2026-02-18T20:16:15",
+  "stats": {
+    "total_findings": 52,
+    "total_connections": 26,
+    "total_entities": 0,
+    "finding_types": {
+      "relationship": 17,
+      "document": 1,
+      "communication": 7,
+      "financial": 11,
+      "identity": 1,
+      "legal": 12,
+      "intelligence": 3
+    },
+    "connection_types": {
+      "corporate": 8,
+      "legal": 7,
+      "social": 10,
+      "financial": 1
+    },
+    "last_updated": "2026-02-18T20:16:15"
+  },
+  "findings": [
+    {
+      "id": 3506,
+      "finding_type": "relationship",
+      "summary": "Robert Kraft listed alongside Harvey Weinstein, Henry Kravis, Larry Gagosian, Jeffrey Katzenberg, Brett Ratner, Ron Meyer, and Tom Ford in Peggy Siegal's behind-the-scenes account of the 2017 Academy Awards. Article found in Epstein's records as HOUSE_OVERSIGHT_019849/019853/019864/019868 (multiple versions). Peggy Siegal was a known Epstein social connector.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:06:16",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019849",
+          "source_quote": " DvF's kids Alexander and Tatiana, Sir Howard Stringer, Oliver Stone, Ted Sarandos, Brett Ratner, Ron Meyer, Tom Ford, Larry Gagosian and Chrissie Erpf, Jeffrey Katzenberg, George Stevens, Jr., Toby Maguire, Sandy Gallin, Robert Kraft, Harvey Weinstein and breathtakingly beautiful Georgina Chapman",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3508,
+      "finding_type": "relationship",
+      "summary": "Rafanelli Events client list (HOUSE_OVERSIGHT_029335/029328) includes New England Patriots alongside JP Morgan Chase, Kravis Center for the Performing Arts, Harvard University, Tudor Investments, Bain Capital Partners, and US Holocaust Memorial Museum. These event planning files were in Epstein document corpus, suggesting overlap in high-end social networks that Epstein inhabited.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:06:22",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_029335",
+          "source_quote": " RAFANELLI Partial Client List: New England Patriots, J.P. Morgan Chase, Kravis Center for the Performing Arts, Bain Capital Partners LLC, Tudor Investments",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3509,
+      "finding_type": "document",
+      "summary": "Exhaustive search of all local document databases found ZERO direct communication between Epstein and Robert Kraft. No emails, no phone records, no financial documents connecting them directly. However, Epstein tracked Kraft intensely through news articles (Nov 2017 Paradise Papers, Feb-May 2019 prostitution case) and discussed Kraft's situation with Barak, Wolff, Karp, and Bannon. The DOJ corpus contains zero results for 'Orchids of Asia'. All Kraft references are via forwarded news articles, not direct correspondence.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:06:41",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02568584",
+          "source_quote": "https://www.theguardian.com/news/2017/nov/09/donald-trump-robert-kra=t-owner-offshore-firm-new-england-\npatriots-paradise-papers",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": "misdemeanor sex solicitation case; can they save him? \n90 percent inaccurate wow. hes ok \nc/=iv> \nOn=Sun, Mar 10, 2019 at 1:35 PM Steve Bannon \nwrote: \nPatriots' owner Robert Kraft has assembled a =egal dream team to handle his misdemeanor sex solicitation case; \ncan they =ave him?...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": "h=tps://nypost.com/2019/02/22/patriots-owner-robert-kraft-busted-for-solici=ing-\nprostitution/?utm_source=maropost&utm_medium=email&utm_campaign==ews_alert&utm_content=20190222&tpcc \n=nypbreaking&mpweb=755-7650393-7=9004712 \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue 4th Floor \nNew...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": "yuck \nBrad S. Karp I Chairman \nPaul, Weiss, Rifkind, Wharton & Garrison LLP \n1285 Avenue of the Americas I New York, NY 10019-6064 \n I www.paulweiss.com  \nFrom: J  \nSent: Monday, February 25, 2019 4:24 PM \nTo: Karp, Brad S",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": "https://www.philly.com/opinion/commentary/robert-kraft-prostitu=ion-jeffrey-epstein-sex-slavery-trump-\n20190224.html  \n=AO",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633595",
+          "source_quote": "https://www.philly.com/opinicm/commentary/robert-kraft-prostitution-jeffrey-epstein-sex-slavery-trump-\n20=90224.html \nple=se note",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3510,
+      "finding_type": "communication",
+      "summary": "Epstein emailed article about Kraft prostitution arrest to Ehud Barak on Feb 25, 2019, three days after the arrest. Email forwarded Philly.com article linking Kraft prostitution case to Epstein sex slavery. Demonstrates Epstein's awareness of and interest in Kraft case.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:09:58",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": " From J <jeevacation@gmail.com> Sent Monday February 25 2019 To ehud barak https://www.philly.com/opinion/commentary/robert-kraft-prostitution-jeffrey-epstein-sex-slavery-trump-20190224.html",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3511,
+      "finding_type": "communication",
+      "summary": "Epstein emailed same Kraft prostitution/Epstein sex slavery article to Michael Wolff on Feb 25, 2019. Wolff is the journalist/author. Epstein was distributing Kraft case coverage linking it to his own pattern.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:04",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633595",
+          "source_quote": " From J <jeevacation@gmail.com> Sent Monday February 25 2019 To Michael Wolff https://www.philly.com/opinion/commentary/robert-kraft-prostitution-jeffrey-epstein-sex-slavery-trump-20190224.html",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3512,
+      "finding_type": "communication",
+      "summary": "Richard Kahn (HBRK Associates Inc, 575 Lexington Ave 4th Floor, NYC) forwarded NY Post article about Kraft prostitution bust directly to Jeffrey Epstein on Feb 22, 2019 \u2014 the same day as the arrest. Shows Epstein was immediately informed of Kraft arrest by a business associate.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:12",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": " From Richard Kahn Sent Friday February 22 2019 To Jeffrey Epstein https://nypost.com/2019/02/22/patriots-owner-robert-kraft-busted-for-soliciting-prostitution Richard Kahn HBRK Associates Inc 575 Lexington Avenue 4th Floor New York NY 10022",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3513,
+      "finding_type": "financial",
+      "summary": "Apollo Global Management 2020 DEF 14A (filed Aug 20, 2020): Robert Kraft served as independent director since 2014. 2019 compensation: $125,000 base annual director fee (cash) + $101,816 RSU stock awards = $226,816 total. Notably, Kraft received ONLY the base fee with no committee fees, confirming he served on NO committees (audit or conflicts). Other independent directors (Ducey, Krongard, Richards) received $159K-$175K in cash fees due to committee service. Kraft held 352,120 shares of Apollo Class A common stock as of Aug 2020, marked with asterisk (*) indicating less than 1% beneficial ownership.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:13",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A 0000119312520225055 Apollo Global Management Inc CIK 1411494 filed 2020-08-20",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3514,
+      "finding_type": "communication",
+      "summary": "Epstein emailed Brad Karp (Chairman, Paul Weiss Rifkind Wharton & Garrison LLP) link to Kraft probable cause affidavit release on Feb 25, 2019, with subject line 'oy'. Karp responded 'yuck'. Shows Epstein discussed Kraft legal case with his own law firm chairman, suggesting awareness of parallels or concern about implications.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:20",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": " From J <jeevacation@gmail.com> Sent Monday February 25 2019 To Karp Brad S Subject oy https://profootballtalk.nbcsports.com/2019/02/25/robert-kraft-probable-cause-affidavit-released/ From Karp Brad S Chairman Paul Weiss Rifkind Wharton & Garrison LLP Subject RE oy Response: yuck",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3515,
+      "finding_type": "identity",
+      "summary": "Apollo DEF 14A bio: 'Mr. Kraft has served as an independent director of Apollo since 2014. Robert Kraft is the founder, chairman and CEO of the Kraft Group, which includes the six-time Super Bowl Champion New England Patriots, New England Revolution, Boston Uprising, Gillette Stadium, Patriot Place, International Forest Products, Rand-Whitney Group, Rand-Whitney Containerboard and a portfolio of more than 100 private equity investments.' Trustee Dana-Farber Cancer Institute, trustee emeritus Columbia University, board of MA Competitive Partnership, Apollo Theatre, and The Engine. Chairman NE Patriots Charitable Foundation and Kraft Family Foundation. Founding partner REFORM Alliance 2019. Committed 20M to Foundation to Combat Antisemitism.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:28",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A 0000119312520225055 Apollo Global Management Inc CIK 1411494 filed 2020-08-20",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3516,
+      "finding_type": "communication",
+      "summary": "Steve Bannon forwarded article about Kraft's legal dream team to Epstein on March 10, 2019. Epstein responded '90 percent inaccurate wow. hes ok' \u2014 suggesting personal knowledge of Kraft's situation and possibly Kraft himself. The 'he's ok' comment implies either contact with Kraft or knowledge of his state after the arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:28",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": " From Steve Bannon Subject Patriots owner Robert Kraft has assembled a legal dream team From J <jeevacation@gmail.com> Sent Sunday March 10 2019 Response: 90 percent inaccurate wow. hes ok",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3517,
+      "finding_type": "communication",
+      "summary": "Epstein forwarded Guardian Paradise Papers article about Trump and Kraft offshore firm involvement to assistant Melanie Spinella on Nov 9, 2017. Article discussed Kraft's connection to offshore entities exposed in Paradise Papers leak.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:36",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02568584",
+          "source_quote": " From jeffrey E <jeevacation@gmail.com> Sent Thursday November 9 2017 To Melanie Spinella https://www.theguardian.com/news/2017/nov/09/donald-trump-robert-kraft-owner-offshore-firm-new-england-patriots-paradise-papers",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3518,
+      "finding_type": "financial",
+      "summary": "Apollo 2020 DEF 14A governance structure: Apollo was a 'controlled company' under NYSE rules, meaning the Apollo Group (Black, Harris, Rowan) controlled majority voting. Board had 7 directors: Leon Black, Joshua Harris, Marc Rowan (employee/Managing Partners), plus 4 independents: Michael Ducey, Robert Kraft, A.B. Krongard, Pauline Richards. No formal compensation committee existed - all compensation decisions made by the executive committee (Black, Harris, Rowan). Kraft was one of 4 independent directors but served on NO committees. Ducey and Krongard served on both audit and conflicts committees; Richards chaired audit. Kraft's role was essentially a passive independent board seat.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:38",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A 0000119312520225055 Apollo Global Management Inc CIK 1411494 filed 2020-08-20",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3519,
+      "finding_type": "legal",
+      "summary": "State of Florida v. Robert Kraft \u2014 charged with two counts of soliciting prostitution at Orchids of Asia Day Spa in Jupiter, FL (Feb 22, 2019). Case arose from broader human trafficking investigation by Jupiter PD. Hidden camera surveillance installed in massage rooms captured video evidence. State case in Palm Beach County Circuit Court. Charges ultimately dropped after Florida 4th DCA ruled video surveillance evidence must be suppressed.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:46",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3520,
+      "finding_type": "financial",
+      "summary": "Kraft Family Foundation (EIN 46-050716) IRS 990 data: Based at 1 Patriot Place, Foxborough MA. Assets peaked at 71.2M (2013), declined to 28M (2023). Annual grant-making approximately 7-12M per year. Revenue sources include investment income and contributions. The foundation made 26.6M in revenue in 2012 (likely a large contribution year). Foundation has been consistently active since at least 2009.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:47",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "IRS Form 990-PF filings via ProPublica Nonprofit Explorer EIN 46-050716",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3521,
+      "finding_type": "legal",
+      "summary": "State of Florida v. William Graham Marcellus Hayes II (Case No. 19-1764, Fla. 4th DCA, decided Aug 19, 2020) \u2014 companion case from same Orchids of Asia investigation. Florida 4th District Court of Appeal ruled on the suppression of video evidence obtained via hidden cameras in massage rooms. This ruling applied to Kraft's case and all co-defendants from the Jupiter spa investigation, effectively ending prosecutions.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:10:53",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 17457727",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3522,
+      "finding_type": "financial",
+      "summary": "FEC campaign finance records show Robert Kraft donates to both Republican and Democratic candidates. Using employer 'THE KRAFT GROUP' or 'NEW ENGLAND PATRIOTS' from Foxborough MA. Key 2024-2025 donations: Dave McCormick (R-PA Senate) 24,500+6,500; Collins for Senator (Susan Collins, R-ME) 5,000; GRIDIRON-PAC (NFL industry PAC) 5,000; Torres for Congress 6,600; Rosen for Nevada 5,800; Equality Project PAC 6,600; Feely for Congress 10,500. His son Daniel Kraft donates heavily to AIPAC (12,000+). Son Jonathan gives to NRSC (10,000) and One Team Senate Majority (10,000). Pattern: bipartisan giving with pro-Israel tilt.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:00",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC.gov campaign finance database donor search Robert Kraft",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3523,
+      "finding_type": "legal",
+      "summary": "Doe v. Town of Jupiter Police Department (9:19-cv-80513, S.D. Fla., filed Apr 15, 2019, terminated Jan 24, 2020). Federal civil rights case (42 USC 1983) in S.D. Florida arising from Orchids of Asia investigation. Plaintiff DOE vs TOWN OF JUPITER POLICE ET AL. Nature of suit: Civil Rights Other (440). Judge: Rodolfo A. Ruiz II, Magistrate: William Matthewman. Case challenged the Jupiter PD's surveillance methods used in the spa investigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:04",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 14938822",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3524,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR entity lookup reveals Robert Kraft's name appears in 339 total SEC filings across multiple public companies: Apollo Global Management (37 filings as board director), Hillman Solutions/Hillman Companies (41 filings - indicating a board or ownership role), Hadera Paper Ltd / American Israeli Paper Mills Ltd (12 filings - Israeli paper company, matching Kraft's paper/packaging business), Viacom (5 filings), DirectTV (3 filings), Apollo Commercial Real Estate Finance (3 filings - Apollo subsidiary), Omnicare (3 filings). The Hillman and Israeli paper connections require follow-up investigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:09",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR EFTS full-text search lookup 'Robert Kraft' - 339 total filings",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3525,
+      "finding_type": "legal",
+      "summary": "Kraft Group, LLC v. Mahoney (1:99-cv-10917, D. Mass., filed Apr 29, 1999, terminated May 24, 1999). Federal case by Kraft Group LLC in Massachusetts District Court. Nature of suit 850 (Securities/Commodities/Exchange). Judge Edward F. Harrington. Case was brief (less than one month), suggesting settlement or dismissal. Confirms Kraft Group as active litigant in federal courts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:13",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 10710075",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3526,
+      "finding_type": "legal",
+      "summary": "Cash v. Snyder (2:20-cv-14305, S.D. Fla., filed Sep 1, 2020, terminated Sep 2, 2021) \u2014 Civil rights case (42 USC 1983) arising from Orchids of Asia/Jupiter spa investigation. Filed in same district as Doe v. Jupiter PD. Additional civil litigation challenging law enforcement conduct in the spa surveillance operation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:20",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 18198777",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3527,
+      "finding_type": "legal",
+      "summary": "TAIG v. City of Vero Beach (9:21-cv-80391, S.D. Fla., filed Feb 23, 2021, terminated Jun 28, 2022) \u2014 Civil rights case (28:1343 Violation of Civil Rights) in S.D. Florida. Related to the broader spa/massage parlor investigation that included the Orchids of Asia operation. Vero Beach is near Jupiter in the same Treasure Coast area where multiple spas were raided.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:28",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 59677225",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3528,
+      "finding_type": "relationship",
+      "summary": "Epstein's email response to Steve Bannon about Kraft \u2014 '90 percent inaccurate wow. hes ok' \u2014 is the strongest evidence of a personal Epstein-Kraft relationship in the DOJ corpus. Epstein: (1) claimed insider knowledge of reporting accuracy, (2) knew Kraft's personal status post-arrest, and (3) shared the article with at least three people (Barak, Wolff, Karp) within days. Combined with the existing finding #1499 (both on Apollo board), this suggests Kraft was in Epstein's social/business circle.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:43",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": " Epstein response to Bannon re Kraft: 90 percent inaccurate wow. hes ok",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": "h=tps://nypost.com/2019/02/22/patriots-owner-robert-kraft-busted-for-solici=ing-\nprostitution/?utm_source=maropost&utm_medium=email&utm_campaign==ews_alert&utm_content=20190222&tpcc \n=nypbreaking&mpweb=755-7650393-7=9004712 \nRichard Kahn \nHBRK Associates Inc. \n575 Lexington Avenue 4th Floor \nNew...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": "yuck \nBrad S. Karp I Chairman \nPaul, Weiss, Rifkind, Wharton & Garrison LLP \n1285 Avenue of the Americas I New York, NY 10019-6064 \n I www.paulweiss.com  \nFrom: J  \nSent: Monday, February 25, 2019 4:24 PM \nTo: Karp, Brad S",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": "https://www.philly.com/opinion/commentary/robert-kraft-prostitu=ion-jeffrey-epstein-sex-slavery-trump-\n20190224.html  \n=AO",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633595",
+          "source_quote": "https://www.philly.com/opinicm/commentary/robert-kraft-prostitution-jeffrey-epstein-sex-slavery-trump-\n20=90224.html \nple=se note",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3529,
+      "finding_type": "financial",
+      "summary": "CRITICAL: Robert Kraft was NOT re-nominated for the Apollo Global Management board in the 2021 DEF 14A proxy (filed Aug 16, 2021). The 2020 proxy had 7 directors (Black, Harris, Rowan, Ducey, Kraft, Krongard, Richards). The 2021 proxy expanded to 12 directors (Clayton, Ducey, Emerson, Harris, Healey, Joyner, Kleinman, Krongard, Richards, Rowan, Simon, Zelter). Both Leon Black AND Robert Kraft departed simultaneously during the post-Epstein governance overhaul. Kraft served on the Apollo board from 2014 to 2021 - overlapping entirely with the period of Black's approximately 158M in payments to Epstein (2012-2017 per Dechert report). Kraft's 2020 compensation was 226,851 (125K cash + 101,851 RSU), consistent with prior year.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:52",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A 0000119312521247884 Apollo Global Management Inc CIK 1411494 filed 2021-08-16",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3530,
+      "finding_type": "legal",
+      "summary": "Rand-Whitney Group/Container/Packaging Corp \u2014 Kraft Group subsidiary \u2014 has extensive federal litigation: at least 9 cases across D. Mass, D. Conn, D.N.H. including employment disputes (Reyes v. Rand-Whitney Packaging Corp, D. Mass), environmental/business disputes (Rand-Whitney v. Montville, D. Conn), bankruptcy adversary proceedings, and contract disputes (Freightcor Services v. Rand-Whitney Group, D. Mass). Confirms Kraft Group's industrial/packaging operations are a major business line with active litigation footprint.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:11:53",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener search Rand-Whitney",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3531,
+      "finding_type": "relationship",
+      "summary": "A.B. Krongard, fellow Apollo board member with Kraft (2011-present), served as Executive Director of the CIA (2001-2004) and previously as CEO of Alex Brown Inc and Vice Chairman of Bankers Trust. Krongard served on both audit and conflicts committees at Apollo while Kraft served on neither. Krongard also served on the board of In-Q-Tel (CIA venture capital arm). The Kraft-Krongard-Black board triangle at Apollo connects billionaire sports ownership, intelligence community, and private equity in a single governance structure. Krongard survived the 2021 governance overhaul; Kraft did not.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:01",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A 0000119312520225055 and 0000119312521247884 Apollo Global Management Inc",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3532,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR shows Robert Kraft's name appearing in 12 filings for Hadera Paper Ltd / American Israeli Paper Mills Ltd (CIK 0000005337). Hadera Paper is an Israeli paper/packaging company traded on TASE and formerly on NYSE. Kraft's paper business (International Forest Products, Rand-Whitney Group) gives him a logical business connection to Israeli paper companies. The Kraft Group has historically been involved in Israeli business through his personal philanthropic and business ties. American Israeli Paper Mills filed 241 total SEC documents before delisting in 2011. This connection warrants investigation for overlap with other Epstein-network Israeli business connections.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:46",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR EFTS lookup 'Robert Kraft' showing CIK 0000005337 Hadera Paper Ltd 9 filings and American Israeli Paper Mills 3 filings",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3533,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR shows Robert Kraft's name appearing in 41 filings for Hillman Solutions Corp (CIK 0001822492) / Hillman Companies Inc (CIK 0001029831). Hillman Solutions is a hardware/home improvement products company that went public via SPAC (Landcadia Holdings III) in July 2021. This was an Apollo portfolio company - Apollo Global Management acquired The Hillman Group in 2014 for approximately 1.5B. The connection suggests Kraft may have had a board role or investment position in Hillman through his Apollo board membership or as a personal investment in an Apollo portfolio company. The timing of Apollo's Hillman acquisition (2014) coincides with Kraft joining Apollo's board.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:54",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR EFTS lookup showing CIK 0001822492 33 filings and CIK 0001029831 8 filings",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3534,
+      "finding_type": "relationship",
+      "summary": "Epstein's distribution of Kraft prostitution arrest news reveals his active information network in Feb 2019. Within 3 days of Kraft's arrest (Feb 22), Epstein: received the news from Richard Kahn (Feb 22), forwarded to Ehud Barak (Feb 25), forwarded to Michael Wolff (Feb 25), forwarded probable cause affidavit to Brad Karp at Paul Weiss (Feb 25), and discussed with Steve Bannon (Mar 10). This is 5 months before Epstein's own arrest (Jul 6, 2019). The article forwarded to Barak and Wolff explicitly linked Kraft to Epstein's pattern.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:13:12",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": "misdemeanor sex solicitation case; can they save him? \n90 percent inaccurate wow. hes ok \nc/=iv> \nOn=Sun, Mar 10, 2019 at 1:35 PM Steve Bannon \nwrote: \nPatriots' owner Robert Kraft has assembled a =egal dream team to handle his misdemeanor sex solicitation case; \ncan they =ave him?...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": " Kahn to Epstein Feb 22. EFTA02633592: Epstein to Barak Feb 25. EFTA02633595: Epstein to Wolff Feb 25. EFTA02633563: Epstein to Karp Feb 25. EFTA02630940: Epstein to Bannon Mar 10.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": "yuck \nBrad S. Karp I Chairman \nPaul, Weiss, Rifkind, Wharton & Garrison LLP \n1285 Avenue of the Americas I New York, NY 10019-6064 \n I www.paulweiss.com  \nFrom: J  \nSent: Monday, February 25, 2019 4:24 PM \nTo: Karp, Brad S",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": "https://www.philly.com/opinion/commentary/robert-kraft-prostitu=ion-jeffrey-epstein-sex-slavery-trump-\n20190224.html  \n=AO",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633595",
+          "source_quote": "https://www.philly.com/opinicm/commentary/robert-kraft-prostitution-jeffrey-epstein-sex-slavery-trump-\n20=90224.html \nple=se note",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3535,
+      "finding_type": "legal",
+      "summary": "New England Patriots LLC has significant federal litigation as a party: Serra v. New England Patriots LLC (1:24-cv-10178, D. Mass, 2024, Other Statutory Actions), Arena IP LLC v. New England Patriots LLC (D. Mass 2023, Patent), New England Patriots Fans v. NFL (D. Mass 2016, Deflategate), Davenport v. New England Patriots (D. Mass 1997, Civil Rights), Meggett v. New England Patriots (D. Mass 2000, Medical Malpractice), Gary v. New England Patriots (E.D. La 2008, RICO), MAYER v. BELICHICK (D.N.J. 2007, Spygate RICO). The Kraft Group's NFL operations generate diverse litigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:13:24",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener search New England Patriots",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3536,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULTS SUMMARY from comprehensive database sweep: Zero results in Deutsche Bank DS10 financials for any Kraft entity. Zero results in OpenSanctions. Zero relevant FARA registrations. Zero NYC ACRIS property records for Robert K. Kraft (different Robert L. Kraft found). Zero UCC filings. Zero FAA aircraft registrations. Zero relevant lobbying client registrations for Kraft Group or Patriots. Florida corporate registry shows multiple 'Robert Kraft' officers but none match our target (different addresses in Spring Hill FL, Oakland Park FL etc - not Brookline MA). Our registry.db only covers FL; The Kraft Group is a MA corporation not in our data.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:13:35",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3552,
+      "finding_type": "relationship",
+      "summary": "Jeffrey Epstein directly facilitated Robert Kraft hiring attorney Jack Goldberger for his 2019 Orchids of Asia solicitation case. On Feb 22, 2019, Goldberger wrote Epstein 'See kraft got arrested' and Epstein replied 'yes im trying to have him hire you.' Goldberger joined Kraft's defense team within 6 days.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:16:28",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT docs; Yahoo Sports (Feb 2026); Boston Globe (Feb 2, 2026)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3555,
+      "finding_type": "relationship",
+      "summary": "After facilitating Goldberger's hire by Kraft, Epstein texted Goldberger: 'you need to know about a past issue with Kraft that may come to light. Talk later.' The nature of this 'past issue' is unknown from released documents, but implies Epstein possessed compromising information about Kraft predating the 2019 spa case.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:16:36",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ House Oversight files (Feb 2026 release); Yahoo Sports; Boston.com (Feb 4, 2026)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3557,
+      "finding_type": "relationship",
+      "summary": "On Feb 25, 2019, Epstein emailed Brad Karp (Chairman of Paul, Weiss, Rifkind, Wharton & Garrison) a link to Kraft's probable cause affidavit with subject line 'oy'. Karp responded 'yuck.' This demonstrates Epstein and Paul Weiss chairman shared a casual correspondence about Kraft's legal troubles. Karp resigned as Paul Weiss chairman in Feb 2026 after these emails became public.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:16:45",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3560,
+      "finding_type": "relationship",
+      "summary": "On March 10, 2019, Steve Bannon sent Epstein a Yahoo/ABC News article about Kraft assembling a 'legal dream team' for his solicitation case. Epstein replied '90 percent inaccurate wow. hes ok' -- indicating personal familiarity with Kraft and knowledge of his legal situation beyond public reporting.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:16:52",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": " Bannon to Epstein re Kraft legal team; Epstein: '90 percent inaccurate wow. hes ok'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3563,
+      "finding_type": "relationship",
+      "summary": "On Feb 25, 2019, Epstein separately forwarded a Philadelphia opinion article linking Robert Kraft, Epstein, and Trump to both Ehud Barak (former Israeli PM) and journalist Michael Wolff. The article connected Kraft's prostitution charge to Epstein's sex slavery case. Epstein sent the link without commentary to both recipients.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:17:01",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633595",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3566,
+      "finding_type": "relationship",
+      "summary": "On Feb 22, 2019 (day of Kraft charges), Richard Kahn of HBRK Associates (575 Lexington Ave, 4th Floor, NYC) forwarded Epstein a NYPost article about Kraft being 'busted for soliciting prostitution.' Kahn was a known Epstein associate who maintained contact through the investigation period.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:17:10",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": " Richard Kahn to Jeffrey Epstein, forwarding nypost.com article 'patriots-owner-robert-kraft-busted-for-soliciting-prostitution'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3570,
+      "finding_type": "relationship",
+      "summary": "Robert Kraft served as Independent Director on Apollo Global Management's board from May 8, 2014 to approximately April 2021, including on the Conflicts Committee. His tenure overlapped with Leon Black's Epstein payments (M total, including M in 2014 and M in 2015). Kraft departed weeks after Black stepped down as CEO in March 2021 following Epstein revelations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:17:27",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Apollo 2020 DEF 14A proxy",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Apollo press release May 8, 2014",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "InsideRadio April 2021",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3572,
+      "finding_type": "legal",
+      "summary": "Orchids of Asia case: Jupiter FL police began investigating Oct 2018 after Martin County tip. Kraft visited spa Jan 19-20, 2019 (day before AFC Championship). Charged Feb 22, 2019 with two misdemeanor counts solicitation. Police used 'sneak and peek' warrant to install hidden cameras. May 2019: Judge Hanser suppressed video evidence (Fourth Amendment violation). Aug 2020: FL appeals court upheld suppression. Sept 24, 2020: all charges dropped. 25+ men charged total including John Childs (Wall Street) and John Havens (ex-Citigroup COO).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:17:38",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ABC News (Aug 2020)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CNN (March 2019)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NBC News (Sept 2020)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WBUR (Feb 2019)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3575,
+      "finding_type": "legal",
+      "summary": "Orchids of Asia spa operators charged separately from clients. Hua Zhang charged with 26 counts procuring for prostitution, keeping house of prostitution, deriving support from prostitution proceeds. Lei Wang (former manager) pleaded guilty to one misdemeanor count, sentenced to probation/fine. Investigation found women living at spa with deplorable conditions. Despite initial claims of 'human trafficking,' no federal trafficking charges were filed against spa operators. The 300+ arrest warrants across FL counties were part of broader multi-county operation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:17:51",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CBS News (2019)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CNN (Feb 25, 2019)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Rolling Stone (Nov 2020)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "WPTV (2021)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3578,
+      "finding_type": "financial",
+      "summary": "Robert Kraft named in 2017 Paradise Papers leak. Owned an offshore company in Bermuda for 20+ years that could be used to legally avoid/reduce US taxes. The Bermuda holding company and bank accounts paid no taxes on profits, income or dividends in exchange for annual fee. Spokesperson claimed company facilitated business with certain customers and handled 'relatively small amounts' -- denied tax motivation. Epstein forwarded the Guardian article about this to his assistant Melanie Spinella on Nov 9, 2017.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:18:01",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Boston Magazine (Nov 2017)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02568584",
+          "source_quote": " Epstein forwarded Guardian article 'donald-trump-robert-kraft-owner-offshore-firm-new-england-patriots-paradise-papers' to Melanie Spinella",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Guardian (Nov 9, 2017)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3582,
+      "finding_type": "relationship",
+      "summary": "Robert Kraft received 2019 Genesis Prize ('Jewish Nobel') in Jerusalem from Netanyahu. Netanyahu stated 'Israel does not have a more loyal friend than Robert Kraft.' Kraft pledged $20M personal donation to Foundation to Combat Antisemitism, raising $30M+ at launch. Israel investments include Kraft Family Stadium in Jerusalem and support for Israel Football League. Long history of philanthropy in Israel through Passport to Israel Fund (est. 1989 with CJP). This Israel nexus intersects with Epstein's own Israeli intelligence connections (Ehud Barak) and the Mega Group network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:18:11",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ESPN (June 2019)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Genesis Prize Foundation",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Times of Israel (June 2019)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3584,
+      "finding_type": "relationship",
+      "summary": "Robert Kraft and Donald Trump friendship dates to 1990s. Kraft attended Trump's 2005 wedding to Melania. After Myra Kraft's death (2011), Trump called weekly for a year. Kraft donated $1M to Trump's 2017 inauguration. Relationship strained by NFL anthem controversy (2017) and Jan 6 (2021). Reconciled by 2025 -- Trump appointed Kraft's wife Dana Blumberg to Kennedy Center board. Both are Palm Beach residents and shared social circles. Philly.com article connecting Kraft-Epstein-Trump was forwarded by Epstein to Barak and Wolff.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:18:23",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Boston Globe (Feb 2026)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Fox News (2024)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Yahoo Sports (2025)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3587,
+      "finding_type": "relationship",
+      "summary": "Robert Kraft appeared on Peggy Siegal's elite Oscar party guest lists alongside Harvey Weinstein, Henry Kravis, Larry Gagosian, Jeffrey Katzenberg, Oliver Stone, Brett Ratner, Ron Meyer, and Tom Ford. Siegal was a key social connector in the Epstein network who organized events and introductions. These guest lists were among Epstein's papers, indicating awareness of Kraft's social positioning in the elite NYC/Hollywood circuit.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:18:33",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019868",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019853",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3591,
+      "finding_type": "financial",
+      "summary": "Robert Kraft (b. 1941, Brookline MA) net worth ~$13.8B (Forbes Oct 2025). Chairman/CEO of The Kraft Group holding company (est. 1998). Holdings: New England Patriots (purchased 1994), NE Revolution (MLS), Gillette Stadium, Patriot Place mall, Rand-Whitney Group (paper/packaging since 1968), International Forest Products (founded 1972), New-Indy Containerboard (50%), and portfolio of 100+ private equity investments. Columbia BA, Harvard MBA. Sons Jonathan (Kraft Group/Patriots President), Daniel (IFP CEO), Josh (Kraft Family Philanthropies). Married Dana Blumberg (ophthalmologist) Oct 2022.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:18:44",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Celebrity Net Worth",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Forbes Billionaires Index",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kraft Group website",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3594,
+      "finding_type": "legal",
+      "summary": "Jack Goldberger, the attorney Epstein pushed Kraft to hire, was the same lawyer who helped Epstein secure his controversial 2008 non-prosecution agreement (NPA) with Miami US Attorney's office despite 40+ victim allegations. This means Kraft's 2019 defense team was directly connected to Epstein's own criminal defense apparatus. Goldberger also told Epstein that Kraft selected both him and 'my Quinn Emanuel guy' to handle the case, suggesting coordinated legal strategy through Epstein's network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:18:54",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ House Oversight files",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Yahoo Sports (Feb 2026)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3595,
+      "finding_type": "communication",
+      "summary": "House Oversight documents include an iMessage thread (HOUSE_OVERSIGHT_027585) referencing coordinated media narrative strategy involving 'a crisis-communications specialist, shaping narratives around controversial stories (e.g., Epstein, a NYT piece on Robert Kraft).' This suggests active media management around Kraft coverage in March 2019, coinciding with Epstein's own communications about the case to Barak, Wolff, and Bannon.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:04",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_027585",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3615,
+      "finding_type": "relationship",
+      "summary": "In August 2014, Epstein emailed Bill Gates with the names David Tepper, Josh Harris, and Bob Kraft. Four months later (late 2014), Epstein attempted to organize a dinner bringing Gates together with these billionaires. This is significant because: (1) it places Kraft in Epstein's active social brokering network in 2014 -- the same year Kraft joined Apollo's board; (2) all three names are NFL team owners (Kraft: Patriots, Harris: later Commanders, Tepper: later Panthers); (3) Harris was Apollo co-founder, deepening the Apollo-Epstein web.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:21:37",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia: Epstein files; Axios (Feb 2025)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3618,
+      "finding_type": "intelligence",
+      "summary": "NEGATIVE RESULT: Robert Kraft does NOT appear in Epstein's published flight logs (Lolita Express) or in the black book of contacts. Despite Epstein's demonstrated familiarity with Kraft (arranging his lawyer, knowing his legal situation, possessing 'past issue' information, proposing him for Gates dinner), there is no evidence Kraft traveled on Epstein's aircraft or was in his personal contacts database. The connection appears to have been mediated through attorneys (Goldberger, Karp), social connectors (Siegal), and mutual acquaintances (Bannon) rather than direct personal contact.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:22:00",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "EpsteinExposed flight/person search (null results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ICIJ search (null results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3620,
+      "finding_type": "legal",
+      "summary": "Brad Karp (Paul Weiss chairman) was involved in finding legal representation for both Robert Kraft AND former Citigroup president John Havens after both were ensnared in the Florida prostitution crackdown. Karp communicated with Epstein about this, suggesting Kraft needed 'the best there is.' This triangulates the Kraft-Karp-Epstein connection: Paul Weiss (which represents Apollo/Leon Black) chairman was coordinating defense attorneys through Epstein for Kraft and Havens.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:22:09",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Bloomberg Law (Feb 2026)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "PBS News (Feb 2026)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3628,
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Robert Kraft occupies a structurally significant position in the Epstein network despite no direct communications in the DOJ corpus. Key evidence pattern: (1) Epstein DIRECTLY facilitated Kraft hiring Jack Goldberger for his 2019 defense \u2014 the same attorney who secured Epstein's 2008 NPA; (2) Epstein held unknown compromising information about Kraft ('past issue that may come to light'); (3) Epstein used Kraft's legal strategy as a template for his own defense ('now I'm focused'); (4) Kraft served on Apollo's board 2014-2021 during peak Black-Epstein payments ($158M), and was the ONLY independent director not retained in the post-Epstein governance overhaul; (5) Epstein actively brokered Kraft to Bill Gates in Aug 2014 dinner proposal. Despite this, Kraft appears in no flight logs, no black book, and no direct email correspondence. The connection operated through intermediaries: Goldberger (legal), Karp/Paul Weiss (legal), Apollo board (corporate), and shared social circles (Palm Beach, Israel, NFL ownership). NOTE: Agents disagree on whether Kraft served on Apollo's Conflicts Committee \u2014 Agent B (citing SEC proxy) says no committee service; Agent D (citing web sources) says he served on Conflicts Committee. The SEC proxy filing should be treated as authoritative \u2014 this needs verification.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:24:26",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02568584",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3648,
+      "finding_type": "relationship",
+      "summary": "Robert Kraft appointed to Apollo board May 8 2014, incl. Conflicts Committee. Resigned April 6 2021 effective immediately. Received K retainer initially; by 2019 received only K base (no committee fee). In 2020 proxy, NOT listed on any committee. His 2014 8-K says Conflicts Committee but by 2020 he had been removed. 2021 prorated cash: ,250, no stock awards. Total comp 2019: ,816; 2020: ,851; 2021: ,250.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 19:01:51",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DEF 14A 2020-08-20 acc#0001193125-20-225055",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC 8-K 2014-05-09 acc#0000950142-14-001006",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC 8-K 2021-04-09 acc#0000950142-21-001237",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3660,
+      "finding_type": "financial",
+      "summary": "Kraft Apollo fund investments grew from 1.24M (2016) to 3.92M (2020). Distributions received: 742K (2016), 1.53M (2017), 2.22M (2019), 1.77M (2020). Board compensation was 125K-135K annually. No committee fees after 2015. Fund investments nearly tripled from 2016 to 2020 despite having no committee role.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 20:16:15",
+      "target_name": "Robert Kraft",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC 10-K CIK 1411494 2016-2019 and DEF 14A 2020-2021",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 2102,
+      "person_a": "Leon Black",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Both served on Apollo Global Management board of directors during period of Black-Epstein payments",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:13",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding 1499",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2105,
+      "person_a": "Leon Black",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board 2014-2021. Kraft served as independent director; Black was Chairman/CEO. Both departed board simultaneously in 2021 during post-Epstein governance overhaul.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:18",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo 2020 and 2021",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2107,
+      "person_a": "Joshua Harris",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Harris as Managing Partner/co-founder, Kraft as independent director 2014-2021.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:20",
+      "other_person": "Joshua Harris",
+      "other_person_slug": "joshua-harris",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2109,
+      "person_a": "Marc Rowan",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Rowan as Managing Partner/co-founder, Kraft as independent director 2014-2021. Rowan became CEO after Black's departure.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:21",
+      "other_person": "Marc Rowan",
+      "other_person_slug": "marc-rowan",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2110,
+      "person_a": "A.B. Krongard",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-independent directors on Apollo Global Management board. Krongard joined 2011, Kraft 2014. Both served through the Black-Epstein period. Krongard (ex-CIA Executive Director) served on audit/conflicts committees; Kraft served on no committees.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:24",
+      "other_person": "A.B. Krongard",
+      "other_person_slug": "ab-krongard",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2119,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Epstein facilitated Kraft's hiring of Jack Goldberger for 2019 solicitation case; possessed unknown 'past issue' about Kraft; discussed case with multiple contacts (Barak, Wolff, Bannon, Karp)",
+      "strength": "strong",
+      "date_range": "2019-02-22 to 2019-03-10",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:19",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633595",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2120,
+      "person_a": "Leon Black",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board (2014-2021). Both departed board in 2021 within weeks of each other following Epstein scandal revelations. Kraft was Independent Director on Conflicts Committee while Black was CEO/Chairman.",
+      "strength": "strong",
+      "date_range": "2014-05-08 to 2021-04",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:26",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Apollo 2020 DEF 14A",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "InsideRadio April 2021",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2122,
+      "person_a": "Jack Goldberger",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Goldberger served as Kraft's defense attorney in 2019 Orchids of Asia solicitation case. Goldberger was connected to Kraft through Epstein, who actively promoted the hire. Goldberger had previously been Epstein's own defense attorney for 2008 NPA.",
+      "strength": "strong",
+      "date_range": "2019-02-22 to 2020",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:40",
+      "other_person": "Jack Goldberger",
+      "other_person_slug": "jack-goldberger",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ House Oversight files",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Yahoo Sports (Feb 2026)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2125,
+      "person_a": "Donald Trump",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Friends since 1990s. Kraft attended Trump's 2005 wedding, donated $1M to 2017 inauguration. Both Palm Beach residents. Trump called weekly after Myra Kraft's 2011 death. Philly.com article linking Kraft-Epstein-Trump forwarded by Epstein to Barak and Wolff.",
+      "strength": "strong",
+      "date_range": "1990s to present",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:20:00",
+      "other_person": "Donald Trump",
+      "other_person_slug": "donald-trump",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Boston Globe",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Fox News",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2150,
+      "person_a": "Brad Karp",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Karp brokered Epstein's recommendation for Kraft's defense attorney Jack Goldberger after Florida spa charges Feb 2019",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 18:35:08",
+      "other_person": "Brad Karp",
+      "other_person_slug": "brad-karp",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://dnyuz.com/2026/02/02/paul-weiss-law-firm-chair-brad-karp-told-jeffrey-epstein-youre-amazing/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2152,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Epstein proactively offered to help Kraft find legal representation in FL spa case via Karp: 'if your buddy Kraft needs local palm rep. let me know'",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 18:35:08",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://dnyuz.com/2026/02/02/paul-weiss-law-firm-chair-brad-karp-told-jeffrey-epstein-youre-amazing/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2101,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Epstein responded to Kraft arrest news with insider knowledge: 90 percent inaccurate wow. hes ok \u2014 implying personal contact with or knowledge of Kraft",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:11",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2121,
+      "person_a": "Brad Karp",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Epstein and Karp discussed Kraft's legal situation casually ('oy'/'yuck'). Web sources indicate Karp was involved in suggesting Kraft needed 'the best there is' for legal representation. Karp is Chairman of Paul Weiss which represents Apollo/Leon Black.",
+      "strength": "medium",
+      "date_range": "2019-02-25",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:33",
+      "other_person": "Brad Karp",
+      "other_person_slug": "brad-karp",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633563",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2124,
+      "person_a": "Ehud Barak",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Epstein forwarded article linking Kraft-Epstein-Trump to Barak Feb 25, 2019. Both Kraft and Barak are prominent in Israeli political/philanthropic circles. Kraft received Genesis Prize from Netanyahu; Barak is former Israeli PM with deep Epstein ties.",
+      "strength": "medium",
+      "date_range": "2019-02-25",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:52",
+      "other_person": "Ehud Barak",
+      "other_person_slug": "ehud-barak",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2126,
+      "person_a": "Josh Harris",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Both NFL team owners (Kraft: Patriots; Harris: Commanders). Harris had extensive email exchanges with Epstein 2013-2016. Both appeared in 2014 list Epstein referenced when asking Bill Gates about potential business relationships.",
+      "strength": "medium",
+      "date_range": "2014 to 2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:20:06",
+      "other_person": "Josh Harris",
+      "other_person_slug": "josh-harris",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Apollo DEF 14A proxy",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Front Office Sports",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2127,
+      "person_a": "Marc Rowan",
+      "person_b": "Robert Kraft",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Rowan became CEO after Black's departure. Rowan maintained contact with Epstein 2013-2016 including discussions about Apollo tax calculations. Kraft was on Conflicts Committee while Rowan had Epstein meetings at Apollo offices.",
+      "strength": "medium",
+      "date_range": "2014 to 2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:20:13",
+      "other_person": "Marc Rowan",
+      "other_person_slug": "marc-rowan",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Apollo DEF 14A",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Daily Pennsylvanian (Feb 2026)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2136,
+      "person_a": "John Havens",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Both charged in same FL prostitution sting (2019). Both had legal representation coordinated through Brad Karp/Epstein network. Both had charges dropped after video evidence suppressed.",
+      "strength": "medium",
+      "date_range": "2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:22:15",
+      "other_person": "John Havens",
+      "other_person_slug": "john-havens",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Bloomberg Law",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Fox News (Feb 2019)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2129,
+      "person_a": "Richard Kahn",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Richard Kahn (HBRK Associates, 575 Lexington Ave NYC) forwarded Kraft arrest article to Epstein on day of charges. Kahn appears to be a regular Epstein correspondent who tracked news of mutual acquaintances.",
+      "strength": "weak",
+      "date_range": "2019-02-22",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:20:27",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2096,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Epstein intensely tracked Robert Kraft's legal situation through 7+ forwarded news articles to associates (Barak, Wolff, Karp, Bannon) from Feb-May 2019, and monitored Kraft's Paradise Papers exposure since Nov 2017. No direct communication found, but Epstein's comment 'hes ok' to Bannon suggests possible indirect knowledge. Epstein studied Kraft's legal defense strategy to inform his own crisis management.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:07:06",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2111,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "No direct communication found in DOJ EFTA corpus. However, Epstein tracked Kraft intensely through news articles (2017-2019), discussed Kraft's legal situation with Ehud Barak, Michael Wolff, Brad Karp, and Steve Bannon. Epstein studied Kraft's legal strategy as template for his own defense. Kraft attended same elite social events as Epstein associates (Peggy Siegal Hollywood events). Connected via Apollo board relationship to Leon Black who paid Epstein 158M.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:32",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633592",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02568584",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2112,
+      "person_a": "Richard Kahn",
+      "person_b": "Robert Kraft",
+      "relationship_type": "financial",
+      "description": "Richard Kahn of HBRK Associates Inc (575 Lexington Ave, NYC) forwarded Kraft prostitution article to Epstein on Feb 22, 2019. Kahn was a known Epstein financial associate/accountant. No direct Kraft-Kahn relationship established.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:12:35",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633526",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2123,
+      "person_a": "Robert Kraft",
+      "person_b": "Steve Bannon",
+      "relationship_type": "social",
+      "description": "Bannon discussed Kraft's legal case with Epstein via email March 2019. Epstein responded with insider knowledge ('90 percent inaccurate wow. hes ok').",
+      "strength": "circumstantial",
+      "date_range": "2019-03-10",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:19:46",
+      "other_person": "Steve Bannon",
+      "other_person_slug": "steve-bannon",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02630940",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2128,
+      "person_a": "Peggy Siegal",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Kraft appeared on Peggy Siegal's Hollywood/elite social event guest lists, which were maintained among Epstein's files. Siegal was a key Epstein social network connector.",
+      "strength": "circumstantial",
+      "date_range": "2010-2017",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:20:21",
+      "other_person": "Peggy Siegal",
+      "other_person_slug": "peggy-siegal",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019853",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_019868",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2134,
+      "person_a": "Bill Gates",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Epstein attempted to broker a dinner between Gates, Kraft, Harris, and Tepper in late 2014. Kraft was listed as a potential dinner guest in Epstein's email to Gates.",
+      "strength": "circumstantial",
+      "date_range": "2014-08 to 2014-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:21:44",
+      "other_person": "Bill Gates",
+      "other_person_slug": "bill-gates",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia: Epstein files",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2135,
+      "person_a": "David Tepper",
+      "person_b": "Robert Kraft",
+      "relationship_type": "social",
+      "description": "Both NFL team owners listed together by Epstein in August 2014 email to Bill Gates proposing a dinner meeting.",
+      "strength": "circumstantial",
+      "date_range": "2014",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:21:51",
+      "other_person": "David Tepper",
+      "other_person_slug": "david-tepper",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Wikipedia: Epstein files",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 2137,
+      "person_a": "John Childs",
+      "person_b": "Robert Kraft",
+      "relationship_type": "legal",
+      "description": "Both billionaire financiers charged in same multi-county FL prostitution sting (2019). Childs was charged in Indian River County, Kraft in Palm Beach County.",
+      "strength": "circumstantial",
+      "date_range": "2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 17:22:22",
+      "other_person": "John Childs",
+      "other_person_slug": "john-childs",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Daily Beast (Feb 2019)",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Fox News (Feb 2019)",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1990s to present",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Friends since 1990s. Kraft attended Trump's 2005 wedding, donated $1M to 2017 inauguration. Both Palm Beach residents. Trump called weekly after Myra Kraft's 2011 death. Philly.com article linking Kraft-Epstein-Trump forwarded by Epstein to Barak and Wolff.",
+      "other_person": "Donald Trump",
+      "id": 2125
+    },
+    {
+      "date": "2010-2017",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Kraft appeared on Peggy Siegal's Hollywood/elite social event guest lists, which were maintained among Epstein's files. Siegal was a key Epstein social network connector.",
+      "other_person": "Peggy Siegal",
+      "id": 2128
+    },
+    {
+      "date": "2014",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Both NFL team owners listed together by Epstein in August 2014 email to Bill Gates proposing a dinner meeting.",
+      "other_person": "David Tepper",
+      "id": 2135
+    },
+    {
+      "date": "2014 to 2021",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Both NFL team owners (Kraft: Patriots; Harris: Commanders). Harris had extensive email exchanges with Epstein 2013-2016. Both appeared in 2014 list Epstein referenced when asking Bill Gates about potential business relationships.",
+      "other_person": "Josh Harris",
+      "id": 2126
+    },
+    {
+      "date": "2014 to 2021",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board. Rowan became CEO after Black's departure. Rowan maintained contact with Epstein 2013-2016 including discussions about Apollo tax calculations. Kraft was on Conflicts Committee while Rowan had Epstein meetings at Apollo offices.",
+      "other_person": "Marc Rowan",
+      "id": 2127
+    },
+    {
+      "date": "2014-05-08 to 2021-04",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Co-directors on Apollo Global Management board (2014-2021). Both departed board in 2021 within weeks of each other following Epstein scandal revelations. Kraft was Independent Director on Conflicts Committee while Black was CEO/Chairman.",
+      "other_person": "Leon Black",
+      "id": 2120
+    },
+    {
+      "date": "2014-08 to 2014-12",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein attempted to broker a dinner between Gates, Kraft, Harris, and Tepper in late 2014. Kraft was listed as a potential dinner guest in Epstein's email to Gates.",
+      "other_person": "Bill Gates",
+      "id": 2134
+    },
+    {
+      "date": "2019",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Both charged in same FL prostitution sting (2019). Both had legal representation coordinated through Brad Karp/Epstein network. Both had charges dropped after video evidence suppressed.",
+      "other_person": "John Havens",
+      "id": 2136
+    },
+    {
+      "date": "2019",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Both billionaire financiers charged in same multi-county FL prostitution sting (2019). Childs was charged in Indian River County, Kraft in Palm Beach County.",
+      "other_person": "John Childs",
+      "id": 2137
+    },
+    {
+      "date": "2019-02-22",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Richard Kahn (HBRK Associates, 575 Lexington Ave NYC) forwarded Kraft arrest article to Epstein on day of charges. Kahn appears to be a regular Epstein correspondent who tracked news of mutual acquaintances.",
+      "other_person": "Richard Kahn",
+      "id": 2129
+    },
+    {
+      "date": "2019-02-22 to 2019-03-10",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Epstein facilitated Kraft's hiring of Jack Goldberger for 2019 solicitation case; possessed unknown 'past issue' about Kraft; discussed case with multiple contacts (Barak, Wolff, Bannon, Karp)",
+      "other_person": "Jeffrey Epstein",
+      "id": 2119
+    },
+    {
+      "date": "2019-02-22 to 2020",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Goldberger served as Kraft's defense attorney in 2019 Orchids of Asia solicitation case. Goldberger was connected to Kraft through Epstein, who actively promoted the hire. Goldberger had previously been Epstein's own defense attorney for 2008 NPA.",
+      "other_person": "Jack Goldberger",
+      "id": 2122
+    },
+    {
+      "date": "2019-02-25",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Epstein and Karp discussed Kraft's legal situation casually ('oy'/'yuck'). Web sources indicate Karp was involved in suggesting Kraft needed 'the best there is' for legal representation. Karp is Chairman of Paul Weiss which represents Apollo/Leon Black.",
+      "other_person": "Brad Karp",
+      "id": 2121
+    },
+    {
+      "date": "2019-02-25",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein forwarded article linking Kraft-Epstein-Trump to Barak Feb 25, 2019. Both Kraft and Barak are prominent in Israeli political/philanthropic circles. Kraft received Genesis Prize from Netanyahu; Barak is former Israeli PM with deep Epstein ties.",
+      "other_person": "Ehud Barak",
+      "id": 2124
+    },
+    {
+      "date": "2019-03-10",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Bannon discussed Kraft's legal case with Epstein via email March 2019. Epstein responded with insider knowledge ('90 percent inaccurate wow. hes ok').",
+      "other_person": "Steve Bannon",
+      "id": 2123
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3534,
+      3578,
+      3563,
+      3509,
+      3528,
+      3510,
+      3511,
+      3512,
+      3514,
+      3519,
+      3557,
+      3628
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          3506,
+          3508,
+          3528,
+          3531,
+          3534,
+          3552,
+          3555,
+          3557
+        ],
+        "connection_ids": [
+          2102,
+          2105,
+          2107,
+          2109,
+          2110,
+          2119,
+          2120,
+          2122,
+          2125,
+          2150,
+          2152,
+          2101,
+          2121,
+          2124,
+          2126
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          3513,
+          3518,
+          3520,
+          3522,
+          3524,
+          3529,
+          3532,
+          3533,
+          3578,
+          3591
+        ],
+        "connection_ids": [
+          2112
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3519,
+          3521,
+          3523,
+          3525,
+          3526,
+          3527,
+          3530,
+          3535
+        ],
+        "connection_ids": [
+          2119,
+          2122,
+          2150,
+          2152,
+          2121,
+          2136
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          3536,
+          3618,
+          3628
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          3510,
+          3511,
+          3512,
+          3514,
+          3516,
+          3517,
+          3595
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications \u2014 emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.617174"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Robert Kraft",
+      "connections": [
+        {
+          "target": "Leon Black",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Finding 1499",
+          "description": "Both served on Apollo Global Management board of directors during period of Black-Epstein payments"
+        },
+        {
+          "target": "Leon Black",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo 2020 and 2021",
+          "description": "Co-directors on Apollo Global Management board 2014-2021. Kraft served as independent director; Black was Chairman/CEO. Both departed board simultaneously in 2021 during post-Epstein governance overhaul."
+        },
+        {
+          "target": "Joshua Harris",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "description": "Co-directors on Apollo Global Management board. Harris as Managing Partner/co-founder, Kraft as independent director 2014-2021."
+        },
+        {
+          "target": "Marc Rowan",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "description": "Co-directors on Apollo Global Management board. Rowan as Managing Partner/co-founder, Kraft as independent director 2014-2021. Rowan became CEO after Black's departure."
+        },
+        {
+          "target": "A.B. Krongard",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR DEF 14A Apollo",
+          "description": "Co-independent directors on Apollo Global Management board. Krongard joined 2011, Kraft 2014. Both served through the Black-Epstein period. Krongard (ex-CIA Executive Director) served on audit/conflicts committees; Kraft served on no committees."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02630940",
+          "description": "Epstein facilitated Kraft's hiring of Jack Goldberger for 2019 solicitation case; possessed unknown 'past issue' about Kraft; discussed case with multiple contacts (Barak, Wolff, Bannon, Karp)"
+        },
+        {
+          "target": "Leon Black",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "Apollo 2020 DEF 14A",
+          "description": "Co-directors on Apollo Global Management board (2014-2021). Both departed board in 2021 within weeks of each other following Epstein scandal revelations. Kraft was Independent Director on Conflicts Committee while Black was CEO/Chairman."
+        },
+        {
+          "target": "Jack Goldberger",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "DOJ House Oversight files",
+          "description": "Goldberger served as Kraft's defense attorney in 2019 Orchids of Asia solicitation case. Goldberger was connected to Kraft through Epstein, who actively promoted the hire. Goldberger had previously been Epstein's own defense attorney for 2008 NPA."
+        },
+        {
+          "target": "Donald Trump",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "Boston Globe",
+          "description": "Friends since 1990s. Kraft attended Trump's 2005 wedding, donated $1M to 2017 inauguration. Both Palm Beach residents. Trump called weekly after Myra Kraft's 2011 death. Philly.com article linking Kraft-Epstein-Trump forwarded by Epstein to Barak and Wolff."
+        },
+        {
+          "target": "Brad Karp",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "https://dnyuz.com/2026/02/02/paul-weiss-law-firm-chair-brad-karp-told-jeffrey-epstein-youre-amazing/",
+          "description": "Karp brokered Epstein's recommendation for Kraft's defense attorney Jack Goldberger after Florida spa charges Feb 2019"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "https://dnyuz.com/2026/02/02/paul-weiss-law-firm-chair-brad-karp-told-jeffrey-epstein-youre-amazing/",
+          "description": "Epstein proactively offered to help Kraft find legal representation in FL spa case via Karp: 'if your buddy Kraft needs local palm rep. let me know'"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02630940",
+          "description": "Epstein responded to Kraft arrest news with insider knowledge: 90 percent inaccurate wow. hes ok \u2014 implying personal contact with or knowledge of Kraft"
+        },
+        {
+          "target": "Brad Karp",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02633563",
+          "description": "Epstein and Karp discussed Kraft's legal situation casually ('oy'/'yuck'). Web sources indicate Karp was involved in suggesting Kraft needed 'the best there is' for legal representation. Karp is Chairman of Paul Weiss which represents Apollo/Leon Black."
+        },
+        {
+          "target": "Ehud Barak",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02633592",
+          "description": "Epstein forwarded article linking Kraft-Epstein-Trump to Barak Feb 25, 2019. Both Kraft and Barak are prominent in Israeli political/philanthropic circles. Kraft received Genesis Prize from Netanyahu; Barak is former Israeli PM with deep Epstein ties."
+        },
+        {
+          "target": "Josh Harris",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "Apollo DEF 14A proxy",
+          "description": "Co-directors on Apollo Global Management board. Both NFL team owners (Kraft: Patriots; Harris: Commanders). Harris had extensive email exchanges with Epstein 2013-2016. Both appeared in 2014 list Epstein referenced when asking Bill Gates about potential business relationships."
+        },
+        {
+          "target": "Marc Rowan",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "Apollo DEF 14A",
+          "description": "Co-directors on Apollo Global Management board. Rowan became CEO after Black's departure. Rowan maintained contact with Epstein 2013-2016 including discussions about Apollo tax calculations. Kraft was on Conflicts Committee while Rowan had Epstein meetings at Apollo offices."
+        },
+        {
+          "target": "John Havens",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "Bloomberg Law",
+          "description": "Both charged in same FL prostitution sting (2019). Both had legal representation coordinated through Brad Karp/Epstein network. Both had charges dropped after video evidence suppressed."
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "social",
+          "strength": 0.4,
+          "evidence_ref": "EFTA02633526",
+          "description": "Richard Kahn (HBRK Associates, 575 Lexington Ave NYC) forwarded Kraft arrest article to Epstein on day of charges. Kahn appears to be a regular Epstein correspondent who tracked news of mutual acquaintances."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "EFTA02633592",
+          "description": "Epstein intensely tracked Robert Kraft's legal situation through 7+ forwarded news articles to associates (Barak, Wolff, Karp, Bannon) from Feb-May 2019, and monitored Kraft's Paradise Papers exposure since Nov 2017. No direct communication found, but Epstein's comment 'hes ok' to Bannon suggests possible indirect knowledge. Epstein studied Kraft's legal defense strategy to inform his own crisis management."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "EFTA02633592",
+          "description": "No direct communication found in DOJ EFTA corpus. However, Epstein tracked Kraft intensely through news articles (2017-2019), discussed Kraft's legal situation with Ehud Barak, Michael Wolff, Brad Karp, and Steve Bannon. Epstein studied Kraft's legal strategy as template for his own defense. Kraft attended same elite social events as Epstein associates (Peggy Siegal Hollywood events). Connected via Apollo board relationship to Leon Black who paid Epstein 158M."
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 0.2,
+          "evidence_ref": "EFTA02633526",
+          "description": "Richard Kahn of HBRK Associates Inc (575 Lexington Ave, NYC) forwarded Kraft prostitution article to Epstein on Feb 22, 2019. Kahn was a known Epstein financial associate/accountant. No direct Kraft-Kahn relationship established."
+        },
+        {
+          "target": "Steve Bannon",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "EFTA02630940",
+          "description": "Bannon discussed Kraft's legal case with Epstein via email March 2019. Epstein responded with insider knowledge ('90 percent inaccurate wow. hes ok')."
+        },
+        {
+          "target": "Peggy Siegal",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "HOUSE_OVERSIGHT_019853",
+          "description": "Kraft appeared on Peggy Siegal's Hollywood/elite social event guest lists, which were maintained among Epstein's files. Siegal was a key Epstein social network connector."
+        },
+        {
+          "target": "Bill Gates",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "Wikipedia: Epstein files",
+          "description": "Epstein attempted to broker a dinner between Gates, Kraft, Harris, and Tepper in late 2014. Kraft was listed as a potential dinner guest in Epstein's email to Gates."
+        },
+        {
+          "target": "David Tepper",
+          "type": "social",
+          "strength": 0.2,
+          "evidence_ref": "Wikipedia: Epstein files",
+          "description": "Both NFL team owners listed together by Epstein in August 2014 email to Bill Gates proposing a dinner meeting."
+        },
+        {
+          "target": "John Childs",
+          "type": "legal",
+          "strength": 0.2,
+          "evidence_ref": "Daily Beast (Feb 2019)",
+          "description": "Both billionaire financiers charged in same multi-county FL prostitution sting (2019). Childs was charged in Indian River County, Kraft in Palm Beach County."
+        }
+      ],
+      "secondHop": {
+        "Brad Karp": [
+          {
+            "target": "Guzel Ganieva",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp coordinated Nardello surveillance (Leon Black dispute) 2015."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss chairman, personal friend, regular visits to 71st St 2016-2019, Leon Black escrow, Misra representation, Ghosn crisis"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss represented Misra in SoftBank matters; Karp confirmed to Epstein Jan 26 2019"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp (Chairman Paul Weiss) confirmed to Epstein he sort of represented Misra and spoke to him the previous day, Jan 26 2019."
+          },
+          {
+            "target": "Carlos Ghosn",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp was dealing with Ghosn crisis from Nov 20 2018, personally traveled to Tokyo, confirmed Epstein source intelligence accurate, Paul Weiss later lobbied for Ghosn in Japan Q3-Q4 2019 and Q1 2020"
+          }
+        ],
+        "Donald Trump": [
+          {
+            "target": "Tom Barrack",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Close friend. Chaired 58th Presidential Inaugural Committee raising 107M. Adviser to Trump Economic Advisory Council. Co-defendant claim re UAE influence. FEC: major GOP donor."
+          },
+          {
+            "target": "Tom Barrack",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Close friends since 1985. Barrack brokered Trump Plaza Hotel 1988. Chaired 58th Inaugural Committee 107M. Senior adviser 2016 campaign. Ambassador Turkey 2025."
+          },
+          {
+            "target": "Jay Clayton",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Trump nominated Clayton SEC Chair 2017. Tried to install as SDNY USA June 2020 replacing Berman. Golf partners per LittleSis. Installed as SDNY USA April 2025."
+          },
+          {
+            "target": "William Barr",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Trump nominated Barr as 85th Attorney General (Feb 14, 2019 - Dec 23, 2020). Barr oversaw Mueller Report characterization, Epstein SDNY prosecution, fired Geoffrey Berman from SDNY, intervened in Roger Stone and Michael Flynn cases. Epstein reacted to nomination: 'Barr a disaster for t[rump]' (Dec 7, 2018)."
+          },
+          {
+            "target": "Keith Davidson",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Davidson brokered Stormy Daniels 130K hush payment and Karen McDougal 150K AMI catch-and-kill, payments coordinated with Michael Cohen"
+          }
+        ],
+        "Ehud Barak": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Co-investors in Carbyne/Reporty via SUM (E.B.) LP. Epstein through STC (66.67%), Barak as GP with carried interest."
+          },
+          {
+            "target": "Jabor Al Thani",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Epstein introduced Nov 10 2018. Jabor brokered Barak-HBJ meeting Dec 20 2018 at 100 Knightsbridge London. Barak pitched Carbyne 911 for Qatar 2022 World Cup security, offering to minimize Israeli profile. Jabor requested more info on the security company."
+          },
+          {
+            "target": "Hamad bin Jassim Al Thani",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Barak met HBJ Dec 20 2018 in London, facilitated by Epstein via Jabor. Barak: Vividly remember my past meetings with HE HBJ. Really enthusiast about coming meeting. So many fascinating and disturbing events. Followed by Carbyne 911 Qatar presentation Jan 1, 2019. Former Israeli PM meeting former Qatar PM -- extraordinary back-channel."
+          },
+          {
+            "target": "Nili Priell Barak",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Married couple. Nili served as Baraks primary scheduler and contact person for all Epstein meetings"
+          },
+          {
+            "target": "Wexner Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Wexner Foundation paid Barak .3M (2004-2006) for two research papers (one incomplete). Epstein was de facto CFO of Wexner family office approving grants during this exact period. Creates direct financial flow: Wexner -> Foundation -> Barak, with Epstein as gatekeeper."
+          }
+        ],
+        "Jack Goldberger": [
+          {
+            "target": "John Havens",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Goldberger represented Havens in the FL spa case alongside Kraft. Told Epstein 'havens a pleasure' compared to Kraft. Havens lived in Martin County, creating jurisdictional complication noted by Epstein."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1990s to present",
+        "label": "social with Donald Trump",
+        "type": "social",
+        "entity": "Donald Trump",
+        "id": 2125
+      },
+      {
+        "date": "2010-2017",
+        "label": "social with Peggy Siegal",
+        "type": "social",
+        "entity": "Peggy Siegal",
+        "id": 2128
+      },
+      {
+        "date": "2014",
+        "label": "social with David Tepper",
+        "type": "social",
+        "entity": "David Tepper",
+        "id": 2135
+      },
+      {
+        "date": "2014 to 2021",
+        "label": "corporate with Josh Harris",
+        "type": "corporate",
+        "entity": "Josh Harris",
+        "id": 2126
+      },
+      {
+        "date": "2014 to 2021",
+        "label": "corporate with Marc Rowan",
+        "type": "corporate",
+        "entity": "Marc Rowan",
+        "id": 2127
+      },
+      {
+        "date": "2014-05-08 to 2021-04",
+        "label": "corporate with Leon Black",
+        "type": "corporate",
+        "entity": "Leon Black",
+        "id": 2120
+      },
+      {
+        "date": "2014-08 to 2014-12",
+        "label": "social with Bill Gates",
+        "type": "social",
+        "entity": "Bill Gates",
+        "id": 2134
+      },
+      {
+        "date": "2019",
+        "label": "legal with John Havens",
+        "type": "legal",
+        "entity": "John Havens",
+        "id": 2136
+      },
+      {
+        "date": "2019",
+        "label": "legal with John Childs",
+        "type": "legal",
+        "entity": "John Childs",
+        "id": 2137
+      },
+      {
+        "date": "2019-02-22",
+        "label": "social with Richard Kahn",
+        "type": "social",
+        "entity": "Richard Kahn",
+        "id": 2129
+      },
+      {
+        "date": "2019-02-22 to 2019-03-10",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 2119
+      },
+      {
+        "date": "2019-02-22 to 2020",
+        "label": "legal with Jack Goldberger",
+        "type": "legal",
+        "entity": "Jack Goldberger",
+        "id": 2122
+      },
+      {
+        "date": "2019-02-25",
+        "label": "legal with Brad Karp",
+        "type": "legal",
+        "entity": "Brad Karp",
+        "id": 2121
+      },
+      {
+        "date": "2019-02-25",
+        "label": "social with Ehud Barak",
+        "type": "social",
+        "entity": "Ehud Barak",
+        "id": 2124
+      },
+      {
+        "date": "2019-03-10",
+        "label": "social with Steve Bannon",
+        "type": "social",
+        "entity": "Steve Bannon",
+        "id": 2123
+      }
+    ]
+  }
+}

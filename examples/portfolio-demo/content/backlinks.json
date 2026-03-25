@@ -1,0 +1,83 @@
+{
+  "dossier_to_dossier": {
+    "harbor-ledger-holdings": [
+      {
+        "slug": "lina-ortega",
+        "name": "Lina Ortega"
+      }
+    ],
+    "lina-ortega": [
+      {
+        "slug": "harbor-ledger-holdings",
+        "name": "Harbor Ledger Holdings LLC"
+      }
+    ]
+  },
+  "dossier_to_article": {
+    "harbor-ledger-holdings": [
+      {
+        "slug": "port-watch-procurement-network",
+        "title": "The Port Watch Procurement Network"
+      }
+    ],
+    "lina-ortega": [
+      {
+        "slug": "port-watch-procurement-network",
+        "title": "The Port Watch Procurement Network"
+      }
+    ]
+  },
+  "dossier_to_model": {
+    "harbor-ledger-holdings": [
+      {
+        "id": "deniable-procurement-corridor",
+        "title": "Deniable Procurement Corridor"
+      }
+    ],
+    "lina-ortega": [
+      {
+        "id": "deniable-procurement-corridor",
+        "title": "Deniable Procurement Corridor"
+      }
+    ]
+  },
+  "article_to_dossier": {
+    "port-watch-procurement-network": [
+      {
+        "slug": "harbor-ledger-holdings",
+        "name": "Harbor Ledger Holdings LLC"
+      },
+      {
+        "slug": "lina-ortega",
+        "name": "Lina Ortega"
+      }
+    ]
+  },
+  "article_to_article": {
+    "port-watch-procurement-network": []
+  },
+  "cluster_to_dossier": {
+    "port-watch-procurement-network": [
+      {
+        "slug": "harbor-ledger-holdings",
+        "name": "Harbor Ledger Holdings LLC"
+      },
+      {
+        "slug": "lina-ortega",
+        "name": "Lina Ortega"
+      }
+    ]
+  },
+  "model_to_dossier": {
+    "deniable-procurement-corridor": [
+      {
+        "slug": "harbor-ledger-holdings",
+        "name": "Harbor Ledger Holdings LLC"
+      },
+      {
+        "slug": "lina-ortega",
+        "name": "Lina Ortega"
+      }
+    ]
+  }
+}

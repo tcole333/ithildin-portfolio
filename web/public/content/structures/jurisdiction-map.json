@@ -1,0 +1,82 @@
+{
+  "id": "jurisdiction-map",
+  "title": "What Each Jurisdiction Provides",
+  "subtitle": "Five jurisdictions, five features, no single regulator sees the whole",
+  "nodes": [
+    {
+      "id": "usvi",
+      "name": "US Virgin Islands",
+      "nodeType": "entity",
+      "entityType": "jurisdiction",
+      "jurisdiction": "USVI",
+      "role": "Trust company formation with minimal reporting. VIEDC tax benefits (90% income tax reduction). Distance from mainland enforcement. Entity: STC, BBVI, all property shells.",
+      "parentIds": []
+    },
+    {
+      "id": "ny",
+      "name": "New York",
+      "nodeType": "entity",
+      "entityType": "jurisdiction",
+      "jurisdiction": "NY",
+      "role": "Prestige address (457 Madison Ave). Banking access (Deutsche Bank, JPMorgan). Legal infrastructure (DKIP PLLC). Entity: DKIP, Max Hotel Services, E Management.",
+      "parentIds": []
+    },
+    {
+      "id": "fl",
+      "name": "Florida",
+      "nodeType": "entity",
+      "entityType": "jurisdiction",
+      "jurisdiction": "FL",
+      "role": "No state income tax. Homestead exemption. Property holding. Entity: Laurel Inc property, Indyke relocation (Delray Beach).",
+      "parentIds": []
+    },
+    {
+      "id": "nm",
+      "name": "New Mexico",
+      "nodeType": "entity",
+      "entityType": "jurisdiction",
+      "jurisdiction": "NM",
+      "role": "Near-zero LLC filing requirements. No public disclosure of members. Entity: Cypress Inc (Zorro Ranch).",
+      "parentIds": []
+    },
+    {
+      "id": "de",
+      "name": "Delaware",
+      "nodeType": "entity",
+      "entityType": "jurisdiction",
+      "jurisdiction": "DE",
+      "role": "LLC opacity — no public disclosure of members or managers. Chancery Court. Entity: Various holding LLCs.",
+      "parentIds": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "usvi",
+      "target": "ny",
+      "relationType": "funds_flow",
+      "description": "STC wires to Deutsche Bank NY accounts",
+      "label": "Banking access"
+    },
+    {
+      "source": "usvi",
+      "target": "fl",
+      "relationType": "property",
+      "description": "Laurel Inc (USVI) holds Palm Beach property",
+      "label": "Property holding"
+    },
+    {
+      "source": "usvi",
+      "target": "nm",
+      "relationType": "property",
+      "description": "Cypress Inc (USVI) holds Zorro Ranch",
+      "label": "Property holding"
+    },
+    {
+      "source": "ny",
+      "target": "usvi",
+      "relationType": "controls",
+      "description": "Indyke (NY) authorized signer on USVI entity accounts",
+      "label": "Management control"
+    }
+  ]
+}

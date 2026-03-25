@@ -1,0 +1,400 @@
+{
+  "name": "Alba Fiber Systems Inc",
+  "slug": "alba-fiber-systems-inc",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.307750",
+  "last_updated": "2026-02-13T02:35:10",
+  "stats": {
+    "total_findings": 9,
+    "total_connections": 0,
+    "total_entities": 0,
+    "finding_types": {
+      "intelligence": 6,
+      "identity": 2,
+      "financial": 1
+    },
+    "connection_types": {},
+    "last_updated": "2026-02-13T02:35:10"
+  },
+  "findings": [
+    {
+      "id": 713,
+      "finding_type": "intelligence",
+      "summary": "IMPORTANT DISAMBIGUATION: The word 'Alba' appears in 3 DOJ Vol 11 emails (EFTA02436485, EFTA02436641, EFTA02436791) but refers to 'Project Alba' -- a codename for an HBOS bank deal Epstein was evaluating in September 2009. EFTA02436791 (Sep 1, 2009): 'What do you think about the HBOS deal (project alba)?' EFTA02436641 (Sep 5, 2009): 'Will meet the people re Alba (hbos) deal on monday.' These emails also mention 'Oppenheim', 'Ports' (likely DP World), and 'Michelin House, Fulham Road' (London). This is an unrelated use of the word Alba and has NO connection to Alba Fiber Systems Inc of Valley Stream, NY.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2009-09-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:16:43",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02436485",
+          "source_quote": "To: \nffr \nin \nv \ni n \n1.com] \nFrom: \n\u2022 \n\u2022\nSent:\nWed 11 \n. \n. \nSubject: \nAlba \nPlease let me know your thoughts on HBOS deal. Its time sensitive. \nThis message is confidential. It may also be privileged or otherwise protected by \nwork product...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02436641",
+          "source_quote": "Will meet the people re Alba (hbos) deal on monday",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02436791",
+          "source_quote": "What do you think about the HBOS deal (project alba)?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 711,
+      "finding_type": "identity",
+      "summary": "Alba Fiber Systems Inc (NY DOS ID 4234896) is a domestic business corporation incorporated 2012-04-23, initially in Queens county, relocated to Nassau county (Valley Stream) via Certificate of Change on 2013-06-17. Address: 265 East Merrick Road Suite 209, Valley Stream, NY 11580. Manufactures industrial fiber optic transmission equipment (switches, media converters, video/audio/data). Wayback Machine archives (2013-2017, 50+ snapshots) confirm active website with product catalog. Contact: Tel 516-837-9449, Fax 516-837-9450. Associated person: Perry Behr (LinkedIn). Website now dead (DNS expired). No SEC filings, no 990 filings, no federal court cases found.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2012-04-23",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:16:23",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NY_DOS_4234896",
+          "source_quote": "DOMESTIC BUSINESS CORPORATION filed 2012-04-23 Queens, CERTIFICATE OF CHANGE 2013-06-17 Nassau county",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 755,
+      "finding_type": "intelligence",
+      "summary": "FINAL ASSESSMENT -- Alba Fiber / 7 Seas SCM / Epstein phone pivot: After exhaustive investigation using 20+ data sources (DOJ Vol 11, DugganUSA, LMSBAND, Unified DB, SEC EDGAR, OCCRP Aleph, NY SoS, FL SunBiz registry, FEC, FARA, CourtListener, LittleSis, ProPublica 990, web searches, FMCSA, IEEE OUI registry, BBB, ImportYeti), the previous agents' assessment that this is a BvD data aggregation error is CONFIRMED. Key evidence: (1) Alba Fiber has its own distinct phones (516-837-9449, 516-218-2541/2542) with no overlap to Epstein numbers. (2) Perry Behr is a sales manager (not owner) with background in security/surveillance sales. (3) Zero corpus hits across 660K+ Epstein documents. (4) The company is a legitimate fiber optic equipment manufacturer (IEEE OUI, Anixter distribution, product manuals). (5) 7 Seas SCM is an entirely separate company (different owner Hector Grajales, different business, incorporated independently in 2013) that happens to occupy the adjacent suite. (6) The 265 E Merrick Rd building is a generic multi-tenant office used by many logistics/customs companies. (7) No 'Hong Kong company' import connection to Epstein's Asia Gateway/David Stern network was found. The BvD phone pivot that surfaced Alba Fiber alongside confirmed Epstein entities (SLK Designs, JSC Interiors, Zorro entities, Birch Tree BR) appears to be a data quality issue in Bureau van Dijk's corporate phone records, likely caused by phone number reassignment or database aggregation error.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:35:10",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "finding-711 finding-712 finding-713 finding-721 finding-750 finding-752 finding-753 finding-754 DOJ-Vol11-negative DugganUSA-negative SEC-EDGAR-negative OCCRP-Aleph-negative",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "finding_type": "intelligence",
+      "summary": "MAC address registration confirms Alba Fiber as genuine hardware manufacturer: IEEE OUI 50:A0:BF registered 02 May 2013 to Alba Fiber Systems Inc at 265 E. Merrick Rd, Valley Stream NY 11580 (MA-L block, ~16M addresses). This is a Large MAC Address Block assignment requiring demonstrable hardware manufacturing. Products distributed through Anixter (major industrial distributor). Product line (AFS8202M industrial ethernet switches) appears similar to ROBOfiber HGW-808S, suggesting OEM/rebrand relationship. The company was a legitimate if small industrial fiber optic equipment manufacturer, not a shell entity. Website albafiber.net confirmed dead (ECONNREFUSED) as of Feb 2026. Wayback Machine had 50+ snapshots 2013-2017 per prior investigator finding.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-05-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:34:37",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://maclookup.app/macaddress/50A0BF",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://udger.com/resources/mac-address-vendor-detail?name=alba_fiber_systems_inc",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 750,
+      "finding_type": "intelligence",
+      "summary": "7 Seas SCM investigation: 7 Seas Supply Chain Management Corp (NY DOS 4404512, inc. 2013-05-16, CEO Hector F. Grajales) operates from Suite 208 at 265 E Merrick Rd Valley Stream NY -- one suite number from Alba Fiber (Suite 209). Company is a freight forwarder with offices in NY, LA, Hong Kong (Bennie Chu), Shanghai, Guangzhou, Qingdao, Vietnam, Indonesia, Colombia. FMCSA USDOT 3531779, MC-1176016. BBB accredited 2017. $7M revenue, 37 employees, 95% female workforce. Despite adjacent suites and user hypothesis of business succession/connection, NO evidence links 7 Seas SCM to Perry Behr or Alba Fiber. Different principals (Grajales vs Behr), different business types (logistics vs fiber optic equipment), different incorporation dates (2013 vs 2012). The co-location at 265 E Merrick Rd is explained by the building being a multi-tenant commercial office hub for logistics/freight companies: also houses Concordia International Forwarding, Cargo Control Inc, Quality Custom Brokers, and Consolidated Transport Service.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2013-05-16",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:34:17",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://7seas-scm.com/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.bbb.org/us/ny/valley-stream/profile/shipping-masters/7-seas-logistics-0121-169352",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://safer.fmcsa.dot.gov/query.asp?query_string=3531779",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "NY-SoS:4404512",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 712,
+      "finding_type": "intelligence",
+      "summary": "Alba Fiber appeared in Bureau van Dijk corporate registry pivot on Epstein corporate phone (212) 971-1307 alongside 9 confirmed Epstein entities (SLK Designs, JSC Interiors, Zorro Management, Zorro Development, Neptune LLC, Neptune Industries, Neptune Partners, Neptune Corp, Birch Tree BR LLC). However, Alba Fiber has its own distinct phone numbers (516-837-9449, 516-218-2541, 516-218-2542) which do NOT match any known Epstein numbers. Comprehensive search of DOJ Vol 11 (331K pages), DugganUSA (204K docs), LMSBAND (60K files), and Unified DB (70K docs) returned ZERO results for 'Alba Fiber', 'albafiber', or 'Perry Behr'. The most likely explanation is Bureau van Dijk data aggregation error -- the phone was incorrectly associated with Alba Fiber in the corporate data broker records. Assessment: probable false positive in the BvD phone pivot, not a genuine Epstein connection.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:16:33",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "master_narrative_phone_pivot",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 721,
+      "finding_type": "financial",
+      "summary": "Alba Fiber Systems Inc (#145, 265 E Merrick Rd Valley Stream NY 11580) found via Dehashed phone search. Zero results across all DOJ Vol 11, LMSBAND, unified DB, and DugganUSA searches. No corporate registry match found. The Valley Stream NY address is far from any known Epstein locations. Without any documentary evidence linking this entity to Epstein beyond a phone number match in Dehashed breach data, the connection is likely a false positive. Phone numbers in breach databases frequently contain errors or reassignments. Should be reclassified as unrelated unless new evidence emerges.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:18:56",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02711200",
+          "source_quote": "Total Assets 404219036 403801452 showing all confirmed Epstein entities",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 752,
+      "finding_type": "identity",
+      "summary": "Perry Behr background: Regional Sales Manager at Alba Fiber Systems (not owner/principal). Previous roles: Regional Sales Manager at Genetec Inc (Canadian video surveillance/security platform), Security Engineers Inc, and Structure Works Inc. Located in Bay Shore, Long Island. NOT listed as CEO or officer in NY SoS for any company. Zero results across all Epstein document databases (DOJ Vol 11, DugganUSA, LMSBAND, Unified DB). Zero results in SEC EDGAR. Zero results in OCCRP Aleph. Perry Behr appears to be a sales professional in the security/fiber optics industry with no discernible connection to the Epstein network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:34:26",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.linkedin.com/in/perry-behr-53879817/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 754,
+      "finding_type": "intelligence",
+      "summary": "265 E Merrick Rd address investigation: The building at 265 E Merrick Rd, Valley Stream NY 11580 is an 11,760 sq ft multi-tenant commercial office building built 1985 (assessed value $1.16M). It is a logistics/customs industry cluster housing: Cargo Control Inc, Concordia International Forwarding Corp, Quality Custom Brokers, Consolidated Transport Service, Krinsky & Epstein PC (accounting firm -- Lee S. Epstein CPA and Philip J. Krinsky CPA, UNRELATED to Jeffrey Epstein), Atlantis Business Solutions, Care Network Services LLC, 7 Seas Logistics (Suite 208), and Alba Fiber Systems (Suite 209). The 'Krinsky & Epstein PC' presence at this address is coincidental -- Lee S. Epstein is also described as Owner of The Krinsky Company (healthcare consulting, Jericho NY). No Epstein network entities have been located at this address.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 02:34:50",
+      "target_name": "Alba Fiber Systems Inc",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.propertyshark.com/mason/Property/1438958/265-E-Merrick-Rd-Valley-Stream-NY-11580/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://rpo.ptin.org/tax-firms/new-york/valley-stream-ny/280082/krinsky-and-epstein-pc/lee-s-epstein",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.yelp.com/biz/cargo-control-valley-stream",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2009-09-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "IMPORTANT DISAMBIGUATION: The word 'Alba' appears in 3 DOJ Vol 11 emails (EFTA02436485, EFTA02436641, EFTA02436791) but refers to 'Project Alba' -- a codename for an HBOS bank deal Epstein was evaluating in September 2009. EFTA02436791 (Sep 1, 2009): 'What do you think about the HBOS deal (project alba)?' EFTA02436641 (Sep 5, 2009): 'Will meet the people re Alba (hbos) deal on monday.' These emails also mention 'Oppenheim', 'Ports' (likely DP World), and 'Michelin House, Fulham Road' (London). This is an unrelated use of the word Alba and has NO connection to Alba Fiber Systems Inc of Valley Stream, NY.",
+      "confidence": "high",
+      "id": 713
+    },
+    {
+      "date": "2012-04-23",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Alba Fiber Systems Inc (NY DOS ID 4234896) is a domestic business corporation incorporated 2012-04-23, initially in Queens county, relocated to Nassau county (Valley Stream) via Certificate of Change on 2013-06-17. Address: 265 East Merrick Road Suite 209, Valley Stream, NY 11580. Manufactures industrial fiber optic transmission equipment (switches, media converters, video/audio/data). Wayback Machine archives (2013-2017, 50+ snapshots) confirm active website with product catalog. Contact: Tel 516-837-9449, Fax 516-837-9450. Associated person: Perry Behr (LinkedIn). Website now dead (DNS expired). No SEC filings, no 990 filings, no federal court cases found.",
+      "confidence": "medium",
+      "id": 711
+    },
+    {
+      "date": "2013",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "FINAL ASSESSMENT -- Alba Fiber / 7 Seas SCM / Epstein phone pivot: After exhaustive investigation using 20+ data sources (DOJ Vol 11, DugganUSA, LMSBAND, Unified DB, SEC EDGAR, OCCRP Aleph, NY SoS, FL SunBiz registry, FEC, FARA, CourtListener, LittleSis, ProPublica 990, web searches, FMCSA, IEEE OUI registry, BBB, ImportYeti), the previous agents' assessment that this is a BvD data aggregation error is CONFIRMED. Key evidence: (1) Alba Fiber has its own distinct phones (516-837-9449, 516-218-2541/2542) with no overlap to Epstein numbers. (2) Perry Behr is a sales manager (not owner) with background in security/surveillance sales. (3) Zero corpus hits across 660K+ Epstein documents. (4) The company is a legitimate fiber optic equipment manufacturer (IEEE OUI, Anixter distribution, product manuals). (5) 7 Seas SCM is an entirely separate company (different owner Hector Grajales, different business, incorporated independently in 2013) that happens to occupy the adjacent suite. (6) The 265 E Merrick Rd building is a generic multi-tenant office used by many logistics/customs companies. (7) No 'Hong Kong company' import connection to Epstein's Asia Gateway/David Stern network was found. The BvD phone pivot that surfaced Alba Fiber alongside confirmed Epstein entities (SLK Designs, JSC Interiors, Zorro entities, Birch Tree BR) appears to be a data quality issue in Bureau van Dijk's corporate phone records, likely caused by phone number reassignment or database aggregation error.",
+      "confidence": "medium",
+      "id": 755
+    },
+    {
+      "date": "2013-05-02",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "MAC address registration confirms Alba Fiber as genuine hardware manufacturer: IEEE OUI 50:A0:BF registered 02 May 2013 to Alba Fiber Systems Inc at 265 E. Merrick Rd, Valley Stream NY 11580 (MA-L block, ~16M addresses). This is a Large MAC Address Block assignment requiring demonstrable hardware manufacturing. Products distributed through Anixter (major industrial distributor). Product line (AFS8202M industrial ethernet switches) appears similar to ROBOfiber HGW-808S, suggesting OEM/rebrand relationship. The company was a legitimate if small industrial fiber optic equipment manufacturer, not a shell entity. Website albafiber.net confirmed dead (ECONNREFUSED) as of Feb 2026. Wayback Machine had 50+ snapshots 2013-2017 per prior investigator finding.",
+      "confidence": "medium",
+      "id": 753
+    },
+    {
+      "date": "2013-05-16",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "7 Seas SCM investigation: 7 Seas Supply Chain Management Corp (NY DOS 4404512, inc. 2013-05-16, CEO Hector F. Grajales) operates from Suite 208 at 265 E Merrick Rd Valley Stream NY -- one suite number from Alba Fiber (Suite 209). Company is a freight forwarder with offices in NY, LA, Hong Kong (Bennie Chu), Shanghai, Guangzhou, Qingdao, Vietnam, Indonesia, Colombia. FMCSA USDOT 3531779, MC-1176016. BBB accredited 2017. $7M revenue, 37 employees, 95% female workforce. Despite adjacent suites and user hypothesis of business succession/connection, NO evidence links 7 Seas SCM to Perry Behr or Alba Fiber. Different principals (Grajales vs Behr), different business types (logistics vs fiber optic equipment), different incorporation dates (2013 vs 2012). The co-location at 265 E Merrick Rd is explained by the building being a multi-tenant commercial office hub for logistics/freight companies: also houses Concordia International Forwarding, Cargo Control Inc, Quality Custom Brokers, and Consolidated Transport Service.",
+      "confidence": "medium",
+      "id": 750
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      713,
+      721,
+      750,
+      753,
+      755,
+      711,
+      752,
+      754,
+      712
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          713,
+          755,
+          753,
+          750,
+          712,
+          754
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.362937"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Alba Fiber Systems Inc",
+      "connections": [],
+      "secondHop": {},
+      "depth": 1
+    },
+    "timeline_events": [
+      {
+        "date": "2009-09-01",
+        "label": "IMPORTANT DISAMBIGUATION: The word 'Alba' appears in 3 DOJ Vol 11 emails (EFTA02436485, EFTA02436641, EFTA02436791) but refers to 'Project Alba' -- a codename for an HBOS bank deal Epstein was evaluating in September 2009. EFTA02436791 (Sep 1, 2009): 'What do you think about the HBOS deal (project alba)?' EFTA02436641 (Sep 5, 2009): 'Will meet the people re Alba (hbos) deal on monday.' These emails also mention 'Oppenheim', 'Ports' (likely DP World), and 'Michelin House, Fulham Road' (London). This is an unrelated use of the word Alba and has NO connection to Alba Fiber Systems Inc of Valley Stream, NY.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 713
+      },
+      {
+        "date": "2012-04-23",
+        "label": "Alba Fiber Systems Inc (NY DOS ID 4234896) is a domestic business corporation incorporated 2012-04-23, initially in Queens county, relocated to Nassau county (Valley Stream) via Certificate of Change on 2013-06-17. Address: 265 East Merrick Road Suite 209, Valley Stream, NY 11580. Manufactures industrial fiber optic transmission equipment (switches, media converters, video/audio/data). Wayback Machine archives (2013-2017, 50+ snapshots) confirm active website with product catalog. Contact: Tel 516-837-9449, Fax 516-837-9450. Associated person: Perry Behr (LinkedIn). Website now dead (DNS expired). No SEC filings, no 990 filings, no federal court cases found.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 711
+      },
+      {
+        "date": "2013",
+        "label": "FINAL ASSESSMENT -- Alba Fiber / 7 Seas SCM / Epstein phone pivot: After exhaustive investigation using 20+ data sources (DOJ Vol 11, DugganUSA, LMSBAND, Unified DB, SEC EDGAR, OCCRP Aleph, NY SoS, FL SunBiz registry, FEC, FARA, CourtListener, LittleSis, ProPublica 990, web searches, FMCSA, IEEE OUI registry, BBB, ImportYeti), the previous agents' assessment that this is a BvD data aggregation error is CONFIRMED. Key evidence: (1) Alba Fiber has its own distinct phones (516-837-9449, 516-218-2541/2542) with no overlap to Epstein numbers. (2) Perry Behr is a sales manager (not owner) with background in security/surveillance sales. (3) Zero corpus hits across 660K+ Epstein documents. (4) The company is a legitimate fiber optic equipment manufacturer (IEEE OUI, Anixter distribution, product manuals). (5) 7 Seas SCM is an entirely separate company (different owner Hector Grajales, different business, incorporated independently in 2013) that happens to occupy the adjacent suite. (6) The 265 E Merrick Rd building is a generic multi-tenant office used by many logistics/customs companies. (7) No 'Hong Kong company' import connection to Epstein's Asia Gateway/David Stern network was found. The BvD phone pivot that surfaced Alba Fiber alongside confirmed Epstein entities (SLK Designs, JSC Interiors, Zorro entities, Birch Tree BR) appears to be a data quality issue in Bureau van Dijk's corporate phone records, likely caused by phone number reassignment or database aggregation error.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 755
+      },
+      {
+        "date": "2013-05-02",
+        "label": "MAC address registration confirms Alba Fiber as genuine hardware manufacturer: IEEE OUI 50:A0:BF registered 02 May 2013 to Alba Fiber Systems Inc at 265 E. Merrick Rd, Valley Stream NY 11580 (MA-L block, ~16M addresses). This is a Large MAC Address Block assignment requiring demonstrable hardware manufacturing. Products distributed through Anixter (major industrial distributor). Product line (AFS8202M industrial ethernet switches) appears similar to ROBOfiber HGW-808S, suggesting OEM/rebrand relationship. The company was a legitimate if small industrial fiber optic equipment manufacturer, not a shell entity. Website albafiber.net confirmed dead (ECONNREFUSED) as of Feb 2026. Wayback Machine had 50+ snapshots 2013-2017 per prior investigator finding.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 753
+      },
+      {
+        "date": "2013-05-16",
+        "label": "7 Seas SCM investigation: 7 Seas Supply Chain Management Corp (NY DOS 4404512, inc. 2013-05-16, CEO Hector F. Grajales) operates from Suite 208 at 265 E Merrick Rd Valley Stream NY -- one suite number from Alba Fiber (Suite 209). Company is a freight forwarder with offices in NY, LA, Hong Kong (Bennie Chu), Shanghai, Guangzhou, Qingdao, Vietnam, Indonesia, Colombia. FMCSA USDOT 3531779, MC-1176016. BBB accredited 2017. $7M revenue, 37 employees, 95% female workforce. Despite adjacent suites and user hypothesis of business succession/connection, NO evidence links 7 Seas SCM to Perry Behr or Alba Fiber. Different principals (Grajales vs Behr), different business types (logistics vs fiber optic equipment), different incorporation dates (2013 vs 2012). The co-location at 265 E Merrick Rd is explained by the building being a multi-tenant commercial office hub for logistics/freight companies: also houses Concordia International Forwarding, Cargo Control Inc, Quality Custom Brokers, and Consolidated Transport Service.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 750
+      }
+    ]
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "name": "IPI",
+  "slug": "ipi",
+  "stats": {
+    "total_findings": 8,
+    "total_connections": 11,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 6,
+      "legal": 2
+    },
+    "connection_types": {
+      "financial": 10,
+      "advisory": 1
+    }
+  },
+  "findings": [
+    {
+      "id": 290,
+      "finding_type": "financial",
+      "summary": "IPI submitted a 20M grant proposal to Gates Foundation on September 4, 2013 for Polio Eradication and Peace and Health (EFTA02678411). The proposal was for 60 months (2014-2018) covering Pakistan, Nigeria, Somalia. The Foundation approved only 2.5M (grant OPP1096058), signed March 2, 2014. Payment: 1.25M upon signing, 1.25M in March 2015 contingent on progress report. Grant end date December 31, 2015.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:30",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678411",
+          "source_quote": "Amount Requested from Foundation 20,000,000",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02709169",
+          "source_quote": "Total Grant Amount 2,500,000.00",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "finding_type": "legal",
+      "summary": "IPI has no FARA registration despite receiving Norwegian government funding and hosting US Congressional members on advisory boards. Norway has 50 FARA-registered foreign principals, but IPI -- which received $650K in Epstein-conduit funds and lobbied Congress on foreign policy -- appears nowhere in the FARA database. This is a potential FARA violation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:41:41",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://efile.fara.gov/ords/f?p=1381:200#q=negative_search_IPI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "finding_type": "financial",
+      "summary": "IPI (EIN 03-0213226) 990 filings show dramatic financial decline correlating with Epstein exposure. Peak assets were .6M in 2010, declining steadily to .4M in 2014, .7M in 2015, .7M in 2016, .7M in 2017, .5M in 2018, .4M in 2019, then collapsing to .9M in 2020 (COVID+Epstein), recovering briefly to .3M in 2021, but continuing decline to .4M in 2022 and .9M in 2023. Revenue dropped from .9M (2014) to .9M (2020) - a 67% collapse. The 2020 year shows revenue of only .9M against .6M in expenses, indicating severe financial distress.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:48",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "finding_type": "financial",
+      "summary": "IPI expenses have consistently exceeded revenue since 2015, indicating the organization has been drawing down reserves. Revenue vs expenses gap: 2015 (.3M vs .2M), 2016 (.5M vs .5M), 2017 (.7M vs .6M), 2018 (.4M vs .6M), 2019 (.3M vs .1M), 2020 (.9M vs .6M), 2023 (.0M vs .6M). The persistent deficit since 2015 suggests IPI lost a major funding source and has been spending down endowment. This aligns with the KPMG-confirmed K Epstein conduit and subsequent donor flight.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:44:56",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "finding_type": "financial",
+      "summary": "IPI cumulative financial analysis from 990 filings: Over 2010-2023, IPI ran a cumulative deficit of .5M. Assets declined from .6M (2010) to .9M (2023), a 73% decline. Only TWO years showed surpluses: 2010 (+.4M) and 2021 (+.9M). Five years showed deficits exceeding M: 2011 (-.1M, worst single year), 2016 (-.0M), 2018 (-.3M), 2020 (-.7M, COVID+Epstein), 2023 (-.6M). The 2011 deficit of .1M on .6M revenue suggests a major one-time write-down or accounting adjustment. At current burn rate (.6M/yr deficit), IPI has approximately 2.5 years of reserves remaining.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:49:34",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "finding_type": "financial",
+      "summary": "IPI 2011 anomaly: Revenue was only .64M against .71M in expenses, creating an .07M deficit in a single year. This was by far the worst year. The prior year (2010) showed .63M in revenue and .6M in assets. The 2011 collapse took assets from .6M to .5M. This could represent: (1) a major investment loss, (2) a one-time accounting adjustment, (3) loss of a very large donor. The 2010 revenue of .6M vs 2011 revenue of .6M represents an 81% year-over-year decline that preceded the Epstein plea deal. This warrants examination of the actual 2011 990 PDF to understand the revenue collapse.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:57",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "finding_type": "legal",
+      "summary": "IPI FARA LEGAL ANALYSIS: IPI has zero FARA registrations despite receiving funding from Norwegian government (confirmed as 'donor country' in EFTA02675352: 'which we usually forward to donor countries like Sweden or Norway'). IPI's activities that potentially trigger FARA: (1) Received $650K KPMG-confirmed Epstein conduit funds while Norwegian national Rod-Larsen was president; (2) Hosted Ministerial Working Dinners at 777 UN Plaza with UAE, Luxembourg, and other foreign government officials; (3) Operated Mongolia Advisory Board paying $100K each to former heads of state (Rod-Larsen, Summers, Barak, Bondevik, Rudd); (4) Rod-Larsen forwarded IPI program activities 'which we usually forward to donor countries' directly to Epstein; (5) IPI bank instructions sent to Epstein for $5M Gates Foundation wire (EFTA02707935). FARA EXEMPTIONS IPI MIGHT CLAIM: (a) 22 USC 611(d) academic/scientific exemption -- IPI registered as 501(c)(3) think tank; (b) UN affiliate exemption -- IPI's charter connects to Trygve Lie Center; (c) No direct foreign government instruction. COUNTER-ARGUMENTS: (a) IPI's Congressional engagement (hosting 33+ members) goes beyond academic research; (b) Norwegian government was a confirmed donor country; (c) Rod-Larsen directed IPI activities through Epstein, a non-diplomatic channel; (d) $5.86M total Epstein-directed funding makes IPI financially dependent on non-transparent sources. COMPARABLE: Norwegian Agency for Development Cooperation registered 6 FARA entries (via Waxman Consulting #6710, Center for International Policy #6896), showing Norway DOES register its grantees. IPI's absence is anomalous.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:39",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02675352",
+          "source_quote": "IPI program activities which we usually forward to donor countries like Sweden or Norway",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707935",
+          "source_quote": "From: \nJeffrey Epstein <jeevacation@gmail.com> \nSent: \nMonday, June 10, 2013 5:46 PM \nTo: \nBoris Nikolic \nSubject: \nFwd: Fw: IPI bank instructions and 501c3 certification \nAttachments: \nIRS_NewTaxRuling2008.pdf \nThese are the wiring instructions for...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1182,
+      "finding_type": "financial",
+      "summary": "IPI Norwegian government funding pipeline confirmed via DOJ documents. EFTA02675352: IPI staff emailed Epstein saying 'I understood from terje that you needed some material on IPI activities. Terje has forwarded you the annual report 2012 and 2011 and I add as an attachment IPI program activities (which we usually forward to donor countries like Sweden or Norway).' This confirms: (1) Norway and Sweden are designated 'donor countries' to IPI; (2) Rod-Larsen directed IPI staff to provide Epstein the same program activity reports given to sovereign donors; (3) Epstein was receiving donor-level reporting from IPI. IPI's 990 filings show 2014 revenue of $11.87M. Norway's Ministry of Foreign Affairs and Norwegian Agency for Development Cooperation (NORAD) are known IPI funders. 990s show government grants as a revenue category but exact Norwegian government amounts require Schedule B review (not publicly available). IPI also received funding from Switzerland (Vienna office), Finland, Denmark, and multiple Middle Eastern governments (co-hosted events). The pattern of sovereign donor countries funding IPI while IPI had zero FARA/LDA registration is the core regulatory gap.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:44",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02675352",
+          "source_quote": "which we usually forward to donor countries like Sweden or Norway",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02678411",
+          "source_quote": "Grant Proposal Cover Page \nDate \n4 September 2013 \nProject Title \nHealth \nPolio Eradication and the Connection between Peace and \nOrganization Name \nInternational Peace Institute \n(IPI) \nProject Duration (months) \n60 months \n(2014-2018)...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 44,
+      "person_a": "Enhanced Education",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:13:52",
+      "other_person": "Enhanced Education",
+      "other_person_slug": "enhanced-education",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EFTA02713369",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "person_a": "IPI",
+      "person_b": "Norwegian Government",
+      "relationship_type": "financial",
+      "description": "IPI received Norwegian govt funding as confirmed donor country. NORAD registered 6 FARA entries but IPI never registered.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:22",
+      "other_person": "Norwegian Government",
+      "other_person_slug": "norwegian-government",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02675352",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "person_a": "IPI",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:39",
+      "other_person": "Rod-Larsen",
+      "other_person_slug": "rod-larsen",
+      "evidence": []
+    },
+    {
+      "id": 56,
+      "person_a": "IPI",
+      "person_b": "Kevin Rudd",
+      "relationship_type": "advisory",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Kevin Rudd",
+      "other_person_slug": "kevin-rudd",
+      "evidence": []
+    },
+    {
+      "id": 57,
+      "person_a": "IPI",
+      "person_b": "Leon Black",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": []
+    },
+    {
+      "id": 58,
+      "person_a": "Enhanced Education",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Enhanced Education",
+      "other_person_slug": "enhanced-education",
+      "evidence": []
+    },
+    {
+      "id": 59,
+      "person_a": "Gratitude America",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Gratitude America",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 60,
+      "person_a": "IPI",
+      "person_b": "JPMorgan Chase",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:50",
+      "other_person": "JPMorgan Chase",
+      "other_person_slug": "jpmorgan-chase",
+      "evidence": []
+    },
+    {
+      "id": 61,
+      "person_a": "Boris Nikolic",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:50",
+      "other_person": "Boris Nikolic",
+      "other_person_slug": "boris-nikolic",
+      "evidence": []
+    },
+    {
+      "id": 62,
+      "person_a": "Gates Foundation",
+      "person_b": "IPI",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:50",
+      "other_person": "Gates Foundation",
+      "other_person_slug": "gates-foundation",
+      "evidence": []
+    },
+    {
+      "id": 340,
+      "person_a": "IPI",
+      "person_b": "Leon Black",
+      "relationship_type": "financial",
+      "description": "Black Family Foundation (EIN 13-3947890) K to IPI (Dec 2014 per KPMG). IPI 990 shows .87M revenue in 2014, its peak year. Black was a key donor to the Rod-Larsen-led entity.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:50:03",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:133947890",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [],
+  "curation": {
+    "key_finding_ids": [
+      290,
+      1182,
+      1147,
+      421,
+      423,
+      387,
+      458,
+      468
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          44,
+          556,
+          51,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          340
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          290,
+          421,
+          423,
+          458,
+          468,
+          1182
+        ],
+        "connection_ids": [
+          44,
+          556,
+          51,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          387,
+          1147
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.484993",
+    "lead": "<p>The <strong>International Peace Institute</strong> (IPI), a New York-based think tank registered as a 501(c)(3) under EIN 03-0213226, served as one of the primary institutional conduits through which Jeffrey Epstein channeled influence over international diplomacy and foreign policy. Under the presidency of Norwegian diplomat <a href=\"/dossiers/terje-rod-larsen\">Terje Rod-Larsen</a>, IPI received at least $650,000 in KPMG-confirmed Epstein conduit funds and an additional $5.86 million in Epstein-directed funding, while simultaneously drawing on sovereign donors including the Norwegian and Swedish governments (Finding #1182). IPI operated a Mongolia Advisory Board that paid $100,000 each to former heads of state including Rod-Larsen, <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>, <a href=\"/dossiers/ehud-barak\">Ehud Barak</a>, and <a href=\"/dossiers/kevin-rudd\">Kevin Rudd</a>, effectively creating a parallel diplomatic apparatus funded through opaque channels (Finding #1147).</p><p>Financial analysis of IPI's 990 filings from 2010 through 2023 reveals a steep institutional decline that correlates with Epstein's exposure and arrest. Peak assets of $18.6 million in 2010 fell to $4.9 million by 2023, a 73% collapse. The organization ran cumulative deficits of $14.5 million over this period, with expenses exceeding revenue in every year except 2010 and 2021 (Findings #421, #458). An anomalous $8 million deficit in 2011 suggests a major financial disruption that predated public Epstein scrutiny and warrants further examination (Finding #468).</p><p>Despite receiving funding from foreign governments and engaging extensively with U.S. Congressional members on its advisory boards, IPI has no registration under the Foreign Agents Registration Act. Norway's own development agency (NORAD) has registered six FARA entries through other grantees, making IPI's absence from the FARA database anomalous. The combination of foreign sovereign funding, Congressional engagement, and Epstein-directed financial flows raises unresolved questions about IPI's regulatory compliance and the degree to which Epstein used the institution as a vehicle for undisclosed foreign influence operations (Findings #387, #1147).</p>",
+    "sections": [
+      {
+        "id": "network-and-funding-relationships",
+        "title": "Network and Funding Relationships",
+        "content": "<p>IPI's financial network reveals a convergence of Epstein-linked entities, sovereign donors, and major philanthropic institutions that together provided the organization with both revenue and reputational cover. The most direct financial link ran through <a href=\"/dossiers/enhanced-education\">Enhanced Education</a>, the trade name of J. Epstein Virgin Islands Foundation Inc. Enhanced Education donated $125,000 to IPI in October 2011 to fund a fellowship named after WK Rick Hooper, and in March 2014 reimbursed IPI $14,158.88 for a first-class flight for <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a>, totaling $139,158.88 in documented direct transfers. That the Epstein foundation was reimbursing IPI for a former U.S. Treasury Secretary's travel expenses illustrates the degree to which personal, institutional, and financial relationships had merged.</p><p><a href=\"/dossiers/leon-black\">Leon Black</a>'s involvement deepened IPI's entanglement with the Epstein financial orbit. The Black Family Foundation (EIN 13-3947890) contributed funds to IPI in December 2014, according to the KPMG review, during what 990 filings show was IPI's peak revenue year of $11.87 million. Black's parallel $10.5 million pledge to Enhanced Education, structured to \"avoid public disclosure of Leon name,\" suggests a pattern of coordinated giving through both direct and Epstein-mediated channels. <a href=\"/dossiers/gratitude-america-ltd\">Gratitude America</a>, another Epstein-linked entity managed by <a href=\"/dossiers/richard-kahn\">Richard Kahn</a>, granted $375,000 to IPI in 2017, further reinforcing the multi-entity conduit structure.</p><p>The Gates Foundation relationship demonstrates how Epstein positioned himself as a broker between IPI and mainstream institutional donors. IPI submitted a $20 million grant proposal to the Gates Foundation on September 4, 2013, for polio eradication work in Pakistan, Nigeria, and Somalia (EFTA02678411). The Foundation approved only $2.5 million (grant OPP1096058), signed March 2, 2014 (Finding #290). Crucially, IPI's bank wiring instructions for the $5 million Gates Foundation wire were sent to Epstein directly (EFTA02707935), indicating he served as a financial intermediary even for funds originating from legitimate philanthropic sources. <a href=\"/dossiers/boris-nikolic\">Boris Nikolic</a>, then a science advisor to Bill Gates, received IPI bank wiring instructions from Epstein in June 2013, three months before attending an IPI-Gates meeting.</p><p>The Norwegian and Swedish governments occupied a distinct role as designated \"donor countries\" to IPI. DOJ documents confirm that IPI staff routinely forwarded program activity reports to these sovereign donors and that Rod-Larsen directed IPI staff to provide Epstein the same reports (Finding #1182). This placed Epstein at the same informational level as sovereign government funders, an arrangement with no apparent institutional justification outside the personal relationship between Rod-Larsen and Epstein.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "financial-trajectory-and-decline",
+        "title": "Financial Trajectory and Decline",
+        "content": "<p>IPI's financial trajectory from 2010 to 2023 tells a story of institutional dependency and collapse. At its peak in 2010, IPI held $18.6 million in assets on revenue of $13.63 million. The very next year, 2011, produced an anomalous $8.07 million deficit on revenue of only $2.64 million, representing an 81% year-over-year revenue decline. This single-year collapse, which took assets from $18.6 million to $10.5 million, remains unexplained. Possible causes include a major investment loss, an accounting adjustment, or the sudden withdrawal of a very large donor. The 2011 990 PDF warrants detailed examination to determine the specific driver (Finding #468).</p><p>Following the 2011 anomaly, IPI partially recovered, reaching peak revenue of $11.87 million in 2014, the same year that both the Black Family Foundation and Enhanced Education made documented contributions. However, from 2015 onward, expenses consistently exceeded revenue, creating a structural deficit that steadily eroded the organization's reserves. The gap was persistent: $8.3 million in revenue against $9.2 million in expenses in 2015; $7.5 million against $8.5 million in 2016; $8.7 million against $8.6 million in 2017; $7.4 million against $8.6 million in 2018 (Finding #423). This pattern suggests that IPI lost access to a major funding source around 2015 and never replaced it.</p><p>The post-2019 period shows accelerating decline. Revenue fell to $3.9 million in 2020 against $5.6 million in expenses, driven by the combined effects of COVID-19 and the reputational fallout from Epstein's 2019 arrest and death. Assets collapsed to $4.9 million by 2023, representing a 73% decline from the 2010 peak. Over the full 2010 to 2023 period, IPI ran a cumulative deficit of $14.5 million, with only two years showing surpluses: 2010 and 2021. At its current burn rate of approximately $1.6 million per year in deficit spending, IPI has roughly 2.5 years of reserves remaining (Finding #458). The financial data strongly suggests that the Epstein-directed funding pipeline was not marginal to IPI's operations but structurally important to its survival.</p>",
+        "viz": null
+      },
+      {
+        "id": "fara-and-regulatory-exposure",
+        "title": "FARA and Regulatory Exposure",
+        "content": "<p>IPI presents a significant anomaly under the Foreign Agents Registration Act. Despite receiving funding from the Norwegian government as a confirmed \"donor country,\" hosting 33 or more U.S. Congressional members on advisory boards, and engaging in policy advocacy that intersected with foreign government interests, IPI has zero FARA registrations. A negative search of the FARA database confirms this absence (Finding #387). Norway itself has 50 FARA-registered foreign principals, and the Norwegian Agency for Development Cooperation (NORAD) has registered six FARA entries through other U.S. grantees such as Waxman Consulting and the Center for International Policy, establishing a clear precedent that Norwegian-funded policy organizations in the United States are expected to register.</p><p>IPI could theoretically claim several FARA exemptions. Under 22 USC 611(d), the academic and scientific exemption might apply given IPI's 501(c)(3) registration as a think tank. Its charter connection to the Trygve Lie Center could support a UN affiliate exemption. And the absence of direct documented instruction from foreign governments might undercut a formal agency relationship. However, each of these defenses faces substantial counter-arguments (Finding #1147). IPI's Congressional engagement through advisory boards goes well beyond academic research. The documented evidence that Rod-Larsen directed IPI staff to send program activity reports to Epstein using the same materials \"which we usually forward to donor countries like Sweden or Norway\" (EFTA02675352) raises the question of whether Epstein was functioning as an undisclosed intermediary for foreign government interests.</p><p>The FARA question is not merely academic. The combination of $650,000 in KPMG-confirmed Epstein conduit funds, $5.86 million in total Epstein-directed funding, sovereign donor relationships, and Congressional advisory board activity creates a regulatory profile that is difficult to reconcile with IPI's complete absence from the FARA registry. Whether this gap reflects a deliberate strategy or institutional oversight, it represents a potential legal vulnerability that has not been publicly addressed by IPI or investigated by the Department of Justice.</p>",
+        "viz": "timeline"
+      }
+    ],
+    "system_role": "IPI demonstrates how a legitimate international policy institution can be captured as a conduit for influence operations, blending sovereign government funding with private donor money to create a platform where the source and purpose of funds become indistinguishable from ordinary think-tank activity.",
+    "open_questions": [
+      "What caused the anomalous $8.07 million deficit in 2011, representing an 81% year-over-year revenue decline? The 2011 990 PDF should reveal whether this was an investment loss, accounting adjustment, or donor withdrawal.",
+      "What were the exact amounts of Norwegian and Swedish government funding to IPI by year, and did these sovereign contributions change after the KPMG review or Epstein's 2019 arrest?",
+      "Did Epstein receive any formal or informal advisory role at IPI, or was his influence exercised entirely through Rod-Larsen and the funding conduit structure?",
+      "Who were the 33+ Congressional members on IPI advisory boards, and did any of them have knowledge of the Epstein funding pipeline or the sovereign donor reporting arrangement?",
+      "What was the institutional relationship between IPI's Ministerial Working Dinners at 777 UN Plaza (attended by UAE, Luxembourg, and other foreign officials) and the Mongolia Advisory Board that paid $100K each to former heads of state?"
+    ],
+    "applicable_models": [
+      "narrative-shield",
+      "parallel-financial-system",
+      "manufactured-dependency",
+      "complexity-as-credential",
+      "enabler-gradient"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "IPI",
+      "connections": [
+        {
+          "target": "Enhanced Education",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02713369",
+          "description": "Enhanced Education donated $125,000 to IPI in Oct 2011 (WK Rick Hooper fellowship) and reimbursed IPI $14,158.88 for Lawrence Summers first-class flight in Mar 2014. Total: $139,158.88."
+        },
+        {
+          "target": "Norwegian Government",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02675352",
+          "description": "IPI received Norwegian govt funding as confirmed donor country. NORAD registered 6 FARA entries but IPI never registered."
+        },
+        {
+          "target": "Rod-Larsen",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Kevin Rudd",
+          "type": "advisory",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Leon Black",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Enhanced Education",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Gratitude America",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "JPMorgan Chase",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Boris Nikolic",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Gates Foundation",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Leon Black",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "990:133947890",
+          "description": "Black Family Foundation (EIN 13-3947890) K to IPI (Dec 2014 per KPMG). IPI 990 shows .87M revenue in 2014, its peak year. Black was a key donor to the Rod-Larsen-led entity."
+        }
+      ],
+      "secondHop": {
+        "Boris Nikolic": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Nikolic (Gates science advisor) received IPI bank wiring instructions from Epstein (Jun 2013), attended IPI-Gates meeting 3 months later. Named backup executor in Epstein will."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Nikolic named as alternate trustee in Epstein 2019 Trust. Had breakfast with Epstein July 11, 2015 at NY residence."
+          },
+          {
+            "target": "Bill Gates",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Financial partnership: Foundation Medicine/ResearchGate 2013-2018 [Wave 4]"
+          },
+          {
+            "target": "Melanie Walker",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": "bgC3 neurotech weapons deliverable [Wave 4]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "social",
+            "strength": 0.7,
+            "description": ""
+          }
+        ],
+        "Enhanced Education": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Founder and controller. Enhanced Education is the trade name of J. Epstein Virgin Islands Foundation, Inc. Epstein directed all disbursements personally via email."
+          },
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Leon Black pledged $10.5M to Enhanced Education in Dec 2014, structured through his automotive LLC to 'avoid public disclosure of Leon name.' $4.75M specifically directed to J Epstein Virgin Islands Foundation Inc in Oct 2015."
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Enhanced Education reimbursed IPI $14,158.88 for Summers first-class flight to Almaty, Kazakhstan (Mar 2014). Enhanced Education also funded the Mongolia Advisory Board where Summers participated."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc., 575 Lexington Ave, 4th Floor, NYC) was the primary financial manager directing Enhanced Education transactions. He instructed stock sales, wire transfers, directed payments, and handled Leon Black donation structuring. Named as 'c/o' contact on ASU pledge."
+          },
+          {
+            "target": "Southern Trust Company",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Southern Trust Company Inc was used as intermediary for Enhanced Education disbursements. USVI STEM Fair funding came through Southern Trust, not directly from Enhanced Education. Southern Trust was an Epstein-controlled entity at the same 6100 Red Hook address."
+          }
+        ],
+        "Gratitude America": [
+          {
+            "target": "SEB Bank Lithuania",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "DS10: 1.85M wire Apr 3 2018 to SEB Lithuania"
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Gratitude America granted $375,000 to IPI in 2017 per 990-PF Statement 5"
+          },
+          {
+            "target": "Kuhn Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Gratitude America granted $150,000 to Kuhn Foundation in 2017 and $500,000 in 2018 (total $650,000) per 990-PF filings"
+          },
+          {
+            "target": "Humanity Plus",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Gratitude America granted $100,000 to Humanity Plus (transhumanist organization) in 2018 per 990-PF"
+          },
+          {
+            "target": "O'Gorman Garden",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Gratitude America granted $30,000 to The O'Gorman Garden (Landon Thomas conduit) in 2017 per 990-PF"
+          }
+        ],
+        "JPMorgan Chase": [
+          {
+            "target": "Paul Weiss",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "PW defended JPM in Epstein fiduciary breach derivative action dismissed with prejudice plus Bear Stearns class action and Asia FCPA and spoofing"
+          },
+          {
+            "target": "Jay Clayton",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Clayton advised Bear Stearns on its fire sale to JPMorgan in 2008 at Sullivan+Cromwell. JPM is a named target in Bondi Epstein investigation that Clayton now leads."
+          },
+          {
+            "target": "Kirkland and Ellis",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE in 6593 SEC EDGAR filings with JPMorgan. Counsel on banking transactions."
+          },
+          {
+            "target": "Liquid Funding, Ltd",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "JPMorgan Chase Bank (successor to Chase Manhattan Bank) served as Security Trustee under Collateral Trust and Security Agreement. Also a Placement Agent (J.P. Morgan Securities Inc). Lipman served as JPMorgan MD and LF Director simultaneously."
+          }
+        ],
+        "Leon Black": [
+          {
+            "target": "Richard Kahn",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Richard Joslin",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Joslin served as CFO of Elysium Management LLC (Black's family office). Prepared charity commitment lists, financial reports, trust accounting summaries, art valuations, and tax returns \u2014 all routinely sent to Epstein. Key intermediary for Black-Epstein financial relationship."
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Tony Blair",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black Family Foundation granted $250,000 to Tony Blair Foundation in 2019 990-PF"
+          }
+        ],
+        "Rod-Larsen": [
+          {
+            "target": "Mona Juul",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Married couple. Both under Norwegian Okokrim investigation (Feb 2026) for aggravated corruption related to Epstein. Children named in Epstein will for 10M."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 0.7,
+            "description": ""
+          },
+          {
+            "target": "Anas Alrasheed",
+            "type": "intelligence",
+            "strength": 0.7,
+            "description": ""
+          },
+          {
+            "target": "Edward Rod-Larsen",
+            "type": "social",
+            "strength": 0.7,
+            "description": "Rod-Larsen forwarded son Edward's IPI employment, NYU applications, and career details to Epstein \u2014 Epstein controlled Edward's trajectory (HOUSE_OVERSIGHT_033416)"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": []
+  }
+}

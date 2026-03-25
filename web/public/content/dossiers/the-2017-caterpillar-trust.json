@@ -1,0 +1,3358 @@
+{
+  "name": "The 2017 Caterpillar Trust",
+  "slug": "the-2017-caterpillar-trust",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.231181",
+  "last_updated": "2026-02-18T16:36:33",
+  "stats": {
+    "total_findings": 33,
+    "total_connections": 40,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 27,
+      "intelligence": 3,
+      "relationship": 2,
+      "document": 1
+    },
+    "connection_types": {
+      "financial": 26,
+      "corporate": 12,
+      "legal": 2
+    },
+    "last_updated": "2026-02-18T16:36:33"
+  },
+  "findings": [
+    {
+      "id": 1781,
+      "finding_type": "financial",
+      "summary": "Part of nature-themed GRAT series: Haze (1999), Butterfly (2013), Caterpillar (2017) with escalating trustee informality",
+      "detail": "Epstein maintained at least three nature-themed grantor trusts: (1) The Haze Trust, formed 2/2/1999, EIN 03-7185414, NY law, Trustee: Darren Indyke, managed by Paul Barrett at JP Morgan; (2) The 2013 Butterfly Trust, formed 2013, brokerage at Morgan Stanley (FA: Andrew Atlas), received Christie's auction proceeds (,995 in Apr 2018), payments to individuals; (3) The 2017 Caterpillar Trust, formed 1/3/2017, USVI, Trustees: Daphne Wallace and Lesley Groff. The progression shows decreasing formality in trustee selection: from attorney Indyke to personal assistants Wallace/Groff.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1999",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:48:15",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477445",
+          "source_quote": "From: \nRichard Kahn \nSent: \nFriday, April 13, 2018 1:05 PM \nTo: \njeffrey E. \nSubject: \nchristies money - butterfly trust \nreceived this am: \n04/12/2018 MINIMMIll \nINCOMING MONEY TRANSFER \nCHRISTIE MANSON + WOODS- \n$732,995.00 \nRichard Kahn \nHBRK...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "From: \nRichard Kahn \nSent: \nMonday, March 18, 2019 4:33 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: New Account Setup, Please Complete your Online Registration \nGood news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712108",
+          "source_quote": "From: \nRichard Kahn \nSent: \nThursday, July 3, 2014 4:52 PM \nTo: \njeffrey E. \nSubject: \nHaze Trust \nAttachments: \nSHBRK Scann14070312160.pdf, Untitled attachment 00302.htm \nattached is Haze Trust document along with some =eneral information about...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1749,
+      "finding_type": "financial",
+      "summary": "The Caterpillar Trust is part of an animal-themed trust naming convention used by Epstein. Confirmed trusts: Haze Trust (formed 2/2/1999, NY law, grantor trust, EIN 03-7185414, trustee Darren Indyke, managed by Paul Barrett at JPM), Butterfly Trust (formed 2013, brokerage at Morgan Stanley funded from Caterpillar), and Caterpillar Trust (formed 2017, GRAT, holds IGO Company LLC). Also Haze Trust email forwarded to Mile Lukic at DB in German on April 8 2019 suggesting offshore banking connections.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1999-02-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:41:25",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712108",
+          "source_quote": " Haze Grantor Trust Formed 2/2/1999 EIN 03-7185414 Jurisdiction Laws of State of NY. EFTA02636559: Butterfly trust brokerage account opened at Morgan Stanley funded from db caterpillar trust.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1765,
+      "finding_type": "intelligence",
+      "summary": "Caterpillar Trust structurally mirrors the 2006 Butterfly Trust but with different trustees. Butterfly Trust (Dec 27, 2006): Grantor=Epstein, Trustees=Indyke+Kahn, Beneficiaries=Kellen+Marcinkova+Maxwell. Caterpillar Trust (Jan 3, 2017): Grantor=Epstein, Trustees=Wallace+Groff (assistants, not lawyers). The caterpillar-to-butterfly naming suggests intentional lifecycle pairing: Caterpillar as investment/accumulation vehicle feeding into Butterfly as distribution vehicle.",
+      "detail": "The Butterfly Trust (EFTA01282018) was a USVI-law irrevocable trust with broad investment and distribution powers. Original beneficiaries: Sarah Kellen, Nada Marcinkova, Ghislaine Maxwell. Later added: Jennifer Kalin and Alina Boiko (March 28, 2011), Susan Hamblin (March 24, 2011). The Caterpillar Trust replaced the principal-level trustees (Indyke/Kahn) with operational staff (Wallace/Groff). The March 18, 2019 $2.16M transfer from DB Caterpillar to MS Butterfly confirms the feeding relationship. Hypothesis: Caterpillar received investment proceeds (e.g., from Blockchain Capital/crypto investments), then fed distributions to Butterfly Trust for onward distribution to beneficiaries.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2006-12-27",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:30",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01282018",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "From: \nRichard Kahn \nSent: \nMonday, March 18, 2019 4:33 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: New Account Setup, Please Complete your Online Registration \nGood news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1752,
+      "finding_type": "financial",
+      "summary": "DB RDC screening lists the trust under two country addresses: UNITED STATES and VIRGIN ISLANDS, U.S. - both under KYC tracking ID 01898372. The screening triggered Critical Risk Priority alerts against Caterpillar Inc., which were cleared as false positives. The trust was part of the Southern Financial relationship at DB Private Bank since 2013.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:41:40",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297502",
+          "source_quote": " The 2017 Caterpillar Trust Ccuriti: UNITED STATES / VIRGIN ISLANDS, U.S. Tracking ID: KYC 01898372. Prepared by: Priyanka Rathore Date: 02/05/2018",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1760,
+      "finding_type": "financial",
+      "summary": "No connection to blockchain or cryptocurrency found. Despite appearing in same Dechert Exhibit B ledger as Blockchain Capital and Blockstream investments, the Caterpillar Trust is a conventional GRAT holding membership interest in IGO Company LLC. The animal-themed naming convention aligns with Haze Trust and Butterfly Trust, not crypto. The 2.16M transfer to Butterfly Trust was for a standard Morgan Stanley brokerage account. Lead 1220 hypothesis of crypto vehicle is not supported by evidence.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:06",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": " This is a grantor retained annuity trust that holds membership interest in IGO Company LLC. EFTA02636559: funded today with approximately 2,160,000 from db caterpillar trust",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "From: \nRichard Kahn \nSent: \nMonday, March 18, 2019 4:33 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: New Account Setup, Please Complete your Online Registration \nGood news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1775,
+      "finding_type": "intelligence",
+      "summary": "No trust agreement document for the 2017 Caterpillar Trust found in any corpus (DOJ, DugganUSA, LMSBAND, Unified). The Butterfly Trust agreement (EFTA01282018, 23 pages) is fully available, but the Caterpillar Trust agreement itself was not produced. The trust's beneficiaries remain unknown - unlike Butterfly Trust which named Kellen, Marcinkova, Maxwell. The beneficiary question is critical: does Caterpillar serve the same beneficiaries or different ones?",
+      "detail": "Searched: DOJ Vol 11 (15 results, no trust agreement), DugganUSA (221+ results, no trust agreement), LMSBAND (15 results, no trust agreement), Unified (15 results, no trust agreement), ICIJ (unavailable - neo4j not installed), OCCRP Aleph (API error), LittleSis (0 results), CourtListener (no Epstein-specific results), EpsteinExposed (0 results for Caterpillar, only Caterpillar Inc. references), GDELT (no relevant articles). Web searches found Blockspace.media, Grokipedia, and social media commentary but no trust agreement text or beneficiary identification.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:38",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01282018",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1776,
+      "finding_type": "financial",
+      "summary": "GRAT structure analysis: The Caterpillar Trust as a Grantor Retained Annuity Trust means Epstein retained the right to receive annuity payments from the trust while transferring eventual ownership to beneficiaries (likely associated with the Butterfly Trust). The 15M Blockchain Capital inflow and 2.16M Butterfly Trust outflow are consistent with GRAT mechanics where the grantor retains annuity payments and the remainder passes to beneficiaries. The trust holding IGO Company LLC membership interest, combined with the Blockchain Capital crypto fund investments, suggests the GRAT was used to transfer crypto/VC investment gains to beneficiaries at reduced tax cost.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:28",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027021",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "From: \nRichard Kahn \nSent: \nMonday, March 18, 2019 4:33 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: New Account Setup, Please Complete your Online Registration \nGood news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1766,
+      "finding_type": "financial",
+      "summary": "The 2017 Caterpillar Trust was a Grantor Retained Annuity Trust (GRAT) formed January 3, 2017, in the U.S. with address at 6100 Red Hook Quarter B3, St Thomas USVI 00802. Jeffrey Epstein was the Grantor and UBO. Daphne Wallace (DW, Epstein St Thomas office assistant) and Lesley Groff (LG, Epstein executive assistant) served as co-trustees. The trust held membership interest in IGO Company LLC.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:37",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01282968",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1778,
+      "finding_type": "financial",
+      "summary": "USVI Grantor Retained Annuity Trust (GRAT) holding IGO Company LLC membership interest",
+      "detail": "Created January 3, 2017. Grantor: Jeffrey Epstein. Trustees: Daphne Wallace and Lesley Groff. Holds membership interest in IGO Company LLC (USVI #571920). Address: 6100 Red Hook Quarter B3, St Thomas USVI 00802. Deutsche Bank account #42969987 opened 01/03/2017. Part of Southern Financial relationship at Deutsche Bank (client since 2013). KYC case 01898372 processed with rush clearance for upcoming acquisition on 2/7/2018. AML/RDC alerts cleared as false positive (confusion with Caterpillar Inc NYSE:CAT).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:47:32",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01282968",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287542",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297502",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1754,
+      "finding_type": "financial",
+      "summary": "Stewart Oldfield (CFA, CAIA, Director at DB Trust Company Americas, DB Wealth Management) was the primary DB banker managing Epstein trust relationships including Caterpillar Trust. On Jan 30 2017, Oldfield and Todd Stevens met with Epstein at 4:15pm (same day as Boris Nikolic at 3pm and Leon Black at 5pm). Oldfield later emailed Epstein and Kahn about levered muni structures and moving cash balances to higher yielding money market in DB AG. Oldfield also managed Gratitude, Haze Trust, and processed wire inquiries.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-01-30",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:41:51",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02660856",
+          "source_quote": " Thanks again for your time yesterday, Todd and I enjoyed the discussion. We owe you some follow up info on the levered muni structures. Vahe will send some written info tomorrow.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1770,
+      "finding_type": "relationship",
+      "summary": "DB personnel involved with Caterpillar Trust: Stewart Oldfield (personal banker, appeared on account statements), Natalie Barak (VP/Relationship Officer), Brigid Macias (AVP), Daphne Cales (Director/Branch Manager), Cynthia Rodriguez (AVP). Oldfield met Epstein at 9 E 71st St on Jan 30, 2017 with Todd Stevens from DB and attended with Rich Kahn. Oldfield also involved with Gratitude America and BV 70 LLC (Leon Black entity).",
+      "detail": "EFTA02662720: Jan 30, 2017 meeting schedule: 'Stewart Oldfield and Todd Stevens w/DB 4:15pm arrival' at 9 E 71st St. Same day: 11:30am Rich and Darren, 1:30pm unnamed, 3pm Boris Nikolic, 3:30pm Steve Hanson, 4:15pm Oldfield/Stevens. EFTA02661858: Same meeting, time moved to 4:30 with Leon Black at 5pm. EFTA02615635: Kahn discusses BV 70 LLC with Oldfield re Gratitude America - 'Stewart was unsure if Brad/Leon would actually provide'. EFTA01387948: Daphne Cales email about TTEES for The 2017 Caterpillar Trust, April 4, 2019.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:54",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387948",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02615635",
+          "source_quote": "From: \nRichard Kahn \nSent: \nMonday, November 19, 2018 8:34 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: Brad \nRegarding Gratitude \nWhen i spoke with Stewart on Friday he mentioned he would =eed BV 70 LLC formation docs Brad replied he =ill need to \nget...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02661858",
+          "source_quote": "From: \nLesley Groff ‹\n> \nSent: \nMonday, January 30, 2017 7:40 PM \nTo: \nJefffrey Epstein \nCc: \nmerwin dela cruz; Jojo Fontanilla; \nSubject: \nBoris confirmed 3:30/Hanson 4/4:15/moved Stewart to 4:30 \n3:30pm Appt w/Boris Nikolic \nCONFIRMED \n4/4:15pm...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02662720",
+          "source_quote": "From: \nLesley Groff \nSent: \nMonday, January 30, 2017 2:45 PM \nTo: \nJefffrey Epstein \nCc: \nJojo Fontanilla; merwin dela cruz; \nSubject: \nStewart Oldfield & Todd Stevens w/DB 4:15pm arrival \nStewart and Todd will arrive at 4:15pm today instead of...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1783,
+      "finding_type": "relationship",
+      "summary": "DB wealth management team: Stewart Oldfield (RM), Daphne Cales (Branch Director), Brigid Macias (AVP), Natalie Barak (VP/RO), Cynthia Rodriguez (AVP), Bradley Gitlin",
+      "detail": "Deutsche Bank Trust Company Americas (345 Park Ave, 24th Floor, NYC 10154) personnel servicing the Caterpillar Trust account: Stewart Oldfield was the primary relationship manager (named on bank statements June 2018 onward, met Epstein at 9 E 71st on 1/30/2017 with Todd Stevens). Daphne Cales was Director of Banking Services & Branch Manager. Brigid Macias was AVP handling trust correspondence and check processing. Natalie Barak was VP/Relationship Officer. Cynthia Rodriguez was AVP who requested the rush KYC/AML clearance and was the initial contact (named on April 2018 statement). Bradley Gitlin also involved in branch operations.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-01-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:48:44",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01281947",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287699",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01345701",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387948",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02662720",
+          "source_quote": "From: \nLesley Groff \nSent: \nMonday, January 30, 2017 2:45 PM \nTo: \nJefffrey Epstein \nCc: \nJojo Fontanilla; merwin dela cruz; \nSubject: \nStewart Oldfield & Todd Stevens w/DB 4:15pm arrival \nStewart and Todd will arrive at 4:15pm today instead of...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1768,
+      "finding_type": "financial",
+      "summary": "Blockspace.media reports that Blockchain Capital made three payments in February 2018 to The 2017 Caterpillar Trust, citing Deutsche Bank transaction records. This aligns with the Dechert Exhibit B ledger showing $15M flowing to the trust. Blockchain Capital purchased 50 percent of Epstein's Coinbase stake for $15M.",
+      "detail": "Per Blockspace.media article: 'Shortly after all this haggling, Blockchain Capital made three payments in February 2018 to a company ostensibly linked to Epstein, The 2017 Caterpillar Trust.' Per Fortune (Feb 6, 2026): A trust associated with Epstein later sold $15 million of Coinbase equity to Blockchain Capital in 2018. This suggests the $15M documented in Dechert Exhibit B as flowing to the Caterpillar Trust represents the proceeds from selling Epstein's Coinbase stake to Blockchain Capital, not STC/Southern Financial funding. The February 2018 timing matches the DB KYC review date (Feb 5, 2018).",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:40",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297502",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1743,
+      "finding_type": "financial",
+      "summary": "DB due diligence on the Caterpillar Trust triggered false-positive AML alerts against Caterpillar Inc. on Feb 5 2018. The trust was rushed through KYC case 01898372 because of an upcoming acquisition where funds will need to be available by 2/7/2018. Cynthia Rodriguez at DB confirmed Epstein was the trust creator and grantor. AML cleared it as company false positive since the trust had no connection to Caterpillar Inc.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-02-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:40:59",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": " The 2017 Caterpillar Trust is a trust that Mr. Epstein created and is the grantor of. This is part of a rush KYC. The reason for the rush is for an upcoming acquisition where funds will need to be available by 2/7/2018.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1758,
+      "finding_type": "financial",
+      "summary": "DB AML compliance reviewed Caterpillar Trust as 'a new account for the Southern Financial relationship; a relationship of the Private [Wealth Management]'. KYC prepared Feb 5, 2018 by Priyanka Rathore. OFAC/RDC generated 2 alerts (KYC 01898372). FIRCOSOFT classified entity as 'Company'. No negative media, D&B, Smartlinx, or court results found.",
+      "detail": "EFTA01299264/EFTA01364114: Rush RDC Alert emails from AML Compliance reviewing alerts generated 2/5/18 for The 2017 Caterpillar Trust, identified as 'a new account for the Southern Financial relationship'. EFTA01297502: Full KYC/AML research report showing no negative findings. EFTA01364204: Combined RDC alerts for both Jeffrey Epstein and The 2017 Caterpillar Trust.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-02-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:54",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297502",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364204",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1773,
+      "finding_type": "financial",
+      "summary": "Deutsche Bank PWM BIS-RESEARCH due diligence on Caterpillar Trust (KYC 01898372, dated 2/5/2018) found zero negative media, zero court cases, zero D&B records, zero Smartlinx records. OFAC RDC alerts triggered because of name similarity to Caterpillar Inc (NYSE: CAT, which was charged with accounting fraud) but were dismissed. AML compliance confirmed trust was a new account under the Southern Financial relationship, which had been a Private Bank client since 2013. Trust address listed as USVI.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-02-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:18",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297502",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297503",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299262",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364115",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1774,
+      "finding_type": "intelligence",
+      "summary": "Bella Klein (Indyke PLLC staff) asked on 2/6/2018: 'I should probably know...but I don't recall...what is the Caterpillar Trust for?' This indicates even members of the inner circle handling trust paperwork did not understand its purpose. The trust was administered through Darren K Indyke PLLC at 575 Lexington Avenue 4th Floor NYC. Bebe Avdiu (legal assistant at Indyke PLLC) handled trust documents. Richard Kahn (HBRK Associates Inc, same address) managed trust finances and investment transfers.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-02-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:27",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364044",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02237571",
+          "source_quote": "To: \n• \nFrom: \nSent \n. PM \nSubject Re: \nI should probably know...but I don't recall...what is the Caterpillar Trust for? \nOn Feb 6, 2018, at 11:17 AM, Bella Klein \nPlease sign all 3 pages and email back \nThank you, \nBella \nBegin forwarded message:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238097",
+          "source_quote": "To: \nFrom: \nSent \nTue 2/6/2018 6:32:29 PM \nSubject: Re: \nAsset that we should sell and need a bank account to park money \nThank you, \nBella \nTel: \nOn Feb 6, 2018, at 12:31 PM. \nwrote: \nI should...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238119",
+          "source_quote": "To: \nBella Klei \nFrom: \nSent \nTue 2/6/2018 6:34:25 PM \nSubject Re: \nhmmm. ok. thanks \nwhat do I have to do with it? \nOn Feb 6, 2018, at 1:32 PM, Bella Klein \nwrote: \nAsset that we should sell and...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238631",
+          "source_quote": "To: \nCc: \nBella Klei \nFran: \nBebe Avdiu \nSent \nWed 2/14/2018 9:13:27 PM \nSubject: \nRe: Caterpillar Trust \nThank you! \nBebe Avdiu \nLegal Assistant \nDARREN K INDYKE, PLLC \n575 Lexington Avenue, 4th Floor \nNew York, New York 10022 \nTele hone: 212...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238644",
+          "source_quote": "To: \nBebe Avdiu \nFrom: \nSent \nWed 2/14/2018 9:14:43 PM \nSubject Re: Caterpillar Trust \nwelcome \nOn Feb 14, 2018, at 4: I3 PM, Bebe Avdiu \nThank you! \nBebe Avdiu \nLegal Assistant \nDARREN IC INDYKE, PLLC \n575 Lexington Avenue, 4th Floor \nNew York, New...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "Good news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be funded today with \napprox=mately 2,160,000 from db caterpillar trust. \nRichard Kahn&nb=p; \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \nNew York, NY 10022 \nPhone\nFax \nCel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1741,
+      "finding_type": "financial",
+      "summary": "Bebe Avdiu, Legal Assistant at Darren K. Indyke PLLC at 575 Lexington Avenue 4th Floor, handled Caterpillar Trust paperwork in February 2018. On Feb 14 2018, she confirmed page 3 of a scanned document was correct and thanked the sender. This establishes Indyke PLLC as legal counsel for the trust.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2018-02-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:40:51",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238631",
+          "source_quote": " Re: Caterpillar Trust. Thank you! Bebe Avdiu Legal Assistant DARREN K INDYKE, PLLC 575 Lexington Avenue, 4th Floor New York, New York 10022",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1769,
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust DB Account 42969987 received 15M in three Blockchain Capital wire transfers on 2/21/2018: Blockchain Capital IV LP (10.5M), Blockchain Capital III Digital Liquid Venture Fund LP (2.625M), Blockchain Capital Parallel Fund IV LP (1.875M). As of 1/31/2019 trust held 13.65M balance. On 3/18/2019, 2.16M was transferred from DB Caterpillar Trust to fund the Butterfly Trust brokerage account at Morgan Stanley.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-02-21",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:49",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027019",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027020",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027021",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384017",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "Good news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be funded today with \napprox=mately 2,160,000 from db caterpillar trust. \nRichard Kahn&nb=p; \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \nNew York, NY 10022 \nPhone\nFax \nCel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1777,
+      "finding_type": "document",
+      "summary": "Key Deutsche Bank personnel handling Caterpillar Trust account: Cynthia Rodriguez (Assistant VP, initial account opening and KYC), Stewart Oldfield (account contact from June 2018), Natalie Barak (VP, Relationship Officer, WM), Brigid Macias (Assistant VP, trust wind-down), Daphne Cales (Director, Banking Services and Branch Manager), Bradley Gitlin, Ruchi Lohani (DBOI Global Services). DB bankers were the ones who confirmed trust was wound down and proposed issuing check to trustees or accountant.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:38",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287699",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01363897",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383964",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387948",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387949",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1751,
+      "finding_type": "financial",
+      "summary": "Epstein responded to Kahn's email about the Butterfly Trust funding from Caterpillar Trust, asking about Paul Barrett's account structure: ok, try to enjoy your vacation. how did paul barrets account shield us? im going to meet with QNB people this week. Kahn replied: Paul's account was in name of alphagroup. This links the Caterpillar Trust to an entity called alphagroup and to QNB (Qatar National Bank), and reveals concern about account shielding from scrutiny.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:41:33",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636488",
+          "source_quote": " ok, try to enjoy your vacation. how did paul barrets account shield us? im going to meet with QNB people this week. Kahn: Paul's account was in name of alphagroup.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1779,
+      "finding_type": "financial",
+      "summary": "DB account balance .65M (Jan 2019), dormant checking K (Apr-Nov 2018), wound down by April 2019",
+      "detail": "Deutsche Bank account #42969987 held ,000 in business checking (Apr-Nov 2018 statements show zero activity). However, the trust held ,653,978.34 as shown in the Jan 31, 2019 RM account listing (under RM code 81851, same as Epstein's Southern Trust Company and Wanek family entities). On March 18, 2019, ,160,000 was transferred from DB Caterpillar Trust to fund the 2013 Butterfly Trust at Morgan Stanley. The trust account was closed by customer request around March 2019. By April 4, 2019, DB could not reopen the account and discussed issuing a check for rejected wire funds to be mailed to St. Thomas address.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:47:47",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287542",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287699",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01288050",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383964",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384017",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387949",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1782,
+      "finding_type": "financial",
+      "summary": "March 2019 restructuring: Caterpillar Trust wound down, .16M moved to Butterfly Trust at Morgan Stanley, accounts closed at Deutsche Bank",
+      "detail": "On March 18, 2019, Richard Kahn informed Epstein that the Butterfly Trust brokerage account had been opened at Morgan Stanley (FA: Andrew S. Atlas, 1290 Ave of Americas 12th Floor) and funded with approximately ,160,000 from 'db caterpillar trust.' The same day, Bella Klein processed documents to close the Caterpillar Trust and account 4659 at Deutsche Bank. Epstein asked 'how did paul barrets account shield us?' and mentioned meeting 'QNB people' (Qatar National Bank). By March 29, 2019, Deutsche Bank staff (Ruchi Lohani, Brigid Macias) discussed 'returned funds to Caterpillar' because the account was 'closed by customer request.' By April 4, 2019, the trust was described as 'wound down' and DB could not reopen the account.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:48:30",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383964",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387949",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02279293",
+          "source_quote": "To: \n' \nlein575@gmail.com] \nFrom: \nSent: \nMon 3/18/2019 5:59:48 PM \nSubject: Re: DB_The 2017 Caterpillar Trust \nsure-one minute... \nand 4659 close 2 accounts_031819.pdf \n> On Mar 18, 2019, at 1:56 PM, Bella Klein <bklein5758gmail.com> wrote: \n> \n•...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636488",
+          "source_quote": "Paul's account was in name of alpha=group. \nRichard Kahn \nHBRK Associates Inc. \n575 Lexing=on Avenue, 4th Floor \nNew York, NY 1=022 \nPhone \nFax \nCell",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "Good news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be funded today with \napprox=mately 2,160,000 from db caterpillar trust. \nRichard Kahn&nb=p; \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \nNew York, NY 10022 \nPhone\nFax \nCel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1727,
+      "finding_type": "financial",
+      "summary": "On March 18 2019, approx 2.16M transferred from DB Caterpillar Trust to fund the newly opened 2013 Butterfly Trust brokerage account at Morgan Stanley. Richard Kahn emailed Epstein: Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust. Managed by Andrew S. Atlas, Senior VP Equity Sales, Morgan Stanley Wealth Management, 1290 Avenue of the Americas. Wire via Citibank 111 Wall Street.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-03-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:40:02",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": " Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1756,
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust served as predecessor/feeder for the Butterfly Trust at Morgan Stanley. On March 18, 2019, Kahn emailed Epstein: 'Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.' Morgan Stanley account was in name of 'The 2013 Butterfly Trust'.",
+      "detail": "Richard Kahn to Jeffrey Epstein, March 18, 2019 4:33 PM: 'Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.' The Butterfly Trust Morgan Stanley account opened by Andrew S. Atlas (Senior VP, Equity Sales/Middle Markets, 1290 Avenue of the Americas). Wire instructions: Citibank 111 Wall St NY, for benefit of Morgan Stanley Smith Barney LLC, for further credit to The 2013 Butterfly Trust. In same thread Epstein asks about Paul Barrett/Alpha Group Capital and QNB meeting.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-03-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:34",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636488",
+          "source_quote": "Paul's account was in name of alpha=group. \nRichard Kahn \nHBRK Associates Inc. \n575 Lexing=on Avenue, 4th Floor \nNew York, NY 1=022 \nPhone \nFax \nCell",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": "Good news. Butterfly trust brokerage ac=ount has been opened at Morgan Stanley and will be funded today with \napprox=mately 2,160,000 from db caterpillar trust. \nRichard Kahn&nb=p; \nHBRK Associates Inc. \n575 Lexington Avenue, 4th Floor \nNew York, NY 10022 \nPhone\nFax \nCel \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1772,
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust DB account was closed by customer request in March 2019 and trust wound down by April 2019. On 3/18/2019, Bella Klein coordinated closing 2 DB accounts (Caterpillar Trust and 4659). On 3/29/2019, returned funds were rejected because account was already closed. On 4/4-5/2019, Deutsche Bank attempted to issue check to trustees but could not reopen account. Brigid Macias requested both trustees (Groff and Wallace) sign authorization letter. Trust administration concluded before Epstein July 2019 arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-03-18",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:09",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287542",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01383964",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387949",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02279293",
+          "source_quote": "To: \n' \nlein575@gmail.com] \nFrom: \nSent: \nMon 3/18/2019 5:59:48 PM \nSubject: Re: DB_The 2017 Caterpillar Trust \nsure-one minute... \nand 4659 close 2 accounts_031819.pdf \n> On Mar 18, 2019, at 1:56 PM, Bella Klein <bklein5758gmail.com> wrote: \n> \n•...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02281947",
+          "source_quote": "To: \nCc: \nDa hne Wallace \nFrom: \nSent: \nSubject: Re: Follow Up - Caterpillar Trust \nwill do \nBella Klein \nFri 4/5/2019 5:55:53 PM \nOn Apr 5, 2019, at 1:52 PM, Bella Klein \nwrote: \nDaphne, \nPlease sign the attached letter and forward to \nreceived...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282564",
+          "source_quote": "To: \nLesley Gro \nFrom: \nBella Klein \nSent \nFri 4/5/2019 6:26:20 PM \nSubject Re: Follow Up - Caterpillar Trust \nYou and I wish.. \nThank you, \nBella \nOn Apr 5, 2019, at 2:25 PM, Lesley Groff \n> wrote: \ndo I get to keep the check? ;) \nOn Apr 5, 2019,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": "To: \nBella Klein \nFrom: \nLesley Grol \nSent \nFri 4/5/2019 6:35:43 PM \nSubject: Re: Follow Up - Caterpillar Trust \nhahahha! can we split it? \nI spoke with Stewart Oldfield... \nOn Apr 5, 2019, at 2:26 PM, Bella Klein \nwrote: \nYou and I wish.. \nThank...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1747,
+      "finding_type": "financial",
+      "summary": "Richard Kahn demanded secrecy around trust operations. On March 23 2019, Kahn asked Stewart Oldfield to confirm he did not disclose Epstein's name when speaking with a banker. Oldfield replied: There was no discussion of any names. Not even the name of the trust. This demonstrates deliberate concealment of Epstein's connection to the trust from banking counterparties.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-03-23",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:41:13",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02637022",
+          "source_quote": " please confirm you did not disclose mr epstein's name when speaking with banker. Oldfield: There was no discussion of any names. Not even the name of the trust.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1745,
+      "finding_type": "financial",
+      "summary": "DB internal communications about the Caterpillar Trust on April 4 2019 involved: Daphne Cales (Director, Banking Services and Branch Manager, DB Trust Company Americas), Natalie Barak (VP, Relationship Officer, DB Wealth Management), Brigid Macias (AVP), and Stewart Oldfield. Email references TTEES for The 2017 Caterpillar Trust indicating trustee-related matters.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-04-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:41:07",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387948",
+          "source_quote": " TTEES for The 2017 Caterpillar Trust. Daphne Cales Director Banking Services and Branch Manager Deutsche Bank Trust Company Americas WM Americas 345 Park Avenue",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1737,
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust had two trustees who must both sign authorization letters. On April 5 2019, Brigid Macias at Deutsche Bank Trust Company Americas sent letter to process check payable to Lesley Groff. Daphne Wallace and Lesley Groff both signed as trustees. Bella Klein coordinated. Groff joked about keeping the check. Stewart Oldfield was also consulted.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-04-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:40:36",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282543",
+          "source_quote": " Please have both Trustees sign as authorization and return via email",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1763,
+      "finding_type": "financial",
+      "summary": "April 5, 2019 'Follow Up - Caterpillar Trust' email chain: DB Trust Company Americas (Brigid Macias, AVP) instructed trustees Daphne Wallace and Lesley Groff to sign letter authorizing a check. Groff jokes 'do I get to keep the check?' Both trustees required to sign. Groff then spoke with Stewart Oldfield (DB). Confirms Wallace and Groff acted as active co-trustees.",
+      "detail": "EFTA02281947/EFTA02282543/EFTA02282564/EFTA02282632: Email chain dated April 5, 2019 (4 versions). Brigid Macias (AVP, DB Trust Company Americas, 345 Park Ave 24th Floor) sends letter for trustees to sign to authorize check processing. Bella Klein coordinates: 'Daphne, Please sign the attached letter and forward to Lesley. Lesley please print letter after received from Daphne sign it and return to my email.' Lesley Groff jokes 'do I get to keep the check? ;)' Bella replies 'You and I wish..' Groff: 'hahahha\\! can we split it? I spoke with Stewart Oldfield...' Attachment: CT LOA.docx (Letter of Authorization).",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2019-04-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:18",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02281947",
+          "source_quote": "To: \nCc: \nDa hne Wallace \nFrom: \nSent: \nSubject: Re: Follow Up - Caterpillar Trust \nwill do \nBella Klein \nFri 4/5/2019 5:55:53 PM \nOn Apr 5, 2019, at 1:52 PM, Bella Klein \nwrote: \nDaphne, \nPlease sign the attached letter and forward to \nreceived...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282543",
+          "source_quote": "To: \nBella Klein \nFrom: \nLesley Gro \nSent \nFri 4/5/2019 6:25:22 PM \nSubject: Re: Follow Up - Caterpillar Trust \ndo I get to keep the check? ;) \nOn Apr 5, 2019, at 2:24 PM, Bella Klein \nwrote: \nThank you! \nThank you, \nBella \nOn A r 5 2019 at 3:12 PM,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282564",
+          "source_quote": "Subject Re: Follow Up - Caterpillar Trust \nYou and I wish.. \nThank you, \nBella",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": "To: \nBella Klein \nFrom: \nLesley Grol \nSent \nFri 4/5/2019 6:35:43 PM \nSubject: Re: Follow Up - Caterpillar Trust \nhahahha! can we split it? \nI spoke with Stewart Oldfield... \nOn Apr 5, 2019, at 2:26 PM, Bella Klein \nwrote: \nYou and I wish.. \nThank...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1771,
+      "finding_type": "financial",
+      "summary": "Akin Gump letter (11/19/2019) to SDNY responding to grand jury subpoena confirms 2013 Butterfly Trust and 2017 Caterpillar Trust were linked. Deutsche Bank received Butterfly Trust documents during Caterpillar Trust due diligence. The letter identifies beneficiaries of the 2013 Butterfly Trust whose payment records were compiled because of the Caterpillar Trust relationship. This links both trusts as parts of the same estate planning architecture.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-11-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:43:57",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00015937",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00015938",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00015939",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1780,
+      "finding_type": "financial",
+      "summary": "DB RM code 81851 links Caterpillar Trust to Wanek family (Ashley Furniture) entities as co-managed clients",
+      "detail": "Deutsche Bank Relationship Manager code 81851 account listing (EFTA01458780, EFTA01384017) groups Caterpillar Trust alongside: Todd & Karen Wanek JTWROS, Wanek Trust of 2000, KWF 2007 LLC, SSW 2007 LLC, CRW 2007 LLC, GEW 2007 LLC, CRW 2009 LLC, GEW 2009 LLC, Shari Wagner 2014/2015 GRATs, Kati Forsythe 2014 GRAT, Ashley Holdings Inc, plus all Epstein entities (STC, Southern Financial, HBRK Associates, Neptune LLC, Hyperion Air, JEGE, Darren K. Indyke PLLC, NES LLC, Gratitude America). The Wanek entities and Epstein entities share the same Deutsche Bank wealth management relationship.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:48:00",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384017",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01458780",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3476,
+      "finding_type": "financial",
+      "summary": "TEMPORAL PATTERN: 2017 Caterpillar Trust creation timed to Trump inauguration (Jan 3-20, 2017). Trust established Jan 3, 2017 as GRAT in USVI, with 16-finding burst in Jan 18-Feb 1 window coinciding with inauguration. Trust served as vehicle for IGO Company LLC membership interest and subsequent fund transfers to Morgan Stanley Butterfly Trust. Pattern suggests trust creation was part of broader financial restructuring around political transition.",
+      "detail": "Jan 3 2017: Trust created. Jan 10: Pritzker-Churkin lunch arranged by Epstein with Barak. Jan 16: PW tax partner contacts Epstein about limitation periods. Jan 18: Epstein obtains second valid passport. Jan 19: Jay Clayton SEC nomination forwarded to Epstein. Jan 20: Trump inaugurated. Feb 20: Churkin dies suddenly. Mar 18, 2019: Trust DB accounts closed, funds moved to Butterfly Trust at Morgan Stanley. The trust lifecycle spans from pre-inauguration to pre-arrest, suggesting it was designed for a specific political window.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-18 16:36:33",
+      "target_name": "The 2017 Caterpillar Trust",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "analysis-run-7",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 883,
+      "person_a": "The 2013 Butterfly Trust",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "2.16M transferred from DB Caterpillar Trust to fund Butterfly Trust brokerage at Morgan Stanley on March 18 2019",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:08",
+      "other_person": "The 2013 Butterfly Trust",
+      "other_person_slug": "the-2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 885,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Caterpillar Trust holds membership interest in IGO Company LLC per DB AML compliance review",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:12",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 887,
+      "person_a": "Southern Financial LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:16",
+      "other_person": "Southern Financial LLC",
+      "other_person_slug": "southern-financial-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 889,
+      "person_a": "Darren Indyke",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "legal",
+      "description": "Indyke PLLC served as legal counsel for Caterpillar Trust. Legal assistant Bebe Avdiu handled trust paperwork in Feb 2018",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:21",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238631",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 890,
+      "person_a": "Richard Kahn",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:26",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02637022",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 891,
+      "person_a": "Stewart Oldfield",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Oldfield was primary DB banker for Caterpillar Trust, handled trustee matters, consulted on trust follow-ups, confirmed he did not disclose Epstein's name to counterparties",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:30",
+      "other_person": "Stewart Oldfield",
+      "other_person_slug": "stewart-oldfield",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387948",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02637022",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 892,
+      "person_a": "Lesley Groff",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Groff was one of two trustees of the Caterpillar Trust who signed authorization letters at Deutsche Bank",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:35",
+      "other_person": "Lesley Groff",
+      "other_person_slug": "lesley-groff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282543",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "person_a": "Daphne Wallace",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Wallace was one of two trustees of the Caterpillar Trust who signed authorization letters at Deutsche Bank. She was Epstein USVI office manager at STC.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:39",
+      "other_person": "Daphne Wallace",
+      "other_person_slug": "daphne-wallace",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "person_a": "The 2013 Butterfly Trust",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust funded Butterfly Trust with $2.16M on March 18, 2019 when DB accounts closed and MS account opened. Caterpillar=accumulation vehicle, Butterfly=distribution vehicle. Same grantor (Epstein), different trustees.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:05",
+      "other_person": "The 2013 Butterfly Trust",
+      "other_person_slug": "the-2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636488",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 897,
+      "person_a": "Daphne Wallace",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Daphne Wallace (DW) served as co-trustee of the 2017 Caterpillar Trust alongside Lesley Groff. Wallace was Epstein's assistant in his St. Thomas USVI office.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "disputed",
+      "created_at": "2026-02-14 05:44:11",
+      "other_person": "Daphne Wallace",
+      "other_person_slug": "daphne-wallace",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02625345",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 898,
+      "person_a": "Lesley Groff",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Lesley Groff (LG) served as co-trustee of the 2017 Caterpillar Trust alongside Daphne Wallace. Groff was Epstein's executive assistant/scheduler.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "disputed",
+      "created_at": "2026-02-14 05:44:14",
+      "other_person": "Lesley Groff",
+      "other_person_slug": "lesley-groff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 899,
+      "person_a": "Blockchain Capital",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Blockchain Capital made three payments in February 2018 to The 2017 Caterpillar Trust, representing $15M from sale of 50% of Epstein's Coinbase stake.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:14",
+      "other_person": "Blockchain Capital",
+      "other_person_slug": "blockchain-capital",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01297502",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "person_a": "Stewart Oldfield",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Stewart Oldfield was Deutsche Bank personal banker for The 2017 Caterpillar Trust account. Met Epstein Jan 30, 2017 (near trust formation date). Also involved with Gratitude America/BV 70 LLC.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:17",
+      "other_person": "Stewart Oldfield",
+      "other_person_slug": "stewart-oldfield",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287699",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387948",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02662720",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 901,
+      "person_a": "Richard Kahn",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Richard Kahn (HBRK Associates) managed Caterpillar Trust administration and executed the $2.16M transfer from DB Caterpillar to MS Butterfly Trust on March 18, 2019. Coordinated with DB staff and Morgan Stanley's Andrew Atlas.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:22",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636488",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 902,
+      "person_a": "Southern Trust Company",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was opened under the Southern Financial/STC relationship at Deutsche Bank. AML review identifies it as 'a new account for the Southern Financial relationship'.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:24",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 903,
+      "person_a": "Blockchain Capital",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Blockchain Capital funds (IV LP, III Digital Liquid, Parallel IV LP) wired 15M to Caterpillar Trust DB account on 2/21/2018 per Akin Gump Exhibit B",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:38",
+      "other_person": "Blockchain Capital",
+      "other_person_slug": "blockchain-capital",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027020",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00027021",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 904,
+      "person_a": "2013 Butterfly Trust",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "2.16M transferred from DB Caterpillar Trust to Butterfly Trust Morgan Stanley brokerage on 3/18/2019. Both trusts linked in Akin Gump SDNY submission - DB received Butterfly Trust docs during Caterpillar Trust KYC.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:43",
+      "other_person": "2013 Butterfly Trust",
+      "other_person_slug": "2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00015937",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 905,
+      "person_a": "Daphne Wallace",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Daphne Wallace (DW) served as co-trustee of The 2017 Caterpillar Trust from formation on 1/3/2017. She was Epstein's St Thomas office assistant. She signed authorization letters for trust transactions in April 2019.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:49",
+      "other_person": "Daphne Wallace",
+      "other_person_slug": "daphne-wallace",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 906,
+      "person_a": "Lesley Groff",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Lesley Groff (LG) served as co-trustee of The 2017 Caterpillar Trust from formation on 1/3/2017. She was Epstein's longtime executive assistant. She joked about keeping the check during wind-down in April 2019.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:44:55",
+      "other_person": "Lesley Groff",
+      "other_person_slug": "lesley-groff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364043",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282564",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02282632",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust held membership interest in IGO Company LLC per Deutsche Bank AML compliance documentation. IGO Company LLC is a USVI entity listed alongside Little St James LLC, Jeepers Inc, and other core Epstein entities.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:01",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629982",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 908,
+      "person_a": "Richard Kahn",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Richard Kahn (HBRK Associates Inc) managed Caterpillar Trust finances, directed 2.16M transfer to Butterfly Trust at Morgan Stanley, coordinated with Andrew Atlas at Morgan Stanley for new account setup. Same 575 Lexington Ave address as Indyke PLLC.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:07",
+      "other_person": "Richard Kahn",
+      "other_person_slug": "richard-kahn",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364044",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "person_a": "Darren Indyke",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "legal",
+      "description": "Caterpillar Trust administered through Darren K Indyke PLLC. Legal assistant Bebe Avdiu at Indyke PLLC handled trust document execution. Staff member Bella Klein coordinated signing and account closures. Account opening docs submitted via Indyke office.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:13",
+      "other_person": "Darren Indyke",
+      "other_person_slug": "darren-indyke",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238631",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238644",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02279293",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 910,
+      "person_a": "Southern Trust Company",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was part of the Southern Financial/Southern Trust Company relationship at Deutsche Bank Private Bank (client since 2013). AML compliance explicitly identified it as a new account under this relationship. Deutsche Bank Account 42969987.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:45:18",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299262",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364114",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 911,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust GRAT held membership interest in IGO Company LLC, a USVI entity (571920, formed 12/28/2006, dissolved)",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:08",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 912,
+      "person_a": "The 2013 Butterfly Trust",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "On March 18, 2019, ,160,000 transferred from DB Caterpillar Trust to fund newly opened Butterfly Trust brokerage at Morgan Stanley",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:15",
+      "other_person": "The 2013 Butterfly Trust",
+      "other_person_slug": "the-2013-butterfly-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636488",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02636559",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 913,
+      "person_a": "Southern Trust Company",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Caterpillar Trust was part of Southern Financial relationship at Deutsche Bank. Received M from STC/Southern Financial LLC per Dechert Exhibit B. Both under DB RM code 81851.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:22",
+      "other_person": "Southern Trust Company Inc",
+      "other_person_slug": "southern-trust-company-inc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01458780",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 916,
+      "person_a": "The 2017 Caterpillar Trust",
+      "person_b": "The Haze Trust",
+      "relationship_type": "financial",
+      "description": "Part of Epstein's nature-themed GRAT series. Haze (1999, Indyke trustee, NY law), Butterfly (2013), Caterpillar (2017, Wallace/Groff trustees, USVI). All administered by Richard Kahn/HBRK Associates.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:43",
+      "other_person": "The Haze Trust",
+      "other_person_slug": "the-haze-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712108",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 918,
+      "person_a": "Stewart Oldfield",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Oldfield was Deutsche Bank relationship manager for the Caterpillar Trust account. Named on bank statements from June 2018 onward. Met Epstein at 9 E 71st St on 1/30/2017 with Todd Stevens from DB.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:58",
+      "other_person": "Stewart Oldfield",
+      "other_person_slug": "stewart-oldfield",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01287699",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02661858",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02662720",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 928,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust (GRAT, EIN 28-6639711) was created January 3, 2017 to hold 100% membership interest in IGO Company LLC. Trust terminates 2 years after funding, then IGO interest transfers to The 2013 Butterfly Trust.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:06:32",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01299264",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 935,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "The 2017 Caterpillar Trust (EIN 28-6639711, GRAT) held 100% membership interest in IGO Company LLC. Upon trust termination (2 years from funding), membership interest was to transfer to The 2013 Butterfly Trust. DB account managed by Stewart Oldfield.",
+      "strength": "strong",
+      "date_range": "2017-2019",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:07:36",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387275",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Caterpillar Trust (GRAT, EIN 28-6639711) holds 100% membership interest in IGO Company LLC. Trustees: Lesley Groff and Daphne Wallace. Upon termination, interest transfers to 2013 Butterfly Trust.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:08:08",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 950,
+      "person_a": "IGO Company LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "The 2017 Caterpillar Trust (EIN 28-6639711) held 100% membership interest in IGO Company LLC. Upon trust termination, interest transfers to The 2013 Butterfly Trust. Three-tier ownership: Epstein -> Caterpillar GRAT -> IGO LLC -> Coinbase equity.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 06:11:15",
+      "other_person": "IGO Company LLC",
+      "other_person_slug": "igo-company-llc",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01364292",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01387281",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1741,
+      "person_a": "Gratitude America Ltd",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Gratitude America Ltd",
+      "other_person_slug": "gratitude-america-ltd",
+      "evidence": []
+    },
+    {
+      "id": 1752,
+      "person_a": "International Peace Institute",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 1848,
+      "person_a": "Barnaby Marsh",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Finding #380: Epstein advised Marsh (June 17, 2009) to set up an offshore entity to receive fees from 'the fund': 'I'm thinking whether it makes sense for you to se",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Barnaby Marsh",
+      "other_person_slug": "barnaby-marsh",
+      "evidence": []
+    },
+    {
+      "id": 1872,
+      "person_a": "Prytanee LLC",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Prytanee LLC",
+      "other_person_slug": "prytanee-llc",
+      "evidence": []
+    },
+    {
+      "id": 1893,
+      "person_a": "Financial Ballistics Trust",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "financial",
+      "description": "Finding #554: Financial Ballistics Trust listed in Richard Kahn Open Items memo to Epstein (March 2012) alongside Zorro Trust, Haze Trust, Butterfly Trust, and KCAC",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Financial Ballistics Trust",
+      "other_person_slug": "financial-ballistics-trust",
+      "evidence": []
+    },
+    {
+      "id": 1920,
+      "person_a": "FT Real Estate Inc",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "FT Real Estate Inc",
+      "other_person_slug": "ft-real-estate-inc",
+      "evidence": []
+    },
+    {
+      "id": 894,
+      "person_a": "Haze Trust",
+      "person_b": "The 2017 Caterpillar Trust",
+      "relationship_type": "corporate",
+      "description": "Both are Epstein grantor trusts with animal-themed names. Haze Trust formed 1999 in NY, Caterpillar Trust formed 2017 in USVI. Both managed by Kahn and banked at DB, administered by Indyke.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:42:44",
+      "other_person": "Haze Trust",
+      "other_person_slug": "haze-trust",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712108",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 914,
+      "person_a": "The 2017 Caterpillar Trust",
+      "person_b": "Todd Wanek",
+      "relationship_type": "financial",
+      "description": "Wanek family entities (Ashley Furniture CEO) share Deutsche Bank RM code 81851 with Caterpillar Trust and all Epstein entities. Todd & Karen Wanek JTWROS, Wanek Trust of 2000, KWF/SSW/CRW/GEW 2007 LLCs all on same RM listing.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:49:30",
+      "other_person": "Todd Wanek",
+      "other_person_slug": "todd-wanek",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01384017",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01458780",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1999",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Part of nature-themed GRAT series: Haze (1999), Butterfly (2013), Caterpillar (2017) with escalating trustee informality",
+      "confidence": "medium",
+      "id": 1781
+    },
+    {
+      "date": "1999-02-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The Caterpillar Trust is part of an animal-themed trust naming convention used by Epstein. Confirmed trusts: Haze Trust (formed 2/2/1999, NY law, grantor trust, EIN 03-7185414, trustee Darren Indyke, managed by Paul Barrett at JPM), Butterfly Trust (formed 2013, brokerage at Morgan Stanley funded from Caterpillar), and Caterpillar Trust (formed 2017, GRAT, holds IGO Company LLC). Also Haze Trust email forwarded to Mile Lukic at DB in German on April 8 2019 suggesting offshore banking connections.",
+      "confidence": "medium",
+      "id": 1749
+    },
+    {
+      "date": "2006-12-27",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Caterpillar Trust structurally mirrors the 2006 Butterfly Trust but with different trustees. Butterfly Trust (Dec 27, 2006): Grantor=Epstein, Trustees=Indyke+Kahn, Beneficiaries=Kellen+Marcinkova+Maxwell. Caterpillar Trust (Jan 3, 2017): Grantor=Epstein, Trustees=Wallace+Groff (assistants, not lawyers). The caterpillar-to-butterfly naming suggests intentional lifecycle pairing: Caterpillar as investment/accumulation vehicle feeding into Butterfly as distribution vehicle.",
+      "confidence": "medium",
+      "id": 1765
+    },
+    {
+      "date": "2013",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB RDC screening lists the trust under two country addresses: UNITED STATES and VIRGIN ISLANDS, U.S. - both under KYC tracking ID 01898372. The screening triggered Critical Risk Priority alerts against Caterpillar Inc., which were cleared as false positives. The trust was part of the Southern Financial relationship at DB Private Bank since 2013.",
+      "confidence": "confirmed",
+      "id": 1752
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "No connection to blockchain or cryptocurrency found. Despite appearing in same Dechert Exhibit B ledger as Blockchain Capital and Blockstream investments, the Caterpillar Trust is a conventional GRAT holding membership interest in IGO Company LLC. The animal-themed naming convention aligns with Haze Trust and Butterfly Trust, not crypto. The 2.16M transfer to Butterfly Trust was for a standard Morgan Stanley brokerage account. Lead 1220 hypothesis of crypto vehicle is not supported by evidence.",
+      "confidence": "medium",
+      "id": 1760
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "No trust agreement document for the 2017 Caterpillar Trust found in any corpus (DOJ, DugganUSA, LMSBAND, Unified). The Butterfly Trust agreement (EFTA01282018, 23 pages) is fully available, but the Caterpillar Trust agreement itself was not produced. The trust's beneficiaries remain unknown - unlike Butterfly Trust which named Kellen, Marcinkova, Maxwell. The beneficiary question is critical: does Caterpillar serve the same beneficiaries or different ones?",
+      "confidence": "medium",
+      "id": 1775
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "GRAT structure analysis: The Caterpillar Trust as a Grantor Retained Annuity Trust means Epstein retained the right to receive annuity payments from the trust while transferring eventual ownership to beneficiaries (likely associated with the Butterfly Trust). The 15M Blockchain Capital inflow and 2.16M Butterfly Trust outflow are consistent with GRAT mechanics where the grantor retains annuity payments and the remainder passes to beneficiaries. The trust holding IGO Company LLC membership interest, combined with the Blockchain Capital crypto fund investments, suggests the GRAT was used to transfer crypto/VC investment gains to beneficiaries at reduced tax cost.",
+      "confidence": "medium",
+      "id": 1776
+    },
+    {
+      "date": "2017-01-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "The 2017 Caterpillar Trust was a Grantor Retained Annuity Trust (GRAT) formed January 3, 2017, in the U.S. with address at 6100 Red Hook Quarter B3, St Thomas USVI 00802. Jeffrey Epstein was the Grantor and UBO. Daphne Wallace (DW, Epstein St Thomas office assistant) and Lesley Groff (LG, Epstein executive assistant) served as co-trustees. The trust held membership interest in IGO Company LLC.",
+      "confidence": "high",
+      "id": 1766
+    },
+    {
+      "date": "2017-01-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "USVI Grantor Retained Annuity Trust (GRAT) holding IGO Company LLC membership interest",
+      "confidence": "high",
+      "id": 1778
+    },
+    {
+      "date": "2017-01-30",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Stewart Oldfield (CFA, CAIA, Director at DB Trust Company Americas, DB Wealth Management) was the primary DB banker managing Epstein trust relationships including Caterpillar Trust. On Jan 30 2017, Oldfield and Todd Stevens met with Epstein at 4:15pm (same day as Boris Nikolic at 3pm and Leon Black at 5pm). Oldfield later emailed Epstein and Kahn about levered muni structures and moving cash balances to higher yielding money market in DB AG. Oldfield also managed Gratitude, Haze Trust, and processed wire inquiries.",
+      "confidence": "confirmed",
+      "id": 1754
+    },
+    {
+      "date": "2017-01-30",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "DB personnel involved with Caterpillar Trust: Stewart Oldfield (personal banker, appeared on account statements), Natalie Barak (VP/Relationship Officer), Brigid Macias (AVP), Daphne Cales (Director/Branch Manager), Cynthia Rodriguez (AVP). Oldfield met Epstein at 9 E 71st St on Jan 30, 2017 with Todd Stevens from DB and attended with Rich Kahn. Oldfield also involved with Gratitude America and BV 70 LLC (Leon Black entity).",
+      "confidence": "high",
+      "id": 1770
+    },
+    {
+      "date": "2017-01-30",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "DB wealth management team: Stewart Oldfield (RM), Daphne Cales (Branch Director), Brigid Macias (AVP), Natalie Barak (VP/RO), Cynthia Rodriguez (AVP), Bradley Gitlin",
+      "confidence": "high",
+      "id": 1783
+    },
+    {
+      "date": "2017-2019",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "The 2017 Caterpillar Trust (EIN 28-6639711, GRAT) held 100% membership interest in IGO Company LLC. Upon trust termination (2 years from funding), membership interest was to transfer to The 2013 Butterfly Trust. DB account managed by Stewart Oldfield.",
+      "other_person": "IGO Company LLC",
+      "id": 935
+    },
+    {
+      "date": "2018-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Blockspace.media reports that Blockchain Capital made three payments in February 2018 to The 2017 Caterpillar Trust, citing Deutsche Bank transaction records. This aligns with the Dechert Exhibit B ledger showing $15M flowing to the trust. Blockchain Capital purchased 50 percent of Epstein's Coinbase stake for $15M.",
+      "confidence": "medium",
+      "id": 1768
+    },
+    {
+      "date": "2018-02-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB due diligence on the Caterpillar Trust triggered false-positive AML alerts against Caterpillar Inc. on Feb 5 2018. The trust was rushed through KYC case 01898372 because of an upcoming acquisition where funds will need to be available by 2/7/2018. Cynthia Rodriguez at DB confirmed Epstein was the trust creator and grantor. AML cleared it as company false positive since the trust had no connection to Caterpillar Inc.",
+      "confidence": "confirmed",
+      "id": 1743
+    },
+    {
+      "date": "2018-02-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB AML compliance reviewed Caterpillar Trust as 'a new account for the Southern Financial relationship; a relationship of the Private [Wealth Management]'. KYC prepared Feb 5, 2018 by Priyanka Rathore. OFAC/RDC generated 2 alerts (KYC 01898372). FIRCOSOFT classified entity as 'Company'. No negative media, D&B, Smartlinx, or court results found.",
+      "confidence": "high",
+      "id": 1758
+    },
+    {
+      "date": "2018-02-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Deutsche Bank PWM BIS-RESEARCH due diligence on Caterpillar Trust (KYC 01898372, dated 2/5/2018) found zero negative media, zero court cases, zero D&B records, zero Smartlinx records. OFAC RDC alerts triggered because of name similarity to Caterpillar Inc (NYSE: CAT, which was charged with accounting fraud) but were dismissed. AML compliance confirmed trust was a new account under the Southern Financial relationship, which had been a Private Bank client since 2013. Trust address listed as USVI.",
+      "confidence": "high",
+      "id": 1773
+    },
+    {
+      "date": "2018-02-06",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Bella Klein (Indyke PLLC staff) asked on 2/6/2018: 'I should probably know...but I don't recall...what is the Caterpillar Trust for?' This indicates even members of the inner circle handling trust paperwork did not understand its purpose. The trust was administered through Darren K Indyke PLLC at 575 Lexington Avenue 4th Floor NYC. Bebe Avdiu (legal assistant at Indyke PLLC) handled trust documents. Richard Kahn (HBRK Associates Inc, same address) managed trust finances and investment transfers.",
+      "confidence": "high",
+      "id": 1774
+    },
+    {
+      "date": "2018-02-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Bebe Avdiu, Legal Assistant at Darren K. Indyke PLLC at 575 Lexington Avenue 4th Floor, handled Caterpillar Trust paperwork in February 2018. On Feb 14 2018, she confirmed page 3 of a scanned document was correct and thanked the sender. This establishes Indyke PLLC as legal counsel for the trust.",
+      "confidence": "confirmed",
+      "id": 1741
+    },
+    {
+      "date": "2018-02-21",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust DB Account 42969987 received 15M in three Blockchain Capital wire transfers on 2/21/2018: Blockchain Capital IV LP (10.5M), Blockchain Capital III Digital Liquid Venture Fund LP (2.625M), Blockchain Capital Parallel Fund IV LP (1.875M). As of 1/31/2019 trust held 13.65M balance. On 3/18/2019, 2.16M was transferred from DB Caterpillar Trust to fund the Butterfly Trust brokerage account at Morgan Stanley.",
+      "confidence": "high",
+      "id": 1769
+    },
+    {
+      "date": "2018-06",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Key Deutsche Bank personnel handling Caterpillar Trust account: Cynthia Rodriguez (Assistant VP, initial account opening and KYC), Stewart Oldfield (account contact from June 2018), Natalie Barak (VP, Relationship Officer, WM), Brigid Macias (Assistant VP, trust wind-down), Daphne Cales (Director, Banking Services and Branch Manager), Bradley Gitlin, Ruchi Lohani (DBOI Global Services). DB bankers were the ones who confirmed trust was wound down and proposed issuing check to trustees or accountant.",
+      "confidence": "high",
+      "id": 1777
+    },
+    {
+      "date": "2019",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein responded to Kahn's email about the Butterfly Trust funding from Caterpillar Trust, asking about Paul Barrett's account structure: ok, try to enjoy your vacation. how did paul barrets account shield us? im going to meet with QNB people this week. Kahn replied: Paul's account was in name of alphagroup. This links the Caterpillar Trust to an entity called alphagroup and to QNB (Qatar National Bank), and reveals concern about account shielding from scrutiny.",
+      "confidence": "confirmed",
+      "id": 1751
+    },
+    {
+      "date": "2019-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB account balance .65M (Jan 2019), dormant checking K (Apr-Nov 2018), wound down by April 2019",
+      "confidence": "high",
+      "id": 1779
+    },
+    {
+      "date": "2019-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "March 2019 restructuring: Caterpillar Trust wound down, .16M moved to Butterfly Trust at Morgan Stanley, accounts closed at Deutsche Bank",
+      "confidence": "high",
+      "id": 1782
+    },
+    {
+      "date": "2019-03-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "On March 18 2019, approx 2.16M transferred from DB Caterpillar Trust to fund the newly opened 2013 Butterfly Trust brokerage account at Morgan Stanley. Richard Kahn emailed Epstein: Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust. Managed by Andrew S. Atlas, Senior VP Equity Sales, Morgan Stanley Wealth Management, 1290 Avenue of the Americas. Wire via Citibank 111 Wall Street.",
+      "confidence": "confirmed",
+      "id": 1727
+    },
+    {
+      "date": "2019-03-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust served as predecessor/feeder for the Butterfly Trust at Morgan Stanley. On March 18, 2019, Kahn emailed Epstein: 'Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.' Morgan Stanley account was in name of 'The 2013 Butterfly Trust'.",
+      "confidence": "confirmed",
+      "id": 1756
+    },
+    {
+      "date": "2019-03-18",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust DB account was closed by customer request in March 2019 and trust wound down by April 2019. On 3/18/2019, Bella Klein coordinated closing 2 DB accounts (Caterpillar Trust and 4659). On 3/29/2019, returned funds were rejected because account was already closed. On 4/4-5/2019, Deutsche Bank attempted to issue check to trustees but could not reopen account. Brigid Macias requested both trustees (Groff and Wallace) sign authorization letter. Trust administration concluded before Epstein July 2019 arrest.",
+      "confidence": "high",
+      "id": 1772
+    },
+    {
+      "date": "2019-03-23",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Richard Kahn demanded secrecy around trust operations. On March 23 2019, Kahn asked Stewart Oldfield to confirm he did not disclose Epstein's name when speaking with a banker. Oldfield replied: There was no discussion of any names. Not even the name of the trust. This demonstrates deliberate concealment of Epstein's connection to the trust from banking counterparties.",
+      "confidence": "confirmed",
+      "id": 1747
+    },
+    {
+      "date": "2019-04-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "DB internal communications about the Caterpillar Trust on April 4 2019 involved: Daphne Cales (Director, Banking Services and Branch Manager, DB Trust Company Americas), Natalie Barak (VP, Relationship Officer, DB Wealth Management), Brigid Macias (AVP), and Stewart Oldfield. Email references TTEES for The 2017 Caterpillar Trust indicating trustee-related matters.",
+      "confidence": "confirmed",
+      "id": 1745
+    },
+    {
+      "date": "2019-04-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Caterpillar Trust had two trustees who must both sign authorization letters. On April 5 2019, Brigid Macias at Deutsche Bank Trust Company Americas sent letter to process check payable to Lesley Groff. Daphne Wallace and Lesley Groff both signed as trustees. Bella Klein coordinated. Groff joked about keeping the check. Stewart Oldfield was also consulted.",
+      "confidence": "confirmed",
+      "id": 1737
+    },
+    {
+      "date": "2019-04-05",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "April 5, 2019 'Follow Up - Caterpillar Trust' email chain: DB Trust Company Americas (Brigid Macias, AVP) instructed trustees Daphne Wallace and Lesley Groff to sign letter authorizing a check. Groff jokes 'do I get to keep the check?' Both trustees required to sign. Groff then spoke with Stewart Oldfield (DB). Confirms Wallace and Groff acted as active co-trustees.",
+      "confidence": "confirmed",
+      "id": 1763
+    },
+    {
+      "date": "2019-11-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Akin Gump letter (11/19/2019) to SDNY responding to grand jury subpoena confirms 2013 Butterfly Trust and 2017 Caterpillar Trust were linked. Deutsche Bank received Butterfly Trust documents during Caterpillar Trust due diligence. The letter identifies beneficiaries of the 2013 Butterfly Trust whose payment records were compiled because of the Caterpillar Trust relationship. This links both trusts as parts of the same estate planning architecture.",
+      "confidence": "high",
+      "id": 1771
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1763,
+      1778,
+      1773,
+      1769,
+      1774,
+      1783,
+      1777,
+      1770,
+      1765,
+      1775,
+      1779,
+      1782
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1770,
+          1783
+        ],
+        "connection_ids": [
+          883,
+          885,
+          887,
+          889,
+          890,
+          891,
+          892,
+          893,
+          896,
+          897,
+          898,
+          899,
+          900,
+          901,
+          902
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1781,
+          1749,
+          1752,
+          1760,
+          1776,
+          1766,
+          1778,
+          1754,
+          1768,
+          1743
+        ],
+        "connection_ids": [
+          883,
+          887,
+          890,
+          891,
+          892,
+          893,
+          896,
+          897
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1765,
+          1775,
+          1774
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:38:34.796627",
+    "lead": "<p>The <strong>2017 Caterpillar Trust</strong> (EIN 28-6639711) was a Grantor Retained Annuity Trust formed on January 3, 2017, under U.S. Virgin Islands law, with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> as grantor and ultimate beneficial owner. Registered at 6100 Red Hook Quarter B3, St. Thomas, USVI 00802, the trust was administered by two of Epstein's personal assistants serving as co-trustees: <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>, his longtime executive assistant and scheduler, and Daphne Wallace, his St. Thomas office manager. The trust's sole documented asset was a 100% membership interest in <a href=\"/dossiers/igo-company-llc\">IGO Company LLC</a>, a USVI entity (filing number 571920, formed December 28, 2006). Legal counsel was provided by <a href=\"/dossiers/darren-indyke\">Darren K. Indyke PLLC</a> at 575 Lexington Avenue, 4th Floor, New York, while financial administration was handled by <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> through HBRK Associates Inc. at the same address (Finding #1766, #1778).</p><p>The trust operated a <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> account (#42969987) opened on the date of formation and managed under the <a href=\"/dossiers/southern-financial-llc\">Southern Financial</a> banking relationship that had served as Epstein's primary Deutsche Bank conduit since 2013. On February 21, 2018, the account received $15 million in three wire transfers from Blockchain Capital funds&mdash;$10.5 million from Blockchain Capital IV LP, $2.625 million from Blockchain Capital III Digital Liquid Venture Fund LP, and $1.875 million from Blockchain Capital Parallel Fund IV LP&mdash;representing the proceeds from the sale of approximately 50% of Epstein's Coinbase equity stake. As of January 31, 2019, the trust held a balance of $13.65 million (Finding #1769, #1768). On March 18, 2019, <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> transferred $2.16 million from the Deutsche Bank Caterpillar Trust account to fund a newly opened brokerage account for the 2013 Butterfly Trust at Morgan Stanley, managed by Andrew S. Atlas (Finding #1727). The Deutsche Bank account was closed by customer request that same day, and the trust was fully wound down by April 2019&mdash;three months before Epstein's arrest (Finding #1782).</p><p>The Caterpillar Trust was one element of a nature-themed series of grantor trusts maintained by Epstein, alongside the Haze Trust (formed February 2, 1999, New York law, trustee <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>) and the 2013 Butterfly Trust (trusteed by Indyke and Kahn, with named beneficiaries including Sarah Kellen, Nada Marcinkova, and <a href=\"/dossiers/ghislaine-maxwell\">Ghislaine Maxwell</a>). The caterpillar-to-butterfly naming convention and the documented $2.16 million transfer suggest a deliberate lifecycle pairing in which the Caterpillar Trust served as an accumulation vehicle and the Butterfly Trust as a distribution vehicle. However, the Caterpillar Trust agreement itself was never produced in any available corpus&mdash;DOJ, DugganUSA, LMSBAND, or Unified&mdash;and its beneficiaries remain unknown, unlike the Butterfly Trust whose 23-page trust instrument (EFTA01282018) was recovered in full (Finding #1775, #1781, #1765).</p>",
+    "open_questions": [
+      "Who were the named beneficiaries of the 2017 Caterpillar Trust, and were they the same individuals named in the 2006 Butterfly Trust (Kellen, Marcinkova, Maxwell, Kalin, Boiko, Hamblin)?",
+      "What happened to the approximately $11.5 million remaining in the trust after the $2.16 million transfer to the Butterfly Trust and the March 2019 Deutsche Bank account closure?",
+      "What was the 'upcoming acquisition where funds will need to be available by 2/7/2018' referenced in the rush KYC clearance, and why did the Blockchain Capital wires not arrive until February 21?",
+      "What is the relationship between the Caterpillar Trust wind-down, Epstein's question about 'how did paul barrets account shield us,' and the planned meeting with QNB (Qatar National Bank)?",
+      "Was the trust agreement for the 2017 Caterpillar Trust produced to the DOJ and withheld from public release, or was it shielded from production entirely under attorney-client privilege through Indyke PLLC?"
+    ],
+    "system_role": "The 2017 Caterpillar Trust illustrates how Epstein used layered GRAT structures with personal-assistant trustees and opaque USVI entities to receive and redistribute tens of millions in investment proceeds through Deutsche Bank while maintaining deliberate separation between the trust's paper administration and the professional advisors who actually controlled its operations.",
+    "sections": [
+      {
+        "id": "trust-structure-and-administration",
+        "title": "Trust Structure and Administration",
+        "content": "<p>The Caterpillar Trust was structured as a Grantor Retained Annuity Trust (GRAT), a tax-planning vehicle in which the grantor retains the right to receive fixed annuity payments over the trust's term, with any remaining assets passing to designated beneficiaries upon termination. Deutsche Bank compliance documents confirm the trust was designed to terminate two years from the date of funding, at which point the membership interest in <a href=\"/dossiers/igo-company-llc\">IGO Company LLC</a> would transfer to the 2013 Butterfly Trust (Finding #1776). This design meant that investment appreciation in excess of the IRS Section 7520 rate would pass to the Butterfly Trust's beneficiaries estate-tax-free&mdash;a standard GRAT technique, but one applied here to an opaque USVI holding company whose underlying assets are not fully documented.</p><p>The trust's administration was split between two distinct operational layers. The nominal trustees were <a href=\"/dossiers/lesley-groff\">Lesley Groff</a> and Daphne Wallace, both personal assistants with no documented trust management expertise. In practice, the trust's legal affairs were handled by <a href=\"/dossiers/darren-indyke\">Darren Indyke</a>'s firm, where legal assistant Bebe Avdiu processed trust paperwork and staff member Bella Klein coordinated document execution and account closures (Finding #1774). Financial decisions were directed by <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> of HBRK Associates, who managed investment transfers, instructed Deutsche Bank on fund movements, and demanded that bank personnel conceal Epstein's identity from counterparties (Finding #1747). The degree of compartmentalization is illustrated by a February 6, 2018 email in which Bella Klein, who was actively processing the trust's paperwork, asked: \"I should probably know...but I don't recall...what is the Caterpillar Trust for?\" The response: \"Asset that we should sell and need a bank account to park money\" (Finding #1774).</p><p>This arrangement&mdash;personal assistants as nominal fiduciaries, with a parallel professional infrastructure making all substantive decisions&mdash;represents a departure from the earlier Haze Trust (1999), which named attorney <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> as trustee, and the 2006 Butterfly Trust, which named both Indyke and Kahn. The progression toward less credentialed trustees over time may reflect a deliberate strategy to distance the professional advisors from formal fiduciary liability while retaining actual control.</p>",
+        "viz": null
+      },
+      {
+        "id": "deutsche-bank-relationship-and-compliance",
+        "title": "Deutsche Bank Relationship and Compliance",
+        "content": "<p>The Caterpillar Trust's banking was conducted through <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a> Trust Company Americas at 345 Park Avenue, 24th Floor, New York, under the umbrella of the <a href=\"/dossiers/southern-financial-llc\">Southern Financial</a> relationship that had served as Epstein's primary banking conduit since 2013. Deutsche Bank's AML compliance division identified the trust as \"a new account for the Southern Financial relationship; a relationship of the Private [Wealth Management]\" when processing KYC case 01898372 on February 5, 2018 (Finding #1758). The KYC review was expedited as a rush clearance because of \"an upcoming acquisition where funds will need to be available by 2/7/2018\"&mdash;two weeks before the $15 million Blockchain Capital wire transfers arrived (Finding #1743).</p><p>The compliance review triggered false-positive AML alerts against Caterpillar Inc. (NYSE: CAT), which had been charged with accounting fraud. These were cleared by Deutsche Bank's FIRCOSOFT system, which classified the entity as a \"Company\" rather than an individual. The KYC research report by Priyanka Rathore found zero negative media, zero court cases, zero D&amp;B records, and zero Smartlinx records for the trust itself&mdash;an outcome that reflects the inherent limitation of screening a newly formed entity with no public history (Finding #1773).</p><p>The Deutsche Bank team servicing the account included <a href=\"/dossiers/stewart-oldfield\">Stewart Oldfield</a> (Director, CFA, CAIA) as primary relationship manager, Cynthia Rodriguez (AVP, who handled the initial account opening), Daphne Cales (Director of Banking Services and Branch Manager), Natalie Barak (VP, Relationship Officer), and Brigid Macias (AVP, who handled trust wind-down correspondence). Oldfield's name appeared on bank statements from June 2018 onward. On January 30, 2017&mdash;twenty-seven days after the trust's formation&mdash;Oldfield and colleague Todd Stevens met Epstein at <a href=\"/dossiers/nine-east-71st-street-corporation\">9 East 71st Street</a> at 4:15 PM. The same day's schedule included Boris Nikolic at 3:00 PM and <a href=\"/dossiers/leon-black\">Leon Black</a> at 5:00 PM (Finding #1770, #1754). The Caterpillar Trust's Relationship Manager code 81851 also encompassed all other Epstein entities and, notably, the <a href=\"/dossiers/todd-wanek\">Todd Wanek</a> family entities (Ashley Furniture), indicating shared wealth management coverage (Finding #1780).</p><p>The concern for secrecy around the trust's operations extended to Deutsche Bank's own personnel. On March 23, 2019, <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> asked <a href=\"/dossiers/stewart-oldfield\">Stewart Oldfield</a> to \"confirm you did not disclose mr epstein's name when speaking with banker.\" Oldfield replied: \"There was no discussion of any names. Not even the name of the trust\" (Finding #1747). This exchange took place five days after the $2.16 million transfer to the Butterfly Trust and the initiation of account closure proceedings, suggesting heightened sensitivity around the trust's dissolution and the movement of funds to a new institution.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "financial-flows-and-coinbase-proceeds",
+        "title": "Financial Flows and the Coinbase Proceeds",
+        "content": "<p>The Caterpillar Trust's principal financial activity centered on a single large inflow and a single documented outflow. On February 21, 2018, Deutsche Bank account #42969987 received three wire transfers totaling $15 million from three related Blockchain Capital entities: Blockchain Capital IV LP ($10.5 million), Blockchain Capital III Digital Liquid Venture Fund LP ($2.625 million), and Blockchain Capital Parallel Fund IV LP ($1.875 million). Reporting by Blockspace.media and Fortune (February 2026) confirms that these payments represented the purchase of approximately 50% of Epstein's equity stake in Coinbase, the cryptocurrency exchange (Finding #1769, #1768).</p><p>The timing of the KYC rush clearance is significant. Deutsche Bank processed the Caterpillar Trust's compliance review on February 5, 2018, explicitly noting that the rush was required because of \"an upcoming acquisition where funds will need to be available by 2/7/2018.\" The Blockchain Capital wires arrived sixteen days later, on February 21. The two-week gap between the stated deadline and actual receipt of funds has not been explained, but the sequence confirms that the trust was activated specifically to receive the Coinbase equity sale proceeds (Finding #1743).</p><p>As of January 31, 2019, the trust held a balance of $13,653,978.34, while the business checking account showed near-zero activity throughout 2018 (April through November statements show dormant balances of approximately $1,000). On March 18, 2019, <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> informed Epstein that the 2013 Butterfly Trust brokerage account had been opened at Morgan Stanley under the management of Andrew S. Atlas (Senior VP, Equity Sales, 1290 Avenue of the Americas) and would be \"funded today with approximately 2,160,000 from db caterpillar trust\" (Finding #1727, #1756). Wire instructions routed the transfer through Citibank to Morgan Stanley Smith Barney LLC, for further credit to \"The 2013 Butterfly Trust.\"</p><p>The $2.16 million transfer to the Butterfly Trust represented only a fraction of the $13.65 million balance. The disposition of the remaining approximately $11.5 million is not documented in recovered communications. On the same day as the transfer, Bella Klein coordinated the closure of the Caterpillar Trust's Deutsche Bank accounts, and Epstein asked Kahn a revealing question: \"how did paul barrets account shield us? im going to meet with QNB people this week.\" Kahn replied: \"Paul's account was in name of alphagroup\" (Finding #1751). This exchange, linking the trust wind-down to concerns about \"shielding\" and to upcoming meetings with Qatar National Bank, suggests the restructuring from Deutsche Bank to Morgan Stanley was motivated at least in part by a desire to reduce the exposure footprint of Epstein's banking relationships.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "nature-themed-trust-network",
+        "title": "The Nature-Themed Trust Network",
+        "content": "<p>The Caterpillar Trust was the third and final trust in a series of nature-themed grantor trusts that Epstein maintained over two decades. The Haze Trust was formed on February 2, 1999, under New York law (EIN 03-7185414) with <a href=\"/dossiers/darren-indyke\">Darren Indyke</a> as trustee and Paul Barrett at JPMorgan as the managing banker. The 2013 Butterfly Trust, originally formed on December 27, 2006, under USVI law as an irrevocable trust, named Indyke and <a href=\"/dossiers/richard-kahn\">Kahn</a> as trustees and listed Sarah Kellen, Nada Marcinkova, and <a href=\"/dossiers/ghislaine-maxwell\">Ghislaine Maxwell</a> as original beneficiaries; Jennifer Kalin, Alina Boiko, and Susan Hamblin were added in 2011 (Finding #1765, #1781).</p><p>The naming convention strongly implies intentional pairing. In nature, a caterpillar transforms into a butterfly, and the documented financial flows mirror this lifecycle: the Caterpillar Trust accumulated assets (the $15 million Blockchain Capital/Coinbase proceeds) and then fed them into the Butterfly Trust ($2.16 million transferred on March 18, 2019). The GRAT structure formalized this relationship: upon the Caterpillar Trust's termination two years after funding, any remainder interest&mdash;including the <a href=\"/dossiers/igo-company-llc\">IGO Company LLC</a> membership interest&mdash;was designated to transfer to the Butterfly Trust.</p><p>The three trusts also reveal a progression in trustee selection. The Haze Trust (1999) used Epstein's attorney Indyke as sole trustee. The 2006 Butterfly Trust used both professional advisors, Indyke and Kahn. The 2017 Caterpillar Trust used two personal assistants, Groff and Wallace, with no legal or financial credentials. This trajectory away from professionally credentialed trustees, even as the trust's assets grew to $15 million, is the inverse of standard trust governance practice. The likely explanation is that Epstein preferred nominal trustees who would sign what they were told to sign without exercising independent fiduciary judgment&mdash;a hypothesis supported by the April 5, 2019 email chain in which Groff, asked to sign the trust's authorization letter, joked \"do I get to keep the check?\" and \"can we split it?\" before noting she had \"spoke with <a href=\"/dossiers/stewart-oldfield\">Stewart Oldfield</a>,\" indicating the Deutsche Bank relationship manager, not the named trustee, was the actual decision-making authority (Finding #1763).</p>",
+        "viz": null
+      },
+      {
+        "id": "missing-trust-agreement-and-unknown-beneficiaries",
+        "title": "Missing Trust Agreement and Unknown Beneficiaries",
+        "content": "<p>The most significant gap in the documentary record for the Caterpillar Trust is the absence of the trust agreement itself. Comprehensive searches across all available corpora&mdash;DOJ Volume 11, DugganUSA (221+ results for \"Caterpillar\" with no trust agreement), LMSBAND, and the Unified database&mdash;have failed to locate the instrument. This stands in contrast to the 2006 Butterfly Trust, whose 23-page trust agreement (EFTA01282018) was produced in full, detailing its terms, beneficiaries, and investment powers (Finding #1775).</p><p>The absence of the trust agreement means that the Caterpillar Trust's beneficiaries remain entirely unknown. The Butterfly Trust's named beneficiaries (Kellen, Marcinkova, Maxwell, and three women added in 2011) were all individuals with documented personal relationships to Epstein. Whether the Caterpillar Trust served the same beneficiaries, different ones, or named the Butterfly Trust itself as the remainder beneficiary is a question that cannot be answered from available records. The GRAT structure's designation of the Butterfly Trust as the recipient of remainder interest suggests the latter, but this is an inference from Deutsche Bank compliance documents rather than a verified reading of the trust instrument.</p><p>The trust agreement's absence from the DOJ production is itself noteworthy. Deutsche Bank produced extensive documentation on the trust's KYC review, account statements, and correspondence, yet the governing instrument was not among the materials. One possible explanation is that the trust agreement was held exclusively by <a href=\"/dossiers/darren-indyke\">Indyke PLLC</a> and shielded under attorney-client privilege. Another is that the agreement was produced but redacted or withheld from the public corpus. In either case, the missing document represents a significant evidentiary gap: without it, the full scope of the trust's purpose, the identity of its beneficiaries, and the specific powers granted to its trustees cannot be determined from primary sources.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "complexity-as-credential",
+      "jurisdictional-arbitrage",
+      "enabler-gradient",
+      "parallel-financial-system"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "The 2017 Caterpillar Trust",
+      "connections": [
+        {
+          "target": "The 2013 Butterfly Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02636559",
+          "description": "2.16M transferred from DB Caterpillar Trust to fund Butterfly Trust brokerage at Morgan Stanley on March 18 2019"
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust holds membership interest in IGO Company LLC per DB AML compliance review"
+        },
+        {
+          "target": "Southern Financial LLC",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust was a new account under the Southern Financial relationship at DB Private Bank since 2013"
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02238631",
+          "description": "Indyke PLLC served as legal counsel for Caterpillar Trust. Legal assistant Bebe Avdiu handled trust paperwork in Feb 2018"
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02636559",
+          "description": "Kahn managed Caterpillar Trust administration via HBRK Associates Inc, coordinated account closures, transfers to Butterfly Trust, and demanded secrecy about Epstein's identity"
+        },
+        {
+          "target": "Stewart Oldfield",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01387948",
+          "description": "Oldfield was primary DB banker for Caterpillar Trust, handled trustee matters, consulted on trust follow-ups, confirmed he did not disclose Epstein's name to counterparties"
+        },
+        {
+          "target": "Lesley Groff",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02282543",
+          "description": "Groff was one of two trustees of the Caterpillar Trust who signed authorization letters at Deutsche Bank"
+        },
+        {
+          "target": "Daphne Wallace",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02282632",
+          "description": "Wallace was one of two trustees of the Caterpillar Trust who signed authorization letters at Deutsche Bank. She was Epstein USVI office manager at STC."
+        },
+        {
+          "target": "The 2013 Butterfly Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02636488",
+          "description": "Caterpillar Trust funded Butterfly Trust with $2.16M on March 18, 2019 when DB accounts closed and MS account opened. Caterpillar=accumulation vehicle, Butterfly=distribution vehicle. Same grantor (Epstein), different trustees."
+        },
+        {
+          "target": "Daphne Wallace",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364043",
+          "description": "Daphne Wallace (DW) served as co-trustee of the 2017 Caterpillar Trust alongside Lesley Groff. Wallace was Epstein's assistant in his St. Thomas USVI office."
+        },
+        {
+          "target": "Lesley Groff",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364043",
+          "description": "Lesley Groff (LG) served as co-trustee of the 2017 Caterpillar Trust alongside Daphne Wallace. Groff was Epstein's executive assistant/scheduler."
+        },
+        {
+          "target": "Blockchain Capital",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01297502",
+          "description": "Blockchain Capital made three payments in February 2018 to The 2017 Caterpillar Trust, representing $15M from sale of 50% of Epstein's Coinbase stake."
+        },
+        {
+          "target": "Stewart Oldfield",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287699",
+          "description": "Stewart Oldfield was Deutsche Bank personal banker for The 2017 Caterpillar Trust account. Met Epstein Jan 30, 2017 (near trust formation date). Also involved with Gratitude America/BV 70 LLC."
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02636488",
+          "description": "Richard Kahn (HBRK Associates) managed Caterpillar Trust administration and executed the $2.16M transfer from DB Caterpillar to MS Butterfly Trust on March 18, 2019. Coordinated with DB staff and Morgan Stanley's Andrew Atlas."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust was opened under the Southern Financial/STC relationship at Deutsche Bank. AML review identifies it as 'a new account for the Southern Financial relationship'."
+        },
+        {
+          "target": "Blockchain Capital",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00027020",
+          "description": "Blockchain Capital funds (IV LP, III Digital Liquid, Parallel IV LP) wired 15M to Caterpillar Trust DB account on 2/21/2018 per Akin Gump Exhibit B"
+        },
+        {
+          "target": "2013 Butterfly Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00015937",
+          "description": "2.16M transferred from DB Caterpillar Trust to Butterfly Trust Morgan Stanley brokerage on 3/18/2019. Both trusts linked in Akin Gump SDNY submission - DB received Butterfly Trust docs during Caterpillar Trust KYC."
+        },
+        {
+          "target": "Daphne Wallace",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364043",
+          "description": "Daphne Wallace (DW) served as co-trustee of The 2017 Caterpillar Trust from formation on 1/3/2017. She was Epstein's St Thomas office assistant. She signed authorization letters for trust transactions in April 2019."
+        },
+        {
+          "target": "Lesley Groff",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364043",
+          "description": "Lesley Groff (LG) served as co-trustee of The 2017 Caterpillar Trust from formation on 1/3/2017. She was Epstein's longtime executive assistant. She joked about keeping the check during wind-down in April 2019."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "The 2017 Caterpillar Trust held membership interest in IGO Company LLC per Deutsche Bank AML compliance documentation. IGO Company LLC is a USVI entity listed alongside Little St James LLC, Jeepers Inc, and other core Epstein entities."
+        },
+        {
+          "target": "Richard Kahn",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364044",
+          "description": "Richard Kahn (HBRK Associates Inc) managed Caterpillar Trust finances, directed 2.16M transfer to Butterfly Trust at Morgan Stanley, coordinated with Andrew Atlas at Morgan Stanley for new account setup. Same 575 Lexington Ave address as Indyke PLLC."
+        },
+        {
+          "target": "Darren Indyke",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02238631",
+          "description": "Caterpillar Trust administered through Darren K Indyke PLLC. Legal assistant Bebe Avdiu at Indyke PLLC handled trust document execution. Staff member Bella Klein coordinated signing and account closures. Account opening docs submitted via Indyke office."
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299262",
+          "description": "Caterpillar Trust was part of the Southern Financial/Southern Trust Company relationship at Deutsche Bank Private Bank (client since 2013). AML compliance explicitly identified it as a new account under this relationship. Deutsche Bank Account 42969987."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "The 2017 Caterpillar Trust GRAT held membership interest in IGO Company LLC, a USVI entity (571920, formed 12/28/2006, dissolved)"
+        },
+        {
+          "target": "The 2013 Butterfly Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02636488",
+          "description": "On March 18, 2019, ,160,000 transferred from DB Caterpillar Trust to fund newly opened Butterfly Trust brokerage at Morgan Stanley"
+        },
+        {
+          "target": "Southern Trust Company Inc",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Caterpillar Trust was part of Southern Financial relationship at Deutsche Bank. Received M from STC/Southern Financial LLC per Dechert Exhibit B. Both under DB RM code 81851."
+        },
+        {
+          "target": "The Haze Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "Part of Epstein's nature-themed GRAT series. Haze (1999, Indyke trustee, NY law), Butterfly (2013), Caterpillar (2017, Wallace/Groff trustees, USVI). All administered by Richard Kahn/HBRK Associates."
+        },
+        {
+          "target": "Stewart Oldfield",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01287699",
+          "description": "Oldfield was Deutsche Bank relationship manager for the Caterpillar Trust account. Named on bank statements from June 2018 onward. Met Epstein at 9 E 71st St on 1/30/2017 with Todd Stevens from DB."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01299264",
+          "description": "The 2017 Caterpillar Trust (GRAT, EIN 28-6639711) was created January 3, 2017 to hold 100% membership interest in IGO Company LLC. Trust terminates 2 years after funding, then IGO interest transfers to The 2013 Butterfly Trust."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364292",
+          "description": "The 2017 Caterpillar Trust (EIN 28-6639711, GRAT) held 100% membership interest in IGO Company LLC. Upon trust termination (2 years from funding), membership interest was to transfer to The 2013 Butterfly Trust. DB account managed by Stewart Oldfield."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364292",
+          "description": "Caterpillar Trust (GRAT, EIN 28-6639711) holds 100% membership interest in IGO Company LLC. Trustees: Lesley Groff and Daphne Wallace. Upon termination, interest transfers to 2013 Butterfly Trust."
+        },
+        {
+          "target": "IGO Company LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01364292",
+          "description": "The 2017 Caterpillar Trust (EIN 28-6639711) held 100% membership interest in IGO Company LLC. Upon trust termination, interest transfers to The 2013 Butterfly Trust. Three-tier ownership: Epstein -> Caterpillar GRAT -> IGO LLC -> Coinbase equity."
+        },
+        {
+          "target": "Gratitude America Ltd",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Barnaby Marsh",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #380: Epstein advised Marsh (June 17, 2009) to set up an offshore entity to receive fees from 'the fund': 'I'm thinking whether it makes sense for you to se"
+        },
+        {
+          "target": "Prytanee LLC",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire"
+        },
+        {
+          "target": "Financial Ballistics Trust",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #554: Financial Ballistics Trust listed in Richard Kahn Open Items memo to Epstein (March 2012) alongside Zorro Trust, Haze Trust, Butterfly Trust, and KCAC"
+        },
+        {
+          "target": "FT Real Estate Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+        },
+        {
+          "target": "Haze Trust",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02712108",
+          "description": "Both are Epstein grantor trusts with animal-themed names. Haze Trust formed 1999 in NY, Caterpillar Trust formed 2017 in USVI. Both managed by Kahn and banked at DB, administered by Indyke."
+        },
+        {
+          "target": "Todd Wanek",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01384017",
+          "description": "Wanek family entities (Ashley Furniture CEO) share Deutsche Bank RM code 81851 with Caterpillar Trust and all Epstein entities. Todd & Karen Wanek JTWROS, Wanek Trust of 2000, KWF/SSW/CRW/GEW 2007 LLCs all on same RM listing."
+        }
+      ],
+      "secondHop": {
+        "Daphne Wallace": [
+          {
+            "target": "Lesley Groff",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Co-trustees of The 2017 Caterpillar Trust. Both needed to sign authorization for Deutsche Bank to process checks from the trust."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Managed logistics on US side. Court-confirmed associate. Follows Karyna Shuliak on Houzz."
+          }
+        ],
+        "Darren Indyke": [
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Indyke handled legal matters for both Epstein and Black. Conference call details (EFTA02340224) show joint calls between Epstein, Black-related parties, Brad Karp, Brad Wechsler, and Patrick Fenn."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Indyke served as Treasurer (2012-2015) then Vice President/Director (2017-2019). Signed account closure letter Jan 10, 2019. Address: 575 Lexington Ave 4th Floor NYC then 9053 Estate Thomas USVI. Zero compensation."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "In-house attorney at Southern Financial LLC for 15+ years. Secretary at STC, Authorized Signatory at SFL. Co-executor of estate. Beneficiary of Butterfly Trust. Trustee of 1953 Trust and Epstein 2019 Trust."
+          },
+          {
+            "target": "Richard Kahn",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-beneficiaries of Butterfly Trust. Co-trustees of 1953 Trust. Co-executors of estate. Both at 575 Lexington Ave 4th Floor. Co-occur in 830 LMSBAND files."
+          },
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Indyke corresponded extensively with Oldfield at Deutsche Bank on Prytanee LLC, CDD forms, account management. 381 LMSBAND co-occurrences."
+          }
+        ],
+        "IGO Company LLC": [
+          {
+            "target": "Southern Trust Company Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO Company LLC was a wholly-owned subsidiary of Southern Trust Company Inc, valued at $3,000,002 on the June 30, 2015 STC balance sheet. Ownership later transferred to The 2017 Caterpillar Trust GRAT."
+          },
+          {
+            "target": "The 2013 Butterfly Trust",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO Company LLC membership interest designated to transfer from the Caterpillar GRAT to The 2013 Butterfly Trust upon GRAT termination (2 years post-funding, approx 2019). Part of estate planning chain: STC -> Caterpillar GRAT -> Butterfly Trust."
+          },
+          {
+            "target": "Island Global Yachting",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO Company LLC held Epstein's 50% interest in the IGY-AYH St Thomas Holdings joint venture. IGY managed AYH operations under a management agreement charging 7.5% on gross annual revenues plus leasing and development fees."
+          },
+          {
+            "target": "Southern Trust Company Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "IGO LLC is a wholly-owned subsidiary of STC, valued at $3,000,002 on STC balance sheet as of June 30, 2015"
+          },
+          {
+            "target": "The 2013 Butterfly Trust",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Upon termination of the 2017 Caterpillar Trust, IGO Company LLC membership interest transfers to The 2013 Butterfly Trust. This creates a succession chain: Epstein -> Caterpillar Trust -> Butterfly Trust for IGO ownership."
+          }
+        ],
+        "Lesley Groff": [
+          {
+            "target": "Paul Morris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-occurring in 391 LMSBAND files. Morris was Epstein pilot/logistics coordinator. Groff managed his schedule coordination with flight operations."
+          },
+          {
+            "target": "Vincenzo Iozzo",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Groff was primary scheduler for Iozzo-Epstein meetings 2015-2018, showing established access pattern through inner circle gatekeeper."
+          },
+          {
+            "target": "Vincenzo Iozzo",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Groff was Iozzo's primary scheduling contact for Epstein meetings throughout 2015-2018. Iozzo contacted Groff to check Epstein's NYC/Paris availability, received meeting confirmations and time changes. Groff included Iozzo dates in 'Jeffreys itinerary.' Groff described Iozzo warmly ('Vincenzo, you are so good with your calendar\\!'). After Groff was unavailable, scheduling shifted to Bebe Avdiu at Indyke PLLC (Jun 2017)."
+          },
+          {
+            "target": "Enhanced Education",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Lesley Groff (Epstein executive assistant) signed contracts on behalf of Enhanced Education, including the Fairmont Waterfront Vancouver conference room contract (Nov 2015). Used lesleyjee@gmail.com."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Groff (Epstein executive assistant) used GA stationery for school recommendation letter at Epstein's direction. Kahn instructed: 'no logo, use 6100 red hook address.' Groff also served as wire instruction contact for payments."
+          }
+        ],
+        "Richard Kahn": [
+          {
+            "target": "Stewart Oldfield",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Primary Deutsche Bank relationship manager for Epstein accounts. 1818 LMSBAND co-occurrences - the single highest co-occurrence for Kahn."
+          },
+          {
+            "target": "Robert Lawrence Kuhn",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates, 575 Lexington Ave) processed the Gratitude America wire transfers to Kuhn Foundation: $150K on 8/1/2017 and $500K on 6/15/2018. Kahn handled the wire mechanics at Epstein's direction."
+          },
+          {
+            "target": "Leon Black",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Kahn served as President of GA from 2012-2019. Address: 575 Lexington Ave 4th Floor (HBRK Associates) then 9053 Estate Thomas. Managed all banking, donations, and correspondence for the foundation. Zero compensation."
+          },
+          {
+            "target": "Enhanced Education",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Richard Kahn (HBRK Associates Inc., 575 Lexington Ave, 4th Floor, NYC) was the primary financial manager directing Enhanced Education transactions. He instructed stock sales, wire transfers, directed payments, and handled Leon Black donation structuring. Named as 'c/o' contact on ASU pledge."
+          }
+        ],
+        "Stewart Oldfield": [
+          {
+            "target": "Todd Wanek",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Oldfield named as Banker Team lead for Third Lake Capital (Wanek family office) in DB Account Planning doc. Managed Wanek M+ AUM with weekly contact"
+          },
+          {
+            "target": "Todd Wanek",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Oldfield managed Wanek family accounts at DB. Third Lake Capital listed as his client. After leaving DB, Oldfield went to work at Wanek family private office. EFTA01383799 shows him discussing Third Lake and Southern promotional rates together."
+          },
+          {
+            "target": "Todd Wanek",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Oldfield managed Wanek family wealth at DB then became Principal/CSO of Third Lake Partners family office"
+          },
+          {
+            "target": "Mile Lukic",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "LGT-DB interbank channel for Haze Trust verification (Apr 2019). Lukic requested SWIFT MT199, Oldfield provided AML clearance letter."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Oldfield met Epstein in person Jan 30 2017, discussed levered muni structures, managed Gratitude America KYC, ran identity concealment protocols for Epstein trusts"
+          }
+        ],
+        "Southern Financial LLC": [
+          {
+            "target": "Deutsche Bank AG",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Brokerage account opened Aug 19, 2013 for Southern Financial LLC (wholly owned subsidiary of Southern Trust Company Inc). KYC purpose: to invest long term with the bank."
+          },
+          {
+            "target": "Financial Trust Company",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": ""
+          },
+          {
+            "target": "Harlequin Dane LLC",
+            "type": "financial",
+            "strength": 0.7,
+            "description": "DS10: 51K pass-through May 2-3 2019"
+          },
+          {
+            "target": "STC",
+            "type": "corporate",
+            "strength": 0.7,
+            "description": "Same address 6100 Red Hook Quarter B3. Both GLEIF LEIs. STC owns SF LLC (entity_relations). SF wholly owned subsidiary."
+          }
+        ],
+        "Southern Trust Company Inc": [
+          {
+            "target": "Gratitude America Ltd",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #66: Gratitude America is listed as one of Epstein's USVI entities in DOJ documents alongside: Great St Jim LLC, IGO Company LLC, J Epstein Virgin Islands "
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Lawrence Summers",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #157: Summers asked Epstein for financial advice on cryptocurrency tax avoidance (Jan 8, 2018). Summers wrote: 'This is for me in a minor way and for a pal "
+          },
+          {
+            "target": "Prytanee LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire"
+          },
+          {
+            "target": "FT Real Estate Inc",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #557: FT Real Estate Inc. confirmed as USVI C Corporation owned by Jeffrey Epstein. Listed in Kahn Open Items memo (March 2012) as potential investment vehi"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1999",
+        "label": "Part of nature-themed GRAT series: Haze (1999), Butterfly (2013), Caterpillar (2017) with escalating trustee informality",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1781
+      },
+      {
+        "date": "1999-02-02",
+        "label": "The Caterpillar Trust is part of an animal-themed trust naming convention used by Epstein. Confirmed trusts: Haze Trust (formed 2/2/1999, NY law, grantor trust, EIN 03-7185414, trustee Darren Indyke, managed by Paul Barrett at JPM), Butterfly Trust (formed 2013, brokerage at Morgan Stanley funded from Caterpillar), and Caterpillar Trust (formed 2017, GRAT, holds IGO Company LLC). Also Haze Trust email forwarded to Mile Lukic at DB in German on April 8 2019 suggesting offshore banking connections.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1749
+      },
+      {
+        "date": "2006-12-27",
+        "label": "Caterpillar Trust structurally mirrors the 2006 Butterfly Trust but with different trustees. Butterfly Trust (Dec 27, 2006): Grantor=Epstein, Trustees=Indyke+Kahn, Beneficiaries=Kellen+Marcinkova+Maxwell. Caterpillar Trust (Jan 3, 2017): Grantor=Epstein, Trustees=Wallace+Groff (assistants, not lawyers). The caterpillar-to-butterfly naming suggests intentional lifecycle pairing: Caterpillar as investment/accumulation vehicle feeding into Butterfly as distribution vehicle.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1765
+      },
+      {
+        "date": "2013",
+        "label": "DB RDC screening lists the trust under two country addresses: UNITED STATES and VIRGIN ISLANDS, U.S. - both under KYC tracking ID 01898372. The screening triggered Critical Risk Priority alerts against Caterpillar Inc., which were cleared as false positives. The trust was part of the Southern Financial relationship at DB Private Bank since 2013.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1752
+      },
+      {
+        "date": "2017",
+        "label": "No connection to blockchain or cryptocurrency found. Despite appearing in same Dechert Exhibit B ledger as Blockchain Capital and Blockstream investments, the Caterpillar Trust is a conventional GRAT holding membership interest in IGO Company LLC. The animal-themed naming convention aligns with Haze Trust and Butterfly Trust, not crypto. The 2.16M transfer to Butterfly Trust was for a standard Morgan Stanley brokerage account. Lead 1220 hypothesis of crypto vehicle is not supported by evidence.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1760
+      },
+      {
+        "date": "2017",
+        "label": "No trust agreement document for the 2017 Caterpillar Trust found in any corpus (DOJ, DugganUSA, LMSBAND, Unified). The Butterfly Trust agreement (EFTA01282018, 23 pages) is fully available, but the Caterpillar Trust agreement itself was not produced. The trust's beneficiaries remain unknown - unlike Butterfly Trust which named Kellen, Marcinkova, Maxwell. The beneficiary question is critical: does Caterpillar serve the same beneficiaries or different ones?",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1775
+      },
+      {
+        "date": "2017",
+        "label": "GRAT structure analysis: The Caterpillar Trust as a Grantor Retained Annuity Trust means Epstein retained the right to receive annuity payments from the trust while transferring eventual ownership to beneficiaries (likely associated with the Butterfly Trust). The 15M Blockchain Capital inflow and 2.16M Butterfly Trust outflow are consistent with GRAT mechanics where the grantor retains annuity payments and the remainder passes to beneficiaries. The trust holding IGO Company LLC membership interest, combined with the Blockchain Capital crypto fund investments, suggests the GRAT was used to transfer crypto/VC investment gains to beneficiaries at reduced tax cost.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1776
+      },
+      {
+        "date": "2017-01-03",
+        "label": "The 2017 Caterpillar Trust was a Grantor Retained Annuity Trust (GRAT) formed January 3, 2017, in the U.S. with address at 6100 Red Hook Quarter B3, St Thomas USVI 00802. Jeffrey Epstein was the Grantor and UBO. Daphne Wallace (DW, Epstein St Thomas office assistant) and Lesley Groff (LG, Epstein executive assistant) served as co-trustees. The trust held membership interest in IGO Company LLC.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1766
+      },
+      {
+        "date": "2017-01-03",
+        "label": "USVI Grantor Retained Annuity Trust (GRAT) holding IGO Company LLC membership interest",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1778
+      },
+      {
+        "date": "2017-01-30",
+        "label": "Stewart Oldfield (CFA, CAIA, Director at DB Trust Company Americas, DB Wealth Management) was the primary DB banker managing Epstein trust relationships including Caterpillar Trust. On Jan 30 2017, Oldfield and Todd Stevens met with Epstein at 4:15pm (same day as Boris Nikolic at 3pm and Leon Black at 5pm). Oldfield later emailed Epstein and Kahn about levered muni structures and moving cash balances to higher yielding money market in DB AG. Oldfield also managed Gratitude, Haze Trust, and processed wire inquiries.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1754
+      },
+      {
+        "date": "2017-01-30",
+        "label": "DB personnel involved with Caterpillar Trust: Stewart Oldfield (personal banker, appeared on account statements), Natalie Barak (VP/Relationship Officer), Brigid Macias (AVP), Daphne Cales (Director/Branch Manager), Cynthia Rodriguez (AVP). Oldfield met Epstein at 9 E 71st St on Jan 30, 2017 with Todd Stevens from DB and attended with Rich Kahn. Oldfield also involved with Gratitude America and BV 70 LLC (Leon Black entity).",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1770
+      },
+      {
+        "date": "2017-01-30",
+        "label": "DB wealth management team: Stewart Oldfield (RM), Daphne Cales (Branch Director), Brigid Macias (AVP), Natalie Barak (VP/RO), Cynthia Rodriguez (AVP), Bradley Gitlin",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1783
+      },
+      {
+        "date": "2017-2019",
+        "label": "financial with IGO Company LLC",
+        "type": "financial",
+        "entity": "IGO Company LLC",
+        "id": 935
+      },
+      {
+        "date": "2018-02",
+        "label": "Blockspace.media reports that Blockchain Capital made three payments in February 2018 to The 2017 Caterpillar Trust, citing Deutsche Bank transaction records. This aligns with the Dechert Exhibit B ledger showing $15M flowing to the trust. Blockchain Capital purchased 50 percent of Epstein's Coinbase stake for $15M.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1768
+      },
+      {
+        "date": "2018-02-05",
+        "label": "DB due diligence on the Caterpillar Trust triggered false-positive AML alerts against Caterpillar Inc. on Feb 5 2018. The trust was rushed through KYC case 01898372 because of an upcoming acquisition where funds will need to be available by 2/7/2018. Cynthia Rodriguez at DB confirmed Epstein was the trust creator and grantor. AML cleared it as company false positive since the trust had no connection to Caterpillar Inc.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1743
+      },
+      {
+        "date": "2018-02-05",
+        "label": "DB AML compliance reviewed Caterpillar Trust as 'a new account for the Southern Financial relationship; a relationship of the Private [Wealth Management]'. KYC prepared Feb 5, 2018 by Priyanka Rathore. OFAC/RDC generated 2 alerts (KYC 01898372). FIRCOSOFT classified entity as 'Company'. No negative media, D&B, Smartlinx, or court results found.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1758
+      },
+      {
+        "date": "2018-02-05",
+        "label": "Deutsche Bank PWM BIS-RESEARCH due diligence on Caterpillar Trust (KYC 01898372, dated 2/5/2018) found zero negative media, zero court cases, zero D&B records, zero Smartlinx records. OFAC RDC alerts triggered because of name similarity to Caterpillar Inc (NYSE: CAT, which was charged with accounting fraud) but were dismissed. AML compliance confirmed trust was a new account under the Southern Financial relationship, which had been a Private Bank client since 2013. Trust address listed as USVI.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1773
+      },
+      {
+        "date": "2018-02-06",
+        "label": "Bella Klein (Indyke PLLC staff) asked on 2/6/2018: 'I should probably know...but I don't recall...what is the Caterpillar Trust for?' This indicates even members of the inner circle handling trust paperwork did not understand its purpose. The trust was administered through Darren K Indyke PLLC at 575 Lexington Avenue 4th Floor NYC. Bebe Avdiu (legal assistant at Indyke PLLC) handled trust documents. Richard Kahn (HBRK Associates Inc, same address) managed trust finances and investment transfers.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1774
+      },
+      {
+        "date": "2018-02-14",
+        "label": "Bebe Avdiu, Legal Assistant at Darren K. Indyke PLLC at 575 Lexington Avenue 4th Floor, handled Caterpillar Trust paperwork in February 2018. On Feb 14 2018, she confirmed page 3 of a scanned document was correct and thanked the sender. This establishes Indyke PLLC as legal counsel for the trust.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1741
+      },
+      {
+        "date": "2018-02-21",
+        "label": "Caterpillar Trust DB Account 42969987 received 15M in three Blockchain Capital wire transfers on 2/21/2018: Blockchain Capital IV LP (10.5M), Blockchain Capital III Digital Liquid Venture Fund LP (2.625M), Blockchain Capital Parallel Fund IV LP (1.875M). As of 1/31/2019 trust held 13.65M balance. On 3/18/2019, 2.16M was transferred from DB Caterpillar Trust to fund the Butterfly Trust brokerage account at Morgan Stanley.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1769
+      },
+      {
+        "date": "2018-06",
+        "label": "Key Deutsche Bank personnel handling Caterpillar Trust account: Cynthia Rodriguez (Assistant VP, initial account opening and KYC), Stewart Oldfield (account contact from June 2018), Natalie Barak (VP, Relationship Officer, WM), Brigid Macias (Assistant VP, trust wind-down), Daphne Cales (Director, Banking Services and Branch Manager), Bradley Gitlin, Ruchi Lohani (DBOI Global Services). DB bankers were the ones who confirmed trust was wound down and proposed issuing check to trustees or accountant.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 1777
+      },
+      {
+        "date": "2019",
+        "label": "Epstein responded to Kahn's email about the Butterfly Trust funding from Caterpillar Trust, asking about Paul Barrett's account structure: ok, try to enjoy your vacation. how did paul barrets account shield us? im going to meet with QNB people this week. Kahn replied: Paul's account was in name of alphagroup. This links the Caterpillar Trust to an entity called alphagroup and to QNB (Qatar National Bank), and reveals concern about account shielding from scrutiny.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1751
+      },
+      {
+        "date": "2019-01",
+        "label": "DB account balance .65M (Jan 2019), dormant checking K (Apr-Nov 2018), wound down by April 2019",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1779
+      },
+      {
+        "date": "2019-03",
+        "label": "March 2019 restructuring: Caterpillar Trust wound down, .16M moved to Butterfly Trust at Morgan Stanley, accounts closed at Deutsche Bank",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1782
+      },
+      {
+        "date": "2019-03-18",
+        "label": "On March 18 2019, approx 2.16M transferred from DB Caterpillar Trust to fund the newly opened 2013 Butterfly Trust brokerage account at Morgan Stanley. Richard Kahn emailed Epstein: Good news. Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust. Managed by Andrew S. Atlas, Senior VP Equity Sales, Morgan Stanley Wealth Management, 1290 Avenue of the Americas. Wire via Citibank 111 Wall Street.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1727
+      },
+      {
+        "date": "2019-03-18",
+        "label": "Caterpillar Trust served as predecessor/feeder for the Butterfly Trust at Morgan Stanley. On March 18, 2019, Kahn emailed Epstein: 'Butterfly trust brokerage account has been opened at Morgan Stanley and will be funded today with approximately 2,160,000 from db caterpillar trust.' Morgan Stanley account was in name of 'The 2013 Butterfly Trust'.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1756
+      },
+      {
+        "date": "2019-03-18",
+        "label": "Caterpillar Trust DB account was closed by customer request in March 2019 and trust wound down by April 2019. On 3/18/2019, Bella Klein coordinated closing 2 DB accounts (Caterpillar Trust and 4659). On 3/29/2019, returned funds were rejected because account was already closed. On 4/4-5/2019, Deutsche Bank attempted to issue check to trustees but could not reopen account. Brigid Macias requested both trustees (Groff and Wallace) sign authorization letter. Trust administration concluded before Epstein July 2019 arrest.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1772
+      },
+      {
+        "date": "2019-03-23",
+        "label": "Richard Kahn demanded secrecy around trust operations. On March 23 2019, Kahn asked Stewart Oldfield to confirm he did not disclose Epstein's name when speaking with a banker. Oldfield replied: There was no discussion of any names. Not even the name of the trust. This demonstrates deliberate concealment of Epstein's connection to the trust from banking counterparties.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1747
+      },
+      {
+        "date": "2019-04-04",
+        "label": "DB internal communications about the Caterpillar Trust on April 4 2019 involved: Daphne Cales (Director, Banking Services and Branch Manager, DB Trust Company Americas), Natalie Barak (VP, Relationship Officer, DB Wealth Management), Brigid Macias (AVP), and Stewart Oldfield. Email references TTEES for The 2017 Caterpillar Trust indicating trustee-related matters.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1745
+      },
+      {
+        "date": "2019-04-05",
+        "label": "Caterpillar Trust had two trustees who must both sign authorization letters. On April 5 2019, Brigid Macias at Deutsche Bank Trust Company Americas sent letter to process check payable to Lesley Groff. Daphne Wallace and Lesley Groff both signed as trustees. Bella Klein coordinated. Groff joked about keeping the check. Stewart Oldfield was also consulted.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1737
+      },
+      {
+        "date": "2019-04-05",
+        "label": "April 5, 2019 'Follow Up - Caterpillar Trust' email chain: DB Trust Company Americas (Brigid Macias, AVP) instructed trustees Daphne Wallace and Lesley Groff to sign letter authorizing a check. Groff jokes 'do I get to keep the check?' Both trustees required to sign. Groff then spoke with Stewart Oldfield (DB). Confirms Wallace and Groff acted as active co-trustees.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1763
+      },
+      {
+        "date": "2019-11-19",
+        "label": "Akin Gump letter (11/19/2019) to SDNY responding to grand jury subpoena confirms 2013 Butterfly Trust and 2017 Caterpillar Trust were linked. Deutsche Bank received Butterfly Trust documents during Caterpillar Trust due diligence. The letter identifies beneficiaries of the 2013 Butterfly Trust whose payment records were compiled because of the Caterpillar Trust relationship. This links both trusts as parts of the same estate planning architecture.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1771
+      }
+    ]
+  }
+}

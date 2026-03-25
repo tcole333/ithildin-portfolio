@@ -1,0 +1,222 @@
+{
+  "name": "Lina Ortega",
+  "slug": "lina-ortega",
+  "aliases": [
+    "L. Ortega"
+  ],
+  "generated_at": "2026-03-24T18:00:00Z",
+  "last_updated": "2026-03-24T18:00:00Z",
+  "profile_ids": [
+    "port_watch",
+    "supply_shadows"
+  ],
+  "stats": {
+    "total_findings": 4,
+    "total_connections": 3,
+    "total_entities": 5
+  },
+  "curation": {
+    "system_role": "An intermediary who translated between a public buyer, a thin local shell, and an offshore advisory service.",
+    "lead": "<p>Lina Ortega is the human bridge in the demo investigation. The public record is incomplete, but together the procurement packet [DOCUMENTCLOUD:24402693], the hosted governance excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11], and the interview-note source record [PORT-WATCH-CALL-NOTES-2025-02-14] place her inside the handoff between Harbor Ledger and Meridian Port Authority.</p>",
+    "sections": [
+      {
+        "id": "operating-role",
+        "title": "Operating Role",
+        "content": "<p>Ortega appears as an observer in Harbor Ledger governance materials and as a named coordination contact in reporting notes [Finding #9007, #9006]. That makes her an ideal demo subject for showing how Ithildin separates inspectable artifacts from metadata-only corroboration.</p>"
+      },
+      {
+        "id": "public-footprint",
+        "title": "Public Footprint",
+        "content": "<p>Her public footprint is sparse. The strongest externally inspectable references sit in the procurement packet and registry trail [DOCUMENTCLOUD:24402693][REG:FL:L23000214567]. The rest of the trail depends on well-described but non-public reporting notes [Finding #9008, #9009].</p>"
+      }
+    ],
+    "applicable_models": [
+      "deniable-procurement-corridor"
+    ],
+    "open_questions": [
+      "Did Ortega hold a formal role at Estuary Advisory or only operate as an external fixer?",
+      "Were her communications disclosed to Meridian's ethics or procurement compliance staff?"
+    ],
+    "key_identifiers": {
+      "entities": [
+        {
+          "name": "Harbor Ledger Holdings LLC",
+          "role": "procurement vehicle",
+          "jurisdiction": "Florida"
+        },
+        {
+          "name": "Meridian Port Authority",
+          "role": "public buyer",
+          "jurisdiction": "United States"
+        }
+      ],
+      "jurisdictions": [
+        "Florida",
+        "United Kingdom"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "9006",
+      "target_name": "Lina Ortega",
+      "profile_id": "port_watch",
+      "summary": "Reporting notes describe Ortega as the person who surfaced Harbor Ledger to Meridian's procurement staff.",
+      "detail": "This finding anchors the metadata-only source record in a personnel-focused dossier.",
+      "finding_type": "relationship",
+      "confidence": "medium",
+      "claim_type": "reported_statement",
+      "verification_status": "reviewed",
+      "date_of_event": "2025-02-14",
+      "source_datasets": "reporting_notes",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        {
+          "evidence_type": "interview_notes",
+          "evidence_ref": "PORT-WATCH-CALL-NOTES-2025-02-14",
+          "source_quote": "Lina was the one who brought Harbor Ledger into the room.",
+          "source_page": "interview memo section 2",
+          "assessment": "Metadata-only source record"
+        }
+      ]
+    },
+    {
+      "id": "9007",
+      "target_name": "Lina Ortega",
+      "profile_id": "supply_shadows",
+      "summary": "Hosted board minutes show Ortega attending as an observer during the Estuary Advisory addendum discussion.",
+      "detail": "The example demonstrates a hosted-copy source record with a public artifact.",
+      "finding_type": "document",
+      "confidence": "high",
+      "claim_type": "direct_quote",
+      "verification_status": "reviewed",
+      "date_of_event": "2024-11-18",
+      "source_datasets": "demo_artifact",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        {
+          "evidence_type": "board_minutes",
+          "evidence_ref": "HARBOR-LEDGER-BOARD-MINUTES-2024-11",
+          "source_quote": "Observer present: Lina Ortega.",
+          "source_page": "attendees",
+          "assessment": "Hosted copy"
+        }
+      ]
+    },
+    {
+      "id": "9008",
+      "target_name": "Lina Ortega",
+      "profile_id": "port_watch",
+      "summary": "The public procurement packet includes an intermediary fee structure matching Ortega's consultancy brand.",
+      "detail": "This is the clearest public artifact tying Ortega to the transaction narrative.",
+      "finding_type": "financial",
+      "confidence": "high",
+      "claim_type": "direct_quote",
+      "verification_status": "reviewed",
+      "date_of_event": "2025-01-05",
+      "source_datasets": "documentcloud",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        {
+          "evidence_type": "procurement_packet",
+          "evidence_ref": "DOCUMENTCLOUD:24402693",
+          "source_quote": "Intermediary coordination retainer: 4.5% of implementation value.",
+          "source_page": "fee schedule",
+          "assessment": "Public artifact"
+        }
+      ]
+    },
+    {
+      "id": "9009",
+      "target_name": "Lina Ortega",
+      "profile_id": "supply_shadows",
+      "summary": "Registry and onboarding evidence place Ortega in the same agent and contact cluster as Harbor Ledger and Estuary Advisory.",
+      "detail": "This finding demonstrates multi-source synthesis using only public provider-backed references.",
+      "finding_type": "corporate",
+      "confidence": "medium",
+      "claim_type": "synthesis",
+      "verification_status": "reviewed",
+      "date_of_event": "2024-12-01",
+      "source_datasets": "registry",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        {
+          "evidence_type": "registry",
+          "evidence_ref": "REG:FL:L23000214567 REG:UK:12345678",
+          "source_quote": "The same contact domain and agent cluster appear across the Florida and UK records.",
+          "source_page": "entity filings",
+          "assessment": "Public artifacts"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "c-9006",
+      "profile_id": "port_watch",
+      "person_a": "Lina Ortega",
+      "person_b": "Harbor Ledger Holdings LLC",
+      "other_person": "Harbor Ledger Holdings LLC",
+      "other_person_slug": "harbor-ledger-holdings",
+      "relationship_type": "advisory",
+      "description": "Reporting notes and governance materials place Ortega in the Harbor Ledger deal flow.",
+      "strength": "medium",
+      "verification_status": "reviewed",
+      "date_range": "2024-11 to 2025-02",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        "PORT-WATCH-CALL-NOTES-2025-02-14",
+        "HARBOR-LEDGER-BOARD-MINUTES-2024-11"
+      ]
+    },
+    {
+      "id": "c-9007",
+      "profile_id": "supply_shadows",
+      "person_a": "Lina Ortega",
+      "person_b": "Meridian Port Authority",
+      "other_person": "Meridian Port Authority",
+      "other_person_slug": "meridian-port-authority",
+      "relationship_type": "contracts_with",
+      "description": "The procurement packet positions Ortega inside Meridian's coordination layer.",
+      "strength": "medium",
+      "verification_status": "reviewed",
+      "date_range": "2025-01",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        "DOCUMENTCLOUD:24402693"
+      ]
+    },
+    {
+      "id": "c-9008",
+      "profile_id": "supply_shadows",
+      "person_a": "Lina Ortega",
+      "person_b": "Estuary Advisory Ltd",
+      "other_person": "Estuary Advisory Ltd",
+      "other_person_slug": "estuary-advisory-ltd",
+      "relationship_type": "advisory",
+      "description": "Public registry evidence links Ortega's operating context to Estuary Advisory's entity trail.",
+      "strength": "weak",
+      "verification_status": "reviewed",
+      "date_range": "2024-12",
+      "created_at": "2026-03-24T18:00:00Z",
+      "evidence": [
+        "REG:UK:12345678"
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2024-11-18",
+      "event": "Ortega appears in Harbor Ledger governance notes as an observer."
+    },
+    {
+      "date": "2025-01-05",
+      "event": "Procurement packet shows an intermediary fee schedule aligned with Ortega's role."
+    },
+    {
+      "date": "2025-02-14",
+      "event": "Reporting notes identify Ortega as the person who introduced Harbor Ledger to Meridian staff."
+    }
+  ]
+}

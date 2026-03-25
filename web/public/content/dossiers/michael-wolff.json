@@ -1,0 +1,1606 @@
+{
+  "name": "Michael Wolff",
+  "slug": "michael-wolff",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.293785",
+  "last_updated": "2026-02-17T22:21:51",
+  "stats": {
+    "total_findings": 13,
+    "total_connections": 24,
+    "total_entities": 1,
+    "finding_types": {
+      "communication": 7,
+      "relationship": 3,
+      "intelligence": 2,
+      "location": 1
+    },
+    "connection_types": {
+      "intelligence": 6,
+      "social": 4,
+      "advisory": 5,
+      "corporate": 8,
+      "financial": 1
+    },
+    "last_updated": "2026-02-17T22:21:51"
+  },
+  "findings": [
+    {
+      "id": 182,
+      "finding_type": "communication",
+      "summary": "Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not be limited to, your view of the global financial structure and your personal and business story. This will involve a regular schedule of interviews over the next year.' Wolff's title at the time was Contributing Editor at Vanity Fair, Editorial Director at Adweek, Founder of Newser.com.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2011-07-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:51:49",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02541767",
+          "source_quote": "Jeffrey: Just wanted to follow-up on our discussion yesterday. The book I have in mind will focus on, although not be limited to, your view of the global financial structure and your personal and business story. This will involve a regular schedule of interviews over the next year. I'm excited about the project. I look forward to seeing you in Paris at the end of the month.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "finding_type": "communication",
+      "summary": "Wolff proposed a comprehensive PR strategy for Epstein on March 18, 2016, to counter the upcoming James Patterson book 'Filthy Rich'. Strategy included: (1) anti-Trump voice as political cover, (2) op-ed and high-profile TV interview (Charlie Rose suggested), (3) social media efforts, (4) lawyer's letter to publisher about Patterson not being real author. Described it as 'a big, comprehensive, expensive effort.'",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2016-03-18",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:51:40",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02469825",
+          "source_quote": "you do need an immediate counter narrative to the book. I believe Trump offers an ideal opportunity. It's a chance to make the story about something other than you...Also, becoming an anti-Trump voice gives you a certain political cover...I think a strategic plan, involving your public identity, philanthropic activities and interests, and the development of media allies, ought finally to be put in place. A big, comprehensive, expensive effort.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "finding_type": "relationship",
+      "summary": "Wolff connected Epstein to Brown Lloyd James, a London crisis management firm, in April 2017 and March 2019. BLJ principals included Sir Nicholas Lloyd and John Watts, former Blair adviser. Wolff noted US firms would be scared off but BLJ would not.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:52:54",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02395957",
+          "source_quote": "very good at running interference with the tabloids and shaping their coverage",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02632131",
+          "source_quote": "superior crisis management people",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "finding_type": "relationship",
+      "summary": "Wolff also connected Epstein with Juleanna Glover (Elon Musk DC-based PR person, Ridgely Walsh) and Matthew Hiltzik (Hiltzik Strategies) for PR consultation in May 2017. Wolff was Epstein go-to for all media strategy, connecting him to his own PR network. Wolff described Glover as exceedingly smart and well connected.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-05",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:24",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366035",
+          "source_quote": "From: \nMichael Wolff < \nSent: \nSunday, April 23, 2017 8:15 PM \nTo: \nJeffrey Epstein \nSubject: \nPR \nJust had a chat with Hiltzig. You should definitely speak =0 him. How would you like me to set it up? \n1 \nEFTA_R1_01362067 \nEFTA02366035",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02650850",
+          "source_quote": "Ive spoken to Juleanna Glover about you. Shes Elon Musks DC-based PR person",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "finding_type": "relationship",
+      "summary": "Wolff served as intermediary between Epstein and Steve Bannon from early 2017 through 2019. Key activities: (1) Forwarded Bannon communications to Epstein, (2) Arranged Epstein-Bannon meetings at 9 E 71st St (Oct 2017), (3) Passed intelligence from Bannon (crown prince quote Apr 2017, McMaster/Murdoch Aug 2017), (4) Asked Epstein to suggest to Bannon that Wolff had tapes of their discussions (Jan 2018), (5) Showed Bannon Epstein YouTube script draft (Feb 2019), (6) Coordinated New Years 2019 social gathering: Dangene, Bannon, Wolff, Reid, Woody Allen.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2017-10",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:06",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02376015",
+          "source_quote": "From: \nMichael Wolff \nSent: \nThursday, April 27, 2017 12:57 PM \nTo: \nJeffrey Epstein \nSubject: \ncrown prince \nWas with Bannon last night who was saying how much Trump liked deputy crown prince: \"Real guy's guy, he loved him. \nThinks they can do...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02542648",
+          "source_quote": "Might be useful for me if in your chat with SB you suggest that I might have tapes of our discussion",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02587125",
+          "source_quote": "From: \nMichael Wolff < \nSent: \nSaturday, October 7, 2017 11:16 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: JE \n \nForwarded message -----_---\nFrom: Michael Wolff \n=>> \nDate: Sat, Oct 7, 2017 at 7:15 PM \nTo: ‹\n> \nCool \nOn Sat, Oct 7, 2017 at 6:52 PM...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02589079",
+          "source_quote": "From: \nMichael Wolff < \nSent: \nMonday, October 9, 2017 1:18 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: How's it looking...? \n \nForwarded messag= \nFrom: Steve Bannon < \nDate: Sun, Oct 8, 2017 at 10:38 PM \nSubject: Re: How's =t looking...? \nTo: Michael...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633141",
+          "source_quote": "From: \nMichael Wolff < \nSent: \nThursday, February 28, 2019 9:49 PM \nTo: \nJeffrey Epstein \nSubject: \nYouTube \nI showed SB some of that draft script. He had interesting =nd helpful thoughts. \n> \n1 \nEFTA_R1_01855629 \nEFTA02633141",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "finding_type": "communication",
+      "summary": "Wolff managed Woody Allen PR through Epstein network, Jan 2018 through Feb 2019. Strategy: turn MeToo allegations into a love story with Soon-Yi. Epstein critiqued Woody strategy: 'all old thinkers, no social media strategy.' Wolff and Epstein discussed Barry Diller suppressed support, Amazon dropping Woody, and YouTube social media video strategy. Feb 2019: Wolff drafted a script for social media video. Wolff also connected Epstein socially with Allen/Soon-Yi for dinners.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:16",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02471760",
+          "source_quote": "From: \nMichael Wolff \nSent: \nTuesday, April 1/IIIIII\nin \nTo: \nJeffrey Epstein \nSubject: \nOf interest \nI had lunch today with Barry Diller who said that in his =ecent interview with Maureen Dowd, very prominently played, \nhe voiced his =ull support...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02537406",
+          "source_quote": "He has to turn this into a love story with Soon-Yi. Shes the only one who can save him",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02633284",
+          "source_quote": "From: \nMichael Wolff < \nSent: \nWednesday, February 27, 2019 1:52 PM \nTo: \nSubject: \nRe: script draft \nI'd disagree. If you have an interviewer you have to s=bmit to a tough interview, otherwise it really looks canned. But, \nmore imp=rtantly, I think...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "finding_type": "intelligence",
+      "summary": "Wolff identified the Stormy Daniels story as a Bannon leak (Jan 13, 2018, email subject: Porn star, text: I think thats a Bannon leak). Epstein forwarded to Wolff a PageSix article about Bannon trying to get on Epsteins good side (Aug 2018). Wolff asked: Harmless. Do you think Bannon spilled? Epstein mentioned a doorman. Wolff advised: you should pay him off.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2018-01-13",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:04",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02538373",
+          "source_quote": "I think thats a Bannon leak",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02604387",
+          "source_quote": "Harmless. Do you think Bannon spilled? \nOn Sat, Aug 11, 2018 at 4:55 PM jeffrey E. jeevacation@gmail.com> wrot=: \nhttps://pagesix.com/2018/08/11/steve-bannon-tryi=g-to-get-on-disgraced-jeffrey-epsteins-good-side/ \n \nThe informa=ion contained in this communication is \nconfidential, may be...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02604502",
+          "source_quote": "you should pay him off.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "finding_type": "communication",
+      "summary": "Wolff had Epstein review and approve his published articles before publication (June 2018). Email chain shows Wolff sent draft needing assessment whether too risky to do, specific problematic passages to isolate, and noting it is easy enough not to do the piece. This editorial vetting arrangement gave Epstein control over Wolffs published content. Wolff regularly sent Epstein his published articles for review: Guardian piece Sep 2014, Hollywood Reporter column on Hillary/Trump Aug 2016, Viacom column Jun 2016.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:14",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02370667",
+          "source_quote": "From: \nMichael Wolff \nSent: \nThursday, September 11, 2014 4:01 PM \nTo: \nJeffrey Epstein \nSubject: \nFYI: My Guardian piece \nhttp://www.gq-magazine.co.uk/comment/articles/2014-06/02/michael-wolff-the-guardian \n1 \nEFTA_R1_01372732 \nEFTA02370667",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02385998",
+          "source_quote": "From: \nMichael Wolff \nSent: \nWednesday, August , \n1 : \nTo: \nSubject: \nJeffrey Epstein \nFYI \nhttp://www.hollywoodreporter.com/features/michael-wolff-hillarys-delusion-trumps-916733 \n1 \nEFTA_R1_01405440 \nEFTA02385998",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02459371",
+          "source_quote": "From: \nMichael Wolff < \nSent: \nWednesday, June 22, 2016 4:13 PM \nTo: \nJeffrey Epstein \nSubject: \nMy Viacom column from this morning \nhttp://www.hollywoodreporter.cominews/michael-wolff-how-a-cornered-905196?utm_source=twitter \n1 \nEFTA_R1_01564369...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02577402",
+          "source_quote": "Based on this draft, an assessment if this is just too risky to do; or, if it is possible to isolate them, the specific passages which might still be problematic",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "finding_type": "communication",
+      "summary": "Wolff proposed a documentary/video project about Epstein in Aug 2018. Recommended videographer Stevan Keane for shoot at Netflix broadcast standards. Cost: 8K per day minimum for single camera talking head, 15K for full cinematic experience. Epstein suggested filming in Boston with Larry Summers, James Watson, Noam Chomsky, and institute people. Wolff separately proposed article with interviews of Epstein associates: Chomsky, Watson, Ehud Barak, Terje (Rod-Larsen), Woody Allen.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-08",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:33",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02600301",
+          "source_quote": "single camera talking head shoot that would meet Netflix broadcast standards for 8K per day minimum",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02600420",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nWednesday, August 1, 2018 7:43 PM \nTo: \nMichael Wolff \nSubject: \nRe: Shoot Day Cost \nill ask noam if he is comoing to boston. maybe=C24> institue people . larry summers.? james watson woo=y? \nOn =ed,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02660443",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nSaturday, May 19, 2018 2:14 PM \nTo: \nMichael Wolff \nIm thinking if you shoudl interview a bunch of characters =or a later publication of an article . when me too has calmed \n=own. chomsky watson...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "finding_type": "communication",
+      "summary": "Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would make Epstein look like a credible player -- former friend of Trump, advisor to world leaders, sought after person. Epstein asked what moniker Wolff would use. Wolff met Bannon for 3 hours (March 2018), and Brad Karp offered help on next book. Epstein sent Fire and Fury link to at least Nicholas Ribis, Anas Alrasheed, Peter Thiel, Kathy Ruemmler, Melanie Spinella, and Stephen Hanson.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2018-11-05",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:56",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02495634",
+          "source_quote": "Three hours with SB who believes DJT won't last t= the mid terms. Also saw Brad Karp who is super menchy and offering \nmuch h=lp on next book. \n1",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616217",
+          "source_quote": "I was thinking of opening with you and Bannon talking about Trump. Would let you sound smart and offer what I think would be a crowd-pleasing perspective, and make you seem like a credible player--former friend of Trump, advisor to world leaders, sought after person",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "finding_type": "communication",
+      "summary": "Wolff authored the Rybolovlev manuscript passage and sent it to Epstein on Feb 1, 2019 for editing. The manuscript (used in Wolff's 'Siege' book) describes Trump buying the Palm Beach house through 'Trump Properties LLC' financed by Deutsche Bank, with Epstein as original prospective buyer. Epstein personally edited the draft, correcting factual details (price changed from '36M' to 'stalking horse at 36m', adding that Trump 'should have had a 50 million plus capital gain'). Two versions exist: EFTA02628984 (Wolff's draft) and EFTA02628958 (Epstein's edited version with subject line 'first edit').",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2019-02-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:52:00",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628958",
+          "source_quote": "Friday, February 1, 2019 4:47 PM \nMichael Wolff \nFwd: FYI \n \nForwarded messa e \nFr=m: Michael Wolff  \n--000000000000f84d460580d7e377--",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628984",
+          "source_quote": "Needs edit but ... ie 36\\! M Ryboloev not known in 05, Talk later",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "finding_type": "intelligence",
+      "summary": "Epstein sent Wolff detailed self-narrative on Feb 1, 2019 (same day as Rybolovlev manuscript edit). Narrative covers: (1) His criminal case history with self-serving characterizations, (2) Trump Palm Beach house deal details with Trump as knowing front man, (3) Claims Trump knew of and visited during period of abuse, citing John Alessi houseman testimony, (4) Abe Gosman bankruptcy house details, (5) Questions about Trump 2008 tax return, (6) Deutsche Bank 640M loan with 40M personal guarantee, (7) Suspicious death of Joe Recarey (lead detective) in June 2018. This narrative was source material for Siege book.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2019-02-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:45",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628214",
+          "source_quote": "worked at Mara Lago. Trump knew of it and came to my house many times during that period. The testimony of the houseman John allessi confirmed it.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "finding_type": "location",
+      "summary": "ACRIS shows Michael Wolff (Epstein correspondent, 303 emails) lived at 207 E 74th St NYC -- walking distance from Epstein at 9 E 71st (6 blocks). Transferred 275K to Alison Anthoine at same address Jul 9 2019 (3 days after Epstein arrest Jul 6). Also owned 43 Fifth Ave purchased for 4.37M in Nov 2005 with Polly Draper. Geographic proximity to Epstein mansion notable given the extensive correspondence and Wolff's role in managing Epstein's PR narrative.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-07-09",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 23:07:11",
+      "target_name": "Michael Wolff",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2005111501823001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS:2019070901188001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 97,
+      "person_a": "Michael Wolff",
+      "person_b": "Steve Bannon",
+      "relationship_type": "intelligence",
+      "description": "Wolff served as intermediary. Forwarded WH intel Bannon->Wolff->Epstein. Proposed media project. Assessed leak risks.",
+      "strength": "strong",
+      "date_range": "2017-04 to 2019-01",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:09",
+      "other_person": "Steve Bannon",
+      "other_person_slug": "steve-bannon",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02376015",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02538373",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02616217",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "person_a": "Michael Wolff",
+      "person_b": "Steve Bannon",
+      "relationship_type": "social",
+      "description": "Wolff intermediary between Bannon and Epstein, forwarded communications and arranged meetings",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:40",
+      "other_person": "Steve Bannon",
+      "other_person_slug": "steve-bannon",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02587125",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "person_a": "Michael Wolff",
+      "person_b": "Woody Allen",
+      "relationship_type": "social",
+      "description": "Wolff managed Woody Allen PR through Epstein, co-managed crisis strategy on MeToo allegations",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:40",
+      "other_person": "Woody Allen",
+      "other_person_slug": "woody-allen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02537406",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Michael Wolff",
+      "relationship_type": "advisory",
+      "description": "Wolff served as PR strategist and media adviser to Epstein 2011-2019, 303 emails total",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:40",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02469825",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 605,
+      "person_a": "Michael Wolff",
+      "person_b": "Dmitry Rybolovlev",
+      "relationship_type": "intelligence",
+      "description": "Manuscript with Epstein edits re: Rybolovlev/Trump [Wave 3]",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 00:46:53",
+      "other_person": "Dmitry Rybolovlev",
+      "other_person_slug": "dmitry-rybolovlev",
+      "evidence": []
+    },
+    {
+      "id": 1792,
+      "person_a": "Michael Wolff",
+      "person_b": "Tree of Life Limited",
+      "relationship_type": "corporate",
+      "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Tree of Life Limited",
+      "other_person_slug": "tree-of-life-limited",
+      "evidence": []
+    },
+    {
+      "id": 1796,
+      "person_a": "Michael Wolff",
+      "person_b": "Nicholas Ribis",
+      "relationship_type": "corporate",
+      "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Nicholas Ribis",
+      "other_person_slug": "nicholas-ribis",
+      "evidence": []
+    },
+    {
+      "id": 1797,
+      "person_a": "Michael Wolff",
+      "person_b": "Peter Thiel",
+      "relationship_type": "corporate",
+      "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Peter Thiel",
+      "other_person_slug": "peter-thiel",
+      "evidence": []
+    },
+    {
+      "id": 1790,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Michael Wolff",
+      "relationship_type": "corporate",
+      "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1791,
+      "person_a": "Mark Epstein",
+      "person_b": "Michael Wolff",
+      "relationship_type": "corporate",
+      "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Mark Epstein",
+      "other_person_slug": "mark-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1793,
+      "person_a": "Anas Alrasheed",
+      "person_b": "Michael Wolff",
+      "relationship_type": "corporate",
+      "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Anas Alrasheed",
+      "other_person_slug": "anas-alrasheed",
+      "evidence": []
+    },
+    {
+      "id": 1794,
+      "person_a": "Brad Karp",
+      "person_b": "Michael Wolff",
+      "relationship_type": "corporate",
+      "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Brad Karp",
+      "other_person_slug": "brad-karp",
+      "evidence": []
+    },
+    {
+      "id": 1795,
+      "person_a": "Kathryn Ruemmler",
+      "person_b": "Michael Wolff",
+      "relationship_type": "corporate",
+      "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would ",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Kathryn Ruemmler",
+      "other_person_slug": "kathryn-ruemmler",
+      "evidence": []
+    },
+    {
+      "id": 1839,
+      "person_a": "Gates-Epstein DAF",
+      "person_b": "Michael Wolff",
+      "relationship_type": "financial",
+      "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:25",
+      "other_person": "Gates-Epstein DAF",
+      "other_person_slug": "gates-epstein-daf",
+      "evidence": []
+    },
+    {
+      "id": 2085,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Michael Wolff",
+      "relationship_type": "intelligence",
+      "description": "Epstein used Wolff as a White House intelligence source in March 2017, asking him to identify upcoming ambassadorial appointments. Wolff confirmed he was 'at WH all week' and offered to 'fish' for names. Epstein specifically asked about Petraeus for a Trump administration role.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 22:21:51",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02656903",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Finding #3464",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "person_a": "Michael Wolff",
+      "person_b": "Reid Weingarten",
+      "relationship_type": "advisory",
+      "description": "Epstein directed Wolff PR strategy on Weingarten quotes. Epstein to Wolff: weingarten quotes out. governone has not been sentenced.",
+      "strength": "medium",
+      "date_range": "2015",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:08:37",
+      "other_person": "Reid Weingarten",
+      "other_person_slug": "reid-weingarten",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02512781",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "person_a": "Ken Starr",
+      "person_b": "Michael Wolff",
+      "relationship_type": "social",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:53:43",
+      "other_person": "Ken Starr",
+      "other_person_slug": "ken-starr",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629642",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "person_a": "Michael Wolff",
+      "person_b": "Oliver Lloyd",
+      "relationship_type": "advisory",
+      "description": "Wolff connected Epstein to BLJ crisis management firm run by Lloyd",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:40",
+      "other_person": "Oliver Lloyd",
+      "other_person_slug": "oliver-lloyd",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02632131",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Michael Wolff",
+      "relationship_type": "intelligence",
+      "description": "Wolff sent Epstein his manuscript about the Trump-Rybolovlev deal for 'Siege'. Epstein edited and returned it (EFTA02628958), adding details about Deutsche Bank and correcting his stalking horse bid amount. Epstein shared documentary evidence (Gosman deed) and speculative commentary about Recarey's death and Rybolovlev security payments.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:39:16",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1394,
+      "person_a": "Michael Wolff",
+      "person_b": "Tom Barrack",
+      "relationship_type": "intelligence",
+      "description": "Wolff contacted Barrack independently Apr 2017. Epstein asked to introduce Wolff to Barrack for Fire and Fury Feb 2017.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 02:28:04",
+      "other_person": "Tom Barrack",
+      "other_person_slug": "tom-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02659919",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1422,
+      "person_a": "Michael Wolff",
+      "person_b": "Tom Barrack",
+      "relationship_type": "intelligence",
+      "description": "Epstein introduced Wolff to Barrack for Fire and Fury book Feb 2017. Mar 2017 Epstein asked Barrack what details to give Wolff. Wolff told Epstein just passing reference in book. Epstein proposed birthday party with woody barrack bannon ruemmler Jan 2018.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 02:35:56",
+      "other_person": "Tom Barrack",
+      "other_person_slug": "tom-barrack",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02353103",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02538537",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02659919",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1608,
+      "person_a": "Kirkland & Ellis",
+      "person_b": "Michael Wolff",
+      "relationship_type": "social",
+      "description": "Ken Starr (K&E partner) coordinated quotes for Michael Wolff on presidential prosecution matters (Jun 2018), with Starr informing Epstein: 'I gave Michael the all clear.' Wolff was Epstein's top correspondent (303 emails).",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:15:27",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02629642",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "person_a": "Juleanna Glover",
+      "person_b": "Michael Wolff",
+      "relationship_type": "advisory",
+      "description": "Wolff connected Epstein to Glover, Elon Musks DC PR person, for strategic consultation",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:40",
+      "other_person": "Juleanna Glover",
+      "other_person_slug": "juleanna-glover",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02650850",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "person_a": "Matthew Hiltzik",
+      "person_b": "Michael Wolff",
+      "relationship_type": "advisory",
+      "description": "Wolff connected Epstein to Hiltzik Strategies PR firm",
+      "strength": "weak",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:41",
+      "other_person": "Matthew Hiltzik",
+      "other_person_slug": "matthew-hiltzik",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02366035",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "associated",
+      "date_start": null,
+      "date_end": null,
+      "source": "Wave 3 Wolff PR",
+      "entity_id": 196,
+      "entity_name": "Black Bag Media",
+      "entity_type": "unknown",
+      "jurisdiction": "VA",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2011-07-31",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not be limited to, your view of the global financial structure and your personal and business story. This will involve a regular schedule of interviews over the next year.' Wolff's title at the time was Contributing Editor at Vanity Fair, Editorial Director at Adweek, Founder of Newser.com.",
+      "confidence": "confirmed",
+      "id": 182
+    },
+    {
+      "date": "2015",
+      "type": "connection",
+      "relationship_type": "advisory",
+      "description": "Epstein directed Wolff PR strategy on Weingarten quotes. Epstein to Wolff: weingarten quotes out. governone has not been sentenced.",
+      "other_person": "Reid Weingarten",
+      "id": 28
+    },
+    {
+      "date": "2016-03-18",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff proposed a comprehensive PR strategy for Epstein on March 18, 2016, to counter the upcoming James Patterson book 'Filthy Rich'. Strategy included: (1) anti-Trump voice as political cover, (2) op-ed and high-profile TV interview (Charlie Rose suggested), (3) social media efforts, (4) lawyer's letter to publisher about Patterson not being real author. Described it as 'a big, comprehensive, expensive effort.'",
+      "confidence": "high",
+      "id": 180
+    },
+    {
+      "date": "2017-04",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Wolff connected Epstein to Brown Lloyd James, a London crisis management firm, in April 2017 and March 2019. BLJ principals included Sir Nicholas Lloyd and John Watts, former Blair adviser. Wolff noted US firms would be scared off but BLJ would not.",
+      "confidence": "high",
+      "id": 196
+    },
+    {
+      "date": "2017-04 to 2019-01",
+      "type": "connection",
+      "relationship_type": "intelligence",
+      "description": "Wolff served as intermediary. Forwarded WH intel Bannon->Wolff->Epstein. Proposed media project. Assessed leak risks.",
+      "other_person": "Steve Bannon",
+      "id": 97
+    },
+    {
+      "date": "2017-05",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Wolff also connected Epstein with Juleanna Glover (Elon Musk DC-based PR person, Ridgely Walsh) and Matthew Hiltzik (Hiltzik Strategies) for PR consultation in May 2017. Wolff was Epstein go-to for all media strategy, connecting him to his own PR network. Wolff described Glover as exceedingly smart and well connected.",
+      "confidence": "high",
+      "id": 205
+    },
+    {
+      "date": "2017-10",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Wolff served as intermediary between Epstein and Steve Bannon from early 2017 through 2019. Key activities: (1) Forwarded Bannon communications to Epstein, (2) Arranged Epstein-Bannon meetings at 9 E 71st St (Oct 2017), (3) Passed intelligence from Bannon (crown prince quote Apr 2017, McMaster/Murdoch Aug 2017), (4) Asked Epstein to suggest to Bannon that Wolff had tapes of their discussions (Jan 2018), (5) Showed Bannon Epstein YouTube script draft (Feb 2019), (6) Coordinated New Years 2019 social gathering: Dangene, Bannon, Wolff, Reid, Woody Allen.",
+      "confidence": "high",
+      "id": 199
+    },
+    {
+      "date": "2018-01",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff managed Woody Allen PR through Epstein network, Jan 2018 through Feb 2019. Strategy: turn MeToo allegations into a love story with Soon-Yi. Epstein critiqued Woody strategy: 'all old thinkers, no social media strategy.' Wolff and Epstein discussed Barry Diller suppressed support, Amazon dropping Woody, and YouTube social media video strategy. Feb 2019: Wolff drafted a script for social media video. Wolff also connected Epstein socially with Allen/Soon-Yi for dinners.",
+      "confidence": "high",
+      "id": 202
+    },
+    {
+      "date": "2018-01-13",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Wolff identified the Stormy Daniels story as a Bannon leak (Jan 13, 2018, email subject: Porn star, text: I think thats a Bannon leak). Epstein forwarded to Wolff a PageSix article about Bannon trying to get on Epsteins good side (Aug 2018). Wolff asked: Harmless. Do you think Bannon spilled? Epstein mentioned a doorman. Wolff advised: you should pay him off.",
+      "confidence": "confirmed",
+      "id": 212
+    },
+    {
+      "date": "2018-06",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff had Epstein review and approve his published articles before publication (June 2018). Email chain shows Wolff sent draft needing assessment whether too risky to do, specific problematic passages to isolate, and noting it is easy enough not to do the piece. This editorial vetting arrangement gave Epstein control over Wolffs published content. Wolff regularly sent Epstein his published articles for review: Guardian piece Sep 2014, Hollywood Reporter column on Hillary/Trump Aug 2016, Viacom column Jun 2016.",
+      "confidence": "high",
+      "id": 213
+    },
+    {
+      "date": "2018-08",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff proposed a documentary/video project about Epstein in Aug 2018. Recommended videographer Stevan Keane for shoot at Netflix broadcast standards. Cost: 8K per day minimum for single camera talking head, 15K for full cinematic experience. Epstein suggested filming in Boston with Larry Summers, James Watson, Noam Chomsky, and institute people. Wolff separately proposed article with interviews of Epstein associates: Chomsky, Watson, Ehud Barak, Terje (Rod-Larsen), Woody Allen.",
+      "confidence": "high",
+      "id": 208
+    },
+    {
+      "date": "2018-11-05",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would make Epstein look like a credible player -- former friend of Trump, advisor to world leaders, sought after person. Epstein asked what moniker Wolff would use. Wolff met Bannon for 3 hours (March 2018), and Brad Karp offered help on next book. Epstein sent Fire and Fury link to at least Nicholas Ribis, Anas Alrasheed, Peter Thiel, Kathy Ruemmler, Melanie Spinella, and Stephen Hanson.",
+      "confidence": "confirmed",
+      "id": 211
+    },
+    {
+      "date": "2019-02-01",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Wolff authored the Rybolovlev manuscript passage and sent it to Epstein on Feb 1, 2019 for editing. The manuscript (used in Wolff's 'Siege' book) describes Trump buying the Palm Beach house through 'Trump Properties LLC' financed by Deutsche Bank, with Epstein as original prospective buyer. Epstein personally edited the draft, correcting factual details (price changed from '36M' to 'stalking horse at 36m', adding that Trump 'should have had a 50 million plus capital gain'). Two versions exist: EFTA02628984 (Wolff's draft) and EFTA02628958 (Epstein's edited version with subject line 'first edit').",
+      "confidence": "confirmed",
+      "id": 184
+    },
+    {
+      "date": "2019-02-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein sent Wolff detailed self-narrative on Feb 1, 2019 (same day as Rybolovlev manuscript edit). Narrative covers: (1) His criminal case history with self-serving characterizations, (2) Trump Palm Beach house deal details with Trump as knowing front man, (3) Claims Trump knew of and visited during period of abuse, citing John Alessi houseman testimony, (4) Abe Gosman bankruptcy house details, (5) Questions about Trump 2008 tax return, (6) Deutsche Bank 640M loan with 40M personal guarantee, (7) Suspicious death of Joe Recarey (lead detective) in June 2018. This narrative was source material for Siege book.",
+      "confidence": "high",
+      "id": 209
+    },
+    {
+      "date": "2019-07-09",
+      "type": "finding",
+      "finding_type": "location",
+      "summary": "ACRIS shows Michael Wolff (Epstein correspondent, 303 emails) lived at 207 E 74th St NYC -- walking distance from Epstein at 9 E 71st (6 blocks). Transferred 275K to Alison Anthoine at same address Jul 9 2019 (3 days after Epstein arrest Jul 6). Also owned 43 Fifth Ave purchased for 4.37M in Nov 2005 with Polly Draper. Geographic proximity to Epstein mansion notable given the extensive correspondence and Wolff's role in managing Epstein's PR narrative.",
+      "confidence": "medium",
+      "id": 500
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      199,
+      212,
+      213,
+      211,
+      184,
+      202,
+      196,
+      205,
+      209,
+      500,
+      208,
+      182
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "VA"
+      ],
+      "officers": [
+        {
+          "role": "associated",
+          "entity": "Black Bag Media",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 196,
+          "name": "Black Bag Media",
+          "type": "unknown",
+          "jurisdiction": "VA",
+          "role": "associated"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          196,
+          205,
+          199
+        ],
+        "connection_ids": [
+          97,
+          153,
+          155,
+          152,
+          605,
+          1792,
+          1796,
+          1797,
+          1790,
+          1791,
+          1793,
+          1794,
+          1795,
+          1839,
+          2085
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          212,
+          209
+        ],
+        "connection_ids": [
+          97,
+          605,
+          2085,
+          260,
+          1394,
+          1422
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": "timeline",
+        "finding_ids": [
+          182,
+          180,
+          202,
+          213,
+          208,
+          211,
+          184
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:51:27.329793",
+    "lead": "<p>Michael Wolff, the media columnist and bestselling author of <em>Fire and Fury</em> and <em>Siege</em>, was <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>'s most prolific correspondent &mdash; 303 emails spanning 2011 to 2019 &mdash; and his primary media strategist. Their relationship began in July 2011 when Wolff, then a Contributing Editor at Vanity Fair and founder of Newser.com, pitched Epstein a book project \"focused on, although not limited to, your view of the global financial structure and your personal and business story\" (EFTA02541767). What followed was not conventional journalism. Over eight years, Wolff submitted unpublished drafts to Epstein for editorial vetting, asking whether pieces were \"too risky to do\" and offering that it was \"easy enough not to do the piece\" (EFTA02577402). He connected Epstein to an entire ecosystem of crisis management firms and PR consultants &mdash; Brown Lloyd James in London, Matthew Hiltzik, Juleanna Glover &mdash; while simultaneously channeling White House intelligence from <a href=\"/dossiers/steve-bannon\">Steve Bannon</a> to Epstein in real time. He managed the Woody Allen #MeToo crisis strategy through the Epstein network. And in 2019, he sent Epstein manuscript passages from <em>Siege</em> for factual correction, turning his bestselling book into a co-authored intelligence product.</p>\n\n<p>Wolff lived six blocks from Epstein's mansion at 207 East 74th Street, and the geographic proximity reflected an operational closeness that went well beyond source-journalist relations. Epstein directed which quotes from <a href=\"/dossiers/reid-weingarten\">Reid Weingarten</a> could appear in Wolff's writing. <a href=\"/dossiers/ken-starr\">Ken Starr</a> coordinated with both men on which legal commentary to provide, informing Epstein \"I gave Michael the all clear\" (EFTA02629642). When Epstein forwarded <em>Fire and Fury</em> to his network &mdash; <a href=\"/dossiers/nicholas-ribis\">Nicholas Ribis</a>, <a href=\"/dossiers/peter-thiel\">Peter Thiel</a>, <a href=\"/dossiers/kathryn-ruemmler\">Kathryn Ruemmler</a>, Anas Alrasheed &mdash; he was distributing a product he had helped shape. Wolff proposed opening his next book with Epstein and Bannon \"talking about Trump,\" promising it \"would make you seem like a credible player &mdash; former friend of Trump, advisor to world leaders, sought after person\" (EFTA02616217). The entire arc reveals not a journalist covering a subject, but a media professional providing narrative control services to a convicted sex offender in exchange for access, intelligence, and proximity to power.</p>",
+    "open_questions": [
+      "What was the nature and extent of any financial payments from Epstein to Wolff beyond access and intelligence? The 303-email correspondence and comprehensive strategy services suggest a compensated relationship, but no direct payments have surfaced in the released documents.",
+      "Did Wolff's 2011 book project &mdash; pitched as focusing on Epstein's \"view of the global financial structure\" &mdash; ever produce any output, and if so, what happened to the interview material gathered during the proposed \"regular schedule of interviews over the next year\"?",
+      "How extensively did Epstein edit or influence content in <em>Fire and Fury</em> and <em>Siege</em> beyond the documented Rybolovlev passage, given the editorial vetting arrangement and Epstein's introduction of Wolff to key sources including <a href=\"/dossiers/tom-barrack\">Tom Barrack</a> and <a href=\"/dossiers/steve-bannon\">Bannon</a>?",
+      "What was the scope of the documentary footage actually produced &mdash; did filming proceed with Summers, Watson, Chomsky, or Barak &mdash; and where is that material now?",
+      "What drove the $275,000 transfer from Wolff to Alison Anthoine at 207 East 74th Street on July 9, 2019 &mdash; three days after Epstein's arrest &mdash; and was it related to the Epstein exposure in any way?"
+    ],
+    "system_role": "Wolff served as Epstein's principal narrative architect and media operations manager from 2011 to 2019: a prominent journalist and bestselling author who provided crisis communications strategy, editorial vetting of published content, PR network access, White House intelligence via Steve Bannon, and manuscript co-authorship services, while Epstein exercised editorial control over Wolff's published work and used Wolff's books as vehicles for his own self-serving narratives.",
+    "sections": [
+      {
+        "id": "narrative-architect",
+        "title": "Epstein's Narrative Architect",
+        "content": "<p>The conventional framing of the Wolff-Epstein relationship &mdash; journalist cultivates controversial source &mdash; collapses under the weight of the documentary evidence. From 2011 onward, Wolff did not merely interview Epstein; he provided comprehensive media strategy services. In March 2016, as the James Patterson book <em>Filthy Rich</em> approached publication, Wolff proposed what he called \"a big, comprehensive, expensive effort\" to neutralize its impact. The strategy was remarkably detailed: Epstein should become an anti-Trump voice to gain \"political cover,\" arrange a high-profile television interview with Charlie Rose, publish op-eds, build a social media presence, and have his lawyers send a letter to Patterson's publisher arguing Patterson was not the real author (EFTA02469825). The point was not to dispute facts but to construct a counter-narrative that would make the Epstein story \"about something other than you.\"</p>\n\n<p>This was not an isolated pitch. Wolff routinely sent Epstein his published articles for review &mdash; a Guardian piece in September 2014, a Hollywood Reporter column on Hillary and Trump in August 2016, a Viacom column in June 2016. By June 2018, the arrangement had evolved into pre-publication editorial control: Wolff sent Epstein a draft article requesting \"an assessment if this is just too risky to do\" and asking Epstein to \"isolate the specific passages which might still be problematic,\" noting \"it is easy enough not to do the piece\" (EFTA02577402). Epstein was not a source being quoted; he was a client with kill authority over a prominent journalist's published output. Meanwhile, Epstein directed Wolff's handling of other people in the network. When <a href=\"/dossiers/reid-weingarten\">Reid Weingarten</a> was involved, Epstein instructed Wolff: \"weingarten quotes out. governone has not been sentenced\" (EFTA02512781). When <a href=\"/dossiers/ken-starr\">Ken Starr</a> provided quotes on presidential prosecution, Starr reported to Epstein &mdash; not to Wolff &mdash; that he had given \"the all clear\" (EFTA02629642). The editorial chain of command ran through Epstein.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "bannon-intelligence-channel",
+        "title": "The Bannon Intelligence Channel",
+        "content": "<p>From early 2017 through January 2019, Wolff operated as a bidirectional intelligence conduit between <a href=\"/dossiers/steve-bannon\">Steve Bannon</a> and <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>. The channel opened in April 2017 when Wolff forwarded to Epstein a private remark from Bannon about Trump's affection for the Saudi deputy crown prince: \"Real guy's guy, he loved him. Thinks they can do...\" (EFTA02376015). Wolff was simultaneously embedded in the White House reporting <em>Fire and Fury</em> and reporting to Epstein, creating a uniquely compromised intelligence position. By October 2017, Wolff was arranging in-person meetings between Bannon and Epstein at <a href=\"/dossiers/nine-east-71st-street-corporation\">9 East 71st Street</a>, forwarding Bannon's email confirmations directly to Epstein (EFTA02587125, EFTA02589079).</p>\n\n<p>Wolff also served Epstein as a political intelligence analyst. On January 13, 2018, he emailed Epstein with the subject line \"Porn star,\" identifying the Stormy Daniels story as a Bannon leak: \"I think thats a Bannon leak\" (EFTA02538373). When Page Six ran an article about Bannon cozying up to Epstein in August 2018, Wolff assessed the leak risk and advised Epstein to pay off a doorman who might have been the source (EFTA02604502). Epstein introduced Wolff to <a href=\"/dossiers/tom-barrack\">Tom Barrack</a> for the <em>Fire and Fury</em> project in February 2017, and carefully managed how much access Wolff would have &mdash; asking Barrack \"what details to give Wolff\" rather than letting the journalist operate independently. In January 2018, Wolff made an extraordinary request: he asked Epstein to \"suggest to Bannon that I might have tapes of our discussions\" (EFTA02542648), using Epstein as a back-channel to bolster his own leverage over a White House source. The arrangement was triangular manipulation: Wolff leveraged Epstein to pressure Bannon, while Epstein used Wolff to harvest Bannon's intelligence, and Bannon used both to manage his public narrative.</p>",
+        "viz": null
+      },
+      {
+        "id": "crisis-management-network",
+        "title": "The PR Network and Crisis Management",
+        "content": "<p>Wolff did not merely advise Epstein; he connected him to an entire professional ecosystem of reputation management that most American firms would refuse to touch. In April 2017, Wolff introduced Epstein to Brown Lloyd James, a London-based crisis management firm whose principals included Sir Nicholas Lloyd and John Watts, a former Blair adviser. Wolff's pitch was characteristically blunt: he acknowledged that US firms would be \"scared off\" by an Epstein engagement but noted that BLJ &mdash; which he described as \"very good at running interference with the tabloids and shaping their coverage\" (EFTA02395957) &mdash; would not. By March 2019, Wolff was still connecting Epstein to BLJ, characterizing them as \"superior crisis management people\" (EFTA02632131). The choice of a London firm for an American client was itself revealing: it exploited the different media and legal environments between jurisdictions to achieve reputation outcomes unavailable domestically.</p>\n\n<p>Wolff also expanded Epstein's PR network with domestic contacts. In May 2017, he connected Epstein to Juleanna Glover, whom he described as \"exceedingly smart and well connected\" and identified as Elon Musk's DC-based PR person at Ridgely Walsh (EFTA02650850). Separately, Wolff introduced Epstein to Matthew Hiltzik of Hiltzik Strategies, emailing Epstein: \"Just had a chat with Hiltzig. You should definitely speak to him\" (EFTA02366035). Through Wolff, Epstein also managed the public relations crisis of Woody Allen. From January 2018 through February 2019, Wolff and Epstein collaborated on a strategy to reframe the #MeToo allegations against Allen as \"a love story with Soon-Yi\" (EFTA02537406). Epstein critiqued the existing PR approach as \"all old thinkers, no social media strategy,\" and Wolff responded by drafting a social media video script and recommending videographer Stevan Keane for a shoot at \"Netflix broadcast standards\" costing $8,000 to $15,000 per day (EFTA02600301). Wolff also connected Epstein socially with Allen and Soon-Yi for dinners, integrating the Allen crisis management into Epstein's social calendar.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "siege-manuscript-collaboration",
+        "title": "The <em>Siege</em> Manuscript: Co-Authorship as Intelligence Product",
+        "content": "<p>The culmination of the Wolff-Epstein relationship was their collaboration on <em>Siege</em>, Wolff's 2019 sequel to <em>Fire and Fury</em>. On February 1, 2019, Wolff sent Epstein a manuscript passage describing the Trump-Rybolovlev Palm Beach real estate deal &mdash; Trump purchasing the Abe Gosman bankruptcy house through \"Trump Properties LLC\" financed by <a href=\"/dossiers/deutsche-bank\">Deutsche Bank</a>, with Epstein as the original prospective buyer. Epstein returned the draft with the subject line \"first edit,\" correcting the stalking horse bid from \"$36M\" to \"stalking horse at $36M\" and adding that Trump \"should have had a 50 million plus capital gain\" (EFTA02628984). Two versions of this passage exist in the DOJ release &mdash; EFTA02628984 (Wolff's draft) and EFTA02628958 (Epstein's corrected version) &mdash; constituting direct evidence that Epstein served as a fact-checker and co-author of passages in a bestselling book presented to the public as independent journalism.</p>\n\n<p>On the same day, Epstein sent Wolff a detailed self-narrative covering his criminal case history, the Trump Palm Beach deal, claims that \"Trump knew of it and came to my house many times during that period\" with reference to houseman John Alessi's testimony (EFTA02628214), Deutsche Bank's $640 million loan with a $40 million personal guarantee, and the suspicious death of lead detective Joe Recarey in June 2018. This narrative was Epstein's own version of events, delivered to a journalist who had already demonstrated willingness to give Epstein editorial control. It became source material for <em>Siege</em>. In November 2018, Wolff had explicitly proposed the terms of trade: he would open his next book with Epstein and Bannon discussing Trump, \"which would make you seem like a credible player &mdash; former friend of Trump, advisor to world leaders, sought after person\" (EFTA02616217). Epstein asked \"what moniker would you use\" &mdash; his concern was not whether the portrayal was accurate but whether it was flattering enough. The bestselling journalist and the convicted sex offender were negotiating the terms of a public rehabilitation disguised as independent reporting.</p>",
+        "viz": null
+      },
+      {
+        "id": "documentary-rehabilitation-project",
+        "title": "The Documentary and Image Rehabilitation",
+        "content": "<p>Beyond books and articles, Wolff proposed an audiovisual rehabilitation project for Epstein. In August 2018, he recommended videographer Stevan Keane for a documentary shoot at \"Netflix broadcast standards,\" costing $8,000 per day for a \"single camera talking head\" or $15,000 for a \"full cinematic experience\" (EFTA02600301). Epstein immediately began casting: he suggested filming in Boston with <a href=\"/dossiers/lawrence-summers\">Larry Summers</a>, James Watson, Noam Chomsky, and \"institute people.\" Separately, Epstein proposed that Wolff interview a roster of Epstein associates for a later publication: \"chomsky watson <a href=\"/dossiers/ehud-barak\">barak</a> <a href=\"/dossiers/terje-rod-larsen\">terje</a> woody\" (EFTA02660443). The project was designed to present Epstein as a serious intellectual patron surrounded by Nobel laureates and world leaders, the same image that had sustained his social position since the 2008 conviction. Wolff was the ideal producer: a credentialed journalist whose involvement lent the project an air of independence it did not possess.</p>\n\n<p>By February 2019, the documentary and social media projects had merged. Wolff drafted a script for a YouTube video and showed it to Bannon, who \"had interesting and helpful thoughts\" (EFTA02633141). On the same thread, Wolff and Epstein debated format: Wolff argued against using an interviewer because \"if you have an interviewer you have to submit to a tough interview, otherwise it really looks canned\" (EFTA02633284). The concern was not truth but plausibility &mdash; how to make a controlled product look spontaneous. When Epstein distributed <em>Fire and Fury</em> to his network, the recipients were a map of his influence: <a href=\"/dossiers/nicholas-ribis\">Nicholas Ribis</a> (his casino manager in Atlantic City), Anas Alrasheed (his Gulf state conduit to MBS), <a href=\"/dossiers/peter-thiel\">Peter Thiel</a>, <a href=\"/dossiers/kathryn-ruemmler\">Kathryn Ruemmler</a> (his lawyer and trustee), and others. Wolff's books were not just commercial products; they were tools in Epstein's reputation management arsenal, distributed through his network as evidence of his continued relevance and insider status.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "narrative-shield",
+      "enabler-gradient",
+      "complexity-as-credential",
+      "bridge-tax",
+      "jurisdictional-arbitrage"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Michael Wolff",
+      "connections": [
+        {
+          "target": "Steve Bannon",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02376015",
+          "description": "Wolff served as intermediary. Forwarded WH intel Bannon->Wolff->Epstein. Proposed media project. Assessed leak risks."
+        },
+        {
+          "target": "Steve Bannon",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02587125",
+          "description": "Wolff intermediary between Bannon and Epstein, forwarded communications and arranged meetings"
+        },
+        {
+          "target": "Woody Allen",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02537406",
+          "description": "Wolff managed Woody Allen PR through Epstein, co-managed crisis strategy on MeToo allegations"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02469825",
+          "description": "Wolff served as PR strategist and media adviser to Epstein 2011-2019, 303 emails total"
+        },
+        {
+          "target": "Dmitry Rybolovlev",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Manuscript with Epstein edits re: Rybolovlev/Trump [Wave 3]"
+        },
+        {
+          "target": "Tree of Life Limited",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not "
+        },
+        {
+          "target": "Nicholas Ribis",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+        },
+        {
+          "target": "Peter Thiel",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not "
+        },
+        {
+          "target": "Mark Epstein",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not "
+        },
+        {
+          "target": "Anas Alrasheed",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+        },
+        {
+          "target": "Brad Karp",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+        },
+        {
+          "target": "Kathryn Ruemmler",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+        },
+        {
+          "target": "Gates-Epstein DAF",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02656903",
+          "description": "Epstein used Wolff as a White House intelligence source in March 2017, asking him to identify upcoming ambassadorial appointments. Wolff confirmed he was 'at WH all week' and offered to 'fish' for names. Epstein specifically asked about Petraeus for a Trump administration role."
+        },
+        {
+          "target": "Reid Weingarten",
+          "type": "advisory",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02512781",
+          "description": "Epstein directed Wolff PR strategy on Weingarten quotes. Epstein to Wolff: weingarten quotes out. governone has not been sentenced."
+        },
+        {
+          "target": "Ken Starr",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02629642",
+          "description": null
+        },
+        {
+          "target": "Oliver Lloyd",
+          "type": "advisory",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02632131",
+          "description": "Wolff connected Epstein to BLJ crisis management firm run by Lloyd"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Wolff sent Epstein his manuscript about the Trump-Rybolovlev deal for 'Siege'. Epstein edited and returned it (EFTA02628958), adding details about Deutsche Bank and correcting his stalking horse bid amount. Epstein shared documentary evidence (Gosman deed) and speculative commentary about Recarey's death and Rybolovlev security payments."
+        },
+        {
+          "target": "Tom Barrack",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02659919",
+          "description": "Wolff contacted Barrack independently Apr 2017. Epstein asked to introduce Wolff to Barrack for Fire and Fury Feb 2017."
+        },
+        {
+          "target": "Tom Barrack",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02353103",
+          "description": "Epstein introduced Wolff to Barrack for Fire and Fury book Feb 2017. Mar 2017 Epstein asked Barrack what details to give Wolff. Wolff told Epstein just passing reference in book. Epstein proposed birthday party with woody barrack bannon ruemmler Jan 2018."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02629642",
+          "description": "Ken Starr (K&E partner) coordinated quotes for Michael Wolff on presidential prosecution matters (Jun 2018), with Starr informing Epstein: 'I gave Michael the all clear.' Wolff was Epstein's top correspondent (303 emails)."
+        },
+        {
+          "target": "Juleanna Glover",
+          "type": "advisory",
+          "strength": 0.4,
+          "evidence_ref": "EFTA02650850",
+          "description": "Wolff connected Epstein to Glover, Elon Musks DC PR person, for strategic consultation"
+        },
+        {
+          "target": "Matthew Hiltzik",
+          "type": "advisory",
+          "strength": 0.4,
+          "evidence_ref": "EFTA02366035",
+          "description": "Wolff connected Epstein to Hiltzik Strategies PR firm"
+        }
+      ],
+      "secondHop": {
+        "Anas Alrasheed": [
+          {
+            "target": "MBS",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "'tamem just called mbs.. he want to sit and talk.. breakthrough'. Gulf diplomatic conduit."
+          }
+        ],
+        "Brad Karp": [
+          {
+            "target": "Guzel Ganieva",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp coordinated Nardello surveillance (Leon Black dispute) 2015."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss chairman, personal friend, regular visits to 71st St 2016-2019, Leon Black escrow, Misra representation, Ghosn crisis"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Paul Weiss represented Misra in SoftBank matters; Karp confirmed to Epstein Jan 26 2019"
+          },
+          {
+            "target": "Rajeev Misra",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp (Chairman Paul Weiss) confirmed to Epstein he sort of represented Misra and spoke to him the previous day, Jan 26 2019."
+          },
+          {
+            "target": "Carlos Ghosn",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Karp was dealing with Ghosn crisis from Nov 20 2018, personally traveled to Tokyo, confirmed Epstein source intelligence accurate, Paul Weiss later lobbied for Ghosn in Japan Q3-Q4 2019 and Q1 2020"
+          }
+        ],
+        "Dmitry Rybolovlev": [
+          {
+            "target": "Ron Soffer",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Soffer was lead counsel for Bouvier AGAINST Rybolovlev in Accent Delight/Xitrans litigation. Adversarial relationship. Rybolovlev independently connected to Epstein network through Trump property deal and Xitrans Finance/Panama Papers."
+          }
+        ],
+        "Gates-Epstein DAF": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "J. Epstein Virgin Islands Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "K2 Intelligence",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          },
+          {
+            "target": "Kirkland & Ellis Foundation",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #372: Michael Wolff (Epstein's PR strategist, 303 emails) drafted narrative for publication: 'It is Bill Gates who at the end of the summer began prodding E"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2011-07-31",
+        "label": "Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not be limited to, your view of the global financial structure and your personal and business story. This will involve a regular schedule of interviews over the next year.' Wolff's title at the time was Contributing Editor at Vanity Fair, Editorial Director at Adweek, Founder of Newser.com.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 182
+      },
+      {
+        "date": "2015",
+        "label": "advisory with Reid Weingarten",
+        "type": "advisory",
+        "entity": "Reid Weingarten",
+        "id": 28
+      },
+      {
+        "date": "2016-03-18",
+        "label": "Wolff proposed a comprehensive PR strategy for Epstein on March 18, 2016, to counter the upcoming James Patterson book 'Filthy Rich'. Strategy included: (1) anti-Trump voice as political cover, (2) op-ed and high-profile TV interview (Charlie Rose suggested), (3) social media efforts, (4) lawyer's letter to publisher about Patterson not being real author. Described it as 'a big, comprehensive, expensive effort.'",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 180
+      },
+      {
+        "date": "2017-04",
+        "label": "Wolff connected Epstein to Brown Lloyd James, a London crisis management firm, in April 2017 and March 2019. BLJ principals included Sir Nicholas Lloyd and John Watts, former Blair adviser. Wolff noted US firms would be scared off but BLJ would not.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 196
+      },
+      {
+        "date": "2017-04 to 2019-01",
+        "label": "intelligence with Steve Bannon",
+        "type": "intelligence",
+        "entity": "Steve Bannon",
+        "id": 97
+      },
+      {
+        "date": "2017-05",
+        "label": "Wolff also connected Epstein with Juleanna Glover (Elon Musk DC-based PR person, Ridgely Walsh) and Matthew Hiltzik (Hiltzik Strategies) for PR consultation in May 2017. Wolff was Epstein go-to for all media strategy, connecting him to his own PR network. Wolff described Glover as exceedingly smart and well connected.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 205
+      },
+      {
+        "date": "2017-10",
+        "label": "Wolff served as intermediary between Epstein and Steve Bannon from early 2017 through 2019. Key activities: (1) Forwarded Bannon communications to Epstein, (2) Arranged Epstein-Bannon meetings at 9 E 71st St (Oct 2017), (3) Passed intelligence from Bannon (crown prince quote Apr 2017, McMaster/Murdoch Aug 2017), (4) Asked Epstein to suggest to Bannon that Wolff had tapes of their discussions (Jan 2018), (5) Showed Bannon Epstein YouTube script draft (Feb 2019), (6) Coordinated New Years 2019 social gathering: Dangene, Bannon, Wolff, Reid, Woody Allen.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 199
+      },
+      {
+        "date": "2018-01",
+        "label": "Wolff managed Woody Allen PR through Epstein network, Jan 2018 through Feb 2019. Strategy: turn MeToo allegations into a love story with Soon-Yi. Epstein critiqued Woody strategy: 'all old thinkers, no social media strategy.' Wolff and Epstein discussed Barry Diller suppressed support, Amazon dropping Woody, and YouTube social media video strategy. Feb 2019: Wolff drafted a script for social media video. Wolff also connected Epstein socially with Allen/Soon-Yi for dinners.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 202
+      },
+      {
+        "date": "2018-01-13",
+        "label": "Wolff identified the Stormy Daniels story as a Bannon leak (Jan 13, 2018, email subject: Porn star, text: I think thats a Bannon leak). Epstein forwarded to Wolff a PageSix article about Bannon trying to get on Epsteins good side (Aug 2018). Wolff asked: Harmless. Do you think Bannon spilled? Epstein mentioned a doorman. Wolff advised: you should pay him off.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 212
+      },
+      {
+        "date": "2018-06",
+        "label": "Wolff had Epstein review and approve his published articles before publication (June 2018). Email chain shows Wolff sent draft needing assessment whether too risky to do, specific problematic passages to isolate, and noting it is easy enough not to do the piece. This editorial vetting arrangement gave Epstein control over Wolffs published content. Wolff regularly sent Epstein his published articles for review: Guardian piece Sep 2014, Hollywood Reporter column on Hillary/Trump Aug 2016, Viacom column Jun 2016.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 213
+      },
+      {
+        "date": "2018-08",
+        "label": "Wolff proposed a documentary/video project about Epstein in Aug 2018. Recommended videographer Stevan Keane for shoot at Netflix broadcast standards. Cost: 8K per day minimum for single camera talking head, 15K for full cinematic experience. Epstein suggested filming in Boston with Larry Summers, James Watson, Noam Chomsky, and institute people. Wolff separately proposed article with interviews of Epstein associates: Chomsky, Watson, Ehud Barak, Terje (Rod-Larsen), Woody Allen.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 208
+      },
+      {
+        "date": "2018-11-05",
+        "label": "Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would make Epstein look like a credible player -- former friend of Trump, advisor to world leaders, sought after person. Epstein asked what moniker Wolff would use. Wolff met Bannon for 3 hours (March 2018), and Brad Karp offered help on next book. Epstein sent Fire and Fury link to at least Nicholas Ribis, Anas Alrasheed, Peter Thiel, Kathy Ruemmler, Melanie Spinella, and Stephen Hanson.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 211
+      },
+      {
+        "date": "2019-02-01",
+        "label": "Wolff authored the Rybolovlev manuscript passage and sent it to Epstein on Feb 1, 2019 for editing. The manuscript (used in Wolff's 'Siege' book) describes Trump buying the Palm Beach house through 'Trump Properties LLC' financed by Deutsche Bank, with Epstein as original prospective buyer. Epstein personally edited the draft, correcting factual details (price changed from '36M' to 'stalking horse at 36m', adding that Trump 'should have had a 50 million plus capital gain'). Two versions exist: EFTA02628984 (Wolff's draft) and EFTA02628958 (Epstein's edited version with subject line 'first edit').",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 184
+      },
+      {
+        "date": "2019-02-01",
+        "label": "Epstein sent Wolff detailed self-narrative on Feb 1, 2019 (same day as Rybolovlev manuscript edit). Narrative covers: (1) His criminal case history with self-serving characterizations, (2) Trump Palm Beach house deal details with Trump as knowing front man, (3) Claims Trump knew of and visited during period of abuse, citing John Alessi houseman testimony, (4) Abe Gosman bankruptcy house details, (5) Questions about Trump 2008 tax return, (6) Deutsche Bank 640M loan with 40M personal guarantee, (7) Suspicious death of Joe Recarey (lead detective) in June 2018. This narrative was source material for Siege book.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 209
+      },
+      {
+        "date": "2019-07-09",
+        "label": "ACRIS shows Michael Wolff (Epstein correspondent, 303 emails) lived at 207 E 74th St NYC -- walking distance from Epstein at 9 E 71st (6 blocks). Transferred 275K to Alison Anthoine at same address Jul 9 2019 (3 days after Epstein arrest Jul 6). Also owned 43 Fifth Ave purchased for 4.37M in Nov 2005 with Polly Draper. Geographic proximity to Epstein mansion notable given the extensive correspondence and Wolff's role in managing Epstein's PR narrative.",
+        "type": "location",
+        "evidence_ref": null,
+        "id": 500
+      }
+    ]
+  }
+}

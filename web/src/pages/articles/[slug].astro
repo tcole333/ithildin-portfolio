@@ -1,0 +1,163 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readFileSync, existsSync, readdirSync } from 'fs';
+import { resolve, basename } from 'path';
+import { loadArticleFindingCatalog, loadGlobalFindingCatalog, mergeFindingCatalogs } from '../../lib/findingCatalog';
+import { processArticleEvidenceContent, safeJsonForScript } from '../../lib/contentEvidencePipeline';
+import { extractCitedFindingIds, loadFindingDetails } from '../../lib/findingDetail';
+import { contentPath } from '../../lib/projectPaths';
+
+export function getStaticPaths() {
+  const articlesDir = contentPath('articles');
+  if (!existsSync(articlesDir)) return [];
+
+  const files = readdirSync(articlesDir).filter(f => f.endsWith('.mdx'));
+  return files.map(f => ({
+    params: { slug: basename(f, '.mdx') },
+  }));
+}
+
+const { slug } = Astro.params;
+const articlesDir = contentPath('articles');
+const articlePath = resolve(articlesDir, `${slug}.mdx`);
+
+if (!existsSync(articlePath)) {
+  return Astro.redirect('/articles');
+}
+
+const raw = readFileSync(articlePath, 'utf-8');
+
+const backlinksPath = contentPath('backlinks.json');
+let linkedDossiers: any[] = [];
+let relatedArticles: any[] = [];
+if (existsSync(backlinksPath)) {
+  const backlinks = JSON.parse(readFileSync(backlinksPath, 'utf-8'));
+  linkedDossiers = backlinks.article_to_dossier?.[slug] || [];
+  relatedArticles = backlinks.article_to_article?.[slug] || [];
+}
+
+const frontmatterMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+const meta: Record<string, string> = {};
+if (frontmatterMatch) {
+  for (const line of frontmatterMatch[1].split('\n')) {
+    const [key, ...valueParts] = line.split(':');
+    if (key && valueParts.length > 0) {
+      meta[key.trim()] = valueParts.join(':').trim().replace(/^["']|["']$/g, '');
+    }
+  }
+}
+
+const rawContent = raw.replace(/^---\n[\s\S]*?\n---\n*/, '');
+const wordCount = rawContent.split(/\s+/).length;
+const findingCatalog = mergeFindingCatalogs(
+  loadGlobalFindingCatalog(),
+  loadArticleFindingCatalog(slug!),
+);
+const findingEvidenceMap = findingCatalog.evidenceMap;
+const evidenceModeEnabled = import.meta.env.PUBLIC_ENABLE_EVIDENCE_MODE === 'true';
+const {
+  pageHtml: content,
+  citationEntries,
+  supportMap,
+  supportMetrics,
+} = await processArticleEvidenceContent(rawContent, findingEvidenceMap, { enableSupportSpans: evidenceModeEnabled });
+const supportMapJson = safeJsonForScript(supportMap);
+
+const citedFindingIds = extractCitedFindingIds(citationEntries);
+const findingDetailMap = loadFindingDetails(citedFindingIds, slug);
+const findingDetailJson = safeJsonForScript(findingDetailMap);
+const supportSummary = supportMetrics.total_sentences > 0
+  ? `${supportMetrics.supported_sentence_pct}% supported (${supportMetrics.supported_sentences}/${supportMetrics.total_sentences} sentences)`
+  : 'No sentence-level support spans detected.';
+---
+<BaseLayout title={meta.title || slug}>
+  <div class="space-y-10">
+    <section class="surface beam p-8 reveal" style="--delay: 0s;">
+      <div class="space-y-4">
+        <div class="section-label">Article</div>
+        <h1 class="text-3xl md:text-4xl font-display text-moon">{meta.title || slug}</h1>
+        {meta.subtitle && <p class="text-lg text-mithril font-body">{meta.subtitle}</p>}
+        <div class="flex flex-wrap gap-4 text-xs text-mithril font-mono">
+          <span>{Math.round(wordCount / 1000)}K words</span>
+          <span>{Math.ceil(wordCount / 250)} min read</span>
+          {meta.targets && <span>Targets: {meta.targets}</span>}
+        </div>
+      </div>
+    </section>
+
+    <article class="surface-muted p-8 md:p-10" data-evidence-page={evidenceModeEnabled ? 'true' : undefined} data-support-map-id={evidenceModeEnabled ? 'support-map-data' : undefined}>
+      {evidenceModeEnabled && (
+        <div class="evidence-mode">
+          <label class="evidence-mode__toggle">
+            <input type="checkbox" data-evidence-mode-toggle />
+            <span>Evidence Mode</span>
+          </label>
+          <div class="evidence-mode__summary" data-evidence-mode-summary>
+            <span>{supportSummary}</span>
+            {supportMetrics.orphan_citations_count > 0 && (
+              <span>{supportMetrics.orphan_citations_count} orphan citation{supportMetrics.orphan_citations_count === 1 ? '' : 's'}</span>
+            )}
+          </div>
+        </div>
+      )}
+      <div
+        class="prose prose-invert max-w-none prose-ithildin"
+        data-support-content
+        set:html={content}
+      />
+    </article>
+    {evidenceModeEnabled && (
+      <script type="application/json" id="support-map-data" set:html={supportMapJson}></script>
+    )}
+    {citedFindingIds.length > 0 && (
+      <script type="application/json" id="finding-detail-data" set:html={findingDetailJson}></script>
+    )}
+
+    {(linkedDossiers.length > 0 || relatedArticles.length > 0) && (
+      <section class="surface p-6">
+        <div class="section-label">Backlinks</div>
+        <div class="mt-4 grid gap-6 md:grid-cols-2">
+          {linkedDossiers.length > 0 && (
+            <div>
+              <h3 class="text-sm text-mithril uppercase tracking-[0.3em]">Referenced Dossiers</h3>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {linkedDossiers.map((d: any) => (
+                  <a href={`/dossiers/${d.slug}`} class="chip" style="letter-spacing: 0.14em;">
+                    {d.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+          {relatedArticles.length > 0 && (
+            <div>
+              <h3 class="text-sm text-mithril uppercase tracking-[0.3em]">Related Articles</h3>
+              <div class="space-y-2 mt-3">
+                {relatedArticles.map((a: any) => (
+                  <a href={`/articles/${a.slug}`} class="block text-sm text-moon">
+                    {a.title}
+                    {a.shared_targets?.length > 0 && (
+                      <span class="text-xs text-mithril ml-2">
+                        via {a.shared_targets.slice(0, 3).join(', ')}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+    )}
+  </div>
+  <script>
+    import { hydrateArticleViz } from '../../lib/vizHydrator';
+    hydrateArticleViz();
+  </script>
+  {(evidenceModeEnabled || citedFindingIds.length > 0) && (
+    <script>
+      import { initEvidencePage } from '../../lib/evidencePageBootstrap';
+      initEvidencePage();
+    </script>
+  )}
+</BaseLayout>

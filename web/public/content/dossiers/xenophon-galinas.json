@@ -1,0 +1,2020 @@
+{
+  "name": "Xenophon Galinas",
+  "slug": "xenophon-galinas",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.256638",
+  "last_updated": "2026-02-14T21:54:03",
+  "stats": {
+    "total_findings": 26,
+    "total_connections": 14,
+    "total_entities": 8,
+    "finding_types": {
+      "identity": 4,
+      "financial": 6,
+      "location": 1,
+      "intelligence": 5,
+      "unknown": 4,
+      "legal": 4,
+      "relationship": 2
+    },
+    "connection_types": {
+      "financial": 2,
+      "legal": 4,
+      "corporate": 6,
+      "employment": 1,
+      "political": 1
+    },
+    "last_updated": "2026-02-14T21:54:03"
+  },
+  "findings": [
+    {
+      "id": 2225,
+      "finding_type": "identity",
+      "summary": "GLEIF: Alexander S. Onassis Foundation (LEI 529900ZJX6MJVD7ORF75) registered in Liechtenstein (FL-0001.057.232-9) at Fundationsanstalt Heiligkreuz 6 Vaduz. Active status. Separate entity Alexander S. Onassis Public Benefit Foundation (LEI 529900BNVA9LZUGD2U08) also in Vaduz at same address (FL-0001.057.377-5) created Dec 1975. Also Onassis Management SA (LEI 529900BWCHLGJDQJS457) in BVI via ATU General Trust with HQ in Ruggell Liechtenstein - LAPSED status. ProPublica 990: US arm is Alexander S Onassis Public Benefit Foundation USA Inc (EIN 13-4037172) in NYC with filings 2008-2018.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1975-12",
+      "claim_type": "paraphrase",
+      "verification_status": "disputed",
+      "created_at": "2026-02-14 21:48:35",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GLEIF-529900ZJX6MJVD7ORF75",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2221,
+      "finding_type": "financial",
+      "summary": "ACRIS: Olympic Tower Associates appears in 37 NYC property transactions (17 as grantor, 20 as grantee) at 645 Fifth Avenue Suite 301 NYC 10022 and 888 Seventh Avenue NYC. This is the Onassis Foundation subsidiary that Galinas ran as president 1986-1998, managing the Olympic Tower condominium building on Fifth Avenue.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1986",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:23",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS-OTA-37docs",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2244,
+      "finding_type": "identity",
+      "summary": "Galinas full career: Onassis Group US head 1986-1998, then shipping investment banking (Morgan Joseph, Rodman Renshaw), FreeSeas director, Whole Earth Brands director, now Manhattan Maritime Capital CEO",
+      "detail": "MS Marine Engineering (U. Michigan), MBA Finance (NYU). Onassis Group US head 1986-1998 (12 years): President Olympic Tower Associates (641/645 Fifth Ave NYC), EVP Central American Steamship Inc (Onassis non-US flag shipping), Board of Williston S.A. (Onassis shipping/real estate). Post-Onassis: Non-Exec Chairman Manhattan Group Partners LLC (2007-2009), MD Head-Shipping Morgan Joseph TriArtisan (2009-2011), MD Rodman Renshaw (2011-2012). Independent Director FreeSeas Inc (Greek shipping, CIK 0001325159) from 2012. Independent Director Whole Earth Brands (ticker FREE) from 2012. Currently CEO Manhattan Maritime Capital.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1986",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:49:50",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://manhattangroup.us/mg_team/xenophon-galinas/",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.macroaxis.com/invest/manager/FREE--Xenophon_Galinas",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2265,
+      "finding_type": "location",
+      "summary": "645 Fifth Avenue (Olympic Tower) appears 1000+ times in Epstein document corpus. While primarily appearing as event venue (galas, concerts at Olympic Tower Atrium), this is the building Galinas managed as president of Olympic Towers Associates 1990-1998 for the Onassis Foundation. Also headquarters of Manhattan Maritime Enterprises (Galinas SPAC) and Manhattan Group Partners (Galinas firm). Olympic Tower Associates has 37 ACRIS property transactions. Olympic Tower at 641-645 Fifth Ave is a 51-story mixed-use tower built by Aristotle Onassis in 1976.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1990",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:54:03",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ACRIS-OTA-37docs",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DugganUSA-645Fifth-1000hits",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2261,
+      "finding_type": "intelligence",
+      "summary": "The 34 E 69th St dispute reveals Epstein's operational pattern with OFM/State Dept property: Epstein leased former Iranian Deputy Consul General residence from OFM starting Feb 1992 at 15K/month. Extended Aug 1992 for 3 more years with right of first refusal. Abandoned premises Jan 1996 but continued paying rent. When Galinas negotiated replacement lease at 16K/month, Epstein exercised right of first refusal specifically to block it, then illegally sublet to attorney Ivan Fisher at 20K/month (profit of 5K/month). Duggan corpus shows 1000+ documents mentioning 34 E 69th and 157 mentioning Ivan Fisher. The property remained a significant location in the Epstein document trail.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1992-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:26",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DugganUSA-34East69th-1000hits",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "Epstein and his family continued to reside at the Premises until January of 1996 at which time Epstein abandoned",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2253,
+      "finding_type": "financial",
+      "summary": "FEC records: Galinas made 8 political donations 1994-1997 totaling net ,000, all Republican (Dole, D'Amato, Bilirakis), employer listed as Olympic Tower Associates and Onassis Group, zip 10022",
+      "detail": "FEC Schedule A donations: (1) 1994-10-20: 1000 to Mike Bilirakis (R-FL-9, Greek-American congressman), employer Olympic Tower Assn. (2) 1994-10-27: -1000 refund Bilirakis. (3) 1994-12-22: 1000 Bilirakis, employer Olympic Tower Assoc. (4) 1995-09-01: 2000 Dole for President, employer Onassis Group. (5) 1995-10-05: -1000 refund Dole. (6) 1996-01-23: 250 Dole for President, employer Onassis Group. (7) 1996-02-26: 250 Dole/Kemp 96 Compliance, employer Onassis Group. (8) 1997-03-28: 500 Friends of Senator DAmato, employer Olympic Tower Associates. All from New York NY 10022 (Olympic Tower zip code). Pattern: Republican establishment donors. Bilirakis was Greek-American, suggesting ethnic community ties.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1994",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:15",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://api.open.fec.gov/v1/schedules/schedule_a/?contributor_name=Xenophon+Galinas",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2241,
+      "finding_type": null,
+      "summary": "Galinas absent from all Epstein document corpora except judicial opinion in US v Epstein; zero hits in DOJ Vol 11, LMSBAND, Unified DB, Investigations DB",
+      "detail": "Comprehensive search across all Epstein document corpora yielded zero results for Galinas except the judicial opinion (EFTA01325008) in DugganUSA. Zero results in: DOJ Vol 11 (331K docs), LMSBAND (60K docs, 851K entities), Unified DB (70K docs), Investigations DB (22 docs with FOIA and court materials). This means Galinas does not appear in any Epstein emails, communications, contact lists, or investigative reports. His only connection is as an unwitting counterparty in the 34 E 69th St lease negotiation with OFM in 1996. Also zero results in FARA for Galinas, Onassis, or Olympic Tower. Zero results in LDA lobbying for Onassis or Olympic Tower. Galinas was not a party to either federal case (US v Epstein or Epstein v Fisher) despite his lease negotiations being central to the dispute.",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1996",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:49:39",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Search results from all tools",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2260,
+      "finding_type": "legal",
+      "summary": "OFM-Galinas deal reveals Epstein property manipulation: Epstein abandoned 34 E 69th in Jan 1996 but kept lease, then tried to profit from subletting. When Galinas offered OFM better terms (16K vs 15K/mo), Epstein exercised ROFR to block it, then illegally sublet to Ivan Fisher at 20K/mo",
+      "detail": "The court opinion (EFTA01325008) reveals a pattern of Epstein using leasehold rights as leverage. Timeline: (1) Feb 1992 Epstein leases at 15K/mo. (2) Aug 1992 lease extended to Jan 1997 with ROFR. (3) Jan 1996 Epstein abandons premises. (4) March 1996 Epstein simultaneously negotiates with Galinas AND Fisher. (5) April 12 1996 Galinas-OFM letter agreement for 16K/mo. (6) April 16 Epstein exercises ROFR to block Galinas deal. (7) April 19 Epstein claims OFM orally consented to Fisher sublet. (8) April 26 OFM denies Fisher sublet in writing. (9) May 7 Epstein sublets to Fisher anyway at 20K/mo despite OFM denial. (10) OFM terminates lease Aug 23 1996. This shows Epstein profiting from arbitrage between his 15K/mo lease cost and Fisher 20K/mo sublease, while blocking a legitimate Galinas deal that would have ended his leverage. Ivan Fisher was a prominent NYC criminal defense lawyer known for defending French Connection and Pizza Connection drug rings. Jeffrey Schantz was Epstein transaction counsel.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1996-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:11",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "Epstein also commenced negotiations to sublet the Premises to Fisher. Fisher informed Epstein he would not enter into a sublease unless approved by the State Department. Epstein told Fisher he had a right of first refusal and would take all necessary steps to renew",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2155,
+      "finding_type": "intelligence",
+      "summary": "Xenophon Galinas identified as President of Olympic Tower Associates (1986-1998), the Onassis Foundation subsidiary managing Olympic Tower on Fifth Avenue. Also served on the board of Williston S.A. (Onassis shipping/real estate). Later founded Manhattan Group (shipping investment banking). Galinas independently negotiated with OFM for a 5-year lease at 34 E 69th at $16K/month in April 1996, but Epstein exercised right of first refusal to block the deal. His involvement suggests the OFM property was known in high-end NYC real estate and Onassis-connected circles.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1996-04",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:22:52",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2207,
+      "finding_type": "legal",
+      "summary": "SDNY court opinion (96 CIV. 8307, EFTA01325008) contains full details of 34 E 69th St dispute: In March 1996 Galinas negotiated directly with OFM for new lease. April 12, 1996 letter agreement: 5-year term starting Feb 1997 at 16K/month with yearly increases to 18K. Proposed arrangement included Galinas paying Epstein 100K for improvements. OFM told Galinas it would not consent to Epstein subletting beyond Jan 1997. Epstein exercised right of first refusal April 16 1996 to block OFM-Galinas deal. Court granted ejectment against Epstein and Fisher.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1996-04-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:47:43",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "Negotiations between Galinas and OFM culminated in a letter agreement dated April 12 1996 by which Galinas agreed to rent the Premises for a five-year term beginning February 1 1997 for 16000 per month",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2249,
+      "finding_type": "legal",
+      "summary": "Full court opinion US v. Epstein (96 Civ 8307, SDNY 1998) details Galinas-Epstein 34 E 69th transaction: Galinas negotiated K payment to Epstein for improvements plus separate OFM lease at K/mo",
+      "detail": "EFTA01325008 is the complete Judge Chin opinion. Key facts: (1) Epstein leased 34 E 69th (former Iranian deputy consul residence) from OFM in Feb 1992 at 15K/mo. (2) Epstein abandoned premises Jan 1996. (3) In March 1996, Epstein commenced negotiations with Xenophon Galinas for possible sublease or assignment including 100K payment from Galinas to Epstein for improvements. (4) Simultaneously Galinas contacted OFM directly; April 12 1996 letter agreement: 5-year lease from Feb 1 1997 at 16K/mo increasing to 18K/mo. (5) Agreement expressly subject to Epstein exercising right of first refusal. (6) On April 16 Epstein exercised ROFR. (7) OFM offered Epstein permission to sublet to Galinas for remainder of 1996 only. (8) Instead Epstein sublet to Ivan Fisher at 20K/mo without OFM written consent. (9) Government won ejectment, Epstein lease terminated Aug 23 1996.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1996-04-12",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:03",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "Epstein commenced negotiations with Xenophon Galinas for a possible sublease or assignment of the Premises. The proposed arrangement between Epstein and Galinas included payment by Galinas to Epstein of 100000 for improvements",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2229,
+      "finding_type": null,
+      "summary": "Two federal cases in SDNY arising from 34 E 69th St: US v Epstein (96 Civ 8307) and Epstein v Fisher (97 Civ 1489), both before Judge Denny Chin",
+      "detail": "CourtListener search identified two SDNY cases: (1) United States v. Epstein (1:96-cv-08307), filed Nov 4 1996, terminated Mar 17 1999 - US Government sought ejectment of Epstein and Fisher from former Iranian consular property. Defendants include Epstein, Fisher, Fisher and Soffer law firm, and 12 subtenants. (2) Epstein v. Fisher (1:97-cv-01489), filed Mar 5 1997, terminated Mar 31 2000 - Epstein holdover proceeding against Fisher for nonpayment of rent, removed from NYC Civil Court to federal court and consolidated with government case. Both assigned to Judge Denny Chin. Nature of suit: 230 Rent Lease and Ejectment. Galinas was not a named party in either case but his lease negotiations with OFM were central to the factual record establishing Epstein motive.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1996-11-04",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:42",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 10516885",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 10945280",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2262,
+      "finding_type": "identity",
+      "summary": "SEC S-1 filing reveals complete Galinas career: (1) General Dynamics Quincy shipyard - ship building operations. (2) 1985-86 President of Benzopetrol SA Athens - family oil/gas/shipping business, exclusive BP/Greece transport partner, effected sale to BP interests. (3) 1986-90 EVP Central American Steamship Inc - Onassis Group US shipping subsidiary for non-US flag vessels. (4) 1990-98 President Olympic Towers Associates AND board member Williston SA - both Onassis Group subsidiaries, oversaw US real estate and shipping. (5) 1998-2004 President ASA Holdings (renamed Pacific Millennium NA) - international bulk shipping investments. (6) 2004+ Co-founded Manhattan Group Partners LLC then Manhattan Maritime Enterprises Inc (blank check M shipping acquisition). Education: BS Surrey, MS Marine Engineering Michigan, MBA Finance NYU.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1998",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:52:16",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2189,
+      "finding_type": "legal",
+      "summary": "Full SDNY court opinion (96 CIV. 8307, Judge Chin, April 1, 1998) details Galinas-Epstein-OFM triangle at 34 E 69th St. Key facts from court record: (1) Epstein leased the former Iranian deputy consul general residence from OFM/State Dept from Feb 1992 at K/month, extended to Jan 1997; (2) Epstein abandoned premises in Jan 1996; (3) In March 1996, Epstein simultaneously negotiated with Galinas for sublease/assignment AND with Ivan Fisher for sublet; (4) Galinas would have paid Epstein K for improvements; (5) Galinas independently contacted OFM and secured April 12, 1996 letter agreement for 5-year lease at K-K/month starting Feb 1997; (6) Epstein exercised right of first refusal on April 16, 1996 to block Galinas deal; (7) Epstein then sublet to Fisher at K/month on May 7, 1996 WITHOUT OFM written consent; (8) OFM terminated Epstein's lease August 23, 1996; (9) Government won summary judgment for ejectment of all occupants.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "1998-04-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:46:19",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": " In March of 1996, Epstein commenced negotiations with Xenophon Galinas for a possible sublease or assignment of the Premises. The proposed arrangement between Epstein and Galinas included payment by Galinas to Epstein of $100,000 for improvements to the Premises made by Epstein during his tenancy.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2223,
+      "finding_type": null,
+      "summary": "Full judicial opinion: US v. Epstein, 96 Civ. 8307 (DC), details Galinas lease scheme",
+      "detail": "Judge Denny Chin April 1 1998 opinion (27 F.Supp.2d 404) provides complete factual record of Epstein 34 E 69th Street lease scheme. Key facts: (1) Epstein leased former Iranian Deputy Consul General residence from OFM at 15K/month starting Feb 1992, extended to Jan 1997; (2) March 1996 Epstein began negotiating with Xenophon Galinas for sublease/assignment including 100K payment for improvements; (3) Simultaneously negotiated sublease to Ivan Fisher; (4) Galinas independently contacted OFM about new lease starting Feb 1997, resulting in April 12 1996 letter agreement for 5 years at 16K-18K/month; (5) Agreement expressly subject to Epstein right of first refusal; (6) April 16 1996 Epstein exercised right of first refusal to block Galinas; (7) Despite OFM denying written consent Epstein sublet to Fisher at 20K/month May 7 1996; (8) OFM terminated Epstein lease Aug 23 1996; (9) Court ruled sublease invalid. Attorneys: Wachtel and Masyr LLP (Steven J Cohen) for Epstein. Published at 1998 WL 159055.",
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "1998-04-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:27",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2219,
+      "finding_type": "identity",
+      "summary": "NY SOS: Olympic Tower Associates LLC (DOS ID 2585540) - domestic LLC filed Dec 20 2000 in New York County. Process server at OT Associates LLC c/o MI-KOR Realty Corp, 1412 Broadway Suite 718, NYC 10108. Separate from Olympic Tower Manager LLC (DOS 4310987, filed Oct 2012, foreign LLC from Delaware via Corporation Service Company) and Olympic Towers Associates LP (DOS 2033083, filed May 1996 in Erie County - different entity in Buffalo).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2000-12-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:17",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NY-SoS:2585540",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2263,
+      "finding_type": "financial",
+      "summary": "Manhattan Maritime Enterprises Inc was a 114M blank check company (SPAC) for shipping acquisitions. EIN 20-2836149. Delaware. Galinas Chairman/CEO/Secretary. Co-founded with Vassilios (Bill) M. Livanos (president) and others. All co-founders of Manhattan Group Partners LLC (March 2004). Underwriter Ladenburg Thalmann. 220K loans from founders. 7500/month to Manhattan Group Partners for office at 645 Fifth Ave. Trust at Smith Barney/Citigroup. S-1 filed July 2005 but IPO appears never completed - no subsequent SEC filings.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2004-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:52:30",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2216,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR: Manhattan Maritime Enterprises Inc (CIK 1331764) - Delaware-incorporated shipping company at 645 Fifth Avenue NYC (Olympic Tower address). Filed S-1 registration statement July 2005 with 10 exhibits mentioning Galinas. Single filing company - no subsequent activity. Address confirms direct connection between Galinas shipping ventures and Onassis Foundation Olympic Tower building.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2005-07",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:09",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2257,
+      "finding_type": "relationship",
+      "summary": "SEC EDGAR: Galinas appears in 55+ filings for FreeSeas Inc (CIK 0001325159), Athens-based Greek dry bulk shipping company (SIC 4412). He served on board from 2012 to at least 2016 via 6-K and 20-F filings",
+      "detail": "EDGAR EFTS search reveals Galinas name in 55 documents for FreeSeas Inc, a Marshall Islands-incorporated, Athens-based dry bulk shipping company. Filings include proxy statements (6-K) and annual reports (20-F) from 2012-2016. FreeSeas operated handysize dry bulkers. Company had significant financial difficulties. Galinas directorship connects his Onassis-era Greek shipping expertise to contemporary Greek maritime sector. Separately, 12 EDGAR results for Olympic Tower Associates all relate to FreeSeas Inc filings, confirming Galinas listed Olympic Tower Associates as prior employer in FreeSeas proxy materials.",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2012",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:46",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://efts.sec.gov/LATEST/search-index?q=Galinas&dateRange=custom&startdt=2012-01-01&enddt=2017-01-01",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2214,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR: Galinas director of FreeSeas Inc (CIK 1325159), Athens deep sea shipping (SIC 4412). Filed resignation letter Feb 2017. 38 filings mentioning Galinas 2012-2018. SEC revoked registration Aug 2022.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2017-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:00",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1325159",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2233,
+      "finding_type": null,
+      "summary": "SEC EDGAR: Galinas served as director of FreeSeas Inc (CIK 1325159, Athens shipping SIC 4412) and resigned Feb 2017; also connected to Manhattan Maritime Enterprises (CIK 1331764, NY)",
+      "detail": "SEC EDGAR EFTS search found 55 filings mentioning Galinas across two entities: (1) FreeSeas Inc (CIK 0001325159), Athens Greece based shipping company, SIC 4412 (Deep Sea Foreign Transportation of Freight), where Galinas served as board member. A letter of resignation from Xenophon Galinas was filed as EX-99.1 on Feb 10 2017 (ADSH 0001213900-17-001197). He appears in proxy statements from 2012-2016 and annual reports (20-F). (2) Manhattan Maritime Enterprises Inc (CIK 0001331764), New York based, filed S-1 registration statement Jul 1 2005. Multiple exhibits reference Galinas. This confirms Galinas transitioned from Olympic Tower Associates and Williston SA into Greek shipping companies, consistent with his founding of Manhattan Group (shipping investment banking).",
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-02",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:55",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR EFTS filing 0001213900-17-001197",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2264,
+      "finding_type": "relationship",
+      "summary": "Greek shipping network overlap: Epstein corpus contains 3 Livanos references. Most significant: EFTA02389898 - Peggy Siegal emails Epstein July 8 2017 about dining on private island Coronis owned by George and Lita Livanos (Greek shipping tycoon). EFTA02421758 lists George Livanos as Greek shipping tycoon on Epstein contact/guest list. Galinas co-founded Manhattan Maritime Enterprises with Vassilios (Bill) M. Livanos - potentially related to the Livanos shipping dynasty. Both Galinas and the Livanos family operated in the same NYC Greek shipping social/business circle that intersected with Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017-07-08",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:53:46",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02389898",
+          "source_quote": "Lita and George Lavanos shipping tycoon Going to south of France",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02421758",
+          "source_quote": "To: \nJeffrey Epsteinueevacation@gmailcom] \nFrom: \nLesley Groff \nSent \nThur 9/16/2010 2:42:38 PM \nSubject: FW: lists from peggy \nI have printed this for you as well.. \nFrom: Margaux Rogers [mailto \nSent: Tuesday, August 24, 2010 12:55 PM \nTo: Lesley...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2190,
+      "finding_type": "financial",
+      "summary": "Epstein's 34 E 69th St subletting scheme reveals profit motive and deceptive pattern. Epstein paid OFM K/month rent. He simultaneously pursued two deals: (1) Galinas sublease at K/month (with K key money for 'improvements'), and (2) Fisher sublet at K/month. By blocking Galinas and installing Fisher, Epstein captured K/month profit (K/year) plus had attempted to extract K from Galinas. Fisher was told the sublease was approved by the State Department — a false representation per the court record. OFM's representative Richard Massey would swear under oath he never orally approved the sublet. Epstein's attorney was Jeffrey Schantz; his litigation counsel was Wachtel & Masyr (Steven J. Cohen). This 1996 scheme prefigures later pattern of using government-controlled properties for personal profit through deception.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:46:30",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": " On May 7, 1996, Epstein and Fisher entered into a sublease agreement at a rental price of $20,000 per month, despite OFM's express denial of Epstein's request for permission to sublet to Fisher. Fisher claims to have entered into the sublease agreement based on Epstein's representations that the sublease was approved by the State Department",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2198,
+      "finding_type": "intelligence",
+      "summary": "Exhaustive negative search across 665K+ pages. Galinas appears ONLY in EFTA01325008. Zero results in DOJ, LMSBAND, Unified, Epstein20K, InvestigationsDB. No email, phone, financial, flight records found.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:47:26",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2230,
+      "finding_type": "intelligence",
+      "summary": "Comprehensive negative results across multiple authoritative databases: Zero FEC donations by Xenophon Galinas (only unrelated Galinas family members in PA/IL/VA). Zero FARA registrations. Zero LDA lobbying filings. Zero UCC liens. Zero FAA aircraft registrations. Zero OpenSanctions hits. Zero Deutsche Bank DS10 transactions involving Galinas, Onassis, or Olympic Tower. Zero UK Companies House presence. Zero results in DOJ Vol 11, LMSBAND, or Unified DB. Zero in local registry.db for Galinas or Onassis entities. Not in LittleSis relationship database. This absence pattern suggests Galinas operated primarily through Greek/Liechtenstein corporate structures rather than US regulatory framework.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:45",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DS10",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FAA-registry-search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA-bulk-search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC-API-search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA-API-search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "OpenSanctions-search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UCC-registry-search",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 2259,
+      "finding_type": "intelligence",
+      "summary": "Negative result: No direct Onassis Foundation-Epstein network overlap found. Searches across ICIJ, LittleSis, OpenSanctions, LMSBAND, DOJ Vol 11, Unified DB, EpsteinExposed all returned zero Galinas results. Onassis Foundation board has no known Epstein-linked individuals",
+      "detail": "Comprehensive negative results: LittleSis 0 results for Galinas; ICIJ unavailable (neo4j not installed); OCCRP Aleph 0 for Galinas person; OpenSanctions 0; LMSBAND 0; DOJ Vol 11 0 for Galinas; Unified DB 0; EpsteinExposed 0 for both Galinas and Onassis. Web searches for Onassis Foundation plus Epstein/Indyke/Southern Trust returned no connections. Olympic Tower DugganUSA hits (206 total for Olympic Tower) are incidental mentions in news roundups sent to Epstein, not substantive connections. The 34 E 69th transaction appears to be the ONLY documented Galinas-Epstein nexus. Key question: was Galinas specifically approached because of his Onassis Group position and real estate expertise, or was this a normal real estate transaction?",
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:57",
+      "target_name": "Xenophon Galinas",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": "Galinas contacted OFM directly about a new lease for the Premises beginning in February of 1997",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1112,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "financial",
+      "description": "Sublease negotiations at 34 E 69th St in March 1996 with 100K key money. Epstein blocked Galinas OFM deal via right of first refusal.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:48:06",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "legal",
+      "description": "34 E 69th St lease dispute - Galinas negotiated new lease with OFM April 1996, Epstein exercised right of first refusal to block deal. Galinas would have paid Epstein 100K for improvements. Court case 96 CIV 8307 SDNY.",
+      "strength": "strong",
+      "date_range": "1996-03/1998-04",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:49:10",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1125,
+      "person_a": "Olympic Tower Associates",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "corporate",
+      "description": "Galinas was president of Olympic Tower Associates (Onassis Foundation NYC subsidiary managing Olympic Tower at 645 Fifth Avenue) from 1986-1998. His shipping venture Manhattan Maritime Enterprises Inc also headquartered at 645 Fifth Ave.",
+      "strength": "strong",
+      "date_range": "1986/2005",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:49:15",
+      "other_person": "Olympic Tower Associates",
+      "other_person_slug": "olympic-tower-associates",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "NY-SoS:2585540",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1127,
+      "person_a": "FreeSeas Inc",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "corporate",
+      "description": "Galinas served as director of FreeSeas Inc, Athens-based deep sea shipping company. 38 SEC filings mentioning him from 2012-2018. Resigned Feb 2017.",
+      "strength": "strong",
+      "date_range": "2012/2017",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:49:20",
+      "other_person": "FreeSeas Inc",
+      "other_person_slug": "freeseas-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1325159",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1129,
+      "person_a": "Manhattan Maritime Enterprises",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "corporate",
+      "description": "Manhattan Maritime Enterprises Inc (CIK 1331764) - Delaware corp at 645 Fifth Ave (Olympic Tower) - filed S-1 July 2005 with multiple Galinas exhibits. Galinas shipping investment banking venture post-Olympic Tower presidency.",
+      "strength": "strong",
+      "date_range": "2005",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:49:25",
+      "other_person": "Manhattan Maritime Enterprises",
+      "other_person_slug": "manhattan-maritime-enterprises",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1134,
+      "person_a": "FreeSeas Inc",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "corporate",
+      "description": "Galinas served as director of FreeSeas Inc Athens shipping company; resigned Feb 2017 per SEC filing",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:40",
+      "other_person": "FreeSeas Inc",
+      "other_person_slug": "freeseas-inc",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR 0001213900-17-001197",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1145,
+      "person_a": "Onassis Foundation",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "corporate",
+      "description": "Galinas headed Onassis Group US operations 1986-1998",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:52:01",
+      "other_person": "Onassis Foundation",
+      "other_person_slug": "onassis-foundation",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://manhattangroup.us/mg_team/xenophon-galinas/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1146,
+      "person_a": "Alexander S. Onassis Foundation",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "employment",
+      "description": "Galinas served the Onassis Group for 12 years (1986-1998): First as EVP of Central American Steamship Inc (Onassis US shipping subsidiary 1986-90), then as President of Olympic Towers Associates AND board member of Williston SA (both Onassis subsidiaries 1990-98). Oversaw all US real estate operations and had senior executive supervision of Onassis Group US activities.",
+      "strength": "strong",
+      "date_range": "1986/1998",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:52:59",
+      "other_person": "Alexander S. Onassis Foundation",
+      "other_person_slug": "alexander-s-onassis-foundation",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "person_a": "Vassilios Livanos",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "corporate",
+      "description": "Co-founders of Manhattan Group Partners LLC (March 2004) and co-principals of Manhattan Maritime Enterprises SPAC (July 2005, 114M IPO attempt). Both at 645 Fifth Avenue. Livanos has 25+ years in US shipping management.",
+      "strength": "strong",
+      "date_range": "2004/2005",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:53:04",
+      "other_person": "Vassilios Livanos",
+      "other_person_slug": "vassilios-livanos",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1093,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "financial",
+      "description": "Galinas negotiated with Epstein to take over the 34 E 69th St lease, agreeing to pay Epstein $100K for improvements. Galinas independently secured a letter agreement with OFM for a new 5-year lease at $16K/month. Epstein exercised his right of first refusal to block Galinas, then sublet to Fisher at $20K/month instead — profiting from the spread.",
+      "strength": "medium",
+      "date_range": "1996",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:18:25",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1131,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "legal",
+      "description": "Galinas lease counterparty at 34 E 69th 1996",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:50:23",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1142,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "legal",
+      "description": "Galinas negotiated with OFM to lease 34 E 69th St; Epstein exercised right of first refusal to block deal, then illegally sublet to Ivan Fisher at higher rent. Court case 96 Civ 8307 SDNY.",
+      "strength": "medium",
+      "date_range": "1996-03 to 1998-04",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:40",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1143,
+      "person_a": "Ivan Fisher",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "legal",
+      "description": "Both were potential subtenants of Epstein at 34 E 69th St in 1996. Epstein negotiated with Galinas first, then chose to sublet to Fisher at 20K/mo instead. Fisher was criminal defense attorney known for French Connection and Pizza Connection cases.",
+      "strength": "weak",
+      "date_range": "1996-03 to 1996-05",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:45",
+      "other_person": "Ivan Fisher",
+      "other_person_slug": "ivan-fisher",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01325008",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1144,
+      "person_a": "Mike Bilirakis",
+      "person_b": "Xenophon Galinas",
+      "relationship_type": "political",
+      "description": "FEC records show Galinas donated to Rep. Mike Bilirakis (R-FL-9), a Greek-American congressman, in 1994 while employed at Olympic Tower Associates. Reflects Greek diaspora political network.",
+      "strength": "weak",
+      "date_range": "1994",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 21:51:48",
+      "other_person": "Mike Bilirakis",
+      "other_person_slug": "mike-bilirakis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://api.open.fec.gov/v1/schedules/schedule_a/?contributor_name=Xenophon+Galinas",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "president",
+      "date_start": "1985",
+      "date_end": "1986",
+      "source": "SEC-EDGAR-CIK-1331764-S1",
+      "entity_id": 338,
+      "entity_name": "Benzopetrol SA",
+      "entity_type": "unknown",
+      "jurisdiction": "Greece",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "president",
+      "date_start": "1986",
+      "date_end": "1998",
+      "source": "SEC-EDGAR, NY-SOS",
+      "entity_id": 329,
+      "entity_name": "Olympic Tower Associates LLC",
+      "entity_type": "llc",
+      "jurisdiction": "New York",
+      "entity_status": "active"
+    },
+    {
+      "role": "executive_vice_president",
+      "date_start": "1986",
+      "date_end": "1990",
+      "source": "SEC-EDGAR-CIK-1331764-S1",
+      "entity_id": 339,
+      "entity_name": "Central American Steamship Inc",
+      "entity_type": "inc",
+      "jurisdiction": "Unknown",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "1990",
+      "date_end": "1998",
+      "source": "SEC-EDGAR-CIK-1331764-S1",
+      "entity_id": 340,
+      "entity_name": "Williston SA",
+      "entity_type": "unknown",
+      "jurisdiction": "Unknown",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "president",
+      "date_start": "1998",
+      "date_end": "2004",
+      "source": "SEC-EDGAR-CIK-1331764-S1",
+      "entity_id": 337,
+      "entity_name": "ASA Holdings Inc (Pacific Millennium NA)",
+      "entity_type": "inc",
+      "jurisdiction": "Unknown",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "officer",
+      "date_start": "2004",
+      "date_end": null,
+      "source": "SEC-EDGAR-CIK-1331764-S1",
+      "entity_id": 336,
+      "entity_name": "Manhattan Group Partners LLC",
+      "entity_type": "llc",
+      "jurisdiction": "New York",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "founder",
+      "date_start": "2005",
+      "date_end": null,
+      "source": "SEC-EDGAR, NY-SOS",
+      "entity_id": 330,
+      "entity_name": "Manhattan Maritime Enterprises Inc",
+      "entity_type": "inc",
+      "jurisdiction": "Delaware",
+      "entity_status": "unknown"
+    },
+    {
+      "role": "director",
+      "date_start": "2012",
+      "date_end": "2017",
+      "source": "SEC-EDGAR, NY-SOS",
+      "entity_id": 331,
+      "entity_name": "FreeSeas Inc",
+      "entity_type": "inc",
+      "jurisdiction": "Marshall Islands",
+      "entity_status": "unknown"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1975-12",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "GLEIF: Alexander S. Onassis Foundation (LEI 529900ZJX6MJVD7ORF75) registered in Liechtenstein (FL-0001.057.232-9) at Fundationsanstalt Heiligkreuz 6 Vaduz. Active status. Separate entity Alexander S. Onassis Public Benefit Foundation (LEI 529900BNVA9LZUGD2U08) also in Vaduz at same address (FL-0001.057.377-5) created Dec 1975. Also Onassis Management SA (LEI 529900BWCHLGJDQJS457) in BVI via ATU General Trust with HQ in Ruggell Liechtenstein - LAPSED status. ProPublica 990: US arm is Alexander S Onassis Public Benefit Foundation USA Inc (EIN 13-4037172) in NYC with filings 2008-2018.",
+      "confidence": "high",
+      "id": 2225
+    },
+    {
+      "date": "1986",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "ACRIS: Olympic Tower Associates appears in 37 NYC property transactions (17 as grantor, 20 as grantee) at 645 Fifth Avenue Suite 301 NYC 10022 and 888 Seventh Avenue NYC. This is the Onassis Foundation subsidiary that Galinas ran as president 1986-1998, managing the Olympic Tower condominium building on Fifth Avenue.",
+      "confidence": "confirmed",
+      "id": 2221
+    },
+    {
+      "date": "1986",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Galinas full career: Onassis Group US head 1986-1998, then shipping investment banking (Morgan Joseph, Rodman Renshaw), FreeSeas director, Whole Earth Brands director, now Manhattan Maritime Capital CEO",
+      "confidence": "high",
+      "id": 2244
+    },
+    {
+      "date": "1986/1998",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Galinas served the Onassis Group for 12 years (1986-1998): First as EVP of Central American Steamship Inc (Onassis US shipping subsidiary 1986-90), then as President of Olympic Towers Associates AND board member of Williston SA (both Onassis subsidiaries 1990-98). Oversaw all US real estate operations and had senior executive supervision of Onassis Group US activities.",
+      "other_person": "Alexander S. Onassis Foundation",
+      "id": 1146
+    },
+    {
+      "date": "1986/2005",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Galinas was president of Olympic Tower Associates (Onassis Foundation NYC subsidiary managing Olympic Tower at 645 Fifth Avenue) from 1986-1998. His shipping venture Manhattan Maritime Enterprises Inc also headquartered at 645 Fifth Ave.",
+      "other_person": "Olympic Tower Associates",
+      "id": 1125
+    },
+    {
+      "date": "1990",
+      "type": "finding",
+      "finding_type": "location",
+      "summary": "645 Fifth Avenue (Olympic Tower) appears 1000+ times in Epstein document corpus. While primarily appearing as event venue (galas, concerts at Olympic Tower Atrium), this is the building Galinas managed as president of Olympic Towers Associates 1990-1998 for the Onassis Foundation. Also headquarters of Manhattan Maritime Enterprises (Galinas SPAC) and Manhattan Group Partners (Galinas firm). Olympic Tower Associates has 37 ACRIS property transactions. Olympic Tower at 641-645 Fifth Ave is a 51-story mixed-use tower built by Aristotle Onassis in 1976.",
+      "confidence": "confirmed",
+      "id": 2265
+    },
+    {
+      "date": "1992-02",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "The 34 E 69th St dispute reveals Epstein's operational pattern with OFM/State Dept property: Epstein leased former Iranian Deputy Consul General residence from OFM starting Feb 1992 at 15K/month. Extended Aug 1992 for 3 more years with right of first refusal. Abandoned premises Jan 1996 but continued paying rent. When Galinas negotiated replacement lease at 16K/month, Epstein exercised right of first refusal specifically to block it, then illegally sublet to attorney Ivan Fisher at 20K/month (profit of 5K/month). Duggan corpus shows 1000+ documents mentioning 34 E 69th and 157 mentioning Ivan Fisher. The property remained a significant location in the Epstein document trail.",
+      "confidence": "medium",
+      "id": 2261
+    },
+    {
+      "date": "1994",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC records: Galinas made 8 political donations 1994-1997 totaling net ,000, all Republican (Dole, D'Amato, Bilirakis), employer listed as Olympic Tower Associates and Onassis Group, zip 10022",
+      "confidence": "confirmed",
+      "id": 2253
+    },
+    {
+      "date": "1994",
+      "type": "connection",
+      "relationship_type": "political",
+      "description": "FEC records show Galinas donated to Rep. Mike Bilirakis (R-FL-9), a Greek-American congressman, in 1994 while employed at Olympic Tower Associates. Reflects Greek diaspora political network.",
+      "other_person": "Mike Bilirakis",
+      "id": 1144
+    },
+    {
+      "date": "1996",
+      "type": "finding",
+      "finding_type": null,
+      "summary": "Galinas absent from all Epstein document corpora except judicial opinion in US v Epstein; zero hits in DOJ Vol 11, LMSBAND, Unified DB, Investigations DB",
+      "confidence": "medium",
+      "id": 2241
+    },
+    {
+      "date": "1996",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Galinas negotiated with Epstein to take over the 34 E 69th St lease, agreeing to pay Epstein $100K for improvements. Galinas independently secured a letter agreement with OFM for a new 5-year lease at $16K/month. Epstein exercised his right of first refusal to block Galinas, then sublet to Fisher at $20K/month instead — profiting from the spread.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1093
+    },
+    {
+      "date": "1996-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "OFM-Galinas deal reveals Epstein property manipulation: Epstein abandoned 34 E 69th in Jan 1996 but kept lease, then tried to profit from subletting. When Galinas offered OFM better terms (16K vs 15K/mo), Epstein exercised ROFR to block it, then illegally sublet to Ivan Fisher at 20K/mo",
+      "confidence": "confirmed",
+      "id": 2260
+    },
+    {
+      "date": "1996-03 to 1996-05",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Both were potential subtenants of Epstein at 34 E 69th St in 1996. Epstein negotiated with Galinas first, then chose to sublet to Fisher at 20K/mo instead. Fisher was criminal defense attorney known for French Connection and Pizza Connection cases.",
+      "other_person": "Ivan Fisher",
+      "id": 1143
+    },
+    {
+      "date": "1996-03 to 1998-04",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "Galinas negotiated with OFM to lease 34 E 69th St; Epstein exercised right of first refusal to block deal, then illegally sublet to Ivan Fisher at higher rent. Court case 96 Civ 8307 SDNY.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1142
+    },
+    {
+      "date": "1996-03/1998-04",
+      "type": "connection",
+      "relationship_type": "legal",
+      "description": "34 E 69th St lease dispute - Galinas negotiated new lease with OFM April 1996, Epstein exercised right of first refusal to block deal. Galinas would have paid Epstein 100K for improvements. Court case 96 CIV 8307 SDNY.",
+      "other_person": "Jeffrey Epstein",
+      "id": 1123
+    },
+    {
+      "date": "1996-04",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Xenophon Galinas identified as President of Olympic Tower Associates (1986-1998), the Onassis Foundation subsidiary managing Olympic Tower on Fifth Avenue. Also served on the board of Williston S.A. (Onassis shipping/real estate). Later founded Manhattan Group (shipping investment banking). Galinas independently negotiated with OFM for a 5-year lease at 34 E 69th at $16K/month in April 1996, but Epstein exercised right of first refusal to block the deal. His involvement suggests the OFM property was known in high-end NYC real estate and Onassis-connected circles.",
+      "confidence": "medium",
+      "id": 2155
+    },
+    {
+      "date": "1996-04-12",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "SDNY court opinion (96 CIV. 8307, EFTA01325008) contains full details of 34 E 69th St dispute: In March 1996 Galinas negotiated directly with OFM for new lease. April 12, 1996 letter agreement: 5-year term starting Feb 1997 at 16K/month with yearly increases to 18K. Proposed arrangement included Galinas paying Epstein 100K for improvements. OFM told Galinas it would not consent to Epstein subletting beyond Jan 1997. Epstein exercised right of first refusal April 16 1996 to block OFM-Galinas deal. Court granted ejectment against Epstein and Fisher.",
+      "confidence": "confirmed",
+      "id": 2207
+    },
+    {
+      "date": "1996-04-12",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Full court opinion US v. Epstein (96 Civ 8307, SDNY 1998) details Galinas-Epstein 34 E 69th transaction: Galinas negotiated K payment to Epstein for improvements plus separate OFM lease at K/mo",
+      "confidence": "confirmed",
+      "id": 2249
+    },
+    {
+      "date": "1996-11-04",
+      "type": "finding",
+      "finding_type": null,
+      "summary": "Two federal cases in SDNY arising from 34 E 69th St: US v Epstein (96 Civ 8307) and Epstein v Fisher (97 Civ 1489), both before Judge Denny Chin",
+      "confidence": "high",
+      "id": 2229
+    },
+    {
+      "date": "1998",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "SEC S-1 filing reveals complete Galinas career: (1) General Dynamics Quincy shipyard - ship building operations. (2) 1985-86 President of Benzopetrol SA Athens - family oil/gas/shipping business, exclusive BP/Greece transport partner, effected sale to BP interests. (3) 1986-90 EVP Central American Steamship Inc - Onassis Group US shipping subsidiary for non-US flag vessels. (4) 1990-98 President Olympic Towers Associates AND board member Williston SA - both Onassis Group subsidiaries, oversaw US real estate and shipping. (5) 1998-2004 President ASA Holdings (renamed Pacific Millennium NA) - international bulk shipping investments. (6) 2004+ Co-founded Manhattan Group Partners LLC then Manhattan Maritime Enterprises Inc (blank check M shipping acquisition). Education: BS Surrey, MS Marine Engineering Michigan, MBA Finance NYU.",
+      "confidence": "confirmed",
+      "id": 2262
+    },
+    {
+      "date": "1998-04-01",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Full SDNY court opinion (96 CIV. 8307, Judge Chin, April 1, 1998) details Galinas-Epstein-OFM triangle at 34 E 69th St. Key facts from court record: (1) Epstein leased the former Iranian deputy consul general residence from OFM/State Dept from Feb 1992 at K/month, extended to Jan 1997; (2) Epstein abandoned premises in Jan 1996; (3) In March 1996, Epstein simultaneously negotiated with Galinas for sublease/assignment AND with Ivan Fisher for sublet; (4) Galinas would have paid Epstein K for improvements; (5) Galinas independently contacted OFM and secured April 12, 1996 letter agreement for 5-year lease at K-K/month starting Feb 1997; (6) Epstein exercised right of first refusal on April 16, 1996 to block Galinas deal; (7) Epstein then sublet to Fisher at K/month on May 7, 1996 WITHOUT OFM written consent; (8) OFM terminated Epstein's lease August 23, 1996; (9) Government won summary judgment for ejectment of all occupants.",
+      "confidence": "high",
+      "id": 2189
+    },
+    {
+      "date": "1998-04-01",
+      "type": "finding",
+      "finding_type": null,
+      "summary": "Full judicial opinion: US v. Epstein, 96 Civ. 8307 (DC), details Galinas lease scheme",
+      "confidence": "confirmed",
+      "id": 2223
+    },
+    {
+      "date": "2000-12-20",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "NY SOS: Olympic Tower Associates LLC (DOS ID 2585540) - domestic LLC filed Dec 20 2000 in New York County. Process server at OT Associates LLC c/o MI-KOR Realty Corp, 1412 Broadway Suite 718, NYC 10108. Separate from Olympic Tower Manager LLC (DOS 4310987, filed Oct 2012, foreign LLC from Delaware via Corporation Service Company) and Olympic Towers Associates LP (DOS 2033083, filed May 1996 in Erie County - different entity in Buffalo).",
+      "confidence": "confirmed",
+      "id": 2219
+    },
+    {
+      "date": "2004-03",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Manhattan Maritime Enterprises Inc was a 114M blank check company (SPAC) for shipping acquisitions. EIN 20-2836149. Delaware. Galinas Chairman/CEO/Secretary. Co-founded with Vassilios (Bill) M. Livanos (president) and others. All co-founders of Manhattan Group Partners LLC (March 2004). Underwriter Ladenburg Thalmann. 220K loans from founders. 7500/month to Manhattan Group Partners for office at 645 Fifth Ave. Trust at Smith Barney/Citigroup. S-1 filed July 2005 but IPO appears never completed - no subsequent SEC filings.",
+      "confidence": "confirmed",
+      "id": 2263
+    },
+    {
+      "date": "2004/2005",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Co-founders of Manhattan Group Partners LLC (March 2004) and co-principals of Manhattan Maritime Enterprises SPAC (July 2005, 114M IPO attempt). Both at 645 Fifth Avenue. Livanos has 25+ years in US shipping management.",
+      "other_person": "Vassilios Livanos",
+      "id": 1147
+    },
+    {
+      "date": "2005",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Manhattan Maritime Enterprises Inc (CIK 1331764) - Delaware corp at 645 Fifth Ave (Olympic Tower) - filed S-1 July 2005 with multiple Galinas exhibits. Galinas shipping investment banking venture post-Olympic Tower presidency.",
+      "other_person": "Manhattan Maritime Enterprises",
+      "id": 1129
+    },
+    {
+      "date": "2005-07",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR: Manhattan Maritime Enterprises Inc (CIK 1331764) - Delaware-incorporated shipping company at 645 Fifth Avenue NYC (Olympic Tower address). Filed S-1 registration statement July 2005 with 10 exhibits mentioning Galinas. Single filing company - no subsequent activity. Address confirms direct connection between Galinas shipping ventures and Onassis Foundation Olympic Tower building.",
+      "confidence": "confirmed",
+      "id": 2216
+    },
+    {
+      "date": "2012",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "SEC EDGAR: Galinas appears in 55+ filings for FreeSeas Inc (CIK 0001325159), Athens-based Greek dry bulk shipping company (SIC 4412). He served on board from 2012 to at least 2016 via 6-K and 20-F filings",
+      "confidence": "high",
+      "id": 2257
+    },
+    {
+      "date": "2012/2017",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Galinas served as director of FreeSeas Inc, Athens-based deep sea shipping company. 38 SEC filings mentioning him from 2012-2018. Resigned Feb 2017.",
+      "other_person": "FreeSeas Inc",
+      "id": 1127
+    },
+    {
+      "date": "2017-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR: Galinas director of FreeSeas Inc (CIK 1325159), Athens deep sea shipping (SIC 4412). Filed resignation letter Feb 2017. 38 filings mentioning Galinas 2012-2018. SEC revoked registration Aug 2022.",
+      "confidence": "confirmed",
+      "id": 2214
+    },
+    {
+      "date": "2017-02",
+      "type": "finding",
+      "finding_type": null,
+      "summary": "SEC EDGAR: Galinas served as director of FreeSeas Inc (CIK 1325159, Athens shipping SIC 4412) and resigned Feb 2017; also connected to Manhattan Maritime Enterprises (CIK 1331764, NY)",
+      "confidence": "high",
+      "id": 2233
+    },
+    {
+      "date": "2017-07-08",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Greek shipping network overlap: Epstein corpus contains 3 Livanos references. Most significant: EFTA02389898 - Peggy Siegal emails Epstein July 8 2017 about dining on private island Coronis owned by George and Lita Livanos (Greek shipping tycoon). EFTA02421758 lists George Livanos as Greek shipping tycoon on Epstein contact/guest list. Galinas co-founded Manhattan Maritime Enterprises with Vassilios (Bill) M. Livanos - potentially related to the Livanos shipping dynasty. Both Galinas and the Livanos family operated in the same NYC Greek shipping social/business circle that intersected with Epstein.",
+      "confidence": "medium",
+      "id": 2264
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      2260,
+      2207,
+      2249,
+      2229,
+      2223,
+      2189,
+      2264,
+      2261,
+      2241,
+      2155,
+      2190,
+      2198
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "Delaware",
+        "Greece",
+        "Marshall Islands",
+        "New York",
+        "Unknown"
+      ],
+      "officers": [
+        {
+          "role": "president",
+          "entity": "Benzopetrol SA",
+          "start": "1985",
+          "end": "1986"
+        },
+        {
+          "role": "president",
+          "entity": "Olympic Tower Associates LLC",
+          "start": "1986",
+          "end": "1998"
+        },
+        {
+          "role": "executive_vice_president",
+          "entity": "Central American Steamship Inc",
+          "start": "1986",
+          "end": "1990"
+        },
+        {
+          "role": "director",
+          "entity": "Williston SA",
+          "start": "1990",
+          "end": "1998"
+        },
+        {
+          "role": "president",
+          "entity": "ASA Holdings Inc (Pacific Millennium NA)",
+          "start": "1998",
+          "end": "2004"
+        },
+        {
+          "role": "officer",
+          "entity": "Manhattan Group Partners LLC",
+          "start": "2004",
+          "end": null
+        },
+        {
+          "role": "founder",
+          "entity": "Manhattan Maritime Enterprises Inc",
+          "start": "2005",
+          "end": null
+        },
+        {
+          "role": "director",
+          "entity": "FreeSeas Inc",
+          "start": "2012",
+          "end": "2017"
+        }
+      ],
+      "entities": [
+        {
+          "id": 338,
+          "name": "Benzopetrol SA",
+          "type": "unknown",
+          "jurisdiction": "Greece",
+          "role": "president"
+        },
+        {
+          "id": 329,
+          "name": "Olympic Tower Associates LLC",
+          "type": "llc",
+          "jurisdiction": "New York",
+          "role": "president"
+        },
+        {
+          "id": 339,
+          "name": "Central American Steamship Inc",
+          "type": "inc",
+          "jurisdiction": "Unknown",
+          "role": "executive_vice_president"
+        },
+        {
+          "id": 340,
+          "name": "Williston SA",
+          "type": "unknown",
+          "jurisdiction": "Unknown",
+          "role": "director"
+        },
+        {
+          "id": 337,
+          "name": "ASA Holdings Inc (Pacific Millennium NA)",
+          "type": "inc",
+          "jurisdiction": "Unknown",
+          "role": "president"
+        },
+        {
+          "id": 336,
+          "name": "Manhattan Group Partners LLC",
+          "type": "llc",
+          "jurisdiction": "New York",
+          "role": "officer"
+        },
+        {
+          "id": 330,
+          "name": "Manhattan Maritime Enterprises Inc",
+          "type": "inc",
+          "jurisdiction": "Delaware",
+          "role": "founder"
+        },
+        {
+          "id": 331,
+          "name": "FreeSeas Inc",
+          "type": "inc",
+          "jurisdiction": "Marshall Islands",
+          "role": "director"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          2257,
+          2264
+        ],
+        "connection_ids": [
+          1112,
+          1123,
+          1125,
+          1127,
+          1129,
+          1134,
+          1145,
+          1146,
+          1147,
+          1093,
+          1131,
+          1142
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          2221,
+          2253,
+          2263,
+          2216,
+          2214,
+          2190
+        ],
+        "connection_ids": [
+          1112,
+          1093
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure",
+        "viz": null,
+        "finding_ids": [],
+        "connection_ids": [
+          1125,
+          1127,
+          1129,
+          1134,
+          1145,
+          1147
+        ],
+        "guidance": "Narrative about corporate entities, roles, jurisdictions. Explain the structure and its purpose, not just list entities."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          2260,
+          2207,
+          2249,
+          2189
+        ],
+        "connection_ids": [
+          1123,
+          1131,
+          1142,
+          1143
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          2261,
+          2155,
+          2198,
+          2230,
+          2259
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:49:54.112166",
+    "lead": "<p>Xenophon Galinas is a Greek-American shipping executive and real estate manager who spent twelve years (1986&ndash;1998) running the U.S. operations of the Alexander S. Onassis Foundation, the Liechtenstein-registered entity that controls the Onassis shipping and real estate empire. Trained as a marine engineer (University of Surrey, University of Michigan) with an MBA in finance from NYU, Galinas held concurrent leadership positions across several Onassis subsidiaries: Executive Vice President of Central American Steamship Inc (the Group's non-U.S. flag shipping arm, 1986&ndash;1990), President of Olympic Tower Associates (managing the 51-story Olympic Tower condominium at 641&ndash;645 Fifth Avenue, 1990&ndash;1998), and board member of Williston S.A. (Onassis shipping and real estate). Before joining the Onassis Group, he served as president of Benzopetrol SA in Athens, a family oil, gas, and shipping business that was the exclusive BP/Greece transport partner, and oversaw its sale to BP interests in 1986.</p>\n\n<p>Galinas enters the Epstein investigative record through a single documented transaction. In March 1996, he negotiated with both <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> and the State Department's Office of Foreign Missions to take over the lease at <a href=\"/dossiers/34-east-69th-street\">34 East 69th Street</a>, a former Iranian deputy consul general residence that Epstein had leased since February 1992 at $15,000 per month and then abandoned in January 1996. Galinas and OFM reached a letter agreement on April 12, 1996, for a five-year lease at $16,000&ndash;$18,000 per month, with Galinas separately agreeing to pay Epstein $100,000 for improvements to the property. The agreement was expressly subject to Epstein's right of first refusal. On April 16, Epstein exercised that right &mdash; not to return to the property, but to block Galinas and instead sublet to criminal defense attorney <a href=\"/dossiers/ivan-fisher\">Ivan Fisher</a> at $20,000 per month, capturing a $5,000 monthly profit on the government lease. OFM denied written consent for the Fisher sublet, but Epstein proceeded anyway, triggering the federal ejectment action <em>United States v. Epstein</em> (96 CIV 8307, SDNY) before Judge Denny Chin (EFTA01325008).</p>\n\n<p>Exhaustive searches across the DOJ Volume 11 corpus (331,000 pages), DugganUSA, LMSBAND, the Unified database, email archives, financial records, FARA, LDA, Deutsche Bank DS10 transactions, and OpenSanctions returned zero results for Galinas outside the judicial opinion. He does not appear in any Epstein contact list, email, flight log, or financial record. The available evidence indicates that Galinas was an unwitting counterparty in a commercial real estate transaction &mdash; a senior shipping executive seeking prestige office space on the Upper East Side who happened to negotiate for a property that Epstein was exploiting for profit. After leaving the Onassis Group in 1998, Galinas moved into shipping investment banking (ASA Holdings/Pacific Millennium, Morgan Joseph TriArtisan, Rodman &amp; Renshaw), co-founded Manhattan Group Partners and Manhattan Maritime Enterprises Inc (a $114 million blank-check SPAC headquartered at 645 Fifth Avenue), served on the board of FreeSeas Inc (an Athens-based dry bulk shipper, 2012&ndash;2017), and currently operates as CEO of Manhattan Maritime Capital.</p>",
+    "open_questions": [
+      "Was Galinas specifically recruited through Onassis Foundation or Greek shipping network channels to take the 34 East 69th Street lease, or did he find the property through ordinary commercial real estate channels? The answer would clarify whether Epstein's OFM property was marketed within a specific social circuit.",
+      "Is Vassilios (Bill) M. Livanos, Galinas's co-founder at Manhattan Maritime Enterprises, related to the George Livanos who appears on Epstein guest lists and whose private island Coronis was referenced in Peggy Siegal's 2017 email to Epstein? A confirmed family connection would establish a second-degree link between Galinas's business network and Epstein's social network.",
+      "What happened to the $100,000 improvement payment that Galinas had agreed to make to Epstein? The letter agreement with OFM was conditioned on Epstein's right of first refusal, which Epstein exercised. Did Galinas make any partial payment before the deal collapsed, or was the arrangement entirely prospective?",
+      "Did the Onassis Foundation or Olympic Tower Associates have any other documented interactions with Epstein-linked entities beyond the 34 East 69th Street transaction? Olympic Tower at 645 Fifth Avenue appears over 1,000 times in the Epstein corpus, but review suggests these are incidental venue references rather than substantive connections."
+    ],
+    "system_role": "Galinas is an example of a peripheral figure drawn into the Epstein record through a routine commercial transaction rather than any network participation. His significance lies in what the failed lease negotiation reveals about Epstein's operational methods in the mid-1990s: using government-custodied property as a profit vehicle, exercising contractual rights strategically to block legitimate deals, and misrepresenting State Department authorization to subsequent tenants. The Galinas episode also establishes that Epstein's 34 East 69th Street property was known in elite NYC real estate circles connected to the Onassis Foundation and Greek shipping networks.",
+    "sections": [
+      {
+        "id": "onassis-group-career",
+        "title": "Twelve Years Running the Onassis Empire in America",
+        "content": "<p>Galinas joined the Onassis Group in 1986 after selling the family shipping and petroleum business, Benzopetrol SA of Athens, to BP interests. The Alexander S. Onassis Foundation &mdash; registered in Liechtenstein at Heiligkreuz 6, Vaduz (LEI 529900ZJX6MJVD7ORF75), with a parallel public benefit foundation (LEI 529900BNVA9LZUGD2U08) created in December 1975 and a U.S. nonprofit arm (EIN 13-4037172) based in New York &mdash; entrusted him with progressively greater authority over its American operations. From 1986 to 1990, he served as Executive Vice President of Central American Steamship Inc, the Onassis subsidiary managing non-U.S. flag shipping. In 1990, he was elevated to President of Olympic Tower Associates, the entity responsible for the 51-story Olympic Tower condominium at 641&ndash;645 Fifth Avenue, built by Aristotle Onassis in 1976. He simultaneously held a board seat on Williston S.A., overseeing the Group's combined shipping and real estate interests.</p>\n\n<p>ACRIS records show Olympic Tower Associates engaged in 37 NYC property transactions during the period of Galinas's presidency &mdash; 17 as grantor and 20 as grantee &mdash; at addresses including 645 Fifth Avenue Suite 301 and 888 Seventh Avenue. The New York Secretary of State confirms Olympic Tower Associates LLC (DOS ID 2585540) as a domestic LLC filed December 20, 2000, in New York County, distinct from the later Olympic Tower Manager LLC (DOS 4310987, a Delaware foreign LLC from 2012) and the unrelated Olympic Towers Associates LP in Erie County. The Foundation's corporate structure spans multiple jurisdictions: Liechtenstein for the parent foundations, BVI for Onassis Management SA (now lapsed, via ATU General Trust in Ruggell), and New York for the U.S. charitable and real estate operations. Galinas's role placed him at the center of this cross-border apparatus, managing its most visible American asset from a Fifth Avenue address that would appear over 1,000 times in the Epstein document corpus &mdash; though overwhelmingly in incidental references to Olympic Tower as a gala and event venue, not in any connection to Galinas personally.</p>",
+        "viz": null
+      },
+      {
+        "id": "the-34-east-69th-street-transaction",
+        "title": "The 34 East 69th Street Transaction",
+        "content": "<p>The single documented intersection between Galinas and <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> occurred in the spring of 1996 over a lease at <a href=\"/dossiers/34-east-69th-street\">34 East 69th Street</a>, a former Iranian diplomatic residence held as blocked property by the State Department's Office of Foreign Missions. Epstein had leased the building since February 1992 at $15,000 per month, with an extension through January 1997 that included a right of first refusal. He abandoned the premises in January 1996 but continued paying rent, retaining his contractual position.</p>\n\n<p>In March 1996, Epstein began negotiating simultaneously with Galinas and with <a href=\"/dossiers/ivan-fisher\">Ivan Fisher</a>, a prominent criminal defense attorney. Galinas's proposed arrangement included a $100,000 payment to Epstein for improvements made during Epstein's tenancy. But Galinas also contacted OFM directly, and on April 12, 1996, he and OFM executed a letter agreement for a new five-year lease beginning February 1, 1997, at $16,000 per month with annual increases to $18,000. The agreement was expressly conditioned on Epstein's right of first refusal. OFM informed Galinas that it would not consent to Epstein subletting beyond January 1997.</p>\n\n<p>Four days later, on April 16, 1996, Epstein exercised his right of first refusal &mdash; not to occupy the property himself, but to block the Galinas&ndash;OFM deal. He then sublet to Fisher at $20,000 per month on May 7, 1996, despite OFM's express written denial of sublease consent on April 26. Epstein told Fisher the State Department had orally approved the arrangement, a claim that OFM representative Richard Massey would later deny under oath. The scheme netted Epstein $5,000 per month ($60,000 per year) in arbitrage between his government lease rate and Fisher's sublease payment. OFM terminated Epstein's lease on August 23, 1996, triggering the federal ejectment action <em>United States v. Epstein</em> (96 CIV 8307, SDNY). Epstein's transaction counsel for the OFM negotiations was <a href=\"/dossiers/jeffrey-a-schantz\">Jeffrey Schantz</a>; his litigation counsel was Wachtel &amp; Masyr LLP (Steven J. Cohen, with <a href=\"/dossiers/jesse-masyr\">Jesse Masyr</a> as partner). Judge Denny Chin granted summary judgment and ordered ejectment of all occupants on April 1, 1998 (EFTA01325008).</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "post-onassis-shipping-ventures",
+        "title": "From Foundation Management to Shipping Finance",
+        "content": "<p>After departing the Onassis Group in 1998, Galinas pivoted from institutional asset management to shipping investment banking. He served as President of ASA Holdings, later renamed Pacific Millennium NA, managing international bulk shipping investments from 1998 to 2004. In March 2004, he co-founded Manhattan Group Partners LLC with Vassilios (Bill) M. Livanos, a fellow Greek-American shipping executive with over 25 years in U.S. maritime management. The two operated from 645 Fifth Avenue &mdash; the same Olympic Tower address where Galinas had spent twelve years with the Onassis Foundation.</p>\n\n<p>In July 2005, Galinas and Livanos filed an S-1 registration statement with the SEC for Manhattan Maritime Enterprises Inc (CIK 1331764), a Delaware-incorporated blank-check company targeting $114 million for shipping acquisitions. Galinas served as Chairman, CEO, and Secretary; Livanos as President. The founders loaned $220,000 to the company and paid $7,500 per month to Manhattan Group Partners for office space at 645 Fifth Avenue. Ladenburg Thalmann served as underwriter, with trust funds held at Smith Barney/Citigroup. The IPO appears never to have been completed &mdash; no subsequent SEC filings exist for the entity. Galinas then moved through roles at Morgan Joseph TriArtisan (Managing Director, Head of Shipping, 2009&ndash;2011) and Rodman &amp; Renshaw (Managing Director, 2011&ndash;2012) before serving as an independent director of FreeSeas Inc (CIK 1325159), an Athens-based dry bulk shipping company listed on NASDAQ, from 2012 until his resignation in February 2017. SEC records show 55 filings mentioning Galinas across FreeSeas proxy statements and annual reports. The SEC revoked FreeSeas's registration in August 2022. Galinas currently operates as CEO of Manhattan Maritime Capital.</p>\n\n<p>The Livanos connection raises a peripheral investigative question. The Epstein document corpus contains three references to the Livanos shipping family: EFTA02389898 records a July 2017 email from social broker Peggy Siegal to Epstein about dining on the private island Coronis, owned by Greek shipping tycoon George Livanos and his wife Lita; EFTA02421758 lists George Livanos on an Epstein contact or guest list compiled by <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>. Whether Vassilios (Bill) Livanos is related to George Livanos of the storied Livanos shipping dynasty has not been confirmed, but both Galinas and the Livanos family operated within the same NYC Greek shipping social and business circle that peripherally intersected with Epstein's social network.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "absence-as-evidence",
+        "title": "The Significance of Comprehensive Negative Results",
+        "content": "<p>The investigative value of the Galinas dossier lies substantially in what is not there. Exhaustive searches across every available Epstein document corpus &mdash; the DOJ Volume 11 (331,000 pages), DugganUSA (204,000 records), LMSBAND (60,000 records, 851,000 entities), the Unified database (70,000 records), and the Investigations database &mdash; returned zero results for Galinas outside the single judicial opinion (EFTA01325008) in the DugganUSA corpus. He does not appear in any Epstein email, communication, contact list, flight log, or investigative report. Negative results also extend across regulatory databases: zero FARA registrations, zero LDA lobbying filings, zero UCC liens, zero FAA aircraft registrations, zero OpenSanctions entries, zero Deutsche Bank DS10 transactions for Galinas or any Onassis entity, zero UK Companies House presence, and no LittleSis relationship mapping.</p>\n\n<p>FEC records do show eight political donations between 1994 and 1997 totaling a net $2,000 &mdash; all Republican (Bob Dole, Alfonse D'Amato, and Greek-American congressman Mike Bilirakis of Florida's 9th district), with employer listed as Olympic Tower Associates and Onassis Group at zip code 10022. This modest Republican donor profile, anchored in the Greek diaspora political network, is consistent with a shipping executive operating primarily through Greek and Liechtenstein corporate structures rather than American regulatory frameworks. Galinas was not a named party in either federal case arising from <a href=\"/dossiers/34-east-69th-street\">34 East 69th Street</a> &mdash; <em>United States v. Epstein</em> (96 CIV 8307) or <em>Epstein v. Fisher</em> (1:97-cv-01489) &mdash; despite his lease negotiations being central to the factual record establishing Epstein's motive for blocking the deal. His role was that of an unwitting third party whose legitimate commercial activity exposed the mechanism of Epstein's property manipulation scheme.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "jurisdictional-arbitrage",
+      "narrative-shield"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Xenophon Galinas",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "Sublease negotiations at 34 E 69th St in March 1996 with 100K key money. Epstein blocked Galinas OFM deal via right of first refusal."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01325008",
+          "description": "34 E 69th St lease dispute - Galinas negotiated new lease with OFM April 1996, Epstein exercised right of first refusal to block deal. Galinas would have paid Epstein 100K for improvements. Court case 96 CIV 8307 SDNY."
+        },
+        {
+          "target": "Olympic Tower Associates",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "NY-SoS:2585540",
+          "description": "Galinas was president of Olympic Tower Associates (Onassis Foundation NYC subsidiary managing Olympic Tower at 645 Fifth Avenue) from 1986-1998. His shipping venture Manhattan Maritime Enterprises Inc also headquartered at 645 Fifth Ave."
+        },
+        {
+          "target": "FreeSeas Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC-EDGAR-CIK-1325159",
+          "description": "Galinas served as director of FreeSeas Inc, Athens-based deep sea shipping company. 38 SEC filings mentioning him from 2012-2018. Resigned Feb 2017."
+        },
+        {
+          "target": "Manhattan Maritime Enterprises",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC-EDGAR-CIK-1331764",
+          "description": "Manhattan Maritime Enterprises Inc (CIK 1331764) - Delaware corp at 645 Fifth Ave (Olympic Tower) - filed S-1 July 2005 with multiple Galinas exhibits. Galinas shipping investment banking venture post-Olympic Tower presidency."
+        },
+        {
+          "target": "FreeSeas Inc",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC EDGAR 0001213900-17-001197",
+          "description": "Galinas served as director of FreeSeas Inc Athens shipping company; resigned Feb 2017 per SEC filing"
+        },
+        {
+          "target": "Onassis Foundation",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "https://manhattangroup.us/mg_team/xenophon-galinas/",
+          "description": "Galinas headed Onassis Group US operations 1986-1998"
+        },
+        {
+          "target": "Alexander S. Onassis Foundation",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "description": "Galinas served the Onassis Group for 12 years (1986-1998): First as EVP of Central American Steamship Inc (Onassis US shipping subsidiary 1986-90), then as President of Olympic Towers Associates AND board member of Williston SA (both Onassis subsidiaries 1990-98). Oversaw all US real estate operations and had senior executive supervision of Onassis Group US activities."
+        },
+        {
+          "target": "Vassilios Livanos",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "SEC-EDGAR-CIK-1331764-S1",
+          "description": "Co-founders of Manhattan Group Partners LLC (March 2004) and co-principals of Manhattan Maritime Enterprises SPAC (July 2005, 114M IPO attempt). Both at 645 Fifth Avenue. Livanos has 25+ years in US shipping management."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01325008",
+          "description": "Galinas negotiated with Epstein to take over the 34 E 69th St lease, agreeing to pay Epstein $100K for improvements. Galinas independently secured a letter agreement with OFM for a new 5-year lease at $16K/month. Epstein exercised his right of first refusal to block Galinas, then sublet to Fisher at $20K/month instead — profiting from the spread."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01325008",
+          "description": "Galinas lease counterparty at 34 E 69th 1996"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01325008",
+          "description": "Galinas negotiated with OFM to lease 34 E 69th St; Epstein exercised right of first refusal to block deal, then illegally sublet to Ivan Fisher at higher rent. Court case 96 Civ 8307 SDNY."
+        },
+        {
+          "target": "Ivan Fisher",
+          "type": "legal",
+          "strength": 0.4,
+          "evidence_ref": "EFTA01325008",
+          "description": "Both were potential subtenants of Epstein at 34 E 69th St in 1996. Epstein negotiated with Galinas first, then chose to sublet to Fisher at 20K/mo instead. Fisher was criminal defense attorney known for French Connection and Pizza Connection cases."
+        },
+        {
+          "target": "Mike Bilirakis",
+          "type": "political",
+          "strength": 0.4,
+          "evidence_ref": "https://api.open.fec.gov/v1/schedules/schedule_a/?contributor_name=Xenophon+Galinas",
+          "description": "FEC records show Galinas donated to Rep. Mike Bilirakis (R-FL-9), a Greek-American congressman, in 1994 while employed at Olympic Tower Associates. Reflects Greek diaspora political network."
+        }
+      ],
+      "secondHop": {
+        "Alexander S. Onassis Foundation": [
+          {
+            "target": "Olympic Tower Associates",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Olympic Tower Associates is the NYC subsidiary of the Alexander S. Onassis Foundation, managing the Olympic Tower condominium at 641/645 Fifth Avenue. Foundation registered in Liechtenstein with US nonprofit arm EIN 13-4037172."
+          }
+        ],
+        "Ivan Fisher": [
+          {
+            "target": "Ron Soffer",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Fisher and Soffer shared office space at 34 E 69th St NYC from 1996, operating as Fisher and Soffer aka Fisher and Sophir. Fisher was prominent criminal defense attorney (Pizza Connection Trial). Building was Epstein sublease from US Office of Foreign Missions"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Fisher was Epstein's subtenant at 34 E 69th St (former Iranian consulate), paying $20K/month. Named as co-defendant in US v. Epstein (96 CIV 8307). Fisher claimed Epstein falsely represented the sublease was State Department-approved. Companion case Epstein v. Fisher (97 CIV 1489) filed by Epstein against Fisher."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 without OFM consent. Epstein falsely told Fisher the State Dept approved the sublet. Fisher later stopped paying rent. Government sued both in 96 CIV 8307."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Epstein sublet 34 E 69th to Fisher at 20K/month May 1996; two federal cases resulted"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Co-defendants in US v. Epstein & Fisher, 96 CIV 8307 (SDNY 1996-1998). Epstein sublet 34 E 69th St to Fisher at 20K/month May 1996 despite OFM denial. Both ejected by Judge Chin April 1998."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1975-12",
+        "label": "GLEIF: Alexander S. Onassis Foundation (LEI 529900ZJX6MJVD7ORF75) registered in Liechtenstein (FL-0001.057.232-9) at Fundationsanstalt Heiligkreuz 6 Vaduz. Active status. Separate entity Alexander S. Onassis Public Benefit Foundation (LEI 529900BNVA9LZUGD2U08) also in Vaduz at same address (FL-0001.057.377-5) created Dec 1975. Also Onassis Management SA (LEI 529900BWCHLGJDQJS457) in BVI via ATU General Trust with HQ in Ruggell Liechtenstein - LAPSED status. ProPublica 990: US arm is Alexander S Onassis Public Benefit Foundation USA Inc (EIN 13-4037172) in NYC with filings 2008-2018.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2225
+      },
+      {
+        "date": "1986",
+        "label": "ACRIS: Olympic Tower Associates appears in 37 NYC property transactions (17 as grantor, 20 as grantee) at 645 Fifth Avenue Suite 301 NYC 10022 and 888 Seventh Avenue NYC. This is the Onassis Foundation subsidiary that Galinas ran as president 1986-1998, managing the Olympic Tower condominium building on Fifth Avenue.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2221
+      },
+      {
+        "date": "1986",
+        "label": "Galinas full career: Onassis Group US head 1986-1998, then shipping investment banking (Morgan Joseph, Rodman Renshaw), FreeSeas director, Whole Earth Brands director, now Manhattan Maritime Capital CEO",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2244
+      },
+      {
+        "date": "1986/1998",
+        "label": "employment with Alexander S. Onassis Foundation",
+        "type": "employment",
+        "entity": "Alexander S. Onassis Foundation",
+        "id": 1146
+      },
+      {
+        "date": "1986/2005",
+        "label": "corporate with Olympic Tower Associates",
+        "type": "corporate",
+        "entity": "Olympic Tower Associates",
+        "id": 1125
+      },
+      {
+        "date": "1990",
+        "label": "645 Fifth Avenue (Olympic Tower) appears 1000+ times in Epstein document corpus. While primarily appearing as event venue (galas, concerts at Olympic Tower Atrium), this is the building Galinas managed as president of Olympic Towers Associates 1990-1998 for the Onassis Foundation. Also headquarters of Manhattan Maritime Enterprises (Galinas SPAC) and Manhattan Group Partners (Galinas firm). Olympic Tower Associates has 37 ACRIS property transactions. Olympic Tower at 641-645 Fifth Ave is a 51-story mixed-use tower built by Aristotle Onassis in 1976.",
+        "type": "location",
+        "evidence_ref": null,
+        "id": 2265
+      },
+      {
+        "date": "1992-02",
+        "label": "The 34 E 69th St dispute reveals Epstein's operational pattern with OFM/State Dept property: Epstein leased former Iranian Deputy Consul General residence from OFM starting Feb 1992 at 15K/month. Extended Aug 1992 for 3 more years with right of first refusal. Abandoned premises Jan 1996 but continued paying rent. When Galinas negotiated replacement lease at 16K/month, Epstein exercised right of first refusal specifically to block it, then illegally sublet to attorney Ivan Fisher at 20K/month (profit of 5K/month). Duggan corpus shows 1000+ documents mentioning 34 E 69th and 157 mentioning Ivan Fisher. The property remained a significant location in the Epstein document trail.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2261
+      },
+      {
+        "date": "1994",
+        "label": "FEC records: Galinas made 8 political donations 1994-1997 totaling net ,000, all Republican (Dole, D'Amato, Bilirakis), employer listed as Olympic Tower Associates and Onassis Group, zip 10022",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2253
+      },
+      {
+        "date": "1994",
+        "label": "political with Mike Bilirakis",
+        "type": "political",
+        "entity": "Mike Bilirakis",
+        "id": 1144
+      },
+      {
+        "date": "1996",
+        "label": "Galinas absent from all Epstein document corpora except judicial opinion in US v Epstein; zero hits in DOJ Vol 11, LMSBAND, Unified DB, Investigations DB",
+        "type": null,
+        "evidence_ref": null,
+        "id": 2241
+      },
+      {
+        "date": "1996",
+        "label": "financial with Jeffrey Epstein",
+        "type": "financial",
+        "entity": "Jeffrey Epstein",
+        "id": 1093
+      },
+      {
+        "date": "1996-01",
+        "label": "OFM-Galinas deal reveals Epstein property manipulation: Epstein abandoned 34 E 69th in Jan 1996 but kept lease, then tried to profit from subletting. When Galinas offered OFM better terms (16K vs 15K/mo), Epstein exercised ROFR to block it, then illegally sublet to Ivan Fisher at 20K/mo",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2260
+      },
+      {
+        "date": "1996-03 to 1996-05",
+        "label": "legal with Ivan Fisher",
+        "type": "legal",
+        "entity": "Ivan Fisher",
+        "id": 1143
+      },
+      {
+        "date": "1996-03 to 1998-04",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1142
+      },
+      {
+        "date": "1996-03/1998-04",
+        "label": "legal with Jeffrey Epstein",
+        "type": "legal",
+        "entity": "Jeffrey Epstein",
+        "id": 1123
+      },
+      {
+        "date": "1996-04",
+        "label": "Xenophon Galinas identified as President of Olympic Tower Associates (1986-1998), the Onassis Foundation subsidiary managing Olympic Tower on Fifth Avenue. Also served on the board of Williston S.A. (Onassis shipping/real estate). Later founded Manhattan Group (shipping investment banking). Galinas independently negotiated with OFM for a 5-year lease at 34 E 69th at $16K/month in April 1996, but Epstein exercised right of first refusal to block the deal. His involvement suggests the OFM property was known in high-end NYC real estate and Onassis-connected circles.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 2155
+      },
+      {
+        "date": "1996-04-12",
+        "label": "SDNY court opinion (96 CIV. 8307, EFTA01325008) contains full details of 34 E 69th St dispute: In March 1996 Galinas negotiated directly with OFM for new lease. April 12, 1996 letter agreement: 5-year term starting Feb 1997 at 16K/month with yearly increases to 18K. Proposed arrangement included Galinas paying Epstein 100K for improvements. OFM told Galinas it would not consent to Epstein subletting beyond Jan 1997. Epstein exercised right of first refusal April 16 1996 to block OFM-Galinas deal. Court granted ejectment against Epstein and Fisher.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2207
+      },
+      {
+        "date": "1996-04-12",
+        "label": "Full court opinion US v. Epstein (96 Civ 8307, SDNY 1998) details Galinas-Epstein 34 E 69th transaction: Galinas negotiated K payment to Epstein for improvements plus separate OFM lease at K/mo",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2249
+      },
+      {
+        "date": "1996-11-04",
+        "label": "Two federal cases in SDNY arising from 34 E 69th St: US v Epstein (96 Civ 8307) and Epstein v Fisher (97 Civ 1489), both before Judge Denny Chin",
+        "type": null,
+        "evidence_ref": null,
+        "id": 2229
+      },
+      {
+        "date": "1998",
+        "label": "SEC S-1 filing reveals complete Galinas career: (1) General Dynamics Quincy shipyard - ship building operations. (2) 1985-86 President of Benzopetrol SA Athens - family oil/gas/shipping business, exclusive BP/Greece transport partner, effected sale to BP interests. (3) 1986-90 EVP Central American Steamship Inc - Onassis Group US shipping subsidiary for non-US flag vessels. (4) 1990-98 President Olympic Towers Associates AND board member Williston SA - both Onassis Group subsidiaries, oversaw US real estate and shipping. (5) 1998-2004 President ASA Holdings (renamed Pacific Millennium NA) - international bulk shipping investments. (6) 2004+ Co-founded Manhattan Group Partners LLC then Manhattan Maritime Enterprises Inc (blank check M shipping acquisition). Education: BS Surrey, MS Marine Engineering Michigan, MBA Finance NYU.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2262
+      },
+      {
+        "date": "1998-04-01",
+        "label": "Full SDNY court opinion (96 CIV. 8307, Judge Chin, April 1, 1998) details Galinas-Epstein-OFM triangle at 34 E 69th St. Key facts from court record: (1) Epstein leased the former Iranian deputy consul general residence from OFM/State Dept from Feb 1992 at K/month, extended to Jan 1997; (2) Epstein abandoned premises in Jan 1996; (3) In March 1996, Epstein simultaneously negotiated with Galinas for sublease/assignment AND with Ivan Fisher for sublet; (4) Galinas would have paid Epstein K for improvements; (5) Galinas independently contacted OFM and secured April 12, 1996 letter agreement for 5-year lease at K-K/month starting Feb 1997; (6) Epstein exercised right of first refusal on April 16, 1996 to block Galinas deal; (7) Epstein then sublet to Fisher at K/month on May 7, 1996 WITHOUT OFM written consent; (8) OFM terminated Epstein's lease August 23, 1996; (9) Government won summary judgment for ejectment of all occupants.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 2189
+      },
+      {
+        "date": "1998-04-01",
+        "label": "Full judicial opinion: US v. Epstein, 96 Civ. 8307 (DC), details Galinas lease scheme",
+        "type": null,
+        "evidence_ref": null,
+        "id": 2223
+      },
+      {
+        "date": "2000-12-20",
+        "label": "NY SOS: Olympic Tower Associates LLC (DOS ID 2585540) - domestic LLC filed Dec 20 2000 in New York County. Process server at OT Associates LLC c/o MI-KOR Realty Corp, 1412 Broadway Suite 718, NYC 10108. Separate from Olympic Tower Manager LLC (DOS 4310987, filed Oct 2012, foreign LLC from Delaware via Corporation Service Company) and Olympic Towers Associates LP (DOS 2033083, filed May 1996 in Erie County - different entity in Buffalo).",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 2219
+      },
+      {
+        "date": "2004-03",
+        "label": "Manhattan Maritime Enterprises Inc was a 114M blank check company (SPAC) for shipping acquisitions. EIN 20-2836149. Delaware. Galinas Chairman/CEO/Secretary. Co-founded with Vassilios (Bill) M. Livanos (president) and others. All co-founders of Manhattan Group Partners LLC (March 2004). Underwriter Ladenburg Thalmann. 220K loans from founders. 7500/month to Manhattan Group Partners for office at 645 Fifth Ave. Trust at Smith Barney/Citigroup. S-1 filed July 2005 but IPO appears never completed - no subsequent SEC filings.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2263
+      },
+      {
+        "date": "2004/2005",
+        "label": "corporate with Vassilios Livanos",
+        "type": "corporate",
+        "entity": "Vassilios Livanos",
+        "id": 1147
+      },
+      {
+        "date": "2005",
+        "label": "corporate with Manhattan Maritime Enterprises",
+        "type": "corporate",
+        "entity": "Manhattan Maritime Enterprises",
+        "id": 1129
+      },
+      {
+        "date": "2005-07",
+        "label": "SEC EDGAR: Manhattan Maritime Enterprises Inc (CIK 1331764) - Delaware-incorporated shipping company at 645 Fifth Avenue NYC (Olympic Tower address). Filed S-1 registration statement July 2005 with 10 exhibits mentioning Galinas. Single filing company - no subsequent activity. Address confirms direct connection between Galinas shipping ventures and Onassis Foundation Olympic Tower building.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2216
+      },
+      {
+        "date": "2012",
+        "label": "SEC EDGAR: Galinas appears in 55+ filings for FreeSeas Inc (CIK 0001325159), Athens-based Greek dry bulk shipping company (SIC 4412). He served on board from 2012 to at least 2016 via 6-K and 20-F filings",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2257
+      },
+      {
+        "date": "2012/2017",
+        "label": "corporate with FreeSeas Inc",
+        "type": "corporate",
+        "entity": "FreeSeas Inc",
+        "id": 1127
+      },
+      {
+        "date": "2017-02",
+        "label": "SEC EDGAR: Galinas director of FreeSeas Inc (CIK 1325159), Athens deep sea shipping (SIC 4412). Filed resignation letter Feb 2017. 38 filings mentioning Galinas 2012-2018. SEC revoked registration Aug 2022.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 2214
+      },
+      {
+        "date": "2017-02",
+        "label": "SEC EDGAR: Galinas served as director of FreeSeas Inc (CIK 1325159, Athens shipping SIC 4412) and resigned Feb 2017; also connected to Manhattan Maritime Enterprises (CIK 1331764, NY)",
+        "type": null,
+        "evidence_ref": null,
+        "id": 2233
+      },
+      {
+        "date": "2017-07-08",
+        "label": "Greek shipping network overlap: Epstein corpus contains 3 Livanos references. Most significant: EFTA02389898 - Peggy Siegal emails Epstein July 8 2017 about dining on private island Coronis owned by George and Lita Livanos (Greek shipping tycoon). EFTA02421758 lists George Livanos as Greek shipping tycoon on Epstein contact/guest list. Galinas co-founded Manhattan Maritime Enterprises with Vassilios (Bill) M. Livanos - potentially related to the Livanos shipping dynasty. Both Galinas and the Livanos family operated in the same NYC Greek shipping social/business circle that intersected with Epstein.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 2264
+      }
+    ]
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "name": "Brad Edwards",
+  "slug": "brad-edwards",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.318428",
+  "last_updated": "2026-02-12T21:37:18",
+  "stats": {
+    "total_findings": 6,
+    "total_connections": 5,
+    "total_entities": 0,
+    "finding_types": {
+      "legal": 4,
+      "financial": 1,
+      "relationship": 1
+    },
+    "connection_types": {
+      "legal": 5
+    },
+    "last_updated": "2026-02-12T21:37:18"
+  },
+  "findings": [
+    {
+      "id": 224,
+      "finding_type": "legal",
+      "summary": "Epstein and Brad Edwards had extensive personal relationship: regular phone dates, breakfast meetings in Palm Beach/Fort Lauderdale, 'our deal' discussions (Oct 2015), bets about Clinton flight logs, and referencing 'Dersh' (Dershowitz). Edwards connected Epstein with David Boies for 'ransome' discussions (Nov 2018). Edwards settled his defamation suit against Epstein in Dec 2018 with public apology. By Jan-Feb 2019, Edwards was requesting Epstein fund donations to National Crime Victim Bar Association through Enhanced Education - suggesting terms of settlement may have included ongoing financial relationship.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2015-10",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:56:40",
+      "target_name": "Brad Edwards",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02710692",
+          "source_quote": "our deal? What? I thought you were waiting to hear from Dersh",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "finding_type": "legal",
+      "summary": "In Oct 2015, Epstein brokered settlement negotiations between Edwards/Cassell (victims' attorneys) and Dershowitz. 'Our deal' in EFTA02710692 refers to the Dershowitz settlement. Epstein offered Edwards: 'would you guys take 200k each from the offer of settlement from dersh?' Later: 'the deal on the table is 1 million dollars split between you three. or 1 million given to the charities of your choices... alan thinks the charity is better so as not to look like money is going into each others pockets.' This is ethically extraordinary: the perpetrator mediating between his victims' lawyer and his former defense counsel (Dershowitz), who were in defamation litigation against each other.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-10",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:35:47",
+      "target_name": "Brad Edwards",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02484887",
+          "source_quote": "From: \nBrad Edwards \nSent: \nFriday, October 9, 2015 8:38 PM \nTo: \nJeffrey E. \nSubject: \nRe: \nWe just got a call from Dersh agreeing to the settlement and to agree =o a joint public statement which would be the \nlimit of what anyone would s=y. ????...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02484981",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nFriday, October 9, 2015 9:18 PM \nTo: \nBrad Edwards \nSubject: \nRe: \nnot true at all . dersh got a call from david =tone, who had gotten a call from pottinger saying that dersh would accep= \na deal....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02485300",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nFriday, October 9, 2015 9:38 PM \nTo: \nBrad Edwards \nSubject: \nRe: \nthe deal on the table is 1 million dollars split betweeen =ou three. or 1 million given to the charities of your choices=C2 \neach to...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02487391",
+          "source_quote": "would you guys take the 200k each from the offer of settlement from dersh confidentaily and be done with his case",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02710692",
+          "source_quote": "From: \nBrad Edwards \nSent: \nWednesday, October 7, 2015 3:06 PM \nTo: \nJeffrey E. \nSubject: \nRE: Re: \n11:30 \nBrad Edwards \nBoard Certified Trial Attorney \n425 North Andrews Avenue, Suite 2 \nFort Lauderdale, Florida 33301...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "finding_type": "legal",
+      "summary": "Edwards served as Epstein's backchannel to David Boies (Boies Schiller Flexner) to negotiate the Sarah Ransome (Jane Doe 43) settlement in Nov-Dec 2018, while simultaneously negotiating his own defamation settlement with Epstein. Edwards connected Epstein directly with Boies via email Nov 20, 2018. 'ransome' in the emails refers to Sarah Ransome, plaintiff in SDNY 17-cv-00616. Case terminated Dec 26, 2018. Epstein told Ruemmler 'settled ransome' on Dec 12, 2018.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2018-11-20",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:35:24",
+      "target_name": "Brad Edwards",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02610455",
+          "source_quote": "From: \n1 <jeevacation@gmail.com> \nSent: \nWednesday, December 12, 2018 11:25 AM \nTo: \nKathy Ruemmler \nsettled ransome. \nnow need to be ag=essive re sweetheart deal.. I suggest you describe to s=ndar , what he could \nhave done differently. as there...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02613626",
+          "source_quote": "From: \nDavid Boies aai> \nSent: \nMonday, November 26, 2018 12:28 AM \nTo: \nSubject: \nRe: ransome \nI actually just landed back in NY, so escap=d Disney unscathed. I am on my cell phone' \nor can call you i= \nthat is better. \nSent from my iPad \nOn Nov...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02614358",
+          "source_quote": "David Boies Re:ransome I will be at the Wynn in Las Vegas",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02614962",
+          "source_quote": "From: \nJ <jeevacation@gmail.com> \nSent: \nTuesday, November 13, 2018 10:26 PM \nTo: \nBrad Edwards \nSubject: \nRe: \n3 not important not really my biz. . he =aid you provided your contracts. I dont really care.Q=A0 . thanks for the \ndavid call \nOn Tue,...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "finding_type": "legal",
+      "summary": "Edwards and Epstein negotiated directly without lawyers, with a remarkably collegial tone. Edwards: 'Without lawyers, we can get things done. Impossible once you bring in the opinions of a bunch of lawyers.' Epstein to Edwards: 'you and I get along better than others.' The settlement included: (1) a public apology from Epstein admitting his lawsuit was 'my unreasonable attempt to damage Edwards's business reputation,' (2) payment of Edwards's legal costs, and (3) Epstein's donation to National Crime Victim Bar Association at Edwards's request (Jan-Feb 2019). Epstein's lawyer Martin Weinberg ('Marty') objected that apology language could constitute 'admission of a crime.' Epstein sought to modify 'absolutely false allegations' to protect a separate case against Fowler White Burnett.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2019-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:35:35",
+      "target_name": "Brad Edwards",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02614384",
+          "source_quote": "Without lawyers we can get things done. Impossible once you bring in the opinions of a bunch of lawyers",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02614488",
+          "source_quote": "From: \n1 <jeevacation@gmail.com> \nSent: \nThursday, November 29, 2018 3:49 AM \nTo: \nBrad Edwards \nSubject: \nRe: \ni understand. what=time in the morning can we speak. ? as you and i did agree th=t it would not contain anything \nthat would be...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02614562",
+          "source_quote": "From: \nBrad Edwards \nSent: \nWednesday, November 21, 2018 8:44 PM \nTo: \njeevacation@gmail.com \nSubject: \nCase \nConfidential - settlement purposes only \nI am camping in the woods now with very few places getting reception. Not sure if you'll get this...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02614725",
+          "source_quote": "From: \nBrad Edwards \nSent: \nThursday, November 22, 2018 9:45 AM \nTo: \nSubject: \nRe: Case \nWhere are you with the apology? \nSent from my iPhone \nOn Nov 21, 2018, at 11:33 PM,1 cieevacation@gmail.com <mailto:jeevacation@gmail.com> wrote: \n2 \nOn Wed,...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02626876",
+          "source_quote": "From: \nBrad Edwards <-> \nSent: \nThursday, January 24, 2019 9:53 PM \nTo: \nSubject: \nfoundation donation \nNational Crime Victim Bar Association \n3434 North Washington Blvd., Suite 1100, Arlington, =A 22201 \nBr=d Edwards \nBoard Certified Trial Attorney...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628044",
+          "source_quote": "From: \nBrad Edwards \nSent: \nFriday, February 1, 2019 2:19 PM \nTo: \nSubject: \nRe: foundation donation \nCan you confirm it has been sent? Thanks. \nSent from my iPhone \nOn Jan 24, 2019, at 4:55 PM, J <jeevacation@gmail.com...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "finding_type": "financial",
+      "summary": "Feb 1, 2019: Epstein personally emailed Brad Edwards confirming a check FedExed from Enhanced Education. Edwards had requested on Jan 24, 2019 a 'foundation donation' to National Crime Victim Bar Association (3434 North Washington Blvd, Suite 1100, Arlington VA 22201). Epstein confirmed it was 'put on the jan giving list' and 'actually gets sent today.' Same day Epstein also sent separate email confirming FedEx delivery from Enhanced Education. This is Epstein's foundation paying for a donation to a victim advocacy organization at the request of Edwards, the attorney who represented Epstein's victims and had settled with Epstein in Dec 2018.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2019-02-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:56:29",
+      "target_name": "Brad Edwards",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02628571",
+          "source_quote": "check fed ex ed will arrive monday, from enhanced education",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "finding_type": "relationship",
+      "summary": "Edwards and Epstein had a personal bet about Bill Clinton flight logs. Edwards claimed Clinton traveled on Epstein plane while VR traveled to Thailand. This social betting between victim attorney and perpetrator shows extraordinary comfort level.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:37:18",
+      "target_name": "Brad Edwards",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02481057",
+          "source_quote": "The bet very clearly Clinton was traveling on your plane",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 160,
+      "person_a": "Brad Edwards",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:58:14",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 163,
+      "person_a": "Brad Edwards",
+      "person_b": "David Boies",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:58:14",
+      "other_person": "David Boies",
+      "other_person_slug": "david-boies",
+      "evidence": []
+    },
+    {
+      "id": 245,
+      "person_a": "Brad Edwards",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:26",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 247,
+      "person_a": "Brad Edwards",
+      "person_b": "David Boies",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:34",
+      "other_person": "David Boies",
+      "other_person_slug": "david-boies",
+      "evidence": []
+    },
+    {
+      "id": 249,
+      "person_a": "Brad Edwards",
+      "person_b": "Sarah Ransome",
+      "relationship_type": "legal",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:43",
+      "other_person": "Sarah Ransome",
+      "other_person_slug": "sarah-ransome",
+      "evidence": []
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2015-10",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Epstein and Brad Edwards had extensive personal relationship: regular phone dates, breakfast meetings in Palm Beach/Fort Lauderdale, 'our deal' discussions (Oct 2015), bets about Clinton flight logs, and referencing 'Dersh' (Dershowitz). Edwards connected Epstein with David Boies for 'ransome' discussions (Nov 2018). Edwards settled his defamation suit against Epstein in Dec 2018 with public apology. By Jan-Feb 2019, Edwards was requesting Epstein fund donations to National Crime Victim Bar Association through Enhanced Education - suggesting terms of settlement may have included ongoing financial relationship.",
+      "confidence": "medium",
+      "id": 224
+    },
+    {
+      "date": "2015-10",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "In Oct 2015, Epstein brokered settlement negotiations between Edwards/Cassell (victims' attorneys) and Dershowitz. 'Our deal' in EFTA02710692 refers to the Dershowitz settlement. Epstein offered Edwards: 'would you guys take 200k each from the offer of settlement from dersh?' Later: 'the deal on the table is 1 million dollars split between you three. or 1 million given to the charities of your choices... alan thinks the charity is better so as not to look like money is going into each others pockets.' This is ethically extraordinary: the perpetrator mediating between his victims' lawyer and his former defense counsel (Dershowitz), who were in defamation litigation against each other.",
+      "confidence": "medium",
+      "id": 283
+    },
+    {
+      "date": "2018-11-20",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Edwards served as Epstein's backchannel to David Boies (Boies Schiller Flexner) to negotiate the Sarah Ransome (Jane Doe 43) settlement in Nov-Dec 2018, while simultaneously negotiating his own defamation settlement with Epstein. Edwards connected Epstein directly with Boies via email Nov 20, 2018. 'ransome' in the emails refers to Sarah Ransome, plaintiff in SDNY 17-cv-00616. Case terminated Dec 26, 2018. Epstein told Ruemmler 'settled ransome' on Dec 12, 2018.",
+      "confidence": "medium",
+      "id": 280
+    },
+    {
+      "date": "2019-02",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Edwards and Epstein negotiated directly without lawyers, with a remarkably collegial tone. Edwards: 'Without lawyers, we can get things done. Impossible once you bring in the opinions of a bunch of lawyers.' Epstein to Edwards: 'you and I get along better than others.' The settlement included: (1) a public apology from Epstein admitting his lawsuit was 'my unreasonable attempt to damage Edwards's business reputation,' (2) payment of Edwards's legal costs, and (3) Epstein's donation to National Crime Victim Bar Association at Edwards's request (Jan-Feb 2019). Epstein's lawyer Martin Weinberg ('Marty') objected that apology language could constitute 'admission of a crime.' Epstein sought to modify 'absolutely false allegations' to protect a separate case against Fowler White Burnett.",
+      "confidence": "medium",
+      "id": 281
+    },
+    {
+      "date": "2019-02-01",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Feb 1, 2019: Epstein personally emailed Brad Edwards confirming a check FedExed from Enhanced Education. Edwards had requested on Jan 24, 2019 a 'foundation donation' to National Crime Victim Bar Association (3434 North Washington Blvd, Suite 1100, Arlington VA 22201). Epstein confirmed it was 'put on the jan giving list' and 'actually gets sent today.' Same day Epstein also sent separate email confirming FedEx delivery from Enhanced Education. This is Epstein's foundation paying for a donation to a victim advocacy organization at the request of Edwards, the attorney who represented Epstein's victims and had settled with Epstein in Dec 2018.",
+      "confidence": "high",
+      "id": 223
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      283,
+      281,
+      280,
+      223,
+      224,
+      293
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          293
+        ],
+        "connection_ids": [
+          160,
+          163,
+          245,
+          247,
+          249
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          224,
+          283,
+          280,
+          281
+        ],
+        "connection_ids": [
+          160,
+          163,
+          245,
+          247,
+          249
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.383817"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Brad Edwards",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "David Boies",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "David Boies",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Sarah Ransome",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "David Boies": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Boies on Epstein dinner lists, discussed by Epstein re Weinstein Nov 2017"
+          },
+          {
+            "target": "Black Cube",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Boies signed Black Cube contract for Weinstein suppression operations"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2015-10",
+        "label": "Epstein and Brad Edwards had extensive personal relationship: regular phone dates, breakfast meetings in Palm Beach/Fort Lauderdale, 'our deal' discussions (Oct 2015), bets about Clinton flight logs, and referencing 'Dersh' (Dershowitz). Edwards connected Epstein with David Boies for 'ransome' discussions (Nov 2018). Edwards settled his defamation suit against Epstein in Dec 2018 with public apology. By Jan-Feb 2019, Edwards was requesting Epstein fund donations to National Crime Victim Bar Association through Enhanced Education - suggesting terms of settlement may have included ongoing financial relationship.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 224
+      },
+      {
+        "date": "2015-10",
+        "label": "In Oct 2015, Epstein brokered settlement negotiations between Edwards/Cassell (victims' attorneys) and Dershowitz. 'Our deal' in EFTA02710692 refers to the Dershowitz settlement. Epstein offered Edwards: 'would you guys take 200k each from the offer of settlement from dersh?' Later: 'the deal on the table is 1 million dollars split between you three. or 1 million given to the charities of your choices... alan thinks the charity is better so as not to look like money is going into each others pockets.' This is ethically extraordinary: the perpetrator mediating between his victims' lawyer and his former defense counsel (Dershowitz), who were in defamation litigation against each other.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 283
+      },
+      {
+        "date": "2018-11-20",
+        "label": "Edwards served as Epstein's backchannel to David Boies (Boies Schiller Flexner) to negotiate the Sarah Ransome (Jane Doe 43) settlement in Nov-Dec 2018, while simultaneously negotiating his own defamation settlement with Epstein. Edwards connected Epstein directly with Boies via email Nov 20, 2018. 'ransome' in the emails refers to Sarah Ransome, plaintiff in SDNY 17-cv-00616. Case terminated Dec 26, 2018. Epstein told Ruemmler 'settled ransome' on Dec 12, 2018.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 280
+      },
+      {
+        "date": "2019-02",
+        "label": "Edwards and Epstein negotiated directly without lawyers, with a remarkably collegial tone. Edwards: 'Without lawyers, we can get things done. Impossible once you bring in the opinions of a bunch of lawyers.' Epstein to Edwards: 'you and I get along better than others.' The settlement included: (1) a public apology from Epstein admitting his lawsuit was 'my unreasonable attempt to damage Edwards's business reputation,' (2) payment of Edwards's legal costs, and (3) Epstein's donation to National Crime Victim Bar Association at Edwards's request (Jan-Feb 2019). Epstein's lawyer Martin Weinberg ('Marty') objected that apology language could constitute 'admission of a crime.' Epstein sought to modify 'absolutely false allegations' to protect a separate case against Fowler White Burnett.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 281
+      },
+      {
+        "date": "2019-02-01",
+        "label": "Feb 1, 2019: Epstein personally emailed Brad Edwards confirming a check FedExed from Enhanced Education. Edwards had requested on Jan 24, 2019 a 'foundation donation' to National Crime Victim Bar Association (3434 North Washington Blvd, Suite 1100, Arlington VA 22201). Epstein confirmed it was 'put on the jan giving list' and 'actually gets sent today.' Same day Epstein also sent separate email confirming FedEx delivery from Enhanced Education. This is Epstein's foundation paying for a donation to a victim advocacy organization at the request of Edwards, the attorney who represented Epstein's victims and had settled with Epstein in Dec 2018.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 223
+      }
+    ]
+  }
+}

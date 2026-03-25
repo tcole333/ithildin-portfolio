@@ -1,0 +1,60 @@
+{
+  "title": "Deniable Procurement Corridor",
+  "subtitle": "A local shell, a shadow intermediary, and an offshore services layer splitting visibility across evidence classes.",
+  "archetype": "procurement",
+  "version": "1.0",
+  "last_updated": "2026-03-24",
+  "case_intro": "This model captures the small but common pattern where a public institution can name a local vendor while key control or influence sits one hop away. The Harbor Ledger demo is intentionally minimal, but it shows the mechanism clearly.",
+  "definition": "A deniable procurement corridor exists when the public-facing contractor is not the true decision-making or commercial center of gravity, and the evidence of that split is distributed across multiple source classes.",
+  "theoretical_basis": "Investigative infrastructure should preserve the distinction between inspectable public documents, hosted excerpts, and metadata-only corroboration.",
+  "mechanism": [
+    "Create or position a thin local vehicle",
+    "Route substantive coordination through an intermediary",
+    "Place strategic value in an offshore or adjacent advisory layer",
+    "Keep the public buyer attached to the local shell narrative"
+  ],
+  "mechanism_details": {
+    "Create or position a thin local vehicle": "The entity exists to satisfy procurement optics and local presence requirements.",
+    "Route substantive coordination through an intermediary": "An operator with loose formal titles carries the conversation across institutions.",
+    "Place strategic value in an offshore or adjacent advisory layer": "Control, fees, or expertise sit one step away from the buyer-facing shell.",
+    "Keep the public buyer attached to the local shell narrative": "Public packets and talking points center the local entity rather than the hidden control layer."
+  },
+  "canonical_instances": [
+    {
+      "label": "Harbor Ledger / Estuary Advisory / Lina Ortega",
+      "summary": "The demo case splits visibility across Florida registry records, a hosted board-minute excerpt, and metadata-rich reporting notes.",
+      "evidence": [
+        "Finding #9001",
+        "Finding #9002",
+        "Finding #9006"
+      ]
+    },
+    {
+      "label": "Port Watch article synthesis",
+      "summary": "The article-level finding makes the source-class split explicit instead of burying it in prose.",
+      "evidence": [
+        "Finding #9101",
+        "Finding #9102"
+      ]
+    }
+  ],
+  "detection_markers": [
+    "Entity formation dates cluster around shortlist or award windows.",
+    "An intermediary appears in communications without a stable public title.",
+    "The most consequential corroboration comes from non-uniform source classes.",
+    "Public-facing documents emphasize local implementation rather than control."
+  ],
+  "limitations": [
+    "The pattern is suggestive, not self-proving; local vehicles can be legitimate.",
+    "Metadata-only source records require careful reader framing and cannot substitute for public artifacts.",
+    "Cross-jurisdiction records may lag or omit beneficial ownership detail."
+  ],
+  "related_models": [],
+  "visualization": {
+    "primary_type": "network",
+    "static_fallback": "Read the Harbor Ledger and Lina Ortega dossiers side by side to see the corridor."
+  },
+  "distinction": "The model is about split visibility, not necessarily illegal conduct.",
+  "discipline": "Keep each claim attached to the highest-quality source actually available.",
+  "why_it_matters": "Reviewers and readers need to see where evidence is strong, where it is merely contextual, and how the system keeps those differences explicit."
+}

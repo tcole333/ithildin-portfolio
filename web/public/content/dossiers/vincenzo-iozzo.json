@@ -1,0 +1,2525 @@
+{
+  "name": "Vincenzo Iozzo",
+  "slug": "vincenzo-iozzo",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.233351",
+  "last_updated": "2026-02-14T05:35:14",
+  "stats": {
+    "total_findings": 33,
+    "total_connections": 14,
+    "total_entities": 1,
+    "finding_types": {
+      "relationship": 4,
+      "communication": 4,
+      "financial": 8,
+      "intelligence": 8,
+      "location": 1,
+      "identity": 4,
+      "unknown": 4
+    },
+    "connection_types": {
+      "intelligence": 1,
+      "financial": 5,
+      "social": 4,
+      "advisory": 1,
+      "corporate": 3
+    },
+    "last_updated": "2026-02-14T05:35:14"
+  },
+  "findings": [
+    {
+      "id": 1615,
+      "finding_type": "relationship",
+      "summary": "Joi Ito (MIT Media Lab director) introduced Iozzo to Epstein via email on May 6, 2014. Ito described Iozzo as 'one of the best network security guys I know' and said he was 'working with him on a network security company idea' that 'might be interesting for you as well.' Iozzo met Epstein on May 18, 2014. This is the same Joi Ito who invested Epstein money in Blockstream (500K allocation, EFTA01918921) and who resigned from MIT in 2019 over Epstein donations. The 'network security company idea' Ito referenced likely became Iperlane (founded 2015).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-05-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:03:58",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01918921",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01926133",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1636,
+      "finding_type": "communication",
+      "summary": "Complete visit frequency analysis from email corpus: Iozzo attempted to schedule NYC meetings with Epstein approximately every 4-6 weeks throughout 2017-2018. Confirmed meetings: May 18, 2014 (first meeting), Aug 8-10, 2014 (Zorro Ranch), Oct 27, 2014 (Paris attempt), Dec 2015 (failed scheduling), Jun-Jul 2015 (multiple attempts), Nov 2016 (Boston + ride request), Jun 6, 2017 (returned to NYC), Jun 30, 2017 (confirmed 10am at 9 East), Oct-Nov 2017 (multiple attempts, unconfirmed), Mar-Apr 2018 (Apr 11 at 4pm confirmed via EFTA02244530), May-Jun 2018 (Jun 4 at 2:30pm confirmed), Jun 23+ 2018 (Paris meeting attempt), Jul-Aug 2018 (Aug 15-16 Radius call confirmed), Sep 2018 (failed - Epstein in PB), Nov 28-Dec 1, 2018 (confirmed 12:30pm at house, baseball hat email). Also asked about New Year's Eve 2016 plans. Multiple scheduling failures indicate Epstein was not always available, contradicting any suggestion meetings were always arranged by Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-05-18",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:58",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02244530",
+          "source_quote": " 'Jeffrey will be in NY next week after all\\! Can you go see him on Wed. April 11th at 4pm'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02249447",
+          "source_quote": " 'see you at 2:30pm today\\!\\!'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02257394",
+          "source_quote": "To: \nLesley Groffpesleyieeegmaitcomj \nFrom: \nJeffrey E. \nSent \nWed 8/15/2018 9:03:38 PM \nSubject Fwd: \n \nForwarded message \nFrom: Vincenzo Iozzo \nDate: Wed, Aug 15, 2018 at 4:53 PM \nSubject: Re: \nTo: \"Jeffrey E.\" leevacation@gmail.com>\nPerfect, they...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02263645",
+          "source_quote": " 'Reconfirming you will see Jeffrey today at 12:30pm'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1613,
+      "finding_type": "communication",
+      "summary": "Email corpus establishes sustained Iozzo-Epstein relationship from at least June 2014 through December 2018 (4.5 years). 78 DugganUSA hits, 15 DOJ Vol11 results, 6 LMSBAND matches. Key phases: (1) 2014-2015: intellectual exchange on Bitcoin/prediction markets, meetings at NYC/Zorro Ranch; (2) 2016-2017: regular NYC visit scheduling via Lesley Groff, also contacts with Bebe (likely Sarah Kellen); (3) Jan 2018: CrowdStrike acquisition notification, asks for ILS contacts; (4) Jun-Aug 2018: deal pipeline (Grab/Bitmain/Radius via Blocktree); (5) Dec 2018: continues visiting post-Miami Herald. Iozzo communicated directly with Epstein at jeevacation@gmail.com and also coordinated via Lesley Groff for scheduling.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "duggan",
+        "lmsband"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2014-06-25",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:03:40",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00333383",
+          "source_quote": "I just got back to NYC should be in town for a couple of weeks. Is jeffrey around?",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01922290",
+          "source_quote": "decentralized prediction markets and order books with bitcoin",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": "To: \nVincenzo Iozzo \nFrom: \nSent \nWed 8/15/201811:47:12 PM \nSubject Re: Radius Discussion w/ Jefferey and Vincenzo \nExcellent. Thank you! \nSent from my iPhone \nOn Aug 15, 2018, at 7:34 PM, Vincenzo lozzo \nwrote: \nHi \nHcrc arc the details, let me...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02263645",
+          "source_quote": "To: \nVincenzo Iozzo \nFrom: \nSent \nSat 12/1/2018 12:59:06 PM \nSubject Re: Get together? \nWear one just in case. \nSent from my iPhone \nOn Dec 1, 2018, at 7:57 AM, Vincenzo lozzo \nwrote: \nHello= \nYup confirmed - I have an odd question for you: is there...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02534379",
+          "source_quote": "From: \nVincenzo lozzo \nSent: \nWednesday, January 31, 2018 10:02 AM \nTo: \njeevacation@gmail.com \nSubject: \nIls contact/materials \nHello hello, \nHow a=e you? What's new? \nI haven't=seen you in a while so brief update: sold my company to a company...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1619,
+      "finding_type": "financial",
+      "summary": "Iozzo discussed blockchain finance with Epstein from Jun 2014. In EFTA01922290 (Jun 25 2014) they discussed decentralized prediction markets built on Bitcoin. Epstein critiqued the paper, noting IRS said Bitcoin is not a currency and regulatory risks. In EFTA02589432 (Sep 2 2014) Iozzo proposed using blockchain-like structure for repo market. In EFTA02706166 (Apr 6 2016) Iozzo discussed CDS (credit default swaps) as hedging alternatives. Pattern shows Iozzo bringing tech-finance ideas to Epstein for evaluation, consistent with Epstein seeking tech intelligence and Iozzo seeking financial mentorship/investment.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-06-25",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:04:53",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01922290",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02589432",
+          "source_quote": "jeffrey E. <jeevacation@gmail.com> \nSent: \nTuesday, September 2, 2014 9:42 AM \nTo: \nVincenzo lozzo \nSubject: \nRe: repo market - an alternative path \nbetter \nOn Tue, Sep 2, 2014 at 3:32 AM, Vincenzo lozzo <vince=zo@tiqad.com <mailto:vincenzo@tiqad.com» wrote: \nJeffrey, \nhow are you doing? \nSo I'm...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02706166",
+          "source_quote": "Ouch ok, back to try to make money the classical way. Thanks and sorry to bother with this :) \nSent from my (phone",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1623,
+      "finding_type": "intelligence",
+      "summary": "Iozzo provided iOS security intelligence to both Epstein and Joi Ito on Jul 19, 2014. Forwarded researcher Jonathan Zdziarski's iOS backdoors presentation showing SMS extraction, address books, and app data could be extracted from iPhones/iPads cheaper and easier than most realized. Iozzo warned: 'You both use iPhone and iPads, might be a good idea to either install the application this guy wrote or change the usage pattern of your devices.' Epstein responded 'nice.' This establishes Iozzo as an active cybersecurity advisor to Epstein - someone providing operational security intelligence about mobile device vulnerabilities, consistent with the FBI CHS characterization as 'Epstein's personal hacker.'",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-07-19",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:13",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01916368",
+          "source_quote": " Iozzo to Epstein and Ito: 'it's way easier (and cheaper) to extract SMS, address books, apps data, etc etc from an iPhone/iPad/etc etc than most people realize' / 'You both use iPhone and iPads, might be a good idea to either install the application this guy wrote or change the usage pattern of your devices'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1609,
+      "finding_type": "location",
+      "summary": "Iozzo visited Epstein at Zorro Ranch, NM in August 2014. Email shows Iozzo arranging to fly to Albuquerque with car pickup arranged by Epstein (driver: Brice Gordon). This is the same location the FBI CHS described in EFTA01683874 as where Epstein 'lured and video recorded underage women.' Iozzo also discussed 'decentralized prediction markets and order books (w/ bitcoin)' with Epstein in June 2014 (EFTA01922290), showing technology/financial advisory relationship began at least by mid-2014.",
+      "detail": null,
+      "source_datasets": [
+        "duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2014-08-08",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 04:54:15",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01683874",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01915609",
+          "source_quote": "Jen said that my email about Santa Fe slipped through but that it's fine if I show up. So current plan is to get there on the 8th",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01922290",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1625,
+      "finding_type": "financial",
+      "summary": "Iozzo discussed cybersecurity financial derivatives with Epstein on Aug 9-10, 2014 at Zorro Ranch. In email titled 'A note on shorting,' Iozzo raised the problem of shorting cyber insurance bonds: 'even if you want to short the bond through a derivative, who's going to take the other side of the bet? Everyone is/should be aware of the moral hazard there.' Referenced Epstein's earlier 'thesis on the fact that this can't work because it's hard for investors to understand.' Epstein replied asking about market mechanics. This shows Epstein and Iozzo were actively exploring how to create financial instruments around cybersecurity risk - combining Iozzo's offensive cyber expertise with Epstein's financial structuring knowledge. A cyber expert who knows how to create vulnerabilities discussing how to financially capitalize on cyber risk represents a significant moral hazard.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-08-09",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:25",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01919420",
+          "source_quote": " 'even if you want to short the bond trough a derivative, who's going to take the other side of the bet? Everyone is/should be aware of the moral hazard there' / 'I don't think shorting it is a risk'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1627,
+      "finding_type": "communication",
+      "summary": "Iozzo pitched IperLane investment to Epstein in Nov 2014 (EFTA02595442) with island visit offer. Iozzo wrote: 'a bunch of people are verbally committing to invest' and asked Epstein three questions: (1) What do you think? (2) Can you think of anybody who might be interested? (3) Do you want to invest? Notably said: 'I would prefer (2) to (3), just cause this way if this goes south it's not your money.' Also offered to visit Epstein's island: 'I think you're going to your island at some point in November, if it's ok I'd show up there so that we can talk F2F sooner rather than later.' Attached IperLane_Executive-Summary.pdf and IperLane-Deck.pdf. Epstein did not reply, prompting Iozzo to follow up: 'shall I operate on this one under the usual assumption no reply -> not interesting?' This reveals Epstein's established pattern of non-response to proposals he declined.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-11-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:37",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02595442",
+          "source_quote": " 'I would prefer (2) to (3), just cause this way if this goes south it's not your money' / 'if it's ok I'd show up there so that we can talk F2F sooner rather than later' / 'shall I operate on this one under the usual assumption no reply -> not interesting?'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1621,
+      "finding_type": "intelligence",
+      "summary": "Iozzo sent Epstein IperLane pitch materials with GPS people-tracking capability on Feb 17, 2015. Email states: 'We had to change the plan a bit because the other one wasn't working really well.. Btw I should have the proof of concept code that analyzes GPS data and traces people that way ready by the end of the week.' IperLane was a surveillance product capable of tracking individuals via GPS data. Later in Sep 2015, Iozzo sent updated deck and explicitly asked Epstein to facilitate 'a test run with Apollo once we also have the iOS version ready' because 'they currently use one of our competitors.' This connects Iperlane directly to Leon Black's Apollo Global Management as a prospective client for a surveillance tool, with Epstein as the intermediary.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-02-17",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:02",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712657",
+          "source_quote": " 'speaking of Leon Black, it'd be awesome if at some point in the next few months we could do a test run with Apollo once we also have the iOS version ready'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02719531",
+          "source_quote": " 'I should have the proof of concept code that analyzes GPS data and traces people that way'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1631,
+      "finding_type": "identity",
+      "summary": "Iozzo used at least 4 distinct email domains during his relationship with Epstein, tracking his company evolution: (1) Personal/early: unknown redacted addresses (2014); (2) tiqad.com: used Jun 2015-May 2018 and again post-CrowdStrike (vincenzo@tiqad.com in EFTA02246663); (3) iperlane.com: used Dec 2016 when company was active (vincenzo@iperlane.com in EFTA02666710); (4) rakoku.com: used Aug 2017 (vincenzo@rakoku.com in EFTA02221399). The domain 'tiqad' may be Arabic-influenced (tiqad = trust/belief); 'rakoku' appears Japanese. 'Iperlane' was the company name itself. Iozzo also mentioned 'recently went to Tokyo' in Jul 2015 (EFTA02368792), consistent with international business ties. Iozzo also shared Epstein the link to edge.org (Brockman's foundation) in Jan 2016, suggesting awareness of Epstein's intellectual salon network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:03",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02221399",
+          "source_quote": " 'Vincenzo Iozzo <vincenzo@rakoku.com>'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02246663",
+          "source_quote": " 'Vincenzo Iozzo <vincenzo@tiqad.com>'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02368792",
+          "source_quote": "is this the company you were talki=g about a while ago? http://techcrunch.com/=015/07/20/call9-delivers-on-demand-\ndoctors-in-emergency-situations/ <http://techcrunch.com/2015/07/20/cal l9=delivers-on-demand-doctors-in-\nemergency-situationsk \n=ent from my (phone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02666710",
+          "source_quote": " 'Vincenzo lozzo <vincenzo@iperlane.com>'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1639,
+      "finding_type": "relationship",
+      "summary": "Iozzo was Research Affiliate at MIT Media Lab 2016-2020, the same institution directed by Joi Ito who introduced him to Epstein. This deepens the Ito-Iozzo-Epstein triangle: Ito introduced them in 2014 pitching a security company, Iozzo then held an official MIT Media Lab affiliation while his company Iperlane was funded (allegedly by Epstein as one of three billionaire backers), and Ito simultaneously channeled Epstein donations to MIT. Ito resigned from MIT in Aug 2019 when this was exposed. Also connected to Andrew McAfee via Epstein email network per EpsteinWeb tracker.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-01-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:07:07",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "EpsteinWeb.org tracker",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "La Capitale News Italian article",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1617,
+      "finding_type": "intelligence",
+      "summary": "Epstein forwarded Iozzo's technical security analysis of Mycelium cryptocurrency wallet to a Russian contact (Cyrillic name, appears as 'Cepreil Gemskon' in OCR) on Feb 3, 2016. Epstein told the Russian: 'He is very well respected with both black and white hat hackers' and offered 'I will do anything that is helpful to you.' The Russian asked 'is it possible to meet with him?' and proposed meeting 'in US' with 'me and my friend who is involved.' Iozzo's analysis covered blockchain security, mesh networking vulnerabilities, and custodial risks of decentralized systems. This shows Epstein actively brokering Iozzo's cyber expertise to Russian contacts - directly corroborating the FBI CHS claim that Epstein facilitated Iozzo's connections.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2016-02-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:04:41",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473582",
+          "source_quote": " Epstein to Russian: 'He is very well respected with both black and white hat hackers' / 'I will do anything that is helpful to you' / Russian: 'is it possible to meet with him?'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1629,
+      "finding_type": "relationship",
+      "summary": "Epstein's June 29-July 12, 2017 schedule (EFTA02216871) places Iozzo at 9 East 71st at 10:00am on June 30, 2017, the same day Epstein had a 3:30pm meeting with Joi Ito 'at his house.' This schedule also lists Ehud Barak arriving 'early morning' June 29, Larry Delson requesting a meeting, Skype with Philippe Van den Broek, dinner with 'Woody' (coordinated by Karyna Shuliak), and a Bedford trip. Iozzo's meeting was scheduled through Bebe Avdiu (legal assistant at Darren K. Indyke PLLC). The same schedule chain (EFTA02214997) confirms the meeting happened: 'Just confirming you'll be at Jeffrey's at 10am today?' with Iozzo replying 'Yes I will.' This connects three key Epstein associates on the same day: Iozzo (cyber), Barak (defense/intelligence), and Ito (MIT/technology).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-06-30",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:51",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02214997",
+          "source_quote": " 'Just confirming you'll be at Jeffrey's at 10am today?'",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02216871",
+          "source_quote": " '10:00am Vincenzo Iozzo at 9 East' / '3:30pm meeting Joi Ito at his house' / 'Reminder: Ehud and Nili to arrive early morning'",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1657,
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Iozzo served three distinct roles for Epstein across 4.5 years (May 2014-Dec 2018): (1) cybersecurity/surveillance advisor — provided iOS vulnerability intelligence, built IperLane GPS people-tracking tool, assessed crypto wallet security; (2) technology broker — Epstein forwarded Iozzo's Mycelium wallet analysis to a Russian contact (Moscow timezone) offering 'I will do anything helpful to you,' and pitched IperLane to Apollo/Leon Black; (3) deal-flow intermediary — channeled Blocktree Capital (Ben Forman/ParaFi) investments to Epstein including Grab Series H (.25B), Radius Intelligence (M), and Bitmain. Introduced by Joi Ito (MIT Media Lab), Iozzo held MIT Research Affiliate status 2016-2020 while Ito channeled Epstein donations. Jun 30, 2017 schedule places Iozzo (10am), Ito (3:30pm), and Barak (arrived prior day) at 9 E 71st within 24 hours — converging cyber, academia/tech, and defense/intelligence. Complete legal vacuum: zero prosecutions despite FBI CHS claims of zero-day sales to Hezbollah, Saudi Arabia, GCHQ, and money laundering via California theater company. Current entity: IRD Holdings Corp (CIK 0001916133, DE, .19M raised 2022-2025) / SlashID (cybersecurity startup). 77 unique EFTA documents confirm sustained engagement; Iozzo was the persistent initiator throughout.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017-06-30",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:11:05",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01926133",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02216871",
+          "source_quote": "Wed 6/28/2017 9:00:46 PM \nThurs. June 29, 2017 PB-NY \nReminder: Ehud and Nili to arrive early morning (does JE want to see him?) \nReminder: Larry Delson would like to see you when you are next in NY \nReminder: you want to go see the Erik Lindman exhibition at the Almine Rech Gallery \nReminder: Dave...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02263645",
+          "source_quote": "Subject Re: Get together? \nWear one just in case. \nSent from my iPhone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02473582",
+          "source_quote": "yes of course",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": "Is this interesting for you? \nSent from my (phone \nBegin forwarded message: \nFrom:=/b> Jason Ng \n> \nDate: June 28, 2018 at 13:43:53 GMT+2 \nTo: Vin=enzo \n>Subject: Fwd: Investment Opportunity -\nGrab Series H Preferred S=ares \n \nForwarded message \nFrom: Ben Forman Date: Tue, Jun 26, 2018 at 3:39 PM...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02534379",
+          "source_quote": "Hello hello, \nHow a=e you? What's new? \nI haven't=seen you in a while so brief update: sold my company to a company crowdstri=e and now I'm there for a bit. \nMeanwhile I'm thinking about=what to do next and I'm looking again at insurance linked securitie= partially because I \nmet somebody from scor...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": "Btw for context on this deal \nSent from my (phone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712657",
+          "source_quote": "Attachments: \niperlane_teaser_september_2015.pdf \nHello! \nAttached the deck, thanks for taking the time today (and sorry for the =elay). \nBtw speaking of Leon Black, it'd be awesome if at some point in =he next few months we could do a test run with Apollo \nonce we also have =he iOS version ready....",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02719531",
+          "source_quote": "Attachments: \nIperlane Overview February 2015.pdf; IperLane Teaser February 2015.pdf \nWe had to change the plan a bit because the other one wasn't working =eally well.. Btw I should have the proof of \nconcept code that analyzes =PS data and 'traces' people that way ready by the end of the week...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1606,
+      "finding_type": "intelligence",
+      "summary": "FBI CHS identified Vincenzo Iozzo (Italian, born Calabria) as 'Epstein's personal hacker' in SECRET//NOFORN FD-1023 report. CHS described Iozzo as developer of zero-day exploits for iOS/BlackBerry/Firefox, who sold tools to UK GCHQ, Saudi Arabia (established their cyber surveillance program), Central African government, and Hezbollah. Company Iperlane acquired by CrowdStrike fall 2017; Iozzo became VP/Senior Director there. CHS claimed Iozzo used a California theater company to launder zero-day income. Email corpus confirms extensive direct relationship: 78 DugganUSA hits spanning 2014-2018, including business meetings (Radius w/ Darian Shirazi), scheduling through Lesley Groff, and continued visits through Dec 2018 post-Miami Herald.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "duggan"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2017-11-27",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 04:52:54",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01683874",
+          "source_quote": "was Epstein's personal hacker. was an Italian citizen born in Calabria who develope zero-day exploits and offensive cyber tools and sold the tools to government established the Saudi government's cyber surveillance program.",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1610,
+      "finding_type": "intelligence",
+      "summary": "CHS reported Iozzo's company (Iperlane) had 'three billionaire backers' who 'provided the company's seed money,' with Jeffrey Epstein named as one. Another backer had 'a Japanese company.' CHS also described Iozzo's hacker network: friends with 'old school European hackers' including one who 'received a trunk of cash from Hezbollah in Italy' and 'drove the money to Switzerland and deposited it.' Iozzo allegedly sold zero-days to UK GCHQ (including training), Saudi Arabia (established their cyber surveillance program), a Central African government, and Hezbollah ('for political reasons'). Refused Italian government request. Made 'six figures from the sale of his zero-days.' Anti-Semitic, racist, terrified of Russia. Held Vatican City passport, possibly Iranian and Israeli passports.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "duggan"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2017-11-27",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 04:55:03",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01683874",
+          "source_quote": "ree illionaire backers: Jeffre E stein and provided the company's see money; had a Japanese company",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1688,
+      "finding_type": "identity",
+      "summary": "ParaFi Capital LLC (DE #6727483) incorporated 25 Jan 2018, originally as BLOCKTREE CAPITAL LLC (confirmed name change via DE Division of Corporations). Agent: VCORP Services LLC, 1013 Centre Road Suite 403-B, Wilmington DE 19805. LEI: 2549005LEO7EQR4J8D56. CA branch active Feb 2018 - Dec 2020 (inactive). ParaFi Capital Management LLC (DE #4159570) formed 16 Nov 2020 with CT branch — likely the SEC-registered investment adviser entity.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-01-25",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:33:46",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "OC:us_de/6727483",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1611,
+      "finding_type": "financial",
+      "summary": "Iozzo confirmed CrowdStrike acquisition in Jan 31, 2018 email to Epstein (jeevacation@gmail.com): 'sold my company to a company crowdstrike and now I'm there for a bit.' Same email discusses insurance-linked securities in cyber, meeting someone from SCOR (reinsurer), references Credit Suisse and BNY Mellon testing ILS for cyber risk. Asks Epstein for contacts who understand these instruments. Primary-source confirmation of CrowdStrike/Iperlane acquisition timing.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-01-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:03:15",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02534379",
+          "source_quote": "sold my company to a company crowdstrike and now I'm there for a bit. Meanwhile I'm thinking about what to do next and I'm looking again at insurance linked securities",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1690,
+      "finding_type": "relationship",
+      "summary": "Iozzo is director of 16HARLEYCO LIMITED (UK #11380263), a London Private Limited Company incorporated 24 May 2018 (SIC 96.09: personal services). Co-director with DANNY RIMER (Index Ventures partner) — both appointed same day 16 Apr 2021, suggesting joint investment. UBOs are Jo Yee Chow and Sook Yee Chow. Company active with full accounts to May 2024. Previous addresses: Embassy Gardens SW11, 12 Melcombe Place NW1. Current: 222 Regent Street W1B. VAT 332709804. Andrew George Robb was also director Apr 2021-Sep 2025.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-05-24",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:35:03",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "OC:gb/11380263",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1630,
+      "finding_type": null,
+      "summary": "DOJ email corpus confirms Iozzo used vincenzo@tiqad.com as primary email address (visible in EFTA02246663, May 31, 2018 email from Lesley Groff to Iozzo). 'Tiqad' appears in 63 DugganUSA hits. Domain name may relate to post-CrowdStrike venture. Combined with IRD Holdings Corp. (SEC EDGAR) and prior Iperlane (CrowdStrike-acquired), establishes at least 3 corporate entities linked to Iozzo: (1) Iperlane (pre-2017, acquired by CrowdStrike); (2) tiqad.com domain (active 2018); (3) IRD Holdings Corp. (2022-present, Delaware, Chicago). None appear in OpenSanctions (4.13M entities searched), no OFAC SDN match.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-05-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:54",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02246663",
+          "source_quote": "To: \nVincenzo Lozzo \nFrom: \nSent: \nThur 5/31/2018 3:02:33 PM \nSubject: \nRe: Jeffrey Epstein \nthank you! \n> On May 31, 2018, at 11:01 AM, Vincenzo Iozzo <vincenzo@tiqad.com> wrote: \n> \n• Yup that works! \n> Sent from my Iphone \n>> On May 31, 2018, at...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1634,
+      "finding_type": "financial",
+      "summary": "SEC EDGAR confirms Blocktree Private Opportunities LLC - Series A (CIK 1747162): formed 2018 in Delaware, principal address 1161 Mission St, San Francisco CA 94103. Benjamin Forman listed as Managing Partner of Blocktree Capital LLC and promoter. Pooled Investment Fund. Date of first sale July 6, 2018. Total amount sold $2,300,000 (initial D filing Aug 2, 2018), increased to $2,735,000 in D/A amendment (Apr 12, 2019). Entity renamed from Blocktree to ParaFi between filings. Three series entities in SEC: A/B/C + General Fund LP. This is the vehicle through which Epstein was solicited to invest in Grab ($9.25B ride-sharing) and Radius Intelligence ($10M pre-money B2B data). Silvershore Internet Opportunity IV LP is the downstream Grab feeder.",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar"
+      ],
+      "confidence": "confirmed",
+      "date_of_event": "2018-08-02",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:50",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": "The investment will be made into Class A Shares of Blocktree Private Opportunities LLC which will in turn invest in a feeder vehicle Silvershore Internet Opportunity IV LP",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": "Btw for context on this deal \nSent from my (phone",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1638,
+      "finding_type": "financial",
+      "summary": "Full Radius Intelligence deal terms pitched to Epstein (Aug 14, 2018): $12M Series 1-A Preferred Shares at $10M pre-money/$22M post-money. 1x liquidation preference, 54% common equity fully converted. Prior round raised at $150M pre-money (massive down-round). Company had been under LOI to Salesforce for ~$200M but deal fell apart. Burning $1.1M/month. Expected cash-flow positive by end CY19/FY20. Key investors included Founders Fund, Salesforce Ventures, American Express Ventures, 8VC, John Mack (ex-Morgan Stanley CEO), Jerry Yang (Yahoo co-founder). Iozzo told Epstein: 'my gut feeling is that this is a good value deal given the economics but the company itself is not really revolutionary/long term play.'",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-08-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:07:02",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": "my gut feeling is that this is a good value deal given the economics but the company itself is not really revolutionary/long term play",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1612,
+      "finding_type": "financial",
+      "summary": "Iozzo served as deal-flow intermediary between Blocktree Capital LLC (Ben Forman, Managing Partner; Aaron Wong) and Epstein. Forwarded at least 3 investment opportunities: (1) Grab Series H Preferred Shares June 2018, $9.25B pre-money, via Blocktree Private Opportunities LLC -> Silvershore Internet Opportunity IV LP (EFTA02529170); (2) Radius Intelligence Series 1-A Aug 2018, $10M pre-money/$22M post-money, 54% equity, min $100K via Blocktree/Darian Shirazi (EFTA02602271); (3) Bitmain crypto mining shares Aug 2018 via iAngels Technologies LP + Blocktree (EFTA02602312). Blocktree renamed to ParaFi; SEC EDGAR shows CIK 1747162 (Series A), 1761732 (Series B), 1765770 (Series C), 1733707 (General Fund). Address: 600 California St Floor 11, SF CA 94108.",
+      "detail": null,
+      "source_datasets": [
+        "doj_vol11",
+        "duggan",
+        "sec_edgar"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-08-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:03:28",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": "To: \nVincenzo Iozzo \nFrom: \nSent \nWed 8/15/201811:47:12 PM \nSubject Re: Radius Discussion w/ Jefferey and Vincenzo \nExcellent. Thank you! \nSent from my iPhone \nOn Aug 15, 2018, at 7:34 PM, Vincenzo lozzo \nwrote: \nHi \nHcrc arc the details, let me...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": "We are pleased to present you with a discretionary co-investment opportunity in Grab... Blocktree has formed a special purpose vehicle",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": "Radius is a leading B2B Customer Data Platform... Darian Shirazi the Radius CEO will be investing directly in the transaction through the Blocktree entity",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602312",
+          "source_quote": "Btw for what it is worth I think that the business itself it's great=as long as you are long crypto. Apparently the big pools \ndo pay per share (=eaning they pay their users no matter whether they get the blocks or not), t=at creates a big most \nwhereby smaller pools just can't compete beca=se they...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02605351",
+          "source_quote": "EFTA_R1_0 1795756 \nEFTA02605351",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1616,
+      "finding_type": "financial",
+      "summary": "Iozzo acted as investment deal conduit to Epstein. On Jun 28, 2018, Iozzo forwarded Grab Series H opportunity (9.25B pre-money, 100k min) from Ben Forman at Blocktree Capital (ben.forman@blocktreecap.com) via Jason Ng. On Aug 15, 2018, Forman organized Radius Discussion conf call with Darian Shirazi (Radius CEO), Aaron Wong, Epstein and Iozzo. Call confirmed for Aug 16 at 11:50am. Radius was B2B data platform that raised 100M+ VC. A separate document (EFTA02602271) shows Radius acquisition deal structure through Blocktree entity with Shirazi co-investing. Forman later founded ParaFi Capital (blockchain fund). Shirazi later sold Radius (2018), joined Google Gradient Ventures.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-08-15",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:04:08",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": "Subject Re: Radius Discussion w/ Jefferey and Vincenzo \nExcellent. Thank you! \nSent from my iPhone",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02253969",
+          "source_quote": "Subject 11:50am Conf Call Confirmed \nI I :50am Conf Call Confirmed \n11:50am Conf. Call w/Vincenzo Lozzo, Radius Discussion \nConf Number: 720 835 5432, P1N# 17313",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": "Is this interesting for you? \nSent from my (phone \nBegin forwarded message: \nFrom:=/b> Jason Ng \n> \nDate: June 28, 2018 at 13:43:53 GMT+2 \nTo: Vin=enzo \n>Subject: Fwd: Investment Opportunity -\nGrab Series H Preferred S=ares \n \nForwarded message \nFrom: Ben Forman Date: Tue, Jun 26, 2018 at 3:39 PM...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": "Btw for context on this deal \nSent from my (phone",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1607,
+      "finding_type": "communication",
+      "summary": "Iozzo continued visiting Epstein at 9 E 71st on Dec 1, 2018 — just 3 days after Miami Herald published 'Perversion of Justice' series (Nov 28, 2018). Email shows Iozzo asking assistant: 'is there a lot of press around the house given recent news? Trying to decide whether to wear a baseball hat.' Shows awareness of media scrutiny but continued engagement. Also scheduled Nov 28, 2017 visit (EFTA02230809) — the day after the CHS described the Iozzo-Epstein relationship to FBI.",
+      "detail": null,
+      "source_datasets": [
+        "duggan"
+      ],
+      "confidence": "high",
+      "date_of_event": "2018-12-01",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 04:53:04",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02230809",
+          "source_quote": "Subject Fwd: In town this week? \nWould you like to see Vencenzo this week? \nSent from my iPhone \nBegin forwarded message:",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02263645",
+          "source_quote": "is there a lot of press around the house given recent news? Trying to decide whether to wear a baseball hat",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1687,
+      "finding_type": "identity",
+      "summary": "IRD Holdings Corp (DE #6616843) incorporated 14 Feb 2022 as Domestic Corporation. Agent: Corporation Service Company, 251 Little Falls Drive, Wilmington DE 19808. NY branch (#7571694) registered 27 Mar 2025 at 80 State Street, Albany NY. Delaware does not disclose officers — SEC Form D is the only source showing Iozzo as President/Director with $10.19M raised.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2022-02-14",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:33:38",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "OC:us_de/6616843",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1624,
+      "finding_type": null,
+      "summary": "SEC EDGAR reveals Iozzo is President, Executive Officer, and Director of IRD Holdings Corp. (CIK 0001916133), a Delaware-incorporated 'Other Technology' entity at 200 W. Madison St. Suite 3900, Chicago IL 60606 (office of Barack Ferrazzano Kirschbaum & Nagelberg LLP). Three Form D filings: (1) Mar 2022 — $350K equity offering, 12 accredited investors; (2) Apr 2022 — $8.5M offering, $8.04M sold to 20 accredited investors; (3) Oct 2025 — $2M offering, $1.8M sold to 4 accredited investors. Total capital raised: ~$10.19M across three rounds. All filings under Regulation D exemption 06b. Revenue 'Decline to Disclose' on all filings. This directly corrects Finding #1614 which stated 'Zero SEC EDGAR filings mentioning Iozzo' — that search missed Form D filings which are filed by the issuer, not in full-text search.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2022-03",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:23",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0001916133-22-000002",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "0001916133-25-000003",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK 0001916133 Form D filings 0001916133-22-000001",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1622,
+      "finding_type": "intelligence",
+      "summary": "SlashID (Iozzo current company, founded 2022) investor DG Daiwa Ventures is a Japanese VC firm (subsidiary of Daiwa Securities Group). This may be relevant to the FBI CHS claim that one of Iperlanes three billionaire backers had a Japanese company. However this is SlashID not Iperlane, and DG Daiwa is a VC firm not a billionaire individual. SoftBank (noted in target briefing as possible Japanese company connection) was invested in Grab, whose Series H shares Iozzo forwarded to Epstein. No direct evidence linking SoftBank to Iperlane funding found.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "low",
+      "date_of_event": "2022-03-01",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:12",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Crunchbase SlashID profile",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1618,
+      "finding_type": "identity",
+      "summary": "Full public profile: Born Aug 1988, Calabria Italy. Politecnico di Milano 2010. Career: Zynamics (2008-11), Tiqad srl (2011-12), co-founded Trail of Bits (2012-14), co-founded Iperlane (2015, COO Kelly Shortridge), CrowdStrike acquisition Jan 2017 (2M seed), Senior Director CrowdStrike (2017-21), CEO SlashID (2022-present, 8.83M seed from Alven/DG Daiwa/Headline/Musha/TQ). UK director 16HARLEYCO LIMITED. Email vincenzo@tiqad.com. Co-author iOS Hackers Handbook (Wiley 2012). Pwn2Own winner 2010-11, Black Hat board since 2011. Removed from Black Hat and Code Blue review boards Feb 2026 after Epstein files. Denies being Epstein hacker, calls CHS claims fabricated.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2025-01-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:04:43",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CCS 2013 bio",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Crunchbase",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "TechCrunch 2026-02-12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "UK Companies House 11380263",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1620,
+      "finding_type": "intelligence",
+      "summary": "Iozzo response to FBI CHS claims (Feb 2026): Told TechCrunch he was never Epsteins hacker, nor did any hacking for him. Called FBI informant claims fabricated and false and defamatory. Said interactions were limited to business opportunities that never materialized. CrowdStrike spokesperson confirmed Iozzo left company in 2021. Black Hat removed Iozzo from review board Feb 2026, claimed it was for inactivity not Epstein connection. Code Blue (Japan conference) also removed him. No criminal charges or investigations publicly known against Iozzo.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:02",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CyberDaily",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Cybernews",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "TechCrunch 2026-02-12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Yahoo News",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1614,
+      "finding_type": "financial",
+      "summary": "Comprehensive negative results across corporate/financial/regulatory databases with ONE EXCEPTION: SEC EDGAR Form D filings reveal IRD Holdings Corp. (CIK 0001916133) with Vincenzo Iozzo as President/Director — 3 filings raising ~$10.19M (2022-2025). See Finding #1624. Remaining negatives: (1) No Iperlane incorporation records in FL/NY/NM/PA/VI/UK corporate registries; (2) No Iozzo as officer in any state registry; (3) No UCC filings; (4) No GLEIF LEI for Iperlane; (5) No FEC donations by Vincenzo Iozzo; (6) No NYC ACRIS property records; (7) No ProPublica 990 entries; (8) No OpenSanctions matches; (9) No LittleSis entries; (10) No lobbying filings; (11) No DS10 Deutsche Bank transactions; (12) Not in Epstein 20K corpus.",
+      "detail": null,
+      "source_datasets": [
+        "sec_edgar",
+        "corporate_registry",
+        "fec",
+        "acris",
+        "opensanctions"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2026-02-14",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:03:53",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01683874",
+          "source_quote": "owned a theater company in California and he used the theater company to launder his zero-day money",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1626,
+      "finding_type": null,
+      "summary": "Comprehensive court/legal database search yields ZERO results for Vincenzo Iozzo as a party in any criminal, civil, or regulatory proceeding in US federal courts. CourtListener search returned 20 results for surname 'Iozzo' — all different people (Christine, Dominic, Victor, Marc, Rochelle, etc.). CourtListener 'cases' search for 'Vincenzo Iozzo' returned 12 bankruptcy cases (Akorn, Celsius, GM, Lehman, etc.) where a different Vincenzo Iozzo appears as a creditor/attorney — this is a bankruptcy practitioner, not the cybersecurity researcher. No criminal indictments, no export control violations (ITAR/EAR), no sanctions violations (OFAC), no CFAA charges. This is investigatively significant: CHS alleged Iozzo sold zero-day exploits to GCHQ, Saudi Arabia, Central Africa, and Hezbollah. Sale to Hezbollah would constitute material support for terrorism (18 USC 2339B) and sanctions violation (OFAC SDN). Complete absence of criminal proceedings suggests either: (a) CHS claims are exaggerated/fabricated; (b) sales were authorized/directed by a government agency; or (c) prosecution was declined for intelligence reasons.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:35",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener search 'Iozzo' (20 results",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "different person); CourtListener opinions 'Iozzo' (10 results",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "none Vincenzo)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "none Vincenzo); CourtListener cases 'Vincenzo Iozzo' (12 bankruptcy cases",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1628,
+      "finding_type": null,
+      "summary": "No FARA registration exists for Iozzo, Iperlane, or IRD Holdings Corp. despite CHS claims of zero-day exploit sales to Saudi Arabia, UK GCHQ, and Central Africa. FARA database search for 'Iozzo' and 'Iperlane' returned zero registrants and zero foreign principals. If Iozzo sold cyber-surveillance/offensive tools to foreign governments as alleged, and the sales were intermediated through US entities, FARA registration would potentially be required. The absence parallels the broader pattern of non-compliance identified in the investigation (15+ Epstein intermediaries, 6 countries). Additionally: No LDA lobbying filings for Iozzo/Iperlane. CrowdStrike has 20+ lobbying filings but none reference Iozzo or Iperlane acquisition specifically.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:05:45",
+      "target_name": "Vincenzo Iozzo",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA search 'Iozzo' (0 results); FARA search 'Iperlane' (0 results); LDA lobbyist search 'Iozzo' (0 results); LDA client 'Iperlane' (0 results)",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 806,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 04:53:27",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00333383",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01683874",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01922290",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02230809",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02263645",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 808,
+      "person_a": "Ben Forman",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "financial",
+      "description": "Iozzo served as deal-flow conduit between Blocktree Capital LLC (Forman, Managing Partner) and Epstein. Iozzo forwarded Forman's investment pitches (Grab, Bitmain, Radius) to jeevacation@gmail.com. Aug 15, 2018: Forman sent Radius discussion email to Epstein, Shirazi, and Wong with subject line referencing 'Jefferey and Vincenzo.'",
+      "strength": "strong",
+      "date_range": "2018-06-2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:04:11",
+      "other_person": "Ben Forman",
+      "other_person_slug": "ben-forman",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02605351",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 809,
+      "person_a": "Darian Shirazi",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "financial",
+      "description": "Joint investment participants in Epstein-targeted Radius Intelligence deal (Aug 2018). Shirazi was Radius CEO/Founder (ex-Facebook employee #10, early investor in Palantir/Lyft/Lending Club). He would invest via Blocktree entity with economic interest in fees and carry. Iozzo negotiated economics. Both named in call setup with Epstein.",
+      "strength": "strong",
+      "date_range": "2018-08-2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:04:18",
+      "other_person": "Darian Shirazi",
+      "other_person_slug": "darian-shirazi",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02605351",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 812,
+      "person_a": "Joi Ito",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "social",
+      "description": "Ito introduced Iozzo to Epstein May 2014 and pitched network security company idea that became Iperlane. Ito also channeled Epstein Blockstream investment.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:04",
+      "other_person": "Joi Ito",
+      "other_person_slug": "joi-ito",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01926133",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 813,
+      "person_a": "Ben Forman",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "financial",
+      "description": "Forman at Blocktree Capital organized investment deals involving Iozzo and Epstein in 2018: Grab Series H and Radius acquisition.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:04",
+      "other_person": "Ben Forman",
+      "other_person_slug": "ben-forman",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02529170",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 815,
+      "person_a": "Lesley Groff",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "social",
+      "description": "Groff was primary scheduler for Iozzo-Epstein meetings 2015-2018, showing established access pattern through inner circle gatekeeper.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:04",
+      "other_person": "Lesley Groff",
+      "other_person_slug": "lesley-groff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00333383",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238555",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02246622",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 816,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "advisory",
+      "description": "Iozzo brought blockchain and fintech ideas to Epstein from 2014. Pattern of technology intelligence advisory on decentralized markets, repo market crypto structures, CDS hedging.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:04",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01922290",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02589432",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02706166",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 817,
+      "person_a": "Joi Ito",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "social",
+      "description": "Ito introduced Iozzo to Epstein on May 6, 2014: 'Vincenzo is one of the best network security guys I know. I'm working with him on a network security company idea.' Also mentioned Joshua Ramo should join. Iozzo met Epstein May 18, 2014. Ito and Iozzo both received iOS security intel from each other (Jul 2014). Iozzo visited 9 East at 10am June 30, 2017 - same day Epstein met Ito at 3:30pm.",
+      "strength": "strong",
+      "date_range": "2014-05-2017-06",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:18",
+      "other_person": "Joi Ito",
+      "other_person_slug": "joi-ito",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01916368",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01926133",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02216871",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 820,
+      "person_a": "Darian Shirazi",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "financial",
+      "description": "Aug 15, 2018 conference call with Epstein on Radius Intelligence Series 1-A investment (M pre-money/M post-money). Ben Forman organized 'Radius Discussion w/ Jefferey and Vincenzo' including Shirazi, Aaron Wong, and Epstein. Iozzo forwarded Radius due diligence materials to Epstein (EFTA02602271). Shirazi was CEO/Founder of Radius, early Facebook employee, investor in Palantir/Lyft/Lending Club.",
+      "strength": "strong",
+      "date_range": "2018-08",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:34",
+      "other_person": "Darian Shirazi",
+      "other_person_slug": "darian-shirazi",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 821,
+      "person_a": "Lesley Groff",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "social",
+      "description": "Groff was Iozzo's primary scheduling contact for Epstein meetings throughout 2015-2018. Iozzo contacted Groff to check Epstein's NYC/Paris availability, received meeting confirmations and time changes. Groff included Iozzo dates in 'Jeffreys itinerary.' Groff described Iozzo warmly ('Vincenzo, you are so good with your calendar\\!'). After Groff was unavailable, scheduling shifted to Bebe Avdiu at Indyke PLLC (Jun 2017).",
+      "strength": "strong",
+      "date_range": "2015-06-2018-12",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:43",
+      "other_person": "Lesley Groff",
+      "other_person_slug": "lesley-groff",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02214916",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02238555",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02246622",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "person_a": "Danny Rimer",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "corporate",
+      "description": "Co-directors of 16HARLEYCO LIMITED (UK #11380263) since 16 Apr 2021. Rimer is partner at Index Ventures, one of Europe's largest VC firms. Both appointed same day suggesting joint investment or advisory role.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:35:14",
+      "other_person": "Danny Rimer",
+      "other_person_slug": "danny-rimer",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "OC:gb/11380263",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 814,
+      "person_a": "Darian Shirazi",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "financial",
+      "description": "Shirazi (Radius CEO) joined conference call with Epstein and Iozzo Aug 16 2018 for Radius deal discussion through Blocktree entity.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:04",
+      "other_person": "Darian Shirazi",
+      "other_person_slug": "darian-shirazi",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02252965",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02602271",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 818,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "corporate",
+      "description": "Iozzo maintained continuous corporate/tech relationship with Epstein 2014-2018, then founded IRD Holdings Corp (2022, Delaware, $10.19M raised). The legal/court database vacuum around Iozzo — zero criminal charges, zero sanctions listings, zero FARA registrations — despite CHS claims of zero-day sales to Hezbollah, Saudi, GCHQ — is investigatively anomalous.",
+      "strength": "medium",
+      "date_range": "2014-2025",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:20",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener search results",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FARA search results",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "SEC EDGAR CIK 0001916133",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 819,
+      "person_a": "Leon Black",
+      "person_b": "Vincenzo Iozzo",
+      "relationship_type": "corporate",
+      "description": "Iozzo asked Epstein to facilitate test of IperLane surveillance product with Apollo Global Management (Sep 2015): 'speaking of Leon Black, it'd be awesome if at some point in the next few months we could do a test run with Apollo once we also have the iOS version ready. I know they currently use one of our competitors.' Epstein as intermediary between his hacker and his largest financial client.",
+      "strength": "medium",
+      "date_range": "2015-09",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 05:06:26",
+      "other_person": "Leon Black",
+      "other_person_slug": "leon-black",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02712657",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "president",
+      "date_start": null,
+      "date_end": "2017-10",
+      "source": "EFTA01683874",
+      "entity_id": 292,
+      "entity_name": "Iperlane",
+      "entity_type": "inc",
+      "jurisdiction": "it",
+      "entity_status": "acquired"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2014-05-06",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Joi Ito (MIT Media Lab director) introduced Iozzo to Epstein via email on May 6, 2014. Ito described Iozzo as 'one of the best network security guys I know' and said he was 'working with him on a network security company idea' that 'might be interesting for you as well.' Iozzo met Epstein on May 18, 2014. This is the same Joi Ito who invested Epstein money in Blockstream (500K allocation, EFTA01918921) and who resigned from MIT in 2019 over Epstein donations. The 'network security company idea' Ito referenced likely became Iperlane (founded 2015).",
+      "confidence": "high",
+      "id": 1615
+    },
+    {
+      "date": "2014-05-18",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Complete visit frequency analysis from email corpus: Iozzo attempted to schedule NYC meetings with Epstein approximately every 4-6 weeks throughout 2017-2018. Confirmed meetings: May 18, 2014 (first meeting), Aug 8-10, 2014 (Zorro Ranch), Oct 27, 2014 (Paris attempt), Dec 2015 (failed scheduling), Jun-Jul 2015 (multiple attempts), Nov 2016 (Boston + ride request), Jun 6, 2017 (returned to NYC), Jun 30, 2017 (confirmed 10am at 9 East), Oct-Nov 2017 (multiple attempts, unconfirmed), Mar-Apr 2018 (Apr 11 at 4pm confirmed via EFTA02244530), May-Jun 2018 (Jun 4 at 2:30pm confirmed), Jun 23+ 2018 (Paris meeting attempt), Jul-Aug 2018 (Aug 15-16 Radius call confirmed), Sep 2018 (failed - Epstein in PB), Nov 28-Dec 1, 2018 (confirmed 12:30pm at house, baseball hat email). Also asked about New Year's Eve 2016 plans. Multiple scheduling failures indicate Epstein was not always available, contradicting any suggestion meetings were always arranged by Epstein.",
+      "confidence": "medium",
+      "id": 1636
+    },
+    {
+      "date": "2014-05-2017-06",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Ito introduced Iozzo to Epstein on May 6, 2014: 'Vincenzo is one of the best network security guys I know. I'm working with him on a network security company idea.' Also mentioned Joshua Ramo should join. Iozzo met Epstein May 18, 2014. Ito and Iozzo both received iOS security intel from each other (Jul 2014). Iozzo visited 9 East at 10am June 30, 2017 - same day Epstein met Ito at 3:30pm.",
+      "other_person": "Joi Ito",
+      "id": 817
+    },
+    {
+      "date": "2014-06-25",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Email corpus establishes sustained Iozzo-Epstein relationship from at least June 2014 through December 2018 (4.5 years). 78 DugganUSA hits, 15 DOJ Vol11 results, 6 LMSBAND matches. Key phases: (1) 2014-2015: intellectual exchange on Bitcoin/prediction markets, meetings at NYC/Zorro Ranch; (2) 2016-2017: regular NYC visit scheduling via Lesley Groff, also contacts with Bebe (likely Sarah Kellen); (3) Jan 2018: CrowdStrike acquisition notification, asks for ILS contacts; (4) Jun-Aug 2018: deal pipeline (Grab/Bitmain/Radius via Blocktree); (5) Dec 2018: continues visiting post-Miami Herald. Iozzo communicated directly with Epstein at jeevacation@gmail.com and also coordinated via Lesley Groff for scheduling.",
+      "confidence": "medium",
+      "id": 1613
+    },
+    {
+      "date": "2014-06-25",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Iozzo discussed blockchain finance with Epstein from Jun 2014. In EFTA01922290 (Jun 25 2014) they discussed decentralized prediction markets built on Bitcoin. Epstein critiqued the paper, noting IRS said Bitcoin is not a currency and regulatory risks. In EFTA02589432 (Sep 2 2014) Iozzo proposed using blockchain-like structure for repo market. In EFTA02706166 (Apr 6 2016) Iozzo discussed CDS (credit default swaps) as hedging alternatives. Pattern shows Iozzo bringing tech-finance ideas to Epstein for evaluation, consistent with Epstein seeking tech intelligence and Iozzo seeking financial mentorship/investment.",
+      "confidence": "high",
+      "id": 1619
+    },
+    {
+      "date": "2014-07-19",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Iozzo provided iOS security intelligence to both Epstein and Joi Ito on Jul 19, 2014. Forwarded researcher Jonathan Zdziarski's iOS backdoors presentation showing SMS extraction, address books, and app data could be extracted from iPhones/iPads cheaper and easier than most realized. Iozzo warned: 'You both use iPhone and iPads, might be a good idea to either install the application this guy wrote or change the usage pattern of your devices.' Epstein responded 'nice.' This establishes Iozzo as an active cybersecurity advisor to Epstein - someone providing operational security intelligence about mobile device vulnerabilities, consistent with the FBI CHS characterization as 'Epstein's personal hacker.'",
+      "confidence": "high",
+      "id": 1623
+    },
+    {
+      "date": "2014-08-08",
+      "type": "finding",
+      "finding_type": "location",
+      "summary": "Iozzo visited Epstein at Zorro Ranch, NM in August 2014. Email shows Iozzo arranging to fly to Albuquerque with car pickup arranged by Epstein (driver: Brice Gordon). This is the same location the FBI CHS described in EFTA01683874 as where Epstein 'lured and video recorded underage women.' Iozzo also discussed 'decentralized prediction markets and order books (w/ bitcoin)' with Epstein in June 2014 (EFTA01922290), showing technology/financial advisory relationship began at least by mid-2014.",
+      "confidence": "high",
+      "id": 1609
+    },
+    {
+      "date": "2014-08-09",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Iozzo discussed cybersecurity financial derivatives with Epstein on Aug 9-10, 2014 at Zorro Ranch. In email titled 'A note on shorting,' Iozzo raised the problem of shorting cyber insurance bonds: 'even if you want to short the bond through a derivative, who's going to take the other side of the bet? Everyone is/should be aware of the moral hazard there.' Referenced Epstein's earlier 'thesis on the fact that this can't work because it's hard for investors to understand.' Epstein replied asking about market mechanics. This shows Epstein and Iozzo were actively exploring how to create financial instruments around cybersecurity risk - combining Iozzo's offensive cyber expertise with Epstein's financial structuring knowledge. A cyber expert who knows how to create vulnerabilities discussing how to financially capitalize on cyber risk represents a significant moral hazard.",
+      "confidence": "high",
+      "id": 1625
+    },
+    {
+      "date": "2014-11-10",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Iozzo pitched IperLane investment to Epstein in Nov 2014 (EFTA02595442) with island visit offer. Iozzo wrote: 'a bunch of people are verbally committing to invest' and asked Epstein three questions: (1) What do you think? (2) Can you think of anybody who might be interested? (3) Do you want to invest? Notably said: 'I would prefer (2) to (3), just cause this way if this goes south it's not your money.' Also offered to visit Epstein's island: 'I think you're going to your island at some point in November, if it's ok I'd show up there so that we can talk F2F sooner rather than later.' Attached IperLane_Executive-Summary.pdf and IperLane-Deck.pdf. Epstein did not reply, prompting Iozzo to follow up: 'shall I operate on this one under the usual assumption no reply -> not interesting?' This reveals Epstein's established pattern of non-response to proposals he declined.",
+      "confidence": "high",
+      "id": 1627
+    },
+    {
+      "date": "2014-2025",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Iozzo maintained continuous corporate/tech relationship with Epstein 2014-2018, then founded IRD Holdings Corp (2022, Delaware, $10.19M raised). The legal/court database vacuum around Iozzo — zero criminal charges, zero sanctions listings, zero FARA registrations — despite CHS claims of zero-day sales to Hezbollah, Saudi, GCHQ — is investigatively anomalous.",
+      "other_person": "Jeffrey Epstein",
+      "id": 818
+    },
+    {
+      "date": "2015-02-17",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Iozzo sent Epstein IperLane pitch materials with GPS people-tracking capability on Feb 17, 2015. Email states: 'We had to change the plan a bit because the other one wasn't working really well.. Btw I should have the proof of concept code that analyzes GPS data and traces people that way ready by the end of the week.' IperLane was a surveillance product capable of tracking individuals via GPS data. Later in Sep 2015, Iozzo sent updated deck and explicitly asked Epstein to facilitate 'a test run with Apollo once we also have the iOS version ready' because 'they currently use one of our competitors.' This connects Iperlane directly to Leon Black's Apollo Global Management as a prospective client for a surveillance tool, with Epstein as the intermediary.",
+      "confidence": "high",
+      "id": 1621
+    },
+    {
+      "date": "2015-06",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Iozzo used at least 4 distinct email domains during his relationship with Epstein, tracking his company evolution: (1) Personal/early: unknown redacted addresses (2014); (2) tiqad.com: used Jun 2015-May 2018 and again post-CrowdStrike (vincenzo@tiqad.com in EFTA02246663); (3) iperlane.com: used Dec 2016 when company was active (vincenzo@iperlane.com in EFTA02666710); (4) rakoku.com: used Aug 2017 (vincenzo@rakoku.com in EFTA02221399). The domain 'tiqad' may be Arabic-influenced (tiqad = trust/belief); 'rakoku' appears Japanese. 'Iperlane' was the company name itself. Iozzo also mentioned 'recently went to Tokyo' in Jul 2015 (EFTA02368792), consistent with international business ties. Iozzo also shared Epstein the link to edge.org (Brockman's foundation) in Jan 2016, suggesting awareness of Epstein's intellectual salon network.",
+      "confidence": "high",
+      "id": 1631
+    },
+    {
+      "date": "2015-06-2018-12",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Groff was Iozzo's primary scheduling contact for Epstein meetings throughout 2015-2018. Iozzo contacted Groff to check Epstein's NYC/Paris availability, received meeting confirmations and time changes. Groff included Iozzo dates in 'Jeffreys itinerary.' Groff described Iozzo warmly ('Vincenzo, you are so good with your calendar\\!'). After Groff was unavailable, scheduling shifted to Bebe Avdiu at Indyke PLLC (Jun 2017).",
+      "other_person": "Lesley Groff",
+      "id": 821
+    },
+    {
+      "date": "2015-09",
+      "type": "connection",
+      "relationship_type": "corporate",
+      "description": "Iozzo asked Epstein to facilitate test of IperLane surveillance product with Apollo Global Management (Sep 2015): 'speaking of Leon Black, it'd be awesome if at some point in the next few months we could do a test run with Apollo once we also have the iOS version ready. I know they currently use one of our competitors.' Epstein as intermediary between his hacker and his largest financial client.",
+      "other_person": "Leon Black",
+      "id": 819
+    },
+    {
+      "date": "2016-01-01",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Iozzo was Research Affiliate at MIT Media Lab 2016-2020, the same institution directed by Joi Ito who introduced him to Epstein. This deepens the Ito-Iozzo-Epstein triangle: Ito introduced them in 2014 pitching a security company, Iozzo then held an official MIT Media Lab affiliation while his company Iperlane was funded (allegedly by Epstein as one of three billionaire backers), and Ito simultaneously channeled Epstein donations to MIT. Ito resigned from MIT in Aug 2019 when this was exposed. Also connected to Andrew McAfee via Epstein email network per EpsteinWeb tracker.",
+      "confidence": "high",
+      "id": 1639
+    },
+    {
+      "date": "2016-02-03",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Epstein forwarded Iozzo's technical security analysis of Mycelium cryptocurrency wallet to a Russian contact (Cyrillic name, appears as 'Cepreil Gemskon' in OCR) on Feb 3, 2016. Epstein told the Russian: 'He is very well respected with both black and white hat hackers' and offered 'I will do anything that is helpful to you.' The Russian asked 'is it possible to meet with him?' and proposed meeting 'in US' with 'me and my friend who is involved.' Iozzo's analysis covered blockchain security, mesh networking vulnerabilities, and custodial risks of decentralized systems. This shows Epstein actively brokering Iozzo's cyber expertise to Russian contacts - directly corroborating the FBI CHS claim that Epstein facilitated Iozzo's connections.",
+      "confidence": "high",
+      "id": 1617
+    },
+    {
+      "date": "2017-06-30",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein's June 29-July 12, 2017 schedule (EFTA02216871) places Iozzo at 9 East 71st at 10:00am on June 30, 2017, the same day Epstein had a 3:30pm meeting with Joi Ito 'at his house.' This schedule also lists Ehud Barak arriving 'early morning' June 29, Larry Delson requesting a meeting, Skype with Philippe Van den Broek, dinner with 'Woody' (coordinated by Karyna Shuliak), and a Bedford trip. Iozzo's meeting was scheduled through Bebe Avdiu (legal assistant at Darren K. Indyke PLLC). The same schedule chain (EFTA02214997) confirms the meeting happened: 'Just confirming you'll be at Jeffrey's at 10am today?' with Iozzo replying 'Yes I will.' This connects three key Epstein associates on the same day: Iozzo (cyber), Barak (defense/intelligence), and Ito (MIT/technology).",
+      "confidence": "high",
+      "id": 1629
+    },
+    {
+      "date": "2017-06-30",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SYNTHESIS: Iozzo served three distinct roles for Epstein across 4.5 years (May 2014-Dec 2018): (1) cybersecurity/surveillance advisor — provided iOS vulnerability intelligence, built IperLane GPS people-tracking tool, assessed crypto wallet security; (2) technology broker — Epstein forwarded Iozzo's Mycelium wallet analysis to a Russian contact (Moscow timezone) offering 'I will do anything helpful to you,' and pitched IperLane to Apollo/Leon Black; (3) deal-flow intermediary — channeled Blocktree Capital (Ben Forman/ParaFi) investments to Epstein including Grab Series H (.25B), Radius Intelligence (M), and Bitmain. Introduced by Joi Ito (MIT Media Lab), Iozzo held MIT Research Affiliate status 2016-2020 while Ito channeled Epstein donations. Jun 30, 2017 schedule places Iozzo (10am), Ito (3:30pm), and Barak (arrived prior day) at 9 E 71st within 24 hours — converging cyber, academia/tech, and defense/intelligence. Complete legal vacuum: zero prosecutions despite FBI CHS claims of zero-day sales to Hezbollah, Saudi Arabia, GCHQ, and money laundering via California theater company. Current entity: IRD Holdings Corp (CIK 0001916133, DE, .19M raised 2022-2025) / SlashID (cybersecurity startup). 77 unique EFTA documents confirm sustained engagement; Iozzo was the persistent initiator throughout.",
+      "confidence": "medium",
+      "id": 1657
+    },
+    {
+      "date": "2017-11-27",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "FBI CHS identified Vincenzo Iozzo (Italian, born Calabria) as 'Epstein's personal hacker' in SECRET//NOFORN FD-1023 report. CHS described Iozzo as developer of zero-day exploits for iOS/BlackBerry/Firefox, who sold tools to UK GCHQ, Saudi Arabia (established their cyber surveillance program), Central African government, and Hezbollah. Company Iperlane acquired by CrowdStrike fall 2017; Iozzo became VP/Senior Director there. CHS claimed Iozzo used a California theater company to launder zero-day income. Email corpus confirms extensive direct relationship: 78 DugganUSA hits spanning 2014-2018, including business meetings (Radius w/ Darian Shirazi), scheduling through Lesley Groff, and continued visits through Dec 2018 post-Miami Herald.",
+      "confidence": "medium",
+      "id": 1606
+    },
+    {
+      "date": "2017-11-27",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "CHS reported Iozzo's company (Iperlane) had 'three billionaire backers' who 'provided the company's seed money,' with Jeffrey Epstein named as one. Another backer had 'a Japanese company.' CHS also described Iozzo's hacker network: friends with 'old school European hackers' including one who 'received a trunk of cash from Hezbollah in Italy' and 'drove the money to Switzerland and deposited it.' Iozzo allegedly sold zero-days to UK GCHQ (including training), Saudi Arabia (established their cyber surveillance program), a Central African government, and Hezbollah ('for political reasons'). Refused Italian government request. Made 'six figures from the sale of his zero-days.' Anti-Semitic, racist, terrified of Russia. Held Vatican City passport, possibly Iranian and Israeli passports.",
+      "confidence": "medium",
+      "id": 1610
+    },
+    {
+      "date": "2018-01-25",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "ParaFi Capital LLC (DE #6727483) incorporated 25 Jan 2018, originally as BLOCKTREE CAPITAL LLC (confirmed name change via DE Division of Corporations). Agent: VCORP Services LLC, 1013 Centre Road Suite 403-B, Wilmington DE 19805. LEI: 2549005LEO7EQR4J8D56. CA branch active Feb 2018 - Dec 2020 (inactive). ParaFi Capital Management LLC (DE #4159570) formed 16 Nov 2020 with CT branch — likely the SEC-registered investment adviser entity.",
+      "confidence": "high",
+      "id": 1688
+    },
+    {
+      "date": "2018-01-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Iozzo confirmed CrowdStrike acquisition in Jan 31, 2018 email to Epstein (jeevacation@gmail.com): 'sold my company to a company crowdstrike and now I'm there for a bit.' Same email discusses insurance-linked securities in cyber, meeting someone from SCOR (reinsurer), references Credit Suisse and BNY Mellon testing ILS for cyber risk. Asks Epstein for contacts who understand these instruments. Primary-source confirmation of CrowdStrike/Iperlane acquisition timing.",
+      "confidence": "high",
+      "id": 1611
+    },
+    {
+      "date": "2018-05-24",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Iozzo is director of 16HARLEYCO LIMITED (UK #11380263), a London Private Limited Company incorporated 24 May 2018 (SIC 96.09: personal services). Co-director with DANNY RIMER (Index Ventures partner) — both appointed same day 16 Apr 2021, suggesting joint investment. UBOs are Jo Yee Chow and Sook Yee Chow. Company active with full accounts to May 2024. Previous addresses: Embassy Gardens SW11, 12 Melcombe Place NW1. Current: 222 Regent Street W1B. VAT 332709804. Andrew George Robb was also director Apr 2021-Sep 2025.",
+      "confidence": "high",
+      "id": 1690
+    },
+    {
+      "date": "2018-05-31",
+      "type": "finding",
+      "finding_type": null,
+      "summary": "DOJ email corpus confirms Iozzo used vincenzo@tiqad.com as primary email address (visible in EFTA02246663, May 31, 2018 email from Lesley Groff to Iozzo). 'Tiqad' appears in 63 DugganUSA hits. Domain name may relate to post-CrowdStrike venture. Combined with IRD Holdings Corp. (SEC EDGAR) and prior Iperlane (CrowdStrike-acquired), establishes at least 3 corporate entities linked to Iozzo: (1) Iperlane (pre-2017, acquired by CrowdStrike); (2) tiqad.com domain (active 2018); (3) IRD Holdings Corp. (2022-present, Delaware, Chicago). None appear in OpenSanctions (4.13M entities searched), no OFAC SDN match.",
+      "confidence": "high",
+      "id": 1630
+    },
+    {
+      "date": "2018-06-2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Iozzo served as deal-flow conduit between Blocktree Capital LLC (Forman, Managing Partner) and Epstein. Iozzo forwarded Forman's investment pitches (Grab, Bitmain, Radius) to jeevacation@gmail.com. Aug 15, 2018: Forman sent Radius discussion email to Epstein, Shirazi, and Wong with subject line referencing 'Jefferey and Vincenzo.'",
+      "other_person": "Ben Forman",
+      "id": 808
+    },
+    {
+      "date": "2018-08",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Aug 15, 2018 conference call with Epstein on Radius Intelligence Series 1-A investment (M pre-money/M post-money). Ben Forman organized 'Radius Discussion w/ Jefferey and Vincenzo' including Shirazi, Aaron Wong, and Epstein. Iozzo forwarded Radius due diligence materials to Epstein (EFTA02602271). Shirazi was CEO/Founder of Radius, early Facebook employee, investor in Palantir/Lyft/Lending Club.",
+      "other_person": "Darian Shirazi",
+      "id": 820
+    },
+    {
+      "date": "2018-08-02",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "SEC EDGAR confirms Blocktree Private Opportunities LLC - Series A (CIK 1747162): formed 2018 in Delaware, principal address 1161 Mission St, San Francisco CA 94103. Benjamin Forman listed as Managing Partner of Blocktree Capital LLC and promoter. Pooled Investment Fund. Date of first sale July 6, 2018. Total amount sold $2,300,000 (initial D filing Aug 2, 2018), increased to $2,735,000 in D/A amendment (Apr 12, 2019). Entity renamed from Blocktree to ParaFi between filings. Three series entities in SEC: A/B/C + General Fund LP. This is the vehicle through which Epstein was solicited to invest in Grab ($9.25B ride-sharing) and Radius Intelligence ($10M pre-money B2B data). Silvershore Internet Opportunity IV LP is the downstream Grab feeder.",
+      "confidence": "confirmed",
+      "id": 1634
+    },
+    {
+      "date": "2018-08-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Full Radius Intelligence deal terms pitched to Epstein (Aug 14, 2018): $12M Series 1-A Preferred Shares at $10M pre-money/$22M post-money. 1x liquidation preference, 54% common equity fully converted. Prior round raised at $150M pre-money (massive down-round). Company had been under LOI to Salesforce for ~$200M but deal fell apart. Burning $1.1M/month. Expected cash-flow positive by end CY19/FY20. Key investors included Founders Fund, Salesforce Ventures, American Express Ventures, 8VC, John Mack (ex-Morgan Stanley CEO), Jerry Yang (Yahoo co-founder). Iozzo told Epstein: 'my gut feeling is that this is a good value deal given the economics but the company itself is not really revolutionary/long term play.'",
+      "confidence": "high",
+      "id": 1638
+    },
+    {
+      "date": "2018-08-15",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Iozzo served as deal-flow intermediary between Blocktree Capital LLC (Ben Forman, Managing Partner; Aaron Wong) and Epstein. Forwarded at least 3 investment opportunities: (1) Grab Series H Preferred Shares June 2018, $9.25B pre-money, via Blocktree Private Opportunities LLC -> Silvershore Internet Opportunity IV LP (EFTA02529170); (2) Radius Intelligence Series 1-A Aug 2018, $10M pre-money/$22M post-money, 54% equity, min $100K via Blocktree/Darian Shirazi (EFTA02602271); (3) Bitmain crypto mining shares Aug 2018 via iAngels Technologies LP + Blocktree (EFTA02602312). Blocktree renamed to ParaFi; SEC EDGAR shows CIK 1747162 (Series A), 1761732 (Series B), 1765770 (Series C), 1733707 (General Fund). Address: 600 California St Floor 11, SF CA 94108.",
+      "confidence": "high",
+      "id": 1612
+    },
+    {
+      "date": "2018-08-15",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Iozzo acted as investment deal conduit to Epstein. On Jun 28, 2018, Iozzo forwarded Grab Series H opportunity (9.25B pre-money, 100k min) from Ben Forman at Blocktree Capital (ben.forman@blocktreecap.com) via Jason Ng. On Aug 15, 2018, Forman organized Radius Discussion conf call with Darian Shirazi (Radius CEO), Aaron Wong, Epstein and Iozzo. Call confirmed for Aug 16 at 11:50am. Radius was B2B data platform that raised 100M+ VC. A separate document (EFTA02602271) shows Radius acquisition deal structure through Blocktree entity with Shirazi co-investing. Forman later founded ParaFi Capital (blockchain fund). Shirazi later sold Radius (2018), joined Google Gradient Ventures.",
+      "confidence": "high",
+      "id": 1616
+    },
+    {
+      "date": "2018-08-2018-12",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Joint investment participants in Epstein-targeted Radius Intelligence deal (Aug 2018). Shirazi was Radius CEO/Founder (ex-Facebook employee #10, early investor in Palantir/Lyft/Lending Club). He would invest via Blocktree entity with economic interest in fees and carry. Iozzo negotiated economics. Both named in call setup with Epstein.",
+      "other_person": "Darian Shirazi",
+      "id": 809
+    },
+    {
+      "date": "2018-12-01",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Iozzo continued visiting Epstein at 9 E 71st on Dec 1, 2018 — just 3 days after Miami Herald published 'Perversion of Justice' series (Nov 28, 2018). Email shows Iozzo asking assistant: 'is there a lot of press around the house given recent news? Trying to decide whether to wear a baseball hat.' Shows awareness of media scrutiny but continued engagement. Also scheduled Nov 28, 2017 visit (EFTA02230809) — the day after the CHS described the Iozzo-Epstein relationship to FBI.",
+      "confidence": "high",
+      "id": 1607
+    },
+    {
+      "date": "2022-02-14",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "IRD Holdings Corp (DE #6616843) incorporated 14 Feb 2022 as Domestic Corporation. Agent: Corporation Service Company, 251 Little Falls Drive, Wilmington DE 19808. NY branch (#7571694) registered 27 Mar 2025 at 80 State Street, Albany NY. Delaware does not disclose officers — SEC Form D is the only source showing Iozzo as President/Director with $10.19M raised.",
+      "confidence": "high",
+      "id": 1687
+    },
+    {
+      "date": "2022-03",
+      "type": "finding",
+      "finding_type": null,
+      "summary": "SEC EDGAR reveals Iozzo is President, Executive Officer, and Director of IRD Holdings Corp. (CIK 0001916133), a Delaware-incorporated 'Other Technology' entity at 200 W. Madison St. Suite 3900, Chicago IL 60606 (office of Barack Ferrazzano Kirschbaum & Nagelberg LLP). Three Form D filings: (1) Mar 2022 — $350K equity offering, 12 accredited investors; (2) Apr 2022 — $8.5M offering, $8.04M sold to 20 accredited investors; (3) Oct 2025 — $2M offering, $1.8M sold to 4 accredited investors. Total capital raised: ~$10.19M across three rounds. All filings under Regulation D exemption 06b. Revenue 'Decline to Disclose' on all filings. This directly corrects Finding #1614 which stated 'Zero SEC EDGAR filings mentioning Iozzo' — that search missed Form D filings which are filed by the issuer, not in full-text search.",
+      "confidence": "high",
+      "id": 1624
+    },
+    {
+      "date": "2022-03-01",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "SlashID (Iozzo current company, founded 2022) investor DG Daiwa Ventures is a Japanese VC firm (subsidiary of Daiwa Securities Group). This may be relevant to the FBI CHS claim that one of Iperlanes three billionaire backers had a Japanese company. However this is SlashID not Iperlane, and DG Daiwa is a VC firm not a billionaire individual. SoftBank (noted in target briefing as possible Japanese company connection) was invested in Grab, whose Series H shares Iozzo forwarded to Epstein. No direct evidence linking SoftBank to Iperlane funding found.",
+      "confidence": "low",
+      "id": 1622
+    },
+    {
+      "date": "2025-01-01",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Full public profile: Born Aug 1988, Calabria Italy. Politecnico di Milano 2010. Career: Zynamics (2008-11), Tiqad srl (2011-12), co-founded Trail of Bits (2012-14), co-founded Iperlane (2015, COO Kelly Shortridge), CrowdStrike acquisition Jan 2017 (2M seed), Senior Director CrowdStrike (2017-21), CEO SlashID (2022-present, 8.83M seed from Alven/DG Daiwa/Headline/Musha/TQ). UK director 16HARLEYCO LIMITED. Email vincenzo@tiqad.com. Co-author iOS Hackers Handbook (Wiley 2012). Pwn2Own winner 2010-11, Black Hat board since 2011. Removed from Black Hat and Code Blue review boards Feb 2026 after Epstein files. Denies being Epstein hacker, calls CHS claims fabricated.",
+      "confidence": "high",
+      "id": 1618
+    },
+    {
+      "date": "2026-02-12",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Iozzo response to FBI CHS claims (Feb 2026): Told TechCrunch he was never Epsteins hacker, nor did any hacking for him. Called FBI informant claims fabricated and false and defamatory. Said interactions were limited to business opportunities that never materialized. CrowdStrike spokesperson confirmed Iozzo left company in 2021. Black Hat removed Iozzo from review board Feb 2026, claimed it was for inactivity not Epstein connection. Code Blue (Japan conference) also removed him. No criminal charges or investigations publicly known against Iozzo.",
+      "confidence": "medium",
+      "id": 1620
+    },
+    {
+      "date": "2026-02-14",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Comprehensive negative results across corporate/financial/regulatory databases with ONE EXCEPTION: SEC EDGAR Form D filings reveal IRD Holdings Corp. (CIK 0001916133) with Vincenzo Iozzo as President/Director — 3 filings raising ~$10.19M (2022-2025). See Finding #1624. Remaining negatives: (1) No Iperlane incorporation records in FL/NY/NM/PA/VI/UK corporate registries; (2) No Iozzo as officer in any state registry; (3) No UCC filings; (4) No GLEIF LEI for Iperlane; (5) No FEC donations by Vincenzo Iozzo; (6) No NYC ACRIS property records; (7) No ProPublica 990 entries; (8) No OpenSanctions matches; (9) No LittleSis entries; (10) No lobbying filings; (11) No DS10 Deutsche Bank transactions; (12) Not in Epstein 20K corpus.",
+      "confidence": "medium",
+      "id": 1614
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      1612,
+      1616,
+      1634,
+      1619,
+      1631,
+      1613,
+      1657,
+      1609,
+      1636,
+      1621,
+      1607,
+      1615
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "it"
+      ],
+      "officers": [
+        {
+          "role": "president",
+          "entity": "Iperlane",
+          "start": null,
+          "end": "2017-10"
+        }
+      ],
+      "entities": [
+        {
+          "id": 292,
+          "name": "Iperlane",
+          "type": "inc",
+          "jurisdiction": "it",
+          "role": "president"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          1615,
+          1639,
+          1629,
+          1690
+        ],
+        "connection_ids": [
+          806,
+          808,
+          809,
+          812,
+          813,
+          815,
+          816,
+          817,
+          820,
+          821,
+          854,
+          814,
+          818,
+          819
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": "timeline",
+        "finding_ids": [
+          1619,
+          1625,
+          1611,
+          1634,
+          1638,
+          1612,
+          1616,
+          1614
+        ],
+        "connection_ids": [
+          808,
+          809,
+          813,
+          820,
+          814
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          1623,
+          1621,
+          1617,
+          1657,
+          1606,
+          1610,
+          1622,
+          1620
+        ],
+        "connection_ids": [
+          806
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          1636,
+          1613,
+          1627,
+          1607
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:44:50.760259",
+    "lead": "<p>Vincenzo Iozzo (born August 1988, Calabria, Italy) is an Italian cybersecurity researcher, entrepreneur, and offensive security specialist whose sustained relationship with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> spanned at least four and a half years, from May 2014 through December 2018. Introduced to Epstein by Joi Ito, then director of the MIT Media Lab, who described Iozzo as \"one of the best network security guys I know\" (EFTA01926133), Iozzo served three distinct functions: cybersecurity and surveillance advisor, providing iOS vulnerability intelligence and building the IperLane GPS people-tracking tool; technology broker, with Epstein forwarding Iozzo's Mycelium wallet security analysis to a Russian contact and vouching that Iozzo was \"very well respected with both black and white hat hackers\" (EFTA02473582); and deal-flow intermediary, channeling Blocktree Capital investment opportunities in Grab ($9.25 billion Series H), Radius Intelligence ($10 million pre-money), and Bitmain to Epstein in summer 2018. An FBI Confidential Human Source, in a SECRET//NOFORN FD-1023 report (EFTA01683874), identified Iozzo as \"Epstein's personal hacker,\" alleging he developed zero-day exploits for iOS, BlackBerry, and Firefox, and sold tools to UK GCHQ, Saudi Arabia, a Central African government, and Hezbollah. The CHS further claimed Iperlane had \"three billionaire backers\" including Epstein.</p><p>The email corpus documents 77 unique EFTA records confirming Iozzo as the persistent initiator of contact. He communicated directly with Epstein at jeevacation@gmail.com and coordinated scheduling through <a href=\"/dossiers/lesley-groff\">Lesley Groff</a>, Epstein's executive assistant, attempting to arrange NYC meetings every four to six weeks throughout 2017 and 2018. Iozzo visited Epstein at Zorro Ranch, New Mexico, in August 2014 (EFTA01915609), pitched IperLane investment with an offer to visit Epstein's island in November 2014 (EFTA02595442), and was present at 9 East 71st Street on June 30, 2017 (EFTA02214997), the same day <a href=\"/dossiers/ehud-barak\">Ehud Barak</a> arrived and Joi Ito held a separate afternoon meeting &mdash; converging cyber, defense-intelligence, and academic-technology networks at Epstein's Manhattan residence within 24 hours (EFTA02216871). Iozzo held an MIT Media Lab Research Affiliate position from 2016 to 2020, overlapping with Ito's channeling of Epstein donations to MIT.</p><p>Following CrowdStrike's acquisition of Iperlane in late 2017, Iozzo served as Senior Director at CrowdStrike until 2021. He then founded IRD Holdings Corp. (CIK 0001916133, Delaware), which has raised approximately $10.19 million across three SEC Form D offerings between 2022 and 2025, and which operates the identity management startup SlashID. Comprehensive searches across U.S. court records, OFAC sanctions lists, FARA registrations, and OpenSanctions return zero results for Iozzo &mdash; an investigatively significant absence given the CHS allegations of zero-day sales to a designated terrorist organization. In February 2026, following the release of the Epstein files, Iozzo told TechCrunch he was \"never Epstein's hacker,\" called the FBI informant claims \"fabricated and false and defamatory,\" and characterized his interactions as limited to business opportunities that never materialized. Black Hat and Code Blue subsequently removed him from their review boards.</p>",
+    "open_questions": [
+      "What was the identity and affiliation of the Russian contact (OCR-rendered as 'Cepreil Gemskon') to whom Epstein forwarded Iozzo's Mycelium cryptocurrency wallet analysis in February 2016, and did the proposed in-person meeting with 'me and my friend who is involved' take place?",
+      "If the FBI CHS claims that Iozzo sold zero-day exploits to Hezbollah are accurate, why were no criminal charges filed under 18 USC 2339B (material support for terrorism) or OFAC sanctions enforcement? Does the absence of prosecution indicate the claims are false, or that the sales were authorized or tolerated by a government agency?",
+      "Who were the other two 'billionaire backers' of Iperlane identified by the FBI CHS, one of whom 'had a Japanese company'? Is there a connection to SoftBank (invested in Grab, whose Series H Iozzo forwarded to Epstein) or DG Daiwa Ventures (investor in Iozzo's current company SlashID)?",
+      "What was the 'California theater company' the FBI CHS alleged Iozzo used to launder zero-day income, and does it appear in any state corporate registry, IRS 990 database, or Secretary of State filing?",
+      "Did Epstein facilitate the IperLane test with Apollo Global Management that Iozzo requested in September 2015, and if so, what surveillance or endpoint security capabilities were demonstrated to Leon Black's firm?"
+    ],
+    "system_role": "Iozzo represents the convergence of offensive cybersecurity expertise and Epstein's brokerage model: a technically elite individual whose capabilities in surveillance, zero-day development, and blockchain security were actively marketed by Epstein to foreign contacts and financial clients, illustrating how Epstein monetized specialized human capital across intelligence, technology, and finance domains simultaneously.",
+    "sections": [
+      {
+        "id": "the-ito-epstein-introduction-and-mit-nexus",
+        "title": "The Ito-Epstein Introduction and MIT Nexus",
+        "content": "<p>Iozzo's entry into Epstein's orbit was mediated by Joi Ito, then director of the MIT Media Lab. On May 6, 2014, Ito emailed Epstein introducing Iozzo as \"one of the best network security guys I know,\" adding that he was \"working with him on a network security company idea\" that \"might be interesting for you as well\" (EFTA01926133). Iozzo met Epstein twelve days later, on May 18, 2014. The \"network security company idea\" Ito referenced materialized as Iperlane, founded in 2015 with Kelly Shortridge as COO. This introduction was not incidental: Ito was simultaneously investing Epstein money in Blockstream, the Bitcoin infrastructure company, through a $500,000 allocation documented in the same period. Ito would resign from MIT in August 2019 when the New Yorker exposed his systematic solicitation of Epstein donations for the Media Lab.</p><p>Iozzo subsequently held an MIT Media Lab Research Affiliate position from 2016 through 2020, deepening the institutional triangle. While affiliated with MIT, Iozzo's company Iperlane was allegedly funded by Epstein as one of \"three billionaire backers\" who \"provided the company's seed money,\" according to the FBI CHS (EFTA01683874). Ito thus served a dual function: introducing technical talent to Epstein for potential investment and providing institutional cover through MIT affiliation. The EpsteinWeb tracker additionally connects Iozzo to Andrew McAfee, the MIT researcher, through the Epstein email network. A June 30, 2017 schedule (EFTA02216871) crystallizes the convergence: Iozzo at 9 East 71st Street at 10:00am, Ito at 3:30pm \"at his house,\" and <a href=\"/dossiers/ehud-barak\">Ehud Barak</a> having arrived early morning the previous day. Iozzo's meeting was confirmed through Bebe Avdiu, legal assistant at <a href=\"/dossiers/darren-indyke\">Darren K. Indyke</a> PLLC (EFTA02214997). Three domains &mdash; cybersecurity, defense-intelligence, and academic technology &mdash; crossed at Epstein's townhouse within a single day.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "cybersecurity-advisory-and-surveillance-tools",
+        "title": "Cybersecurity Advisory and Surveillance Tools",
+        "content": "<p>Iozzo's cybersecurity advisory role for Epstein is documented through primary-source emails that establish capabilities beyond what a casual acquaintance would share. On July 19, 2014, Iozzo forwarded researcher Jonathan Zdziarski's iOS backdoors presentation to both Epstein and Ito, warning: \"it's way easier (and cheaper) to extract SMS, address books, apps data, etc etc from an iPhone/iPad/etc etc than most people realize.\" He advised both: \"You both use iPhone and iPads, might be a good idea to either install the application this guy wrote or change the usage pattern of your devices.\" Epstein responded \"nice\" (EFTA01916368). This was operational security intelligence, not small talk &mdash; the kind of guidance consistent with what the FBI CHS would later characterize as an \"Epstein's personal hacker\" relationship.</p><p>The IperLane product itself combined cybersecurity with surveillance capability. On February 17, 2015, Iozzo told Epstein: \"I should have the proof of concept code that analyzes GPS data and traces people that way ready by the end of the week\" (EFTA02719531). By September 2015, Iozzo was asking Epstein to broker access to <a href=\"/dossiers/apollo-global-management\">Apollo Global Management</a>: \"speaking of <a href=\"/dossiers/leon-black\">Leon Black</a>, it'd be awesome if at some point in the next few months we could do a test run with Apollo once we also have the iOS version ready. I know they currently use one of our competitors\" (EFTA02712657). The request positions Epstein as intermediary between a surveillance tool developer and his single largest financial client. Apollo's existing use of a competing product suggests institutional demand for mobile device management or endpoint security tools, though the GPS people-tracking capability described in the pitch goes beyond standard enterprise security.</p><p>The FBI CHS report (EFTA01683874) alleges a far broader scope of activity. According to the CHS, Iozzo developed zero-day exploits for iOS, BlackBerry, and Firefox, selling tools to UK GCHQ (including training), Saudi Arabia (establishing their cyber surveillance program), a Central African government, and Hezbollah (\"for political reasons\"). The CHS claimed Iozzo made \"six figures from the sale of his zero-days\" and used \"a theater company in California\" to launder the income. The CHS described Iozzo's hacker network as including \"old school European hackers,\" one of whom \"received a trunk of cash from Hezbollah in Italy\" and \"drove the money to Switzerland and deposited it.\" The CHS also claimed Iozzo held a Vatican City passport, and possibly Iranian and Israeli passports. Iozzo has categorically denied these allegations, calling them \"fabricated and false and defamatory.\" No criminal charges, export control violations, or sanctions proceedings have been filed against Iozzo in any U.S. jurisdiction. If the Hezbollah sales allegation were accurate, it would constitute material support for terrorism under 18 USC 2339B and an OFAC sanctions violation &mdash; making the complete absence of prosecution either exculpatory or suggestive of government authorization.</p>",
+        "viz": null
+      },
+      {
+        "id": "blockchain-finance-and-deal-flow",
+        "title": "Blockchain Finance and Deal Flow",
+        "content": "<p>The intellectual substance of the Iozzo-Epstein relationship centered on the intersection of technology and financial instruments. As early as June 25, 2014, Iozzo discussed \"decentralized prediction markets and order books (w/ bitcoin)\" with Epstein, who critiqued the concept by noting the IRS had ruled Bitcoin was not a currency and flagging regulatory risks (EFTA01922290). By September 2014, Iozzo proposed applying blockchain-like structures to the repo market (EFTA02589432). In April 2016, he pivoted to credit default swaps as hedging alternatives (EFTA02706166). The pattern is consistent throughout: Iozzo brought tech-finance ideas to Epstein for evaluation, and Epstein provided financial structuring critique &mdash; a relationship in which each party supplied expertise the other lacked.</p><p>The cybersecurity derivatives discussion at Zorro Ranch in August 2014 is particularly revealing. In an email titled \"A note on shorting,\" Iozzo raised the problem of shorting cyber insurance bonds: \"even if you want to short the bond through a derivative, who's going to take the other side of the bet? Everyone is/should be aware of the moral hazard there\" (EFTA01919420). He referenced Epstein's earlier \"thesis on the fact that this can't work because it's hard for investors to understand.\" A cybersecurity expert with offensive capabilities discussing how to create financial instruments that profit from cyber risk represents a structural conflict of interest that both participants acknowledged without resolving.</p><p>By summer 2018, the relationship had evolved from intellectual exchange to active deal intermediation. Iozzo channeled three investment opportunities from Ben Forman at Blocktree Capital (later renamed ParaFi Capital, DE #6727483) to Epstein: Grab Series H preferred shares at $9.25 billion pre-money via Silvershore Internet Opportunity IV LP (EFTA02529170); Radius Intelligence Series 1-A at $10 million pre-money / $22 million post-money through Blocktree, with Darian Shirazi, the Radius CEO and early Facebook employee, co-investing (EFTA02602271); and Bitmain crypto mining shares via iAngels Technologies LP plus Blocktree (EFTA02602312). On August 15, 2018, Forman organized a conference call with the subject line \"Radius Discussion w/ Jefferey and Vincenzo,\" including Shirazi and Aaron Wong (EFTA02252965). Iozzo's candid assessment of the Radius deal to Epstein &mdash; \"my gut feeling is that this is a good value deal given the economics but the company itself is not really revolutionary/long term play\" &mdash; suggests a fiduciary posture toward Epstein's capital, not mere solicitation. SEC EDGAR confirms Blocktree Private Opportunities LLC - Series A (CIK 1747162) raised $2.735 million by April 2019.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "russian-brokerage-and-foreign-contacts",
+        "title": "Russian Brokerage and Foreign Contacts",
+        "content": "<p>On February 3, 2016, Epstein forwarded Iozzo's technical security analysis of the Mycelium cryptocurrency wallet to a Russian contact whose Cyrillic name renders as \"Cepreil Gemskon\" in OCR. Epstein vouched for Iozzo: \"He is very well respected with both black and white hat hackers,\" and offered: \"I will do anything that is helpful to you.\" The Russian responded: \"is it possible to meet with him?\" and proposed meeting \"in US\" with \"me and my friend who is involved\" (EFTA02473582). Iozzo's analysis covered blockchain security, mesh networking vulnerabilities, and custodial risks of decentralized systems. This exchange demonstrates Epstein actively brokering Iozzo's technical expertise to foreign contacts &mdash; the precise intermediary function the FBI CHS described.</p><p>The brokerage operated in the other direction as well. In January 2018, shortly after CrowdStrike acquired Iperlane, Iozzo wrote to Epstein: \"sold my company to a company crowdstrike and now I'm there for a bit.\" In the same email, he asked Epstein for contacts who understood insurance-linked securities in cyber, referencing meetings with SCOR (a French reinsurer) and noting that Credit Suisse and BNY Mellon were testing ILS instruments for cyber risk (EFTA02534379). This request inverted the typical flow: Iozzo sought Epstein's financial network access rather than providing technical expertise. The November 2014 IperLane pitch further illustrates the dynamic. Iozzo told Epstein \"a bunch of people are verbally committing to invest\" and asked three structured questions: \"What do you think? Can you think of anybody who might be interested? Do you want to invest?\" He added: \"I would prefer (2) to (3), just cause this way if this goes south it's not your money\" &mdash; and offered to visit Epstein's island for a face-to-face discussion (EFTA02595442). When Epstein did not reply, Iozzo followed up: \"shall I operate on this one under the usual assumption no reply -> not interesting?\" The phrasing reveals an established communication protocol, not a one-off interaction.</p>",
+        "viz": null
+      },
+      {
+        "id": "corporate-footprint-and-current-entities",
+        "title": "Corporate Footprint and Current Entities",
+        "content": "<p>Iozzo's corporate trail is notable for how little of it appears in standard registries. Iperlane, the company at the center of both the Ito introduction and the FBI CHS report, has no incorporation records in Florida, New York, New Mexico, Pennsylvania, the U.S. Virgin Islands, or UK corporate registries. No UCC filings, GLEIF LEI records, or state officer listings exist for Iozzo or Iperlane. The company's acquisition by CrowdStrike in late 2017 was confirmed only through Iozzo's own email to Epstein (EFTA02534379) and the CHS report. CrowdStrike's spokesperson confirmed to reporters in February 2026 that Iozzo left the company in 2021 but did not elaborate on the acquisition terms or Iperlane's corporate structure.</p><p>The post-Epstein corporate record is more visible. IRD Holdings Corp. (DE #6616843), incorporated February 14, 2022, lists Iozzo as President, Executive Officer, and Director in SEC Form D filings. The registered agent is Corporation Service Company at 251 Little Falls Drive, Wilmington, Delaware. Three Form D offerings document the fundraising trajectory: $350,000 in March 2022 from 12 accredited investors; $8.04 million in April 2022 from 20 investors; and $1.8 million in October 2025 from 4 investors &mdash; totaling approximately $10.19 million. The principal address, 200 W. Madison Street, Suite 3900, Chicago, is the office of Barack Ferrazzano Kirschbaum & Nagelberg LLP, indicating legal counsel rather than operating presence. IRD Holdings operates as SlashID, an identity management startup that raised an $8.83 million seed round from Alven, DG Daiwa Ventures, Headline, Musha Ventures, and TQ Ventures. A New York branch (Entity #7571694) was registered March 27, 2025.</p><p>Iozzo also serves as director of 16HARLEYCO LIMITED (UK #11380263), a London Private Limited Company incorporated May 24, 2018. His co-director is Danny Rimer, a partner at Index Ventures, one of Europe's largest venture capital firms. Both were appointed on the same day, April 16, 2021, suggesting a joint investment or advisory arrangement. The company's ultimate beneficial owners are Jo Yee Chow and Sook Yee Chow. Iozzo's email domains evolved in parallel with his corporate entities: vincenzo@tiqad.com (2015-2018), vincenzo@iperlane.com (2016), and vincenzo@rakoku.com (2017). No FEC donations, NYC ACRIS property records, ProPublica 990 entries, or OpenSanctions matches exist for any Iozzo-linked name or entity.</p>",
+        "viz": null
+      }
+    ],
+    "applicable_models": [
+      "bridge-tax",
+      "complexity-as-credential",
+      "enabler-gradient",
+      "manufactured-dependency"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Vincenzo Iozzo",
+      "connections": [
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00333383",
+          "description": null
+        },
+        {
+          "target": "Ben Forman",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02529170",
+          "description": "Iozzo served as deal-flow conduit between Blocktree Capital LLC (Forman, Managing Partner) and Epstein. Iozzo forwarded Forman's investment pitches (Grab, Bitmain, Radius) to jeevacation@gmail.com. Aug 15, 2018: Forman sent Radius discussion email to Epstein, Shirazi, and Wong with subject line referencing 'Jefferey and Vincenzo.'"
+        },
+        {
+          "target": "Darian Shirazi",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02252965",
+          "description": "Joint investment participants in Epstein-targeted Radius Intelligence deal (Aug 2018). Shirazi was Radius CEO/Founder (ex-Facebook employee #10, early investor in Palantir/Lyft/Lending Club). He would invest via Blocktree entity with economic interest in fees and carry. Iozzo negotiated economics. Both named in call setup with Epstein."
+        },
+        {
+          "target": "Joi Ito",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01926133",
+          "description": "Ito introduced Iozzo to Epstein May 2014 and pitched network security company idea that became Iperlane. Ito also channeled Epstein Blockstream investment."
+        },
+        {
+          "target": "Ben Forman",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02252965",
+          "description": "Forman at Blocktree Capital organized investment deals involving Iozzo and Epstein in 2018: Grab Series H and Radius acquisition."
+        },
+        {
+          "target": "Lesley Groff",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA00333383",
+          "description": "Groff was primary scheduler for Iozzo-Epstein meetings 2015-2018, showing established access pattern through inner circle gatekeeper."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01922290",
+          "description": "Iozzo brought blockchain and fintech ideas to Epstein from 2014. Pattern of technology intelligence advisory on decentralized markets, repo market crypto structures, CDS hedging."
+        },
+        {
+          "target": "Joi Ito",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA01916368",
+          "description": "Ito introduced Iozzo to Epstein on May 6, 2014: 'Vincenzo is one of the best network security guys I know. I'm working with him on a network security company idea.' Also mentioned Joshua Ramo should join. Iozzo met Epstein May 18, 2014. Ito and Iozzo both received iOS security intel from each other (Jul 2014). Iozzo visited 9 East at 10am June 30, 2017 - same day Epstein met Ito at 3:30pm."
+        },
+        {
+          "target": "Darian Shirazi",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02252965",
+          "description": "Aug 15, 2018 conference call with Epstein on Radius Intelligence Series 1-A investment (M pre-money/M post-money). Ben Forman organized 'Radius Discussion w/ Jefferey and Vincenzo' including Shirazi, Aaron Wong, and Epstein. Iozzo forwarded Radius due diligence materials to Epstein (EFTA02602271). Shirazi was CEO/Founder of Radius, early Facebook employee, investor in Palantir/Lyft/Lending Club."
+        },
+        {
+          "target": "Lesley Groff",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02214916",
+          "description": "Groff was Iozzo's primary scheduling contact for Epstein meetings throughout 2015-2018. Iozzo contacted Groff to check Epstein's NYC/Paris availability, received meeting confirmations and time changes. Groff included Iozzo dates in 'Jeffreys itinerary.' Groff described Iozzo warmly ('Vincenzo, you are so good with your calendar\\!'). After Groff was unavailable, scheduling shifted to Bebe Avdiu at Indyke PLLC (Jun 2017)."
+        },
+        {
+          "target": "Danny Rimer",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "OC:gb/11380263",
+          "description": "Co-directors of 16HARLEYCO LIMITED (UK #11380263) since 16 Apr 2021. Rimer is partner at Index Ventures, one of Europe's largest VC firms. Both appointed same day suggesting joint investment or advisory role."
+        },
+        {
+          "target": "Darian Shirazi",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02252965",
+          "description": "Shirazi (Radius CEO) joined conference call with Epstein and Iozzo Aug 16 2018 for Radius deal discussion through Blocktree entity."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "CourtListener search results",
+          "description": "Iozzo maintained continuous corporate/tech relationship with Epstein 2014-2018, then founded IRD Holdings Corp (2022, Delaware, $10.19M raised). The legal/court database vacuum around Iozzo — zero criminal charges, zero sanctions listings, zero FARA registrations — despite CHS claims of zero-day sales to Hezbollah, Saudi, GCHQ — is investigatively anomalous."
+        },
+        {
+          "target": "Leon Black",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02712657",
+          "description": "Iozzo asked Epstein to facilitate test of IperLane surveillance product with Apollo Global Management (Sep 2015): 'speaking of Leon Black, it'd be awesome if at some point in the next few months we could do a test run with Apollo once we also have the iOS version ready. I know they currently use one of our competitors.' Epstein as intermediary between his hacker and his largest financial client."
+        }
+      ],
+      "secondHop": {
+        "Ben Forman": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Forman (Blocktree Capital LLC, later ParaFi) pitched investment opportunities directly to Epstein. Radius deal email sent directly to jeevacation@gmail.com. Grab Series H pitch forwarded by Iozzo from Forman to Epstein. Bitmain also channeled same way. Epstein responded 'can talk to them/you at end of day' showing active engagement. Blocktree/ParaFi SEC filings: CIK 1747162 (Series A), 1761732 (B), 1765770 (C), 1733707 (General Fund), all at 600 California St Floor 11 SF."
+          }
+        ],
+        "Darian Shirazi": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein was a target investor for Radius Intelligence Series 1-A Preferred Shares (Shirazi CEO). Deal emailed directly to jeevacation@gmail.com. Shirazi described as ex-Facebook employee #10, early Palantir/Lyft/Lending Club investor. M pre-money, M raise, Shirazi investing directly through Blocktree entity. Conference call titled 'Radius Discussion w/ Jefferey and Vincenzo' included Shirazi on the call."
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Joi Ito": [
+          {
+            "target": "Peter Thiel",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Co-attendees at Baume dinner Aug 2015 and sweatshirt gift list Jun 2016. Epstein mentioned both going to TED and ranch."
+          }
+        ],
+        "Leon Black": [
+          {
+            "target": "Richard Kahn",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Kahn managed Gratitude America (EIN 66-0789697) which received $10M from Black in 2015. Kahn also worked on Black family financial matters as referenced in Origins Project unused funds email."
+          },
+          {
+            "target": "Richard Joslin",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Joslin served as CFO of Elysium Management LLC (Black's family office). Prepared charity commitment lists, financial reports, trust accounting summaries, art valuations, and tax returns — all routinely sent to Epstein. Key intermediary for Black-Epstein financial relationship."
+          },
+          {
+            "target": "Marc Rowan",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Joshua Harris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Apollo Global co-founders [public knowledge]"
+          },
+          {
+            "target": "Tony Blair",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Black Family Foundation granted $250,000 to Tony Blair Foundation in 2019 990-PF"
+          }
+        ],
+        "Lesley Groff": [
+          {
+            "target": "Paul Morris",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Co-occurring in 391 LMSBAND files. Morris was Epstein pilot/logistics coordinator. Groff managed his schedule coordination with flight operations."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Groff was one of two trustees of the Caterpillar Trust who signed authorization letters at Deutsche Bank"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Lesley Groff (LG) served as co-trustee of the 2017 Caterpillar Trust alongside Daphne Wallace. Groff was Epstein's executive assistant/scheduler."
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Lesley Groff (LG) served as co-trustee of The 2017 Caterpillar Trust from formation on 1/3/2017. She was Epstein's longtime executive assistant. She joked about keeping the check during wind-down in April 2019."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2014-05-06",
+        "label": "Joi Ito (MIT Media Lab director) introduced Iozzo to Epstein via email on May 6, 2014. Ito described Iozzo as 'one of the best network security guys I know' and said he was 'working with him on a network security company idea' that 'might be interesting for you as well.' Iozzo met Epstein on May 18, 2014. This is the same Joi Ito who invested Epstein money in Blockstream (500K allocation, EFTA01918921) and who resigned from MIT in 2019 over Epstein donations. The 'network security company idea' Ito referenced likely became Iperlane (founded 2015).",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1615
+      },
+      {
+        "date": "2014-05-18",
+        "label": "Complete visit frequency analysis from email corpus: Iozzo attempted to schedule NYC meetings with Epstein approximately every 4-6 weeks throughout 2017-2018. Confirmed meetings: May 18, 2014 (first meeting), Aug 8-10, 2014 (Zorro Ranch), Oct 27, 2014 (Paris attempt), Dec 2015 (failed scheduling), Jun-Jul 2015 (multiple attempts), Nov 2016 (Boston + ride request), Jun 6, 2017 (returned to NYC), Jun 30, 2017 (confirmed 10am at 9 East), Oct-Nov 2017 (multiple attempts, unconfirmed), Mar-Apr 2018 (Apr 11 at 4pm confirmed via EFTA02244530), May-Jun 2018 (Jun 4 at 2:30pm confirmed), Jun 23+ 2018 (Paris meeting attempt), Jul-Aug 2018 (Aug 15-16 Radius call confirmed), Sep 2018 (failed - Epstein in PB), Nov 28-Dec 1, 2018 (confirmed 12:30pm at house, baseball hat email). Also asked about New Year's Eve 2016 plans. Multiple scheduling failures indicate Epstein was not always available, contradicting any suggestion meetings were always arranged by Epstein.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1636
+      },
+      {
+        "date": "2014-05-2017-06",
+        "label": "social with Joi Ito",
+        "type": "social",
+        "entity": "Joi Ito",
+        "id": 817
+      },
+      {
+        "date": "2014-06-25",
+        "label": "Email corpus establishes sustained Iozzo-Epstein relationship from at least June 2014 through December 2018 (4.5 years). 78 DugganUSA hits, 15 DOJ Vol11 results, 6 LMSBAND matches. Key phases: (1) 2014-2015: intellectual exchange on Bitcoin/prediction markets, meetings at NYC/Zorro Ranch; (2) 2016-2017: regular NYC visit scheduling via Lesley Groff, also contacts with Bebe (likely Sarah Kellen); (3) Jan 2018: CrowdStrike acquisition notification, asks for ILS contacts; (4) Jun-Aug 2018: deal pipeline (Grab/Bitmain/Radius via Blocktree); (5) Dec 2018: continues visiting post-Miami Herald. Iozzo communicated directly with Epstein at jeevacation@gmail.com and also coordinated via Lesley Groff for scheduling.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1613
+      },
+      {
+        "date": "2014-06-25",
+        "label": "Iozzo discussed blockchain finance with Epstein from Jun 2014. In EFTA01922290 (Jun 25 2014) they discussed decentralized prediction markets built on Bitcoin. Epstein critiqued the paper, noting IRS said Bitcoin is not a currency and regulatory risks. In EFTA02589432 (Sep 2 2014) Iozzo proposed using blockchain-like structure for repo market. In EFTA02706166 (Apr 6 2016) Iozzo discussed CDS (credit default swaps) as hedging alternatives. Pattern shows Iozzo bringing tech-finance ideas to Epstein for evaluation, consistent with Epstein seeking tech intelligence and Iozzo seeking financial mentorship/investment.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1619
+      },
+      {
+        "date": "2014-07-19",
+        "label": "Iozzo provided iOS security intelligence to both Epstein and Joi Ito on Jul 19, 2014. Forwarded researcher Jonathan Zdziarski's iOS backdoors presentation showing SMS extraction, address books, and app data could be extracted from iPhones/iPads cheaper and easier than most realized. Iozzo warned: 'You both use iPhone and iPads, might be a good idea to either install the application this guy wrote or change the usage pattern of your devices.' Epstein responded 'nice.' This establishes Iozzo as an active cybersecurity advisor to Epstein - someone providing operational security intelligence about mobile device vulnerabilities, consistent with the FBI CHS characterization as 'Epstein's personal hacker.'",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1623
+      },
+      {
+        "date": "2014-08-08",
+        "label": "Iozzo visited Epstein at Zorro Ranch, NM in August 2014. Email shows Iozzo arranging to fly to Albuquerque with car pickup arranged by Epstein (driver: Brice Gordon). This is the same location the FBI CHS described in EFTA01683874 as where Epstein 'lured and video recorded underage women.' Iozzo also discussed 'decentralized prediction markets and order books (w/ bitcoin)' with Epstein in June 2014 (EFTA01922290), showing technology/financial advisory relationship began at least by mid-2014.",
+        "type": "location",
+        "evidence_ref": null,
+        "id": 1609
+      },
+      {
+        "date": "2014-08-09",
+        "label": "Iozzo discussed cybersecurity financial derivatives with Epstein on Aug 9-10, 2014 at Zorro Ranch. In email titled 'A note on shorting,' Iozzo raised the problem of shorting cyber insurance bonds: 'even if you want to short the bond through a derivative, who's going to take the other side of the bet? Everyone is/should be aware of the moral hazard there.' Referenced Epstein's earlier 'thesis on the fact that this can't work because it's hard for investors to understand.' Epstein replied asking about market mechanics. This shows Epstein and Iozzo were actively exploring how to create financial instruments around cybersecurity risk - combining Iozzo's offensive cyber expertise with Epstein's financial structuring knowledge. A cyber expert who knows how to create vulnerabilities discussing how to financially capitalize on cyber risk represents a significant moral hazard.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1625
+      },
+      {
+        "date": "2014-11-10",
+        "label": "Iozzo pitched IperLane investment to Epstein in Nov 2014 (EFTA02595442) with island visit offer. Iozzo wrote: 'a bunch of people are verbally committing to invest' and asked Epstein three questions: (1) What do you think? (2) Can you think of anybody who might be interested? (3) Do you want to invest? Notably said: 'I would prefer (2) to (3), just cause this way if this goes south it's not your money.' Also offered to visit Epstein's island: 'I think you're going to your island at some point in November, if it's ok I'd show up there so that we can talk F2F sooner rather than later.' Attached IperLane_Executive-Summary.pdf and IperLane-Deck.pdf. Epstein did not reply, prompting Iozzo to follow up: 'shall I operate on this one under the usual assumption no reply -> not interesting?' This reveals Epstein's established pattern of non-response to proposals he declined.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1627
+      },
+      {
+        "date": "2014-2025",
+        "label": "corporate with Jeffrey Epstein",
+        "type": "corporate",
+        "entity": "Jeffrey Epstein",
+        "id": 818
+      },
+      {
+        "date": "2015-02-17",
+        "label": "Iozzo sent Epstein IperLane pitch materials with GPS people-tracking capability on Feb 17, 2015. Email states: 'We had to change the plan a bit because the other one wasn't working really well.. Btw I should have the proof of concept code that analyzes GPS data and traces people that way ready by the end of the week.' IperLane was a surveillance product capable of tracking individuals via GPS data. Later in Sep 2015, Iozzo sent updated deck and explicitly asked Epstein to facilitate 'a test run with Apollo once we also have the iOS version ready' because 'they currently use one of our competitors.' This connects Iperlane directly to Leon Black's Apollo Global Management as a prospective client for a surveillance tool, with Epstein as the intermediary.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1621
+      },
+      {
+        "date": "2015-06",
+        "label": "Iozzo used at least 4 distinct email domains during his relationship with Epstein, tracking his company evolution: (1) Personal/early: unknown redacted addresses (2014); (2) tiqad.com: used Jun 2015-May 2018 and again post-CrowdStrike (vincenzo@tiqad.com in EFTA02246663); (3) iperlane.com: used Dec 2016 when company was active (vincenzo@iperlane.com in EFTA02666710); (4) rakoku.com: used Aug 2017 (vincenzo@rakoku.com in EFTA02221399). The domain 'tiqad' may be Arabic-influenced (tiqad = trust/belief); 'rakoku' appears Japanese. 'Iperlane' was the company name itself. Iozzo also mentioned 'recently went to Tokyo' in Jul 2015 (EFTA02368792), consistent with international business ties. Iozzo also shared Epstein the link to edge.org (Brockman's foundation) in Jan 2016, suggesting awareness of Epstein's intellectual salon network.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1631
+      },
+      {
+        "date": "2015-06-2018-12",
+        "label": "social with Lesley Groff",
+        "type": "social",
+        "entity": "Lesley Groff",
+        "id": 821
+      },
+      {
+        "date": "2015-09",
+        "label": "corporate with Leon Black",
+        "type": "corporate",
+        "entity": "Leon Black",
+        "id": 819
+      },
+      {
+        "date": "2016-01-01",
+        "label": "Iozzo was Research Affiliate at MIT Media Lab 2016-2020, the same institution directed by Joi Ito who introduced him to Epstein. This deepens the Ito-Iozzo-Epstein triangle: Ito introduced them in 2014 pitching a security company, Iozzo then held an official MIT Media Lab affiliation while his company Iperlane was funded (allegedly by Epstein as one of three billionaire backers), and Ito simultaneously channeled Epstein donations to MIT. Ito resigned from MIT in Aug 2019 when this was exposed. Also connected to Andrew McAfee via Epstein email network per EpsteinWeb tracker.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1639
+      },
+      {
+        "date": "2016-02-03",
+        "label": "Epstein forwarded Iozzo's technical security analysis of Mycelium cryptocurrency wallet to a Russian contact (Cyrillic name, appears as 'Cepreil Gemskon' in OCR) on Feb 3, 2016. Epstein told the Russian: 'He is very well respected with both black and white hat hackers' and offered 'I will do anything that is helpful to you.' The Russian asked 'is it possible to meet with him?' and proposed meeting 'in US' with 'me and my friend who is involved.' Iozzo's analysis covered blockchain security, mesh networking vulnerabilities, and custodial risks of decentralized systems. This shows Epstein actively brokering Iozzo's cyber expertise to Russian contacts - directly corroborating the FBI CHS claim that Epstein facilitated Iozzo's connections.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1617
+      },
+      {
+        "date": "2017-06-30",
+        "label": "Epstein's June 29-July 12, 2017 schedule (EFTA02216871) places Iozzo at 9 East 71st at 10:00am on June 30, 2017, the same day Epstein had a 3:30pm meeting with Joi Ito 'at his house.' This schedule also lists Ehud Barak arriving 'early morning' June 29, Larry Delson requesting a meeting, Skype with Philippe Van den Broek, dinner with 'Woody' (coordinated by Karyna Shuliak), and a Bedford trip. Iozzo's meeting was scheduled through Bebe Avdiu (legal assistant at Darren K. Indyke PLLC). The same schedule chain (EFTA02214997) confirms the meeting happened: 'Just confirming you'll be at Jeffrey's at 10am today?' with Iozzo replying 'Yes I will.' This connects three key Epstein associates on the same day: Iozzo (cyber), Barak (defense/intelligence), and Ito (MIT/technology).",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1629
+      },
+      {
+        "date": "2017-06-30",
+        "label": "SYNTHESIS: Iozzo served three distinct roles for Epstein across 4.5 years (May 2014-Dec 2018): (1) cybersecurity/surveillance advisor — provided iOS vulnerability intelligence, built IperLane GPS people-tracking tool, assessed crypto wallet security; (2) technology broker — Epstein forwarded Iozzo's Mycelium wallet analysis to a Russian contact (Moscow timezone) offering 'I will do anything helpful to you,' and pitched IperLane to Apollo/Leon Black; (3) deal-flow intermediary — channeled Blocktree Capital (Ben Forman/ParaFi) investments to Epstein including Grab Series H (.25B), Radius Intelligence (M), and Bitmain. Introduced by Joi Ito (MIT Media Lab), Iozzo held MIT Research Affiliate status 2016-2020 while Ito channeled Epstein donations. Jun 30, 2017 schedule places Iozzo (10am), Ito (3:30pm), and Barak (arrived prior day) at 9 E 71st within 24 hours — converging cyber, academia/tech, and defense/intelligence. Complete legal vacuum: zero prosecutions despite FBI CHS claims of zero-day sales to Hezbollah, Saudi Arabia, GCHQ, and money laundering via California theater company. Current entity: IRD Holdings Corp (CIK 0001916133, DE, .19M raised 2022-2025) / SlashID (cybersecurity startup). 77 unique EFTA documents confirm sustained engagement; Iozzo was the persistent initiator throughout.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1657
+      },
+      {
+        "date": "2017-11-27",
+        "label": "FBI CHS identified Vincenzo Iozzo (Italian, born Calabria) as 'Epstein's personal hacker' in SECRET//NOFORN FD-1023 report. CHS described Iozzo as developer of zero-day exploits for iOS/BlackBerry/Firefox, who sold tools to UK GCHQ, Saudi Arabia (established their cyber surveillance program), Central African government, and Hezbollah. Company Iperlane acquired by CrowdStrike fall 2017; Iozzo became VP/Senior Director there. CHS claimed Iozzo used a California theater company to launder zero-day income. Email corpus confirms extensive direct relationship: 78 DugganUSA hits spanning 2014-2018, including business meetings (Radius w/ Darian Shirazi), scheduling through Lesley Groff, and continued visits through Dec 2018 post-Miami Herald.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1606
+      },
+      {
+        "date": "2017-11-27",
+        "label": "CHS reported Iozzo's company (Iperlane) had 'three billionaire backers' who 'provided the company's seed money,' with Jeffrey Epstein named as one. Another backer had 'a Japanese company.' CHS also described Iozzo's hacker network: friends with 'old school European hackers' including one who 'received a trunk of cash from Hezbollah in Italy' and 'drove the money to Switzerland and deposited it.' Iozzo allegedly sold zero-days to UK GCHQ (including training), Saudi Arabia (established their cyber surveillance program), a Central African government, and Hezbollah ('for political reasons'). Refused Italian government request. Made 'six figures from the sale of his zero-days.' Anti-Semitic, racist, terrified of Russia. Held Vatican City passport, possibly Iranian and Israeli passports.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1610
+      },
+      {
+        "date": "2018-01-25",
+        "label": "ParaFi Capital LLC (DE #6727483) incorporated 25 Jan 2018, originally as BLOCKTREE CAPITAL LLC (confirmed name change via DE Division of Corporations). Agent: VCORP Services LLC, 1013 Centre Road Suite 403-B, Wilmington DE 19805. LEI: 2549005LEO7EQR4J8D56. CA branch active Feb 2018 - Dec 2020 (inactive). ParaFi Capital Management LLC (DE #4159570) formed 16 Nov 2020 with CT branch — likely the SEC-registered investment adviser entity.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1688
+      },
+      {
+        "date": "2018-01-31",
+        "label": "Iozzo confirmed CrowdStrike acquisition in Jan 31, 2018 email to Epstein (jeevacation@gmail.com): 'sold my company to a company crowdstrike and now I'm there for a bit.' Same email discusses insurance-linked securities in cyber, meeting someone from SCOR (reinsurer), references Credit Suisse and BNY Mellon testing ILS for cyber risk. Asks Epstein for contacts who understand these instruments. Primary-source confirmation of CrowdStrike/Iperlane acquisition timing.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1611
+      },
+      {
+        "date": "2018-05-24",
+        "label": "Iozzo is director of 16HARLEYCO LIMITED (UK #11380263), a London Private Limited Company incorporated 24 May 2018 (SIC 96.09: personal services). Co-director with DANNY RIMER (Index Ventures partner) — both appointed same day 16 Apr 2021, suggesting joint investment. UBOs are Jo Yee Chow and Sook Yee Chow. Company active with full accounts to May 2024. Previous addresses: Embassy Gardens SW11, 12 Melcombe Place NW1. Current: 222 Regent Street W1B. VAT 332709804. Andrew George Robb was also director Apr 2021-Sep 2025.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1690
+      },
+      {
+        "date": "2018-05-31",
+        "label": "DOJ email corpus confirms Iozzo used vincenzo@tiqad.com as primary email address (visible in EFTA02246663, May 31, 2018 email from Lesley Groff to Iozzo). 'Tiqad' appears in 63 DugganUSA hits. Domain name may relate to post-CrowdStrike venture. Combined with IRD Holdings Corp. (SEC EDGAR) and prior Iperlane (CrowdStrike-acquired), establishes at least 3 corporate entities linked to Iozzo: (1) Iperlane (pre-2017, acquired by CrowdStrike); (2) tiqad.com domain (active 2018); (3) IRD Holdings Corp. (2022-present, Delaware, Chicago). None appear in OpenSanctions (4.13M entities searched), no OFAC SDN match.",
+        "type": null,
+        "evidence_ref": null,
+        "id": 1630
+      },
+      {
+        "date": "2018-06-2018-12",
+        "label": "financial with Ben Forman",
+        "type": "financial",
+        "entity": "Ben Forman",
+        "id": 808
+      },
+      {
+        "date": "2018-08",
+        "label": "financial with Darian Shirazi",
+        "type": "financial",
+        "entity": "Darian Shirazi",
+        "id": 820
+      },
+      {
+        "date": "2018-08-02",
+        "label": "SEC EDGAR confirms Blocktree Private Opportunities LLC - Series A (CIK 1747162): formed 2018 in Delaware, principal address 1161 Mission St, San Francisco CA 94103. Benjamin Forman listed as Managing Partner of Blocktree Capital LLC and promoter. Pooled Investment Fund. Date of first sale July 6, 2018. Total amount sold $2,300,000 (initial D filing Aug 2, 2018), increased to $2,735,000 in D/A amendment (Apr 12, 2019). Entity renamed from Blocktree to ParaFi between filings. Three series entities in SEC: A/B/C + General Fund LP. This is the vehicle through which Epstein was solicited to invest in Grab ($9.25B ride-sharing) and Radius Intelligence ($10M pre-money B2B data). Silvershore Internet Opportunity IV LP is the downstream Grab feeder.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1634
+      },
+      {
+        "date": "2018-08-14",
+        "label": "Full Radius Intelligence deal terms pitched to Epstein (Aug 14, 2018): $12M Series 1-A Preferred Shares at $10M pre-money/$22M post-money. 1x liquidation preference, 54% common equity fully converted. Prior round raised at $150M pre-money (massive down-round). Company had been under LOI to Salesforce for ~$200M but deal fell apart. Burning $1.1M/month. Expected cash-flow positive by end CY19/FY20. Key investors included Founders Fund, Salesforce Ventures, American Express Ventures, 8VC, John Mack (ex-Morgan Stanley CEO), Jerry Yang (Yahoo co-founder). Iozzo told Epstein: 'my gut feeling is that this is a good value deal given the economics but the company itself is not really revolutionary/long term play.'",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1638
+      },
+      {
+        "date": "2018-08-15",
+        "label": "Iozzo served as deal-flow intermediary between Blocktree Capital LLC (Ben Forman, Managing Partner; Aaron Wong) and Epstein. Forwarded at least 3 investment opportunities: (1) Grab Series H Preferred Shares June 2018, $9.25B pre-money, via Blocktree Private Opportunities LLC -> Silvershore Internet Opportunity IV LP (EFTA02529170); (2) Radius Intelligence Series 1-A Aug 2018, $10M pre-money/$22M post-money, 54% equity, min $100K via Blocktree/Darian Shirazi (EFTA02602271); (3) Bitmain crypto mining shares Aug 2018 via iAngels Technologies LP + Blocktree (EFTA02602312). Blocktree renamed to ParaFi; SEC EDGAR shows CIK 1747162 (Series A), 1761732 (Series B), 1765770 (Series C), 1733707 (General Fund). Address: 600 California St Floor 11, SF CA 94108.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1612
+      },
+      {
+        "date": "2018-08-15",
+        "label": "Iozzo acted as investment deal conduit to Epstein. On Jun 28, 2018, Iozzo forwarded Grab Series H opportunity (9.25B pre-money, 100k min) from Ben Forman at Blocktree Capital (ben.forman@blocktreecap.com) via Jason Ng. On Aug 15, 2018, Forman organized Radius Discussion conf call with Darian Shirazi (Radius CEO), Aaron Wong, Epstein and Iozzo. Call confirmed for Aug 16 at 11:50am. Radius was B2B data platform that raised 100M+ VC. A separate document (EFTA02602271) shows Radius acquisition deal structure through Blocktree entity with Shirazi co-investing. Forman later founded ParaFi Capital (blockchain fund). Shirazi later sold Radius (2018), joined Google Gradient Ventures.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1616
+      },
+      {
+        "date": "2018-08-2018-12",
+        "label": "financial with Darian Shirazi",
+        "type": "financial",
+        "entity": "Darian Shirazi",
+        "id": 809
+      },
+      {
+        "date": "2018-12-01",
+        "label": "Iozzo continued visiting Epstein at 9 E 71st on Dec 1, 2018 — just 3 days after Miami Herald published 'Perversion of Justice' series (Nov 28, 2018). Email shows Iozzo asking assistant: 'is there a lot of press around the house given recent news? Trying to decide whether to wear a baseball hat.' Shows awareness of media scrutiny but continued engagement. Also scheduled Nov 28, 2017 visit (EFTA02230809) — the day after the CHS described the Iozzo-Epstein relationship to FBI.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 1607
+      },
+      {
+        "date": "2022-02-14",
+        "label": "IRD Holdings Corp (DE #6616843) incorporated 14 Feb 2022 as Domestic Corporation. Agent: Corporation Service Company, 251 Little Falls Drive, Wilmington DE 19808. NY branch (#7571694) registered 27 Mar 2025 at 80 State Street, Albany NY. Delaware does not disclose officers — SEC Form D is the only source showing Iozzo as President/Director with $10.19M raised.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1687
+      },
+      {
+        "date": "2022-03",
+        "label": "SEC EDGAR reveals Iozzo is President, Executive Officer, and Director of IRD Holdings Corp. (CIK 0001916133), a Delaware-incorporated 'Other Technology' entity at 200 W. Madison St. Suite 3900, Chicago IL 60606 (office of Barack Ferrazzano Kirschbaum & Nagelberg LLP). Three Form D filings: (1) Mar 2022 — $350K equity offering, 12 accredited investors; (2) Apr 2022 — $8.5M offering, $8.04M sold to 20 accredited investors; (3) Oct 2025 — $2M offering, $1.8M sold to 4 accredited investors. Total capital raised: ~$10.19M across three rounds. All filings under Regulation D exemption 06b. Revenue 'Decline to Disclose' on all filings. This directly corrects Finding #1614 which stated 'Zero SEC EDGAR filings mentioning Iozzo' — that search missed Form D filings which are filed by the issuer, not in full-text search.",
+        "type": null,
+        "evidence_ref": null,
+        "id": 1624
+      },
+      {
+        "date": "2022-03-01",
+        "label": "SlashID (Iozzo current company, founded 2022) investor DG Daiwa Ventures is a Japanese VC firm (subsidiary of Daiwa Securities Group). This may be relevant to the FBI CHS claim that one of Iperlanes three billionaire backers had a Japanese company. However this is SlashID not Iperlane, and DG Daiwa is a VC firm not a billionaire individual. SoftBank (noted in target briefing as possible Japanese company connection) was invested in Grab, whose Series H shares Iozzo forwarded to Epstein. No direct evidence linking SoftBank to Iperlane funding found.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1622
+      },
+      {
+        "date": "2025-01-01",
+        "label": "Full public profile: Born Aug 1988, Calabria Italy. Politecnico di Milano 2010. Career: Zynamics (2008-11), Tiqad srl (2011-12), co-founded Trail of Bits (2012-14), co-founded Iperlane (2015, COO Kelly Shortridge), CrowdStrike acquisition Jan 2017 (2M seed), Senior Director CrowdStrike (2017-21), CEO SlashID (2022-present, 8.83M seed from Alven/DG Daiwa/Headline/Musha/TQ). UK director 16HARLEYCO LIMITED. Email vincenzo@tiqad.com. Co-author iOS Hackers Handbook (Wiley 2012). Pwn2Own winner 2010-11, Black Hat board since 2011. Removed from Black Hat and Code Blue review boards Feb 2026 after Epstein files. Denies being Epstein hacker, calls CHS claims fabricated.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 1618
+      },
+      {
+        "date": "2026-02-12",
+        "label": "Iozzo response to FBI CHS claims (Feb 2026): Told TechCrunch he was never Epsteins hacker, nor did any hacking for him. Called FBI informant claims fabricated and false and defamatory. Said interactions were limited to business opportunities that never materialized. CrowdStrike spokesperson confirmed Iozzo left company in 2021. Black Hat removed Iozzo from review board Feb 2026, claimed it was for inactivity not Epstein connection. Code Blue (Japan conference) also removed him. No criminal charges or investigations publicly known against Iozzo.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1620
+      },
+      {
+        "date": "2026-02-14",
+        "label": "Comprehensive negative results across corporate/financial/regulatory databases with ONE EXCEPTION: SEC EDGAR Form D filings reveal IRD Holdings Corp. (CIK 0001916133) with Vincenzo Iozzo as President/Director — 3 filings raising ~$10.19M (2022-2025). See Finding #1624. Remaining negatives: (1) No Iperlane incorporation records in FL/NY/NM/PA/VI/UK corporate registries; (2) No Iozzo as officer in any state registry; (3) No UCC filings; (4) No GLEIF LEI for Iperlane; (5) No FEC donations by Vincenzo Iozzo; (6) No NYC ACRIS property records; (7) No ProPublica 990 entries; (8) No OpenSanctions matches; (9) No LittleSis entries; (10) No lobbying filings; (11) No DS10 Deutsche Bank transactions; (12) Not in Epstein 20K corpus.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1614
+      }
+    ]
+  }
+}

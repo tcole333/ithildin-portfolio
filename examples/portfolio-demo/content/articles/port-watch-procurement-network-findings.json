@@ -1,0 +1,59 @@
+{
+  "9101": {
+    "id": "9101",
+    "summary": "Harbor Ledger spans Florida and UK records while using a local procurement label that obscures beneficial control.",
+    "finding_type": "corporate",
+    "confidence": "high",
+    "claim_type": "synthesis",
+    "verification_status": "reviewed",
+    "date_of_event": "2025-01",
+    "evidence": [
+      {
+        "evidence_type": "registry",
+        "evidence_ref": "REG:FL:L23000214567",
+        "source_quote": "Florida filing shows Harbor Ledger active in the shortlist window.",
+        "source_page": "formation filing",
+        "assessment": "Public artifact"
+      },
+      {
+        "evidence_type": "registry",
+        "evidence_ref": "REG:UK:12345678",
+        "source_quote": "UK record ties Estuary Advisory to the onboarding contact domain.",
+        "source_page": "entity filing",
+        "assessment": "Public artifact"
+      }
+    ]
+  },
+  "9102": {
+    "id": "9102",
+    "summary": "The case combines public artifacts, a hosted excerpt, and a metadata-only source record rather than flattening them into one evidence class.",
+    "finding_type": "document",
+    "confidence": "confirmed",
+    "claim_type": "synthesis",
+    "verification_status": "reviewed",
+    "date_of_event": "2025-02",
+    "evidence": [
+      {
+        "evidence_type": "board_minutes",
+        "evidence_ref": "HARBOR-LEDGER-BOARD-MINUTES-2024-11",
+        "source_quote": "Approved the Estuary Advisory services addendum without a competitive review memo.",
+        "source_page": "agenda item 3",
+        "assessment": "Hosted copy"
+      },
+      {
+        "evidence_type": "interview_notes",
+        "evidence_ref": "PORT-WATCH-CALL-NOTES-2025-02-14",
+        "source_quote": "Lina was the one who brought Harbor Ledger into the room.",
+        "source_page": "interview memo section 2",
+        "assessment": "Metadata-only source record"
+      },
+      {
+        "evidence_type": "procurement_packet",
+        "evidence_ref": "DOCUMENTCLOUD:24402693",
+        "source_quote": "Local implementation partner: Harbor Ledger Holdings LLC.",
+        "source_page": "vendor matrix",
+        "assessment": "Public artifact"
+      }
+    ]
+  }
+}

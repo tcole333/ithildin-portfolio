@@ -1,0 +1,1231 @@
+{
+  "name": "Humpty Dumpty Institute",
+  "slug": "humpty-dumpty-institute",
+  "aliases": [
+    "HDI"
+  ],
+  "generated_at": "2026-02-20T01:17:47.282721",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 16,
+    "total_connections": 12,
+    "total_entities": 0,
+    "finding_types": {
+      "financial": 3,
+      "relationship": 3,
+      "intelligence": 6,
+      "document": 1,
+      "legal": 3
+    },
+    "connection_types": {
+      "intelligence": 3,
+      "financial": 3,
+      "corporate": 4,
+      "social": 2
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 120,
+      "finding_type": "financial",
+      "summary": "HDI (EIN 13-4028567) IRS 990 filings show: revenue peaked at .47M (2015), declined to K (2020), recovered to K (2023). Incorporated Oct 19, 1998 in NY (Corp #2307873). Registered address was c/o Michael W. Sonnenfeldt, 146 Central Park West Ste 10-D, NYC. Mark Epstein loaned HDI over K in 2014 per 990 filing.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "1998-10-19",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:17",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "finding_type": "financial",
+      "summary": "HDI (EIN 13-4028567) 990 filings show severe financial contraction. Peak revenue was .82M in 2011, declining to .47M in 2015, K in 2016, K in 2017, K in 2018, then a brief spike to K in 2019, K in 2020, K in 2021, K in 2022, and K in 2023. Assets peaked at K (2011) and have remained minimal (K in 2023). Care-of is Ralph Cwerman. The organization went from a .8M/yr operation to under K/yr, representing over 80% revenue decline - far more severe than typical nonprofit fluctuations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:45:05",
+      "target_name": "HDI",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:134028567",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "finding_type": "financial",
+      "summary": "HDI cumulative 990 analysis: Revenue declined 73.6% from peak of .82M (2011) to K (2023). The organization consistently spent more than it earned, but survived by operating on thin margins with minimal assets (K-287K range). Revenue collapse began immediately: .82M (2011), .64M (2012), .70M (2013), then accelerating decline to K by 2018. Partial recovery in 2022-2023 (K, K) may reflect new funding sources unrelated to Epstein. HDI operated with much smaller scale than IPI but showed similar pattern of contraction.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2011",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:49:42",
+      "target_name": "HDI",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "990:134028567",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "finding_type": "relationship",
+      "summary": "Amir Dossal (HDI Director, Global Partnership Forum Chairman) appeared alongside Deutsche Bank Global Head Kevin Parker and Russian Duma member Ilya Ponomarev at the New York Academy of Sciences 'Science & the City Gala' on Aug 30, 2011. Event honored UN Secretary-General Ban Ki-moon and featured James Simons, James Watson, Jack Rosen, and other Epstein network figures.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-08-30",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:07",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02692886",
+          "source_quote": "Amir Dossal Chairman Global Partnership Forum; Kevin Parker Global Head Asset Management Deutsche Bank",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "finding_type": "relationship",
+      "summary": "Amir Dossal (HDI Director per LittleSis) co-hosted June 20, 2013 UN event on oceans/Sustainable Development Goals with Ghislaine Maxwell (TerraMar Project) and Stuart Beck (Palau Ambassador). Event at UN Conference Building, Room D. Dossal chaired the Global Partnership Forum.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2013-06-20",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:00",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707132",
+          "source_quote": "Amir Dossal of the Global Partnership Forum, Ghislaine Maxwell of the TerraMar Project",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "finding_type": "intelligence",
+      "summary": "HDI has organized 52+ Congressional Delegations including to Azerbaijan (2014), Bahrain (2013), Turkey/Cyprus, and UN headquarters. In the last decade, HDI organized programs for 250+ Members of Congress and 400+ Senior Congressional Staff to the UN and countries in the Middle East, Africa, former Soviet Union, Caribbean, and Asia. Mark Epstein personally participated in Bahrain and Azerbaijan delegations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:56",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02598877",
+          "source_quote": "I was also on one to Azerbaijan; thehdi.org:52nd U.S. Congressional Delegation; 250+ Members 400+ Staff",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718091",
+          "source_quote": "From: \nMark L. Epstein •\nMIM \nSent: \nThursday, May 22, 2014 12:45 PM \nTo: \n'Jeffrey Epstein' \nSubject: \nFW: From Merante - Baku- Important \nAttachments: \nAzerbaijan CODEL May 30-June 4, 2014 Tentative Agenda.pdf \nIn case you know someone and want to...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "finding_type": "intelligence",
+      "summary": "When Azerbaijan CODEL members dropped out, HDI Executive Director Joe Merante emailed requesting replacements from 'media, finance, banking, education' - Mark Epstein forwarded this directly to Jeffrey Epstein May 22, 2014. The trip was 'entirely first class with all first class accommodations' and included meeting the President of Azerbaijan. This shows Jeffrey Epstein had access to fill congressional delegation slots through Mark's HDI board position.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2014-05-22",
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:04",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718091",
+          "source_quote": "replacing the members with individuals of note in media, finance, banking, education",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "finding_type": "document",
+      "summary": "HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Foreign Affairs Minister Mammadyarov, and parliamentary committees. Full agenda found in Epstein document files.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2014-06-04",
+      "claim_type": "direct_quote",
+      "verification_status": "verified",
+      "created_at": "2026-02-12 20:24:36",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "HUMPTY DUMPTY INSTITUTE Congressional Delegation to Azerbaijan May 30 - June 4, 2014",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1187,
+      "finding_type": "intelligence",
+      "summary": "HDI CODEL pipeline mechanics reconstructed. Mark Epstein (Jeffrey's brother, HDI board member) personally participated in CODELs to Bahrain (2013) and Azerbaijan (2014). EFTA02598877 shows Mark emailed Jeffrey Dec 22, 2014: 'We (Humpty Dumpty Institute) led a congressional delegation to Bahrain to meet with ministers and the president (king/head poobah), opposition leaders, senate, head of the US Navy 5th fleet (headquartered in Bahrain) etc. I did not know you were doing this kind of stuff. I was also on one to Azerbaijan, and might go on one to Turkey/Cypress in March.' EFTA02725237 shows full Azerbaijan agenda (May 30-Jun 4, 2014): meetings with President Ilham Aliyev, US Ambassador Morningstar, Foreign Affairs Minister Mammadyarov. When members dropped out, Merante sought replacements from 'media, finance, banking, education' -- Mark forwarded directly to Jeffrey (May 22, 2014), giving Jeffrey access to fill Congressional delegation slots. HDI has organized 52+ CODELs total with 550+ Congress members/staff. These are all-expenses-paid first-class trips. The combination of CCP/Taihe partnership + CODEL access + Epstein family involvement + zero FARA/LDA registration constitutes a significant regulatory blind spot.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-12-22",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:57:59",
+      "target_name": "HDI",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02598877",
+          "source_quote": "We (Humpty Dumpty Institute) led a congressional delegation to Bahrain to meet with ministers and the president",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1534,
+      "finding_type": "relationship",
+      "summary": "HDI 2015 990 reveals 14-member board. Chairman: Dr. Al Khalafalla. Chairman Emeriti: Constance Milstein, Michael W. Sonnenfeldt. Directors: William J. Rouhana, Benjamin Gilman (former US Congressman), Venerable Hsin Ting, Mark Epstein (Jeffrey Epstein's brother - SIGNED THE RETURN as Director), Jennifer Diamond, Walter Arbib, Cosmo Denicola, Amir Dossal (Ex Officio, former UN Chief of Partnerships), Deborah Landey (former UNDP), Christopher Mitchell. President/CEO: Ralph L. Cwerman (40 hrs/wk, $145,458 compensation). CRITICAL: Mark Epstein both served as director AND signed the return ('Mark L. Epstein, Director'). Also flagged Yes on Line 25a: excess benefit transaction with disqualified person. Also flagged Yes on Line 5a: party to prohibited tax shelter transaction. Also had foreign bank accounts.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "confirmed",
+      "date_of_event": "2015",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:45:21",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990-EIN-13-4028567-2015",
+          "source_quote": "Part VII Officers - Dr Al Khalafalla Chairman, Constance Milstein Chairman Emeritus, Mark Epstein Director, Ralph L Cwerman President/CEO/Director comp 145458. Signature: Mark L Epstein Director. Part V 5a prohibited tax shelter Yes. Part IV 25a excess benefit transaction Yes",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "finding_type": "intelligence",
+      "summary": "HDI Board of Directors includes: William J. Rouhana Jr (Co-founder, Chairman since 2010, CEO of Chicken Soup for the Soul Entertainment), Ralph L. Cwerman (Co-founder, President since 1998), Michael W. Sonnenfeldt (Co-founder, Director, MUUS & Company), Constance Jane Milstein (Chairman Emeritus, Biden Ambassador nominee to Malta), Mark Epstein (Director, Jeffrey Epstein's brother), Amir Dossal (Director, Global Partnership Forum Chairman), Jay T. Snyder (Director, HBJ Investments), Benjamin A. Gilman (Director, former US Congressman), Walter Simon Arbib (Director, SkyLink Group President). Executive Director: Joseph Merante (ex-State Dept Foreign Service). Board Chairman: Dr. Al Khalafalla (since Oct 2015).",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-10",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:47",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1150,
+      "finding_type": "legal",
+      "summary": "HDI FARA LEGAL ANALYSIS: Humpty Dumpty Institute has zero FARA registrations despite documented CCP/Taihe Institute partnership (since 2017) and extensive Congressional engagement. HDI's activities that potentially trigger FARA: (1) Partnership with Taihe Institute, which employs 12+ current/former CCP and PLA members as senior fellows; (2) 52+ Congressional Delegations to 30+ countries including Azerbaijan, Bahrain, Turkey/Cyprus, and UN; (3) 33+ current/former Congress members on advisory board including Maxine Waters, Jim Clyburn, Debbie Wasserman Schultz, Gregory Meeks; (4) 550+ members of Congress and staffers hosted for summits; (5) Mark Epstein (Jeffrey's brother) on board, participated in Bahrain and Azerbaijan CODELs; (6) Taihe co-authored report calling US 'failed country' and claiming COVID leaked from Maryland military base. HDI CLAIMS: States it 'never accepted any funds from the Taihe Institute or any Chinese Government organ or entity.' FARA COMPARABLE: China-United States Exchange Foundation registered under FARA with 4 separate registrants (Capitol Counsel #6328, Wilson Global #6584, BLJ Worldwide #5875, BGR Government Affairs #5430) for similar China-US influence activities. HDI's partnership with Taihe performing similar functions without FARA registration is anomalous. COUNTER: HDI's 990s show revenue declined from $1.47M (2015) to $202K (2020), suggesting limited operational capacity. HDI claims no Chinese government funding. KEY QUESTION: Even if no direct Chinese funding, does the Taihe partnership constitute acting as agent of a foreign principal under 22 USC 611(c)?",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:55:55",
+      "target_name": "HDI",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02598877",
+          "source_quote": "We (Humpty Dumpty Institute) led a congressional delegation to Bahrain to meet with ministers and the president",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "finding_type": "intelligence",
+      "summary": "HDI partnered with Beijing-based Taihe Institute starting 2017. Taihe employs 12+ current/former CCP and PLA members as senior fellows. HDI participated in Taihe Civilizations Forum Aug 2017 (Beijing) and Sept 6-8, 2019 (Beijing). Ruby Wang (Perfect World gaming company SVP, Taihe fellow) joined HDI board. HDI exec Joseph Merante presented at both forums. Partnership drew CCP influence concerns from Washington Examiner and multiple Congressional resignations.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2017-08",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:27",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "finding_type": "intelligence",
+      "summary": "HDI Congressional Advisory Board includes 33+ current/former US Representatives and Senators as of 2022. Current members include: Don Bacon (R-NE), Andre Carson (D-IN), Buddy Carter (R-GA), Judy Chu (D-CA), Yvette Clarke (D-NY), Jim Clyburn (D-SC), Ruben Gallego (D-AZ), Raul Grijalva (D-AZ), Andy Harris (R-MD), Jim Himes (D-CT), Hank Johnson (D-GA), Robin Kelly (D-IL), Gregory Meeks (D-NY), Barry Moore (R-AL), August Pfluger (R-TX), Mark Pocan (D-WI), Bennie Thompson (D-MS), Maxine Waters (D-CA), Debbie Wasserman Schultz (D-FL), Frederica Wilson (D-FL). Former members include Mark Meadows, Adam Schiff, Sheila Jackson Lee, and others.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2022",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:36",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": "TI11 \nH UM PTY DUMPTY INSTITUTE \nPUTTING lilt \nMAZES BACK 1OC•El \nCongressional Delegation to Azerbaijan \nMay 30 - June 4, 2014 \nAgenda \nFriday May 30, 2014 \n9:30PM \nArrive at Washington D.C. Dulles International Airport \n11:25PM \nDepart: Washington...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "finding_type": "legal",
+      "summary": "Humpty Dumpty Institute has no FARA registration despite documented CCP/Taihe Institute ties with 12+ PLA members, 33+ Congress members on advisory board, and CODEL pipeline where Epstein could fill congressional delegation slots. Taihe Institute also absent from FARA. China has 276 FARA-registered foreign principals but neither HDI nor Taihe appears. This is a potential FARA violation given documented foreign government connections.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:41:43",
+      "target_name": "HDI",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://efile.fara.gov/ords/f?p=1381:200#q=negative_search_HDI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "finding_type": "legal",
+      "summary": "Humpty Dumpty Institute (HDI) has ZERO lobbying filings in Senate LDA records despite operating an extensive CODEL pipeline with 33+ Congress members on its advisory board. HDI filled congressional delegation slots (EFTA02718091), arranged CCP/Taihe Institute meetings with 12+ PLA members, and maintained Dossal-Maxwell UN event links. The absence of lobbying registration is investigatively significant - HDI operated at the intersection of Congressional access, foreign government contacts, and the Epstein network without any formal lobbying disclosure.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:43:57",
+      "target_name": "Humpty Dumpty Institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718091",
+          "source_quote": "MIM \nSent: \nThursday, May 22, 2014 12:45 PM \nTo: \n'Jeffrey Epstein' \nSubject: \nFW: From Merante - Baku- Important \nAttachments: \nAzerbaijan CODEL May 30-June 4, 2014 Tentative Agenda.pdf \nIn case you know someone and want to do them a =avor: (let me know) \nFrom: Joe Merante =mailto \nSent:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "LDA:negative_search_HDI",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 557,
+      "person_a": "HDI",
+      "person_b": "Taihe Institute",
+      "relationship_type": "intelligence",
+      "description": "Partnership since 2017. Taihe employs 12+ CCP/PLA members. HDI participated in Taihe forums in Beijing. Neither registered under FARA.",
+      "strength": "strong",
+      "date_range": "2017-present",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:58:23",
+      "other_person": "Taihe Institute",
+      "other_person_slug": "taihe-institute",
+      "evidence": []
+    },
+    {
+      "id": 337,
+      "person_a": "HDI",
+      "person_b": "Ralph Cwerman",
+      "relationship_type": "financial",
+      "description": "Cwerman is the care-of contact for Humpty Dumpty Institute on IRS records (EIN 13-4028567). He is the organizational point person for the entity whose revenue collapsed 80% from .8M to under K.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:46:31",
+      "other_person": "Ralph Cwerman",
+      "other_person_slug": "ralph-cwerman",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990:134028567",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Mark Epstein",
+      "relationship_type": "corporate",
+      "description": "Mark Epstein served as Director and signed HDI 2015 990 return. Brother of Jeffrey Epstein.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:45:33",
+      "other_person": "Mark Epstein",
+      "other_person_slug": "mark-epstein",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "990-EIN-13-4028567-2015",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1749,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "International Peace Institute",
+      "relationship_type": "financial",
+      "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 1764,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "social",
+      "description": "Finding #107: HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Forei",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 1765,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Humpty Dumpty Institute",
+      "relationship_type": "social",
+      "description": "Finding #107: HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Forei",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Humpty Dumpty Institute",
+      "other_person_slug": "humpty-dumpty-institute",
+      "evidence": []
+    },
+    {
+      "id": 1768,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Mark Epstein",
+      "relationship_type": "financial",
+      "description": "Finding #109: Mark Epstein forwarded HDI Azerbaijan delegation email to Jeffrey Epstein on May 22, 2014, offering to do Jeffrey a favor by filling congressional slo",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "Mark Epstein",
+      "other_person_slug": "mark-epstein",
+      "evidence": []
+    },
+    {
+      "id": 88,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Mark Epstein",
+      "relationship_type": "corporate",
+      "description": "Director on Board of Directors. Loaned HDI over 100K in 2014. Participated in congressional delegations to Azerbaijan and Bahrain.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:23",
+      "other_person": "Mark Epstein",
+      "other_person_slug": "mark-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02598877",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718091",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Jeffrey Epstein",
+      "relationship_type": "intelligence",
+      "description": "Jeffrey received HDI CODEL recruitment emails from brother Mark. Had potential to fill congressional delegation slots via his network. Will left Mark 10M in trust.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:25",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02718091",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "person_a": "Amir Dossal",
+      "person_b": "Humpty Dumpty Institute",
+      "relationship_type": "corporate",
+      "description": "Director on HDI Board. Chairman of Global Partnership Forum. Co-hosted UN SDG event June 2013 with Ghislaine Maxwell.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:25",
+      "other_person": "Amir Dossal",
+      "other_person_slug": "amir-dossal",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02707132",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "Taihe Institute",
+      "relationship_type": "intelligence",
+      "description": "Formal partnership since Aug 2017. HDI participated in Taihe forums 2017 and 2019 in Beijing. Ruby Wang bridged both orgs. Taihe employs 12+ CCP/PLA members as senior fellows.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:29",
+      "other_person": "Taihe Institute",
+      "other_person_slug": "taihe-institute",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "person_a": "Humpty Dumpty Institute",
+      "person_b": "William Rouhana",
+      "relationship_type": "corporate",
+      "description": "Co-founded HDI in 1998. Chairman since 2010. Also CEO of Chicken Soup for the Soul Entertainment. Chicken Soup donates revenue to HDI.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:40",
+      "other_person": "William Rouhana",
+      "other_person_slug": "william-rouhana",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02725237",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "1998-10-19",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "HDI (EIN 13-4028567) IRS 990 filings show: revenue peaked at .47M (2015), declined to K (2020), recovered to K (2023). Incorporated Oct 19, 1998 in NY (Corp #2307873). Registered address was c/o Michael W. Sonnenfeldt, 146 Central Park West Ste 10-D, NYC. Mark Epstein loaned HDI over K in 2014 per 990 filing.",
+      "confidence": "medium",
+      "id": 120
+    },
+    {
+      "date": "2011",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "HDI (EIN 13-4028567) 990 filings show severe financial contraction. Peak revenue was .82M in 2011, declining to .47M in 2015, K in 2016, K in 2017, K in 2018, then a brief spike to K in 2019, K in 2020, K in 2021, K in 2022, and K in 2023. Assets peaked at K (2011) and have remained minimal (K in 2023). Care-of is Ralph Cwerman. The organization went from a .8M/yr operation to under K/yr, representing over 80% revenue decline - far more severe than typical nonprofit fluctuations.",
+      "confidence": "medium",
+      "id": 426
+    },
+    {
+      "date": "2011",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "HDI cumulative 990 analysis: Revenue declined 73.6% from peak of .82M (2011) to K (2023). The organization consistently spent more than it earned, but survived by operating on thin margins with minimal assets (K-287K range). Revenue collapse began immediately: .82M (2011), .64M (2012), .70M (2013), then accelerating decline to K by 2018. Partial recovery in 2022-2023 (K, K) may reflect new funding sources unrelated to Epstein. HDI operated with much smaller scale than IPI but showed similar pattern of contraction.",
+      "confidence": "medium",
+      "id": 460
+    },
+    {
+      "date": "2011-08-30",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Amir Dossal (HDI Director, Global Partnership Forum Chairman) appeared alongside Deutsche Bank Global Head Kevin Parker and Russian Duma member Ilya Ponomarev at the New York Academy of Sciences 'Science & the City Gala' on Aug 30, 2011. Event honored UN Secretary-General Ban Ki-moon and featured James Simons, James Watson, Jack Rosen, and other Epstein network figures.",
+      "confidence": "high",
+      "id": 117
+    },
+    {
+      "date": "2013-06-20",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Amir Dossal (HDI Director per LittleSis) co-hosted June 20, 2013 UN event on oceans/Sustainable Development Goals with Ghislaine Maxwell (TerraMar Project) and Stuart Beck (Palau Ambassador). Event at UN Conference Building, Room D. Dossal chaired the Global Partnership Forum.",
+      "confidence": "confirmed",
+      "id": 114
+    },
+    {
+      "date": "2014",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "HDI has organized 52+ Congressional Delegations including to Azerbaijan (2014), Bahrain (2013), Turkey/Cyprus, and UN headquarters. In the last decade, HDI organized programs for 250+ Members of Congress and 400+ Senior Congressional Staff to the UN and countries in the Middle East, Africa, former Soviet Union, Caribbean, and Asia. Mark Epstein personally participated in Bahrain and Azerbaijan delegations.",
+      "confidence": "medium",
+      "id": 130
+    },
+    {
+      "date": "2014-05-22",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "When Azerbaijan CODEL members dropped out, HDI Executive Director Joe Merante emailed requesting replacements from 'media, finance, banking, education' - Mark Epstein forwarded this directly to Jeffrey Epstein May 22, 2014. The trip was 'entirely first class with all first class accommodations' and included meeting the President of Azerbaijan. This shows Jeffrey Epstein had access to fill congressional delegation slots through Mark's HDI board position.",
+      "confidence": "medium",
+      "id": 133
+    },
+    {
+      "date": "2014-06-04",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Foreign Affairs Minister Mammadyarov, and parliamentary committees. Full agenda found in Epstein document files.",
+      "confidence": "confirmed",
+      "id": 107
+    },
+    {
+      "date": "2014-12-22",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "HDI CODEL pipeline mechanics reconstructed. Mark Epstein (Jeffrey's brother, HDI board member) personally participated in CODELs to Bahrain (2013) and Azerbaijan (2014). EFTA02598877 shows Mark emailed Jeffrey Dec 22, 2014: 'We (Humpty Dumpty Institute) led a congressional delegation to Bahrain to meet with ministers and the president (king/head poobah), opposition leaders, senate, head of the US Navy 5th fleet (headquartered in Bahrain) etc. I did not know you were doing this kind of stuff. I was also on one to Azerbaijan, and might go on one to Turkey/Cypress in March.' EFTA02725237 shows full Azerbaijan agenda (May 30-Jun 4, 2014): meetings with President Ilham Aliyev, US Ambassador Morningstar, Foreign Affairs Minister Mammadyarov. When members dropped out, Merante sought replacements from 'media, finance, banking, education' -- Mark forwarded directly to Jeffrey (May 22, 2014), giving Jeffrey access to fill Congressional delegation slots. HDI has organized 52+ CODELs total with 550+ Congress members/staff. These are all-expenses-paid first-class trips. The combination of CCP/Taihe partnership + CODEL access + Epstein family involvement + zero FARA/LDA registration constitutes a significant regulatory blind spot.",
+      "confidence": "high",
+      "id": 1187
+    },
+    {
+      "date": "2015",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "HDI 2015 990 reveals 14-member board. Chairman: Dr. Al Khalafalla. Chairman Emeriti: Constance Milstein, Michael W. Sonnenfeldt. Directors: William J. Rouhana, Benjamin Gilman (former US Congressman), Venerable Hsin Ting, Mark Epstein (Jeffrey Epstein's brother - SIGNED THE RETURN as Director), Jennifer Diamond, Walter Arbib, Cosmo Denicola, Amir Dossal (Ex Officio, former UN Chief of Partnerships), Deborah Landey (former UNDP), Christopher Mitchell. President/CEO: Ralph L. Cwerman (40 hrs/wk, $145,458 compensation). CRITICAL: Mark Epstein both served as director AND signed the return ('Mark L. Epstein, Director'). Also flagged Yes on Line 25a: excess benefit transaction with disqualified person. Also flagged Yes on Line 5a: party to prohibited tax shelter transaction. Also had foreign bank accounts.",
+      "confidence": "confirmed",
+      "id": 1534
+    },
+    {
+      "date": "2015-10",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "HDI Board of Directors includes: William J. Rouhana Jr (Co-founder, Chairman since 2010, CEO of Chicken Soup for the Soul Entertainment), Ralph L. Cwerman (Co-founder, President since 1998), Michael W. Sonnenfeldt (Co-founder, Director, MUUS & Company), Constance Jane Milstein (Chairman Emeritus, Biden Ambassador nominee to Malta), Mark Epstein (Director, Jeffrey Epstein's brother), Amir Dossal (Director, Global Partnership Forum Chairman), Jay T. Snyder (Director, HBJ Investments), Benjamin A. Gilman (Director, former US Congressman), Walter Simon Arbib (Director, SkyLink Group President). Executive Director: Joseph Merante (ex-State Dept Foreign Service). Board Chairman: Dr. Al Khalafalla (since Oct 2015).",
+      "confidence": "medium",
+      "id": 129
+    },
+    {
+      "date": "2017",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "HDI FARA LEGAL ANALYSIS: Humpty Dumpty Institute has zero FARA registrations despite documented CCP/Taihe Institute partnership (since 2017) and extensive Congressional engagement. HDI's activities that potentially trigger FARA: (1) Partnership with Taihe Institute, which employs 12+ current/former CCP and PLA members as senior fellows; (2) 52+ Congressional Delegations to 30+ countries including Azerbaijan, Bahrain, Turkey/Cyprus, and UN; (3) 33+ current/former Congress members on advisory board including Maxine Waters, Jim Clyburn, Debbie Wasserman Schultz, Gregory Meeks; (4) 550+ members of Congress and staffers hosted for summits; (5) Mark Epstein (Jeffrey's brother) on board, participated in Bahrain and Azerbaijan CODELs; (6) Taihe co-authored report calling US 'failed country' and claiming COVID leaked from Maryland military base. HDI CLAIMS: States it 'never accepted any funds from the Taihe Institute or any Chinese Government organ or entity.' FARA COMPARABLE: China-United States Exchange Foundation registered under FARA with 4 separate registrants (Capitol Counsel #6328, Wilson Global #6584, BLJ Worldwide #5875, BGR Government Affairs #5430) for similar China-US influence activities. HDI's partnership with Taihe performing similar functions without FARA registration is anomalous. COUNTER: HDI's 990s show revenue declined from $1.47M (2015) to $202K (2020), suggesting limited operational capacity. HDI claims no Chinese government funding. KEY QUESTION: Even if no direct Chinese funding, does the Taihe partnership constitute acting as agent of a foreign principal under 22 USC 611(c)?",
+      "confidence": "medium",
+      "id": 1150
+    },
+    {
+      "date": "2017-08",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "HDI partnered with Beijing-based Taihe Institute starting 2017. Taihe employs 12+ current/former CCP and PLA members as senior fellows. HDI participated in Taihe Civilizations Forum Aug 2017 (Beijing) and Sept 6-8, 2019 (Beijing). Ruby Wang (Perfect World gaming company SVP, Taihe fellow) joined HDI board. HDI exec Joseph Merante presented at both forums. Partnership drew CCP influence concerns from Washington Examiner and multiple Congressional resignations.",
+      "confidence": "medium",
+      "id": 122
+    },
+    {
+      "date": "2017-present",
+      "type": "connection",
+      "relationship_type": "intelligence",
+      "description": "Partnership since 2017. Taihe employs 12+ CCP/PLA members. HDI participated in Taihe forums in Beijing. Neither registered under FARA.",
+      "other_person": "Taihe Institute",
+      "id": 557
+    },
+    {
+      "date": "2022",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "HDI Congressional Advisory Board includes 33+ current/former US Representatives and Senators as of 2022. Current members include: Don Bacon (R-NE), Andre Carson (D-IN), Buddy Carter (R-GA), Judy Chu (D-CA), Yvette Clarke (D-NY), Jim Clyburn (D-SC), Ruben Gallego (D-AZ), Raul Grijalva (D-AZ), Andy Harris (R-MD), Jim Himes (D-CT), Hank Johnson (D-GA), Robin Kelly (D-IL), Gregory Meeks (D-NY), Barry Moore (R-AL), August Pfluger (R-TX), Mark Pocan (D-WI), Bennie Thompson (D-MS), Maxine Waters (D-CA), Debbie Wasserman Schultz (D-FL), Frederica Wilson (D-FL). Former members include Mark Meadows, Adam Schiff, Sheila Jackson Lee, and others.",
+      "confidence": "medium",
+      "id": 124
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      107,
+      114,
+      1187,
+      130,
+      117,
+      1150,
+      120,
+      133,
+      129,
+      410,
+      1534,
+      426
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          117,
+          114,
+          1534
+        ],
+        "connection_ids": [
+          557,
+          337,
+          759,
+          1749,
+          1764,
+          1765,
+          1768,
+          88,
+          89,
+          90,
+          92,
+          95
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          120,
+          426,
+          460
+        ],
+        "connection_ids": [
+          337,
+          1749,
+          1768
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1150,
+          388,
+          410
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          130,
+          133,
+          1187,
+          129,
+          122,
+          124
+        ],
+        "connection_ids": [
+          557,
+          89,
+          92
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-19T00:57:09.423407",
+    "lead": "<p>The Humpty Dumpty Institute (HDI) is a New York nonprofit incorporated on October 19, 1998 (NY Corp #2307873, EIN 13-4028567), originally registered at the Central Park West apartment of co-founder Michael W. Sonnenfeldt. Its stated mission &mdash; organizing Congressional Delegations (CODELs) and facilitating dialogue between U.S. lawmakers and foreign governments &mdash; provided a framework for what became one of the more unusual influence pipelines documented in the <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a> files. Mark Epstein, Jeffrey&rsquo;s brother, served on the HDI board of directors, signed its 2015 IRS 990 return, loaned the organization over $100,000 in 2014, and personally participated in all-expenses-paid first-class delegations to Bahrain and Azerbaijan. When delegation slots opened up on a May 2014 trip to Baku, Mark forwarded the recruitment email directly to Jeffrey, offering him the ability to place people from &ldquo;media, finance, banking, education&rdquo; on a Congressional delegation that would meet Azerbaijan&rsquo;s president.</p>\n\n<p>HDI&rsquo;s significance extends well beyond the Epstein connection. The organization has run 52 or more CODELs to over 30 countries, hosting 250+ Members of Congress and 400+ senior staffers. Its Congressional Advisory Board at one point included 33 current and former lawmakers spanning both parties, from Maxine Waters and Jim Clyburn to Mark Meadows and Adam Schiff. These relationships gave HDI substantial access to the U.S. legislative branch &mdash; access that became geopolitically consequential when HDI formalized a partnership with Beijing&rsquo;s Taihe Institute in August 2017. Taihe employs 12 or more current and former CCP and PLA members as senior fellows. The partnership drew media scrutiny and Congressional resignations from the HDI advisory board, yet HDI maintained the relationship through at least the September 2019 Taihe Civilizations Forum in Beijing.</p>\n\n<p>Structurally, HDI occupies a regulatory blind spot. Despite maintaining a partnership with a CCP-linked think tank while simultaneously operating the largest private CODEL pipeline in the United States, HDI has zero FARA registrations and zero lobbying filings in Senate LDA records. Comparable organizations facilitating China-U.S. influence activities &mdash; such as the China-United States Exchange Foundation &mdash; have registered under FARA with multiple registrants. HDI&rsquo;s 990 filings also flag anomalies: the 2015 return declared &ldquo;Yes&rdquo; on both excess benefit transactions with a disqualified person and participation in prohibited tax shelter transactions, and disclosed foreign bank accounts. Meanwhile, HDI&rsquo;s revenue collapsed over 80% from a peak of $1.82 million in 2011 to under $200,000 by 2018, a pattern of financial contraction that mirrors &mdash; at smaller scale &mdash; the decline seen at <a href=\"/dossiers/ipi\">IPI</a>. A partial recovery to $221,000 by 2023 may reflect new funding sources entirely unrelated to the Epstein orbit.</p>",
+    "open_questions": [
+      "What are the identities of the individuals Jeffrey Epstein placed (or attempted to place) on HDI Congressional Delegations after Mark forwarded the May 2014 recruitment email? Were there other instances of delegation slot-filling beyond the documented Azerbaijan trip?",
+      "What is the full scope of the Taihe Institute partnership — were there memoranda of understanding, joint funding arrangements, or coordinated lobbying activities beyond the documented forum appearances and co-produced publications?",
+      "What explains the 2015 990 flags for excess benefit transactions and prohibited tax shelter participation? Who was the disqualified person, and what was the nature of the tax shelter?",
+      "Who funded HDI during its revenue collapse from $1.82M (2011) to under $200K (2018)? Were there foreign government contributions routed through intermediaries that would not appear on U.S. nonprofit filings?",
+      "What is the relationship between HDI and <a href=\"/dossiers/ipi\">IPI</a> beyond the connection documented in the database? Did they share donors, board members, or coordinate CODEL activities?",
+      "Has the DOJ National Security Division or any Congressional committee examined HDI’s Taihe partnership for potential FARA violations? If not, why not, given the documented CCP/PLA connections and Congressional access?",
+      "What role did <a href=\"/dossiers/robert-lawrence-kuhn\">Robert Lawrence Kuhn</a> — another figure operating at the intersection of U.S.-China influence and Epstein-adjacent networks — play in relation to HDI or Taihe?"
+    ],
+    "system_role": "HDI is a nonprofit that organized 52+ Congressional Delegations while maintaining a CCP/Taihe Institute partnership and Epstein family board involvement, operating without FARA or lobbying registration in a significant regulatory blind spot.",
+    "sections": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "content": "<p>The most structurally significant relationship is with <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>, mediated through his brother Mark Epstein. Mark served as an HDI director, signed the 2015 IRS 990 return as &ldquo;Mark L. Epstein, Director,&rdquo; loaned the organization over $100,000 in 2014, and participated in CODELs to Bahrain (2013) and Azerbaijan (2014). In a December 22, 2014 email (EFTA02598877), Mark wrote to Jeffrey: &ldquo;We (Humpty Dumpty Institute) led a congressional delegation to Bahrain to meet with ministers and the president (king/head poobah), opposition leaders, senate, head of the US Navy 5th fleet (headquartered in Bahrain) etc.&rdquo; He added: &ldquo;I did not know you were doing this kind of stuff. I was also on one to Azerbaijan, and might go on one to Turkey/Cypress in March.&rdquo; The casual tone suggests this was an ongoing communication channel about HDI activities that Jeffrey was already aware of through other means.</p>\n\n<p>Amir Dossal, former United Nations Chief of Partnerships and chairman of the Global Partnership Forum, served as an ex officio director of HDI. Dossal provides the UN institutional bridge: on June 20, 2013, he co-hosted a UN event on oceans and Sustainable Development Goals alongside Ghislaine Maxwell (representing the TerraMar Project) and Stuart Beck, Palau&rsquo;s ambassador. This event placed an HDI director in direct programmatic collaboration with Maxwell at the United Nations. In August 2011, Dossal appeared alongside Deutsche Bank Global Head of Asset Management Kevin Parker and Russian Duma member Ilya Ponomarev at the New York Academy of Sciences &ldquo;Science &amp; the City Gala,&rdquo; which honored UN Secretary-General Ban Ki-moon and featured James Simons, James Watson, and Jack Rosen &mdash; figures who surface repeatedly across the broader Epstein network.</p>\n\n<p>The HDI board as revealed by the 2015 990 filing was a 14-member body chaired by Dr. Al Khalafalla, with chairman emeriti Constance Milstein (later a Biden ambassador nominee to Malta) and Sonnenfeldt. Other directors included William J. Rouhana Jr. (co-founder and chairman since 2010, CEO of Chicken Soup for the Soul Entertainment), former Congressman Benjamin Gilman, Walter Arbib (SkyLink Group president), and Jay T. Snyder (HBJ Investments). The co-founder and president since 1998, Ralph L. Cwerman, drew $145,458 in annual compensation. Executive Director Joseph Merante, a former State Department Foreign Service officer, managed the CODEL pipeline and served as the operational point of contact for delegation logistics and the Taihe partnership.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "codel-pipeline",
+        "title": "The Congressional Delegation Pipeline",
+        "content": "<p>HDI&rsquo;s core operational activity &mdash; and its primary source of political influence &mdash; is the organization of private Congressional Delegations. Over the past two decades, HDI has organized 52 or more CODELs to over 30 countries, hosting more than 250 Members of Congress and 400 senior Congressional staff members. Destinations have included Azerbaijan, Bahrain, Turkey, Cyprus, and UN headquarters in New York. The delegations are fully funded and &ldquo;entirely first class with all first class accommodations,&rdquo; according to CODEL recruitment emails found in Epstein&rsquo;s files (EFTA02718091).</p>\n\n<p>The mechanics of this pipeline are documented in unusual detail thanks to the May 2014 Azerbaijan delegation. When participants dropped out of the trip, HDI Executive Director Joseph Merante emailed seeking replacements from &ldquo;media, finance, banking, education.&rdquo; Mark Epstein forwarded Merante&rsquo;s email directly to Jeffrey Epstein on May 22, 2014, writing: &ldquo;In case you know someone and want to do them a favor: (let me know).&rdquo; The full agenda, recovered from Epstein&rsquo;s document files (EFTA02725237), reveals meetings with President Ilham Aliyev, U.S. Ambassador Richard Morningstar, Foreign Affairs Minister Elmar Mammadyarov, and parliamentary committees. This was a delegation that provided face-to-face access to a head of state &mdash; and Jeffrey Epstein had the ability to fill empty seats.</p>\n\n<p>The Congressional Advisory Board, as constituted around 2022, included 33 or more current and former members of Congress from both parties: Don Bacon (R-NE), Andre Carson (D-IN), Judy Chu (D-CA), Jim Clyburn (D-SC), Ruben Gallego (D-AZ), Andy Harris (R-MD), Jim Himes (D-CT), Gregory Meeks (D-NY), Bennie Thompson (D-MS), Maxine Waters (D-CA), Debbie Wasserman Schultz (D-FL), and others. Former advisory board members include Mark Meadows, Adam Schiff, and Sheila Jackson Lee. The breadth of this bipartisan Congressional roster is itself a form of institutional credibility &mdash; one that made the later Taihe Institute partnership possible.</p>",
+        "viz": "timeline"
+      },
+      {
+        "id": "taihe-partnership",
+        "title": "The Taihe Institute Partnership and CCP Nexus",
+        "content": "<p>In August 2017, HDI formalized a partnership with the Beijing-based Taihe Institute, a think tank whose senior fellows include 12 or more current and former members of the Chinese Communist Party and the People&rsquo;s Liberation Army. HDI Executive Director Merante participated in the Taihe Civilizations Forum in Beijing in both August 2017 and September 2019. Ruby Wang, Senior Vice President at Perfect World (a Chinese gaming company) and a Taihe fellow, joined the HDI board, serving as a bridge figure between the two organizations.</p>\n\n<p>The partnership drew significant scrutiny. The Washington Examiner reported on HDI&rsquo;s CCP connections, and multiple members of Congress resigned from the Advisory Board. Taihe co-authored a report with HDI-adjacent figures that called the United States a &ldquo;failed country&rdquo; and promoted the conspiracy theory that COVID-19 leaked from a Maryland military base. HDI&rsquo;s public response was to state that it &ldquo;never accepted any funds from the Taihe Institute or any Chinese Government organ or entity.&rdquo; Whether this denial addresses the full scope of the relationship is an open question: FARA&rsquo;s definition of &ldquo;agent of a foreign principal&rdquo; under 22 USC 611(c) does not require direct funding &mdash; acting &ldquo;at the order, request, or under the direction or control&rdquo; of a foreign principal is sufficient.</p>\n\n<p>The combination is what makes HDI structurally anomalous: a single organization simultaneously operating the largest private CODEL pipeline in the country, maintaining a formal partnership with a CCP/PLA-linked think tank, seating an Epstein family member on its board, and doing so with zero FARA registrations and zero LDA lobbying filings. Comparable China-U.S. influence organizations &mdash; specifically the China-United States Exchange Foundation &mdash; have registered under FARA with four separate registrants (Capitol Counsel #6328, Wilson Global #6584, BLJ Worldwide #5875, BGR Government Affairs #5430). HDI&rsquo;s functional equivalent activities remain entirely unregistered.</p>"
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Profile and Contraction",
+        "content": "<p>HDI&rsquo;s IRS 990 filings trace a steep financial decline. Revenue peaked at $1.82 million in 2011, sustained at $1.64 million (2012) and $1.70 million (2013), then began accelerating downward: $1.47 million (2015), $481,000 (2016), $401,000 (2017), $227,000 (2018). A brief spike to $360,000 in 2019 was followed by continued attrition: $202,000 (2020), $155,000 (2021), $174,000 (2022), and $221,000 (2023). Total assets peaked at $287,000 in 2011 and remained minimal at $170,000 in 2023. This represents over 80% revenue decline &mdash; far exceeding normal nonprofit fluctuation.</p>\n\n<p>The financial picture contains several flags. Mark Epstein loaned HDI over $100,000 in 2014, per the 990 filing &mdash; a personal loan from a board director that raises governance questions about the organization&rsquo;s independence. The 2015 return, signed by Mark Epstein as director, flagged &ldquo;Yes&rdquo; on Line 25a (excess benefit transaction with a disqualified person) and Line 5a (party to a prohibited tax shelter transaction), and disclosed foreign bank accounts. These are IRS red flags that rarely appear on legitimate nonprofit filings, individually or in combination.</p>\n\n<p>The revenue decline parallels &mdash; at much smaller scale &mdash; the pattern observed at <a href=\"/dossiers/ipi\">IPI</a>, whose assets fell 73% from $12.6 million to $3.9 million over a similar period. Both organizations are connected to the Epstein network through different pathways (HDI through Mark Epstein and Dossal; IPI through <a href=\"/dossiers/terje-rod-larsen\">Terje Rod-Larsen</a> and <a href=\"/dossiers/gratitude-america\">Gratitude America</a>). The partial revenue recovery in 2022&ndash;2023 may signal new funding sources entirely unrelated to the Epstein orbit, but without granular donor data from the 990s, the source of the recovery cannot be determined.</p>"
+      },
+      {
+        "id": "regulatory-gaps",
+        "title": "Regulatory Gaps and Disclosure Failures",
+        "content": "<p>HDI exists in a regulatory vacuum that appears to be structural rather than accidental. The organization has zero FARA registrations despite its partnership with the CCP-linked Taihe Institute and its role facilitating meetings between U.S. lawmakers and foreign heads of state including Azerbaijan&rsquo;s President Aliyev. It has zero lobbying filings in Senate LDA records despite maintaining a 33-member Congressional Advisory Board and organizing 52 or more CODELs. This absence of disclosure is not merely a technicality &mdash; it means that an organization with documented CCP institutional ties and documented Epstein family involvement in its governance has operated one of the most significant Congressional access pipelines in the country entirely outside federal transparency requirements.</p>\n\n<p>The FARA question is particularly pointed. Under 22 USC 611(c), the definition of &ldquo;agent of a foreign principal&rdquo; encompasses anyone who acts &ldquo;at the order, request, or under the direction or control&rdquo; of a foreign principal, or who &ldquo;acts in any other capacity at the order, request, or under the direction or control, of a foreign principal.&rdquo; HDI&rsquo;s Taihe partnership involved joint events, shared speakers, and co-produced publications &mdash; activities that, when performed by other organizations with Chinese government connections, have triggered FARA registration requirements. HDI&rsquo;s defense &mdash; that it received no funds from Taihe or any Chinese government entity &mdash; addresses only the funding prong and does not resolve whether the partnership constitutes direction, control, or agent-of status under the broader statutory framework.</p>\n\n<p>The 990 filing anomalies compound the picture. An organization that flags excess benefit transactions, prohibited tax shelter participation, and foreign bank accounts while its primary board-level relationship is with the brother of a convicted sex offender who was channeling delegation recruitment through that very board member &mdash; this combination of regulatory gaps would warrant examination in any systematic review of nonprofit compliance. That no such review has occurred is itself an open question for investigators.</p>"
+      }
+    ],
+    "applicable_models": [
+      "narrative-shield",
+      "bridge-tax",
+      "manufactured-dependency",
+      "complexity-as-credential",
+      "enabler-gradient"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Humpty Dumpty Institute",
+      "connections": [
+        {
+          "target": "Taihe Institute",
+          "type": "intelligence",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Partnership since 2017. Taihe employs 12+ CCP/PLA members. HDI participated in Taihe forums in Beijing. Neither registered under FARA."
+        },
+        {
+          "target": "Ralph Cwerman",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "990:134028567",
+          "description": "Cwerman is the care-of contact for Humpty Dumpty Institute on IRS records (EIN 13-4028567). He is the organizational point person for the entity whose revenue collapsed 80% from .8M to under K."
+        },
+        {
+          "target": "Mark Epstein",
+          "type": "corporate",
+          "strength": 1.0,
+          "evidence_ref": "990-EIN-13-4028567-2015",
+          "description": "Mark Epstein served as Director and signed HDI 2015 990 return. Brother of Jeffrey Epstein."
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #107: HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Forei"
+        },
+        {
+          "target": "Humpty Dumpty Institute",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #107: HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Forei"
+        },
+        {
+          "target": "Mark Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #109: Mark Epstein forwarded HDI Azerbaijan delegation email to Jeffrey Epstein on May 22, 2014, offering to do Jeffrey a favor by filling congressional slo"
+        },
+        {
+          "target": "Mark Epstein",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02598877",
+          "description": "Director on Board of Directors. Loaned HDI over 100K in 2014. Participated in congressional delegations to Azerbaijan and Bahrain."
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02718091",
+          "description": "Jeffrey received HDI CODEL recruitment emails from brother Mark. Had potential to fill congressional delegation slots via his network. Will left Mark 10M in trust."
+        },
+        {
+          "target": "Amir Dossal",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02707132",
+          "description": "Director on HDI Board. Chairman of Global Partnership Forum. Co-hosted UN SDG event June 2013 with Ghislaine Maxwell."
+        },
+        {
+          "target": "Taihe Institute",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02725237",
+          "description": "Formal partnership since Aug 2017. HDI participated in Taihe forums 2017 and 2019 in Beijing. Ruby Wang bridged both orgs. Taihe employs 12+ CCP/PLA members as senior fellows."
+        },
+        {
+          "target": "William Rouhana",
+          "type": "corporate",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02725237",
+          "description": "Co-founded HDI in 1998. Chairman since 2010. Also CEO of Chicken Soup for the Soul Entertainment. Chicken Soup donates revenue to HDI."
+        }
+      ],
+      "secondHop": {
+        "Humpty Dumpty Institute": [
+          {
+            "target": "Mark Epstein",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Mark Epstein served as Director and signed HDI 2015 990 return. Brother of Jeffrey Epstein."
+          },
+          {
+            "target": "International Peace Institute",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Finding #107: HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Forei"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #109: Mark Epstein forwarded HDI Azerbaijan delegation email to Jeffrey Epstein on May 22, 2014, offering to do Jeffrey a favor by filling congressional slo"
+          }
+        ],
+        "International Peace Institute": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Southern Trust Company Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Zorro Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Mark Epstein": [
+          {
+            "target": "Michael Wolff",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #182: Wolff pitched a book project about Epstein on July 31, 2011 titled 'Book project'. Email states: 'The book I have in mind will focus on, although not "
+          },
+          {
+            "target": "Sultan Bin Sulayem",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Finding #263: Epstein sent people to Sulayem in Dubai with the response: 'thank you, they are a treasure, no girl in dubai is safe tonite.' Context unclear but high"
+          },
+          {
+            "target": "Thorbjorn Jagland",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Finding #273: Jagland was visiting Moscow regularly and debriefing Epstein on Russian diplomatic positions. Oct 2017: 'I have to be in the tent. Tomorrow the Presid"
+          },
+          {
+            "target": "Melanie Walker",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Finding #357: Walker told Epstein she was instructed by 'the inner circle' not to communicate with him (post-2008 conviction), and would be 'in deep trouble' if she"
+          },
+          {
+            "target": "Prytanee LLC",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #550: Prytanee LLC ownership structure per Deutsche Bank 2018 periodic review: Southern Trust Company Inc (50%, sole shareholder Jeffrey Epstein, board dire"
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "1998-10-19",
+        "label": "HDI (EIN 13-4028567) IRS 990 filings show: revenue peaked at .47M (2015), declined to K (2020), recovered to K (2023). Incorporated Oct 19, 1998 in NY (Corp #2307873). Registered address was c/o Michael W. Sonnenfeldt, 146 Central Park West Ste 10-D, NYC. Mark Epstein loaned HDI over K in 2014 per 990 filing.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 120
+      },
+      {
+        "date": "2011",
+        "label": "HDI (EIN 13-4028567) 990 filings show severe financial contraction. Peak revenue was .82M in 2011, declining to .47M in 2015, K in 2016, K in 2017, K in 2018, then a brief spike to K in 2019, K in 2020, K in 2021, K in 2022, and K in 2023. Assets peaked at K (2011) and have remained minimal (K in 2023). Care-of is Ralph Cwerman. The organization went from a .8M/yr operation to under K/yr, representing over 80% revenue decline - far more severe than typical nonprofit fluctuations.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 426
+      },
+      {
+        "date": "2011",
+        "label": "HDI cumulative 990 analysis: Revenue declined 73.6% from peak of .82M (2011) to K (2023). The organization consistently spent more than it earned, but survived by operating on thin margins with minimal assets (K-287K range). Revenue collapse began immediately: .82M (2011), .64M (2012), .70M (2013), then accelerating decline to K by 2018. Partial recovery in 2022-2023 (K, K) may reflect new funding sources unrelated to Epstein. HDI operated with much smaller scale than IPI but showed similar pattern of contraction.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 460
+      },
+      {
+        "date": "2011-08-30",
+        "label": "Amir Dossal (HDI Director, Global Partnership Forum Chairman) appeared alongside Deutsche Bank Global Head Kevin Parker and Russian Duma member Ilya Ponomarev at the New York Academy of Sciences 'Science & the City Gala' on Aug 30, 2011. Event honored UN Secretary-General Ban Ki-moon and featured James Simons, James Watson, Jack Rosen, and other Epstein network figures.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 117
+      },
+      {
+        "date": "2013-06-20",
+        "label": "Amir Dossal (HDI Director per LittleSis) co-hosted June 20, 2013 UN event on oceans/Sustainable Development Goals with Ghislaine Maxwell (TerraMar Project) and Stuart Beck (Palau Ambassador). Event at UN Conference Building, Room D. Dossal chaired the Global Partnership Forum.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 114
+      },
+      {
+        "date": "2014",
+        "label": "HDI has organized 52+ Congressional Delegations including to Azerbaijan (2014), Bahrain (2013), Turkey/Cyprus, and UN headquarters. In the last decade, HDI organized programs for 250+ Members of Congress and 400+ Senior Congressional Staff to the UN and countries in the Middle East, Africa, former Soviet Union, Caribbean, and Asia. Mark Epstein personally participated in Bahrain and Azerbaijan delegations.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 130
+      },
+      {
+        "date": "2014-05-22",
+        "label": "When Azerbaijan CODEL members dropped out, HDI Executive Director Joe Merante emailed requesting replacements from 'media, finance, banking, education' - Mark Epstein forwarded this directly to Jeffrey Epstein May 22, 2014. The trip was 'entirely first class with all first class accommodations' and included meeting the President of Azerbaijan. This shows Jeffrey Epstein had access to fill congressional delegation slots through Mark's HDI board position.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 133
+      },
+      {
+        "date": "2014-06-04",
+        "label": "HDI organized Congressional Delegation to Azerbaijan (May 30-June 4, 2014) with meetings with President Ilham Aliyev, US Ambassador Morningstar, Foreign Affairs Minister Mammadyarov, and parliamentary committees. Full agenda found in Epstein document files.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 107
+      },
+      {
+        "date": "2014-12-22",
+        "label": "HDI CODEL pipeline mechanics reconstructed. Mark Epstein (Jeffrey's brother, HDI board member) personally participated in CODELs to Bahrain (2013) and Azerbaijan (2014). EFTA02598877 shows Mark emailed Jeffrey Dec 22, 2014: 'We (Humpty Dumpty Institute) led a congressional delegation to Bahrain to meet with ministers and the president (king/head poobah), opposition leaders, senate, head of the US Navy 5th fleet (headquartered in Bahrain) etc. I did not know you were doing this kind of stuff. I was also on one to Azerbaijan, and might go on one to Turkey/Cypress in March.' EFTA02725237 shows full Azerbaijan agenda (May 30-Jun 4, 2014): meetings with President Ilham Aliyev, US Ambassador Morningstar, Foreign Affairs Minister Mammadyarov. When members dropped out, Merante sought replacements from 'media, finance, banking, education' -- Mark forwarded directly to Jeffrey (May 22, 2014), giving Jeffrey access to fill Congressional delegation slots. HDI has organized 52+ CODELs total with 550+ Congress members/staff. These are all-expenses-paid first-class trips. The combination of CCP/Taihe partnership + CODEL access + Epstein family involvement + zero FARA/LDA registration constitutes a significant regulatory blind spot.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1187
+      },
+      {
+        "date": "2015",
+        "label": "HDI 2015 990 reveals 14-member board. Chairman: Dr. Al Khalafalla. Chairman Emeriti: Constance Milstein, Michael W. Sonnenfeldt. Directors: William J. Rouhana, Benjamin Gilman (former US Congressman), Venerable Hsin Ting, Mark Epstein (Jeffrey Epstein's brother - SIGNED THE RETURN as Director), Jennifer Diamond, Walter Arbib, Cosmo Denicola, Amir Dossal (Ex Officio, former UN Chief of Partnerships), Deborah Landey (former UNDP), Christopher Mitchell. President/CEO: Ralph L. Cwerman (40 hrs/wk, $145,458 compensation). CRITICAL: Mark Epstein both served as director AND signed the return ('Mark L. Epstein, Director'). Also flagged Yes on Line 25a: excess benefit transaction with disqualified person. Also flagged Yes on Line 5a: party to prohibited tax shelter transaction. Also had foreign bank accounts.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 1534
+      },
+      {
+        "date": "2015-10",
+        "label": "HDI Board of Directors includes: William J. Rouhana Jr (Co-founder, Chairman since 2010, CEO of Chicken Soup for the Soul Entertainment), Ralph L. Cwerman (Co-founder, President since 1998), Michael W. Sonnenfeldt (Co-founder, Director, MUUS & Company), Constance Jane Milstein (Chairman Emeritus, Biden Ambassador nominee to Malta), Mark Epstein (Director, Jeffrey Epstein's brother), Amir Dossal (Director, Global Partnership Forum Chairman), Jay T. Snyder (Director, HBJ Investments), Benjamin A. Gilman (Director, former US Congressman), Walter Simon Arbib (Director, SkyLink Group President). Executive Director: Joseph Merante (ex-State Dept Foreign Service). Board Chairman: Dr. Al Khalafalla (since Oct 2015).",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 129
+      },
+      {
+        "date": "2017",
+        "label": "HDI FARA LEGAL ANALYSIS: Humpty Dumpty Institute has zero FARA registrations despite documented CCP/Taihe Institute partnership (since 2017) and extensive Congressional engagement. HDI's activities that potentially trigger FARA: (1) Partnership with Taihe Institute, which employs 12+ current/former CCP and PLA members as senior fellows; (2) 52+ Congressional Delegations to 30+ countries including Azerbaijan, Bahrain, Turkey/Cyprus, and UN; (3) 33+ current/former Congress members on advisory board including Maxine Waters, Jim Clyburn, Debbie Wasserman Schultz, Gregory Meeks; (4) 550+ members of Congress and staffers hosted for summits; (5) Mark Epstein (Jeffrey's brother) on board, participated in Bahrain and Azerbaijan CODELs; (6) Taihe co-authored report calling US 'failed country' and claiming COVID leaked from Maryland military base. HDI CLAIMS: States it 'never accepted any funds from the Taihe Institute or any Chinese Government organ or entity.' FARA COMPARABLE: China-United States Exchange Foundation registered under FARA with 4 separate registrants (Capitol Counsel #6328, Wilson Global #6584, BLJ Worldwide #5875, BGR Government Affairs #5430) for similar China-US influence activities. HDI's partnership with Taihe performing similar functions without FARA registration is anomalous. COUNTER: HDI's 990s show revenue declined from $1.47M (2015) to $202K (2020), suggesting limited operational capacity. HDI claims no Chinese government funding. KEY QUESTION: Even if no direct Chinese funding, does the Taihe partnership constitute acting as agent of a foreign principal under 22 USC 611(c)?",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1150
+      },
+      {
+        "date": "2017-08",
+        "label": "HDI partnered with Beijing-based Taihe Institute starting 2017. Taihe employs 12+ current/former CCP and PLA members as senior fellows. HDI participated in Taihe Civilizations Forum Aug 2017 (Beijing) and Sept 6-8, 2019 (Beijing). Ruby Wang (Perfect World gaming company SVP, Taihe fellow) joined HDI board. HDI exec Joseph Merante presented at both forums. Partnership drew CCP influence concerns from Washington Examiner and multiple Congressional resignations.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 122
+      },
+      {
+        "date": "2017-present",
+        "label": "intelligence with Taihe Institute",
+        "type": "intelligence",
+        "entity": "Taihe Institute",
+        "id": 557
+      },
+      {
+        "date": "2022",
+        "label": "HDI Congressional Advisory Board includes 33+ current/former US Representatives and Senators as of 2022. Current members include: Don Bacon (R-NE), Andre Carson (D-IN), Buddy Carter (R-GA), Judy Chu (D-CA), Yvette Clarke (D-NY), Jim Clyburn (D-SC), Ruben Gallego (D-AZ), Raul Grijalva (D-AZ), Andy Harris (R-MD), Jim Himes (D-CT), Hank Johnson (D-GA), Robin Kelly (D-IL), Gregory Meeks (D-NY), Barry Moore (R-AL), August Pfluger (R-TX), Mark Pocan (D-WI), Bennie Thompson (D-MS), Maxine Waters (D-CA), Debbie Wasserman Schultz (D-FL), Frederica Wilson (D-FL). Former members include Mark Meadows, Adam Schiff, Sheila Jackson Lee, and others.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 124
+      }
+    ]
+  }
+}

@@ -1,0 +1,2071 @@
+{
+  "name": "Terje Rod-Larsen",
+  "slug": "terje-rod-larsen",
+  "aliases": [
+    "Rod-Larsen"
+  ],
+  "generated_at": "2026-02-20T01:17:47.270020",
+  "last_updated": "2026-02-17T04:24:24",
+  "stats": {
+    "total_findings": 21,
+    "total_connections": 24,
+    "total_entities": 3,
+    "finding_types": {
+      "financial": 7,
+      "relationship": 2,
+      "intelligence": 3,
+      "document": 1,
+      "legal": 5,
+      "communication": 3
+    },
+    "connection_types": {
+      "familial": 2,
+      "financial": 6,
+      "intelligence": 4,
+      "social": 4,
+      "legal": 1,
+      "political": 4,
+      "advisory": 1,
+      "employment": 2
+    },
+    "last_updated": "2026-02-17T04:24:24"
+  },
+  "findings": [
+    {
+      "id": 1443,
+      "finding_type": "financial",
+      "summary": "IPI financial trajectory mapped from ProPublica 990 filings (2005-2023): Peak revenue $11.87M (2014) declining to $5.04M (2023). Peak assets $16.37M (2014) declining to $6.91M (2023). Post-Epstein arrest (2019): Revenue $9.33M, expenses $10.09M — already deficit spending. COVID year (2020): Revenue collapsed to $3.93M while expenses remained $7.62M — $3.7M deficit. Recovery (2021): Revenue spike to $10.77M. Steady decline since: $6.66M (2022), $5.04M (2023). KPMG confirmed $650K in Epstein-related donations (2010-2020) plus $14,158.88 Summers flight reimbursement. IPI lost approximately 58% of its asset base from peak ($16.37M → $6.91M) over the period, with the steepest drops coinciding with the Epstein scandal and Rod-Larsen's departure. The organization continues operating at 777 UN Plaza but at dramatically reduced scale.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2005",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:11:38",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "ProPublica:EIN030213226",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "finding_type": "relationship",
+      "summary": "Epstein arranged private jet flight for entire Rod-Larsen family (Terje, Mona Juul, Edward Juul Rod-Larsen, Emma Juul Rod-Larsen) from Teterboro NJ to Bermuda on May 6, 2011. Flight booked through Flight Options under AIRGHN2 account (Beechjet/Hawker 400XP). Trip arranged by Richard Kahn (HBRK Associates). All four passport details on file with Epstein's staff.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2011-05-06",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:17",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02319920",
+          "source_quote": "From: \nSent: \nSunday, March 27, 2011 12:17 AM \nTo: \nLarry Visoski \nSubject: \nPassport info \nEmma Juul Roed- Larsen \nPassport no \nNationality: Norwegian \nBorn \nPassport issued: Oslo Norway \nDate of issue: 11 01 11 \nExpire: 11 01 16 \nEdward Juul...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02320631",
+          "source_quote": "PASSENGERS (4) 1 ROD-LARSEN, TERJE 2 JUUL, MONA 3 ROD-LARSEN, EDWARD JUUL 4 ROD-LARSEN, EMMA JUUL",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1439,
+      "finding_type": "financial",
+      "summary": "June 2013 loan mechanics documented: Richard Kahn (HBRK Associates) emailed Rod-Larsen requesting bank routing number, account name, and 'ability to sign promissory note for this 6 month loan' (EFTA02722550). This is the documented $130K personal loan from Epstein to Rod-Larsen that is now under Okokrim investigation. The loan was structured through Kahn (Epstein's financial manager), required a promissory note, and was explicitly labeled as a '6 month loan.' Key questions: (1) Was the promissory note ever executed? (2) Was the loan ever repaid? (3) Was Rod-Larsen's UNFCU account (the one used for the $250K December 2015 wire) also used for this earlier loan? The 6-month term suggests the loan should have been repaid by December 2013 — if not repaid, it becomes a gift to a sitting UN official.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2013-06",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:11:11",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02722550",
+          "source_quote": "can you please provide the following: a) bank routing number b) name on account wire will be sent to c) ability to sign promissory note for this 6 month loan",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "finding_type": "intelligence",
+      "summary": "Rod-Larsen forwarded Middle East intelligence to Epstein directly. On Oct 17 2014, forwarded 'Notes on the Middle East' from Omar El Okdah. Richard Nawrot (IPI) forwarded SAMA/Saudi Aramco intelligence to Rod-Larsen (US Saudi arms deal, Blackstone infrastructure fund with SAMA). Separately, Landon Thomas told Epstein Saudis (SAMA) withdrew USD 200B from usual suspects. Epstein provided geopolitical analysis to Thomas about Saudi royal family and bin Salman. This shows Epstein as intelligence hub with Rod-Larsen as ME access point.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2014-10-17",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:28",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02338032",
+          "source_quote": "Notes on the Middle East",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02446882",
+          "source_quote": "CEO of big finance form told me that Saudis (SAMA) have withdrawn 200 billion that has been parked with usual suspects",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "finding_type": "document",
+      "summary": "Epstein and Rod-Larsen co-authored Dear Bill letter (June 11-16, 2015) inviting Gates to keynote IPI pandemic conference. Letter references Christopher Elias meetings and IPI-Gates cooperation on polio. Epstein sent initial draft Jun 11, Rod-Larsen made minor edits, Epstein approved Jun 16. This was AFTER Gates Foundation formally rejected the pandemic conference proposal (March 9, 2015), suggesting Epstein tried to bypass Foundation staff by appealing directly to Gates.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2015-03-09",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:36:20",
+      "target_name": "Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02497615",
+          "source_quote": "dear bill wish you were here",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02498603",
+          "source_quote": "From: \njeffrey E. <jeevacation@gmail.com> \nSent: \nThursday, June 11, 2015 11:16 PM \nTo: \nTerje Rod-Larsen \near Bill, \nIPI is organizing our conference on a gl=bal responses to future pandemics. The idea is coincident I believe,=with your \nthinking...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02713880",
+          "source_quote": "we regret that we cannot provide the requested support",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "finding_type": "financial",
+      "summary": "Epstein wired USD 250K to Rod-Larsen's UNFCU (UN Federal Credit Union) account in December 2015. Rod-Larsen forwarded UNFCU account details to Epstein via assistant Fabrice Aidan. Epstein then instructed Richard Kahn '250k' with the bank transfer details.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2015-12",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:24:25",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477238",
+          "source_quote": "250k ... Terje Roed-Larsen account at UNFCU Bank ... Account number ... UNFCU routing number",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "finding_type": "financial",
+      "summary": "'Oslo Play' was Epstein's term for an event/network operation involving Middle Eastern politicians through IPI/Rod-Larsen. Epstein wrote to Tom Pritzker: 'lots of middel east pols around for the oslo play, any specific country interest?' (Apr 2017). Also referenced with Jabor Y. (Qatari contact): 'Are you coming to Oslo play on 5th.' Valeria Chomsky referenced it as social event: 'OSLO play would be a good reason.' The term appears tied to IPI events where Epstein offered access to Middle East political figures, leveraging Rod-Larsen's UN diplomatic network.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-04",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:18",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02456457",
+          "source_quote": "when ever where ever, and for as long as you guys li=e. . the apt is waiting.",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02651487",
+          "source_quote": "Are you coming to Oslo play on 5th",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02652208",
+          "source_quote": "lots of middel east pols around for the oslo play, any specific country interest?",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1440,
+      "finding_type": "legal",
+      "summary": "GDELT media analysis (Feb 5-6, 2026): 20+ international articles covering Norwegian Epstein fallout. Key developments beyond existing findings: (1) Al Jazeera (Feb 6): Okokrim found 'reasonable grounds' to investigate Jagland for aggravated corruption — authorities examining 'gifts, travel and loans' connected to official positions; (2) Norway's Foreign Ministry requested immunity revocation from Council of Europe for Jagland; (3) Borge Brende acknowledged 'several business dinners' and 'a few mails and SMS messages' with Epstein 2018-2019, claims unaware of criminal history; (4) WEF launched independent review of Brende; (5) Guardian coverage: 'Resignations, denials and excuses: Epstein fallout hits some harder than others' (Feb 5); (6) Coverage spans 14+ countries including Norway, US, UK, France, India, Pakistan, Singapore, Ireland, Australia, Nigeria — demonstrating global diplomatic impact. No articles found mentioning Rod-Larsen/Okokrim directly in GDELT's 3-month window, suggesting Rod-Larsen charges were covered in earlier cycle.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:11:25",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "GDELT:Okokrim_Epstein_20260206",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "finding_type": "financial",
+      "summary": "Epstein told Skaugen 'I funded' on Apr 29, 2018, three weeks before Drammensveien 42 closing. This confirms Epstein directly provided capital for the property purchase. Separate from the 'craft purchase' negotiation, this is Epstein confirming financial disbursement to Morits Skaugen regarding the Rod-Larsen property deal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-04-29",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:46",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02456962",
+          "source_quote": "I funded",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "finding_type": "communication",
+      "summary": "Rod-Larsen used IPI (International Peace Institute) as platform for Epstein access to world leaders. Confirmed: (1) Dinner with UNGA President Miroslav Lajcak at Epstein's home, Jun 3 2018 (EFTA02246816); (2) Dinner with Lajcak + Brad Karp + Michael Wolff, Jan 31 2018 (EFTA02235763); (3) Formal dinner invitations sent from IPI with Mona Juul as co-host (EFTA02592104); (4) UN Security Council briefing shared with Epstein (EFTA02723735). Rod-Larsen was IPI president while directing IPI activities through Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-06-03",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:57",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02235763",
+          "source_quote": "To: \nFrom: \nes ey ro' \nSubject Alert - 7:00 m DINNER w/President La'cak Brad Karp and Michael Wolff (Pres. Lajcak: \n'red \n(Michae \n) \nJanuary 31, 2018 7:00 PM : 7:00pm DINNER w/President Licak Brad Ka \nand Michael Wolff \n(Pres. Lajcak: 6\nBrad...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02246816",
+          "source_quote": "Hello Terje-Jeffrey is asking if you could please join him and President Lajcak for dinner on Sunday at Jeffreys home at 7pm",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02592104",
+          "source_quote": "Invitation for dinner on Friday, October 24, from Mona Juul and Terje Roed-Larsen",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02723735",
+          "source_quote": "2013 10 24 TRL briefing SC pdf \nDear friends, \nPlease find attached a copy of the briefing I gave to the Security Council yesterday on the \nSecretary-General's report on the implementation of resolution 1559, which I thought might be of \ninterest to you. \nWarm regards, \nTerje \nCamilla...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "finding_type": "financial",
+      "summary": "Lawyer Kare I. Moljord of Arntzen de Besche Advokatfirma (Norwegian Supreme Court Lawyer) handled the Drammensveien 42 property transaction as intermediary between Epstein, Rod-Larsen, and seller Morits Skaugen. Email thread titled 'Our mutual friend' shows: (1) Moljord negotiated DNB mortgage release of MNOK 18; (2) Morits Skaugen signed purchase agreement (Avtale om kjop av Drammensveien 42) on Jun 22, 2018; (3) Closing date June 30, 2018; (4) Moljord forwarded executed agreement to Epstein.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-06-22",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:24:56",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02483682",
+          "source_quote": "From: \nOre I. Moljord \nSent: \nSaturday, April 7, 2018 11:56 AM \nTo: \nJeff Epstein \nSubject: \nMutual friend -DHL \n'Ore I. Moljord \nPartner • Advokat (H) • Supreme Court Lawyer \n1 \nEFTA_R1_01601049 \nEFTA02483682",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02572738",
+          "source_quote": "Signert og sendt deg idag med bud. 2 eks i original. Avtale om kjop av Drammensveien 42",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573110",
+          "source_quote": "Mail from M today with copy of executed agreement - originals on the way by courier",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "finding_type": "relationship",
+      "summary": "Epstein provided extensive patronage to Rod-Larsen's son Edward: (1) Arranged Christie's Chairman's Programme internship, Jul 2018 - Edward wrote 'wanted to thank you again for this great opportunity'; (2) Edward worked at 'the bank' and sent Epstein formal apology for absence, Sep 2017; (3) Epstein had David Stem work on Edward's CV, Jul 2017; (4) Epstein connected Edward to Rita Hauser for NYU admissions recommendation, Jan 2019 - Hauser told Edward 'I will speak to the Admissions Office on Tuesday'; (5) Epstein reviewed Edward's NYU essays and suggested edits, Oct 2018.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:28",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02224747",
+          "source_quote": "To: \nFrom: \nSubject Alert - we need Edward Rod -Larsens details for David Stem \nJuly 24, 2017 6:00 AM : we need Edward Rod -Larsens details for David Stem \nEFTA_R1_00966054 \nEFTA02224747",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02591946",
+          "source_quote": "I concluded my week at Christies yesterday afternoon. It was absolutely great. So much useful advice and information. Just wanted to thank you again for this great opportunity",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02620867",
+          "source_quote": "From: \nEdward Rod Larsen \nSent: \nWednesday, September 13, 2017 9:04 PM \nTo: \nJeffrey Epstein \nI am writing to formally apologise for my absence from =ork at the bank last week. \nYour's Since=ely, \nCT> \nEdward Rod-Larsen \n1 \nEFTA_R1_01827452...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02626583",
+          "source_quote": "I will speak to the Admissions Office on Tuesday and recommend you for early admission",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1444,
+      "finding_type": "intelligence",
+      "summary": "Rod-Larsen and Edward (son) essays connection: Epstein was personally editing Edward Rod-Larsen's NYU application essays in October 2018 (HOUSE_OVERSIGHT_033416). Exchange shows Epstein instructing Edward to change specific sentences: 'essay 1. change next to the last sentence. Similarly...to I look forward to accessing the cultural resources in New York in order that I...' Edward replied 'will do.' This adds to the pattern of Epstein controlling Rod-Larsen family advancement: (1) Christie's Chairman's Programme internship for Edward (Jul 2018); (2) David Stem working on Edward's CV (Jul 2017); (3) Rita Hauser NYU admissions recommendation (Jan 2019); (4) Bank position where Edward sent Epstein 'formal apology for absence' (Sep 2017). Epstein was functionally managing Edward's educational and career trajectory, creating deep obligation for Rod-Larsen family.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2018-10",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:11:49",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "HOUSE_OVERSIGHT_033416",
+          "source_quote": "essay 1. change next to the last sentence. Similarly...to I look forward to accessing the cultural resources in New York in order that I / Edward: will do",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "finding_type": "communication",
+      "summary": "Epstein ghostwrote 'Dear Bill' letters to Bill Gates on behalf of Rod-Larsen/IPI. Two confirmed instances: (1) Jan 2019 Davos letter requesting lunch, celebrating 'years of cooperation with the Gates Foundation' (EFTA02625684). (2) Jun 2015 pandemic conference keynote invitation, drafted by Epstein and forwarded to Rod-Larsen who asked 'I made a couple of minor edits in the below - is this ok?' confirming Epstein authored the letter. This shows Epstein directing IPI outreach to Gates Foundation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-01",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:24:44",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02497615",
+          "source_quote": "I made a couple of minor edits in the below - is this ok? ... Dear Bill, IPI is organizing our conference on a global responses to future pandemics",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02625684",
+          "source_quote": "Dear Bill, A very happy new year to you\\! ... International Peace Institute (IPI) now can celebrate years of cooperation with the Gates Foundation",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "finding_type": "communication",
+      "summary": "Epstein hosted Borge Brende (then WEF President, former Norwegian Foreign Minister) for dinner at 9 E 71st Street on Jun 13 2019 -- exactly one month before Epstein's arrest on Jul 6 2019. Sushi dinner confirmed for 8:30pm. Brende's address was forwarded to Epstein's staff by Rod-Larsen in May 2016 (EFTA02703534). Brende is now under Norwegian investigation for Epstein ties. This was one of the last high-level meetings before arrest.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2019-06-13",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:07",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02290348",
+          "source_quote": "Good morning Borge. Reconfirming you will come see Jeffrey tonight at his home at 8:30pm ... sushi would be amazing",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02703534",
+          "source_quote": "From: \nTerje Rod-Larsen \nSent: \nThursday, May 12, 2016 9:53 PM \nTo: \nJeffrey Epstein \nSubject: \nFwd: Letter from Mr. Roed Larsen \nAttachments: \n160512 TRL letter to the Secretary-General.pdf; ATT00001.htm \nSent from my iPhone \nBegin forwarded...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "finding_type": "intelligence",
+      "summary": "Okokrim (Norwegian economic crime authority) opened corruption investigation of Mona Juul and Terje Rod-Larsen in Feb 2026. Juul charged with gross corruption based on position at Foreign Ministry. Rod-Larsen charged with aiding and abetting gross corruption. Investigation focuses on: (1) 2018 Drammensveien 42 property at below-market value; (2) lavish travel/holidays with Epstein. Juul resigned as ambassador to Jordan. Former PM Thorbjorn Jagland also under investigation for Epstein ties. Former FM Borge Brende (WEF president) under investigation.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:25:38",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477777",
+          "source_quote": "craft purchase for 18 million",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573110",
+          "source_quote": "From: \nOre I. Moljord .1\n1 \nSent: \nFriday, June 22, 2018 827 AM \nTo: \njeffrey E. \nSubject: \nRE: Our mutual friend \nJune 30 \nVENNLIG HILSEN / BEST REGARDS, \nKare I. Moljord \nPartner • Advokat (H) • Supreme Court Lawyer \n<http://www.adeb.no/> \nArntzen...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "finding_type": "legal",
+      "summary": "BREAKING Feb 2026: Norwegian police (Okokrim) opened investigation into Rod-Larsen and wife Mona Juul for 'aggravated corruption' and 'complicity in aggravated corruption.' Police searched the couple's Oslo residence and that of a witness. Key allegations: (1) Rod-Larsen wrote official visa recommendation letters for young Russian women in Epstein's orbit, claiming they possessed 'extraordinary abilities' suitable for research positions, when they were often models without academic credentials. (2) Epstein ordered $250K paid to Rod-Larsen in 2015 (reasons unknown). (3) Epstein intervened in 2018 to facilitate the couple's purchase of an Oslo apartment at half market value (14M kroner). (4) Epstein left $10M in his will to their two children. (5) Rod-Larsen described as 'spider at the centre of the web' -- a facilitator who funnelled people to Epstein. (6) Norwegian investigation found 'significant deficiencies' in government oversight of IPI grants: weak oversight, lack of conflict of interest assessments.",
+      "detail": null,
+      "source_datasets": [
+        "media_aljazeera",
+        "media_france24"
+      ],
+      "confidence": "medium",
+      "date_of_event": "2026-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:59:55",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "AlJazeera:2026-02-12",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DigitalJournal:2026-02-11",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "France24:2026-02-11",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 1160,
+      "finding_type": "legal",
+      "summary": "Rod-Larsen Okokrim charges updated Feb 2026: Charged with AIDING AND ABETTING AGGRAVATED CORRUPTION (medvirkning til grov korrupsjon). Wife Mona Juul charged with AGGRAVATED CORRUPTION (grov korrupsjon) -- Juul resigned as ambassador to Jordan/Iraq. Okokrim chief Pal Lonseth stated investigation covers 'comprehensive and by all accounts lengthy' probe. Specific Okokrim focus: (1) 2018 Drammensveien 42 property purchase at half market value (14M NOK vs 25M+ market, EFTA02345138); (2) Travel including Palm Beach stays; (3) Visa fraud: Rod-Larsen wrote O-1 visa recommendation letters for young Russian women in Epstein orbit, claiming 'extraordinary abilities' for what were often models without academic credentials; (4) $130K loan from Epstein in 2013; (5) $10M bequest to their children in Epstein will; (6) Norwegian investigation found 'significant deficiencies' in government oversight of IPI grants. Rod-Larsen described by Norwegian media as 'spider at the centre of the web' -- a facilitator who funnelled people to Epstein. Al Jazeera Feb 12 reports Rod-Larsen 'confident the case will eventually be dropped' per his lawyer.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2026-02",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 22:56:37",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02280923",
+          "source_quote": "To: \nFrom: \nBella Klein \nSent \nThur 4/4/2019 8:38:07 PM \nSubject Fwd: IPI bank instructions and 501c3 certification \nThank you, \nBella \nBegin forwarded message: \nFrom: Bella Klein \nSubject: Fwd: IPI bank instructions and 501c3 certification \nDate:...",
+          "source_page": null,
+          "assessment": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02345138",
+          "source_quote": "From: \nSultan Bin Sulayem \nSent: \nWednesday, February 22, 2017 4:36 PM \nTo: \nJeffrey E. \nSubject: \nRe: \nIt's 4.5 hours drive from Geneva our b=nk can take me but we cannot get a slot to land \nMr Thorbjorn Jagland is the 13th Secretary General of t=e...",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "finding_type": "financial",
+      "summary": "Epstein arranged purchase of Drammensveien 42 Oslo apartment for Rod-Larsen/Juul at NOK 14M, millions below market value. Epstein instructed lawyer Moljord: 'craft purchase for 18 million to be held for 3 to 4 weeks terje will put up 4 m, m puts up 4 and terje borrow 10m.' Property sold by shipowner Morits Skaugen who described the sale as 'not voluntary.' Epstein contributed NOK 4M and later pressured Skaugen for repayment.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": null,
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:24:17",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477777",
+          "source_quote": "craft purchase for 18 million to be held for 3 to 4 weeks terje will put up 4 m, m puts up 4 and terje borrow 10m",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "finding_type": "legal",
+      "summary": "Epstein's will left USD 10M to Rod-Larsen and Juul's two children (Edward and Emma). This was documented in Norwegian media reporting and confirmed by the Okokrim investigation. The bequest to children of a sitting ambassador/senior diplomat from a convicted sex offender represents potential corruption under Norwegian law, forming a core element of the Okokrim case.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:26:37",
+      "target_name": "Terje Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02319920",
+          "source_quote": "Emma Juul Roed-Larsen ... Edward Juul Roed-Larsen ... Mona Juul ... Terje Roed-Larsen",
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "finding_type": "legal",
+      "summary": "Terje Rod-Larsen has no FARA registration despite serving as IPI president while receiving Norwegian government funding and directing foreign policy engagement with US Congress members. As a Norwegian national leading a Norwegian-funded organization that lobbied US policymakers, FARA registration may have been required. Zero results for both 'Rod-Larsen' and 'Terje Rod' in FARA database.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "inference",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 22:41:49",
+      "target_name": "Rod-Larsen",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "https://efile.fara.gov/ords/f?p=1381:200#q=negative_search_Rod-Larsen",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 170,
+      "person_a": "Mona Juul",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "familial",
+      "description": "Married couple. Both under Norwegian Okokrim investigation (Feb 2026) for aggravated corruption related to Epstein. Children named in Epstein will for 10M.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:01:56",
+      "other_person": "Mona Juul",
+      "other_person_slug": "mona-juul",
+      "evidence": []
+    },
+    {
+      "id": 51,
+      "person_a": "IPI",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:39",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 53,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:14:49",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": []
+    },
+    {
+      "id": 229,
+      "person_a": "Anas Alrasheed",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:33:35",
+      "other_person": "Anas Alrasheed",
+      "other_person_slug": "anas-alrasheed",
+      "evidence": []
+    },
+    {
+      "id": 720,
+      "person_a": "Edward Rod-Larsen",
+      "person_b": "Rod-Larsen",
+      "relationship_type": "social",
+      "description": "Rod-Larsen forwarded son Edward's IPI employment, NYU applications, and career details to Epstein — Epstein controlled Edward's trajectory (HOUSE_OVERSIGHT_033416)",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 02:16:13",
+      "other_person": "Edward Rod-Larsen",
+      "other_person_slug": "edward-rod-larsen",
+      "evidence": []
+    },
+    {
+      "id": 102,
+      "person_a": "Jeffrey Epstein",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "financial",
+      "description": "Property financier (Drammensveien 42 NOK 4M), USD 250K direct payment, patronage of children, IPI funder, private jet travel. Rod-Larsen was IPI president and Epstein gateway to ME politicians and UN officials.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:16",
+      "other_person": "Jeffrey Epstein",
+      "other_person_slug": "jeffrey-epstein",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477238",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02477777",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "person_a": "Morits Skaugen",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "financial",
+      "description": "Skaugen sold Drammensveien 42 to Rod-Larsen/Juul at below-market value under Epstein pressure. Sale described as not voluntary.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:18",
+      "other_person": "Morits Skaugen",
+      "other_person_slug": "morits-skaugen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02456962",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573110",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "person_a": "Kare I. Moljord",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "legal",
+      "description": "Moljord (Arntzen de Besche) handled Drammensveien 42 transaction. Communicated directly with Epstein in Our mutual friend thread.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:20",
+      "other_person": "Kare I. Moljord",
+      "other_person_slug": "kare-i-moljord",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02483682",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02573110",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "person_a": "Borge Brende",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "political",
+      "description": "Brende (WEF President, ex-Norwegian FM) introduced to Epstein through Rod-Larsen. Dined at 9 E 71st Jun 13 2019. Both under Okokrim investigation.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:22",
+      "other_person": "Borge Brende",
+      "other_person_slug": "borge-brende",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02290348",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02703534",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "person_a": "Bill Gates",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "advisory",
+      "description": "Epstein ghostwrote Dear Bill letters for Rod-Larsen to Gates Foundation. IPI received Gates Foundation funding. Two confirmed ghostwritten letters (2015, 2019).",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:26",
+      "other_person": "Bill Gates",
+      "other_person_slug": "bill-gates",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02497615",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02625684",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "person_a": "Miroslav Lajcak",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "political",
+      "description": "Lajcak (UNGA President) dined at Epstein home through Rod-Larsen. Jun 2018, Jan 2018, Nov 2017 meetings confirmed.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:27",
+      "other_person": "Miroslav Lajcak",
+      "other_person_slug": "miroslav-lajcak",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02235763",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02246816",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "person_a": "Mona Juul",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "familial",
+      "description": "Married couple. Both charged by Okokrim. Co-beneficiaries of Drammensveien 42. Two children (Edward, Emma) received M in Epstein will.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:37",
+      "other_person": "Mona Juul",
+      "other_person_slug": "mona-juul",
+      "evidence": []
+    },
+    {
+      "id": 151,
+      "person_a": "Terje Rod-Larsen",
+      "person_b": "Thorbjorn Jagland",
+      "relationship_type": "social",
+      "description": "Rod-Larsen invited Jagland to see Epstein in Paris (Jun 2018). Both Norwegian establishment figures in Epstein orbit. Jagland told Maldives president Waheed that Jagland is 'a great friend' (2013)",
+      "strength": "strong",
+      "date_range": "2013-2018",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:32",
+      "other_person": "Thorbjorn Jagland",
+      "other_person_slug": "thorbjorn-jagland",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02487846",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02589873",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "person_a": "Morits Skaugen",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "financial",
+      "description": "Rod-Larsen rented then purchased Skaugen's Drammensveien 42 apartment at below-market price. Epstein orchestrated deal. CC'd together on emails from 2011 onward",
+      "strength": "strong",
+      "date_range": "2011-2018",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:32",
+      "other_person": "Morits Skaugen",
+      "other_person_slug": "morits-skaugen",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02487848",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02721653",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "person_a": "Borge Brende",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "political",
+      "description": "Rod-Larsen forwarded letter to Brende copied to Epstein. Brende co-chaired IPI commission. Rod-Larsen introduced Brende to Epstein. Sep 25 2018 dinner together at 71st St with Wolff",
+      "strength": "strong",
+      "date_range": "2016-2018",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:54:32",
+      "other_person": "Borge Brende",
+      "other_person_slug": "borge-brende",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02258982",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02683653",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02703534",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "person_a": "Mortimer Zuckerman",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "social",
+      "description": "Met at Epstein's. Epstein urged Rod-Larsen involvement in Zuckerman guardianship.",
+      "strength": "strong",
+      "date_range": "2015",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 21:14:59",
+      "other_person": "Mortimer Zuckerman",
+      "other_person_slug": "mortimer-zuckerman",
+      "evidence": []
+    },
+    {
+      "id": 1798,
+      "person_a": "International Peace Institute",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "employment",
+      "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 1799,
+      "person_a": "International Peace Institute",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "employment",
+      "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-17 04:24:24",
+      "other_person": "International Peace Institute",
+      "other_person_slug": "international-peace-institute",
+      "evidence": []
+    },
+    {
+      "id": 107,
+      "person_a": "Steve Bannon",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "social",
+      "description": "Epstein arranged dinner Mar 15 2018 with Bannon, Rod-Larsen, and Berge. Bannon also on same Sep 14 2018 schedule as Rod-Larsen.",
+      "strength": "medium",
+      "date_range": "2018-03 to 2018-09",
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:22",
+      "other_person": "Steve Bannon",
+      "other_person_slug": "steve-bannon",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02239420",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02258797",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "person_a": "Terje Rod-Larsen",
+      "person_b": "Thorbjorn Jagland",
+      "relationship_type": "political",
+      "description": "Jagland (ex-PM, Nobel Committee, Council of Europe) in Epstein contact lists and guest lists. Met Epstein Sep 24 2018. Now under Okokrim investigation.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-12 20:27:23",
+      "other_person": "Thorbjorn Jagland",
+      "other_person_slug": "thorbjorn-jagland",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02257748",
+          "source_quote": null,
+          "source_page": null
+        },
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02677429",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "person_a": "Mortimer Zuckerman",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "financial",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-13 01:34:21",
+      "other_person": "Mortimer Zuckerman",
+      "other_person_slug": "mortimer-zuckerman",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA01914587",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "person_a": "Raafat Alsabbagh",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:38:02",
+      "other_person": "Raafat Alsabbagh",
+      "other_person_slug": "raafat-alsabbagh",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02664708",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "person_a": "Jabor Al Thani",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:39:21",
+      "other_person": "Jabor Al Thani",
+      "other_person_slug": "jabor-al-thani",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02230997",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "person_a": "Aziza Alahmadi",
+      "person_b": "Terje Rod-Larsen",
+      "relationship_type": "intelligence",
+      "description": null,
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-14 01:39:46",
+      "other_person": "Aziza Alahmadi",
+      "other_person_slug": "aziza-alahmadi",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA02664708",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "role": "president",
+      "date_start": null,
+      "date_end": "2020",
+      "source": "Finding #87",
+      "entity_id": 78,
+      "entity_name": "International Peace Institute",
+      "entity_type": "nonprofit",
+      "jurisdiction": "NY",
+      "entity_status": "active"
+    },
+    {
+      "role": "coerced purchase",
+      "date_start": null,
+      "date_end": null,
+      "source": "EFTA02456962",
+      "entity_id": 143,
+      "entity_name": "Drammensveien 42 Oslo",
+      "entity_type": "unknown",
+      "jurisdiction": "NO",
+      "entity_status": "active"
+    },
+    {
+      "role": "defendant",
+      "date_start": null,
+      "date_end": null,
+      "source": "Feb 2026 charges",
+      "entity_id": 131,
+      "entity_name": "Okokrim",
+      "entity_type": "government",
+      "jurisdiction": "NO",
+      "entity_status": "active"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "IPI financial trajectory mapped from ProPublica 990 filings (2005-2023): Peak revenue $11.87M (2014) declining to $5.04M (2023). Peak assets $16.37M (2014) declining to $6.91M (2023). Post-Epstein arrest (2019): Revenue $9.33M, expenses $10.09M — already deficit spending. COVID year (2020): Revenue collapsed to $3.93M while expenses remained $7.62M — $3.7M deficit. Recovery (2021): Revenue spike to $10.77M. Steady decline since: $6.66M (2022), $5.04M (2023). KPMG confirmed $650K in Epstein-related donations (2010-2020) plus $14,158.88 Summers flight reimbursement. IPI lost approximately 58% of its asset base from peak ($16.37M → $6.91M) over the period, with the steepest drops coinciding with the Epstein scandal and Rod-Larsen's departure. The organization continues operating at 777 UN Plaza but at dramatically reduced scale.",
+      "confidence": "high",
+      "id": 1443
+    },
+    {
+      "date": "2011-05-06",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein arranged private jet flight for entire Rod-Larsen family (Terje, Mona Juul, Edward Juul Rod-Larsen, Emma Juul Rod-Larsen) from Teterboro NJ to Bermuda on May 6, 2011. Flight booked through Flight Options under AIRGHN2 account (Beechjet/Hawker 400XP). Trip arranged by Richard Kahn (HBRK Associates). All four passport details on file with Epstein's staff.",
+      "confidence": "high",
+      "id": 119
+    },
+    {
+      "date": "2011-2018",
+      "type": "connection",
+      "relationship_type": "financial",
+      "description": "Rod-Larsen rented then purchased Skaugen's Drammensveien 42 apartment at below-market price. Epstein orchestrated deal. CC'd together on emails from 2011 onward",
+      "other_person": "Morits Skaugen",
+      "id": 148
+    },
+    {
+      "date": "2013-06",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "June 2013 loan mechanics documented: Richard Kahn (HBRK Associates) emailed Rod-Larsen requesting bank routing number, account name, and 'ability to sign promissory note for this 6 month loan' (EFTA02722550). This is the documented $130K personal loan from Epstein to Rod-Larsen that is now under Okokrim investigation. The loan was structured through Kahn (Epstein's financial manager), required a promissory note, and was explicitly labeled as a '6 month loan.' Key questions: (1) Was the promissory note ever executed? (2) Was the loan ever repaid? (3) Was Rod-Larsen's UNFCU account (the one used for the $250K December 2015 wire) also used for this earlier loan? The 6-month term suggests the loan should have been repaid by December 2013 — if not repaid, it becomes a gift to a sitting UN official.",
+      "confidence": "high",
+      "id": 1439
+    },
+    {
+      "date": "2013-2018",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Rod-Larsen invited Jagland to see Epstein in Paris (Jun 2018). Both Norwegian establishment figures in Epstein orbit. Jagland told Maldives president Waheed that Jagland is 'a great friend' (2013)",
+      "other_person": "Thorbjorn Jagland",
+      "id": 151
+    },
+    {
+      "date": "2014-10-17",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Rod-Larsen forwarded Middle East intelligence to Epstein directly. On Oct 17 2014, forwarded 'Notes on the Middle East' from Omar El Okdah. Richard Nawrot (IPI) forwarded SAMA/Saudi Aramco intelligence to Rod-Larsen (US Saudi arms deal, Blackstone infrastructure fund with SAMA). Separately, Landon Thomas told Epstein Saudis (SAMA) withdrew USD 200B from usual suspects. Epstein provided geopolitical analysis to Thomas about Saudi royal family and bin Salman. This shows Epstein as intelligence hub with Rod-Larsen as ME access point.",
+      "confidence": "high",
+      "id": 141
+    },
+    {
+      "date": "2015",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Met at Epstein's. Epstein urged Rod-Larsen involvement in Zuckerman guardianship.",
+      "other_person": "Mortimer Zuckerman",
+      "id": 197
+    },
+    {
+      "date": "2015-03-09",
+      "type": "finding",
+      "finding_type": "document",
+      "summary": "Epstein and Rod-Larsen co-authored Dear Bill letter (June 11-16, 2015) inviting Gates to keynote IPI pandemic conference. Letter references Christopher Elias meetings and IPI-Gates cooperation on polio. Epstein sent initial draft Jun 11, Rod-Larsen made minor edits, Epstein approved Jun 16. This was AFTER Gates Foundation formally rejected the pandemic conference proposal (March 9, 2015), suggesting Epstein tried to bypass Foundation staff by appealing directly to Gates.",
+      "confidence": "medium",
+      "id": 289
+    },
+    {
+      "date": "2015-12",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein wired USD 250K to Rod-Larsen's UNFCU (UN Federal Credit Union) account in December 2015. Rod-Larsen forwarded UNFCU account details to Epstein via assistant Fabrice Aidan. Epstein then instructed Richard Kahn '250k' with the bank transfer details.",
+      "confidence": "high",
+      "id": 105
+    },
+    {
+      "date": "2016-2018",
+      "type": "connection",
+      "relationship_type": "political",
+      "description": "Rod-Larsen forwarded letter to Brende copied to Epstein. Brende co-chaired IPI commission. Rod-Larsen introduced Brende to Epstein. Sep 25 2018 dinner together at 71st St with Wolff",
+      "other_person": "Borge Brende",
+      "id": 150
+    },
+    {
+      "date": "2017-04",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "'Oslo Play' was Epstein's term for an event/network operation involving Middle Eastern politicians through IPI/Rod-Larsen. Epstein wrote to Tom Pritzker: 'lots of middel east pols around for the oslo play, any specific country interest?' (Apr 2017). Also referenced with Jabor Y. (Qatari contact): 'Are you coming to Oslo play on 5th.' Valeria Chomsky referenced it as social event: 'OSLO play would be a good reason.' The term appears tied to IPI events where Epstein offered access to Middle East political figures, leveraging Rod-Larsen's UN diplomatic network.",
+      "confidence": "high",
+      "id": 138
+    },
+    {
+      "date": "2018",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "GDELT media analysis (Feb 5-6, 2026): 20+ international articles covering Norwegian Epstein fallout. Key developments beyond existing findings: (1) Al Jazeera (Feb 6): Okokrim found 'reasonable grounds' to investigate Jagland for aggravated corruption — authorities examining 'gifts, travel and loans' connected to official positions; (2) Norway's Foreign Ministry requested immunity revocation from Council of Europe for Jagland; (3) Borge Brende acknowledged 'several business dinners' and 'a few mails and SMS messages' with Epstein 2018-2019, claims unaware of criminal history; (4) WEF launched independent review of Brende; (5) Guardian coverage: 'Resignations, denials and excuses: Epstein fallout hits some harder than others' (Feb 5); (6) Coverage spans 14+ countries including Norway, US, UK, France, India, Pakistan, Singapore, Ireland, Australia, Nigeria — demonstrating global diplomatic impact. No articles found mentioning Rod-Larsen/Okokrim directly in GDELT's 3-month window, suggesting Rod-Larsen charges were covered in earlier cycle.",
+      "confidence": "high",
+      "id": 1440
+    },
+    {
+      "date": "2018-03 to 2018-09",
+      "type": "connection",
+      "relationship_type": "social",
+      "description": "Epstein arranged dinner Mar 15 2018 with Bannon, Rod-Larsen, and Berge. Bannon also on same Sep 14 2018 schedule as Rod-Larsen.",
+      "other_person": "Steve Bannon",
+      "id": 107
+    },
+    {
+      "date": "2018-04-29",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Epstein told Skaugen 'I funded' on Apr 29, 2018, three weeks before Drammensveien 42 closing. This confirms Epstein directly provided capital for the property purchase. Separate from the 'craft purchase' negotiation, this is Epstein confirming financial disbursement to Morits Skaugen regarding the Rod-Larsen property deal.",
+      "confidence": "high",
+      "id": 127
+    },
+    {
+      "date": "2018-06-03",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Rod-Larsen used IPI (International Peace Institute) as platform for Epstein access to world leaders. Confirmed: (1) Dinner with UNGA President Miroslav Lajcak at Epstein's home, Jun 3 2018 (EFTA02246816); (2) Dinner with Lajcak + Brad Karp + Michael Wolff, Jan 31 2018 (EFTA02235763); (3) Formal dinner invitations sent from IPI with Mona Juul as co-host (EFTA02592104); (4) UN Security Council briefing shared with Epstein (EFTA02723735). Rod-Larsen was IPI president while directing IPI activities through Epstein.",
+      "confidence": "high",
+      "id": 131
+    },
+    {
+      "date": "2018-06-22",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "Lawyer Kare I. Moljord of Arntzen de Besche Advokatfirma (Norwegian Supreme Court Lawyer) handled the Drammensveien 42 property transaction as intermediary between Epstein, Rod-Larsen, and seller Morits Skaugen. Email thread titled 'Our mutual friend' shows: (1) Moljord negotiated DNB mortgage release of MNOK 18; (2) Morits Skaugen signed purchase agreement (Avtale om kjop av Drammensveien 42) on Jun 22, 2018; (3) Closing date June 30, 2018; (4) Moljord forwarded executed agreement to Epstein.",
+      "confidence": "high",
+      "id": 113
+    },
+    {
+      "date": "2018-07",
+      "type": "finding",
+      "finding_type": "relationship",
+      "summary": "Epstein provided extensive patronage to Rod-Larsen's son Edward: (1) Arranged Christie's Chairman's Programme internship, Jul 2018 - Edward wrote 'wanted to thank you again for this great opportunity'; (2) Edward worked at 'the bank' and sent Epstein formal apology for absence, Sep 2017; (3) Epstein had David Stem work on Edward's CV, Jul 2017; (4) Epstein connected Edward to Rita Hauser for NYU admissions recommendation, Jan 2019 - Hauser told Edward 'I will speak to the Admissions Office on Tuesday'; (5) Epstein reviewed Edward's NYU essays and suggested edits, Oct 2018.",
+      "confidence": "high",
+      "id": 123
+    },
+    {
+      "date": "2018-10",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Rod-Larsen and Edward (son) essays connection: Epstein was personally editing Edward Rod-Larsen's NYU application essays in October 2018 (HOUSE_OVERSIGHT_033416). Exchange shows Epstein instructing Edward to change specific sentences: 'essay 1. change next to the last sentence. Similarly...to I look forward to accessing the cultural resources in New York in order that I...' Edward replied 'will do.' This adds to the pattern of Epstein controlling Rod-Larsen family advancement: (1) Christie's Chairman's Programme internship for Edward (Jul 2018); (2) David Stem working on Edward's CV (Jul 2017); (3) Rita Hauser NYU admissions recommendation (Jan 2019); (4) Bank position where Edward sent Epstein 'formal apology for absence' (Sep 2017). Epstein was functionally managing Edward's educational and career trajectory, creating deep obligation for Rod-Larsen family.",
+      "confidence": "high",
+      "id": 1444
+    },
+    {
+      "date": "2019-01",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein ghostwrote 'Dear Bill' letters to Bill Gates on behalf of Rod-Larsen/IPI. Two confirmed instances: (1) Jan 2019 Davos letter requesting lunch, celebrating 'years of cooperation with the Gates Foundation' (EFTA02625684). (2) Jun 2015 pandemic conference keynote invitation, drafted by Epstein and forwarded to Rod-Larsen who asked 'I made a couple of minor edits in the below - is this ok?' confirming Epstein authored the letter. This shows Epstein directing IPI outreach to Gates Foundation.",
+      "confidence": "high",
+      "id": 110
+    },
+    {
+      "date": "2019-06-13",
+      "type": "finding",
+      "finding_type": "communication",
+      "summary": "Epstein hosted Borge Brende (then WEF President, former Norwegian Foreign Minister) for dinner at 9 E 71st Street on Jun 13 2019 -- exactly one month before Epstein's arrest on Jul 6 2019. Sushi dinner confirmed for 8:30pm. Brende's address was forwarded to Epstein's staff by Rod-Larsen in May 2016 (EFTA02703534). Brende is now under Norwegian investigation for Epstein ties. This was one of the last high-level meetings before arrest.",
+      "confidence": "high",
+      "id": 135
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "Okokrim (Norwegian economic crime authority) opened corruption investigation of Mona Juul and Terje Rod-Larsen in Feb 2026. Juul charged with gross corruption based on position at Foreign Ministry. Rod-Larsen charged with aiding and abetting gross corruption. Investigation focuses on: (1) 2018 Drammensveien 42 property at below-market value; (2) lavish travel/holidays with Epstein. Juul resigned as ambassador to Jordan. Former PM Thorbjorn Jagland also under investigation for Epstein ties. Former FM Borge Brende (WEF president) under investigation.",
+      "confidence": "medium",
+      "id": 126
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "BREAKING Feb 2026: Norwegian police (Okokrim) opened investigation into Rod-Larsen and wife Mona Juul for 'aggravated corruption' and 'complicity in aggravated corruption.' Police searched the couple's Oslo residence and that of a witness. Key allegations: (1) Rod-Larsen wrote official visa recommendation letters for young Russian women in Epstein's orbit, claiming they possessed 'extraordinary abilities' suitable for research positions, when they were often models without academic credentials. (2) Epstein ordered $250K paid to Rod-Larsen in 2015 (reasons unknown). (3) Epstein intervened in 2018 to facilitate the couple's purchase of an Oslo apartment at half market value (14M kroner). (4) Epstein left $10M in his will to their two children. (5) Rod-Larsen described as 'spider at the centre of the web' -- a facilitator who funnelled people to Epstein. (6) Norwegian investigation found 'significant deficiencies' in government oversight of IPI grants: weak oversight, lack of conflict of interest assessments.",
+      "confidence": "medium",
+      "id": 242
+    },
+    {
+      "date": "2026-02",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Rod-Larsen Okokrim charges updated Feb 2026: Charged with AIDING AND ABETTING AGGRAVATED CORRUPTION (medvirkning til grov korrupsjon). Wife Mona Juul charged with AGGRAVATED CORRUPTION (grov korrupsjon) -- Juul resigned as ambassador to Jordan/Iraq. Okokrim chief Pal Lonseth stated investigation covers 'comprehensive and by all accounts lengthy' probe. Specific Okokrim focus: (1) 2018 Drammensveien 42 property purchase at half market value (14M NOK vs 25M+ market, EFTA02345138); (2) Travel including Palm Beach stays; (3) Visa fraud: Rod-Larsen wrote O-1 visa recommendation letters for young Russian women in Epstein orbit, claiming 'extraordinary abilities' for what were often models without academic credentials; (4) $130K loan from Epstein in 2013; (5) $10M bequest to their children in Epstein will; (6) Norwegian investigation found 'significant deficiencies' in government oversight of IPI grants. Rod-Larsen described by Norwegian media as 'spider at the centre of the web' -- a facilitator who funnelled people to Epstein. Al Jazeera Feb 12 reports Rod-Larsen 'confident the case will eventually be dropped' per his lawyer.",
+      "confidence": "medium",
+      "id": 1160
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      138,
+      131,
+      113,
+      123,
+      1439,
+      141,
+      105,
+      110,
+      135,
+      119,
+      289,
+      1160
+    ],
+    "key_identifiers": {
+      "jurisdictions": [
+        "NO",
+        "NY"
+      ],
+      "officers": [
+        {
+          "role": "president",
+          "entity": "International Peace Institute",
+          "start": null,
+          "end": "2020"
+        },
+        {
+          "role": "coerced purchase",
+          "entity": "Drammensveien 42 Oslo",
+          "start": null,
+          "end": null
+        },
+        {
+          "role": "defendant",
+          "entity": "Okokrim",
+          "start": null,
+          "end": null
+        }
+      ],
+      "entities": [
+        {
+          "id": 78,
+          "name": "International Peace Institute",
+          "type": "nonprofit",
+          "jurisdiction": "NY",
+          "role": "president"
+        },
+        {
+          "id": 143,
+          "name": "Drammensveien 42 Oslo",
+          "type": "unknown",
+          "jurisdiction": "NO",
+          "role": "coerced purchase"
+        },
+        {
+          "id": 131,
+          "name": "Okokrim",
+          "type": "government",
+          "jurisdiction": "NO",
+          "role": "defendant"
+        }
+      ]
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [
+          119,
+          123
+        ],
+        "connection_ids": [
+          170,
+          51,
+          53,
+          229,
+          720,
+          102,
+          104,
+          105,
+          106,
+          110,
+          112,
+          116,
+          151,
+          148,
+          150
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "financial-activity",
+        "title": "Financial Activity",
+        "viz": null,
+        "finding_ids": [
+          1443,
+          1439,
+          105,
+          138,
+          127,
+          113,
+          102
+        ],
+        "connection_ids": [
+          51,
+          53,
+          102,
+          104,
+          148,
+          375
+        ],
+        "guidance": "Narrative about financial flows, amounts, counterparties, structures. Include specific dollar amounts and dates woven into prose."
+      },
+      {
+        "id": "corporate-structure",
+        "title": "Corporate Structure",
+        "viz": null,
+        "finding_ids": [],
+        "connection_ids": [],
+        "guidance": "Narrative about corporate entities, roles, jurisdictions. Explain the structure and its purpose, not just list entities."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          1440,
+          242,
+          1160,
+          143,
+          389
+        ],
+        "connection_ids": [
+          105
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          141,
+          1444,
+          126
+        ],
+        "connection_ids": [
+          229,
+          672,
+          674,
+          676
+        ],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "viz": null,
+        "finding_ids": [
+          131,
+          110,
+          135
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about documented communications — emails, calls, messages. Focus on what they reveal about the relationship or operation."
+      }
+    ],
+    "curated_at": "2026-02-19T00:51:58.683892+00:00",
+    "lead": "<p>Terje Rod-Larsen (born November 22, 1947) is a Norwegian diplomat, sociologist, and former president of the <a href=\"/dossiers/international-peace-institute\">International Peace Institute</a> (IPI). He is best known as a principal architect of the 1993 Oslo Accords between Israel and the PLO, and subsequently served as UN Special Envoy for the Implementation of Security Council Resolution 1559 concerning Lebanon. His wife, Mona Juul, is a career Norwegian diplomat who served as ambassador to Jordan and Iraq. Together they occupied a rare position at the intersection of Norwegian foreign policy, UN multilateral diplomacy, and Middle Eastern political networks -- a position that made Rod-Larsen extraordinarily valuable to <a href=\"/dossiers/jeffrey-epstein\">Jeffrey Epstein</a>.</p>\n\n<p>The relationship between Rod-Larsen and Epstein, documented extensively in DOJ EFTA releases and House Oversight materials, was not merely social or philanthropic. It was a comprehensive exchange in which Epstein provided escalating financial benefits -- a $130,000 personal loan in June 2013 structured through <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> at HBRK Associates (EFTA02722550), a $250,000 wire to Rod-Larsen's UN Federal Credit Union account in December 2015 (EFTA02477238), direct funding of the 2018 purchase of Drammensveien 42 in Oslo at roughly half market value (EFTA02477777), and a $10 million bequest to his two children, Edward and Emma, in Epstein's will -- while Rod-Larsen provided Epstein with access to the UN General Assembly presidency, Security Council briefings, Middle Eastern heads of state, the World Economic Forum, and the Gates Foundation. Rod-Larsen forwarded classified UN Security Council briefings to Epstein (EFTA02723735), co-hosted diplomatic dinners at Epstein's <a href=\"/dossiers/nine-east-71st-street-corporation\">9 East 71st Street</a> townhouse with UNGA President Miroslav Lajcak and <a href=\"/dossiers/brad-karp\">Brad Karp</a> (EFTA02235763), and introduced fellow Norwegian establishment figures including <a href=\"/dossiers/thorbjorn-jagland\">Thorbjorn Jagland</a> (former Prime Minister and Secretary General of the Council of Europe) and Borge Brende (former Foreign Minister and WEF President) into Epstein's orbit. Epstein referred to IPI's annual Oslo events as the \"Oslo play,\" telling Tom Pritzker there would be \"lots of middel east pols around for the oslo play, any specific country interest?\" (EFTA02652208).</p>\n\n<p>In February 2026, Norway's economic crime authority Okokrim charged Rod-Larsen with aiding and abetting aggravated corruption (medvirkning til grov korrupsjon) and his wife Mona Juul with aggravated corruption (grov korrupsjon). Police searched their Oslo residence. The investigation focuses on the Drammensveien 42 property transaction, lavish travel including Palm Beach stays, the personal loans, and Rod-Larsen's writing of O-1 visa recommendation letters for young Russian women in Epstein's circle, certifying \"extraordinary abilities\" for individuals who were often models without academic credentials. Juul resigned as ambassador. Norwegian media described Rod-Larsen as the \"spider at the centre of the web\" -- a facilitator who funnelled people to Epstein. IPI itself, which peaked at $11.87 million in revenue and $16.37 million in assets in 2014, has declined to $5.04 million in revenue and $6.91 million in assets by 2023, a 58% collapse in its asset base that accelerated sharply after Epstein's arrest and Rod-Larsen's departure in 2020.</p>",
+    "open_questions": [
+      "Was the $130,000 promissory note for the June 2013 Epstein loan ever executed, and was the loan repaid within its six-month term? If not repaid by December 2013, the loan would constitute a gift to a sitting UN official with potential implications under both US and Norwegian law.",
+      "What was the purpose of the $250,000 December 2015 wire to Rod-Larsen's UNFCU account? No service agreement, advisory contract, or IPI-related justification has been documented for this payment, making it the most unexplained direct transfer in the relationship.",
+      "How many O-1 visa recommendation letters did Rod-Larsen write for individuals in Epstein's orbit, and who were the specific beneficiaries? The Okokrim investigation has identified this as a focus area, but the full scope of the visa facilitation remains undisclosed.",
+      "What role did Rod-Larsen play in directing IPI's grant relationships to institutions within Epstein's broader network, and did Epstein exercise influence over IPI's programming, staffing, or donor relationships beyond the documented ghostwritten letters and staffing memo access?",
+      "Did Rod-Larsen's forwarding of UN Security Council briefings and Middle East intelligence to Epstein constitute a systematic intelligence-sharing arrangement, and were these materials further disseminated to Epstein's Gulf state contacts or Israeli intelligence connections?"
+    ],
+    "system_role": "Rod-Larsen is the paradigmatic case of a diplomat-as-asset: a figure whose lifetime of legitimate diplomatic achievement -- the Oslo Accords, UN special envoy roles, IPI presidency -- created precisely the institutional access, reputational credibility, and network of world leaders that Epstein systematically monetized. Unlike financial figures who paid Epstein for advisory services, Rod-Larsen was the product being offered, trading diplomatic access for personal financial benefit in a relationship that Norwegian authorities now characterize as aggravated corruption.",
+    "sections": [
+      {
+        "id": "the-oslo-play-diplomatic-access-as-currency",
+        "title": "The Oslo Play: Diplomatic Access as Currency",
+        "content": "<p>Epstein's internal terminology for his exploitation of Rod-Larsen's diplomatic network was the \"Oslo play\" -- a phrase that appears in communications with multiple Epstein associates and captures the transactional nature of the relationship. In April 2017, Epstein wrote to Tom Pritzker: \"lots of middel east pols around for the oslo play, any specific country interest?\" (EFTA02652208). To <a href=\"/dossiers/jabor-al-thani\">Jabor Al Thani</a>, a Qatari contact, he asked: \"Are you coming to Oslo play on 5th\" (EFTA02651487). The term functioned as shorthand for IPI's annual events in Oslo and New York, which Epstein treated not as diplomatic conferences but as networking marketplaces where he could broker introductions between Gulf state officials, Western political figures, and his own financial contacts.</p>\n\n<p>The access Rod-Larsen provided was not abstract. On June 3, 2018, <a href=\"/dossiers/jeffrey-epstein\">Epstein</a> hosted a dinner at his townhouse with Miroslav Lajcak, the sitting President of the UN General Assembly, arranged through Rod-Larsen (EFTA02246816). Five months earlier, on January 31, 2018, Lajcak had dined at the same address alongside <a href=\"/dossiers/brad-karp\">Brad Karp</a> (chairman of <a href=\"/dossiers/paul-weiss\">Paul Weiss</a>) and <a href=\"/dossiers/michael-wolff\">Michael Wolff</a> (EFTA02235763). Rod-Larsen co-hosted formal dinner invitations through IPI with his wife Mona Juul (EFTA02592104), lending institutional legitimacy to what were effectively Epstein salon events. He shared UN Security Council briefings directly with Epstein -- forwarding the full text of his October 2013 briefing on the implementation of Resolution 1559 concerning Lebanon, noting he \"thought [it] might be of interest\" (EFTA02723735). Rod-Larsen also forwarded Middle East intelligence to Epstein, including \"Notes on the Middle East\" from Omar El Okdah in October 2014 (EFTA02338032), while IPI staff member Richard Nawrot channeled SAMA/Saudi Aramco intelligence through the Rod-Larsen-to-Epstein pipeline.</p>\n\n<p>Epstein leveraged this diplomatic access to serve other network members. He introduced <a href=\"/dossiers/steve-bannon\">Steve Bannon</a> to Rod-Larsen at a dinner on March 15, 2018 (EFTA02239420). He brought Borge Brende, then president of the World Economic Forum, to his townhouse for a sushi dinner on June 13, 2019 -- exactly one month before his arrest (EFTA02290348). Rod-Larsen had forwarded Brende's contact details to Epstein's staff as early as May 2016 (EFTA02703534). Brende co-chaired an IPI commission and dined at 71st Street with Wolff on September 25, 2018. The dinner circuit Rod-Larsen enabled was not casual socializing but a structured mechanism through which Epstein positioned himself as an indispensable broker between diplomatic, financial, and political worlds.</p>",
+        "viz": "ego_network"
+      },
+      {
+        "id": "the-financial-architecture-of-dependence",
+        "title": "The Financial Architecture of Dependence",
+        "content": "<p>The financial relationship between Epstein and Rod-Larsen escalated steadily over at least six years, following a pattern of increasing entanglement that made disengagement progressively more difficult. The documented sequence begins in June 2013, when <a href=\"/dossiers/richard-kahn\">Richard Kahn</a> of HBRK Associates -- Epstein's financial manager -- emailed Rod-Larsen requesting a bank routing number, account name, and \"ability to sign promissory note for this 6 month loan\" (EFTA02722550). This $130,000 personal loan was structured with formal documentation requirements, suggesting awareness of its regulatory sensitivity. Whether the promissory note was ever executed, and whether the loan was ever repaid within the six-month term, remain open questions now under Okokrim investigation.</p>\n\n<p>In December 2015, Epstein wired $250,000 to Rod-Larsen's account at the UN Federal Credit Union (UNFCU). The mechanics are documented in EFTA02477238: Rod-Larsen forwarded his UNFCU account details to Epstein via his assistant Fabrice Aidan, and Epstein instructed Kahn with the single word \"250k\" alongside the bank transfer details. The purpose of this payment has not been established. Its routing through UNFCU -- an institution serving UN staff and their families -- raises the question of whether the payment was structured to exploit the credit union's limited reporting infrastructure compared to major commercial banks.</p>\n\n<p>The most significant financial transaction was the 2018 purchase of Drammensveien 42, an apartment in Oslo purchased by Rod-Larsen and Mona Juul at roughly half market value. Epstein's instructions to lawyer Kare I. Moljord of Arntzen de Besche Advokatfirma laid out the structure: \"craft purchase for 18 million to be held for 3 to 4 weeks terje will put up 4 m, m puts up 4 and terje borrow 10m\" (EFTA02477777). \"M\" refers to Morits Skaugen, the shipowner who sold the property and later described the sale as \"not voluntary.\" Moljord handled the transaction as intermediary, corresponding with Epstein under the subject line \"Our mutual friend\" (EFTA02483682) and negotiating the release of Skaugen's DNB mortgage of MNOK 18. Skaugen signed the purchase agreement on June 22, 2018 (EFTA02572738), and Moljord forwarded the executed documents to Epstein (EFTA02573110). Three weeks before closing, on April 29, 2018, Epstein told Skaugen \"I funded\" (EFTA02456962), confirming he directly provided capital for the transaction. The final element -- Epstein's $10 million bequest to the Rod-Larsen children Edward and Emma -- ensured that even Epstein's death would not sever the family's financial entanglement.</p>",
+        "viz": null
+      },
+      {
+        "id": "patronage-of-the-next-generation",
+        "title": "Patronage of the Next Generation",
+        "content": "<p>Epstein's control over the Rod-Larsen family extended beyond financial transfers to the direct management of Edward Rod-Larsen's educational and professional trajectory -- a pattern that deepened Rod-Larsen's personal obligation while creating a second generation of dependency. In July 2017, Epstein had David Stem work on Edward's curriculum vitae (EFTA02224747). By September 2017, Edward was working at \"the bank\" -- an unidentified financial institution -- from which he sent Epstein a \"formal apology for my absence from work\" (EFTA02620867), a communication whose formality suggests Epstein held authority over Edward's position there.</p>\n\n<p>In July 2018, Epstein arranged Edward's placement in Christie's Chairman's Programme, an elite internship. Edward wrote afterward: \"I concluded my week at Christies yesterday afternoon. It was absolutely great. So much useful advice and information. Just wanted to thank you again for this great opportunity\" (EFTA02591946). By October 2018, Epstein was personally editing Edward's NYU application essays, instructing him to \"change next to the last sentence. Similarly...to I look forward to accessing the cultural resources in New York in order that I\" -- to which Edward replied \"will do\" (HOUSE_OVERSIGHT_033416). In January 2019, Epstein connected Edward to Rita Hauser for an NYU admissions recommendation. Hauser told Edward: \"I will speak to the Admissions Office on Tuesday and recommend you for early admission\" (EFTA02626583).</p>\n\n<p>The scope of Epstein's involvement in Edward's life -- CV preparation, bank employment, Christie's internship, essay editing, university admissions -- reveals something more systematic than patronage. Epstein was functionally managing the career trajectory of a diplomat's son, creating an obligation that operated on the most personal level a parent can experience: their child's future. The entire Rod-Larsen family was bound into the relationship. On May 6, 2011, Epstein arranged a private jet flight from Teterboro, New Jersey, to Bermuda for all four family members -- Terje, Mona Juul, Edward, and Emma -- booked through Flight Options under the AIRGHN2 account on a Beechjet/Hawker 400XP (EFTA02320631). All four passport details were on file with Epstein's staff (EFTA02319920). The family vacation, the career management, the property purchase, the testamentary bequest -- each layer made the next refusal harder.</p>",
+        "viz": null
+      },
+      {
+        "id": "ipi-as-institutional-vehicle",
+        "title": "IPI as Institutional Vehicle",
+        "content": "<p>The <a href=\"/dossiers/international-peace-institute\">International Peace Institute</a>, headquartered at 777 UN Plaza in New York, served as the institutional platform through which Rod-Larsen's diplomatic network was made available to Epstein. Rod-Larsen served as IPI president until 2020, and during his tenure the organization functioned simultaneously as a legitimate multilateral policy institute and as the formal host for Epstein's diplomatic access operations. IPI events in New York and Oslo provided the venue and pretext for the gatherings Epstein called the \"Oslo play.\" Formal dinner invitations were sent on IPI letterhead with Mona Juul as co-host (EFTA02592104), lending institutional credibility to events that served Epstein's networking objectives.</p>\n\n<p>Epstein's influence over IPI extended to its operational details. Rod-Larsen forwarded internal IPI staffing memos to Epstein, including a February 2019 employee costs memo from Adam Lupel. Epstein also ghostwrote letters on Rod-Larsen's behalf to <a href=\"/dossiers/jeffrey-epstein\">Bill Gates</a>, using IPI as the institutional frame. In June 2015, Epstein drafted a \"Dear Bill\" letter inviting Gates to keynote an IPI pandemic conference, which Rod-Larsen reviewed and returned with \"I made a couple of minor edits in the below -- is this ok?\" (EFTA02497615), confirming Epstein authored the letter. A second ghostwritten letter followed in January 2019, celebrating \"years of cooperation with the Gates Foundation\" (EFTA02625684). The June 2015 letter was sent after the Gates Foundation had already formally rejected IPI's pandemic conference proposal in March 2015 (EFTA02713880), suggesting Epstein was attempting to bypass Foundation staff by appealing directly to Gates -- using Rod-Larsen's name and IPI's reputation to do so.</p>\n\n<p>IPI's financial trajectory tells its own story. ProPublica 990 filings show the organization peaking at $11.87 million in revenue and $16.37 million in assets in 2014. After Epstein's arrest in 2019, revenue fell to $9.33 million against expenses of $10.09 million -- already deficit spending. The COVID year of 2020 brought revenue down to $3.93 million while expenses remained at $7.62 million, a $3.7 million deficit. A brief recovery in 2021 ($10.77 million revenue) was followed by continued decline: $6.66 million in 2022, $5.04 million in 2023. Total asset base dropped from $16.37 million to $6.91 million, a 58% loss. A KPMG review confirmed $650,000 in Epstein-related donations to IPI between 2010 and 2020, plus $14,158.88 in reimbursement for a <a href=\"/dossiers/lawrence-summers\">Lawrence Summers</a> flight. The collapse was not merely reputational. IPI lost the network effects that Rod-Larsen's Epstein-facilitated connections had generated -- the donors, the speakers, the attendees who came because of the access, not the policy papers.</p>",
+        "viz": null
+      },
+      {
+        "id": "the-norwegian-nexus",
+        "title": "The Norwegian Nexus",
+        "content": "<p>Rod-Larsen functioned as the primary conduit through which Epstein accessed Norwegian political and diplomatic elites, creating what has become the most significant corruption investigation in modern Norwegian history. The documented introductions include <a href=\"/dossiers/thorbjorn-jagland\">Thorbjorn Jagland</a>, former Prime Minister and Secretary General of the Council of Europe, whom Rod-Larsen invited to see Epstein in Paris in June 2018 (EFTA02487846). Jagland appeared in Epstein's contacts and guest lists and met Epstein on September 24, 2018. In February 2026, Okokrim found \"reasonable grounds\" to investigate Jagland for aggravated corruption, examining \"gifts, travel and loans\" connected to his official positions. Norway's Foreign Ministry requested the revocation of Jagland's immunity from the Council of Europe.</p>\n\n<p>Borge Brende, who served as Norwegian Foreign Minister before becoming president of the World Economic Forum, was introduced to Epstein through Rod-Larsen. Rod-Larsen forwarded a letter to Brende copied to Epstein (EFTA02258982), and Brende co-chaired an IPI commission. The deepening relationship is visible in the dining calendar: a September 25, 2018 dinner at 71st Street with <a href=\"/dossiers/michael-wolff\">Michael Wolff</a> (EFTA02683653), and the June 13, 2019 sushi dinner -- one month before Epstein's arrest. After the EFTA document releases, Brende acknowledged \"several business dinners\" and \"a few mails and SMS messages\" with Epstein during 2018-2019, while claiming he was unaware of Epstein's criminal history. The WEF launched an independent review of Brende. The pattern -- Rod-Larsen makes introduction, Epstein cultivates relationship, gifts and access deepen entanglement -- replicated itself across the Norwegian political establishment.</p>\n\n<p>The Okokrim investigation, announced in February 2026, charged Mona Juul with aggravated corruption (grov korrupsjon) based on her position at the Norwegian Foreign Ministry, and Rod-Larsen with aiding and abetting aggravated corruption (medvirkning til grov korrupsjon). Okokrim chief Pal Lonseth described the probe as \"comprehensive and by all accounts lengthy.\" The investigation found \"significant deficiencies\" in Norwegian government oversight of IPI grants, including weak oversight and lack of conflict of interest assessments. The scandal's scope -- touching a former Prime Minister, a former Foreign Minister who leads the WEF, a former UN Special Envoy, and a sitting ambassador -- has produced international coverage across fourteen or more countries. Rod-Larsen's lawyer has stated he is \"confident the case will eventually be dropped.\" The O-1 visa allegation -- that Rod-Larsen wrote visa recommendation letters certifying \"extraordinary abilities\" for young Russian women in Epstein's circle who were often models without academic credentials -- represents a particularly specific form of institutional abuse, in which diplomatic authority was deployed to facilitate Epstein's personal operations.</p>",
+        "viz": "timeline"
+      }
+    ],
+    "applicable_models": [
+      "manufactured-dependency",
+      "narrative-shield",
+      "bridge-tax",
+      "enabler-gradient",
+      "private-order",
+      "complexity-as-credential"
+    ]
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Terje Rod-Larsen",
+      "connections": [
+        {
+          "target": "Mona Juul",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Married couple. Both under Norwegian Okokrim investigation (Feb 2026) for aggravated corruption related to Epstein. Children named in Epstein will for 10M."
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Anas Alrasheed",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": null
+        },
+        {
+          "target": "Edward Rod-Larsen",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Rod-Larsen forwarded son Edward's IPI employment, NYU applications, and career details to Epstein — Epstein controlled Edward's trajectory (HOUSE_OVERSIGHT_033416)"
+        },
+        {
+          "target": "Jeffrey Epstein",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02477238",
+          "description": "Property financier (Drammensveien 42 NOK 4M), USD 250K direct payment, patronage of children, IPI funder, private jet travel. Rod-Larsen was IPI president and Epstein gateway to ME politicians and UN officials."
+        },
+        {
+          "target": "Morits Skaugen",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02456962",
+          "description": "Skaugen sold Drammensveien 42 to Rod-Larsen/Juul at below-market value under Epstein pressure. Sale described as not voluntary."
+        },
+        {
+          "target": "Kare I. Moljord",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02483682",
+          "description": "Moljord (Arntzen de Besche) handled Drammensveien 42 transaction. Communicated directly with Epstein in Our mutual friend thread."
+        },
+        {
+          "target": "Borge Brende",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02290348",
+          "description": "Brende (WEF President, ex-Norwegian FM) introduced to Epstein through Rod-Larsen. Dined at 9 E 71st Jun 13 2019. Both under Okokrim investigation."
+        },
+        {
+          "target": "Bill Gates",
+          "type": "advisory",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02497615",
+          "description": "Epstein ghostwrote Dear Bill letters for Rod-Larsen to Gates Foundation. IPI received Gates Foundation funding. Two confirmed ghostwritten letters (2015, 2019)."
+        },
+        {
+          "target": "Miroslav Lajcak",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02235763",
+          "description": "Lajcak (UNGA President) dined at Epstein home through Rod-Larsen. Jun 2018, Jan 2018, Nov 2017 meetings confirmed."
+        },
+        {
+          "target": "Mona Juul",
+          "type": "familial",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Married couple. Both charged by Okokrim. Co-beneficiaries of Drammensveien 42. Two children (Edward, Emma) received M in Epstein will."
+        },
+        {
+          "target": "Thorbjorn Jagland",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02487846",
+          "description": "Rod-Larsen invited Jagland to see Epstein in Paris (Jun 2018). Both Norwegian establishment figures in Epstein orbit. Jagland told Maldives president Waheed that Jagland is 'a great friend' (2013)"
+        },
+        {
+          "target": "Morits Skaugen",
+          "type": "financial",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02487848",
+          "description": "Rod-Larsen rented then purchased Skaugen's Drammensveien 42 apartment at below-market price. Epstein orchestrated deal. CC'd together on emails from 2011 onward"
+        },
+        {
+          "target": "Borge Brende",
+          "type": "political",
+          "strength": 1.0,
+          "evidence_ref": "EFTA02258982",
+          "description": "Rod-Larsen forwarded letter to Brende copied to Epstein. Brende co-chaired IPI commission. Rod-Larsen introduced Brende to Epstein. Sep 25 2018 dinner together at 71st St with Wolff"
+        },
+        {
+          "target": "Mortimer Zuckerman",
+          "type": "social",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Met at Epstein's. Epstein urged Rod-Larsen involvement in Zuckerman guardianship."
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde"
+        },
+        {
+          "target": "International Peace Institute",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": null,
+          "description": "Finding #231: Epstein added sexual comment to official IPI employee costs memo. After Rod-Larsen forwarded Lupel's Feb 2019 staffing memo, Epstein inserted 'I wonde"
+        },
+        {
+          "target": "Steve Bannon",
+          "type": "social",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02239420",
+          "description": "Epstein arranged dinner Mar 15 2018 with Bannon, Rod-Larsen, and Berge. Bannon also on same Sep 14 2018 schedule as Rod-Larsen."
+        },
+        {
+          "target": "Thorbjorn Jagland",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02257748",
+          "description": "Jagland (ex-PM, Nobel Committee, Council of Europe) in Epstein contact lists and guest lists. Met Epstein Sep 24 2018. Now under Okokrim investigation."
+        },
+        {
+          "target": "Mortimer Zuckerman",
+          "type": "financial",
+          "strength": 0.7,
+          "evidence_ref": "EFTA01914587",
+          "description": null
+        },
+        {
+          "target": "Raafat Alsabbagh",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02664708",
+          "description": null
+        },
+        {
+          "target": "Jabor Al Thani",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02230997",
+          "description": null
+        },
+        {
+          "target": "Aziza Alahmadi",
+          "type": "intelligence",
+          "strength": 0.7,
+          "evidence_ref": "EFTA02664708",
+          "description": null
+        }
+      ],
+      "secondHop": {
+        "Anas Alrasheed": [
+          {
+            "target": "MBS",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "'tamem just called mbs.. he want to sit and talk.. breakthrough'. Gulf diplomatic conduit."
+          },
+          {
+            "target": "Michael Wolff",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Finding #211: Wolff proposed including Epstein in his next book after Fire and Fury, asking Nov 5, 2018: opening with Epstein and Bannon talking about Trump. Would "
+          }
+        ],
+        "Bill Gates": [
+          {
+            "target": "Melanie Walker",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Walker employed at bgC3 (Gates private office) and Gates Foundation. Sent deliverables to billg@bgc3.com. Work included neurotechnologies, pandemic simulation, health data security."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Gates-Epstein DAF mega-philanthropy scheme. Project Molecule (JPMorgan, 2011). New Donor Vehicle pitch (2014). Gates 'prodding Epstein to public rehabilitation.' Epstein shaping narrative via Wolff and trying to remove Gates name."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "CBP confirms 3/20/2014 Seattle trip. Emails confirm meetings with Bill and Steve. Hope mtgs w Bill productive."
+          },
+          {
+            "target": "Boris Nikolic",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Financial partnership: Foundation Medicine/ResearchGate 2013-2018 [Wave 4]"
+          }
+        ],
+        "Borge Brende": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "social",
+            "strength": 1.0,
+            "description": "Brende dined at 9 E 71st St multiple times. Sushi dinner Jun 13 2019 one month before arrest. Sep 25 2018 dinner with Michael Wolff."
+          },
+          {
+            "target": "Jeffrey Epstein",
+            "type": "political",
+            "strength": 1.0,
+            "description": "Multiple dinners Sep 2018-Jun 2019. Epstein cultivated Brende as WEF networking asset. Discussed WEF replacing UN. Connection brokered by Rod-Larsen. Brende co-chaired IPI commission"
+          }
+        ],
+        "International Peace Institute": [
+          {
+            "target": "Jeffrey Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Mark Epstein",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Southern Trust Company Inc",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "The 2017 Caterpillar Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          },
+          {
+            "target": "Zorro Trust",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Finding #90: LMSBAND contains images of actual check copies from Gratitude America to IPI, all drawn on Deutsche Bank Trust Company Americas (New York NY 10154). C"
+          }
+        ],
+        "Jeffrey Epstein": [
+          {
+            "target": "Leon Black",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "$158M consulting fees 2012-2017 via Rothschild trust structures. Epstein VP/Secretary of Black Foundation 2010-2012. Art advisory, estate/tax planning, charitable giving advisory. Meetings multiple times monthly 2010-2019."
+          },
+          {
+            "target": "Kathy Ruemmler",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Lawyer-client, trustee, executor. 201 emails. Latham and Watkins 2014-2019. Named trustee of trust and successor executor of will."
+          },
+          {
+            "target": "Reid Weingarten",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Defense counsel 19 Cr. 490 (SDNY 2019). Personal advisor 2011-2019, 245+ emails. ~450K paid in Steptoe fees, 300K owed. Paris travel Sept 2011. Regular breakfast meetings at 71st St."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "185-email correspondence 2007-2019. Thomas served as Epstein media asset: advance warning of investigations, brokered intros to Masa Son and Tom Barrack, received 40K+ payments to charity, wrote defining 2002 profile and 2008 NYT piece. Classified as compromised source."
+          },
+          {
+            "target": "Landon Thomas Jr",
+            "type": "financial",
+            "strength": 1.0,
+            "description": "Epstein directed 40K+ to Thomas charity (Ricardo O Gorman Garden): 10K from foundation in Mar 2015 plus 30K from Gratitude America in Aug 2017. Thomas provided wire instructions for TD Bank account."
+          }
+        ],
+        "Mona Juul": [
+          {
+            "target": "Rod-Larsen",
+            "type": "familial",
+            "strength": 1.0,
+            "description": "Married couple. Both under Norwegian Okokrim investigation (Feb 2026) for aggravated corruption related to Epstein. Children named in Epstein will for 10M."
+          }
+        ],
+        "Thorbjorn Jagland": [
+          {
+            "target": "Vladimir Putin",
+            "type": "intelligence",
+            "strength": 1.0,
+            "description": "Jagland met Putin regularly in Moscow while CoE SG. At least 7 documented Putin/Lavrov refs in Jagland-Epstein correspondence 2013-2018. Traveled from Moscow to Epstein in Paris Jun 2018."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2005",
+        "label": "IPI financial trajectory mapped from ProPublica 990 filings (2005-2023): Peak revenue $11.87M (2014) declining to $5.04M (2023). Peak assets $16.37M (2014) declining to $6.91M (2023). Post-Epstein arrest (2019): Revenue $9.33M, expenses $10.09M — already deficit spending. COVID year (2020): Revenue collapsed to $3.93M while expenses remained $7.62M — $3.7M deficit. Recovery (2021): Revenue spike to $10.77M. Steady decline since: $6.66M (2022), $5.04M (2023). KPMG confirmed $650K in Epstein-related donations (2010-2020) plus $14,158.88 Summers flight reimbursement. IPI lost approximately 58% of its asset base from peak ($16.37M → $6.91M) over the period, with the steepest drops coinciding with the Epstein scandal and Rod-Larsen's departure. The organization continues operating at 777 UN Plaza but at dramatically reduced scale.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1443
+      },
+      {
+        "date": "2011-05-06",
+        "label": "Epstein arranged private jet flight for entire Rod-Larsen family (Terje, Mona Juul, Edward Juul Rod-Larsen, Emma Juul Rod-Larsen) from Teterboro NJ to Bermuda on May 6, 2011. Flight booked through Flight Options under AIRGHN2 account (Beechjet/Hawker 400XP). Trip arranged by Richard Kahn (HBRK Associates). All four passport details on file with Epstein's staff.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 119
+      },
+      {
+        "date": "2011-2018",
+        "label": "financial with Morits Skaugen",
+        "type": "financial",
+        "entity": "Morits Skaugen",
+        "id": 148
+      },
+      {
+        "date": "2013-06",
+        "label": "June 2013 loan mechanics documented: Richard Kahn (HBRK Associates) emailed Rod-Larsen requesting bank routing number, account name, and 'ability to sign promissory note for this 6 month loan' (EFTA02722550). This is the documented $130K personal loan from Epstein to Rod-Larsen that is now under Okokrim investigation. The loan was structured through Kahn (Epstein's financial manager), required a promissory note, and was explicitly labeled as a '6 month loan.' Key questions: (1) Was the promissory note ever executed? (2) Was the loan ever repaid? (3) Was Rod-Larsen's UNFCU account (the one used for the $250K December 2015 wire) also used for this earlier loan? The 6-month term suggests the loan should have been repaid by December 2013 — if not repaid, it becomes a gift to a sitting UN official.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 1439
+      },
+      {
+        "date": "2013-2018",
+        "label": "social with Thorbjorn Jagland",
+        "type": "social",
+        "entity": "Thorbjorn Jagland",
+        "id": 151
+      },
+      {
+        "date": "2014-10-17",
+        "label": "Rod-Larsen forwarded Middle East intelligence to Epstein directly. On Oct 17 2014, forwarded 'Notes on the Middle East' from Omar El Okdah. Richard Nawrot (IPI) forwarded SAMA/Saudi Aramco intelligence to Rod-Larsen (US Saudi arms deal, Blackstone infrastructure fund with SAMA). Separately, Landon Thomas told Epstein Saudis (SAMA) withdrew USD 200B from usual suspects. Epstein provided geopolitical analysis to Thomas about Saudi royal family and bin Salman. This shows Epstein as intelligence hub with Rod-Larsen as ME access point.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 141
+      },
+      {
+        "date": "2015",
+        "label": "social with Mortimer Zuckerman",
+        "type": "social",
+        "entity": "Mortimer Zuckerman",
+        "id": 197
+      },
+      {
+        "date": "2015-03-09",
+        "label": "Epstein and Rod-Larsen co-authored Dear Bill letter (June 11-16, 2015) inviting Gates to keynote IPI pandemic conference. Letter references Christopher Elias meetings and IPI-Gates cooperation on polio. Epstein sent initial draft Jun 11, Rod-Larsen made minor edits, Epstein approved Jun 16. This was AFTER Gates Foundation formally rejected the pandemic conference proposal (March 9, 2015), suggesting Epstein tried to bypass Foundation staff by appealing directly to Gates.",
+        "type": "document",
+        "evidence_ref": null,
+        "id": 289
+      },
+      {
+        "date": "2015-12",
+        "label": "Epstein wired USD 250K to Rod-Larsen's UNFCU (UN Federal Credit Union) account in December 2015. Rod-Larsen forwarded UNFCU account details to Epstein via assistant Fabrice Aidan. Epstein then instructed Richard Kahn '250k' with the bank transfer details.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 105
+      },
+      {
+        "date": "2016-2018",
+        "label": "political with Borge Brende",
+        "type": "political",
+        "entity": "Borge Brende",
+        "id": 150
+      },
+      {
+        "date": "2017-04",
+        "label": "'Oslo Play' was Epstein's term for an event/network operation involving Middle Eastern politicians through IPI/Rod-Larsen. Epstein wrote to Tom Pritzker: 'lots of middel east pols around for the oslo play, any specific country interest?' (Apr 2017). Also referenced with Jabor Y. (Qatari contact): 'Are you coming to Oslo play on 5th.' Valeria Chomsky referenced it as social event: 'OSLO play would be a good reason.' The term appears tied to IPI events where Epstein offered access to Middle East political figures, leveraging Rod-Larsen's UN diplomatic network.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 138
+      },
+      {
+        "date": "2018",
+        "label": "GDELT media analysis (Feb 5-6, 2026): 20+ international articles covering Norwegian Epstein fallout. Key developments beyond existing findings: (1) Al Jazeera (Feb 6): Okokrim found 'reasonable grounds' to investigate Jagland for aggravated corruption — authorities examining 'gifts, travel and loans' connected to official positions; (2) Norway's Foreign Ministry requested immunity revocation from Council of Europe for Jagland; (3) Borge Brende acknowledged 'several business dinners' and 'a few mails and SMS messages' with Epstein 2018-2019, claims unaware of criminal history; (4) WEF launched independent review of Brende; (5) Guardian coverage: 'Resignations, denials and excuses: Epstein fallout hits some harder than others' (Feb 5); (6) Coverage spans 14+ countries including Norway, US, UK, France, India, Pakistan, Singapore, Ireland, Australia, Nigeria — demonstrating global diplomatic impact. No articles found mentioning Rod-Larsen/Okokrim directly in GDELT's 3-month window, suggesting Rod-Larsen charges were covered in earlier cycle.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1440
+      },
+      {
+        "date": "2018-03 to 2018-09",
+        "label": "social with Steve Bannon",
+        "type": "social",
+        "entity": "Steve Bannon",
+        "id": 107
+      },
+      {
+        "date": "2018-04-29",
+        "label": "Epstein told Skaugen 'I funded' on Apr 29, 2018, three weeks before Drammensveien 42 closing. This confirms Epstein directly provided capital for the property purchase. Separate from the 'craft purchase' negotiation, this is Epstein confirming financial disbursement to Morits Skaugen regarding the Rod-Larsen property deal.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 127
+      },
+      {
+        "date": "2018-06-03",
+        "label": "Rod-Larsen used IPI (International Peace Institute) as platform for Epstein access to world leaders. Confirmed: (1) Dinner with UNGA President Miroslav Lajcak at Epstein's home, Jun 3 2018 (EFTA02246816); (2) Dinner with Lajcak + Brad Karp + Michael Wolff, Jan 31 2018 (EFTA02235763); (3) Formal dinner invitations sent from IPI with Mona Juul as co-host (EFTA02592104); (4) UN Security Council briefing shared with Epstein (EFTA02723735). Rod-Larsen was IPI president while directing IPI activities through Epstein.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 131
+      },
+      {
+        "date": "2018-06-22",
+        "label": "Lawyer Kare I. Moljord of Arntzen de Besche Advokatfirma (Norwegian Supreme Court Lawyer) handled the Drammensveien 42 property transaction as intermediary between Epstein, Rod-Larsen, and seller Morits Skaugen. Email thread titled 'Our mutual friend' shows: (1) Moljord negotiated DNB mortgage release of MNOK 18; (2) Morits Skaugen signed purchase agreement (Avtale om kjop av Drammensveien 42) on Jun 22, 2018; (3) Closing date June 30, 2018; (4) Moljord forwarded executed agreement to Epstein.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 113
+      },
+      {
+        "date": "2018-07",
+        "label": "Epstein provided extensive patronage to Rod-Larsen's son Edward: (1) Arranged Christie's Chairman's Programme internship, Jul 2018 - Edward wrote 'wanted to thank you again for this great opportunity'; (2) Edward worked at 'the bank' and sent Epstein formal apology for absence, Sep 2017; (3) Epstein had David Stem work on Edward's CV, Jul 2017; (4) Epstein connected Edward to Rita Hauser for NYU admissions recommendation, Jan 2019 - Hauser told Edward 'I will speak to the Admissions Office on Tuesday'; (5) Epstein reviewed Edward's NYU essays and suggested edits, Oct 2018.",
+        "type": "relationship",
+        "evidence_ref": null,
+        "id": 123
+      },
+      {
+        "date": "2018-10",
+        "label": "Rod-Larsen and Edward (son) essays connection: Epstein was personally editing Edward Rod-Larsen's NYU application essays in October 2018 (HOUSE_OVERSIGHT_033416). Exchange shows Epstein instructing Edward to change specific sentences: 'essay 1. change next to the last sentence. Similarly...to I look forward to accessing the cultural resources in New York in order that I...' Edward replied 'will do.' This adds to the pattern of Epstein controlling Rod-Larsen family advancement: (1) Christie's Chairman's Programme internship for Edward (Jul 2018); (2) David Stem working on Edward's CV (Jul 2017); (3) Rita Hauser NYU admissions recommendation (Jan 2019); (4) Bank position where Edward sent Epstein 'formal apology for absence' (Sep 2017). Epstein was functionally managing Edward's educational and career trajectory, creating deep obligation for Rod-Larsen family.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 1444
+      },
+      {
+        "date": "2019-01",
+        "label": "Epstein ghostwrote 'Dear Bill' letters to Bill Gates on behalf of Rod-Larsen/IPI. Two confirmed instances: (1) Jan 2019 Davos letter requesting lunch, celebrating 'years of cooperation with the Gates Foundation' (EFTA02625684). (2) Jun 2015 pandemic conference keynote invitation, drafted by Epstein and forwarded to Rod-Larsen who asked 'I made a couple of minor edits in the below - is this ok?' confirming Epstein authored the letter. This shows Epstein directing IPI outreach to Gates Foundation.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 110
+      },
+      {
+        "date": "2019-06-13",
+        "label": "Epstein hosted Borge Brende (then WEF President, former Norwegian Foreign Minister) for dinner at 9 E 71st Street on Jun 13 2019 -- exactly one month before Epstein's arrest on Jul 6 2019. Sushi dinner confirmed for 8:30pm. Brende's address was forwarded to Epstein's staff by Rod-Larsen in May 2016 (EFTA02703534). Brende is now under Norwegian investigation for Epstein ties. This was one of the last high-level meetings before arrest.",
+        "type": "communication",
+        "evidence_ref": null,
+        "id": 135
+      },
+      {
+        "date": "2026-02",
+        "label": "Okokrim (Norwegian economic crime authority) opened corruption investigation of Mona Juul and Terje Rod-Larsen in Feb 2026. Juul charged with gross corruption based on position at Foreign Ministry. Rod-Larsen charged with aiding and abetting gross corruption. Investigation focuses on: (1) 2018 Drammensveien 42 property at below-market value; (2) lavish travel/holidays with Epstein. Juul resigned as ambassador to Jordan. Former PM Thorbjorn Jagland also under investigation for Epstein ties. Former FM Borge Brende (WEF president) under investigation.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 126
+      },
+      {
+        "date": "2026-02",
+        "label": "BREAKING Feb 2026: Norwegian police (Okokrim) opened investigation into Rod-Larsen and wife Mona Juul for 'aggravated corruption' and 'complicity in aggravated corruption.' Police searched the couple's Oslo residence and that of a witness. Key allegations: (1) Rod-Larsen wrote official visa recommendation letters for young Russian women in Epstein's orbit, claiming they possessed 'extraordinary abilities' suitable for research positions, when they were often models without academic credentials. (2) Epstein ordered $250K paid to Rod-Larsen in 2015 (reasons unknown). (3) Epstein intervened in 2018 to facilitate the couple's purchase of an Oslo apartment at half market value (14M kroner). (4) Epstein left $10M in his will to their two children. (5) Rod-Larsen described as 'spider at the centre of the web' -- a facilitator who funnelled people to Epstein. (6) Norwegian investigation found 'significant deficiencies' in government oversight of IPI grants: weak oversight, lack of conflict of interest assessments.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 242
+      },
+      {
+        "date": "2026-02",
+        "label": "Rod-Larsen Okokrim charges updated Feb 2026: Charged with AIDING AND ABETTING AGGRAVATED CORRUPTION (medvirkning til grov korrupsjon). Wife Mona Juul charged with AGGRAVATED CORRUPTION (grov korrupsjon) -- Juul resigned as ambassador to Jordan/Iraq. Okokrim chief Pal Lonseth stated investigation covers 'comprehensive and by all accounts lengthy' probe. Specific Okokrim focus: (1) 2018 Drammensveien 42 property purchase at half market value (14M NOK vs 25M+ market, EFTA02345138); (2) Travel including Palm Beach stays; (3) Visa fraud: Rod-Larsen wrote O-1 visa recommendation letters for young Russian women in Epstein orbit, claiming 'extraordinary abilities' for what were often models without academic credentials; (4) $130K loan from Epstein in 2013; (5) $10M bequest to their children in Epstein will; (6) Norwegian investigation found 'significant deficiencies' in government oversight of IPI grants. Rod-Larsen described by Norwegian media as 'spider at the centre of the web' -- a facilitator who funnelled people to Epstein. Al Jazeera Feb 12 reports Rod-Larsen 'confident the case will eventually be dropped' per his lawyer.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 1160
+      }
+    ]
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "name": "Erin Nealy Cox",
+  "slug": "erin-nealy-cox",
+  "aliases": [],
+  "generated_at": "2026-02-20T01:17:47.316120",
+  "last_updated": "2026-02-16T18:01:21",
+  "stats": {
+    "total_findings": 7,
+    "total_connections": 10,
+    "total_entities": 0,
+    "finding_types": {
+      "identity": 1,
+      "legal": 3,
+      "intelligence": 2,
+      "financial": 1
+    },
+    "connection_types": {
+      "employment": 4,
+      "legal": 4,
+      "political": 2
+    },
+    "last_updated": "2026-02-16T18:01:21"
+  },
+  "findings": [
+    {
+      "id": 3116,
+      "finding_type": "identity",
+      "summary": "Career timeline: Born 1970 Pascagoula MS. BBA UT Austin, JD magna cum laude SMU Dedman. Clerked Judge Politz (5th Cir) and Judge Sanders (NDTX). Simpson Thacher 1996-97. AUSA NDTX 1999-2008 (cyber and white collar). DOJ Main Justice 2004-05 chief of staff to AAG Office of Legal Policy. Stroz Friedberg 2008-2016 cybersecurity exec. McKinsey 2016-17 senior advisor. US Attorney NDTX: nominated Sep 22 2017, confirmed Nov 9 2017, sworn Nov 17 2017. Resigned effective Jan 9 2021. K&E partner announced Jun 23 2021, started Sep 1 2021 in Dallas. Sally Beauty Holdings board member. Federalist Society contributor.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2017-09-22",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:37:54",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ press release swearing-in Nov 2017; LittleSis entity 132209; Kirkland press release 2021-06-23",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3127,
+      "finding_type": "legal",
+      "summary": "DugganUSA corpus shows Nealy Cox active as NDTX USA in DOJ Morning Digests (EFTA00040903 et al). Jul 30 2020 digest attributes NDTX tax fraud prosecution announcement to Nealy Cox. The DOJ corpus contains 1000 hits for Nealy Cox across the Epstein document releases - all are DOJ administrative news digests from her tenure as USA, not Epstein-related content. No direct Epstein connection found in any document corpus. The Boeing case CourtListener docket (29089563) confirms case filed Jan 7 2021 with Chad Meacham (DOJ) as lead prosecutor alongside Filip (K&E defense). Richard Roper III also appeared - he was the prior NDTX USA.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2020-07-30",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:11",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "efta",
+          "evidence_ref": "EFTA00040903",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3117,
+      "finding_type": "legal",
+      "summary": "Boeing DPA precise details: Case 4:21-cr-00005 NDTX filed Jan 7 2021, assigned Judge Reed O Connor. Boeing charged with one count of conspiracy to defraud the US (fraud on FAA re MCAS system). DPA terms: $243.6M criminal penalty, $500M victim fund, $1.77B airline customer compensation = $2.51B total. No executive charged. No guilty plea. No compliance monitor required (unusual). DPA held charge in abeyance for 3 years. Key negotiators: Mark Filip (K&E, defense) signed for Boeing. Case brought in NDTX despite Boeing having no Texas connection - Prof Coffee called venue choice suspicious.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2021-01-07",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:06",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ press release Jan 7 2021; CourtListener docket 29089563; American Prospect 2024-02-09",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3124,
+      "finding_type": "intelligence",
+      "summary": "K&E recruitment and Boeing overlap analysis: K&E press release Jun 23 2021 shows Mark Filip personally welcomed Nealy Cox. Filip led Boeing defense team AND signed the DPA. Andrew Calder (K&E Houston partner, exec committee) also welcomed her citing our personal experience with her. The K&E announcement was made 5 months after Boeing DPA. Cox started Sep 1 2021 in Dallas - the same city where the Boeing case was filed. Prof Coffee: the US Attorneys joining the defense counsels law firm suggests they were both on the same wavelength. Victims families initially alleged impropriety but withdrew claims Jan 20 2022. Cox now practices government regulatory and internal investigations - the exact work that defends against the type of prosecution she previously conducted.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": "2021-06-23",
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:59",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland press release 2021-06-23; Corporate Crime Reporter 2021-07",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3118,
+      "finding_type": "legal",
+      "summary": "Boeing DPA breach and final resolution: May 14 2024 DOJ determined Boeing breached DPA paras 21/22/26d - failed to implement compliance program. Triggered by Jan 5 2024 Alaska Airlines door plug blowout. DOJ proposed plea deal rejected by Judge O Connor Dec 5 2024 (objected to monitor selection process). May 23 2025 DOJ and Boeing reached non-prosecution agreement: $444.5M victim fund + $240M criminal fine = $1.1B+. Boeing admits conspiracy to obstruct FAA. No court-appointed monitor - Boeing hires own outside contractor. Nov 6 2025 Judge O Connor dismissed the case. Families filed 5th Circuit mandamus petitions Nov 13 2025. The full cycle: DPA Jan 2021, breach May 2024, NPA May 2025, dismissal Nov 2025 - no criminal conviction after 346 deaths.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2024-05-14",
+      "claim_type": "paraphrase",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:21",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "DOJ case page justice.gov/criminal/criminal-fraud/case/united-states-v-boeing-company; NPR 2025-11-07; CNN 2025-05-30",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3120,
+      "finding_type": "financial",
+      "summary": "FEC political donations from K&E: Nealy Cox (3432 Southwestern Blvd Dallas TX 75225, employer Kirkland Ellis, attorney) donated: (1) $1,000 to Never Surrender Inc (Trump Leadership PAC) Oct 31 2024; (2) $8,300 to Vance Victory / JD Vance for Senate via WinRed Apr 5 2024; (3) $2,900 to Christina Nolan for US Senate (VT-R) via WinRed Apr 27 2022 and $1,000 Jan 29 2022. Pattern: exclusively Republican donors, consistently lists employer as Kirkland Ellis. Former US Attorneys turned K&E partners maintaining active GOP fundraising networks. Nolan was herself a former US Attorney (VT) - K&E alum supporting K&E pipeline candidates.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "high",
+      "date_of_event": "2024-10-31",
+      "claim_type": "direct_quote",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:34",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A filings; committee IDs C00828541 C00817072 C00783142 C00800532",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    },
+    {
+      "id": 3122,
+      "finding_type": "intelligence",
+      "summary": "Acosta-Nealy Cox structural parallel: Both were Trump-appointed US Attorneys. Both negotiated historically lenient agreements for wealthy/powerful defendants (Acosta: Epstein NPA 2008, Nealy Cox: Boeing DPA 2021). Both agreements criticized as among worst of their kind. Both had K&E on the defense side (Acosta: Lefkowitz/Starr from K&E, Nealy Cox: Filip from K&E). Both resigned shortly after the agreements. Acosta became Labor Secretary then resigned over Epstein scrutiny. Nealy Cox joined K&E directly. Key difference: Acosta was a former K&E associate himself, while Nealy Cox had no prior K&E connection. Same lawyer Paul Cassell represented victims in both cases and drew the explicit comparison. American Prospect titled its article Boeing Epstein Deal.",
+      "detail": null,
+      "source_datasets": null,
+      "confidence": "medium",
+      "date_of_event": null,
+      "claim_type": "synthesis",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:38:47",
+      "target_name": "Erin Nealy Cox",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "American Prospect 2024-02-09; PBS NewsHour Acosta coverage; FEC data showing Nealy Cox GOP donations",
+          "source_quote": null,
+          "source_page": null,
+          "assessment": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": 1611,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Kirkland Ellis",
+      "relationship_type": "employment",
+      "description": "KE partner since June 2021. Previously US Attorney NDTX 2017-2021. Resigned Jan 9 2021 same day Boeing DPA filed. Joined KE 5 months later.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:19:23",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "kirkland.com/news/press-release/2021/06/erin-nealy-cox-to-join-kirkland",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1648,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Kirkland & Ellis",
+      "relationship_type": "employment",
+      "description": "K&E Partner (Dallas, June 2021). Former US Attorney NDTX 2017-2021 who brought Boeing DPA. Joined same firm that defended Boeing.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:21:17",
+      "other_person": "Kirkland & Ellis",
+      "other_person_slug": "kirkland-ellis",
+      "evidence": [
+        {
+          "evidence_type": "file",
+          "evidence_ref": "https://www.corporatecrimereporter.com/news/200/lead-boeing-prosecutor-joins-boeing-corporate-criminal-defense-firm-kirkland-ellis/",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1671,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Prosecutor-defense counsel on Boeing 737 MAX case 4:21-cr-00005. Filip signed DPA for Boeing defense, Cox oversaw prosecution as NDTX USA. Filip welcomed Cox to K&E as partner Sep 2021. Now colleagues at K&E Government Regulatory practice.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:35",
+      "other_person": "Mark Filip",
+      "other_person_slug": "mark-filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "Kirkland press release 2021-06-23; CourtListener docket 29089563",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1672,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "The Boeing Company",
+      "relationship_type": "legal",
+      "description": "Nealy Cox as NDTX US Attorney oversaw prosecution of Boeing in 4:21-cr-00005. Filed DPA Jan 7 2021. Boeing charged with conspiracy to defraud US re 737 MAX MCAS. 2.51B total penalty. No guilty plea, no exec charged, no monitor. DPA breached May 2024. Case ultimately dismissed Nov 2025 via NPA.",
+      "strength": "strong",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:35",
+      "other_person": "The Boeing Company",
+      "other_person_slug": "the-boeing-company",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "DOJ case page; CourtListener docket 29089563",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1688,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Mark Filip",
+      "relationship_type": "employment",
+      "description": "Nealy Cox was US Atty NDTX who signed Boeing DPA on Jan 7 2021 her last day. Joined KE as partner Jun 23 2021. Filip personally welcomed her per KE press release.",
+      "strength": "strong",
+      "date_range": "2021-2021",
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:45:36",
+      "other_person": "Mark Filip",
+      "other_person_slug": "mark-filip",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CorporateCrimeReporter:lead-boeing-prosecutor;Kirkland:nealy-cox-press",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1674,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "JD Vance",
+      "relationship_type": "political",
+      "description": "FEC records show Nealy Cox donated 8300 to Vance Victory joint fundraising committee Apr 5 2024, split between JD Vance for Senate and Working for Ohio PAC. Employer listed as Kirkland Ellis. Largest single donation in her FEC record.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:35",
+      "other_person": "JD Vance",
+      "other_person_slug": "jd-vance",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A committee C00817072 C00783142 C00783167",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1676,
+      "person_a": "Erin Nealy Cox",
+      "person_b": "Reed O Connor",
+      "relationship_type": "legal",
+      "description": "Judge O Connor assigned to Boeing case 4:21-cr-00005 in NDTX, Nealy Cox district. O Connor later rejected plea deal Dec 2024, but ultimately dismissed case Nov 2025 at DOJ request. Both are Federalist Society connected. O Connor is conservative NDTX judge known for nationwide injunctions.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:45",
+      "other_person": "Reed O Connor",
+      "other_person_slug": "reed-o-connor",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "CourtListener docket 29089563; Federalist Society bios",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1677,
+      "person_a": "Christina Nolan",
+      "person_b": "Erin Nealy Cox",
+      "relationship_type": "political",
+      "description": "FEC: Nealy Cox donated 2900 to Christina Nolan for US Senate (VT-R) in 2022 via WinRed. Nolan was former US Attorney for Vermont - another Trump-appointed USA. K&E partners supporting K&E pipeline candidates running for office.",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:45",
+      "other_person": "Christina Nolan",
+      "other_person_slug": "christina-nolan",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "FEC Schedule A committee C00800532",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    },
+    {
+      "id": 1706,
+      "person_a": "Boeing",
+      "person_b": "Erin Nealy Cox",
+      "relationship_type": "legal",
+      "description": "Lead Boeing DPA prosecutor resigned 2 days after signing then joined KE",
+      "strength": "medium",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 18:01:21",
+      "other_person": "Boeing",
+      "other_person_slug": "boeing",
+      "evidence": []
+    },
+    {
+      "id": 1673,
+      "person_a": "Alexander Acosta",
+      "person_b": "Erin Nealy Cox",
+      "relationship_type": "legal",
+      "description": "Structural parallel: Both Trump-appointed US Attorneys who negotiated historically lenient agreements (Acosta: Epstein NPA, Nealy Cox: Boeing DPA) with K&E on defense side. American Prospect titled article Boeing Epstein Deal. Same victims lawyer Paul Cassell drew explicit comparison. Both resigned shortly after agreements.",
+      "strength": "circumstantial",
+      "date_range": null,
+      "verification_status": "unverified",
+      "created_at": "2026-02-16 17:39:35",
+      "other_person": "Alexander Acosta",
+      "other_person_slug": "alexander-acosta",
+      "evidence": [
+        {
+          "evidence_type": "ref",
+          "evidence_ref": "American Prospect 2024-02-09; PBS NewsHour",
+          "source_quote": null,
+          "source_page": null
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "timeline": [
+    {
+      "date": "2017-09-22",
+      "type": "finding",
+      "finding_type": "identity",
+      "summary": "Career timeline: Born 1970 Pascagoula MS. BBA UT Austin, JD magna cum laude SMU Dedman. Clerked Judge Politz (5th Cir) and Judge Sanders (NDTX). Simpson Thacher 1996-97. AUSA NDTX 1999-2008 (cyber and white collar). DOJ Main Justice 2004-05 chief of staff to AAG Office of Legal Policy. Stroz Friedberg 2008-2016 cybersecurity exec. McKinsey 2016-17 senior advisor. US Attorney NDTX: nominated Sep 22 2017, confirmed Nov 9 2017, sworn Nov 17 2017. Resigned effective Jan 9 2021. K&E partner announced Jun 23 2021, started Sep 1 2021 in Dallas. Sally Beauty Holdings board member. Federalist Society contributor.",
+      "confidence": "high",
+      "id": 3116
+    },
+    {
+      "date": "2020-07-30",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "DugganUSA corpus shows Nealy Cox active as NDTX USA in DOJ Morning Digests (EFTA00040903 et al). Jul 30 2020 digest attributes NDTX tax fraud prosecution announcement to Nealy Cox. The DOJ corpus contains 1000 hits for Nealy Cox across the Epstein document releases - all are DOJ administrative news digests from her tenure as USA, not Epstein-related content. No direct Epstein connection found in any document corpus. The Boeing case CourtListener docket (29089563) confirms case filed Jan 7 2021 with Chad Meacham (DOJ) as lead prosecutor alongside Filip (K&E defense). Richard Roper III also appeared - he was the prior NDTX USA.",
+      "confidence": "high",
+      "id": 3127
+    },
+    {
+      "date": "2021-01-07",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Boeing DPA precise details: Case 4:21-cr-00005 NDTX filed Jan 7 2021, assigned Judge Reed O Connor. Boeing charged with one count of conspiracy to defraud the US (fraud on FAA re MCAS system). DPA terms: $243.6M criminal penalty, $500M victim fund, $1.77B airline customer compensation = $2.51B total. No executive charged. No guilty plea. No compliance monitor required (unusual). DPA held charge in abeyance for 3 years. Key negotiators: Mark Filip (K&E, defense) signed for Boeing. Case brought in NDTX despite Boeing having no Texas connection - Prof Coffee called venue choice suspicious.",
+      "confidence": "high",
+      "id": 3117
+    },
+    {
+      "date": "2021-06-23",
+      "type": "finding",
+      "finding_type": "intelligence",
+      "summary": "K&E recruitment and Boeing overlap analysis: K&E press release Jun 23 2021 shows Mark Filip personally welcomed Nealy Cox. Filip led Boeing defense team AND signed the DPA. Andrew Calder (K&E Houston partner, exec committee) also welcomed her citing our personal experience with her. The K&E announcement was made 5 months after Boeing DPA. Cox started Sep 1 2021 in Dallas - the same city where the Boeing case was filed. Prof Coffee: the US Attorneys joining the defense counsels law firm suggests they were both on the same wavelength. Victims families initially alleged impropriety but withdrew claims Jan 20 2022. Cox now practices government regulatory and internal investigations - the exact work that defends against the type of prosecution she previously conducted.",
+      "confidence": "medium",
+      "id": 3124
+    },
+    {
+      "date": "2021-2021",
+      "type": "connection",
+      "relationship_type": "employment",
+      "description": "Nealy Cox was US Atty NDTX who signed Boeing DPA on Jan 7 2021 her last day. Joined KE as partner Jun 23 2021. Filip personally welcomed her per KE press release.",
+      "other_person": "Mark Filip",
+      "id": 1688
+    },
+    {
+      "date": "2024-05-14",
+      "type": "finding",
+      "finding_type": "legal",
+      "summary": "Boeing DPA breach and final resolution: May 14 2024 DOJ determined Boeing breached DPA paras 21/22/26d - failed to implement compliance program. Triggered by Jan 5 2024 Alaska Airlines door plug blowout. DOJ proposed plea deal rejected by Judge O Connor Dec 5 2024 (objected to monitor selection process). May 23 2025 DOJ and Boeing reached non-prosecution agreement: $444.5M victim fund + $240M criminal fine = $1.1B+. Boeing admits conspiracy to obstruct FAA. No court-appointed monitor - Boeing hires own outside contractor. Nov 6 2025 Judge O Connor dismissed the case. Families filed 5th Circuit mandamus petitions Nov 13 2025. The full cycle: DPA Jan 2021, breach May 2024, NPA May 2025, dismissal Nov 2025 - no criminal conviction after 346 deaths.",
+      "confidence": "high",
+      "id": 3118
+    },
+    {
+      "date": "2024-10-31",
+      "type": "finding",
+      "finding_type": "financial",
+      "summary": "FEC political donations from K&E: Nealy Cox (3432 Southwestern Blvd Dallas TX 75225, employer Kirkland Ellis, attorney) donated: (1) $1,000 to Never Surrender Inc (Trump Leadership PAC) Oct 31 2024; (2) $8,300 to Vance Victory / JD Vance for Senate via WinRed Apr 5 2024; (3) $2,900 to Christina Nolan for US Senate (VT-R) via WinRed Apr 27 2022 and $1,000 Jan 29 2022. Pattern: exclusively Republican donors, consistently lists employer as Kirkland Ellis. Former US Attorneys turned K&E partners maintaining active GOP fundraising networks. Nolan was herself a former US Attorney (VT) - K&E alum supporting K&E pipeline candidates.",
+      "confidence": "high",
+      "id": 3120
+    }
+  ],
+  "curation": {
+    "key_finding_ids": [
+      3127,
+      3120,
+      3117,
+      3118,
+      3116,
+      3124,
+      3122
+    ],
+    "key_identifiers": {
+      "jurisdictions": [],
+      "officers": [],
+      "entities": []
+    },
+    "section_suggestions": [
+      {
+        "id": "key-relationships",
+        "title": "Key Relationships",
+        "viz": "ego_network",
+        "finding_ids": [],
+        "connection_ids": [
+          1611,
+          1648,
+          1671,
+          1672,
+          1688,
+          1674,
+          1676,
+          1677,
+          1706
+        ],
+        "guidance": "Narrative about the most significant relationships. Name each person with a link to their dossier. Explain the nature and significance of each relationship, not just that it exists."
+      },
+      {
+        "id": "legal-proceedings",
+        "title": "Legal Proceedings",
+        "viz": "timeline",
+        "finding_ids": [
+          3127,
+          3117,
+          3118
+        ],
+        "connection_ids": [
+          1672,
+          1676,
+          1706,
+          1673
+        ],
+        "guidance": "Narrative about investigations, litigation, regulatory actions. Include case numbers, outcomes, and timeline."
+      },
+      {
+        "id": "intelligence-activity",
+        "title": "Intelligence Activity",
+        "viz": null,
+        "finding_ids": [
+          3124,
+          3122
+        ],
+        "connection_ids": [],
+        "guidance": "Narrative about intelligence connections, surveillance, information operations."
+      }
+    ],
+    "curated_at": "2026-02-20T01:17:47.443868"
+  },
+  "viz_data": {
+    "ego_network": {
+      "center": "Erin Nealy Cox",
+      "connections": [
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "kirkland.com/news/press-release/2021/06/erin-nealy-cox-to-join-kirkland",
+          "description": "KE partner since June 2021. Previously US Attorney NDTX 2017-2021. Resigned Jan 9 2021 same day Boeing DPA filed. Joined KE 5 months later."
+        },
+        {
+          "target": "Kirkland & Ellis",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "https://www.corporatecrimereporter.com/news/200/lead-boeing-prosecutor-joins-boeing-corporate-criminal-defense-firm-kirkland-ellis/",
+          "description": "K&E Partner (Dallas, June 2021). Former US Attorney NDTX 2017-2021 who brought Boeing DPA. Joined same firm that defended Boeing."
+        },
+        {
+          "target": "Mark Filip",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "Kirkland press release 2021-06-23; CourtListener docket 29089563",
+          "description": "Prosecutor-defense counsel on Boeing 737 MAX case 4:21-cr-00005. Filip signed DPA for Boeing defense, Cox oversaw prosecution as NDTX USA. Filip welcomed Cox to K&E as partner Sep 2021. Now colleagues at K&E Government Regulatory practice."
+        },
+        {
+          "target": "The Boeing Company",
+          "type": "legal",
+          "strength": 1.0,
+          "evidence_ref": "DOJ case page; CourtListener docket 29089563",
+          "description": "Nealy Cox as NDTX US Attorney oversaw prosecution of Boeing in 4:21-cr-00005. Filed DPA Jan 7 2021. Boeing charged with conspiracy to defraud US re 737 MAX MCAS. 2.51B total penalty. No guilty plea, no exec charged, no monitor. DPA breached May 2024. Case ultimately dismissed Nov 2025 via NPA."
+        },
+        {
+          "target": "Mark Filip",
+          "type": "employment",
+          "strength": 1.0,
+          "evidence_ref": "CorporateCrimeReporter:lead-boeing-prosecutor;Kirkland:nealy-cox-press",
+          "description": "Nealy Cox was US Atty NDTX who signed Boeing DPA on Jan 7 2021 her last day. Joined KE as partner Jun 23 2021. Filip personally welcomed her per KE press release."
+        },
+        {
+          "target": "JD Vance",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "FEC Schedule A committee C00817072 C00783142 C00783167",
+          "description": "FEC records show Nealy Cox donated 8300 to Vance Victory joint fundraising committee Apr 5 2024, split between JD Vance for Senate and Working for Ohio PAC. Employer listed as Kirkland Ellis. Largest single donation in her FEC record."
+        },
+        {
+          "target": "Reed O Connor",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": "CourtListener docket 29089563; Federalist Society bios",
+          "description": "Judge O Connor assigned to Boeing case 4:21-cr-00005 in NDTX, Nealy Cox district. O Connor later rejected plea deal Dec 2024, but ultimately dismissed case Nov 2025 at DOJ request. Both are Federalist Society connected. O Connor is conservative NDTX judge known for nationwide injunctions."
+        },
+        {
+          "target": "Christina Nolan",
+          "type": "political",
+          "strength": 0.7,
+          "evidence_ref": "FEC Schedule A committee C00800532",
+          "description": "FEC: Nealy Cox donated 2900 to Christina Nolan for US Senate (VT-R) in 2022 via WinRed. Nolan was former US Attorney for Vermont - another Trump-appointed USA. K&E partners supporting K&E pipeline candidates running for office."
+        },
+        {
+          "target": "Boeing",
+          "type": "legal",
+          "strength": 0.7,
+          "evidence_ref": null,
+          "description": "Lead Boeing DPA prosecutor resigned 2 days after signing then joined KE"
+        },
+        {
+          "target": "Alexander Acosta",
+          "type": "legal",
+          "strength": 0.2,
+          "evidence_ref": "American Prospect 2024-02-09; PBS NewsHour",
+          "description": "Structural parallel: Both Trump-appointed US Attorneys who negotiated historically lenient agreements (Acosta: Epstein NPA, Nealy Cox: Boeing DPA) with K&E on defense side. American Prospect titled article Boeing Epstein Deal. Same victims lawyer Paul Cassell drew explicit comparison. Both resigned shortly after agreements."
+        }
+      ],
+      "secondHop": {
+        "Boeing": [
+          {
+            "target": "Kirkland & Ellis",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "K&E defended Boeing in 737 MAX criminal case via Mark Filip. Also represented by Claire Murray and John Moran at K&E before they joined DOJ. Prosecutor Erin Nealy Cox later joined K&E."
+          },
+          {
+            "target": "Mark Filip",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE lead defense counsel Boeing 737 MAX criminal case. Filip signed DPA Jan 7 2021, 2.5B penalty, no guilty plea, no monitor despite 346 deaths. DPA later breached."
+          },
+          {
+            "target": "Brian Benczkowski",
+            "type": "employment",
+            "strength": 0.7,
+            "description": "Benczkowski joined Boeing Sept 2025 as VP/Assistant General Counsel, Government Operations. Boeing had received 'Epstein Deal' DPA negotiated by his former boss Filip at K&E. He manages Boeing's relationship with same government agencies he ran/staffed at DOJ."
+          },
+          {
+            "target": "Kirkland and Ellis",
+            "type": "legal",
+            "strength": 0.7,
+            "description": "K&E Filip negotiated Boeing 2.5B DPA for 737 MAX fraud"
+          }
+        ],
+        "JD Vance": [
+          {
+            "target": "Peter Thiel",
+            "type": "advisory",
+            "strength": 1.0,
+            "description": "Mentor-protege since 2011. Thiel hired Vance at Mithril Capital, backed Narya Capital, donated 15M to Senate campaign, engineered VP selection"
+          }
+        ],
+        "Kirkland & Ellis": [
+          {
+            "target": "William Barr",
+            "type": "corporate",
+            "strength": 1.0,
+            "description": "Barr served as Of Counsel at K&E (2009-2018). K&E billed Epstein ,319,336.03 for JEE defense matter through 12/31/2008, plus ,000 for FTC/DB Zwirn matter through 9/30/2009. K&E partners Lefkowitz and Ken Starr negotiated Epstein's 2008 NPA. Barr joined K&E one year after K&E secured Epstein's deal. Epstein continued using K&E during Barr's tenure (Apr 2012 email re Lefkowitz). Barr partially recused: only from NPA review, NOT from current prosecution."
+          },
+          {
+            "target": "Steven Sinofsky",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "K&E attorneys Price and Lefkowitz represented Sinofsky in Microsoft severance negotiation (Nov 2012-Jan 2013), referred by Epstein who actively coached strategy"
+          },
+          {
+            "target": "Mark Filip",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "K&E partner Mark Filip became Deputy Attorney General (2008) during active Epstein NPA review. Filip was highest DOJ official to review the NPA. Returned to K&E after DOJ service. Epstein explicitly cited Filip's approval in NPA defense documents."
+          },
+          {
+            "target": "William Barr",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Of Counsel 2009+, Consultant 2011, Of Counsel 2017-2020. Recused from Epstein case due to K&E employment."
+          },
+          {
+            "target": "Mark Filip",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "K&E Partner (current, DC office). Led Boeing 737 MAX defense, BP Deepwater Horizon, VW emissions, Goldman Sachs 1MDB. Former Deputy AG 2008-2009."
+          }
+        ],
+        "Mark Filip": [
+          {
+            "target": "U.S. Department of Justice",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Deputy AG 2008-2009 under Bush. Served as Acting AG Jan 2009. Then returned to K&E to defend corporations against same DOJ."
+          },
+          {
+            "target": "PG&E",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "Court-appointed corporate compliance monitor 2017-2022 following PGE 5 felony convictions for San Bruno explosion"
+          },
+          {
+            "target": "William Barr",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "Both KE Of Counsel/partners. Barr as AG oversaw DOJ while Filip defended Goldman Boeing at KE. Claire Murray quote: an agency can never be led by too many lawyers from Kirkland and Ellis"
+          },
+          {
+            "target": "Volkswagen",
+            "type": "legal",
+            "strength": 1.0,
+            "description": "KE defense counsel VW Dieselgate with Benczkowski. 4.3B plea, 3 felony counts, WITH independent monitor. Less favorable than Boeing despite zero deaths."
+          },
+          {
+            "target": "Kirkland Ellis",
+            "type": "employment",
+            "strength": 1.0,
+            "description": "KE partner since May 2009. Previously Deputy AG 2008-2009. Federal judge NDIL 2004-2008. Authored Filip Memo creating DPA framework then used it at KE to defend Boeing BP VW."
+          }
+        ],
+        "Alexander Acosta": [
+          {
+            "target": "Patrick Pizzella",
+            "type": "legal",
+            "strength": 0.7,
+            "description": "Pizzella replaced Acosta as acting Secretary of Labor on July 12, 2019, after Acosta resigned over his role in Epstein's 2008 sweetheart plea deal. Pizzella had previously lobbied with Abramoff to block CNMI worker protections \u2014 the same territory where Wexner's and Karp's companies sourced from factories using trafficked labor."
+          },
+          {
+            "target": "Patrick Pizzella",
+            "type": "political",
+            "strength": 0.7,
+            "description": "Pizzella directly replaced Acosta as Acting Labor Secretary July 12, 2019 when Acosta resigned over Epstein plea deal. Both had problematic labor trafficking records."
+          },
+          {
+            "target": "William Barr",
+            "type": "legal",
+            "strength": 0.7,
+            "description": "Barrs DOJ released OPR review of Acostas handling of 2008 Epstein NPA in Nov 2020. Found poor judgment not misconduct. Barr had recused from retrospective review of 2008 plea due to Kirkland Ellis conflict. Both served in Trump administration simultaneously - Acosta as Labor Secretary until Jul 2019 resignation over Epstein case publicity."
+          }
+        ]
+      },
+      "depth": 2
+    },
+    "timeline_events": [
+      {
+        "date": "2017-09-22",
+        "label": "Career timeline: Born 1970 Pascagoula MS. BBA UT Austin, JD magna cum laude SMU Dedman. Clerked Judge Politz (5th Cir) and Judge Sanders (NDTX). Simpson Thacher 1996-97. AUSA NDTX 1999-2008 (cyber and white collar). DOJ Main Justice 2004-05 chief of staff to AAG Office of Legal Policy. Stroz Friedberg 2008-2016 cybersecurity exec. McKinsey 2016-17 senior advisor. US Attorney NDTX: nominated Sep 22 2017, confirmed Nov 9 2017, sworn Nov 17 2017. Resigned effective Jan 9 2021. K&E partner announced Jun 23 2021, started Sep 1 2021 in Dallas. Sally Beauty Holdings board member. Federalist Society contributor.",
+        "type": "identity",
+        "evidence_ref": null,
+        "id": 3116
+      },
+      {
+        "date": "2020-07-30",
+        "label": "DugganUSA corpus shows Nealy Cox active as NDTX USA in DOJ Morning Digests (EFTA00040903 et al). Jul 30 2020 digest attributes NDTX tax fraud prosecution announcement to Nealy Cox. The DOJ corpus contains 1000 hits for Nealy Cox across the Epstein document releases - all are DOJ administrative news digests from her tenure as USA, not Epstein-related content. No direct Epstein connection found in any document corpus. The Boeing case CourtListener docket (29089563) confirms case filed Jan 7 2021 with Chad Meacham (DOJ) as lead prosecutor alongside Filip (K&E defense). Richard Roper III also appeared - he was the prior NDTX USA.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3127
+      },
+      {
+        "date": "2021-01-07",
+        "label": "Boeing DPA precise details: Case 4:21-cr-00005 NDTX filed Jan 7 2021, assigned Judge Reed O Connor. Boeing charged with one count of conspiracy to defraud the US (fraud on FAA re MCAS system). DPA terms: $243.6M criminal penalty, $500M victim fund, $1.77B airline customer compensation = $2.51B total. No executive charged. No guilty plea. No compliance monitor required (unusual). DPA held charge in abeyance for 3 years. Key negotiators: Mark Filip (K&E, defense) signed for Boeing. Case brought in NDTX despite Boeing having no Texas connection - Prof Coffee called venue choice suspicious.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3117
+      },
+      {
+        "date": "2021-06-23",
+        "label": "K&E recruitment and Boeing overlap analysis: K&E press release Jun 23 2021 shows Mark Filip personally welcomed Nealy Cox. Filip led Boeing defense team AND signed the DPA. Andrew Calder (K&E Houston partner, exec committee) also welcomed her citing our personal experience with her. The K&E announcement was made 5 months after Boeing DPA. Cox started Sep 1 2021 in Dallas - the same city where the Boeing case was filed. Prof Coffee: the US Attorneys joining the defense counsels law firm suggests they were both on the same wavelength. Victims families initially alleged impropriety but withdrew claims Jan 20 2022. Cox now practices government regulatory and internal investigations - the exact work that defends against the type of prosecution she previously conducted.",
+        "type": "intelligence",
+        "evidence_ref": null,
+        "id": 3124
+      },
+      {
+        "date": "2021-2021",
+        "label": "employment with Mark Filip",
+        "type": "employment",
+        "entity": "Mark Filip",
+        "id": 1688
+      },
+      {
+        "date": "2024-05-14",
+        "label": "Boeing DPA breach and final resolution: May 14 2024 DOJ determined Boeing breached DPA paras 21/22/26d - failed to implement compliance program. Triggered by Jan 5 2024 Alaska Airlines door plug blowout. DOJ proposed plea deal rejected by Judge O Connor Dec 5 2024 (objected to monitor selection process). May 23 2025 DOJ and Boeing reached non-prosecution agreement: $444.5M victim fund + $240M criminal fine = $1.1B+. Boeing admits conspiracy to obstruct FAA. No court-appointed monitor - Boeing hires own outside contractor. Nov 6 2025 Judge O Connor dismissed the case. Families filed 5th Circuit mandamus petitions Nov 13 2025. The full cycle: DPA Jan 2021, breach May 2024, NPA May 2025, dismissal Nov 2025 - no criminal conviction after 346 deaths.",
+        "type": "legal",
+        "evidence_ref": null,
+        "id": 3118
+      },
+      {
+        "date": "2024-10-31",
+        "label": "FEC political donations from K&E: Nealy Cox (3432 Southwestern Blvd Dallas TX 75225, employer Kirkland Ellis, attorney) donated: (1) $1,000 to Never Surrender Inc (Trump Leadership PAC) Oct 31 2024; (2) $8,300 to Vance Victory / JD Vance for Senate via WinRed Apr 5 2024; (3) $2,900 to Christina Nolan for US Senate (VT-R) via WinRed Apr 27 2022 and $1,000 Jan 29 2022. Pattern: exclusively Republican donors, consistently lists employer as Kirkland Ellis. Former US Attorneys turned K&E partners maintaining active GOP fundraising networks. Nolan was herself a former US Attorney (VT) - K&E alum supporting K&E pipeline candidates.",
+        "type": "financial",
+        "evidence_ref": null,
+        "id": 3120
+      }
+    ]
+  }
+}
