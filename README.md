@@ -37,7 +37,7 @@ The demo fixture includes:
 - 1 article
 - 11 findings
 - mixed citation types:
-  - public artifact
+  - hosted demo artifact
   - hosted copy
   - metadata-only source record
 

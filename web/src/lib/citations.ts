@@ -195,7 +195,7 @@ function buildFaraUrl(_regNum: string): string {
 
 function buildRegistryUrl(jurisdiction: string, entityId: string): string {
   const builders: Record<string, (id: string) => string> = {
-    FL: (id) => `https://search.sunbiz.org/Inquiry/CorporationSearch/SearchByNumber?searchNumber=${id}`,
+    FL: () => "https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber",
     NY: () => "https://appext20.dos.ny.gov/corp_public/CORPSEARCH.ENTITY_SEARCH_ENTRY",
     NM: () => "https://portal.sos.state.nm.us/BFS/online/CorporationBusinessSearch",
     DE: () => "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx",
@@ -278,8 +278,8 @@ function buildSourceRecordPath(sourceId: string): string {
   return `/sources/${encodeURIComponent(sourceId)}`;
 }
 
-function createSourceId(canonicalRef: string, label: string): string {
-  const base = slugify(label || canonicalRef) || "source";
+function createSourceId(canonicalRef: string, _label: string): string {
+  const base = slugify(canonicalRef) || "source";
   return `${base.slice(0, 56)}-${hashString(canonicalRef).slice(0, 8)}`;
 }
 
@@ -450,10 +450,14 @@ function canonicalizeCandidateRef(candidate: CitationLink): string {
     if (/^https?:\/\//i.test(value)) {
       return cleanUrl(value);
     }
-    if (value.startsWith("reg:")) {
+    if (/^reg:/i.test(value)) {
       return value.replace(/^reg:([a-z]{2,4}):/i, (_, jurisdiction: string) => `reg:${normalizeRegistryJurisdiction(jurisdiction)}:`);
     }
     if (/^[a-z]+:/i.test(value)) {
+      const tokenMatch = value.match(/^([A-Za-z]+):(.*)$/);
+      if (tokenMatch) {
+        return `${tokenMatch[1].toLowerCase()}:${tokenMatch[2]}`;
+      }
       return value;
     }
     if (isInlineCitationToken(value)) {
@@ -464,8 +468,34 @@ function canonicalizeCandidateRef(candidate: CitationLink): string {
   return preferred[0] || "unknown";
 }
 
+function normalizeManualSourceLookupKey(value: string): string {
+  const cleaned = cleanToken(value);
+  if (!cleaned) return "";
+  const known = resolveKnownSourceToken(cleaned);
+  if (known?.key && !/^https?:\/\//i.test(known.key)) return known.key;
+  if (/^reg:/i.test(cleaned)) {
+    return cleaned.replace(/^reg:([a-z]{2,4}):/i, (_, jurisdiction: string) => `reg:${normalizeRegistryJurisdiction(jurisdiction)}:`);
+  }
+  const prefixMatch = cleaned.match(/^([A-Za-z]+):(.*)$/);
+  if (prefixMatch) {
+    return `${prefixMatch[1].toLowerCase()}:${prefixMatch[2]}`;
+  }
+  return cleaned;
+}
+
 function mergeManualSourceRecord(canonicalRef: string, rawToken: string): ManualSourceRecord | null {
-  return manualSourceRecords[canonicalRef] || manualSourceRecords[rawToken] || null;
+  const lookupKeys = uniqueInOrder([
+    canonicalRef,
+    rawToken,
+    normalizeManualSourceLookupKey(canonicalRef),
+    normalizeManualSourceLookupKey(rawToken),
+  ]).filter(Boolean);
+
+  for (const key of lookupKeys) {
+    const manual = manualSourceRecords[key];
+    if (manual) return manual;
+  }
+  return null;
 }
 
 function availabilityStatusFromKind(kind: SourceKind): SourceAvailabilityStatus {

@@ -58,7 +58,7 @@ async function buildArticleSnapshot() {
   return {
     markdown_link_line: extractFirstMatch(
       markdown,
-      /In this case, a public registry filing[\s\S]*?PORT-WATCH-CALL-NOTES-2025-02-14[\s\S]*?<\/sup>/,
+      /In this case,[\s\S]*?PORT-WATCH-CALL-NOTES-2025-02-14[\s\S]*?<\/sup>/,
     ),
     metadata_only_footnote: extractFootnoteEntry(footnotesHtml, "PORT-WATCH-CALL-NOTES-2025-02-14"),
     support_span_line: extractFirstMatch(

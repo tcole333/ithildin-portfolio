@@ -8,7 +8,7 @@ It includes:
 - `1` longform article
 - `11` findings across content and SQLite
 - mixed citation types:
-  - public artifact
+  - hosted demo artifact
   - hosted copy
   - metadata-only source record
 

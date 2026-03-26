@@ -229,7 +229,7 @@ run("REG: FL jurisdiction links to SunBiz", () => {
 });
 
 run("REG: UK jurisdiction links to Companies House", () => {
-  const result = applyCitations("See [REG:UK:12345678].");
+  const result = applyCitations("See [REG:UK:76543210].");
   assert.equal(result.entries.length, 1);
   assert.match(result.entries[0].url ?? "", /company-information\.service\.gov\.uk/);
 });
@@ -388,16 +388,16 @@ run("OpenSanctions: extractEvidenceLinks resolves entity", () => {
 // ---------------------------------------------------------------------------
 
 run("DocumentCloud: resolves document ID to DocumentCloud URL", () => {
-  const result = applyCitations("See [DOCUMENTCLOUD:24402693].");
+  const result = applyCitations("See [DOCUMENTCLOUD:98765432].");
   assert.equal(result.entries.length, 1);
-  assert.equal(result.entries[0].label, "DocumentCloud 24402693");
-  assert.equal(result.entries[0].url, "https://www.documentcloud.org/documents/24402693");
+  assert.equal(result.entries[0].label, "DocumentCloud 98765432");
+  assert.equal(result.entries[0].url, "https://www.documentcloud.org/documents/98765432");
 });
 
 run("DocumentCloud: extractEvidenceLinks resolves doc ID", () => {
-  const links = extractEvidenceLinks("DOCUMENTCLOUD:24402693");
+  const links = extractEvidenceLinks("DOCUMENTCLOUD:98765432");
   assert.equal(links.length, 1);
-  assert.match(links[0].url ?? "", /documentcloud\.org\/documents\/24402693/);
+  assert.match(links[0].url ?? "", /documentcloud\.org\/documents\/98765432/);
 });
 
 // ---------------------------------------------------------------------------

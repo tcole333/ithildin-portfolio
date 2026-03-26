@@ -16,12 +16,24 @@ if (!source) {
 }
 
 const openArtifactUrl = source.artifactUrl || source.externalUrl || source.hostedAssetUrl || '';
+const artifactIsExternal = /^https?:\/\//i.test(openArtifactUrl);
+const kindLabel = {
+  external: 'external',
+  hosted_copy: 'hosted copy',
+  record_only: 'record only',
+  private_internal: 'private internal',
+}[source.kind];
 const accessStatusLabel = {
   public_artifact: 'public artifact',
   hosted_copy: 'hosted copy',
   metadata_only: 'metadata only',
   restricted: 'restricted',
 }[source.availabilityStatus];
+const artifactAccessLabel = !openArtifactUrl
+  ? 'Not available'
+  : source.availabilityStatus === 'hosted_copy'
+    ? 'Hosted by Ithildin'
+    : 'Available';
 ---
 <BaseLayout title={source.title} description={`Source record for ${source.title}`}>
   <div class="space-y-8">
@@ -30,7 +42,7 @@ const accessStatusLabel = {
         <div class="section-label">Source Record</div>
         <h1 class="text-3xl md:text-4xl font-display text-moon">{source.title}</h1>
         <div class="flex flex-wrap gap-3 text-xs text-mithril font-mono">
-          <span>{source.kind}</span>
+          <span>{kindLabel}</span>
           <span>{accessStatusLabel}</span>
           <span>{source.sourceType}</span>
           <span>{source.publishValid ? 'publish-valid' : 'internal-only'}</span>
@@ -38,7 +50,12 @@ const accessStatusLabel = {
         <p class="text-sm text-mithril font-body max-w-3xl">{source.accessNote}</p>
         <div class="flex flex-wrap gap-3">
           {openArtifactUrl && (
-            <a href={openArtifactUrl} target="_blank" rel="noopener noreferrer" class="chip">
+            <a
+              href={openArtifactUrl}
+              target={artifactIsExternal ? '_blank' : undefined}
+              rel={artifactIsExternal ? 'noopener noreferrer' : undefined}
+              class="chip"
+            >
               Open Artifact
             </a>
           )}
@@ -55,8 +72,8 @@ const accessStatusLabel = {
           <div>{accessStatusLabel}</div>
         </div>
         <div>
-          <div class="text-moon">Public Artifact</div>
-          <div>{openArtifactUrl ? 'Available' : 'Not available'}</div>
+          <div class="text-moon">Inspectable Artifact</div>
+          <div>{artifactAccessLabel}</div>
         </div>
       </div>
       {!openArtifactUrl && (

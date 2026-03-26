@@ -18,7 +18,7 @@
   },
   "curation": {
     "system_role": "A procurement-facing shell that bridged a public port authority to an offshore advisory service.",
-    "lead": "<p>Harbor Ledger Holdings LLC is the core shell in the portfolio demo. A Florida filing [REG:FL:L23000214567] puts the entity on paper, a hosted board-minute excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11] shows directors approving a sensitive services addendum, and an internal source record [PORT-WATCH-CALL-NOTES-2025-02-14] explains why the deal was routed through an intermediary rather than through the authority's normal vendor channel.</p>",
+    "lead": "<p>Harbor Ledger Holdings LLC is the core shell in the portfolio demo. A hosted Florida formation-record excerpt [REG:FL:L23000214567] puts the entity on paper, a hosted board-minute excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11] shows directors approving a sensitive services addendum, and an internal source record [PORT-WATCH-CALL-NOTES-2025-02-14] explains why the deal was routed through an intermediary rather than through the authority's normal vendor channel.</p>",
     "sections": [
       {
         "id": "why-it-matters",
@@ -28,12 +28,12 @@
       {
         "id": "control",
         "title": "Control Signals",
-        "content": "<p>The strongest public control signal is not the Florida filing itself but the combination of the hosted minutes and the UK advisory record [HARBOR-LEDGER-BOARD-MINUTES-2024-11][REG:UK:12345678]. The source-record path matters here because some corroboration is inspectable and some is not [Finding #9002, #9003].</p>"
+        "content": "<p>The strongest control signal is not the Florida filing alone but the combination of hosted minutes and a hosted UK registry excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11][REG:UK:12345678]. The source-record path matters here because some corroboration is inspectable and some is not [Finding #9002, #9003].</p>"
       },
       {
         "id": "audit-trail",
         "title": "Audit Trail",
-        "content": "<p>The procurement packet shows Harbor Ledger entering the narrative as a local delivery vehicle [DOCUMENTCLOUD:24402693]. The demo article treats that packet, the board minutes, and the metadata-only interview memo as different evidence classes rather than flattening them into one confidence bucket [Finding #9004, #9005].</p>"
+        "content": "<p>A hosted procurement-packet excerpt shows Harbor Ledger entering the narrative as a local delivery vehicle [DOCUMENTCLOUD:24402693]. The demo article treats that packet, the board minutes, and the metadata-only interview memo as different evidence classes rather than flattening them into one confidence bucket [Finding #9004, #9005].</p>"
       }
     ],
     "applicable_models": [
@@ -81,9 +81,9 @@
         {
           "evidence_type": "registry",
           "evidence_ref": "REG:FL:L23000214567",
-          "source_quote": "Florida filing shows Harbor Ledger Holdings LLC active as of 2024-11-07.",
+          "source_quote": "Hosted Florida filing excerpt shows Harbor Ledger Holdings LLC active as of 2024-11-07.",
           "source_page": "formation filing",
-          "assessment": "Public artifact"
+          "assessment": "Hosted copy"
         }
       ]
     },
@@ -137,8 +137,8 @@
       "id": "9004",
       "target_name": "Harbor Ledger Holdings LLC",
       "profile_id": "port_watch",
-      "summary": "The procurement packet described Harbor Ledger as a local implementation partner despite no public operating footprint.",
-      "detail": "The packet is included to exercise a mainstream public artifact source path.",
+      "summary": "The procurement packet excerpt described Harbor Ledger as a local implementation partner despite no public operating footprint.",
+      "detail": "The packet is included to exercise Ithildin's hosted-artifact path for portfolio-safe demo evidence.",
       "finding_type": "document",
       "confidence": "high",
       "claim_type": "direct_quote",
@@ -152,7 +152,7 @@
           "evidence_ref": "DOCUMENTCLOUD:24402693",
           "source_quote": "Local implementation partner: Harbor Ledger Holdings LLC.",
           "source_page": "vendor matrix",
-          "assessment": "Public artifact"
+          "assessment": "Hosted copy"
         }
       ]
     },
@@ -173,9 +173,9 @@
         {
           "evidence_type": "registry",
           "evidence_ref": "REG:UK:12345678",
-          "source_quote": "Estuary Advisory Ltd listed the operations contact domain used in Harbor Ledger onboarding.",
+          "source_quote": "Hosted UK registry excerpt listed the operations contact domain used in Harbor Ledger onboarding.",
           "source_page": "filing history",
-          "assessment": "Public artifact"
+          "assessment": "Hosted copy"
         }
       ]
     }

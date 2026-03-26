@@ -13,6 +13,7 @@ interface ArticleMeta {
   cluster?: string;
   targets?: string[];
   wordCount?: number;
+  formattedWordCount?: string;
 }
 
 let articles: ArticleMeta[] = [];
@@ -33,6 +34,9 @@ if (existsSync(articlesDir)) {
         }
       }
       meta.wordCount = content.split(/\s+/).length;
+      meta.formattedWordCount = meta.wordCount >= 1000
+        ? `${(meta.wordCount / 1000).toFixed(1)}K words`
+        : `${meta.wordCount} words`;
       articles.push(meta);
     }
   }
@@ -69,7 +73,7 @@ if (existsSync(articlesDir)) {
                 {article.subtitle && <p class="text-sm text-mithril mt-2 font-body">{article.subtitle}</p>}
                 {article.wordCount && (
                   <div class="text-xs text-mithril mt-4 font-mono">
-                    {Math.round(article.wordCount / 1000)}K words / {Math.ceil(article.wordCount / 250)} min read
+                    {article.formattedWordCount} / {Math.ceil(article.wordCount / 250)} min read
                   </div>
                 )}
               </a>
@@ -81,7 +85,7 @@ if (existsSync(articlesDir)) {
     <section class="surface-muted p-6">
       <div class="section-label">Portfolio Note</div>
       <p class="text-sm text-mithril mt-3 max-w-3xl font-body">
-        In this branch, articles are positioned as case studies for the platform itself: citation rendering, source-record fidelity, and evidence-mode explainability matter as much as the narrative text.
+        In this public portfolio version, articles are framed as case studies for the platform itself: citation rendering, source-record fidelity, and evidence-mode explainability matter as much as the narrative text.
       </p>
     </section>
   </div>

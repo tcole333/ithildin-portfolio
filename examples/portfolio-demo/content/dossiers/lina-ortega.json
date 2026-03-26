@@ -17,7 +17,7 @@
   },
   "curation": {
     "system_role": "An intermediary who translated between a public buyer, a thin local shell, and an offshore advisory service.",
-    "lead": "<p>Lina Ortega is the human bridge in the demo investigation. The public record is incomplete, but together the procurement packet [DOCUMENTCLOUD:24402693], the hosted governance excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11], and the interview-note source record [PORT-WATCH-CALL-NOTES-2025-02-14] place her inside the handoff between Harbor Ledger and Meridian Port Authority.</p>",
+    "lead": "<p>Lina Ortega is the human bridge in the demo investigation. The public record is incomplete, but together a hosted procurement-packet excerpt [DOCUMENTCLOUD:24402693], the hosted governance excerpt [HARBOR-LEDGER-BOARD-MINUTES-2024-11], and the interview-note source record [PORT-WATCH-CALL-NOTES-2025-02-14] place her inside the handoff between Harbor Ledger and Meridian Port Authority.</p>",
     "sections": [
       {
         "id": "operating-role",
@@ -27,7 +27,7 @@
       {
         "id": "public-footprint",
         "title": "Public Footprint",
-        "content": "<p>Her public footprint is sparse. The strongest externally inspectable references sit in the procurement packet and registry trail [DOCUMENTCLOUD:24402693][REG:FL:L23000214567]. The rest of the trail depends on well-described but non-public reporting notes [Finding #9008, #9009].</p>"
+        "content": "<p>Her public footprint is sparse. The strongest inspectable references in the demo sit in hosted packet and registry excerpts [DOCUMENTCLOUD:24402693][REG:FL:L23000214567]. The rest of the trail depends on well-described but non-public reporting notes [Finding #9008, #9009].</p>"
       }
     ],
     "applicable_models": [
@@ -85,7 +85,7 @@
       "target_name": "Lina Ortega",
       "profile_id": "supply_shadows",
       "summary": "Hosted board minutes show Ortega attending as an observer during the Estuary Advisory addendum discussion.",
-      "detail": "The example demonstrates a hosted-copy source record with a public artifact.",
+      "detail": "The example demonstrates a hosted-copy source record with an inspectable artifact.",
       "finding_type": "document",
       "confidence": "high",
       "claim_type": "direct_quote",
@@ -107,8 +107,8 @@
       "id": "9008",
       "target_name": "Lina Ortega",
       "profile_id": "port_watch",
-      "summary": "The public procurement packet includes an intermediary fee structure matching Ortega's consultancy brand.",
-      "detail": "This is the clearest public artifact tying Ortega to the transaction narrative.",
+      "summary": "The hosted procurement-packet excerpt includes an intermediary fee structure matching Ortega's consultancy brand.",
+      "detail": "This is the clearest inspectable artifact tying Ortega to the transaction narrative in the public portfolio demo.",
       "finding_type": "financial",
       "confidence": "high",
       "claim_type": "direct_quote",
@@ -122,7 +122,7 @@
           "evidence_ref": "DOCUMENTCLOUD:24402693",
           "source_quote": "Intermediary coordination retainer: 4.5% of implementation value.",
           "source_page": "fee schedule",
-          "assessment": "Public artifact"
+          "assessment": "Hosted copy"
         }
       ]
     },
@@ -143,16 +143,16 @@
         {
           "evidence_type": "registry",
           "evidence_ref": "REG:FL:L23000214567",
-          "source_quote": "The Florida filing places Harbor Ledger inside the same agent cluster described elsewhere in the demo.",
+          "source_quote": "The hosted Florida filing excerpt places Harbor Ledger inside the same agent cluster described elsewhere in the demo.",
           "source_page": "entity filings",
-          "assessment": "Public artifact"
+          "assessment": "Hosted copy"
         },
         {
           "evidence_type": "registry",
           "evidence_ref": "REG:UK:12345678",
-          "source_quote": "The UK filing extends that cluster to Estuary Advisory through the same contact trail.",
+          "source_quote": "The hosted UK filing excerpt extends that cluster to Estuary Advisory through the same contact trail.",
           "source_page": "entity filings",
-          "assessment": "Public artifact"
+          "assessment": "Hosted copy"
         }
       ]
     }

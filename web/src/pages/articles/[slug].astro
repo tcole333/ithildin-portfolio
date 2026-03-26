@@ -49,6 +49,9 @@ if (frontmatterMatch) {
 
 const rawContent = raw.replace(/^---\n[\s\S]*?\n---\n*/, '');
 const wordCount = rawContent.split(/\s+/).length;
+const formattedWordCount = wordCount >= 1000
+  ? `${(wordCount / 1000).toFixed(1)}K words`
+  : `${wordCount} words`;
 const findingCatalog = mergeFindingCatalogs(
   loadGlobalFindingCatalog(),
   loadArticleFindingCatalog(slug!),
@@ -78,7 +81,7 @@ const supportSummary = supportMetrics.total_sentences > 0
         <h1 class="text-3xl md:text-4xl font-display text-moon">{meta.title || slug}</h1>
         {meta.subtitle && <p class="text-lg text-mithril font-body">{meta.subtitle}</p>}
         <div class="flex flex-wrap gap-4 text-xs text-mithril font-mono">
-          <span>{Math.round(wordCount / 1000)}K words</span>
+          <span>{formattedWordCount}</span>
           <span>{Math.ceil(wordCount / 250)} min read</span>
           {meta.targets && <span>Targets: {meta.targets}</span>}
         </div>
