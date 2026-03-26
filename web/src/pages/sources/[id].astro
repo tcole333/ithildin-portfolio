@@ -17,12 +17,14 @@ if (!source) {
 
 const openArtifactUrl = source.artifactUrl || source.externalUrl || source.hostedAssetUrl || '';
 const artifactIsExternal = /^https?:\/\//i.test(openArtifactUrl);
+const humanizeLabel = (value: string) => value.replace(/[_-]+/g, ' ').trim().toLowerCase();
 const kindLabel = {
   external: 'external',
   hosted_copy: 'hosted copy',
   record_only: 'record only',
   private_internal: 'private internal',
 }[source.kind];
+const sourceTypeLabel = humanizeLabel(source.sourceType);
 const accessStatusLabel = {
   public_artifact: 'public artifact',
   hosted_copy: 'hosted copy',
@@ -34,6 +36,7 @@ const artifactAccessLabel = !openArtifactUrl
   : source.availabilityStatus === 'hosted_copy'
     ? 'Hosted by Ithildin'
     : 'Available';
+const kindIsDistinct = kindLabel !== accessStatusLabel;
 ---
 <BaseLayout title={source.title} description={`Source record for ${source.title}`}>
   <div class="space-y-8">
@@ -42,10 +45,10 @@ const artifactAccessLabel = !openArtifactUrl
         <div class="section-label">Source Record</div>
         <h1 class="text-3xl md:text-4xl font-display text-moon">{source.title}</h1>
         <div class="flex flex-wrap gap-3 text-xs text-mithril font-mono">
-          <span>{kindLabel}</span>
+          {kindIsDistinct && <span>{kindLabel}</span>}
           <span>{accessStatusLabel}</span>
-          <span>{source.sourceType}</span>
-          <span>{source.publishValid ? 'publish-valid' : 'internal-only'}</span>
+          <span>{sourceTypeLabel}</span>
+          <span>{source.publishValid ? 'publish valid' : 'internal only'}</span>
         </div>
         <p class="text-sm text-mithril font-body max-w-3xl">{source.accessNote}</p>
         <div class="flex flex-wrap gap-3">
@@ -135,8 +138,8 @@ const artifactAccessLabel = !openArtifactUrl
         {source.occurrences.map((occurrence) => (
           <div class="surface-muted p-4">
             <div class="flex flex-wrap items-center gap-3 text-xs text-mithril font-mono">
-              <span>{occurrence.routeType}</span>
-              <span>{occurrence.context}</span>
+              <span>{humanizeLabel(occurrence.routeType)}</span>
+              <span>{humanizeLabel(occurrence.context)}</span>
               {occurrence.findingId && <span>Finding #{occurrence.findingId}</span>}
             </div>
             <div class="mt-2">
